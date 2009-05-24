@@ -1,0 +1,20 @@
+COMPILING A RELEASE
+===================
+Compile normally as instructed per compiling.txt.
+
+Open the opengfx.obg file and add a value of 1 to the "version" integer. Also add a textual representation to the end of the "description" string.
+
+Update the readme.pdf file appropriately. Creating a PDF (or plaintext .txt file, although that may be a lot more work) from http://wiki.openttd.org/?title=OpenGFX_Readme&printable=yes usually suffices. Please use a proper PDF creator (if any) that keeps links and TOC references functional inside the PDF.
+
+Tar the following 9 files into a single tarball:
+  - ogfx1.grf
+  - ogfxc.grf
+  - ogfxh.grf
+  - ogfxi.grf
+  - ogfxt.grf
+  - ogfxe.grf
+  - ogfx.obg
+  - readme.txt
+  - license.txt
+
+Having that done your release package is finished and ready to be shipped. Please contact FooBar (via PM @ tt-forums.net or email: foobar@jaspervries.nl) for he can update the BaNaNaS entry and the first post of the release topic.

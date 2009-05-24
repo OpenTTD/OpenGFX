@@ -1,0 +1,39 @@
+STRUCTURE
+=========
+The OpenGFX repository has the following stucture:
+
+opengfx
+|- docs
+|  |- authoroverview.xls       > MS Excel file containing information on who  worked on 
+|  |                             what (range) of sprites. Please update if you add or 
+|  |                             replace sprites to OpenGFX. This file is in xls format for 
+|  |                             the time being. Please add an issue to the tracker if you 
+|  |                             need this file updated but are unable to.
+|  |- compile-win.txt          > Instructions for ../compile-win.bat.
+|  |- compiling.txt            > Instructions on how to compile OpenGFX from source.
+|  |- compiling-a-release.txt  > Instructions on how to compile a release-ready build.
+|  |- source-structure.txt     > This file.
+|- sprites
+|  |- nfo
+|  |  |- *.nfo        > NFO code belonging to ../pcx/*.pcx. Used to create ../*.nfo.
+|  |- pcx
+|  |  |- *.pcx        > PCX files belonging to ../nfo/*.nfo and used by ../*.nfo to
+|  |                    compile OpenGFX. Do not edit or rename these files if you're not
+|  |                    sure what your doing, as that could break the OpenGFX compilation.
+|  |- source
+|  |  |- *.*          > Various non-essential files used to create something else.
+|  |- ogfx1.nfo       > NFO code for the OpenGFX replacement of trg1r.grf.
+|  |- ogfxc.nfo       > NFO code for the OpenGFX replacement of openttdw.grf.
+|  |- ogfxe.nfo       > NFO code for the OpenGFX replacement of trgtr.grf.
+|  |- ogfxh.nfo       > NFO code for the OpenGFX replacement of trghr.grf.
+|  |- ogfxi.nfo       > NFO code for the OpenGFX replacement of trgir.grf.
+|  |- ogfxt.nfo       > NFO code for the OpenGFX replacement of trgtr.grf.
+|- compile-win.bat    > A DOS batch file containing compilation instructions for
+|                       the Windows operating system. See the docs/compile-win.txt
+|                       file for more information on how to use this. 
+|- license.txt        > The GPL v2 license text to be provided with OpenGFX releases.
+|- opengfx.obg        > An ini-style file containing essential information for OpenTTD to
+|                       use OpenGFX. To be provided with OpenGFX releases. Please see
+|                       docs/compiling.txt, docs/compiling-a-release.txt and
+|                       http://wiki.openttd.org/Base_graphics#The_.obg_file for more info.
+|- readme.txt/.pdf    > The readme to be provided with OpenGFX releases.

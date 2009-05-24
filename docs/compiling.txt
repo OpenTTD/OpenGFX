@@ -1,0 +1,50 @@
+COMPILING
+=========
+In order to compile OpenGFX from source, you need to get yourself a copy of GRFCodec:
+http://www.ttdpatch.net/grfcodec/
+
+Place the GRFCodec executable/binary outside the opengfx main folder, like so:
+
+|- root folder
+|  |- opengfx
+|  |  |- docs
+|  |  |  |-...
+|  |  |- sprites
+|  |  |  |-...
+|  |  |- ...
+|  |  |- opengfx.obg
+|  |- grfcodec(.exe)
+
+
+CD to "root folder" and run the following six commands from commandline:
+  grfcodec.exe -e -p 2 ogfx1.grf ogfx/sprites/
+  grfcodec.exe -e -p 2 ogfxc.grf ogfx/sprites/
+  grfcodec.exe -e -p 2 ogfxh.grf ogfx/sprites/
+  grfcodec.exe -e -p 2 ogfxi.grf ogfx/sprites/
+  grfcodec.exe -e -p 2 ogfxt.grf ogfx/sprites/
+  grfcodec.exe -e -p 2 ogfxe.grf ogfx/sprites/
+
+On non-Windows OS you obviously have to leave out the .exe in grfcodec.exe.
+
+These commands can easily be run from a makefile. An example batch file for the Windows operating
+system is provided. The spirit of this file can be used in makefiles for other operating systems
+as well. Feel free to invent a more sophisticated makefile that also updates the .obg file automatically.
+
+After completing the commands, six new .grf files are created in said "root folder".
+Of each of these files, the MD5 checksum needs to be calculated.
+
+Now open the opengfx.obg file using your favourite plaintext editor. Replace the existing MD5 hashes
+from the [md5s] section with the newly calculated values.
+
+"OpenGFX" now exists and is the following 9 files:
+  - ogfx1.grf
+  - ogfxc.grf
+  - ogfxh.grf
+  - ogfxi.grf
+  - ogfxt.grf
+  - ogfxe.grf
+  - ogfx.obg
+  - readme.txt
+  - license.txt
+
+At your option, these 9 files can be tarred into a single tarball for easy use with OpenTTD.
