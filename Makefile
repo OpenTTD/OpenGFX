@@ -37,6 +37,8 @@ grf : renumber
 	
 # NFORENUM process copy of the NFO
 renumber : 
+	@echo renaming preliminary files
+	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
 	@echo "NFORENUM processing:"
 	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
 	@echo
@@ -55,6 +57,8 @@ clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
 	-rm *.bak
+	-rm *.orig
+	-rm log
 	-rm $(SPRITEDIR)/*.bak
 	-rm $(NFODIR)/*.bak
 	-rm $(NFODIR)/*/*.orig
