@@ -8,4 +8,3 @@ grfcodec.exe -e -p 2 ogfxt.grf ogfx/sprites/
 grfcodec.exe -e -p 2 ogfxe.grf ogfx/sprites/
 
 PAUSE
-EXIT
