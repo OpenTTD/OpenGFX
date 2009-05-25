@@ -1,0 +1,5 @@
+# The local makefile should be ignored:
+Makefile.local
+
+# Any built grfs, too:
+# **.grf
