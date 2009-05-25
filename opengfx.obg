@@ -2,7 +2,7 @@
 name          = OpenGFX
 shortname     = OGFX
 version       = 6
-description   = OpenGFX base graphics replacement set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. More information available in the readme at http://wiki.openttd.org/OpenGFX_Readme.    [OpenGFX version 0.1.0-alpha4]
+description   = OpenGFX base graphics replacement set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. More information available in the readme at http://wiki.openttd.org/OpenGFX_Readme.    [OpenGFX OPENGFX_VERSION]
 palette       = Windows
 
 [files]

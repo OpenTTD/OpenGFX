@@ -1,0 +1,8 @@
+# uncomment the lines which you need
+
+# here goes the directory where to copy the compiled grf
+# INSTALLDIR =
+
+# Flags for nforenum and grfcodec
+# NFO_FLAGS = -w 141
+# GRFCODEC_FLAGS = -e -p 2
