@@ -380,64 +380,64 @@
   108 sprites/pcx/gui04.pcx 754 184 03 32 32 0 0
 
 //341	392	52	Aircraft
-   35 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 648 09 108 108 -53 -53
-   36 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 648 09 108 108 -53 -53
-   37 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 648 09 108 108 -53 -53
-   38 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 776 09 108 108 -53 -53
-   39 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 776 09 108 108 -53 -53
-   40 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 776 09 108 108 -53 -53
-   41 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 776 01 108 108 -53 -53
-   42 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 776 09 108 108 -53 -53
+   35 sprites/pcx/vehiclesair021.pcx 290 104 09 11 32 -15 -6
+   36 sprites/pcx/vehiclesair021.pcx 338 104 09 12 25 -11 -5
+   37 sprites/pcx/vehiclesair021.pcx 370 104 09 14 30 -13 -5
+   38 sprites/pcx/vehiclesair021.pcx 418 104 09 18 25 -11 -9
+   39 sprites/pcx/vehiclesair021.pcx 450 104 09 20 32 -15 -11
+   40 sprites/pcx/vehiclesair021.pcx 498 104 09 18 25 -12 -9
+   41 sprites/pcx/vehiclesair021.pcx 530 104 01 15 30 -15 -6
+   42 sprites/pcx/vehiclesair021.pcx 578 104 09 12 25 -12 -5
 
-    3 sprites/pcx/OpenGFX_Air_v0.2.pcx 66 8 09 108 108 -54 -54
-    4 sprites/pcx/OpenGFX_Air_v0.2.pcx 194 8 09 108 108 -53 -53
-    5 sprites/pcx/OpenGFX_Air_v0.2.pcx 322 8 09 108 108 -53 -53
-    6 sprites/pcx/OpenGFX_Air_v0.2.pcx 450 8 09 108 108 -53 -53
-    7 sprites/pcx/OpenGFX_Air_v0.2.pcx 578 8 09 108 108 -53 -53
-    8 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 136 09 108 108 -53 -53
-    9 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 136 01 108 108 -53 -53
-   10 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 136 09 108 108 -53 -53
+    3 sprites/pcx/vehiclesair021.pcx 66 8 09 15 39 -19 -9
+    4 sprites/pcx/vehiclesair021.pcx 114 8 09 14 32 -16 -6
+    5 sprites/pcx/vehiclesair021.pcx 162 8 09 20 36 -16 -9
+    6 sprites/pcx/vehiclesair021.pcx 210 8 09 22 31 -16 -11
+    7 sprites/pcx/vehiclesair021.pcx 258 8 09 24 39 -19 -13
+    8 sprites/pcx/vehiclesair021.pcx 306 8 09 22 32 -14 -11
+    9 sprites/pcx/vehiclesair021.pcx 354 8 01 20 36 -18 -9
+   10 sprites/pcx/vehiclesair021.pcx 402 8 09 14 31 -13 -6
 
-   27 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 520 09 108 108 -53 -53
-   28 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 520 09 108 108 -53 -53
-   29 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 520 09 108 108 -53 -53
-   30 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 520 09 108 108 -53 -53
-   31 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 520 09 108 108 -53 -53
-   32 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 648 09 108 108 -53 -53
-   33 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 648 01 108 108 -53 -53
-   34 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 648 09 108 108 -53 -53
+   27 sprites/pcx/vehiclesair021.pcx 706 56 09 15 32 -15 -8
+   28 sprites/pcx/vehiclesair021.pcx 754 56 09 13 28 -13 -6
+   29 sprites/pcx/vehiclesair021.pcx 2 104 09 15 36 -16 -6
+   30 sprites/pcx/vehiclesair021.pcx 50 104 09 20 28 -13 -10
+   31 sprites/pcx/vehiclesair021.pcx 98 104 09 23 32 -15 -12
+   32 sprites/pcx/vehiclesair021.pcx 146 104 09 20 28 -13 -10
+   33 sprites/pcx/vehiclesair021.pcx 194 104 01 15 36 -18 -6
+   34 sprites/pcx/vehiclesair021.pcx 242 104 09 13 28 -13 -6
 
-   11 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 136 09 108 108 -53 -53
-   12 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 136 09 108 108 -53 -53
-   13 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 136 09 108 108 -53 -53
-   14 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 264 09 108 108 -53 -53
-   15 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 264 09 108 108 -53 -53
-   16 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 264 09 108 108 -53 -53
-   17 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 264 01 108 108 -53 -53
-   18 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 264 09 108 108 -53 -53
+   11 sprites/pcx/vehiclesair021.pcx 450 8 09 25 50 -24 -15
+   12 sprites/pcx/vehiclesair021.pcx 514 8 09 22 48 -24 -12
+   13 sprites/pcx/vehiclesair021.pcx 578 8 09 23 56 -23 -11
+   14 sprites/pcx/vehiclesair021.pcx 642 8 09 31 48 -24 -17
+   15 sprites/pcx/vehiclesair021.pcx 706 8 09 33 49 -24 -17
+   16 sprites/pcx/vehiclesair021.pcx 2 56 09 31 48 -22 -17
+   17 sprites/pcx/vehiclesair021.pcx 66 56 01 23 56 -31 -11
+   18 sprites/pcx/vehiclesair021.pcx 130 56 09 22 48 -22 -12
 
-   19 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 264 09 108 108 -53 -53
-   20 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 392 09 108 108 -53 -53
-   21 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 392 09 108 108 -53 -53
-   22 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 392 09 108 108 -53 -53
-   23 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 392 09 108 108 -53 -53
-   24 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 392 09 108 108 -53 -53
-   25 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 392 01 108 108 -53 -53
-   26 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 520 09 108 108 -53 -53
+   19 sprites/pcx/vehiclesair021.pcx 194 56 09 24 42 -20 -13
+   20 sprites/pcx/vehiclesair021.pcx 242 56 09 22 47 -21 -10
+   21 sprites/pcx/vehiclesair021.pcx 306 56 09 19 62 -26 -8
+   22 sprites/pcx/vehiclesair021.pcx 386 56 09 29 48 -22 -15
+   23 sprites/pcx/vehiclesair021.pcx 450 56 09 32 42 -20 -14
+   24 sprites/pcx/vehiclesair021.pcx 498 56 09 29 48 -24 -15
+   25 sprites/pcx/vehiclesair021.pcx 562 56 01 19 62 -34 -8
+   26 sprites/pcx/vehiclesair021.pcx 642 56 09 22 48 -24 -10
 
-  155 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 3208 09 108 108 -53 -53
-  156 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 3208 09 108 108 -53 -53
-  157 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 3208 09 108 108 -53 -53
-  158 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 3336 09 108 108 -53 -53
-  159 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 3336 09 108 108 -53 -53
-  160 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 3336 09 108 108 -53 -53
-  161 sprites/pcx/OpenGFX_Air_v0.2.pcx 386 3336 01 108 108 -53 -53
-  162 sprites/pcx/OpenGFX_Air_v0.2.pcx 514 3336 09 108 108 -53 -53
+  155 sprites/pcx/vehiclesair021.pcx 578 488 09 13 14 -6 -5
+  156 sprites/pcx/vehiclesair021.pcx 610 488 09 11 19 -10 -4
+  157 sprites/pcx/vehiclesair021.pcx 642 488 09 10 24 -13 -4
+  158 sprites/pcx/vehiclesair021.pcx 674 488 09 13 19 -10 -6
+  159 sprites/pcx/vehiclesair021.pcx 706 488 09 15 12 -5 -7
+  160 sprites/pcx/vehiclesair021.pcx 738 488 09 13 19 -7 -6
+  161 sprites/pcx/vehiclesair021.pcx 770 488 01 10 24 -9 -4
+  162 sprites/pcx/vehiclesair021.pcx 2 536 09 11 19 -7 -4
 
-  163 sprites/pcx/OpenGFX_Air_v0.2.pcx 642 3336 09 108 108 -53 -47
-  164 sprites/pcx/OpenGFX_Air_v0.2.pcx 2 3464 01 108 108 -53 -47
-  165 sprites/pcx/OpenGFX_Air_v0.2.pcx 130 3464 01 108 108 -53 -47
-  166 sprites/pcx/OpenGFX_Air_v0.2.pcx 258 3464 01 108 108 -53 -47
+  163 sprites/pcx/vehiclesair021.pcx 34 536 09 10 22 -10 -3
+  164 sprites/pcx/vehiclesair021.pcx 66 536 01 14 30 -14 -5
+  165 sprites/pcx/vehiclesair021.pcx 114 536 01 14 30 -14 -5
+  166 sprites/pcx/vehiclesair021.pcx 162 536 01 14 30 -14 -5
 
 //393	400	8	Train engine
     5 sprites/pcx/newtrains01.pcx 98 8 09 24 8 -3 -12
