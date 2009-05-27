@@ -5,6 +5,8 @@ MAKEFILECONFIG=Makefile.config
 
 SHELL = /bin/sh
 
+GRF_REVISION = $(shell hg parent --template="{rev}\n")
+
 include ${MAKEFILECONFIG}
 
 # OS detection: Cygwin vs Linux
@@ -23,11 +25,33 @@ all : obj
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
-	@echo "Local installation directory: $(GRFDIR)"
+	@echo "Local installation directory: $(INSTALLDIR)"
+	@echo "Repository revision:          r$(GRF_REVISION)"
+	@echo "GRF title:                    $(GRF_TITLE)"
+	@echo "===="
 
 obj : grf
+	@echo "Generating $(OBG_FILE)"
 	@echo "Not updating MD5sums yet".
-	@echo "Please fix them yourself!"
+	@echo -e \
+		"[metadata]\n"\
+		"name        = $(GRF_NAME)\n"\
+		"shortname   = $(GRF_SHORTNAME)\n"\
+		"version     = $(GRF_REVISION)\n"\
+		"description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]\n"\
+		"palette     = $(GRF_PALETTE)\n"\
+		"\n"\
+		"[files]"\
+		> $(OBG_FILE)
+	@echo -e $(join $(foreach var,$(FILETYPE),"$(var)SEPERATOR" ), $(foreach var,$(FILENAMES),"$(var).grf\n")) | sed s/SEPERATOR/" = "/ >> $(OBG_FILE)
+	@echo -e "[md5]" >> $(OBG_FILE)
+	for i in $(FILENAMES); do echo "$$i.grf = "`md5sum $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
+	@echo -e \
+		"\n[origin]\n"\
+		"$(GRF_ORIGIN)\n"\
+		 >> $(OBG_FILE)
+	@echo "$(OBG_FILE) generated."
+	
 
 # Compile GRF
 grf : renumber
@@ -37,14 +61,14 @@ grf : renumber
 	
 # NFORENUM process copy of the NFO
 renumber : 
-	@echo renaming preliminary files
-	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
 	@echo "NFORENUM processing:"
 	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
 	@echo
 	
 # Prepare the nfo file	
 nfo : 
+	@echo renaming preliminary files
+	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
 	@echo "Adding version information to source..."
 	@echo "Not yet implemented. Please check!"
 #	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
