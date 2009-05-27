@@ -30,7 +30,7 @@ test :
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "===="
 
-obj :
+obj : grf
 	@echo "Generating $(OBG_FILE)"
 	@echo "Not updating MD5sums yet".
 	@echo -e \
