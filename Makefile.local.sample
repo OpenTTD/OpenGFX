@@ -6,3 +6,9 @@
 # Flags for nforenum and grfcodec
 # NFO_FLAGS = -w 141
 # GRFCODEC_FLAGS = -e -p 2
+
+# Mac users not: you probably want to set MD5SUM = md5 -r
+# which is equivalent to the unix command md5sum
+# MD5SUM   =
+# GRFCODEC =
+# RENUM    = 

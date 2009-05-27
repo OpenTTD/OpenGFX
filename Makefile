@@ -12,7 +12,7 @@ include ${MAKEFILECONFIG}
 # OS detection: Cygwin vs Linux
 ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
 NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
-GRFCODEC =  $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
+GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
 
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
@@ -30,7 +30,7 @@ test :
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "===="
 
-obj : grf
+obj :
 	@echo "Generating $(OBG_FILE)"
 	@echo "Not updating MD5sums yet".
 	@echo -e \
@@ -41,11 +41,10 @@ obj : grf
 		"description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]\n"\
 		"palette     = $(GRF_PALETTE)\n"\
 		"\n"\
-		"[files]"\
-		> $(OBG_FILE)
-	@echo -e $(join $(foreach var,$(FILETYPE),"$(var)SEPERATOR" ), $(foreach var,$(FILENAMES),"$(var).grf\n")) | sed s/SEPERATOR/" = "/ >> $(OBG_FILE)
-	@echo -e "[md5]" >> $(OBG_FILE)
-	for i in $(FILENAMES); do echo "$$i.grf = "`md5sum $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
+		"[files]\n"\
+		$(join $(foreach var,$(FILETYPE),"$(var)\t" ), $(foreach var,$(FILENAMES),"=\t$(var).grf\n"))"\n" \
+		"[md5]" >> $(OBG_FILE)
+	for i in $(FILENAMES); do echo "$$i.grf = "`$(MD5SUM) $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
 	@echo -e \
 		"\n[origin]\n"\
 		"$(GRF_ORIGIN)\n"\
