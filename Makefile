@@ -42,7 +42,7 @@ obj : grf
 		"\n"\
 		"[files]\n"\
 		$(join $(foreach var,$(FILETYPE),"$(var)\t" ), $(foreach var,$(FILENAMES),"=\t$(var).grf\n"))"\n" \
-		"[md5]" >> $(OBG_FILE)
+		"[md5s]" >> $(OBG_FILE)
 	for i in $(FILENAMES); do echo "$$i.grf = "`$(MD5SUM) $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
 	@echo -e \
 		"\n[origin]\n"\
