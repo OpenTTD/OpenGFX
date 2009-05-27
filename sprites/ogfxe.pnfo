@@ -2,18 +2,22 @@
 // (Info version 7)
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
     0 * 4	 00 00 00 00
+
+//check for TTDPatch
     1 * 9	 07 9D 04 \7= 01 00 00 00 01
     2 * 48	 0B 03 7F FF 80 " is not for TTDPatch. Use ttdpatch(w).grf." 00
+//check OpenTTD version, skip 2 if FFFFFFFF
     3 * 9	 07 A1 04 \7= "ÿÿÿÿ" 02
-    4 * 9	 07 A1 04 \7> A8 2C 00 06 03
-    5 * 26	 0B 03 7F 06 "0.6 (or trunk r11432)" 00
-    6 * 62	 0B 03 7F "ÿRequires OpenTTD version 0.6 "
-	 "(or trunk r11432) or better." 00
+//check OpenTTD version, check for 0.7
+    4 * 9	 07 A1 04 \7> \d07080000 03
+    5 * 26	 0B 03 7F 06 "0.7.0" 00
+    6 * 62	 0B 03 7F "ÿRequires OpenTTD version 0.7.0 or better." 00
     7 * 9	 07 A1 04 \7= "ÿÿÿÿ" 00
+//check TTD version, skip 1 if windows
     8 * 6	 07 8D 01 \7= 01 01
     9 * 12	 0B 03 7F 01 "Windows" 00
-   10 * 230	 08 07 "ÿOTWOpenGFX base graphics (Windows) for OpenTTD" 00
-	 "For credits, please refer to the readme.txt which came with this file." 00
+   10 * 230	 08 07 58 46 47 4F "OpenGFX Base Graphics Set for OpenTTD" 00
+	 "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00
 
    11 * 18	 0C "2CC map - Windows"
    12 * 5	 05 0A FF 00 01
@@ -2450,6 +2454,7 @@
  1363 * 6	 07 83 01 \7! 00 0C
  1364 * 54	 0C "Missing shore tile graphics for "
 	 "the Temperate climate"
+//renum error should be ignored, try uncommenting commented sprites and see what happens ;)
  1365 * 3	 05 0D 0A
  1366 sprites/pcx/terrain04.pcx 354 5464 09 15 64 -31 0
 // 1367 sprites/pcx/terrain04.pcx 434 5464 09 31 64 -31 0
@@ -2706,7 +2711,7 @@
 
 
  1561 * 21	 0C "OpenTTD GUI graphics"
- 1562 * 3	 05 15 95
+ 1562 * 3	 05 15 96
   220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
   221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
   222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
@@ -2856,7 +2861,7 @@
   366 sprites/pcx/gui04.pcx 498 904 09 32 32 0 0
  1710 sprites/pcx/openttdw-r14977.pcx 690 5576 09 10 10 0 0
  1711 sprites/pcx/openttdw-r14977.pcx 706 5576 09 10 10 0 0
-
+ 1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
 
  1710 * 11	 0C "Characters"
 //Additional Characters (all font sizes)
@@ -3479,7 +3484,7 @@
 
  1792 * 17	 0C "NewGRF overrides"
  1793 * 30	 00 08 01 03 00 11 44 44 22 02 44 44 01 11 6D 62 04 02 6D 62 04 01 "Meo Meo" 17
-
+//renum error can be ignored, sprite is legitimate
 
 
 //Waterfeatures
@@ -3678,6 +3683,7 @@
   239 sprites/pcx/waterfeatures.pcx 706 840 09 23 64 -31 0
   240 sprites/pcx/waterfeatures.pcx 2 904 09 39 64 -31 -8
   241 * 7	 02 05 0F 01 00 00 00
+ //!!Error (129): Offset 5: Only 0 random bits are available.
   242 * 39	 02 05 10 80 00 01 10 00 00 01 00 02 00 03 00 04 00 05 00 06 00 07 00 08 00 09 00 0A 00 0B 00 0C
 	 00 0D 00 0E 00 0F 00
   243 * 7	 03 05 01 05 00 10 00
