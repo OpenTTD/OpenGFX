@@ -1,4 +1,4 @@
-OpenGFX Alpha 4.2
+OpenGFX 0.1.0-alpha4.2
 -----------------
 Bugfixes:
 - Display of full load in coal trucks improved.
@@ -6,12 +6,12 @@ Bugfixes:
 Additions:
 - Expand and Contract sprites for the new Advanced Settings menu added.
 
-OpenGFX Alpha 4.1
+OpenGFX 0.1.0-alpha4.1
 -----------------
 Additions:
 - Lots of accented characters
 
-OpenGFX Alpha 4.0
+OpenGFX 0.1.0-alpha4
 -----------------
 Bugfixes:
 - Buttons in maglev toolbar mixed up
@@ -21,7 +21,7 @@ Additions:
 - Bold typeface/missing characters
 - Lots of toyland graphics
 
-OpenGFX Alpha 3.0
+OpenGFX 0.1.0-alpha3
 -----------------
 Bugfixes:
 - Desert/rock button in tropical scenario identical
@@ -33,7 +33,7 @@ Additions:
 - Tropical sawmill
 - Monorail/maglev wagons
 
-OpenGFX Alpha 2.0
+OpenGFX 0.1.0-alpha2
 -----------------
 Bugfixes:
 - Waypoint alignment
@@ -48,6 +48,6 @@ Additions:
 - Remaining disaster vehices (ufo, submarine)
 
 
-OpenGFX Alpha 1.0
+OpenGFX 0.1.0-alpha1
 -----------------
 - Initial set of graphics, though incomplete
