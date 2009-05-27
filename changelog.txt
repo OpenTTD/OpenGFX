@@ -1,0 +1,53 @@
+OpenGFX Alpha 4.2
+-----------------
+Bugfixes:
+- Display of full load in coal trucks improved.
+- Black map edge due to new 'freeform map edges' feature.
+Additions:
+- Expand and Contract sprites for the new Advanced Settings menu added.
+
+OpenGFX Alpha 4.1
+-----------------
+Additions:
+- Lots of accented characters
+
+OpenGFX Alpha 4.0
+-----------------
+Bugfixes:
+- Buttons in maglev toolbar mixed up
+- Alignment of some sprites
+
+Additions:
+- Bold typeface/missing characters
+- Lots of toyland graphics
+
+OpenGFX Alpha 3.0
+-----------------
+Bugfixes:
+- Desert/rock button in tropical scenario identical
+- Alignment of some sprites
+
+Additions:
+- Company indicator
+- Some random new buildings
+- Tropical sawmill
+- Monorail/maglev wagons
+
+OpenGFX Alpha 2.0
+-----------------
+Bugfixes:
+- Waypoint alignment
+- White line next to a pbs semaphore
+
+Additions:
+- High score chart
+- Game end newspapers
+- Road reconstruction bulldozer
+- All different smokes (steam, diesel, powerplant, breakdown)
+- Explosions
+- Remaining disaster vehices (ufo, submarine)
+
+
+OpenGFX Alpha 1.0
+-----------------
+- Initial set of graphics, though incomplete
