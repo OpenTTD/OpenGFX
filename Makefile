@@ -32,7 +32,6 @@ test :
 
 obj : grf
 	@echo "Generating $(OBG_FILE)"
-	@echo "Not updating MD5sums yet".
 	@echo -e \
 		"[metadata]\n"\
 		"name        = $(GRF_NAME)\n"\
@@ -59,7 +58,7 @@ grf : renumber
 	@echo
 	
 # NFORENUM process copy of the NFO
-renumber : 
+renumber : nfo
 	@echo "NFORENUM processing:"
 	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
 	@echo
