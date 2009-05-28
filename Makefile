@@ -42,7 +42,7 @@ obj : grf
 		"\n"\
 		"[files]\n"\
 		$(join $(foreach var,$(FILETYPE),"$(var)\t" ), $(foreach var,$(FILENAMES),"=\t$(var).grf\n"))"\n" \
-		"[md5s]" >> $(OBG_FILE)
+		"[md5s]" > $(OBG_FILE)
 	for i in $(FILENAMES); do echo "$$i.grf = "`$(MD5SUM) $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
 	@echo -e \
 		"\n[origin]\n"\
@@ -95,7 +95,11 @@ clean:
 	-rm *.log
 
 # Installation process
-install:
+install: tar
 	@echo "Installing grf to $(INSTALLDIR)"
-	-cp $(GRF_FILENAME).grf $(INSTALLDIR)/$(GRF_FILENAME).grf
+	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
+	
+tar:
+	@echo "Making tar for use ingame"
+	tar cf $(TAR_FILENAME) $(addsuffix .grf,$(FILENAMES)) license.txt changelog.txt $(OBG_FILE)
