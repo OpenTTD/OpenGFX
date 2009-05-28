@@ -1,9 +1,14 @@
 # The local makefile should be ignored:
 Makefile.local
 
+# And the description file which is generated automatically
+opengfx.obg
+
 # Any built grfs, too:
 ./*.grf
 ./*.tar
-./*/*.orig
-./*/*.nfo
-./*/*log
+./*.orig
+./*.bak
+./*log
+./*.nfo
+
