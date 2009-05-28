@@ -23,7 +23,7 @@ TAR_FILENAME = $(GRF_NAME)-$(GRF_VERSION)-r$(GRF_REVISION)-$(GRF_BUILD).tar
 # Now, the fun stuff:
 
 # Target for all:
-all : obj
+all : obg
 
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
@@ -33,7 +33,7 @@ test :
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "===="
 
-obj : grf
+obg : grf
 	@echo "Generating $(OBG_FILE)"
 	@echo -e \
 		"[metadata]\n"\
