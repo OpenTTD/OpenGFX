@@ -16,6 +16,9 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
+GRF_TITLE    = $(GRF_NAME) $(GRF_VERSION) (r$(GRF_REVISION), $(GRF_BUILD))
+TAR_FILENAME = $(GRF_NAME)-$(GRF_VERSION)-r$(GRF_REVISION)-$(GRF_BUILD).tar
+
 
 # Now, the fun stuff:
 
