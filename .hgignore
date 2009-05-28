@@ -2,4 +2,8 @@
 Makefile.local
 
 # Any built grfs, too:
-# **.grf
+./*.grf
+./*.tar
+./*/*.orig
+./*/*.nfo
+./*/*log
