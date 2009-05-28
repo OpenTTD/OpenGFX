@@ -3469,46 +3469,45 @@
    78 sprites/pcx/newtrains01.pcx 98 152 09 18 22 -14 -9
    79 sprites/pcx/newtrains01.pcx 130 152 09 17 32 -16 -12
    80 sprites/pcx/newtrains01.pcx 178 152 09 17 22 -6 -8
-
 //2981-2992 locomotives monorail
- 2981 sprites/pcx/trg1r.pcx 210 10728 01 18 8 -3 -10
- 2982 sprites/pcx/trg1r.pcx 226 10728 09 16 20 -14 -7
- 2983 sprites/pcx/trg1r.pcx 258 10728 01 12 28 -14 -6
- 2984 sprites/pcx/trg1r.pcx 306 10728 09 16 20 -4 -8
- 2985 sprites/pcx/trg1r.pcx 338 10728 01 18 8 -3 -10
- 2986 sprites/pcx/trg1r.pcx 354 10728 09 15 20 -14 -6
- 2987 sprites/pcx/trg1r.pcx 386 10728 01 12 28 -14 -6
- 2988 sprites/pcx/trg1r.pcx 434 10728 09 16 20 -4 -8
- 2989 sprites/pcx/trg1r.pcx 466 10728 01 18 8 -3 -10
- 2990 sprites/pcx/trg1r.pcx 482 10728 09 16 20 -14 -7
- 2991 sprites/pcx/trg1r.pcx 514 10728 01 12 28 -14 -6
- 2992 sprites/pcx/trg1r.pcx 562 10728 09 15 20 -4 -7
+ 2981 sprites/pcx/monolev.pcx 210 201 01 18 8 -3 -10
+ 2982 sprites/pcx/monolev.pcx 226 201 09 16 20 -14 -7
+ 2983 sprites/pcx/monolev.pcx 258 201 01 12 28 -14 -6
+ 2984 sprites/pcx/monolev.pcx 306 201 09 16 20 -4 -8
+ 2985 sprites/pcx/monolev.pcx 338 201 01 18 8 -3 -10
+ 2986 sprites/pcx/monolev.pcx 354 201 09 15 20 -14 -6
+ 2987 sprites/pcx/monolev.pcx 386 201 01 12 28 -14 -6
+ 2988 sprites/pcx/monolev.pcx 434 201 09 16 20 -4 -8
+ 2989 sprites/pcx/monolev.pcx 466 201 01 18 8 -3 -10
+ 2990 sprites/pcx/monolev.pcx 482 201 09 16 20 -14 -7
+ 2991 sprites/pcx/monolev.pcx 514 201 01 12 28 -14 -6
+ 2992 sprites/pcx/monolev.pcx 562 201 09 15 20 -4 -7
 
 //2993-3016 locomotives maglev
- 2993 sprites/pcx/trg1r.pcx 594 10728 01 18 8 -3 -10
- 2994 sprites/pcx/trg1r.pcx 610 10728 09 14 20 -14 -5
- 2995 sprites/pcx/trg1r.pcx 642 10728 01 11 28 -14 -5
- 2996 sprites/pcx/trg1r.pcx 690 10728 09 14 20 -4 -6
- 2997 sprites/pcx/trg1r.pcx 722 10728 01 18 8 -3 -10
- 2998 sprites/pcx/trg1r.pcx 738 10728 09 14 20 -14 -5
- 2999 sprites/pcx/trg1r.pcx 2 10760 01 11 28 -14 -5
- 3000 sprites/pcx/trg1r.pcx 50 10760 09 14 20 -4 -6
- 3001 sprites/pcx/trg1r.pcx 82 10760 01 18 8 -3 -10
- 3002 sprites/pcx/trg1r.pcx 98 10760 09 14 20 -14 -6
- 3003 sprites/pcx/trg1r.pcx 130 10760 01 12 28 -14 -6
- 3004 sprites/pcx/trg1r.pcx 178 10760 09 16 20 -4 -8
- 3005 sprites/pcx/trg1r.pcx 210 10760 01 18 8 -3 -10
- 3006 sprites/pcx/trg1r.pcx 226 10760 09 16 20 -14 -7
- 3007 sprites/pcx/trg1r.pcx 258 10760 01 12 28 -14 -6
- 3008 sprites/pcx/trg1r.pcx 306 10760 09 14 20 -4 -6
- 3009 sprites/pcx/trg1r.pcx 338 10760 01 18 8 -3 -10
- 3010 sprites/pcx/trg1r.pcx 354 10760 09 16 20 -14 -7
- 3011 sprites/pcx/trg1r.pcx 386 10760 01 12 28 -14 -6
- 3012 sprites/pcx/trg1r.pcx 434 10760 09 16 20 -4 -8
- 3013 sprites/pcx/trg1r.pcx 466 10760 01 18 8 -3 -10
- 3014 sprites/pcx/trg1r.pcx 482 10760 09 16 20 -14 -7
- 3015 sprites/pcx/trg1r.pcx 514 10760 01 12 28 -14 -6
- 3016 sprites/pcx/trg1r.pcx 562 10760 09 16 20 -4 -8
+ 2993 sprites/pcx/monolev.pcx 594 201 01 18 8 -3 -10
+ 2994 sprites/pcx/monolev.pcx 610 201 09 14 20 -14 -5
+ 2995 sprites/pcx/monolev.pcx 642 201 01 11 28 -14 -5
+ 2996 sprites/pcx/monolev.pcx 690 201 09 14 20 -4 -6
+ 2997 sprites/pcx/monolev.pcx 722 201 01 18 8 -3 -10
+ 2998 sprites/pcx/monolev.pcx 738 201 09 14 20 -14 -5
+ 2999 sprites/pcx/monolev.pcx 2 233 01 11 28 -14 -5
+ 3000 sprites/pcx/monolev.pcx 50 233 09 14 20 -4 -6
+ 3001 sprites/pcx/monolev.pcx 82 233 01 18 8 -3 -10
+ 3002 sprites/pcx/monolev.pcx 98 233 09 14 20 -14 -6
+ 3003 sprites/pcx/monolev.pcx 130 233 01 12 28 -14 -6
+ 3004 sprites/pcx/monolev.pcx 178 233 09 16 20 -4 -8
+ 3005 sprites/pcx/monolev.pcx 210 233 01 18 8 -3 -10
+ 3006 sprites/pcx/monolev.pcx 226 233 09 16 20 -14 -7
+ 3007 sprites/pcx/monolev.pcx 258 233 01 12 28 -14 -6
+ 3008 sprites/pcx/monolev.pcx 306 233 09 14 20 -4 -6
+ 3009 sprites/pcx/monolev.pcx 338 233 01 18 8 -3 -10
+ 3010 sprites/pcx/monolev.pcx 354 233 09 16 20 -14 -7
+ 3011 sprites/pcx/monolev.pcx 386 233 01 12 28 -14 -6
+ 3012 sprites/pcx/monolev.pcx 434 233 09 16 20 -4 -8
+ 3013 sprites/pcx/monolev.pcx 466 233 01 18 8 -3 -10
+ 3014 sprites/pcx/monolev.pcx 482 233 09 16 20 -14 -7
+ 3015 sprites/pcx/monolev.pcx 514 233 01 12 28 -14 -6
+ 3016 sprites/pcx/monolev.pcx 562 233 09 16 20 -4 -8
 
 //3017-3072 locomotives tropic/arctic
   151 sprites/pcx/newtrains01.pcx 770 248 09 24 8 -3 -12
