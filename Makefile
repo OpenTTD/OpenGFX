@@ -19,10 +19,10 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
 # " \" (syntax highlighting line
 REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip")
-GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)-$(GRF_MODIFIED) || echo $(GRF_BUILD)-r$(GRF_REVISION)$(GRF_MODIFIED))
+GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 
-GRF_TITLE    = $(GRF_NAME) $(GRF_VERSION) $(GRF_BUILDNAME)
-TAR_FILENAME = $(GRF_NAME)-$(GRF_VERSION)-$(GRF_BUILDNAME).tar
+GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
+TAR_FILENAME = $(GRF_NAME)-$(GRF_BUILDNAME).tar
 
 # Now, the fun stuff:
 
