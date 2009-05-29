@@ -100,6 +100,7 @@ clean:
 	@echo
 	@echo "Removing old logs:"
 	-rm *.log
+	-rm *.tar
 
 # Installation process
 install: tar
