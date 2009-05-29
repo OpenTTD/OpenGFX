@@ -16,8 +16,11 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
-GRF_TITLE    = $(GRF_NAME) $(GRF_VERSION) (r$(GRF_REVISION), $(GRF_BUILD))
-TAR_FILENAME = $(GRF_NAME)-$(GRF_VERSION)-r$(GRF_REVISION)-$(GRF_BUILD).tar
+GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
+# " \" (syntax highlighting line
+
+GRF_TITLE    = $(GRF_NAME) $(GRF_VERSION) (r$(GRF_REVISION)$(GRF_MODIFIED), $(GRF_BUILD))
+TAR_FILENAME = $(GRF_NAME)-$(GRF_VERSION)-r$(GRF_REVISION)$(GRF_MODIFIED)-$(GRF_BUILD).tar
 
 
 # Now, the fun stuff:
