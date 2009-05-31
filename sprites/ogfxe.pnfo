@@ -2451,98 +2451,89 @@
 
 
 
- 1363 * 6	 07 83 01 \7! 00 0C
+ 1363 * 6	 07 83 01 \7! 00 12
  1364 * 54	 0C "Missing shore tile graphics for "
 	 "the Temperate climate"
-//renum error should be ignored, try uncommenting commented sprites and see what happens ;)
- 1365 * 3	 05 0D 0A
- 1366 sprites/pcx/terrain04.pcx 354 5464 09 15 64 -31 0
-// 1367 sprites/pcx/terrain04.pcx 434 5464 09 31 64 -31 0
-// 1368 sprites/pcx/terrain04.pcx 514 5464 09 23 64 -31 0
-// 1369 sprites/pcx/terrain04.pcx 594 5464 09 23 64 -31 0
-// 1370 sprites/pcx/terrain04.pcx 674 5464 09 31 64 -31 0
- 1367 sprites/pcx/terrain04.pcx 2 5528 09 31 64 -31 -8
-// 1372 sprites/pcx/terrain04.pcx 82 5528 09 23 64 -31 0
- 1368 sprites/pcx/terrain04.pcx 162 5528 09 23 64 -31 0
-// 1374 sprites/pcx/terrain04.pcx 242 5528 09 39 64 -31 -8
-// 1375 sprites/pcx/terrain04.pcx 322 5528 09 39 64 -31 -8
- 1369 sprites/pcx/terrain04.pcx 402 5528 09 47 64 -31 -16
- 1370 sprites/pcx/terrain04.pcx 482 5528 09 31 64 -31 -8
-// 1378 sprites/pcx/terrain04.pcx 562 5528 09 39 64 -31 -8
- 1371 sprites/pcx/terrain04.pcx 642 5528 09 39 64 -31 -8
- 1372 sprites/pcx/terrain04.pcx 722 5528 09 31 64 -31 -8
- 1373 sprites/pcx/terrain04.pcx 2 5592 09 31 64 -31 -8
- 1374 sprites/pcx/terrain04.pcx 322 392 09 31 64 -31 0
- 1375 sprites/pcx/terrain04.pcx 722 392 09 31 64 -31 -8
+ 1365 * 3	 05 0D 10
+  884 sprites/pcx/terrain04.pcx 354 5464 09 15 64 -31 0
+  885 sprites/pcx/terrain04.pcx 434 5464 09 31 64 -31 0
+  886 sprites/pcx/terrain04.pcx 514 5464 09 23 64 -31 0
+  887 sprites/pcx/terrain04.pcx 594 5464 09 23 64 -31 0
+  888 sprites/pcx/terrain04.pcx 674 5464 09 31 64 -31 0
+  889 sprites/pcx/terrain04.pcx 2 5528 09 31 64 -31 -8
+  890 sprites/pcx/terrain04.pcx 82 5528 09 23 64 -31 0
+  891 sprites/pcx/terrain04.pcx 162 5528 09 23 64 -31 0
+  892 sprites/pcx/terrain04.pcx 242 5528 09 39 64 -31 -8
+  893 sprites/pcx/terrain04.pcx 322 5528 09 39 64 -31 -8
+  894 sprites/pcx/terrain04.pcx 402 5528 09 47 64 -31 -16
+  895 sprites/pcx/terrain04.pcx 482 5528 09 31 64 -31 -8
+  896 sprites/pcx/terrain04.pcx 562 5528 09 39 64 -31 -8
+  897 sprites/pcx/terrain04.pcx 642 5528 09 39 64 -31 -8
+  898 sprites/pcx/terrain04.pcx 722 5528 09 31 64 -31 -8
+  899 sprites/pcx/terrain04.pcx 2 5592 09 31 64 -31 -8
 
- 1376 * 6	 07 83 01 \7! 01 0C
+ 1376 * 6	 07 83 01 \7! 01 12
  1377 * 55	 0C "Missing shore tile graphics for "
 	 "the sub-arctic climate"
- 1378 * 3	 05 0D 0A
- 1379 sprites/pcx/terrain04.pcx 114 5592 09 15 64 -31 0
-// 1386 sprites/pcx/terrain04.pcx 194 5592 09 31 64 -31 0
-// 1387 sprites/pcx/terrain04.pcx 274 5592 09 23 64 -31 0
-// 1388 sprites/pcx/terrain04.pcx 354 5592 09 23 64 -31 0
-// 1389 sprites/pcx/terrain04.pcx 434 5592 09 31 64 -31 0
- 1380 sprites/pcx/terrain04.pcx 514 5592 09 31 64 -31 -8
-// 1391 sprites/pcx/terrain04.pcx 594 5592 09 23 64 -31 0
- 1381 sprites/pcx/terrain04.pcx 674 5592 09 23 64 -31 0
-// 1393 sprites/pcx/terrain04.pcx 2 5640 09 39 64 -31 -8
-// 1394 sprites/pcx/terrain04.pcx 82 5640 09 39 64 -31 -8
- 1382 sprites/pcx/terrain04.pcx 162 5640 09 47 64 -31 -16
- 1383 sprites/pcx/terrain04.pcx 242 5640 09 31 64 -31 -8
-// 1397 sprites/pcx/terrain04.pcx 322 5640 09 39 64 -31 -8
- 1384 sprites/pcx/terrain04.pcx 402 5640 09 39 64 -31 -8
- 1385 sprites/pcx/terrain04.pcx 482 5640 09 31 64 -31 -8
- 1386 sprites/pcx/terrain04.pcx 562 5640 09 31 64 -31 -8
- 1387 sprites/pcx/terrain04.pcx 322 1032 09 31 64 -31 0
- 1388 sprites/pcx/terrain04.pcx 722 1032 09 31 64 -31 -8
+ 1378 * 3	 05 0D 10
+  902 sprites/pcx/terrain04.pcx 114 5592 09 15 64 -31 0
+  903 sprites/pcx/terrain04.pcx 194 5592 09 31 64 -31 0
+  904 sprites/pcx/terrain04.pcx 274 5592 09 23 64 -31 0
+  905 sprites/pcx/terrain04.pcx 354 5592 09 23 64 -31 0
+  906 sprites/pcx/terrain04.pcx 434 5592 09 31 64 -31 0
+  907 sprites/pcx/terrain04.pcx 514 5592 09 31 64 -31 -8
+  908 sprites/pcx/terrain04.pcx 594 5592 09 23 64 -31 0
+  909 sprites/pcx/terrain04.pcx 674 5592 09 23 64 -31 0
+  910 sprites/pcx/terrain04.pcx 2 5640 09 39 64 -31 -8
+  911 sprites/pcx/terrain04.pcx 82 5640 09 39 64 -31 -8
+  912 sprites/pcx/terrain04.pcx 162 5640 09 47 64 -31 -16
+  913 sprites/pcx/terrain04.pcx 242 5640 09 31 64 -31 -8
+  914 sprites/pcx/terrain04.pcx 322 5640 09 39 64 -31 -8
+  915 sprites/pcx/terrain04.pcx 402 5640 09 39 64 -31 -8
+  916 sprites/pcx/terrain04.pcx 482 5640 09 31 64 -31 -8
+  917 sprites/pcx/terrain04.pcx 562 5640 09 31 64 -31 -8
 
- 1389 * 6	 07 83 01 \7! 02 0C
+ 1389 * 6	 07 83 01 \7! 02 12
  1390 * 57	 0C "Missing shore tile graphics for "
 	 "the sub-tropical climate"
- 1391 * 3	 05 0D 0A
- 1392 sprites/pcx/terrain04.pcx 674 5640 09 15 64 -31 0
-// 1405 sprites/pcx/terrain04.pcx 2 5704 09 31 64 -31 0
-// 1406 sprites/pcx/terrain04.pcx 82 5704 09 23 64 -31 0
-// 1407 sprites/pcx/terrain04.pcx 162 5704 09 23 64 -31 0
-// 1408 sprites/pcx/terrain04.pcx 242 5704 09 31 64 -31 0
- 1393 sprites/pcx/terrain04.pcx 322 5704 09 31 64 -31 -8
-// 1410 sprites/pcx/terrain04.pcx 402 5704 09 23 64 -31 0
- 1394 sprites/pcx/terrain04.pcx 482 5704 09 23 64 -31 0
-// 1412 sprites/pcx/terrain04.pcx 562 5704 09 39 64 -31 -8
-// 1413 sprites/pcx/terrain04.pcx 642 5704 09 39 64 -31 -8
- 1395 sprites/pcx/terrain04.pcx 722 5704 09 47 64 -31 -16
- 1396 sprites/pcx/terrain04.pcx 2 5768 09 31 64 -31 -8
-// 1416 sprites/pcx/terrain04.pcx 82 5768 09 39 64 -31 -8
- 1397 sprites/pcx/terrain04.pcx 162 5768 09 39 64 -31 -8
- 1398 sprites/pcx/terrain04.pcx 242 5768 09 31 64 -31 -8
- 1399 sprites/pcx/terrain04.pcx 322 5768 09 31 64 -31 -8
- 1400 sprites/pcx/terrain04.pcx 322 1672 09 31 64 -31 0
- 1401 sprites/pcx/terrain04.pcx 722 1672 09 31 64 -31 -8
+ 1391 * 3	 05 0D 10
+  920 sprites/pcx/terrain04.pcx 674 5640 09 15 64 -31 0
+  921 sprites/pcx/terrain04.pcx 2 5704 09 31 64 -31 0
+  922 sprites/pcx/terrain04.pcx 82 5704 09 23 64 -31 0
+  923 sprites/pcx/terrain04.pcx 162 5704 09 23 64 -31 0
+  924 sprites/pcx/terrain04.pcx 242 5704 09 31 64 -31 0
+  925 sprites/pcx/terrain04.pcx 322 5704 09 31 64 -31 -8
+  926 sprites/pcx/terrain04.pcx 402 5704 09 23 64 -31 0
+  927 sprites/pcx/terrain04.pcx 482 5704 09 23 64 -31 0
+  928 sprites/pcx/terrain04.pcx 562 5704 09 39 64 -31 -8
+  929 sprites/pcx/terrain04.pcx 642 5704 09 39 64 -31 -8
+  930 sprites/pcx/terrain04.pcx 722 5704 09 47 64 -31 -16
+  931 sprites/pcx/terrain04.pcx 2 5768 09 31 64 -31 -8
+  932 sprites/pcx/terrain04.pcx 82 5768 09 39 64 -31 -8
+  933 sprites/pcx/terrain04.pcx 162 5768 09 39 64 -31 -8
+  934 sprites/pcx/terrain04.pcx 242 5768 09 31 64 -31 -8
+  935 sprites/pcx/terrain04.pcx 322 5768 09 31 64 -31 -8
 
- 1402 * 6	 07 83 01 \7! 03 0C
+ 1402 * 6	 07 83 01 \7! 03 12
  1403 * 44	 0C "Missing shore tile graphics for "
 	 "the toyland"
- 1404 * 3	 05 0D 0A
- 1405 sprites/pcx/terrain04.pcx 434 5768 09 15 64 -31 0
-// 1424 sprites/pcx/terrain04.pcx 514 5768 09 31 64 -31 0
-// 1425 sprites/pcx/terrain04.pcx 594 5768 09 23 64 -31 0
-// 1426 sprites/pcx/terrain04.pcx 674 5768 09 23 64 -31 0
-// 1427 sprites/pcx/terrain04.pcx 2 5832 09 31 64 -31 0
- 1406 sprites/pcx/terrain04.pcx 82 5832 09 31 64 -31 -8
-// 1429 sprites/pcx/terrain04.pcx 162 5832 09 23 64 -31 0
- 1407 sprites/pcx/terrain04.pcx 242 5832 09 23 64 -31 0
-// 1431 sprites/pcx/terrain04.pcx 322 5832 09 39 64 -31 -8
-// 1432 sprites/pcx/terrain04.pcx 402 5832 09 39 64 -31 -8
- 1408 sprites/pcx/terrain04.pcx 482 5832 09 47 64 -31 -16
- 1409 sprites/pcx/terrain04.pcx 562 5832 09 31 64 -31 -8
-// 1435 sprites/pcx/terrain04.pcx 642 5832 09 39 64 -31 -8
- 1410 sprites/pcx/terrain04.pcx 722 5832 09 39 64 -31 -8
- 1411 sprites/pcx/terrain04.pcx 2 5896 09 31 64 -31 -8
- 1412 sprites/pcx/terrain04.pcx 82 5896 09 31 64 -31 -8
- 1413 sprites/pcx/terrain04.pcx 322 2440 09 31 64 -31 0
- 1414 sprites/pcx/terrain04.pcx 722 2440 09 31 64 -31 -8
+ 1404 * 3	 05 0D 10
+  938 sprites/pcx/terrain04.pcx 434 5768 09 15 64 -31 0
+  939 sprites/pcx/terrain04.pcx 514 5768 09 31 64 -31 0
+  940 sprites/pcx/terrain04.pcx 594 5768 09 23 64 -31 0
+  941 sprites/pcx/terrain04.pcx 674 5768 09 23 64 -31 0
+  942 sprites/pcx/terrain04.pcx 2 5832 09 31 64 -31 0
+  943 sprites/pcx/terrain04.pcx 82 5832 09 31 64 -31 -8
+  944 sprites/pcx/terrain04.pcx 162 5832 09 23 64 -31 0
+  945 sprites/pcx/terrain04.pcx 242 5832 09 23 64 -31 0
+  946 sprites/pcx/terrain04.pcx 322 5832 09 39 64 -31 -8
+  947 sprites/pcx/terrain04.pcx 402 5832 09 39 64 -31 -8
+  948 sprites/pcx/terrain04.pcx 482 5832 09 47 64 -31 -16
+  949 sprites/pcx/terrain04.pcx 562 5832 09 31 64 -31 -8
+  950 sprites/pcx/terrain04.pcx 642 5832 09 39 64 -31 -8
+  951 sprites/pcx/terrain04.pcx 722 5832 09 39 64 -31 -8
+  952 sprites/pcx/terrain04.pcx 2 5896 09 31 64 -31 -8
+  953 sprites/pcx/terrain04.pcx 82 5896 09 31 64 -31 -8
 
 
 

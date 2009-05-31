@@ -98,9 +98,14 @@ clean:
 	@echo "Remove compiled .grf:"
 	-rm *.grf
 	@echo
+	@echo "Remove compiled .obg:"
+	-rm *.obg
+	@echo
+	@echo "Remove compiled .tar:"
+	-rm *.tar
+	@echo
 	@echo "Removing old logs:"
 	-rm *.log
-	-rm *.tar
 
 # Installation process
 install: tar
