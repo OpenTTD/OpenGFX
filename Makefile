@@ -19,15 +19,15 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
 # " \" (syntax highlighting line
 REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
-GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 
+GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
-TAR_FILENAME = $(GRF_NAME)-$(GRF_BUILDNAME).tar
+TAR_FILENAME = $(GRF_NAME)-$(GRF_BUILDNAME).$(TAR_SUFFIX)
 
 # Now, the fun stuff:
 
 # Target for all:
-all : obg
+all : $(OBG_FILE)
 
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
@@ -35,9 +35,13 @@ test :
 	@echo "Local installation directory: $(INSTALLDIR)"
 	@echo "Repository revision:          r$(GRF_REVISION)"
 	@echo "GRF title:                    $(GRF_TITLE)"
+	@echo "GRF filenames:                $(GRF_FILENAMES)"
+	@echo "nfo files:                    $(NFO_FILENAMES)"
+	@echo "pnfo files:                   $(PNFO_FILENAMES)"
+	@echo "Bundle files:                 $(BUNDLE_FILES)"
 	@echo "===="
 
-obg : grf
+$(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "Generating $(OBG_FILE)"
 	@echo -e \
 		"[metadata]\n"\
@@ -59,27 +63,36 @@ obg : grf
 	
 
 # Compile GRF
-grf : renumber
-	@echo "Compiling GRFs:"
-	for i in $(FILENAMES); do $(GRFCODEC) ${GRFCODEC_FLAGS} $$i.nfo; done
+%.grf : $(SPRITEDIR)/%.nfo
+	@echo "$@"
+	@echo "$?"
+	@echo "Compiling $@"
+#	for i in $(FILENAMES); do $(GRFCODEC) ${GRFCODEC_FLAGS} $$i.nfo; done
+	-$(GRFCODEC) $(GRFCODEC_FLAGS) $(notdir $<)
 	@echo
 	
 # NFORENUM process copy of the NFO
-renumber : nfo
-	@echo "NFORENUM processing:"
-	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
-	@echo
+%.nfo : %.pnfo
+	@echo "this is $?, all is $@, dependency $<"
+	@echo "Preparing $?"
+	cp $< $@
+	@echo "NFORENUM processing $@"
+#	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
+	-$(NFORENUM) $(NFORENUM_FLAGS) $@
 	
+%.pnfo:
+
 # Prepare the nfo file	
-nfo : 
-	@echo renaming preliminary files
-	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
-	@echo "Adding version information to source..."
-	@echo "Not yet implemented. Please check!"
+#$(PNFO_FILENAMES) : 
+#	@echo "Preparing $@"
+#	cp $@ $(subst $@,.$(PNFO_SUFFIX),.$(NFO_SUFFIX))
+#	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
+#	@echo "Adding version information to source..."
+#	@echo "Not yet implemented. Please check!"
 #	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
 # replace the place holders for version and name by the respective variables:
 #	sed s/{{VERSION}}/'$(GRF_VERSION)'/ $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre | sed s/{{NAME}}/'$(GRF_NAME)'/ > $(SPRITEDIR)/$(GRF_FILENAME).nfo
-	@echo	
+#	@echo	
 		
 # Clean the source tree
 clean:
@@ -88,31 +101,19 @@ clean:
 	-rm *.bak
 	-rm *.orig
 	-rm log
-	-rm $(SPRITEDIR)/*.bak
-	-rm $(NFODIR)/*.bak
-	-rm $(NFODIR)/*/*.orig
-	-rm $(NFODIR)/*.orig
-	-rm $(SPRITEDIR)/*.pre
+	-rm $(NFO_FILENAMES)
+	-rm $(GRF_FILENAMES)
+	-rm $(wildcard *.$(TAR_SUFFIX))
 	-for i in $(MAINDIRS); do rm $$i/*.orig; done
+	-rm $(OBG_FILE)
 	@echo
-	@echo "Remove compiled .grf:"
-	-rm *.grf
-	@echo
-	@echo "Remove compiled .obg:"
-	-rm *.obg
-	@echo
-	@echo "Remove compiled .tar:"
-	-rm *.tar
-	@echo
-	@echo "Removing old logs:"
-	-rm *.log
 
 # Installation process
-install: tar
+install: $(TAR_FILENAME)
 	@echo "Installing grf to $(INSTALLDIR)"
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
 	
-tar:
+$(TAR_FILENAME): $(BUNDLE_FILES)
 	@echo "Making tar for use ingame"
-	tar cf $(TAR_FILENAME) $(addsuffix .grf,$(FILENAMES)) license.txt changelog.txt $(OBG_FILE)
+	tar cf $(TAR_FILENAME) $(BUNDLE_FILES)
