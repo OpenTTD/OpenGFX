@@ -4,6 +4,9 @@ Makefile.local
 # And the description file which is generated automatically
 opengfx.obg
 
+#The .renum dir
+.renum/*.*
+
 # Any built grfs, too:
 ./*.grf
 ./*.tar
