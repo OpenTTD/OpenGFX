@@ -112,12 +112,7 @@ clean:
 	-rm $(OBG_FILE)
 	@echo
 
-# Installation process
-install: $(TAR_FILENAME)
-	@echo "Installing grf to $(INSTALLDIR)"
-	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
-	@echo
-	
+
 $(DIR_NAME): $(BUNDLE_FILES)
 	@-mkdir $@
 	@-for i in $(REPO_DIRS); do mkdir $@/$$i; done
@@ -127,3 +122,14 @@ $(DIR_NAME): $(BUNDLE_FILES)
 $(TAR_FILENAME): $(BUNDLE_FILES) $(DIR_NAME)
 	@echo "Making tar for use ingame"
 	tar cf $(TAR_FILENAME) $(DIR_NAME)
+	
+tar: $(TAR_FILENAME)
+
+bundle: $(DIR_NAME) tar
+
+# Installation process
+install: $(TAR_FILENAME)
+	@echo "Installing grf to $(INSTALLDIR)"
+	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
+	@echo
+	
