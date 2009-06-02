@@ -100,6 +100,7 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
+	@echo "$(DIR_NAME)"
 	-rm *.bak
 	-rm *.orig
 	-rm log
@@ -107,8 +108,8 @@ clean:
 	-rm $(GRF_FILENAMES)
 	-rm $(wildcard *.$(TAR_SUFFIX))
 	-for i in $(MAINDIRS); do rm $$i/*.orig; done
-	-rm -rf $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*/*
-	-rmdir $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*
+#	-rm -rf $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*/*
+	-rm -rf $(GRF_NAME)-$(GRF_NIGHTLYNAME)-r*
 	-rm $(OBG_FILE)
 	@echo
 
