@@ -22,7 +22,9 @@ REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  
 
 GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
-TAR_FILENAME = $(GRF_NAME)-$(GRF_BUILDNAME).$(TAR_SUFFIX)
+DIR_NAME     = $(GRF_NAME)-$(GRF_BUILDNAME)
+TAR_FILENAME = $(DIR_NAME).$(TAR_SUFFIX)
+REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 # Now, the fun stuff:
 
@@ -105,6 +107,8 @@ clean:
 	-rm $(GRF_FILENAMES)
 	-rm $(wildcard *.$(TAR_SUFFIX))
 	-for i in $(MAINDIRS); do rm $$i/*.orig; done
+	-rm -rf $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*/*
+	-rmdir $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*
 	-rm $(OBG_FILE)
 	@echo
 
@@ -114,6 +118,12 @@ install: $(TAR_FILENAME)
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
 	
-$(TAR_FILENAME): $(BUNDLE_FILES)
+$(DIR_NAME): $(BUNDLE_FILES)
+	@-mkdir $@
+	@-for i in $(REPO_DIRS); do mkdir $@/$$i; done
+	@echo $(BUNDLE_FILES)
+	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done
+	
+$(TAR_FILENAME): $(BUNDLE_FILES) $(DIR_NAME)
 	@echo "Making tar for use ingame"
-	tar cf $(TAR_FILENAME) $(BUNDLE_FILES)
+	tar cf $(TAR_FILENAME) $(DIR_NAME)
