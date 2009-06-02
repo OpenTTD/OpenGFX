@@ -1,9 +1,0 @@
-compile-win.bat assumes grfcodec.exe in it's parent directory.
-compile-win.bat will fail miserably if the grfcodec program is missing.
-
-
-
-compile-win.bat detailed:
-------------------------
-It changes directory to the parent of the batch file's dir and runs grfcodec.
-The grf files will be created in the parent directory of compile-win.bat

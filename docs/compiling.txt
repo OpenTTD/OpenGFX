@@ -1,5 +1,7 @@
 COMPILING
 =========
+This file is outdated.
+
 In order to compile OpenGFX from source, you need to get yourself a copy of GRFCodec:
 http://www.ttdpatch.net/grfcodec/
 

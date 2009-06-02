@@ -1,0 +1,396 @@
+File;Range_start;Range_end;Numsprites;Description;Graphics;Alignment;Ticket#;Done
+ogfx1;0;1;2;Cursor and sleepy cursor;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2;2;1;Undefined;n/a;n/a;;1
+ogfx1;3;92;90;Normal font;Bilbo, FooBar;buttercup, FooBar;;1
+ogfx1;93;128;36;Undefined;n/a;n/a;;1
+ogfx1;129;225;97;Normal font special chars;Bilbo, FooBar;buttercup, FooBar;;1
+ogfx1;226;226;1;Undefined;n/a;n/a;;1
+ogfx1;227;316;90;Small font;Zephyris;;;1
+ogfx1;317;352;36;Undefined;n/a;n/a;;1
+ogfx1;353;449;97;Small font special chars;Zephyris;;;1
+ogfx1;450;450;1;Undefined;n/a;n/a;;1
+ogfx1;451;540;90;Large font;Zephyris;;;1
+ogfx1;541;576;36;Undefined;n/a;n/a;;1
+ogfx1;577;673;97;Large font special chars;Zephyris;;;1
+ogfx1;674;678;5;Company colour thingies;Zephyris;;;1
+ogfx1;679;751;73;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;752;770;19;GUI selectors;LordAzamath, soeb;Zephyris;;1
+ogfx1;771;773;3;Recolour sprites;n/a;n/a;;1
+ogfx1;774;774;1;GUI selector dot;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;775;804;30;Recolour sprites;n/a;n/a;;1
+ogfx1;804;911;108;European manager faces;Ben_Robbins_, Zephyris;Zephyris;;1
+ogfx1;912;989;78;African manager faces;;;;0
+ogfx1;990;1003;14;Foundations;Zephyris;Zephyris;;1
+ogfx1;1004;1004;1;Map edge;Leppka, Zephyris;Zephyris;;1
+ogfx1;1005;1010;6;Rail overlays;Zephyris;Zephyris;;1
+ogfx1;1011;1036;26;Rail temperate;Zephyris;Zephyris;;1
+ogfx1;1037;1062;26;Rail snow;Zephyris;Zephyris;;1
+ogfx1;1063;1068;6;Rail depot;Zephyris;buttercup;;1
+ogfx1;1069;1086;18;Rail station;FooBar, Zephyris;FooBar;;1
+ogfx1;1087;1092;6;Monorail overlays;Zephyris;Zephyris;;1
+ogfx1;1093;1118;26;Monorail temperate;Zephyris;Zephyris;;1
+ogfx1;1119;1144;26;Monorail snow;Zephyris;Zephyris;;1
+ogfx1;1145;1150;6;Monorail depot;Zephyris;buttercup;;1
+ogfx1;1151;1168;18;Monorail station;FooBar, Zephyris;FooBar;;1
+ogfx1;1169;1174;6;Maglev overlays;Zephyris;Zephyris;;1
+ogfx1;1175;1200;26;Maglev temperate;Zephyris;Zephyris;;1
+ogfx1;1201;1226;26;Maglev snow;Zephyris;Zephyris;;1
+ogfx1;1227;1232;6;Maglev depot;Zephyris;buttercup;;1
+ogfx1;1233;1250;18;Maglev station;FooBar, Zephyris;FooBar;;1
+ogfx1;1251;1274;24;GUI rail buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;1275;1290;16;Signals;Raumkraut;;;1
+ogfx1;1291;1300;10;GUI rail buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;1301;1308;8;Rail fences;Soeb;FooBar, Soeb;;1
+ogfx1;1309;1312;4;GUI road buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;1313;1331;19;Road city;Zephyris;Zephyris;;1
+ogfx1;1332;1350;19;Road temperate;Zephyris;Zephyris;;1
+ogfx1;1351;1369;19;Road snow;Zephyris;Zephyris;;1
+ogfx1;1370;1381;12;Road level crossings rail;Zephyris;Zephyris;;1
+ogfx1;1382;1393;12;Road level crossings monorail;Zephyris;Zephyris;;1
+ogfx1;1394;1405;12;Road level crossings maglev;Zephyris;Zephyris;;1
+ogfx1;1406;1407;2;Road streetlights;LordAzamath;FooBar;;1
+ogfx1;1408;1413;6;Road depot;Athanasios, LordAzamath;;;1
+ogfx1;1414;1415;2;Road pothole;Soeb;Soeb;;1
+ogfx1;1416;1419;4;Road dozer;Andythenorth;FooBar;;1
+ogfx1;1420;1420;1;Paved tile;Zephyris;Zephyris;;1
+ogfx1;1421;1437;17;Town buildings;Zephyris;buttercup;;1
+ogfx1;1438;1439;2;Recolour sprites;n/a;n/a;;1
+ogfx1;1440;1453;14;Town buildings;Zephyris;buttercup;;1
+ogfx1;1454;1454;1;Statue;FooBar, Zephyris;FooBar;;1
+ogfx1;1455;1455;1;Fountain;FooBar;FooBar;;1
+ogfx1;1456;1457;2;Parks;Zephyris;buttercup;;1
+ogfx1;1458;1529;72;Town buildings;Zephyris;buttercup;;1
+ogfx1;1530;1535;6;Office block;Zephyris;buttercup;;1
+ogfx1;1536;1551;16;Town buildings;Zephyris;buttercup;;1
+ogfx1;1552;1553;2;Theatre;Zephyris;buttercup;;1
+ogfx1;1554;1561;8;Football stadium;Zephyris;buttercup;;1
+ogfx1;1562;1575;14;Town buildings;Zephyris;buttercup;;1
+ogfx1;1576;1764;189;Trees temperate;Zephyris;Zephyris;;1
+ogfx1;1765;1820;56;Trees arctic;Zephyris;Zephyris;;1
+ogfx1;1821;1946;126;Trees tropical;Zephyris;Zephyris;;1
+ogfx1;1947;1953;7;Toyland: Tree: upside-down cone;;;;0
+ogfx1;1954;1960;7;Toyland: Tree: lollypop;LordAzamath;buttercup;;1
+ogfx1;1961;1967;7;Toyland: Tree: umbrella;;;;0
+ogfx1;1968;1974;7;Toyland: Tree: liquorice;Zephyris;FooBar;;1
+ogfx1;1975;1981;7;Toyland: Tree: parasol;Roujin;buttercup;;1
+ogfx1;1982;1988;7;Toyland: Tree: mushroom;LordAzamath;buttercup;;1
+ogfx1;1989;1995;7;Toyland: Tree: cone;Zephyris;FooBar;;1
+ogfx1;1996;2002;7;Toyland: Tree: sphere;Zephyris;FooBar;;1
+ogfx1;2003;2009;7;Toyland: Tree: discs;Soeb;FooBar;;1
+ogfx1;2010;2010;1;GUI tree cursor;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2011;2025;15;Industries coal mine;Zephyris;;;1
+ogfx1;2026;2039;14;Industries copper ore mine;Zephyris;;;1
+ogfx1;2040;2044;5;Industries smoke;Zephyris;;;1
+ogfx1;2045;2054;10;Industries power plan;Zephyris;;;1
+ogfx1;2055;2060;6;Industries electric spark;Soeb;;;1
+ogfx1;2061;2071;11;Industries sawmill;Zephyris;;;1
+ogfx1;2072;2077;6;Industries forest;FooBar, Zephyris;FooBar;;1
+ogfx1;2078;2095;18;Industries oil refinery;LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2096;2105;10;Industries oil rig;Red*Star;buttercup;;1
+ogfx1;2106;2117;12;Industries farm;Zephyris;buttercup;;1
+ogfx1;2118;2139;22;Industries steel mill;Zephyris;buttercup;;1
+ogfx1;2140;2152;13;Industries factory;Zephyris;;;1
+ogfx1;2153;2172;20;Industries printworks;Zephyris;buttercup;;1
+ogfx1;2173;2179;7;Industries oil wells;Zephyris;buttercup;;1
+ogfx1;2180;2183;4;Industries bank 1;Zephyris;buttercup;;1
+ogfx1;2184;2187;4;Industries bank 2;Zephyris;buttercup;;1
+ogfx1;2188;2199;12;Industries food processing plant;Zephyris;buttercup;;1
+ogfx1;2200;2213;14;Industries paper mill;Zephyris;;;1
+ogfx1;2214;2265;52;Industries diamond mine;Zephyris;Zephyris;;1
+ogfx1;2266;2292;27;Industries gold mine;Zephyris;Zephyris;;1
+ogfx1;2293;2340;48;Industries iron ore mine;Zephyris;;;1
+ogfx1;2341;2343;3;Industries tropical plantations;LordAzamath;;;1
+ogfx1;2344;2346;3;Industries water tower;Zephyris;buttercup;;1
+ogfx1;2347;2352;6;Industries pumping station;Zephyris;buttercup;;1
+ogfx1;2353;2364;12;Industries lumber mill;Zephyris;buttercup;;1
+ogfx1;2365;2396;32;Tunnels temperate;Zephyris;Zephyris;;1
+ogfx1;2397;2428;32;Tunnels snow;Zephyris;Zephyris;;1
+ogfx1;2429;2436;8;GUI tunnel buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2437;2592;156;Bridges;Purno, Thgergo, Zephyris, Zimmlock;buttercup, Zephyris;;1
+ogfx1;2593;2600;8;GUI bridges;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2601;2601;1;Transmitter;Mr. X;Zephyris;;1
+ogfx1;2602;2602;1;Lighthouse;mph;;;1
+ogfx1;2603;2631;29;Headquarters;Zephyris;;;1
+ogfx1;2632;2632;1;Company statue;Red*Star;;;1
+ogfx1;2633;2633;1;Heliport;Skidd13, Zephyris;Zephyris;;1
+ogfx1;2634;2675;42;Airports;Skidd13, Zephyris;Zephyris;;1
+ogfx1;2676;2679;4;Airport windsack;Skidd13, Zephyris;Zephyris;;1
+ogfx1;2680;2691;12;Airport radar;Skidd13, Zephyris;Zephyris;;1
+ogfx1;2692;2707;16;Bus station;FooBar, Zephyris;FooBar;;1
+ogfx1;2708;2723;16;Truck station;FooBar, Zephyris;FooBar;;1
+ogfx1;2724;2726;3;GUI airport and road;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;2727;2732;6;Docks;FooBar, LordAzamath, Red*Star;FooBar;;1
+ogfx1;2733;2828;96;Rail wagons;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfx1;2729;2904;176;Monolev wagons;Zephyris;buttercup;;1
+ogfx1;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfx1;2981;2992;12;Monorail engines;Blaubus (tt-ms.de);Ammler;102;1
+ogfx1;2993;3016;24;Maglev engines;Blaubus (tt-ms.de);Ammler;102;1
+ogfx1;3017;3072;56;Rail engines continued;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfx1;3073;3078;6;Diesel smoke;FooBar;FooBar;;1
+ogfx1;3079;3083;5;Steam;FooBar;FooBar;;1
+ogfx1;3084;3089;6;Spark;Soeb;Soeb;;1
+ogfx1;3090;3091;2;GUI vehicle start/stop;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;3092;3283;192;Trucks gen 1;Zephyris;Zephyris;;1
+ogfx1;3284;3475;192;Trucks gen 2;Zephyris;Zephyris;;1
+ogfx1;3486;3667;182;Trucks gen 3;Zephyris;Zephyris;;1
+ogfx1;3668;3668;1;GUI docks;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;3669;3700;32;Ships;buttercup, Lead@Inbox, Zephyris;buttercup;;1
+ogfx1;3701;3708;8;Large smoker;FooBar;FooBar;;1
+ogfx1;3709;3724;16;Explosion large;Zephyris;FooBar;;1
+ogfx1;3725;3736;12;Explosion small;Zephyris;FooBar;;1
+ogfx1;3737;3740;4;Breakdown smoke;FooBar;FooBar;;1
+ogfx1;3741;3904;164;Aeroplanes;Zephyris;Zephyris;;1
+ogfx1;3905;3907;3;Broken airship;PikkaBird, Zephyris;Zephyris;;1
+ogfx1;3908;3909;2;Ufo small;DanMacK;Soeb;;1
+ogfx1;3910;3917;8;Submarine;FooBar;FooBar;;1
+ogfx1;3918;3919;2;Fighter 1;PikkaBird, FooBar;FooBar;;1
+ogfx1;3920;3920;1;Large ufo;FooBar, Raumkraut;FooBar;;1
+ogfx1;3921;3921;1;Fighter 2;Zephyris;FooBar;;1
+ogfx1;3922;3923;2;Fighter helicopter;PikkaBird, FooBar;FooBar;;1
+ogfx1;3924;3942;19;Bare land;Zephyris;Zephyris;;1
+ogfx1;3943;3961;19;Land stage 1;Zephyris;Zephyris;;1
+ogfx1;3962;3980;19;Land stage 2;Zephyris;Zephyris;;1
+ogfx1;3981;3999;19;Temperate land;Zephyris;Zephyris;;1
+ogfx1;4000;4022;23;Rough terrain;Zephyris;Zephyris;;1
+ogfx1;4023;4060;38;Rocks;Zephyris;Zephyris;;1
+ogfx1;4061;4061;1;Water;Leppka;Zephyris;;1
+ogfx1;4062;4069;8;Coast tiles;Leppka, Zephyris;Zephyris;;1
+ogfx1;4070;4075;6;Ship depot;Red*Star;;;1
+ogfx1;4076;4076;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfx1;4077;4089;13;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfx1;4090;4125;36;Farm fences;Soeb;Soeb;;1
+ogfx1;4126;4296;171;Farm tiles;Zephyris;Zephyris;;1
+ogfx1;4297;4323;27;Cargo icons;DanMacK;;;1
+ogfx1;4324;4403;80;Bridges;Purno, Thgergo, Zephyris, Zimmlock;buttercup, Zephyris;;1
+ogfx1;4404;4405;2;Cinema;Zephyris;buttercup;;1
+ogfx1;4406;4417;12;Mall;Zephyris;buttercup;;1
+ogfx1;4418;4433;16;Houses;Zephyris;buttercup;;1
+ogfx1;4434;4437;4;Office block;Zephyris;buttercup;;1
+ogfx1;4438;4441;4;Modern office block (has snow equivalent);;;;0
+ogfx1;4442;4445;4;Modern office block (has snow equivalent);;;;0
+ogfx1;4446;4461;16;Houses;Zephyris;buttercup;;1
+ogfx1;4462;4465;4;Arctic church (has snow equivalent);;;;0
+ogfx1;4466;4470;5;Houses;Zephyris;buttercup;;1
+ogfx1;4471;4476;6;Arctic hotel (has snow equivalent);;;;0
+ogfx1;4477;4479;3;Houses;Zephyris;buttercup;;1
+ogfx1;4480;4484;5;Office block (has snow equivalent);;;;0
+ogfx1;4485;4492;8;Office block (has snow equivalent);;;;0
+ogfx1;4493;4511;19;Snow stage 1;Zephyris;Zephyris;;1
+ogfx1;4512;4530;19;Snow stage 2;Zephyris;Zephyris;;1
+ogfx1;4531;4549;19;Snow stage 3;Zephyris;Zephyris;;1
+ogfx1;4550;4568;19;Snow full;Zephyris;Zephyris;;1
+ogfx1;4569;4573;5;Snow buildings;Zephyris;buttercup;;1
+ogfx1;4574;4574;1;Snow office block (snow equivalent of 1.4437);;;;0
+ogfx1;4575;4575;1;Snow office block (snow equivalent of 1.4441);;;;0
+ogfx1;4576;4576;1;Snow office block (snow equivalent of 1.4445);;;;0
+ogfx1;4577;4578;2;Snow buildings;Zephyris;buttercup;;1
+ogfx1;4579;4579;1;Snow arctic church (snow equivalent of 1.4465);;;;0
+ogfx1;4580;4582;3;Snow buildings;Zephyris;buttercup;;1
+ogfx1;4583;4584;2;Snow arctic hotel (snow equivalent of 1.4475-1.4476);;;;0
+ogfx1;4585;4585;1;Snow office block (snow equivalent of 1.4484);;;;0
+ogfx1;4586;4587;2;Snow office block (snow equivalent of 1.4491-1.4492);;;;0
+ogfx1;4588;4603;16;Tropical houses;Zephyris;Zephyris;;1
+ogfx1;4604;4604;1;"Tropical ""saloon"" building";;;;0
+ogfx1;4605;4613;9;Tropical houses;Zephyris;Zephyris;;1
+ogfx1;4614;4619;6;Modern office block;;;;0
+ogfx1;4620;4622;3;Tropical houses;Zephyris;Zephyris;;1
+ogfx1;4623;4625;3;Modern office block;;;;0
+ogfx1;4626;4626;1;Roadside tree;Zephyris;Zephyris;;1
+ogfx1;4627;4628;2;Toyland: Wrapper design for 4629;;;;0
+ogfx1;4629;4629;1;Toyland: building;;;;0
+ogfx1;4630;4631;2;Toyland: Wrapper design for 4632;;;;0
+ogfx1;4632;4632;1;Toyland: building;;;;0
+ogfx1;4633;4634;2;Toyland: Wrapper design for 4635;;;;0
+ogfx1;4635;4635;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4638;;;;0
+ogfx1;4638;4638;1;Toyland: building;;;;0
+ogfx1;;;2;Toyland: Wrapper design for 4641;;;;0
+ogfx1;4641;4641;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4644;;;;0
+ogfx1;4644;4644;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4647;;;;0
+ogfx1;4647;4647;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4650;;;;0
+ogfx1;4650;4650;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;4;Toyland: Wrapper design for 4655-4656;;;;0
+ogfx1;4655;4656;2;Toyland: building;;;;0
+ogfx1;;;2;Toyland: Wrapper design for 4659;;;;0
+ogfx1;4659;4659;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4662;;;;0
+ogfx1;4662;4662;1;Toyland: building;;;;0
+ogfx1;;;2;Toyland: Wrapper design for 4665;;;;0
+ogfx1;4665;4665;1;Toyland: building;;;;0
+ogfx1;;;2;Toyland: Wrapper design for 4668;;;;0
+ogfx1;4668;4668;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;;;2;Toyland: Wrapper design for 4671;;;;0
+ogfx1;4671;4671;1;Toyland: building;athanasios;FooBar;;1
+ogfx1;;;2;Toyland: Wrapper design for 4674;;;;0
+ogfx1;4674;4674;1;Toyland: building;athanasios;buttercup;;1
+ogfx1;4675;4676;2;Toyland: Building ground tiles;Zephyris;FooBar;;1
+ogfx1;4677;4685;9;Toyland: Sweet factory;;;;0
+ogfx1;4686;4690;5;Toyland: Battery farm;Soeb;Soeb;;1
+ogfx1;4691;4693;3;Toyland: Cola wells;Athanasios;buttercup;;1
+ogfx1;4694;4694;1;Toyland: Statue;;;;0
+ogfx1;4695;4696;2;Toyland: Wrapper design for 4696;;;;0
+ogfx1;4697;4697;1;Toyland: Tea pot;Zephyris;FooBar;;1
+ogfx1;4698;4698;1;Toyland: Piggy bank;;;;0
+ogfx1;4699;4707;9;Toyland: Toy shop;;;;0
+ogfx1;4708;4720;13;Toyland: Toy factory;;;;0
+ogfx1;4721;4736;16;Toyland: Plastic fountains;LordAzamath;buttercup;;1
+ogfx1;4737;4742;6;Toyland: Fizzy drink factory;;;;0
+ogfx1;4743;4747;5;Toyland: Bubble generator;;;;0
+ogfx1;4748;4762;15;Toyland: Bubbles;FooBar, Soeb;Soeb;;1
+ogfx1;4763;4767;5;Toyland: Toffee quarry;;;;0
+ogfx1;4768;4789;22;Toyland: Sugar mine;;;;0
+ogfx1;4790;4790;1;Buy land sign;FooBar;FooBar;;1
+ogfx1;4791;4792;2;GUI buy land;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxc;0;18;19;Bare land stage 1;Zephyris;Zephyris;;1
+ogfxc;19;37;19;Bare land stage 2;Zephyris;Zephyris;;1
+ogfxc;38;56;19;Terrain;Zephyris;Zephyris;;1
+ogfxc;57;60;4;Passenger carriage;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfxc;61;72;12;Farm;Zephyris;buttercup;;1
+ogfxc;73;95;23;Rough terrain;Zephyris;Zephyris;;1
+ogfxc;96;114;19;Rocks;Zephyris;Zephyris;;1
+ogfxc;115;120;6;Monorail overlays;Zephyris;Zephyris;;1
+ogfxc;121;146;26;Monorail tracks;Zephyris;Zephyris;;1
+ogfxc;147;154;8;Monorail level crossings;Zephyris;Zephyris;;1
+ogfxc;155;162;8;Monorail tunnels;Zephyris;Zephyris;;1
+ogfxc;163;168;6;Rail overlays;Zephyris;Zephyris;;1
+ogfxc;169;194;26;Rail tracks;Zephyris;Zephyris;;1
+ogfxc;195;202;8;Fences;Soeb;FooBar, Soeb;;1
+ogfxc;203;210;8;Rail level crossings;Zephyris;Zephyris;;1
+ogfxc;211;229;19;Road tiles;Zephyris;Zephyris;;1
+ogfxc;230;237;8;Rail tunnels;Zephyris;Zephyris;;1
+ogfxc;238;245;8;Water;Leppka;Zephyris;;1
+ogfxc;246;246;1;Coastline;Leppka, Zephyris;Zephyris;;1
+ogfxc;247;260;14;Ship depot;Red*Star;;;1
+ogfxc;261;261;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfxc;262;268;7;Oil well;Zephyris;buttercup;;1
+ogfxc;269;283;15;Headquarters;Zephyris;;;1
+ogfxc;284;309;26;Maglev tracks;Zephyris;Zephyris;;1
+ogfxc;310;313;4;Maglev level crossings;Zephyris;Zephyris;;1
+ogfxc;314;321;8;Maglev tunnels;Zephyris;Zephyris;;1
+ogfxc;322;327;6;Snow forest;FooBar, Zephyris;FooBar;;1
+ogfxc;328;341;14;Foundations;Zephyris;Zephyris;;1
+ogfxc;342;342;1;City roadside tree;Zephyris;Zephyris;;1
+ogfxh;0;18;19;Bare land stage 1;Zephyris;Zephyris;;1
+ogfxh;19;37;19;Bare land stage 2;Zephyris;Zephyris;;1
+ogfxh;38;56;19;Terrain;Zephyris;Zephyris;;1
+ogfxh;57;60;4;Passenger carriage;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfxh;61;83;23;Rough terrain;Zephyris;Zephyris;;1
+ogfxh;84;102;19;Rocks;Zephyris;Zephyris;;1
+ogfxh;103;108;6;Monorail overlays;Zephyris;Zephyris;;1
+ogfxh;109;134;26;Monorail tracks;Zephyris;Zephyris;;1
+ogfxh;135;142;8;Monorail level crossings;Zephyris;Zephyris;;1
+ogfxh;143;150;8;Monorail tunnels;Zephyris;Zephyris;;1
+ogfxh;151;156;6;Rail overlays;Zephyris;Zephyris;;1
+ogfxh;157;182;26;Rail tracks;Zephyris;Zephyris;;1
+ogfxh;183;190;8;Fences;Soeb;FooBar, Soeb;;1
+ogfxh;191;198;8;Rail level crossings;Zephyris;Zephyris;;1
+ogfxh;199;217;19;Road desert tiles;Zephyris;Zephyris;;1
+ogfxh;218;233;16;Tunnels;Zephyris;Zephyris;;1
+ogfxh;234;234;1;Water;Leppka;Zephyris;;1
+ogfxh;235;242;8;Coastline;Leppka, Zephyris;Zephyris;;1
+ogfxh;243;248;6;Ship depot;Red*Star;;;1
+ogfxh;249;249;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfxh;250;256;7;Oil well;Zephyris;buttercup;;1
+ogfxh;257;271;15;Headquarters;Zephyris;;;1
+ogfxh;272;297;26;Maglev tracks;Zephyris;Zephyris;;1
+ogfxh;298;301;4;Maglev level crossings;Zephyris;Zephyris;;1
+ogfxh;302;309;8;Maglev tunnels;Zephyris;Zephyris;;1
+ogfxh;310;310;1;Statue;FooBar;FooBar;;1
+ogfxh;311;311;1;Fountain;FooBar;FooBar;;1
+ogfxh;312;330;19;Desert stage 1;Zephyris;Zephyris;;1
+ogfxh;331;349;19;Desert stage 2;Zephyris;Zephyris;;1
+ogfxh;350;368;19;Desert;Zephyris;Zephyris;;1
+ogfxh;369;387;19;Desert;Zephyris;Zephyris;;1
+ogfxh;388;406;19;Road rainforest tiles;Zephyris;Zephyris;;1
+ogfxh;407;432;26;Rail desert tracks;Zephyris;Zephyris;;1
+ogfxh;433;458;26;Monorail desert tracks;Zephyris;Zephyris;;1
+ogfxh;459;484;26;Maglev desert tracks;Zephyris;Zephyris;;1
+ogfxh;485;516;32;Desert tunnels;Zephyris;Zephyris;;1
+ogfxh;517;530;14;Foundations;Zephyris;Zephyris;;1
+ogfxh;531;542;12;Desert level crossings;Zephyris;Zephyris;;1
+ogfxh;543;554;12;Farm;Zephyris;buttercup;;1
+ogfxh;555;556;2;GUI desert;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxh;556;557;2;City roadside tree;Zephyris;Zephyris;;1
+ogfxi;0;10;11;deprecated;n/a;n/a;;1
+ogfxi;11;20;10;High score chart;Zephyris;FooBar;;1
+ogfxi;21;30;10;Game end 1;Zephyris;FooBar;;1
+ogfxi;31;40;10;Game end 2;Zephyris;FooBar;;1
+ogfxi;41;42;2;deprecated;n/a;n/a;;1
+ogfxi;43;51;9;Title font;LordAzamath;;;1
+ogfxi;52;88;37;deprecated (original mapgen support sprites);n/a;n/a;;1
+ogfxi;89;96;8;Landscape preview;LordAzamath;;;1
+ogfxi;97;102;6;deprecated;n/a;n/a;;1
+ogfxt;0;75;76;Terrain;Zephyris;Zephyris;;1
+ogfxt;76;84;9;Water and shore tiles;Leppka, Zephyris;Zephyris;;1
+ogfxt;85;85;1;Buoy;Leppka, FooBar;FooBar;;1
+ogfxt;86;108;23;Rough terrain;Zephyris;Zephyris;;1
+ogfxt;109;127;19;Rocks;Zephyris;Zephyris;;1
+ogfxt;128;133;6;Candyfloss forest;Athanasios, LordAzamath;buttercup;;1
+ogfxt;134;152;19;City roads;Zephyris;Zephyris;;1
+ogfxt;153;171;19;Roads;Zephyris;Zephyris;;1
+ogfxt;172;173;2;Streetlights;LordAzamath;FooBar;;1
+ogfxt;174;205;32;Rail;Zephyris;Zephyris;;1
+ogfxt;206;237;32;Monorail;Zephyris;Zephyris;;1
+ogfxt;238;269;32;Maglev;Zephyris;Zephyris;;1
+ogfxt;270;270;1;Company statue;;;;0
+ogfxt;271;286;16;Signals;Raumkraut;;;1
+ogfxt;287;310;24;Level crossings;Zephyris;Zephyris;;1
+ogfxt;311;316;6;Rail depot;Zephyris;buttercup;;1
+ogfxt;317;322;6;Monorail depot;Zephyris;buttercup;;1
+ogfxt;323;328;6;Maglev depot;Zephyris;buttercup;;1
+ogfxt;329;340;12;Rail GUI cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxt;341;392;52;Aircraft;Zephyris;Zephyris;;1
+ogfxt;393;400;8;Train engine;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfxt;401;416;16;Ships;buttercup, Lead@Inbox, Zephyris;buttercup;;1
+ogfxt;417;417;1;Heliplatform;Skidd13, Zephyris;Zephyris;;1
+ogfxt;418;475;58;Airports;Skidd13, Zephyris;Zephyris;;1
+ogfxt;476;491;16;Bus stop;FooBar, Zephyris;FooBar;;1
+ogfxt;492;507;16;Truck stop;FooBar, Zephyris;FooBar;;1
+ogfxt;508;513;6;Docks;FooBar, Zephyris;FooBar;;1
+ogfxt;514;542;29;Company Headcastle;;;;0
+ogfxt;543;556;14;Foundations;Zephyris;Zephyris;;1
+ogfxt;557;586;30;Rail stations;FooBar, Zephyris;FooBar;;1
+ogfxt;587;594;8;Rail fences;Soeb;Soeb;;1
+ogfxt;595;600;6;Road depot;Athanasios, LordAzamath;Athanasios, buttercup;;1
+ogfxt;601;760;160;Road trucks;;;;0
+ogfxt;761;840;80;Rail wagons;;;;0
+ogfxt;841;872;32;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfxt;873;880;8;Monorail engine;;;;0
+ogfxt;881;884;4;Maglev engine;;;;0
+ogfxt;885;901;17;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxt;902;1057;156;Bridges;Zephyris;Zephyris;;1
+ogfxt;1058;1065;8;Brige GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxt;1066;1145;80;Bridges;Zephyris;Zephyris;;1
+ogfxt;1146;1177;32;Tunnels;Zephyris;Zephyris;;1
+ogfxt;1178;1193;16;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxt;1194;1194;1;Recolour sprite;n/a;n/a;;1
+ogfxe;0;47;48;[Type 04] Pre-signal graphics;;;;1
+ogfxe;48;111;64;[Type 04] Semaphore graphics;michael blunck;michael blunck;;1
+ogfxe;112;175;64;[Type 04] PBS graphics;Bilbo;;;0
+ogfxe;176;239;64;[Type 04] PBS semaphore graphics;michael blunck;michael blunck;;1
+ogfxe;0;35;36;[Type 05] Overhead wires and pylon graphics;michael blunck;michael blunck;;1
+ogfxe;36;47;12;[Type 05] Elrail GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxe;0;89;90;[Type 06] Foundations for BuildOnSlopes and half tiles (NS and EW foundations);Zephyris;Zephyris;;1
+ogfxe;0;3;4;[Type 08] Sloped water;Leppka;buttercup;;1
+ogfxe;4;51;48;[Type 08] Locks;FooBar, Red*Star;FooBar;;1
+ogfxe;52;63;12;[Type 08] Canal watersides;Zephyris;buttercup;;1
+ogfxe;64;64;1;[Type 08] GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxe;0;5;6;[Type 09] One-way road arrows;FooBar;FooBar;;1
+ogfxe;0;255;256;[Type 0A] Two company color translation maps;n/a;n/a;;1
+ogfxe;0;112;113;[Type 0B] Tram tracks;FooBar, PikkaBird, Zephyris;FooBar;;1
+ogfxe;0;132;133;[Type 0C] Snowy temperate trees;;;;0
+ogfxe;0;15;16;[Type 0D] Coast Tile graphics;Leppka, Zephyris;buttercup;;1
+ogfxe;0;11;12;[Type 0F] Sprites for marking tracks on slopes (for track reservation);FooBar, Zephyris;n/a;;1
+ogfxe;0;14;15;[Type 10] Additional airport graphics;Skidd13, Zephyris;Zephyris;;1
+ogfxe;0;7;8;[Type 11] Road stop graphics;FooBar;FooBar;;1
+ogfxe;0;7;8;[Type 12] Aqueduct graphics;Leppka, Zephyris;buttercup;;1
+ogfxe;0;54;55;[Type 13] Autorail sprites;FooBar;n/a;;1
+ogfxe;0;35;36;[Type 14] Flag sprites;OpenTTD Developers;OpenTTD Developers;;1
+ogfxe;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxe;0;843;844;Waterfeatures (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
+ogfxe;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfxe;0;345;346;Additional Font Characters;Bilbo, FooBar;FooBar;;1
+ogfxe;0;75;76;Temperate snow tiles;Zephyris;Zephyris;;1

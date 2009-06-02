@@ -1,5 +1,8 @@
 STRUCTURE
 =========
+This file is outdated.
+
+
 The OpenGFX repository has the following stucture:
 
 opengfx

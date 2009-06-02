@@ -1,5 +1,7 @@
 COMPILING A RELEASE
 ===================
+This file is outdated.
+
 Compile normally as instructed per compiling.txt.
 
 Open the opengfx.obg file and add a value of 1 to the "version" integer. Also add a textual representation to the end of the "description" string.
