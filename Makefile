@@ -120,16 +120,21 @@ $(DIR_NAME): $(BUNDLE_FILES)
 	@echo $(BUNDLE_FILES)
 	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done
 	
-$(TAR_FILENAME): $(BUNDLE_FILES) $(DIR_NAME)
+tar: $(BUNDLE_FILES) $(DIR_NAME)
 	@echo "Making tar for use ingame"
-	tar cf $(TAR_FILENAME) $(DIR_NAME)
-	
-tar: $(TAR_FILENAME)
+	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(DIR_NAME)
+zip : tar
+	@echo "creating zip'ed tar archive"
+	cat $(TAR_FILENAME) | $(ZIP) $(ZIP_FLAGS) > $(ZIP_FILENAME)
+bzip: tar
+	@echo "creating bzip2'ed tar archive"
+	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
 
-bundle: $(DIR_NAME) tar
+bundle: $(DIR_NAME) tar bzip zip
+	@echo "Creating bundle."
 
 # Installation process
-install: $(TAR_FILENAME)
+install: tar
 	@echo "Installing grf to $(INSTALLDIR)"
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
