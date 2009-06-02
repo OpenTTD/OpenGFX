@@ -133,3 +133,4 @@ install: $(TAR_FILENAME)
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
 	
+remake: clean all
