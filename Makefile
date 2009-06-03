@@ -25,6 +25,8 @@ GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
 DIR_NAME     = $(GRF_NAME)-$(GRF_BUILDNAME)
 TAR_FILENAME = $(DIR_NAME).$(TAR_SUFFIX)
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
+TEST         = `cat $(PNFO_FILENAMES) | sed 's/-/    /' | grep '/pcx/' | gawk '{ print $2 }' > pcx.log`
+
 
 # Now, the fun stuff:
 
@@ -41,6 +43,7 @@ test :
 	@echo "nfo files:                    $(NFO_FILENAMES)"
 	@echo "pnfo files:                   $(PNFO_FILENAMES)"
 	@echo "Bundle files:                 $(BUNDLE_FILES)"
+	@echo "Test:                         $(TEST)"
 	@echo "===="
 
 $(OBG_FILE) : $(GRF_FILENAMES)
@@ -98,19 +101,8 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 		
 # Clean the source tree
 clean:
-	@echo "Cleaning source tree:"
-	@echo "Remove backups:"
-	@echo "$(DIR_NAME)"
-	-rm *.bak
-	-rm *.orig
-	-rm log
-	-rm $(NFO_FILENAMES)
-	-rm $(GRF_FILENAMES)
-	-rm $(wildcard *.$(TAR_SUFFIX))
-	-for i in $(MAINDIRS); do rm $$i/*.orig; done
-#	-rm -rf $(DIR_NAME)-$(GRF_NIGHTLYNAME)-r*/*
-	-rm -rf $(GRF_NAME)-$(GRF_NIGHTLYNAME)-r*
-	-rm $(OBG_FILE)
+	@echo "Cleaning source tree"
+	@-rm -rf *.bak *.orig log $(NFO_FILENAMES) $(GRF_FILENAMES) $(wildcard *.$(TAR_SUFFIX)) $(addsuffix /.*orig,$(MAINDIRS)) $(GRF_NAME)-$(GRF_NIGHTLYNAME)-r* $(OBG_FILE)
 	@echo
 
 
