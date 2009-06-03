@@ -199,11 +199,11 @@ ogfx1_base;4626;4626;1;Roadside tree;Zephyris;Zephyris;;1
 ogfx1_base;4627;4628;2;Toyland: Wrapper design for 4629;;;107;0
 ogfx1_base;4629;4629;1;Toyland: building;;;107;0
 ogfx1_base;4630;4631;2;Toyland: Wrapper design for 4632;;;107;0
-ogfx1_base;4632;4632;1;Toyland: building;;;107;0
+ogfx1_base;4632;4632;1;Toyland: building;athanasios;FooBar;107;1
 ogfx1_base;4633;4634;2;Toyland: Wrapper design for 4635;;;107;0
 ogfx1_base;4635;4635;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4636;4637;2;Toyland: Wrapper design for 4638;;;107;0
-ogfx1_base;4638;4638;1;Toyland: building;;;107;0
+ogfx1_base;4638;4638;1;Toyland: building;athanasios;FooBar;107;1
 ogfx1_base;4639;4640;2;Toyland: Wrapper design for 4641;;;107;0
 ogfx1_base;4641;4641;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4642;4643;2;Toyland: Wrapper design for 4644;;;107;0
@@ -298,7 +298,7 @@ ogfxh_tropical;257;271;15;Headquarters;Zephyris;;;1
 ogfxh_tropical;272;297;26;Maglev tracks;Zephyris;Zephyris;;1
 ogfxh_tropical;298;301;4;Maglev level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;302;309;8;Maglev tunnels;Zephyris;Zephyris;;1
-ogfxh_tropical;310;310;1;Statue;FooBar;FooBar;;1
+ogfxh_tropical;310;310;1;Statue;FooBar, Zephyris;FooBar;;1
 ogfxh_tropical;311;311;1;Fountain;FooBar;FooBar;;1
 ogfxh_tropical;312;330;19;Desert stage 1;Zephyris;Zephyris;;1
 ogfxh_tropical;331;349;19;Desert stage 2;Zephyris;Zephyris;;1
