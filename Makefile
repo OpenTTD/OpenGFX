@@ -25,7 +25,6 @@ GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
 DIR_NAME     = $(GRF_NAME)-$(GRF_BUILDNAME)
 TAR_FILENAME = $(DIR_NAME).$(TAR_SUFFIX)
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
-TEST         = `cat $(PNFO_FILENAMES) | sed 's/-/    /' | grep '/pcx/' | gawk '{ print $2 }' > pcx.log`
 
 
 # Now, the fun stuff:
@@ -43,7 +42,6 @@ test :
 	@echo "nfo files:                    $(NFO_FILENAMES)"
 	@echo "pnfo files:                   $(PNFO_FILENAMES)"
 	@echo "Bundle files:                 $(BUNDLE_FILES)"
-	@echo "Test:                         $(TEST)"
 	@echo "===="
 
 $(OBG_FILE) : $(GRF_FILENAMES)
