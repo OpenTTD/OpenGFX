@@ -15,10 +15,11 @@ NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
 GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
 
 # this overrides definitions from above:
--include ${MAKEFILELOCAL}
 GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
 # " \" (syntax highlighting line
 REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
+
+-include ${MAKEFILELOCAL}
 
 GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
@@ -26,6 +27,7 @@ DIR_NAME     = $(GRF_NAME)-$(GRF_BUILDNAME)
 TAR_FILENAME = $(DIR_NAME).$(TAR_SUFFIX)
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
+-include ${MAKEFILELOCAL}
 
 # Now, the fun stuff:
 
