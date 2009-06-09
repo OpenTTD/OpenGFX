@@ -5008,9 +5008,9 @@
  4440 sprites/pcx/trg1r.pcx 146 15512 03 97 54 -31 -69
  4441 sprites/pcx/trg1r.pcx 210 15512 09 97 52 -28 -69
   336 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
- 4443 sprites/pcx/trg1r.pcx 354 15512 03 53 57 -29 -25
- 4444 sprites/pcx/trg1r.pcx 418 15512 03 103 56 -29 -75
- 4445 sprites/pcx/trg1r.pcx 482 15512 09 116 56 -29 -88
+ 4443 sprites/pcx/morebuildings.pcx 2 308 03 43 64 -31 -12
+ 4444 sprites/pcx/morebuildings.pcx 75 308 03 98 64 -31 -67
+ 4445 sprites/pcx/morebuildings.pcx 150 308 09 119 64 -31 -88
 //house
   787 sprites/pcx/buildings.pcx 690 3672 09 35 64 -31 -4
   796 sprites/pcx/buildings.pcx 450 3720 09 35 64 -31 -4
@@ -5177,11 +5177,11 @@
   767 sprites/pcx/buildings.pcx 82 3672 09 35 64 -31 -4
   770 sprites/pcx/buildings.pcx 226 3672 09 29 26 -14 -10
 //snow equiv of 4434-4437
- 4574 sprites/pcx/trg1r.pcx 546 16456 09 94 56 -26 -65
+ 4574 sprites/pcx/morebuildings.pcx 546 200 09 95 64 -31 -64
 //snow equiv of 4438-4441 (office block)
  4575 sprites/pcx/trg1r.pcx 610 16456 09 97 52 -28 -69
 //snow equiv of 4442-4445 (office block)
- 4576 sprites/pcx/trg1r.pcx 674 16456 09 116 56 -29 -88
+ 4576 sprites/pcx/morebuildings.pcx 230 308 09 119 64 -31 -88
 //snow equiv of 4477-4479 (saloon thingy)
   257 sprites/pcx/buildings.pcx 322 1688 09 87 66 -31 -56
 //snow equiv of 4459-4461 (shop)
