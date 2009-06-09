@@ -1,4 +1,4 @@
-# Makefile for the 2cc train set
+# Makefile for OpenGFX set
 
 MAKEFILELOCAL=Makefile.local
 MAKEFILECONFIG=Makefile.config
