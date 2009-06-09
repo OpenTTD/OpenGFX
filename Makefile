@@ -115,9 +115,9 @@ $(DIR_NAME): $(BUNDLE_FILES)
 tar: $(BUNDLE_FILES) $(DIR_NAME)
 	@echo "Making tar for use ingame"
 	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(DIR_NAME)
-zip : tar
-	@echo "creating zip'ed tar archive"
-	cat $(TAR_FILENAME) | $(ZIP) $(ZIP_FLAGS) > $(ZIP_FILENAME)
+zip : $(DIR_NAME)
+	@echo "creating zip archive"
+	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
 bzip: tar
 	@echo "creating bzip2'ed tar archive"
 	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
