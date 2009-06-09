@@ -166,7 +166,7 @@ ogfx1_base;4404;4405;2;Cinema;Zephyris;buttercup;;1
 ogfx1_base;4406;4417;12;Mall;Zephyris;buttercup;;1
 ogfx1_base;4418;4433;16;Houses;Zephyris;buttercup;;1
 ogfx1_base;4434;4437;4;Office block;Zephyris;buttercup;;1
-ogfx1_base;4438;4441;4;Modern office block (has snow equivalent);;;95;0
+ogfx1_base;4438;4441;4;Modern office block (has snow equivalent);LiquidLogic;FooBar;95;1
 ogfx1_base;4442;4445;4;Modern office block (has snow equivalent);northstar2;FooBar;95;1
 ogfx1_base;4446;4461;16;Houses;Zephyris;buttercup;;1
 ogfx1_base;4462;4465;4;Arctic church (has snow equivalent);;;96;0
@@ -181,7 +181,7 @@ ogfx1_base;4531;4549;19;Snow stage 3;Zephyris;Zephyris;;1
 ogfx1_base;4550;4568;19;Snow full;Zephyris;Zephyris;;1
 ogfx1_base;4569;4573;5;Snow buildings;Zephyris;buttercup;;1
 ogfx1_base;4574;4574;1;Snow office block (snow equivalent of 1.4437);FooBar, Zephyris;FooBar;99;1
-ogfx1_base;4575;4575;1;Snow office block (snow equivalent of 1.4441);;;99;0
+ogfx1_base;4575;4575;1;Snow office block (snow equivalent of 1.4441);LiquidLogic;FooBar;99;1
 ogfx1_base;4576;4576;1;Snow office block (snow equivalent of 1.4445);northstar2;FooBar;99;1
 ogfx1_base;4577;4578;2;Snow buildings;Zephyris;buttercup;;1
 ogfx1_base;4579;4579;1;Snow arctic church (snow equivalent of 1.4465);;;101;0
