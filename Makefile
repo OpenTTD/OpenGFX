@@ -48,22 +48,24 @@ test :
 
 $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "Generating $(OBG_FILE)"
-	@echo -e \
-		"[metadata]\n"\
-		"name        = $(GRF_NAME)\n"\
-		"shortname   = $(GRF_SHORTNAME)\n"\
-		"version     = $(GRF_REVISION)\n"\
-		"description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]\n"\
-		"palette     = $(GRF_PALETTE)\n"\
-		"\n"\
-		"[files]\n"\
-		$(join $(foreach var,$(FILETYPE),"$(var)\t" ), $(foreach var,$(FILENAMES),"=\t$(var).grf\n"))"\n" \
-		"[md5s]" > $(OBG_FILE)
-	for i in $(FILENAMES); do echo "$$i.grf = "`$(MD5SUM) $$i.grf | cut -f1 -d\  ` >> $(OBG_FILE); done
-	@echo -e \
-		"\n[origin]\n"\
-		"$(GRF_ORIGIN)\n"\
-		 >> $(OBG_FILE)
+	@echo "[metadata]" > $(OBG_FILE)
+	@echo "name        = $(GRF_NAME)" > $(OBG_FILE)
+	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
+	@echo "version     = $(GRF_REVISION)" >> $(OBG_FILE)
+	@echo "description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]" >> $(OBG_FILE)
+	@echo "palette     = $(GRF_PALETTE)" >> $(OBG_FILE)
+
+	@echo "" >> $(OBG_FILE)
+	@echo "[files]" >> $(OBG_FILE)
+	@for i in $(subst =, ,$(join $(foreach var,$(FILETYPE),"$(var)=" ), $(foreach var,$(GRF_FILENAMES),"$(var)"))); do printf "%-8s = %s\n" $$i >> $(OBG_FILE); done
+
+	@echo "" >> $(OBG_FILE)
+	@echo "[md5s]" >> $(OBG_FILE)
+	@for i in $(GRF_FILENAMES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $(OBG_FILE); done
+
+	@echo "" >> $(OBG_FILE)
+	@echo "[origin]" >> $(OBG_FILE)
+	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
 	@echo "$(OBG_FILE) generated."
 	
 
