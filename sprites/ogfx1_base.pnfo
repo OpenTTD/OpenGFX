@@ -460,10 +460,9 @@
   962 sprites/pcx/gui04.pcx 578 3544 01 4 3 0 1
   963 sprites/pcx/gui04.pcx 594 3544 01 7 3 0 1
 
-//450 random thingy
-  450 sprites/pcx/trg1r.pcx 194 248 01 1 5 0 0
-
-//451-673 newspaper font including random thingies Darn random thingies!!
+  
+//450-673 newspaper font including random thingies Darn random thingies!!
+  514 sprites/pcx/gui04.pcx 562 3160 01 1 5 0 0
   515 sprites/pcx/gui04.pcx 578 3160 01 21 3 0 -2
   516 sprites/pcx/gui04.pcx 594 3160 01 21 7 0 -2
   517 sprites/pcx/gui04.pcx 610 3160 01 21 11 0 -2
