@@ -49,7 +49,7 @@ test :
 $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "Generating $(OBG_FILE)"
 	@echo "[metadata]" > $(OBG_FILE)
-	@echo "name        = $(GRF_NAME)" > $(OBG_FILE)
+	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
 	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
 	@echo "version     = $(GRF_REVISION)" >> $(OBG_FILE)
 	@echo "description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]" >> $(OBG_FILE)
