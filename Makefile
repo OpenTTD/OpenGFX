@@ -5,6 +5,22 @@ MAKEFILECONFIG=Makefile.config
 
 SHELL = /bin/sh
 
+# Add some OS detection and guess an install path (use the system's default)
+OSTYPE=$(shell uname -s)
+ifeq ($(OSTYPE),Linux)
+INSTALLDIR=$(HOME)/.openttd/data
+else 
+ifeq ($(OSTYPE),Darwin)
+INSTALLDIR=$(HOME)/Documents/OpenTTD/data
+else
+ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
+INSTALLDIR=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data
+else
+INSTALLDIR=
+endif
+endif
+endif
+
 GRF_REVISION = $(shell hg parent --template="{rev}\n")
 
 include ${MAKEFILECONFIG}
