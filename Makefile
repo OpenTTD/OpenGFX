@@ -21,10 +21,6 @@ REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  
 
 -include ${MAKEFILELOCAL}
 
-GRF_BUILDNAME= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
-GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
-DIR_NAME     = $(GRF_NAME)-$(GRF_BUILDNAME)
-TAR_FILENAME = $(DIR_NAME).$(TAR_SUFFIX)
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
@@ -44,6 +40,8 @@ test :
 	@echo "nfo files:                    $(NFO_FILENAMES)"
 	@echo "pnfo files:                   $(PNFO_FILENAMES)"
 	@echo "Bundle files:                 $(BUNDLE_FILES)"
+	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
+	@echo "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
 	@echo "===="
 
 $(OBG_FILE) : $(GRF_FILENAMES)
@@ -102,35 +100,56 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 #	@echo	
 		
 # Clean the source tree
+# Clean the source tree
 clean:
-	@echo "Cleaning source tree"
-	@-rm -rf *.bak *.orig log $(NFO_FILENAMES) $(GRF_FILENAMES) $(wildcard *.$(TAR_SUFFIX)) $(addsuffix /.*orig,$(MAINDIRS)) $(GRF_NAME)-$(GRF_NIGHTLYNAME)-r* $(OBG_FILE)
-	@echo
-
-
-$(DIR_NAME): $(BUNDLE_FILES)
-	@-mkdir $@ 2>/dev/null
-	@-for i in $(REPO_DIRS); do [ ! -e $@/$$i ] && mkdir $@/$$i 2>/dev/null; done
-	@echo $(BUNDLE_FILES)
-	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done
+	@echo "Cleaning source tree:"
+	@echo "Remove backups:"
+	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).*
 	
-tar: $(BUNDLE_FILES) $(DIR_NAME)
-	@echo "Making tar for use ingame"
-	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(DIR_NAME)
-zip : $(DIR_NAME)
-	@echo "creating zip archive"
+$(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
+	@echo "Creating dir $@."
+	@-mkdir $@ 2>/dev/null
+	@-rm $@/* 2>/dev/null
+	@echo "Copying files: $(BUNDLE_FILES)"
+	@-for i in $(BUNDLE_FILES); do cp $$i $@; done	
+#	Uncomment that line, when docs/readme.txt exists which automatically can be updated wrt version
+#	@-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" > $@/$(notdir $(READMEFILE))
+bundle: $(DIR_NIGHTLY)
+
+%.$(TAR_SUFFIX): % $(BUNDLE_FILES)
+	# Create the release bundle with all files in one tar
+	@echo "Basename: $(basename $@) (and $(DIR_NIGHTLY) and $(DIR_RELEASE))"
+	$(TAR) $(TAR_FLAGS) $@ $(basename $@)
+	@echo "Creating tar for publication"
+	@echo
+bundle_tar: $(TAR_FILENAME)
+
+bundle_zip: $(ZIP_FILENAME)
+$(ZIP_FILENAME): $(DIR_NAME)
+	@echo "creating zip'ed tar archive"
 	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
-bzip: tar
+
+bundle_bzip: $(BZIP_FILENAME)
+$(BZIP_FILENAME): $(TAR_FILENAME)
 	@echo "creating bzip2'ed tar archive"
 	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
 
-bundle: $(DIR_NAME) tar bzip zip
-	@echo "Creating bundle."
-
 # Installation process
-install: tar
+install: $(TAR_FILENAME) $(INSTALLDIR)
 	@echo "Installing grf to $(INSTALLDIR)"
-	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
+	-cp $(TAR_FILENAME) $(INSTALLDIR)
 	@echo
+	
+release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
+	@echo "Creating release bundle $(DIR_RELEASE) and tar"
+release-install: release
+	@echo "Installing $(DIR_RELEASE) to $(INSTALLDIR)"
+	-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
+	@echo
+release_zip: $(DIR_RELEASE)
+	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $@
+	
+$(INSTALLDIR):
+	@echo "$(error Installation dir does not exist. Check your makefile.local)"
 	
 remake: clean all
