@@ -1678,72 +1678,77 @@
   624 sprites/pcx/openttdw-r14502.pcx 66 440 01 21 12 -9 -19
   625 sprites/pcx/openttdw-r14502.pcx 98 440 01 24 9 -6 -22
 
-//PBS
- 1219 sprites/pcx/infra08.pcx 642 6536 01 15 4 -1 -13
- 1220 sprites/pcx/infra08.pcx 658 6536 01 15 4 -1 -13
- 1221 sprites/pcx/infra08.pcx 674 6536 01 15 4 -1 -13
- 1222 sprites/pcx/infra08.pcx 690 6536 01 15 4 -1 -13
- 1223 sprites/pcx/infra08.pcx 706 6536 01 15 4 -1 -13
- 1224 sprites/pcx/infra08.pcx 722 6536 01 15 4 -1 -13
- 1225 sprites/pcx/infra08.pcx 738 6536 01 15 4 -1 -13
- 1226 sprites/pcx/infra08.pcx 754 6536 01 15 4 -1 -13
- 1227 sprites/pcx/infra08.pcx 770 6536 01 15 5 -1 -13
- 1228 sprites/pcx/infra08.pcx 786 6536 01 15 5 -1 -13
- 1229 sprites/pcx/infra08.pcx 2 6584 01 15 5 -1 -13
- 1230 sprites/pcx/infra08.pcx 18 6584 01 15 5 -1 -13
- 1231 sprites/pcx/infra08.pcx 34 6584 01 15 4 -1 -13
- 1232 sprites/pcx/infra08.pcx 50 6584 01 15 4 -1 -13
- 1233 sprites/pcx/infra08.pcx 66 6584 01 15 4 -1 -13
- 1234 sprites/pcx/infra08.pcx 82 6584 01 15 4 -1 -13
+//PBS standard
+ 1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
+ 1220 sprites/pcx/signals_pbs.pcx 166 6 01 22 5 -2 -20
+ 1221 sprites/pcx/signals_pbs.pcx 182 6 01 22 4 -1 -20
+ 1222 sprites/pcx/signals_pbs.pcx 198 6 01 22 4 -1 -20
+ 1223 sprites/pcx/signals_pbs.pcx 214 6 01 22 4 -1 -20
+ 1224 sprites/pcx/signals_pbs.pcx 230 6 01 22 4 -1 -20
+ 1225 sprites/pcx/signals_pbs.pcx 246 6 01 22 5 -1 -20
+ 1226 sprites/pcx/signals_pbs.pcx 262 6 01 22 5 -1 -20
+ 1227 sprites/pcx/signals_pbs.pcx 278 6 01 22 5 -1 -20
+ 1228 sprites/pcx/signals_pbs.pcx 294 6 01 22 5 -1 -20
+ 1229 sprites/pcx/signals_pbs.pcx 310 6 01 22 5 -2 -20
+ 1230 sprites/pcx/signals_pbs.pcx 326 6 01 22 5 -2 -20
+ 1231 sprites/pcx/signals_pbs.pcx 341 6 01 22 6 -3 -20
+ 1232 sprites/pcx/signals_pbs.pcx 357 6 01 22 6 -3 -20
+ 1233 sprites/pcx/signals_pbs.pcx 373 6 01 22 6 -3 -20
+ 1234 sprites/pcx/signals_pbs.pcx 389 6 01 22 6 -3 -20
 
- 1289 sprites/pcx/infra08.pcx 162 6616 01 21 4 -1 -19
- 1290 sprites/pcx/infra08.pcx 178 6616 01 21 4 -1 -19
- 1291 sprites/pcx/infra08.pcx 194 6616 01 21 4 -1 -19
- 1292 sprites/pcx/infra08.pcx 210 6616 01 21 4 -1 -19
- 1293 sprites/pcx/infra08.pcx 226 6616 01 21 4 -1 -19
- 1294 sprites/pcx/infra08.pcx 242 6616 01 21 4 -1 -19
- 1295 sprites/pcx/infra08.pcx 258 6616 01 21 4 -1 -19
- 1296 sprites/pcx/infra08.pcx 274 6616 01 21 4 -1 -19
- 1297 sprites/pcx/infra08.pcx 290 6616 01 21 5 -1 -19
- 1298 sprites/pcx/infra08.pcx 306 6616 01 21 5 -1 -19
- 1299 sprites/pcx/infra08.pcx 322 6616 01 21 5 -2 -19
- 1300 sprites/pcx/infra08.pcx 338 6616 01 21 5 -2 -19
- 1301 sprites/pcx/infra08.pcx 354 6616 01 21 6 -2 -19
- 1302 sprites/pcx/infra08.pcx 370 6616 01 21 6 -2 -19
- 1303 sprites/pcx/infra08.pcx 386 6616 01 21 6 -2 -19
- 1304 sprites/pcx/infra08.pcx 402 6616 01 21 6 -2 -19
- 1305 sprites/pcx/infra08.pcx 418 6616 01 21 4 -1 -19
- 1306 sprites/pcx/infra08.pcx 434 6616 01 21 4 -1 -19
- 1307 sprites/pcx/infra08.pcx 450 6616 01 21 4 -1 -19
- 1308 sprites/pcx/infra08.pcx 466 6616 01 21 4 -1 -19
- 1309 sprites/pcx/infra08.pcx 482 6616 01 21 4 -1 -19
- 1310 sprites/pcx/infra08.pcx 498 6616 01 21 4 -1 -19
- 1311 sprites/pcx/infra08.pcx 514 6616 01 21 4 -1 -19
- 1312 sprites/pcx/infra08.pcx 530 6616 01 21 4 -1 -19
- 1313 sprites/pcx/infra08.pcx 546 6616 01 21 5 -1 -19
- 1314 sprites/pcx/infra08.pcx 562 6616 01 21 5 -1 -19
- 1315 sprites/pcx/infra08.pcx 578 6616 01 21 5 -2 -19
- 1316 sprites/pcx/infra08.pcx 594 6616 01 21 5 -2 -19
- 1317 sprites/pcx/infra08.pcx 610 6616 01 21 6 -2 -19
- 1318 sprites/pcx/infra08.pcx 626 6616 01 21 6 -2 -19
- 1319 sprites/pcx/infra08.pcx 642 6616 01 21 6 -2 -19
- 1320 sprites/pcx/infra08.pcx 658 6616 01 21 6 -2 -19
- 1321 sprites/pcx/infra08.pcx 674 6616 01 21 4 -1 -19
- 1322 sprites/pcx/infra08.pcx 690 6616 01 21 4 -1 -19
- 1323 sprites/pcx/infra08.pcx 706 6616 01 21 4 -1 -19
- 1324 sprites/pcx/infra08.pcx 722 6616 01 21 4 -1 -19
- 1325 sprites/pcx/infra08.pcx 738 6616 01 21 4 -1 -19
- 1326 sprites/pcx/infra08.pcx 754 6616 01 21 4 -1 -19
- 1327 sprites/pcx/infra08.pcx 770 6616 01 21 4 -1 -19
- 1328 sprites/pcx/infra08.pcx 786 6616 01 21 4 -1 -19
- 1329 sprites/pcx/infra08.pcx 2 6648 01 21 5 -1 -19
- 1330 sprites/pcx/infra08.pcx 18 6648 01 21 5 -1 -19
- 1331 sprites/pcx/infra08.pcx 34 6648 01 21 5 -2 -19
- 1332 sprites/pcx/infra08.pcx 50 6648 01 21 5 -2 -19
- 1333 sprites/pcx/infra08.pcx 66 6648 01 21 6 -2 -19
- 1334 sprites/pcx/infra08.pcx 82 6648 01 21 6 -2 -19
- 1335 sprites/pcx/infra08.pcx 98 6648 01 21 6 -2 -19
- 1336 sprites/pcx/infra08.pcx 114 6648 01 21 6 -2 -19
+//PBS oneway
+ 1289 sprites/pcx/signals_pbs.pcx 150 36 01 22 5 -2 -20
+ 1290 sprites/pcx/signals_pbs.pcx 166 36 01 22 5 -2 -20
+ 1291 sprites/pcx/signals_pbs.pcx 182 36 01 22 4 -1 -20
+ 1292 sprites/pcx/signals_pbs.pcx 198 36 01 22 4 -1 -20
+ 1293 sprites/pcx/signals_pbs.pcx 214 36 01 22 4 -1 -20
+ 1294 sprites/pcx/signals_pbs.pcx 230 36 01 22 4 -1 -20
+ 1295 sprites/pcx/signals_pbs.pcx 246 36 01 22 5 -1 -20
+ 1296 sprites/pcx/signals_pbs.pcx 262 36 01 22 5 -1 -20
+ 1297 sprites/pcx/signals_pbs.pcx 278 36 01 22 5 -1 -20
+ 1298 sprites/pcx/signals_pbs.pcx 294 36 01 22 5 -1 -20
+ 1299 sprites/pcx/signals_pbs.pcx 310 36 01 22 5 -2 -20
+ 1300 sprites/pcx/signals_pbs.pcx 326 36 01 22 5 -2 -20
+ 1301 sprites/pcx/signals_pbs.pcx 341 36 01 22 6 -3 -20
+ 1302 sprites/pcx/signals_pbs.pcx 357 36 01 22 6 -3 -20
+ 1303 sprites/pcx/signals_pbs.pcx 373 36 01 22 6 -3 -20
+ 1304 sprites/pcx/signals_pbs.pcx 389 36 01 22 6 -3 -20
+
+//PBS standard toyland
+ 1305 sprites/pcx/signals_pbs.pcx 150 69 01 22 5 -2 -20
+ 1306 sprites/pcx/signals_pbs.pcx 166 69 01 22 5 -2 -20
+ 1307 sprites/pcx/signals_pbs.pcx 182 69 01 22 4 -1 -20
+ 1308 sprites/pcx/signals_pbs.pcx 198 69 01 22 4 -1 -20
+ 1309 sprites/pcx/signals_pbs.pcx 214 69 01 22 4 -1 -20
+ 1310 sprites/pcx/signals_pbs.pcx 230 69 01 22 4 -1 -20
+ 1311 sprites/pcx/signals_pbs.pcx 246 69 01 22 5 -1 -20
+ 1312 sprites/pcx/signals_pbs.pcx 262 69 01 22 5 -1 -20
+ 1313 sprites/pcx/signals_pbs.pcx 278 69 01 22 5 -1 -20
+ 1314 sprites/pcx/signals_pbs.pcx 294 69 01 22 5 -1 -20
+ 1315 sprites/pcx/signals_pbs.pcx 310 69 01 22 5 -2 -20
+ 1316 sprites/pcx/signals_pbs.pcx 326 69 01 22 5 -2 -20
+ 1317 sprites/pcx/signals_pbs.pcx 341 69 01 22 6 -3 -20
+ 1318 sprites/pcx/signals_pbs.pcx 357 69 01 22 6 -3 -20
+ 1319 sprites/pcx/signals_pbs.pcx 373 69 01 22 6 -3 -20
+ 1320 sprites/pcx/signals_pbs.pcx 389 69 01 22 6 -3 -20
+
+//PBS oneway toyland
+ 1321 sprites/pcx/signals_pbs.pcx 150 100 01 22 5 -2 -20
+ 1322 sprites/pcx/signals_pbs.pcx 166 100 01 22 5 -2 -20
+ 1323 sprites/pcx/signals_pbs.pcx 182 100 01 22 4 -1 -20
+ 1324 sprites/pcx/signals_pbs.pcx 198 100 01 22 4 -1 -20
+ 1325 sprites/pcx/signals_pbs.pcx 214 100 01 22 4 -1 -20
+ 1326 sprites/pcx/signals_pbs.pcx 230 100 01 22 4 -1 -20
+ 1327 sprites/pcx/signals_pbs.pcx 246 100 01 22 5 -1 -20
+ 1328 sprites/pcx/signals_pbs.pcx 262 100 01 22 5 -1 -20
+ 1329 sprites/pcx/signals_pbs.pcx 278 100 01 22 5 -1 -20
+ 1330 sprites/pcx/signals_pbs.pcx 294 100 01 22 5 -1 -20
+ 1331 sprites/pcx/signals_pbs.pcx 310 100 01 22 5 -2 -20
+ 1332 sprites/pcx/signals_pbs.pcx 326 100 01 22 5 -2 -20
+ 1333 sprites/pcx/signals_pbs.pcx 341 100 01 22 6 -3 -20
+ 1334 sprites/pcx/signals_pbs.pcx 357 100 01 22 6 -3 -20
+ 1335 sprites/pcx/signals_pbs.pcx 373 100 01 22 6 -3 -20
+ 1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
 
 //PBS Semaphores
   690 sprites/pcx/openttdw-r14502.pcx 338 488 01 21 10 -7 -19
