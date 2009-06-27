@@ -102,6 +102,7 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	-$(NFORENUM) $(NFORENUM_FLAGS) $@
 	
 %.pnfo:
+	@echo "$<"
 
 # Prepare the nfo file	
 #$(PNFO_FILENAMES) : 
