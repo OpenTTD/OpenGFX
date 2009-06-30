@@ -88,7 +88,6 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "$@"
 	@echo "$?"
 	@echo "Compiling $@"
-#	for i in $(FILENAMES); do $(GRFCODEC) ${GRFCODEC_FLAGS} $$i.nfo; done
 	-$(GRFCODEC) $(GRFCODEC_FLAGS) $(notdir $<)
 	@echo
 	
@@ -98,30 +97,15 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "Preparing $?"
 	cp $< $@
 	@echo "NFORENUM processing $@"
-#	-for i in $(FILENAMES); do $(NFORENUM) ${NFORENUM_FLAGS} $$i.nfo; done
 	-$(NFORENUM) $(NFORENUM_FLAGS) $@
 	
 %.pnfo:
-	@echo "$<"
 
-# Prepare the nfo file	
-#$(PNFO_FILENAMES) : 
-#	@echo "Preparing $@"
-#	cp $@ $(subst $@,.$(PNFO_SUFFIX),.$(NFO_SUFFIX))
-#	for i in $(FILENAMES); do cp $(SPRITEDIR)/$$i.pnfo $(SPRITEDIR)/$$i.nfo; done
-#	@echo "Adding version information to source..."
-#	@echo "Not yet implemented. Please check!"
-#	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
-# replace the place holders for version and name by the respective variables:
-#	sed s/{{VERSION}}/'$(GRF_VERSION)'/ $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre | sed s/{{NAME}}/'$(GRF_NAME)'/ > $(SPRITEDIR)/$(GRF_FILENAME).nfo
-#	@echo	
-		
-# Clean the source tree
 # Clean the source tree
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
-	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).*
+	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	@echo "Creating dir $@."
