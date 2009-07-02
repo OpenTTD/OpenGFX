@@ -680,30 +680,30 @@
    10 sprites/pcx/ToyRdDep.pcx 402 8 09 47 60 1 -32
 
 //601	760	160	Road trucks
-  601 sprites/pcx/trgtr.pcx 242 3160 01 18 8 -3 -10
-  602 sprites/pcx/trgtr.pcx 258 3160 09 16 20 -14 -7
-  603 sprites/pcx/trgtr.pcx 290 3160 01 12 28 -14 -6
-  604 sprites/pcx/trgtr.pcx 338 3160 09 16 20 -6 -7
-  605 sprites/pcx/trgtr.pcx 370 3160 01 18 8 -3 -10
-  606 sprites/pcx/trgtr.pcx 386 3160 09 16 20 -14 -7
-  607 sprites/pcx/trgtr.pcx 418 3160 01 12 28 -14 -6
-  608 sprites/pcx/trgtr.pcx 466 3160 09 16 20 -6 -7
-  609 sprites/pcx/trgtr.pcx 498 3160 01 18 8 -3 -10
-  610 sprites/pcx/trgtr.pcx 514 3160 09 16 20 -14 -7
-  611 sprites/pcx/trgtr.pcx 546 3160 01 12 28 -14 -6
-  612 sprites/pcx/trgtr.pcx 594 3160 09 16 20 -6 -7
-  613 sprites/pcx/trgtr.pcx 626 3160 01 18 8 -3 -10
-  614 sprites/pcx/trgtr.pcx 642 3160 09 16 20 -14 -7
-  615 sprites/pcx/trgtr.pcx 674 3160 01 12 28 -14 -6
-  616 sprites/pcx/trgtr.pcx 722 3160 09 16 20 -6 -7
-  617 sprites/pcx/trgtr.pcx 754 3160 01 18 8 -3 -10
-  618 sprites/pcx/trgtr.pcx 770 3160 09 16 20 -14 -7
-  619 sprites/pcx/trgtr.pcx 2 3224 01 12 28 -14 -6
-  620 sprites/pcx/trgtr.pcx 50 3224 09 16 20 -6 -7
-  621 sprites/pcx/trgtr.pcx 82 3224 01 18 8 -3 -10
-  622 sprites/pcx/trgtr.pcx 98 3224 09 16 20 -14 -7
-  623 sprites/pcx/trgtr.pcx 130 3224 01 12 28 -14 -6
-  624 sprites/pcx/trgtr.pcx 178 3224 09 16 20 -6 -7
+  601 sprites/pcx/egrvts.pcx 562 1656 01 18 8 -3 -10
+  602 sprites/pcx/egrvts.pcx 578 1656 09 16 20 -14 -7
+  603 sprites/pcx/egrvts.pcx 610 1656 01 12 28 -14 -6
+  604 sprites/pcx/egrvts.pcx 658 1656 09 16 20 -6 -7
+  605 sprites/pcx/egrvts.pcx 690 1656 01 18 8 -3 -10
+  606 sprites/pcx/egrvts.pcx 706 1656 09 16 20 -14 -7
+  607 sprites/pcx/egrvts.pcx 738 1656 01 12 28 -14 -6
+  608 sprites/pcx/egrvts.pcx 2 1688 09 16 20 -6 -7
+  609 sprites/pcx/egrvts.pcx 402 2568 01 18 8 -3 -10   // egrvts #2345 ff
+  610 sprites/pcx/egrvts.pcx 418 2568 09 16 20 -14 -7
+  611 sprites/pcx/egrvts.pcx 450 2568 01 12 28 -14 -6
+  612 sprites/pcx/egrvts.pcx 498 2568 09 16 20 -6 -7
+  613 sprites/pcx/egrvts.pcx 530 2568 01 18 8 -3 -10
+  614 sprites/pcx/egrvts.pcx 546 2568 09 16 20 -14 -7
+  615 sprites/pcx/egrvts.pcx 578 2568 01 12 28 -14 -6
+  616 sprites/pcx/egrvts.pcx 626 2568 09 16 20 -6 -7
+  617 sprites/pcx/egrvts.pcx 338 2696 01 18 8 -3 -10	// egrvts #2442 ff
+  618 sprites/pcx/egrvts.pcx 354 2696 09 16 20 -14 -7
+  619 sprites/pcx/egrvts.pcx 385 2696 01 12 28 -14 -6
+  620 sprites/pcx/egrvts.pcx 434 2696 09 16 20 -6 -7
+  621 sprites/pcx/egrvts.pcx 466 2696 01 18 8 -3 -10
+  622 sprites/pcx/egrvts.pcx 482 2696 09 16 20 -14 -7
+  623 sprites/pcx/egrvts.pcx 514 2696 01 12 28 -14 -6
+  624 sprites/pcx/egrvts.pcx 562 2696 09 16 20 -6 -7
   625 sprites/pcx/trgtr.pcx 210 3224 01 18 8 -3 -10
   626 sprites/pcx/trgtr.pcx 226 3224 09 16 20 -14 -7
   627 sprites/pcx/trgtr.pcx 258 3224 01 12 28 -14 -6
@@ -776,38 +776,38 @@
   694 sprites/pcx/trgtr.pcx 98 3320 09 16 20 -14 -7
   695 sprites/pcx/trgtr.pcx 130 3320 01 12 28 -14 -6
   696 sprites/pcx/trgtr.pcx 178 3320 09 16 20 -6 -7
-  697 sprites/pcx/trgtr.pcx 210 3320 01 18 8 -3 -10
-  698 sprites/pcx/trgtr.pcx 226 3320 09 16 22 -14 -7
-  699 sprites/pcx/trgtr.pcx 258 3320 01 12 28 -14 -6
-  700 sprites/pcx/trgtr.pcx 306 3320 09 16 22 -6 -7
-  701 sprites/pcx/trgtr.pcx 338 3320 01 18 8 -3 -10
-  702 sprites/pcx/trgtr.pcx 354 3320 09 16 22 -14 -7
-  703 sprites/pcx/trgtr.pcx 386 3320 01 12 28 -14 -6
-  704 sprites/pcx/trgtr.pcx 434 3320 09 16 22 -6 -7
-  705 sprites/pcx/trgtr.pcx 466 3320 01 18 8 -3 -10
-  706 sprites/pcx/trgtr.pcx 482 3320 09 16 22 -14 -7
-  707 sprites/pcx/trgtr.pcx 514 3320 01 12 28 -14 -6
-  708 sprites/pcx/trgtr.pcx 562 3320 09 16 22 -6 -7
-  709 sprites/pcx/trgtr.pcx 594 3320 01 18 8 -3 -10
-  710 sprites/pcx/trgtr.pcx 610 3320 09 16 22 -14 -7
-  711 sprites/pcx/trgtr.pcx 642 3320 01 12 28 -14 -6
-  712 sprites/pcx/trgtr.pcx 690 3320 09 16 22 -6 -7
-  713 sprites/pcx/trgtr.pcx 722 3320 01 18 8 -3 -10
-  714 sprites/pcx/trgtr.pcx 738 3320 09 16 22 -14 -7
-  715 sprites/pcx/trgtr.pcx 2 3352 01 12 28 -14 -6
-  716 sprites/pcx/trgtr.pcx 50 3352 09 16 22 -6 -7
-  717 sprites/pcx/trgtr.pcx 82 3352 01 18 8 -3 -10
-  718 sprites/pcx/trgtr.pcx 98 3352 09 16 22 -14 -7
-  719 sprites/pcx/trgtr.pcx 130 3352 01 12 28 -14 -6
-  720 sprites/pcx/trgtr.pcx 178 3352 09 16 22 -6 -7
-  721 sprites/pcx/trgtr.pcx 210 3352 01 18 8 -3 -10
-  722 sprites/pcx/trgtr.pcx 226 3352 09 16 22 -14 -7
-  723 sprites/pcx/trgtr.pcx 258 3352 01 12 28 -14 -6
-  724 sprites/pcx/trgtr.pcx 306 3352 09 16 22 -6 -7
-  725 sprites/pcx/trgtr.pcx 338 3352 01 18 8 -3 -10
-  726 sprites/pcx/trgtr.pcx 354 3352 09 16 22 -14 -7
-  727 sprites/pcx/trgtr.pcx 386 3352 01 12 28 -14 -6
-  728 sprites/pcx/trgtr.pcx 434 3352 09 16 22 -6 -7
+  697 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10 // egrvts #3667 ff
+  698 sprites/pcx/egrvts.pcx 34 4168 09 16 22 -14 -7   
+  699 sprites/pcx/egrvts.pcx 66 4168 01 12 28 -14 -6
+  700 sprites/pcx/egrvts.pcx 114 4168 09 16 22 -6 -7
+  701 sprites/pcx/egrvts.pcx 146 4168 01 18 8 -3 -10
+  702 sprites/pcx/egrvts.pcx 162 4168 09 16 22 -14 -7
+  703 sprites/pcx/egrvts.pcx 194 4168 01 12 28 -14 -6
+  704 sprites/pcx/egrvts.pcx 242 4168 09 16 22 -6 -7
+  705 sprites/pcx/egrvts.pcx 178 4328 01 18 8 -3 -10  // egrvts #3764 ff
+  706 sprites/pcx/egrvts.pcx 226 4328 09 16 22 -14 -7
+  707 sprites/pcx/egrvts.pcx 258 4328 01 12 28 -14 -6
+  708 sprites/pcx/egrvts.pcx 306 4328 09 16 22 -6 -7
+  709 sprites/pcx/egrvts.pcx 338 4328 01 18 8 -3 -10
+  710 sprites/pcx/egrvts.pcx 354 4328 09 16 22 -14 -7
+  711 sprites/pcx/egrvts.pcx 386 4328 01 12 28 -14 -6
+  712 sprites/pcx/egrvts.pcx 434 4328 09 16 22 -6 -7
+  713 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10 // egrvts #3667 ff
+  714 sprites/pcx/egrvts.pcx 34 4168 09 16 22 -14 -7   
+  715 sprites/pcx/egrvts.pcx 66 4168 01 12 28 -14 -6
+  716 sprites/pcx/egrvts.pcx 114 4168 09 16 22 -6 -7
+  717 sprites/pcx/egrvts.pcx 146 4168 01 18 8 -3 -10
+  718 sprites/pcx/egrvts.pcx 162 4168 09 16 22 -14 -7
+  719 sprites/pcx/egrvts.pcx 194 4168 01 12 28 -14 -6
+  720 sprites/pcx/egrvts.pcx 242 4168 09 16 22 -6 -7
+  721 sprites/pcx/egrvts.pcx 720 4264 01 18 8 -3 -10  // egrvts #3764 ff
+  722 sprites/pcx/egrvts.pcx 738 4264 09 16 22 -14 -7
+  723 sprites/pcx/egrvts.pcx 2 4296 01 12 28 -14 -6
+  724 sprites/pcx/egrvts.pcx 50 4296 09 16 22 -6 -7
+  725 sprites/pcx/egrvts.pcx 82 4296 01 18 8 -3 -10
+  726 sprites/pcx/egrvts.pcx 98 4296 09 16 22 -14 -7
+  727 sprites/pcx/egrvts.pcx 130 4296 01 12 28 -14 -6
+  728 sprites/pcx/egrvts.pcx 178 4296 09 16 22 -6 -7
   729 sprites/pcx/trgtr.pcx 466 3352 01 18 8 -3 -10
   730 sprites/pcx/trgtr.pcx 482 3352 09 16 22 -14 -7
   731 sprites/pcx/trgtr.pcx 514 3352 01 12 28 -14 -6
