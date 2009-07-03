@@ -720,22 +720,22 @@
   638 sprites/pcx/egrvts.pcx 450 4360 09 16 20 -14 -7
   639 sprites/pcx/egrvts.pcx 482 4360 01 12 28 -14 -6
   640 sprites/pcx/egrvts.pcx 530 4360 09 16 20 -6 -7
-  641 sprites/pcx/trgtr.pcx 722 3224 01 18 8 -3 -10
-  642 sprites/pcx/trgtr.pcx 738 3224 09 16 20 -14 -7
-  643 sprites/pcx/trgtr.pcx 2 3256 01 12 28 -14 -6
-  644 sprites/pcx/trgtr.pcx 50 3256 09 16 20 -6 -7
-  645 sprites/pcx/trgtr.pcx 82 3256 01 18 8 -3 -10
-  646 sprites/pcx/trgtr.pcx 98 3256 09 16 20 -14 -7
-  647 sprites/pcx/trgtr.pcx 130 3256 01 12 28 -14 -6
-  648 sprites/pcx/trgtr.pcx 178 3256 09 16 20 -6 -7
-  649 sprites/pcx/trgtr.pcx 210 3256 01 18 8 -3 -10
-  650 sprites/pcx/trgtr.pcx 226 3256 09 16 20 -14 -7
-  651 sprites/pcx/trgtr.pcx 258 3256 01 12 28 -14 -6
-  652 sprites/pcx/trgtr.pcx 306 3256 09 16 20 -6 -7
-  653 sprites/pcx/trgtr.pcx 338 3256 01 18 8 -3 -10
-  654 sprites/pcx/trgtr.pcx 354 3256 09 16 20 -14 -7
-  655 sprites/pcx/trgtr.pcx 386 3256 01 12 28 -14 -6
-  656 sprites/pcx/trgtr.pcx 434 3256 09 16 20 -6 -7
+  641 sprites/pcx/egrvts.pcx 562 2760 01 18 8 -3 -10
+  642 sprites/pcx/egrvts.pcx 578 2760 09 16 20 -14 -7
+  643 sprites/pcx/egrvts.pcx 609 2760 01 12 28 -14 -6
+  644 sprites/pcx/egrvts.pcx 658 2760 09 16 20 -6 -7
+  645 sprites/pcx/egrvts.pcx 690 2760 01 18 8 -3 -10
+  646 sprites/pcx/egrvts.pcx 706 2760 09 16 20 -14 -7
+  647 sprites/pcx/egrvts.pcx 738 2760 01 12 28 -14 -6
+  648 sprites/pcx/egrvts.pcx 2 2792 09 16 20 -6 -7
+  649 sprites/pcx/egrvts.pcx 498 2856 01 18 8 -3 -10
+  650 sprites/pcx/egrvts.pcx 512 2856 09 16 20 -14 -7
+  651 sprites/pcx/egrvts.pcx 546 2856 01 12 28 -14 -6
+  652 sprites/pcx/egrvts.pcx 594 2856 09 16 20 -6 -7
+  653 sprites/pcx/egrvts.pcx 626 2856 01 18 8 -3 -10
+  654 sprites/pcx/egrvts.pcx 642 2856 09 16 20 -14 -7
+  655 sprites/pcx/egrvts.pcx 674 2856 01 12 28 -14 -6
+  656 sprites/pcx/egrvts.pcx 722 2856 09 16 20 -6 -7
   657 sprites/pcx/trgtr.pcx 466 3256 01 18 8 -3 -10
   658 sprites/pcx/trgtr.pcx 482 3256 09 16 20 -14 -7
   659 sprites/pcx/trgtr.pcx 514 3256 01 12 28 -14 -6
