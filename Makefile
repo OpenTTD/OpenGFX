@@ -96,6 +96,7 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo
 	
 # NFORENUM process copy of the NFO
+.SECONDARY: %.nfo
 .PRECIOUS: %.nfo
 %.nfo : %.pnfo
 	@echo "this is $?, all is $@, dependency $<"
