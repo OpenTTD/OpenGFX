@@ -108,7 +108,7 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
-	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak
+	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	@echo "Creating dir $@."
