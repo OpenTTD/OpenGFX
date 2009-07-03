@@ -118,7 +118,7 @@ $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	@echo "Copying files: $(BUNDLE_FILES)"
 	@-for i in $(BUNDLE_FILES); do cp $$i $@; done	
 #	Uncomment that line, when docs/readme.txt exists which automatically can be updated wrt version
-#	@-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" > $@/$(notdir $(READMEFILE))
+	@-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" > $@/$(notdir $(READMEFILE))
 bundle: $(DIR_NIGHTLY)
 
 %.$(TAR_SUFFIX): % $(BUNDLE_FILES)
