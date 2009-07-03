@@ -41,6 +41,10 @@ REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
 
+vpath
+vpath %.pfno $(SPRITEDIR)
+vpath %.nfo $(SPRITEDIR)
+
 # Now, the fun stuff:
 
 # Target for all:
@@ -88,10 +92,11 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "$@"
 	@echo "$?"
 	@echo "Compiling $@"
-	-$(GRFCODEC) $(GRFCODEC_FLAGS) $(notdir $<)
+	-$(GRFCODEC) $(GRFCODEC_FLAGS) $@
 	@echo
 	
 # NFORENUM process copy of the NFO
+.PRECIOUS: %.nfo
 %.nfo : %.pnfo
 	@echo "this is $?, all is $@, dependency $<"
 	@echo "Preparing $?"
@@ -99,8 +104,6 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "NFORENUM processing $@"
 	-$(NFORENUM) $(NFORENUM_FLAGS) $@
 	
-%.pnfo:
-
 # Clean the source tree
 clean:
 	@echo "Cleaning source tree:"
