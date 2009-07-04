@@ -162,7 +162,8 @@ OpenGFX is created by the following people (in alphabetical order):
 ●     lead@inbox (Serge Saphronov) 
 ●     LordAzamath (Johannes Madis Aasmäe) 
 ●     michael blunck (Michael Blunck) 
-●     mph (Matthew Haines)●     Mr. X 
+●     mph (Matthew Haines)
+●     Mr. X 
 ●     PikkaBird (David Dallaston)
 ●     planetmaker 
 ●     Purno (Mark Leppen) 
