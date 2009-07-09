@@ -5059,26 +5059,19 @@
   253 sprites/pcx/buildings.pcx 2 1688 09 87 66 -31 -56
   254 sprites/pcx/buildings.pcx 82 1688 09 87 66 -31 -56
 
- 4480 sprites/pcx/trg1r.pcx 402 15784 03 31 64 -31 0
- 4481 sprites/pcx/trg1r.pcx 482 15784 03 18 52 -24 -5
- 4482 sprites/pcx/trg1r.pcx 546 15784 03 98 50 -25 -68
-  336 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
- 4484 sprites/pcx/trg1r.pcx 690 15784 09 95 50 -25 -65
-  336 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
-  336 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
- 4487 sprites/pcx/trg1r.pcx 162 15896 03 16 16 1 15
- 4488 sprites/pcx/trg1r.pcx 194 15896 03 31 48 -15 -8
- 4489 sprites/pcx/trg1r.pcx 258 15896 03 91 20 1 -60
- 4490 sprites/pcx/trg1r.pcx 290 15896 03 105 52 -19 -82
- 4491 sprites/pcx/trg1r.pcx 354 15896 09 91 20 1 -60
- 4492 sprites/pcx/trg1r.pcx 386 15896 09 105 52 -19 -82
-
-
-
-
-
-
-
+ 4480 sprites/pcx/morebuilding2.pcx 571 2 03 31 64 -31 0
+ 4481 sprites/pcx/morebuilding2.pcx 571 2 03 1 1 0 0
+ 4482 sprites/pcx/morebuilding2.pcx 646 2 03 87 64 -31 -56
+ 4483 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
+ 4484 sprites/pcx/morebuilding2.pcx 714 2 09 87 64 -31 -56
+ 4485 sprites/pcx/morebuilding2.pcx 2 2 09 31 64 -31 0
+ 4486 sprites/pcx/morebuilding2.pcx 68 2 09 31 64 -31 0
+ 4487 sprites/pcx/morebuilding2.pcx 2 68 03 31 64 -31 0
+ 4488 sprites/pcx/morebuilding2.pcx 68 68 03 31 64 -31 0
+ 4489 sprites/pcx/morebuilding2.pcx 358 2 03 114 64 -31 -83
+ 4490 sprites/pcx/morebuilding2.pcx 284 2 03 114 64 -31 -84
+ 4491 sprites/pcx/morebuilding2.pcx 212 2 09 114 64 -31 -83
+ 4492 sprites/pcx/morebuilding2.pcx 138 2 09 114 64 -31 -84
 
 
 //4493-4511 snow stage 1
@@ -5166,12 +5159,6 @@
   795 sprites/pcx/terrain04.pcx 402 4952 09 31 64 -31 -8
 
 
-
-
-
-
-
-
 //4569-4587 snow buildings
 //snow equiv of 1440-1442 (office block)
    74 sprites/pcx/temprtbuilds.pcx 578 568 09 77 60 -30 -48
@@ -5202,18 +5189,10 @@
  4583 sprites/pcx/arctichotel.pcx 128 80 09 46 32 -31 -15
  4584 sprites/pcx/arctichotel.pcx 176 80 09 64 64 -31 -33
 //snow equiv of 4480-4482 (offices)
- 4585 sprites/pcx/trg1r.pcx 466 16584 09 95 50 -25 -65
+ 4585 sprites/pcx/morebuilding2.pcx 784 2 09 87 64 -31 -56
 //snow equiv of 4485-4492 (offices)
- 4586 sprites/pcx/trg1r.pcx 530 16584 09 91 20 1 -60
- 4587 sprites/pcx/trg1r.pcx 562 16584 09 105 52 -19 -82
-
-
-
-
-
-
-
-
+ 4586 sprites/pcx/morebuilding2.pcx 504 2 09 114 64 -31 -83
+ 4587 sprites/pcx/morebuilding2.pcx 430 2 09 114 64 -31 -84
 
 
 //4588-4625 tropic buildings

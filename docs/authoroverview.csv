@@ -121,8 +121,8 @@ ogfx1_base;2708;2723;16;Truck station;FooBar, Zephyris;FooBar;;1
 ogfx1_base;2724;2726;3;GUI airport and road;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;2727;2732;6;Docks;FooBar, LordAzamath, Red*Star;FooBar;;1
 ogfx1_base;2733;2828;96;Rail wagons;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
-ogfx1_base;2829;2833;4;Monolev passenger waggon;Born Acorn;Ammler;;
-ogfx1_base;2834;2904;172;Monolev wagons;Zephyris;buttercup;;1
+ogfx1_base;2829;2832;4;Monolev passenger carriage;Born Acorn;Ammler;;1
+ogfx1_base;2833;2904;72;Monolev wagons;Zephyris;buttercup;;1
 ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
 ogfx1_base;2981;2992;12;Monorail engines;Born Acorn;Ammler;102;1
 ogfx1_base;2993;3016;24;Maglev engines;Born Acorn;Ammler;102;1
@@ -174,8 +174,8 @@ ogfx1_base;4462;4465;4;Arctic church (has snow equivalent);;;96;0
 ogfx1_base;4466;4470;5;Houses;Zephyris;buttercup;;1
 ogfx1_base;4471;4476;6;Arctic hotel (has snow equivalent);northstar2;FooBar;97;1
 ogfx1_base;4477;4479;3;Houses;Zephyris;buttercup;;1
-ogfx1_base;4480;4484;5;Office block (has snow equivalent);;;98;0
-ogfx1_base;4485;4492;8;Office block (has snow equivalent);;;98;0
+ogfx1_base;4480;4484;5;Office block (has snow equivalent);Born Acorn;FooBar;98;1
+ogfx1_base;4485;4492;8;Office block (has snow equivalent);Born Acorn;FooBar;98;1
 ogfx1_base;4493;4511;19;Snow stage 1;Zephyris;Zephyris;;1
 ogfx1_base;4512;4530;19;Snow stage 2;Zephyris;Zephyris;;1
 ogfx1_base;4531;4549;19;Snow stage 3;Zephyris;Zephyris;;1
@@ -188,10 +188,10 @@ ogfx1_base;4577;4578;2;Snow buildings;Zephyris;buttercup;;1
 ogfx1_base;4579;4579;1;Snow arctic church (snow equivalent of 1.4465);;;101;0
 ogfx1_base;4580;4582;3;Snow buildings;Zephyris;buttercup;;1
 ogfx1_base;4583;4584;2;Snow arctic hotel (snow equivalent of 1.4475-1.4476);northstar2;FooBar;103;1
-ogfx1_base;4585;4585;1;Snow office block (snow equivalent of 1.4484);;;103;0
-ogfx1_base;4586;4587;2;Snow office block (snow equivalent of 1.4491-1.4492);;;103;0
+ogfx1_base;4585;4585;1;Snow office block (snow equivalent of 1.4484);Born Acorn;FooBar;103;1
+ogfx1_base;4586;4587;2;Snow office block (snow equivalent of 1.4491-1.4492);Born Acorn;FooBar;103;1
 ogfx1_base;4588;4603;16;Tropical houses;Zephyris;Zephyris;;1
-ogfx1_base;4604;4604;1;Tropical "saloon" building;;;150;0
+ogfx1_base;4604;4604;1;Tropical church;;;150;0
 ogfx1_base;4605;4613;9;Tropical houses;Zephyris;Zephyris;;1
 ogfx1_base;4614;4619;6;Modern office block;;;104;0
 ogfx1_base;4620;4622;3;Tropical houses;Zephyris;Zephyris;;1
