@@ -1,3 +1,29 @@
+OpenGFX 0.1.0-alpha5
+
+Bugfixes:
+- Close button alignment
+- Wrong palette for font_addl and medfontcond
+- Cropped aircraft sprites to reduce hangar window size
+- Additional coast tile graphics now coded to spec
+- made "space" character of newspaper font transparent (hopefully)
+- Fix: small submarine sprite 1.3911 ypos
+- Fix (r42): Re-fix Bug #87: space-character of newspaper font
+- Fix [Bug #76]: sprite misalignment of 4226 of ogfx1.nfo
+
+Features (Additions):
+- Add resize windows towards the left sprite
+- Feature #102: Born Acorn's monolev engines and passenger wagon. (finally ;-)
+- Feature add two toyland buildings (4632, 4638)
+- Feature (#97): Arctic hotel (sprites by northstar2)
+- Feature #95: base sprites 4439, 4440, 4441. Feature #99: snow base sprite 4575.
+- Feature #78: PBS graphics for standard climate.
+- Feature #78: PBS graphics for toyland climate
+- Feature: Add toyland bus, sugar, battery and lemonade trucks (part of issue #124)
+- Feature: Implement Cola truck in toyland. (Part of issue #124)
+- Feature: Implement Candy floss truck in toyland. (Part of issue #124)
+- Feature: add a OS-independent makefile system (various revisions)
+- Feature: Arctic church (Gen.Sniper) (closes #96, closes #101)
+
 OpenGFX 0.1.0-alpha4.2
 -----------------
 Bugfixes:
