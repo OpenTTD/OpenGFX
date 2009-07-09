@@ -147,34 +147,37 @@ The OpenGFX source is available in a Mercurial repository. You can do an anonymo
 7 Credits
 =========
 
-OpenGFX is created by the following people (in alphabetical order): 
+OpenGFX is created by the following people (in reverse alphabetical order): 
 
-●     Ammler (Marcel Gmür) 
-●     andythenorth (Andrew Parkhouse) 
-●     athanasios (Athanasios Arthur Palaiologos) 
-●     Ben_Robbins_ (Ben Robbins) 
-●     Bilbo 
-●     bubersson (Petr Mikota) 
-●     buttercup 
-●     DanMacK (Dan MacKellar) 
-●     DJ Nekkid (Thomas Mjelva) 
-●     FooBar (Jasper Vries) 
-●     lead@inbox (Serge Saphronov) 
-●     LordAzamath (Johannes Madis Aasmäe) 
-●     michael blunck (Michael Blunck) 
-●     mph (Matthew Haines)
-●     Mr. X 
-●     PikkaBird (David Dallaston)
-●     planetmaker 
-●     Purno (Mark Leppen) 
-●     Raumkraut (Mel Collins) 
-●     Red*Star (David Krebs) 
-●     Roujin 
-●     skidd13 (Benedikt Brüggemeier) 
-●     Soeb (Stanislaw Gackowski) 
-●     uzurpator 
-●     Zephyris (Richard Wheeler) 
+- Zephyris (Richard Wheeler) 
+- uzurpator 
+- Soeb (Stanislaw Gackowski) 
+- skidd13 (Benedikt Brüggemeier) 
+- Roujin 
+- Red*Star (David Krebs) 
+- Raumkraut (Mel Collins) 
+- Purno (Mark Leppen) 
+- planetmaker 
+- PikkaBird (David Dallaston) 
+- northstar2 
+- Mr. X 
+- mph (Matthew Haines) 
+- michael blunck (Michael Blunck) 
+- LordAzamath (Johannes Madis Aasmäe) 
+- lead@inbox (Serge Saphronov) 
+- Gen.Sniper 
+- FooBar (Jasper Vries) 
+- DJ Nekkid (Thomas Mjelva) 
+- DanMacK (Dan MacKellar) 
+- buttercup 
+- bubersson (Petr Mikota) 
+- Born Acorn 
+- Bilbo 
+- Ben_Robbins_ (Ben Robbins) 
+- athanasios (Athanasios Arthur Palaiologos) 
+- andythenorth (Andrew Parkhouse) 
+- Ammler (Marcel Gmür) 
 
-A detailed list of who worked on what is available in the file authoroverview.xls in the source repository. As soon as the file is complete, it will be replaced by a file in a non-proprietary file format. 
+A detailed list of who worked on what is available in the file docs/authoroverview.csv in the source repository. 
 
 Thanks go out to the guys at #openttdcoop for providing the source repository and bug tracking services. 
