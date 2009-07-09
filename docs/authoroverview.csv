@@ -170,7 +170,7 @@ ogfx1_base;4434;4437;4;Office block;Zephyris;buttercup;;1
 ogfx1_base;4438;4441;4;Modern office block (has snow equivalent);LiquidLogic;FooBar;95;1
 ogfx1_base;4442;4445;4;Modern office block (has snow equivalent);northstar2;FooBar;95;1
 ogfx1_base;4446;4461;16;Houses;Zephyris;buttercup;;1
-ogfx1_base;4462;4465;4;Arctic church (has snow equivalent);;;96;0
+ogfx1_base;4462;4465;4;Arctic church (has snow equivalent);Gen.Sniper;FooBar;96;1
 ogfx1_base;4466;4470;5;Houses;Zephyris;buttercup;;1
 ogfx1_base;4471;4476;6;Arctic hotel (has snow equivalent);northstar2;FooBar;97;1
 ogfx1_base;4477;4479;3;Houses;Zephyris;buttercup;;1
@@ -185,7 +185,7 @@ ogfx1_base;4574;4574;1;Snow office block (snow equivalent of 1.4437);FooBar, Zep
 ogfx1_base;4575;4575;1;Snow office block (snow equivalent of 1.4441);LiquidLogic;FooBar;99;1
 ogfx1_base;4576;4576;1;Snow office block (snow equivalent of 1.4445);northstar2;FooBar;99;1
 ogfx1_base;4577;4578;2;Snow buildings;Zephyris;buttercup;;1
-ogfx1_base;4579;4579;1;Snow arctic church (snow equivalent of 1.4465);;;101;0
+ogfx1_base;4579;4579;1;Snow arctic church (snow equivalent of 1.4465);Gen.Sniper;FooBar;101;1
 ogfx1_base;4580;4582;3;Snow buildings;Zephyris;buttercup;;1
 ogfx1_base;4583;4584;2;Snow arctic hotel (snow equivalent of 1.4475-1.4476);northstar2;FooBar;103;1
 ogfx1_base;4585;4585;1;Snow office block (snow equivalent of 1.4484);Born Acorn;FooBar;103;1
@@ -370,7 +370,7 @@ ogfxt_toyland;1178;1193;16;GUI buttons and cursors;bubersson, LordAzamath, Zephy
 ogfxt_toyland;1194;1194;1;Recolour sprite;n/a;n/a;;1
 ogfxe_extra;0;47;48;[Type 04] Pre-signal graphics;;;;1
 ogfxe_extra;48;111;64;[Type 04] Semaphore graphics;michael blunck;michael blunck;;1
-ogfxe_extra;112;175;64;[Type 04] PBS graphics;Bilbo;;78;0
+ogfxe_extra;112;175;64;[Type 04] PBS graphics;Bilbo;Bilbo;78;1
 ogfxe_extra;176;239;64;[Type 04] PBS semaphore graphics;michael blunck;michael blunck;;1
 ogfxe_extra;0;35;36;[Type 05] Overhead wires and pylon graphics;michael blunck;michael blunck;;1
 ogfxe_extra;36;47;12;[Type 05] Elrail GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
