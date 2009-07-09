@@ -154,7 +154,7 @@ release-install: release
 	-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
 	@echo
 release_zip: $(DIR_RELEASE)
-	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $@
+	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $<
 	
 $(INSTALLDIR):
 	@echo "$(error Installation dir does not exist. Check your makefile.local)"
