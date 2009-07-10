@@ -760,14 +760,14 @@
   678 sprites/pcx/egrvts.pcx 274 5896 09 16 20 -14 -7
   679 sprites/pcx/egrvts.pcx 306 5896 01 12 28 -14 -6
   680 sprites/pcx/egrvts.pcx 354 5896 09 16 20 -6 -7
-  681 sprites/pcx/trgtr.pcx 466 3288 01 18 8 -3 -10
-  682 sprites/pcx/trgtr.pcx 482 3288 09 16 20 -14 -7
-  683 sprites/pcx/trgtr.pcx 514 3288 01 12 28 -14 -6
-  684 sprites/pcx/trgtr.pcx 562 3288 09 16 20 -6 -7
-  685 sprites/pcx/trgtr.pcx 594 3288 01 17 8 -3 -10
-  686 sprites/pcx/trgtr.pcx 610 3288 09 16 20 -14 -7
-  687 sprites/pcx/trgtr.pcx 642 3288 01 12 28 -14 -6
-  688 sprites/pcx/trgtr.pcx 690 3288 09 16 20 -6 -7
+  681 sprites/pcx/egrvts.pcx 434 5896 01 18 8 -3 -10				// Some other truck (#5496ff)
+  682 sprites/pcx/egrvts.pcx 450 5896 09 16 20 -14 -7
+  683 sprites/pcx/egrvts.pcx 482 5896 01 12 28 -14 -6
+  684 sprites/pcx/egrvts.pcx 530 5896 09 16 20 -6 -7
+  685 sprites/pcx/egrvts.pcx 562 5896 01 17 8 -3 -10
+  686 sprites/pcx/egrvts.pcx 578 5896 09 16 20 -14 -7
+  687 sprites/pcx/egrvts.pcx 610 5896 01 12 28 -14 -6
+  688 sprites/pcx/egrvts.pcx 658 5896 09 16 20 -6 -7
   689 sprites/pcx/trgtr.pcx 722 3288 01 18 8 -3 -10
   690 sprites/pcx/trgtr.pcx 738 3288 09 16 20 -14 -7
   691 sprites/pcx/trgtr.pcx 2 3320 01 12 28 -14 -6
