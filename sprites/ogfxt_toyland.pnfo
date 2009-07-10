@@ -808,22 +808,22 @@
   726 sprites/pcx/egrvts.pcx 98 4296 09 16 22 -14 -7
   727 sprites/pcx/egrvts.pcx 130 4296 01 12 28 -14 -6
   728 sprites/pcx/egrvts.pcx 178 4296 09 16 22 -6 -7
-  729 sprites/pcx/trgtr.pcx 466 3352 01 18 8 -3 -10
-  730 sprites/pcx/trgtr.pcx 482 3352 09 16 22 -14 -7
-  731 sprites/pcx/trgtr.pcx 514 3352 01 12 28 -14 -6
-  732 sprites/pcx/trgtr.pcx 562 3352 09 16 22 -6 -7
-  733 sprites/pcx/trgtr.pcx 594 3352 01 18 8 -3 -10
-  734 sprites/pcx/trgtr.pcx 610 3352 09 16 22 -14 -7
-  735 sprites/pcx/trgtr.pcx 642 3352 01 12 28 -14 -6
-  736 sprites/pcx/trgtr.pcx 690 3352 09 16 22 -6 -7
-  737 sprites/pcx/trgtr.pcx 722 3352 01 18 8 -3 -10
-  738 sprites/pcx/trgtr.pcx 738 3352 09 16 22 -14 -7
-  739 sprites/pcx/trgtr.pcx 2 3384 01 12 28 -14 -6
-  740 sprites/pcx/trgtr.pcx 50 3384 09 16 22 -6 -7
-  741 sprites/pcx/trgtr.pcx 82 3384 01 18 8 -3 -10
-  742 sprites/pcx/trgtr.pcx 98 3384 09 16 22 -14 -7
-  743 sprites/pcx/trgtr.pcx 130 3384 01 12 28 -14 -6
-  744 sprites/pcx/trgtr.pcx 178 3384 09 16 22 -6 -7
+  729 sprites/pcx/egrvts.pcx 402 3560 01 18 8 -3 -10		// Plastics van #3175ff
+  730 sprites/pcx/egrvts.pcx 418 3560 09 16 20 -14 -7
+  731 sprites/pcx/egrvts.pcx 450 3560 01 12 28 -14 -6
+  732 sprites/pcx/egrvts.pcx 498 3560 09 16 20 -6 -7
+  733 sprites/pcx/egrvts.pcx 530 3560 01 18 8 -3 -10
+  734 sprites/pcx/egrvts.pcx 546 3560 09 16 20 -14 -7
+  735 sprites/pcx/egrvts.pcx 578 3560 01 12 28 -14 -6
+  736 sprites/pcx/egrvts.pcx 626 3560 09 16 20 -6 -7
+  737 sprites/pcx/egrvts.pcx 210 3912 01 18 8 -3 -10
+  738 sprites/pcx/egrvts.pcx 226 3912 09 16 20 -14 -7
+  739 sprites/pcx/egrvts.pcx 258 3912 01 12 28 -14 -6
+  740 sprites/pcx/egrvts.pcx 306 3912 09 16 20 -6 -7
+  741 sprites/pcx/egrvts.pcx 338 3912 01 18 8 -3 -10
+  742 sprites/pcx/egrvts.pcx 354 3912 09 16 20 -14 -7
+  743 sprites/pcx/egrvts.pcx 386 3912 01 12 28 -14 -6
+  744 sprites/pcx/egrvts.pcx 434 3912 09 16 20 -6 -7
   745 sprites/pcx/trgtr.pcx 210 3384 01 18 8 -3 -10
   746 sprites/pcx/trgtr.pcx 226 3384 09 16 20 -14 -7
   747 sprites/pcx/trgtr.pcx 258 3384 01 12 28 -14 -6
