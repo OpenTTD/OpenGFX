@@ -752,14 +752,14 @@
   670 sprites/pcx/egrvts.pcx 402 2440 09 16 20 -14 -7
   671 sprites/pcx/egrvts.pcx 434 2440 01 12 28 -14 -6
   672 sprites/pcx/egrvts.pcx 482 2440 09 16 20 -6 -7
-  673 sprites/pcx/trgtr.pcx 210 3288 01 18 8 -3 -10
-  674 sprites/pcx/trgtr.pcx 226 3288 09 16 20 -14 -7
-  675 sprites/pcx/trgtr.pcx 258 3288 01 12 28 -14 -6
-  676 sprites/pcx/trgtr.pcx 306 3288 09 16 20 -6 -7
-  677 sprites/pcx/trgtr.pcx 338 3288 01 17 8 -3 -10
-  678 sprites/pcx/trgtr.pcx 354 3288 09 16 20 -14 -7
-  679 sprites/pcx/trgtr.pcx 386 3288 01 12 28 -14 -6
-  680 sprites/pcx/trgtr.pcx 434 3288 09 16 20 -6 -7
+  673 sprites/pcx/egrvts.pcx 130 5896 01 18 8 -3 -10			// Toy truck (#5485ff)
+  674 sprites/pcx/egrvts.pcx 146 5896 09 16 20 -14 -7
+  675 sprites/pcx/egrvts.pcx 178 5896 01 12 28 -14 -6
+  676 sprites/pcx/egrvts.pcx 226 5896 09 16 20 -6 -7
+  677 sprites/pcx/egrvts.pcx 258 5896 01 17 8 -3 -10
+  678 sprites/pcx/egrvts.pcx 274 5896 09 16 20 -14 -7
+  679 sprites/pcx/egrvts.pcx 306 5896 01 12 28 -14 -6
+  680 sprites/pcx/egrvts.pcx 354 5896 09 16 20 -6 -7
   681 sprites/pcx/trgtr.pcx 466 3288 01 18 8 -3 -10
   682 sprites/pcx/trgtr.pcx 482 3288 09 16 20 -14 -7
   683 sprites/pcx/trgtr.pcx 514 3288 01 12 28 -14 -6
