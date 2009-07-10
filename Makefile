@@ -113,8 +113,8 @@ clean:
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	@echo "Creating dir $@."
-	@-mkdir $@ 2>/dev/null
-	@-rm $@/* 2>/dev/null
+	@ if [ -e $@ ]; then rm -rf $@; fi
+	@ mkdir $@
 	@echo "Copying files: $(BUNDLE_FILES)"
 	@-for i in $(BUNDLE_FILES); do cp $$i $@; done	
 #	Uncomment that line, when docs/readme.txt exists which automatically can be updated wrt version
