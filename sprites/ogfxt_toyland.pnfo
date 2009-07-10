@@ -736,22 +736,22 @@
   654 sprites/pcx/egrvts.pcx 642 2856 09 16 20 -14 -7
   655 sprites/pcx/egrvts.pcx 674 2856 01 12 28 -14 -6
   656 sprites/pcx/egrvts.pcx 722 2856 09 16 20 -6 -7
-  657 sprites/pcx/trgtr.pcx 466 3256 01 18 8 -3 -10
-  658 sprites/pcx/trgtr.pcx 482 3256 09 16 20 -14 -7
-  659 sprites/pcx/trgtr.pcx 514 3256 01 12 28 -14 -6
-  660 sprites/pcx/trgtr.pcx 562 3256 09 16 20 -6 -7
-  661 sprites/pcx/trgtr.pcx 594 3256 01 18 8 -3 -10
-  662 sprites/pcx/trgtr.pcx 610 3256 09 16 20 -14 -7
-  663 sprites/pcx/trgtr.pcx 642 3256 01 12 28 -14 -6
-  664 sprites/pcx/trgtr.pcx 690 3256 09 16 20 -6 -7
-  665 sprites/pcx/trgtr.pcx 722 3256 01 18 8 -3 -10
-  666 sprites/pcx/trgtr.pcx 738 3256 09 16 20 -14 -7
-  667 sprites/pcx/trgtr.pcx 2 3288 01 12 28 -14 -6
-  668 sprites/pcx/trgtr.pcx 50 3288 09 16 20 -6 -7
-  669 sprites/pcx/trgtr.pcx 82 3288 01 17 8 -3 -9
-  670 sprites/pcx/trgtr.pcx 98 3288 09 16 20 -14 -7
-  671 sprites/pcx/trgtr.pcx 130 3288 01 12 28 -14 -6
-  672 sprites/pcx/trgtr.pcx 178 3288 09 16 20 -6 -7
+  657 sprites/pcx/egrvts.pcx 322 2376 01 18 8 -3 -10			// Toffee truck empty 2182ff
+  658 sprites/pcx/egrvts.pcx 338 2376 09 16 20 -14 -7
+  659 sprites/pcx/egrvts.pcx 370 2376 01 12 28 -14 -6
+  660 sprites/pcx/egrvts.pcx 418 2376 09 16 20 -6 -7
+  661 sprites/pcx/egrvts.pcx 450 2376 01 18 8 -3 -10
+  662 sprites/pcx/egrvts.pcx 466 2376 09 16 20 -14 -7
+  663 sprites/pcx/egrvts.pcx 498 2376 01 12 28 -14 -6
+  664 sprites/pcx/egrvts.pcx 546 2376 09 16 20 -6 -7
+  665 sprites/pcx/egrvts.pcx 258 2440 01 18 8 -3 -10			// Toffee truck full 2230ff
+  666 sprites/pcx/egrvts.pcx 274 2440 09 16 20 -14 -7
+  667 sprites/pcx/egrvts.pcx 306 2440 01 12 28 -14 -6
+  668 sprites/pcx/egrvts.pcx 354 2440 09 16 20 -6 -7
+  669 sprites/pcx/egrvts.pcx 386 2440 01 17 8 -3 -9
+  670 sprites/pcx/egrvts.pcx 402 2440 09 16 20 -14 -7
+  671 sprites/pcx/egrvts.pcx 434 2440 01 12 28 -14 -6
+  672 sprites/pcx/egrvts.pcx 482 2440 09 16 20 -6 -7
   673 sprites/pcx/trgtr.pcx 210 3288 01 18 8 -3 -10
   674 sprites/pcx/trgtr.pcx 226 3288 09 16 20 -14 -7
   675 sprites/pcx/trgtr.pcx 258 3288 01 12 28 -14 -6
