@@ -51,21 +51,21 @@ vpath %.nfo $(SPRITEDIR)
 all : $(OBG_FILE)
 
 test : 
-	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
-	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
-	@echo "Local installation directory: $(INSTALLDIR)"
-	@echo "Repository revision:          r$(GRF_REVISION)"
-	@echo "GRF title:                    $(GRF_TITLE)"
-	@echo "GRF filenames:                $(GRF_FILENAMES)"
-	@echo "nfo files:                    $(NFO_FILENAMES)"
-	@echo "pnfo files:                   $(PNFO_FILENAMES)"
-	@echo "Bundle files:                 $(BUNDLE_FILES)"
-	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
-	@echo "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
-	@echo "===="
+	$(_E) "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
+	$(_E) "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
+	$(_E) "Local installation directory: $(INSTALLDIR)"
+	$(_E) "Repository revision:          r$(GRF_REVISION)"
+	$(_E) "GRF title:                    $(GRF_TITLE)"
+	$(_E) "GRF filenames:                $(GRF_FILENAMES)"
+	$(_E) "nfo files:                    $(NFO_FILENAMES)"
+	$(_E) "pnfo files:                   $(PNFO_FILENAMES)"
+	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
+	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
+	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
+	$(_E) "===="
 
 $(OBG_FILE) : $(GRF_FILENAMES)
-	@echo "Generating $(OBG_FILE)"
+	$(_E) "[Generating:] $(OBG_FILE)"
 	@echo "[metadata]" > $(OBG_FILE)
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
 	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
@@ -75,88 +75,82 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 
 	@echo "" >> $(OBG_FILE)
 	@echo "[files]" >> $(OBG_FILE)
-	@for i in $(subst =, ,$(join $(foreach var,$(FILETYPE),"$(var)=" ), $(foreach var,$(GRF_FILENAMES),"$(var)"))); do printf "%-8s = %s\n" $$i >> $(OBG_FILE); done
+	$(_V)for i in $(subst =, ,$(join $(foreach var,$(FILETYPE),"$(var)=" ), $(foreach var,$(GRF_FILENAMES),"$(var)"))); do printf "%-8s = %s\n" $$i >> $(OBG_FILE); done
 
 	@echo "" >> $(OBG_FILE)
 	@echo "[md5s]" >> $(OBG_FILE)
-	@for i in $(GRF_FILENAMES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $(OBG_FILE); done
+	$(_V)for i in $(GRF_FILENAMES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $(OBG_FILE); done
 
 	@echo "" >> $(OBG_FILE)
 	@echo "[origin]" >> $(OBG_FILE)
 	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
-	@echo "$(OBG_FILE) generated."
+	$(_E) "[Done] Basegraphics successfully generated."
 	
 
 # Compile GRF
 %.grf : $(SPRITEDIR)/%.nfo
-	@echo "$@"
-	@echo "$?"
-	@echo "Compiling $@"
-	-$(GRFCODEC) $(GRFCODEC_FLAGS) $@
-	@echo
+	$(_E) "[Generating] $@"
+	$(_V)$(GRFCODEC) $(GRFCODEC_FLAGS) $@
+	$(_E)
 	
 # NFORENUM process copy of the NFO
 .SECONDARY: %.nfo
 .PRECIOUS: %.nfo
 %.nfo : %.pnfo
-	@echo "this is $?, all is $@, dependency $<"
-	@echo "Preparing $?"
-	cp $< $@
-	@echo "NFORENUM processing $@"
-	-$(NFORENUM) $(NFORENUM_FLAGS) $@
+	$(_E) "[Checking] $@"
+	$(_V) cp $< $@
+	$(_E) "[nforenum] $@"
+	$(_V)-$(NFORENUM) $(NFORENUM_FLAGS) $@
 	
 # Clean the source tree
 clean:
-	@echo "Cleaning source tree:"
-	@echo "Remove backups:"
-	-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo
+	$(_E) "[Cleaning]"
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
-	@echo "Creating dir $@."
-	@ if [ -e $@ ]; then rm -rf $@; fi
-	@ mkdir $@
-	@echo "Copying files: $(BUNDLE_FILES)"
-	@-for i in $(BUNDLE_FILES); do cp $$i $@; done	
-#	Uncomment that line, when docs/readme.txt exists which automatically can be updated wrt version
-	@-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
+	$(_E) "[Generating:] $@/."
+	$(_V)if [ -e $@ ]; then rm -rf $@; fi
+	$(_V)mkdir $@
+	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done	
+	$(_V)-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
 		| sed -e "s/$(OBG_FILE_DUMMY)/$(OBG_FILE)/" \
 		> $@/$(notdir $(READMEFILE))
 bundle: $(DIR_NIGHTLY)
 
 %.$(TAR_SUFFIX): % $(BUNDLE_FILES)
-	# Create the release bundle with all files in one tar
-	@echo "Basename: $(basename $@) (and $(DIR_NIGHTLY) and $(DIR_RELEASE))"
-	$(TAR) $(TAR_FLAGS) $@ $(basename $@)
-	@echo "Creating tar for publication"
-	@echo
+# Create the release bundle with all files in one tar
+	$(_E) "[Generating:] $@"
+	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)
+	$(_E)
 bundle_tar: $(TAR_FILENAME)
 
 bundle_zip: $(ZIP_FILENAME)
 $(ZIP_FILENAME): $(DIR_NAME)
-	@echo "creating zip'ed tar archive"
-	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
+	$(_E) "[Generating:] $@"
+	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
 
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
-	@echo "creating bzip2'ed tar archive"
-	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
+	$(_E) "[Generating:] $@"
+	$(_V)$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
 
 # Installation process
 install: $(TAR_FILENAME) $(INSTALLDIR)
-	@echo "Installing grf to $(INSTALLDIR)"
-	-cp $(TAR_FILENAME) $(INSTALLDIR)
-	@echo
+	$(_E) "[INSTALL] to $(INSTALLDIR)"
+	$(_V)-cp $(TAR_FILENAME) $(INSTALLDIR)
+	$(_E)
 	
 release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
-	@echo "Creating release bundle $(DIR_RELEASE) and tar"
+	$(_E) "Creating release bundle $(DIR_RELEASE) and tar"
 release-install: release
-	@echo "Installing $(DIR_RELEASE) to $(INSTALLDIR)"
-	-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
-	@echo
+	$(_E) "[INSTALL] to $(INSTALLDIR)"
+	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
+	$(_E)
 release_zip: $(DIR_RELEASE)
-	$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $<
+	$(_E) "[Generating:] $@ as $(ZIP_FILENAME)"	
+	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $<
 	
 $(INSTALLDIR):
-	@echo "$(error Installation dir does not exist. Check your makefile.local)"
+	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
 	
 remake: clean all
