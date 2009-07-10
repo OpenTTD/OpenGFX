@@ -57,6 +57,7 @@ test :
 	$(_E) "Repository revision:          r$(GRF_REVISION)"
 	$(_E) "GRF title:                    $(GRF_TITLE)"
 	$(_E) "GRF filenames:                $(GRF_FILENAMES)"
+	$(_E) "Documentation filenames:      $(DOC_FILENAMES)"
 	$(_E) "nfo files:                    $(NFO_FILENAMES)"
 	$(_E) "pnfo files:                   $(PNFO_FILENAMES)"
 	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
@@ -105,17 +106,22 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 # Clean the source tree
 clean:
 	$(_E) "[Cleaning]"
-	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[Generating:] $@/."
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
 	$(_V)mkdir $@
 	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done	
-	$(_V)-cat $(READMEFILE) | sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
-		| sed -e "s/$(OBG_FILE_DUMMY)/$(OBG_FILE)/" \
-		> $@/$(notdir $(READMEFILE))
 bundle: $(DIR_NIGHTLY)
+
+%.$(TXT_SUFFIX): %.$(PTXT_SUFFIX)
+	$(_E) "[Generating:] $@"
+	$(_V) cat $< \
+		| sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
+		| sed -e "s/$(OBG_FILE_DUMMY)/$(OBG_FILE)/" \
+		| sed -e "s/$(REVISION_DUMMY)/$(GRF_REVISION)/" \
+		> $@
 
 %.$(TAR_SUFFIX): % $(BUNDLE_FILES)
 # Create the release bundle with all files in one tar
