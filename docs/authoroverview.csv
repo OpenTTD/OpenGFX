@@ -356,7 +356,7 @@ ogfxt_toyland;543;556;14;Foundations;Zephyris;Zephyris;;1
 ogfxt_toyland;557;586;30;Rail stations;FooBar, Zephyris;FooBar;;1
 ogfxt_toyland;587;594;8;Rail fences;Soeb;Soeb;;1
 ogfxt_toyland;595;600;6;Road depot;Athanasios, LordAzamath;Athanasios, buttercup;;1
-ogfxt_toyland;601;760;160;Road trucks;Zephyris;planetmaker;124;0
+ogfxt_toyland;601;760;160;Road trucks;Zephyris;planetmaker;124;1
 ogfxt_toyland;761;840;80;Rail wagons;;;125;0
 ogfxt_toyland;841;872;32;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;126;1
 ogfxt_toyland;873;880;8;Monorail engine;;;151;0
