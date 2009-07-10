@@ -127,12 +127,12 @@ bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
 $(ZIP_FILENAME): $(DIR_NAME)
 	$(_E) "[Generating:] $@"
-	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $(DIR_NAME)
+	$(_V)$(ZIP) $(ZIP_FLAGS) $@ $<
 
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[Generating:] $@"
-	$(_V)$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
+	$(_V)$(BZIP) $(BZIP_FLAGS) $<
 
 # Installation process
 install: $(TAR_FILENAME) $(INSTALLDIR)
