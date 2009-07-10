@@ -128,13 +128,12 @@ bundle: $(DIR_NIGHTLY)
 	$(_E) "[Generating:] $@"
 	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)
 	$(_E)
+
 bundle_tar: $(TAR_FILENAME)
-
 bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(DIR_NAME)
+$(ZIP_FILENAME): $(TAR_FILENAME) $(DOC_FILENAMES)
 	$(_E) "[Generating:] $@"
-	$(_V)$(ZIP) $(ZIP_FLAGS) $@ $<
-
+	$(_V)$(ZIP) $(ZIP_FLAGS) $@ $^
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[Generating:] $@"
@@ -147,14 +146,14 @@ install: $(TAR_FILENAME) $(INSTALLDIR)
 	$(_E)
 	
 release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
-	$(_E) "Creating release bundle $(DIR_RELEASE) and tar"
+	$(_E) "[RELEASE] $(DIR_RELEASE)"
 release-install: release
 	$(_E) "[INSTALL] to $(INSTALLDIR)"
 	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
 	$(_E)
-release_zip: $(DIR_RELEASE)
-	$(_E) "[Generating:] $@ as $(ZIP_FILENAME)"	
-	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $<
+release_zip: $(DIR_RELEASE).$(TAR_SUFFIX) $(DOC_FILENAMES)
+	$(_E) "[Generating:] $(ZIP_FILENAME)"	
+	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
 	
 $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
