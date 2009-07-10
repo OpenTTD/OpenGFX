@@ -2,7 +2,7 @@
 // Script:  To output OpenGFX's authoroverview.csv into a searchable HTML website
 // By:      FooBar (Jasper Vries) <foobar@jaspervries.nl>
 // License: GNU GPL v2
-// Version: 1.0; 2009/06/03
+// Version: 1.1; 2009/07/10
 
 // This script comes with a config.inc.php and a style.css.
 
@@ -231,22 +231,13 @@ function list_objectives($orderby = 'file', $direction = 'ASC') {
 	echo '<h1>Sprite Objectives</h1>';
 
 	//Targets for 0.1.0-alpha5
-	echo '<h2>Targets for 0.1.0-alpha5</h2>';
-
-	//get resultset
-	$result = mysql_query("SELECT * FROM `".$cfg_db['table']."` WHERE (`done`=0 AND (
-	(`file`='ogfx1_base' AND ((`range_start`>1967 AND `range_end`<4574) OR (`range_start`>4587 AND `range_end`<4627))) 
-	OR (`file`='ogfxe_extra' AND `description` LIKE '%[Type 04]%')
-	)) ORDER BY `".$orderby."` ".$direction." , `range_start`, `id`;", $cfg_db['server_link']);
-	
-	//call to create spritelist
-	create_spritelist();
-	
-	//Targets for 0.1.0-alpha6
 	echo '<h2>Targets for 0.1.0-alpha6</h2>';
 
 	//get resultset
-	$result = mysql_query("SELECT * FROM `".$cfg_db['table']."` WHERE (`done`=0 AND `file`='ogfx1_base' AND (`range_start`>4492 AND `range_end`<4604)) ORDER BY `".$orderby."` ".$direction." , `range_start`, `id`;", $cfg_db['server_link']);
+	$result = mysql_query("SELECT * FROM `".$cfg_db['table']."` WHERE (`done`=0 AND (
+	(`file`='ogfx1_base' AND (`range_end`<1947 OR (`range_start`>4587 AND `range_end`<4627))) 
+	OR (`file`='ogfxe_extra' AND `description` LIKE '%[Type 04]%')
+	)) ORDER BY `".$orderby."` ".$direction." , `range_start`, `id`;", $cfg_db['server_link']);
 	
 	//call to create spritelist
 	create_spritelist();
@@ -257,7 +248,7 @@ function list_objectives($orderby = 'file', $direction = 'ASC') {
 
 	//get resultset
 	$result = mysql_query("SELECT * FROM `".$cfg_db['table']."` WHERE (`done`=0 AND (
-	(`file`='ogfx1_base' AND (`range_end`<2981 OR `range_start`>4625))
+	(`file`='ogfx1_base' AND ((`range_start`>1946 AND `range_end`<1968) OR `range_start`>4625))
 	OR `file`='ogfxt_toyland'
 	OR (`file`='ogfxe_extra' AND `description` LIKE '%[Type 0C]%')
 	)) ORDER BY `".$orderby."` ".$direction." , `range_start`, `id`;", $cfg_db['server_link']);
