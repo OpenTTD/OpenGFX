@@ -760,7 +760,7 @@
   678 sprites/pcx/egrvts.pcx 274 5896 09 16 20 -14 -7
   679 sprites/pcx/egrvts.pcx 306 5896 01 12 28 -14 -6
   680 sprites/pcx/egrvts.pcx 354 5896 09 16 20 -6 -7
-  681 sprites/pcx/egrvts.pcx 434 5896 01 18 8 -3 -10				// Some other truck (#5496ff)
+  681 sprites/pcx/egrvts.pcx 434 5896 01 18 8 -3 -10				//Mail truck toyland (#5496ff)
   682 sprites/pcx/egrvts.pcx 450 5896 09 16 20 -14 -7
   683 sprites/pcx/egrvts.pcx 482 5896 01 12 28 -14 -6
   684 sprites/pcx/egrvts.pcx 530 5896 09 16 20 -6 -7
@@ -768,14 +768,14 @@
   686 sprites/pcx/egrvts.pcx 578 5896 09 16 20 -14 -7
   687 sprites/pcx/egrvts.pcx 610 5896 01 12 28 -14 -6
   688 sprites/pcx/egrvts.pcx 658 5896 09 16 20 -6 -7
-  689 sprites/pcx/trgtr.pcx 722 3288 01 18 8 -3 -10
-  690 sprites/pcx/trgtr.pcx 738 3288 09 16 20 -14 -7
-  691 sprites/pcx/trgtr.pcx 2 3320 01 12 28 -14 -6
-  692 sprites/pcx/trgtr.pcx 50 3320 09 16 20 -6 -7
-  693 sprites/pcx/trgtr.pcx 82 3320 01 18 8 -3 -10
-  694 sprites/pcx/trgtr.pcx 98 3320 09 16 20 -14 -7
-  695 sprites/pcx/trgtr.pcx 130 3320 01 12 28 -14 -6
-  696 sprites/pcx/trgtr.pcx 178 3320 09 16 20 -6 -7
+  689 sprites/pcx/egrvts.pcx 162 5832 01 18 8 -3 -10			// Sweets truck #5430ff
+  690 sprites/pcx/egrvts.pcx 178 5832 09 16 20 -14 -7
+  691 sprites/pcx/egrvts.pcx 210 5832 01 12 28 -14 -6
+  692 sprites/pcx/egrvts.pcx 258 5832 09 16 20 -6 -7
+  693 sprites/pcx/egrvts.pcx 290 5832 01 18 8 -3 -10
+  694 sprites/pcx/egrvts.pcx 306 5832 09 16 20 -14 -7
+  695 sprites/pcx/egrvts.pcx 338 5832 01 12 28 -14 -6
+  696 sprites/pcx/egrvts.pcx 386 5832 09 16 20 -6 -7
   697 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10 // egrvts #3667 ff
   698 sprites/pcx/egrvts.pcx 34 4168 09 16 22 -14 -7   
   699 sprites/pcx/egrvts.pcx 66 4168 01 12 28 -14 -6
