@@ -1002,10 +1002,10 @@
 	3008	sprites/pcx/monolev-ba.pcx	161	1	9	17	22	-7	-8
 
 //881	884	4	Maglev engine
-  881 sprites/pcx/trgtr.pcx 722 3544 01 18 8 -3 -10
-  882 sprites/pcx/trgtr.pcx 738 3544 09 16 20 -14 -7
-  883 sprites/pcx/trgtr.pcx 2 3576 01 12 28 -14 -6
-  884 sprites/pcx/trgtr.pcx 50 3576 09 16 20 -4 -8
+	2829	sprites/pcx/monolev-ba.pcx	1	104	1	23	8	-3	-11
+	2830	sprites/pcx/monolev-ba.pcx	12	104	9	17	22	-14	-8
+	2831	sprites/pcx/monolev-ba.pcx	36	104	1	12	32	-16	-7
+	2832	sprites/pcx/monolev-ba.pcx	69	104	9	17	22	-7	-8
 
 //885	901	17	GUI buttons and cursors
    52 sprites/pcx/gui04.pcx 322 104 03 32 32 0 0
