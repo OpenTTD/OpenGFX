@@ -5253,7 +5253,7 @@
 //4627	4674	48	Toyland: Buildings
  4627 sprites/pcx/trg1r.pcx 418 17064 03 127 64 -31 -96
  4628 sprites/pcx/trg1r.pcx 498 17064 03 111 64 -31 -80
- 4629 sprites/pcx/trg1r.pcx 578 17064 09 95 50 -25 -68
+ 4629 sprites/pcx/toylandblds.pcx 250 120 09 95 64 -31 -64
 
  4630 sprites/pcx/trg1r.pcx 642 17064 03 126 64 -31 -95
  4631 sprites/pcx/trg1r.pcx 722 17064 03 112 64 -31 -81
