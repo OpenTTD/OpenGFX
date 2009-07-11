@@ -992,14 +992,14 @@
    48 sprites/pcx/newtrains01.pcx 690 56 09 17 22 -6 -8
 
 //873	880	8	Monorail engine
-  873 sprites/pcx/trgtr.pcx 466 3544 01 18 8 -3 -10
-  874 sprites/pcx/trgtr.pcx 482 3544 09 15 20 -14 -6
-  875 sprites/pcx/trgtr.pcx 514 3544 01 12 28 -14 -6
-  876 sprites/pcx/trgtr.pcx 562 3544 09 16 20 -4 -8
-  877 sprites/pcx/trgtr.pcx 594 3544 01 18 8 -3 -10
-  878 sprites/pcx/trgtr.pcx 610 3544 09 16 20 -14 -7
-  879 sprites/pcx/trgtr.pcx 642 3544 01 12 28 -14 -6
-  880 sprites/pcx/trgtr.pcx 690 3544 09 15 20 -4 -7
+	3001	sprites/pcx/monolev-ba.pcx	1	1	1	23	8	-3	-11
+	3002	sprites/pcx/monolev-ba.pcx	12	1	9	17	22	-14	-8
+	3003	sprites/pcx/monolev-ba.pcx	36	1	1	12	31	-15	-7
+	3004	sprites/pcx/monolev-ba.pcx	69	1	9	17	22	-7	-8
+	3005	sprites/pcx/monolev-ba.pcx	93	1	1	23	8	-3	-12
+	3006	sprites/pcx/monolev-ba.pcx	103	1	9	17	22	-14	-8
+	3007	sprites/pcx/monolev-ba.pcx	127	1	1	12	31	-15	-7
+	3008	sprites/pcx/monolev-ba.pcx	161	1	9	17	22	-7	-8
 
 //881	884	4	Maglev engine
   881 sprites/pcx/trgtr.pcx 722 3544 01 18 8 -3 -10
