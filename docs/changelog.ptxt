@@ -1,6 +1,5 @@
 OpenGFX 0.1.0-alpha5
 --------------------
-
 Bugfixes:
 - Close button alignment
 - Wrong palette for font_addl and medfontcond
@@ -25,18 +24,25 @@ Features (Additions):
 - Feature: Arctic office blocks (Born Acorn) (closes #98, closes #103)
 - Feature: Arctic church (Gen.Sniper) (closes #96, closes #101)
 
+
+
 OpenGFX 0.1.0-alpha4.2
 ----------------------
 Bugfixes:
 - Display of full load in coal trucks improved.
 - Black map edge due to new 'freeform map edges' feature.
-Additions:
+
+Features:
 - Expand and Contract sprites for the new Advanced Settings menu added.
+
+
 
 OpenGFX 0.1.0-alpha4.1
 ----------------------
-Additions:
+Features:
 - Lots of accented characters
+
+
 
 OpenGFX 0.1.0-alpha4
 --------------------
@@ -44,9 +50,11 @@ Bugfixes:
 - Buttons in maglev toolbar mixed up
 - Alignment of some sprites
 
-Additions:
+Features:
 - Bold typeface/missing characters
 - Lots of toyland graphics
+
+
 
 OpenGFX 0.1.0-alpha3
 --------------------
@@ -54,11 +62,13 @@ Bugfixes:
 - Desert/rock button in tropical scenario identical
 - Alignment of some sprites
 
-Additions:
+Features:
 - Company indicator
 - Some random new buildings
 - Tropical sawmill
 - Monorail/maglev wagons
+
+
 
 OpenGFX 0.1.0-alpha2
 --------------------
@@ -66,13 +76,14 @@ Bugfixes:
 - Waypoint alignment
 - White line next to a pbs semaphore
 
-Additions:
+Features:
 - High score chart
 - Game end newspapers
 - Road reconstruction bulldozer
 - All different smokes (steam, diesel, powerplant, breakdown)
 - Explosions
 - Remaining disaster vehices (ufo, submarine)
+
 
 
 OpenGFX 0.1.0-alpha1
