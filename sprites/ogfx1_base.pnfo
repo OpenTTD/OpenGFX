@@ -710,14 +710,16 @@
    23 sprites/pcx/gui04.pcx 722 8 09 16 16 0 0
    24 sprites/pcx/gui04.pcx 754 8 09 16 16 0 0
    25 sprites/pcx/random.pcx 394 10 09 20 20 0 0
-   26 sprites/pcx/gui04.pcx 34 56 03 20 20 0 0
-   27 sprites/pcx/gui04.pcx 66 56 03 20 20 0 0
-   28 sprites/pcx/gui04.pcx 98 56 03 32 32 0 0
-   29 sprites/pcx/gui04.pcx 146 56 03 32 32 0 0
-   30 sprites/pcx/gui04.pcx 194 56 03 32 32 0 0
-   31 sprites/pcx/gui04.pcx 242 56 03 32 32 0 0
-   32 sprites/pcx/gui04.pcx 290 56 03 32 32 0 0
-   33 sprites/pcx/gui04.pcx 338 56 03 32 32 0 0
+   //Terraform up/down icons
+   26 sprites/pcx/terraform_gui.pcx 3 9 03 20 20 0 0
+   27 sprites/pcx/terraform_gui.pcx 35 9 03 20 20 0 0
+   //Terraform up(3)/down(3) cursors
+   28 sprites/pcx/terraform_gui.pcx 67 9 03 32 32 0 0
+   29 sprites/pcx/terraform_gui.pcx 115 9 03 32 32 0 0
+   30 sprites/pcx/terraform_gui.pcx 163 9 03 32 32 0 0
+   31 sprites/pcx/terraform_gui.pcx 211 9 03 32 32 0 0
+   32 sprites/pcx/terraform_gui.pcx 259 9 03 32 32 0 0
+   33 sprites/pcx/terraform_gui.pcx 307 9 03 32 32 0 0
    34 sprites/pcx/random.pcx 355 10 03 32 32 0 0
    35 sprites/pcx/gui04.pcx 434 56 03 20 20 0 0
    36 sprites/pcx/gui04.pcx 466 56 03 32 32 0 0
