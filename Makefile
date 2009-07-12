@@ -89,15 +89,15 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	
 
 # Compile GRF
-%.grf : $(SPRITEDIR)/%.nfo
+%.$(GRF_SUFFIX) : $(SPRITEDIR)/%.$(NFO_SUFFIX)
 	$(_E) "[Generating] $@"
 	$(_V)$(GRFCODEC) $(GRFCODEC_FLAGS) $@
 	$(_E)
 	
 # NFORENUM process copy of the NFO
-.SECONDARY: %.nfo
-.PRECIOUS: %.nfo
-%.nfo : %.pnfo
+.SECONDARY: %.$(NFO_SUFFIX)
+.PRECIOUS: %.$(NFO_SUFFIX)
+%.$(NFO_SUFFIX) : %.$(PNFO_SUFFIX)
 	$(_E) "[Checking] $@"
 	$(_V) cp $< $@
 	$(_E) "[nforenum] $@"
