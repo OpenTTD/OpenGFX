@@ -17,4 +17,6 @@ opengfx.obg
 OpenGFX
 opengfx*
 issue*
-sprites/source
+docs/readme.txt
+docs/license.txt
+./*.diff
