@@ -1,88 +1,72 @@
 OpenGFX 0.1.0-alpha5
 --------------------
-Bugfixes:
-- Close button alignment
-- Wrong palette for font_addl and medfontcond
-- Cropped aircraft sprites to reduce hangar window size
-- Additional coast tile graphics now coded to spec
-- Fix: small submarine sprite 1.3911 ypos
-- Fix (r42): Re-fix Bug #87: space-character of newspaper font
-- Fix [Bug #76]: sprite misalignment of 4226 of ogfx1.nfo
-
-Features (Additions):
-- Add resize windows towards the left sprite
-- Feature #102: Born Acorn's monolev engines and passenger wagon. (finally ;-)
-- Feature add two toyland buildings (4632, 4638)
-- Feature (#97): Arctic hotel (sprites by northstar2)
-- Feature #95: base sprites 4439, 4440, 4441. Feature #99: snow base sprite 4575.
-- Feature #78: PBS graphics for standard climate.
-- Feature #78: PBS graphics for toyland climate
-- Feature: Add toyland bus, sugar, battery and lemonade trucks (part of issue #124)
-- Feature: Implement Cola truck in toyland. (Part of issue #124)
-- Feature: Implement Candy floss truck in toyland. (Part of issue #124)
-- Feature: add a OS-independent makefile system (various revisions)
-- Feature: Arctic office blocks (Born Acorn) (closes #98, closes #103)
-- Feature: Arctic church (Gen.Sniper) (closes #96, closes #101)
+- Add: Resize windows towards the left sprite
+- Feature: Monolev engines and passenger wagon.
+- Feature: Add two toyland buildings (4632, 4638)
+- Feature: Arctic hotel
+- Feature: Base sprites 4439, 4440, 4441. 
+- Feature: Snow base sprite 4575.
+- Feature: PBS graphics for standard climate.
+- Feature: PBS graphics for toyland climate.
+- Feature: Add toyland bus, sugar, battery and lemonade trucks
+- Feature: Implement Cola truck in toyland.
+- Feature: Implement Candy floss truck in toyland.
+- Feature: Add an OS-independent makefile system
+- Feature: Arctic office blocks
+- Feature: Arctic church- Fix: Close button alignment
+- Fix: Wrong palette for font_addl and medfontcond
+- Fix: Cropped aircraft sprites to reduce hangar window size
+- Fix: Additional coast tile graphics now coded to spec
+- Fix: Small submarine sprite 1.3911 ypos
+- Fix: Space-character of newspaper font
+- Fix: Misalignment of sprite #4226 in ogfx1_base.pnfo
 
 
 
 OpenGFX 0.1.0-alpha4.2
 ----------------------
-Bugfixes:
-- Display of full load in coal trucks improved.
-- Black map edge due to new 'freeform map edges' feature.
-
-Features:
-- Expand and Contract sprites for the new Advanced Settings menu added.
+- Feature: Expand and contract sprites for the new Advanced Settings menu added.
+- Fix: Display of full load in coal trucks improved.
+- Fix: Black map edge due to new 'freeform map edges' feature.
 
 
 
 OpenGFX 0.1.0-alpha4.1
 ----------------------
-Features:
-- Lots of accented characters
+- Feature: Lots of accented characters
 
 
 
 OpenGFX 0.1.0-alpha4
 --------------------
-Bugfixes:
-- Buttons in maglev toolbar mixed up
-- Alignment of some sprites
-
-Features:
-- Bold typeface/missing characters
-- Lots of toyland graphics
+- Feature: Bold typeface/missing characters
+- Feature: Lots of toyland graphics
+- Fix: Buttons in maglev toolbar mixed up
+- Fix: Alignment of some sprites
 
 
 
 OpenGFX 0.1.0-alpha3
 --------------------
-Bugfixes:
-- Desert/rock button in tropical scenario identical
-- Alignment of some sprites
-
-Features:
-- Company indicator
-- Some random new buildings
-- Tropical sawmill
-- Monorail/maglev wagons
+- Feature: Company indicator
+- Feature: Some random new buildings
+- Feature: Tropical sawmill
+- Feature: Monorail/maglev wagons
+- Fix: Desert/rock button in tropical scenario identical
+- Fix: Alignment of some sprites
 
 
 
 OpenGFX 0.1.0-alpha2
 --------------------
-Bugfixes:
-- Waypoint alignment
-- White line next to a pbs semaphore
-
-Features:
-- High score chart
-- Game end newspapers
-- Road reconstruction bulldozer
-- All different smokes (steam, diesel, powerplant, breakdown)
-- Explosions
-- Remaining disaster vehices (ufo, submarine)
+- Feature: High score chart
+- Feature: Game end newspapers
+- Feature: Road reconstruction bulldozer
+- Feature: All different smokes (steam, diesel, powerplant, breakdown)
+- Feature: Explosions
+- Feature: Remaining disaster vehices (ufo, submarine)
+- Fix: Waypoint alignment
+- Fix: White line next to a pbs semaphore
 
 
 
