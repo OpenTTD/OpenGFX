@@ -2386,13 +2386,13 @@
   425 sprites/pcx/random.pcx 525 453 09 37 30 -15 -31
   426 sprites/pcx/random.pcx 556 453 09 37 30 -15 -31
 
-  427 sprites/pcx/random.pcx 10 453 09 37 24 -12 -31
-  428 sprites/pcx/random.pcx 35 453 09 37 24 -12 -31
-  429 sprites/pcx/random.pcx 60 453 09 37 24 -12 -31
-  430 sprites/pcx/random.pcx 85 453 09 37 24 -12 -31
-  431 sprites/pcx/random.pcx 110 453 09 37 24 -12 -31
-  432 sprites/pcx/random.pcx 135 453 09 37 24 -12 -31
-  433 sprites/pcx/random.pcx 160 453 09 37 24 -12 -31
+  427 sprites/pcx/toyland_tree_balloon.pcx 6 16 09 8 10 -11 -31
+  428 sprites/pcx/toyland_tree_balloon.pcx 24 16 09 12 16 -11 -31
+  429 sprites/pcx/toyland_tree_balloon.pcx 48 16 09 24 24 -11 -31
+  430 sprites/pcx/toyland_tree_balloon.pcx 82 16 09 32 30 -11 -31
+  431 sprites/pcx/toyland_tree_balloon.pcx 120 16 09 32 30 -11 -31
+  432 sprites/pcx/toyland_tree_balloon.pcx 160 16 09 32 30 -11 -31
+  433 sprites/pcx/toyland_tree_balloon.pcx 198 16 09 32 30 -11 -31
 
   434 sprites/pcx/random.pcx 11 493 09 38 5 -2 -32
   435 sprites/pcx/random.pcx 27 493 09 38 32 -16 -32
