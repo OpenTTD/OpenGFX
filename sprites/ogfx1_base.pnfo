@@ -2387,7 +2387,7 @@
   426 sprites/pcx/random.pcx 556 453 09 37 30 -15 -31
 
   427 sprites/pcx/toyland_tree_balloon.pcx 6 16 09 8 10 -11 -31
-  428 sprites/pcx/toyland_tree_balloon.pcx 24 16 09 12 16 -11 -31
+  428 sprites/pcx/toyland_tree_balloon.pcx 24 16 09 16 16 -11 -31
   429 sprites/pcx/toyland_tree_balloon.pcx 48 16 09 24 24 -11 -31
   430 sprites/pcx/toyland_tree_balloon.pcx 82 16 09 32 30 -11 -31
   431 sprites/pcx/toyland_tree_balloon.pcx 120 16 09 32 30 -11 -31
