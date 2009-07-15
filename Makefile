@@ -86,6 +86,7 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "[origin]" >> $(OBG_FILE)
 	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
 	$(_E) "[Done] Basegraphics successfully generated."
+	$(_E) ""
 	
 
 # Compile GRF
@@ -109,6 +110,7 @@ clean:
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
 	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
+	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
 	$(_V)mkdir $@
