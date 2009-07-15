@@ -2346,14 +2346,14 @@
   404 sprites/pcx/landscape031.pcx 386 1048 09 47 29 -14 -41
   405 sprites/pcx/landscape031.pcx 434 1048 09 39 29 -14 -33
 
-  392 sprites/pcx/landscape031.pcx 770 984 09 10 11 -5 -4
-  393 sprites/pcx/landscape031.pcx 2 1048 09 17 18 -9 -11
-  394 sprites/pcx/landscape031.pcx 34 1048 09 26 25 -12 -20
-  395 sprites/pcx/landscape031.pcx 66 1048 09 33 31 -15 -27
-  396 sprites/pcx/landscape031.pcx 114 1048 09 33 31 -15 -27
-  397 sprites/pcx/landscape031.pcx 162 1048 09 33 31 -15 -27
-  398 sprites/pcx/landscape031.pcx 210 1048 09 38 30 -15 -32
-
+  427 sprites/pcx/toyland_tree_balloon.pcx 6 16 09 8 10 -11 -31
+  428 sprites/pcx/toyland_tree_balloon.pcx 24 16 09 16 16 -11 -31
+  429 sprites/pcx/toyland_tree_balloon.pcx 48 16 09 24 24 -11 -31
+  430 sprites/pcx/toyland_tree_balloon.pcx 82 16 09 32 30 -11 -31
+  431 sprites/pcx/toyland_tree_balloon.pcx 120 16 09 32 30 -11 -31
+  432 sprites/pcx/toyland_tree_balloon.pcx 160 16 09 32 30 -11 -31
+  433 sprites/pcx/toyland_tree_balloon.pcx 198 16 09 32 30 -11 -31
+  
   406 sprites/pcx/random.pcx 190 453 09 36 22 -11 -30
   407 sprites/pcx/random.pcx 213 453 09 36 22 -11 -30
   408 sprites/pcx/random.pcx 236 453 09 36 22 -11 -30
@@ -2386,13 +2386,13 @@
   425 sprites/pcx/random.pcx 525 453 09 37 30 -15 -31
   426 sprites/pcx/random.pcx 556 453 09 37 30 -15 -31
 
-  427 sprites/pcx/toyland_tree_balloon.pcx 6 16 09 8 10 -11 -31
-  428 sprites/pcx/toyland_tree_balloon.pcx 24 16 09 16 16 -11 -31
-  429 sprites/pcx/toyland_tree_balloon.pcx 48 16 09 24 24 -11 -31
-  430 sprites/pcx/toyland_tree_balloon.pcx 82 16 09 32 30 -11 -31
-  431 sprites/pcx/toyland_tree_balloon.pcx 120 16 09 32 30 -11 -31
-  432 sprites/pcx/toyland_tree_balloon.pcx 160 16 09 32 30 -11 -31
-  433 sprites/pcx/toyland_tree_balloon.pcx 198 16 09 32 30 -11 -31
+  427 sprites/pcx/random.pcx 10 453 09 37 24 -12 -31
+  428 sprites/pcx/random.pcx 35 453 09 37 24 -12 -31
+  429 sprites/pcx/random.pcx 60 453 09 37 24 -12 -31
+  430 sprites/pcx/random.pcx 85 453 09 37 24 -12 -31
+  431 sprites/pcx/random.pcx 110 453 09 37 24 -12 -31
+  432 sprites/pcx/random.pcx 135 453 09 37 24 -12 -31
+  433 sprites/pcx/random.pcx 160 453 09 37 24 -12 -31
 
   434 sprites/pcx/random.pcx 11 493 09 38 5 -2 -32
   435 sprites/pcx/random.pcx 27 493 09 38 32 -16 -32
