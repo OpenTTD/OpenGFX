@@ -5346,7 +5346,7 @@
     5 sprites/pcx/colawells.pcx 226 8 09 38 64 -31 -7
 
 //4694	4694	1	Toyland: Statue
- 4694 sprites/pcx/toyland_statue_sprite270.pcx 0 0 09 80 36 -18 -57
+ 4694 sprites/pcx/toyland_statue_sprite270.pcx 0 0 09 80 36 -18 -55
 
 //4695	4698	4	Toyland: Tea pot and piggy bank
  4695 sprites/pcx/trg1r.pcx 674 17912 03 89 64 -31 -58
