@@ -2330,13 +2330,13 @@
   376 sprites/pcx/landscape031.pcx 274 984 09 39 26 -13 -33
 
 //1947-2009 toyland trees
-  378 sprites/pcx/landscape031.pcx 322 984 09 20 15 -7 -14
-  379 sprites/pcx/landscape031.pcx 354 984 09 26 20 -10 -20
-  380 sprites/pcx/landscape031.pcx 386 984 09 32 26 -13 -26
-  381 sprites/pcx/landscape031.pcx 418 984 09 39 31 -15 -33
-  382 sprites/pcx/landscape031.pcx 466 984 09 39 31 -15 -33
-  383 sprites/pcx/landscape031.pcx 514 984 09 39 30 -15 -33
-  384 sprites/pcx/landscape031.pcx 562 984 09 39 5 -2 -33
+  378 sprites/pcx/toyland_tree_reversecone.pcx 4 12 09 20 13 -7 -14
+  379 sprites/pcx/toyland_tree_reversecone.pcx 36 12 09 26 17 -9 -19
+  380 sprites/pcx/toyland_tree_reversecone.pcx 68 12 09 32 24 -12 -25
+  381 sprites/pcx/toyland_tree_reversecone.pcx 106 12 09 39 29 -14 -32
+  382 sprites/pcx/toyland_tree_reversecone.pcx 144 12 09 39 29 -14 -32
+  383 sprites/pcx/toyland_tree_reversecone.pcx 188 12 09 39 27 -14 -32
+  384 sprites/pcx/toyland_tree_reversecone.pcx 232 12 09 39 16 -1 -32
 
   399 sprites/pcx/landscape031.pcx 258 1048 09 12 3 -1 -6
   400 sprites/pcx/landscape031.pcx 274 1048 09 17 3 -1 -11
