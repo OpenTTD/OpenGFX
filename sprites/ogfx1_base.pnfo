@@ -5232,10 +5232,10 @@
 //continuing
  4614 sprites/pcx/trg1r.pcx 322 16920 03 31 32 1 0
  4615 sprites/pcx/trg1r.pcx 370 16920 03 53 64 -31 -22
- 4616 sprites/pcx/trg1r.pcx 450 16920 03 96 32 1 -65
- 4617 sprites/pcx/trg1r.pcx 498 16920 03 121 64 -31 -90
- 4618 sprites/pcx/trg1r.pcx 578 16920 09 117 32 1 -86
- 4619 sprites/pcx/trg1r.pcx 626 16920 09 133 64 -31 -102
+ 4616 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 10 10 03 96 32 1 -65
+ 4617 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 50 10 03 121 64 -31 -90
+ 4618 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 120 10 09 117 32 1 -86
+ 4619 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 160 10 09 133 64 -31 -102
 //continuing
    35 sprites/pcx/towns02.pcx 2 344 03 31 64 -31 0
    33 sprites/pcx/towns02.pcx 594 216 03 67 64 -31 -36
@@ -5349,8 +5349,8 @@
  4694 sprites/pcx/toyland_statue_sprite270.pcx 0 0 09 80 36 -18 -55
 
 //4695	4698	4	Toyland: Tea pot and piggy bank
- 4695 sprites/pcx/trg1r.pcx 674 17912 03 89 64 -31 -58
- 4696 sprites/pcx/trg1r.pcx 2 18040 03 71 64 -31 -40
+ 4695 sprites/pcx/edorfaus_gift-wrapped-houses.pcx 266 72 03 64 57 -31 -32
+ 4696 sprites/pcx/edorfaus_gift-wrapped-houses.pcx 332 72 03 64 57 -31 -32
  4697 sprites/pcx/random.pcx 370 493 09 30 36 -18 -8
 
  4698 sprites/pcx/Piggybank.pcx 0 0 09 31 26 -12 -9
