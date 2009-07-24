@@ -197,42 +197,42 @@ ogfx1_base;4614;4619;6;Modern office block;drginaldee;planetmaker;104;0
 ogfx1_base;4620;4622;3;Tropical houses;Zephyris;Zephyris;;1
 ogfx1_base;4623;4625;3;Modern office block;;;105;0
 ogfx1_base;4626;4626;1;Roadside tree;Zephyris;Zephyris;;1
-ogfx1_base;4627;4628;2;Toyland: Wrapper design for 4629;;;107;0
+ogfx1_base;4627;4628;2;Toyland: Wrapper design for 4629;athanasious,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4629;4629;1;Toyland: building;athanasios;FooBar;107;1
-ogfx1_base;4630;4631;2;Toyland: Wrapper design for 4632;;;107;0
+ogfx1_base;4630;4631;2;Toyland: Wrapper design for 4632;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4632;4632;1;Toyland: building;athanasios;FooBar;107;1
-ogfx1_base;4633;4634;2;Toyland: Wrapper design for 4635;;;107;0
+ogfx1_base;4633;4634;2;Toyland: Wrapper design for 4635;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4635;4635;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4636;4637;2;Toyland: Wrapper design for 4638;;;107;0
+ogfx1_base;4636;4637;2;Toyland: Wrapper design for 4638;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4638;4638;1;Toyland: building;athanasios;FooBar;107;1
-ogfx1_base;4639;4640;2;Toyland: Wrapper design for 4641;;;107;0
+ogfx1_base;4639;4640;2;Toyland: Wrapper design for 4641;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4641;4641;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4642;4643;2;Toyland: Wrapper design for 4644;;;107;0
+ogfx1_base;4642;4643;2;Toyland: Wrapper design for 4644;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4644;4644;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4645;4646;2;Toyland: Wrapper design for 4647;;;107;0
+ogfx1_base;4645;4646;2;Toyland: Wrapper design for 4647;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4647;4647;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4648;4649;2;Toyland: Wrapper design for 4650;;;107;0
+ogfx1_base;4648;4649;2;Toyland: Wrapper design for 4650;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4650;4650;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4651;4654;4;Toyland: Wrapper design for 4655-4656;;;107;0
 ogfx1_base;4655;4656;2;Toyland: building;;;107;0
-ogfx1_base;4657;4658;2;Toyland: Wrapper design for 4659;;;107;0
+ogfx1_base;4657;4658;2;Toyland: Wrapper design for 4659;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4659;4659;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4660;4661;2;Toyland: Wrapper design for 4662;;;107;0
 ogfx1_base;4662;4662;1;Toyland: building;;;107;0
 ogfx1_base;4663;4664;2;Toyland: Wrapper design for 4665;;;107;0
 ogfx1_base;4665;4665;1;Toyland: building;;;107;0
-ogfx1_base;4666;4667;2;Toyland: Wrapper design for 4668;;;107;0
+ogfx1_base;4666;4667;2;Toyland: Wrapper design for 4668;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4668;4668;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4669;4670;2;Toyland: Wrapper design for 4671;;;107;0
+ogfx1_base;4669;4670;2;Toyland: Wrapper design for 4671;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4671;4671;1;Toyland: building;athanasios;FooBar;107;1
-ogfx1_base;4672;4673;2;Toyland: Wrapper design for 4674;;;107;0
+ogfx1_base;4672;4673;2;Toyland: Wrapper design for 4674;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4674;4674;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4675;4676;2;Toyland: Building ground tiles;Zephyris;FooBar;;1
 ogfx1_base;4677;4685;9;Toyland: Sweet factory;;;110;0
 ogfx1_base;4686;4690;5;Toyland: Battery farm;Soeb;Soeb;;1
 ogfx1_base;4691;4693;3;Toyland: Cola wells;Athanasios;buttercup;;1
 ogfx1_base;4694;4694;1;Toyland: Statue;Spaz O Mataz;planetmaker;111;1
-ogfx1_base;4695;4696;2;Toyland: Wrapper design for 4696;;;112;0
+ogfx1_base;4695;4696;2;Toyland: Wrapper design for 4697;Zephyris,edorfaus;edorfaus,planetmaker;112;1
 ogfx1_base;4697;4697;1;Toyland: Tea pot;Zephyris;FooBar;;1
 ogfx1_base;4698;4698;1;Toyland: Piggy bank;AndersI;planetmaker;112;1
 ogfx1_base;4699;4707;9;Toyland: Toy shop;;;113;0
