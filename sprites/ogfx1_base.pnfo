@@ -5223,8 +5223,8 @@
    22 sprites/pcx/towns02.pcx 594 88 03 35 64 -31 -4
    23 sprites/pcx/towns02.pcx 674 88 03 112 64 -31 -81
    24 sprites/pcx/towns02.pcx 2 216 09 105 64 -31 -74
-//continuing
- 4604 sprites/pcx/trg1r.pcx 322 16792 09 55 64 -31 -24
+// tropic church
+ 4604 sprites/pcx/trop_4604_church.pcx 0 0 09 56 64 -31 -25
 //continuing
    18 sprites/pcx/towns02.pcx 338 88 03 31 64 -31 0
    19 sprites/pcx/towns02.pcx 418 88 03 47 64 -31 -16
