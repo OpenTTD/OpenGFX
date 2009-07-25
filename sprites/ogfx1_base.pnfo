@@ -3316,18 +3316,25 @@
   404 sprites/pcx/newtrains01.pcx 738 728 09 17 22 -6 -8
 
 //2829-2904 wagons monorail/maglev
+// passenger wagon
 	2829	sprites/pcx/monolev-ba.pcx	1	227	1	23	8	-3	-11
 	2830	sprites/pcx/monolev-ba.pcx	12	227	9	17	22	-14	-8
 	2831	sprites/pcx/monolev-ba.pcx	36	227	1	12	32	-16	-7
 	2832	sprites/pcx/monolev-ba.pcx	69	227	9	17	22	-7	-8
+// coal
     8 sprites/pcx/monolevwagons.pcx 210 8 09 24 8 -3 -12
     9 sprites/pcx/monolevwagons.pcx 226 8 09 17 22 -14 -8
    10 sprites/pcx/monolevwagons.pcx 258 8 09 12 32 -16 -7
    11 sprites/pcx/monolevwagons.pcx 306 8 09 17 22 -6 -8
-   12 sprites/pcx/monolevwagons.pcx 338 8 09 24 8 -3 -12
-   13 sprites/pcx/monolevwagons.pcx 354 8 09 17 22 -14 -8
-   14 sprites/pcx/monolevwagons.pcx 386 8 09 12 32 -16 -7
-   15 sprites/pcx/monolevwagons.pcx 434 8 09 17 22 -6 -8
+// mail
+//   12 sprites/pcx/monolevwagons.pcx 338 8 09 24 8 -3 -12
+//   13 sprites/pcx/monolevwagons.pcx 354 8 09 17 22 -14 -8
+//   14 sprites/pcx/monolevwagons.pcx 386 8 09 12 32 -16 -7
+//   15 sprites/pcx/monolevwagons.pcx 434 8 09 17 22 -6 -8
+	2829	sprites/pcx/monolev-ba.pcx	1	300	1	23	8	-3	-11
+	2830	sprites/pcx/monolev-ba.pcx	12	300	9	17	22	-14	-8
+	2831	sprites/pcx/monolev-ba.pcx	36	300	1	12	32	-16	-7
+	2832	sprites/pcx/monolev-ba.pcx	69	300	9	17	22	-7	-8
    16 sprites/pcx/monolevwagons.pcx 466 8 09 24 8 -3 -12
    17 sprites/pcx/monolevwagons.pcx 482 8 09 17 22 -14 -8
    18 sprites/pcx/monolevwagons.pcx 514 8 09 12 32 -16 -7
