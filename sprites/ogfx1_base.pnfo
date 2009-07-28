@@ -5262,7 +5262,7 @@
 //4627	4674	48	Toyland: Buildings
     3 sprites/pcx/toyland_wrappedhouses.pcx 66 8 03 127 64 -31 -96
     4 sprites/pcx/toyland_wrappedhouses.pcx 146 8 03 111 64 -31 -80
- 4629 sprites/pcx/toylandblds.pcx 250 120 09 95 64 -31 -64
+ 4629 sprites/pcx/toyland_church_base4629.pcx 0 00 09 95 64 -31 -64
 
     5 sprites/pcx/toyland_wrappedhouses.pcx 226 8 03 126 64 -31 -95
     6 sprites/pcx/toyland_wrappedhouses.pcx 306 8 03 112 64 -31 -81
