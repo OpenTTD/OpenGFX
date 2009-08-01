@@ -3939,11 +3939,42 @@
   238 sprites/pcx/waterfeatures.pcx 626 840 09 39 64 -31 -8
   239 sprites/pcx/waterfeatures.pcx 706 840 09 23 64 -31 0
   240 sprites/pcx/waterfeatures.pcx 2 904 09 39 64 -31 -8
-  241 * 7	 02 05 0F 01 00 00 00
- //!!Error (129): Offset 5: Only 0 random bits are available.
-  242 * 39	 02 05 10 80 00 01 10 00 00 01 00 02 00 03 00 04 00 05 00 06 00 07 00 08 00 09 00 0A 00 0B 00 0C
-	 00 0D 00 0E 00 0F 00
-  243 * 7	 03 05 01 05 00 10 00
+
+  241 * 7	 02 
+	05 // Canals
+	0F // ID
+	01 00 00 00 
+//!!Error (129): Offset 5: Only 0 random bits are available.
+//http://wiki.ttdpatch.net/tiki-index.php?page=RandomAction2
+  242 * 39	 02 
+	05 // Canals
+	10 // ID
+	80 // Random:  Use 80 to randomize the object (vehicle, station, building, industry) based on its own triggers and bits.
+	00 // Trigger: 
+	01 // Randbit: 16 sets needs 4 bits?
+	10 // 16 Sets
+	00 00 
+	01 00 
+	02 00 
+	03 00 
+	04 00 
+	05 00 
+	06 00 
+	07 00 
+	08 00 
+	09 00 
+	0A 00 
+	0B 00 
+	0C 00 
+	0D 00 
+	0E 00 
+	0F 00
+
+  243 * 7	 03 
+	05 // Canals
+	01 // 1 water slope
+	05 00 // 
+	10 00 // 
 
   244 * 4	 01 05 01 3C
   245 sprites/pcx/waterfeatures.pcx 146 904 09 19 38 -5 0
