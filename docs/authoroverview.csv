@@ -122,7 +122,9 @@ ogfx1_base;2724;2726;3;GUI airport and road;bubersson, LordAzamath, Zephyris;Zep
 ogfx1_base;2727;2732;6;Docks;FooBar, LordAzamath, Red*Star;FooBar;;1
 ogfx1_base;2733;2828;96;Rail wagons;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
 ogfx1_base;2829;2832;4;Monolev passenger carriage;Born Acorn;Ammler;;1
-ogfx1_base;2833;2904;72;Monolev wagons;Zephyris;buttercup;;1
+ogfx1_base;2833;2836;4;Monolev coal wagon;Zephyris;buttercup;;1
+ogfx1_base;2837;2840;4;Monolev mail wagon;Born Acorn;Ammler;102;1
+ogfx1_base;2841;2904;64;Monolev wagons;Zephyris;buttercup;;1
 ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
 ogfx1_base;2981;2992;12;Monorail engines;Born Acorn;Ammler;102;1
 ogfx1_base;2993;3016;24;Maglev engines;Born Acorn;Ammler;102;1
