@@ -807,7 +807,7 @@
   703 sprites/pcx/egrvts.pcx 194 4168 01 12 28 -14 -6
   704 sprites/pcx/egrvts.pcx 242 4168 09 16 20 -6 -7
 // Battery truck full (egrvts #3764 ff)
-  705 sprites/pcx/egrvts.pcx 178 4328 01 18 8 -3 -10  
+  705 sprites/pcx/egrvts.pcx 210 4328 01 18 8 -3 -10  
   706 sprites/pcx/egrvts.pcx 226 4328 09 16 20 -14 -7
   707 sprites/pcx/egrvts.pcx 258 4328 01 12 28 -14 -6
   708 sprites/pcx/egrvts.pcx 306 4328 09 16 20 -6 -7
