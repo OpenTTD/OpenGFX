@@ -60,7 +60,6 @@ test :
 	$(_E) "Documentation filenames:      $(DOC_FILENAMES)"
 	$(_E) "nfo files:                    $(NFO_FILENAMES)"
 	$(_E) "pnfo files:                   $(PNFO_FILENAMES)"
-	$(_E) "dep files:                    $(DEP_FILENAMES)"
 	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
@@ -88,13 +87,10 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
-
-%.$(DEP_SUFFIX) : $(SPRITEDIR)/%.$(PNFO_SUFFIX)
-	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(GRF_SUFFIX))"
-	$(_V) grep "sprites/pcx" $< | sed -e "s|^.*[ 	]\(sprites/pcx/[^ 	]*\).*|$< : \1\r\f$(<:$(PNFO_SUFFIX)=$(NFO_SUFFIX)) : \1|" | sort | uniq > $@
+	
 
 # Compile GRF
-%.$(GRF_SUFFIX) : %(SPRITEDIR)/%.$(NFO_SUFFIX) %.$(DEP_SUFFIX)
+%.$(GRF_SUFFIX) : $(SPRITEDIR)/%.$(NFO_SUFFIX)
 	$(_E) "[Generating] $@"
 	$(_V)$(GRFCODEC) $(GRFCODEC_FLAGS) $@
 	$(_E)
@@ -111,8 +107,8 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 # Clean the source tree
 clean:
 	$(_E) "[Cleaning]"
-	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
-
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
+	
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
@@ -165,5 +161,3 @@ $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
 	
 remake: clean all
-
--include $(DEP_FILENAMES)
