@@ -3171,7 +3171,7 @@
 -1 sprites/pcx/font_addl.pcx 160 30 01 5 3 0 1
 -1 sprites/pcx/font_addl.pcx 170 30 01 5 1 0 1
 -1 sprites/pcx/font_addl.pcx 180 30 01 5 3 0 1
--1 sprites/pcx/font_addl.pcx 190 30 01 5 5 0 1
+-1 sprites/pcx/font_addl.pcx 190 30 01 5 4 0 1
 -1 sprites/pcx/font_addl.pcx 160 40 01 21 6 0 -2
 -1 sprites/pcx/font_addl.pcx 170 40 01 21 3 0 -2
 -1 sprites/pcx/font_addl.pcx 180 40 01 21 6 0 -2
@@ -3346,7 +3346,7 @@
 //U+203A › SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 -1 * 0 12 03 00 01 3A 20 01 01 3A 20 02 01 3A 20
 -1 sprites/pcx/font_addl.pcx 760 130 01 13 5 0 -2
--1 sprites/pcx/font_addl.pcx 760 150 01 5 3 0 1
+-1 sprites/pcx/font_addl.pcx 760 150 01 5 2 0 1
 -1 sprites/pcx/font_addl.pcx 760 160 01 21 4 0 -2
 
 //U+2013 – EN DASH
@@ -3399,7 +3399,7 @@
 //U+0125 h Latin Small Letter H with circumflex 
 -1 * 0 12 03 00 02 24 01 01 02 24 01 02 02 24 01
 -1 sprites/pcx/font_addl.pcx 580 70 01 13 8 0 -2
--1 sprites/pcx/font_addl.pcx 600 70 01 13 9 0 -2
+-1 sprites/pcx/font_addl.pcx 600 70 01 13 8 0 -2
 -1 sprites/pcx/font_addl.pcx 580 90 01 6 3 0 0
 -1 sprites/pcx/font_addl.pcx 600 90 01 6 3 0 0
 -1 sprites/pcx/font_addl.pcx 580 100 01 21 15 0 -2
@@ -3598,7 +3598,7 @@
 //U+0139 L Latin Capital Letter L with acute 
 //U+013A l Latin Small Letter L with acute 
 -1 * 0 12 03 00 02 39 01 01 02 39 01 02 02 39 01
--1 sprites/pcx/font_addl.pcx 30 190 01 13 8 0 -2
+-1 sprites/pcx/font_addl.pcx 30 190 01 13 7 0 -2
 -1 sprites/pcx/font_addl.pcx 50 190 01 13 4 0 -2
 -1 sprites/pcx/font_addl.pcx 30 210 01 6 3 0 0
 -1 sprites/pcx/font_addl.pcx 50 210 01 6 2 0 0
@@ -3694,7 +3694,7 @@
 
 // Latin Small Letter O with stroke (ø U+00F8)
 -1 * 0 12 01 02 01 F8 00
--1 sprites/pcx/font_addl.pcx 320 40 01 21 10 0 -2
+-1 sprites/pcx/font_addl.pcx 320 40 01 21 9 0 -2
 
 // Latin Capital letter Eth (Ð U+00D0)
 -1 * 0 12 01 02 01 D0 00
@@ -3722,7 +3722,7 @@
 
 // Registered sign (® U+00AE)
 -1 * 0 12 01 02 01 AE 00
--1 sprites/pcx/font_addl.pcx 150 40 01 21 16 0 -2
+-1 sprites/pcx/font_addl.pcx 150 40 01 21 7 0 -2
 
 // Plus-minus sign; Superscript two; Superscript three (± U+00B1; ² U+00B2; ³ U+00B3)
 -1 * 0 12 01 02 03 B1 00
