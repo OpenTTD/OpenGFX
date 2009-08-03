@@ -4445,10 +4445,10 @@
    20 sprites/pcx/eyecandy.pcx 642 8 09 13 19 -8 -7
    21 sprites/pcx/eyecandy.pcx 674 8 09 13 19 -8 -7
 //3910-3917 submarines
- 3910 sprites/pcx/random.pcx 360 333 09 18 10 -4 -14
- 3911 sprites/pcx/random.pcx 380 333 09 18 10 -4 -14
- 3912 sprites/pcx/random.pcx 400 333 09 18 10 -4 -14
- 3913 sprites/pcx/random.pcx 420 333 09 18 10 -4 -14
+ 3910 sprites/pcx/random.pcx 360 333 09 17 10 -4 -14
+ 3911 sprites/pcx/random.pcx 380 333 09 17 10 -4 -14
+ 3912 sprites/pcx/random.pcx 400 333 09 17 10 -4 -14
+ 3913 sprites/pcx/random.pcx 420 333 09 17 10 -4 -14
  3914 sprites/pcx/random.pcx 440 333 09 27 20 -9 -21
  3915 sprites/pcx/random.pcx 470 333 09 27 20 -9 -21
  3916 sprites/pcx/random.pcx 500 333 09 27 20 -9 -21
