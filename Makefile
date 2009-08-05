@@ -9,7 +9,7 @@ SHELL = /bin/sh
 OSTYPE=$(shell uname -s)
 ifeq ($(OSTYPE),Linux)
 INSTALLDIR=$(HOME)/.openttd/data
-else 
+else
 ifeq ($(OSTYPE),Darwin)
 INSTALLDIR=$(HOME)/Documents/OpenTTD/data
 else
@@ -50,7 +50,7 @@ vpath %.nfo $(SPRITEDIR)
 # Target for all:
 all : $(OBG_FILE)
 
-test : 
+test :
 	$(_E) "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	$(_E) "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
 	$(_E) "Local installation directory: $(INSTALLDIR)"
@@ -60,6 +60,7 @@ test :
 	$(_E) "Documentation filenames:      $(DOC_FILENAMES)"
 	$(_E) "nfo files:                    $(NFO_FILENAMES)"
 	$(_E) "pnfo files:                   $(PNFO_FILENAMES)"
+	$(_E) "dep files:                    $(DEP_FILENAMES)"
 	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
@@ -87,14 +88,17 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
-	
+
+%.$(DEP_SUFFIX) : $(SPRITEDIR)/%.$(PNFO_SUFFIX)
+	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(GRF_SUFFIX))"
+	$(_V) grep "sprites/pcx" $< | sed -e "s|^.*[ 	]\(sprites/pcx/[^ 	]*\).*|$< $(<:$(PNFO_SUFFIX)=$(NFO_SUFFIX)) : \1|" | sort | uniq > $@
 
 # Compile GRF
 %.$(GRF_SUFFIX) : $(SPRITEDIR)/%.$(NFO_SUFFIX)
 	$(_E) "[Generating] $@"
 	$(_V)$(GRFCODEC) $(GRFCODEC_FLAGS) $@
 	$(_E)
-	
+
 # NFORENUM process copy of the NFO
 .SECONDARY: %.$(NFO_SUFFIX)
 .PRECIOUS: %.$(NFO_SUFFIX)
@@ -103,18 +107,18 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 	$(_V) cp $< $@
 	$(_E) "[nforenum] $@"
 	$(_V)-$(NFORENUM) $(NFORENUM_FLAGS) $@
-	
+
 # Clean the source tree
 clean:
 	$(_E) "[Cleaning]"
-	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
-	
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
+
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
 	$(_V)mkdir $@
-	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done	
+	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done
 bundle: $(DIR_NIGHTLY)
 
 %.$(TXT_SUFFIX): %.$(PTXT_SUFFIX)
@@ -146,7 +150,7 @@ install: $(TAR_FILENAME) $(INSTALLDIR)
 	$(_E) "[INSTALL] to $(INSTALLDIR)"
 	$(_V)-cp $(TAR_FILENAME) $(INSTALLDIR)
 	$(_E)
-	
+
 release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
 	$(_E) "[RELEASE] $(DIR_RELEASE)"
 release-install: release
@@ -154,10 +158,12 @@ release-install: release
 	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
 	$(_E)
 release_zip: $(DIR_RELEASE).$(TAR_SUFFIX) $(DOC_FILENAMES)
-	$(_E) "[Generating:] $(ZIP_FILENAME)"	
+	$(_E) "[Generating:] $(ZIP_FILENAME)"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
-	
+
 $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
-	
+
 remake: clean all
+
+-include $(DEP_FILENAMES)
