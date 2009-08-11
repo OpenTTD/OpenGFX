@@ -23,7 +23,7 @@ Contents
 
 OpenGFX is an open source replacement for the original TTD graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide a set of free base graphics which make it possible to play OpenTTD without requiring the (copyrighted) files from the TTD cd. This potentially increases the OpenTTD fanbase and makes it a true free game (with "free" as in both "free beer" and "open source"). 
 
-The OpenGFX base graphics set is currently not complete yet, but is already very playable.
+The OpenGFX base graphics set is not yet complete. Albeit only a number of toyland sprites and some manager faces are still missing. Thus playing the "usual" three climates is now completely supported.
 
 
 
@@ -83,6 +83,8 @@ The sample.cat file contains the sound effects from the original TTD. OpenTTD re
 
 Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to 
 continue! (Obviously, you don't have any sound effects with the dummy file.)
+
+Note: As of r17139 of OpenTTD it supports sound sets. If you have a nightly version newer than this (the 0.7.x branch doesn't support sound sets), the preferred way is to add a free sound set, either NoSound (available from bananas) or OpenGFX's sister, the OpenSFX sound set, available from http://bundles.openttdcoop.org/opensfx . OpenSFX is installed the very same way as OpenGFX.
 
 
 

@@ -27,7 +27,6 @@ OpenGFX 0.1.0-alpha6
 - Fix: White lines in some characters
 - Fix: Replace pure white in all sprites 
 - Fix: Action colors for the climate preview images
-- Fix: Removed action colors from the tropic church sprite
 - Fix: Temperate building mis-alignment.
 
 
