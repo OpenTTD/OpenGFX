@@ -19,6 +19,7 @@ OpenGFX 0.1.0-alpha6
 - Feature: Add construction stages (wrappings) for most existing toyland buildings
 - Feature: Monolev mail wagon 
 - Feature: Tropic church
+- Feature: British semaphore style
 - Change: Improved arrows on terraforming icons
 - Fix: Reduced the close-x 1px right and bottom to keep it square and avoiding OpenTTD glitch
 - Fix: White bottom of small submarines
