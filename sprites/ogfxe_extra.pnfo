@@ -3,9 +3,8 @@
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
     0 * 4	 00 00 00 00
 
-//check for TTDPatch
-    1 * 9	 07 9D 04 \7= 01 00 00 00 01
-    2 * 48	 0B 03 7F FF 80 " is not for TTDPatch. Use ttdpatch(w).grf." 00
+// skip OpenTTD check
+	0 * 0    07 9D 04 \7= 00 00 00 00 07
 //check OpenTTD version, skip 2 if FFFFFFFF
     3 * 9	 07 A1 04 \7= "ÿÿÿÿ" 02
 //check OpenTTD version, check for 0.7
@@ -2819,28 +2818,6 @@
  1427 sprites/pcx/openttdw-r14502.pcx 674 4568 09 10 31 -15 7
  1428 sprites/pcx/openttdw-r14502.pcx 722 4568 09 23 31 -16 -1
 
-
-
- 1429 * 23	 0C "Extra airport graphics"
- 1430 * 3	 05 10 0F
- 1513 sprites/pcx/infra08.pcx 50 7768 09 31 64 -31 0
- 1514 sprites/pcx/infra08.pcx 130 7768 09 31 64 -31 0
- 1515 sprites/pcx/infra08.pcx 210 7768 09 31 64 -31 0
- 1516 sprites/pcx/infra08.pcx 290 7768 09 31 64 -31 0
- 1517 sprites/pcx/infra08.pcx 370 7768 09 31 64 -31 0
- 1518 sprites/pcx/infra08.pcx 450 7768 09 31 64 -31 0
- 1519 sprites/pcx/infra08.pcx 530 7768 09 55 64 -2 -38
- 1520 sprites/pcx/infra08.pcx 610 7768 09 17 18 16 -1
- 1521 sprites/pcx/infra08.pcx 642 7768 09 55 64 -2 -38
- 1522 sprites/pcx/infra08.pcx 722 7768 09 17 18 -30 1
- 1523 sprites/pcx/infra08.pcx 2 7848 09 55 64 -2 -38
- 1524 sprites/pcx/infra08.pcx 82 7848 09 55 64 -2 -38
- 1525 sprites/pcx/infra08.pcx 162 7848 09 31 64 -31 0
- 1526 sprites/pcx/infra08.pcx 242 7848 09 31 64 -31 0
- 1527 sprites/pcx/infra08.pcx 322 7848 09 31 64 -31 0
-
-
-
  1446 * 19	 0C "Road stop graphics"
  1447 * 3	 05 11 08
   966 sprites/pcx/infra08.pcx 514 5224 09 40 64 -5 -22
@@ -2864,262 +2841,6 @@
     8 sprites/pcx/waterfeatures.pcx 466 8 09 39 64 -31 -9
     9 sprites/pcx/waterfeatures.pcx 546 8 09 23 33 -26 0
    10 sprites/pcx/waterfeatures.pcx 594 8 09 23 33 -5 0
-
-
-
- 1466 * 18	 0C "Autorail graphics"
- 1467 * 3	 05 13 37
- 1468 sprites/pcx/openttdw-r14502.pcx 530 4776 09 31 64 -31 7
- 1469 sprites/pcx/openttdw-r14502.pcx 610 4776 09 31 64 -31 -1
- 1470 sprites/pcx/openttdw-r14502.pcx 690 4776 09 39 64 -31 -1
- 1471 sprites/pcx/openttdw-r14502.pcx 2 4840 09 47 64 -31 -9
- 1472 sprites/pcx/openttdw-r14502.pcx 82 4840 09 31 64 -31 -5
- 1473 sprites/pcx/openttdw-r14502.pcx 162 4840 09 23 64 -31 7
- 1474 sprites/pcx/openttdw-r14502.pcx 242 4840 09 18 64 -31 4
- 1475 sprites/pcx/openttdw-r14502.pcx 322 4840 09 31 64 -31 -1
- 1476 sprites/pcx/openttdw-r14502.pcx 402 4840 09 31 64 -31 7
- 1477 sprites/pcx/openttdw-r14502.pcx 482 4840 09 31 64 -31 -1
- 1478 sprites/pcx/openttdw-r14502.pcx 562 4840 09 23 64 -31 7
- 1479 sprites/pcx/openttdw-r14502.pcx 642 4840 09 18 64 -31 4
- 1480 sprites/pcx/openttdw-r14502.pcx 722 4840 09 31 64 -31 -1
- 1481 sprites/pcx/openttdw-r14502.pcx 2 4904 09 39 64 -31 -1
- 1482 sprites/pcx/openttdw-r14502.pcx 82 4904 09 47 64 -31 -9
- 1483 sprites/pcx/openttdw-r14502.pcx 162 4904 09 31 64 -31 -5
- 1484 sprites/pcx/openttdw-r14502.pcx 242 4904 09 31 64 -31 7
- 1485 sprites/pcx/openttdw-r14502.pcx 322 4904 09 31 64 -31 -1
- 1486 sprites/pcx/openttdw-r14502.pcx 402 4904 09 47 64 -31 -9
- 1487 sprites/pcx/openttdw-r14502.pcx 482 4904 09 26 64 -31 4
- 1488 sprites/pcx/openttdw-r14502.pcx 562 4904 09 23 64 -31 4
- 1489 sprites/pcx/openttdw-r14502.pcx 642 4904 09 31 64 -31 -3
- 1490 sprites/pcx/openttdw-r14502.pcx 722 4904 09 26 64 -31 4
- 1491 sprites/pcx/openttdw-r14502.pcx 2 4968 09 23 64 -31 4
- 1492 sprites/pcx/openttdw-r14502.pcx 82 4968 09 31 64 -31 -3
- 1493 sprites/pcx/openttdw-r14502.pcx 162 4968 09 31 64 -31 7
- 1494 sprites/pcx/openttdw-r14502.pcx 242 4968 09 31 64 -31 -1
- 1495 sprites/pcx/openttdw-r14502.pcx 322 4968 09 15 64 -31 7
- 1496 sprites/pcx/openttdw-r14502.pcx 402 4968 09 31 64 -31 7
- 1497 sprites/pcx/openttdw-r14502.pcx 482 4968 09 39 64 -31 -1
- 1498 sprites/pcx/openttdw-r14502.pcx 562 4968 09 31 64 -31 -1
- 1499 sprites/pcx/openttdw-r14502.pcx 642 4968 09 31 64 -31 7
- 1500 sprites/pcx/openttdw-r14502.pcx 722 4968 09 39 64 -31 -1
- 1501 sprites/pcx/openttdw-r14502.pcx 2 5032 09 31 64 -31 -1
- 1502 sprites/pcx/openttdw-r14502.pcx 82 5032 09 31 64 -31 7
- 1503 sprites/pcx/openttdw-r14502.pcx 162 5032 09 31 64 -31 -1
- 1504 sprites/pcx/openttdw-r14502.pcx 242 5032 09 31 64 -31 -1
- 1505 sprites/pcx/openttdw-r14502.pcx 322 5032 09 31 64 -31 -1
- 1506 sprites/pcx/openttdw-r14502.pcx 402 5032 09 23 64 -31 7
- 1507 sprites/pcx/openttdw-r14502.pcx 482 5032 09 15 64 -31 7
- 1508 sprites/pcx/openttdw-r14502.pcx 562 5032 09 39 64 -31 -1
- 1509 sprites/pcx/openttdw-r14502.pcx 642 5032 09 47 64 -31 -9
- 1510 sprites/pcx/openttdw-r14502.pcx 722 5032 09 31 64 -31 7
- 1511 sprites/pcx/openttdw-r14502.pcx 2 5096 09 31 64 -31 -1
- 1512 sprites/pcx/openttdw-r14502.pcx 82 5096 09 31 64 -31 -1
- 1513 sprites/pcx/openttdw-r14502.pcx 162 5096 09 31 64 -31 -1
- 1514 sprites/pcx/openttdw-r14502.pcx 242 5096 09 23 64 -31 7
- 1515 sprites/pcx/openttdw-r14502.pcx 322 5096 09 15 64 -31 7
- 1516 sprites/pcx/openttdw-r14502.pcx 402 5096 09 39 64 -31 -1
- 1517 sprites/pcx/openttdw-r14502.pcx 482 5096 09 47 64 -31 -9
- 1518 sprites/pcx/openttdw-r14502.pcx 562 5096 09 31 64 -31 -1
- 1519 sprites/pcx/openttdw-r14502.pcx 642 5096 09 31 64 -31 -1
- 1520 sprites/pcx/openttdw-r14502.pcx 722 5096 09 23 64 -31 7
- 1521 sprites/pcx/openttdw-r14502.pcx 2 5160 09 31 64 -31 7
- 1522 sprites/pcx/openttdw-r14502.pcx 82 5160 09 31 64 -31 7
-
-
-
- 1523 * 14	 0C "Flag graphics"
- 1524 * 3	 05 14 24
- 1525 sprites/pcx/openttdw-r14502.pcx 194 5160 09 8 11 0 0
- 1526 sprites/pcx/openttdw-r14502.pcx 210 5160 09 8 11 0 0
- 1527 sprites/pcx/openttdw-r14502.pcx 226 5160 09 8 11 0 0
- 1528 sprites/pcx/openttdw-r14502.pcx 242 5160 09 8 11 0 0
- 1529 sprites/pcx/openttdw-r14502.pcx 258 5160 09 8 11 0 0
- 1530 sprites/pcx/openttdw-r14502.pcx 274 5160 09 8 11 0 0
- 1531 sprites/pcx/openttdw-r14502.pcx 290 5160 09 8 11 0 0
- 1532 sprites/pcx/openttdw-r14502.pcx 306 5160 09 8 11 0 0
- 1533 sprites/pcx/openttdw-r14502.pcx 322 5160 09 8 11 0 0
- 1534 sprites/pcx/openttdw-r14502.pcx 338 5160 09 8 11 0 0
- 1535 sprites/pcx/openttdw-r14502.pcx 354 5160 09 8 11 0 0
- 1536 sprites/pcx/openttdw-r14502.pcx 370 5160 09 8 11 0 0
- 1537 sprites/pcx/openttdw-r14502.pcx 386 5160 09 8 11 0 0
- 1538 sprites/pcx/openttdw-r14502.pcx 402 5160 09 8 11 0 0
- 1539 sprites/pcx/openttdw-r14502.pcx 418 5160 09 8 11 0 0
- 1540 sprites/pcx/openttdw-r14502.pcx 434 5160 09 8 11 0 0
- 1541 sprites/pcx/openttdw-r14502.pcx 450 5160 09 8 11 0 0
- 1542 sprites/pcx/openttdw-r14502.pcx 466 5160 09 8 11 0 0
- 1543 sprites/pcx/openttdw-r14502.pcx 482 5160 09 8 11 0 0
- 1544 sprites/pcx/openttdw-r14502.pcx 498 5160 09 8 11 0 0
- 1545 sprites/pcx/openttdw-r14502.pcx 514 5160 09 8 11 0 0
- 1546 sprites/pcx/openttdw-r14502.pcx 530 5160 09 8 11 0 0
- 1547 sprites/pcx/openttdw-r14502.pcx 546 5160 09 8 11 0 0
- 1548 sprites/pcx/openttdw-r14502.pcx 562 5160 09 8 11 0 0
- 1549 sprites/pcx/openttdw-r14502.pcx 578 5160 09 8 11 0 0
- 1550 sprites/pcx/openttdw-r14502.pcx 594 5160 09 8 11 0 0
- 1551 sprites/pcx/openttdw-r14502.pcx 610 5160 09 8 11 0 0
- 1552 sprites/pcx/openttdw-r14502.pcx 626 5160 09 8 11 0 0
- 1553 sprites/pcx/openttdw-r14502.pcx 642 5160 09 8 11 0 0
- 1554 sprites/pcx/openttdw-r14502.pcx 658 5160 09 8 11 0 0
- 1555 sprites/pcx/openttdw-r14502.pcx 674 5160 09 8 11 0 0
- 1556 sprites/pcx/openttdw-r14502.pcx 690 5160 09 8 11 0 0
- 1557 sprites/pcx/openttdw-r14502.pcx 706 5160 09 8 11 0 0
- 1558 sprites/pcx/openttdw-r14502.pcx 722 5160 09 8 11 0 0
- 1559 sprites/pcx/openttdw-r14502.pcx 738 5160 09 8 11 0 0
- 1560 sprites/pcx/openttdw-r14502.pcx 754 5160 09 8 11 0 0
-
-
-
- 1561 * 21	 0C "OpenTTD GUI graphics"
- 1562 * 3	 05 15 96
-  220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
-  221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
-  222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
-  223 sprites/pcx/gui04.pcx 162 568 09 31 64 -31 7
-  224 sprites/pcx/gui04.pcx 242 568 09 31 64 -31 -1
-  225 sprites/pcx/gui04.pcx 322 568 09 39 64 -31 -1
-  226 sprites/pcx/gui04.pcx 402 568 09 31 64 -31 -1
-  227 sprites/pcx/gui04.pcx 482 568 09 23 64 -31 7
-  228 sprites/pcx/gui04.pcx 562 568 09 31 64 -31 7
-  229 sprites/pcx/gui04.pcx 642 568 09 23 64 -31 7
-  230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31 7
-  231 sprites/pcx/gui04.pcx 2 632 09 39 64 -31 -1
-  232 sprites/pcx/gui04.pcx 82 632 01 26 23 0 0
-  233 sprites/pcx/gui04.pcx 114 632 09 26 24 0 0
-  234 sprites/pcx/gui04.pcx 146 632 01 8 4 28 16
-  235 sprites/pcx/gui04.pcx 162 632 01 9 4 0 1
-  236 sprites/pcx/gui04.pcx 178 632 09 23 32 0 1
-  237 sprites/pcx/gui04.pcx 226 632 01 8 4 -31 15
-  238 sprites/pcx/gui04.pcx 242 632 01 9 4 -3 0
-  239 sprites/pcx/gui04.pcx 258 632 09 23 32 -31 0
-  240 sprites/pcx/gui04.pcx 306 632 01 8 4 28 16
-  241 sprites/pcx/gui04.pcx 322 632 01 9 4 0 1
-  242 sprites/pcx/gui04.pcx 338 632 09 23 32 0 1
-  243 sprites/pcx/gui04.pcx 386 632 01 8 4 -31 15
-  244 sprites/pcx/gui04.pcx 402 632 01 9 4 -3 0
-  245 sprites/pcx/gui04.pcx 418 632 09 23 32 -31 0
-  246 sprites/pcx/gui04.pcx 466 632 01 8 4 28 16
-  247 sprites/pcx/gui04.pcx 482 632 01 9 4 0 1
-  248 sprites/pcx/gui04.pcx 498 632 09 23 32 0 1
-  249 sprites/pcx/gui04.pcx 546 632 01 8 4 -31 15
-  250 sprites/pcx/gui04.pcx 562 632 01 9 4 -3 0
-  251 sprites/pcx/gui04.pcx 578 632 09 23 32 -31 0
-  252 sprites/pcx/gui04.pcx 626 632 01 8 4 28 16
-  253 sprites/pcx/gui04.pcx 642 632 01 9 4 0 1
-  254 sprites/pcx/gui04.pcx 658 632 09 23 32 0 1
-  255 sprites/pcx/gui04.pcx 706 632 01 8 4 -31 15
-  256 sprites/pcx/gui04.pcx 722 632 01 9 4 -3 0
-  257 sprites/pcx/gui04.pcx 738 632 09 23 32 -31 0
-  258 sprites/pcx/gui04.pcx 786 632 09 10 10 0 0
-  259 sprites/pcx/gui04.pcx 2 696 01 8 8 0 0
-  260 sprites/pcx/gui04.pcx 18 696 09 9 7 0 0
-  261 sprites/pcx/gui04.pcx 34 696 01 7 9 0 0
-  262 sprites/pcx/gui04.pcx 50 696 01 7 9 0 0
-  263 sprites/pcx/gui04.pcx 66 696 01 10 10 0 0
-  264 sprites/pcx/gui04.pcx 82 696 09 7 7 0 0
-  265 sprites/pcx/gui04.pcx 98 696 09 4 7 1 2
-  266 sprites/pcx/gui04.pcx 114 696 09 4 7 1 2
-  267 sprites/pcx/gui04.pcx 130 696 09 7 4 1 1
-  268 sprites/pcx/gui04.pcx 146 696 09 7 4 2 1
-  269 sprites/pcx/gui04.pcx 162 696 01 8 8 1 1
-  270 sprites/pcx/gui04.pcx 178 696 01 9 9 1 0
-  271 sprites/pcx/gui04.pcx 194 696 01 8 7 0 0
-  272 sprites/pcx/gui04.pcx 210 696 01 8 8 0 0
-  273 sprites/pcx/gui04.pcx 226 696 09 20 20 0 0
-  274 sprites/pcx/gui04.pcx 258 696 03 32 32 0 0
-  275 sprites/pcx/gui04.pcx 306 696 01 20 20 0 0
-  276 sprites/pcx/gui04.pcx 338 696 01 32 32 0 0
-  277 sprites/pcx/gui04.pcx 386 696 09 20 20 0 0
-  278 sprites/pcx/gui04.pcx 418 696 03 32 32 0 0
-  279 sprites/pcx/gui04.pcx 466 696 01 20 20 0 0
-  280 sprites/pcx/gui04.pcx 498 696 01 32 32 0 0
-  281 sprites/pcx/gui04.pcx 546 696 01 20 20 0 0
-  282 sprites/pcx/gui04.pcx 578 696 01 32 32 0 0
-  283 sprites/pcx/gui04.pcx 626 696 01 20 20 0 0
-  284 sprites/pcx/gui04.pcx 658 696 03 32 32 0 0
-  285 sprites/pcx/gui04.pcx 706 696 01 20 20 0 0
-  286 sprites/pcx/gui04.pcx 738 696 01 32 32 0 0
-  287 sprites/pcx/gui04.pcx 2 744 01 20 20 0 0
-  288 sprites/pcx/gui04.pcx 34 744 01 32 32 0 0
-  289 sprites/pcx/gui04.pcx 82 744 09 20 20 0 0
-  290 sprites/pcx/gui04.pcx 114 744 03 32 32 0 0
-  291 sprites/pcx/gui04.pcx 162 744 01 20 20 0 0
-  292 sprites/pcx/gui04.pcx 194 744 01 32 32 0 0
-  293 sprites/pcx/gui04.pcx 242 744 01 20 20 0 0
-  294 sprites/pcx/gui04.pcx 274 744 01 32 32 0 0
-  295 sprites/pcx/gui04.pcx 322 744 09 20 20 0 0
-  296 sprites/pcx/gui04.pcx 354 744 09 20 20 0 0
-  297 sprites/pcx/gui04.pcx 386 744 03 32 32 0 0
-  298 sprites/pcx/gui04.pcx 434 744 09 40 62 -31 -9
-  299 sprites/pcx/gui04.pcx 514 744 09 40 62 -52 -20
-  300 sprites/pcx/gui04.pcx 594 744 09 40 62 -31 -9
-  301 sprites/pcx/gui04.pcx 674 744 09 40 62 -10 -20
-  302 sprites/pcx/gui04.pcx 754 744 09 20 20 0 0
-  303 sprites/pcx/gui04.pcx 2 808 03 32 32 0 0
-  304 sprites/pcx/gui04.pcx 50 808 09 20 20 0 0
-  305 sprites/pcx/gui04.pcx 82 808 03 32 32 0 0
-  306 sprites/pcx/gui04.pcx 130 808 01 18 39 -9 -9
-  307 sprites/pcx/gui04.pcx 178 808 01 32 32 0 0
-  308 sprites/pcx/gui04.pcx 226 808 01 20 20 0 0
-  309 sprites/pcx/gui04.pcx 258 808 01 32 32 0 0
-  310 sprites/pcx/gui04.pcx 306 808 09 20 20 0 0
-  311 sprites/pcx/gui04.pcx 338 808 01 20 20 0 0
-  312 sprites/pcx/gui04.pcx 370 808 01 32 32 0 0
-  313 sprites/pcx/gui04.pcx 418 808 01 20 20 0 0
-  314 sprites/pcx/gui04.pcx 450 808 01 20 20 0 0
-  315 sprites/pcx/gui04.pcx 482 808 01 20 20 0 0
-  316 sprites/pcx/gui04.pcx 514 808 01 20 20 0 0
-  317 sprites/pcx/gui04.pcx 546 808 01 20 20 0 0
-  318 sprites/pcx/gui04.pcx 578 808 01 20 20 0 0
-  319 sprites/pcx/gui04.pcx 610 808 01 20 20 0 0
-  320 sprites/pcx/gui04.pcx 642 808 01 20 20 0 0
-  321 sprites/pcx/gui04.pcx 674 808 01 20 20 0 0
-  322 sprites/pcx/gui04.pcx 706 808 01 20 20 0 0
-  323 sprites/pcx/gui04.pcx 738 808 01 20 20 0 0
-  324 sprites/pcx/gui04.pcx 770 808 01 20 20 0 0
-  325 sprites/pcx/gui04.pcx 2 856 01 20 20 0 0
-  326 sprites/pcx/gui04.pcx 34 856 09 16 16 0 0
-  327 sprites/pcx/gui04.pcx 66 856 01 16 16 0 0
-  328 sprites/pcx/gui04.pcx 98 856 01 16 16 0 0
-  329 sprites/pcx/gui04.pcx 130 856 01 16 16 0 0
-  330 sprites/pcx/gui04.pcx 162 856 09 32 32 0 0
-  331 sprites/pcx/gui04.pcx 210 856 01 32 32 0 0
-  332 sprites/pcx/gui04.pcx 258 856 01 32 32 0 0
-  333 sprites/pcx/gui04.pcx 306 856 01 32 32 0 0
-  334 sprites/pcx/gui04.pcx 354 856 09 20 20 0 0
-  335 sprites/pcx/gui04.pcx 386 856 09 20 20 0 0
-  336 sprites/pcx/gui04.pcx 418 856 09 20 20 0 0
-  337 sprites/pcx/gui04.pcx 450 856 09 20 20 0 0
-  338 sprites/pcx/gui04.pcx 482 856 09 20 20 0 0
-  339 sprites/pcx/gui04.pcx 514 856 09 20 20 0 0
-  340 sprites/pcx/gui04.pcx 546 856 09 20 20 0 0
-  341 sprites/pcx/gui04.pcx 578 856 09 20 20 0 0
-  342 sprites/pcx/gui04.pcx 610 856 09 20 20 0 0
-  343 sprites/pcx/gui04.pcx 642 856 09 20 20 0 0
-  344 sprites/pcx/gui04.pcx 674 856 09 20 20 0 0
-  345 sprites/pcx/gui04.pcx 706 856 09 20 20 0 0
-  346 sprites/pcx/gui04.pcx 738 856 09 20 20 0 0
-  347 sprites/pcx/gui04.pcx 770 856 09 20 20 0 0
-  348 sprites/pcx/gui04.pcx 2 904 09 20 20 0 0
-  349 sprites/pcx/gui04.pcx 34 904 09 20 20 0 0
-  350 sprites/pcx/gui04.pcx 66 904 09 20 20 0 0
-  351 sprites/pcx/gui04.pcx 98 904 09 20 20 0 0
-  352 sprites/pcx/gui04.pcx 130 904 09 20 20 0 0
-  353 sprites/pcx/gui04.pcx 162 904 09 20 20 0 0
-  354 sprites/pcx/gui04.pcx 194 904 01 20 20 0 0
-  355 sprites/pcx/gui04.pcx 226 904 01 20 20 0 0
-  356 sprites/pcx/gui04.pcx 258 904 01 20 20 0 0
-  357 sprites/pcx/gui04.pcx 290 904 01 32 32 0 0
-  358 sprites/pcx/gui04.pcx 338 904 01 7 7 3 4
-  359 sprites/pcx/gui04.pcx 354 904 01 7 7 3 4
-  360 sprites/pcx/gui04.pcx 370 904 01 9 10 2 3
-  361 sprites/pcx/gui04.pcx 386 904 01 9 10 2 3
-  362 sprites/pcx/gui04.pcx 402 904 01 7 11 2 1
-  363 sprites/pcx/gui04.pcx 418 904 01 9 9 3 3
-  364 sprites/pcx/gui04.pcx 434 904 09 20 20 0 0
-  365 sprites/pcx/gui04.pcx 466 904 09 20 20 0 0
-  366 sprites/pcx/gui04.pcx 498 904 09 32 32 0 0
- 1710 sprites/pcx/openttdw-r14977.pcx 690 5576 09 10 10 0 0
- 1711 sprites/pcx/openttdw-r14977.pcx 706 5576 09 10 10 0 0
- 1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
 
  1710 * 11	 0C "Characters"
 //Additional Characters (all font sizes)
@@ -3737,12 +3458,6 @@
 // Division sign (÷ U+00F7)
 -1 * 0 12 01 02 01 F7 00
 -1 sprites/pcx/font_addl.pcx 520 40 01 21 9 0 -2
-
-
-
- 1792 * 17	 0C "NewGRF overrides"
- 1793 * 30	 00 08 01 03 00 11 44 44 22 02 44 44 01 11 6D 62 04 02 6D 62 04 01 "Meo Meo" 17
-
 
 //Waterfeatures
  -1 * 0	 0C "Waterfeatures"
@@ -4980,3 +4695,277 @@
   715 sprites/pcx/terrain04.pcx 482 4440 09 15 64 -31 0
   716 sprites/pcx/terrain04.pcx 562 4440 09 31 64 -31 -8
   717 sprites/pcx/terrain04.pcx 642 4440 09 31 64 -31 -8
+  
+//skip to end for TTDPatch 
+    1 * 9	 09 9D 04 \7= 00 00 00 00 00
+	
+ 1429 * 23	 0C "Extra airport graphics"
+ 1430 * 3	 05 10 0F
+ 1513 sprites/pcx/infra08.pcx 50 7768 09 31 64 -31 0
+ 1514 sprites/pcx/infra08.pcx 130 7768 09 31 64 -31 0
+ 1515 sprites/pcx/infra08.pcx 210 7768 09 31 64 -31 0
+ 1516 sprites/pcx/infra08.pcx 290 7768 09 31 64 -31 0
+ 1517 sprites/pcx/infra08.pcx 370 7768 09 31 64 -31 0
+ 1518 sprites/pcx/infra08.pcx 450 7768 09 31 64 -31 0
+ 1519 sprites/pcx/infra08.pcx 530 7768 09 55 64 -2 -38
+ 1520 sprites/pcx/infra08.pcx 610 7768 09 17 18 16 -1
+ 1521 sprites/pcx/infra08.pcx 642 7768 09 55 64 -2 -38
+ 1522 sprites/pcx/infra08.pcx 722 7768 09 17 18 -30 1
+ 1523 sprites/pcx/infra08.pcx 2 7848 09 55 64 -2 -38
+ 1524 sprites/pcx/infra08.pcx 82 7848 09 55 64 -2 -38
+ 1525 sprites/pcx/infra08.pcx 162 7848 09 31 64 -31 0
+ 1526 sprites/pcx/infra08.pcx 242 7848 09 31 64 -31 0
+ 1527 sprites/pcx/infra08.pcx 322 7848 09 31 64 -31 0
+ 
+ 1466 * 18	 0C "Autorail graphics"
+ 1467 * 3	 05 13 37
+ 1468 sprites/pcx/openttdw-r14502.pcx 530 4776 09 31 64 -31 7
+ 1469 sprites/pcx/openttdw-r14502.pcx 610 4776 09 31 64 -31 -1
+ 1470 sprites/pcx/openttdw-r14502.pcx 690 4776 09 39 64 -31 -1
+ 1471 sprites/pcx/openttdw-r14502.pcx 2 4840 09 47 64 -31 -9
+ 1472 sprites/pcx/openttdw-r14502.pcx 82 4840 09 31 64 -31 -5
+ 1473 sprites/pcx/openttdw-r14502.pcx 162 4840 09 23 64 -31 7
+ 1474 sprites/pcx/openttdw-r14502.pcx 242 4840 09 18 64 -31 4
+ 1475 sprites/pcx/openttdw-r14502.pcx 322 4840 09 31 64 -31 -1
+ 1476 sprites/pcx/openttdw-r14502.pcx 402 4840 09 31 64 -31 7
+ 1477 sprites/pcx/openttdw-r14502.pcx 482 4840 09 31 64 -31 -1
+ 1478 sprites/pcx/openttdw-r14502.pcx 562 4840 09 23 64 -31 7
+ 1479 sprites/pcx/openttdw-r14502.pcx 642 4840 09 18 64 -31 4
+ 1480 sprites/pcx/openttdw-r14502.pcx 722 4840 09 31 64 -31 -1
+ 1481 sprites/pcx/openttdw-r14502.pcx 2 4904 09 39 64 -31 -1
+ 1482 sprites/pcx/openttdw-r14502.pcx 82 4904 09 47 64 -31 -9
+ 1483 sprites/pcx/openttdw-r14502.pcx 162 4904 09 31 64 -31 -5
+ 1484 sprites/pcx/openttdw-r14502.pcx 242 4904 09 31 64 -31 7
+ 1485 sprites/pcx/openttdw-r14502.pcx 322 4904 09 31 64 -31 -1
+ 1486 sprites/pcx/openttdw-r14502.pcx 402 4904 09 47 64 -31 -9
+ 1487 sprites/pcx/openttdw-r14502.pcx 482 4904 09 26 64 -31 4
+ 1488 sprites/pcx/openttdw-r14502.pcx 562 4904 09 23 64 -31 4
+ 1489 sprites/pcx/openttdw-r14502.pcx 642 4904 09 31 64 -31 -3
+ 1490 sprites/pcx/openttdw-r14502.pcx 722 4904 09 26 64 -31 4
+ 1491 sprites/pcx/openttdw-r14502.pcx 2 4968 09 23 64 -31 4
+ 1492 sprites/pcx/openttdw-r14502.pcx 82 4968 09 31 64 -31 -3
+ 1493 sprites/pcx/openttdw-r14502.pcx 162 4968 09 31 64 -31 7
+ 1494 sprites/pcx/openttdw-r14502.pcx 242 4968 09 31 64 -31 -1
+ 1495 sprites/pcx/openttdw-r14502.pcx 322 4968 09 15 64 -31 7
+ 1496 sprites/pcx/openttdw-r14502.pcx 402 4968 09 31 64 -31 7
+ 1497 sprites/pcx/openttdw-r14502.pcx 482 4968 09 39 64 -31 -1
+ 1498 sprites/pcx/openttdw-r14502.pcx 562 4968 09 31 64 -31 -1
+ 1499 sprites/pcx/openttdw-r14502.pcx 642 4968 09 31 64 -31 7
+ 1500 sprites/pcx/openttdw-r14502.pcx 722 4968 09 39 64 -31 -1
+ 1501 sprites/pcx/openttdw-r14502.pcx 2 5032 09 31 64 -31 -1
+ 1502 sprites/pcx/openttdw-r14502.pcx 82 5032 09 31 64 -31 7
+ 1503 sprites/pcx/openttdw-r14502.pcx 162 5032 09 31 64 -31 -1
+ 1504 sprites/pcx/openttdw-r14502.pcx 242 5032 09 31 64 -31 -1
+ 1505 sprites/pcx/openttdw-r14502.pcx 322 5032 09 31 64 -31 -1
+ 1506 sprites/pcx/openttdw-r14502.pcx 402 5032 09 23 64 -31 7
+ 1507 sprites/pcx/openttdw-r14502.pcx 482 5032 09 15 64 -31 7
+ 1508 sprites/pcx/openttdw-r14502.pcx 562 5032 09 39 64 -31 -1
+ 1509 sprites/pcx/openttdw-r14502.pcx 642 5032 09 47 64 -31 -9
+ 1510 sprites/pcx/openttdw-r14502.pcx 722 5032 09 31 64 -31 7
+ 1511 sprites/pcx/openttdw-r14502.pcx 2 5096 09 31 64 -31 -1
+ 1512 sprites/pcx/openttdw-r14502.pcx 82 5096 09 31 64 -31 -1
+ 1513 sprites/pcx/openttdw-r14502.pcx 162 5096 09 31 64 -31 -1
+ 1514 sprites/pcx/openttdw-r14502.pcx 242 5096 09 23 64 -31 7
+ 1515 sprites/pcx/openttdw-r14502.pcx 322 5096 09 15 64 -31 7
+ 1516 sprites/pcx/openttdw-r14502.pcx 402 5096 09 39 64 -31 -1
+ 1517 sprites/pcx/openttdw-r14502.pcx 482 5096 09 47 64 -31 -9
+ 1518 sprites/pcx/openttdw-r14502.pcx 562 5096 09 31 64 -31 -1
+ 1519 sprites/pcx/openttdw-r14502.pcx 642 5096 09 31 64 -31 -1
+ 1520 sprites/pcx/openttdw-r14502.pcx 722 5096 09 23 64 -31 7
+ 1521 sprites/pcx/openttdw-r14502.pcx 2 5160 09 31 64 -31 7
+ 1522 sprites/pcx/openttdw-r14502.pcx 82 5160 09 31 64 -31 7
+
+ 1523 * 14	 0C "Flag graphics"
+ 1524 * 3	 05 14 24
+ 1525 sprites/pcx/openttdw-r14502.pcx 194 5160 09 8 11 0 0
+ 1526 sprites/pcx/openttdw-r14502.pcx 210 5160 09 8 11 0 0
+ 1527 sprites/pcx/openttdw-r14502.pcx 226 5160 09 8 11 0 0
+ 1528 sprites/pcx/openttdw-r14502.pcx 242 5160 09 8 11 0 0
+ 1529 sprites/pcx/openttdw-r14502.pcx 258 5160 09 8 11 0 0
+ 1530 sprites/pcx/openttdw-r14502.pcx 274 5160 09 8 11 0 0
+ 1531 sprites/pcx/openttdw-r14502.pcx 290 5160 09 8 11 0 0
+ 1532 sprites/pcx/openttdw-r14502.pcx 306 5160 09 8 11 0 0
+ 1533 sprites/pcx/openttdw-r14502.pcx 322 5160 09 8 11 0 0
+ 1534 sprites/pcx/openttdw-r14502.pcx 338 5160 09 8 11 0 0
+ 1535 sprites/pcx/openttdw-r14502.pcx 354 5160 09 8 11 0 0
+ 1536 sprites/pcx/openttdw-r14502.pcx 370 5160 09 8 11 0 0
+ 1537 sprites/pcx/openttdw-r14502.pcx 386 5160 09 8 11 0 0
+ 1538 sprites/pcx/openttdw-r14502.pcx 402 5160 09 8 11 0 0
+ 1539 sprites/pcx/openttdw-r14502.pcx 418 5160 09 8 11 0 0
+ 1540 sprites/pcx/openttdw-r14502.pcx 434 5160 09 8 11 0 0
+ 1541 sprites/pcx/openttdw-r14502.pcx 450 5160 09 8 11 0 0
+ 1542 sprites/pcx/openttdw-r14502.pcx 466 5160 09 8 11 0 0
+ 1543 sprites/pcx/openttdw-r14502.pcx 482 5160 09 8 11 0 0
+ 1544 sprites/pcx/openttdw-r14502.pcx 498 5160 09 8 11 0 0
+ 1545 sprites/pcx/openttdw-r14502.pcx 514 5160 09 8 11 0 0
+ 1546 sprites/pcx/openttdw-r14502.pcx 530 5160 09 8 11 0 0
+ 1547 sprites/pcx/openttdw-r14502.pcx 546 5160 09 8 11 0 0
+ 1548 sprites/pcx/openttdw-r14502.pcx 562 5160 09 8 11 0 0
+ 1549 sprites/pcx/openttdw-r14502.pcx 578 5160 09 8 11 0 0
+ 1550 sprites/pcx/openttdw-r14502.pcx 594 5160 09 8 11 0 0
+ 1551 sprites/pcx/openttdw-r14502.pcx 610 5160 09 8 11 0 0
+ 1552 sprites/pcx/openttdw-r14502.pcx 626 5160 09 8 11 0 0
+ 1553 sprites/pcx/openttdw-r14502.pcx 642 5160 09 8 11 0 0
+ 1554 sprites/pcx/openttdw-r14502.pcx 658 5160 09 8 11 0 0
+ 1555 sprites/pcx/openttdw-r14502.pcx 674 5160 09 8 11 0 0
+ 1556 sprites/pcx/openttdw-r14502.pcx 690 5160 09 8 11 0 0
+ 1557 sprites/pcx/openttdw-r14502.pcx 706 5160 09 8 11 0 0
+ 1558 sprites/pcx/openttdw-r14502.pcx 722 5160 09 8 11 0 0
+ 1559 sprites/pcx/openttdw-r14502.pcx 738 5160 09 8 11 0 0
+ 1560 sprites/pcx/openttdw-r14502.pcx 754 5160 09 8 11 0 0
+
+ 1561 * 21	 0C "OpenTTD GUI graphics"
+ 1562 * 3	 05 15 96
+  220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
+  221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
+  222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
+  223 sprites/pcx/gui04.pcx 162 568 09 31 64 -31 7
+  224 sprites/pcx/gui04.pcx 242 568 09 31 64 -31 -1
+  225 sprites/pcx/gui04.pcx 322 568 09 39 64 -31 -1
+  226 sprites/pcx/gui04.pcx 402 568 09 31 64 -31 -1
+  227 sprites/pcx/gui04.pcx 482 568 09 23 64 -31 7
+  228 sprites/pcx/gui04.pcx 562 568 09 31 64 -31 7
+  229 sprites/pcx/gui04.pcx 642 568 09 23 64 -31 7
+  230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31 7
+  231 sprites/pcx/gui04.pcx 2 632 09 39 64 -31 -1
+  232 sprites/pcx/gui04.pcx 82 632 01 26 23 0 0
+  233 sprites/pcx/gui04.pcx 114 632 09 26 24 0 0
+  234 sprites/pcx/gui04.pcx 146 632 01 8 4 28 16
+  235 sprites/pcx/gui04.pcx 162 632 01 9 4 0 1
+  236 sprites/pcx/gui04.pcx 178 632 09 23 32 0 1
+  237 sprites/pcx/gui04.pcx 226 632 01 8 4 -31 15
+  238 sprites/pcx/gui04.pcx 242 632 01 9 4 -3 0
+  239 sprites/pcx/gui04.pcx 258 632 09 23 32 -31 0
+  240 sprites/pcx/gui04.pcx 306 632 01 8 4 28 16
+  241 sprites/pcx/gui04.pcx 322 632 01 9 4 0 1
+  242 sprites/pcx/gui04.pcx 338 632 09 23 32 0 1
+  243 sprites/pcx/gui04.pcx 386 632 01 8 4 -31 15
+  244 sprites/pcx/gui04.pcx 402 632 01 9 4 -3 0
+  245 sprites/pcx/gui04.pcx 418 632 09 23 32 -31 0
+  246 sprites/pcx/gui04.pcx 466 632 01 8 4 28 16
+  247 sprites/pcx/gui04.pcx 482 632 01 9 4 0 1
+  248 sprites/pcx/gui04.pcx 498 632 09 23 32 0 1
+  249 sprites/pcx/gui04.pcx 546 632 01 8 4 -31 15
+  250 sprites/pcx/gui04.pcx 562 632 01 9 4 -3 0
+  251 sprites/pcx/gui04.pcx 578 632 09 23 32 -31 0
+  252 sprites/pcx/gui04.pcx 626 632 01 8 4 28 16
+  253 sprites/pcx/gui04.pcx 642 632 01 9 4 0 1
+  254 sprites/pcx/gui04.pcx 658 632 09 23 32 0 1
+  255 sprites/pcx/gui04.pcx 706 632 01 8 4 -31 15
+  256 sprites/pcx/gui04.pcx 722 632 01 9 4 -3 0
+  257 sprites/pcx/gui04.pcx 738 632 09 23 32 -31 0
+  258 sprites/pcx/gui04.pcx 786 632 09 10 10 0 0
+  259 sprites/pcx/gui04.pcx 2 696 01 8 8 0 0
+  260 sprites/pcx/gui04.pcx 18 696 09 9 7 0 0
+  261 sprites/pcx/gui04.pcx 34 696 01 7 9 0 0
+  262 sprites/pcx/gui04.pcx 50 696 01 7 9 0 0
+  263 sprites/pcx/gui04.pcx 66 696 01 10 10 0 0
+  264 sprites/pcx/gui04.pcx 82 696 09 7 7 0 0
+  265 sprites/pcx/gui04.pcx 98 696 09 4 7 1 2
+  266 sprites/pcx/gui04.pcx 114 696 09 4 7 1 2
+  267 sprites/pcx/gui04.pcx 130 696 09 7 4 1 1
+  268 sprites/pcx/gui04.pcx 146 696 09 7 4 2 1
+  269 sprites/pcx/gui04.pcx 162 696 01 8 8 1 1
+  270 sprites/pcx/gui04.pcx 178 696 01 9 9 1 0
+  271 sprites/pcx/gui04.pcx 194 696 01 8 7 0 0
+  272 sprites/pcx/gui04.pcx 210 696 01 8 8 0 0
+  273 sprites/pcx/gui04.pcx 226 696 09 20 20 0 0
+  274 sprites/pcx/gui04.pcx 258 696 03 32 32 0 0
+  275 sprites/pcx/gui04.pcx 306 696 01 20 20 0 0
+  276 sprites/pcx/gui04.pcx 338 696 01 32 32 0 0
+  277 sprites/pcx/gui04.pcx 386 696 09 20 20 0 0
+  278 sprites/pcx/gui04.pcx 418 696 03 32 32 0 0
+  279 sprites/pcx/gui04.pcx 466 696 01 20 20 0 0
+  280 sprites/pcx/gui04.pcx 498 696 01 32 32 0 0
+  281 sprites/pcx/gui04.pcx 546 696 01 20 20 0 0
+  282 sprites/pcx/gui04.pcx 578 696 01 32 32 0 0
+  283 sprites/pcx/gui04.pcx 626 696 01 20 20 0 0
+  284 sprites/pcx/gui04.pcx 658 696 03 32 32 0 0
+  285 sprites/pcx/gui04.pcx 706 696 01 20 20 0 0
+  286 sprites/pcx/gui04.pcx 738 696 01 32 32 0 0
+  287 sprites/pcx/gui04.pcx 2 744 01 20 20 0 0
+  288 sprites/pcx/gui04.pcx 34 744 01 32 32 0 0
+  289 sprites/pcx/gui04.pcx 82 744 09 20 20 0 0
+  290 sprites/pcx/gui04.pcx 114 744 03 32 32 0 0
+  291 sprites/pcx/gui04.pcx 162 744 01 20 20 0 0
+  292 sprites/pcx/gui04.pcx 194 744 01 32 32 0 0
+  293 sprites/pcx/gui04.pcx 242 744 01 20 20 0 0
+  294 sprites/pcx/gui04.pcx 274 744 01 32 32 0 0
+  295 sprites/pcx/gui04.pcx 322 744 09 20 20 0 0
+  296 sprites/pcx/gui04.pcx 354 744 09 20 20 0 0
+  297 sprites/pcx/gui04.pcx 386 744 03 32 32 0 0
+  298 sprites/pcx/gui04.pcx 434 744 09 40 62 -31 -9
+  299 sprites/pcx/gui04.pcx 514 744 09 40 62 -52 -20
+  300 sprites/pcx/gui04.pcx 594 744 09 40 62 -31 -9
+  301 sprites/pcx/gui04.pcx 674 744 09 40 62 -10 -20
+  302 sprites/pcx/gui04.pcx 754 744 09 20 20 0 0
+  303 sprites/pcx/gui04.pcx 2 808 03 32 32 0 0
+  304 sprites/pcx/gui04.pcx 50 808 09 20 20 0 0
+  305 sprites/pcx/gui04.pcx 82 808 03 32 32 0 0
+  306 sprites/pcx/gui04.pcx 130 808 01 18 39 -9 -9
+  307 sprites/pcx/gui04.pcx 178 808 01 32 32 0 0
+  308 sprites/pcx/gui04.pcx 226 808 01 20 20 0 0
+  309 sprites/pcx/gui04.pcx 258 808 01 32 32 0 0
+  310 sprites/pcx/gui04.pcx 306 808 09 20 20 0 0
+  311 sprites/pcx/gui04.pcx 338 808 01 20 20 0 0
+  312 sprites/pcx/gui04.pcx 370 808 01 32 32 0 0
+  313 sprites/pcx/gui04.pcx 418 808 01 20 20 0 0
+  314 sprites/pcx/gui04.pcx 450 808 01 20 20 0 0
+  315 sprites/pcx/gui04.pcx 482 808 01 20 20 0 0
+  316 sprites/pcx/gui04.pcx 514 808 01 20 20 0 0
+  317 sprites/pcx/gui04.pcx 546 808 01 20 20 0 0
+  318 sprites/pcx/gui04.pcx 578 808 01 20 20 0 0
+  319 sprites/pcx/gui04.pcx 610 808 01 20 20 0 0
+  320 sprites/pcx/gui04.pcx 642 808 01 20 20 0 0
+  321 sprites/pcx/gui04.pcx 674 808 01 20 20 0 0
+  322 sprites/pcx/gui04.pcx 706 808 01 20 20 0 0
+  323 sprites/pcx/gui04.pcx 738 808 01 20 20 0 0
+  324 sprites/pcx/gui04.pcx 770 808 01 20 20 0 0
+  325 sprites/pcx/gui04.pcx 2 856 01 20 20 0 0
+  326 sprites/pcx/gui04.pcx 34 856 09 16 16 0 0
+  327 sprites/pcx/gui04.pcx 66 856 01 16 16 0 0
+  328 sprites/pcx/gui04.pcx 98 856 01 16 16 0 0
+  329 sprites/pcx/gui04.pcx 130 856 01 16 16 0 0
+  330 sprites/pcx/gui04.pcx 162 856 09 32 32 0 0
+  331 sprites/pcx/gui04.pcx 210 856 01 32 32 0 0
+  332 sprites/pcx/gui04.pcx 258 856 01 32 32 0 0
+  333 sprites/pcx/gui04.pcx 306 856 01 32 32 0 0
+  334 sprites/pcx/gui04.pcx 354 856 09 20 20 0 0
+  335 sprites/pcx/gui04.pcx 386 856 09 20 20 0 0
+  336 sprites/pcx/gui04.pcx 418 856 09 20 20 0 0
+  337 sprites/pcx/gui04.pcx 450 856 09 20 20 0 0
+  338 sprites/pcx/gui04.pcx 482 856 09 20 20 0 0
+  339 sprites/pcx/gui04.pcx 514 856 09 20 20 0 0
+  340 sprites/pcx/gui04.pcx 546 856 09 20 20 0 0
+  341 sprites/pcx/gui04.pcx 578 856 09 20 20 0 0
+  342 sprites/pcx/gui04.pcx 610 856 09 20 20 0 0
+  343 sprites/pcx/gui04.pcx 642 856 09 20 20 0 0
+  344 sprites/pcx/gui04.pcx 674 856 09 20 20 0 0
+  345 sprites/pcx/gui04.pcx 706 856 09 20 20 0 0
+  346 sprites/pcx/gui04.pcx 738 856 09 20 20 0 0
+  347 sprites/pcx/gui04.pcx 770 856 09 20 20 0 0
+  348 sprites/pcx/gui04.pcx 2 904 09 20 20 0 0
+  349 sprites/pcx/gui04.pcx 34 904 09 20 20 0 0
+  350 sprites/pcx/gui04.pcx 66 904 09 20 20 0 0
+  351 sprites/pcx/gui04.pcx 98 904 09 20 20 0 0
+  352 sprites/pcx/gui04.pcx 130 904 09 20 20 0 0
+  353 sprites/pcx/gui04.pcx 162 904 09 20 20 0 0
+  354 sprites/pcx/gui04.pcx 194 904 01 20 20 0 0
+  355 sprites/pcx/gui04.pcx 226 904 01 20 20 0 0
+  356 sprites/pcx/gui04.pcx 258 904 01 20 20 0 0
+  357 sprites/pcx/gui04.pcx 290 904 01 32 32 0 0
+  358 sprites/pcx/gui04.pcx 338 904 01 7 7 3 4
+  359 sprites/pcx/gui04.pcx 354 904 01 7 7 3 4
+  360 sprites/pcx/gui04.pcx 370 904 01 9 10 2 3
+  361 sprites/pcx/gui04.pcx 386 904 01 9 10 2 3
+  362 sprites/pcx/gui04.pcx 402 904 01 7 11 2 1
+  363 sprites/pcx/gui04.pcx 418 904 01 9 9 3 3
+  364 sprites/pcx/gui04.pcx 434 904 09 20 20 0 0
+  365 sprites/pcx/gui04.pcx 466 904 09 20 20 0 0
+  366 sprites/pcx/gui04.pcx 498 904 09 32 32 0 0
+ 1710 sprites/pcx/openttdw-r14977.pcx 690 5576 09 10 10 0 0
+ 1711 sprites/pcx/openttdw-r14977.pcx 706 5576 09 10 10 0 0
+ 1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
+ 
+ 1792 * 17	 0C "NewGRF overrides"
+ 1793 * 30	 00 08 01 03 00 11 44 44 22 02 44 44 01 11 6D 62 04 02 6D 62 04 01 "Meo Meo" 17
