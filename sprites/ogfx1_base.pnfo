@@ -5237,8 +5237,8 @@
    30 sprites/pcx/towns02.pcx 418 216 03 69 64 -31 -38
    31 sprites/pcx/towns02.pcx 498 216 09 69 64 -31 -38
 //continuing
- 4614 sprites/pcx/trg1r.pcx 322 16920 03 31 32 1 0
- 4615 sprites/pcx/trg1r.pcx 370 16920 03 53 64 -31 -22
+ 4614 sprites/pcx/twotile_dig.pcx 66 0 03 31 63 -31 0
+ 4615 sprites/pcx/twotile_dig.pcx 0 0 03 31 63 -31 0
  4616 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 10 10 03 96 32 1 -65
  4617 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 50 10 03 121 64 -31 -90
  4618 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 120 10 09 117 32 1 -86
