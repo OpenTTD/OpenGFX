@@ -5248,9 +5248,9 @@
    33 sprites/pcx/towns02.pcx 594 216 03 67 64 -31 -36
    34 sprites/pcx/towns02.pcx 674 216 09 67 64 -31 -36
 //continuing
- 4623 sprites/pcx/trg1r.pcx 162 17064 03 31 64 -31 0
- 4624 sprites/pcx/trg1r.pcx 242 17064 03 98 64 -31 -67
- 4625 sprites/pcx/trg1r.pcx 322 17064 09 98 64 -31 -67
+ 4623 sprites/pcx/tropical_modern_office.pcx 182 189 03 30 63 -31 0
+ 4624 sprites/pcx/tropical_modern_office.pcx 123 70 03 63 64 -30 -32
+ 4625 sprites/pcx/tropical_modern_office.pcx 195 228 09 117 63 -31 -87
 
 //4626 city roadside tree
     6 sprites/pcx/landscape031.pcx 114 8 09 32 9 -4 -26

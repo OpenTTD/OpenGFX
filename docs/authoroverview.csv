@@ -197,7 +197,7 @@ ogfx1_base;4604;4604;1;Tropical church;Varivar (32bpp);Ammler (+8bpp convert);15
 ogfx1_base;4605;4613;9;Tropical houses;Zephyris;Zephyris;;1
 ogfx1_base;4614;4619;6;Modern office block;drginaldee;planetmaker;104;0
 ogfx1_base;4620;4622;3;Tropical houses;Zephyris;Zephyris;;1
-ogfx1_base;4623;4625;3;Modern office block;;;105;0
+ogfx1_base;4623;4625;3;Modern office block;Irwe;planetmaker;105;1
 ogfx1_base;4626;4626;1;Roadside tree;Zephyris;Zephyris;;1
 ogfx1_base;4627;4628;2;Toyland: Wrapper design for 4629;athanasious,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4629;4629;1;Toyland: church;athanasios;planetmaker;107,294;1
