@@ -1798,9 +1798,9 @@
    24 sprites/pcx/temprtbuilds.pcx 498 104 03 61 52 -25 -33
    25 sprites/pcx/temprtbuilds.pcx 562 104 09 61 52 -25 -33
 //old offices
-  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -31 -56
-  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -31 -56
-  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -31 -56
+  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -36 -60
+  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -36 -60
+  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -36 -60
 //old offices
   174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -31 -56
   175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -31 -56
