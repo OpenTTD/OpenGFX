@@ -48,7 +48,7 @@ If you want to check the integrity of your grf or check wether your self-compile
 
 2. Next, download the latest OpenGFX package from the development homepage http://dev.openttdcoop.org/bundles/opengfx
 
-3. Place the tar file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in: 
+3. Unpack the zip file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in: 
 - An OpenTTD folder in your user account's home directory: 
 	Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD 
 	Mac OSX: ~/Documents/OpenTTD 
@@ -82,14 +82,14 @@ The sample.cat file contains the sound effects from the original TTD. OpenTTD re
 	Alternatively download an empty sample.cat file here and place it in the OpenTTD /data directory. 
 
 Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to 
-continue! 
+continue! (Obviously, you don't have any sound effects with the dummy file.)
 
 
 
 3 Installing or Updating OpenGFX using the Online Content service 
 =================================================================
 
-This method uses the Online content service to download OpenGFX. In order to use this, you need a working OpenTTD and again at least OpenTTD version 0.7.0 or a recent nightly.
+This method uses the Online content service (BaNaNaS) to download OpenGFX. In order to use this, you need a working OpenTTD and again at least OpenTTD version 0.7.0 or a recent nightly.
  
 1. Start OpenTTD and on the main menu click the Check online content  button. A new window will pop up. If OpenTTD doesn't start, follow the manual installation procedure. 
 
@@ -150,6 +150,7 @@ The OpenGFX source is available in a Mercurial repository. You can do an anonymo
 OpenGFX is created by the following people (in reverse alphabetical order): 
 
 - Zephyris (Richard Wheeler) 
+- Varivar
 - uzurpator 
 - Spaz O Mataz
 - Soeb (Stanislaw Gackowski) 
@@ -164,7 +165,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 - northstar2 
 - Mr. X 
 - mph (Matthew Haines) 
-- michael blunck (Michael Blunck) 
+- mb (Michael Blunck) 
 - LordAzamath (Johannes Madis Aasmäe) 
 - lead@inbox (Serge Saphronov) 
 - Irwe
