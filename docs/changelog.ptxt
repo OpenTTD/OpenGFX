@@ -1,3 +1,36 @@
+OpenGFX 0.1.0-alpha6
+--------------------
+- Feature: Add toffee truck
+- Feature: Toy truck
+- Feature: Mail truck for toyland
+- Feature: Sweets truck
+- Feature: Plastics truck in toyland
+- Feature: Add bubble truck, the last missing truck in toyland
+- Feature: Toyland monorail engine
+- Feature: Toyland maglev engine
+- Feature: Toyland church in an improved version
+- Feature: add balloon tree in toyland
+- Feature: Toyland statue
+- Feature: Piggybank for toyland climate
+- Feature: Add upside-down cone tree, finishing all toyland trees
+- Feature: First construction stage of two-tile tower in tropical climate
+- Feature: Implement modern office block for tropical climate
+- Feature: Modern office block in tropical climate
+- Feature: Add construction stages (wrappings) for most existing toyland buildings
+- Feature: Monolev mail wagon 
+- Feature: Tropic church
+- Change: Improved arrows on terraforming icons
+- Fix: Reduced the close-x 1px right and bottom to keep it square and avoiding OpenTTD glitch
+- Fix: White bottom of small submarines
+- Fix: White line at battery truck
+- Fix: White lines in some characters
+- Fix: Replace pure white in all sprites 
+- Fix: Action colors for the climate preview images
+- Fix: Removed action colors from the tropic church sprite
+- Fix: Temperate building mis-alignment.
+
+
+
 OpenGFX 0.1.0-alpha5
 --------------------
 - Add: Resize windows towards the left sprite
