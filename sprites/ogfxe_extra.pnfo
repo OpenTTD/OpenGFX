@@ -4214,14 +4214,13 @@
 	05 // Canals
 	0F // ID
 	01 00 00 00 
-//!!Error (129): Offset 5: Only 0 random bits are available.
-//http://wiki.ttdpatch.net/tiki-index.php?page=RandomAction2
+
   242 * 39	 02 
 	05 // Canals
 	10 // ID
 	80 // Random:  Use 80 to randomize the object (vehicle, station, building, industry) based on its own triggers and bits.
 	00 // Trigger: 
-	01 // Randbit: 16 sets needs 4 bits?
+	00 // Randbit: Only 0 random bits are available.
 	10 // 16 Sets
 	00 00 
 	01 00 
