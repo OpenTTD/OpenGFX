@@ -5383,8 +5383,8 @@
   229 sprites/pcx/gui04.pcx 642 568 09 23 64 -31 7
   230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31 7
   231 sprites/pcx/gui04.pcx 2 632 09 39 64 -31 -1
-  232 sprites/pcx/gui04.pcx 82 632 01 26 23 0 0
-  233 sprites/pcx/gui04.pcx 114 632 09 26 24 0 0
+   13 sprites/pcx/introletters.pcx 224 0 01 29 22 0 0
+   14 sprites/pcx/introletters.pcx 247 0 01 29 22 0 0
   234 sprites/pcx/gui04.pcx 146 632 01 8 4 28 16
   235 sprites/pcx/gui04.pcx 162 632 01 9 4 0 1
   236 sprites/pcx/gui04.pcx 178 632 09 23 32 0 1

@@ -45,15 +45,15 @@
    41 sprites/pcx/trgir.pcx 2 2488 03 1 1 0 0
    42 sprites/pcx/trgir.pcx 354 2488 03 1 1 0 0
 //T[RA]N[S]PO[YC]
-  384 sprites/pcx/gui04.pcx 370 952 01 26 23 0 0
-  385 sprites/pcx/gui04.pcx 402 952 01 1 1 0 0
-  386 sprites/pcx/gui04.pcx 418 952 01 1 1 0 0
-  387 sprites/pcx/gui04.pcx 434 952 01 26 23 0 0
-  388 sprites/pcx/gui04.pcx 466 952 01 1 1 0 0
-  389 sprites/pcx/gui04.pcx 482 952 01 26 23 0 0
-  390 sprites/pcx/gui04.pcx 514 952 01 26 23 0 0
-  391 sprites/pcx/gui04.pcx 546 952 01 1 1 0 0
-  392 sprites/pcx/gui04.pcx 562 952 01 1 1 0 0
+    3 sprites/pcx/introletters.pcx 0 0 01 29 25 0 0
+    4 sprites/pcx/introletters.pcx 26 0 01 29 23 0 0
+    5 sprites/pcx/introletters.pcx 50 0 01 29 27 0 0
+    6 sprites/pcx/introletters.pcx 78 0 01 29 21 0 0
+    7 sprites/pcx/introletters.pcx 100 0 01 29 24 0 0
+    8 sprites/pcx/introletters.pcx 125 0 01 29 22 0 0
+    9 sprites/pcx/introletters.pcx 148 0 01 29 23 0 0
+	10 sprites/pcx/introletters.pcx 172 0 01 29 27 0 0
+	11 sprites/pcx/introletters.pcx 200 0 01 29 23 0 0
 
    52 sprites/pcx/trgir.pcx 34 2584 01 8 11 0 0
    53 sprites/pcx/trgir.pcx 50 2584 01 6 19 0 0
