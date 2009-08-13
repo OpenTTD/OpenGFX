@@ -295,7 +295,7 @@
  1091 sprites/pcx/infra08.pcx 2 5960 01 31 64 -31 0
 
 //270	270	1	Company statue
-  270 sprites/pcx/trgtr.pcx 242 1656 09 80 36 -16 -57
+  270 sprites/pcx/toysta.pcx 0 0 09 70 32 -15 -46
 
 //271	286	16	Signals
  1219 sprites/pcx/infra08.pcx 642 6536 01 15 4 -1 -13

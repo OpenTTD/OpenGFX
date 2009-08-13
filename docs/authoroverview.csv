@@ -338,7 +338,7 @@ ogfxt_toyland;172;173;2;Streetlights;LordAzamath;FooBar;;1
 ogfxt_toyland;174;205;32;Rail;Zephyris;Zephyris;;1
 ogfxt_toyland;206;237;32;Monorail;Zephyris;Zephyris;;1
 ogfxt_toyland;238;269;32;Maglev;Zephyris;Zephyris;;1
-ogfxt_toyland;270;270;1;Company statue;;;119;0
+ogfxt_toyland;270;270;1;Company statue;Lord Azamath;planetmaker;119;1
 ogfxt_toyland;271;286;16;Signals;Raumkraut;;;1
 ogfxt_toyland;287;310;24;Level crossings;Zephyris;Zephyris;;1
 ogfxt_toyland;311;316;6;Rail depot;Zephyris;buttercup;;1
