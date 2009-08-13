@@ -15,7 +15,7 @@
 //check TTD version, skip 1 if windows
     8 * 6	 07 8D 01 \7= 01 01
     9 * 12	 0B 03 7F 01 "Windows" 00
-   10 * 230	 08 07 58 46 47 4F "OpenGFX Base Graphics Set for OpenTTD" 00
+   10 * 230	 08 07 FF 06 FE 01 "OpenGFX Base Graphics Set for OpenTTD" 00
 	 "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00
 
    11 * 18	 0C "2CC map - Windows"
