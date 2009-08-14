@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!--
+TTD Box Editor, provides a DHTML/JS box sprite editor for use with OpenTTD.
+Copyright (C) 2009 Frode Austvik
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+----
+
+Note that this sprite editor uses TTD Sprite Editor and TTDW Palette, which
+must be included too. See ttd-sprite-editor.js and ttd-win-palette.js for that.
+
+This is the main file of TTD Box Editor, which will be opened by the user.
+-->
+	<title>TTD box editor</title>
+	<!-- Palette box, with selection of color etc. -->
+	<script type="text/javascript" src="ttd-win-palette.js"></script>
+	<link rel="stylesheet" type="text/css" href="ttd-win-palette.css"/>
+	<!-- .c0 to .c255, the TTD (windows) palette -->
+	<link rel="stylesheet" type="text/css" href="ttd-win-pal.css"/>
+	<!-- Sprite editor -->
+	<script type="text/javascript" src="ttd-sprite-editor.js"></script>
+	<link rel="stylesheet" type="text/css" href="ttd-sprite-editor.css"/>
+	<!-- TTD box editor -->
+	<script type="text/javascript" src="ttd-box-editor.js"></script>
+	<link rel="stylesheet" type="text/css" href="ttd-box-editor.css"/>
+	
+	<script type="text/javascript"><!--
+var defaultPattern=[
+	[151,151,151,151, 15,151,151,151,151,151,151, 15,151,151,151,151],
+	[151,151,151,151, 15,153,151,151,151,151,153, 15,151,151,151,151],
+	[151,151,151,151,151, 15, 15,153,153, 15, 15,151,151,151,151,151],
+	[ 15,152,151,151,151,151,151, 15, 15,151,151,151,151,151,152, 15],
+	[ 15, 15,151,151,151,151,151, 15, 15,151,151,151,151,151, 15, 15],
+	[ 15, 15,151,151,151,151,153, 15, 15,153,151,151,151,151, 15, 15],
+	[ 15,152,151,151,151,151, 15,151,151, 15,151,151,151,151,152, 15],
+	[151,151,151,151,151,151, 15,151,151, 15,151,151,151,151,151,151],
+	[151,151,151,151,151,151,153, 15, 15,153,151,151,151,151,151,151],
+	[ 15,151,151,151,151,151,151,151,151,151,151,151,151,151,151, 15],
+	[ 15, 15,151,151,151,151,151,151,151,151,151,151,151,151, 15, 15],
+	[ 15, 15, 15,151,151,151,151, 15, 15,151,151,151,151, 15, 15, 15],
+	[ 15, 15, 15, 15,151,151,151, 15, 15,151,151,151, 15, 15, 15, 15],
+	[ 15, 15, 15,151,151,151,151, 15, 15,151,151,151,151, 15, 15, 15],
+	[151,151,151,151,151, 15, 15,153,153, 15, 15,151,151,151,151,151],
+	[151,151,151,151, 15,153,151,151,151,151,153, 15,151,151,151,151]
+];
+// -->
+	</script>
+</head>
+<body>
+<div class="box-height-box">
+	Box height:
+	<input type="text" class="box-height" name="box-height" id="box-height" value="56"/>
+	<input type="button" class="box-height-button" value="Set the height" onclick="setBoxHeight();"/>
+</div>
+<h1>TTD box editor</h1>
+<noscript>This page requires javascript to work.</noscript>
+<script type="text/javascript">palette.generate();</script>
+<div id="pattern-container">
+	<div class="buttons-under-pattern">
+		<input type="button" value="Fill 3D box" onclick="view3d.fill3D(pattern.getImageData(),-1);"/><br/>
+		<br/>
+		<input type="button" value="Fill all sides" onclick="fillSides(pattern.getImageData(),-1);"/><br/>
+		<br/>
+		<input type="button" value="Fill 3D top" onclick="view3d.fillTop(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill 3D right" onclick="view3d.fillRight(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill 3D left" onclick="view3d.fillLeft(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill 3D rear right" onclick="view3d.fillRearRight(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill 3D rear left" onclick="view3d.fillRearLeft(pattern.getImageData());"/><br/>
+		<br/>
+		<input type="button" value="Fill top side" onclick="sideTop.fill(pattern.getImageData(),true);"/><br/>
+		<input type="button" value="Fill right side" onclick="sideRight.fill(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill left side" onclick="sideLeft.fill(pattern.getImageData(),true);"/><br/>
+		<input type="button" value="Fill rear right side" onclick="sideRearRight.fill(pattern.getImageData());"/><br/>
+		<input type="button" value="Fill rear left side" onclick="sideRearLeft.fill(pattern.getImageData(),true);"/><br/>
+	</div>
+</div>
+<script type="text/javascript">
+var pattern=new spriteEditor(defaultPattern[0].length,defaultPattern.length);
+pattern.placeHere(document.getElementById('pattern-container'),'Pattern:','pattern',0);
+pattern.fill(defaultPattern);
+pattern.addSizeControls();
+pattern.addColorControls();
+pattern.addShiftControls();
+function moveElement(el,from,to) {
+	from.removeChild(el);
+	to.appendChild(el);
+}
+</script>
+<table id="unfolded-container" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td class="unfolded-container-small-box">
+		<table id="unfolded-container-small" cellspacing="0" cellpadding="0" border="0">
+			<tr><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td></tr>
+		</table>
+	</td>
+	<td></td>
+	<td class="buttons-in-unfolded">
+		Draw in 3D view:<br/>
+		<input type="button" value="All"
+			onclick="view3d.fillAll(sideTop.getImageData(),sideRight.getImageData(),sideLeft.getImageData(),sideRearRight.getImageData(),sideRearLeft.getImageData());"
+		/>
+		<input type="button" value="Top" onclick="view3d.fillTop(sideTop.getImageData());"/><br/>
+		<input type="button" value="Left" onclick="view3d.fillLeft(sideLeft.getImageData());"/>
+		<input type="button" value="Right" onclick="view3d.fillRight(sideRight.getImageData());"/><br/>
+		<input type="button" value="Rear left" onclick="view3d.fillRearLeft(sideRearLeft.getImageData());"/>
+		<input type="button" value="Rear right" onclick="view3d.fillRearRight(sideRearRight.getImageData());"/><br/>
+		Open the box:<br/>
+		<input type="button" value="Randomly" onclick="openTheBox(0);"/>
+		<input type="button" value="Weighted" onclick="openTheBox(2);"/><br/>
+		<input type="button" value="Very weighted" onclick="openTheBox(1);"/>
+	</td>
+	<td class="buttons-in-unfolded">
+		Clear to dominant,<br/>
+		keeping transparency:<br/>
+		<input type="button" value="Top" onclick="sideTop.clearKeepTransparent();"/><br/>
+		<input type="button" value="Left" onclick="sideLeft.clearKeepTransparent();"/>
+		<input type="button" value="Right" onclick="sideRight.clearKeepTransparent();"/><br/>
+		<input type="button" value="Rear left" onclick="sideRearLeft.clearKeepTransparent();"/>
+		<input type="button" value="Rear right" onclick="sideRearRight.clearKeepTransparent();"/><br/>
+	</td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+<script type="text/javascript">
+var table=document.getElementById('unfolded-container');
+var tableSmall=document.getElementById('unfolded-container-small');
+var sideTop=new spriteEditor(32,32);
+sideTop.placeHere(table.rows[0].cells[1],'Unfolded sides:','top-side');
+moveElement(sideTop.small,sideTop.box,tableSmall.rows[0].cells[1]);
+var sideRight=new spriteEditor(32,56);
+sideRight.placeHere(table.rows[1].cells[2],false,'right-hand-side');
+moveElement(sideRight.small,sideRight.box,tableSmall.rows[1].cells[2]);
+var sideLeft=new spriteEditor(32,56);
+sideLeft.placeHere(table.rows[1].cells[1],false,'left-hand-side');
+moveElement(sideLeft.small,sideLeft.box,tableSmall.rows[1].cells[1]);
+var sideRearLeft=new spriteEditor(32,56);
+sideRearLeft.placeHere(table.rows[1].cells[0],false,'rear-left-hand-side');
+moveElement(sideRearLeft.small,sideRearLeft.box,tableSmall.rows[1].cells[0]);
+var sideRearRight=new spriteEditor(32,56);
+sideRearRight.placeHere(table.rows[1].cells[3],false,'rear-right-hand-side');
+moveElement(sideRearRight.small,sideRearRight.box,tableSmall.rows[1].cells[3]);
+</script>
+<script type="text/javascript">
+var view3d=new spriteEditor3D(64,56+32);
+view3d.placeHere(undefined,'Sprite:','sprite');
+var tmp=document.createElement('div');
+tmp.style.float='left';
+tmp.style.clear='left';
+tmp.style.paddingTop='1em';
+view3d.clearButton=document.createElement('input');
+view3d.clearButton.type='button';
+view3d.clearButton.onclick=function(e) { view3d.fill([[0]]);return false; }
+view3d.clearButton.value='Clear';
+tmp.appendChild(view3d.clearButton);
+view3d.box.appendChild(tmp);
+</script>
+<div id="box-content-container">
+	<div class="box-content-sprite-info">
+		<div class="box-content-load-sprite">
+			Sprite:<br/>
+			<input type="text" id="opengfx-sprite-number" class="sprite-number"/><br/>
+			<input type="button" class="load-sprite-button" value="Load"
+				onclick="loadOpenGFXSprite();return false;"/>
+			<hr/>
+			<input type="button" class="clear-sprite-button" value="Clear"
+				onclick="boxContent.lastSprite=undefined;boxContent.fill([[0]]);return false;"/>
+			<hr/>
+			<input type="button" class="draw-sprite-button" value="Draw"
+				onclick="view3d.drawContent(boxContent.lastSprite);return false;"/>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var boxContent=new spriteEditor(64,32);
+boxContent.container=document.getElementById('box-content-container');
+boxContent.spriteInfo=boxContent.container.getElementsByTagName('div')[0];
+boxContent.placeHere(boxContent.container,'Box content:','box-content',0);
+moveElement(boxContent.spriteInfo,boxContent.container,boxContent.box);
+</script>
+<div class="get-image-data-box">
+	Save:
+	<input type="button" class="get-image-data-button" value="pattern"
+		onclick="saveImageData(pattern);return false;"/>
+	<input type="button" class="get-image-data-button" value="top side"
+		onclick="saveImageData(sideTop);return false;"/>
+	<input type="button" class="get-image-data-button" value="left side"
+		onclick="saveImageData(sideLeft);return false;"/>
+	<input type="button" class="get-image-data-button" value="right side"
+		onclick="saveImageData(sideRight);return false;"/>
+	<input type="button" class="get-image-data-button" value="rear left side"
+		onclick="saveImageData(sideRearLeft);return false;"/>
+	<input type="button" class="get-image-data-button" value="rear right side"
+		onclick="saveImageData(sideRearRight);return false;"/>
+	<input type="button" class="get-image-data-button" value="3D sprite"
+		onclick="saveImageData(view3d);return false;"/>
+	<br/><input type="text" class="image-data" id="image-data" name="image-data"/><br/>
+	Load:
+	<input type="button" class="get-image-data-button" value="pattern"
+		onclick="loadImageData(pattern);return false;"/>
+	<input type="button" class="get-image-data-button" value="top side"
+		onclick="loadImageData(sideTop);return false;"/>
+	<input type="button" class="get-image-data-button" value="left side"
+		onclick="loadImageData(sideLeft);return false;"/>
+	<input type="button" class="get-image-data-button" value="right side"
+		onclick="loadImageData(sideRight);return false;"/>
+	<input type="button" class="get-image-data-button" value="rear left side"
+		onclick="loadImageData(sideRearLeft);return false;"/>
+	<input type="button" class="get-image-data-button" value="rear right side"
+		onclick="loadImageData(sideRearRight);return false;"/>
+	<input type="button" class="get-image-data-button" value="3D sprite"
+		onclick="loadImageData(view3d);return false;"/>
+</div>
+<div class="float-break"></div>
+<div class="license-notice">
+TTD Box Editor, Copyright &copy; 2009 Frode Austvik<br/>
+TTD Box Editor comes with ABSOLUTELY NO WARRANTY; for details look at the page source.<br/>
+This is free software, and you are welcome to redistribute it under certain conditions;
+look at the page source for details.
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/*
+CSS for TTD Box Editor.
+Copyright (C) 2009 Frode Austvik
+GPLv2, see the ttd-box-editor.html file for the full copyright notice.
+*/
+.box-height-box {
+	float: right;
+}
+.box-height {
+	width: 3em;
+}
+
+.palette-box {
+	float: right;
+}
+
+.sprite-editor-box.sprite {
+	float: left;
+}
+
+.pattern .sprite-editor.small {
+	outline: 1px solid #C0C0C0;
+}
+
+.sprite-editor-box.left-hand-side {
+	margin-right: 1px;
+}
+
+#pattern-container {
+	float: right;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+#pattern-container .buttons-under-pattern {
+	float: right;
+	clear: right;
+	margin-top: 1em;
+}
+
+#unfolded-container {
+	float: right;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+#unfolded-container-small {
+	border-collapse: separate;
+	border-spacing: 0px;
+	margin: auto;
+}
+#unfolded-container .sprite-editor-box {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#unfolded-container .sprite-editor {
+	float: none;
+	margin: 0;
+}
+#unfolded-container .buttons-in-unfolded {
+	text-align: center;
+	vertical-align: middle;
+}
+#unfolded-container .buttons-in-unfolded input {
+	margin-top: 0.5em;
+}
+
+.sprite-editor-box.box-content {
+	float: left;
+	margin-left: 0.5em;
+}
+#opengfx-sprite-number {
+	width: 4em;
+}
+.box-content-sprite-info {
+	float: left;
+	clear: left;
+	margin-top: 1em;
+}
+
+.get-image-data-box {
+	float: right;
+	clear: right;
+	margin-top: 2em;
+}
+.get-image-data-box .image-data {
+	width: 100%;
+}
+
+.float-break {
+	clear: both;
+}
+.license-notice {
+	clear: both;
+	margin-top: 5em;
+	font-size: 8pt;
+	color: #C0C0C0;
+}
+.license-notice a {
+	color: #C0C0FF;
+}

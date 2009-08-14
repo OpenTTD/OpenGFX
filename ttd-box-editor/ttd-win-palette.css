@@ -1,0 +1,14 @@
+/*
+CSS for TTDW Palette.
+Copyright (C) 2009 Frode Austvik
+GPLv2, see the ttd-win-palette.js file for the full copyright notice.
+*/
+.palette {
+	border-collapse: collapse;
+	border: 1px solid #808080;
+	margin-bottom: 2px;
+}
+.palette td {
+	height: 10px;
+	width: 10px;
+}

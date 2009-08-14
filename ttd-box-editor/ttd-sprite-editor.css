@@ -1,0 +1,60 @@
+/*
+CSS for TTD Sprite Editor.
+Copyright (C) 2009 Frode Austvik
+GPLv2, see the ttd-sprite-editor.js file for the full copyright notice.
+*/
+.sprite-editor-box h2 {
+	font-size: 1em;
+	font-weight: normal;
+}
+.sprite-editor {
+	border-collapse: collapse;
+	border: none;
+}
+.sprite-editor td {
+	padding: 0;
+	margin: 0;
+}
+.sprite-editor.small {
+	float: left;
+	margin-right: 0.5em;
+	/*outline: 1px solid #808080;*/
+}
+.sprite-editor.small td {
+	height: 1px;
+	width: 1px;
+}
+.sprite-editor.large {
+	float: right;
+	border: 1px solid #808080;
+}
+.sprite-editor.large td {
+	border: 1px solid #808080;
+	height: 5px;
+	width: 5px;
+}
+
+.size-control {
+	margin-top: 0.2em;
+	float: left;
+	clear: left;
+}
+.size-control .controls {
+	font-size: 0.5em;
+	line-height: 0.75em;
+}
+.size-control .size-minus {
+	margin-left: 0.4em;
+}
+
+.pattern-color-controls {
+	margin-top: 0.2em;
+	float: left;
+	clear: left;
+}
+
+.shift-controls {
+	margin-top: 0.2em;
+	float: left;
+	clear: left;
+}

@@ -1,0 +1,137 @@
+#!/bin/bash
+
+# Sprite compiler helper script for TTD Box Editor.
+# Copyright (C) 2009 Frode Austvik
+# GPLv2, see the ttd-box-editor.html file for the full copyright notice.
+#
+# This code downloads the latest nightly build of OpenGFX, extracts the
+# ogfx1_base.grf file, extracts the nfo and pcx files from that, converts
+# the PCX files to PNG, and runs the sprite compiler.
+#
+# Requires bash, wget, unzip, tar, grfcodec, convert(from ImageMagick) and PHP.
+
+
+BASENAME=opengfx-nightly
+
+GRFNAME=ogfx1_base
+
+BASEURL=http://mz.openttdcoop.org/bundles/opengfx/nightlies
+
+FILENAMEBASE=$BASENAME-r
+TARFILE=$BASENAME.tar
+DIRNAME=$BASENAME
+
+# end of config
+
+REV=`wget -q -O - $BASEURL/REV`
+
+if [[ "$REV" == "" ]]; then
+	echo "Unable to fetch latest revision number."
+	exit 1
+fi
+
+if [ -f REV ]; then
+	LASTREV=`cat REV`
+	if [[ "$REV" == "$LASTREV" ]]; then
+		echo "Already using latest revision (r$REV)."
+		exit 0
+	fi
+fi
+
+FILENAME=$FILENAMEBASE$REV.zip
+USEZIP=1
+
+echo "Downloading latest version..."
+
+wget -nv -O "$FILENAME" "$BASEURL/$FILENAME"
+GOTIT=$?
+
+if [[ "$GOTIT" != "0" ]]; then
+	if [ -f "$FILENAME" ]; then
+		rm "$FILENAME"
+	fi
+	FILENAME=$FILENAMEBASE$REV.tar
+	USEZIP=0
+	wget -nv -O "$FILENAME" "$BASEURL/$FILENAME"
+	GOTIT=$?
+fi
+
+if [[ "$GOTIT" != "0" ]]; then
+	echo "Failed to retrieve latest version (r$REV)."
+	if [ -f "$FILENAME" ]; then
+		rm "$FILENAME"
+	fi
+	exit 1
+fi
+
+if [[ ! -r "$FILENAME" ]]; then
+	echo "Error: downloaded file not found."
+	exit 1
+fi
+
+if [[ "$USEZIP" != "0" ]]; then
+	if [[ -f "$TARFILE" ]]; then
+		rm "$TARFILE"
+	fi
+	unzip "$FILENAME" "$TARFILE"
+else
+	TARFILE="$FILENAME"
+fi
+
+if [[ ! -r "$TARFILE" ]]; then
+	echo "Error: can't find tar file."
+	exit 1
+fi
+
+if [[ -f "$DIRNAME/$GRFNAME.grf" ]]; then
+	rm "$DIRNAME/$GRFNAME.grf"
+fi
+
+tar -xf "$TARFILE" "$DIRNAME/$GRFNAME.grf"
+
+if [[ ! -r "$DIRNAME/$GRFNAME.grf" ]]; then
+	echo "Unable to extract grf from tar."
+	exit 1
+fi
+
+pushd "$DIRNAME" >/dev/null
+
+if [[ -e sprites ]]; then
+	rm -r sprites
+fi
+
+grfcodec -d -p 2 -w 1024 -h 768 "$GRFNAME.grf"
+
+if [[ ! -d sprites ]]; then
+	echo "Failed to decode the grf file."
+	exit 1
+fi
+
+cd sprites
+
+for f in *.[pP][cC][xX] ; do
+	convert $f $f.png
+	if [[ ! -r "$f.png" ]]; then
+		echo "Unable to convert $f to PNG."
+		exit 1
+	fi
+done
+
+popd >/dev/null
+
+if [[ ! -d sprites ]]; then
+	mkdir sprites
+fi
+
+rm sprites/*.json 2>/dev/null
+
+echo "Compiling sprites..."
+
+php compile-sprites.php
+
+echo "$REV" > REV
+
+rm "$TARFILE"
+rm -r "$DIRNAME"
+
+echo "All done."
