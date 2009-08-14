@@ -21,3 +21,7 @@ issue*
 docs/readme.txt
 docs/license.txt
 ./*.diff
+.DS_Store
+sprites/.DS_Store
+sprites/pcx/.DS_Store
+sprites/source/.DS_Store
