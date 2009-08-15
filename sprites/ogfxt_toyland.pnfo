@@ -889,22 +889,22 @@
   774 sprites/pcx/toyland_wagons/wagon_sugar.pcx 27 25 09 16 20 -14 -5
   775 sprites/pcx/toyland_wagons/wagon_sugar.pcx 50 25 01 12 28 -14 -4
   776 sprites/pcx/toyland_wagons/wagon_sugar.pcx 83 25 09 16 20 -4 -6
-  777 sprites/pcx/trgtr.pcx 466 3416 01 18 8 -3 -10
-  778 sprites/pcx/trgtr.pcx 482 3416 09 16 20 -14 -7
-  779 sprites/pcx/trgtr.pcx 514 3416 01 12 28 -14 -6
-  780 sprites/pcx/trgtr.pcx 562 3416 09 16 20 -4 -8
-  781 sprites/pcx/trgtr.pcx 594 3416 01 18 8 -3 -10
-  782 sprites/pcx/trgtr.pcx 610 3416 09 16 20 -14 -7
-  783 sprites/pcx/trgtr.pcx 642 3416 01 12 28 -14 -6
-  784 sprites/pcx/trgtr.pcx 690 3416 09 16 20 -4 -8
-  785 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 1 01 22 8 -3 -8
-  786 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 1 09 16 20 -14 -5
-  787 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 1 01 12 28 -14 -4
-  788 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 1 09 16 20 -4 -6
-  789 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 25 01 22 8 -3 -8
-  790 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 25 09 16 20 -14 -5
-  791 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 25 01 12 28 -14 -4
-  792 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 25 09 16 20 -4 -6  
+  777 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 1 01 22 8 -3 -8
+  778 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 1 09 16 20 -14 -5
+  779 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 1 01 12 28 -14 -4
+  780 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 1 09 16 20 -4 -6
+  781 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 25 01 22 8 -3 -8
+  782 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 25 09 16 20 -14 -5
+  783 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 25 01 12 28 -14 -4
+  784 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 25 09 16 20 -4 -6  
+  785 sprites/pcx/trgtr.pcx 466 3416 01 18 8 -3 -10
+  786 sprites/pcx/trgtr.pcx 482 3416 09 16 20 -14 -7
+  787 sprites/pcx/trgtr.pcx 514 3416 01 12 28 -14 -6
+  788 sprites/pcx/trgtr.pcx 562 3416 09 16 20 -4 -8
+  789 sprites/pcx/trgtr.pcx 594 3416 01 18 8 -3 -10
+  790 sprites/pcx/trgtr.pcx 610 3416 09 16 20 -14 -7
+  791 sprites/pcx/trgtr.pcx 642 3416 01 12 28 -14 -6
+  792 sprites/pcx/trgtr.pcx 690 3416 09 16 20 -4 -8
   793 sprites/pcx/trgtr.pcx 210 3448 01 18 8 -3 -10
   794 sprites/pcx/trgtr.pcx 226 3448 09 16 20 -14 -7
   795 sprites/pcx/trgtr.pcx 258 3448 01 12 28 -14 -6
