@@ -1771,7 +1771,7 @@
 
 //1440-1575 bunch'o'buildings
 //office block with elevator
-    8 sprites/pcx/temprtbuilds.pcx 306 8 03 37 54 -28 2
+    8 sprites/pcx/temprtbuilds.pcx 306 8 03 37 54 -26 -8
     9 sprites/pcx/temprtbuilds.pcx 370 8 03 77 60 -30 -48
    10 sprites/pcx/temprtbuilds.pcx 450 8 09 77 60 -30 -48
    11 sprites/pcx/temprtbuilds.pcx 530 8 01 14 3 0 -2
