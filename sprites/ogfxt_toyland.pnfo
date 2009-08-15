@@ -881,14 +881,14 @@
   766 sprites/pcx/trgtr.pcx 98 3416 09 16 20 -14 -7
   767 sprites/pcx/trgtr.pcx 130 3416 01 12 28 -14 -6
   768 sprites/pcx/trgtr.pcx 178 3416 09 16 20 -4 -8
-  769 sprites/pcx/trgtr.pcx 210 3416 01 16 8 -3 -8
-  770 sprites/pcx/trgtr.pcx 226 3416 09 14 20 -14 -5
-  771 sprites/pcx/trgtr.pcx 258 3416 01 10 28 -14 -4
-  772 sprites/pcx/trgtr.pcx 306 3416 09 14 20 -4 -6
-  773 sprites/pcx/trgtr.pcx 338 3416 01 16 8 -3 -8
-  774 sprites/pcx/trgtr.pcx 354 3416 09 14 20 -14 -5
-  775 sprites/pcx/trgtr.pcx 386 3416 01 10 28 -14 -4
-  776 sprites/pcx/trgtr.pcx 434 3416 09 14 20 -4 -6
+  769 sprites/pcx/toyland_wagons/wagon_sugar.pcx 18 1 01 22 8 -3 -8
+  770 sprites/pcx/toyland_wagons/wagon_sugar.pcx 27 1 09 16 20 -14 -5
+  771 sprites/pcx/toyland_wagons/wagon_sugar.pcx 50 1 01 12 28 -14 -4
+  772 sprites/pcx/toyland_wagons/wagon_sugar.pcx 83 1 09 16 20 -4 -6
+  773 sprites/pcx/toyland_wagons/wagon_sugar.pcx 18 25 01 22 8 -3 -8
+  774 sprites/pcx/toyland_wagons/wagon_sugar.pcx 27 25 09 16 20 -14 -5
+  775 sprites/pcx/toyland_wagons/wagon_sugar.pcx 50 25 01 12 28 -14 -4
+  776 sprites/pcx/toyland_wagons/wagon_sugar.pcx 83 25 09 16 20 -4 -6
   777 sprites/pcx/trgtr.pcx 466 3416 01 18 8 -3 -10
   778 sprites/pcx/trgtr.pcx 482 3416 09 16 20 -14 -7
   779 sprites/pcx/trgtr.pcx 514 3416 01 12 28 -14 -6
