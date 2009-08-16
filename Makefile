@@ -24,7 +24,7 @@ endif
 # define a few repository references used also in makefile.config
 GRF_REVISION = $(shell hg parent --template="{rev}\n")
 GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
-# " \" (syntax highlighting lin
+# " \" (syntax highlighting line
 REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
 
 include ${MAKEFILECONFIG}
@@ -112,6 +112,9 @@ $(OBG_FILE) : $(GRF_FILENAMES)
 clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
+	
+mrproper: clean
+	$(_V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_RELEASE_SRC)
 
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
@@ -160,6 +163,17 @@ release-install: release
 release_zip: $(DIR_RELEASE).$(TAR_SUFFIX) $(DOC_FILENAMES)
 	$(_E) "[Generating:] $(ZIP_FILENAME)"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
+release_source:
+	$(_V) rm -rf $(DIR_RELEASE_SRC)
+	$(_V) mkdir -p $(DIR_RELEASE_SRC)
+	$(_V) cp -R $(SPRITEDIR) $(DOCDIR) Makefile Makefile.config $(DIR_RELEASE_SRC)
+	$(_V) cp Makefile.local.sample $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'GRF_REVISION = $(GRF_REVISION)' >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'GRF_MODIFIED = $(GRF_MODIFIED)' >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) $(MAKE) -C $(DIR_RELEASE_SRC) mrproper
+	$(_V) $(TAR) --gzip -cf $(DIR_RELEASE_SRC).tar.gz $(DIR_RELEASE_SRC)
+	$(_V) rm -rf $(DIR_RELEASE_SRC)
 
 $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
