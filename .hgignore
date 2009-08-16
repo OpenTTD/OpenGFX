@@ -1,28 +1,37 @@
+# Use glob syntax:
+syntax: glob
+
 # The local makefile should be ignored:
 Makefile.local
 
-# And the description file which is generated automatically
+# And the description file and the grs which are generated automatically
 opengfx.obg
+ogfx?_*.grf
+
+# Ignore intermediate files created by the Makefile:
+sprites/ogfx?_*.cpnfo
+sprites/ogfx?_*.nfo
+docs/license.txt
+docs/changelog.txt
+docs/readme.txt
+# Dependency files:
+*.d
+
+# Ignore directories from bundle creation / install:
+opengfx-*
 
 #The .renum dir
-.renum/*.*
+.renum
 
-# Any built grfs, too:
-./*.grf
-./*.tar
-./*.orig
-./*.bak
-./*log
-./*.nfo
-./*.d
-OpenGFX
-opengfx*
-issue*
-docs/readme.txt
-docs/license.txt
-./*.diff
-png
+# Ignore frequent development left-overs like
+# editor backups, patches, rejects etc. pp
+opengfx-*.tar
+*.orig
+*.bak
+*.log
+*.rej
+*.diff
+
+# Files created by Mac image preview and file browser:
 .DS_Store
-sprites/.DS_Store
-sprites/pcx/.DS_Store
-sprites/source/.DS_Store
+Thumbs.db
