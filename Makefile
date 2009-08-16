@@ -21,7 +21,11 @@ endif
 endif
 endif
 
+# define a few repository references used also in makefile.config
 GRF_REVISION = $(shell hg parent --template="{rev}\n")
+GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
+# " \" (syntax highlighting lin
+REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
 
 include ${MAKEFILECONFIG}
 
@@ -31,10 +35,6 @@ NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
 GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
 
 # this overrides definitions from above:
-GRF_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
-# " \" (syntax highlighting line
-REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
-
 -include ${MAKEFILELOCAL}
 
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
