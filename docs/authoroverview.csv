@@ -353,7 +353,7 @@ ogfxt_toyland;418;475;58;Airports;Skidd13, Zephyris;Zephyris;;1
 ogfxt_toyland;476;491;16;Bus stop;FooBar, Zephyris;FooBar;;1
 ogfxt_toyland;492;507;16;Truck stop;FooBar, Zephyris;FooBar;;1
 ogfxt_toyland;508;513;6;Docks;FooBar, Zephyris;FooBar;;1
-ogfxt_toyland;514;542;29;Company Headcastle;;;123;0
+ogfxt_toyland;514;542;29;Company Headcastle;Lord Azamath;planetmaker;123;1
 ogfxt_toyland;543;556;14;Foundations;Zephyris,planetmaker;Zephyris;;1
 ogfxt_toyland;557;586;30;Rail stations;FooBar, Zephyris;FooBar;;1
 ogfxt_toyland;587;594;8;Rail fences;Soeb;Soeb;;1

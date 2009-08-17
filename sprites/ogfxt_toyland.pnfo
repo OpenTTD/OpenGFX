@@ -580,35 +580,35 @@
     8 sprites/pcx/redstardocks.pcx 466 248 09 58 64 -23 -31
 
 //514	542	29	Company Headcastle
-  514 sprites/pcx/trgtr.pcx 322 2712 09 31 64 -31 0
-  515 sprites/pcx/trgtr.pcx 402 2712 09 31 64 -31 0
-  516 sprites/pcx/trgtr.pcx 482 2712 09 31 64 -31 0
-  517 sprites/pcx/trgtr.pcx 562 2712 09 31 64 -31 0
-  518 sprites/pcx/trgtr.pcx 642 2712 09 31 64 -31 0
-  519 sprites/pcx/trgtr.pcx 722 2712 09 31 64 -31 0
-  520 sprites/pcx/trgtr.pcx 2 2760 09 31 64 -31 0
-  521 sprites/pcx/trgtr.pcx 82 2760 09 31 64 -31 0
-  522 sprites/pcx/trgtr.pcx 162 2760 09 31 64 -31 0
-  523 sprites/pcx/trgtr.pcx 242 2760 09 15 52 -20 0
-  524 sprites/pcx/trgtr.pcx 306 2760 09 31 64 -31 0
-  525 sprites/pcx/trgtr.pcx 386 2760 09 1 1 -1 -2
-  526 sprites/pcx/trgtr.pcx 402 2760 09 31 64 -31 0
-  527 sprites/pcx/trgtr.pcx 482 2760 09 1 1 32 30
-  528 sprites/pcx/trgtr.pcx 498 2760 09 31 64 -31 0
-  529 sprites/pcx/trgtr.pcx 578 2760 09 31 64 -31 0
-  530 sprites/pcx/trgtr.pcx 658 2760 09 50 64 -31 -19
-  531 sprites/pcx/trgtr.pcx 2 2824 09 31 64 -31 0
-  532 sprites/pcx/trgtr.pcx 82 2824 09 31 19 1 -22
-  533 sprites/pcx/trgtr.pcx 114 2824 09 31 64 -31 0
-  534 sprites/pcx/trgtr.pcx 194 2824 09 18 36 -25 -6
-  535 sprites/pcx/trgtr.pcx 242 2824 09 31 64 -31 0
-  536 sprites/pcx/trgtr.pcx 322 2824 09 31 64 -31 0
-  537 sprites/pcx/trgtr.pcx 402 2824 09 75 64 -31 -44
-  538 sprites/pcx/trgtr.pcx 482 2824 09 31 64 -31 0
-  539 sprites/pcx/trgtr.pcx 562 2824 09 5 1 1 -5
-  540 sprites/pcx/trgtr.pcx 578 2824 09 31 64 -31 0
-  541 sprites/pcx/trgtr.pcx 658 2824 09 79 64 -31 -48
-  542 sprites/pcx/trgtr.pcx 2 2920 09 31 64 -31 0
+  514 sprites/pcx/toyland_hq.pcx 0 0 09 31 64 -31 0
+  515 sprites/pcx/toyland_hq.pcx 65 0 09 31 64 -31 0
+  516 sprites/pcx/toyland_hq.pcx 130 0 09 31 64 -31 0
+  517 sprites/pcx/toyland_hq.pcx 195 0 09 31 64 -31 0
+  518 sprites/pcx/toyland_hq.pcx 0 32 09 31 64 -31 0
+  519 sprites/pcx/toyland_hq.pcx 65 32 09 31 64 -31 0
+  520 sprites/pcx/toyland_hq.pcx 130 32 09 31 64 -31 0
+  521 sprites/pcx/toyland_hq.pcx 195 32 09 31 64 -31 0
+  522 sprites/pcx/toyland_hq.pcx 0 64 09 31 64 -31 0
+  523 sprites/pcx/toyland_hq.pcx 65 64 09 29 64 -31 -14
+  524 sprites/pcx/toyland_hq.pcx 130 64 09 31 64 -31 0
+  525 sprites/pcx/toyland_hq.pcx 260 0 09 14 17 -1 -7
+  526 sprites/pcx/toyland_hq.pcx 210 64 09 31 64 -31 0
+  527 sprites/pcx/toyland_hq.pcx 275 64 09 14 17 -16 -7
+  528 sprites/pcx/toyland_hq.pcx 293 64 09 31 64 -31 0
+  529 sprites/pcx/toyland_hq.pcx 0 96 09 31 64 -31 0
+  530 sprites/pcx/toyland_hq.pcx 65 96 09 31 64 -31 -16
+  531 sprites/pcx/toyland_hq.pcx 130 96 09 31 64 -31 0
+  532 sprites/pcx/toyland_hq.pcx 260 0 09 14 17 -1 -7
+  533 sprites/pcx/toyland_hq.pcx 210 96 09 31 64 -31 0
+  534 sprites/pcx/toyland_hq.pcx 275 96 09 14 17 -16 -7
+  535 sprites/pcx/toyland_hq.pcx 293 96 09 31 64 -31 0
+  536 sprites/pcx/toyland_hq.pcx 0 128 09 31 64 -31 0
+  537 sprites/pcx/toyland_hq.pcx 65 128 09 45 64 -31 -30
+  538 sprites/pcx/toyland_hq.pcx 130 128 09 31 64 -31 0
+  539 sprites/pcx/toyland_hq.pcx 260 0 09 14 17 -1 -7
+  540 sprites/pcx/toyland_hq.pcx 210 128 09 31 64 -31 0
+  541 sprites/pcx/toyland_hq.pcx 275 128 09 14 17 -16 -7
+  542 sprites/pcx/toyland_hq.pcx 293 128 09 31 64 -31 0
 
 //543	556	14	Foundations
   492 sprites/pcx/landscape031.pcx 594 1432 09 40 64 -31 -9
