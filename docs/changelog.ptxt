@@ -1,3 +1,25 @@
+OpenGFX 0.1.1
+-------------
+- Feature: Headquarters for toyland climate
+- Feature: Toffee wagon in toyland
+- Feature: Candyfloss wagon in toyland
+- Feature: Sugar wagon in toyland
+- Feature: Toyland company statue
+- Feature: New intro title font
+
+- Fix: Alignment of construction phase of temperate office building
+- Fix: GrfID must start with FF
+- Fix: Remove action colours from toyland statue
+- Fix: Airport runway misalignment
+- Fix: Random bits of rivers.
+
+- Change: Create the install directory, if it doesn't exist
+- Change: Convert all text files to utf-8 and unix-style line endings
+- Change: Improved graphics for toyland foundations
+
+- Doc: update author overview html output script for beta1 targets
+
+
 OpenGFX 0.1.0-alpha6
 --------------------
 - Feature: Add toffee truck

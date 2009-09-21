@@ -141,8 +141,8 @@ Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301
 6.1 Obtaining the source 
 ------------------------
 
-The OpenGFX source is available in a Mercurial repository. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using 
-   hg clone http://mz.openttdcoop.org/hg/opengfx 
+The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using 
+   hg clone http://mz.openttdcoop.org/hg/opengfx or obtain the tarball from http://bundles.openttdcoop.org/opengfx/releases
 
 
 
@@ -162,12 +162,13 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 - Red*Star (David Krebs) 
 - Raumkraut (Mel Collins) 
 - Purno (Mark Leppen) 
-- planetmaker 
+- planetmaker
 - PikkaBird (David Dallaston) 
 - northstar2 
 - Mr. X 
 - mph (Matthew Haines) 
 - mb (Michael Blunck) 
+- Lawton27
 - LordAzamath (Johannes Madis Aasmäe) 
 - lead@inbox (Serge Saphronov) 
 - Irwe
