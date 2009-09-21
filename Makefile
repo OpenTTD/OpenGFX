@@ -156,7 +156,7 @@ install: $(TAR_FILENAME) $(INSTALLDIR)
 
 release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
 	$(_E) "[RELEASE] $(DIR_RELEASE)"
-release-install: release
+release-install: release $(INSTALLDIR)
 	$(_E) "[INSTALL] to $(INSTALLDIR)"
 	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
 	$(_E)
@@ -176,8 +176,7 @@ release_source:
 	$(_V) rm -rf $(DIR_RELEASE_SRC)
 
 $(INSTALLDIR):
-	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
+	$(_E) "Install dir didn't exist. Creating $@"
+	$(_V) mkdir -p $(INSTALLDIR)
 
 remake: clean all
-
--include $(DEP_FILENAMES)
