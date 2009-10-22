@@ -41,6 +41,9 @@ REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
 
+# get the localized descriptions
+GRF_DESCRIPTION = $(shell cat docs/descriptions.ptxt)
+
 vpath
 vpath %.pfno $(SPRITEDIR)
 vpath %.nfo $(SPRITEDIR)
@@ -66,13 +69,13 @@ test :
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
 	$(_E) "===="
 
-$(OBG_FILE) : $(GRF_FILENAMES)
+$(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME)
 	$(_E) "[Generating:] $(OBG_FILE)"
 	@echo "[metadata]" > $(OBG_FILE)
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
 	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
 	@echo "version     = $(GRF_REVISION)" >> $(OBG_FILE)
-	@echo "description = $(GRF_DESCRIPTION) [$(GRF_TITLE)]" >> $(OBG_FILE)
+	$(_V) for i in $(GRF_DESCRIPTION); do printf "$$i [$(GRF_TITLE)]\n" >> $(OBG_FILE); done 
 	@echo "palette     = $(GRF_PALETTE)" >> $(OBG_FILE)
 
 	@echo "" >> $(OBG_FILE)
