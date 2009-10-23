@@ -41,9 +41,6 @@ REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
 
-# get the localized descriptions
-GRF_DESCRIPTION = $(shell cat docs/descriptions.ptxt)
-
 vpath
 vpath %.pfno $(SPRITEDIR)
 vpath %.nfo $(SPRITEDIR)
@@ -75,7 +72,7 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME)
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
 	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
 	@echo "version     = $(GRF_REVISION)" >> $(OBG_FILE)
-	$(_V) for i in $(GRF_DESCRIPTION); do printf "$$i [$(GRF_TITLE)]\n" >> $(OBG_FILE); done 
+	$(_V) cat $(DESC_FILENAME) | sed 's/$$/ [$(GRF_TITLE)]/' >> $(OBG_FILE)
 	@echo "palette     = $(GRF_PALETTE)" >> $(OBG_FILE)
 
 	@echo "" >> $(OBG_FILE)
