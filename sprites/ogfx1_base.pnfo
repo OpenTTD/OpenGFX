@@ -5382,7 +5382,7 @@
 
  4660 sprites/pcx/iglu_wrapping1.pcx 0 0 03 60 64 -31 -29
  4661 sprites/pcx/iglu_wrapping2.pcx 0 0 03 60 64 -31 -29
- 4662 sprites/pcx/iglu.pcx 13 104 09 31 63 -30 0
+ 4662 sprites/pcx/iglu.pcx 12 104 09 31 64 -31 0
 
  4663 sprites/pcx/trg1r.pcx 2 17624 03 90 64 -31 -59
  4664 sprites/pcx/trg1r.pcx 82 17624 03 71 64 -31 -40
