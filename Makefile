@@ -44,6 +44,8 @@ vpath
 vpath %.pfno $(SPRITEDIR)
 vpath %.nfo $(SPRITEDIR)
 
+.PHONY: clean all bundle bundle_tar bundle_zip bundle_bzip install release release_zip remake test
+
 # Now, the fun stuff:
 
 # Target for all:
