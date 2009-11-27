@@ -2,6 +2,7 @@
 
 MAKEFILELOCAL=Makefile.local
 MAKEFILECONFIG=Makefile.config
+MAKEFILEDEP=Makefile.dep
 
 SHELL = /bin/sh
 
@@ -49,7 +50,10 @@ vpath %.nfo $(SPRITEDIR)
 # Now, the fun stuff:
 
 # Target for all:
-all : $(OBG_FILE)
+# all : $(OBG_FILE)
+all : $(MAKEFILEDEP) $(OBG_FILE)
+
+-include ${MAKEFILEDEP}
 
 test :
 	$(_E) "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
@@ -67,7 +71,7 @@ test :
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
 	$(_E) "===="
 
-$(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME)
+$(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME)
 	$(_E) "[Generating:] $(OBG_FILE)"
 	@echo "[metadata]" > $(OBG_FILE)
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
@@ -90,9 +94,11 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME)
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
 
-%.$(DEP_SUFFIX) : $(SPRITEDIR)/%.$(PNFO_SUFFIX)
-	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(GRF_SUFFIX))"
-	$(_V) grep "sprites/pcx" $< | sed -e "s|^.*[ 	]\(sprites/pcx/[^ 	]*\).*|$< $(<:$(PNFO_SUFFIX)=$(NFO_SUFFIX)) : \1|" | sort | uniq > $@
+$(MAKEFILEDEP): $(PNFO_FILENAMES) 
+	$(_E) "[Depend]"
+	$(_V) rm -rf $(MAKEFILEDEP)
+	$(_V) for i in $(PNFO_FILENAMES); do grep "sprites/pcx" $$i | sed -e "s|^.*[ 	]\(sprites/pcx/[^ 	]*\).*|$$i: \1|" | sed "s/$(PNFO_SUFFIX)/$(GRF_SUFFIX)/" | sed "s|$(SPRITEDIR)/||" | sort | uniq >> $(MAKEFILEDEP); done
+	$(_V) $(MAKE) $(OBG_FILE)
 
 # Compile GRF
 %.$(GRF_SUFFIX) : $(SPRITEDIR)/%.$(NFO_SUFFIX)
@@ -112,7 +118,7 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME)
 # Clean the source tree
 clean:
 	$(_E) "[Cleaning]"
-	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES)
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES) $(MAKEFILEDEP)
 	
 mrproper: clean
 	$(_V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_RELEASE_SRC)
