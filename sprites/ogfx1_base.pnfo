@@ -5381,13 +5381,15 @@
    20 sprites/pcx/toyland_wrappedhouses.pcx 626 152 03 96 56 -27 -66
    13 sprites/pcx/toylandblds.pcx 482 8 09 90 52 -27 -61
 
+// Toyland iglu
  4660 sprites/pcx/trg1r.pcx 498 17480 03 75 64 -31 -44
  4661 sprites/pcx/trg1r.pcx 578 17480 03 64 64 -31 -33
  4662 sprites/pcx/iglu.pcx 13 104 09 31 63 -30 0
 
+// Toyland Tipi
  4663 sprites/pcx/trg1r.pcx 2 17624 03 90 64 -31 -59
  4664 sprites/pcx/trg1r.pcx 82 17624 03 71 64 -31 -40
- 4665 sprites/pcx/trg1r.pcx 162 17624 09 61 64 -31 -30
+ 4665 sprites/pcx/tipi.pcx 0 0 09 55 64 -31 -24
 
    21 sprites/pcx/toyland_wrappedhouses.pcx 690 152 03 106 64 -31 -75
    22 sprites/pcx/toyland_wrappedhouses.pcx 2 296 03 90 64 -31 -59
