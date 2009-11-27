@@ -4,9 +4,16 @@
 # INSTALLDIR =
 
 # Flags for nforenum and grfcodec
-# NFO_FLAGS = -w 141
+# NFO_FLAGS      = -w 141
 # GRFCODEC_FLAGS = -e -p 2
+# TAR_FLAGS      = cf
+# ZIP_FLAGS      = -r -j
+# BZIP_FLAGS     = -k9f
 
 # MD5SUM   =
 # GRFCODEC =
 # RENUM    = 
+# TAR      =
+# ZIP      =
+# BZIP     =
+# MAKE     =
