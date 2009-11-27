@@ -5409,15 +5409,18 @@
  4676 sprites/pcx/random.pcx 584 540 09 31 64 -31 0
 
 //4677	4685	9	Toyland: Sweet factory
+// fully boxed
  4677 sprites/pcx/trg1r.pcx 306 17768 01 90 32 1 -59
  4678 sprites/pcx/trg1r.pcx 354 17768 01 129 64 -31 -98
  4679 sprites/pcx/trg1r.pcx 434 17768 01 90 32 -31 -59
+ // partially unwrapped
  4680 sprites/pcx/trg1r.pcx 482 17768 01 76 32 1 -45
  4681 sprites/pcx/trg1r.pcx 530 17768 01 120 64 -31 -89
  4682 sprites/pcx/trg1r.pcx 610 17768 01 82 32 -31 -51
- 4683 sprites/pcx/trg1r.pcx 658 17768 01 76 32 1 -45
- 4684 sprites/pcx/trg1r.pcx 706 17768 01 120 64 -31 -89
- 4685 sprites/pcx/trg1r.pcx 2 17912 01 91 32 -31 -60
+ // completly built:
+ 4683 sprites/pcx/sweetfactory.pcx 96 40 01 78 17 2 -39 // 112 118
+ 4684 sprites/pcx/sweetfactory.pcx 32 40 01 78 63 -29 -54
+ 4685 sprites/pcx/sweetfactory.pcx 15 40 01 78 17 -13 -38
 
 //4686	4690	5	Toyland: Battery farm
     3 sprites/pcx/BatteryFarm2.pcx 66 8 09 31 64 -31 0
