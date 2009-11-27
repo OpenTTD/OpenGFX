@@ -70,6 +70,7 @@ test :
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
 	$(_E) "===="
+	$(_E) "Unix2Dos: $(UNIX2DOS)"
 
 $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME)
 	$(_E) "[Generating:] $(OBG_FILE)"
@@ -129,10 +130,12 @@ $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
 	$(_V)mkdir $@
 	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done
+	$(_V) if [ `type -p $(UNIX2DOS)` ]; then $(UNIX2DOS) $(addprefix $@/,$(notdir $(DOC_FILENAMES))) &> /dev/null && echo " - Converting to DOS line endings"; else echo " - Cannot convert to DOS line endings!"; fi
+	
 bundle: $(DIR_NIGHTLY)
 
 %.$(TXT_SUFFIX): %.$(PTXT_SUFFIX)
-	$(_E) "[Generating:] $@"
+	$(_E) "[Generating] $@"
 	$(_V) cat $< \
 		| sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
 		| sed -e "s/$(OBG_FILE_DUMMY)/$(OBG_FILE)/" \
