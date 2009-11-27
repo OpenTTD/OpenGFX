@@ -150,13 +150,13 @@ bundle: $(DIR_NIGHTLY)
 
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(TAR_FILENAME) $(DOC_FILENAMES)
+$(ZIP_FILENAME): $(DIR_NIGHTLY)
 	$(_E) "[Generating:] $@"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $@ $^
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[Generating:] $@"
-	$(_V)$(BZIP) $(BZIP_FLAGS) $<
+	$(_V)$(BZIP) $(BZIP_FLAGS) $^
 
 # Installation process
 install: $(TAR_FILENAME) $(INSTALLDIR)
@@ -170,7 +170,7 @@ release-install: release $(INSTALLDIR)
 	$(_E) "[INSTALL] to $(INSTALLDIR)"
 	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
 	$(_E)
-release_zip: $(DIR_RELEASE).$(TAR_SUFFIX) $(DOC_FILENAMES)
+release_zip: $(DIR_RELEASE)
 	$(_E) "[Generating:] $(ZIP_FILENAME)"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
 release_source:
