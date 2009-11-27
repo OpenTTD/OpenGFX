@@ -1,14 +1,14 @@
 File;Range_start;Range_end;Numsprites;Description;Graphics;Alignment;Ticket#;Done
 ogfx1_base;0;1;2;Cursor and sleepy cursor;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfx1_base;2;2;1;Undefined;n/a;n/a;;1
+ogfx1_base;2;2;1;Space of normal font;n/a;n/a;;1
 ogfx1_base;3;92;90;Normal font;Bilbo, FooBar;buttercup, FooBar;;1
 ogfx1_base;93;128;36;Undefined;n/a;n/a;;1
 ogfx1_base;129;225;97;Normal font special chars;Bilbo, FooBar;buttercup, FooBar;;1
-ogfx1_base;226;226;1;Undefined;n/a;n/a;;1
+ogfx1_base;226;226;1;Space of small font;n/a;n/a;;1
 ogfx1_base;227;316;90;Small font;Zephyris;;;1
 ogfx1_base;317;352;36;Undefined;n/a;n/a;;1
 ogfx1_base;353;449;97;Small font special chars;Zephyris;;;1
-ogfx1_base;450;450;1;Undefined;n/a;n/a;;1
+ogfx1_base;450;450;1;Space of large font;n/a;n/a;;1
 ogfx1_base;451;540;90;Large font;Zephyris;;;1
 ogfx1_base;541;576;36;Undefined;n/a;n/a;;1
 ogfx1_base;577;673;97;Large font special chars;Zephyris;;;1
@@ -18,7 +18,7 @@ ogfx1_base;752;770;19;GUI selectors;LordAzamath, soeb;Zephyris;;1
 ogfx1_base;771;773;3;Recolour sprites;n/a;n/a;;1
 ogfx1_base;774;774;1;GUI selector dot;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;775;804;30;Recolour sprites;n/a;n/a;;1
-ogfx1_base;804;911;108;European manager faces;Ben_Robbins_, Zephyris;Zephyris;;1
+ogfx1_base;805;911;107;European manager faces;Ben_Robbins_, Zephyris;Zephyris;;1
 ogfx1_base;912;989;78;African manager faces;;;94;0
 ogfx1_base;990;1003;14;Foundations;Zephyris;Zephyris;;1
 ogfx1_base;1004;1004;1;Map edge;Leppka, Zephyris;Zephyris;;1
@@ -135,7 +135,7 @@ ogfx1_base;3084;3089;6;Spark;Soeb;Soeb;;1
 ogfx1_base;3090;3091;2;GUI vehicle start/stop;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;3092;3283;192;Trucks gen 1;Zephyris;Zephyris;;1
 ogfx1_base;3284;3475;192;Trucks gen 2;Zephyris;Zephyris;;1
-ogfx1_base;3486;3667;182;Trucks gen 3;Zephyris;Zephyris;;1
+ogfx1_base;3476;3667;192;Trucks gen 3;Zephyris;Zephyris;;1
 ogfx1_base;3668;3668;1;GUI docks;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;3669;3700;32;Ships;buttercup, Lead@Inbox, Zephyris;buttercup;;1
 ogfx1_base;3701;3708;8;Large smoker;FooBar;FooBar;;1
@@ -219,7 +219,7 @@ ogfx1_base;4651;4654;4;Toyland: Wrapper design for 4655-4656;;;107;0
 ogfx1_base;4655;4656;2;Toyland: building;Zephyris;planetmaker;107;1
 ogfx1_base;4657;4658;2;Toyland: Wrapper design for 4659;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4659;4659;1;Toyland: building;athanasios;buttercup;107;1
-ogfx1_base;4660;4661;2;Toyland: Wrapper design for 4662;;;107;0
+ogfx1_base;4660;4661;2;Toyland: Wrapper design for 4662;athanasios;planetmaker;107;1
 ogfx1_base;4662;4662;1;Toyland: building;LordAzamath;planetmaker;107;1
 ogfx1_base;4663;4664;2;Toyland: Wrapper design for 4665;;;107;0
 ogfx1_base;4665;4665;1;Toyland: building;Zephyris;planetmaker;107;1
@@ -316,7 +316,7 @@ ogfxh_tropical;517;530;14;Foundations;Zephyris;Zephyris;;1
 ogfxh_tropical;531;542;12;Desert level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;543;554;12;Farm;Zephyris;buttercup;;1
 ogfxh_tropical;555;556;2;GUI desert;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfxh_tropical;556;557;2;City roadside tree;Zephyris;Zephyris;;1
+ogfxh_tropical;557;557;1;City roadside tree;Zephyris;Zephyris;;1
 ogfxi_logos;0;10;11;deprecated;n/a;n/a;;1
 ogfxi_logos;11;20;10;High score chart;Zephyris;FooBar;;1
 ogfxi_logos;21;30;10;Game end 1;Zephyris;FooBar;;1
