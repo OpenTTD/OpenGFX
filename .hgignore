@@ -3,6 +3,7 @@ syntax: glob
 
 # The local makefile should be ignored:
 Makefile.local
+Makefile.dep
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
@@ -14,8 +15,6 @@ sprites/ogfx?_*.nfo
 docs/license.txt
 docs/changelog.txt
 docs/readme.txt
-# Dependency files:
-*.d
 
 # Ignore directories from bundle creation / install:
 opengfx-*
