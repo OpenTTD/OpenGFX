@@ -69,8 +69,8 @@ test :
 	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
+	$(_E) "Path to Unix2Dos:             $(UNIX2DOS)"
 	$(_E) "===="
-	$(_E) "Unix2Dos: $(UNIX2DOS)"
 
 $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME)
 	$(_E) "[Generating:] $(OBG_FILE)"
