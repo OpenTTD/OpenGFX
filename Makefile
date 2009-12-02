@@ -112,7 +112,7 @@ $(MAKEFILEDEP): $(PNFO_FILENAMES)
 .PRECIOUS: %.$(NFO_SUFFIX)
 %.$(NFO_SUFFIX) : %.$(PNFO_SUFFIX)
 	$(_E) "[Checking] $@"
-	$(_V) cp $< $@
+	$(_V) $(CC) $(CC_FLAGS) $< > $@
 	$(_E) "[nforenum] $@"
 	$(_V)-$(NFORENUM) $(NFORENUM_FLAGS) $@
 
