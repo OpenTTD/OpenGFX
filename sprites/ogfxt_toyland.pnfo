@@ -873,86 +873,108 @@
   760 sprites/pcx/egrvts.pcx 306 8072 09 16 20 -6 -7
 
 //761	840	80	Rail wagons
-  761 sprites/pcx/trgtr.pcx 722 3384 01 18 8 -3 -10
-  762 sprites/pcx/trgtr.pcx 738 3384 09 16 20 -14 -7
-  763 sprites/pcx/trgtr.pcx 2 3416 01 12 28 -14 -6
-  764 sprites/pcx/trgtr.pcx 50 3416 09 16 20 -4 -8
-  765 sprites/pcx/trgtr.pcx 82 3416 01 18 8 -3 -10
-  766 sprites/pcx/trgtr.pcx 98 3416 09 16 20 -14 -7
-  767 sprites/pcx/trgtr.pcx 130 3416 01 12 28 -14 -6
-  768 sprites/pcx/trgtr.pcx 178 3416 09 16 20 -4 -8
-  769 sprites/pcx/toyland_wagons/wagon_sugar.pcx 18 1 01 22 8 -3 -8
-  770 sprites/pcx/toyland_wagons/wagon_sugar.pcx 27 1 09 16 20 -14 -8
-  771 sprites/pcx/toyland_wagons/wagon_sugar.pcx 50 1 01 12 28 -14 -7
-  772 sprites/pcx/toyland_wagons/wagon_sugar.pcx 83 1 09 16 20 -4 -6
-  773 sprites/pcx/toyland_wagons/wagon_sugar.pcx 18 25 01 22 8 -3 -8
-  774 sprites/pcx/toyland_wagons/wagon_sugar.pcx 27 25 09 16 20 -14 -8
-  775 sprites/pcx/toyland_wagons/wagon_sugar.pcx 50 25 01 12 28 -14 -7
-  776 sprites/pcx/toyland_wagons/wagon_sugar.pcx 83 25 09 16 20 -4 -6
-  777 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 1 01 22 8 -3 -8
-  778 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 1 09 16 20 -14 -8
-  779 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 1 01 12 28 -14 -7
-  780 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 1 09 16 20 -4 -6
-  781 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 18 25 01 22 8 -3 -8
-  782 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 27 25 09 16 20 -14 -8
-  783 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 50 25 01 12 28 -14 -7
-  784 sprites/pcx/toyland_wagons/wagon_candyfloss.pcx 83 25 09 16 20 -4 -6  
-  785 sprites/pcx/toyland_wagons/wagon_toffee.pcx 18 1 01 22 8 -3 -8
-  786 sprites/pcx/toyland_wagons/wagon_toffee.pcx 27 1 09 16 20 -14 -8
-  787 sprites/pcx/toyland_wagons/wagon_toffee.pcx 50 1 01 12 28 -14 -7
-  788 sprites/pcx/toyland_wagons/wagon_toffee.pcx 83 1 09 16 20 -4 -6
-  789 sprites/pcx/toyland_wagons/wagon_toffee.pcx 18 25 01 22 8 -3 -8
-  790 sprites/pcx/toyland_wagons/wagon_toffee.pcx 27 25 09 16 20 -14 -8
-  791 sprites/pcx/toyland_wagons/wagon_toffee.pcx 50 25 01 12 28 -14 -7
-  792 sprites/pcx/toyland_wagons/wagon_toffee.pcx 83 25 09 16 20 -4 -6  
-  793 sprites/pcx/trgtr.pcx 210 3448 01 18 8 -3 -10
-  794 sprites/pcx/trgtr.pcx 226 3448 09 16 20 -14 -7
-  795 sprites/pcx/trgtr.pcx 258 3448 01 12 28 -14 -6
-  796 sprites/pcx/trgtr.pcx 306 3448 09 16 20 -4 -8
-  797 sprites/pcx/trgtr.pcx 338 3448 01 18 8 -3 -10
-  798 sprites/pcx/trgtr.pcx 354 3448 09 16 20 -14 -7
-  799 sprites/pcx/trgtr.pcx 386 3448 01 12 28 -14 -6
-  800 sprites/pcx/trgtr.pcx 434 3448 09 16 20 -4 -8
-  801 sprites/pcx/trgtr.pcx 466 3448 01 17 8 -3 -9
-  802 sprites/pcx/trgtr.pcx 482 3448 09 16 19 -14 -7
-  803 sprites/pcx/trgtr.pcx 514 3448 01 12 28 -14 -6
-  804 sprites/pcx/trgtr.pcx 562 3448 09 16 19 -3 -8
-  805 sprites/pcx/trgtr.pcx 594 3448 01 17 8 -3 -9
-  806 sprites/pcx/trgtr.pcx 610 3448 09 16 19 -14 -7
-  807 sprites/pcx/trgtr.pcx 642 3448 01 12 28 -14 -6
-  808 sprites/pcx/trgtr.pcx 690 3448 09 16 19 -3 -8
-  809 sprites/pcx/trgtr.pcx 722 3448 01 18 8 -3 -10
-  810 sprites/pcx/trgtr.pcx 738 3448 09 16 20 -14 -7
-  811 sprites/pcx/trgtr.pcx 2 3480 01 12 28 -14 -6
-  812 sprites/pcx/trgtr.pcx 50 3480 09 16 20 -4 -8
-  813 sprites/pcx/trgtr.pcx 82 3480 01 18 8 -3 -10
-  814 sprites/pcx/trgtr.pcx 98 3480 09 16 20 -14 -7
-  815 sprites/pcx/trgtr.pcx 130 3480 01 12 28 -14 -6
-  816 sprites/pcx/trgtr.pcx 178 3480 09 16 20 -4 -8
-  817 sprites/pcx/trgtr.pcx 210 3480 01 18 8 -3 -10
-  818 sprites/pcx/trgtr.pcx 226 3480 09 13 20 -14 -4
-  819 sprites/pcx/trgtr.pcx 258 3480 01 9 28 -14 -3
-  820 sprites/pcx/trgtr.pcx 306 3480 09 13 20 -4 -5
-  821 sprites/pcx/trgtr.pcx 338 3480 01 18 8 -3 -10
-  822 sprites/pcx/trgtr.pcx 354 3480 09 16 20 -14 -7
-  823 sprites/pcx/trgtr.pcx 386 3480 01 12 28 -14 -6
-  824 sprites/pcx/trgtr.pcx 434 3480 09 16 20 -4 -8
-  825 sprites/pcx/trgtr.pcx 466 3480 01 18 8 -3 -10
-  826 sprites/pcx/trgtr.pcx 482 3480 09 13 20 -14 -4
-  827 sprites/pcx/trgtr.pcx 514 3480 01 9 28 -14 -3
-  828 sprites/pcx/trgtr.pcx 562 3480 09 13 20 -4 -5
-  829 sprites/pcx/trgtr.pcx 594 3480 01 18 8 -3 -10
-  830 sprites/pcx/trgtr.pcx 610 3480 09 16 20 -14 -7
-  831 sprites/pcx/trgtr.pcx 642 3480 01 12 28 -14 -6
-  832 sprites/pcx/trgtr.pcx 690 3480 09 16 20 -4 -8
-  833 sprites/pcx/trgtr.pcx 722 3480 01 18 8 -3 -10
-  834 sprites/pcx/trgtr.pcx 738 3480 09 13 20 -14 -4
-  835 sprites/pcx/trgtr.pcx 2 3512 01 10 28 -14 -4
-  836 sprites/pcx/trgtr.pcx 50 3512 09 13 20 -4 -5
-  837 sprites/pcx/trgtr.pcx 82 3512 01 18 8 -3 -10
-  838 sprites/pcx/trgtr.pcx 98 3512 09 15 20 -14 -6
-  839 sprites/pcx/trgtr.pcx 130 3512 01 12 28 -14 -6
-  840 sprites/pcx/trgtr.pcx 178 3512 09 15 20 -4 -7
+#define OFF_X_VERT -3
+#define OFF_Y_VERT -10
+#define OFF_X_EW   -14
+#define OFF_Y_EW   -7
+#define OFF_X_HORI -14
+#define OFF_Y_HORI -6
+#define OFF_X_NS   -4
+#define OFF_Y_NS   -8
+// PAX
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134   0 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150   0 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182   0 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230   0 09 16 20 OFF_X_NS   OFF_Y_NS
+// Mail
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134  24 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150  24 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182  24 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230  24 09 16 20 OFF_X_NS   OFF_Y_NS
+// sugar: white grains
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134  48 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150  48 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182  48 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230  48 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134  72 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150  72 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182  72 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230  72 09 16 20 OFF_X_NS   OFF_Y_NS
+// cotton candy: pink grains
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134  96 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150  96 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182  96 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230  96 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 120 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 120 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 120 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 120 09 16 20 OFF_X_NS   OFF_Y_NS
+// toffee: yellow grains
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 144 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 144 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 144 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 144 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 168 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 168 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 168 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 168 09 16 20 OFF_X_NS   OFF_Y_NS
+// Bubbles
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 432 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 432 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 432 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 432 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 456 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 456 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 456 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 456 09 16 20 OFF_X_NS   OFF_Y_NS
+// tanker
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 192 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 192 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 192 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 192 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 216 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 216 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 216 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 216 09 16 20 OFF_X_NS   OFF_Y_NS
+// sweets and toys: closed goods wagons
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 240 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 240 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 240 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 240 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 264 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 264 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 264 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 264 09 16 20 OFF_X_NS   OFF_Y_NS
+// Batteries
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 384 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 384 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 384 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 384 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 408 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 408 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 408 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 408 09 16 20 OFF_X_NS   OFF_Y_NS
+// lemonade cans
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 288 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 288 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 288 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 288 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 312 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 312 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 312 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 312 09 16 20 OFF_X_NS   OFF_Y_NS
+// Plastics
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 336 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 336 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 336 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 336 09 16 20 OFF_X_NS   OFF_Y_NS
+  761 sprites/pcx/trains/toyland_railwagons.pcx 134 360 01 18 8  OFF_X_VERT OFF_Y_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx 150 360 09 16 20 OFF_X_EW   OFF_Y_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx 182 360 01 12 28 OFF_X_HORI OFF_Y_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx 230 360 09 16 20 OFF_X_NS   OFF_Y_NS
+
+
+
 
 //841	872	32	Rail engines
    21 sprites/pcx/newtrains01.pcx 610 8 09 24 8 -3 -12
