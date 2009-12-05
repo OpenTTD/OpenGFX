@@ -244,7 +244,7 @@ ogfx1_base;4737;4742;6;Toyland: Fizzy drink factory;Zuu;planetmaker;115;1
 ogfx1_base;4743;4747;5;Toyland: Bubble generator;Zephyris;planetmaker;116;1
 ogfx1_base;4748;4762;15;Toyland: Bubbles;FooBar, Soeb;Soeb;;1
 ogfx1_base;4763;4767;5;Toyland: Toffee quarry;Zephyris;planetmaker;117;1
-ogfx1_base;4768;4789;22;Toyland: Sugar mine;;;118;0
+ogfx1_base;4768;4789;22;Toyland: Sugar mine;Zephyris;planetmaker;118;1
 ogfx1_base;4790;4790;1;Buy land sign;FooBar;FooBar;;1
 ogfx1_base;4791;4792;2;GUI buy land;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxc_arctic;0;18;19;Bare land stage 1;Zephyris;Zephyris;;1

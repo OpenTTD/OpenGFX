@@ -5531,28 +5531,28 @@
  4767 sprites/pcx/toffee_quary.pcx   0 0 09 25 24 -8 -8
 
 //4768	4789	22	Toyland: Sugar mine
- 4768 sprites/pcx/trg1r.pcx 2 18744 09 31 64 -31 0
- 4769 sprites/pcx/trg1r.pcx 82 18744 09 31 64 -31 0
- 4770 sprites/pcx/trg1r.pcx 162 18744 09 31 64 -31 0
- 4771 sprites/pcx/trg1r.pcx 242 18744 09 31 64 -31 0
- 4772 sprites/pcx/trg1r.pcx 322 18744 09 96 14 1 -76
- 4773 sprites/pcx/trg1r.pcx 354 18744 09 115 64 -31 -84
- 4774 sprites/pcx/trg1r.pcx 434 18744 09 96 13 -12 -76
- 4775 sprites/pcx/trg1r.pcx 466 18744 09 48 49 0 0
- 4776 sprites/pcx/trg1r.pcx 530 18744 09 48 49 0 0
- 4777 sprites/pcx/trg1r.pcx 594 18744 09 48 49 0 0
- 4778 sprites/pcx/trg1r.pcx 658 18744 09 48 49 0 0
- 4779 sprites/pcx/trg1r.pcx 722 18744 09 48 49 0 0
- 4780 sprites/pcx/trg1r.pcx 2 18872 09 14 23 0 0
- 4781 sprites/pcx/trg1r.pcx 34 18872 09 18 32 0 0
- 4782 sprites/pcx/trg1r.pcx 82 18872 09 20 37 0 0
- 4783 sprites/pcx/trg1r.pcx 130 18872 09 25 45 0 0
- 4784 sprites/pcx/trg1r.pcx 194 18872 09 44 49 0 0
- 4785 sprites/pcx/trg1r.pcx 258 18872 09 44 49 0 0
- 4786 sprites/pcx/trg1r.pcx 322 18872 09 44 49 0 0
- 4787 sprites/pcx/trg1r.pcx 386 18872 09 44 49 0 0
- 4788 sprites/pcx/trg1r.pcx 450 18872 09 44 49 0 0
- 4789 sprites/pcx/trg1r.pcx 514 18872 09 44 49 0 0
+ 4768 sprites/pcx/industries/sugarmine/bgstockpile.pcx           32   1 09 32 64 -32   0
+ 4769 sprites/pcx/industries/sugarmine/bgstockpile.pcx           96  16 09 32 32   0  -1
+ 4770 sprites/pcx/industries/sugarmine/bgstockpile.pcx            1  16 09 32 32 -32  -1
+ 4771 sprites/pcx/industries/sugarmine/bgstockpile.pcx           32  32 09 32 64 -32  -1
+ 4772 sprites/pcx/industries/sugarmine/Support.pcx               78   0 09 95 13   0 -78
+ 4773 sprites/pcx/industries/sugarmine/Support.pcx               14   0 09 95 64 -32 -94
+ 4774 sprites/pcx/industries/sugarmine/Support.pcx                0   0 09 95 14 -13 -78
+ 4775 sprites/pcx/industries/sugarmine/Sieve5.pcx                 0   0 09 48 49   0 0
+ 4776 sprites/pcx/industries/sugarmine/Sieve4.pcx                 0   0 09 48 49   0 0
+ 4777 sprites/pcx/industries/sugarmine/Sieve3.pcx                 0   0 09 48 49   0 0
+ 4778 sprites/pcx/industries/sugarmine/Sieve2.pcx                 0   0 09 48 49   0 0
+ 4779 sprites/pcx/industries/sugarmine/Sieve1.pcx                 0   0 09 48 49   0 0
+ 4780 sprites/pcx/industries/sugarmine/Pile4.pcx                  0   0 09 48 49 -16 -16
+ 4781 sprites/pcx/industries/sugarmine/Pile3.pcx                  0   0 09 48 49  -8 -12
+ 4782 sprites/pcx/industries/sugarmine/Pile2.pcx                  0   0 09 48 49  -4 -12
+ 4783 sprites/pcx/industries/sugarmine/Pile1.pcx                  0   0 09 48 49   0  -8
+ 4784 sprites/pcx/industries/sugarmine/Sug2.pcx                   0   0 09 44 49 0 0
+ 4785 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49 0 0
+ 4786 sprites/pcx/industries/sugarmine/Sug4.pcx                   0   0 09 44 49 0 0
+ 4787 sprites/pcx/industries/sugarmine/Sug5.pcx                   0   0 09 44 49 0 0
+ 4788 sprites/pcx/industries/sugarmine/Sug1.pcx                   0   0 09 44 49 0 0
+ 4789 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49 0 0
 
 
 
