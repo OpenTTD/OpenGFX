@@ -1,117 +1,117 @@
-OpenGFX Readme - 8bpp Graphics Replacement Project 
+OpenGFX Readme - 8bpp Graphics Replacement Project
 
 ============================
 Current Version: {{GRF_TITLE}}
 ============================
 
-Contents 
+Contents
 0 About OpenGFX
-1 Downloading OpenGFX 
-2 Installing OpenGFX Manually 
-     2.1 Sample.cat error 
-3 Installing or Updating OpenGFX using the Online Content service 
-4 Project status 
-5 Reporting bugs 
-6 License 
+1 Downloading OpenGFX
+2 Installing OpenGFX Manually
+     2.1 Sample.cat error
+3 Installing or Updating OpenGFX using the Online Content service
+4 Project status
+5 Reporting bugs
+6 License
 	6.1 Obtaining the source
-7 Credits 
+7 Credits
 
 
 
 0 About OpenGFX
 ===============
 
-OpenGFX is an open source replacement for the original TTD graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide a set of free base graphics which make it possible to play OpenTTD without requiring the (copyrighted) files from the TTD cd. This potentially increases the OpenTTD fanbase and makes it a true free game (with "free" as in both "free beer" and "open source"). 
+OpenGFX is an open source replacement for the original TTD graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide a set of free base graphics which make it possible to play OpenTTD without requiring the (copyrighted) files from the TTD cd. This potentially increases the OpenTTD fanbase and makes it a true free game (with "free" as in both "free beer" and "open source").
 
 The OpenGFX base graphics set is not yet complete. Albeit only a number of toyland sprites and some manager faces are still missing. Thus playing the "usual" three climates is now completely supported.
 
 
 
-1 Downloading OpenGFX 
+1 Downloading OpenGFX
 =====================
 
-OpenGFX is available from at least two locations. This readme will only cover the official download locations. 
+OpenGFX is available from at least two locations. This readme will only cover the official download locations.
 
-We cannot support third party download locations and we cannot refund your money if you have paid money for OpenGFX. 
+We cannot support third party download locations and we cannot refund your money if you have paid money for OpenGFX.
 
-- If you're new to OpenTTD and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not that difficult as it may sound, so don't worry too much about that. 
-- If you already have OpenTTD up and running using the original TTD base graphics, Installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX. 
+- If you're new to OpenTTD and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not that difficult as it may sound, so don't worry too much about that.
+- If you already have OpenTTD up and running using the original TTD base graphics, Installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
 
 If you want to check the integrity of your grf or check wether your self-compiled grf is the the same as it should, have a look at {{OBG_FILE}}
 
 
 
-2 Installing OpenGFX Manually 
+2 Installing OpenGFX Manually
 =============================
 
-1. First, make sure that you downloaded and installed at least OpenTTD version 0.7.0 or a recent nightly. 
+1. First, make sure that you downloaded and installed at least OpenTTD version 0.7.0 or a recent nightly.
 
 2. Next, download the latest OpenGFX package from the development homepage http://dev.openttdcoop.org/bundles/opengfx
 
-3. Unpack the zip file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in: 
-- An OpenTTD folder in your user account's home directory: 
-	Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD 
-	Mac OSX: ~/Documents/OpenTTD 
-	Linux:   ~/.openttd 
-- The OpenTTD installation directory. 
+3. Unpack the zip file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in:
+- An OpenTTD folder in your user account's home directory:
+	Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD
+	Mac OSX: ~/Documents/OpenTTD
+	Linux:   ~/.openttd
+- The OpenTTD installation directory.
 
-4. Run OpenTTD. Chances are that you'll get an error about a missing 'sample.cat' file. If that is the case, follow the steps in the sample.cat error section first before continuing here. 
+4. Run OpenTTD. Chances are that you'll get an error about a missing 'sample.cat' file. If that is the case, follow the steps in the sample.cat error section first before continuing here.
 
-5. In the main menu of the game, click the Game Options  button. The Game 
-Options  dialog will appear. 
+5. In the main menu of the game, click the Game Options  button. The Game
+Options  dialog will appear.
 
-6. Select OpenGFX  from the drop-down list below Base graphics set  if that's not selected already (bottom left of window). Close the window using the × in the upper left corner. 
-- If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step. 
-- If you installed the original TTD base graphics as well, this is where you can switch base graphic sets. 
+6. Select OpenGFX  from the drop-down list below Base graphics set  if that's not selected already (bottom left of window). Close the window using the × in the upper left corner.
+- If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
+- If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
 
-Now that wasn't so hard, was it? Anyways, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic 
+Now that wasn't so hard, was it? Anyways, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic
 at TT-forums: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or (preferrably) at our bug tracker at http://dev.openttdcoop.org/projects/opengfx
 
 
 2.1 Sample.cat error
 --------------------
 
-The sample.cat file contains the sound effects from the original TTD. OpenTTD requires that file to be installed correctly, otherwise the game will not start. What to do if you don't have that file? Read on! The solution is to create a dummy sample.cat file. 
+The sample.cat file contains the sound effects from the original TTD. OpenTTD requires that file to be installed correctly, otherwise the game will not start. What to do if you don't have that file? Read on! The solution is to create a dummy sample.cat file.
 
-1. Browse to the OpenTTD /data directory. 
-	See step 3 of Installing OpenGFX Manually on where to find that directory. 
+1. Browse to the OpenTTD /data directory.
+	See step 3 of Installing OpenGFX Manually on where to find that directory.
 
-2. Create an empty file with sample.cat  as file name: 
-	Use your operating system's built in graphical tools, or; 
-	Use a command like $ touch sample.cat  on the command line, or; 
-	Alternatively download an empty sample.cat file here and place it in the OpenTTD /data directory. 
+2. Create an empty file with sample.cat  as file name:
+	Use your operating system's built in graphical tools, or;
+	Use a command like $ touch sample.cat  on the command line, or;
+	Alternatively download an empty sample.cat file here and place it in the OpenTTD /data directory.
 
-Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to 
+Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to
 continue! (Obviously, you don't have any sound effects with the dummy file.)
 
 Note: As of r17139 of OpenTTD it supports sound sets. If you have a nightly version newer than this (the 0.7.x branch doesn't support sound sets), the preferred way is to add a free sound set, either NoSound (available from bananas) or OpenGFX's sister, the OpenSFX sound set, available from http://bundles.openttdcoop.org/opensfx . OpenSFX is installed the very same way as OpenGFX.
 
 
 
-3 Installing or Updating OpenGFX using the Online Content service 
+3 Installing or Updating OpenGFX using the Online Content service
 =================================================================
 
 This method uses the Online content service (BaNaNaS) to download OpenGFX. In order to use this, you need a working OpenTTD and again at least OpenTTD version 0.7.0 or a recent nightly.
- 
-1. Start OpenTTD and on the main menu click the Check online content  button. A new window will pop up. If OpenTTD doesn't start, follow the manual installation procedure. 
 
-2. Find the OpenGFX entry from the list at the left. You can use the search box in the upper right corner of the window. 
+1. Start OpenTTD and on the main menu click the Check online content  button. A new window will pop up. If OpenTTD doesn't start, follow the manual installation procedure.
 
-3. Click the little square in front of the OpenGFX entry in order to mark it for download. 
+2. Find the OpenGFX entry from the list at the left. You can use the search box in the upper right corner of the window.
 
-4. Click the Download  button in the bottom right corner. After download, close the open windows. 
+3. Click the little square in front of the OpenGFX entry in order to mark it for download.
 
-5. In the main menu of the game, click the Game Options  button. The Game 
-Options  dialog will appear. 
+4. Click the Download  button in the bottom right corner. After download, close the open windows.
 
-6. Select OpenGFX  from the drop-down list below Base graphics set  if that's not selected already (bottom left of window). Close the window using the × in the upper left corner. 
+5. In the main menu of the game, click the Game Options  button. The Game
+Options  dialog will appear.
+
+6. Select OpenGFX  from the drop-down list below Base graphics set  if that's not selected already (bottom left of window). Close the window using the × in the upper left corner.
 
 
 
-4 Project status 
+4 Project status
 ================
 
-OpenGFX is not completely finished yet and some graphics still are missing. 
+OpenGFX is not completely finished yet and some graphics still are missing.
 The current status of the project can be found at the Graphics Replacement Tracking Table at http://dev.openttdcoop.org/projects/opengfx
 
 
@@ -119,29 +119,29 @@ The current status of the project can be found at the Graphics Replacement Track
 5 Reporting bugs
 ================
 
-Missing graphics show up in the game as black rectangles. Please don't report these black rectangles as bugs. If you do spot any grapical bugs or glitches in the available graphics, please let us know via the OpenGFX 
-release topic at TT-forums.net: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or preferrably our bug tracker http://dev.openttdcoop.org/projects/opengfx/issues . Please make sure that you're using the latest available version before reporting a bug. You can check the Issue Tracker to see if the bug you've found is already reported (or fixed!). 
+Missing graphics show up in the game as black rectangles. Please don't report these black rectangles as bugs. If you do spot any grapical bugs or glitches in the available graphics, please let us know via the OpenGFX
+release topic at TT-forums.net: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or preferrably our bug tracker http://dev.openttdcoop.org/projects/opengfx/issues . Please make sure that you're using the latest available version before reporting a bug. You can check the Issue Tracker to see if the bug you've found is already reported (or fixed!).
 
 
 
 6 License
 =========
 
-OpenGFX Graphics Replacement Set for OpenTTD Copyright (C) 2007-2009 OpenGFX Authors (see below) 
+OpenGFX Graphics Replacement Set for OpenTTD Copyright (C) 2007-2009 OpenGFX Authors (see below)
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
-for more details. 
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+for more details.
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free 
-Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. 
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free
+Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-6.1 Obtaining the source 
+6.1 Obtaining the source
 ------------------------
 
-The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using 
+The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using
    hg clone http://mz.openttdcoop.org/hg/opengfx or obtain the tarball from http://bundles.openttdcoop.org/opengfx/releases
 
 
@@ -149,47 +149,47 @@ The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball.
 7 Credits
 =========
 
-OpenGFX is created by the following people (in reverse alphabetical order): 
+OpenGFX is created by the following people (in reverse alphabetical order):
 
 - Zuu (Leif Linse)
-- Zephyris (Richard Wheeler) 
+- Zephyris (Richard Wheeler)
 - Varivar
-- uzurpator 
+- uzurpator
 - Spaz O Mataz
-- Soeb (Stanislaw Gackowski) 
-- skidd13 (Benedikt Brüggemeier) 
+- Soeb (Stanislaw Gackowski)
+- skidd13 (Benedikt Brüggemeier)
 - Rubidium (Remko Bijker)
-- Roujin 
-- Red*Star (David Krebs) 
-- Raumkraut (Mel Collins) 
-- Purno (Mark Leppen) 
+- Roujin
+- Red*Star (David Krebs)
+- Raumkraut (Mel Collins)
+- Purno (Mark Leppen)
 - planetmaker
-- PikkaBird (David Dallaston) 
-- northstar2 
-- Mr. X 
-- mph (Matthew Haines) 
-- mb (Michael Blunck) 
+- PikkaBird (David Dallaston)
+- northstar2
+- Mr. X
+- mph (Matthew Haines)
+- mb (Michael Blunck)
 - molace
 - Lawton27
-- LordAzamath (Johannes Madis Aasmäe) 
-- lead@inbox (Serge Saphronov) 
+- LordAzamath (Johannes Madis Aasmäe)
+- lead@inbox (Serge Saphronov)
 - Irwe
-- Gen.Sniper 
-- FooBar (Jasper Vries) 
+- Gen.Sniper
+- FooBar (Jasper Vries)
 - EdorFaus (Frode Austvik)
 - drginaldee
-- DJ Nekkid (Thomas Mjelva) 
-- DanMacK (Dan MacKellar) 
-- buttercup 
-- bubersson (Petr Mikota) 
-- Born Acorn 
-- Bilbo 
-- Ben_Robbins_ (Ben Robbins) 
-- athanasios (Athanasios Arthur Palaiologos) 
-- andythenorth (Andrew Parkhouse) 
+- DJ Nekkid (Thomas Mjelva)
+- DanMacK (Dan MacKellar)
+- buttercup
+- bubersson (Petr Mikota)
+- Born Acorn
+- Bilbo
+- Ben_Robbins_ (Ben Robbins)
+- athanasios (Athanasios Arthur Palaiologos)
+- andythenorth (Andrew Parkhouse)
 - AndersI
-- Ammler (Marcel Gmür) 
+- Ammler (Marcel Gmür)
 
-A detailed list of who worked on what is available in the file docs/authoroverview.csv in the source repository. 
+A detailed list of who worked on what is available in the file docs/authoroverview.csv in the source repository.
 
-Thanks go out to the guys at #openttdcoop for providing the source repository and bug tracking services. 
+Thanks go out to the guys at #openttdcoop for providing the source repository and bug tracking services.

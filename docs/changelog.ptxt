@@ -39,7 +39,7 @@ OpenGFX 0.1.0-alpha6
 - Feature: Implement modern office block for tropical climate
 - Feature: Modern office block in tropical climate
 - Feature: Add construction stages (wrappings) for most existing toyland buildings
-- Feature: Monolev mail wagon 
+- Feature: Monolev mail wagon
 - Feature: Tropic church
 - Feature: British semaphore style
 - Change: Improved arrows on terraforming icons
@@ -47,7 +47,7 @@ OpenGFX 0.1.0-alpha6
 - Fix: White bottom of small submarines
 - Fix: White line at battery truck
 - Fix: White lines in some characters
-- Fix: Replace pure white in all sprites 
+- Fix: Replace pure white in all sprites
 - Fix: Action colors for the climate preview images
 - Fix: Temperate building mis-alignment.
 
@@ -59,7 +59,7 @@ OpenGFX 0.1.0-alpha5
 - Feature: Monolev engines and passenger wagon.
 - Feature: Add two toyland buildings (4632, 4638)
 - Feature: Arctic hotel
-- Feature: Base sprites 4439, 4440, 4441. 
+- Feature: Base sprites 4439, 4440, 4441.
 - Feature: Snow base sprite 4575.
 - Feature: PBS graphics for standard climate.
 - Feature: PBS graphics for toyland climate.

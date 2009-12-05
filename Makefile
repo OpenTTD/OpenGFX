@@ -95,7 +95,7 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_F
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
 
-$(MAKEFILEDEP): $(PNFO_FILENAMES) 
+$(MAKEFILEDEP): $(PNFO_FILENAMES)
 	$(_E) "[Depend]"
 	$(_V) rm -rf $(MAKEFILEDEP)
 	$(_V) for i in $(PNFO_FILENAMES); do grep "sprites/pcx" $$i | sed -e "s|^.*[ 	]\(sprites/pcx/[^ 	]*\).*|$$i: \1|" | sed "s/$(PNFO_SUFFIX)/$(GRF_SUFFIX)/" | sed "s|$(SPRITEDIR)/||" | sort | uniq >> $(MAKEFILEDEP); done
@@ -120,7 +120,7 @@ $(MAKEFILEDEP): $(PNFO_FILENAMES)
 clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES) $(MAKEFILEDEP)
-	
+
 mrproper: clean
 	$(_V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_RELEASE_SRC)
 
@@ -131,7 +131,7 @@ $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_V)mkdir $@
 	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done
 	$(_V) if [ `type -p $(UNIX2DOS)` ]; then $(UNIX2DOS) $(addprefix $@/,$(notdir $(DOC_FILENAMES))) &> /dev/null && echo " - Converting to DOS line endings"; else echo " - Cannot convert to DOS line endings!"; fi
-	
+
 bundle: $(DIR_NIGHTLY)
 
 %.$(TXT_SUFFIX): %.$(PTXT_SUFFIX)

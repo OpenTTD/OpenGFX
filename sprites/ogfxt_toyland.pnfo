@@ -690,9 +690,9 @@
   606 sprites/pcx/egrvts.pcx 706 1656 09 16 20 -14 -7
   607 sprites/pcx/egrvts.pcx 738 1656 01 12 28 -14 -6
   608 sprites/pcx/egrvts.pcx 2 1688 09 16 20 -6 -7
-  
+
 // Sugar truck empty egrvts #2345 ff
-  609 sprites/pcx/egrvts.pcx 402 2568 01 18 8 -3 -10  
+  609 sprites/pcx/egrvts.pcx 402 2568 01 18 8 -3 -10
   610 sprites/pcx/egrvts.pcx 418 2568 09 16 20 -14 -7
   611 sprites/pcx/egrvts.pcx 450 2568 01 12 28 -14 -6
   612 sprites/pcx/egrvts.pcx 498 2568 09 16 20 -6 -7
@@ -728,7 +728,7 @@
   638 sprites/pcx/egrvts.pcx 450 4360 09 16 20 -14 -7
   639 sprites/pcx/egrvts.pcx 482 4360 01 12 28 -14 -6
   640 sprites/pcx/egrvts.pcx 530 4360 09 16 20 -6 -7
-  
+
 // Candyfloss truck empty egrvts
   641 sprites/pcx/egrvts.pcx 562 2760 01 18 8 -3 -10
   642 sprites/pcx/egrvts.pcx 578 2760 09 16 20 -14 -7
@@ -747,9 +747,9 @@
   654 sprites/pcx/egrvts.pcx 642 2856 09 16 20 -14 -7
   655 sprites/pcx/egrvts.pcx 674 2856 01 12 28 -14 -6
   656 sprites/pcx/egrvts.pcx 722 2856 09 16 20 -6 -7
-  
+
 // Toffee truck empty (egrvts 2182ff)
-  657 sprites/pcx/egrvts.pcx 322 2376 01 18 8 -3 -10			
+  657 sprites/pcx/egrvts.pcx 322 2376 01 18 8 -3 -10
   658 sprites/pcx/egrvts.pcx 338 2376 09 16 20 -14 -7
   659 sprites/pcx/egrvts.pcx 370 2376 01 12 28 -14 -6
   660 sprites/pcx/egrvts.pcx 418 2376 09 16 20 -6 -7
@@ -766,7 +766,7 @@
   670 sprites/pcx/egrvts.pcx 402 2440 09 16 20 -14 -7
   671 sprites/pcx/egrvts.pcx 434 2440 01 12 28 -14 -6
   672 sprites/pcx/egrvts.pcx 482 2440 09 16 20 -6 -7
-  
+
 // Toy truck (egrvts #5485ff)
   673 sprites/pcx/egrvts.pcx 130 5896 01 18 8 -3 -10
   674 sprites/pcx/egrvts.pcx 146 5896 09 16 20 -14 -7
@@ -776,9 +776,9 @@
   678 sprites/pcx/egrvts.pcx 274 5896 09 16 20 -14 -7
   679 sprites/pcx/egrvts.pcx 306 5896 01 12 28 -14 -6
   680 sprites/pcx/egrvts.pcx 354 5896 09 16 20 -6 -7
-  
+
 //Mail truck toyland (egrvts #5496ff)
-  681 sprites/pcx/egrvts.pcx 434 5896 01 18 8 -3 -10				
+  681 sprites/pcx/egrvts.pcx 434 5896 01 18 8 -3 -10
   682 sprites/pcx/egrvts.pcx 450 5896 09 16 20 -14 -7
   683 sprites/pcx/egrvts.pcx 482 5896 01 12 28 -14 -6
   684 sprites/pcx/egrvts.pcx 530 5896 09 16 20 -6 -7
@@ -786,7 +786,7 @@
   686 sprites/pcx/egrvts.pcx 578 5896 09 16 20 -14 -7
   687 sprites/pcx/egrvts.pcx 610 5896 01 12 28 -14 -6
   688 sprites/pcx/egrvts.pcx 658 5896 09 16 20 -6 -7
-  
+
 // Sweets truck (egrvts #5430ff)
   689 sprites/pcx/egrvts.pcx 162 5832 01 18 8 -3 -10
   690 sprites/pcx/egrvts.pcx 178 5832 09 16 20 -14 -7
@@ -798,8 +798,8 @@
   696 sprites/pcx/egrvts.pcx 386 5832 09 16 20 -6 -7
 
 // Battery truck empty (egrvts #3667 ff)
-  697 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10 
-  698 sprites/pcx/egrvts.pcx 34 4168 09 16 20 -14 -7   
+  697 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10
+  698 sprites/pcx/egrvts.pcx 34 4168 09 16 20 -14 -7
   699 sprites/pcx/egrvts.pcx 66 4168 01 12 28 -14 -6
   700 sprites/pcx/egrvts.pcx 114 4168 09 16 20 -6 -7
   701 sprites/pcx/egrvts.pcx 146 4168 01 18 8 -3 -10
@@ -807,7 +807,7 @@
   703 sprites/pcx/egrvts.pcx 194 4168 01 12 28 -14 -6
   704 sprites/pcx/egrvts.pcx 242 4168 09 16 20 -6 -7
 // Battery truck full (egrvts #3764 ff)
-  705 sprites/pcx/egrvts.pcx 210 4328 01 18 8 -3 -10  
+  705 sprites/pcx/egrvts.pcx 210 4328 01 18 8 -3 -10
   706 sprites/pcx/egrvts.pcx 226 4328 09 16 20 -14 -7
   707 sprites/pcx/egrvts.pcx 258 4328 01 12 28 -14 -6
   708 sprites/pcx/egrvts.pcx 306 4328 09 16 20 -6 -7
@@ -817,8 +817,8 @@
   712 sprites/pcx/egrvts.pcx 434 4328 09 16 20 -6 -7
 
 // Fizzy drinks truck egrvts #3667 ff
-  713 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10 
-  714 sprites/pcx/egrvts.pcx 34 4168 09 16 20 -14 -7   
+  713 sprites/pcx/egrvts.pcx 18 4168 01 18 8 -3 -10
+  714 sprites/pcx/egrvts.pcx 34 4168 09 16 20 -14 -7
   715 sprites/pcx/egrvts.pcx 66 4168 01 12 28 -14 -6
   716 sprites/pcx/egrvts.pcx 114 4168 09 16 20 -6 -7
   717 sprites/pcx/egrvts.pcx 146 4168 01 18 8 -3 -10
@@ -826,7 +826,7 @@
   719 sprites/pcx/egrvts.pcx 194 4168 01 12 28 -14 -6
   720 sprites/pcx/egrvts.pcx 242 4168 09 16 20 -6 -7
 // egrvts #3764 ff
-  721 sprites/pcx/egrvts.pcx 722 4264 01 18 8 -3 -10  
+  721 sprites/pcx/egrvts.pcx 722 4264 01 18 8 -3 -10
   722 sprites/pcx/egrvts.pcx 738 4264 09 16 20 -14 -7
   723 sprites/pcx/egrvts.pcx 2 4296 01 12 28 -14 -6
   724 sprites/pcx/egrvts.pcx 50 4296 09 16 20 -6 -7
@@ -834,9 +834,9 @@
   726 sprites/pcx/egrvts.pcx 98 4296 09 16 20 -14 -7
   727 sprites/pcx/egrvts.pcx 130 4296 01 12 28 -14 -6
   728 sprites/pcx/egrvts.pcx 178 4296 09 16 20 -6 -7
-  
+
 // Plastics van #3175ff
-  729 sprites/pcx/egrvts.pcx 402 3560 01 18 8 -3 -10	
+  729 sprites/pcx/egrvts.pcx 402 3560 01 18 8 -3 -10
   730 sprites/pcx/egrvts.pcx 418 3560 09 16 20 -14 -7
   731 sprites/pcx/egrvts.pcx 450 3560 01 12 28 -14 -6
   732 sprites/pcx/egrvts.pcx 498 3560 09 16 20 -6 -7
@@ -852,7 +852,7 @@
   742 sprites/pcx/egrvts.pcx 354 3912 09 16 20 -14 -7
   743 sprites/pcx/egrvts.pcx 386 3912 01 12 28 -14 -6
   744 sprites/pcx/egrvts.pcx 434 3912 09 16 20 -6 -7
-  
+
 // Bubble truck (egrvts #7272ff)
   745 sprites/pcx/egrvts.pcx 626 7944 01 18 8 -3 -10
   746 sprites/pcx/egrvts.pcx 642 7944 09 16 20 -14 -7

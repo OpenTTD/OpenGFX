@@ -460,7 +460,7 @@
   962 sprites/pcx/gui04.pcx 578 3544 01 4 3 0 1
   963 sprites/pcx/gui04.pcx 594 3544 01 7 3 0 1
 
-  
+
 //450-673 newspaper font including random thingies Darn random thingies!!
   514 sprites/pcx/gui04.pcx 562 3160 01 1 5 0 0
   515 sprites/pcx/gui04.pcx 578 3160 01 21 3 0 -2
@@ -1799,7 +1799,7 @@
  1421 sprites/pcx/buildings.pcx 2 456 09 87 66 -31 -56		// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
  1422 sprites/pcx/buildings.pcx 82 456 09 87 66 -31 -56		// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
  1423 sprites/pcx/buildings.pcx 162 456 09 87 66 -31 -56	// (Ground tile)
- 
+
  1424 sprites/pcx/buildings.pcx 2 456 09 87 66 -31 -56	// (Ground tile)
  1425 sprites/pcx/buildings.pcx 2 568 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
 //flats
@@ -2429,7 +2429,7 @@
   431 sprites/pcx/toyland_tree_balloon.pcx 120 16 09 32 30 -11 -31
   432 sprites/pcx/toyland_tree_balloon.pcx 160 16 09 32 30 -11 -31
   433 sprites/pcx/toyland_tree_balloon.pcx 198 16 09 32 30 -11 -31
-  
+
   406 sprites/pcx/random.pcx 190 453 09 36 22 -11 -30
   407 sprites/pcx/random.pcx 213 453 09 36 22 -11 -30
   408 sprites/pcx/random.pcx 236 453 09 36 22 -11 -30
@@ -3556,7 +3556,7 @@
 
 //2981-2992 locomotives monorail
 //2993-3016 locomotives maglev
-//	X2001								
+//	X2001
 	2829	sprites/pcx/monolev-ba.pcx	1	167	1	23	8	-3	-11
 	2830	sprites/pcx/monolev-ba.pcx	12	167	9	17	22	-14	-8
 	2831	sprites/pcx/monolev-ba.pcx	36	167	1	12	32	-16	-7
@@ -3588,12 +3588,12 @@
 	3006	sprites/pcx/monolev-ba.pcx	103	195	9	17	22	-14	-8
 	3007	sprites/pcx/monolev-ba.pcx	127	195	1	12	31	-15	-7
 	3008	sprites/pcx/monolev-ba.pcx	161	195	9	17	22	-7	-8
-//	Lev	1	1	1					
+//	Lev	1	1	1
 	2829	sprites/pcx/monolev-ba.pcx	1	104	1	23	8	-3	-11
 	2830	sprites/pcx/monolev-ba.pcx	12	104	9	17	22	-14	-8
 	2831	sprites/pcx/monolev-ba.pcx	36	104	1	12	32	-16	-7
 	2832	sprites/pcx/monolev-ba.pcx	69	104	9	17	22	-7	-8
-//	Lev	2	1	1					
+//	Lev	2	1	1
 	2829	sprites/pcx/monolev-ba.pcx	1	137	1	23	8	-3	-11
 	2830	sprites/pcx/monolev-ba.pcx	12	137	9	17	22	-14	-8
 	2831	sprites/pcx/monolev-ba.pcx	36	137	1	12	32	-16	-7
@@ -5499,7 +5499,7 @@
  4741 sprites/pcx/fizzydrink_factory.pcx 197 10 09 151 64 -31 -128
  4742 sprites/pcx/fizzydrink_factory.pcx 277 10 09 78 26 -22 -53
 
-//4743	4762	20	Toyland: Bubble generator 
+//4743	4762	20	Toyland: Bubble generator
 //Recolour: CC translates to Red
  4743 sprites/pcx/BubbleGenerator8bpp.pcx  50 110 09   5  5   0    0
  4744 sprites/pcx/BubbleGenerator8bpp.pcx  63   0 09 117 39   0  -88
