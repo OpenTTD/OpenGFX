@@ -5459,19 +5459,22 @@
  4707 sprites/pcx/industries/ToyShop3.pcx  33    1 03 157 64 -31 -126
 
 //4708	4720	13	Toyland: Toy factory
- 4708 sprites/pcx/trg1r.pcx 722 18040 03 86 26 1 -69
- 4709 sprites/pcx/trg1r.pcx 2 18200 03 110 64 -31 -93
- 4710 sprites/pcx/trg1r.pcx 82 18200 03 17 3 1 0
- 4711 sprites/pcx/trg1r.pcx 98 18200 03 78 60 -27 -65
- 4712 sprites/pcx/trg1r.pcx 178 18200 09 86 26 1 -69
- 4713 sprites/pcx/trg1r.pcx 210 18200 09 148 64 -31 -117
- 4714 sprites/pcx/trg1r.pcx 290 18200 09 17 10 1 0
- 4715 sprites/pcx/trg1r.pcx 306 18200 09 135 64 -31 -122
- 4716 sprites/pcx/trg1r.pcx 386 18200 09 27 30 -29 -51
- 4717 sprites/pcx/trg1r.pcx 434 18200 09 97 64 0 0
- 4718 sprites/pcx/trg1r.pcx 514 18200 09 98 27 0 0
- 4719 sprites/pcx/trg1r.pcx 546 18200 09 11 13 0 0
- 4720 sprites/pcx/trg1r.pcx 578 18200 09 24 10 0 0
+// construction stage:
+ 4708 sprites/pcx/industries/toyfactory/ToyFactory2.pcx       158   1 03 138 27 -14  -70
+ 4709 sprites/pcx/industries/toyfactory/ToyFactory2.pcx        94   1 03 138 64 -46  -86
+ 4710 sprites/pcx/industries/toyfactory/ToyFactory2.pcx         2   1 03   2  2  52   50
+ 4711 sprites/pcx/industries/toyfactory/ToyFactory2.pcx        38   1 03 138 60 -38 -118
+// built-up version 
+ 4712 sprites/pcx/industries/toyfactory/ToyFactory1.pcx       158   1 03 138 27 -14  -70
+ 4713 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        94   1 03 138 64 -46  -86
+ 4714 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2   1 03   2  2  52   50
+ 4715 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        38   1 03 138 60 -38 -118
+ 
+ 4716 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2   1 03 138 37 -43 -102 // wheel
+ 4717 sprites/pcx/industries/toyfactory/ToyFactoryOverlay.pcx  98   1 03 138 64   4  -42 // overlay
+ 4718 sprites/pcx/industries/toyfactory/ToyFactoryStomper.pcx   0   0 09  98 27   2  -23 // stomper
+ 4719 sprites/pcx/industries/toyfactory/ToyFactoryBlob.pcx      0   0 09  11 13   2  -26 // raw material
+ 4720 sprites/pcx/industries/toyfactory/ToyFactoryToy.pcx       0   0 09  11 13   0  -12 // output: toy
 
 //4721	4736	16	Toyland: Plastic fountains
     3 sprites/pcx/plasfount.pcx 66 8 09 44 64 -31 -13
