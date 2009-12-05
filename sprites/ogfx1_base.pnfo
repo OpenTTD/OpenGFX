@@ -5448,15 +5448,15 @@
  4698 sprites/pcx/Piggybank.pcx 0 0 09 31 26 -12 -9
 
 //4699	4707	9	Toyland: Toy shop
- 4699 sprites/pcx/trg1r.pcx 194 18040 03 100 32 1 -69
- 4700 sprites/pcx/trg1r.pcx 242 18040 03 31 32 -31 0
- 4701 sprites/pcx/trg1r.pcx 290 18040 03 109 64 -31 -78
- 4702 sprites/pcx/trg1r.pcx 370 18040 03 100 32 1 -69
- 4703 sprites/pcx/trg1r.pcx 418 18040 03 87 32 -31 -56
- 4704 sprites/pcx/trg1r.pcx 466 18040 03 109 64 -31 -78
- 4705 sprites/pcx/trg1r.pcx 546 18040 09 138 32 1 -107
- 4706 sprites/pcx/trg1r.pcx 594 18040 09 105 32 -31 -74
- 4707 sprites/pcx/trg1r.pcx 642 18040 09 129 64 -31 -98
+ 4699 sprites/pcx/industries/ToyShop1.pcx  97    1 03 157 32   0 -110
+ 4700 sprites/pcx/industries/ToyShop1.pcx   1    1 03 157 32 -31 -110
+ 4701 sprites/pcx/industries/ToyShop1.pcx  33    1 03 157 64 -31 -126
+ 4702 sprites/pcx/industries/ToyShop2.pcx  97    1 03 157 32   0 -110
+ 4703 sprites/pcx/industries/ToyShop2.pcx   1    1 03 157 32 -31 -110
+ 4704 sprites/pcx/industries/ToyShop2.pcx  33    1 03 157 64 -31 -126
+ 4705 sprites/pcx/industries/ToyShop3.pcx  97    1 03 157 32   0 -110
+ 4706 sprites/pcx/industries/ToyShop3.pcx   1    1 03 157 32 -31 -110
+ 4707 sprites/pcx/industries/ToyShop3.pcx  33    1 03 157 64 -31 -126
 
 //4708	4720	13	Toyland: Toy factory
  4708 sprites/pcx/trg1r.pcx 722 18040 03 86 26 1 -69
