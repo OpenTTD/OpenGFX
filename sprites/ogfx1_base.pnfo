@@ -5370,11 +5370,12 @@
    11 sprites/pcx/toylandblds.pcx 386 8 09 98 62 -30 -67
 
 // Toyland "boot" or "shoe" house
- 4651 sprites/pcx/trg1r.pcx 722 17336 03 90 32 -31 -59
- 4652 sprites/pcx/trg1r.pcx 2 17480 03 121 64 -31 -90
- 4653 sprites/pcx/trg1r.pcx 82 17480 03 77 32 -31 -46
+ 4651 sprites/pcx/boot_fullwrap.pcx 15 2 09 114 32 -31 -67
+ 4652 sprites/pcx/boot_fullwrap.pcx 47 2 09 114 64 -31 -83
 
- 4654 sprites/pcx/trg1r.pcx 130 17480 03 97 64 -31 -66
+ 4653 sprites/pcx/boot_partialwrap.pcx 15 2 09 114 32 -31 -67
+ 4654 sprites/pcx/boot_partialwrap.pcx 47 2 09 114 64 -31 -83
+
  4655 sprites/pcx/boot.pcx 23 16 09 95 20 -23 -55
  4656 sprites/pcx/boot.pcx 43 16 09 95 59 -35 -71
 
