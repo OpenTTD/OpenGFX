@@ -1206,84 +1206,86 @@
   513 sprites/pcx/gui04.pcx 450 3160 03 119 92 0 0
 
 //912-989 black manager faces
-  912 sprites/pcx/trg1r.pcx 530 1304 03 60 72 10 12
-  913 sprites/pcx/trg1r.pcx 610 1304 03 38 80 6 72
-  914 sprites/pcx/trg1r.pcx 706 1304 03 38 80 6 72
-  915 sprites/pcx/trg1r.pcx 2 1416 03 18 26 33 56
-  916 sprites/pcx/trg1r.pcx 34 1416 03 18 26 33 56
-  917 sprites/pcx/trg1r.pcx 66 1416 03 18 26 33 56
-  918 sprites/pcx/trg1r.pcx 98 1416 03 18 26 33 56
-  919 sprites/pcx/trg1r.pcx 130 1416 03 30 36 28 56
-  920 sprites/pcx/trg1r.pcx 178 1416 03 30 36 28 56
-  921 sprites/pcx/trg1r.pcx 226 1416 03 30 36 28 56
-  922 sprites/pcx/trg1r.pcx 274 1416 03 28 52 20 32
-  923 sprites/pcx/trg1r.pcx 338 1416 03 28 52 20 32
-  924 sprites/pcx/trg1r.pcx 402 1416 03 28 52 20 32
-  925 sprites/pcx/trg1r.pcx 466 1416 03 28 52 20 32
-  926 sprites/pcx/trg1r.pcx 530 1416 03 28 52 20 32
-  927 sprites/pcx/trg1r.pcx 594 1416 03 28 52 20 32
-  928 sprites/pcx/trg1r.pcx 658 1416 03 28 52 20 32
-  929 sprites/pcx/trg1r.pcx 722 1416 03 28 52 20 32
-  930 sprites/pcx/trg1r.pcx 2 1464 03 28 52 20 32
-  931 sprites/pcx/trg1r.pcx 66 1464 03 28 52 20 32
-  932 sprites/pcx/trg1r.pcx 130 1464 03 28 52 20 32
-  933 sprites/pcx/trg1r.pcx 194 1464 03 18 36 28 68
-  934 sprites/pcx/trg1r.pcx 242 1464 03 18 36 28 68
-  935 sprites/pcx/trg1r.pcx 290 1464 03 18 36 28 68
-  936 sprites/pcx/trg1r.pcx 338 1464 03 18 36 28 68
-  937 sprites/pcx/trg1r.pcx 386 1464 03 18 36 28 68
-  938 sprites/pcx/trg1r.pcx 434 1464 03 18 36 28 68
-  939 sprites/pcx/trg1r.pcx 482 1464 03 18 36 28 68
-  940 sprites/pcx/trg1r.pcx 530 1464 03 18 36 28 68
-  941 sprites/pcx/trg1r.pcx 578 1464 03 18 36 28 68
-  942 sprites/pcx/trg1r.pcx 626 1464 03 15 62 15 47
-  943 sprites/pcx/trg1r.pcx 706 1464 03 19 62 15 46
-  944 sprites/pcx/trg1r.pcx 2 1512 03 61 72 10 11
-  945 sprites/pcx/trg1r.pcx 82 1512 03 38 80 6 72
-  946 sprites/pcx/trg1r.pcx 178 1512 03 38 80 6 72
-  947 sprites/pcx/trg1r.pcx 274 1512 03 18 26 33 55
-  948 sprites/pcx/trg1r.pcx 306 1512 03 18 26 33 55
-  949 sprites/pcx/trg1r.pcx 338 1512 03 18 26 33 55
-  950 sprites/pcx/trg1r.pcx 370 1512 03 18 26 33 55
-  951 sprites/pcx/trg1r.pcx 402 1512 03 18 26 33 55
-  952 sprites/pcx/trg1r.pcx 434 1512 03 25 56 18 34
-  953 sprites/pcx/trg1r.pcx 498 1512 03 25 56 18 34
-  954 sprites/pcx/trg1r.pcx 562 1512 03 25 56 18 34
-  955 sprites/pcx/trg1r.pcx 626 1512 03 25 56 18 34
-  956 sprites/pcx/trg1r.pcx 690 1512 03 25 56 18 34
-  957 sprites/pcx/trg1r.pcx 2 1592 03 25 56 18 34
-  958 sprites/pcx/trg1r.pcx 66 1592 03 25 56 18 34
-  959 sprites/pcx/trg1r.pcx 130 1592 03 25 56 18 34
-  960 sprites/pcx/trg1r.pcx 194 1592 03 25 56 18 34
-  961 sprites/pcx/trg1r.pcx 258 1592 03 25 56 18 34
-  962 sprites/pcx/trg1r.pcx 322 1592 03 25 56 18 34
-  963 sprites/pcx/trg1r.pcx 386 1592 03 25 56 18 34
-  964 sprites/pcx/trg1r.pcx 450 1592 03 25 56 18 34
-  965 sprites/pcx/trg1r.pcx 514 1592 03 25 56 18 34
-  966 sprites/pcx/trg1r.pcx 578 1592 03 25 56 18 34
-  967 sprites/pcx/trg1r.pcx 642 1592 03 25 56 18 34
-  968 sprites/pcx/trg1r.pcx 706 1592 03 18 36 28 68
-  969 sprites/pcx/trg1r.pcx 754 1592 03 18 36 28 68
-  970 sprites/pcx/trg1r.pcx 2 1640 03 18 36 28 68
-  971 sprites/pcx/trg1r.pcx 50 1640 03 18 36 28 68
-  972 sprites/pcx/trg1r.pcx 98 1640 03 18 36 28 68
-  973 sprites/pcx/trg1r.pcx 146 1640 03 18 36 28 68
-  974 sprites/pcx/trg1r.pcx 194 1640 03 18 36 28 68
-  975 sprites/pcx/trg1r.pcx 242 1640 03 18 36 28 68
-  976 sprites/pcx/trg1r.pcx 290 1640 03 18 36 28 68
-  977 sprites/pcx/trg1r.pcx 338 1640 03 38 9 10 47
-  978 sprites/pcx/trg1r.pcx 354 1640 03 25 7 10 47
-  979 sprites/pcx/trg1r.pcx 370 1640 03 36 10 10 47
-  980 sprites/pcx/trg1r.pcx 386 1640 03 41 72 10 19
-  981 sprites/pcx/trg1r.pcx 466 1640 03 46 70 11 8
-  982 sprites/pcx/trg1r.pcx 546 1640 03 45 64 14 7
-  983 sprites/pcx/trg1r.pcx 626 1640 03 46 72 10 9
-  984 sprites/pcx/trg1r.pcx 706 1640 03 52 70 11 3
-  985 sprites/pcx/trg1r.pcx 2 1704 03 43 63 14 11
-  986 sprites/pcx/trg1r.pcx 82 1704 03 47 66 13 9
-  987 sprites/pcx/trg1r.pcx 162 1704 03 48 78 7 3
-  988 sprites/pcx/trg1r.pcx 258 1704 03 47 66 13 9
-  989 sprites/pcx/trg1r.pcx 338 1704 03 100 88 2 2
+#define FACES_DEFAULT  0  0 03 119 92 0 0
+#define DUMMY_DEFAULT 66 1592 03  25 56 18 34
+  912 sprites/pcx/AfricanManagerFaces/912.pcx FACES_DEFAULT
+  913 sprites/pcx/AfricanManagerFaces/913.pcx FACES_DEFAULT
+  914 sprites/pcx/AfricanManagerFaces/914.pcx FACES_DEFAULT
+  915 sprites/pcx/AfricanManagerFaces/915.pcx FACES_DEFAULT
+  916 sprites/pcx/AfricanManagerFaces/916.pcx FACES_DEFAULT
+  917 sprites/pcx/AfricanManagerFaces/917.pcx FACES_DEFAULT
+  918 sprites/pcx/AfricanManagerFaces/918.pcx FACES_DEFAULT
+  919 sprites/pcx/AfricanManagerFaces/919.pcx FACES_DEFAULT
+  920 sprites/pcx/AfricanManagerFaces/920.pcx FACES_DEFAULT
+  921 sprites/pcx/AfricanManagerFaces/921.pcx FACES_DEFAULT
+  922 sprites/pcx/AfricanManagerFaces/922.pcx FACES_DEFAULT
+  923 sprites/pcx/AfricanManagerFaces/923.pcx FACES_DEFAULT
+  924 sprites/pcx/AfricanManagerFaces/924.pcx FACES_DEFAULT
+  925 sprites/pcx/AfricanManagerFaces/925.pcx FACES_DEFAULT
+  926 sprites/pcx/AfricanManagerFaces/926.pcx FACES_DEFAULT
+  927 sprites/pcx/AfricanManagerFaces/927.pcx FACES_DEFAULT
+  928 sprites/pcx/AfricanManagerFaces/928.pcx FACES_DEFAULT
+  929 sprites/pcx/AfricanManagerFaces/929.pcx FACES_DEFAULT
+  930 sprites/pcx/AfricanManagerFaces/930.pcx FACES_DEFAULT
+  931 sprites/pcx/AfricanManagerFaces/931.pcx FACES_DEFAULT
+  932 sprites/pcx/AfricanManagerFaces/932.pcx FACES_DEFAULT
+  933 sprites/pcx/AfricanManagerFaces/933.pcx FACES_DEFAULT
+  934 sprites/pcx/AfricanManagerFaces/934.pcx FACES_DEFAULT
+  935 sprites/pcx/AfricanManagerFaces/935.pcx FACES_DEFAULT
+  936 sprites/pcx/AfricanManagerFaces/936.pcx FACES_DEFAULT
+  937 sprites/pcx/AfricanManagerFaces/937.pcx FACES_DEFAULT
+  938 sprites/pcx/AfricanManagerFaces/938.pcx FACES_DEFAULT
+  939 sprites/pcx/AfricanManagerFaces/939.pcx FACES_DEFAULT
+  940 sprites/pcx/AfricanManagerFaces/940.pcx FACES_DEFAULT
+  941 sprites/pcx/AfricanManagerFaces/941.pcx FACES_DEFAULT
+  942 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  943 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  944 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  945 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  946 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  947 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  948 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  949 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  950 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  951 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  952 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  953 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  954 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  955 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  956 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  957 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  958 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  959 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  960 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  961 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  962 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  963 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  964 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  965 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  966 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  967 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  968 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  969 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  970 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  971 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  972 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  973 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  974 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  975 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  976 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  977 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  978 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  979 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  980 sprites/pcx/AfricanManagerFaces/980.pcx FACES_DEFAULT
+  981 sprites/pcx/AfricanManagerFaces/981.pcx FACES_DEFAULT
+  982 sprites/pcx/AfricanManagerFaces/982.pcx FACES_DEFAULT
+  983 sprites/pcx/AfricanManagerFaces/983.pcx FACES_DEFAULT
+  984 sprites/pcx/AfricanManagerFaces/984.pcx FACES_DEFAULT
+  985 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  986 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  987 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  988 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  989 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
 
 //990-1003 foundations
   444 sprites/pcx/landscape031.pcx 210 1176 09 40 64 -31 -9

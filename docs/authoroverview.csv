@@ -19,7 +19,7 @@ ogfx1_base;771;773;3;Recolour sprites;n/a;n/a;;1
 ogfx1_base;774;774;1;GUI selector dot;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;775;804;30;Recolour sprites;n/a;n/a;;1
 ogfx1_base;805;911;107;European manager faces;Ben_Robbins_, Zephyris;Zephyris;;1
-ogfx1_base;912;989;78;African manager faces;;;94;0
+ogfx1_base;912;989;78;African manager faces;Zephyris, Ben_Robbins_;planetmaker;94;0
 ogfx1_base;990;1003;14;Foundations;Zephyris;Zephyris;;1
 ogfx1_base;1004;1004;1;Map edge;Leppka, Zephyris;Zephyris;;1
 ogfx1_base;1005;1010;6;Rail overlays;Zephyris;Zephyris;;1
