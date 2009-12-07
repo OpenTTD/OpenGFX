@@ -3392,90 +3392,150 @@
   403 sprites/pcx/newtrains01.pcx 690 728 09 12 32 -16 -7
   404 sprites/pcx/newtrains01.pcx 738 728 09 17 22 -6 -8
 
-//2829-2904 wagons monorail/maglev
-// passenger wagon
-	2829	sprites/pcx/monolev-ba.pcx	1	227	1	23	8	-3	-11
-	2830	sprites/pcx/monolev-ba.pcx	12	227	9	17	22	-14	-8
-	2831	sprites/pcx/monolev-ba.pcx	36	227	1	12	32	-16	-7
-	2832	sprites/pcx/monolev-ba.pcx	69	227	9	17	22	-7	-8
-// coal
-    8 sprites/pcx/monolevwagons.pcx 210 8 09 24 8 -3 -12
-    9 sprites/pcx/monolevwagons.pcx 226 8 09 17 22 -14 -8
-   10 sprites/pcx/monolevwagons.pcx 258 8 09 12 32 -16 -7
-   11 sprites/pcx/monolevwagons.pcx 306 8 09 17 22 -6 -8
+// 2829-2904 wagons monorail/maglev
+#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3 -11
+#define MONOLEV_ALIGNMENT_EW   09 16 20 -14  -8
+#define MONOLEV_ALIGNMENT_HORI 01 12 28 -16  -7
+#define MONOLEV_ALIGNMENT_NS   09 16 20  -7  -8
+#define X_VERT  0
+#define X_EW   16
+#define X_HORI 48
+#define X_NS   96
+#undef Y_THIS
+
+// Passenger
+#define Y_THIS 0
+ 2829	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2830	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2831	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2832	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// empty coal
+#define Y_THIS 100
+ 2833	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2834	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2835	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2836	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+ #undef Y_THIS
 // mail
-//   12 sprites/pcx/monolevwagons.pcx 338 8 09 24 8 -3 -12
-//   13 sprites/pcx/monolevwagons.pcx 354 8 09 17 22 -14 -8
-//   14 sprites/pcx/monolevwagons.pcx 386 8 09 12 32 -16 -7
-//   15 sprites/pcx/monolevwagons.pcx 434 8 09 17 22 -6 -8
-	2829	sprites/pcx/monolev-ba.pcx	1	300	1	23	8	-3	-11
-	2830	sprites/pcx/monolev-ba.pcx	12	300	9	17	22	-14	-8
-	2831	sprites/pcx/monolev-ba.pcx	36	300	1	12	32	-16	-7
-	2832	sprites/pcx/monolev-ba.pcx	69	300	9	17	22	-7	-8
-   16 sprites/pcx/monolevwagons.pcx 466 8 09 24 8 -3 -12
-   17 sprites/pcx/monolevwagons.pcx 482 8 09 17 22 -14 -8
-   18 sprites/pcx/monolevwagons.pcx 514 8 09 12 32 -16 -7
-   19 sprites/pcx/monolevwagons.pcx 562 8 09 17 22 -6 -8
-   20 sprites/pcx/monolevwagons.pcx 594 8 09 24 8 -3 -12
-   21 sprites/pcx/monolevwagons.pcx 610 8 09 17 22 -14 -8
-   22 sprites/pcx/monolevwagons.pcx 642 8 09 12 32 -16 -7
-   23 sprites/pcx/monolevwagons.pcx 690 8 09 17 22 -6 -8
-   24 sprites/pcx/monolevwagons.pcx 722 8 09 24 8 -3 -12
-   25 sprites/pcx/monolevwagons.pcx 738 8 09 17 22 -14 -8
-   26 sprites/pcx/monolevwagons.pcx 2 56 09 12 32 -16 -7
-   27 sprites/pcx/monolevwagons.pcx 50 56 09 17 22 -6 -8
-   28 sprites/pcx/monolevwagons.pcx 82 56 09 24 8 -3 -12
-   29 sprites/pcx/monolevwagons.pcx 98 56 09 17 22 -14 -8
-   30 sprites/pcx/monolevwagons.pcx 130 56 09 12 32 -16 -7
-   31 sprites/pcx/monolevwagons.pcx 178 56 09 17 22 -6 -8
-   32 sprites/pcx/monolevwagons.pcx 210 56 09 24 8 -3 -12
-   33 sprites/pcx/monolevwagons.pcx 226 56 09 17 22 -14 -8
-   34 sprites/pcx/monolevwagons.pcx 258 56 09 12 32 -16 -7
-   35 sprites/pcx/monolevwagons.pcx 306 56 09 17 22 -6 -8
-   36 sprites/pcx/monolevwagons.pcx 338 56 09 24 8 -3 -12
-   37 sprites/pcx/monolevwagons.pcx 354 56 09 17 22 -14 -8
-   38 sprites/pcx/monolevwagons.pcx 386 56 09 12 32 -16 -7
-   39 sprites/pcx/monolevwagons.pcx 434 56 09 17 22 -6 -8
-   40 sprites/pcx/monolevwagons.pcx 466 56 09 24 8 -3 -12
-   41 sprites/pcx/monolevwagons.pcx 482 56 09 17 22 -14 -8
-   42 sprites/pcx/monolevwagons.pcx 514 56 09 12 32 -16 -7
-   43 sprites/pcx/monolevwagons.pcx 562 56 09 17 22 -6 -8
-   44 sprites/pcx/monolevwagons.pcx 594 56 09 24 8 -3 -12
-   45 sprites/pcx/monolevwagons.pcx 610 56 09 17 22 -14 -8
-   46 sprites/pcx/monolevwagons.pcx 642 56 09 12 32 -16 -7
-   47 sprites/pcx/monolevwagons.pcx 690 56 09 17 22 -6 -8
-   48 sprites/pcx/monolevwagons.pcx 722 56 09 24 8 -3 -12
-   49 sprites/pcx/monolevwagons.pcx 738 56 09 17 22 -14 -8
-   50 sprites/pcx/monolevwagons.pcx 2 104 09 12 32 -16 -7
-   51 sprites/pcx/monolevwagons.pcx 50 104 09 17 22 -6 -8
-   52 sprites/pcx/monolevwagons.pcx 82 104 09 24 8 -3 -12
-   53 sprites/pcx/monolevwagons.pcx 98 104 09 17 22 -14 -8
-   54 sprites/pcx/monolevwagons.pcx 130 104 09 12 32 -16 -7
-   55 sprites/pcx/monolevwagons.pcx 178 104 09 17 22 -6 -8
-   56 sprites/pcx/monolevwagons.pcx 210 104 09 24 8 -3 -12
-   57 sprites/pcx/monolevwagons.pcx 226 104 09 17 22 -14 -8
-   58 sprites/pcx/monolevwagons.pcx 258 104 09 12 32 -16 -7
-   59 sprites/pcx/monolevwagons.pcx 306 104 09 17 22 -6 -8
-   60 sprites/pcx/monolevwagons.pcx 338 104 09 24 8 -3 -12
-   61 sprites/pcx/monolevwagons.pcx 354 104 09 17 22 -14 -8
-   62 sprites/pcx/monolevwagons.pcx 386 104 09 12 32 -16 -7
-   63 sprites/pcx/monolevwagons.pcx 434 104 09 17 22 -6 -8
-   64 sprites/pcx/monolevwagons.pcx 466 104 09 24 8 -3 -12
-   65 sprites/pcx/monolevwagons.pcx 482 104 09 17 22 -14 -8
-   66 sprites/pcx/monolevwagons.pcx 514 104 09 12 32 -16 -7
-   67 sprites/pcx/monolevwagons.pcx 562 104 09 17 22 -6 -8
-   68 sprites/pcx/monolevwagons.pcx 594 104 09 24 8 -3 -12
-   69 sprites/pcx/monolevwagons.pcx 610 104 09 17 22 -14 -8
-   70 sprites/pcx/monolevwagons.pcx 642 104 09 12 32 -16 -7
-   71 sprites/pcx/monolevwagons.pcx 690 104 09 17 22 -6 -8
-   72 sprites/pcx/monolevwagons.pcx 722 104 09 24 8 -3 -12
-   73 sprites/pcx/monolevwagons.pcx 738 104 09 17 22 -14 -8
-   74 sprites/pcx/monolevwagons.pcx 2 152 09 12 32 -16 -7
-   75 sprites/pcx/monolevwagons.pcx 50 152 09 17 22 -6 -8
-   76 sprites/pcx/monolevwagons.pcx 82 152 09 24 8 -3 -12
-   77 sprites/pcx/monolevwagons.pcx 98 152 09 17 22 -14 -8
-   78 sprites/pcx/monolevwagons.pcx 130 152 09 12 32 -16 -7
-   79 sprites/pcx/monolevwagons.pcx 178 152 09 17 22 -6 -8
+#define Y_THIS 40
+ 2837	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2838	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2839	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2840	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+ #undef Y_THIS 
+// oil
+#define Y_THIS 140
+ 2841	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2842	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2843	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2844	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Lifestock
+#define Y_THIS 180
+ 2845	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2846	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2847	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2848	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Goods
+#define Y_THIS 220
+ 2849	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2850	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2851	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2852	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Food
+#define Y_THIS 260
+ 2853	sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2854	sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2855	sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2856	sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Empty Grain
+#define Y_THIS 240
+ 2857	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2858	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2859	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2860	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Empty Wood
+#define Y_THIS 280
+ 2861	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2862	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2863	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2864	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Empty Steel
+#define Y_THIS 320
+ 2865	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2866	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2867	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2868	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Empty Ore
+#define Y_THIS 360
+ 2869	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2870	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2871	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2872	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Valuables
+#define Y_THIS 80
+ 2873	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2874	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2875	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2876	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Full coal
+#define Y_THIS 120
+ 2877	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2878	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2879	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2880	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Full Grain
+#define Y_THIS 260
+ 2881	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2882	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2883	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2884	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Full Wood
+#define Y_THIS 300
+ 2885	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2886	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2887	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2888	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Full Steel
+#define Y_THIS 340
+ 2889	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2890	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2891	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2892	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Full Ore
+#define Y_THIS 380
+ 2893	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2894	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2895	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2896	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Fruit full?
+#define Y_THIS 360
+ 2897	sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2898	sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2899	sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2900	sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Copper full?
+#define Y_THIS 300
+ 2901	sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+ 2902	sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+ 2903	sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+ 2904	sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
 
 //2905-2980 locomotives rail
     5 sprites/pcx/newtrains01.pcx 98 8 09 24 8 -3 -12
