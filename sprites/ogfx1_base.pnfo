@@ -5565,7 +5565,7 @@
  4742 sprites/pcx/fizzydrink_factory.pcx 277 10 09 78 26 -22 -53
 
 //4743	4762	20	Toyland: Bubble generator
-//Recolour: CC translates to Red
+//Recolour: CC translates to random colour
  4743 sprites/pcx/BubbleGenerator8bpp.pcx  50 110 09   5  5   0    0
  4744 sprites/pcx/BubbleGenerator8bpp.pcx  63   0 09 117 39   0  -88
  4745 sprites/pcx/BubbleGenerator8bpp.pcx   0   0 09 117 63 -31 -104
