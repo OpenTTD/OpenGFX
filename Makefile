@@ -78,8 +78,8 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_F
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
 	@echo "shortname   = $(GRF_SHORTNAME)" >> $(OBG_FILE)
 	@echo "version     = $(GRF_REVISION)" >> $(OBG_FILE)
-	$(_V) cat $(DESC_FILENAME) | sed 's/$$/ [$(GRF_TITLE)]/' >> $(OBG_FILE)
 	@echo "palette     = $(GRF_PALETTE)" >> $(OBG_FILE)
+	$(_V) cat $(DESC_FILENAME) | sed 's/$$/ [$(GRF_TITLE)]/' >> $(OBG_FILE)
 
 	@echo "" >> $(OBG_FILE)
 	@echo "[files]" >> $(OBG_FILE)
