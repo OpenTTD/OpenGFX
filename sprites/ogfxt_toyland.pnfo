@@ -873,105 +873,155 @@
   760 sprites/pcx/egrvts.pcx 306 8072 09 16 20 -6 -7
 
 //761	840	80	Rail wagons
-#define OFF_X_VERT -3
-#define OFF_Y_VERT -10
-#define OFF_X_EW   -14
-#define OFF_Y_EW   -7
-#define OFF_X_HORI -14
-#define OFF_Y_HORI -6
-#define OFF_X_NS   -4
-#define OFF_Y_NS   -8
+#define WAGON_ALIGNMENT_VERT 01 18  8  -3 -11
+#define WAGON_ALIGNMENT_EW   09 16 20 -14  -8
+#define WAGON_ALIGNMENT_HORI 01 12 28 -16  -7
+#define WAGON_ALIGNMENT_NS   09 16 20  -7  -8
+#define X_VERT  0
+#define X_EW   16
+#define X_HORI 48
+#define X_NS   96
+#undef Y_THIS
 // PAX
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134   0 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150   0 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182   0 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230   0 09 16 20 OFF_X_NS   OFF_Y_NS
+#define Y_THIS 0
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
 // Mail
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134  24 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150  24 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182  24 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230  24 09 16 20 OFF_X_NS   OFF_Y_NS
-// sugar: white grains
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134  48 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150  48 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182  48 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230  48 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134  72 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150  72 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182  72 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230  72 09 16 20 OFF_X_NS   OFF_Y_NS
-// cotton candy: pink grains
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134  96 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150  96 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182  96 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230  96 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 120 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 120 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 120 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 120 09 16 20 OFF_X_NS   OFF_Y_NS
-// toffee: yellow grains
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 144 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 144 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 144 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 144 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 168 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 168 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 168 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 168 09 16 20 OFF_X_NS   OFF_Y_NS
-// Bubbles
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 432 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 432 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 432 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 432 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 456 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 456 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 456 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 456 09 16 20 OFF_X_NS   OFF_Y_NS
-// tanker
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 192 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 192 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 192 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 192 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 216 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 216 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 216 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 216 09 16 20 OFF_X_NS   OFF_Y_NS
-// sweets and toys: closed goods wagons
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 240 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 240 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 240 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 240 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 264 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 264 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 264 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 264 09 16 20 OFF_X_NS   OFF_Y_NS
-// Batteries
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 384 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 384 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 384 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 384 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 408 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 408 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 408 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 408 09 16 20 OFF_X_NS   OFF_Y_NS
-// lemonade cans
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 288 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 288 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 288 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 288 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 312 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 312 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 312 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 312 09 16 20 OFF_X_NS   OFF_Y_NS
-// Plastics
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 336 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 336 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 336 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 336 09 16 20 OFF_X_NS   OFF_Y_NS
-  761 sprites/pcx/trains/toyland_railwagons.pcx 134 360 01 18 8  OFF_X_VERT OFF_Y_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx 150 360 09 16 20 OFF_X_EW   OFF_Y_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx 182 360 01 12 28 OFF_X_HORI OFF_Y_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx 230 360 09 16 20 OFF_X_NS   OFF_Y_NS
+#define Y_THIS 40
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// sugar empty: white grains
+#define Y_THIS 100
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// sugar full: white grains
+#define Y_THIS 120
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// cotton candy emtpy: pink grains
+#define Y_THIS 140
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// cotton candy full: pink grains
+#define Y_THIS 160
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// toffee empty: yellow grains
+#define Y_THIS 180
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// toffee full: yellow grains
+#define Y_THIS 200
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Bubbles empty
+#define Y_THIS 60
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Bubbles full
+#define Y_THIS 80
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// cola tanker empty
+#define Y_THIS 220
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// cola tanker full
+#define Y_THIS 240
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// sweets (no loading state)
+#define Y_THIS 280
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// toys (no loading state)
+#define Y_THIS 320
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Batteries empty
+#define Y_THIS 380
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Batteries full
+#define Y_THIS 400
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// fizzy drinks empty
+#define Y_THIS 340
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// fizzy drinks full
+#define Y_THIS 360
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Plastics empty
+#define Y_THIS 420
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
+// Plastics full
+#define Y_THIS 440
+  761 sprites/pcx/trains/toyland_railwagons.pcx	X_VERT Y_THIS WAGON_ALIGNMENT_VERT
+  762 sprites/pcx/trains/toyland_railwagons.pcx	X_EW   Y_THIS WAGON_ALIGNMENT_EW
+  763 sprites/pcx/trains/toyland_railwagons.pcx	X_HORI Y_THIS WAGON_ALIGNMENT_HORI
+  764 sprites/pcx/trains/toyland_railwagons.pcx	X_NS   Y_THIS WAGON_ALIGNMENT_NS
+#undef Y_THIS
 
 
 
