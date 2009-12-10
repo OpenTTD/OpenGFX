@@ -21,9 +21,7 @@ Contents
 0 About OpenGFX
 ===============
 
-OpenGFX is an open source replacement for the original TTD graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide a set of free base graphics which make it possible to play OpenTTD without requiring the (copyrighted) files from the TTD cd. This potentially increases the OpenTTD fanbase and makes it a true free game (with "free" as in both "free beer" and "open source").
-
-The OpenGFX base graphics set is not yet complete. Albeit only a number of toyland sprites and some manager faces are still missing. Thus playing the "usual" three climates is now completely supported.
+OpenGFX is an open source replacement for the original Transport Tycoon Deluxe (TTD) graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide a set of free base graphics which make it possible to play OpenTTD without requiring the (copyright protected) files from the TTD CD. This potentially increases the OpenTTD fanbase and makes it a true free game (with "free" as in both "free beer" and "open source").
 
 
 
@@ -46,7 +44,7 @@ If you want to check the integrity of your grf or check wether your self-compile
 
 1. First, make sure that you downloaded and installed at least OpenTTD version 0.7.0 or a recent nightly.
 
-2. Next, download the latest OpenGFX package from the development homepage http://dev.openttdcoop.org/bundles/opengfx
+2. Next, download the latest OpenGFX package from the development homepage http://bundles.openttdcoop.org/opengfx
 
 3. Unpack the zip file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in:
 - An OpenTTD folder in your user account's home directory:
@@ -84,7 +82,7 @@ The sample.cat file contains the sound effects from the original TTD. OpenTTD re
 Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to
 continue! (Obviously, you don't have any sound effects with the dummy file.)
 
-Note: As of r17139 of OpenTTD it supports sound sets. If you have a nightly version newer than this (the 0.7.x branch doesn't support sound sets), the preferred way is to add a free sound set, either NoSound (available from bananas) or OpenGFX's sister, the OpenSFX sound set, available from http://bundles.openttdcoop.org/opensfx . OpenSFX is installed the very same way as OpenGFX.
+Note: As of r17139 of OpenTTD it supports sound sets. If you have a nightly version newer than this (the 0.7.x branch doesn't support sound sets), the preferred way is to add a free sound set, either NoSound or OpenGFX's sister, the OpenSFX sound set, available from http://bundles.openttdcoop.org/opensfx or bananas, the online content service of OpenTTD. OpenSFX is installed the very same way as OpenGFX.
 
 
 
@@ -111,8 +109,7 @@ Options  dialog will appear.
 4 Project status
 ================
 
-OpenGFX is not completely finished yet and some graphics still are missing.
-The current status of the project can be found at the Graphics Replacement Tracking Table at http://dev.openttdcoop.org/projects/opengfx
+As of OpenGFX 0.2.0 this base set has a replacement for all sprites required by OpenTTD and thus is fully functional. Still, there are a number of inconsistencies within the sprites and probably a few things could need improvement. If you find such inconsistencies, or like to propose improvements, please do so and get in touch with us, either on IRC in #openttd or #openttdcoop.devzone on irc.oftc.net, in the tt-forums in the development thread http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or using the devzone and our bug tracker at http://dev.openttdcoop.org/projects/opengfx. The current project status can also be found under the last given link.
 
 
 
