@@ -1097,6 +1097,7 @@
 	 F5
 
 //805-911 white manager faces
+#define FACES_DEFAULT  0  0 03 119 92 0 0
   407 sprites/pcx/gui04.pcx 354 1000 03 119 92 0 0
   408 sprites/pcx/gui04.pcx 466 1000 03 119 92 0 0
   409 sprites/pcx/gui04.pcx 578 1000 03 119 92 0 0
@@ -1183,10 +1184,10 @@
   490 sprites/pcx/gui04.pcx 226 2728 03 119 92 0 0
   491 sprites/pcx/gui04.pcx 338 2728 03 119 92 0 0
   492 sprites/pcx/gui04.pcx 450 2728 03 119 92 0 0
-  493 sprites/pcx/gui04.pcx 562 2728 03 119 92 0 0
-  494 sprites/pcx/gui04.pcx 674 2728 03 119 92 0 0
-  495 sprites/pcx/gui04.pcx 2 2872 03 119 92 0 0
-  496 sprites/pcx/gui04.pcx 114 2872 03 119 92 0 0
+  891 sprites/pcx/AfricanManagerFaces/891.pcx FACES_DEFAULT
+  892 sprites/pcx/AfricanManagerFaces/892.pcx FACES_DEFAULT
+  893 sprites/pcx/AfricanManagerFaces/893.pcx FACES_DEFAULT
+  894 sprites/pcx/AfricanManagerFaces/894.pcx FACES_DEFAULT
   497 sprites/pcx/gui04.pcx 226 2872 03 119 92 0 0
   498 sprites/pcx/gui04.pcx 338 2872 03 119 92 0 0
   499 sprites/pcx/gui04.pcx 450 2872 03 119 92 0 0
@@ -1206,8 +1207,6 @@
   513 sprites/pcx/gui04.pcx 450 3160 03 119 92 0 0
 
 //912-989 black manager faces
-#define FACES_DEFAULT  0  0 03 119 92 0 0
-#define DUMMY_DEFAULT 66 1592 03  25 56 18 34
   912 sprites/pcx/AfricanManagerFaces/912.pcx FACES_DEFAULT
   913 sprites/pcx/AfricanManagerFaces/913.pcx FACES_DEFAULT
   914 sprites/pcx/AfricanManagerFaces/914.pcx FACES_DEFAULT
@@ -1238,54 +1237,55 @@
   939 sprites/pcx/AfricanManagerFaces/939.pcx FACES_DEFAULT
   940 sprites/pcx/AfricanManagerFaces/940.pcx FACES_DEFAULT
   941 sprites/pcx/AfricanManagerFaces/941.pcx FACES_DEFAULT
-  942 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  943 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  944 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  945 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  946 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  947 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  948 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  949 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  950 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  951 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  952 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  953 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  954 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  955 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  956 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  957 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  958 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  959 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  960 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  961 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  962 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  963 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  964 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  965 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  966 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  967 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  968 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  969 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  970 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  971 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  972 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  973 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  974 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  975 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  976 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  977 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  978 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  979 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+// Reuse sunglasses
+  942 sprites/pcx/gui04.pcx 226 1720 03 119 92 0 0
+  943 sprites/pcx/gui04.pcx 338 1720 03 119 92 0 0
+  944 sprites/pcx/AfricanManagerFaces/944.pcx FACES_DEFAULT
+  945 sprites/pcx/AfricanManagerFaces/945.pcx FACES_DEFAULT
+  946 sprites/pcx/AfricanManagerFaces/946.pcx FACES_DEFAULT
+  947 sprites/pcx/AfricanManagerFaces/947.pcx FACES_DEFAULT
+  948 sprites/pcx/AfricanManagerFaces/948.pcx FACES_DEFAULT
+  949 sprites/pcx/AfricanManagerFaces/949.pcx FACES_DEFAULT
+  950 sprites/pcx/AfricanManagerFaces/950.pcx FACES_DEFAULT
+  951 sprites/pcx/AfricanManagerFaces/951.pcx FACES_DEFAULT
+  952 sprites/pcx/AfricanManagerFaces/952.pcx FACES_DEFAULT
+  953 sprites/pcx/AfricanManagerFaces/953.pcx FACES_DEFAULT
+  954 sprites/pcx/AfricanManagerFaces/954.pcx FACES_DEFAULT
+  955 sprites/pcx/AfricanManagerFaces/955.pcx FACES_DEFAULT
+  956 sprites/pcx/AfricanManagerFaces/956.pcx FACES_DEFAULT
+  957 sprites/pcx/AfricanManagerFaces/957.pcx FACES_DEFAULT
+  958 sprites/pcx/AfricanManagerFaces/958.pcx FACES_DEFAULT
+  959 sprites/pcx/AfricanManagerFaces/959.pcx FACES_DEFAULT
+  960 sprites/pcx/AfricanManagerFaces/960.pcx FACES_DEFAULT
+  961 sprites/pcx/AfricanManagerFaces/961.pcx FACES_DEFAULT
+  962 sprites/pcx/AfricanManagerFaces/962.pcx FACES_DEFAULT
+  963 sprites/pcx/AfricanManagerFaces/963.pcx FACES_DEFAULT
+  964 sprites/pcx/AfricanManagerFaces/964.pcx FACES_DEFAULT
+  965 sprites/pcx/AfricanManagerFaces/965.pcx FACES_DEFAULT
+  966 sprites/pcx/AfricanManagerFaces/966.pcx FACES_DEFAULT
+  967 sprites/pcx/AfricanManagerFaces/967.pcx FACES_DEFAULT
+  968 sprites/pcx/AfricanManagerFaces/968.pcx FACES_DEFAULT
+  969 sprites/pcx/AfricanManagerFaces/969.pcx FACES_DEFAULT
+  970 sprites/pcx/AfricanManagerFaces/970.pcx FACES_DEFAULT
+  971 sprites/pcx/AfricanManagerFaces/971.pcx FACES_DEFAULT
+  972 sprites/pcx/AfricanManagerFaces/972.pcx FACES_DEFAULT
+  973 sprites/pcx/AfricanManagerFaces/973.pcx FACES_DEFAULT
+  974 sprites/pcx/AfricanManagerFaces/974.pcx FACES_DEFAULT
+  975 sprites/pcx/AfricanManagerFaces/975.pcx FACES_DEFAULT
+  976 sprites/pcx/AfricanManagerFaces/976.pcx FACES_DEFAULT
+  977 sprites/pcx/AfricanManagerFaces/977.pcx FACES_DEFAULT
+  978 sprites/pcx/AfricanManagerFaces/978.pcx FACES_DEFAULT
+  979 sprites/pcx/AfricanManagerFaces/979.pcx FACES_DEFAULT
   980 sprites/pcx/AfricanManagerFaces/980.pcx FACES_DEFAULT
   981 sprites/pcx/AfricanManagerFaces/981.pcx FACES_DEFAULT
   982 sprites/pcx/AfricanManagerFaces/982.pcx FACES_DEFAULT
   983 sprites/pcx/AfricanManagerFaces/983.pcx FACES_DEFAULT
   984 sprites/pcx/AfricanManagerFaces/984.pcx FACES_DEFAULT
-  985 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  986 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  987 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  988 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
-  989 sprites/pcx/trg1r.pcx DUMMY_DEFAULT
+  985 sprites/pcx/AfricanManagerFaces/985.pcx FACES_DEFAULT
+  986 sprites/pcx/AfricanManagerFaces/986.pcx FACES_DEFAULT
+  987 sprites/pcx/AfricanManagerFaces/987.pcx FACES_DEFAULT
+  988 sprites/pcx/AfricanManagerFaces/988.pcx FACES_DEFAULT
+  989 sprites/pcx/AfricanManagerFaces/989.pcx FACES_DEFAULT
 
 //990-1003 foundations
   444 sprites/pcx/landscape031.pcx 210 1176 09 40 64 -31 -9
@@ -3423,7 +3423,7 @@
  2838	sprites/pcx/trains/temperatemonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
  2839	sprites/pcx/trains/temperatemonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
  2840	sprites/pcx/trains/temperatemonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
- #undef Y_THIS 
+ #undef Y_THIS
 // oil
 #define Y_THIS 140
  2841	sprites/pcx/trains/temperatemonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
