@@ -37,6 +37,14 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
 
+DIR_BASE       = $(GRF_FILENAME)-
+VERSION_STRING = $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
+DIR_NAME       = $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(GRF_NIGHTLYNAME))
+DIR_NAME_SRC   = $(DIR_NAME)-source
+TAR_FILENAME   = $(DIR_NAME).$(TAR_SUFFIX)
+ZIP_FILENAME   = $(DIR_NAME).$(ZIP_SUFFIX)
+BZIP_FILENAME  = $(DIR_NAME).$(BZIP2_SUFFIX)
+
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
@@ -68,7 +76,7 @@ test :
 	$(_E) "dep files:                    $(DEP_FILENAMES)"
 	$(_E) "Bundle files:                 $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
-	$(_E) "Dirs (nightly/release/base):  $(DIR_NIGHTLY) / $(DIR_RELEASE) / $(DIR_BASE)"
+	$(_E) "Dirs (base and full):         $(DIR_BASE) / $(DIR_NAME)"
 	$(_E) "Path to Unix2Dos:             $(UNIX2DOS)"
 	$(_E) "===="
 
@@ -122,9 +130,9 @@ clean:
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES) $(MAKEFILEDEP)
 
 mrproper: clean
-	$(_V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_RELEASE_SRC)
+	$(_V)-rm -rf $(DIR_BASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_NAME_SRC)
 
-$(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
+$(DIR_NAME) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
@@ -132,7 +140,7 @@ $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_V)-for i in $(BUNDLE_FILES); do cp $$i $@; done
 	$(_V) if [ `type -p $(UNIX2DOS)` ]; then $(UNIX2DOS) $(addprefix $@/,$(notdir $(DOC_FILENAMES))) &> /dev/null && echo " - Converting to DOS line endings"; else echo " - Cannot convert to DOS line endings!"; fi
 
-bundle: $(DIR_NIGHTLY)
+bundle: $(DIR_NAME)
 
 %.$(TXT_SUFFIX): %.$(PTXT_SUFFIX)
 	$(_E) "[Generating] $@"
@@ -150,7 +158,7 @@ bundle: $(DIR_NIGHTLY)
 
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(DIR_NIGHTLY)
+$(ZIP_FILENAME): $(DIR_NAME)
 	$(_E) "[Generating:] $@"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $@ $^
 bundle_bzip: $(BZIP_FILENAME)
@@ -164,29 +172,27 @@ install: $(TAR_FILENAME) $(INSTALLDIR)
 	$(_V)-cp $(TAR_FILENAME) $(INSTALLDIR)
 	$(_E)
 
-release: $(DIR_RELEASE) $(DIR_RELEASE).$(TAR_SUFFIX)
-	$(_E) "[RELEASE] $(DIR_RELEASE)"
-release-install: release $(INSTALLDIR)
-	$(_E) "[INSTALL] to $(INSTALLDIR)"
-	$(_V)-cp $(DIR_RELEASE).$(TAR_SUFFIX) $(INSTALLDIR)
-	$(_E)
-release_zip: $(DIR_RELEASE)
-	$(_E) "[Generating:] $(ZIP_FILENAME)"
-	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
-release_source:
-	$(_V) rm -rf $(DIR_RELEASE_SRC)
-	$(_V) mkdir -p $(DIR_RELEASE_SRC)
-	$(_V) cp -R $(SPRITEDIR) $(DOCDIR) Makefile Makefile.config $(DIR_RELEASE_SRC)
-	$(_V) cp Makefile.local.sample $(DIR_RELEASE_SRC)/Makefile.local
-	$(_V) echo 'GRF_REVISION = $(GRF_REVISION)' >> $(DIR_RELEASE_SRC)/Makefile.local
-	$(_V) echo 'GRF_MODIFIED = $(GRF_MODIFIED)' >> $(DIR_RELEASE_SRC)/Makefile.local
-	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_RELEASE_SRC)/Makefile.local
-	$(_V) $(MAKE) -C $(DIR_RELEASE_SRC) mrproper
-	$(_V) $(TAR) --gzip -cf $(DIR_RELEASE_SRC).tar.gz $(DIR_RELEASE_SRC)
-	$(_V) rm -rf $(DIR_RELEASE_SRC)
+bundle_src:
+	$(_V) rm -rf $(DIR_NAME_SRC)
+	$(_V) mkdir -p $(DIR_NAME_SRC)
+	$(_V) cp -R $(SPRITEDIR) $(DOCDIR) Makefile Makefile.config $(DIR_NAME_SRC)
+	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'GRF_REVISION = $(GRF_REVISION)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'GRF_MODIFIED = $(GRF_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) $(MAKE) -C $(DIR_NAME_SRC) mrproper
+	$(_V) $(TAR) --gzip -cf $(DIR_NAME_SRC).tar.gz $(DIR_NAME_SRC)
+	$(_V) rm -rf $(DIR_NAME_SRC)
 
 $(INSTALLDIR):
 	$(_E) "Install dir didn't exist. Creating $@"
 	$(_V) mkdir -p $(INSTALLDIR)
+	
+release-install:
+	$(_E) "Target is obsolete. Use 'install' instead."
+release-source:
+	$(_E) "Target is obsolete. Use 'bundle_src' instead."
+release_zip:
+	$(_E) "Target is obsolete. Use 'bundle_zip' instead."
 
 remake: clean all
