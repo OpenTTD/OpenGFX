@@ -1,3 +1,38 @@
+OpenGFX 0.2.0
+-------------
+- Feature: Allow localized ingame descriptions for the package. Add them for German, Dutch, Hungarian, traditional Chinese and Swedish.
+- Feature: Igloo (toyland building)
+- Feature: Fizzy drink factory
+- Feature: Boot-like house (toyland building)
+- Feature: Tipi (toyland building)
+- Feature: Toffee quary
+- Feature: Sweets factory
+- Feature: [Makefile] If possible, convert to DOS line endings when creating bundles
+- Feature: Toyland rail wagons
+- Feature: Bubble generator
+- Feature: Sugar mine
+- Feature: Toy shop
+- Feature: Toy factory
+- Feature: Mirrored play button for RTL languages
+- Feature: African manager faces
+- Feature: More climate specific monorail and maglev wagons
+
+- Fix: Graphics error for one ear ring
+- Fix: Alignment of one battery farm sprite
+- Fix: Convert the tubular bridges to company colour so that they have distinct colours
+- Fix: Align a few town buildings
+- Fix: Double diagonal rails in toyland did have the wrong background
+- Fix: Recolour sprites for churches were broken
+- Fix: Remove action colours from arctic churches
+
+- Change: New sprites for most maglev, monorail and train wagons
+
+- Doc: Indicate which maglev wagon sprite numbers correspond to which cargo and loading state
+- Doc: Indicate which houses allow which kind of re-colouring
+- Doc: Adopt readme to reflect the project status
+
+
+
 OpenGFX 0.1.1
 -------------
 - Feature: Headquarters for toyland climate
@@ -42,7 +77,9 @@ OpenGFX 0.1.0-alpha6
 - Feature: Monolev mail wagon
 - Feature: Tropic church
 - Feature: British semaphore style
+
 - Change: Improved arrows on terraforming icons
+
 - Fix: Reduced the close-x 1px right and bottom to keep it square and avoiding OpenTTD glitch
 - Fix: White bottom of small submarines
 - Fix: White line at battery truck
@@ -56,6 +93,7 @@ OpenGFX 0.1.0-alpha6
 OpenGFX 0.1.0-alpha5
 --------------------
 - Add: Resize windows towards the left sprite
+
 - Feature: Monolev engines and passenger wagon.
 - Feature: Add two toyland buildings (4632, 4638)
 - Feature: Arctic hotel
@@ -69,6 +107,7 @@ OpenGFX 0.1.0-alpha5
 - Feature: Add an OS-independent makefile system
 - Feature: Arctic office blocks
 - Feature: Arctic church- Fix: Close button alignment
+
 - Fix: Wrong palette for font_addl and medfontcond
 - Fix: Cropped aircraft sprites to reduce hangar window size
 - Fix: Additional coast tile graphics now coded to spec
@@ -81,6 +120,7 @@ OpenGFX 0.1.0-alpha5
 OpenGFX 0.1.0-alpha4.2
 ----------------------
 - Feature: Expand and contract sprites for the new Advanced Settings menu added.
+
 - Fix: Display of full load in coal trucks improved.
 - Fix: Black map edge due to new 'freeform map edges' feature.
 
@@ -96,6 +136,7 @@ OpenGFX 0.1.0-alpha4
 --------------------
 - Feature: Bold typeface/missing characters
 - Feature: Lots of toyland graphics
+
 - Fix: Buttons in maglev toolbar mixed up
 - Fix: Alignment of some sprites
 
@@ -107,6 +148,7 @@ OpenGFX 0.1.0-alpha3
 - Feature: Some random new buildings
 - Feature: Tropical sawmill
 - Feature: Monorail/maglev wagons
+
 - Fix: Desert/rock button in tropical scenario identical
 - Fix: Alignment of some sprites
 
@@ -120,6 +162,7 @@ OpenGFX 0.1.0-alpha2
 - Feature: All different smokes (steam, diesel, powerplant, breakdown)
 - Feature: Explosions
 - Feature: Remaining disaster vehices (ufo, submarine)
+
 - Fix: Waypoint alignment
 - Fix: White line next to a pbs semaphore
 
