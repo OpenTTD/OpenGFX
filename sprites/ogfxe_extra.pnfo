@@ -5942,22 +5942,123 @@
   255 sprites/pcx/newtrains01.pcx 98 488 09 17 22 -14 -8
   256 sprites/pcx/newtrains01.pcx 130 488 09 12 32 -16 -7
   257 sprites/pcx/newtrains01.pcx 178 488 09 17 22 -6 -8
+  
+#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3 -11
+#define MONOLEV_ALIGNMENT_EW   09 16 20 -14  -8
+#define MONOLEV_ALIGNMENT_HORI 01 12 28 -16  -7
+#define MONOLEV_ALIGNMENT_NS   09 16 20  -7  -8
+#define X_VERT  0
+#define X_EW   16
+#define X_HORI 48
+#define X_NS   96
+#undef Y_THIS
+
 
   -1 * 0	 0C "Arctic Monolev Wagons" 00
-   80 * 6	 07 83 01 \7! 01 05
-   81 * 5	 0A 01 04 31 0B
-   82 sprites/pcx/monolevwagons.pcx 242 152 09 24 8 -3 -12
-   83 sprites/pcx/monolevwagons.pcx 258 152 09 17 22 -14 -8
-   84 sprites/pcx/monolevwagons.pcx 290 152 09 12 32 -16 -7
-   85 sprites/pcx/monolevwagons.pcx 338 152 09 17 22 -6 -8
+   80 * 6	 07 83 01 \7! 01 \b25
+// Coal empty
+#define Y_THIS 100
+  331 * 5	 0A 01 04 \w2833
+  761 sprites/pcx/trains/arctic_monolevwagons.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/arctic_monolevwagons.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/arctic_monolevwagons.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/arctic_monolevwagons.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Coal full
+#define Y_THIS 120
+  331 * 5	 0A 01 04 \w2877
+  761 sprites/pcx/trains/arctic_monolevwagons.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/arctic_monolevwagons.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/arctic_monolevwagons.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/arctic_monolevwagons.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// oil (no loading stages)
+#define Y_THIS 140
+  331 * 5	 0A 01 04 \w2841
+  761 sprites/pcx/trains/arctic_monolevwagons.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/arctic_monolevwagons.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/arctic_monolevwagons.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/arctic_monolevwagons.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Goods (no loading stages)
+#define Y_THIS 220
+  331 * 5	 0A 01 04 \w2849
+  761 sprites/pcx/trains/arctic_monolevwagons.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/arctic_monolevwagons.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/arctic_monolevwagons.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/arctic_monolevwagons.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Food (no loading stages)
+#define Y_THIS 420
+  331 * 5	 0A 01 04 \w2853
+  761 sprites/pcx/trains/arctic_monolevwagons.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/arctic_monolevwagons.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/arctic_monolevwagons.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/arctic_monolevwagons.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
 
-  -1 * 0	 0C "Tropic Monolev Wagons" 00
-   86 * 6	 07 83 01 \7! 02 05
-   87 * 5	 0A 01 04 35 0B
-   88 sprites/pcx/monolevwagons.pcx 402 152 09 24 8 -3 -12
-   89 sprites/pcx/monolevwagons.pcx 418 152 09 17 22 -14 -8
-   90 sprites/pcx/monolevwagons.pcx 450 152 09 12 32 -16 -7
-   91 sprites/pcx/monolevwagons.pcx 498 152 09 17 22 -6 -8
+
+//Topical monolev wagons
+  330 * 15	 0C "Tropic Wagons" 00
+  272 * 6	 07 83 01 \7! 02 \b35
+// Oil wagon
+#define Y_THIS 100
+  331 * 5	 0A 01 04 \w2841
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Goods wagon
+#define Y_THIS 140
+  331 * 5	 0A 01 04 \w2849
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Grain empty
+#define Y_THIS 160
+  331 * 5	 0A 01 04 \w2857
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Grain full
+#define Y_THIS 180
+  331 * 5	 0A 01 04 \w2881
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Wood empty
+#define Y_THIS 200
+  331 * 5	 0A 01 04 \w2861
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Wood full
+#define Y_THIS 300
+  331 * 5	 0A 01 04 \w2885
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+// Food (only one loading state)
+#define Y_THIS 260
+  331 * 5	 0A 01 04 \w2853
+  761 sprites/pcx/trains/tropicmonolev.pcx	X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
+  762 sprites/pcx/trains/tropicmonolev.pcx	X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
+  763 sprites/pcx/trains/tropicmonolev.pcx	X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
+  764 sprites/pcx/trains/tropicmonolev.pcx	X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
+#undef Y_THIS
+
+
 
 //Snow in temperate
   207 * 15	 0C "Snow in temperate" 00
