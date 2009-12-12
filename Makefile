@@ -40,10 +40,12 @@ GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfc
 DIR_BASE       = $(GRF_FILENAME)-
 VERSION_STRING = $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
 DIR_NAME       = $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(GRF_NIGHTLYNAME))
-DIR_NAME_SRC   = $(DIR_NAME)-source
+DIR_NAME_SRC   = $(DIR_BASE)$(VERSION_STRING)-source
+# Tarname has no version: overwrite for make install
 TAR_FILENAME   = $(DIR_NAME).$(TAR_SUFFIX)
-ZIP_FILENAME   = $(DIR_NAME).$(ZIP_SUFFIX)
-BZIP_FILENAME  = $(DIR_NAME).$(BZIP2_SUFFIX)
+# The release filenames bear the version being built.
+ZIP_FILENAME   = $(DIR_BASE)$(VERSION_STRING).$(ZIP_SUFFIX)
+BZIP_FILENAME  = $(DIR_BASE)$(VERSION_STRING).$(BZIP2_SUFFIX)
 
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
 
