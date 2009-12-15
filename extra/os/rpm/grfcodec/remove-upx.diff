@@ -1,0 +1,20 @@
+Index: Makefile
+===================================================================
+--- Makefile	(Revision 2212)
++++ Makefile	(Arbeitskopie)
+@@ -221,7 +221,6 @@
+ 	$(_C)$(MAKE) ${_S} $(@:%_r=%)
+ 	$(_E) [STRIP/UPX] $(@:%_r=%)
+ 	$(_C)$(STRIP)  $(@:%_r=%)
+-	$(_C)upx $(_Q) --best  $(@:%_r=%)
+ 
+ release: $(GRFCODEC)_r $(GRFDIFF)_r $(GRFMERGE)_r
+ 
+@@ -232,7 +231,6 @@
+ 	$(_C)$(CC) -o $@ $(CFLAGS) -Os $^
+ 	$(_E) [STRIP/UPX] $@
+ 	$(_C)$(STRIP) $@
+-	$(_C)upx $(_Q) --best $@
+ 
+ grfmrg.c:	grfmrgc.bin grfmrgc.pl
+ 	$(_E) [PERL] $@
