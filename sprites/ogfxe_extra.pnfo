@@ -37,7 +37,8 @@
 // this is base grf, so we need to use GRFID starting with FF..
 // disable the warning:for newgrfs
 //@@WARNING DISABLE 101
-   10 * 230	 08 07 FF 06 FE 01 "OpenGFX Base Graphics Set for OpenTTD" 00
+
+   10 * 230	 08 07 FF "OT" 01 "OpenGFX Base Graphics Set for OpenTTD" 00
 	 "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00
 
    -1 * 0	 0C "2CC map - Windows"
@@ -4061,90 +4062,69 @@
  1451 sprites/pcx/infra08.pcx 242 7416 09 39 64 -31 -8
 
 
+// Additional coast sprites
+// See http://wiki.ttdpatch.net/tiki-index.php?page=Action5
 
- 1363 * 6	 07 83 01 \7! 00 12
+ 1363 * 6	 07 83 01 \7! 00 \b12
  1364 * 54	 0C "Missing shore tile graphics for "
 	 "the Temperate climate"
- 1365 * 3	 05 0D 10
+ 1365 * 3	 05 0D \b10
   884 sprites/pcx/terrain04.pcx 354 5464 09 15 64 -31 0
-  885 sprites/pcx/terrain04.pcx 434 5464 09 31 64 -31 0
-  886 sprites/pcx/terrain04.pcx 514 5464 09 23 64 -31 0
-  887 sprites/pcx/terrain04.pcx 594 5464 09 23 64 -31 0
-  888 sprites/pcx/terrain04.pcx 674 5464 09 31 64 -31 0
   889 sprites/pcx/terrain04.pcx 2 5528 09 31 64 -31 -8
-  890 sprites/pcx/terrain04.pcx 82 5528 09 23 64 -31 0
-  891 sprites/pcx/terrain04.pcx 162 5528 09 23 64 -31 0
-  892 sprites/pcx/terrain04.pcx 242 5528 09 39 64 -31 -8
-  893 sprites/pcx/terrain04.pcx 322 5528 09 39 64 -31 -8
+  891 sprites/pcx/terrain04.pcx 162 5528 09 23 64 -31 0    
   894 sprites/pcx/terrain04.pcx 402 5528 09 47 64 -31 -16
   895 sprites/pcx/terrain04.pcx 482 5528 09 31 64 -31 -8
-  896 sprites/pcx/terrain04.pcx 562 5528 09 39 64 -31 -8
-  897 sprites/pcx/terrain04.pcx 642 5528 09 39 64 -31 -8
+  897 sprites/pcx/terrain04.pcx 642 5528 09 39 64 -31 -8  
   898 sprites/pcx/terrain04.pcx 722 5528 09 31 64 -31 -8
-  899 sprites/pcx/terrain04.pcx 2 5592 09 31 64 -31 -8
+  899 sprites/pcx/terrain04.pcx 2 5592 09 31 64 -31 -8    
+ 3986 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // vertical canyon (not used)
+ 3991 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // horizontal canyon (not used)
 
- 1376 * 6	 07 83 01 \7! 01 12
+
+ 1376 * 6	 07 83 01 \7! 01 \b12
  1377 * 55	 0C "Missing shore tile graphics for "
 	 "the sub-arctic climate"
- 1378 * 3	 05 0D 10
+ 1378 * 3	 05 0D \b10
   902 sprites/pcx/terrain04.pcx 114 5592 09 15 64 -31 0
-  903 sprites/pcx/terrain04.pcx 194 5592 09 31 64 -31 0
-  904 sprites/pcx/terrain04.pcx 274 5592 09 23 64 -31 0
-  905 sprites/pcx/terrain04.pcx 354 5592 09 23 64 -31 0
-  906 sprites/pcx/terrain04.pcx 434 5592 09 31 64 -31 0
   907 sprites/pcx/terrain04.pcx 514 5592 09 31 64 -31 -8
-  908 sprites/pcx/terrain04.pcx 594 5592 09 23 64 -31 0
   909 sprites/pcx/terrain04.pcx 674 5592 09 23 64 -31 0
-  910 sprites/pcx/terrain04.pcx 2 5640 09 39 64 -31 -8
-  911 sprites/pcx/terrain04.pcx 82 5640 09 39 64 -31 -8
   912 sprites/pcx/terrain04.pcx 162 5640 09 47 64 -31 -16
   913 sprites/pcx/terrain04.pcx 242 5640 09 31 64 -31 -8
-  914 sprites/pcx/terrain04.pcx 322 5640 09 39 64 -31 -8
   915 sprites/pcx/terrain04.pcx 402 5640 09 39 64 -31 -8
   916 sprites/pcx/terrain04.pcx 482 5640 09 31 64 -31 -8
   917 sprites/pcx/terrain04.pcx 562 5640 09 31 64 -31 -8
+ 3986 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // vertical canyon (not used)
+ 3991 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // horizontal canyon (not used)
 
- 1389 * 6	 07 83 01 \7! 02 12
+ 1389 * 6	 07 83 01 \7! 02 \b12
  1390 * 57	 0C "Missing shore tile graphics for "
 	 "the sub-tropical climate"
- 1391 * 3	 05 0D 10
+ 1391 * 3	 05 0D \b10
   920 sprites/pcx/terrain04.pcx 674 5640 09 15 64 -31 0
-  921 sprites/pcx/terrain04.pcx 2 5704 09 31 64 -31 0
-  922 sprites/pcx/terrain04.pcx 82 5704 09 23 64 -31 0
-  923 sprites/pcx/terrain04.pcx 162 5704 09 23 64 -31 0
-  924 sprites/pcx/terrain04.pcx 242 5704 09 31 64 -31 0
   925 sprites/pcx/terrain04.pcx 322 5704 09 31 64 -31 -8
-  926 sprites/pcx/terrain04.pcx 402 5704 09 23 64 -31 0
   927 sprites/pcx/terrain04.pcx 482 5704 09 23 64 -31 0
-  928 sprites/pcx/terrain04.pcx 562 5704 09 39 64 -31 -8
-  929 sprites/pcx/terrain04.pcx 642 5704 09 39 64 -31 -8
   930 sprites/pcx/terrain04.pcx 722 5704 09 47 64 -31 -16
   931 sprites/pcx/terrain04.pcx 2 5768 09 31 64 -31 -8
-  932 sprites/pcx/terrain04.pcx 82 5768 09 39 64 -31 -8
   933 sprites/pcx/terrain04.pcx 162 5768 09 39 64 -31 -8
   934 sprites/pcx/terrain04.pcx 242 5768 09 31 64 -31 -8
   935 sprites/pcx/terrain04.pcx 322 5768 09 31 64 -31 -8
+ 3986 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // vertical canyon (not used)
+ 3991 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // horizontal canyon (not used)
 
- 1402 * 6	 07 83 01 \7! 03 12
+ 1402 * 6	 07 83 01 \7! 03 \b12
  1403 * 44	 0C "Missing shore tile graphics for "
 	 "the toyland"
- 1404 * 3	 05 0D 10
+ 1404 * 3	 05 0D \b10
   938 sprites/pcx/terrain04.pcx 434 5768 09 15 64 -31 0
-  939 sprites/pcx/terrain04.pcx 514 5768 09 31 64 -31 0
-  940 sprites/pcx/terrain04.pcx 594 5768 09 23 64 -31 0
-  941 sprites/pcx/terrain04.pcx 674 5768 09 23 64 -31 0
-  942 sprites/pcx/terrain04.pcx 2 5832 09 31 64 -31 0
   943 sprites/pcx/terrain04.pcx 82 5832 09 31 64 -31 -8
-  944 sprites/pcx/terrain04.pcx 162 5832 09 23 64 -31 0
   945 sprites/pcx/terrain04.pcx 242 5832 09 23 64 -31 0
-  946 sprites/pcx/terrain04.pcx 322 5832 09 39 64 -31 -8
-  947 sprites/pcx/terrain04.pcx 402 5832 09 39 64 -31 -8
   948 sprites/pcx/terrain04.pcx 482 5832 09 47 64 -31 -16
   949 sprites/pcx/terrain04.pcx 562 5832 09 31 64 -31 -8
-  950 sprites/pcx/terrain04.pcx 642 5832 09 39 64 -31 -8
   951 sprites/pcx/terrain04.pcx 722 5832 09 39 64 -31 -8
   952 sprites/pcx/terrain04.pcx 2 5896 09 31 64 -31 -8
   953 sprites/pcx/terrain04.pcx 82 5896 09 31 64 -31 -8
+ 3986 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // vertical canyon (not used)
+ 3991 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // horizontal canyon (not used)
 
 
 
