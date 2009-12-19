@@ -10,8 +10,8 @@ Contents
 2 Installing OpenGFX Manually
      2.1 Sample.cat error
 3 Installing or Updating OpenGFX using the Online Content service
-4 Project status
-5 Reporting bugs
+4 Reporting bugs
+5 Contributing to and building of OpenGFX
 6 License
 	6.1 Obtaining the source
 7 Credits
@@ -106,18 +106,49 @@ Options  dialog will appear.
 
 
 
-4 Project status
-================
-
-As of OpenGFX 0.2.0 this base set has a replacement for all sprites required by OpenTTD and thus is fully functional. Still, there are a number of inconsistencies within the sprites and probably a few things could need improvement. If you find such inconsistencies, or like to propose improvements, please do so and get in touch with us, either on IRC in #openttd or #openttdcoop.devzone on irc.oftc.net, in the tt-forums in the development thread http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or using the devzone and our bug tracker at http://dev.openttdcoop.org/projects/opengfx. The current project status can also be found under the last given link.
-
-
-
-5 Reporting bugs
+4 Reporting bugs
 ================
 
 Missing graphics show up in the game as black rectangles. Please don't report these black rectangles as bugs. If you do spot any grapical bugs or glitches in the available graphics, please let us know via the OpenGFX
 release topic at TT-forums.net: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or preferrably our bug tracker http://dev.openttdcoop.org/projects/opengfx/issues . Please make sure that you're using the latest available version before reporting a bug. You can check the Issue Tracker to see if the bug you've found is already reported (or fixed!).
+
+
+
+5 Contributing to and building of OpenGX
+========================================
+
+The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using
+   hg clone http://mz.openttdcoop.org/hg/opengfx or obtain the tarball from http://bundles.openttdcoop.org/opengfx/releases.
+   
+Prerequisites to building OpenGFX:
+- mercurial (only when not building from a tarball, available from http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages)
+- gcc (the pre-processor is needed)
+- md5sum (linux, mingw) or md5 (mac)
+- nforenum r2274 or better (available from http://www.openttd.org/download-nforenum)
+- grfcodec r2245 or better (available from http://www.openttd.org/download-grfcodec)
+- some gnu utils: make, cat, sed
+and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes. 
+
+On Windows: we advise to get a mingw development environment, download grfcodec, nforenum and mercurial from the sources mentioned above)
+For more detailed instructions see our guide at http://dev.openttdcoop.org/projects/home/wiki and the very extensive and detailed installation instructions on the mingw wiki at http://www.mingw.org/wiki/Getting_Started
+
+On Linux: your system should already have most tools, you'll probably only need nforenum, grfcodec and mercurial available from the source mentioned above. For installation instructions concerning mercurial refer to the manual of your distribution.
+
+On Mac: Install the developers tools and get grfcodec and nforenum from the source mentioned above. Mercurial is easiest insalled via macports: sudo port install mercurial
+
+The use of mercurial is strongly encouraged as only that allows to keep track of changes.
+
+Once all tools are installed, get a checkout of the repository and you can build OpenGFX using make. The following targets are available:
+- all: builds all grfs and the obg file
+- install: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path
+- clean: cleans all generated files
+- mrproper: also cleans generated directories
+- bundle_src: create a source tarball
+- bundle_zip: create a zip archive of OpenGFX
+- bundle_bz2: create a bzip2 archive of OpenGFX
+- bundle_tar: create a tar archive of OpenGFX
+
+Given the usual case that you modify something within OpenGFX and want to test that, a simple 'make install' should suffice and you can immediately test the changes ingame, if you selected the nightly version of OpenGFX. Given default paths, a 'make install' will overwrite a previous nightly version of OpenGFX. Mind to re-start OpenTTD as it needs to re-read the grf files.
 
 
 
@@ -133,13 +164,6 @@ for more details.
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free
 Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-
-6.1 Obtaining the source
-------------------------
-
-The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using
-   hg clone http://mz.openttdcoop.org/hg/opengfx or obtain the tarball from http://bundles.openttdcoop.org/opengfx/releases
 
 
 
