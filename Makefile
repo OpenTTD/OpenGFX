@@ -158,7 +158,7 @@ bundle: $(DIR_NAME)
 		| sed -e "s/$(REVISION_DUMMY)/$(GRF_REVISION)/" \
 		> $@
 
-%.$(TAR_SUFFIX): all $(DOC_FILENAMES)
+%.$(TAR_SUFFIX): $(DIR_NAME)
 # Create the release bundle with all files in one tar
 	$(_E) "[Generating:] $@"
 	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)
