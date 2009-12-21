@@ -61,7 +61,7 @@ vpath %.nfo $(SPRITEDIR)
 
 # Target for all:
 # all : $(OBG_FILE)
-all : $(MAKEFILEDEP) $(OBG_FILE)
+all : test_rev $(MAKEFILEDEP) $(OBG_FILE)
 
 -include ${MAKEFILEDEP}
 
@@ -82,7 +82,7 @@ test :
 	$(_E) "Path to Unix2Dos:             $(UNIX2DOS)"
 	$(_E) "===="
 
-$(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME)
+$(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME) $(REV_FILENAME)
 	$(_E) "[Generating:] $(OBG_FILE)"
 	@echo "[metadata]" > $(OBG_FILE)
 	@echo "name        = $(GRF_NAME)" >> $(OBG_FILE)
@@ -104,7 +104,13 @@ $(OBG_FILE) : $(GRF_FILENAMES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_F
 	@echo "$(GRF_ORIGIN)" >> $(OBG_FILE)
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
-
+	
+$(REV_FILENAME):
+	echo "$(GRF_REVISION)" > $(REV_FILENAME)
+test_rev:
+	@echo "[Version check]"
+	@echo "$(shell [ "`cat $(REV_FILENAME)`" = "$(VERSION_STRING)" ] && echo "No change." || (echo "Change detected." && echo "$(VERSION_STRING)" > $(REV_FILENAME)))"
+	
 $(MAKEFILEDEP): $(PNFO_FILENAMES)
 	$(_E) "[Depend]"
 	$(_V) rm -rf $(MAKEFILEDEP)
@@ -129,12 +135,12 @@ $(MAKEFILEDEP): $(PNFO_FILENAMES)
 # Clean the source tree
 clean:
 	$(_E) "[Cleaning]"
-	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES) $(MAKEFILEDEP)
+	$(_V)-rm -rf *.orig *.pre *.bak *.grf *.new *~ $(GRF_FILENAME)* $(DEP_FILENAMES) $(SPRITEDIR)/$(GRF_FILENAME).* $(SPRITEDIR)/*.bak $(SPRITEDIR)/*.nfo $(DOC_FILENAMES) $(MAKEFILEDEP) $(REV_FILENAME)
 
 mrproper: clean
 	$(_V)-rm -rf $(DIR_BASE)* $(SPRITEDIR)/$(GRF_FILENAME) $(OBG_FILE) $(DIR_NAME_SRC)
 
-$(DIR_NAME) : $(BUNDLE_FILES)
+$(DIR_NAME) : all $(DOC_FILENAMES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
 	$(_V)if [ -e $@ ]; then rm -rf $@; fi
@@ -152,7 +158,7 @@ bundle: $(DIR_NAME)
 		| sed -e "s/$(REVISION_DUMMY)/$(GRF_REVISION)/" \
 		> $@
 
-%.$(TAR_SUFFIX): % $(BUNDLE_FILES)
+%.$(TAR_SUFFIX): all $(DOC_FILENAMES)
 # Create the release bundle with all files in one tar
 	$(_E) "[Generating:] $@"
 	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)

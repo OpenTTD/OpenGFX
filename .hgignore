@@ -15,6 +15,7 @@ sprites/ogfx?_*.nfo
 docs/license.txt
 docs/changelog.txt
 docs/readme.txt
+REV
 
 # Ignore directories from bundle creation / install:
 opengfx-*
