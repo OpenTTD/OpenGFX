@@ -6240,7 +6240,7 @@
  1560 sprites/pcx/openttdw-r14502.pcx 754 5160 09 8 11 0 0
 
  1561 * 21	 0C "OpenTTD GUI graphics"
- 1562 * 3	 05 15 97
+ 1562 * 3	 05 15 99
   220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
   221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
   222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
@@ -6392,6 +6392,8 @@
  1711 sprites/pcx/openttdw-r14977.pcx 706 5576 09 10 10 0 0
  1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
    44 sprites/pcx/gui04.pcx 2 125 09 20 20 0 0
+   -1 sprites/pcx/gui04.pcx 242 352 09 8 7 0 0 
+   -1 sprites/pcx/gui04.pcx 256 352 09 8 7 0 0 
 
  1792 * 17	 0C "NewGRF overrides"
  1793 * 30	 00 08 01 03 00 11 44 44 22 02 44 44 01 11 6D 62 04 02 6D 62 04 01 "Meo Meo" 17

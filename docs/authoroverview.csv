@@ -392,7 +392,7 @@ ogfxe_extra;0;7;8;[Type 11] Road stop graphics;FooBar;FooBar;;1
 ogfxe_extra;0;7;8;[Type 12] Aqueduct graphics;Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;54;55;[Type 13] Autorail sprites;FooBar;n/a;;1
 ogfxe_extra;0;35;36;[Type 14] Flag sprites;OpenTTD Developers;OpenTTD Developers;;1
-ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp;Zephyris, planetmaker;;1
 ogfxe_extra;0;843;844;Waterfeatures (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
 ogfxe_extra;0;345;346;Additional Font Characters;Bilbo, FooBar;FooBar;;1
