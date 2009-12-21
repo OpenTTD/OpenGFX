@@ -4064,6 +4064,8 @@
 
 // Additional coast sprites
 // See http://wiki.ttdpatch.net/tiki-index.php?page=Action5
+//grfcodec erronously warns about the sprite count here for shore replacement.
+//@@WARNING DISABLE 60
 
  1363 * 6	 07 83 01 \7! 00 \b12
  1364 * 54	 0C "Missing shore tile graphics for "
@@ -4126,7 +4128,8 @@
  3986 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // vertical canyon (not used)
  3991 sprites/pcx/empty.pcx 0 0 03 1 1 0 0  // horizontal canyon (not used)
 
-
+//Allow the warning concerning shore sprite counts during further processing again.
+//@@WARNING ENABLE 60
 
  1415 * 14	 0C "Sloped tracks"
  1416 * 3	 05 0F 0C
@@ -6239,6 +6242,10 @@
  1559 sprites/pcx/openttdw-r14502.pcx 738 5160 09 8 11 0 0
  1560 sprites/pcx/openttdw-r14502.pcx 754 5160 09 8 11 0 0
 
+
+//grfcodec erronously warns about the sprite count here for OpenTTD GUI sprites
+//@@WARNING DISABLE 60
+
  1561 * 21	 0C "OpenTTD GUI graphics"
  1562 * 3	 05 15 99
   220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
@@ -6394,6 +6401,9 @@
    44 sprites/pcx/gui04.pcx 2 125 09 20 20 0 0
    -1 sprites/pcx/gui04.pcx 242 352 09 8 7 0 0 
    -1 sprites/pcx/gui04.pcx 256 352 09 8 7 0 0 
+   
+//re-enable warning again after grfcodec erronously warns about the sprite count for GUI sprites
+//@@WARNING ENABLE 60
 
  1792 * 17	 0C "NewGRF overrides"
  1793 * 30	 00 08 01 03 00 11 44 44 22 02 44 44 01 11 6D 62 04 02 6D 62 04 01 "Meo Meo" 17
