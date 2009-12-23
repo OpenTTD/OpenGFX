@@ -1,3 +1,21 @@
+OpenGFX 0.2.1
+-------------
+- Feature: Add GUI sprites for shading windos
+- Feature: Support for rpm specs for all big distros
+- Feature: Norwegian bokmal translation
+
+- Fix: Remove action colours from African manager faces
+- Fix: Re-add version information to the bundle files except tar.
+- Fix: Bubbles and bubble generator were mis-aligned wrt eachother
+- Fix: Allow newgrfs to overwrite coastal ground sprites
+- Fix: Map generation sprites of original map generator were bad
+- Fix: Alignment of maglev trains and wagons
+
+- Change: The newgrf ID of the extra newgrf changes to FF "OT" 01
+
+- Doc: Describe briefly the requirements for building OpenGFX
+
+
 OpenGFX 0.2.0
 -------------
 - Feature: Allow localized ingame descriptions for the package. Add them for German, Dutch, Hungarian, traditional Chinese and Swedish.
