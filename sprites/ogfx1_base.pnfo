@@ -3393,10 +3393,10 @@
   404 sprites/pcx/newtrains01.pcx 738 728 09 17 22 -6 -8
 
 // 2829-2904 wagons monorail/maglev
-#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3 -11
-#define MONOLEV_ALIGNMENT_EW   09 16 20 -14  -8
-#define MONOLEV_ALIGNMENT_HORI 01 12 28 -16  -7
-#define MONOLEV_ALIGNMENT_NS   09 16 20  -7  -8
+#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3  -7
+#define MONOLEV_ALIGNMENT_EW   09 16 20 -13  -6
+#define MONOLEV_ALIGNMENT_HORI 01 12 28 -13  -7
+#define MONOLEV_ALIGNMENT_NS   09 16 20  -6  -7
 #define X_VERT  0
 #define X_EW   16
 #define X_HORI 48
@@ -3617,48 +3617,56 @@
 
 //2981-2992 locomotives monorail
 //2993-3016 locomotives maglev
+#define MONOLEV_ENG_FRONT_OFFSET_VERT  -3  -9
+#define MONOLEV_ENG_FRONT_OFFSET_EW   -14  -6
+#define MONOLEV_ENG_FRONT_OFFSET_HORI -14  -7
+#define MONOLEV_ENG_FRONT_OFFSET_NS    -6  -7
+#define MONOLEV_ENG_REAR_OFFSET_VERT   -3  -9
+#define MONOLEV_ENG_REAR_OFFSET_EW    -14  -6
+#define MONOLEV_ENG_REAR_OFFSET_HORI  -14  -7
+#define MONOLEV_ENG_REAR_OFFSET_NS     -9  -8
 //	X2001
 	2829	sprites/pcx/monolev-ba.pcx	1	167	1	23	8	-3	-11
 	2830	sprites/pcx/monolev-ba.pcx	12	167	9	17	22	-14	-8
 	2831	sprites/pcx/monolev-ba.pcx	36	167	1	12	32	-16	-7
 	2832	sprites/pcx/monolev-ba.pcx	69	167	9	17	22	-7	-8
 //	Millenium	0	1	1	0	0	0	0	0
-	3001	sprites/pcx/monolev-ba.pcx	1	1	1	23	8	-3	-11
-	3002	sprites/pcx/monolev-ba.pcx	12	1	9	17	22	-14	-8
-	3003	sprites/pcx/monolev-ba.pcx	36	1	1	12	31	-15	-7
-	3004	sprites/pcx/monolev-ba.pcx	69	1	9	17	22	-7	-8
-	3005	sprites/pcx/monolev-ba.pcx	93	1	1	23	8	-3	-12
-	3006	sprites/pcx/monolev-ba.pcx	103	1	9	17	22	-14	-8
-	3007	sprites/pcx/monolev-ba.pcx	127	1	1	12	31	-15	-7
-	3008	sprites/pcx/monolev-ba.pcx	161	1	9	17	22	-7	-8
+	3001	sprites/pcx/monolev-ba.pcx	1	1	1	23	8	MONOLEV_ENG_FRONT_OFFSET_VERT
+	3002	sprites/pcx/monolev-ba.pcx	12	1	9	17	22	MONOLEV_ENG_FRONT_OFFSET_EW
+	3003	sprites/pcx/monolev-ba.pcx	36	1	1	12	31	MONOLEV_ENG_FRONT_OFFSET_HORI
+	3004	sprites/pcx/monolev-ba.pcx	69	1	9	17	22	MONOLEV_ENG_FRONT_OFFSET_NS
+	3005	sprites/pcx/monolev-ba.pcx	93	1	1	23	8	MONOLEV_ENG_REAR_OFFSET_VERT
+	3006	sprites/pcx/monolev-ba.pcx	103	1	9	17	22	MONOLEV_ENG_REAR_OFFSET_EW
+	3007	sprites/pcx/monolev-ba.pcx	127	1	1	12	31	MONOLEV_ENG_REAR_OFFSET_HORI
+	3008	sprites/pcx/monolev-ba.pcx	161	1	9	17	22	MONOLEV_ENG_REAR_OFFSET_NS
 //	Lev	3	#WERT!	1	0	0	0	0	0
-	3001	sprites/pcx/monolev-ba.pcx	1	34	1	23	8	-3	-11
-	3002	sprites/pcx/monolev-ba.pcx	12	34	9	17	22	-14	-8
-	3003	sprites/pcx/monolev-ba.pcx	36	34	1	12	31	-15	-7
-	3004	sprites/pcx/monolev-ba.pcx	69	34	9	17	22	-7	-8
-	3005	sprites/pcx/monolev-ba.pcx	93	34	1	23	8	-3	-12
-	3006	sprites/pcx/monolev-ba.pcx	103	34	9	17	22	-14	-8
-	3007	sprites/pcx/monolev-ba.pcx	127	34	1	12	31	-15	-7
-	3008	sprites/pcx/monolev-ba.pcx	161	34	9	17	22	-7	-8
-//	Chimera	0	1	1	0	0	0	0	0
-	3001	sprites/pcx/monolev-ba.pcx	1	195	1	22	8	-3	-11
-	3002	sprites/pcx/monolev-ba.pcx	12	195	9	17	22	-14	-8
-	3003	sprites/pcx/monolev-ba.pcx	36	195	1	12	31	-15	-7
-	3004	sprites/pcx/monolev-ba.pcx	69	195	9	17	22	-7	-8
-	3005	sprites/pcx/monolev-ba.pcx	93	195	1	22	8	-3	-11
-	3006	sprites/pcx/monolev-ba.pcx	103	195	9	17	22	-14	-8
-	3007	sprites/pcx/monolev-ba.pcx	127	195	1	12	31	-15	-7
-	3008	sprites/pcx/monolev-ba.pcx	161	195	9	17	22	-7	-8
+	3001	sprites/pcx/monolev-ba.pcx	1	34	1	23	8	MONOLEV_ENG_FRONT_OFFSET_VERT
+	3002	sprites/pcx/monolev-ba.pcx	12	34	9	17	22	MONOLEV_ENG_FRONT_OFFSET_EW
+	3003	sprites/pcx/monolev-ba.pcx	36	34	1	12	31	MONOLEV_ENG_FRONT_OFFSET_HORI
+	3004	sprites/pcx/monolev-ba.pcx	69	34	9	17	22	MONOLEV_ENG_FRONT_OFFSET_NS
+	3005	sprites/pcx/monolev-ba.pcx	93	34	1	23	8	MONOLEV_ENG_REAR_OFFSET_VERT
+	3006	sprites/pcx/monolev-ba.pcx	103	34	9	17	22	MONOLEV_ENG_REAR_OFFSET_EW
+	3007	sprites/pcx/monolev-ba.pcx	127	34	1	12	31	MONOLEV_ENG_REAR_OFFSET_HORI
+	3008	sprites/pcx/monolev-ba.pcx	161	34	9	17	22	MONOLEV_ENG_REAR_OFFSET_NS
+//	Lev 4 Chimera	0	1	1	0	0	0	0	0
+	3001	sprites/pcx/monolev-ba.pcx	1	195	1	22	8	MONOLEV_ENG_FRONT_OFFSET_VERT
+	3002	sprites/pcx/monolev-ba.pcx	12	195	9	17	22	MONOLEV_ENG_FRONT_OFFSET_EW
+	3003	sprites/pcx/monolev-ba.pcx	36	195	1	12	31	MONOLEV_ENG_FRONT_OFFSET_HORI
+	3004	sprites/pcx/monolev-ba.pcx	69	195	9	17	22	MONOLEV_ENG_FRONT_OFFSET_NS
+	3005	sprites/pcx/monolev-ba.pcx	93	195	1	22	8	MONOLEV_ENG_REAR_OFFSET_VERT
+	3006	sprites/pcx/monolev-ba.pcx	103	195	9	17	22	MONOLEV_ENG_REAR_OFFSET_EW
+	3007	sprites/pcx/monolev-ba.pcx	127	195	1	12	31	MONOLEV_ENG_REAR_OFFSET_HORI
+	3008	sprites/pcx/monolev-ba.pcx	161	195	9	17	22	MONOLEV_ENG_REAR_OFFSET_NS
 //	Lev	1	1	1
-	2829	sprites/pcx/monolev-ba.pcx	1	104	1	23	8	-3	-11
-	2830	sprites/pcx/monolev-ba.pcx	12	104	9	17	22	-14	-8
-	2831	sprites/pcx/monolev-ba.pcx	36	104	1	12	32	-16	-7
-	2832	sprites/pcx/monolev-ba.pcx	69	104	9	17	22	-7	-8
+	2829	sprites/pcx/monolev-ba.pcx	1	104	1	23	8	MONOLEV_ENG_FRONT_OFFSET_VERT
+	2830	sprites/pcx/monolev-ba.pcx	12	104	9	17	22	MONOLEV_ENG_FRONT_OFFSET_EW
+	2831	sprites/pcx/monolev-ba.pcx	36	104	1	12	32	MONOLEV_ENG_FRONT_OFFSET_HORI
+	2832	sprites/pcx/monolev-ba.pcx	69	104	9	17	22	MONOLEV_ENG_FRONT_OFFSET_NS
 //	Lev	2	1	1
-	2829	sprites/pcx/monolev-ba.pcx	1	137	1	23	8	-3	-11
-	2830	sprites/pcx/monolev-ba.pcx	12	137	9	17	22	-14	-8
-	2831	sprites/pcx/monolev-ba.pcx	36	137	1	12	32	-16	-7
-	2832	sprites/pcx/monolev-ba.pcx	69	137	9	17	22	-7	-8
+	2829	sprites/pcx/monolev-ba.pcx	1	137	1	23	8	MONOLEV_ENG_FRONT_OFFSET_VERT
+	2830	sprites/pcx/monolev-ba.pcx	12	137	9	17	22	MONOLEV_ENG_FRONT_OFFSET_EW
+	2831	sprites/pcx/monolev-ba.pcx	36	137	1	12	32	MONOLEV_ENG_FRONT_OFFSET_HORI
+	2832	sprites/pcx/monolev-ba.pcx	69	137	9	17	22	MONOLEV_ENG_FRONT_OFFSET_NS
 
 //3017-3072 locomotives tropic/arctic
   151 sprites/pcx/newtrains01.pcx 770 248 09 24 8 -3 -12
