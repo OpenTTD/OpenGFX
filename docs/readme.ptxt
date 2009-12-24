@@ -1,8 +1,8 @@
 OpenGFX Readme - 8bpp Graphics Replacement Project
 
-============================
+==============================
 Current Version: {{GRF_TITLE}}
-============================
+==============================
 
 Contents
 0 About OpenGFX
@@ -124,7 +124,7 @@ Prerequisites to building OpenGFX:
 - mercurial (only when not building from a tarball, available from http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages)
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
-- nforenum r2274 or better (available from http://www.openttd.org/download-nforenum)
+- nforenum r2281 or better (available from http://www.openttd.org/download-nforenum)
 - grfcodec r2245 or better (available from http://www.openttd.org/download-grfcodec)
 - some gnu utils: make, cat, sed
 and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes. 
