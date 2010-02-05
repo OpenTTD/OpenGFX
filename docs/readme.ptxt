@@ -28,11 +28,12 @@ OpenGFX is an open source replacement for the original Transport Tycoon Deluxe (
 1 Downloading OpenGFX
 =====================
 
-OpenGFX is available from at least two locations. This readme will only cover the official download locations.
+OpenGFX is available from a few locations. This readme will only cover the official download locations.
 
 We cannot support third party download locations and we cannot refund your money if you have paid money for OpenGFX.
 
-- If you're new to OpenTTD and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not that difficult as it may sound, so don't worry too much about that.
+- If you're new to OpenTTD, the easiest way is to use the installer (windows) or your packet manager (linux) and install OpenTTD and OpenGFX and also OpenSFX.
+- If you're new to OpenTTD, you cannot use an installer and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not that difficult as it may sound, so don't worry too much about that.
 - If you already have OpenTTD up and running using the original TTD base graphics, Installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
 
 If you want to check the integrity of your grf or check wether your self-compiled grf is the the same as it should, have a look at {{OBG_FILE}}
@@ -42,18 +43,22 @@ If you want to check the integrity of your grf or check wether your self-compile
 2 Installing OpenGFX Manually
 =============================
 
-1. First, make sure that you downloaded and installed at least OpenTTD version 0.7.0 or a recent nightly.
+1. First, make sure that you downloaded and installed at least OpenTTD version 0.7.0 or later.
 
-2. Next, download the latest OpenGFX package from the development homepage http://bundles.openttdcoop.org/opengfx
+2. Next, download the latest OpenGFX package. There are a few sources:
+- the development homepage http://bundles.openttdcoop.org/opengfx
+- Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the "bananas" section: http://binaries.openttd.org/bananas/OpenGFX-0.2.1.tar.gz (or possibly with a newer version).
 
-3. Unpack the zip file into the OpenTTD /data directory. There's no need to unpack the tar, so just leave it as it is. Your OpenTTD /data directory is either located in:
+3. Unpack the zip file into the OpenTTD /data directory (see section 4.2 of the OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes). There's no need to unpack the tar, so just leave it as it is.
 - An OpenTTD folder in your user account's home directory:
-	Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD
+	Windows:	C:\My Documents (95, 98, ME)
+			C:\Documents and Settings\<username>\My Documents\OpenTTD (2000, XP)
+			C:\Users\<username>\Documents\OpenTTD (Vista, 7)
 	Mac OSX: ~/Documents/OpenTTD
 	Linux:   ~/.openttd
 - The OpenTTD installation directory.
 
-4. Run OpenTTD. Chances are that you'll get an error about a missing 'sample.cat' file. If that is the case, follow the steps in the sample.cat error section first before continuing here.
+4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend our sister project OpenSFX) and install it into the same directory as OpenGFX.
 
 5. In the main menu of the game, click the Game Options  button. The Game
 Options  dialog will appear.
@@ -64,25 +69,6 @@ Options  dialog will appear.
 
 Now that wasn't so hard, was it? Anyways, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic
 at TT-forums: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or (preferrably) at our bug tracker at http://dev.openttdcoop.org/projects/opengfx
-
-
-2.1 Sample.cat error
---------------------
-
-The sample.cat file contains the sound effects from the original TTD. OpenTTD requires that file to be installed correctly, otherwise the game will not start. What to do if you don't have that file? Read on! The solution is to create a dummy sample.cat file.
-
-1. Browse to the OpenTTD /data directory.
-	See step 3 of Installing OpenGFX Manually on where to find that directory.
-
-2. Create an empty file with sample.cat  as file name:
-	Use your operating system's built in graphical tools, or;
-	Use a command like $ touch sample.cat  on the command line, or;
-	Alternatively download an empty sample.cat file here and place it in the OpenTTD /data directory.
-
-Note: If you have the dummy sample.cat file in place the game still will give you an error about the file being corrupted. The difference this time is that you now do  have an option to start the game: just click OK to
-continue! (Obviously, you don't have any sound effects with the dummy file.)
-
-Note: As of r17139 of OpenTTD it supports sound sets. If you have a nightly version newer than this (the 0.7.x branch doesn't support sound sets), the preferred way is to add a free sound set, either NoSound or OpenGFX's sister, the OpenSFX sound set, available from http://bundles.openttdcoop.org/opensfx or bananas, the online content service of OpenTTD. OpenSFX is installed the very same way as OpenGFX.
 
 
 
@@ -114,8 +100,8 @@ release topic at TT-forums.net: http://www.tt-forums.net/viewtopic.php?f=36&t=40
 
 
 
-5 Contributing to and building of OpenGX
-========================================
+5 Contributing to and building of OpenGFX
+=========================================
 
 The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using
    hg clone http://mz.openttdcoop.org/hg/opengfx or obtain the tarball from http://bundles.openttdcoop.org/opengfx/releases.
