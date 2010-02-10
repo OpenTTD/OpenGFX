@@ -52,7 +52,7 @@ REPO_DIRS    = $(dir $(BUNDLE_FILES))
 -include ${MAKEFILELOCAL}
 
 vpath
-vpath %.pfno $(SPRITEDIR)
+vpath %.pnfo $(SPRITEDIR)
 vpath %.nfo $(SPRITEDIR)
 
 .PHONY: clean all bundle bundle_tar bundle_zip bundle_bzip install release release_zip remake test
