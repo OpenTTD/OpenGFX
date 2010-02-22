@@ -7,47 +7,47 @@ MAKEFILEDEP=Makefile.dep
 SHELL = /bin/sh
 
 # Add some OS detection and guess an install path (use the system's default)
-OSTYPE=$(shell uname -s)
+OSTYPE:=$(shell uname -s)
 ifeq ($(OSTYPE),Linux)
-INSTALLDIR=$(HOME)/.openttd/data
+INSTALLDIR:=$(HOME)/.openttd/data
 else
 ifeq ($(OSTYPE),Darwin)
-INSTALLDIR=$(HOME)/Documents/OpenTTD/data
+INSTALLDIR:=$(HOME)/Documents/OpenTTD/data
 else
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
-INSTALLDIR=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data
+INSTALLDIR:=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data
 else
-INSTALLDIR=
+INSTALLDIR:=
 endif
 endif
 endif
 
 # define a few repository references used also in makefile.config
-GRF_REVISION = $(shell hg parent --template="{rev}\n")
-GRF_MODIFIED = $(shell [ -n "`hg status '.' | grep -v '^?'`" ] && echo "M" || echo "")
-REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
+GRF_REVISION := $(shell hg parent --template="{rev}\n")
+GRF_MODIFIED := $(shell [ -n "`hg status '.' | grep -v '^?'`" ] && echo "M" || echo "")
+REPO_TAGS    := $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
 
 include ${MAKEFILECONFIG}
 
 # OS detection: Cygwin vs Linux
-ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
-NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
-GRFCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
+ISCYGWIN := $(shell [ ! -d /cygdrive/ ]; echo $$?)
+NFORENUM := $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
+GRFCODEC := $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
 
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
 
-DIR_BASE       = $(GRF_FILENAME)-
-VERSION_STRING = $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
-DIR_NAME       = $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(GRF_NIGHTLYNAME))
-DIR_NAME_SRC   = $(DIR_BASE)$(VERSION_STRING)-source
+DIR_BASE       := $(GRF_FILENAME)-
+VERSION_STRING := $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(GRF_MODIFIED) || echo $(GRF_NIGHTLYNAME)-r$(GRF_REVISION)$(GRF_MODIFIED))
+DIR_NAME       := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(GRF_NIGHTLYNAME))
+DIR_NAME_SRC   := $(DIR_BASE)$(VERSION_STRING)-source
 # Tarname has no version: overwrite for make install
-TAR_FILENAME   = $(DIR_NAME).$(TAR_SUFFIX)
+TAR_FILENAME   := $(DIR_NAME).$(TAR_SUFFIX)
 # The release filenames bear the version being built.
-ZIP_FILENAME   = $(DIR_BASE)$(VERSION_STRING).$(ZIP_SUFFIX)
-BZIP_FILENAME  = $(DIR_BASE)$(VERSION_STRING).$(BZIP2_SUFFIX)
+ZIP_FILENAME   := $(DIR_BASE)$(VERSION_STRING).$(ZIP_SUFFIX)
+BZIP_FILENAME  := $(DIR_BASE)$(VERSION_STRING).$(BZIP2_SUFFIX)
 
-REPO_DIRS    = $(dir $(BUNDLE_FILES))
+REPO_DIRS      := $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
 
