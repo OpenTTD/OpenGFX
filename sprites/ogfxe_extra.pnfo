@@ -39,7 +39,7 @@
 //@@WARNING DISABLE 101
 
 // In TTDP there's no other ingame place to see the version than here:
-   10 * 230	 08 07 FF "OT" 01 "OpenGFX Base Graphics Set " VERSION 00
+   10 * 230	 08 07 FF "OT" 01 "{{REPO_TITLE}}" 00
 	 "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00
 
    -1 * 0	 0C "2CC map - Windows"
