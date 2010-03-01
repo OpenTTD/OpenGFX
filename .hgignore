@@ -4,6 +4,7 @@ syntax: glob
 # The local makefile should be ignored:
 Makefile.local
 Makefile.dep
+REV
 
 # And the description file and the grs which are generated automatically
 opengfx.obg

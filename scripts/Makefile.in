@@ -1,0 +1,25 @@
+# Here also go all build targets specific to this very newgrf
+
+
+$(MAIN_TARGET): $(GRF_FILES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME) $(REV_FILENAME)
+	$(_E) "[Generating:] $(MAIN_TARGET)"
+	@echo "[metadata]" > $(MAIN_TARGET)
+	@echo "name        = $(REPO_NAME)" >> $(MAIN_TARGET)
+	@echo "shortname   = $(REPO_SHORTNAME)" >> $(MAIN_TARGET)
+	@echo "version     = $(REPO_REVISION)" >> $(MAIN_TARGET)
+	@echo "palette     = $(REPO_PALETTE)" >> $(MAIN_TARGET)
+	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(GRF_TITLE)]/' >> $(MAIN_TARGET)
+
+	@echo "" >> $(MAIN_TARGET)
+	@echo "[files]" >> $(MAIN_TARGET)
+	$(_V) $(_V)for i in $(subst =, ,$(join $(foreach var,$(MAIN_FILENAME_TYPE),"$(var)=" ), $(foreach var,$(GRF_FILES),"$(var)"))); do printf "%-8s = %s\n" $$i >> $(MAIN_TARGET); done
+
+	@echo "" >> $(MAIN_TARGET)
+	@echo "[md5s]" >> $(MAIN_TARGET)
+	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $(MAIN_TARGET); done
+
+	@echo "" >> $(MAIN_TARGET)
+	@echo "[origin]" >> $(MAIN_TARGET)
+	@echo "$(GRF_ORIGIN)" >> $(MAIN_TARGET)
+	$(_E) "[Done] Basegraphics successfully generated."
+	$(_E) ""

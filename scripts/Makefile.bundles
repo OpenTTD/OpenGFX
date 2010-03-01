@@ -1,0 +1,57 @@
+$(DIR_NAME): all $(BUNDLE_FILES)
+	$(_E) "[BUNDLE]"
+	$(_E) "[Generating] $@."
+	$(_V) if [ -e $@ ]; then rm -rf $@; fi
+	$(_V) mkdir $@
+	$(_V) -for i in $(BUNDLE_FILES); do cp $$i $@; done	
+
+%.tar: $(DIR_NAME)
+# Create the release bundle with all files in one tar
+	$(_E) "[Generating:] $@"
+	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)
+	$(_E)
+
+bundle: $(DIR_NAME)
+bundle_tar: $(TAR_FILENAME)
+bundle_zip: $(ZIP_FILENAME)
+$(ZIP_FILENAME): $(DIR_NAME)
+	$(_E) "[Generating:] $@"
+	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $^
+bundle_bzip: $(BZIP_FILENAME)
+$(BZIP_FILENAME): $(TAR_FILENAME)
+	$(_E) "[Generating:] $@"
+	$(_V)$(BZIP) $(BZIP_FLAGS) $^
+
+# Installation process
+install: $(TAR_FILENAME) $(INSTALL_DIR)
+	$(_E) "[INSTALL] to $(INSTALL_DIR)"
+	$(_V)-cp $(TAR_FILENAME) $(INSTALL_DIR)
+	$(_E)
+
+bundle_src:
+	$(_E) "[Generating] $(DIR_NAME_SRC)"
+	$(_V) rm -rf $(DIR_NAME_SRC)
+	$(_V) mkdir -p $(DIR_NAME_SRC)
+	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep $$j; done; done))
+	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep "$$j"; done; done;`; do cp -rf $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
+	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/"; done;`; do cp -rf $$k $(DIR_NAME_SRC); done
+	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) $(TAR) $(TAR_FLAGS) $(DIR_NAME_SRC).tar.gz $(DIR_NAME_SRC)
+	$(_V) rm -rf $(DIR_NAME_SRC)
+
+$(INSTALL_DIR):
+	$(_E) "Install dir didn't exist. Creating $@"
+	$(_V) mkdir -p $(INSTALL_DIR)
+	
+release-install:
+	$(_E) "Target is obsolete. Use 'install' instead."
+release-source:
+	$(_E) "Target is obsolete. Use 'bundle_src' instead."
+release_zip:
+	$(_E) "Target is obsolete. Use 'bundle_zip' instead."
+
+remake: clean all
