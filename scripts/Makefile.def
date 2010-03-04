@@ -9,7 +9,7 @@ shell = /bin/sh
 # Build parameters and programmes
 NFORENUM_FLAGS ?=
 GRFCODEC_FLAGS ?= -e -p 2
-TAR_FLAGS      ?= --gzip -cf 
+TAR_FLAGS      ?= -cf 
 ZIP_FLAGS      ?= -r
 BZIP_FLAGS     ?= -k9f
 CC_FLAGS       ?= -C -E - <
@@ -60,9 +60,9 @@ endif
 # a nightly build:                 GRF's Name nightly-r51
 # a release build (taged version): GRF's Name 0.1
 ################################################################
-REPO_REVISION ?= $(shell $(HG) parent --template="{rev}")
-REPO_MODIFIED ?= $(shell [ -n "`$(HG) status '.' | grep -v '^?'`" ] && echo "M" || echo "")
-REPO_TAGS     ?= $(shell $(HG) parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
+REPO_REVISION ?= $(shell $(HG) id -n | cut -d+ -f1)
+REPO_MODIFIED ?= $(shell [ "`$(HG) id | cut -c13`" == "+" ] && echo "M" || echo "")
+REPO_TAGS     ?= $(shell $(HG) id -t | grep -v "tip")
 REPO_FILES_CMD := $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^\!" | cut -d\  -f2
 REPO_FILES    := $(shell $(REPO_FILES_CMD))
 REPO_DIRS     := $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
