@@ -11,20 +11,23 @@ NFORENUM_FLAGS ?=
 GRFCODEC_FLAGS ?= -e -p 2
 TAR_FLAGS      ?= -cf 
 ZIP_FLAGS      ?= -r
+SRCZIP_FLAGS   ?=
 BZIP_FLAGS     ?= -k9f
 CC_FLAGS       ?= -C -E - <
 MAKE_FLAGS     ?=
+UNIX2DOS_FLAGS ?= -q
 
 NFORENUM       ?= renum
 GRFCODEC       ?= grfcodec
 TAR            ?= tar
 ZIP            ?= zip
+SRCZIP         ?= gzip
 BZIP           ?= bzip2
 CC             ?= gcc
 AWK            ?= awk
 HG             ?= hg
 MAKE           ?= make
-UNIX2DOS       ?= $(shell [ `which unix2dos` ] && echo "unix2dos" || echo "cat")
+UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
 ifeq ($(OSTYPE),Darwin)
 MD5SUM         ?= md5 -r

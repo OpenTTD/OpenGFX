@@ -25,6 +25,7 @@ test :
 	$(_E) "Repository revision:          r$(REPO_REVISION)"
 	$(_E) "Main target:                  $(MAIN_TARGET)"
 	$(_E) "GRF files:                    $(GRF_FILES)"
+	$(_E) "Doc files:                    $(DOC_FILES)"
 	$(_E) "REPO title:                   $(REPO_TITLE)"
 	$(_E) "Bundled files:                $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
@@ -77,14 +78,15 @@ $(REV_FILENAME):
 	
 %.txt: %.ptxt $(REV_FILENAME)
 	$(_E) "[Generating] $@"
-	$(_V) $(UNIX2DOS) $< \
+	$(_V) cat $< \
 		| sed -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		| sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" \
 		| sed -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
 		| sed -e "s/$(OUTPUT_FILENAME_DUMMY)/$(OUTPUT_FILENAME)/" \
 		> $@
+	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
 		
-docs: $(DOC_FILENAMES)
+docs: $(DOC_FILES)
 
 # Create the dependencies
 depend:
