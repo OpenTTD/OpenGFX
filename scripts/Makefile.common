@@ -6,7 +6,7 @@ clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
 	$(_V)-rm -rf $(MAKEFILE_DEP) $(MAIN_TARGET) $(SRC_DIR)/*.nfo $(DOC_FILENAMES) $(REV_FILENAME)
-	$(_V)-rm -rf $(CLEAN_ADD)
+	$(_V)-rm -rf $(CLEAN_ADD) $(MD5_FILENAME)
 
 mrproper: clean
 	$(_V)-rm -rf $(DIR_BASE)* $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC)

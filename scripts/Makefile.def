@@ -29,11 +29,7 @@ HG             ?= hg
 MAKE           ?= make
 UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
-ifeq ($(OSTYPE),Darwin)
-MD5SUM         ?= md5 -r
-else
-MD5SUM         ?= md5sum
-endif
+MD5SUM         ?= $(shell [ "$(OSTYPE)" == "Darwin" ] && echo "md5 -r" || echo "md5sum")
 
 SCRIPT_DIR     ?= scripts
 SRC_DIR        ?= sprites
@@ -94,6 +90,7 @@ TAR_FILENAME       := $(DIR_NAME).tar
 BZIP_FILENAME      := $(TAR_FILENAME).bz2
 ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
 REV_FILENAME       := REV
+MD5_FILENAME       := $(DIR_NAME).md5
 
 DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
 DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILES_SRC)))

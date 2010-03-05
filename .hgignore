@@ -9,6 +9,7 @@ REV
 # And the description file and the grs which are generated automatically
 opengfx.obg
 ogfx?_*.grf
+opengfx*md5
 
 # Ignore intermediate files created by the Makefile:
 sprites/ogfx?_*.cpnfo
