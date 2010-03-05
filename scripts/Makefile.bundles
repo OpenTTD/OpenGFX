@@ -35,8 +35,8 @@ bundle_src: md5
 	$(_E) "[Generating] $(DIR_NAME_SRC)"
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
 	$(_V) mkdir -p $(DIR_NAME_SRC)
-	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep $$j; done; done))
-	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep "$$j"; done; done;`; do cp -rf $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
+	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
+	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j"; done; done;`; do cp -rf $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
 	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/"; done;`; do cp -rf $$k $(DIR_NAME_SRC); done
 	$(_V) cp $(MD5_FILENAME) $(DIR_NAME_SRC)
 	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
