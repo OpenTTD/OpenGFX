@@ -58,9 +58,6 @@ endif
 	$(_E) "[Generating] $@"
 	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
 
-$(REV_FILENAME):
-	$(_V) touch $@
-
 # .INTERMEDIATE: %.nfo
 # .PRECIOUS: %.nfo
 .SECONDARY: %.nfo
@@ -89,7 +86,11 @@ $(REV_FILENAME):
 docs: $(DOC_FILES)
 
 # Create the dependencies
-depend:
+%.$(REV_EXTENSION):
+	$(_E) "Version change detected. Re-build forced."
+	$(_V)-rm *.$(REV_EXTENSION)
+	$(_V) touch $@
+
+depend: $(REV_FILENAME)
 	$(_E) "[Generating] $(MAKEFILE_DEP)"
 	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
-	$(_V) [ -e $(REV_FILENAME) ] && [ "`cat $(REV_FILENAME)`" == "$(VERSION_STRING)" ] || echo "$(VERSION_STRING)" > $(REV_FILENAME)

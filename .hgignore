@@ -4,7 +4,7 @@ syntax: glob
 # The local makefile should be ignored:
 Makefile.local
 Makefile.dep
-REV
+.REV
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
@@ -17,7 +17,6 @@ sprites/ogfx?_*.nfo
 docs/license.txt
 docs/changelog.txt
 docs/readme.txt
-REV
 
 # Ignore directories from bundle creation / install:
 opengfx-*

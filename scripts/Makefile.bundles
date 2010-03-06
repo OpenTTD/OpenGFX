@@ -28,11 +28,14 @@ install: $(TAR_FILENAME) $(INSTALL_DIR)
 	$(_V)-cp $(TAR_FILENAME) $(INSTALL_DIR)
 	$(_E)
 
-md5: $(MAIN_TARGET)
+md5: $(MD5_FILENAME)
+
+$(MD5_FILENAME): $(MAIN_TARGET)
+	$(_E) "[Generating] $@"
 	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > $(MD5_FILENAME)
 
-bundle_src: md5
-	$(_E) "[Generating] $(DIR_NAME_SRC)"
+bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
+	$(_E) "[Preparing] $(DIR_NAME_SRC)"
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
 	$(_V) mkdir -p $(DIR_NAME_SRC)
 	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
@@ -49,6 +52,7 @@ bundle_src: md5
 	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) $(TAR) $(TAR_FLAGS) $(DIR_NAME_SRC).tar $(DIR_NAME_SRC)
+	$(_E) "[Generating] $(DIR_NAME_SRC).tar.gz"
 	$(_V) $(SRCZIP) $(SRCZIP_FLAGS) $(DIR_NAME_SRC).tar
 	$(_V) rm -rf $(DIR_NAME_SRC)
 
