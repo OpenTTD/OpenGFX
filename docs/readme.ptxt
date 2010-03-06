@@ -10,8 +10,9 @@ Contents
 2 Installing OpenGFX Manually
      2.1 Sample.cat error
 3 Installing or Updating OpenGFX using the Online Content service
-4 Reporting bugs
-5 Contributing to and building of OpenGFX
+4 Reporting bugs and Contributing
+5 Building of OpenGFX
+     5.1 Note for package maintainers
 6 License
 	6.1 Obtaining the source
 7 Credits
@@ -92,15 +93,17 @@ Options  dialog will appear.
 
 
 
-4 Reporting bugs
-================
+4 Reporting bugs and Contributing
+=================================
 
-Missing graphics show up in the game as black rectangles. Please don't report these black rectangles as bugs. If you do spot any grapical bugs or glitches in the available graphics, please let us know via the OpenGFX
+If you spot any grapical bugs or glitches in the available graphics, please let us know via the OpenGFX
 release topic at TT-forums.net: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or preferrably our bug tracker http://dev.openttdcoop.org/projects/opengfx/issues . Please make sure that you're using the latest available version before reporting a bug. You can check the Issue Tracker to see if the bug you've found is already reported (or fixed!).
 
+If you have made yourself improvements to either graphics or the source code itself, please also share that with us either via the bug tracker or the development discussion thread http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0
 
 
-5 Contributing to and building of OpenGFX
+
+5 Building OpenGFX
 =========================================
 
 The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx , e.g. using
@@ -112,7 +115,7 @@ Prerequisites to building OpenGFX:
 - md5sum (linux, mingw) or md5 (mac)
 - nforenum r2281 or better (available from http://www.openttd.org/download-nforenum)
 - grfcodec r2245 or better (available from http://www.openttd.org/download-grfcodec)
-- some gnu utils: make, cat, sed
+- some gnu utils: make, cat, sed, awk
 and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes. 
 
 On Windows: we advise to get a mingw development environment, download grfcodec, nforenum and mercurial from the sources mentioned above)
@@ -126,7 +129,7 @@ The use of mercurial is strongly encouraged as only that allows to keep track of
 
 Once all tools are installed, get a checkout of the repository and you can build OpenGFX using make. The following targets are available:
 - all: builds all grfs and the obg file
-- install: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path
+- install: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path.
 - clean: cleans all generated files
 - mrproper: also cleans generated directories
 - bundle_src: create a source tarball
@@ -135,6 +138,12 @@ Once all tools are installed, get a checkout of the repository and you can build
 - bundle_tar: create a tar archive of OpenGFX
 
 Given the usual case that you modify something within OpenGFX and want to test that, a simple 'make install' should suffice and you can immediately test the changes ingame, if you selected the nightly version of OpenGFX. Given default paths, a 'make install' will overwrite a previous nightly version of OpenGFX. Mind to re-start OpenTTD as it needs to re-read the grf files.
+
+5.1 Note for package maintainers:
+---------------------------------
+- Checking for build success: The source releases contain an additional file opengfx-<version>.md5 which indicates the md5 sums of the generated files as released in the binary release.
+- The source release also contains a Makefile.local and a slightly appended Makefile.def, both supplying additional variable definitions which otherwise would be determined by accessing repository properties.
+- The variable which supplies the install path changed for the sake of consistency and better readability to INSTALL_DIR. The old INSTALLDIR still works but is deprecated.
 
 
 
