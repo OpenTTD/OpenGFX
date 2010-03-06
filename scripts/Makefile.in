@@ -20,6 +20,6 @@ $(MAIN_TARGET): $(GRF_FILES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FIL
 
 	@echo "" >> $(MAIN_TARGET)
 	@echo "[origin]" >> $(MAIN_TARGET)
-	@echo "$(GRF_ORIGIN)" >> $(MAIN_TARGET)
+	@echo "$(REPO_ORIGIN)" >> $(MAIN_TARGET)
 	$(_E) "[Done] Basegraphics successfully generated."
 	$(_E) ""
