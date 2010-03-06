@@ -8,7 +8,7 @@ $(MAIN_TARGET): $(GRF_FILES) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FIL
 	@echo "shortname   = $(REPO_SHORTNAME)" >> $(MAIN_TARGET)
 	@echo "version     = $(REPO_REVISION)" >> $(MAIN_TARGET)
 	@echo "palette     = $(REPO_PALETTE)" >> $(MAIN_TARGET)
-	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(GRF_TITLE)]/' >> $(MAIN_TARGET)
+	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(REPO_TITLE)]/' >> $(MAIN_TARGET)
 
 	@echo "" >> $(MAIN_TARGET)
 	@echo "[files]" >> $(MAIN_TARGET)
