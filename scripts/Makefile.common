@@ -88,7 +88,7 @@ docs: $(DOC_FILES)
 # Create the dependencies
 %.$(REV_EXTENSION):
 	$(_E) "Version change detected. Re-build forced."
-	$(_V)-rm *.$(REV_EXTENSION)
+	$(_V) [ -e *.$(REV_EXTENSION) ] && rm *.$(REV_EXTENSION) || echo ""
 	$(_V) touch $@
 
 depend: $(REV_FILENAME)

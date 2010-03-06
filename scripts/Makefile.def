@@ -52,6 +52,13 @@ endif
 endif
 endif
 
+# Previous versions used INSTALLDIR instead of INSTALL_DIR. Use the previous version,
+# if supplied via command line parameter:
+
+ifdef INSTALLDIR
+INSTALL_DIR = $(INSTALLDIR)
+endif
+
 ################################################################
 # Get the Repository revision, tags and the modified status
 # The displayed name within OpenTTD / TTDPatch
