@@ -5535,16 +5535,17 @@
  4710 sprites/pcx/industries/toyfactory/ToyFactory2.pcx         2   1 03   2  2  52   50
  4711 sprites/pcx/industries/toyfactory/ToyFactory2.pcx        38   1 03 138 60 -38 -118
 // built-up version
- 4712 sprites/pcx/industries/toyfactory/ToyFactory1.pcx       158   1 03 138 27 -14  -70
- 4713 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        94   1 03 138 64 -46  -86
- 4714 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2   1 03   2  2  52   50
- 4715 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        38   1 03 138 60 -38 -118
-
- 4716 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2   1 03 138 37 -43 -102 // wheel
- 4717 sprites/pcx/industries/toyfactory/ToyFactoryOverlay.pcx  98   1 03 138 64   4  -42 // overlay
- 4718 sprites/pcx/industries/toyfactory/ToyFactoryStomper.pcx   0   0 09  98 27   2  -23 // stomper
- 4719 sprites/pcx/industries/toyfactory/ToyFactoryBlob.pcx      0   0 09  11 13   2  -26 // raw material
- 4720 sprites/pcx/industries/toyfactory/ToyFactoryToy.pcx       0   0 09  11 13   0  -12 // output: toy
+ 4712 sprites/pcx/industries/toyfactory/ToyFactory1.pcx       158  31 03 138 27 -14  -70
+ 4713 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        94   1 43 168 64 -46 -116 // Don't crop this sprite!
+ 4714 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2  31 03   2  2  52   50
+ 4715 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        38  31 03 138 60 -38 -118
+ 4716 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2  31 03 138 37 -43 -102 // wheel
+// Animation sprites. All sprites are drawn as childsprites of 4713 with the specified offsets.
+// Requirements: 0 <= offset[4717..4720] + rel[4717..4720] and offset[4717..4720] + rel[4717..4720] + size[4717..4720] <= size[4713]
+ 4717 sprites/pcx/industries/toyfactory/ToyFactoryOverlay.pcx  98   1 03 138 60   4  -12 // offset (0, 42)
+ 4718 sprites/pcx/industries/toyfactory/ToyFactoryStomper.pcx   0   0 09  98 27   2    7 // offset (7, 0) to (7, 29)
+ 4719 sprites/pcx/industries/toyfactory/ToyFactoryBlob.pcx      0   0 09  11 13   1    4 // offset (50, 96) to (14, 114)
+ 4720 sprites/pcx/industries/toyfactory/ToyFactoryToy.pcx       0   0 09  11 13   0   18 // offset (16, 100) to (0, 108)
 
 //4721	4736	16	Toyland: Plastic fountains
     3 sprites/pcx/plasfount.pcx 66 8 09 44 64 -31 -13
@@ -5610,24 +5611,26 @@
  4769 sprites/pcx/industries/sugarmine/bgstockpile.pcx           96  16 09 32 32   0  -1
  4770 sprites/pcx/industries/sugarmine/bgstockpile.pcx            1  16 09 32 32 -32  -1
  4771 sprites/pcx/industries/sugarmine/bgstockpile.pcx           32  32 09 32 64 -32  -1
- 4772 sprites/pcx/industries/sugarmine/Support.pcx               78   0 09 95 13   0 -78
- 4773 sprites/pcx/industries/sugarmine/Support.pcx               14   0 09 95 64 -32 -94
- 4774 sprites/pcx/industries/sugarmine/Support.pcx                0   0 09 95 14 -13 -78
- 4775 sprites/pcx/industries/sugarmine/Sieve5.pcx                 0   0 09 48 49   0 0
- 4776 sprites/pcx/industries/sugarmine/Sieve4.pcx                 0   0 09 48 49   0 0
- 4777 sprites/pcx/industries/sugarmine/Sieve3.pcx                 0   0 09 48 49   0 0
- 4778 sprites/pcx/industries/sugarmine/Sieve2.pcx                 0   0 09 48 49   0 0
- 4779 sprites/pcx/industries/sugarmine/Sieve1.pcx                 0   0 09 48 49   0 0
- 4780 sprites/pcx/industries/sugarmine/Pile4.pcx                  0   0 09 48 49 -16 -16
- 4781 sprites/pcx/industries/sugarmine/Pile3.pcx                  0   0 09 48 49  -8 -12
- 4782 sprites/pcx/industries/sugarmine/Pile2.pcx                  0   0 09 48 49  -4 -12
- 4783 sprites/pcx/industries/sugarmine/Pile1.pcx                  0   0 09 48 49   0  -8
- 4784 sprites/pcx/industries/sugarmine/Sug2.pcx                   0   0 09 44 49 0 0
- 4785 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49 0 0
- 4786 sprites/pcx/industries/sugarmine/Sug4.pcx                   0   0 09 44 49 0 0
- 4787 sprites/pcx/industries/sugarmine/Sug5.pcx                   0   0 09 44 49 0 0
- 4788 sprites/pcx/industries/sugarmine/Sug1.pcx                   0   0 09 44 49 0 0
- 4789 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49 0 0
+ 4772 sprites/pcx/industries/sugarmine/Support.pcx               78   0 09  95 13   0 -78
+ 4773 sprites/pcx/industries/sugarmine/Support.pcx               14   0 49 106 64 -32 -94 // Don't crop this sprite!
+ 4774 sprites/pcx/industries/sugarmine/Support.pcx                0   0 09  95 14 -13 -78
+// Animation sprites. All sprites are drawn as childsprites of 4773 with the specified offsets.
+// Requirements: 0 <= offset[4775..4789] + rel[4775..4789] and offset[4775..4789] + rel[4775..4789] + size[4775..4789] <= size[4773]
+ 4775 sprites/pcx/industries/sugarmine/Sieve5.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4776 sprites/pcx/industries/sugarmine/Sieve4.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4777 sprites/pcx/industries/sugarmine/Sieve3.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4778 sprites/pcx/industries/sugarmine/Sieve2.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4779 sprites/pcx/industries/sugarmine/Sieve1.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4780 sprites/pcx/industries/sugarmine/Pile4.pcx                  0   0 09 48 49 -16 -16 // offset (22, 73)
+ 4781 sprites/pcx/industries/sugarmine/Pile3.pcx                  0   0 09 48 49  -8 -12 // offset (17, 70)
+ 4782 sprites/pcx/industries/sugarmine/Pile2.pcx                  0   0 09 48 49  -4 -12 // offset (14, 69)
+ 4783 sprites/pcx/industries/sugarmine/Pile1.pcx                  0   0 09 48 49   0  -8 // offset (10, 66)
+ 4784 sprites/pcx/industries/sugarmine/Sug2.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4785 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4786 sprites/pcx/industries/sugarmine/Sug4.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4787 sprites/pcx/industries/sugarmine/Sug5.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4788 sprites/pcx/industries/sugarmine/Sug1.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4789 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
 
 
 
