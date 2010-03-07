@@ -1,20 +1,113 @@
-# uncomment the lines which you need
+# This file contains a list of settings for this project
+# which could moderately easily be changed locally
+# Copy the file to Makefile.local and uncomment the 
+# appropriate lines.
 
-# here goes the directory where to copy the compiled grf
-# INSTALLDIR =
+# REPO_NAME          := My first NewGRF 
+# GRF_ID             := 01 02 03 04
 
-# Flags for nforenum and grfcodec
-# NFO_FLAGS      = -w 141
+# If everything is default, you don't need the rest:
+
+# comment out those dirs which are not in use
+# Add any dirs which shall be bundled in a source release additionally
+# to the dirs mentioned above.
+# EXTRA_DIRS         :=
+
+# Documentation files:
+# README_FILENAME_SRC    := $(DOC_DIR)/readme.txt
+# LICENSE_FILENAME_SRC   := $(DOC_DIR)/license.txt
+# CHANGELOG_FILENAME_SRC := $(DOC_DIR)/changelog.txt
+
+# file extentions which indicate plain text source files, 
+# parsable by a text editor
+# FILE_SRC_EXTENSIONS = pnfo template
+
+# file extensions which indicate binary source files
+# FILE_INC_EXTENSIONS = wav pcx
+
+# Replacement strings in the source and in the documentation
+# You may only change the values, not add new definitions
+# (unless you know where to add them in other places, too)
+# REPO_TITLE_DUMMY      := {{GRF_TITLE}}
+# GRF_ID_DUMMY          := {{GRF_ID}}
+# REPO_REVISION_DUMMY   := {{REPO_REVISION}}
+# OUTPUT_FILENAME_DUMMY := {{FILENAME}}
+
+# List of all files which will get shipped
+# DOC_FILES = readme, changelog and license
+# GRF_FILENAME = MAIN_FILENAME_SRC with the extention .grf
+# Add any additional, not usual files here, too, including
+# their relative path to the root of the repository
+# BUNDLE_FILES           = $(MAIN_TARGET) $(DOC_FILES)
+
+# CLEAN_ADD = sprites/nfo/cargos.pnfo sprites/nfo/cargo_schemes.pnfo
+
+################################################################
+# Programme definitions / search paths
+################################################################
+# Build parameters and programmes
+# NFORENUM_FLAGS =
 # GRFCODEC_FLAGS = -e -p 2
-# TAR_FLAGS      = cf
-# ZIP_FLAGS      = -r -j
+# TAR_FLAGS      = -cf 
+# ZIP_FLAGS      = -r
+# SRCZIP_FLAGS   =
 # BZIP_FLAGS     = -k9f
+# CC_FLAGS       = -C -E - <
+# MAKE_FLAGS     =
+# UNIX2DOS_FLAGS ?= -q
 
-# MD5SUM   =
-# GRFCODEC =
-# RENUM    =
-# TAR      =
-# ZIP      =
-# BZIP     =
-# MAKE     =
-# UNIX2DOS =
+# NFORENUM       = renum
+# GRFCODEC       = grfcodec
+# TAR            = tar
+# ZIP            = zip
+# SRCZIP         = gzip
+# BZIP           = bzip2
+# CC             = gcc
+# AWK            = awk
+# HG             = hg
+# MAKE           = make
+# UNIX2DOS       = $(shell [ `which unix2dos` ] && echo "unix2dos" || echo "cat")
+# MD5SUM         = md5 -r
+
+# Installation dir
+INSTALL_DIR      =
+
+################################################################
+# Get the Repository revision, tags and the modified status
+# The displayed name within OpenTTD / TTDPatch
+# Looks like either
+# a nightly build:                 GRF's Name nightly-r51
+# a release build (taged version): GRF's Name 0.1
+################################################################
+# REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo nightly r$(REPO_REVISION)$(REPO_MODIFIED))
+
+################################################################
+# Rules on how to generate filenames. Usually no need to change
+################################################################
+# Define how the displayed name and the filename of the bundled grf shall look like:
+# The result will either be
+# nightly build:                   mynewgrf-nightly-r51
+# a release build (tagged version): mynewgrf-0.1
+# followed by an M, if the source repository is not a clean version.
+
+# FILENAME_STUB      := $(basename $(MAIN_TARGET))
+# DIR_BASE           := $(FILENAME_STUB)-
+# VERSION_STRING     := $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo nightly-r$(REPO_REVISION)$(REPO_MODIFIED))
+# DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)nightly)
+# VERSIONED_FILENAME := $(DIR_BASE)$(VERSION_STRING)
+# DIR_NAME_SRC       := $(VERSIONED_FILENAME)-source
+
+# TAR_FILENAME       := $(DIR_NAME).tar
+# BZIP_FILENAME      := $(TAR_FILENAME).bz2
+# ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
+# MD5_FILENAME       := $(DIR_NAME).md5
+# REV_EXTENSION      := REV
+
+# DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
+
+# Directories which to remember when creating a source release
+# MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(EXTRA_DIRS)
+
+# Remove the @ when you want a more verbose output.
+# _V = @
+# _E = @echo
