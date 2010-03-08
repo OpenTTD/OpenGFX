@@ -1027,14 +1027,24 @@
 
 
 //841	872	32	Rail engines
-   21 sprites/pcx/newtrains01.pcx 610 8 09 24 8 -3 -12
-   22 sprites/pcx/newtrains01.pcx 626 8 09 17 22 -14 -8
-   23 sprites/pcx/newtrains01.pcx 658 8 09 12 32 -16 -7
-   24 sprites/pcx/newtrains01.pcx 706 8 09 17 22 -6 -8
-   25 sprites/pcx/newtrains01.pcx 738 8 09 24 8 -3 -12
-   26 sprites/pcx/newtrains01.pcx 754 8 09 17 22 -14 -8
-   27 sprites/pcx/newtrains01.pcx 2 56 09 12 32 -16 -7
-   28 sprites/pcx/newtrains01.pcx 50 56 09 17 22 -6 -8
+// Ploddyphut Cho cho
+#define THIS_PCX_FILE sprites/pcx/trains/toyland_ploddyphut.pcx
+1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	01	1	20	22	-14	-12
+3 THIS_PCX_FILE    	33	01	1	16	32	-16	-11
+4 THIS_PCX_FILE    	66	01	1	20	22	-6	-12
+5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	01	1	20	22	-14	-12
+7 THIS_PCX_FILE    	121	01	1	16	32	-16	-11
+8 THIS_PCX_FILE    	154	01	1	20	22	-6	-12
+//   21 sprites/pcx/trains/ploddyphut.pcx 610 8 09 24 8 -3 -12
+//   22 sprites/pcx/trains/ploddyphut.pcx 626 8 09 17 22 -14 -8
+//   23 sprites/pcx/trains/ploddyphut.pcx 658 8 09 12 32 -16 -7
+//   24 sprites/pcx/trains/ploddyphut.pcx 706 8 09 17 22 -6 -8
+//   25 sprites/pcx/trains/ploddyphut.pcx 738 8 09 24 8 -3 -12
+//   26 sprites/pcx/trains/ploddyphut.pcx 754 8 09 17 22 -14 -8
+//   27 sprites/pcx/trains/ploddyphut.pcx 2 56 09 12 32 -16 -7
+//   28 sprites/pcx/trains/ploddyphut.pcx 50 56 09 17 22 -6 -8
 
    13 sprites/pcx/newtrains01.pcx 354 8 09 24 8 -3 -12
    14 sprites/pcx/newtrains01.pcx 370 8 09 17 22 -14 -8
