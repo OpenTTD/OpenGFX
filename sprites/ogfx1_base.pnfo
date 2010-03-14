@@ -2,6 +2,8 @@
 // (Info version 7)
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
+#include "sprites/nfo/tmpl/house_macros.tnfo"
+
 //0-1 cursor and sleepy cursor
     3 sprites/pcx/gui04.pcx 66 8 01 24 24 0 0
     4 sprites/pcx/gui04.pcx 98 8 03 24 31 -15 -12
@@ -1881,10 +1883,10 @@
   174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -28 -60
   175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -28 -60
   176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -28 -60
-//old offices
- 1467 sprites/pcx/buildings.pcx 274 1464 09 87 66 -28 -60	// Recolour: STRUCT_BLUE, STRUCT_WHITE
- 1468 sprites/pcx/buildings.pcx 354 1464 09 87 66 -28 -60	// Recolour: STRUCT_BLUE, STRUCT_WHITE
- 1469 sprites/pcx/buildings.pcx 434 1464 09 87 66 -28 -60	// Recolour: STRUCT_BLUE, STRUCT_WHITE
+// 1467-1469 old offices
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 0)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 88)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 //pointy modern building
  1470 sprites/pcx/temprtbuilds.pcx 642 104 03 115 52 -19 -90	// Recolour: BLUE, GREEN, ORANGE, RED
  1471 sprites/pcx/temprtbuilds.pcx 706 104 03 115 54 -21 -90	// Recolour: BLUE, GREEN, ORANGE, RED
