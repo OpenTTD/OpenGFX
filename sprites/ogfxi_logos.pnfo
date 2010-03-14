@@ -22,16 +22,19 @@
    18 sprites/pcx/highscore.pcx 2 464 03 50 640 0 0
    19 sprites/pcx/highscore.pcx 2 528 03 50 640 0 0
    20 sprites/pcx/highscore.pcx 2 592 03 30 640 0 0
-   21 sprites/pcx/highscore.pcx 2 640 03 50 640 0 0
-   22 sprites/pcx/highscore.pcx 2 704 03 50 640 0 0
-   23 sprites/pcx/highscore.pcx 2 768 03 50 640 0 0
-   24 sprites/pcx/highscore.pcx 2 832 03 50 640 0 0
-   25 sprites/pcx/highscore.pcx 2 896 03 50 640 0 0
-   26 sprites/pcx/highscore.pcx 2 960 03 50 640 0 0
-   27 sprites/pcx/highscore.pcx 2 1024 03 50 640 0 0
-   28 sprites/pcx/highscore.pcx 2 1088 03 50 640 0 0
-   29 sprites/pcx/highscore.pcx 2 1152 03 50 640 0 0
-   30 sprites/pcx/highscore.pcx 2 1216 03 30 640 0 0
+   
+   // The 2051 newspaper, cut into 10 horizontal pieces
+   -1 sprites/pcx/misc/newspaper.pcx 0 0 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 50 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 100 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 150 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 200 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 250 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 300 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 350 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 400 03 50 640 0 0
+   -1 sprites/pcx/misc/newspaper.pcx 0 450 03 30 640 0 0
+   
    31 sprites/pcx/highscore.pcx 2 1264 03 50 640 0 0
    32 sprites/pcx/highscore.pcx 2 1328 03 50 640 0 0
    33 sprites/pcx/highscore.pcx 2 1392 03 50 640 0 0
