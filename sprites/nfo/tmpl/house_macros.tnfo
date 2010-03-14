@@ -1,0 +1,2 @@
+// house_macros.tnfo:
+#define HOUSE_HEIGHT87(FILE, Y)         0 FILE 0 Y 09 87 66 -31 -56
