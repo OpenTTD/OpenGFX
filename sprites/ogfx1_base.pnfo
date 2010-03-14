@@ -1970,11 +1970,11 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)	// Recolour
     7 sprites/pcx/morebuildings.pcx 386 8 09 31 64 -31 0
     8 sprites/pcx/morebuildings.pcx 466 8 09 106 64 -31 -75
 //old flats
- 1536 sprites/pcx/buildings.pcx 658 2360 09 87 66 -31 -56
- 1537 sprites/pcx/buildings.pcx 82 2472 09 87 66 -31 -56	// Recolour: STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1536-1537-oldflats.pcx,0)
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1536-1537-oldflats.pcx,88) // Recolour: STRUCT_WHITE
 //old flats
- 1538 sprites/pcx/buildings.pcx 98 8 09 87 66 -31 -56
- 1539 sprites/pcx/buildings.pcx 258 8 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1538-1539-oldflats.pcx,0)
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1538-1539-oldflats.pcx,88) // Recolour: STRUCT_CONCRETE
 //office block
    44 sprites/pcx/temprtbuilds.pcx 178 360 03 31 64 -31 0
    45 sprites/pcx/temprtbuilds.pcx 258 360 03 48 62 -30 -20
