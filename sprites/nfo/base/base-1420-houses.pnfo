@@ -151,18 +151,18 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)    // Recol
   845 sprites/pcx/buildings.pcx 82 3864 09 35 64 -31 -4
   851 sprites/pcx/buildings.pcx 402 3864 09 27 32 -12 -9
 // 1519-1523 small flats
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -31 -56
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -31 -56
-  331 sprites/pcx/buildings.pcx 514 2136 09 87 66 -31 -56
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -31 -56
-  332 sprites/pcx/buildings.pcx 594 2136 09 87 66 -31 -56
+HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1519-1523-small-flats.pcx)
+HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1519-1523-small-flats.pcx)
+HOUSE_HEIGHT87_3(sprites/pcx/houses/base-1519-1523-small-flats.pcx)
+HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1519-1523-small-flats.pcx)
+HOUSE_HEIGHT87_5(sprites/pcx/houses/base-1519-1523-small-flats.pcx)
 // 1524-1529 small flats
-  187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
-  187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
-  187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
-  188 sprites/pcx/buildings.pcx 82 1240 09 87 66 -31 -56
-  187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
- 1529 sprites/pcx/buildings.pcx 162 1240 09 87 66 -31 -56
+HOUSE_HEIGHT87_3(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
+HOUSE_HEIGHT87_6(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
+HOUSE_HEIGHT87_5(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
+HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
+HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
+HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1524-1529-small-flats.pcx)
 // office block
     3 sprites/pcx/morebuildings.pcx 66 8 09 31 64 -31 0
     4 sprites/pcx/morebuildings.pcx 146 8 09 45 64 -31 -14
