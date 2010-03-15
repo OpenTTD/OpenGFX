@@ -1879,7 +1879,7 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264)	// (Ground tile)
   382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -31 -56
   383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -31 -56
   384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -31 -56
-//old offices
+// 1464-1466 old offices
   174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -31 -56
   175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -31 -56
   176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -31 -56
@@ -1887,7 +1887,7 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264)	// (Ground tile)
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 0)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 88)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
-//pointy modern building
+// 1470-1472 pointy modern building
  1470 sprites/pcx/temprtbuilds.pcx 642 104 03 115 52 -24 -88	// Recolour: BLUE, GREEN, ORANGE, RED
  1471 sprites/pcx/temprtbuilds.pcx 706 104 03 115 54 -25 -88	// Recolour: BLUE, GREEN, ORANGE, RED
  1472 sprites/pcx/temprtbuilds.pcx 2 232 09 115 54 -25 -88		// Recolour: BLUE, GREEN, ORANGE, RED
@@ -1949,12 +1949,12 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)	// Recolour
   850 sprites/pcx/buildings.pcx 354 3864 09 27 32 -12 -9
   845 sprites/pcx/buildings.pcx 82 3864 09 35 64 -31 -4
   851 sprites/pcx/buildings.pcx 402 3864 09 27 32 -12 -9
-//small flats
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -30 -59
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -30 -59
-  331 sprites/pcx/buildings.pcx 514 2136 09 87 66 -30 -59
-  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -30 -59
-  332 sprites/pcx/buildings.pcx 594 2136 09 87 66 -30 -59
+// 1519-1523 small flats
+  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -28 -56
+  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -28 -56
+  331 sprites/pcx/buildings.pcx 514 2136 09 87 66 -28 -56
+  330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -28 -56
+  332 sprites/pcx/buildings.pcx 594 2136 09 87 66 -28 -56
 //small flats
   187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
   187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56

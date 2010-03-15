@@ -1,4 +1,4 @@
-$(DIR_NAME): all $(BUNDLE_FILES)
+$(DIR_NAME): depend $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating] $@."
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
