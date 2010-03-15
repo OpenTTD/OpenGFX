@@ -1034,7 +1034,7 @@
 // Powernaut Cho Cho = temperate "Chaney Jubilee" or "SH 8P". Replaced in 'extra'
 
 // Mightymover Cho Cho
-#define THIS_PCX78 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
+#define THIS_PCX88 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
 #include "sprites/nfo/templates/trains.tnfo"
 
 // Ploddyphut Diesel
