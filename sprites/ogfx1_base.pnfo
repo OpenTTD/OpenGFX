@@ -2,7 +2,7 @@
 // (Info version 7)
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-#include "sprites/nfo/tmpl/house_macros.tnfo"
+#include "sprites/nfo/templates/house_macros.tnfo"
 
 //0-1 cursor and sleepy cursor
     3 sprites/pcx/gui04.pcx 66 8 01 24 24 0 0
