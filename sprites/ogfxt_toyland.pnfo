@@ -1028,50 +1028,22 @@
 
 //841	872	32	Rail engines
 // Ploddyphut Cho cho
-#define THIS_PCX_FILE sprites/pcx/trains/toyland_ploddyphut.pcx
-1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	01	1	20	22	-14	-12
-3 THIS_PCX_FILE    	33	01	1	16	32	-16	-11
-4 THIS_PCX_FILE    	66	01	1	20	22	-6	-12
-5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	01	1	20	22	-14	-12
-7 THIS_PCX_FILE    	121	01	1	16	32	-16	-11
-8 THIS_PCX_FILE    	154	01	1	20	22	-6	-12
-//   21 sprites/pcx/trains/ploddyphut.pcx 610 8 09 24 8 -3 -12
-//   22 sprites/pcx/trains/ploddyphut.pcx 626 8 09 17 22 -14 -8
-//   23 sprites/pcx/trains/ploddyphut.pcx 658 8 09 12 32 -16 -7
-//   24 sprites/pcx/trains/ploddyphut.pcx 706 8 09 17 22 -6 -8
-//   25 sprites/pcx/trains/ploddyphut.pcx 738 8 09 24 8 -3 -12
-//   26 sprites/pcx/trains/ploddyphut.pcx 754 8 09 17 22 -14 -8
-//   27 sprites/pcx/trains/ploddyphut.pcx 2 56 09 12 32 -16 -7
-//   28 sprites/pcx/trains/ploddyphut.pcx 50 56 09 17 22 -6 -8
+#define THIS_PCX68 sprites/pcx/trains/toyland_ploddyphut.pcx // ploddyphutpcx
+#include "sprites/nfo/templates/trains.tnfo"
 
-   13 sprites/pcx/newtrains01.pcx 354 8 09 24 8 -3 -12
-   14 sprites/pcx/newtrains01.pcx 370 8 09 17 22 -14 -8
-   15 sprites/pcx/newtrains01.pcx 402 8 09 12 32 -16 -7
-   16 sprites/pcx/newtrains01.pcx 450 8 09 17 22 -6 -8
-   17 sprites/pcx/newtrains01.pcx 482 8 09 24 8 -3 -12
-   18 sprites/pcx/newtrains01.pcx 498 8 09 17 22 -14 -8
-   19 sprites/pcx/newtrains01.pcx 530 8 09 12 32 -16 -7
-   20 sprites/pcx/newtrains01.pcx 578 8 09 17 22 -6 -8
+// Powernaut Cho Cho = temperate "Chaney Jubilee" or "SH 8P". Replaced in 'extra'
 
-  310 sprites/pcx/newtrains01.pcx 210 584 09 24 8 -3 -12
-  311 sprites/pcx/newtrains01.pcx 226 584 09 17 22 -14 -8
-  312 sprites/pcx/newtrains01.pcx 258 584 09 12 32 -16 -7
-  313 sprites/pcx/newtrains01.pcx 306 584 09 17 22 -6 -8
-  314 sprites/pcx/newtrains01.pcx 338 584 09 24 8 -3 -12
-  315 sprites/pcx/newtrains01.pcx 354 584 09 17 22 -14 -8
-  316 sprites/pcx/newtrains01.pcx 386 584 09 12 32 -16 -7
-  317 sprites/pcx/newtrains01.pcx 434 584 09 17 22 -6 -8
+// Mightymover Cho Cho
+#define THIS_PCX78 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
+#include "sprites/nfo/templates/trains.tnfo"
 
-   41 sprites/pcx/newtrains01.pcx 466 56 09 24 8 -3 -12
-   42 sprites/pcx/newtrains01.pcx 482 56 09 17 22 -14 -8
-   43 sprites/pcx/newtrains01.pcx 514 56 09 12 32 -16 -7
-   44 sprites/pcx/newtrains01.pcx 562 56 09 17 22 -6 -8
-   45 sprites/pcx/newtrains01.pcx 594 56 09 24 8 -3 -12
-   46 sprites/pcx/newtrains01.pcx 610 56 09 17 22 -14 -8
-   47 sprites/pcx/newtrains01.pcx 642 56 09 12 32 -16 -7
-   48 sprites/pcx/newtrains01.pcx 690 56 09 17 22 -6 -8
+// Ploddyphut Diesel
+#define THIS_PCX78 sprites/pcx/trains/toyland_ploddyphut_diesel.pcx
+#include "sprites/nfo/templates/trains.tnfo"
+
+// Ploddyphut Diesel
+#define THIS_PCX88 sprites/pcx/trains/toyland_powernaut_diesel.pcx
+#include "sprites/nfo/templates/trains.tnfo"
 
 //873	880	8	Monorail engine
 	3001	sprites/pcx/monolev-ba.pcx	1	1	1	23	8	-3	-11
