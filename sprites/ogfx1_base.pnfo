@@ -1875,10 +1875,10 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264)	// (Ground tile)
  1458 sprites/pcx/temprtbuilds.pcx 434 104 03 31 52 -25 -3	// Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
  1459 sprites/pcx/temprtbuilds.pcx 498 104 03 61 52 -25 -33	// Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
  1460 sprites/pcx/temprtbuilds.pcx 562 104 09 61 52 -25 -33	// Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
-//old offices
-  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -36 -60
-  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -36 -60
-  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -36 -60
+// 1461-1463 old offices
+  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -31 -56
+  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -31 -56
+  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -31 -56
 //old offices
   174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -28 -60
   175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -28 -60
