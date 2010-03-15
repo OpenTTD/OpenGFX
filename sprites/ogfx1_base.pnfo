@@ -1800,17 +1800,17 @@
 
 //1421-1437 bunch'o'buildings
 //offices
- 1421 sprites/pcx/buildings.pcx 2 456 09 87 66 -31 -56		// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,0)    // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
  1422 sprites/pcx/buildings.pcx 82 456 09 87 66 -31 -56		// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
  1423 sprites/pcx/buildings.pcx 162 456 09 87 66 -31 -56	// (Ground tile)
-
- 1424 sprites/pcx/buildings.pcx 2 456 09 87 66 -31 -56	// (Ground tile)
- 1425 sprites/pcx/buildings.pcx 2 568 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE, STRUCT_WHITE
-//flats
- 1426 sprites/pcx/buildings.pcx 434 1352 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE, STRUCT_BROWN
- 1427 sprites/pcx/buildings.pcx 514 1352 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE, STRUCT_BROWN
- 1428 sprites/pcx/buildings.pcx 594 1352 09 87 66 -31 -56	// Recolour: STRUCT_CONCRETE, STRUCT_BROWN
- 1429 sprites/pcx/buildings.pcx 434 1352 09 87 66 -31 -56	// (Ground tile)
+// 1424, 1425
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,176)  // (Ground tile)
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,88)   // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+// 1426-1429 flats
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,0)	// Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,88)  // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,176)	// Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264)	// (Ground tile)
 //house
  1430 sprites/pcx/buildings.pcx 2 3576 09 25 36 -16 -2
  1431 sprites/pcx/buildings.pcx 50 3576 09 25 36 -16 -2
