@@ -14,11 +14,11 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,0)   // Recolour: STR
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,88)  // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,176) // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264) // (Ground tile)
-//house
- 1430 sprites/pcx/buildings.pcx 2 3576 09 25 36 -16 -2
- 1431 sprites/pcx/buildings.pcx 50 3576 09 25 36 -16 -2
- 1432 sprites/pcx/buildings.pcx 98 3576 09 25 36 -16 -2
- 1433 sprites/pcx/buildings.pcx 706 3528 09 35 64 -31 -4
+// 1430-1433 house
+HOUSE_HEIGHT87_3(sprites/pcx/houses/base-1430-1433-house.pcx)
+HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1430-1433-house.pcx)
+HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1430-1433-house.pcx)
+HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1430-1433-house.pcx)
 //church
  1434 sprites/pcx/temprtbuilds.pcx 66 8 03 21 38 -19 3          // Recolour: CHURCH_RED, CHURCH_CREAM
  1435 sprites/pcx/temprtbuilds.pcx 114 8 03 28 38 -19 -4        // Recolour: CHURCH_RED, CHURCH_CREAM
@@ -156,7 +156,7 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)    // Recol
   331 sprites/pcx/buildings.pcx 514 2136 09 87 66 -31 -56
   330 sprites/pcx/buildings.pcx 434 2136 09 87 66 -31 -56
   332 sprites/pcx/buildings.pcx 594 2136 09 87 66 -31 -56
-//small flats
+// 1524-1529 small flats
   187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
   187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
   187 sprites/pcx/buildings.pcx 2 1240 09 87 66 -31 -56
