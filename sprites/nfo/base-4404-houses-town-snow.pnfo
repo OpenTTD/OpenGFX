@@ -1,0 +1,228 @@
+//4404-4492 more town buildings
+//cinema
+   13 sprites/pcx/morebuildings.pcx 2 136 09 31 64 -31 0
+   14 sprites/pcx/morebuildings.pcx 82 136 09 49 64 -31 -18
+//mall
+   16 sprites/pcx/morebuildings.pcx 178 136 09 33 64 -31 -2
+   17 sprites/pcx/morebuildings.pcx 258 136 09 1 1 0 0
+   18 sprites/pcx/morebuildings.pcx 274 136 09 31 64 -31 0
+   19 sprites/pcx/morebuildings.pcx 354 136 09 31 64 -31 0
+   20 sprites/pcx/morebuildings.pcx 434 136 09 31 64 -31 0
+   21 sprites/pcx/morebuildings.pcx 514 136 09 31 64 -31 0
+   22 sprites/pcx/morebuildings.pcx 594 136 09 21 64 -31 -6
+   23 sprites/pcx/morebuildings.pcx 674 136 09 31 64 -31 0
+   24 sprites/pcx/morebuildings.pcx 754 136 09 28 32 1 -15
+   25 sprites/pcx/morebuildings.pcx 2 200 09 31 64 -31 0
+   26 sprites/pcx/morebuildings.pcx 82 200 09 19 32 -31 -6
+   27 sprites/pcx/morebuildings.pcx 130 200 09 31 64 -31 0
+//double house
+ 4418 sprites/pcx/buildings.pcx 610 3384 09 35 64 -31 -4
+  680 sprites/pcx/buildings.pcx 354 3432 09 35 64 -31 -4
+  672 sprites/pcx/buildings.pcx 690 3384 09 24 38 -18 -3
+  673 sprites/pcx/buildings.pcx 738 3384 09 24 38 -18 -3
+  674 sprites/pcx/buildings.pcx 2 3432 09 24 38 -18 -3
+  683 sprites/pcx/buildings.pcx 530 3432 09 24 38 -18 -3
+  675 sprites/pcx/buildings.pcx 50 3432 09 24 38 -18 -3
+  676 sprites/pcx/buildings.pcx 98 3432 09 24 38 -18 -3
+  677 sprites/pcx/buildings.pcx 146 3432 09 24 38 -18 -3
+ 4427 sprites/pcx/buildings.pcx 674 3432 09 24 38 -18 -3
+//house
+ 4428 sprites/pcx/buildings.pcx 322 3048 09 35 64 -31 -4
+ 4429 sprites/pcx/buildings.pcx 82 3096 09 35 64 -31 -4
+ 4430 sprites/pcx/buildings.pcx 402 3048 09 25 36 -17 -4        // Recolour: CREAM, DARK_GREEN, PINK
+ 4431 sprites/pcx/buildings.pcx 450 3048 09 25 36 -17 -4        // Recolour: CREAM, DARK_GREEN, PINK
+ 4432 sprites/pcx/buildings.pcx 498 3048 09 25 36 -17 -4        // Recolour: CREAM, DARK_GREEN, PINK
+ 4433 sprites/pcx/buildings.pcx 258 3096 09 25 36 -17 -4        // Recolour: CREAM, DARK_GREEN, PINK
+//office block
+ 4434 sprites/pcx/morebuildings.pcx 226 200 09 31 64 -31 0
+ 4435 sprites/pcx/morebuildings.pcx 306 200 09 54 64 -31 -23    // Recolour: DARK_GREEN, GRAY, RED
+ 4436 sprites/pcx/morebuildings.pcx 386 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
+ 4437 sprites/pcx/morebuildings.pcx 466 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
+//office block
+ 4438 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
+ 4439 sprites/pcx/morebuildings.pcx 311 308 03 60 54 -25 -31    // Recolour: CREAM, DARK_GREEN, YELLOW
+ 4440 sprites/pcx/morebuildings.pcx 375 308 03 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
+ 4441 sprites/pcx/morebuildings.pcx 439 308 09 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
+ // office block
+ 4442 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
+ 4443 sprites/pcx/morebuildings.pcx 2 308 03 43 64 -31 -12              // Recolour: BROWN, ORANGE, RED
+ 4444 sprites/pcx/morebuildings.pcx 75 308 03 98 64 -31 -67             // Recolour: BROWN, ORANGE, RED
+ 4445 sprites/pcx/morebuildings.pcx 150 308 09 119 64 -31 -88   // Recolour: BROWN, ORANGE, RED
+//house
+  787 sprites/pcx/buildings.pcx 690 3672 09 35 64 -31 -4
+  796 sprites/pcx/buildings.pcx 450 3720 09 35 64 -31 -4
+  788 sprites/pcx/buildings.pcx 2 3720 09 29 30 -8 -4
+  789 sprites/pcx/buildings.pcx 50 3720 09 29 30 -8 -4
+  790 sprites/pcx/buildings.pcx 98 3720 09 29 30 -8 -4
+  799 sprites/pcx/buildings.pcx 626 3720 09 29 30 -8 -4
+//house
+  555 sprites/pcx/buildings.pcx 2 3144 09 35 64 -31 -4
+  564 sprites/pcx/buildings.pcx 530 3144 09 35 64 -31 -4
+  559 sprites/pcx/buildings.pcx 226 3144 09 27 28 -8 -9
+  560 sprites/pcx/buildings.pcx 274 3144 09 27 28 -8 -9
+  561 sprites/pcx/buildings.pcx 322 3144 09 27 28 -8 -9
+ 4457 sprites/pcx/buildings.pcx 50 3192 09 27 28 -8 -9
+//
+  122 sprites/pcx/buildings.pcx 66 792 09 87 66 -31 -56
+  122 sprites/pcx/buildings.pcx 66 792 09 87 66 -31 -56
+  123 sprites/pcx/buildings.pcx 146 792 09 87 66 -31 -56
+  124 sprites/pcx/buildings.pcx 226 792 09 87 66 -31 -56
+//arctic church
+ 4462 sprites/pcx/arcticchurch.pcx 10 10 03 31 64 -31 0
+ 4463 sprites/pcx/arcticchurch.pcx 80 10 03 31 64 -31 0
+ 4464 sprites/pcx/arcticchurch.pcx 150 10 03 44 64 -31 -13
+ 4465 sprites/pcx/arcticchurch.pcx 220 10 09 49 64 -31 -18
+//houses
+ 4466 sprites/pcx/buildings.pcx 706 3528 09 35 64 -31 -4
+ 4467 sprites/pcx/buildings.pcx 146 3576 09 25 36 -16 -2        // Recolour: BROWN, CREAM, GRAY
+ 4468 sprites/pcx/buildings.pcx 194 3576 09 25 36 -16 -2        // Recolour: BROWN, CREAM, GRAY
+ 4469 sprites/pcx/buildings.pcx 242 3576 09 25 36 -16 -2        // Recolour: BROWN, CREAM, GRAY
+//building
+ 4470 sprites/pcx/buildings.pcx 674 904 09 87 66 -31 -56        // Recolour: STRUCT_BROWN
+
+ 4471 sprites/pcx/arctichotel.pcx 2 9 03 33 64 -31 -1
+ 4472 sprites/pcx/arctichotel.pcx 82 9 03 33 64 -31 -1
+ 4473 sprites/pcx/arctichotel.pcx 162 9 03 46 32 -31 -15
+ 4474 sprites/pcx/arctichotel.pcx 206 9 03 63 64 -31 -32
+ 4475 sprites/pcx/arctichotel.pcx 3 80 09 46 32 -31 -15
+ 4476 sprites/pcx/arctichotel.pcx 51 80 09 63 64 -31 -32
+
+// 4477-4479 shops and offices
+HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 0)    // Recolour: STRUCT_BROWN, STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 88)   // Recolour: STRUCT_BROWN, STRUCT_WHITE
+HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 176)  // Recolour: STRUCT_BROWN, STRUCT_WHITE
+
+ 4480 sprites/pcx/morebuilding2.pcx 571 2 03 31 64 -31 0
+ 4481 sprites/pcx/morebuilding2.pcx 571 2 03 1 1 0 0
+ 4482 sprites/pcx/morebuilding2.pcx 646 2 03 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN, GRAY, ORANGE
+ 4483 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
+ 4484 sprites/pcx/morebuilding2.pcx 714 2 09 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN, GRAY, ORANGE
+ 4485 sprites/pcx/morebuilding2.pcx 2 2 09 31 64 -31 0
+ 4486 sprites/pcx/morebuilding2.pcx 68 2 09 31 64 -31 0
+ 4487 sprites/pcx/morebuilding2.pcx 2 68 03 31 64 -31 0
+ 4488 sprites/pcx/morebuilding2.pcx 68 68 03 31 64 -31 0
+ 4489 sprites/pcx/morebuilding2.pcx 358 2 03 114 64 -31 -83
+ 4490 sprites/pcx/morebuilding2.pcx 284 2 03 114 64 -31 -84
+ 4491 sprites/pcx/morebuilding2.pcx 212 2 09 114 64 -31 -83
+ 4492 sprites/pcx/morebuilding2.pcx 138 2 09 114 64 -31 -84
+
+
+//4493-4511 snow stage 1
+  720 sprites/pcx/terrain04.pcx 2 4504 09 31 64 -31 0
+  721 sprites/pcx/terrain04.pcx 82 4504 09 31 64 -31 0
+  722 sprites/pcx/terrain04.pcx 162 4504 09 23 64 -31 0
+  723 sprites/pcx/terrain04.pcx 242 4504 09 23 64 -31 0
+  724 sprites/pcx/terrain04.pcx 322 4504 09 31 64 -31 0
+  725 sprites/pcx/terrain04.pcx 402 4504 09 31 64 -31 0
+  726 sprites/pcx/terrain04.pcx 482 4504 09 23 64 -31 0
+  727 sprites/pcx/terrain04.pcx 562 4504 09 23 64 -31 0
+  728 sprites/pcx/terrain04.pcx 642 4504 09 39 64 -31 -8
+  729 sprites/pcx/terrain04.pcx 722 4504 09 39 64 -31 -8
+  730 sprites/pcx/terrain04.pcx 2 4568 09 31 64 -31 -8
+  731 sprites/pcx/terrain04.pcx 82 4568 09 31 64 -31 -8
+  732 sprites/pcx/terrain04.pcx 162 4568 09 39 64 -31 -8
+  733 sprites/pcx/terrain04.pcx 242 4568 09 39 64 -31 -8
+  734 sprites/pcx/terrain04.pcx 322 4568 09 31 64 -31 -8
+  735 sprites/pcx/terrain04.pcx 402 4568 09 47 64 -31 -16
+  736 sprites/pcx/terrain04.pcx 482 4568 09 15 64 -31 0
+  737 sprites/pcx/terrain04.pcx 562 4568 09 31 64 -31 -8
+  738 sprites/pcx/terrain04.pcx 642 4568 09 31 64 -31 -8
+
+//4512-4530 snow stage 2
+  739 sprites/pcx/terrain04.pcx 722 4568 09 31 64 -31 0
+  740 sprites/pcx/terrain04.pcx 2 4632 09 31 64 -31 0
+  741 sprites/pcx/terrain04.pcx 82 4632 09 23 64 -31 0
+  742 sprites/pcx/terrain04.pcx 162 4632 09 23 64 -31 0
+  743 sprites/pcx/terrain04.pcx 242 4632 09 31 64 -31 0
+  744 sprites/pcx/terrain04.pcx 322 4632 09 31 64 -31 0
+  745 sprites/pcx/terrain04.pcx 402 4632 09 23 64 -31 0
+  746 sprites/pcx/terrain04.pcx 482 4632 09 23 64 -31 0
+  747 sprites/pcx/terrain04.pcx 562 4632 09 39 64 -31 -8
+  748 sprites/pcx/terrain04.pcx 642 4632 09 39 64 -31 -8
+  749 sprites/pcx/terrain04.pcx 722 4632 09 31 64 -31 -8
+  750 sprites/pcx/terrain04.pcx 2 4696 09 31 64 -31 -8
+  751 sprites/pcx/terrain04.pcx 82 4696 09 39 64 -31 -8
+  752 sprites/pcx/terrain04.pcx 162 4696 09 39 64 -31 -8
+  753 sprites/pcx/terrain04.pcx 242 4696 09 31 64 -31 -8
+  754 sprites/pcx/terrain04.pcx 322 4696 09 47 64 -31 -16
+  755 sprites/pcx/terrain04.pcx 402 4696 09 15 64 -31 0
+  756 sprites/pcx/terrain04.pcx 482 4696 09 31 64 -31 -8
+  757 sprites/pcx/terrain04.pcx 562 4696 09 31 64 -31 -8
+
+//4531-4549 snow stage 3
+  758 sprites/pcx/terrain04.pcx 642 4696 09 31 64 -31 0
+  759 sprites/pcx/terrain04.pcx 722 4696 09 31 64 -31 0
+  760 sprites/pcx/terrain04.pcx 2 4760 09 23 64 -31 0
+  761 sprites/pcx/terrain04.pcx 82 4760 09 23 64 -31 0
+  762 sprites/pcx/terrain04.pcx 162 4760 09 31 64 -31 0
+  763 sprites/pcx/terrain04.pcx 242 4760 09 31 64 -31 0
+  764 sprites/pcx/terrain04.pcx 322 4760 09 23 64 -31 0
+  765 sprites/pcx/terrain04.pcx 402 4760 09 23 64 -31 0
+  766 sprites/pcx/terrain04.pcx 482 4760 09 39 64 -31 -8
+  767 sprites/pcx/terrain04.pcx 562 4760 09 39 64 -31 -8
+  768 sprites/pcx/terrain04.pcx 642 4760 09 31 64 -31 -8
+  769 sprites/pcx/terrain04.pcx 722 4760 09 31 64 -31 -8
+  770 sprites/pcx/terrain04.pcx 2 4824 09 39 64 -31 -8
+  771 sprites/pcx/terrain04.pcx 82 4824 09 39 64 -31 -8
+  772 sprites/pcx/terrain04.pcx 162 4824 09 31 64 -31 -8
+  773 sprites/pcx/terrain04.pcx 242 4824 09 47 64 -31 -16
+  774 sprites/pcx/terrain04.pcx 322 4824 09 15 64 -31 0
+  775 sprites/pcx/terrain04.pcx 402 4824 09 31 64 -31 -8
+  776 sprites/pcx/terrain04.pcx 482 4824 09 31 64 -31 -8
+
+//4550-4568 snow final
+  777 sprites/pcx/terrain04.pcx 562 4824 09 31 64 -31 0
+  778 sprites/pcx/terrain04.pcx 642 4824 09 31 64 -31 0
+  779 sprites/pcx/terrain04.pcx 722 4824 09 23 64 -31 0
+  780 sprites/pcx/terrain04.pcx 2 4888 09 23 64 -31 0
+  781 sprites/pcx/terrain04.pcx 82 4888 09 31 64 -31 0
+  782 sprites/pcx/terrain04.pcx 162 4888 09 31 64 -31 0
+  783 sprites/pcx/terrain04.pcx 242 4888 09 23 64 -31 0
+  784 sprites/pcx/terrain04.pcx 322 4888 09 23 64 -31 0
+  785 sprites/pcx/terrain04.pcx 402 4888 09 39 64 -31 -8
+  786 sprites/pcx/terrain04.pcx 482 4888 09 39 64 -31 -8
+  787 sprites/pcx/terrain04.pcx 562 4888 09 31 64 -31 -8
+  788 sprites/pcx/terrain04.pcx 642 4888 09 31 64 -31 -8
+  789 sprites/pcx/terrain04.pcx 722 4888 09 39 64 -31 -8
+  790 sprites/pcx/terrain04.pcx 2 4952 09 39 64 -31 -8
+  791 sprites/pcx/terrain04.pcx 82 4952 09 31 64 -31 -8
+  792 sprites/pcx/terrain04.pcx 162 4952 09 47 64 -31 -16
+  793 sprites/pcx/terrain04.pcx 242 4952 09 15 64 -31 0
+  794 sprites/pcx/terrain04.pcx 322 4952 09 31 64 -31 -8
+  795 sprites/pcx/terrain04.pcx 402 4952 09 31 64 -31 -8
+
+
+//4569-4587 snow buildings
+//snow equiv of 1440-1442 (office block)
+   74 sprites/pcx/temprtbuilds.pcx 578 568 09 77 60 -30 -48
+//snow equiv of 1566-1567 (house)
+  448 sprites/pcx/buildings.pcx 530 2856 09 35 64 -31 -4
+ 4571 sprites/pcx/buildings.pcx 706 2856 09 28 36 -12 -9        // Recolour: STRUCT_WHITE
+//snow equiv of 1568-1569 (house)
+ 4572 sprites/pcx/buildings.pcx 82 3672 09 35 64 -31 -4
+ 4573 sprites/pcx/buildings.pcx 226 3672 09 29 26 -14 -10       // Recolour: CREAM
+//snow equiv of 4434-4437
+ 4574 sprites/pcx/morebuildings.pcx 546 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
+//snow equiv of 4438-4441 (office block)
+ 4575 sprites/pcx/morebuildings.pcx 499 308 09 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
+//snow equiv of 4442-4445 (office block)
+ 4576 sprites/pcx/morebuildings.pcx 230 308 09 119 64 -31 -88   // Recolour: YELLOW, BROWN, ORANGE, RED
+//snow equiv of 4477-4479 (saloon thingy)
+HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 264)  // Recolour: STRUCT_BROWN, STRUCT_WHITE
+//snow equiv of 4459-4461 (shop)
+ 4578 sprites/pcx/buildings.pcx 466 792 09 87 66 -31 -56
+//snow equiv of 4464-4465 (arctic church)
+ 4579 sprites/pcx/arcticchurch.pcx 290 10 09 49 64 -31 -18      // Recolour: STRUCT_BROWN
+//snow equiv of 4466-4469 (houses)
+ 4580 sprites/pcx/buildings.pcx 450 3576 09 35 64 -31 -4
+ 4581 sprites/pcx/buildings.pcx 2 3624 09 25 36 -16 -2  // Recolour: BROWN, CREAM, GRAY
+//snow equiv of 4470 (shops'n'offices)
+ 4582 sprites/pcx/buildings.pcx 162 1016 09 87 66 -31 -56       // Recolour: STRUCT_BROWN
+//snow equiv of 4471-4476 (hotel)
+ 4583 sprites/pcx/arctichotel.pcx 128 80 09 46 32 -31 -15
+ 4584 sprites/pcx/arctichotel.pcx 176 80 09 64 64 -31 -33
+//snow equiv of 4480-4482 (offices)
+ 4585 sprites/pcx/morebuilding2.pcx 784 2 09 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN
+//snow equiv of 4485-4492 (offices)
+ 4586 sprites/pcx/morebuilding2.pcx 504 2 09 114 64 -31 -83
+ 4587 sprites/pcx/morebuilding2.pcx 430 2 09 114 64 -31 -84

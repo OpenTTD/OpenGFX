@@ -1,0 +1,48 @@
+//2692-2723 road stops
+//bus stop
+  948 sprites/pcx/infra08.pcx 2 5160 09 31 64 -31 0
+  949 sprites/pcx/infra08.pcx 82 5160 09 37 64 -31 -6
+  950 sprites/pcx/infra08.pcx 162 5160 09 35 64 -31 -4
+  951 sprites/pcx/infra08.pcx 242 5160 09 40 64 -31 -9
+  952 sprites/pcx/infra08.pcx 322 5160 09 31 64 -27 -2
+  953 sprites/pcx/infra08.pcx 402 5160 09 37 64 -37 -9
+  954 sprites/pcx/infra08.pcx 482 5160 09 35 64 -55 -22
+  955 sprites/pcx/infra08.pcx 562 5160 09 40 64 -5 -26
+  956 sprites/pcx/infra08.pcx 642 5160 09 31 64 -5 -13
+  957 sprites/pcx/infra08.pcx 722 5160 09 37 64 -31 -6
+  958 sprites/pcx/infra08.pcx 2 5224 09 35 64 -31 -4
+  959 sprites/pcx/infra08.pcx 82 5224 09 40 64 -57 -22
+  960 sprites/pcx/infra08.pcx 162 5224 09 31 64 -57 -13
+  961 sprites/pcx/infra08.pcx 242 5224 09 37 64 -11 -22
+  962 sprites/pcx/infra08.pcx 322 5224 09 35 64 -25 -7
+  963 sprites/pcx/infra08.pcx 402 5224 09 40 64 -31 -9
+//cargo stop
+  976 sprites/pcx/infra08.pcx 434 5288 09 36 64 -31 -5
+  977 sprites/pcx/infra08.pcx 514 5288 09 42 64 -31 -11
+  978 sprites/pcx/infra08.pcx 594 5288 09 40 64 -31 -9
+  979 sprites/pcx/infra08.pcx 674 5288 09 41 64 -31 -10
+  980 sprites/pcx/infra08.pcx 2 5352 09 36 64 -61 -20
+  981 sprites/pcx/infra08.pcx 82 5352 09 42 64 -7 -29
+  982 sprites/pcx/infra08.pcx 162 5352 09 40 64 -25 -12
+  983 sprites/pcx/infra08.pcx 242 5352 09 41 64 -31 -10
+  984 sprites/pcx/infra08.pcx 322 5352 09 36 64 -5 -18
+  985 sprites/pcx/infra08.pcx 402 5352 09 42 64 -31 -11
+  986 sprites/pcx/infra08.pcx 482 5352 09 40 64 -31 -9
+  987 sprites/pcx/infra08.pcx 562 5352 09 41 64 -57 -23
+  988 sprites/pcx/infra08.pcx 642 5352 09 36 64 -27 -7
+  989 sprites/pcx/infra08.pcx 722 5352 09 42 64 -37 -14
+  990 sprites/pcx/infra08.pcx 2 5416 09 40 64 -55 -27
+  991 sprites/pcx/infra08.pcx 82 5416 09 41 64 -5 -27
+
+//2724-2726 airport and road stop gui cursors
+  137 sprites/pcx/gui04.pcx 242 280 03 32 32 0 0
+  138 sprites/pcx/gui04.pcx 290 280 03 32 32 0 0
+  139 sprites/pcx/gui04.pcx 338 280 03 32 32 0 0
+
+//2727-2732 docks
+    3 sprites/pcx/redstardocks.pcx 66 8 09 32 64 -39 -13
+    4 sprites/pcx/redstardocks.pcx 146 8 09 40 64 -23 -13
+    5 sprites/pcx/redstardocks.pcx 226 8 09 40 64 -39 -13
+    6 sprites/pcx/redstardocks.pcx 306 8 09 34 64 -23 -15
+    7 sprites/pcx/redstardocks.pcx 386 8 09 55 64 -39 -28
+    8 sprites/pcx/redstardocks.pcx 466 8 09 58 64 -23 -31

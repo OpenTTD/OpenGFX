@@ -1,0 +1,151 @@
+//4677  4685    9       Toyland: Sweet factory
+//Recolour: CC translates to random colour
+// fully boxed
+ 4677 sprites/pcx/sweetfactory_fullwrap.pcx 96 22 01  88 32   1 -57
+ 4678 sprites/pcx/sweetfactory_fullwrap.pcx 32  6 01 120 64 -31 -89
+ 4679 sprites/pcx/sweetfactory_fullwrap.pcx  0 22 01  88 32 -31 -57
+ // partially unwrapped
+ 4680 sprites/pcx/sweetfactory_partialwrap.pcx 96 22 01  88 32   1 -57
+ 4681 sprites/pcx/sweetfactory_partialwrap.pcx 32  6 01 120 64 -31 -89
+ 4682 sprites/pcx/sweetfactory_partialwrap.pcx  0 22 01  88 32 -31 -57
+ // completly built:
+ 4683 sprites/pcx/sweetfactory.pcx 96 22 01  88 32   1 -57
+ 4684 sprites/pcx/sweetfactory.pcx 32  6 01 120 64 -31 -89
+ 4685 sprites/pcx/sweetfactory.pcx  0 22 01  88 32 -31 -57
+
+//4686  4690    5       Toyland: Battery farm
+    3 sprites/pcx/BatteryFarm2.pcx 66 8 09 31 64 -31 0
+    4 sprites/pcx/BatteryFarm2.pcx 146 8 09 31 64 -31 0
+    5 sprites/pcx/BatteryFarm2.pcx 226 8 09 34 64 -31 -3
+    6 sprites/pcx/BatteryFarm2.pcx 306 8 09 38 64 -31 -7
+    7 sprites/pcx/BatteryFarm2.pcx 386 8 09 31 64 -31 0
+
+//4691  4693    3       Toyland: Cola wells
+    3 sprites/pcx/colawells.pcx 66 8 09 31 64 -31 0
+    4 sprites/pcx/colawells.pcx 146 8 09 38 64 -31 -7
+    5 sprites/pcx/colawells.pcx 226 8 09 38 64 -31 -7
+
+//4694  4694    1       Toyland: Statue
+ 4694 sprites/pcx/toyland_statue_sprite270.pcx 0 0 09 80 36 -18 -55     // Recolour: CREAM, PALE_GREEN, RED
+
+//4695  4698    4       Toyland: Tea pot and piggy bank
+   27 sprites/pcx/toyland_wrappedhouses.pcx 402 296 03 89 64 -31 -58
+   28 sprites/pcx/toyland_wrappedhouses.pcx 482 296 03 71 64 -31 -40
+ 4697 sprites/pcx/random.pcx 370 493 09 30 36 -18 -8
+
+ 4698 sprites/pcx/Piggybank.pcx 0 0 09 31 26 -12 -9
+
+//4699  4707    9       Toyland: Toy shop
+ 4699 sprites/pcx/industries/ToyShop1.pcx  97    1 03 157 32   0 -110
+ 4700 sprites/pcx/industries/ToyShop1.pcx   1    1 03 157 32 -31 -110
+ 4701 sprites/pcx/industries/ToyShop1.pcx  33    1 03 157 64 -31 -126
+ 4702 sprites/pcx/industries/ToyShop2.pcx  97    1 03 157 32   0 -110
+ 4703 sprites/pcx/industries/ToyShop2.pcx   1    1 03 157 32 -31 -110
+ 4704 sprites/pcx/industries/ToyShop2.pcx  33    1 03 157 64 -31 -126
+ 4705 sprites/pcx/industries/ToyShop3.pcx  97    1 03 157 32   0 -110
+ 4706 sprites/pcx/industries/ToyShop3.pcx   1    1 03 157 32 -31 -110
+ 4707 sprites/pcx/industries/ToyShop3.pcx  33    1 03 157 64 -31 -126
+
+//4708  4720    13      Toyland: Toy factory
+// construction stage:
+ 4708 sprites/pcx/industries/toyfactory/ToyFactory2.pcx       158   1 03 138 27 -14  -70
+ 4709 sprites/pcx/industries/toyfactory/ToyFactory2.pcx        94   1 03 138 64 -46  -86
+ 4710 sprites/pcx/industries/toyfactory/ToyFactory2.pcx         2   1 03   2  2  52   50
+ 4711 sprites/pcx/industries/toyfactory/ToyFactory2.pcx        38   1 03 138 60 -38 -118
+// built-up version
+ 4712 sprites/pcx/industries/toyfactory/ToyFactory1.pcx       158  31 03 138 27 -14  -70
+ 4713 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        94   1 43 168 64 -46 -116 // Don't crop this sprite!
+ 4714 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2  31 03   2  2  52   50
+ 4715 sprites/pcx/industries/toyfactory/ToyFactory1.pcx        38  31 03 138 60 -38 -118
+ 4716 sprites/pcx/industries/toyfactory/ToyFactory1.pcx         2  31 03 138 37 -43 -102 // wheel
+// Animation sprites. All sprites are drawn as childsprites of 4713 with the specified offsets.
+// Requirements: 0 <= offset[4717..4720] + rel[4717..4720] and offset[4717..4720] + rel[4717..4720] + size[4717..4720] <= size[4713]
+ 4717 sprites/pcx/industries/toyfactory/ToyFactoryOverlay.pcx  98   1 03 138 60   4  -12 // offset (0, 42)
+ 4718 sprites/pcx/industries/toyfactory/ToyFactoryStomper.pcx   0   0 09  98 27   2    7 // offset (7, 0) to (7, 29)
+ 4719 sprites/pcx/industries/toyfactory/ToyFactoryBlob.pcx      0   0 09  11 13   1    4 // offset (50, 96) to (14, 114)
+ 4720 sprites/pcx/industries/toyfactory/ToyFactoryToy.pcx       0   0 09  11 13   0   18 // offset (16, 100) to (0, 108)
+
+//4721  4736    16      Toyland: Plastic fountains
+    3 sprites/pcx/plasfount.pcx 66 8 09 44 64 -31 -13
+    4 sprites/pcx/plasfount.pcx 146 8 09 44 64 -31 -13
+    5 sprites/pcx/plasfount.pcx 226 8 09 44 64 -31 -13
+    6 sprites/pcx/plasfount.pcx 306 8 09 44 64 -31 -13
+    7 sprites/pcx/plasfount.pcx 386 8 09 44 64 -31 -13
+    8 sprites/pcx/plasfount.pcx 466 8 09 44 64 -31 -13
+    9 sprites/pcx/plasfount.pcx 546 8 09 44 64 -31 -13
+   10 sprites/pcx/plasfount.pcx 626 8 09 44 64 -31 -13
+   11 sprites/pcx/plasfount.pcx 706 8 09 36 64 -31 -24
+   12 sprites/pcx/plasfount.pcx 2 72 09 36 64 -31 -24
+   13 sprites/pcx/plasfount.pcx 82 72 09 36 64 -31 -24
+   14 sprites/pcx/plasfount.pcx 162 72 09 36 64 -31 -24
+   15 sprites/pcx/plasfount.pcx 242 72 09 36 64 -31 -24
+   16 sprites/pcx/plasfount.pcx 322 72 09 36 64 -31 -24
+   17 sprites/pcx/plasfount.pcx 402 72 09 36 64 -31 -24
+   18 sprites/pcx/plasfount.pcx 482 72 09 36 64 -31 -24
+
+//4737  4742    6       Toyland: Fizzy drink factory
+//Recolour: CC translates to random colour
+ 4737 sprites/pcx/fizzydrink_factory.pcx 5 10 03 48 49 -28 -38
+ 4738 sprites/pcx/fizzydrink_factory.pcx 69 10 03 119 56 -31 -96
+ 4739 sprites/pcx/fizzydrink_factory.pcx 133 10 03 68 23 -22 -43
+ 4740 sprites/pcx/fizzydrink_factory.pcx 165 10 09 29 23 1 -4
+ 4741 sprites/pcx/fizzydrink_factory.pcx 197 10 09 151 64 -31 -128
+ 4742 sprites/pcx/fizzydrink_factory.pcx 277 10 09 78 26 -22 -53
+
+//4743  4762    20      Toyland: Bubble generator
+//Recolour: CC translates to random colour
+ 4743 sprites/pcx/BubbleGenerator8bpp.pcx  50 110 09   5  5   0    0
+ 4744 sprites/pcx/BubbleGenerator8bpp.pcx  63   0 09 117 39   0  -88
+ 4745 sprites/pcx/BubbleGenerator8bpp.pcx   0   0 09 117 63 -31 -104
+ 4746 sprites/pcx/BubbleGenerator8bpp.pcx  50 110 09   5  5   0    0
+ 4747 sprites/pcx/BubbleGenerator8bpp.pcx  50 110 09   5  5   0    0
+
+// Bubbles
+    3 sprites/pcx/bubbles.pcx 66 8 09 15 15 -7 -15
+    4 sprites/pcx/bubbles.pcx 98 8 09 16 15 -7 -16
+    5 sprites/pcx/bubbles.pcx 130 8 09 15 16 -7 -15
+    6 sprites/pcx/bubbles.pcx 162 8 09 4 17 -8 -2
+    7 sprites/pcx/bubbles.pcx 194 8 09 8 17 -8 -6
+    8 sprites/pcx/bubbles.pcx 226 8 09 12 17 -8 -10
+    9 sprites/pcx/bubbles.pcx 258 8 09 15 17 -8 -13
+   10 sprites/pcx/bubbles.pcx 290 8 09 21 20 -9 -18
+   11 sprites/pcx/bubbles.pcx 322 8 09 28 28 -13 -21
+   12 sprites/pcx/bubbles.pcx 370 8 09 36 37 -17 -25
+   13 sprites/pcx/bubbles.pcx 418 8 09 16 15 -7 -15
+   14 sprites/pcx/bubbles.pcx 450 8 09 18 15 -7 -14
+   15 sprites/pcx/bubbles.pcx 482 8 09 22 13 -6 -12
+   16 sprites/pcx/bubbles.pcx 514 8 09 26 11 -5 -6
+   17 sprites/pcx/bubbles.pcx 530 8 09 35 7 -3 1
+
+//4763  4767    5       Toyland: Toffee quarry
+ 4763 sprites/pcx/toffee_quary.pcx  90 0 09 35 44 -21 -10
+ 4764 sprites/pcx/toffee_quary.pcx  30 0 09 62 49 -38 -20
+ 4765 sprites/pcx/toffee_quary.pcx 140 0 09 22 16 -20 5
+ 4766 sprites/pcx/toffee_quary.pcx 160 0 09 52 39 -4 -8
+ 4767 sprites/pcx/toffee_quary.pcx   0 0 09 25 24 -8 -8
+
+//4768  4789    22      Toyland: Sugar mine
+ 4768 sprites/pcx/industries/sugarmine/bgstockpile.pcx           32   1 09 32 64 -32   0
+ 4769 sprites/pcx/industries/sugarmine/bgstockpile.pcx           96  16 09 32 32   0  -1
+ 4770 sprites/pcx/industries/sugarmine/bgstockpile.pcx            1  16 09 32 32 -32  -1
+ 4771 sprites/pcx/industries/sugarmine/bgstockpile.pcx           32  32 09 32 64 -32  -1
+ 4772 sprites/pcx/industries/sugarmine/Support.pcx               78   0 09  95 13   0 -78
+ 4773 sprites/pcx/industries/sugarmine/Support.pcx               14   0 49 106 64 -32 -94 // Don't crop this sprite!
+ 4774 sprites/pcx/industries/sugarmine/Support.pcx                0   0 09  95 14 -13 -78
+// Animation sprites. All sprites are drawn as childsprites of 4773 with the specified offsets.
+// Requirements: 0 <= offset[4775..4789] + rel[4775..4789] and offset[4775..4789] + rel[4775..4789] + size[4775..4789] <= size[4773]
+ 4775 sprites/pcx/industries/sugarmine/Sieve5.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4776 sprites/pcx/industries/sugarmine/Sieve4.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4777 sprites/pcx/industries/sugarmine/Sieve3.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4778 sprites/pcx/industries/sugarmine/Sieve2.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4779 sprites/pcx/industries/sugarmine/Sieve1.pcx                 0   0 09 48 49   0   0 // offset (4, 0) to (12, 0)
+ 4780 sprites/pcx/industries/sugarmine/Pile4.pcx                  0   0 09 48 49 -16 -16 // offset (22, 73)
+ 4781 sprites/pcx/industries/sugarmine/Pile3.pcx                  0   0 09 48 49  -8 -12 // offset (17, 70)
+ 4782 sprites/pcx/industries/sugarmine/Pile2.pcx                  0   0 09 48 49  -4 -12 // offset (14, 69)
+ 4783 sprites/pcx/industries/sugarmine/Pile1.pcx                  0   0 09 48 49   0  -8 // offset (10, 66)
+ 4784 sprites/pcx/industries/sugarmine/Sug2.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4785 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4786 sprites/pcx/industries/sugarmine/Sug4.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4787 sprites/pcx/industries/sugarmine/Sug5.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4788 sprites/pcx/industries/sugarmine/Sug1.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)
+ 4789 sprites/pcx/industries/sugarmine/Sug3.pcx                   0   0 09 44 49   0   0 // offset ( 8, 41)

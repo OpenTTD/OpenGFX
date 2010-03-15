@@ -1,0 +1,46 @@
+//3701-3740 smoke/explosion effects
+//powerplant smoke
+ 3701 sprites/pcx/random.pcx 10 383 09 60 50 -1 -59
+ 3702 sprites/pcx/random.pcx 70 383 09 60 50 -1 -59
+ 3703 sprites/pcx/random.pcx 130 383 09 60 50 -1 -59
+ 3704 sprites/pcx/random.pcx 190 383 09 60 50 -1 -59
+ 3705 sprites/pcx/random.pcx 250 383 09 60 50 -1 -59
+ 3706 sprites/pcx/random.pcx 310 383 09 60 50 -1 -59
+ 3707 sprites/pcx/random.pcx 370 383 09 60 50 -1 -59
+ 3708 sprites/pcx/random.pcx 430 383 09 60 50 -1 -59
+//large explosion
+ 3709 sprites/pcx/random.pcx 10 267 09 47 47 -23 -23
+ 3710 sprites/pcx/random.pcx 60 267 09 47 47 -23 -23
+ 3711 sprites/pcx/random.pcx 110 267 09 47 47 -23 -23
+ 3712 sprites/pcx/random.pcx 160 267 09 47 47 -23 -23
+ 3713 sprites/pcx/random.pcx 210 267 09 47 47 -23 -23
+ 3714 sprites/pcx/random.pcx 260 267 09 47 47 -23 -23
+ 3715 sprites/pcx/random.pcx 310 267 09 47 47 -23 -23
+ 3716 sprites/pcx/random.pcx 360 267 09 47 47 -23 -23
+ 3717 sprites/pcx/random.pcx 410 267 09 47 47 -23 -23
+ 3718 sprites/pcx/random.pcx 460 267 09 47 47 -23 -23
+ 3719 sprites/pcx/random.pcx 510 267 09 47 47 -23 -23
+ 3720 sprites/pcx/random.pcx 560 267 09 47 47 -23 -23
+ 3721 sprites/pcx/random.pcx 610 267 09 47 47 -23 -23
+ 3722 sprites/pcx/random.pcx 660 267 09 47 47 -23 -23
+ 3723 sprites/pcx/random.pcx 710 267 09 47 47 -23 -23
+ 3724 sprites/pcx/random.pcx 710 267 09 47 47 -23 -23
+//small explosion
+ 3725 sprites/pcx/random.pcx 10 233 09 28 28 -14 -14
+ 3726 sprites/pcx/random.pcx 42 233 09 28 28 -14 -14
+ 3727 sprites/pcx/random.pcx 74 233 09 28 28 -14 -14
+ 3728 sprites/pcx/random.pcx 106 233 09 28 28 -14 -14
+ 3729 sprites/pcx/random.pcx 140 233 09 28 28 -14 -14
+ 3730 sprites/pcx/random.pcx 172 233 09 28 28 -14 -14
+ 3731 sprites/pcx/random.pcx 204 233 09 28 28 -14 -14
+ 3732 sprites/pcx/random.pcx 236 233 09 28 28 -14 -14
+ 3733 sprites/pcx/random.pcx 270 233 09 28 28 -14 -14
+ 3734 sprites/pcx/random.pcx 302 233 09 28 28 -14 -14
+ 3735 sprites/pcx/random.pcx 334 233 09 28 28 -14 -14
+ 3736 sprites/pcx/random.pcx 366 233 09 28 28 -14 -14
+//breakdown smoke
+ 3737 sprites/pcx/random.pcx 208 333 09 32 32 0 -31
+ 3738 sprites/pcx/random.pcx 245 333 09 32 32 0 -31
+ 3739 sprites/pcx/random.pcx 282 333 09 32 32 0 -31
+ 3740 sprites/pcx/random.pcx 320 333 09 32 32 0 -31
+
