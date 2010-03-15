@@ -1880,17 +1880,17 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1426-1429-flats.pcx,264)	// (Ground tile)
   383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -31 -56
   384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -31 -56
 //old offices
-  174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -28 -60
-  175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -28 -60
-  176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -28 -60
+  174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -31 -56
+  175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -31 -56
+  176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -31 -56
 // 1467-1469 old offices
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 0)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 88)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)	// Recolour: STRUCT_BLUE, STRUCT_WHITE
 //pointy modern building
- 1470 sprites/pcx/temprtbuilds.pcx 642 104 03 115 52 -19 -90	// Recolour: BLUE, GREEN, ORANGE, RED
- 1471 sprites/pcx/temprtbuilds.pcx 706 104 03 115 54 -21 -90	// Recolour: BLUE, GREEN, ORANGE, RED
- 1472 sprites/pcx/temprtbuilds.pcx 2 232 09 115 54 -21 -90		// Recolour: BLUE, GREEN, ORANGE, RED
+ 1470 sprites/pcx/temprtbuilds.pcx 642 104 03 115 52 -24 -88	// Recolour: BLUE, GREEN, ORANGE, RED
+ 1471 sprites/pcx/temprtbuilds.pcx 706 104 03 115 54 -25 -88	// Recolour: BLUE, GREEN, ORANGE, RED
+ 1472 sprites/pcx/temprtbuilds.pcx 2 232 09 115 54 -25 -88		// Recolour: BLUE, GREEN, ORANGE, RED
 //warehouse
    31 sprites/pcx/temprtbuilds.pcx 82 232 03 29 48 -23 -5
    32 sprites/pcx/temprtbuilds.pcx 146 232 03 43 48 -23 -19
