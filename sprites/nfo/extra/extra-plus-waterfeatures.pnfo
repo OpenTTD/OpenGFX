@@ -1,0 +1,994 @@
+//Waterfeatures
+ -1 * 0  0C "Waterfeatures"
+   68 * 4        01 05 01 0C
+   69 sprites/pcx/waterfeatures.pcx 18 360 09 19 38 -5 0
+   70 sprites/pcx/waterfeatures.pcx 66 360 09 18 38 -5 13
+   71 sprites/pcx/waterfeatures.pcx 114 360 09 18 38 -31 13
+   72 sprites/pcx/waterfeatures.pcx 162 360 09 19 38 -31 0
+   73 sprites/pcx/waterfeatures.pcx 210 360 09 9 19 14 11
+   74 sprites/pcx/waterfeatures.pcx 242 360 09 9 16 -7 22
+   75 sprites/pcx/waterfeatures.pcx 274 360 09 9 19 -31 11
+   76 sprites/pcx/waterfeatures.pcx 306 360 09 9 16 -7 0
+   77 sprites/pcx/waterfeatures.pcx 338 360 09 6 8 25 13
+   78 sprites/pcx/waterfeatures.pcx 354 360 09 4 12 -5 27
+   79 sprites/pcx/waterfeatures.pcx 386 360 09 6 8 -31 13
+   80 sprites/pcx/waterfeatures.pcx 402 360 09 5 12 -5 0
+   81 * 7        02 05 35 01 00 00 00
+
+   82 * 4        01 05 01 0C
+   83 sprites/pcx/waterfeatures.pcx 466 360 09 19 38 -5 0
+   84 sprites/pcx/waterfeatures.pcx 514 360 09 18 38 -5 13
+   85 sprites/pcx/waterfeatures.pcx 562 360 09 18 38 -31 13
+   86 sprites/pcx/waterfeatures.pcx 610 360 09 19 38 -31 0
+   87 sprites/pcx/waterfeatures.pcx 658 360 09 9 19 14 11
+   88 sprites/pcx/waterfeatures.pcx 690 360 09 9 16 -7 22
+   89 sprites/pcx/waterfeatures.pcx 722 360 09 9 19 -31 11
+   90 sprites/pcx/waterfeatures.pcx 754 360 09 9 16 -7 0
+   91 sprites/pcx/waterfeatures.pcx 786 360 09 6 8 25 13
+   92 sprites/pcx/waterfeatures.pcx 2 392 09 4 12 -5 27
+   93 sprites/pcx/waterfeatures.pcx 34 392 09 6 8 -31 13
+   94 sprites/pcx/waterfeatures.pcx 50 392 09 5 12 -5 0
+   95 * 7        02 05 36 01 00 00 00
+   96 * 14       02 05 37 81 81 00 FF 01 35 00 04 04 36 00
+   97 * 6        07 83 01 \7! 01 01
+   98 * 7        03 05 01 02 00 37 00
+
+   99 * 4        01 05 01 0C
+  100 sprites/pcx/waterfeatures.pcx 162 392 09 19 38 -5 0
+  101 sprites/pcx/waterfeatures.pcx 210 392 09 18 38 -5 13
+  102 sprites/pcx/waterfeatures.pcx 258 392 09 18 38 -31 13
+  103 sprites/pcx/waterfeatures.pcx 306 392 09 19 38 -31 0
+  104 sprites/pcx/waterfeatures.pcx 354 392 09 9 19 14 11
+  105 sprites/pcx/waterfeatures.pcx 386 392 09 9 16 -7 22
+  106 sprites/pcx/waterfeatures.pcx 418 392 09 9 19 -31 11
+  107 sprites/pcx/waterfeatures.pcx 450 392 09 9 16 -7 0
+  108 sprites/pcx/waterfeatures.pcx 482 392 09 6 8 25 13
+  109 sprites/pcx/waterfeatures.pcx 498 392 09 4 12 -5 27
+  110 sprites/pcx/waterfeatures.pcx 530 392 09 6 8 -31 13
+  111 sprites/pcx/waterfeatures.pcx 546 392 09 5 12 -5 0
+  112 * 7        02 05 38 01 00 00 00
+
+  113 * 4        01 05 01 0C
+  114 sprites/pcx/waterfeatures.pcx 610 392 09 19 38 -5 0
+  115 sprites/pcx/waterfeatures.pcx 658 392 09 18 38 -5 13
+  116 sprites/pcx/waterfeatures.pcx 706 392 09 18 38 -31 13
+  117 sprites/pcx/waterfeatures.pcx 754 392 09 19 38 -31 0
+  118 sprites/pcx/waterfeatures.pcx 2 424 09 9 19 14 11
+  119 sprites/pcx/waterfeatures.pcx 34 424 09 9 16 -7 22
+  120 sprites/pcx/waterfeatures.pcx 66 424 09 9 19 -31 11
+  121 sprites/pcx/waterfeatures.pcx 98 424 09 9 16 -7 0
+  122 sprites/pcx/waterfeatures.pcx 130 424 09 6 8 25 13
+  123 sprites/pcx/waterfeatures.pcx 146 424 09 4 12 -5 27
+  124 sprites/pcx/waterfeatures.pcx 178 424 09 6 8 -31 13
+  125 sprites/pcx/waterfeatures.pcx 194 424 09 5 12 -5 0
+  126 * 7        02 05 39 01 00 00 00
+  127 * 14       02 05 40 81 81 00 FF 01 38 00 01 01 39 00
+  128 * 6        07 83 01 \7! 02 01
+  129 * 7        03 05 01 02 00 40 00
+
+  130 * 4        01 05 01 0C
+  131 sprites/pcx/waterfeatures.pcx 306 424 09 19 38 -5 0
+  132 sprites/pcx/waterfeatures.pcx 354 424 09 18 38 -5 13
+  133 sprites/pcx/waterfeatures.pcx 402 424 09 18 38 -31 13
+  134 sprites/pcx/waterfeatures.pcx 450 424 09 19 38 -31 0
+  135 sprites/pcx/waterfeatures.pcx 498 424 09 9 19 14 11
+  136 sprites/pcx/waterfeatures.pcx 530 424 09 9 16 -7 22
+  137 sprites/pcx/waterfeatures.pcx 562 424 09 9 19 -31 11
+  138 sprites/pcx/waterfeatures.pcx 594 424 09 9 16 -7 0
+  139 sprites/pcx/waterfeatures.pcx 626 424 09 6 8 25 13
+  140 sprites/pcx/waterfeatures.pcx 642 424 09 4 12 -5 27
+  141 sprites/pcx/waterfeatures.pcx 674 424 09 6 8 -31 13
+  142 sprites/pcx/waterfeatures.pcx 690 424 09 5 12 -5 0
+  143 * 7        02 05 41 01 00 00 00
+  144 * 6        07 83 01 \7! 03 01
+  145 * 7        03 05 01 02 00 41 00
+
+  146 * 4        01 05 01 04
+  147 sprites/pcx/waterfeatures.pcx 2 456 09 23 64 -31 0
+  148 sprites/pcx/waterfeatures.pcx 82 456 09 39 64 -31 -8
+  149 sprites/pcx/waterfeatures.pcx 162 456 09 23 64 -31 0
+  150 sprites/pcx/waterfeatures.pcx 242 456 09 39 64 -31 -8
+  151 * 7        02 05 00 01 00 00 00
+
+  152 * 4        01 05 01 04
+  153 sprites/pcx/waterfeatures.pcx 354 456 09 23 64 -31 0
+  154 sprites/pcx/waterfeatures.pcx 434 456 09 39 64 -31 -8
+  155 sprites/pcx/waterfeatures.pcx 514 456 09 23 64 -31 0
+  156 sprites/pcx/waterfeatures.pcx 594 456 09 39 64 -31 -8
+  157 * 7        02 05 01 01 00 00 00
+
+  158 * 4        01 05 01 04
+  159 sprites/pcx/waterfeatures.pcx 706 456 09 23 64 -31 0
+  160 sprites/pcx/waterfeatures.pcx 2 520 09 39 64 -31 -8
+  161 sprites/pcx/waterfeatures.pcx 82 520 09 23 64 -31 0
+  162 sprites/pcx/waterfeatures.pcx 162 520 09 39 64 -31 -8
+  163 * 7        02 05 02 01 00 00 00
+
+  164 * 4        01 05 01 04
+  165 sprites/pcx/waterfeatures.pcx 274 520 09 23 64 -31 0
+  166 sprites/pcx/waterfeatures.pcx 354 520 09 39 64 -31 -8
+  167 sprites/pcx/waterfeatures.pcx 434 520 09 23 64 -31 0
+  168 sprites/pcx/waterfeatures.pcx 514 520 09 39 64 -31 -8
+  169 * 7        02 05 03 01 00 00 00
+
+  170 * 4        01 05 01 04
+  171 sprites/pcx/waterfeatures.pcx 626 520 09 23 64 -31 0
+  172 sprites/pcx/waterfeatures.pcx 706 520 09 39 64 -31 -8
+  173 sprites/pcx/waterfeatures.pcx 2 584 09 23 64 -31 0
+  174 sprites/pcx/waterfeatures.pcx 82 584 09 39 64 -31 -8
+  175 * 7        02 05 04 01 00 00 00
+
+  176 * 4        01 05 01 04
+  177 sprites/pcx/waterfeatures.pcx 194 584 09 23 64 -31 0
+  178 sprites/pcx/waterfeatures.pcx 274 584 09 39 64 -31 -8
+  179 sprites/pcx/waterfeatures.pcx 354 584 09 23 64 -31 0
+  180 sprites/pcx/waterfeatures.pcx 434 584 09 39 64 -31 -8
+  181 * 7        02 05 05 01 00 00 00
+
+  182 * 4        01 05 01 04
+  183 sprites/pcx/waterfeatures.pcx 546 584 09 23 64 -31 0
+  184 sprites/pcx/waterfeatures.pcx 626 584 09 39 64 -31 -8
+  185 sprites/pcx/waterfeatures.pcx 706 584 09 23 64 -31 0
+  186 sprites/pcx/waterfeatures.pcx 2 648 09 39 64 -31 -8
+  187 * 7        02 05 06 01 00 00 00
+
+  188 * 4        01 05 01 04
+  189 sprites/pcx/waterfeatures.pcx 114 648 09 23 64 -31 0
+  190 sprites/pcx/waterfeatures.pcx 194 648 09 39 64 -31 -8
+  191 sprites/pcx/waterfeatures.pcx 274 648 09 23 64 -31 0
+  192 sprites/pcx/waterfeatures.pcx 354 648 09 39 64 -31 -8
+  193 * 7        02 05 07 01 00 00 00
+
+  194 * 4        01 05 01 04
+  195 sprites/pcx/waterfeatures.pcx 466 648 09 23 64 -31 0
+  196 sprites/pcx/waterfeatures.pcx 546 648 09 39 64 -31 -8
+  197 sprites/pcx/waterfeatures.pcx 626 648 09 23 64 -31 0
+  198 sprites/pcx/waterfeatures.pcx 706 648 09 39 64 -31 -8
+  199 * 7        02 05 08 01 00 00 00
+
+  200 * 4        01 05 01 04
+  201 sprites/pcx/waterfeatures.pcx 18 712 09 23 64 -31 0
+  202 sprites/pcx/waterfeatures.pcx 98 712 09 39 64 -31 -8
+  203 sprites/pcx/waterfeatures.pcx 178 712 09 23 64 -31 0
+  204 sprites/pcx/waterfeatures.pcx 258 712 09 39 64 -31 -8
+  205 * 7        02 05 09 01 00 00 00
+
+  206 * 4        01 05 01 04
+  207 sprites/pcx/waterfeatures.pcx 370 712 09 23 64 -31 0
+  208 sprites/pcx/waterfeatures.pcx 450 712 09 39 64 -31 -8
+  209 sprites/pcx/waterfeatures.pcx 530 712 09 23 64 -31 0
+  210 sprites/pcx/waterfeatures.pcx 610 712 09 39 64 -31 -8
+  211 * 7        02 05 0A 01 00 00 00
+
+  212 * 4        01 05 01 04
+  213 sprites/pcx/waterfeatures.pcx 722 712 09 23 64 -31 0
+  214 sprites/pcx/waterfeatures.pcx 2 776 09 39 64 -31 -8
+  215 sprites/pcx/waterfeatures.pcx 82 776 09 23 64 -31 0
+  216 sprites/pcx/waterfeatures.pcx 162 776 09 39 64 -31 -8
+  217 * 7        02 05 0B 01 00 00 00
+
+  218 * 4        01 05 01 04
+  219 sprites/pcx/waterfeatures.pcx 274 776 09 23 64 -31 0
+  220 sprites/pcx/waterfeatures.pcx 354 776 09 39 64 -31 -8
+  221 sprites/pcx/waterfeatures.pcx 434 776 09 23 64 -31 0
+  222 sprites/pcx/waterfeatures.pcx 514 776 09 39 64 -31 -8
+  223 * 7        02 05 0C 01 00 00 00
+
+  224 * 4        01 05 01 04
+  225 sprites/pcx/waterfeatures.pcx 626 776 09 23 64 -31 0
+  226 sprites/pcx/waterfeatures.pcx 706 776 09 39 64 -31 -8
+  227 sprites/pcx/waterfeatures.pcx 2 840 09 23 64 -31 0
+  228 sprites/pcx/waterfeatures.pcx 82 840 09 39 64 -31 -8
+  229 * 7        02 05 0D 01 00 00 00
+
+  230 * 4        01 05 01 04
+  231 sprites/pcx/waterfeatures.pcx 194 840 09 23 64 -31 0
+  232 sprites/pcx/waterfeatures.pcx 274 840 09 39 64 -31 -8
+  233 sprites/pcx/waterfeatures.pcx 354 840 09 23 64 -31 0
+  234 sprites/pcx/waterfeatures.pcx 434 840 09 39 64 -31 -8
+  235 * 7        02 05 0E 01 00 00 00
+
+  236 * 4        01 05 01 04
+  237 sprites/pcx/waterfeatures.pcx 546 840 09 23 64 -31 0
+  238 sprites/pcx/waterfeatures.pcx 626 840 09 39 64 -31 -8
+  239 sprites/pcx/waterfeatures.pcx 706 840 09 23 64 -31 0
+  240 sprites/pcx/waterfeatures.pcx 2 904 09 39 64 -31 -8
+
+  241 * 7        02
+        05 // Canals
+        0F // ID
+        01 00 00 00
+
+  242 * 39       02
+        05 // Canals
+        10 // ID
+        80 // Random:  Use 80 to randomize the object (vehicle, station, building, industry) based on its own triggers and bits.
+        00 // Trigger:
+        00 // Randbit: Only 0 random bits are available.
+        10 // 16 Sets
+        00 00
+        01 00
+        02 00
+        03 00
+        04 00
+        05 00
+        06 00
+        07 00
+        08 00
+        09 00
+        0A 00
+        0B 00
+        0C 00
+        0D 00
+        0E 00
+        0F 00
+
+  243 * 7        03
+        05 // Canals
+        01 // 1 water slope
+        05 00 //
+        10 00 //
+
+  244 * 4        01 05 01 3C
+  245 sprites/pcx/waterfeatures.pcx 146 904 09 19 38 -5 0
+  246 sprites/pcx/waterfeatures.pcx 194 904 09 18 38 -5 13
+  247 sprites/pcx/waterfeatures.pcx 242 904 09 18 38 -31 13
+  248 sprites/pcx/waterfeatures.pcx 290 904 09 19 38 -31 0
+  249 sprites/pcx/waterfeatures.pcx 338 904 09 9 19 14 11
+  250 sprites/pcx/waterfeatures.pcx 370 904 09 9 16 -7 22
+  251 sprites/pcx/waterfeatures.pcx 402 904 09 9 19 -31 11
+  252 sprites/pcx/waterfeatures.pcx 434 904 09 9 16 -7 0
+  253 sprites/pcx/waterfeatures.pcx 466 904 09 6 8 25 13
+  254 sprites/pcx/waterfeatures.pcx 482 904 09 4 12 -5 27
+  255 sprites/pcx/waterfeatures.pcx 514 904 09 6 8 -31 13
+  256 sprites/pcx/waterfeatures.pcx 530 904 09 5 12 -5 0
+  257 sprites/pcx/waterfeatures.pcx 562 904 09 11 40 -7 0
+  258 sprites/pcx/waterfeatures.pcx 610 904 09 18 39 -6 5
+  259 sprites/pcx/waterfeatures.pcx 658 904 09 11 38 -31 12
+  260 sprites/pcx/waterfeatures.pcx 706 904 09 18 39 -31 0
+  261 sprites/pcx/waterfeatures.pcx 754 904 09 6 20 13 5
+  262 sprites/pcx/waterfeatures.pcx 2 968 09 7 13 -6 16
+  263 sprites/pcx/waterfeatures.pcx 34 968 09 6 20 -31 12
+  264 sprites/pcx/waterfeatures.pcx 66 968 09 7 13 -5 0
+  265 sprites/pcx/waterfeatures.pcx 98 968 09 5 8 25 6
+  266 sprites/pcx/waterfeatures.pcx 114 968 09 3 12 -5 20
+  267 sprites/pcx/waterfeatures.pcx 146 968 09 4 8 -31 13
+  268 sprites/pcx/waterfeatures.pcx 162 968 09 4 15 -7 0
+  269 sprites/pcx/waterfeatures.pcx 194 968 09 20 38 -5 -8
+  270 sprites/pcx/waterfeatures.pcx 242 968 09 26 38 -5 5
+  271 sprites/pcx/waterfeatures.pcx 290 968 09 20 37 -31 11
+  272 sprites/pcx/waterfeatures.pcx 338 968 09 27 38 -31 -8
+  273 sprites/pcx/waterfeatures.pcx 386 968 09 9 16 17 3
+  274 sprites/pcx/waterfeatures.pcx 418 968 09 9 15 -7 22
+  275 sprites/pcx/waterfeatures.pcx 450 968 09 9 16 -31 11
+  276 sprites/pcx/waterfeatures.pcx 482 968 09 9 15 -6 -8
+  277 sprites/pcx/waterfeatures.pcx 514 968 09 7 8 25 5
+  278 sprites/pcx/waterfeatures.pcx 530 968 09 5 10 -4 27
+  279 sprites/pcx/waterfeatures.pcx 546 968 09 7 8 -31 11
+  280 sprites/pcx/waterfeatures.pcx 562 968 09 6 12 -5 -8
+  281 sprites/pcx/waterfeatures.pcx 594 968 09 18 39 -6 0
+  282 sprites/pcx/waterfeatures.pcx 642 968 09 11 38 -5 12
+  283 sprites/pcx/waterfeatures.pcx 690 968 09 18 39 -31 5
+  284 sprites/pcx/waterfeatures.pcx 738 968 09 11 40 -32 0
+  285 sprites/pcx/waterfeatures.pcx 2 1016 09 6 20 13 12
+  286 sprites/pcx/waterfeatures.pcx 34 1016 09 7 13 -5 16
+  287 sprites/pcx/waterfeatures.pcx 66 1016 09 6 20 -31 5
+  288 sprites/pcx/waterfeatures.pcx 98 1016 09 7 13 -6 0
+  289 sprites/pcx/waterfeatures.pcx 130 1016 09 4 8 26 13
+  290 sprites/pcx/waterfeatures.pcx 146 1016 09 3 12 -5 20
+  291 sprites/pcx/waterfeatures.pcx 178 1016 09 5 8 -31 6
+  292 sprites/pcx/waterfeatures.pcx 194 1016 09 4 15 -6 0
+  293 sprites/pcx/waterfeatures.pcx 226 1016 09 27 38 -5 -8
+  294 sprites/pcx/waterfeatures.pcx 274 1016 09 20 37 -4 11
+  295 sprites/pcx/waterfeatures.pcx 322 1016 09 26 37 -31 5
+  296 sprites/pcx/waterfeatures.pcx 370 1016 09 20 38 -31 -8
+  297 sprites/pcx/waterfeatures.pcx 418 1016 09 9 16 17 11
+  298 sprites/pcx/waterfeatures.pcx 450 1016 09 9 15 -6 22
+  299 sprites/pcx/waterfeatures.pcx 482 1016 09 9 16 -31 3
+  300 sprites/pcx/waterfeatures.pcx 514 1016 09 9 15 -7 -8
+  301 sprites/pcx/waterfeatures.pcx 546 1016 09 7 8 25 11
+  302 sprites/pcx/waterfeatures.pcx 562 1016 09 5 10 -4 26
+  303 sprites/pcx/waterfeatures.pcx 578 1016 09 7 8 -31 5
+  304 sprites/pcx/waterfeatures.pcx 594 1016 09 6 12 -5 -8
+  305 * 7        02 05 20 01 00 00 00
+
+  306 * 4        01 05 01 3C
+  307 sprites/pcx/waterfeatures.pcx 658 1016 09 19 38 -5 0
+  308 sprites/pcx/waterfeatures.pcx 706 1016 09 18 38 -5 13
+  309 sprites/pcx/waterfeatures.pcx 754 1016 09 18 38 -31 13
+  310 sprites/pcx/waterfeatures.pcx 2 1064 09 19 38 -31 0
+  311 sprites/pcx/waterfeatures.pcx 50 1064 09 9 19 14 11
+  312 sprites/pcx/waterfeatures.pcx 82 1064 09 9 16 -7 22
+  313 sprites/pcx/waterfeatures.pcx 114 1064 09 9 19 -31 11
+  314 sprites/pcx/waterfeatures.pcx 146 1064 09 9 16 -7 0
+  315 sprites/pcx/waterfeatures.pcx 178 1064 09 6 8 25 13
+  316 sprites/pcx/waterfeatures.pcx 194 1064 09 4 12 -5 27
+  317 sprites/pcx/waterfeatures.pcx 226 1064 09 6 8 -31 13
+  318 sprites/pcx/waterfeatures.pcx 242 1064 09 5 12 -5 0
+  319 sprites/pcx/waterfeatures.pcx 274 1064 09 11 40 -7 0
+  320 sprites/pcx/waterfeatures.pcx 322 1064 09 18 39 -6 5
+  321 sprites/pcx/waterfeatures.pcx 370 1064 09 11 38 -31 12
+  322 sprites/pcx/waterfeatures.pcx 418 1064 09 18 39 -31 0
+  323 sprites/pcx/waterfeatures.pcx 466 1064 09 6 20 13 5
+  324 sprites/pcx/waterfeatures.pcx 498 1064 09 7 13 -6 16
+  325 sprites/pcx/waterfeatures.pcx 530 1064 09 6 20 -31 12
+  326 sprites/pcx/waterfeatures.pcx 562 1064 09 7 13 -5 0
+  327 sprites/pcx/waterfeatures.pcx 594 1064 09 5 8 25 6
+  328 sprites/pcx/waterfeatures.pcx 610 1064 09 3 12 -5 20
+  329 sprites/pcx/waterfeatures.pcx 642 1064 09 4 8 -31 13
+  330 sprites/pcx/waterfeatures.pcx 658 1064 09 4 15 -7 0
+  331 sprites/pcx/waterfeatures.pcx 690 1064 09 20 38 -5 -8
+  332 sprites/pcx/waterfeatures.pcx 738 1064 09 26 38 -5 5
+  333 sprites/pcx/waterfeatures.pcx 2 1112 09 20 37 -31 11
+  334 sprites/pcx/waterfeatures.pcx 50 1112 09 27 38 -31 -8
+  335 sprites/pcx/waterfeatures.pcx 98 1112 09 9 16 17 3
+  336 sprites/pcx/waterfeatures.pcx 130 1112 09 9 15 -7 22
+  337 sprites/pcx/waterfeatures.pcx 162 1112 09 9 16 -31 11
+  338 sprites/pcx/waterfeatures.pcx 194 1112 09 9 15 -6 -8
+  339 sprites/pcx/waterfeatures.pcx 226 1112 09 7 8 25 5
+  340 sprites/pcx/waterfeatures.pcx 242 1112 09 5 10 -4 27
+  341 sprites/pcx/waterfeatures.pcx 258 1112 09 7 8 -31 11
+  342 sprites/pcx/waterfeatures.pcx 274 1112 09 6 12 -5 -8
+  343 sprites/pcx/waterfeatures.pcx 306 1112 09 18 39 -6 0
+  344 sprites/pcx/waterfeatures.pcx 354 1112 09 11 38 -5 12
+  345 sprites/pcx/waterfeatures.pcx 402 1112 09 18 39 -31 5
+  346 sprites/pcx/waterfeatures.pcx 450 1112 09 11 40 -32 0
+  347 sprites/pcx/waterfeatures.pcx 498 1112 09 6 20 13 12
+  348 sprites/pcx/waterfeatures.pcx 530 1112 09 7 13 -5 16
+  349 sprites/pcx/waterfeatures.pcx 562 1112 09 6 20 -31 5
+  350 sprites/pcx/waterfeatures.pcx 594 1112 09 7 13 -6 0
+  351 sprites/pcx/waterfeatures.pcx 626 1112 09 4 8 26 13
+  352 sprites/pcx/waterfeatures.pcx 642 1112 09 3 12 -5 20
+  353 sprites/pcx/waterfeatures.pcx 674 1112 09 5 8 -31 6
+  354 sprites/pcx/waterfeatures.pcx 690 1112 09 4 15 -6 0
+  355 sprites/pcx/waterfeatures.pcx 722 1112 09 27 38 -5 -8
+  356 sprites/pcx/waterfeatures.pcx 2 1160 09 20 37 -4 11
+  357 sprites/pcx/waterfeatures.pcx 50 1160 09 26 37 -31 5
+  358 sprites/pcx/waterfeatures.pcx 98 1160 09 20 38 -31 -8
+  359 sprites/pcx/waterfeatures.pcx 146 1160 09 9 16 17 11
+  360 sprites/pcx/waterfeatures.pcx 178 1160 09 9 15 -6 22
+  361 sprites/pcx/waterfeatures.pcx 210 1160 09 9 16 -31 3
+  362 sprites/pcx/waterfeatures.pcx 242 1160 09 9 15 -7 -8
+  363 sprites/pcx/waterfeatures.pcx 274 1160 09 7 8 25 11
+  364 sprites/pcx/waterfeatures.pcx 290 1160 09 5 10 -4 26
+  365 sprites/pcx/waterfeatures.pcx 306 1160 09 7 8 -31 5
+  366 sprites/pcx/waterfeatures.pcx 322 1160 09 6 12 -5 -8
+  367 * 7        02 05 21 01 00 00 00
+  368 * 14       02 05 22 81 80 00 FF 01 20 00 00 00 21 00
+  369 * 6        07 83 01 \7! 00 01
+  370 * 7        03 05 01 06 00 22 00
+
+  371 * 4        01 05 01 3C
+  372 sprites/pcx/waterfeatures.pcx 434 1160 09 19 38 -5 0
+  373 sprites/pcx/waterfeatures.pcx 482 1160 09 18 38 -5 13
+  374 sprites/pcx/waterfeatures.pcx 530 1160 09 18 38 -31 13
+  375 sprites/pcx/waterfeatures.pcx 578 1160 09 19 38 -31 0
+  376 sprites/pcx/waterfeatures.pcx 626 1160 09 9 19 14 11
+  377 sprites/pcx/waterfeatures.pcx 658 1160 09 9 16 -7 22
+  378 sprites/pcx/waterfeatures.pcx 690 1160 09 9 19 -31 11
+  379 sprites/pcx/waterfeatures.pcx 722 1160 09 9 16 -7 0
+  380 sprites/pcx/waterfeatures.pcx 754 1160 09 6 8 25 13
+  381 sprites/pcx/waterfeatures.pcx 770 1160 09 4 12 -5 27
+  382 sprites/pcx/waterfeatures.pcx 2 1208 09 6 8 -31 13
+  383 sprites/pcx/waterfeatures.pcx 18 1208 09 5 12 -5 0
+  384 sprites/pcx/waterfeatures.pcx 50 1208 09 11 40 -7 0
+  385 sprites/pcx/waterfeatures.pcx 98 1208 09 18 39 -6 5
+  386 sprites/pcx/waterfeatures.pcx 146 1208 09 11 38 -31 12
+  387 sprites/pcx/waterfeatures.pcx 194 1208 09 18 39 -31 0
+  388 sprites/pcx/waterfeatures.pcx 242 1208 09 6 20 13 5
+  389 sprites/pcx/waterfeatures.pcx 274 1208 09 7 13 -6 16
+  390 sprites/pcx/waterfeatures.pcx 306 1208 09 6 20 -31 12
+  391 sprites/pcx/waterfeatures.pcx 338 1208 09 7 13 -5 0
+  392 sprites/pcx/waterfeatures.pcx 370 1208 09 5 8 25 6
+  393 sprites/pcx/waterfeatures.pcx 386 1208 09 3 12 -5 20
+  394 sprites/pcx/waterfeatures.pcx 418 1208 09 4 8 -31 13
+  395 sprites/pcx/waterfeatures.pcx 434 1208 09 4 15 -7 0
+  396 sprites/pcx/waterfeatures.pcx 466 1208 09 20 38 -5 -8
+  397 sprites/pcx/waterfeatures.pcx 514 1208 09 26 38 -5 5
+  398 sprites/pcx/waterfeatures.pcx 562 1208 09 20 37 -31 11
+  399 sprites/pcx/waterfeatures.pcx 610 1208 09 27 38 -31 -8
+  400 sprites/pcx/waterfeatures.pcx 658 1208 09 9 16 17 3
+  401 sprites/pcx/waterfeatures.pcx 690 1208 09 9 15 -7 22
+  402 sprites/pcx/waterfeatures.pcx 722 1208 09 9 16 -31 11
+  403 sprites/pcx/waterfeatures.pcx 754 1208 09 9 15 -6 -8
+  404 sprites/pcx/waterfeatures.pcx 786 1208 09 7 8 25 5
+  405 sprites/pcx/waterfeatures.pcx 2 1256 09 5 10 -4 27
+  406 sprites/pcx/waterfeatures.pcx 18 1256 09 7 8 -31 11
+  407 sprites/pcx/waterfeatures.pcx 34 1256 09 6 12 -5 -8
+  408 sprites/pcx/waterfeatures.pcx 66 1256 09 18 39 -6 0
+  409 sprites/pcx/waterfeatures.pcx 114 1256 09 11 38 -5 12
+  410 sprites/pcx/waterfeatures.pcx 162 1256 09 18 39 -31 5
+  411 sprites/pcx/waterfeatures.pcx 210 1256 09 11 40 -32 0
+  412 sprites/pcx/waterfeatures.pcx 258 1256 09 6 20 13 12
+  413 sprites/pcx/waterfeatures.pcx 290 1256 09 7 13 -5 16
+  414 sprites/pcx/waterfeatures.pcx 322 1256 09 6 20 -31 5
+  415 sprites/pcx/waterfeatures.pcx 354 1256 09 7 13 -6 0
+  416 sprites/pcx/waterfeatures.pcx 386 1256 09 4 8 26 13
+  417 sprites/pcx/waterfeatures.pcx 402 1256 09 3 12 -5 20
+  418 sprites/pcx/waterfeatures.pcx 434 1256 09 5 8 -31 6
+  419 sprites/pcx/waterfeatures.pcx 450 1256 09 4 15 -6 0
+  420 sprites/pcx/waterfeatures.pcx 482 1256 09 27 38 -5 -8
+  421 sprites/pcx/waterfeatures.pcx 530 1256 09 20 37 -4 11
+  422 sprites/pcx/waterfeatures.pcx 578 1256 09 26 37 -31 5
+  423 sprites/pcx/waterfeatures.pcx 626 1256 09 20 38 -31 -8
+  424 sprites/pcx/waterfeatures.pcx 674 1256 09 9 16 17 11
+  425 sprites/pcx/waterfeatures.pcx 706 1256 09 9 15 -6 22
+  426 sprites/pcx/waterfeatures.pcx 738 1256 09 9 16 -31 3
+  427 sprites/pcx/waterfeatures.pcx 770 1256 09 9 15 -7 -8
+  428 sprites/pcx/waterfeatures.pcx 2 1304 09 7 8 25 11
+  429 sprites/pcx/waterfeatures.pcx 18 1304 09 5 10 -4 26
+  430 sprites/pcx/waterfeatures.pcx 34 1304 09 7 8 -31 5
+  431 sprites/pcx/waterfeatures.pcx 50 1304 09 6 12 -5 -8
+  432 * 7        02 05 30 01 00 00 00
+
+  433 * 4        01 05 01 3C
+  434 sprites/pcx/waterfeatures.pcx 114 1304 09 19 38 -5 0
+  435 sprites/pcx/waterfeatures.pcx 162 1304 09 18 38 -5 13
+  436 sprites/pcx/waterfeatures.pcx 210 1304 09 18 38 -31 13
+  437 sprites/pcx/waterfeatures.pcx 258 1304 09 19 38 -31 0
+  438 sprites/pcx/waterfeatures.pcx 306 1304 09 9 19 14 11
+  439 sprites/pcx/waterfeatures.pcx 338 1304 09 9 16 -7 22
+  440 sprites/pcx/waterfeatures.pcx 370 1304 09 9 19 -31 11
+  441 sprites/pcx/waterfeatures.pcx 402 1304 09 9 16 -7 0
+  442 sprites/pcx/waterfeatures.pcx 434 1304 09 6 8 25 13
+  443 sprites/pcx/waterfeatures.pcx 450 1304 09 4 12 -5 27
+  444 sprites/pcx/waterfeatures.pcx 482 1304 09 6 8 -31 13
+  445 sprites/pcx/waterfeatures.pcx 498 1304 09 5 12 -5 0
+  446 sprites/pcx/waterfeatures.pcx 530 1304 09 11 40 -7 0
+  447 sprites/pcx/waterfeatures.pcx 578 1304 09 18 39 -6 5
+  448 sprites/pcx/waterfeatures.pcx 626 1304 09 11 38 -31 12
+  449 sprites/pcx/waterfeatures.pcx 674 1304 09 18 39 -31 0
+  450 sprites/pcx/waterfeatures.pcx 722 1304 09 6 20 13 5
+  451 sprites/pcx/waterfeatures.pcx 754 1304 09 7 13 -6 16
+  452 sprites/pcx/waterfeatures.pcx 2 1336 09 6 20 -31 12
+  453 sprites/pcx/waterfeatures.pcx 34 1336 09 7 13 -5 0
+  454 sprites/pcx/waterfeatures.pcx 66 1336 09 5 8 25 6
+  455 sprites/pcx/waterfeatures.pcx 82 1336 09 3 12 -5 20
+  456 sprites/pcx/waterfeatures.pcx 114 1336 09 4 8 -31 13
+  457 sprites/pcx/waterfeatures.pcx 130 1336 09 4 15 -7 0
+  458 sprites/pcx/waterfeatures.pcx 162 1336 09 20 38 -5 -8
+  459 sprites/pcx/waterfeatures.pcx 210 1336 09 26 38 -5 5
+  460 sprites/pcx/waterfeatures.pcx 258 1336 09 20 37 -31 11
+  461 sprites/pcx/waterfeatures.pcx 306 1336 09 27 38 -31 -8
+  462 sprites/pcx/waterfeatures.pcx 354 1336 09 9 16 17 3
+  463 sprites/pcx/waterfeatures.pcx 386 1336 09 9 15 -7 22
+  464 sprites/pcx/waterfeatures.pcx 418 1336 09 9 16 -31 11
+  465 sprites/pcx/waterfeatures.pcx 450 1336 09 9 15 -6 -8
+  466 sprites/pcx/waterfeatures.pcx 482 1336 09 7 8 25 5
+  467 sprites/pcx/waterfeatures.pcx 498 1336 09 5 10 -4 27
+  468 sprites/pcx/waterfeatures.pcx 514 1336 09 7 8 -31 11
+  469 sprites/pcx/waterfeatures.pcx 530 1336 09 6 12 -5 -8
+  470 sprites/pcx/waterfeatures.pcx 562 1336 09 18 39 -6 0
+  471 sprites/pcx/waterfeatures.pcx 610 1336 09 11 38 -5 12
+  472 sprites/pcx/waterfeatures.pcx 658 1336 09 18 39 -31 5
+  473 sprites/pcx/waterfeatures.pcx 706 1336 09 11 40 -32 0
+  474 sprites/pcx/waterfeatures.pcx 754 1336 09 6 20 13 12
+  475 sprites/pcx/waterfeatures.pcx 2 1384 09 7 13 -5 16
+  476 sprites/pcx/waterfeatures.pcx 34 1384 09 6 20 -31 5
+  477 sprites/pcx/waterfeatures.pcx 66 1384 09 7 13 -6 0
+  478 sprites/pcx/waterfeatures.pcx 98 1384 09 4 8 26 13
+  479 sprites/pcx/waterfeatures.pcx 114 1384 09 3 12 -5 20
+  480 sprites/pcx/waterfeatures.pcx 146 1384 09 5 8 -31 6
+  481 sprites/pcx/waterfeatures.pcx 162 1384 09 4 15 -6 0
+  482 sprites/pcx/waterfeatures.pcx 194 1384 09 27 38 -5 -8
+  483 sprites/pcx/waterfeatures.pcx 242 1384 09 20 37 -4 11
+  484 sprites/pcx/waterfeatures.pcx 290 1384 09 26 37 -31 5
+  485 sprites/pcx/waterfeatures.pcx 338 1384 09 20 38 -31 -8
+  486 sprites/pcx/waterfeatures.pcx 386 1384 09 9 16 17 11
+  487 sprites/pcx/waterfeatures.pcx 418 1384 09 9 15 -6 22
+  488 sprites/pcx/waterfeatures.pcx 450 1384 09 9 16 -31 3
+  489 sprites/pcx/waterfeatures.pcx 482 1384 09 9 15 -7 -8
+  490 sprites/pcx/waterfeatures.pcx 514 1384 09 7 8 25 11
+  491 sprites/pcx/waterfeatures.pcx 530 1384 09 5 10 -4 26
+  492 sprites/pcx/waterfeatures.pcx 546 1384 09 7 8 -31 5
+  493 sprites/pcx/waterfeatures.pcx 562 1384 09 6 12 -5 -8
+  494 * 7        02 05 31 01 00 00 00
+  495 * 4        01 05 01 3C
+  496 sprites/pcx/waterfeatures.pcx 626 1384 09 19 38 -5 0
+  497 sprites/pcx/waterfeatures.pcx 674 1384 09 18 38 -5 13
+  498 sprites/pcx/waterfeatures.pcx 722 1384 09 18 38 -31 13
+  499 sprites/pcx/waterfeatures.pcx 2 1432 09 19 38 -31 0
+  500 sprites/pcx/waterfeatures.pcx 50 1432 09 9 19 14 11
+  501 sprites/pcx/waterfeatures.pcx 82 1432 09 9 16 -7 22
+  502 sprites/pcx/waterfeatures.pcx 114 1432 09 9 19 -31 11
+  503 sprites/pcx/waterfeatures.pcx 146 1432 09 9 16 -7 0
+  504 sprites/pcx/waterfeatures.pcx 178 1432 09 6 8 25 13
+  505 sprites/pcx/waterfeatures.pcx 194 1432 09 4 12 -5 27
+  506 sprites/pcx/waterfeatures.pcx 226 1432 09 6 8 -31 13
+  507 sprites/pcx/waterfeatures.pcx 242 1432 09 5 12 -5 0
+  508 sprites/pcx/waterfeatures.pcx 274 1432 09 11 40 -7 0
+  509 sprites/pcx/waterfeatures.pcx 322 1432 09 18 39 -6 5
+  510 sprites/pcx/waterfeatures.pcx 370 1432 09 11 38 -31 12
+  511 sprites/pcx/waterfeatures.pcx 418 1432 09 18 39 -31 0
+  512 sprites/pcx/waterfeatures.pcx 466 1432 09 6 20 13 5
+  513 sprites/pcx/waterfeatures.pcx 498 1432 09 7 13 -6 16
+  514 sprites/pcx/waterfeatures.pcx 530 1432 09 6 20 -31 12
+  515 sprites/pcx/waterfeatures.pcx 562 1432 09 7 13 -5 0
+  516 sprites/pcx/waterfeatures.pcx 594 1432 09 5 8 25 6
+  517 sprites/pcx/waterfeatures.pcx 610 1432 09 3 12 -5 20
+  518 sprites/pcx/waterfeatures.pcx 642 1432 09 4 8 -31 13
+  519 sprites/pcx/waterfeatures.pcx 658 1432 09 4 15 -7 0
+  520 sprites/pcx/waterfeatures.pcx 690 1432 09 20 38 -5 -8
+  521 sprites/pcx/waterfeatures.pcx 738 1432 09 26 38 -5 5
+  522 sprites/pcx/waterfeatures.pcx 2 1480 09 20 37 -31 11
+  523 sprites/pcx/waterfeatures.pcx 50 1480 09 27 38 -31 -8
+  524 sprites/pcx/waterfeatures.pcx 98 1480 09 9 16 17 3
+  525 sprites/pcx/waterfeatures.pcx 130 1480 09 9 15 -7 22
+  526 sprites/pcx/waterfeatures.pcx 162 1480 09 9 16 -31 11
+  527 sprites/pcx/waterfeatures.pcx 194 1480 09 9 15 -6 -8
+  528 sprites/pcx/waterfeatures.pcx 226 1480 09 7 8 25 5
+  529 sprites/pcx/waterfeatures.pcx 242 1480 09 5 10 -4 27
+  530 sprites/pcx/waterfeatures.pcx 258 1480 09 7 8 -31 11
+  531 sprites/pcx/waterfeatures.pcx 274 1480 09 6 12 -5 -8
+  532 sprites/pcx/waterfeatures.pcx 306 1480 09 18 39 -6 0
+  533 sprites/pcx/waterfeatures.pcx 354 1480 09 11 38 -5 12
+  534 sprites/pcx/waterfeatures.pcx 402 1480 09 18 39 -31 5
+  535 sprites/pcx/waterfeatures.pcx 450 1480 09 11 40 -32 0
+  536 sprites/pcx/waterfeatures.pcx 498 1480 09 6 20 13 12
+  537 sprites/pcx/waterfeatures.pcx 530 1480 09 7 13 -5 16
+  538 sprites/pcx/waterfeatures.pcx 562 1480 09 6 20 -31 5
+  539 sprites/pcx/waterfeatures.pcx 594 1480 09 7 13 -6 0
+  540 sprites/pcx/waterfeatures.pcx 626 1480 09 4 8 26 13
+  541 sprites/pcx/waterfeatures.pcx 642 1480 09 3 12 -5 20
+  542 sprites/pcx/waterfeatures.pcx 674 1480 09 5 8 -31 6
+  543 sprites/pcx/waterfeatures.pcx 690 1480 09 4 15 -6 0
+  544 sprites/pcx/waterfeatures.pcx 722 1480 09 27 38 -5 -8
+  545 sprites/pcx/waterfeatures.pcx 2 1528 09 20 37 -4 11
+  546 sprites/pcx/waterfeatures.pcx 50 1528 09 26 37 -31 5
+  547 sprites/pcx/waterfeatures.pcx 98 1528 09 20 38 -31 -8
+  548 sprites/pcx/waterfeatures.pcx 146 1528 09 9 16 17 11
+  549 sprites/pcx/waterfeatures.pcx 178 1528 09 9 15 -6 22
+  550 sprites/pcx/waterfeatures.pcx 210 1528 09 9 16 -31 3
+  551 sprites/pcx/waterfeatures.pcx 242 1528 09 9 15 -7 -8
+  552 sprites/pcx/waterfeatures.pcx 274 1528 09 7 8 25 11
+  553 sprites/pcx/waterfeatures.pcx 290 1528 09 5 10 -4 26
+  554 sprites/pcx/waterfeatures.pcx 306 1528 09 7 8 -31 5
+  555 sprites/pcx/waterfeatures.pcx 322 1528 09 6 12 -5 -8
+  556 * 7        02 05 32 01 00 00 00
+  557 * 4        01 05 01 3C
+  558 sprites/pcx/waterfeatures.pcx 386 1528 09 19 38 -5 0
+  559 sprites/pcx/waterfeatures.pcx 434 1528 09 18 38 -5 13
+  560 sprites/pcx/waterfeatures.pcx 482 1528 09 18 38 -31 13
+  561 sprites/pcx/waterfeatures.pcx 530 1528 09 19 38 -31 0
+  562 sprites/pcx/waterfeatures.pcx 578 1528 09 9 19 14 11
+  563 sprites/pcx/waterfeatures.pcx 610 1528 09 9 16 -7 22
+  564 sprites/pcx/waterfeatures.pcx 642 1528 09 9 19 -31 11
+  565 sprites/pcx/waterfeatures.pcx 674 1528 09 9 16 -7 0
+  566 sprites/pcx/waterfeatures.pcx 706 1528 09 6 8 25 13
+  567 sprites/pcx/waterfeatures.pcx 722 1528 09 4 12 -5 27
+  568 sprites/pcx/waterfeatures.pcx 754 1528 09 6 8 -31 13
+  569 sprites/pcx/waterfeatures.pcx 770 1528 09 5 12 -5 0
+  570 sprites/pcx/waterfeatures.pcx 2 1576 09 11 40 -7 0
+  571 sprites/pcx/waterfeatures.pcx 50 1576 09 18 39 -6 5
+  572 sprites/pcx/waterfeatures.pcx 98 1576 09 11 38 -31 12
+  573 sprites/pcx/waterfeatures.pcx 146 1576 09 18 39 -31 0
+  574 sprites/pcx/waterfeatures.pcx 194 1576 09 6 20 13 5
+  575 sprites/pcx/waterfeatures.pcx 226 1576 09 7 13 -6 16
+  576 sprites/pcx/waterfeatures.pcx 258 1576 09 6 20 -31 12
+  577 sprites/pcx/waterfeatures.pcx 290 1576 09 7 13 -5 0
+  578 sprites/pcx/waterfeatures.pcx 322 1576 09 5 8 25 6
+  579 sprites/pcx/waterfeatures.pcx 338 1576 09 3 12 -5 20
+  580 sprites/pcx/waterfeatures.pcx 370 1576 09 4 8 -31 13
+  581 sprites/pcx/waterfeatures.pcx 386 1576 09 4 15 -7 0
+  582 sprites/pcx/waterfeatures.pcx 418 1576 09 20 38 -5 -8
+  583 sprites/pcx/waterfeatures.pcx 466 1576 09 26 38 -5 5
+  584 sprites/pcx/waterfeatures.pcx 514 1576 09 20 37 -31 11
+  585 sprites/pcx/waterfeatures.pcx 562 1576 09 27 38 -31 -8
+  586 sprites/pcx/waterfeatures.pcx 610 1576 09 9 16 17 3
+  587 sprites/pcx/waterfeatures.pcx 642 1576 09 9 15 -7 22
+  588 sprites/pcx/waterfeatures.pcx 674 1576 09 9 16 -31 11
+  589 sprites/pcx/waterfeatures.pcx 706 1576 09 9 15 -6 -8
+  590 sprites/pcx/waterfeatures.pcx 738 1576 09 7 8 25 5
+  591 sprites/pcx/waterfeatures.pcx 754 1576 09 5 10 -4 27
+  592 sprites/pcx/waterfeatures.pcx 770 1576 09 7 8 -31 11
+  593 sprites/pcx/waterfeatures.pcx 2 1624 09 6 12 -5 -8
+  594 sprites/pcx/waterfeatures.pcx 34 1624 09 18 39 -6 0
+  595 sprites/pcx/waterfeatures.pcx 82 1624 09 11 38 -5 12
+  596 sprites/pcx/waterfeatures.pcx 130 1624 09 18 39 -31 5
+  597 sprites/pcx/waterfeatures.pcx 178 1624 09 11 40 -32 0
+  598 sprites/pcx/waterfeatures.pcx 226 1624 09 6 20 13 12
+  599 sprites/pcx/waterfeatures.pcx 258 1624 09 7 13 -5 16
+  600 sprites/pcx/waterfeatures.pcx 290 1624 09 6 20 -31 5
+  601 sprites/pcx/waterfeatures.pcx 322 1624 09 7 13 -6 0
+  602 sprites/pcx/waterfeatures.pcx 354 1624 09 4 8 26 13
+  603 sprites/pcx/waterfeatures.pcx 370 1624 09 3 12 -5 20
+  604 sprites/pcx/waterfeatures.pcx 402 1624 09 5 8 -31 6
+  605 sprites/pcx/waterfeatures.pcx 418 1624 09 4 15 -6 0
+  606 sprites/pcx/waterfeatures.pcx 450 1624 09 27 38 -5 -8
+  607 sprites/pcx/waterfeatures.pcx 498 1624 09 20 37 -4 11
+  608 sprites/pcx/waterfeatures.pcx 546 1624 09 26 37 -31 5
+  609 sprites/pcx/waterfeatures.pcx 594 1624 09 20 38 -31 -8
+  610 sprites/pcx/waterfeatures.pcx 642 1624 09 9 16 17 11
+  611 sprites/pcx/waterfeatures.pcx 674 1624 09 9 15 -6 22
+  612 sprites/pcx/waterfeatures.pcx 706 1624 09 9 16 -31 3
+  613 sprites/pcx/waterfeatures.pcx 738 1624 09 9 15 -7 -8
+  614 sprites/pcx/waterfeatures.pcx 770 1624 09 7 8 25 11
+  615 sprites/pcx/waterfeatures.pcx 786 1624 09 5 10 -4 26
+  616 sprites/pcx/waterfeatures.pcx 2 1672 09 7 8 -31 5
+  617 sprites/pcx/waterfeatures.pcx 18 1672 09 6 12 -5 -8
+  618 * 7        02 05 33 01 00 00 00
+  619 * 14       02 05 34 81 81 00 FF 01 30 00 04 04 31 00
+  620 * 14       02 05 35 81 81 00 FF 01 32 00 04 04 33 00
+  621 * 14       02 05 36 81 80 00 FF 01 34 00 00 00 35 00
+  622 * 6        07 83 01 \7! 01 01
+  623 * 7        03 05 01 06 00 36 00
+  624 * 4        01 05 01 3C
+  625 sprites/pcx/waterfeatures.pcx 162 1672 09 19 38 -5 0
+  626 sprites/pcx/waterfeatures.pcx 210 1672 09 18 38 -5 13
+  627 sprites/pcx/waterfeatures.pcx 258 1672 09 18 38 -31 13
+  628 sprites/pcx/waterfeatures.pcx 306 1672 09 19 38 -31 0
+  629 sprites/pcx/waterfeatures.pcx 354 1672 09 9 19 14 11
+  630 sprites/pcx/waterfeatures.pcx 386 1672 09 9 16 -7 22
+  631 sprites/pcx/waterfeatures.pcx 418 1672 09 9 19 -31 11
+  632 sprites/pcx/waterfeatures.pcx 450 1672 09 9 16 -7 0
+  633 sprites/pcx/waterfeatures.pcx 482 1672 09 6 8 25 13
+  634 sprites/pcx/waterfeatures.pcx 498 1672 09 4 12 -5 27
+  635 sprites/pcx/waterfeatures.pcx 530 1672 09 6 8 -31 13
+  636 sprites/pcx/waterfeatures.pcx 546 1672 09 5 12 -5 0
+  637 sprites/pcx/waterfeatures.pcx 578 1672 09 11 40 -7 0
+  638 sprites/pcx/waterfeatures.pcx 626 1672 09 18 39 -6 5
+  639 sprites/pcx/waterfeatures.pcx 674 1672 09 11 38 -31 12
+  640 sprites/pcx/waterfeatures.pcx 722 1672 09 18 39 -31 0
+  641 sprites/pcx/waterfeatures.pcx 770 1672 09 6 20 13 5
+  642 sprites/pcx/waterfeatures.pcx 2 1704 09 7 13 -6 16
+  643 sprites/pcx/waterfeatures.pcx 34 1704 09 6 20 -31 12
+  644 sprites/pcx/waterfeatures.pcx 66 1704 09 7 13 -5 0
+  645 sprites/pcx/waterfeatures.pcx 98 1704 09 5 8 25 6
+  646 sprites/pcx/waterfeatures.pcx 114 1704 09 3 12 -5 20
+  647 sprites/pcx/waterfeatures.pcx 146 1704 09 4 8 -31 13
+  648 sprites/pcx/waterfeatures.pcx 162 1704 09 4 15 -7 0
+  649 sprites/pcx/waterfeatures.pcx 194 1704 09 20 38 -5 -8
+  650 sprites/pcx/waterfeatures.pcx 242 1704 09 26 38 -5 5
+  651 sprites/pcx/waterfeatures.pcx 290 1704 09 20 37 -31 11
+  652 sprites/pcx/waterfeatures.pcx 338 1704 09 27 38 -31 -8
+  653 sprites/pcx/waterfeatures.pcx 386 1704 09 9 16 17 3
+  654 sprites/pcx/waterfeatures.pcx 418 1704 09 9 15 -7 22
+  655 sprites/pcx/waterfeatures.pcx 450 1704 09 9 16 -31 11
+  656 sprites/pcx/waterfeatures.pcx 482 1704 09 9 15 -6 -8
+  657 sprites/pcx/waterfeatures.pcx 514 1704 09 7 8 25 5
+  658 sprites/pcx/waterfeatures.pcx 530 1704 09 5 10 -4 27
+  659 sprites/pcx/waterfeatures.pcx 546 1704 09 7 8 -31 11
+  660 sprites/pcx/waterfeatures.pcx 562 1704 09 6 12 -5 -8
+  661 sprites/pcx/waterfeatures.pcx 594 1704 09 18 39 -6 0
+  662 sprites/pcx/waterfeatures.pcx 642 1704 09 11 38 -5 12
+  663 sprites/pcx/waterfeatures.pcx 690 1704 09 18 39 -31 5
+  664 sprites/pcx/waterfeatures.pcx 738 1704 09 11 40 -32 0
+  665 sprites/pcx/waterfeatures.pcx 2 1752 09 6 20 13 12
+  666 sprites/pcx/waterfeatures.pcx 34 1752 09 7 13 -5 16
+  667 sprites/pcx/waterfeatures.pcx 66 1752 09 6 20 -31 5
+  668 sprites/pcx/waterfeatures.pcx 98 1752 09 7 13 -6 0
+  669 sprites/pcx/waterfeatures.pcx 130 1752 09 4 8 26 13
+  670 sprites/pcx/waterfeatures.pcx 146 1752 09 3 12 -5 20
+  671 sprites/pcx/waterfeatures.pcx 178 1752 09 5 8 -31 6
+  672 sprites/pcx/waterfeatures.pcx 194 1752 09 4 15 -6 0
+  673 sprites/pcx/waterfeatures.pcx 226 1752 09 27 38 -5 -8
+  674 sprites/pcx/waterfeatures.pcx 274 1752 09 20 37 -4 11
+  675 sprites/pcx/waterfeatures.pcx 322 1752 09 26 37 -31 5
+  676 sprites/pcx/waterfeatures.pcx 370 1752 09 20 38 -31 -8
+  677 sprites/pcx/waterfeatures.pcx 418 1752 09 9 16 17 11
+  678 sprites/pcx/waterfeatures.pcx 450 1752 09 9 15 -6 22
+  679 sprites/pcx/waterfeatures.pcx 482 1752 09 9 16 -31 3
+  680 sprites/pcx/waterfeatures.pcx 514 1752 09 9 15 -7 -8
+  681 sprites/pcx/waterfeatures.pcx 546 1752 09 7 8 25 11
+  682 sprites/pcx/waterfeatures.pcx 562 1752 09 5 10 -4 26
+  683 sprites/pcx/waterfeatures.pcx 578 1752 09 7 8 -31 5
+  684 sprites/pcx/waterfeatures.pcx 594 1752 09 6 12 -5 -8
+  685 * 7        02 05 40 01 00 00 00
+  686 * 4        01 05 01 3C
+  687 sprites/pcx/waterfeatures.pcx 658 1752 09 19 38 -5 0
+  688 sprites/pcx/waterfeatures.pcx 706 1752 09 18 38 -5 13
+  689 sprites/pcx/waterfeatures.pcx 754 1752 09 18 38 -31 13
+  690 sprites/pcx/waterfeatures.pcx 2 1800 09 19 38 -31 0
+  691 sprites/pcx/waterfeatures.pcx 50 1800 09 9 19 14 11
+  692 sprites/pcx/waterfeatures.pcx 82 1800 09 9 16 -7 22
+  693 sprites/pcx/waterfeatures.pcx 114 1800 09 9 19 -31 11
+  694 sprites/pcx/waterfeatures.pcx 146 1800 09 9 16 -7 0
+  695 sprites/pcx/waterfeatures.pcx 178 1800 09 6 8 25 13
+  696 sprites/pcx/waterfeatures.pcx 194 1800 09 4 12 -5 27
+  697 sprites/pcx/waterfeatures.pcx 226 1800 09 6 8 -31 13
+  698 sprites/pcx/waterfeatures.pcx 242 1800 09 5 12 -5 0
+  699 sprites/pcx/waterfeatures.pcx 274 1800 09 11 40 -7 0
+  700 sprites/pcx/waterfeatures.pcx 322 1800 09 18 39 -6 5
+  701 sprites/pcx/waterfeatures.pcx 370 1800 09 11 38 -31 12
+  702 sprites/pcx/waterfeatures.pcx 418 1800 09 18 39 -31 0
+  703 sprites/pcx/waterfeatures.pcx 466 1800 09 6 20 13 5
+  704 sprites/pcx/waterfeatures.pcx 498 1800 09 7 13 -6 16
+  705 sprites/pcx/waterfeatures.pcx 530 1800 09 6 20 -31 12
+  706 sprites/pcx/waterfeatures.pcx 562 1800 09 7 13 -5 0
+  707 sprites/pcx/waterfeatures.pcx 594 1800 09 5 8 25 6
+  708 sprites/pcx/waterfeatures.pcx 610 1800 09 3 12 -5 20
+  709 sprites/pcx/waterfeatures.pcx 642 1800 09 4 8 -31 13
+  710 sprites/pcx/waterfeatures.pcx 658 1800 09 4 15 -7 0
+  711 sprites/pcx/waterfeatures.pcx 690 1800 09 20 38 -5 -8
+  712 sprites/pcx/waterfeatures.pcx 738 1800 09 26 38 -5 5
+  713 sprites/pcx/waterfeatures.pcx 2 1848 09 20 37 -31 11
+  714 sprites/pcx/waterfeatures.pcx 50 1848 09 27 38 -31 -8
+  715 sprites/pcx/waterfeatures.pcx 98 1848 09 9 16 17 3
+  716 sprites/pcx/waterfeatures.pcx 130 1848 09 9 15 -7 22
+  717 sprites/pcx/waterfeatures.pcx 162 1848 09 9 16 -31 11
+  718 sprites/pcx/waterfeatures.pcx 194 1848 09 9 15 -6 -8
+  719 sprites/pcx/waterfeatures.pcx 226 1848 09 7 8 25 5
+  720 sprites/pcx/waterfeatures.pcx 242 1848 09 5 10 -4 27
+  721 sprites/pcx/waterfeatures.pcx 258 1848 09 7 8 -31 11
+  722 sprites/pcx/waterfeatures.pcx 274 1848 09 6 12 -5 -8
+  723 sprites/pcx/waterfeatures.pcx 306 1848 09 18 39 -6 0
+  724 sprites/pcx/waterfeatures.pcx 354 1848 09 11 38 -5 12
+  725 sprites/pcx/waterfeatures.pcx 402 1848 09 18 39 -31 5
+  726 sprites/pcx/waterfeatures.pcx 450 1848 09 11 40 -32 0
+  727 sprites/pcx/waterfeatures.pcx 498 1848 09 6 20 13 12
+  728 sprites/pcx/waterfeatures.pcx 530 1848 09 7 13 -5 16
+  729 sprites/pcx/waterfeatures.pcx 562 1848 09 6 20 -31 5
+  730 sprites/pcx/waterfeatures.pcx 594 1848 09 7 13 -6 0
+  731 sprites/pcx/waterfeatures.pcx 626 1848 09 4 8 26 13
+  732 sprites/pcx/waterfeatures.pcx 642 1848 09 3 12 -5 20
+  733 sprites/pcx/waterfeatures.pcx 674 1848 09 5 8 -31 6
+  734 sprites/pcx/waterfeatures.pcx 690 1848 09 4 15 -6 0
+  735 sprites/pcx/waterfeatures.pcx 722 1848 09 27 38 -5 -8
+  736 sprites/pcx/waterfeatures.pcx 2 1896 09 20 37 -4 11
+  737 sprites/pcx/waterfeatures.pcx 50 1896 09 26 37 -31 5
+  738 sprites/pcx/waterfeatures.pcx 98 1896 09 20 38 -31 -8
+  739 sprites/pcx/waterfeatures.pcx 146 1896 09 9 16 17 11
+  740 sprites/pcx/waterfeatures.pcx 178 1896 09 9 15 -6 22
+  741 sprites/pcx/waterfeatures.pcx 210 1896 09 9 16 -31 3
+  742 sprites/pcx/waterfeatures.pcx 242 1896 09 9 15 -7 -8
+  743 sprites/pcx/waterfeatures.pcx 274 1896 09 7 8 25 11
+  744 sprites/pcx/waterfeatures.pcx 290 1896 09 5 10 -4 26
+  745 sprites/pcx/waterfeatures.pcx 306 1896 09 7 8 -31 5
+  746 sprites/pcx/waterfeatures.pcx 322 1896 09 6 12 -5 -8
+  747 * 7        02 05 41 01 00 00 00
+  748 * 4        01 05 01 3C
+  749 sprites/pcx/waterfeatures.pcx 386 1896 09 19 38 -5 0
+  750 sprites/pcx/waterfeatures.pcx 434 1896 09 18 38 -5 13
+  751 sprites/pcx/waterfeatures.pcx 482 1896 09 18 38 -31 13
+  752 sprites/pcx/waterfeatures.pcx 530 1896 09 19 38 -31 0
+  753 sprites/pcx/waterfeatures.pcx 578 1896 09 9 19 14 11
+  754 sprites/pcx/waterfeatures.pcx 610 1896 09 9 16 -7 22
+  755 sprites/pcx/waterfeatures.pcx 642 1896 09 9 19 -31 11
+  756 sprites/pcx/waterfeatures.pcx 674 1896 09 9 16 -7 0
+  757 sprites/pcx/waterfeatures.pcx 706 1896 09 6 8 25 13
+  758 sprites/pcx/waterfeatures.pcx 722 1896 09 4 12 -5 27
+  759 sprites/pcx/waterfeatures.pcx 754 1896 09 6 8 -31 13
+  760 sprites/pcx/waterfeatures.pcx 770 1896 09 5 12 -5 0
+  761 sprites/pcx/waterfeatures.pcx 2 1944 09 11 40 -7 0
+  762 sprites/pcx/waterfeatures.pcx 50 1944 09 18 39 -6 5
+  763 sprites/pcx/waterfeatures.pcx 98 1944 09 11 38 -31 12
+  764 sprites/pcx/waterfeatures.pcx 146 1944 09 18 39 -31 0
+  765 sprites/pcx/waterfeatures.pcx 194 1944 09 6 20 13 5
+  766 sprites/pcx/waterfeatures.pcx 226 1944 09 7 13 -6 16
+  767 sprites/pcx/waterfeatures.pcx 258 1944 09 6 20 -31 12
+  768 sprites/pcx/waterfeatures.pcx 290 1944 09 7 13 -5 0
+  769 sprites/pcx/waterfeatures.pcx 322 1944 09 5 8 25 6
+  770 sprites/pcx/waterfeatures.pcx 338 1944 09 3 12 -5 20
+  771 sprites/pcx/waterfeatures.pcx 370 1944 09 4 8 -31 13
+  772 sprites/pcx/waterfeatures.pcx 386 1944 09 4 15 -7 0
+  773 sprites/pcx/waterfeatures.pcx 418 1944 09 20 38 -5 -8
+  774 sprites/pcx/waterfeatures.pcx 466 1944 09 26 38 -5 5
+  775 sprites/pcx/waterfeatures.pcx 514 1944 09 20 37 -31 11
+  776 sprites/pcx/waterfeatures.pcx 562 1944 09 27 38 -31 -8
+  777 sprites/pcx/waterfeatures.pcx 610 1944 09 9 16 17 3
+  778 sprites/pcx/waterfeatures.pcx 642 1944 09 9 15 -7 22
+  779 sprites/pcx/waterfeatures.pcx 674 1944 09 9 16 -31 11
+  780 sprites/pcx/waterfeatures.pcx 706 1944 09 9 15 -6 -8
+  781 sprites/pcx/waterfeatures.pcx 738 1944 09 7 8 25 5
+  782 sprites/pcx/waterfeatures.pcx 754 1944 09 5 10 -4 27
+  783 sprites/pcx/waterfeatures.pcx 770 1944 09 7 8 -31 11
+  784 sprites/pcx/waterfeatures.pcx 2 1992 09 6 12 -5 -8
+  785 sprites/pcx/waterfeatures.pcx 34 1992 09 18 39 -6 0
+  786 sprites/pcx/waterfeatures.pcx 82 1992 09 11 38 -5 12
+  787 sprites/pcx/waterfeatures.pcx 130 1992 09 18 39 -31 5
+  788 sprites/pcx/waterfeatures.pcx 178 1992 09 11 40 -32 0
+  789 sprites/pcx/waterfeatures.pcx 226 1992 09 6 20 13 12
+  790 sprites/pcx/waterfeatures.pcx 258 1992 09 7 13 -5 16
+  791 sprites/pcx/waterfeatures.pcx 290 1992 09 6 20 -31 5
+  792 sprites/pcx/waterfeatures.pcx 322 1992 09 7 13 -6 0
+  793 sprites/pcx/waterfeatures.pcx 354 1992 09 4 8 26 13
+  794 sprites/pcx/waterfeatures.pcx 370 1992 09 3 12 -5 20
+  795 sprites/pcx/waterfeatures.pcx 402 1992 09 5 8 -31 6
+  796 sprites/pcx/waterfeatures.pcx 418 1992 09 4 15 -6 0
+  797 sprites/pcx/waterfeatures.pcx 450 1992 09 27 38 -5 -8
+  798 sprites/pcx/waterfeatures.pcx 498 1992 09 20 37 -4 11
+  799 sprites/pcx/waterfeatures.pcx 546 1992 09 26 37 -31 5
+  800 sprites/pcx/waterfeatures.pcx 594 1992 09 20 38 -31 -8
+  801 sprites/pcx/waterfeatures.pcx 642 1992 09 9 16 17 11
+  802 sprites/pcx/waterfeatures.pcx 674 1992 09 9 15 -6 22
+  803 sprites/pcx/waterfeatures.pcx 706 1992 09 9 16 -31 3
+  804 sprites/pcx/waterfeatures.pcx 738 1992 09 9 15 -7 -8
+  805 sprites/pcx/waterfeatures.pcx 770 1992 09 7 8 25 11
+  806 sprites/pcx/waterfeatures.pcx 786 1992 09 5 10 -4 26
+  807 sprites/pcx/waterfeatures.pcx 2 2040 09 7 8 -31 5
+  808 sprites/pcx/waterfeatures.pcx 18 2040 09 6 12 -5 -8
+  809 * 7        02 05 42 01 00 00 00
+  810 * 4        01 05 01 3C
+  811 sprites/pcx/waterfeatures.pcx 82 2040 09 19 38 -5 0
+  812 sprites/pcx/waterfeatures.pcx 130 2040 09 18 38 -5 13
+  813 sprites/pcx/waterfeatures.pcx 178 2040 09 18 38 -31 13
+  814 sprites/pcx/waterfeatures.pcx 226 2040 09 19 38 -31 0
+  815 sprites/pcx/waterfeatures.pcx 274 2040 09 9 19 14 11
+  816 sprites/pcx/waterfeatures.pcx 306 2040 09 9 16 -7 22
+  817 sprites/pcx/waterfeatures.pcx 338 2040 09 9 19 -31 11
+  818 sprites/pcx/waterfeatures.pcx 370 2040 09 9 16 -7 0
+  819 sprites/pcx/waterfeatures.pcx 402 2040 09 6 8 25 13
+  820 sprites/pcx/waterfeatures.pcx 418 2040 09 4 12 -5 27
+  821 sprites/pcx/waterfeatures.pcx 450 2040 09 6 8 -31 13
+  822 sprites/pcx/waterfeatures.pcx 466 2040 09 5 12 -5 0
+  823 sprites/pcx/waterfeatures.pcx 498 2040 09 11 40 -7 0
+  824 sprites/pcx/waterfeatures.pcx 546 2040 09 18 39 -6 5
+  825 sprites/pcx/waterfeatures.pcx 594 2040 09 11 38 -31 12
+  826 sprites/pcx/waterfeatures.pcx 642 2040 09 18 39 -31 0
+  827 sprites/pcx/waterfeatures.pcx 690 2040 09 6 20 13 5
+  828 sprites/pcx/waterfeatures.pcx 722 2040 09 7 13 -6 16
+  829 sprites/pcx/waterfeatures.pcx 754 2040 09 6 20 -31 12
+  830 sprites/pcx/waterfeatures.pcx 2 2072 09 7 13 -5 0
+  831 sprites/pcx/waterfeatures.pcx 34 2072 09 5 8 25 6
+  832 sprites/pcx/waterfeatures.pcx 50 2072 09 3 12 -5 20
+  833 sprites/pcx/waterfeatures.pcx 82 2072 09 4 8 -31 13
+  834 sprites/pcx/waterfeatures.pcx 98 2072 09 4 15 -7 0
+  835 sprites/pcx/waterfeatures.pcx 130 2072 09 20 38 -5 -8
+  836 sprites/pcx/waterfeatures.pcx 178 2072 09 26 38 -5 5
+  837 sprites/pcx/waterfeatures.pcx 226 2072 09 20 37 -31 11
+  838 sprites/pcx/waterfeatures.pcx 274 2072 09 27 38 -31 -8
+  839 sprites/pcx/waterfeatures.pcx 322 2072 09 9 16 17 3
+  840 sprites/pcx/waterfeatures.pcx 354 2072 09 9 15 -7 22
+  841 sprites/pcx/waterfeatures.pcx 386 2072 09 9 16 -31 11
+  842 sprites/pcx/waterfeatures.pcx 418 2072 09 9 15 -6 -8
+  843 sprites/pcx/waterfeatures.pcx 450 2072 09 7 8 25 5
+  844 sprites/pcx/waterfeatures.pcx 466 2072 09 5 10 -4 27
+  845 sprites/pcx/waterfeatures.pcx 482 2072 09 7 8 -31 11
+  846 sprites/pcx/waterfeatures.pcx 498 2072 09 6 12 -5 -8
+  847 sprites/pcx/waterfeatures.pcx 530 2072 09 18 39 -6 0
+  848 sprites/pcx/waterfeatures.pcx 578 2072 09 11 38 -5 12
+  849 sprites/pcx/waterfeatures.pcx 626 2072 09 18 39 -31 5
+  850 sprites/pcx/waterfeatures.pcx 674 2072 09 11 40 -32 0
+  851 sprites/pcx/waterfeatures.pcx 722 2072 09 6 20 13 12
+  852 sprites/pcx/waterfeatures.pcx 754 2072 09 7 13 -5 16
+  853 sprites/pcx/waterfeatures.pcx 2 2120 09 6 20 -31 5
+  854 sprites/pcx/waterfeatures.pcx 34 2120 09 7 13 -6 0
+  855 sprites/pcx/waterfeatures.pcx 66 2120 09 4 8 26 13
+  856 sprites/pcx/waterfeatures.pcx 82 2120 09 3 12 -5 20
+  857 sprites/pcx/waterfeatures.pcx 114 2120 09 5 8 -31 6
+  858 sprites/pcx/waterfeatures.pcx 130 2120 09 4 15 -6 0
+  859 sprites/pcx/waterfeatures.pcx 162 2120 09 27 38 -5 -8
+  860 sprites/pcx/waterfeatures.pcx 210 2120 09 20 37 -4 11
+  861 sprites/pcx/waterfeatures.pcx 258 2120 09 26 37 -31 5
+  862 sprites/pcx/waterfeatures.pcx 306 2120 09 20 38 -31 -8
+  863 sprites/pcx/waterfeatures.pcx 354 2120 09 9 16 17 11
+  864 sprites/pcx/waterfeatures.pcx 386 2120 09 9 15 -6 22
+  865 sprites/pcx/waterfeatures.pcx 418 2120 09 9 16 -31 3
+  866 sprites/pcx/waterfeatures.pcx 450 2120 09 9 15 -7 -8
+  867 sprites/pcx/waterfeatures.pcx 482 2120 09 7 8 25 11
+  868 sprites/pcx/waterfeatures.pcx 498 2120 09 5 10 -4 26
+  869 sprites/pcx/waterfeatures.pcx 514 2120 09 7 8 -31 5
+  870 sprites/pcx/waterfeatures.pcx 530 2120 09 6 12 -5 -8
+  871 * 7        02 05 43 01 00 00 00
+  872 * 14       02 05 44 81 81 00 FF 01 40 00 01 01 41 00
+  873 * 14       02 05 45 81 81 00 FF 01 42 00 01 01 43 00
+  874 * 14       02 05 46 81 80 00 FF 01 44 00 00 00 45 00
+  875 * 6        07 83 01 \7! 02 01
+  876 * 7        03 05 01 06 00 46 00
+  877 * 4        01 05 01 3C
+  878 sprites/pcx/waterfeatures.pcx 674 2120 09 19 38 -5 0
+  879 sprites/pcx/waterfeatures.pcx 722 2120 09 18 38 -5 13
+  880 sprites/pcx/waterfeatures.pcx 2 2168 09 18 38 -31 13
+  881 sprites/pcx/waterfeatures.pcx 50 2168 09 19 38 -31 0
+  882 sprites/pcx/waterfeatures.pcx 98 2168 09 9 19 14 11
+  883 sprites/pcx/waterfeatures.pcx 130 2168 09 9 16 -7 22
+  884 sprites/pcx/waterfeatures.pcx 162 2168 09 9 19 -31 11
+  885 sprites/pcx/waterfeatures.pcx 194 2168 09 9 16 -7 0
+  886 sprites/pcx/waterfeatures.pcx 226 2168 09 6 8 25 13
+  887 sprites/pcx/waterfeatures.pcx 242 2168 09 4 12 -5 27
+  888 sprites/pcx/waterfeatures.pcx 274 2168 09 6 8 -31 13
+  889 sprites/pcx/waterfeatures.pcx 290 2168 09 5 12 -5 0
+  890 sprites/pcx/waterfeatures.pcx 322 2168 09 11 40 -7 0
+  891 sprites/pcx/waterfeatures.pcx 370 2168 09 18 39 -6 5
+  892 sprites/pcx/waterfeatures.pcx 418 2168 09 11 38 -31 12
+  893 sprites/pcx/waterfeatures.pcx 466 2168 09 18 39 -31 0
+  894 sprites/pcx/waterfeatures.pcx 514 2168 09 6 20 13 5
+  895 sprites/pcx/waterfeatures.pcx 546 2168 09 7 13 -6 16
+  896 sprites/pcx/waterfeatures.pcx 578 2168 09 6 20 -31 12
+  897 sprites/pcx/waterfeatures.pcx 610 2168 09 7 13 -5 0
+  898 sprites/pcx/waterfeatures.pcx 642 2168 09 5 8 25 6
+  899 sprites/pcx/waterfeatures.pcx 658 2168 09 3 12 -5 20
+  900 sprites/pcx/waterfeatures.pcx 690 2168 09 4 8 -31 13
+  901 sprites/pcx/waterfeatures.pcx 706 2168 09 4 15 -7 0
+  902 sprites/pcx/waterfeatures.pcx 738 2168 09 20 38 -5 -8
+  903 sprites/pcx/waterfeatures.pcx 2 2200 09 26 38 -5 5
+  904 sprites/pcx/waterfeatures.pcx 50 2200 09 20 37 -31 11
+  905 sprites/pcx/waterfeatures.pcx 98 2200 09 27 38 -31 -8
+  906 sprites/pcx/waterfeatures.pcx 146 2200 09 9 16 17 3
+  907 sprites/pcx/waterfeatures.pcx 178 2200 09 9 15 -7 22
+  908 sprites/pcx/waterfeatures.pcx 210 2200 09 9 16 -31 11
+  909 sprites/pcx/waterfeatures.pcx 242 2200 09 9 15 -6 -8
+  910 sprites/pcx/waterfeatures.pcx 274 2200 09 7 8 25 5
+  911 sprites/pcx/waterfeatures.pcx 290 2200 09 5 10 -4 27
+  912 sprites/pcx/waterfeatures.pcx 306 2200 09 7 8 -31 11
+  913 sprites/pcx/waterfeatures.pcx 322 2200 09 6 12 -5 -8
+  914 sprites/pcx/waterfeatures.pcx 354 2200 09 18 39 -6 0
+  915 sprites/pcx/waterfeatures.pcx 402 2200 09 11 38 -5 12
+  916 sprites/pcx/waterfeatures.pcx 450 2200 09 18 39 -31 5
+  917 sprites/pcx/waterfeatures.pcx 498 2200 09 11 40 -32 0
+  918 sprites/pcx/waterfeatures.pcx 546 2200 09 6 20 13 12
+  919 sprites/pcx/waterfeatures.pcx 578 2200 09 7 13 -5 16
+  920 sprites/pcx/waterfeatures.pcx 610 2200 09 6 20 -31 5
+  921 sprites/pcx/waterfeatures.pcx 642 2200 09 7 13 -6 0
+  922 sprites/pcx/waterfeatures.pcx 674 2200 09 4 8 26 13
+  923 sprites/pcx/waterfeatures.pcx 690 2200 09 3 12 -5 20
+  924 sprites/pcx/waterfeatures.pcx 722 2200 09 5 8 -31 6
+  925 sprites/pcx/waterfeatures.pcx 738 2200 09 4 15 -6 0
+  926 sprites/pcx/waterfeatures.pcx 2 2248 09 27 38 -5 -8
+  927 sprites/pcx/waterfeatures.pcx 50 2248 09 20 37 -4 11
+  928 sprites/pcx/waterfeatures.pcx 98 2248 09 26 37 -31 5
+  929 sprites/pcx/waterfeatures.pcx 146 2248 09 20 38 -31 -8
+  930 sprites/pcx/waterfeatures.pcx 194 2248 09 9 16 17 11
+  931 sprites/pcx/waterfeatures.pcx 226 2248 09 9 15 -6 22
+  932 sprites/pcx/waterfeatures.pcx 258 2248 09 9 16 -31 3
+  933 sprites/pcx/waterfeatures.pcx 290 2248 09 9 15 -7 -8
+  934 sprites/pcx/waterfeatures.pcx 322 2248 09 7 8 25 11
+  935 sprites/pcx/waterfeatures.pcx 338 2248 09 5 10 -4 26
+  936 sprites/pcx/waterfeatures.pcx 354 2248 09 7 8 -31 5
+  937 sprites/pcx/waterfeatures.pcx 370 2248 09 6 12 -5 -8
+  938 * 7        02 05 50 01 00 00 00
+  939 * 4        01 05 01 3C
+  940 sprites/pcx/waterfeatures.pcx 434 2248 09 19 38 -5 0
+  941 sprites/pcx/waterfeatures.pcx 482 2248 09 18 38 -5 13
+  942 sprites/pcx/waterfeatures.pcx 530 2248 09 18 38 -31 13
+  943 sprites/pcx/waterfeatures.pcx 578 2248 09 19 38 -31 0
+  944 sprites/pcx/waterfeatures.pcx 626 2248 09 9 19 14 11
+  945 sprites/pcx/waterfeatures.pcx 658 2248 09 9 16 -7 22
+  946 sprites/pcx/waterfeatures.pcx 690 2248 09 9 19 -31 11
+  947 sprites/pcx/waterfeatures.pcx 722 2248 09 9 16 -7 0
+  948 sprites/pcx/waterfeatures.pcx 754 2248 09 6 8 25 13
+  949 sprites/pcx/waterfeatures.pcx 770 2248 09 4 12 -5 27
+  950 sprites/pcx/waterfeatures.pcx 2 2296 09 6 8 -31 13
+  951 sprites/pcx/waterfeatures.pcx 18 2296 09 5 12 -5 0
+  952 sprites/pcx/waterfeatures.pcx 50 2296 09 11 40 -7 0
+  953 sprites/pcx/waterfeatures.pcx 98 2296 09 18 39 -6 5
+  954 sprites/pcx/waterfeatures.pcx 146 2296 09 11 38 -31 12
+  955 sprites/pcx/waterfeatures.pcx 194 2296 09 18 39 -31 0
+  956 sprites/pcx/waterfeatures.pcx 242 2296 09 6 20 13 5
+  957 sprites/pcx/waterfeatures.pcx 274 2296 09 7 13 -6 16
+  958 sprites/pcx/waterfeatures.pcx 306 2296 09 6 20 -31 12
+  959 sprites/pcx/waterfeatures.pcx 338 2296 09 7 13 -5 0
+  960 sprites/pcx/waterfeatures.pcx 370 2296 09 5 8 25 6
+  961 sprites/pcx/waterfeatures.pcx 386 2296 09 3 12 -5 20
+  962 sprites/pcx/waterfeatures.pcx 418 2296 09 4 8 -31 13
+  963 sprites/pcx/waterfeatures.pcx 434 2296 09 4 15 -7 0
+  964 sprites/pcx/waterfeatures.pcx 466 2296 09 20 38 -5 -8
+  965 sprites/pcx/waterfeatures.pcx 514 2296 09 26 38 -5 5
+  966 sprites/pcx/waterfeatures.pcx 562 2296 09 20 37 -31 11
+  967 sprites/pcx/waterfeatures.pcx 610 2296 09 27 38 -31 -8
+  968 sprites/pcx/waterfeatures.pcx 658 2296 09 9 16 17 3
+  969 sprites/pcx/waterfeatures.pcx 690 2296 09 9 15 -7 22
+  970 sprites/pcx/waterfeatures.pcx 722 2296 09 9 16 -31 11
+  971 sprites/pcx/waterfeatures.pcx 754 2296 09 9 15 -6 -8
+  972 sprites/pcx/waterfeatures.pcx 786 2296 09 7 8 25 5
+  973 sprites/pcx/waterfeatures.pcx 2 2344 09 5 10 -4 27
+  974 sprites/pcx/waterfeatures.pcx 18 2344 09 7 8 -31 11
+  975 sprites/pcx/waterfeatures.pcx 34 2344 09 6 12 -5 -8
+  976 sprites/pcx/waterfeatures.pcx 66 2344 09 18 39 -6 0
+  977 sprites/pcx/waterfeatures.pcx 114 2344 09 11 38 -5 12
+  978 sprites/pcx/waterfeatures.pcx 162 2344 09 18 39 -31 5
+  979 sprites/pcx/waterfeatures.pcx 210 2344 09 11 40 -32 0
+  980 sprites/pcx/waterfeatures.pcx 258 2344 09 6 20 13 12
+  981 sprites/pcx/waterfeatures.pcx 290 2344 09 7 13 -5 16
+  982 sprites/pcx/waterfeatures.pcx 322 2344 09 6 20 -31 5
+  983 sprites/pcx/waterfeatures.pcx 354 2344 09 7 13 -6 0
+  984 sprites/pcx/waterfeatures.pcx 386 2344 09 4 8 26 13
+  985 sprites/pcx/waterfeatures.pcx 402 2344 09 3 12 -5 20
+  986 sprites/pcx/waterfeatures.pcx 434 2344 09 5 8 -31 6
+  987 sprites/pcx/waterfeatures.pcx 450 2344 09 4 15 -6 0
+  988 sprites/pcx/waterfeatures.pcx 482 2344 09 27 38 -5 -8
+  989 sprites/pcx/waterfeatures.pcx 530 2344 09 20 37 -4 11
+  990 sprites/pcx/waterfeatures.pcx 578 2344 09 26 37 -31 5
+  991 sprites/pcx/waterfeatures.pcx 626 2344 09 20 38 -31 -8
+  992 sprites/pcx/waterfeatures.pcx 674 2344 09 9 16 17 11
+  993 sprites/pcx/waterfeatures.pcx 706 2344 09 9 15 -6 22
+  994 sprites/pcx/waterfeatures.pcx 738 2344 09 9 16 -31 3
+  995 sprites/pcx/waterfeatures.pcx 770 2344 09 9 15 -7 -8
+  996 sprites/pcx/waterfeatures.pcx 2 2392 09 7 8 25 11
+  997 sprites/pcx/waterfeatures.pcx 18 2392 09 5 10 -4 26
+  998 sprites/pcx/waterfeatures.pcx 34 2392 09 7 8 -31 5
+  999 sprites/pcx/waterfeatures.pcx 50 2392 09 6 12 -5 -8
+ 1000 * 7        02 05 51 01 00 00 00
+ 1001 * 14       02 05 52 81 80 00 FF 01 50 00 00 00 51 00
+ 1002 * 6        07 83 01 \7! 03 01
+ 1003 * 7        03 05 01 06 00 52 00

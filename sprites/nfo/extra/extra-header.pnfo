@@ -1,0 +1,37 @@
+// skip OpenTTD check for TTDPatch
+        0 * 0    07 9D 04 \7= 00 00 00 00 07
+//
+// Check for OTTD's version number
+//
+
+// First step... Variable A1 might not exist. If that's the case it always
+// skips. As we do not want to skip out of the whole testing, we skip over
+// the real version check.
+    3 * 9        07 A1 04 \7= FF FF FF FF 02
+
+// Real version check (0.7.0 stable)
+    4 * 9        07 A1 04 \7> \d07080000 03
+
+// If the version check is supported, the string is translateable via OpenTTD
+// itself. Use it!.
+
+    5 * 26       0B 03 7F 06 "0.7.0" 00
+
+// Some OTTD versions before r11130 did support Action B, so use the English
+// phrase there
+    6 * 62       0B 03 7F FF "Requires OpenTTD version 0.7.0 or better." 00
+
+// Final fallback. No Action B support, just skip to the end of the file.
+    7 * 9        07 A1 04 \7= FF FF FF FF 00
+
+//check TTD version, skip 1 if windows
+    8 * 6        07 8D 01 \7= 01 01
+    9 * 12       0B 03 7F 01 "Windows" 00
+
+// this is base grf, so we need to use GRFID starting with FF..
+// disable the warning:for newgrfs
+//@@WARNING DISABLE 101
+
+// In TTDP there's no other ingame place to see the version than here:
+   10 * 230      08 07 FF "OT" 01 "{{REPO_TITLE}}" 00
+         "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00

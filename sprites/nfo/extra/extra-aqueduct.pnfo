@@ -1,0 +1,10 @@
+ 1456 * 42       0C "Aqueduct graphics"
+ 1457 * 3        05 12 08
+    3 sprites/pcx/waterfeatures.pcx 66 8 09 39 64 -31 -14
+    4 sprites/pcx/waterfeatures.pcx 146 8 09 39 64 -31 -14
+    5 sprites/pcx/waterfeatures.pcx 226 8 09 39 64 -31 -14
+    6 sprites/pcx/waterfeatures.pcx 306 8 09 39 64 -31 -14
+    7 sprites/pcx/waterfeatures.pcx 386 8 09 39 64 -31 -9
+    8 sprites/pcx/waterfeatures.pcx 466 8 09 39 64 -31 -9
+    9 sprites/pcx/waterfeatures.pcx 546 8 09 23 33 -26 0
+   10 sprites/pcx/waterfeatures.pcx 594 8 09 23 33 -5 0
