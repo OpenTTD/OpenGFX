@@ -193,15 +193,15 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1538-1539-oldflats.pcx,88) // Recolour: S
 //theatre
    10 sprites/pcx/morebuildings.pcx 562 8 09 31 64 -31 0
    11 sprites/pcx/morebuildings.pcx 642 8 09 55 64 -31 -24
-//football stadium
-   58 sprites/pcx/temprtbuilds.pcx 370 456 09 31 64 -31 0
-   59 sprites/pcx/temprtbuilds.pcx 450 456 09 31 64 -31 0
-   60 sprites/pcx/temprtbuilds.pcx 530 456 09 31 64 -31 0
-   61 sprites/pcx/temprtbuilds.pcx 610 456 09 31 64 -31 0
-   62 sprites/pcx/temprtbuilds.pcx 690 456 09 52 64 -31 -21
-   63 sprites/pcx/temprtbuilds.pcx 2 568 09 53 64 -31 -22
-   64 sprites/pcx/temprtbuilds.pcx 82 568 09 46 64 -31 -15
-   65 sprites/pcx/temprtbuilds.pcx 162 568 09 31 64 -31 0
+// 1554-1561 football stadium
+HOUSE_HEIGHT87_3(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_5(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_6(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_8(sprites/pcx/houses/base-1554-football.pcx)
+HOUSE_HEIGHT87_7(sprites/pcx/houses/base-1554-football.pcx)
 //modern office building
    67 sprites/pcx/temprtbuilds.pcx 258 568 03 31 64 -31 0
    68 sprites/pcx/temprtbuilds.pcx 338 568 03 132 37 -18 -108
