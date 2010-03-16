@@ -1,6 +1,6 @@
 
-// widther sprites: 
-#define HOUSE_HEIGHT87(FILE, Y)         0 FILE 0 Y 09 87 66 -31 -56
+// house width: 66 (1px boarder on each side)
+#define HOUSE_HEIGHT87(FILE, Y)         0 FILE 0 Y 09 87 66 -31 -57
 
 #define HOUSE_HEIGHT87_1(FILE)          HOUSE_HEIGHT87(FILE, 0)
 #define HOUSE_HEIGHT87_2(FILE)          HOUSE_HEIGHT87(FILE, 88)
@@ -8,3 +8,5 @@
 #define HOUSE_HEIGHT87_4(FILE)          HOUSE_HEIGHT87(FILE, 264)
 #define HOUSE_HEIGHT87_5(FILE)          HOUSE_HEIGHT87(FILE, 352)
 #define HOUSE_HEIGHT87_6(FILE)          HOUSE_HEIGHT87(FILE, 440)
+#define HOUSE_HEIGHT87_7(FILE)          HOUSE_HEIGHT87(FILE, 528)
+#define HOUSE_HEIGHT87_8(FILE)          HOUSE_HEIGHT87(FILE, 616)
