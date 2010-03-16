@@ -100,15 +100,15 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)    // Recol
   161 sprites/pcx/buildings.pcx 354 1016 09 87 66 -31 -56
   162 sprites/pcx/buildings.pcx 434 1016 09 87 66 -31 -56
   163 sprites/pcx/buildings.pcx 514 1016 09 87 66 -31 -56
-//soccer stadium
-   35 sprites/pcx/temprtbuilds.pcx 290 232 09 31 64 -31 0
-   36 sprites/pcx/temprtbuilds.pcx 370 232 09 31 64 -31 0
-   37 sprites/pcx/temprtbuilds.pcx 450 232 09 31 64 -31 0
-   38 sprites/pcx/temprtbuilds.pcx 530 232 09 31 64 -31 0
-   39 sprites/pcx/temprtbuilds.pcx 610 232 09 33 64 -30 -2
-   40 sprites/pcx/temprtbuilds.pcx 690 232 09 40 64 -30 -9
-   41 sprites/pcx/temprtbuilds.pcx 2 360 09 40 64 -30 -9
-   42 sprites/pcx/temprtbuilds.pcx 82 360 09 31 64 -30 0
+// 1579-1586 soccer stadium
+HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_3(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_5(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_6(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_7(sprites/pcx/houses/base-1479-soccer.pcx)
+HOUSE_HEIGHT87_8(sprites/pcx/houses/base-1479-soccer.pcx)
 //old house
  1487 sprites/pcx/buildings.pcx 82 3288 09 35 64 -31 -4
  1488 sprites/pcx/buildings.pcx 226 3288 09 28 26 -18 -5
