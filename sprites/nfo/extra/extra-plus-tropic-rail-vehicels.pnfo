@@ -1,7 +1,6 @@
 //Climate specific trains and -carriages
 //tropical engines
   271 * 20       0C "Tropic Locomotives" 00
-  272 * 6        07 83 01 \7! 02 39
   273 * 5        0A 01 38 C9 0B
   274 sprites/pcx/newtrains01.pcx 658 488 09 24 8 -3 -12
   275 sprites/pcx/newtrains01.pcx 674 488 09 17 22 -14 -8
@@ -62,7 +61,6 @@
 
 //Topical wagons
   330 * 15       0C "Tropic Wagons" 00
-  272 * 6        07 83 01 \7! 02 31
   331 * 5        0A 01 04 AD 0A
   332 sprites/pcx/newtrains01.pcx 114 632 09 24 8 -3 -12
   333 sprites/pcx/newtrains01.pcx 130 632 09 17 22 -14 -8
@@ -115,7 +113,6 @@
 
 //Topical monolev wagons
   330 * 15       0C "Tropic Wagons" 00
-  272 * 6        07 83 01 \7! 02 \b35
 // Oil wagon
 #define Y_THIS 100
   331 * 5        0A 01 04 \w2841

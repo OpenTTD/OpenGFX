@@ -1,6 +1,5 @@
 //Arctic wagons
   207 * 15       0C "Arctic Wagons" 00
-  149 * 6        07 83 01 \7! 01 18
   208 * 5        0A 01 08 \w2733
   209 sprites/pcx/newtrains01.pcx 242 392 09 24 8 -3 -12
   210 sprites/pcx/newtrains01.pcx 258 392 09 17 22 -14 -8
@@ -38,7 +37,6 @@
 
 
   -1 * 0         0C "Arctic Monolev Wagons" 00
-   80 * 6        07 83 01 \7! 01 \b25
 // Coal empty
 #define Y_THIS 100
   331 * 5        0A 01 04 \w2833
