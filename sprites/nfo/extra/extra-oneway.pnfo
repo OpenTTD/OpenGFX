@@ -1,8 +1,8 @@
- 1240 * 22       0C "One way road graphics"
- 1241 * 3        05 09 06
- 1242 sprites/pcx/openttdw-r14502.pcx 226 3512 01 16 24 -12 -8
- 1243 sprites/pcx/openttdw-r14502.pcx 258 3512 01 16 24 -12 -8
- 1244 sprites/pcx/openttdw-r14502.pcx 290 3512 01 16 28 -14 -8
- 1245 sprites/pcx/openttdw-r14502.pcx 322 3512 01 16 24 -10 -8
- 1246 sprites/pcx/openttdw-r14502.pcx 354 3512 01 16 24 -10 -8
- 1247 sprites/pcx/openttdw-r14502.pcx 386 3512 01 16 28 -12 -8
+   -1 * 0       0C "One way road graphics"
+   -1* 0        05 09 06
+   -1 sprites/pcx/extra/oneway.pcx 18 8 01 16 24 -12 -8
+   -1 sprites/pcx/extra/oneway.pcx 50 8 01 16 24 -12 -8
+   -1 sprites/pcx/extra/oneway.pcx 82 8 01 16 28 -14 -8
+   -1 sprites/pcx/extra/oneway.pcx 114 8 01 16 24 -10 -8
+   -1 sprites/pcx/extra/oneway.pcx 146 8 01 16 24 -10 -8
+   -1 sprites/pcx/extra/oneway.pcx 178 8 01 16 28 -12 -8
