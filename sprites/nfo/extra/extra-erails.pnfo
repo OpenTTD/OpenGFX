@@ -1,41 +1,45 @@
-  754 * 35       0C "Electrified rail"
-  755 * 3        05 05 30
-  756 sprites/pcx/openttdw-r14502.pcx 754 536 01 16 32 -29 -2
-  757 sprites/pcx/openttdw-r14502.pcx 2 584 01 16 32 -1 -2
-  758 sprites/pcx/openttdw-r14502.pcx 50 584 01 1 32 -1 -2
-  759 sprites/pcx/openttdw-r14502.pcx 98 584 01 16 1 0 -3
-  760 sprites/pcx/openttdw-r14502.pcx 114 584 01 24 32 -29 -2
-  761 sprites/pcx/openttdw-r14502.pcx 162 584 01 9 32 -1 6
-  762 sprites/pcx/openttdw-r14502.pcx 210 584 01 9 32 -29 6
-  763 sprites/pcx/openttdw-r14502.pcx 258 584 01 24 32 -1 -2
-  764 sprites/pcx/openttdw-r14502.pcx 306 584 01 16 32 -29 -2
-  765 sprites/pcx/openttdw-r14502.pcx 354 584 01 16 32 -1 -2
-  766 sprites/pcx/openttdw-r14502.pcx 402 584 01 1 32 -1 -2
-  767 sprites/pcx/openttdw-r14502.pcx 450 584 01 16 1 0 -3
-  768 sprites/pcx/openttdw-r14502.pcx 466 584 01 24 32 -29 -2
-  769 sprites/pcx/openttdw-r14502.pcx 514 584 01 9 32 -1 6
-  770 sprites/pcx/openttdw-r14502.pcx 562 584 01 9 32 -29 6
-  771 sprites/pcx/openttdw-r14502.pcx 610 584 01 24 32 -1 -2
-  772 sprites/pcx/openttdw-r14502.pcx 658 584 01 16 32 -29 -2
-  773 sprites/pcx/openttdw-r14502.pcx 706 584 01 16 32 -1 -2
-  774 sprites/pcx/openttdw-r14502.pcx 754 584 01 1 32 -1 -2
-  775 sprites/pcx/openttdw-r14502.pcx 2 632 01 16 1 0 -3
-  776 sprites/pcx/openttdw-r14502.pcx 18 632 01 24 32 -29 -2
-  777 sprites/pcx/openttdw-r14502.pcx 66 632 01 9 32 -1 6
-  778 sprites/pcx/openttdw-r14502.pcx 114 632 01 9 32 -29 6
-  779 sprites/pcx/openttdw-r14502.pcx 162 632 01 24 32 -1 -2
-  780 sprites/pcx/openttdw-r14502.pcx 210 632 01 8 16 -29 6
-  781 sprites/pcx/openttdw-r14502.pcx 242 632 01 8 16 -1 -2
-  782 sprites/pcx/openttdw-r14502.pcx 274 632 01 8 16 -13 -2
-  783 sprites/pcx/openttdw-r14502.pcx 306 632 01 8 16 15 6
-  784 sprites/pcx/openttdw-r14502.pcx 338 632 01 16 8 -7 -14
-  785 sprites/pcx/openttdw-r14502.pcx 354 632 01 18 8 0 -17
-  786 sprites/pcx/openttdw-r14502.pcx 370 632 01 16 8 0 -14
-  787 sprites/pcx/openttdw-r14502.pcx 386 632 01 18 8 -7 -17
-  788 sprites/pcx/openttdw-r14502.pcx 402 632 01 16 2 0 -15
-  789 sprites/pcx/openttdw-r14502.pcx 418 632 01 18 2 0 -16
-  790 sprites/pcx/openttdw-r14502.pcx 434 632 01 16 8 0 -15
-  791 sprites/pcx/openttdw-r14502.pcx 450 632 01 16 8 -7 -15
+// We reuse the OpenTTD catenaries by Michael Blunck (except GUI)
+// NFO: http://vcs.openttd.org/svn/browser/extra/ottd_grf/split/elrails.nfo (r11432)
+// PCX: http://vcs.openttd.org/svn/browser/extra/ottd_grf/split/elrails.pcx (r11432)
+
+   -1 * 0        0C "Electrified rail"
+   -1 * 0        05 05 30
+   -1 sprites/pcx/extra/elrails.pcx 66 8 01 16 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 114 8 01 16 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 162 8 01 1 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 210 8 01 16 1 0 -3
+   -1 sprites/pcx/extra/elrails.pcx 226 8 01 24 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 274 8 01 9 32 -1 6
+   -1 sprites/pcx/extra/elrails.pcx 322 8 01 9 32 -29 6
+   -1 sprites/pcx/extra/elrails.pcx 370 8 01 24 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 418 8 01 16 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 466 8 01 16 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 514 8 01 1 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 562 8 01 16 1 0 -3
+   -1 sprites/pcx/extra/elrails.pcx 578 8 01 24 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 626 8 01 9 32 -1 6
+   -1 sprites/pcx/extra/elrails.pcx 674 8 01 9 32 -29 6
+   -1 sprites/pcx/extra/elrails.pcx 722 8 01 24 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 2 56 01 16 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 50 56 01 16 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 98 56 01 1 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 146 56 01 16 1 0 -3
+   -1 sprites/pcx/extra/elrails.pcx 162 56 01 24 32 -29 -2
+   -1 sprites/pcx/extra/elrails.pcx 210 56 01 9 32 -1 6
+   -1 sprites/pcx/extra/elrails.pcx 258 56 01 9 32 -29 6
+   -1 sprites/pcx/extra/elrails.pcx 306 56 01 24 32 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 354 56 01 8 16 -29 6
+   -1 sprites/pcx/extra/elrails.pcx 386 56 01 8 16 -1 -2
+   -1 sprites/pcx/extra/elrails.pcx 418 56 01 8 16 -13 -2
+   -1 sprites/pcx/extra/elrails.pcx 450 56 01 8 16 15 6
+   -1 sprites/pcx/extra/elrails.pcx 482 56 01 16 8 -7 -14
+   -1 sprites/pcx/extra/elrails.pcx 498 56 01 18 8 0 -17
+   -1 sprites/pcx/extra/elrails.pcx 514 56 01 16 8 0 -14
+   -1 sprites/pcx/extra/elrails.pcx 530 56 01 18 8 -7 -17
+   -1 sprites/pcx/extra/elrails.pcx 546 56 01 16 2 0 -15
+   -1 sprites/pcx/extra/elrails.pcx 562 56 01 18 2 0 -16
+   -1 sprites/pcx/extra/elrails.pcx 578 56 01 16 8 0 -15
+   -1 sprites/pcx/extra/elrails.pcx 594 56 01 16 8 -7 -15
   368 sprites/pcx/gui04.pcx 562 904 09 20 20 0 0
   369 sprites/pcx/gui04.pcx 594 904 09 20 20 0 0
   370 sprites/pcx/gui04.pcx 626 904 09 20 20 0 0
@@ -46,5 +50,5 @@
   375 sprites/pcx/gui04.pcx 50 952 03 32 32 0 0
   376 sprites/pcx/gui04.pcx 98 952 09 20 20 0 0
   377 sprites/pcx/gui04.pcx 130 952 03 32 32 0 0
-  802 sprites/pcx/openttdw-r14502.pcx 162 696 01 22 12 -9 -18
-  803 sprites/pcx/openttdw-r14502.pcx 194 696 01 22 12 -1 -18
+   -1 sprites/pcx/extra/elrails.pcx 306 104 01 22 12 -9 -18
+   -1 sprites/pcx/extra/elrails.pcx 338 104 01 22 12 -1 -18
