@@ -2,8 +2,6 @@
 // NFO: http://vcs.openttd.org/svn/browser/extra/ottd_grf/split/flags.nfo (r12406)
 // PCX: http://vcs.openttd.org/svn/browser/extra/ottd_grf/split/flags.pcx (r17031)
 
-// remap the path
-
    -1 * 0        0C "Flag graphics"
    -1 * 0        05 14 24
    -1 sprites/pcx/extra/flags.pcx 18 8 09 8 11 0 0
