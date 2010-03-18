@@ -1,0 +1,39 @@
+//485-492 rail tunnel land type 2
+  814 sprites/pcx/infra06.pcx 594 4440 09 39 64 -31 -8
+  815 sprites/pcx/infra06.pcx 674 4440 09 39 64 -31 -38
+  816 sprites/pcx/infra06.pcx 2 4504 09 23 64 -31 0
+  817 sprites/pcx/infra06.pcx 82 4504 09 23 64 -31 -30
+  818 sprites/pcx/infra06.pcx 162 4504 09 23 64 -31 0
+  819 sprites/pcx/infra06.pcx 242 4504 09 23 64 -31 -30
+  820 sprites/pcx/infra06.pcx 322 4504 09 39 64 -31 -8
+  821 sprites/pcx/infra06.pcx 402 4504 09 39 64 -31 -38
+
+//493-500 monorail tunnel land type 2
+  822 sprites/pcx/infra06.pcx 482 4504 09 39 64 -31 -8
+  823 sprites/pcx/infra06.pcx 562 4504 09 39 64 -31 -38
+  824 sprites/pcx/infra06.pcx 642 4504 09 23 64 -31 0
+  825 sprites/pcx/infra06.pcx 722 4504 09 23 64 -31 -30
+  826 sprites/pcx/infra06.pcx 2 4568 09 23 64 -31 0
+  827 sprites/pcx/infra06.pcx 82 4568 09 23 64 -31 -30
+  828 sprites/pcx/infra06.pcx 162 4568 09 39 64 -31 -8
+  829 sprites/pcx/infra06.pcx 242 4568 09 39 64 -31 -38
+
+//501-508 maglev tunnel land type 2
+  830 sprites/pcx/infra06.pcx 322 4568 09 39 64 -31 -8
+  831 sprites/pcx/infra06.pcx 402 4568 09 39 64 -31 -38
+  832 sprites/pcx/infra06.pcx 482 4568 09 23 64 -31 0
+  833 sprites/pcx/infra06.pcx 562 4568 09 23 64 -31 -30
+  834 sprites/pcx/infra06.pcx 642 4568 09 23 64 -31 0
+  835 sprites/pcx/infra06.pcx 722 4568 09 23 64 -31 -30
+  836 sprites/pcx/infra06.pcx 2 4632 09 39 64 -31 -8
+  837 sprites/pcx/infra06.pcx 82 4632 09 39 64 -31 -38
+
+//509-516 road tunnel land type 2
+  838 sprites/pcx/infra06.pcx 162 4632 09 39 64 -31 -8
+  839 sprites/pcx/infra06.pcx 242 4632 09 39 64 -31 -38
+  840 sprites/pcx/infra06.pcx 322 4632 09 23 64 -31 0
+  841 sprites/pcx/infra06.pcx 402 4632 09 23 64 -31 -30
+  842 sprites/pcx/infra06.pcx 482 4632 09 23 64 -31 0
+  843 sprites/pcx/infra06.pcx 562 4632 09 23 64 -31 -30
+  844 sprites/pcx/infra06.pcx 642 4632 09 39 64 -31 -8
+  845 sprites/pcx/infra06.pcx 722 4632 09 39 64 -31 -38
