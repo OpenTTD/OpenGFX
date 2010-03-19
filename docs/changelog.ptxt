@@ -1,3 +1,22 @@
+OpenGFX 0.2.2
+-------------
+
+- Feature: multiple new translations for description
+- Feature: [Makefile] Add md5sum checklist to source bundle
+- Feature: Support magic brown for houses
+- Feature: New sprites for almost all toyland rail engines
+
+- Fix: Make vehicle start & stop buttons more easily discernible
+- Fix: football and soccer stadium
+- Fix: Realign houses
+- Fix: Newspaper allignment
+- Fix: Sugar mine and Toy factory animation
+- Fix: Use further improved graphics for the mapgent sprites
+
+- Change: Every big nfo file is splitted into functional smaller files.
+- Change: Adopt palette comments to OpenTTD source and actual effect
+
+
 OpenGFX 0.2.1
 -------------
 - Feature: Add GUI sprites for shading windos
