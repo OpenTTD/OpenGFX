@@ -1,0 +1,11 @@
+// 76-85  Water and shore tiles
+  841 sprites/pcx/terrain04.pcx 594 5208 09 31 64 -31 0
+  874 sprites/pcx/terrain04.pcx 434 5400 09 31 64 -31 0
+  875 sprites/pcx/terrain04.pcx 514 5400 09 31 64 -31 0
+  876 sprites/pcx/terrain04.pcx 594 5400 09 23 64 -31 0
+  877 sprites/pcx/terrain04.pcx 674 5400 09 39 64 -31 -8
+  878 sprites/pcx/terrain04.pcx 2 5464 09 23 64 -31 0
+  879 sprites/pcx/terrain04.pcx 82 5464 09 39 64 -31 -8
+  880 sprites/pcx/terrain04.pcx 162 5464 09 23 64 -31 0
+  881 sprites/pcx/terrain04.pcx 242 5464 09 39 64 -31 -8
+ 1186 sprites/pcx/random.pcx 283 10 09 31 64 -31 0

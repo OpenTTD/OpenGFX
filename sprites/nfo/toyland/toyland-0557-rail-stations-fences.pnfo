@@ -1,0 +1,44 @@
+//557   568     12      Rail stations
+
+  868 sprites/pcx/random.pcx 460 640 09 26 42 -9 -6
+  869 sprites/pcx/random.pcx 310 640 09 26 42 -31 -6
+  870 sprites/pcx/random.pcx 410 640 09 26 42 -9 -6
+  871 sprites/pcx/random.pcx 360 640 09 26 42 -31 -6
+  872 sprites/pcx/random.pcx 10 640 09 35 42 -31 -15
+  873 sprites/pcx/random.pcx 60 640 09 35 42 -9 -15
+  874 sprites/pcx/random.pcx 210 640 09 31 42 -9 -11
+  877 sprites/pcx/random.pcx 110 640 09 36 42 -31 -16
+  876 sprites/pcx/random.pcx 260 640 09 36 42 -9 -16
+  875 sprites/pcx/random.pcx 160 640 09 31 42 -31 -11
+
+  888 sprites/pcx/random.pcx 460 640 09 26 42 -9 -6
+  889 sprites/pcx/random.pcx 310 640 09 26 42 -31 -6
+  890 sprites/pcx/random.pcx 410 640 09 26 42 -9 -6
+  891 sprites/pcx/random.pcx 360 640 09 26 42 -31 -6
+  892 sprites/pcx/random.pcx 10 680 09 37 42 -31 -17
+  893 sprites/pcx/random.pcx 60 680 09 37 42 -9 -17
+  896 sprites/pcx/random.pcx 260 680 09 31 43 -10 -11
+  897 sprites/pcx/random.pcx 110 680 09 36 44 -33 -16
+  894 sprites/pcx/random.pcx 210 680 09 36 44 -9 -16
+  895 sprites/pcx/random.pcx 160 680 09 31 43 -31 -11
+
+  848 sprites/pcx/random.pcx 460 600 09 26 42 -9 -6
+  849 sprites/pcx/random.pcx 310 600 09 26 42 -31 -6
+  850 sprites/pcx/random.pcx 410 600 09 26 42 -9 -6
+  851 sprites/pcx/random.pcx 360 600 09 26 42 -31 -6
+  852 sprites/pcx/random.pcx 10 600 09 32 42 -31 -12
+  853 sprites/pcx/random.pcx 60 600 09 32 42 -9 -12
+  854 sprites/pcx/random.pcx 210 600 09 31 42 -9 -11
+  855 sprites/pcx/random.pcx 160 600 09 36 42 -31 -16
+  856 sprites/pcx/random.pcx 260 600 09 36 42 -9 -16
+  857 sprites/pcx/random.pcx 110 600 09 31 42 -31 -11
+
+//587   594     8       Rail fences
+ 1004 sprites/pcx/infra08.pcx 610 5416 09 22 33 -31 -6
+ 1005 sprites/pcx/infra08.pcx 658 5416 09 22 33 0 -6
+ 1006 sprites/pcx/infra08.pcx 706 5416 01 38 2 0 -22
+ 1007 sprites/pcx/infra08.pcx 722 5416 01 6 65 -31 -6
+ 1008 sprites/pcx/infra08.pcx 2 5480 09 14 33 -31 -6
+ 1009 sprites/pcx/infra08.pcx 50 5480 09 14 33 0 -6
+ 1010 sprites/pcx/infra08.pcx 98 5480 09 30 33 -31 -14
+ 1011 sprites/pcx/infra08.pcx 146 5480 09 30 33 0 -14

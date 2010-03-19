@@ -1,0 +1,45 @@
+//134   152     19      City roads
+ 1092 sprites/pcx/infra08.pcx 82 5960 01 31 64 -31 0
+ 1093 sprites/pcx/infra08.pcx 162 5960 01 31 64 -31 0
+ 1094 sprites/pcx/infra08.pcx 242 5960 01 31 64 -31 0
+ 1095 sprites/pcx/infra08.pcx 322 5960 01 31 64 -31 0
+ 1096 sprites/pcx/infra08.pcx 402 5960 01 31 64 -31 0
+ 1097 sprites/pcx/infra08.pcx 482 5960 01 31 64 -31 0
+ 1098 sprites/pcx/infra08.pcx 562 5960 01 31 64 -31 0
+ 1099 sprites/pcx/infra08.pcx 642 5960 01 31 64 -31 0
+ 1100 sprites/pcx/infra08.pcx 722 5960 01 31 64 -31 0
+ 1101 sprites/pcx/infra08.pcx 2 6008 01 31 64 -31 0
+ 1102 sprites/pcx/infra08.pcx 82 6008 01 31 64 -31 0
+ 1103 sprites/pcx/infra08.pcx 162 6008 01 39 64 -31 -8
+ 1104 sprites/pcx/infra08.pcx 242 6008 01 23 64 -31 0
+ 1105 sprites/pcx/infra08.pcx 322 6008 01 23 64 -31 0
+ 1106 sprites/pcx/infra08.pcx 402 6008 01 39 64 -31 -8
+ 1107 sprites/pcx/infra08.pcx 482 6008 01 31 64 -31 0
+ 1108 sprites/pcx/infra08.pcx 562 6008 01 31 64 -31 0
+ 1109 sprites/pcx/infra08.pcx 642 6008 01 31 64 -31 0
+ 1110 sprites/pcx/infra08.pcx 722 6008 01 31 64 -31 0
+
+//153   171     19      Roads
+ 1111 sprites/pcx/infra08.pcx 2 6072 01 31 64 -31 0
+ 1112 sprites/pcx/infra08.pcx 82 6072 01 31 64 -31 0
+ 1113 sprites/pcx/infra08.pcx 162 6072 01 31 64 -31 0
+ 1114 sprites/pcx/infra08.pcx 242 6072 01 31 64 -31 0
+ 1115 sprites/pcx/infra08.pcx 322 6072 01 31 64 -31 0
+ 1116 sprites/pcx/infra08.pcx 402 6072 01 31 64 -31 0
+ 1117 sprites/pcx/infra08.pcx 482 6072 01 31 64 -31 0
+ 1118 sprites/pcx/infra08.pcx 562 6072 01 31 64 -31 0
+ 1119 sprites/pcx/infra08.pcx 642 6072 01 31 64 -31 0
+ 1120 sprites/pcx/infra08.pcx 722 6072 01 31 64 -31 0
+ 1121 sprites/pcx/infra08.pcx 2 6120 01 31 64 -31 0
+ 1122 sprites/pcx/infra08.pcx 82 6120 01 39 64 -31 -8
+ 1123 sprites/pcx/infra08.pcx 162 6120 01 23 64 -31 0
+ 1124 sprites/pcx/infra08.pcx 242 6120 01 23 64 -31 0
+ 1125 sprites/pcx/infra08.pcx 322 6120 01 39 64 -31 -8
+ 1126 sprites/pcx/infra08.pcx 402 6120 01 31 64 -31 0
+ 1127 sprites/pcx/infra08.pcx 482 6120 01 31 64 -31 0
+ 1128 sprites/pcx/infra08.pcx 562 6120 01 31 64 -31 0
+ 1129 sprites/pcx/infra08.pcx 642 6120 01 31 64 -31 0
+
+//172   173     2       Streetlights
+ 1406 sprites/pcx/random.pcx 254 10 01 14 4 0 -13
+ 1407 sprites/pcx/random.pcx 259 10 01 14 4 -4 -12

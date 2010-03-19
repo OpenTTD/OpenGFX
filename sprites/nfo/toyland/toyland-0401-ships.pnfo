@@ -1,0 +1,18 @@
+//401   416     16      Ships
+   11 sprites/pcx/ships01.pcx 546 8 09 51 19 -8 -19
+   12 sprites/pcx/ships01.pcx 578 8 09 41 67 -62 -3
+   13 sprites/pcx/ships01.pcx 658 8 09 22 86 -42 -9
+   14 sprites/pcx/ships01.pcx 2 72 09 42 67 -5 -4
+   15 sprites/pcx/ships01.pcx 82 72 09 53 19 -8 -25
+   16 sprites/pcx/ships01.pcx 114 72 09 42 66 -60 -4
+   17 sprites/pcx/ships01.pcx 194 72 01 22 86 -44 -10
+   18 sprites/pcx/ships01.pcx 290 72 09 42 66 -3 -3
+
+   19 sprites/pcx/ships01.pcx 370 72 09 32 16 -7 -15
+   20 sprites/pcx/ships01.pcx 402 72 09 28 42 -44 2
+   21 sprites/pcx/ships01.pcx 450 72 09 19 52 -24 -6
+   22 sprites/pcx/ships01.pcx 514 72 09 25 42 2 3
+   23 sprites/pcx/ships01.pcx 562 72 09 26 16 -7 -12
+   24 sprites/pcx/ships01.pcx 594 72 09 25 42 -45 4
+   25 sprites/pcx/ships01.pcx 642 72 01 19 52 -26 -8
+   26 sprites/pcx/ships01.pcx 706 72 09 28 42 2 1
