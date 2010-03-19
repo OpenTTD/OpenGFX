@@ -1,0 +1,11 @@
+// 11-20 Highscore
+   11 sprites/pcx/highscore.pcx 2 16 03 50 640 0 0
+   12 sprites/pcx/highscore.pcx 2 80 03 50 640 0 0
+   13 sprites/pcx/highscore.pcx 2 144 03 50 640 0 0
+   14 sprites/pcx/highscore.pcx 2 208 03 50 640 0 0
+   15 sprites/pcx/highscore.pcx 2 272 03 50 640 0 0
+   16 sprites/pcx/highscore.pcx 2 336 03 50 640 0 0
+   17 sprites/pcx/highscore.pcx 2 400 03 50 640 0 0
+   18 sprites/pcx/highscore.pcx 2 464 03 50 640 0 0
+   19 sprites/pcx/highscore.pcx 2 528 03 50 640 0 0
+   20 sprites/pcx/highscore.pcx 2 592 03 30 640 0 0
