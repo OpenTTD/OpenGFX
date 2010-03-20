@@ -150,8 +150,8 @@
   364 sprites/pcx/gui04.pcx 434 904 09 20 20 0 0
   365 sprites/pcx/gui04.pcx 466 904 09 20 20 0 0
   366 sprites/pcx/gui04.pcx 498 904 09 32 32 0 0
-   -1 sprites/pcx/extra/extra-gui+-.pcx 0 0 09 10 10 0 0
-   -1 sprites/pcx/extra/extra-gui+-.pcx 16 0 09 10 10 0 0
+   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx 0 0 09 10 10 0 0
+   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx 16 0 09 10 10 0 0
  1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
    44 sprites/pcx/gui04.pcx 2 125 09 20 20 0 0
    -1 sprites/pcx/gui04.pcx 242 352 09 8 7 0 0
