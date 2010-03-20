@@ -1,7 +1,7 @@
 OpenGFX Readme - 8bpp Graphics Replacement Project
 
 ==============================
-Current Version: {{GRF_TITLE}}
+Current Version: {{REPO_TITLE}}
 ==============================
 
 Contents
@@ -51,7 +51,7 @@ graphics, Installing OpenGFX using the Online Content Service is the easy way to
 obtain OpenGFX.
 
 If you want to check the integrity of your grf or check wether your
-self-compiled grf is the the same as it should, have a look at {{OBG_FILE}}
+self-compiled grf is the the same as it should, have a look at {{FILENAME}}
 
 
 
