@@ -39,7 +39,7 @@ $(MD5_FILENAME): $(MAIN_TARGET)
 	
 check: $(MD5_FILENAME) $(GRF_FILES)
 	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > md5.check
-	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; fi
+	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; false; fi
 	
 bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_E) "[Preparing] $(DIR_NAME_SRC)"
