@@ -161,7 +161,7 @@ ogfx1_base;4062;4069;8;Coast tiles;Leppka, Zephyris;Zephyris;;1
 ogfx1_base;4070;4075;6;Ship depot;Red*Star;;;1
 ogfx1_base;4076;4076;1;Buoy;FooBar, Leppka;FooBar;;1
 ogfx1_base;4077;4089;13;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfx1_base;4090;4125;36;Farm fences;Soeb;Soeb;;1
+ogfx1_base;4090;4125;36;Farm fences;Soeb, andythenorth;Soeb;781;1
 ogfx1_base;4126;4296;171;Farm tiles;Zephyris;Zephyris;;1
 ogfx1_base;4297;4323;27;Cargo icons;DanMacK;;;1
 ogfx1_base;4324;4403;80;Bridges;Purno, Thgergo, Zephyris, Zimmlock;buttercup, Zephyris;;1
