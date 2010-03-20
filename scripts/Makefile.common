@@ -1,4 +1,4 @@
-.PHONY: clean mrproper test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs
+.PHONY: clean mrproper test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs check
 .DEFAULT:
 
 # Clean the source tree
@@ -6,10 +6,10 @@ clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
 	$(_V)-rm -rf $(MAKEFILE_DEP) $(MAIN_TARGET) $(SRC_DIR)/*.nfo $(DOC_FILENAMES) $(REV_FILENAME)
-	$(_V)-rm -rf $(CLEAN_ADD) $(MD5_FILENAME)
+	$(_V)-rm -rf $(CLEAN_ADD)
 
 mrproper: clean
-	$(_V)-rm -rf $(DIR_BASE)* $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC)
+	$(_V)-rm -rf $(DIR_BASE)* $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC) $(MD5_FILENAME)
 
 # Print the output for a number of variables which define this newgrf.
 test : 
