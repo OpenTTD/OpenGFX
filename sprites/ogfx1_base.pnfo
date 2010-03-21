@@ -2,6 +2,7 @@
 
 // macros:
 #include "sprites/nfo/templates/house_macros.tnfo"
+#include "sprites/nfo/templates/trains.tnfo"
 
 // real sprites:
 #include "sprites/nfo/base/base-0000-font.pnfo"

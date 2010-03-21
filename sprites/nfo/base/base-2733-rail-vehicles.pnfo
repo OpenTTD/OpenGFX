@@ -93,10 +93,13 @@
   390 sprites/pcx/newtrains01.pcx 274 728 09 17 22 -14 -8
   391 sprites/pcx/newtrains01.pcx 306 728 09 12 32 -16 -7
   392 sprites/pcx/newtrains01.pcx 354 728 09 17 22 -6 -8
-  393 sprites/pcx/newtrains01.pcx 386 728 09 24 8 -3 -12
-  394 sprites/pcx/newtrains01.pcx 402 728 09 17 22 -14 -8
-  395 sprites/pcx/newtrains01.pcx 434 728 09 12 32 -16 -7
-  396 sprites/pcx/newtrains01.pcx 482 728 09 17 22 -6 -8
+
+// Paper wagon full
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+
   397 sprites/pcx/newtrains01.pcx 514 728 09 24 8 -3 -12
   398 sprites/pcx/newtrains01.pcx 530 728 09 17 22 -14 -8
   399 sprites/pcx/newtrains01.pcx 562 728 09 12 32 -16 -7
@@ -180,7 +183,7 @@
  2863   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
  2864   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
 #undef Y_THIS
-// Empty Steel
+// Empty Steel (and paper)
 #define Y_THIS 320
  2865   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
  2866   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
@@ -236,13 +239,13 @@
  2895   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
  2896   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
 #undef Y_THIS
-// Fruit full?
-#define Y_THIS 360
- 2897   sprites/pcx/trains/tropicmonolev.pcx    X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2898   sprites/pcx/trains/tropicmonolev.pcx    X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2899   sprites/pcx/trains/tropicmonolev.pcx    X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2900   sprites/pcx/trains/tropicmonolev.pcx    X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+
+// Paper wagon full
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+
 // Copper full?
 #define Y_THIS 300
  2901   sprites/pcx/trains/tropicmonolev.pcx    X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT

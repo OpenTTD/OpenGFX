@@ -57,3 +57,10 @@
 -1 THIS_PCX98 224 0 09 19 24 -6 -10
 #undef THIS_PCX98
 #endif
+
+// 28px wide wagons as defined in arctic_monolevwagons.pcx and alike
+#define WAGON_MOLACE_VERT(FILE, Y) -1 FILE  0 Y 01 18 8   -3 -12
+#define WAGON_MOLACE_NWSE(FILE, Y) -1 FILE 16 Y 09 16 20 -12  -9
+#define WAGON_MOLACE_HORI(FILE, Y) -1 FILE 48 Y 01 12 28 -12  -9
+#define WAGON_MOLACE_SWNE(FILE, Y) -1 FILE 96 Y 09 16 20  -4  -8
+
