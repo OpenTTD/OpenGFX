@@ -1,7 +1,7 @@
 #include "sprites/nfo/nfo-header.pnfo"
 
 #include "sprites/nfo/arctic/arctic-0000-bare-land.pnfo"
-#include "sprites/nfo/arctic/arctic-0057-rail-engines.pnfo"
+#include "sprites/nfo/arctic/arctic-0057-rail-paxwagon.pnfo"
 #include "sprites/nfo/arctic/arctic-0061-farm.pnfo"
 #include "sprites/nfo/arctic/arctic-0073-rough-land.pnfo"
 #include "sprites/nfo/arctic/arctic-0115-rail-infra.pnfo"
