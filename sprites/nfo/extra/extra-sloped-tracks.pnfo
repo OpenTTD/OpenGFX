@@ -1,14 +1,14 @@
- 1415 * 14       0C "Sloped tracks"
+// Sloped Tracks for PBS reserved path debugging
  1416 * 3        05 0F 0C
- 1417 sprites/pcx/openttdw-r14502.pcx 194 4568 09 29 42 -19 -3
- 1418 sprites/pcx/openttdw-r14502.pcx 242 4568 09 13 41 -20 5
- 1419 sprites/pcx/openttdw-r14502.pcx 290 4568 09 14 42 -19 5
- 1420 sprites/pcx/openttdw-r14502.pcx 338 4568 09 29 42 -21 -3
- 1421 sprites/pcx/openttdw-r14502.pcx 386 4568 09 25 33 -15 -1
- 1422 sprites/pcx/openttdw-r14502.pcx 434 4568 09 10 33 -15 7
- 1423 sprites/pcx/openttdw-r14502.pcx 482 4568 09 10 34 -15 7
- 1424 sprites/pcx/openttdw-r14502.pcx 530 4568 09 25 34 -15 -1
- 1425 sprites/pcx/openttdw-r14502.pcx 578 4568 09 23 31 -13 -1
- 1426 sprites/pcx/openttdw-r14502.pcx 626 4568 09 10 32 -15 7
- 1427 sprites/pcx/openttdw-r14502.pcx 674 4568 09 10 31 -15 7
- 1428 sprites/pcx/openttdw-r14502.pcx 722 4568 09 23 31 -16 -1
+ 1417 sprites/pcx/extra/sloped_tracks.pcx 0 0 09 29 42 -19 -3
+ 1418 sprites/pcx/extra/sloped_tracks.pcx 48 0 09 13 41 -20 5
+ 1419 sprites/pcx/extra/sloped_tracks.pcx 96 0 09 14 42 -19 5
+ 1420 sprites/pcx/extra/sloped_tracks.pcx 144 0 09 29 42 -21 -3
+ 1421 sprites/pcx/extra/sloped_tracks.pcx 192 0 09 25 33 -15 -1
+ 1422 sprites/pcx/extra/sloped_tracks.pcx 240 0 09 10 33 -15 7
+ 1423 sprites/pcx/extra/sloped_tracks.pcx 288 0 09 10 34 -15 7
+ 1424 sprites/pcx/extra/sloped_tracks.pcx 336 0 09 25 34 -15 -1
+ 1425 sprites/pcx/extra/sloped_tracks.pcx 384 0 09 23 31 -13 -1
+ 1426 sprites/pcx/extra/sloped_tracks.pcx 432 0 09 10 32 -15 7
+ 1427 sprites/pcx/extra/sloped_tracks.pcx 480 0 09 10 31 -15 7
+ 1428 sprites/pcx/extra/sloped_tracks.pcx 528 0 09 23 31 -16 -1
