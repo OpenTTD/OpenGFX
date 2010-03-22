@@ -111,61 +111,54 @@
   378 sprites/pcx/newtrains01.pcx 706 680 09 12 32 -16 -7
   379 sprites/pcx/newtrains01.pcx 754 680 09 17 22 -6 -8
 
-//Topical monolev wagons
+//Topical monorail and maglev wagons
   330 * 15       0C "Tropic Wagons" 00
-// Oil wagon
-#define Y_THIS 100
-  331 * 5        0A 01 04 \w2841
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Goods wagon
-#define Y_THIS 140
-  331 * 5        0A 01 04 \w2849
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+// Oil wagon (no loading stages, full + empty)
+ 331 * 5        0A 01 04 \w2841
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 100)
+
+// Goods wagon (no loading stages, full + empty)
+ 331 * 5        0A 01 04 \w2849
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 140)
+
 // Grain empty
-#define Y_THIS 160
-  331 * 5        0A 01 04 \w2857
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+ 331 * 5        0A 01 04 \w2857
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 160)
+
 // Grain full
-#define Y_THIS 180
-  331 * 5        0A 01 04 \w2881
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+ 331 * 5        0A 01 04 \w2881
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 180)
+
 // Wood empty
-#define Y_THIS 200
-  331 * 5        0A 01 04 \w2861
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+ 331 * 5        0A 01 04 \w2861
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 200)
+
 // Wood full
-#define Y_THIS 300
-  331 * 5        0A 01 04 \w2885
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Food (only one loading state)
-#define Y_THIS 260
-  331 * 5        0A 01 04 \w2853
-  761 sprites/pcx/trains/tropicmonolev.pcx      X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/tropicmonolev.pcx      X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/tropicmonolev.pcx      X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/tropicmonolev.pcx      X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+ 331 * 5        0A 01 04 \w2885
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
+
+// Food (no loading stages, full + empty)
+ 331 * 5        0A 01 04 \w2853
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+

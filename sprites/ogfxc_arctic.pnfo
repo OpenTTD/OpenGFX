@@ -1,5 +1,7 @@
 #include "sprites/nfo/nfo-header.pnfo"
 
+#include "sprites/nfo/templates/trains.tnfo"
+
 #include "sprites/nfo/arctic/arctic-0000-bare-land.pnfo"
 #include "sprites/nfo/arctic/arctic-0057-rail-paxwagon.pnfo"
 #include "sprites/nfo/arctic/arctic-0061-farm.pnfo"

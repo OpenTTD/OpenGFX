@@ -25,55 +25,39 @@
   256 sprites/pcx/newtrains01.pcx 130 488 09 12 32 -16 -7
   257 sprites/pcx/newtrains01.pcx 178 488 09 17 22 -6 -8
 
-#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3 -11
-#define MONOLEV_ALIGNMENT_EW   09 16 20 -14  -8
-#define MONOLEV_ALIGNMENT_HORI 01 12 28 -16  -7
-#define MONOLEV_ALIGNMENT_NS   09 16 20  -7  -8
-#define X_VERT  0
-#define X_EW   16
-#define X_HORI 48
-#define X_NS   96
-#undef Y_THIS
-
-
-  -1 * 0         0C "Arctic Monolev Wagons" 00
+  -1 * 0         0C "Arctic Monorail and maglev Wagons" 00
 // Coal empty
-#define Y_THIS 100
   331 * 5        0A 01 04 \w2833
-  761 sprites/pcx/trains/arctic_monolevwagons.pcx       X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/arctic_monolevwagons.pcx       X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/arctic_monolevwagons.pcx       X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/arctic_monolevwagons.pcx       X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+
 // Coal full
-#define Y_THIS 120
   331 * 5        0A 01 04 \w2877
-  761 sprites/pcx/trains/arctic_monolevwagons.pcx       X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/arctic_monolevwagons.pcx       X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/arctic_monolevwagons.pcx       X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/arctic_monolevwagons.pcx       X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// oil (no loading stages)
-#define Y_THIS 140
-  331 * 5        0A 01 04 \w2841
-  761 sprites/pcx/trains/arctic_monolevwagons.pcx       X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/arctic_monolevwagons.pcx       X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/arctic_monolevwagons.pcx       X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/arctic_monolevwagons.pcx       X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Goods (no loading stages)
-#define Y_THIS 220
-  331 * 5        0A 01 04 \w2849
-  761 sprites/pcx/trains/arctic_monolevwagons.pcx       X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/arctic_monolevwagons.pcx       X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/arctic_monolevwagons.pcx       X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/arctic_monolevwagons.pcx       X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Food (no loading stages)
-#define Y_THIS 420
-  331 * 5        0A 01 04 \w2853
-  761 sprites/pcx/trains/arctic_monolevwagons.pcx       X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
-  762 sprites/pcx/trains/arctic_monolevwagons.pcx       X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
-  763 sprites/pcx/trains/arctic_monolevwagons.pcx       X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
-  764 sprites/pcx/trains/arctic_monolevwagons.pcx       X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+
+// oil (no loading stages, empty + full)
+ 331 * 5        0A 01 04 \w2841
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+
+// Goods (no loading stages, empty + full)
+ 331 * 5        0A 01 04 \w2849
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+
+// Food (no loading stages, empty + full)
+ 331 * 5        0A 01 04 \w2853
+WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+

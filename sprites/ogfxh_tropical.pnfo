@@ -1,5 +1,7 @@
 #include "sprites/nfo/nfo-header.pnfo"
 
+#include "sprites/nfo/templates/trains.tnfo"
+
 #include "sprites/nfo/tropical/tropical-0000-bare-land.pnfo"
 #include "sprites/nfo/tropical/tropical-0057-pass-waggon.pnfo"
 #include "sprites/nfo/tropical/tropical-0061-rough-land.pnfo"

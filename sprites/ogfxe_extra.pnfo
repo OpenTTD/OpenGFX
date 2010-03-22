@@ -2,6 +2,7 @@
 0 * 4   00 00 00 00
 
 #include "sprites/nfo/extra/extra-header.pnfo"
+#include "sprites/nfo/templates/trains.tnfo"
 
 #include "sprites/nfo/extra/extra-2ccmap.pnfo"
 #include "sprites/nfo/extra/extra-aqueduct.pnfo"

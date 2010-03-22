@@ -110,135 +110,108 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
   404 sprites/pcx/newtrains01.pcx 738 728 09 17 22 -6 -8
 
 // 2829-2904 wagons monorail/maglev
-#define MONOLEV_ALIGNMENT_VERT 01 18  8  -3  -7
-#define MONOLEV_ALIGNMENT_EW   09 16 20 -13  -6
-#define MONOLEV_ALIGNMENT_HORI 01 12 28 -13  -7
-#define MONOLEV_ALIGNMENT_NS   09 16 20  -6  -7
-#define X_VERT  0
-#define X_EW   16
-#define X_HORI 48
-#define X_NS   96
-#undef Y_THIS
 
-// Passenger
-#define Y_THIS 0
- 2829   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2830   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2831   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2832   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+// Passenger (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 0)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 0)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 0)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 0)
+
 // empty coal
-#define Y_THIS 100
- 2833   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2834   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2835   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2836   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
- #undef Y_THIS
-// mail
-#define Y_THIS 40
- 2837   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2838   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2839   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2840   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
- #undef Y_THIS
-// oil
-#define Y_THIS 140
- 2841   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2842   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2843   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2844   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Lifestock
-#define Y_THIS 180
- 2845   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2846   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2847   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2848   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Goods
-#define Y_THIS 220
- 2849   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2850   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2851   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2852   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
-// Food
-#define Y_THIS 260
- 2853   sprites/pcx/trains/tropicmonolev.pcx    X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2854   sprites/pcx/trains/tropicmonolev.pcx    X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2855   sprites/pcx/trains/tropicmonolev.pcx    X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2856   sprites/pcx/trains/tropicmonolev.pcx    X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 100)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 100)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 100)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 100)
+
+// mail (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 40)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 40)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 40)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 40)
+
+// oil (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 140)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 140)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 140)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 140)
+
+// Lifestock (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 180)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 180)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 180)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 180)
+
+// Goods (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 220)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 220)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 220)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 220)
+
+// Food (empty + full)
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+
 // Empty Grain
-#define Y_THIS 240
- 2857   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2858   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2859   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2860   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 240)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 240)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 240)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 240)
+
 // Empty Wood
-#define Y_THIS 280
- 2861   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2862   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2863   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2864   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 280)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 280)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 280)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 280)
+
 // Empty Steel (and paper)
-#define Y_THIS 320
- 2865   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2866   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2867   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2868   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 320)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 320)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 320)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 320)
+
 // Empty Ore
-#define Y_THIS 360
- 2869   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2870   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2871   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2872   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 360)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 360)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 360)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 360)
+
 // Valuables
-#define Y_THIS 80
- 2873   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2874   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2875   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2876   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 80)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 80)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 80)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 80)
+
 // Full coal
-#define Y_THIS 120
- 2877   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2878   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2879   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2880   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 120)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 120)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 120)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 120)
+
 // Full Grain
-#define Y_THIS 260
- 2881   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2882   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2883   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2884   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 260)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 260)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 260)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 260)
+
 // Full Wood
-#define Y_THIS 300
- 2885   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2886   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2887   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2888   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 300)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 300)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 300)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 300)
+
 // Full Steel
-#define Y_THIS 340
- 2889   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2890   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2891   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2892   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 340)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 340)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 340)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 340)
+
 // Full Ore
-#define Y_THIS 380
- 2893   sprites/pcx/trains/temperatemonolev.pcx X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2894   sprites/pcx/trains/temperatemonolev.pcx X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2895   sprites/pcx/trains/temperatemonolev.pcx X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2896   sprites/pcx/trains/temperatemonolev.pcx X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/temperatemonolev.pcx, 380)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/temperatemonolev.pcx, 380)
+WAGON_MOLACE_HORI(sprites/pcx/trains/temperatemonolev.pcx, 380)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/temperatemonolev.pcx, 380)
 
 // Paper wagon full
 WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
@@ -247,12 +220,10 @@ WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
 WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
 
 // Copper full?
-#define Y_THIS 300
- 2901   sprites/pcx/trains/tropicmonolev.pcx    X_VERT Y_THIS MONOLEV_ALIGNMENT_VERT
- 2902   sprites/pcx/trains/tropicmonolev.pcx    X_EW   Y_THIS MONOLEV_ALIGNMENT_EW
- 2903   sprites/pcx/trains/tropicmonolev.pcx    X_HORI Y_THIS MONOLEV_ALIGNMENT_HORI
- 2904   sprites/pcx/trains/tropicmonolev.pcx    X_NS   Y_THIS MONOLEV_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 
 //2905-2980 locomotives rail
     5 sprites/pcx/newtrains01.pcx 98 8 09 24 8 -3 -12
