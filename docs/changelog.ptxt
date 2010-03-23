@@ -1,20 +1,28 @@
-OpenGFX 0.2.2
+OpenGFX r393
 -------------
 
-- Feature: multiple new translations for description
+- Feature: Multiple new translations for description
 - Feature: [Makefile] Add md5sum checklist to source bundle
 - Feature: Support magic brown for houses
-- Feature: New sprites for almost all toyland rail engines
+- Feature: New sprites for all toyland rail engines
+- Feature: Recolor tropic church
 
 - Fix: Make vehicle start & stop buttons more easily discernible
-- Fix: football and soccer stadium
+- Fix: Football and soccer stadium
 - Fix: Realign houses
 - Fix: Newspaper allignment
 - Fix: Sugar mine and Toy factory animation
-- Fix: Use further improved graphics for the mapgent sprites
+- Fix: Use further improved graphics for the mapgen sprites
+- Fix: Airport hangars and their back walls were misaligned
+- Fix: Monorail paper wagon showed wrong sprite
 
 - Change: Every big nfo file is splitted into functional smaller files.
 - Change: Adopt palette comments to OpenTTD source and actual effect
+- Change: [Makefile] Rename 'INSTALLDIR' into 'INSTALL_DIR', marking 'INSTALLDIR' as deprecated
+- Change: Revised alignment of all rail, monorail and maglev wagons
+
+- Doc: Document all rail vehicle sprites
+
 
 
 OpenGFX 0.2.1
@@ -33,6 +41,7 @@ OpenGFX 0.2.1
 - Change: The newgrf ID of the extra newgrf changes to FF "OT" 01
 
 - Doc: Describe briefly the requirements for building OpenGFX
+
 
 
 OpenGFX 0.2.0
