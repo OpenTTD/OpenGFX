@@ -1,7 +1,7 @@
 //Climate specific trains and -carriages
 //tropical engines
   271 * 20       0C "Tropic Locomotives" 00
-  273 * 5        0A 01 38 C9 0B
+  273 * 5        0A 01 38 \w3017
   274 sprites/pcx/newtrains01.pcx 658 488 09 24 8 -3 -12
   275 sprites/pcx/newtrains01.pcx 674 488 09 17 22 -14 -8
   276 sprites/pcx/newtrains01.pcx 706 488 09 12 32 -16 -7

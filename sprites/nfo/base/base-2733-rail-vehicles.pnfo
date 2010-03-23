@@ -264,6 +264,7 @@ WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 300)
 WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 
 //2905-2980 locomotives rail
+// 2905 Chaney Jubilee + SH 8P (Steam)
     5 sprites/pcx/newtrains01.pcx 98 8 09 24 8 -3 -12
     6 sprites/pcx/newtrains01.pcx 114 8 09 17 22 -14 -8
     7 sprites/pcx/newtrains01.pcx 146 8 09 12 32 -16 -7
@@ -272,6 +273,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    10 sprites/pcx/newtrains01.pcx 242 8 09 17 22 -14 -8
    11 sprites/pcx/newtrains01.pcx 274 8 09 12 32 -16 -7
    12 sprites/pcx/newtrains01.pcx 322 8 09 17 22 -6 -8
+// 2913 Ginzu A4 (Steam)
    13 sprites/pcx/newtrains01.pcx 354 8 09 24 8 -3 -12
    14 sprites/pcx/newtrains01.pcx 370 8 09 17 22 -14 -8
    15 sprites/pcx/newtrains01.pcx 402 8 09 12 32 -16 -7
@@ -280,6 +282,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    18 sprites/pcx/newtrains01.pcx 498 8 09 17 22 -14 -8
    19 sprites/pcx/newtrains01.pcx 530 8 09 12 32 -16 -7
    20 sprites/pcx/newtrains01.pcx 578 8 09 17 22 -6 -8
+// 2921 Kirby Paul (Steam)
    21 sprites/pcx/newtrains01.pcx 610 8 09 24 8 -3 -12
    22 sprites/pcx/newtrains01.pcx 626 8 09 17 22 -14 -8
    23 sprites/pcx/newtrains01.pcx 658 8 09 12 32 -16 -7
@@ -288,18 +291,22 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    26 sprites/pcx/newtrains01.pcx 754 8 09 17 22 -14 -8
    27 sprites/pcx/newtrains01.pcx 2 56 09 12 32 -16 -7
    28 sprites/pcx/newtrains01.pcx 50 56 09 17 22 -6 -8
+// 2929 SH/Hendry 25 + Floss 47 (Diesel)
    29 sprites/pcx/newtrains01.pcx 82 56 09 24 8 -3 -12
    30 sprites/pcx/newtrains01.pcx 98 56 09 17 22 -14 -8
    31 sprites/pcx/newtrains01.pcx 130 56 09 12 32 -16 -7
    32 sprites/pcx/newtrains01.pcx 178 56 09 17 22 -6 -8
+// 2933 UU/37 (Diesel)
    33 sprites/pcx/newtrains01.pcx 210 56 09 24 8 -3 -12
    34 sprites/pcx/newtrains01.pcx 226 56 09 17 22 -14 -8
    35 sprites/pcx/newtrains01.pcx 258 56 09 12 32 -16 -7
    36 sprites/pcx/newtrains01.pcx 306 56 09 17 22 -6 -8
+// 2937 SH/30 + SH/40 (Electric)
    37 sprites/pcx/newtrains01.pcx 338 56 09 24 8 -3 -12
    38 sprites/pcx/newtrains01.pcx 354 56 09 17 22 -14 -8
    39 sprites/pcx/newtrains01.pcx 386 56 09 16 32 -16 -11
    40 sprites/pcx/newtrains01.pcx 434 56 09 17 22 -6 -8
+// 2941 SH 125 (Diesel)
    41 sprites/pcx/newtrains01.pcx 466 56 09 24 8 -3 -12
    42 sprites/pcx/newtrains01.pcx 482 56 09 17 22 -14 -8
    43 sprites/pcx/newtrains01.pcx 514 56 09 12 32 -16 -7
@@ -308,6 +315,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    46 sprites/pcx/newtrains01.pcx 610 56 09 17 22 -14 -8
    47 sprites/pcx/newtrains01.pcx 642 56 09 12 32 -16 -7
    48 sprites/pcx/newtrains01.pcx 690 56 09 17 22 -6 -8
+// 2949 Manley-Morel VT (Diesel)
    49 sprites/pcx/newtrains01.pcx 722 56 09 24 8 -3 -12
    50 sprites/pcx/newtrains01.pcx 738 56 09 17 22 -14 -8
    51 sprites/pcx/newtrains01.pcx 2 104 09 12 33 -16 -7
@@ -316,6 +324,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    54 sprites/pcx/newtrains01.pcx 98 104 09 17 22 -14 -8
    55 sprites/pcx/newtrains01.pcx 130 104 09 12 33 -16 -7
    56 sprites/pcx/newtrains01.pcx 178 104 09 17 22 -6 -8
+// 2957 Dash (Diesel)
    57 sprites/pcx/newtrains01.pcx 210 104 09 24 8 -3 -12
    58 sprites/pcx/newtrains01.pcx 226 104 09 17 22 -14 -8
    59 sprites/pcx/newtrains01.pcx 258 104 09 12 33 -16 -7
@@ -324,6 +333,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    62 sprites/pcx/newtrains01.pcx 354 104 09 17 22 -14 -8
    63 sprites/pcx/newtrains01.pcx 386 104 09 12 33 -16 -7
    64 sprites/pcx/newtrains01.pcx 434 104 09 17 22 -6 -8
+// 2965 Asia Star (Electric)
    65 sprites/pcx/newtrains01.pcx 466 104 09 24 8 -3 -12
    66 sprites/pcx/newtrains01.pcx 482 104 09 17 22 -14 -8
    67 sprites/pcx/newtrains01.pcx 514 104 09 17 32 -16 -12
@@ -332,6 +342,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    70 sprites/pcx/newtrains01.pcx 610 104 09 18 22 -14 -9
    71 sprites/pcx/newtrains01.pcx 642 104 09 17 32 -16 -12
    72 sprites/pcx/newtrains01.pcx 690 104 09 17 22 -6 -8
+// 2973 T.I.M. (Electric)
    73 sprites/pcx/newtrains01.pcx 722 104 09 24 8 -3 -12
    74 sprites/pcx/newtrains01.pcx 738 104 09 17 22 -14 -8
    75 sprites/pcx/newtrains01.pcx 2 152 09 17 32 -16 -12
@@ -395,6 +406,8 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
         2832    sprites/pcx/monolev-ba.pcx      69      137     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
 
 //3017-3072 locomotives tropic/arctic
+// Artic locomotives here. Sprites for tropical ones in extra grf via action A.
+// 3017 CS 2400 (Diesel) (arctic)
   151 sprites/pcx/newtrains01.pcx 770 248 09 24 8 -3 -12
   152 sprites/pcx/newtrains01.pcx 2 296 09 17 22 -14 -8
   153 sprites/pcx/newtrains01.pcx 34 296 09 12 32 -16 -7
@@ -403,6 +416,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
   156 sprites/pcx/newtrains01.pcx 130 296 09 17 22 -14 -8
   157 sprites/pcx/newtrains01.pcx 162 296 09 12 32 -16 -7
   158 sprites/pcx/newtrains01.pcx 210 296 09 17 22 -6 -8
+// 3025 Centennial (Diesel) (artic)
   159 sprites/pcx/newtrains01.pcx 242 296 09 24 8 -3 -12
   160 sprites/pcx/newtrains01.pcx 258 296 09 17 22 -14 -8
   161 sprites/pcx/newtrains01.pcx 290 296 09 12 32 -16 -7
@@ -411,6 +425,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
   164 sprites/pcx/newtrains01.pcx 386 296 09 17 22 -14 -8
   165 sprites/pcx/newtrains01.pcx 418 296 09 12 32 -16 -7
   166 sprites/pcx/newtrains01.pcx 466 296 09 17 22 -6 -8
+// 3033 CS 4000 (Diesel) (arctic)
   167 sprites/pcx/newtrains01.pcx 498 296 09 24 8 -3 -12
   168 sprites/pcx/newtrains01.pcx 514 296 09 17 22 -14 -8
   169 sprites/pcx/newtrains01.pcx 546 296 09 12 32 -16 -7
@@ -419,6 +434,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
   172 sprites/pcx/newtrains01.pcx 642 296 09 17 22 -14 -8
   173 sprites/pcx/newtrains01.pcx 674 296 09 12 32 -16 -7
   174 sprites/pcx/newtrains01.pcx 722 296 09 17 22 -6 -8
+// 3041 Wills 2-8-2 (Steam) (arctic)
   175 sprites/pcx/newtrains01.pcx 754 296 09 24 8 -3 -12
   176 sprites/pcx/newtrains01.pcx 770 296 09 17 22 -14 -8
   177 sprites/pcx/newtrains01.pcx 2 344 09 12 32 -16 -7
@@ -427,10 +443,12 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
   180 sprites/pcx/newtrains01.pcx 98 344 09 17 22 -14 -8
   181 sprites/pcx/newtrains01.pcx 130 344 09 12 32 -16 -7
   182 sprites/pcx/newtrains01.pcx 178 344 09 17 22 -6 -8
+// 3049 Kelling 3100 (Diesel) (arctic)
   183 sprites/pcx/newtrains01.pcx 210 344 09 24 8 -3 -12
   184 sprites/pcx/newtrains01.pcx 226 344 09 17 22 -14 -8
   185 sprites/pcx/newtrains01.pcx 258 344 09 12 32 -16 -7
   186 sprites/pcx/newtrains01.pcx 306 344 09 17 22 -6 -8
+// 3053 Turner Turbo (Diesel) (arctic)
   187 sprites/pcx/newtrains01.pcx 338 344 09 24 8 -3 -12
   188 sprites/pcx/newtrains01.pcx 354 344 09 17 22 -14 -8
   189 sprites/pcx/newtrains01.pcx 386 344 09 12 32 -16 -7
@@ -439,10 +457,12 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
   192 sprites/pcx/newtrains01.pcx 482 344 09 17 22 -14 -8
   193 sprites/pcx/newtrains01.pcx 514 344 09 12 32 -16 -7
   194 sprites/pcx/newtrains01.pcx 562 344 09 17 22 -6 -8
+// 3061 MJS 1000 (Diesel) (arctic)
   195 sprites/pcx/newtrains01.pcx 594 344 09 24 8 -3 -12
   196 sprites/pcx/newtrains01.pcx 610 344 09 17 22 -14 -8
   197 sprites/pcx/newtrains01.pcx 642 344 09 12 32 -16 -7
   198 sprites/pcx/newtrains01.pcx 690 344 09 17 22 -6 -8
+// 3065 MJS 250 (Steam) (arctic)
   199 sprites/pcx/newtrains01.pcx 722 344 09 24 8 -3 -12
   200 sprites/pcx/newtrains01.pcx 738 344 09 17 22 -14 -8
   201 sprites/pcx/newtrains01.pcx 2 392 09 12 32 -16 -7
