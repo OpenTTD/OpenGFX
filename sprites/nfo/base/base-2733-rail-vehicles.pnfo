@@ -104,40 +104,48 @@ WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 
-//2801-2804 paper loaded
+// 2801 Paper full
 WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 425)
 WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 425)
 WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 425)
 WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 425)
 
 //2805-2828 copper ore loaded to rubber loaded
-  381 sprites/pcx/newtrains01.pcx 2 728 09 24 8 -3 -12
-  382 sprites/pcx/newtrains01.pcx 18 728 09 17 22 -14 -8
-  383 sprites/pcx/newtrains01.pcx 50 728 09 12 32 -16 -7
-  384 sprites/pcx/newtrains01.pcx 98 728 09 17 22 -6 -8
-  385 sprites/pcx/newtrains01.pcx 130 728 09 24 8 -3 -12
-  386 sprites/pcx/newtrains01.pcx 146 728 09 17 22 -14 -8
-  387 sprites/pcx/newtrains01.pcx 178 728 09 12 32 -16 -7
-  388 sprites/pcx/newtrains01.pcx 226 728 09 17 22 -6 -8
-  389 sprites/pcx/newtrains01.pcx 258 728 09 24 8 -3 -12
-  390 sprites/pcx/newtrains01.pcx 274 728 09 17 22 -14 -8
-  391 sprites/pcx/newtrains01.pcx 306 728 09 12 32 -16 -7
-  392 sprites/pcx/newtrains01.pcx 354 728 09 17 22 -6 -8
+// 2805 Copper ore (full)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 450)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 450)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 450)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 450)
 
-// Paper wagon full
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 340)
+// 2809 Water (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 475)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 475)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 475)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 475)
 
-  397 sprites/pcx/newtrains01.pcx 514 728 09 24 8 -3 -12
-  398 sprites/pcx/newtrains01.pcx 530 728 09 17 22 -14 -8
-  399 sprites/pcx/newtrains01.pcx 562 728 09 12 32 -16 -7
-  400 sprites/pcx/newtrains01.pcx 610 728 09 17 22 -6 -8
-  401 sprites/pcx/newtrains01.pcx 642 728 09 24 8 -3 -12
-  402 sprites/pcx/newtrains01.pcx 658 728 09 17 22 -14 -8
-  403 sprites/pcx/newtrains01.pcx 690 728 09 12 32 -16 -7
-  404 sprites/pcx/newtrains01.pcx 738 728 09 17 22 -6 -8
+// 2813 Fruit empty
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 500)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 500)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 500)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 500)
+
+// 2817 Fruit full
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 525)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 525)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 525)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 525)
+
+// 2821 Rubber (emtpy)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 550)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 550)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 550)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 550)
+
+// 2825 Rubber (full)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 575)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 575)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 575)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 575)
 
 // 2829-2904 wagons monorail/maglev
 

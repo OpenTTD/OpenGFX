@@ -61,55 +61,71 @@
 
 //Topical wagons
   330 * 15       0C "Tropic Wagons" 00
-  331 * 5        0A 01 04 AD 0A
-  332 sprites/pcx/newtrains01.pcx 114 632 09 24 8 -3 -12
-  333 sprites/pcx/newtrains01.pcx 130 632 09 17 22 -14 -8
-  334 sprites/pcx/newtrains01.pcx 162 632 09 12 32 -16 -7
-  335 sprites/pcx/newtrains01.pcx 210 632 09 17 22 -6 -8
-  336 * 5        0A 01 08 B5 0A
-  337 sprites/pcx/newtrains01.pcx 258 632 09 24 8 -3 -12
-  338 sprites/pcx/newtrains01.pcx 274 632 09 17 22 -14 -8
-  339 sprites/pcx/newtrains01.pcx 306 632 09 12 32 -16 -7
-  340 sprites/pcx/newtrains01.pcx 354 632 09 17 22 -6 -8
-  341 sprites/pcx/newtrains01.pcx 386 632 09 24 8 -3 -12
-  342 sprites/pcx/newtrains01.pcx 402 632 09 17 22 -14 -8
-  343 sprites/pcx/newtrains01.pcx 434 632 09 12 32 -16 -7
-  344 sprites/pcx/newtrains01.pcx 482 632 09 17 22 -6 -8
-  345 * 5        0A 01 10 C1 0A
-  346 sprites/pcx/newtrains01.pcx 530 632 09 24 8 -3 -12
-  347 sprites/pcx/newtrains01.pcx 546 632 09 17 22 -14 -8
-  348 sprites/pcx/newtrains01.pcx 578 632 09 12 32 -16 -7
-  349 sprites/pcx/newtrains01.pcx 626 632 09 17 22 -6 -8
-  350 sprites/pcx/newtrains01.pcx 658 632 09 24 8 -3 -12
-  351 sprites/pcx/newtrains01.pcx 674 632 09 17 22 -14 -8
-  352 sprites/pcx/newtrains01.pcx 706 632 09 12 32 -16 -7
-  353 sprites/pcx/newtrains01.pcx 754 632 09 17 22 -6 -8
-  354 sprites/pcx/newtrains01.pcx 786 632 09 24 8 -3 -12
-  355 sprites/pcx/newtrains01.pcx 2 680 09 17 22 -14 -8
-  356 sprites/pcx/newtrains01.pcx 34 680 09 12 32 -16 -7
-  357 sprites/pcx/newtrains01.pcx 82 680 09 17 22 -6 -8
-  358 sprites/pcx/newtrains01.pcx 114 680 09 24 8 -3 -12
-  359 sprites/pcx/newtrains01.pcx 130 680 09 17 22 -14 -8
-  360 sprites/pcx/newtrains01.pcx 162 680 09 12 32 -16 -7
-  361 sprites/pcx/newtrains01.pcx 210 680 09 17 22 -6 -8
-  362 * 5        0A 01 08 D5 0A
-  363 sprites/pcx/newtrains01.pcx 258 680 09 24 8 -3 -12
-  364 sprites/pcx/newtrains01.pcx 274 680 09 17 22 -14 -8
-  365 sprites/pcx/newtrains01.pcx 306 680 09 12 32 -16 -7
-  366 sprites/pcx/newtrains01.pcx 354 680 09 17 22 -6 -8
-  367 sprites/pcx/newtrains01.pcx 386 680 09 24 8 -3 -12
-  368 sprites/pcx/newtrains01.pcx 402 680 09 17 22 -14 -8
-  369 sprites/pcx/newtrains01.pcx 434 680 09 12 32 -16 -7
-  370 sprites/pcx/newtrains01.pcx 482 680 09 17 22 -6 -8
-  371 * 5        0A 01 08 E1 0A
-  372 sprites/pcx/newtrains01.pcx 530 680 09 24 8 -3 -12
-  373 sprites/pcx/newtrains01.pcx 546 680 09 17 22 -14 -8
-  374 sprites/pcx/newtrains01.pcx 578 680 09 12 32 -16 -7
-  375 sprites/pcx/newtrains01.pcx 626 680 09 17 22 -6 -8
-  376 sprites/pcx/newtrains01.pcx 658 680 09 24 8 -3 -12
-  377 sprites/pcx/newtrains01.pcx 674 680 09 17 22 -14 -8
-  378 sprites/pcx/newtrains01.pcx 706 680 09 12 32 -16 -7
-  379 sprites/pcx/newtrains01.pcx 754 680 09 17 22 -6 -8
+  331 * 5        0A 01 04 \w2723 // PAX wagon
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+
+  336 * 5        0A 01 04 \w2741 // mail (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 50)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 50)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 50)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 50)
+
+  336 * 5        0A 01 04 \w2745 // oil (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 75)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 75)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 75)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 75)
+
+  345 * 5        0A 01 04 \w2753 // goods (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 125)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 125)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 125)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 125)
+
+  345 * 5        0A 01 04 \w2757 // food (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 400)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 400)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 400)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 400)
+
+  345 * 5        0A 01 04 \w2761 // Grain (empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 150)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 150)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 150)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 150)
+
+  345 * 5        0A 01 04 \w2765 // Wood (empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 175)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 175)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 175)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 175)
+
+  362 * 5        0A 01 04 \w2773 // Ore (empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 225)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 225)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 225)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 225)
+
+  362 * 5        0A 01 04 \w2777 // Valuables (empty + full)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 375)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 375)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 375)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 375)
+
+  362 * 5        0A 01 04 \w2785 // Grain (full)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 275)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 275)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 275)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 275)
+
+  362 * 5        0A 01 04 \w2789 // Wood (full)
+WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 300)
+WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 300)
+WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 300)
+WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 300)
 
 //Topical monorail and maglev wagons
   330 * 15       0C "Tropic Wagons" 00
