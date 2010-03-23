@@ -1,30 +1,41 @@
 //2733-3072 rail vehicles
 //2733-2828 wagons rail (96 sprites)
 //2733-2756 passengers to goods
-   83 sprites/pcx/newtrains01.pcx 242 152 09 24 8 -3 -12
-   84 sprites/pcx/newtrains01.pcx 258 152 09 17 22 -14 -8
-   85 sprites/pcx/newtrains01.pcx 290 152 09 12 33 -16 -7
-   86 sprites/pcx/newtrains01.pcx 338 152 09 17 22 -6 -8
-   87 sprites/pcx/newtrains01.pcx 370 152 09 24 8 -3 -12
-   88 sprites/pcx/newtrains01.pcx 386 152 09 17 22 -14 -8
-   89 sprites/pcx/newtrains01.pcx 418 152 09 12 32 -16 -7
-   90 sprites/pcx/newtrains01.pcx 466 152 09 17 22 -6 -8
-   91 sprites/pcx/newtrains01.pcx 498 152 09 24 8 -3 -12
-   92 sprites/pcx/newtrains01.pcx 514 152 09 17 22 -14 -8
-   93 sprites/pcx/newtrains01.pcx 546 152 09 12 32 -16 -7
-   94 sprites/pcx/newtrains01.pcx 594 152 09 17 22 -6 -8
-   95 sprites/pcx/newtrains01.pcx 626 152 09 24 8 -3 -12
-   96 sprites/pcx/newtrains01.pcx 642 152 09 17 22 -14 -8
-   97 sprites/pcx/newtrains01.pcx 674 152 09 12 32 -16 -7
-   98 sprites/pcx/newtrains01.pcx 722 152 09 17 22 -6 -8
-   99 sprites/pcx/newtrains01.pcx 754 152 09 24 8 -3 -12
-  100 sprites/pcx/newtrains01.pcx 770 152 09 17 22 -14 -8
-  101 sprites/pcx/newtrains01.pcx 2 200 09 12 32 -16 -7
-  102 sprites/pcx/newtrains01.pcx 50 200 09 17 22 -6 -8
-  103 sprites/pcx/newtrains01.pcx 82 200 09 24 8 -3 -12
-  104 sprites/pcx/newtrains01.pcx 98 200 09 17 22 -14 -8
-  105 sprites/pcx/newtrains01.pcx 130 200 09 12 32 -16 -7
-  106 sprites/pcx/newtrains01.pcx 178 200 09 17 22 -6 -8
+// 2733 Passengers (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 0)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 0)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 0)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 0)
+
+// 2737 Coal empty
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 25)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 25)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 25)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 25)
+
+// 2741 Mail (full + emtpy)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 50)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 50)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 50)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 50)
+
+// 2745 Oil (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 75)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 75)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 75)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 75)
+
+// 2749 Livestock (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 100)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 100)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 100)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 100)
+
+// 2753 Goods (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 125)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 125)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 125)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 125)
 
 //2757-2760 food
   233 sprites/pcx/newtrains01.pcx 210 440 09 24 8 -3 -12
@@ -33,46 +44,65 @@
   236 sprites/pcx/newtrains01.pcx 306 440 09 17 22 -6 -8
 
 //2761-2800 grain to iron ore loaded
-  108 sprites/pcx/newtrains01.pcx 226 200 09 24 8 -3 -12
-  109 sprites/pcx/newtrains01.pcx 242 200 09 17 22 -14 -8
-  110 sprites/pcx/newtrains01.pcx 274 200 09 12 32 -16 -7
-  111 sprites/pcx/newtrains01.pcx 322 200 09 17 22 -6 -8
-  112 sprites/pcx/newtrains01.pcx 354 200 09 24 8 -3 -12
-  113 sprites/pcx/newtrains01.pcx 370 200 09 17 22 -14 -8
-  114 sprites/pcx/newtrains01.pcx 402 200 09 12 32 -16 -7
-  115 sprites/pcx/newtrains01.pcx 450 200 09 17 22 -6 -8
-  116 sprites/pcx/newtrains01.pcx 482 200 09 24 8 -3 -12
-  117 sprites/pcx/newtrains01.pcx 498 200 09 17 22 -14 -8
-  118 sprites/pcx/newtrains01.pcx 530 200 09 12 32 -16 -7
-  119 sprites/pcx/newtrains01.pcx 578 200 09 17 22 -6 -8
-  120 sprites/pcx/newtrains01.pcx 610 200 09 24 8 -3 -12
-  121 sprites/pcx/newtrains01.pcx 626 200 09 17 22 -14 -8
-  122 sprites/pcx/newtrains01.pcx 658 200 09 12 32 -16 -7
-  123 sprites/pcx/newtrains01.pcx 706 200 09 17 22 -6 -8
-  124 sprites/pcx/newtrains01.pcx 738 200 09 24 8 -3 -12
-  125 sprites/pcx/newtrains01.pcx 754 200 09 17 22 -14 -8
-  126 sprites/pcx/newtrains01.pcx 2 248 09 12 32 -16 -7
-  127 sprites/pcx/newtrains01.pcx 50 248 09 17 22 -6 -8
-  128 sprites/pcx/newtrains01.pcx 82 248 09 24 8 -3 -12
-  129 sprites/pcx/newtrains01.pcx 98 248 09 17 22 -14 -8
-  130 sprites/pcx/newtrains01.pcx 130 248 09 12 32 -16 -7
-  131 sprites/pcx/newtrains01.pcx 178 248 09 17 22 -6 -8
-  132 sprites/pcx/newtrains01.pcx 210 248 09 24 8 -3 -12
-  133 sprites/pcx/newtrains01.pcx 226 248 09 17 22 -14 -8
-  134 sprites/pcx/newtrains01.pcx 258 248 09 12 32 -16 -7
-  135 sprites/pcx/newtrains01.pcx 306 248 09 17 22 -6 -8
-  136 sprites/pcx/newtrains01.pcx 338 248 09 24 8 -3 -12
-  137 sprites/pcx/newtrains01.pcx 354 248 09 17 22 -14 -8
-  138 sprites/pcx/newtrains01.pcx 386 248 09 12 32 -16 -7
-  139 sprites/pcx/newtrains01.pcx 434 248 09 17 22 -6 -8
-  140 sprites/pcx/newtrains01.pcx 466 248 09 24 8 -3 -12
-  141 sprites/pcx/newtrains01.pcx 482 248 09 17 22 -14 -8
-  142 sprites/pcx/newtrains01.pcx 514 248 09 12 32 -16 -7
-  143 sprites/pcx/newtrains01.pcx 562 248 09 17 22 -6 -8
-  144 sprites/pcx/newtrains01.pcx 594 248 09 24 8 -3 -12
-  145 sprites/pcx/newtrains01.pcx 610 248 09 17 22 -14 -8
-  146 sprites/pcx/newtrains01.pcx 642 248 09 12 32 -16 -7
-  147 sprites/pcx/newtrains01.pcx 690 248 09 17 22 -6 -8
+// 2761 Grain empty
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 150)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 150)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 150)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 150)
+
+// 2765 Wood empty
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 175)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 175)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 175)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 175)
+
+// 2769 Steel empty
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 200)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 200)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 200)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 200)
+
+// 2773 Iron ore empty
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 225)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 225)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 225)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 225)
+
+// 2777 Valuables (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 375)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 375)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 375)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 375)
+
+// 2781 Coal full
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 250)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 250)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 250)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 250)
+
+// 2785 Grain full
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 275)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 275)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 275)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 275)
+
+// 2789 Wood full
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 300)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 300)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 300)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 300)
+
+// 2793 Steel full
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 325)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 325)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 325)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 325)
+
+// 2797 Iron ore full
+WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 350)
+WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 350)
+WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 350)
+WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 
 //2801-2804 paper loaded
   245 sprites/pcx/newtrains01.pcx 594 440 09 24 8 -3 -12
