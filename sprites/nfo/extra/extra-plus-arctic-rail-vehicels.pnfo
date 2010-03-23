@@ -1,29 +1,31 @@
 //Arctic wagons
   207 * 15       0C "Arctic Wagons" 00
-  208 * 5        0A 01 08 \w2733
-  209 sprites/pcx/newtrains01.pcx 242 392 09 24 8 -3 -12
-  210 sprites/pcx/newtrains01.pcx 258 392 09 17 22 -14 -8
-  211 sprites/pcx/newtrains01.pcx 290 392 09 12 33 -16 -7
-  212 sprites/pcx/newtrains01.pcx 338 392 09 17 22 -6 -8
-  213 sprites/pcx/newtrains01.pcx 370 392 09 24 8 -3 -12
-  214 sprites/pcx/newtrains01.pcx 386 392 09 17 22 -14 -8
-  215 sprites/pcx/newtrains01.pcx 418 392 09 12 32 -16 -7
-  216 sprites/pcx/newtrains01.pcx 466 392 09 17 22 -6 -8
-  208 * 5        0A 01 04 \w2753
-  229 sprites/pcx/newtrains01.pcx 82 440 09 24 8 -3 -12
-  230 sprites/pcx/newtrains01.pcx 98 440 09 17 22 -14 -8
-  231 sprites/pcx/newtrains01.pcx 130 440 09 12 32 -16 -7
-  232 sprites/pcx/newtrains01.pcx 178 440 09 17 22 -6 -8
-  208 * 5        0A 01 04 \w2769
-  267 sprites/pcx/newtrains01.pcx 482 488 09 24 8 -3 -12
-  268 sprites/pcx/newtrains01.pcx 498 488 09 17 22 -14 -8
-  269 sprites/pcx/newtrains01.pcx 530 488 09 12 32 -16 -7
-  270 sprites/pcx/newtrains01.pcx 578 488 09 17 22 -6 -8
-  249 * 5        0A 01 04 \w2781
-  254 sprites/pcx/newtrains01.pcx 82 488 09 24 8 -3 -12
-  255 sprites/pcx/newtrains01.pcx 98 488 09 17 22 -14 -8
-  256 sprites/pcx/newtrains01.pcx 130 488 09 12 32 -16 -7
-  257 sprites/pcx/newtrains01.pcx 178 488 09 17 22 -6 -8
+// PAX wagon is already re-defined in arctic.grf, sprite #57ff  
+
+  208 * 5        0A 01 04 \w2737 // Coal (empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 25)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 25)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 25)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 25)
+
+  249 * 5        0A 01 04 \w2781 // Coal full
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 250)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 250)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 250)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 250)
+
+  208 * 5        0A 01 04 \w2753 // Goods (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 125)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 125)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 125)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 125)
+
+  208 * 5        0A 01 04 \w2769 // Steel empty (= paper empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 200)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 200)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 200)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 200)
+// Paper full defined in sprite #2801ff in base graphics
 
   -1 * 0         0C "Arctic Monorail and maglev Wagons" 00
 // Coal empty

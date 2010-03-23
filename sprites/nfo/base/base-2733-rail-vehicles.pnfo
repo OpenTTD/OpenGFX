@@ -37,11 +37,11 @@ WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 125)
 WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 125)
 WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 125)
 
-//2757-2760 food
-  233 sprites/pcx/newtrains01.pcx 210 440 09 24 8 -3 -12
-  234 sprites/pcx/newtrains01.pcx 226 440 09 17 22 -14 -8
-  235 sprites/pcx/newtrains01.pcx 258 440 09 12 32 -16 -7
-  236 sprites/pcx/newtrains01.pcx 306 440 09 17 22 -6 -8
+//2757 Food (full + empty)
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 400)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 400)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 400)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 400)
 
 //2761-2800 grain to iron ore loaded
 // 2761 Grain empty
@@ -56,7 +56,7 @@ WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 175)
 WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 175)
 WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 175)
 
-// 2769 Steel empty
+// 2769 Steel + paper empty
 WAGON_WIDE_VERT(sprites/pcx/trains/temperate_railwagons.pcx, 200)
 WAGON_WIDE_NWSE(sprites/pcx/trains/temperate_railwagons.pcx, 200)
 WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 200)
@@ -105,10 +105,10 @@ WAGON_WIDE_HORI(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 WAGON_WIDE_SWNE(sprites/pcx/trains/temperate_railwagons.pcx, 350)
 
 //2801-2804 paper loaded
-  245 sprites/pcx/newtrains01.pcx 594 440 09 24 8 -3 -12
-  246 sprites/pcx/newtrains01.pcx 610 440 09 17 22 -14 -8
-  247 sprites/pcx/newtrains01.pcx 642 440 09 12 32 -16 -7
-  248 sprites/pcx/newtrains01.pcx 690 440 09 17 22 -6 -8
+WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 425)
+WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 425)
+WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 425)
+WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 425)
 
 //2805-2828 copper ore loaded to rubber loaded
   381 sprites/pcx/newtrains01.pcx 2 728 09 24 8 -3 -12
