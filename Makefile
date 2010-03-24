@@ -15,8 +15,6 @@ MAKEFILE_COMMON=scripts/Makefile.common
 MAKEFILE_IN=scripts/Makefile.in
 MAKEFILE_DEP=Makefile.dep
 
-export
-
 # Include the project's configuration file
 include ${MAKEFILE_CONFIG}
 

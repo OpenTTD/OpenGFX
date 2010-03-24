@@ -3,7 +3,7 @@ $(DIR_NAME): depend $(BUNDLE_FILES)
 	$(_E) "[Generating] $@."
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
-	$(_V) -for i in $(BUNDLE_FILES); do cp $$i $@; done	
+	$(_V) -for i in $(BUNDLE_FILES); do cp $$i $@; done
 
 %.tar: $(DIR_NAME)
 # Create the release bundle with all files in one tar
@@ -36,11 +36,11 @@ md5: $(MD5_FILENAME)
 $(MD5_FILENAME): $(MAIN_TARGET)
 	$(_E) "[Generating] $@"
 	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > $(MD5_FILENAME)
-	
+
 check: $(MD5_FILENAME) $(GRF_FILES)
 	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > md5.check
 	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; false; fi
-	
+
 bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_E) "[Preparing] $(DIR_NAME_SRC)"
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
@@ -66,7 +66,7 @@ bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 $(INSTALL_DIR):
 	$(_E) "Install dir didn't exist. Creating $@"
 	$(_V) mkdir -p $(INSTALL_DIR)
-	
+
 release-install:
 	$(_E) "Target is obsolete. Use 'install' instead."
 release-source:
