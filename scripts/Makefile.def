@@ -17,7 +17,7 @@ CC_FLAGS       ?= -C -E - <
 MAKE_FLAGS     ?=
 UNIX2DOS_FLAGS ?= -q
 
-NFORENUM       ?= renum
+NFORENUM       ?= $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
 GRFCODEC       ?= grfcodec
 TAR            ?= tar
 ZIP            ?= zip
