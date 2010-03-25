@@ -8,11 +8,10 @@ Contents
 0 About OpenGFX
 1 Downloading OpenGFX
 2 Installing OpenGFX Manually
-    2.1 Sample.cat error
 3 Installing or Updating OpenGFX using the Online Content service
 4 Reporting bugs and Contributing
 5 Building of OpenGFX
-    5.1 Note for package maintainers
+    5.1 Notes for package maintainers
 6 License
     6.1 Obtaining the source
 7 Credits
@@ -133,10 +132,10 @@ the upper left corner.
 =================================
 
 If you spot any grapical bugs or glitches in the available graphics, please let
-us know via the OpenGFX
-release topic at TT-forums.net:
-http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or preferrably our bug
-tracker http://dev.openttdcoop.org/projects/opengfx/issues . Please make sure
+us know preferrably via our bug
+tracker http://dev.openttdcoop.org/projects/opengfx/issues
+or via the OpenGFX release topic at TT-forums.net:
+http://www.tt-forums.net/viewtopic.php?f=36&t=40162 . Please make sure
 that you're using the latest available version before reporting a bug. You can
 check the Issue Tracker to see if the bug you've found is already reported (or
 fixed!).
@@ -181,7 +180,7 @@ installation instructions concerning mercurial refer to the manual of your
 distribution.
 
 On Mac: Install the developers tools and get grfcodec and nforenum from the
-source mentioned above. Mercurial is easiest insalled via macports: sudo port
+source mentioned above. Mercurial is easiest installed via macports: sudo port
 install mercurial
 
 The use of mercurial is strongly encouraged as only that allows to keep track of
@@ -198,6 +197,8 @@ Makefile.local to specify a different path.
 - bundle_zip: create a zip archive of OpenGFX
 - bundle_bz2: create a bzip2 archive of OpenGFX
 - bundle_tar: create a tar archive of OpenGFX
+- check: checks the md5 sums of the built grf and obg files against those of
+the official release versions
 
 Given the usual case that you modify something within OpenGFX and want to test
 that, a simple 'make install' should suffice and you can immediately test the
@@ -205,11 +206,13 @@ changes ingame, if you selected the nightly version of OpenGFX. Given default
 paths, a 'make install' will overwrite a previous nightly version of OpenGFX.
 Mind to re-start OpenTTD as it needs to re-read the grf files.
 
-5.1 Note for package maintainers:
+5.1 Notes for package maintainers:
 ---------------------------------
 - Checking for build success: The source releases contain an additional file
 opengfx-<version>.md5 which indicates the md5 sums of the generated files as
-released in the binary release.
+released in the binary release. You can check your build by running
+'make check'. Mind that you'll overwrite the file with the original md5 sums,
+if you call 'make bundle_src' or 'make md5'.
 - The source release also contains a Makefile.local and a slightly appended
 Makefile.def, both supplying additional variable definitions which otherwise
 would be determined by accessing repository properties.
