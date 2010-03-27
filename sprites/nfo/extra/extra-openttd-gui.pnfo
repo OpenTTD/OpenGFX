@@ -1,8 +1,9 @@
+// OpenTTD GUI graphics
+
 //nforenum erronously warns about the sprite count here for OpenTTD GUI sprites
 //@@WARNING DISABLE 60
 
- 1561 * 21       0C "OpenTTD GUI graphics"
- 1562 * 3        05 15 99
+ 1562 * 3        05 15 \b154
   220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
   221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
   222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
@@ -156,6 +157,7 @@
    44 sprites/pcx/gui04.pcx 2 125 09 20 20 0 0
    -1 sprites/pcx/gui04.pcx 242 352 09 8 7 0 0
    -1 sprites/pcx/gui04.pcx 256 352 09 8 7 0 0
-
+   -1 sprites/pcx/extra/extra-gui-bug.pcx 0 0 09 8 7 0 0
+   
 //re-enable warning again after nforenum erronously warns about the sprite count for GUI sprites
 //@@WARNING ENABLE 60
