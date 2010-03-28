@@ -61,7 +61,7 @@
 
 //Topical wagons
   330 * 15       0C "Tropic Wagons" 00
-  331 * 5        0A 01 04 \w2723 // PAX wagon
+  331 * 5        0A 01 04 \w2733 // PAX wagon
 WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 0)
 WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
 WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 0)
