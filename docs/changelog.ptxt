@@ -1,6 +1,8 @@
-OpenGFX r393
+OpenGFX 0.2.2 
 -------------
 
+- Feature: GUI icon for NewGRF debug mode
+- Feature: [Makefile] Add support for Debian and Fedora
 - Feature: Multiple new translations for description
 - Feature: [Makefile] Add md5sum checklist to source bundle
 - Feature: Support magic brown for houses
