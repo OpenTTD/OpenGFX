@@ -33,12 +33,15 @@ endif
 
 md5: $(MD5_FILENAME)
 
-$(MD5_FILENAME): $(MAIN_TARGET)
+# OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
+$(MD5_FILENAME): $(MAIN_TARGET) $(GRF_FILES)
 	$(_E) "[Generating] $@"
-	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > $(MD5_FILENAME)
+	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) | sed "s/  / /;s/ /  /" > $(MD5_FILENAME)
 
-check: $(MD5_FILENAME) $(GRF_FILES)
-	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) > md5.check
+# OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
+check: $(MAIN_TARGET) $(GRF_FILES)
+	$(_V) if [ -f $(MD5_FILENAME) ]; then echo "[CHECKING md5sums]"; else echo "Required file '$(MD5_FILENAME)' which to test against not found!"; false; fi
+	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) | sed "s/  / /;s/ /  /" > md5.check
 	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; false; fi
 
 bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
