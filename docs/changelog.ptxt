@@ -1,3 +1,9 @@
+OpenGFX 0.2.3
+
+- Fix: Don't rebuild the md5sums file which one wants to check against
+
+
+
 OpenGFX 0.2.2 
 -------------
 
