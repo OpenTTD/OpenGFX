@@ -1,8 +1,8 @@
 //761   840     80      Rail wagons
 #define WAGON_ALIGNMENT_VERT 01 18  8  -3 -11
-#define WAGON_ALIGNMENT_EW   09 16 20 -14  -8
-#define WAGON_ALIGNMENT_HORI 01 12 28 -16  -7
-#define WAGON_ALIGNMENT_NS   09 16 20  -7  -8
+#define WAGON_ALIGNMENT_EW   09 16 20 -14  -9
+#define WAGON_ALIGNMENT_HORI 01 12 28 -16  -8
+#define WAGON_ALIGNMENT_NS   09 16 20  -5  -9
 #define X_VERT  0
 #define X_EW   16
 #define X_HORI 48
