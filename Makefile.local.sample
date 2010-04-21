@@ -14,13 +14,13 @@
 # EXTRA_DIRS         :=
 
 # Documentation files:
-# README_FILENAME_SRC    := $(DOC_DIR)/readme.txt
-# LICENSE_FILENAME_SRC   := $(DOC_DIR)/license.txt
-# CHANGELOG_FILENAME_SRC := $(DOC_DIR)/changelog.txt
+# README_FILENAME_SRC    := $(DOC_DIR)/readme.ptxt
+# LICENSE_FILENAME_SRC   := $(DOC_DIR)/license.ptxt
+# CHANGELOG_FILENAME_SRC := $(DOC_DIR)/changelog.ptxt
 
 # file extentions which indicate plain text source files, 
 # parsable by a text editor
-# FILE_SRC_EXTENSIONS = pnfo template
+# FILE_SRC_EXTENSIONS = pnfo tnfo
 
 # file extensions which indicate binary source files
 # FILE_INC_EXTENSIONS = wav pcx
@@ -47,16 +47,17 @@
 ################################################################
 # Build parameters and programmes
 # NFORENUM_FLAGS =
-# GRFCODEC_FLAGS = -e -p 2
+# GRFCODEC_FLAGS = -e -p 2 -c
 # TAR_FLAGS      = -cf 
 # ZIP_FLAGS      = -r
 # SRCZIP_FLAGS   =
 # BZIP_FLAGS     = -k9f
 # CC_FLAGS       = -C -E - <
 # MAKE_FLAGS     =
-# UNIX2DOS_FLAGS ?= -q
+# UNIX2DOS_FLAGS = -q
+# NML_FLAGS      =
 
-# NFORENUM       = renum
+# NFORENUM       = $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
 # GRFCODEC       = grfcodec
 # TAR            = tar
 # ZIP            = zip
@@ -66,8 +67,9 @@
 # AWK            = awk
 # HG             = hg
 # MAKE           = make
-# UNIX2DOS       = $(shell [ `which unix2dos` ] && echo "unix2dos" || echo "cat")
-# MD5SUM         = md5 -r
+# UNIX2DOS       = $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
+# MD5SUM         = $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
+# NML            = nml.py
 
 # Installation dir
 INSTALL_DIR      =
@@ -101,7 +103,6 @@ INSTALL_DIR      =
 # BZIP_FILENAME      := $(TAR_FILENAME).bz2
 # ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
 # MD5_FILENAME       := $(DIR_NAME).md5
-# REV_EXTENSION      := REV
 
 # DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
 

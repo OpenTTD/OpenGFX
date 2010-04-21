@@ -1,6 +1,6 @@
 $(DIR_NAME): depend $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
-	$(_E) "[Generating] $@."
+	$(_E) "[Generating] $@"
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
 	$(_V) -for i in $(BUNDLE_FILES); do cp $$i $@; done
@@ -14,9 +14,13 @@ $(DIR_NAME): depend $(BUNDLE_FILES)
 bundle: $(DIR_NAME)
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(DIR_NAME)
+$(ZIP_FILENAME): $(DIR_NAME) $(TAR_FILENAME)
 	$(_E) "[Generating] $@"
-	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $^
+	$(_V) cp $(TAR_FILENAME) $<
+	$(_V) if [ -e $</$(MAIN_TARGET) ]; then rm $</$(MAIN_TARGET); fi # delete files which shall not be directly in the zip
+	$(_V) if [ -e $</*.grf ]; then rm $</*.grf; fi
+	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $<
+	$(_V) -rm -rf $< # delete the dirname as it's modified and needs re-building, if used again.
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[Generating] $@"
