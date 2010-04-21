@@ -265,92 +265,92 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 
 //2905-2980 locomotives rail
 // 2905 Chaney Jubilee + SH 8P (Steam)
-    5 sprites/pcx/newtrains01.pcx 98 8 09 24 8 -3 -12
-    6 sprites/pcx/newtrains01.pcx 114 8 09 17 22 -14 -8
-    7 sprites/pcx/newtrains01.pcx 146 8 09 12 32 -16 -7
-    8 sprites/pcx/newtrains01.pcx 194 8 09 17 22 -6 -8
-    9 sprites/pcx/newtrains01.pcx 226 8 09 24 8 -3 -12
-   10 sprites/pcx/newtrains01.pcx 242 8 09 17 22 -14 -8
-   11 sprites/pcx/newtrains01.pcx 274 8 09 12 32 -16 -7
-   12 sprites/pcx/newtrains01.pcx 322 8 09 17 22 -6 -8
+    5 sprites/pcx/trains/newtrains01.pcx 98 8 09 24 8 -3 -12
+    6 sprites/pcx/trains/newtrains01.pcx 114 8 09 17 22 -14 -8
+    7 sprites/pcx/trains/newtrains01.pcx 146 8 09 12 32 -16 -7
+    8 sprites/pcx/trains/newtrains01.pcx 194 8 09 17 22 -6 -8
+    9 sprites/pcx/trains/newtrains01.pcx 226 8 09 24 8 -3 -12
+   10 sprites/pcx/trains/newtrains01.pcx 242 8 09 17 22 -14 -8
+   11 sprites/pcx/trains/newtrains01.pcx 274 8 09 12 32 -16 -7
+   12 sprites/pcx/trains/newtrains01.pcx 322 8 09 17 22 -6 -8
 // 2913 Ginzu A4 (Steam)
-   13 sprites/pcx/newtrains01.pcx 354 8 09 24 8 -3 -12
-   14 sprites/pcx/newtrains01.pcx 370 8 09 17 22 -14 -8
-   15 sprites/pcx/newtrains01.pcx 402 8 09 12 32 -16 -7
-   16 sprites/pcx/newtrains01.pcx 450 8 09 17 22 -6 -8
-   17 sprites/pcx/newtrains01.pcx 482 8 09 24 8 -3 -12
-   18 sprites/pcx/newtrains01.pcx 498 8 09 17 22 -14 -8
-   19 sprites/pcx/newtrains01.pcx 530 8 09 12 32 -16 -7
-   20 sprites/pcx/newtrains01.pcx 578 8 09 17 22 -6 -8
+   13 sprites/pcx/trains/newtrains01.pcx 354 8 09 24 8 -3 -12
+   14 sprites/pcx/trains/newtrains01.pcx 370 8 09 17 22 -14 -8
+   15 sprites/pcx/trains/newtrains01.pcx 402 8 09 12 32 -16 -7
+   16 sprites/pcx/trains/newtrains01.pcx 450 8 09 17 22 -6 -8
+   17 sprites/pcx/trains/newtrains01.pcx 482 8 09 24 8 -3 -12
+   18 sprites/pcx/trains/newtrains01.pcx 498 8 09 17 22 -14 -8
+   19 sprites/pcx/trains/newtrains01.pcx 530 8 09 12 32 -16 -7
+   20 sprites/pcx/trains/newtrains01.pcx 578 8 09 17 22 -6 -8
 // 2921 Kirby Paul (Steam)
-   21 sprites/pcx/newtrains01.pcx 610 8 09 24 8 -3 -12
-   22 sprites/pcx/newtrains01.pcx 626 8 09 17 22 -14 -8
-   23 sprites/pcx/newtrains01.pcx 658 8 09 12 32 -16 -7
-   24 sprites/pcx/newtrains01.pcx 706 8 09 17 22 -6 -8
-   25 sprites/pcx/newtrains01.pcx 738 8 09 24 8 -3 -12
-   26 sprites/pcx/newtrains01.pcx 754 8 09 17 22 -14 -8
-   27 sprites/pcx/newtrains01.pcx 2 56 09 12 32 -16 -7
-   28 sprites/pcx/newtrains01.pcx 50 56 09 17 22 -6 -8
+   21 sprites/pcx/trains/newtrains01.pcx 610 8 09 24 8 -3 -12
+   22 sprites/pcx/trains/newtrains01.pcx 626 8 09 17 22 -14 -8
+   23 sprites/pcx/trains/newtrains01.pcx 658 8 09 12 32 -16 -7
+   24 sprites/pcx/trains/newtrains01.pcx 706 8 09 17 22 -6 -8
+   25 sprites/pcx/trains/newtrains01.pcx 738 8 09 24 8 -3 -12
+   26 sprites/pcx/trains/newtrains01.pcx 754 8 09 17 22 -14 -8
+   27 sprites/pcx/trains/newtrains01.pcx 2 56 09 12 32 -16 -7
+   28 sprites/pcx/trains/newtrains01.pcx 50 56 09 17 22 -6 -8
 // 2929 SH/Hendry 25 + Floss 47 (Diesel)
-   29 sprites/pcx/newtrains01.pcx 82 56 09 24 8 -3 -12
-   30 sprites/pcx/newtrains01.pcx 98 56 09 17 22 -14 -8
-   31 sprites/pcx/newtrains01.pcx 130 56 09 12 32 -16 -7
-   32 sprites/pcx/newtrains01.pcx 178 56 09 17 22 -6 -8
+   29 sprites/pcx/trains/newtrains01.pcx 82 56 09 24 8 -3 -12
+   30 sprites/pcx/trains/newtrains01.pcx 98 56 09 17 22 -14 -8
+   31 sprites/pcx/trains/newtrains01.pcx 130 56 09 12 32 -16 -7
+   32 sprites/pcx/trains/newtrains01.pcx 178 56 09 17 22 -6 -8
 // 2933 UU/37 (Diesel)
-   33 sprites/pcx/newtrains01.pcx 210 56 09 24 8 -3 -12
-   34 sprites/pcx/newtrains01.pcx 226 56 09 17 22 -14 -8
-   35 sprites/pcx/newtrains01.pcx 258 56 09 12 32 -16 -7
-   36 sprites/pcx/newtrains01.pcx 306 56 09 17 22 -6 -8
+   33 sprites/pcx/trains/newtrains01.pcx 210 56 09 24 8 -3 -12
+   34 sprites/pcx/trains/newtrains01.pcx 226 56 09 17 22 -14 -8
+   35 sprites/pcx/trains/newtrains01.pcx 258 56 09 12 32 -16 -7
+   36 sprites/pcx/trains/newtrains01.pcx 306 56 09 17 22 -6 -8
 // 2937 SH/30 + SH/40 (Electric)
-   37 sprites/pcx/newtrains01.pcx 338 56 09 24 8 -3 -12
-   38 sprites/pcx/newtrains01.pcx 354 56 09 17 22 -14 -8
-   39 sprites/pcx/newtrains01.pcx 386 56 09 16 32 -16 -11
-   40 sprites/pcx/newtrains01.pcx 434 56 09 17 22 -6 -8
+   37 sprites/pcx/trains/newtrains01.pcx 338 56 09 24 8 -3 -12
+   38 sprites/pcx/trains/newtrains01.pcx 354 56 09 17 22 -14 -8
+   39 sprites/pcx/trains/newtrains01.pcx 386 56 09 16 32 -16 -11
+   40 sprites/pcx/trains/newtrains01.pcx 434 56 09 17 22 -6 -8
 // 2941 SH 125 (Diesel)
-   41 sprites/pcx/newtrains01.pcx 466 56 09 24 8 -3 -12
-   42 sprites/pcx/newtrains01.pcx 482 56 09 17 22 -14 -8
-   43 sprites/pcx/newtrains01.pcx 514 56 09 12 32 -16 -7
-   44 sprites/pcx/newtrains01.pcx 562 56 09 17 22 -6 -8
-   45 sprites/pcx/newtrains01.pcx 594 56 09 24 8 -3 -12
-   46 sprites/pcx/newtrains01.pcx 610 56 09 17 22 -14 -8
-   47 sprites/pcx/newtrains01.pcx 642 56 09 12 32 -16 -7
-   48 sprites/pcx/newtrains01.pcx 690 56 09 17 22 -6 -8
+   41 sprites/pcx/trains/newtrains01.pcx 466 56 09 24 8 -3 -12
+   42 sprites/pcx/trains/newtrains01.pcx 482 56 09 17 22 -14 -8
+   43 sprites/pcx/trains/newtrains01.pcx 514 56 09 12 32 -16 -7
+   44 sprites/pcx/trains/newtrains01.pcx 562 56 09 17 22 -6 -8
+   45 sprites/pcx/trains/newtrains01.pcx 594 56 09 24 8 -3 -12
+   46 sprites/pcx/trains/newtrains01.pcx 610 56 09 17 22 -14 -8
+   47 sprites/pcx/trains/newtrains01.pcx 642 56 09 12 32 -16 -7
+   48 sprites/pcx/trains/newtrains01.pcx 690 56 09 17 22 -6 -8
 // 2949 Manley-Morel VT (Diesel)
-   49 sprites/pcx/newtrains01.pcx 722 56 09 24 8 -3 -12
-   50 sprites/pcx/newtrains01.pcx 738 56 09 17 22 -14 -8
-   51 sprites/pcx/newtrains01.pcx 2 104 09 12 33 -16 -7
-   52 sprites/pcx/newtrains01.pcx 50 104 09 17 22 -6 -8
-   53 sprites/pcx/newtrains01.pcx 82 104 09 24 8 -3 -12
-   54 sprites/pcx/newtrains01.pcx 98 104 09 17 22 -14 -8
-   55 sprites/pcx/newtrains01.pcx 130 104 09 12 33 -16 -7
-   56 sprites/pcx/newtrains01.pcx 178 104 09 17 22 -6 -8
+   49 sprites/pcx/trains/newtrains01.pcx 722 56 09 24 8 -3 -12
+   50 sprites/pcx/trains/newtrains01.pcx 738 56 09 17 22 -14 -8
+   51 sprites/pcx/trains/newtrains01.pcx 2 104 09 12 33 -16 -7
+   52 sprites/pcx/trains/newtrains01.pcx 50 104 09 17 22 -6 -8
+   53 sprites/pcx/trains/newtrains01.pcx 82 104 09 24 8 -3 -12
+   54 sprites/pcx/trains/newtrains01.pcx 98 104 09 17 22 -14 -8
+   55 sprites/pcx/trains/newtrains01.pcx 130 104 09 12 33 -16 -7
+   56 sprites/pcx/trains/newtrains01.pcx 178 104 09 17 22 -6 -8
 // 2957 Dash (Diesel)
-   57 sprites/pcx/newtrains01.pcx 210 104 09 24 8 -3 -12
-   58 sprites/pcx/newtrains01.pcx 226 104 09 17 22 -14 -8
-   59 sprites/pcx/newtrains01.pcx 258 104 09 12 33 -16 -7
-   60 sprites/pcx/newtrains01.pcx 306 104 09 17 22 -6 -8
-   61 sprites/pcx/newtrains01.pcx 338 104 09 24 8 -3 -12
-   62 sprites/pcx/newtrains01.pcx 354 104 09 17 22 -14 -8
-   63 sprites/pcx/newtrains01.pcx 386 104 09 12 33 -16 -7
-   64 sprites/pcx/newtrains01.pcx 434 104 09 17 22 -6 -8
+   57 sprites/pcx/trains/newtrains01.pcx 210 104 09 24 8 -3 -12
+   58 sprites/pcx/trains/newtrains01.pcx 226 104 09 17 22 -14 -8
+   59 sprites/pcx/trains/newtrains01.pcx 258 104 09 12 33 -16 -7
+   60 sprites/pcx/trains/newtrains01.pcx 306 104 09 17 22 -6 -8
+   61 sprites/pcx/trains/newtrains01.pcx 338 104 09 24 8 -3 -12
+   62 sprites/pcx/trains/newtrains01.pcx 354 104 09 17 22 -14 -8
+   63 sprites/pcx/trains/newtrains01.pcx 386 104 09 12 33 -16 -7
+   64 sprites/pcx/trains/newtrains01.pcx 434 104 09 17 22 -6 -8
 // 2965 Asia Star (Electric)
-   65 sprites/pcx/newtrains01.pcx 466 104 09 24 8 -3 -12
-   66 sprites/pcx/newtrains01.pcx 482 104 09 17 22 -14 -8
-   67 sprites/pcx/newtrains01.pcx 514 104 09 17 32 -16 -12
-   68 sprites/pcx/newtrains01.pcx 562 104 09 18 22 -6 -9
-   69 sprites/pcx/newtrains01.pcx 594 104 09 24 8 -3 -12
-   70 sprites/pcx/newtrains01.pcx 610 104 09 18 22 -14 -9
-   71 sprites/pcx/newtrains01.pcx 642 104 09 17 32 -16 -12
-   72 sprites/pcx/newtrains01.pcx 690 104 09 17 22 -6 -8
+   65 sprites/pcx/trains/newtrains01.pcx 466 104 09 24 8 -3 -12
+   66 sprites/pcx/trains/newtrains01.pcx 482 104 09 17 22 -14 -8
+   67 sprites/pcx/trains/newtrains01.pcx 514 104 09 17 32 -16 -12
+   68 sprites/pcx/trains/newtrains01.pcx 562 104 09 18 22 -6 -9
+   69 sprites/pcx/trains/newtrains01.pcx 594 104 09 24 8 -3 -12
+   70 sprites/pcx/trains/newtrains01.pcx 610 104 09 18 22 -14 -9
+   71 sprites/pcx/trains/newtrains01.pcx 642 104 09 17 32 -16 -12
+   72 sprites/pcx/trains/newtrains01.pcx 690 104 09 17 22 -6 -8
 // 2973 T.I.M. (Electric)
-   73 sprites/pcx/newtrains01.pcx 722 104 09 24 8 -3 -12
-   74 sprites/pcx/newtrains01.pcx 738 104 09 17 22 -14 -8
-   75 sprites/pcx/newtrains01.pcx 2 152 09 17 32 -16 -12
-   76 sprites/pcx/newtrains01.pcx 50 152 09 18 22 -6 -9
-   77 sprites/pcx/newtrains01.pcx 82 152 09 24 8 -3 -12
-   78 sprites/pcx/newtrains01.pcx 98 152 09 18 22 -14 -9
-   79 sprites/pcx/newtrains01.pcx 130 152 09 17 32 -16 -12
-   80 sprites/pcx/newtrains01.pcx 178 152 09 17 22 -6 -8
+   73 sprites/pcx/trains/newtrains01.pcx 722 104 09 24 8 -3 -12
+   74 sprites/pcx/trains/newtrains01.pcx 738 104 09 17 22 -14 -8
+   75 sprites/pcx/trains/newtrains01.pcx 2 152 09 17 32 -16 -12
+   76 sprites/pcx/trains/newtrains01.pcx 50 152 09 18 22 -6 -9
+   77 sprites/pcx/trains/newtrains01.pcx 82 152 09 24 8 -3 -12
+   78 sprites/pcx/trains/newtrains01.pcx 98 152 09 18 22 -14 -9
+   79 sprites/pcx/trains/newtrains01.pcx 130 152 09 17 32 -16 -12
+   80 sprites/pcx/trains/newtrains01.pcx 178 152 09 17 22 -6 -8
 
 //2981-2992 locomotives monorail
 //2993-3016 locomotives maglev
@@ -363,114 +363,114 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 #define MONOLEV_ENG_REAR_OFFSET_HORI  -14  -7
 #define MONOLEV_ENG_REAR_OFFSET_NS     -9  -8
 //      X2001
-        2829    sprites/pcx/monolev-ba.pcx      1       167     1       23      8       -3      -11
-        2830    sprites/pcx/monolev-ba.pcx      12      167     9       17      22      -14     -8
-        2831    sprites/pcx/monolev-ba.pcx      36      167     1       12      32      -16     -7
-        2832    sprites/pcx/monolev-ba.pcx      69      167     9       17      22      -7      -8
+        2829    sprites/pcx/trains/monolev-ba.pcx      1       167     1       23      8       -3      -11
+        2830    sprites/pcx/trains/monolev-ba.pcx      12      167     9       17      22      -14     -8
+        2831    sprites/pcx/trains/monolev-ba.pcx      36      167     1       12      32      -16     -7
+        2832    sprites/pcx/trains/monolev-ba.pcx      69      167     9       17      22      -7      -8
 //      Millenium       0       1       1       0       0       0       0       0
-        3001    sprites/pcx/monolev-ba.pcx      1       1       1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
-        3002    sprites/pcx/monolev-ba.pcx      12      1       9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
-        3003    sprites/pcx/monolev-ba.pcx      36      1       1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
-        3004    sprites/pcx/monolev-ba.pcx      69      1       9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
-        3005    sprites/pcx/monolev-ba.pcx      93      1       1       23      8       MONOLEV_ENG_REAR_OFFSET_VERT
-        3006    sprites/pcx/monolev-ba.pcx      103     1       9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
-        3007    sprites/pcx/monolev-ba.pcx      127     1       1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
-        3008    sprites/pcx/monolev-ba.pcx      161     1       9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
+        3001    sprites/pcx/trains/monolev-ba.pcx      1       1       1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
+        3002    sprites/pcx/trains/monolev-ba.pcx      12      1       9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
+        3003    sprites/pcx/trains/monolev-ba.pcx      36      1       1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
+        3004    sprites/pcx/trains/monolev-ba.pcx      69      1       9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
+        3005    sprites/pcx/trains/monolev-ba.pcx      93      1       1       23      8       MONOLEV_ENG_REAR_OFFSET_VERT
+        3006    sprites/pcx/trains/monolev-ba.pcx      103     1       9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
+        3007    sprites/pcx/trains/monolev-ba.pcx      127     1       1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
+        3008    sprites/pcx/trains/monolev-ba.pcx      161     1       9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
 //      Lev     3       #WERT!  1       0       0       0       0       0
-        3001    sprites/pcx/monolev-ba.pcx      1       34      1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
-        3002    sprites/pcx/monolev-ba.pcx      12      34      9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
-        3003    sprites/pcx/monolev-ba.pcx      36      34      1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
-        3004    sprites/pcx/monolev-ba.pcx      69      34      9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
-        3005    sprites/pcx/monolev-ba.pcx      93      34      1       23      8       MONOLEV_ENG_REAR_OFFSET_VERT
-        3006    sprites/pcx/monolev-ba.pcx      103     34      9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
-        3007    sprites/pcx/monolev-ba.pcx      127     34      1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
-        3008    sprites/pcx/monolev-ba.pcx      161     34      9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
+        3001    sprites/pcx/trains/monolev-ba.pcx      1       34      1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
+        3002    sprites/pcx/trains/monolev-ba.pcx      12      34      9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
+        3003    sprites/pcx/trains/monolev-ba.pcx      36      34      1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
+        3004    sprites/pcx/trains/monolev-ba.pcx      69      34      9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
+        3005    sprites/pcx/trains/monolev-ba.pcx      93      34      1       23      8       MONOLEV_ENG_REAR_OFFSET_VERT
+        3006    sprites/pcx/trains/monolev-ba.pcx      103     34      9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
+        3007    sprites/pcx/trains/monolev-ba.pcx      127     34      1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
+        3008    sprites/pcx/trains/monolev-ba.pcx      161     34      9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
 //      Lev 4 Chimera   0       1       1       0       0       0       0       0
-        3001    sprites/pcx/monolev-ba.pcx      1       195     1       22      8       MONOLEV_ENG_FRONT_OFFSET_VERT
-        3002    sprites/pcx/monolev-ba.pcx      12      195     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
-        3003    sprites/pcx/monolev-ba.pcx      36      195     1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
-        3004    sprites/pcx/monolev-ba.pcx      69      195     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
-        3005    sprites/pcx/monolev-ba.pcx      93      195     1       22      8       MONOLEV_ENG_REAR_OFFSET_VERT
-        3006    sprites/pcx/monolev-ba.pcx      103     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
-        3007    sprites/pcx/monolev-ba.pcx      127     195     1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
-        3008    sprites/pcx/monolev-ba.pcx      161     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
+        3001    sprites/pcx/trains/monolev-ba.pcx      1       195     1       22      8       MONOLEV_ENG_FRONT_OFFSET_VERT
+        3002    sprites/pcx/trains/monolev-ba.pcx      12      195     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
+        3003    sprites/pcx/trains/monolev-ba.pcx      36      195     1       12      31      MONOLEV_ENG_FRONT_OFFSET_HORI
+        3004    sprites/pcx/trains/monolev-ba.pcx      69      195     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
+        3005    sprites/pcx/trains/monolev-ba.pcx      93      195     1       22      8       MONOLEV_ENG_REAR_OFFSET_VERT
+        3006    sprites/pcx/trains/monolev-ba.pcx      103     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
+        3007    sprites/pcx/trains/monolev-ba.pcx      127     195     1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
+        3008    sprites/pcx/trains/monolev-ba.pcx      161     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
 //      Lev     1       1       1
-        2829    sprites/pcx/monolev-ba.pcx      1       104     1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
-        2830    sprites/pcx/monolev-ba.pcx      12      104     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
-        2831    sprites/pcx/monolev-ba.pcx      36      104     1       12      32      MONOLEV_ENG_FRONT_OFFSET_HORI
-        2832    sprites/pcx/monolev-ba.pcx      69      104     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
+        2829    sprites/pcx/trains/monolev-ba.pcx      1       104     1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
+        2830    sprites/pcx/trains/monolev-ba.pcx      12      104     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
+        2831    sprites/pcx/trains/monolev-ba.pcx      36      104     1       12      32      MONOLEV_ENG_FRONT_OFFSET_HORI
+        2832    sprites/pcx/trains/monolev-ba.pcx      69      104     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
 //      Lev     2       1       1
-        2829    sprites/pcx/monolev-ba.pcx      1       137     1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
-        2830    sprites/pcx/monolev-ba.pcx      12      137     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
-        2831    sprites/pcx/monolev-ba.pcx      36      137     1       12      32      MONOLEV_ENG_FRONT_OFFSET_HORI
-        2832    sprites/pcx/monolev-ba.pcx      69      137     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
+        2829    sprites/pcx/trains/monolev-ba.pcx      1       137     1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
+        2830    sprites/pcx/trains/monolev-ba.pcx      12      137     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
+        2831    sprites/pcx/trains/monolev-ba.pcx      36      137     1       12      32      MONOLEV_ENG_FRONT_OFFSET_HORI
+        2832    sprites/pcx/trains/monolev-ba.pcx      69      137     9       17      22      MONOLEV_ENG_FRONT_OFFSET_NS
 
 //3017-3072 locomotives tropic/arctic
 // Artic locomotives here. Sprites for tropical ones in extra grf via action A.
 // 3017 CS 2400 (Diesel) (arctic)
-  151 sprites/pcx/newtrains01.pcx 770 248 09 24 8 -3 -12
-  152 sprites/pcx/newtrains01.pcx 2 296 09 17 22 -14 -8
-  153 sprites/pcx/newtrains01.pcx 34 296 09 12 32 -16 -7
-  154 sprites/pcx/newtrains01.pcx 82 296 09 17 22 -6 -8
-  155 sprites/pcx/newtrains01.pcx 114 296 09 24 8 -3 -12
-  156 sprites/pcx/newtrains01.pcx 130 296 09 17 22 -14 -8
-  157 sprites/pcx/newtrains01.pcx 162 296 09 12 32 -16 -7
-  158 sprites/pcx/newtrains01.pcx 210 296 09 17 22 -6 -8
+  151 sprites/pcx/trains/newtrains01.pcx 770 248 09 24 8 -3 -12
+  152 sprites/pcx/trains/newtrains01.pcx 2 296 09 17 22 -14 -8
+  153 sprites/pcx/trains/newtrains01.pcx 34 296 09 12 32 -16 -7
+  154 sprites/pcx/trains/newtrains01.pcx 82 296 09 17 22 -6 -8
+  155 sprites/pcx/trains/newtrains01.pcx 114 296 09 24 8 -3 -12
+  156 sprites/pcx/trains/newtrains01.pcx 130 296 09 17 22 -14 -8
+  157 sprites/pcx/trains/newtrains01.pcx 162 296 09 12 32 -16 -7
+  158 sprites/pcx/trains/newtrains01.pcx 210 296 09 17 22 -6 -8
 // 3025 Centennial (Diesel) (artic)
-  159 sprites/pcx/newtrains01.pcx 242 296 09 24 8 -3 -12
-  160 sprites/pcx/newtrains01.pcx 258 296 09 17 22 -14 -8
-  161 sprites/pcx/newtrains01.pcx 290 296 09 12 32 -16 -7
-  162 sprites/pcx/newtrains01.pcx 338 296 09 17 22 -6 -8
-  163 sprites/pcx/newtrains01.pcx 370 296 09 24 8 -3 -12
-  164 sprites/pcx/newtrains01.pcx 386 296 09 17 22 -14 -8
-  165 sprites/pcx/newtrains01.pcx 418 296 09 12 32 -16 -7
-  166 sprites/pcx/newtrains01.pcx 466 296 09 17 22 -6 -8
+  159 sprites/pcx/trains/newtrains01.pcx 242 296 09 24 8 -3 -12
+  160 sprites/pcx/trains/newtrains01.pcx 258 296 09 17 22 -14 -8
+  161 sprites/pcx/trains/newtrains01.pcx 290 296 09 12 32 -16 -7
+  162 sprites/pcx/trains/newtrains01.pcx 338 296 09 17 22 -6 -8
+  163 sprites/pcx/trains/newtrains01.pcx 370 296 09 24 8 -3 -12
+  164 sprites/pcx/trains/newtrains01.pcx 386 296 09 17 22 -14 -8
+  165 sprites/pcx/trains/newtrains01.pcx 418 296 09 12 32 -16 -7
+  166 sprites/pcx/trains/newtrains01.pcx 466 296 09 17 22 -6 -8
 // 3033 CS 4000 (Diesel) (arctic)
-  167 sprites/pcx/newtrains01.pcx 498 296 09 24 8 -3 -12
-  168 sprites/pcx/newtrains01.pcx 514 296 09 17 22 -14 -8
-  169 sprites/pcx/newtrains01.pcx 546 296 09 12 32 -16 -7
-  170 sprites/pcx/newtrains01.pcx 594 296 09 17 22 -6 -8
-  171 sprites/pcx/newtrains01.pcx 626 296 09 24 8 -3 -12
-  172 sprites/pcx/newtrains01.pcx 642 296 09 17 22 -14 -8
-  173 sprites/pcx/newtrains01.pcx 674 296 09 12 32 -16 -7
-  174 sprites/pcx/newtrains01.pcx 722 296 09 17 22 -6 -8
+  167 sprites/pcx/trains/newtrains01.pcx 498 296 09 24 8 -3 -12
+  168 sprites/pcx/trains/newtrains01.pcx 514 296 09 17 22 -14 -8
+  169 sprites/pcx/trains/newtrains01.pcx 546 296 09 12 32 -16 -7
+  170 sprites/pcx/trains/newtrains01.pcx 594 296 09 17 22 -6 -8
+  171 sprites/pcx/trains/newtrains01.pcx 626 296 09 24 8 -3 -12
+  172 sprites/pcx/trains/newtrains01.pcx 642 296 09 17 22 -14 -8
+  173 sprites/pcx/trains/newtrains01.pcx 674 296 09 12 32 -16 -7
+  174 sprites/pcx/trains/newtrains01.pcx 722 296 09 17 22 -6 -8
 // 3041 Wills 2-8-2 (Steam) (arctic)
-  175 sprites/pcx/newtrains01.pcx 754 296 09 24 8 -3 -12
-  176 sprites/pcx/newtrains01.pcx 770 296 09 17 22 -14 -8
-  177 sprites/pcx/newtrains01.pcx 2 344 09 12 32 -16 -7
-  178 sprites/pcx/newtrains01.pcx 50 344 09 17 22 -6 -8
-  179 sprites/pcx/newtrains01.pcx 82 344 09 24 8 -3 -12
-  180 sprites/pcx/newtrains01.pcx 98 344 09 17 22 -14 -8
-  181 sprites/pcx/newtrains01.pcx 130 344 09 12 32 -16 -7
-  182 sprites/pcx/newtrains01.pcx 178 344 09 17 22 -6 -8
+  175 sprites/pcx/trains/newtrains01.pcx 754 296 09 24 8 -3 -12
+  176 sprites/pcx/trains/newtrains01.pcx 770 296 09 17 22 -14 -8
+  177 sprites/pcx/trains/newtrains01.pcx 2 344 09 12 32 -16 -7
+  178 sprites/pcx/trains/newtrains01.pcx 50 344 09 17 22 -6 -8
+  179 sprites/pcx/trains/newtrains01.pcx 82 344 09 24 8 -3 -12
+  180 sprites/pcx/trains/newtrains01.pcx 98 344 09 17 22 -14 -8
+  181 sprites/pcx/trains/newtrains01.pcx 130 344 09 12 32 -16 -7
+  182 sprites/pcx/trains/newtrains01.pcx 178 344 09 17 22 -6 -8
 // 3049 Kelling 3100 (Diesel) (arctic)
-  183 sprites/pcx/newtrains01.pcx 210 344 09 24 8 -3 -12
-  184 sprites/pcx/newtrains01.pcx 226 344 09 17 22 -14 -8
-  185 sprites/pcx/newtrains01.pcx 258 344 09 12 32 -16 -7
-  186 sprites/pcx/newtrains01.pcx 306 344 09 17 22 -6 -8
+  183 sprites/pcx/trains/newtrains01.pcx 210 344 09 24 8 -3 -12
+  184 sprites/pcx/trains/newtrains01.pcx 226 344 09 17 22 -14 -8
+  185 sprites/pcx/trains/newtrains01.pcx 258 344 09 12 32 -16 -7
+  186 sprites/pcx/trains/newtrains01.pcx 306 344 09 17 22 -6 -8
 // 3053 Turner Turbo (Diesel) (arctic)
-  187 sprites/pcx/newtrains01.pcx 338 344 09 24 8 -3 -12
-  188 sprites/pcx/newtrains01.pcx 354 344 09 17 22 -14 -8
-  189 sprites/pcx/newtrains01.pcx 386 344 09 12 32 -16 -7
-  190 sprites/pcx/newtrains01.pcx 434 344 09 17 22 -6 -8
-  191 sprites/pcx/newtrains01.pcx 466 344 09 24 8 -3 -12
-  192 sprites/pcx/newtrains01.pcx 482 344 09 17 22 -14 -8
-  193 sprites/pcx/newtrains01.pcx 514 344 09 12 32 -16 -7
-  194 sprites/pcx/newtrains01.pcx 562 344 09 17 22 -6 -8
+  187 sprites/pcx/trains/newtrains01.pcx 338 344 09 24 8 -3 -12
+  188 sprites/pcx/trains/newtrains01.pcx 354 344 09 17 22 -14 -8
+  189 sprites/pcx/trains/newtrains01.pcx 386 344 09 12 32 -16 -7
+  190 sprites/pcx/trains/newtrains01.pcx 434 344 09 17 22 -6 -8
+  191 sprites/pcx/trains/newtrains01.pcx 466 344 09 24 8 -3 -12
+  192 sprites/pcx/trains/newtrains01.pcx 482 344 09 17 22 -14 -8
+  193 sprites/pcx/trains/newtrains01.pcx 514 344 09 12 32 -16 -7
+  194 sprites/pcx/trains/newtrains01.pcx 562 344 09 17 22 -6 -8
 // 3061 MJS 1000 (Diesel) (arctic)
-  195 sprites/pcx/newtrains01.pcx 594 344 09 24 8 -3 -12
-  196 sprites/pcx/newtrains01.pcx 610 344 09 17 22 -14 -8
-  197 sprites/pcx/newtrains01.pcx 642 344 09 12 32 -16 -7
-  198 sprites/pcx/newtrains01.pcx 690 344 09 17 22 -6 -8
+  195 sprites/pcx/trains/newtrains01.pcx 594 344 09 24 8 -3 -12
+  196 sprites/pcx/trains/newtrains01.pcx 610 344 09 17 22 -14 -8
+  197 sprites/pcx/trains/newtrains01.pcx 642 344 09 12 32 -16 -7
+  198 sprites/pcx/trains/newtrains01.pcx 690 344 09 17 22 -6 -8
 // 3065 MJS 250 (Steam) (arctic)
-  199 sprites/pcx/newtrains01.pcx 722 344 09 24 8 -3 -12
-  200 sprites/pcx/newtrains01.pcx 738 344 09 17 22 -14 -8
-  201 sprites/pcx/newtrains01.pcx 2 392 09 12 32 -16 -7
-  202 sprites/pcx/newtrains01.pcx 50 392 09 17 22 -6 -8
-  203 sprites/pcx/newtrains01.pcx 82 392 09 24 8 -3 -12
-  204 sprites/pcx/newtrains01.pcx 98 392 09 17 22 -14 -8
-  205 sprites/pcx/newtrains01.pcx 130 392 09 12 32 -16 -7
-  206 sprites/pcx/newtrains01.pcx 178 392 09 17 22 -6 -8
+  199 sprites/pcx/trains/newtrains01.pcx 722 344 09 24 8 -3 -12
+  200 sprites/pcx/trains/newtrains01.pcx 738 344 09 17 22 -14 -8
+  201 sprites/pcx/trains/newtrains01.pcx 2 392 09 12 32 -16 -7
+  202 sprites/pcx/trains/newtrains01.pcx 50 392 09 17 22 -6 -8
+  203 sprites/pcx/trains/newtrains01.pcx 82 392 09 24 8 -3 -12
+  204 sprites/pcx/trains/newtrains01.pcx 98 392 09 17 22 -14 -8
+  205 sprites/pcx/trains/newtrains01.pcx 130 392 09 12 32 -16 -7
+  206 sprites/pcx/trains/newtrains01.pcx 178 392 09 17 22 -6 -8
 
 //3073-3089 rail smoke/spark effects
 //diesel smoke

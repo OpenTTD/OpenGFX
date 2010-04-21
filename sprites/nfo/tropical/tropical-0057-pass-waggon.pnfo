@@ -1,5 +1,5 @@
 //57-60 passenger carriage
-  332 sprites/pcx/newtrains01.pcx 114 632 09 24 8 -3 -12
-  333 sprites/pcx/newtrains01.pcx 130 632 09 17 22 -14 -8
-  334 sprites/pcx/newtrains01.pcx 162 632 09 12 32 -16 -7
-  335 sprites/pcx/newtrains01.pcx 210 632 09 17 22 -6 -8
+  332 sprites/pcx/trains/newtrains01.pcx 114 632 09 24 8 -3 -12
+  333 sprites/pcx/trains/newtrains01.pcx 130 632 09 17 22 -14 -8
+  334 sprites/pcx/trains/newtrains01.pcx 162 632 09 12 32 -16 -7
+  335 sprites/pcx/trains/newtrains01.pcx 210 632 09 17 22 -6 -8
