@@ -70,6 +70,18 @@
 #undef TRAIN_78
 #endif
 
+#ifdef TRAIN_98
+-1 TRAIN_98   0   0 01 24  8  -3 -13
+-1 TRAIN_98   9   0 09 20 22 -13 -11
+-1 TRAIN_98  32   0 01 16 36 -17 -11
+-1 TRAIN_98  69   0 09 20 22  -5 -11
+-1 TRAIN_98  92   0 01 24  8  -3 -11
+-1 TRAIN_98 101   0 09 20 22 -15 -11
+-1 TRAIN_98 124   0 01 16 36 -18 -11
+-1 TRAIN_98 161   0 09 20 22  -8 -12
+#undef TRAIN_98
+#endif
+
 // 28px wide wagons as defined in arctic_monolevwagons.pcx and alike
 // alignment corresponding to the 7/8 view
 #define WAGON_MOLACE_VERT(FILE, Y) -1 FILE  0 Y 01 18 8   -3 -12
@@ -81,6 +93,6 @@
 // see http://www.tt-forums.net/download/file.php?id=126371
 // alignment corresponding to the 8/8 view
 #define WAGON_WIDE_VERT(FILE, Y) -1 FILE  0 Y 01 24  8  -3 -12
-#define WAGON_WIDE_NWSE(FILE, Y) -1 FILE 16 Y 09 17 22 -14  -9
-#define WAGON_WIDE_HORI(FILE, Y) -1 FILE 48 Y 01 12 32 -16  -8
-#define WAGON_WIDE_SWNE(FILE, Y) -1 FILE 96 Y 09 17 22  -6  -9
+#define WAGON_WIDE_NWSE(FILE, Y) -1 FILE 16 Y 09 17 22 -14  -8
+#define WAGON_WIDE_HORI(FILE, Y) -1 FILE 48 Y 01 12 32 -16  -7
+#define WAGON_WIDE_SWNE(FILE, Y) -1 FILE 96 Y 09 17 22  -6  -8
