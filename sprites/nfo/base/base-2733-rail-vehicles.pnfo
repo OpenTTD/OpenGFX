@@ -306,16 +306,11 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    38 sprites/pcx/trains/newtrains01.pcx 354 56 09 17 22 -14 -8
    39 sprites/pcx/trains/newtrains01.pcx 386 56 09 16 32 -16 -11
    40 sprites/pcx/trains/newtrains01.pcx 434 56 09 17 22 -6 -8
-// 2941 SH 125 (Diesel)
-   41 sprites/pcx/trains/newtrains01.pcx 466 56 09 24 8 -3 -12
-   42 sprites/pcx/trains/newtrains01.pcx 482 56 09 17 22 -14 -8
-   43 sprites/pcx/trains/newtrains01.pcx 514 56 09 12 32 -16 -7
-   44 sprites/pcx/trains/newtrains01.pcx 562 56 09 17 22 -6 -8
-   45 sprites/pcx/trains/newtrains01.pcx 594 56 09 24 8 -3 -12
-   46 sprites/pcx/trains/newtrains01.pcx 610 56 09 17 22 -14 -8
-   47 sprites/pcx/trains/newtrains01.pcx 642 56 09 12 32 -16 -7
-   48 sprites/pcx/trains/newtrains01.pcx 690 56 09 17 22 -6 -8
    
+// 2941 SH 125 (Diesel)
+#define TRAIN_88 sprites/pcx/trains/temperate_sh125_88.pcx
+#include "../templates/trains.tnfo"
+  
 // 2949 Manley-Morel VT (Diesel)
 #define TRAIN_98 sprites/pcx/trains/temperate_manleymorel_98.pcx
 #include "../templates/trains.tnfo"
