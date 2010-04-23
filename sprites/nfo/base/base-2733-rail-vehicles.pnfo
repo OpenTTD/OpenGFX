@@ -324,15 +324,11 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    54 sprites/pcx/trains/newtrains01.pcx 98 104 09 17 22 -14 -8
    55 sprites/pcx/trains/newtrains01.pcx 130 104 09 12 33 -16 -7
    56 sprites/pcx/trains/newtrains01.pcx 178 104 09 17 22 -6 -8
+   
 // 2957 Dash (Diesel)
-   57 sprites/pcx/trains/newtrains01.pcx 210 104 09 24 8 -3 -12
-   58 sprites/pcx/trains/newtrains01.pcx 226 104 09 17 22 -14 -8
-   59 sprites/pcx/trains/newtrains01.pcx 258 104 09 12 33 -16 -7
-   60 sprites/pcx/trains/newtrains01.pcx 306 104 09 17 22 -6 -8
-   61 sprites/pcx/trains/newtrains01.pcx 338 104 09 24 8 -3 -12
-   62 sprites/pcx/trains/newtrains01.pcx 354 104 09 17 22 -14 -8
-   63 sprites/pcx/trains/newtrains01.pcx 386 104 09 12 33 -16 -7
-   64 sprites/pcx/trains/newtrains01.pcx 434 104 09 17 22 -6 -8
+#define TRAIN_98 sprites/pcx/trains/temperate_dash_98.pcx
+#include "../templates/trains.tnfo"
+
 // 2965 Asia Star (Electric)
    65 sprites/pcx/trains/newtrains01.pcx 466 104 09 24 8 -3 -12
    66 sprites/pcx/trains/newtrains01.pcx 482 104 09 17 22 -14 -8
