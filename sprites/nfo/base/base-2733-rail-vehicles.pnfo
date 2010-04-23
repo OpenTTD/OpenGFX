@@ -282,32 +282,20 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    18 sprites/pcx/trains/newtrains01.pcx 498 8 09 17 22 -14 -8
    19 sprites/pcx/trains/newtrains01.pcx 530 8 09 12 32 -16 -7
    20 sprites/pcx/trains/newtrains01.pcx 578 8 09 17 22 -6 -8
+   
 // 2921 Kirby Paul (Steam)
-   21 sprites/pcx/trains/newtrains01.pcx 610 8 09 24 8 -3 -12
-   22 sprites/pcx/trains/newtrains01.pcx 626 8 09 17 22 -14 -8
-   23 sprites/pcx/trains/newtrains01.pcx 658 8 09 12 32 -16 -7
-   24 sprites/pcx/trains/newtrains01.pcx 706 8 09 17 22 -6 -8
-   25 sprites/pcx/trains/newtrains01.pcx 738 8 09 24 8 -3 -12
-   26 sprites/pcx/trains/newtrains01.pcx 754 8 09 17 22 -14 -8
-   27 sprites/pcx/trains/newtrains01.pcx 2 56 09 12 32 -16 -7
-   28 sprites/pcx/trains/newtrains01.pcx 50 56 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/temperate_kirbypaul_88.pcx
+#include "../templates/trains.tnfo"
+   
 // 2929 SH/Hendry 25 + Floss 47 (Diesel)
-   29 sprites/pcx/trains/newtrains01.pcx 82 56 09 24 8 -3 -12
-   30 sprites/pcx/trains/newtrains01.pcx 98 56 09 17 22 -14 -8
-   31 sprites/pcx/trains/newtrains01.pcx 130 56 09 12 32 -16 -7
-   32 sprites/pcx/trains/newtrains01.pcx 178 56 09 17 22 -6 -8
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/temperate_SH_Hendry25_88.pcx
+#include "../templates/trains.tnfo"
+
 // 2933 UU/37 (Diesel)
-   33 sprites/pcx/trains/newtrains01.pcx 210 56 09 24 8 -3 -12
-   34 sprites/pcx/trains/newtrains01.pcx 226 56 09 17 22 -14 -8
-   35 sprites/pcx/trains/newtrains01.pcx 258 56 09 12 32 -16 -7
-   36 sprites/pcx/trains/newtrains01.pcx 306 56 09 17 22 -6 -8
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/temperate_UU37_88.pcx
+#include "../templates/trains.tnfo"
 
 // 2937 SH/30 + SH/40 (Electric)
-//   37 sprites/pcx/trains/newtrains01.pcx 338 56 09 24 8 -3 -12
-//   38 sprites/pcx/trains/newtrains01.pcx 354 56 09 17 22 -14 -8
-//   39 sprites/pcx/trains/newtrains01.pcx 386 56 09 16 32 -16 -11
-//   40 sprites/pcx/trains/newtrains01.pcx 434 56 09 17 22 -6 -8
-//
 #define TRAIN_88_SYMETRIC sprites/pcx/trains/temperate_SH30_SH40_88.pcx
 #include "../templates/trains.tnfo"
    
