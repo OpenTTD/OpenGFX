@@ -58,6 +58,18 @@
 #undef THIS_PCX98
 #endif
 
+#ifdef TRAIN_78
+-1 TRAIN_78   0   0 01 24  8  -3 -14
+-1 TRAIN_78   9   0 09 20 22 -12 -14
+-1 TRAIN_78  32   0 01 16 28 -17 -12
+-1 TRAIN_78  65   0 09 20 22  -5 -11
+-1 TRAIN_78  88   0 01 24  8  -3 -12
+-1 TRAIN_78  97   0 09 20 22 -15 -11
+-1 TRAIN_78 120   0 01 16 28 -16 -12
+-1 TRAIN_78 153   0 09 20 22  -8 -13
+#undef TRAIN_78
+#endif
+
 // 28px wide wagons as defined in arctic_monolevwagons.pcx and alike
 // alignment corresponding to the 7/8 view
 #define WAGON_MOLACE_VERT(FILE, Y) -1 FILE  0 Y 01 18 8   -3 -12

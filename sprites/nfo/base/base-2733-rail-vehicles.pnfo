@@ -394,7 +394,7 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
         3006    sprites/pcx/trains/monolev-ba.pcx      103     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_EW
         3007    sprites/pcx/trains/monolev-ba.pcx      127     195     1       12      31      MONOLEV_ENG_REAR_OFFSET_HORI
         3008    sprites/pcx/trains/monolev-ba.pcx      161     195     9       17      22      MONOLEV_ENG_REAR_OFFSET_NS
-//      Lev     1       1       1
+//      Wizzowow Rocketeer
         2829    sprites/pcx/trains/monolev-ba.pcx      1       104     1       23      8       MONOLEV_ENG_FRONT_OFFSET_VERT
         2830    sprites/pcx/trains/monolev-ba.pcx      12      104     9       17      22      MONOLEV_ENG_FRONT_OFFSET_EW
         2831    sprites/pcx/trains/monolev-ba.pcx      36      104     1       12      32      MONOLEV_ENG_FRONT_OFFSET_HORI

@@ -1,7 +1,7 @@
 //761   840     80      Rail wagons
 #define WAGON_ALIGNMENT_VERT 01 18  8  -3 -11
-#define WAGON_ALIGNMENT_EW   09 16 20 -14  -9
-#define WAGON_ALIGNMENT_HORI 01 12 28 -16  -8
+#define WAGON_ALIGNMENT_EW   09 16 20 -12  -9
+#define WAGON_ALIGNMENT_HORI 01 12 28 -12  -9
 #define WAGON_ALIGNMENT_NS   09 16 20  -5  -9
 #define X_VERT  0
 #define X_EW   16
@@ -154,7 +154,7 @@
 
 //841   872     32      Rail engines
 // Ploddyphut Cho cho
-#define THIS_PCX68 sprites/pcx/trains/toyland_ploddyphut.pcx // ploddyphutpcx
+#define TRAIN_78 sprites/pcx/trains/toyland_ploddyphut.pcx // ploddyphutpcx
 #include "../templates/trains.tnfo"
 
 // Powernaut Cho Cho = temperate "Chaney Jubilee" or "SH 8P". Replaced in 'extra'
@@ -184,5 +184,5 @@
 //881   884     4       Maglev engine
         2829    sprites/pcx/trains/monolev-ba.pcx      1       104     1       23      8       -3      -11
         2830    sprites/pcx/trains/monolev-ba.pcx      12      104     9       17      22      -14     -8
-        2831    sprites/pcx/trains/monolev-ba.pcx      36      104     1       12      32      -16     -7
-        2832    sprites/pcx/trains/monolev-ba.pcx      69      104     9       17      22      -7      -8
+        2831    sprites/pcx/trains/monolev-ba.pcx      36      104     1       12      32      -14     -9
+        2832    sprites/pcx/trains/monolev-ba.pcx      69      104     9       17      22      -6      -8
