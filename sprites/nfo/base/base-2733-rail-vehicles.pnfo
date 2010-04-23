@@ -301,11 +301,15 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
    34 sprites/pcx/trains/newtrains01.pcx 226 56 09 17 22 -14 -8
    35 sprites/pcx/trains/newtrains01.pcx 258 56 09 12 32 -16 -7
    36 sprites/pcx/trains/newtrains01.pcx 306 56 09 17 22 -6 -8
+
 // 2937 SH/30 + SH/40 (Electric)
-   37 sprites/pcx/trains/newtrains01.pcx 338 56 09 24 8 -3 -12
-   38 sprites/pcx/trains/newtrains01.pcx 354 56 09 17 22 -14 -8
-   39 sprites/pcx/trains/newtrains01.pcx 386 56 09 16 32 -16 -11
-   40 sprites/pcx/trains/newtrains01.pcx 434 56 09 17 22 -6 -8
+//   37 sprites/pcx/trains/newtrains01.pcx 338 56 09 24 8 -3 -12
+//   38 sprites/pcx/trains/newtrains01.pcx 354 56 09 17 22 -14 -8
+//   39 sprites/pcx/trains/newtrains01.pcx 386 56 09 16 32 -16 -11
+//   40 sprites/pcx/trains/newtrains01.pcx 434 56 09 17 22 -6 -8
+//
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/temperate_SH30_SH40_88.pcx
+#include "../templates/trains.tnfo"
    
 // 2941 SH 125 (Diesel)
 #define TRAIN_88 sprites/pcx/trains/temperate_sh125_88.pcx
@@ -324,14 +328,8 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 #include "../templates/trains.tnfo"
 
 // 2973 T.I.M. (Electric)
-   73 sprites/pcx/trains/newtrains01.pcx 722 104 09 24 8 -3 -12
-   74 sprites/pcx/trains/newtrains01.pcx 738 104 09 17 22 -14 -8
-   75 sprites/pcx/trains/newtrains01.pcx 2 152 09 17 32 -16 -12
-   76 sprites/pcx/trains/newtrains01.pcx 50 152 09 18 22 -6 -9
-   77 sprites/pcx/trains/newtrains01.pcx 82 152 09 24 8 -3 -12
-   78 sprites/pcx/trains/newtrains01.pcx 98 152 09 18 22 -14 -9
-   79 sprites/pcx/trains/newtrains01.pcx 130 152 09 17 32 -16 -12
-   80 sprites/pcx/trains/newtrains01.pcx 178 152 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/temperate_tim_88.pcx
+#include "../templates/trains.tnfo"
 
 //2981-2992 locomotives monorail
 //2993-3016 locomotives maglev
