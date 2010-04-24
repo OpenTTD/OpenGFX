@@ -265,23 +265,12 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 
 //2905-2980 locomotives rail
 // 2905 Chaney Jubilee + SH 8P (Steam)
-    5 sprites/pcx/trains/newtrains01.pcx 98 8 09 24 8 -3 -12
-    6 sprites/pcx/trains/newtrains01.pcx 114 8 09 17 22 -14 -8
-    7 sprites/pcx/trains/newtrains01.pcx 146 8 09 12 32 -16 -7
-    8 sprites/pcx/trains/newtrains01.pcx 194 8 09 17 22 -6 -8
-    9 sprites/pcx/trains/newtrains01.pcx 226 8 09 24 8 -3 -12
-   10 sprites/pcx/trains/newtrains01.pcx 242 8 09 17 22 -14 -8
-   11 sprites/pcx/trains/newtrains01.pcx 274 8 09 12 32 -16 -7
-   12 sprites/pcx/trains/newtrains01.pcx 322 8 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/temperate_ChaneyJubilee_SH8P_88.pcx
+#include "../templates/trains.tnfo"
+   
 // 2913 Ginzu A4 (Steam)
-   13 sprites/pcx/trains/newtrains01.pcx 354 8 09 24 8 -3 -12
-   14 sprites/pcx/trains/newtrains01.pcx 370 8 09 17 22 -14 -8
-   15 sprites/pcx/trains/newtrains01.pcx 402 8 09 12 32 -16 -7
-   16 sprites/pcx/trains/newtrains01.pcx 450 8 09 17 22 -6 -8
-   17 sprites/pcx/trains/newtrains01.pcx 482 8 09 24 8 -3 -12
-   18 sprites/pcx/trains/newtrains01.pcx 498 8 09 17 22 -14 -8
-   19 sprites/pcx/trains/newtrains01.pcx 530 8 09 12 32 -16 -7
-   20 sprites/pcx/trains/newtrains01.pcx 578 8 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/temperate_GinzuA4_88.pcx
+#include "../templates/trains.tnfo"
    
 // 2921 Kirby Paul (Steam)
 #define TRAIN_88 sprites/pcx/trains/temperate_kirbypaul_88.pcx
