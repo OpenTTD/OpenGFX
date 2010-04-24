@@ -364,46 +364,25 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 //3017-3072 locomotives tropic/arctic
 // Artic locomotives here. Sprites for tropical ones in extra grf via action A.
 // 3017 CS 2400 (Diesel) (arctic)
-  151 sprites/pcx/trains/newtrains01.pcx 770 248 09 24 8 -3 -12
-  152 sprites/pcx/trains/newtrains01.pcx 2 296 09 17 22 -14 -8
-  153 sprites/pcx/trains/newtrains01.pcx 34 296 09 12 32 -16 -7
-  154 sprites/pcx/trains/newtrains01.pcx 82 296 09 17 22 -6 -8
-  155 sprites/pcx/trains/newtrains01.pcx 114 296 09 24 8 -3 -12
-  156 sprites/pcx/trains/newtrains01.pcx 130 296 09 17 22 -14 -8
-  157 sprites/pcx/trains/newtrains01.pcx 162 296 09 12 32 -16 -7
-  158 sprites/pcx/trains/newtrains01.pcx 210 296 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/arctic_cs2400.pcx
+#include "../templates/trains.tnfo"
+
 // 3025 Centennial (Diesel) (artic)
-  159 sprites/pcx/trains/newtrains01.pcx 242 296 09 24 8 -3 -12
-  160 sprites/pcx/trains/newtrains01.pcx 258 296 09 17 22 -14 -8
-  161 sprites/pcx/trains/newtrains01.pcx 290 296 09 12 32 -16 -7
-  162 sprites/pcx/trains/newtrains01.pcx 338 296 09 17 22 -6 -8
-  163 sprites/pcx/trains/newtrains01.pcx 370 296 09 24 8 -3 -12
-  164 sprites/pcx/trains/newtrains01.pcx 386 296 09 17 22 -14 -8
-  165 sprites/pcx/trains/newtrains01.pcx 418 296 09 12 32 -16 -7
-  166 sprites/pcx/trains/newtrains01.pcx 466 296 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/arctic_centennial.pcx
+#include "../templates/trains.tnfo"
+
 // 3033 CS 4000 (Diesel) (arctic)
-  167 sprites/pcx/trains/newtrains01.pcx 498 296 09 24 8 -3 -12
-  168 sprites/pcx/trains/newtrains01.pcx 514 296 09 17 22 -14 -8
-  169 sprites/pcx/trains/newtrains01.pcx 546 296 09 12 32 -16 -7
-  170 sprites/pcx/trains/newtrains01.pcx 594 296 09 17 22 -6 -8
-  171 sprites/pcx/trains/newtrains01.pcx 626 296 09 24 8 -3 -12
-  172 sprites/pcx/trains/newtrains01.pcx 642 296 09 17 22 -14 -8
-  173 sprites/pcx/trains/newtrains01.pcx 674 296 09 12 32 -16 -7
-  174 sprites/pcx/trains/newtrains01.pcx 722 296 09 17 22 -6 -8
-// 3041 Wills 2-8-2 (Steam) (arctic)
-  175 sprites/pcx/trains/newtrains01.pcx 754 296 09 24 8 -3 -12
-  176 sprites/pcx/trains/newtrains01.pcx 770 296 09 17 22 -14 -8
-  177 sprites/pcx/trains/newtrains01.pcx 2 344 09 12 32 -16 -7
-  178 sprites/pcx/trains/newtrains01.pcx 50 344 09 17 22 -6 -8
-  179 sprites/pcx/trains/newtrains01.pcx 82 344 09 24 8 -3 -12
-  180 sprites/pcx/trains/newtrains01.pcx 98 344 09 17 22 -14 -8
-  181 sprites/pcx/trains/newtrains01.pcx 130 344 09 12 32 -16 -7
-  182 sprites/pcx/trains/newtrains01.pcx 178 344 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/arctic_cs4000.pcx
+#include "../templates/trains.tnfo"
+
+// 3041 Wills 2-8-0 (Steam) (arctic)
+#define TRAIN_88 sprites/pcx/trains/arctic_Wills2-8-0.pcx
+#include "../templates/trains.tnfo"
+
 // 3049 Kelling 3100 (Diesel) (arctic)
-  183 sprites/pcx/trains/newtrains01.pcx 210 344 09 24 8 -3 -12
-  184 sprites/pcx/trains/newtrains01.pcx 226 344 09 17 22 -14 -8
-  185 sprites/pcx/trains/newtrains01.pcx 258 344 09 12 32 -16 -7
-  186 sprites/pcx/trains/newtrains01.pcx 306 344 09 17 22 -6 -8
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/arctic_kelling3100.pcx
+#include "../templates/trains.tnfo"
+
 // 3053 Turner Turbo (Diesel) (arctic)
   187 sprites/pcx/trains/newtrains01.pcx 338 344 09 24 8 -3 -12
   188 sprites/pcx/trains/newtrains01.pcx 354 344 09 17 22 -14 -8
