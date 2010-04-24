@@ -384,28 +384,17 @@ WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 #include "../templates/trains.tnfo"
 
 // 3053 Turner Turbo (Diesel) (arctic)
-  187 sprites/pcx/trains/newtrains01.pcx 338 344 09 24 8 -3 -12
-  188 sprites/pcx/trains/newtrains01.pcx 354 344 09 17 22 -14 -8
-  189 sprites/pcx/trains/newtrains01.pcx 386 344 09 12 32 -16 -7
-  190 sprites/pcx/trains/newtrains01.pcx 434 344 09 17 22 -6 -8
-  191 sprites/pcx/trains/newtrains01.pcx 466 344 09 24 8 -3 -12
-  192 sprites/pcx/trains/newtrains01.pcx 482 344 09 17 22 -14 -8
-  193 sprites/pcx/trains/newtrains01.pcx 514 344 09 12 32 -16 -7
-  194 sprites/pcx/trains/newtrains01.pcx 562 344 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/arctic_TurnerTurbo.pcx
+#include "../templates/trains.tnfo"
+
 // 3061 MJS 1000 (Diesel) (arctic)
-  195 sprites/pcx/trains/newtrains01.pcx 594 344 09 24 8 -3 -12
-  196 sprites/pcx/trains/newtrains01.pcx 610 344 09 17 22 -14 -8
-  197 sprites/pcx/trains/newtrains01.pcx 642 344 09 12 32 -16 -7
-  198 sprites/pcx/trains/newtrains01.pcx 690 344 09 17 22 -6 -8
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/arctic_MSJ1000.pcx
+#include "../templates/trains.tnfo"
+
 // 3065 MJS 250 (Steam) (arctic)
-  199 sprites/pcx/trains/newtrains01.pcx 722 344 09 24 8 -3 -12
-  200 sprites/pcx/trains/newtrains01.pcx 738 344 09 17 22 -14 -8
-  201 sprites/pcx/trains/newtrains01.pcx 2 392 09 12 32 -16 -7
-  202 sprites/pcx/trains/newtrains01.pcx 50 392 09 17 22 -6 -8
-  203 sprites/pcx/trains/newtrains01.pcx 82 392 09 24 8 -3 -12
-  204 sprites/pcx/trains/newtrains01.pcx 98 392 09 17 22 -14 -8
-  205 sprites/pcx/trains/newtrains01.pcx 130 392 09 12 32 -16 -7
-  206 sprites/pcx/trains/newtrains01.pcx 178 392 09 17 22 -6 -8
+#define TRAIN_88 sprites/pcx/trains/arctic_MSJ250.pcx
+#include "../templates/trains.tnfo"
+
 
 //3073-3089 rail smoke/spark effects
 //diesel smoke
