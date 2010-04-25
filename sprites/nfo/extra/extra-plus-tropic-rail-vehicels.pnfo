@@ -39,11 +39,7 @@
 
 //Topical wagons
   330 * 15       0C "Tropic Wagons" 00
-  331 * 5        0A 01 04 \w2733 // PAX wagon
-WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+// PAX wagon is defined already in the tropical climate
 
   336 * 5        0A 01 04 \w2741 // mail (full + empty)
 WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 50)
