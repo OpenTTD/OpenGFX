@@ -160,15 +160,15 @@
 // Powernaut Cho Cho = temperate "Chaney Jubilee" or "SH 8P". Replaced in 'extra'
 
 // Mightymover Cho Cho
-#define THIS_PCX88 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
+#define TRAIN_88 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
 #include "../templates/trains.tnfo"
 
 // Ploddyphut Diesel
-#define THIS_PCX78 sprites/pcx/trains/toyland_ploddyphut_diesel.pcx
+#define TRAIN_88 sprites/pcx/trains/toyland_ploddyphut_diesel.pcx
 #include "../templates/trains.tnfo"
 
-// Ploddyphut Diesel
-#define THIS_PCX88 sprites/pcx/trains/toyland_powernaut_diesel.pcx
+// Powernaut Diesel
+#define TRAIN_88 sprites/pcx/trains/toyland_powernaut_diesel.pcx
 #include "../templates/trains.tnfo"
 
 //873   880     8       Monorail engine
