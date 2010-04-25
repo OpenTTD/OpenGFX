@@ -2,30 +2,19 @@
 //tropical engines
   271 * 20       0C "Tropic Locomotives" 00
   273 * 5        0A 01 38 \w3017
-  274 sprites/pcx/trains/newtrains01.pcx 658 488 09 24 8 -3 -12
-  275 sprites/pcx/trains/newtrains01.pcx 674 488 09 17 22 -14 -8
-  276 sprites/pcx/trains/newtrains01.pcx 706 488 09 12 32 -16 -7
-  277 sprites/pcx/trains/newtrains01.pcx 754 488 09 17 22 -6 -8
-  278 sprites/pcx/trains/newtrains01.pcx 786 488 09 24 8 -3 -12
-  279 sprites/pcx/trains/newtrains01.pcx 2 536 09 17 22 -14 -8
-  280 sprites/pcx/trains/newtrains01.pcx 34 536 09 12 32 -16 -7
-  281 sprites/pcx/trains/newtrains01.pcx 82 536 09 17 22 -6 -8
-  282 sprites/pcx/trains/newtrains01.pcx 114 536 09 24 8 -3 -12
-  283 sprites/pcx/trains/newtrains01.pcx 130 536 09 17 22 -14 -8
-  284 sprites/pcx/trains/newtrains01.pcx 162 536 09 12 32 -16 -7
-  285 sprites/pcx/trains/newtrains01.pcx 210 536 09 17 22 -6 -8
-  286 sprites/pcx/trains/newtrains01.pcx 242 536 09 24 8 -3 -12
-  287 sprites/pcx/trains/newtrains01.pcx 258 536 09 17 22 -14 -8
-  288 sprites/pcx/trains/newtrains01.pcx 290 536 09 12 32 -16 -7
-  289 sprites/pcx/trains/newtrains01.pcx 338 536 09 17 22 -6 -8
-  290 sprites/pcx/trains/newtrains01.pcx 370 536 09 24 8 -3 -12
-  291 sprites/pcx/trains/newtrains01.pcx 386 536 09 17 22 -14 -8
-  292 sprites/pcx/trains/newtrains01.pcx 418 536 09 12 32 -16 -7
-  293 sprites/pcx/trains/newtrains01.pcx 466 536 09 17 22 -6 -8
-  294 sprites/pcx/trains/newtrains01.pcx 498 536 09 24 8 -3 -12
-  295 sprites/pcx/trains/newtrains01.pcx 514 536 09 17 22 -14 -8
-  296 sprites/pcx/trains/newtrains01.pcx 546 536 09 12 32 -16 -7
-  297 sprites/pcx/trains/newtrains01.pcx 594 536 09 17 22 -6 -8
+
+// CS 2400 (Diesel) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_cs2400_88.pcx
+#include "../templates/trains.tnfo"
+
+// Centennial (Diesel) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_centennial_88.pcx
+#include "../templates/trains.tnfo"
+
+// CS 4000 (Diesel) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_cs4000_88.pcx
+#include "../templates/trains.tnfo"
+
   298 sprites/pcx/trains/newtrains01.pcx 626 536 09 24 8 -3 -12
   299 sprites/pcx/trains/newtrains01.pcx 642 536 09 17 22 -14 -8
   300 sprites/pcx/trains/newtrains01.pcx 674 536 09 12 32 -16 -7
