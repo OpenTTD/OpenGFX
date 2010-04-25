@@ -15,38 +15,27 @@
 #define TRAIN_88 sprites/pcx/trains/tropic_cs4000_88.pcx
 #include "../templates/trains.tnfo"
 
-  298 sprites/pcx/trains/newtrains01.pcx 626 536 09 24 8 -3 -12
-  299 sprites/pcx/trains/newtrains01.pcx 642 536 09 17 22 -14 -8
-  300 sprites/pcx/trains/newtrains01.pcx 674 536 09 12 32 -16 -7
-  301 sprites/pcx/trains/newtrains01.pcx 722 536 09 17 22 -6 -8
-  302 sprites/pcx/trains/newtrains01.pcx 754 536 09 24 8 -3 -12
-  303 sprites/pcx/trains/newtrains01.pcx 770 536 09 17 22 -14 -8
-  304 sprites/pcx/trains/newtrains01.pcx 2 584 09 12 32 -16 -7
-  305 sprites/pcx/trains/newtrains01.pcx 50 584 09 17 22 -6 -8
-  306 sprites/pcx/trains/newtrains01.pcx 82 584 09 24 8 -3 -12
-  307 sprites/pcx/trains/newtrains01.pcx 98 584 09 17 22 -14 -8
-  308 sprites/pcx/trains/newtrains01.pcx 130 584 09 12 32 -16 -7
-  309 sprites/pcx/trains/newtrains01.pcx 178 584 09 17 22 -6 -8
-  310 sprites/pcx/trains/newtrains01.pcx 210 584 09 24 8 -3 -12
-  311 sprites/pcx/trains/newtrains01.pcx 226 584 09 17 22 -14 -8
-  312 sprites/pcx/trains/newtrains01.pcx 258 584 09 12 32 -16 -7
-  313 sprites/pcx/trains/newtrains01.pcx 306 584 09 17 22 -6 -8
-  314 sprites/pcx/trains/newtrains01.pcx 338 584 09 24 8 -3 -12
-  315 sprites/pcx/trains/newtrains01.pcx 354 584 09 17 22 -14 -8
-  316 sprites/pcx/trains/newtrains01.pcx 386 584 09 12 32 -16 -7
-  317 sprites/pcx/trains/newtrains01.pcx 434 584 09 17 22 -6 -8
-  318 sprites/pcx/trains/newtrains01.pcx 466 584 09 24 8 -3 -12
-  319 sprites/pcx/trains/newtrains01.pcx 482 584 09 17 22 -14 -8
-  320 sprites/pcx/trains/newtrains01.pcx 514 584 09 12 32 -16 -7
-  321 sprites/pcx/trains/newtrains01.pcx 562 584 09 17 22 -6 -8
-  322 sprites/pcx/trains/newtrains01.pcx 594 584 09 24 8 -3 -12
-  323 sprites/pcx/trains/newtrains01.pcx 610 584 09 17 22 -14 -8
-  324 sprites/pcx/trains/newtrains01.pcx 642 584 09 12 32 -16 -7
-  325 sprites/pcx/trains/newtrains01.pcx 690 584 09 17 22 -6 -8
-  326 sprites/pcx/trains/newtrains01.pcx 722 584 09 24 8 -3 -12
-  327 sprites/pcx/trains/newtrains01.pcx 738 584 09 17 22 -14 -8
-  328 sprites/pcx/trains/newtrains01.pcx 2 632 09 12 32 -16 -7
-  329 sprites/pcx/trains/newtrains01.pcx 50 632 09 17 22 -6 -8
+// 3041 Wills 2-8-0 (Steam) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_Wills2-8-0_88.pcx
+#include "../templates/trains.tnfo"
+
+// 3049 Kelling 3100 (Diesel) (tropical)
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/tropic_kelling3100_88.pcx
+#include "../templates/trains.tnfo"
+
+// 3053 Turner Turbo (Diesel) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_TurnerTurbo_88.pcx
+#include "../templates/trains.tnfo"
+
+// 3061 MJS 1000 (Diesel) (tropical)
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/tropic_MJS1000_88.pcx
+#include "../templates/trains.tnfo"
+
+// 3065 MJS 250 (Steam) (tropical)
+#define TRAIN_88 sprites/pcx/trains/tropic_MJS250_88.pcx
+#include "../templates/trains.tnfo"
+
+// end of tropical engine replacement
 
 //Topical wagons
   330 * 15       0C "Tropic Wagons" 00
