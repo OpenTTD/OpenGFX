@@ -105,50 +105,50 @@ WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 300)
   330 * 15       0C "Tropic Wagons" 00
 // Oil wagon (no loading stages, full + empty)
  331 * 5        0A 01 04 \w2841
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 100)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 100)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 100)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 100)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 100)
 
 // Goods wagon (no loading stages, full + empty)
  331 * 5        0A 01 04 \w2849
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 140)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 140)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 140)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 140)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 140)
 
 // Grain empty
  331 * 5        0A 01 04 \w2857
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 160)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 160)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 160)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 160)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 160)
 
 // Grain full
  331 * 5        0A 01 04 \w2881
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 180)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 180)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 180)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 180)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 180)
 
 // Wood empty
  331 * 5        0A 01 04 \w2861
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 200)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 200)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 200)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 200)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 200)
 
 // Wood full
  331 * 5        0A 01 04 \w2885
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 300)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 300)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 300)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 300)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 
 // Food (no loading stages, full + empty)
  331 * 5        0A 01 04 \w2853
-WAGON_MOLACE_VERT(sprites/pcx/trains/tropicmonolev.pcx, 260)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 260)
-WAGON_MOLACE_HORI(sprites/pcx/trains/tropicmonolev.pcx, 260)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_SHORT_VERT(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_SHORT_NWSE(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_SHORT_HORI(sprites/pcx/trains/tropicmonolev.pcx, 260)
+WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 260)
 

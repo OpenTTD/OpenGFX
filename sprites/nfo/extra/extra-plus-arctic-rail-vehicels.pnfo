@@ -30,36 +30,36 @@ WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 200)
   -1 * 0         0C "Arctic Monorail and maglev Wagons" 00
 // Coal empty
   331 * 5        0A 01 04 \w2833
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_SHORT_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_SHORT_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_SHORT_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
+WAGON_SHORT_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 100)
 
 // Coal full
   331 * 5        0A 01 04 \w2877
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_SHORT_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_SHORT_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_SHORT_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
+WAGON_SHORT_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 120)
 
 // oil (no loading stages, empty + full)
  331 * 5        0A 01 04 \w2841
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_SHORT_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_SHORT_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_SHORT_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
+WAGON_SHORT_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 140)
 
 // Goods (no loading stages, empty + full)
  331 * 5        0A 01 04 \w2849
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_SHORT_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_SHORT_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_SHORT_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
+WAGON_SHORT_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 220)
 
 // Food (no loading stages, empty + full)
  331 * 5        0A 01 04 \w2853
-WAGON_MOLACE_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
-WAGON_MOLACE_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
-WAGON_MOLACE_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
-WAGON_MOLACE_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_SHORT_VERT(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_SHORT_NWSE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_SHORT_HORI(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
+WAGON_SHORT_SWNE(sprites/pcx/trains/arctic_monolevwagons.pcx, 420)
 
