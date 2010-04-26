@@ -23,11 +23,11 @@
 #include "sprites/nfo/extra/extra-plus-waterfeatures.pnfo"
 // special features for arctic
 0 * 0   07 83 01 \7! 01 "A"
-#include "sprites/nfo/extra/extra-plus-arctic-rail-vehicels.pnfo"
+#include "sprites/nfo/extra/extra-plus-arctic-rail-vehicles.pnfo"
 0 * 0   10 "Arctic END"
 // special features for tropic
 0 * 0   07 83 01 \7! 02 "T"
-#include "sprites/nfo/extra/extra-plus-tropic-rail-vehicels.pnfo"
+#include "sprites/nfo/extra/extra-plus-tropic-rail-vehicles.pnfo"
 0 * 0   10 "Tropic END"
 
 // OpenTTD only features:
