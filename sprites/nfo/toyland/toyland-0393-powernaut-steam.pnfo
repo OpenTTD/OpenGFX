@@ -1,3 +1,3 @@
 //393 - 400 Powernaut Cho Cho
-#define THIS_PCX78 sprites/pcx/trains/toyland_powernaut.pcx
+#define TRAIN_88 sprites/pcx/trains/toyland_powernaut.pcx
 #include "../templates/trains.tnfo"
