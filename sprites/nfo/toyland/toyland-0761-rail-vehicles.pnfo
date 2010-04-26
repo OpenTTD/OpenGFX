@@ -119,7 +119,8 @@ WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
 #define TRAIN_78 sprites/pcx/trains/toyland_ploddyphut.pcx // ploddyphutpcx
 #include "../templates/trains.tnfo"
 
-// Powernaut Cho Cho = temperate "Chaney Jubilee" or "SH 8P". Replaced in 'extra'
+// Powernaut Choo Choo is defined separately and earlier in the main toyland file
+// via toyland-0393-powernaut-steam.pnfo
 
 // Mightymover Cho Cho
 #define TRAIN_88 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx

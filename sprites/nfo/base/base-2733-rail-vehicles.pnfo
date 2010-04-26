@@ -309,15 +309,6 @@ WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 #include "../templates/trains.tnfo"
 
 //2981-2992 locomotives monorail
-//2993-3016 locomotives maglev
-#define MONOLEV_ENG_FRONT_OFFSET_VERT  -3  -9
-#define MONOLEV_ENG_FRONT_OFFSET_EW   -14  -6
-#define MONOLEV_ENG_FRONT_OFFSET_HORI -14  -7
-#define MONOLEV_ENG_FRONT_OFFSET_NS    -6  -7
-#define MONOLEV_ENG_REAR_OFFSET_VERT   -3  -9
-#define MONOLEV_ENG_REAR_OFFSET_EW    -14  -6
-#define MONOLEV_ENG_REAR_OFFSET_HORI  -14  -7
-#define MONOLEV_ENG_REAR_OFFSET_NS     -9  -8
 //      X2001
 #define TRAIN_88_SYMETRIC sprites/pcx/trains/monorail_x2001_88.pcx
 #include "../templates/trains.tnfo"
@@ -326,6 +317,7 @@ WAGON_SHORT_SWNE(sprites/pcx/trains/tropicmonolev.pcx, 300)
 #define TRAIN_88 sprites/pcx/trains/monorail_millenium_88.pcx
 #include "../templates/trains.tnfo"
 
+//2993-3016 locomotives maglev
 //      Lev 3 Pegasus
 #define TRAIN_88 sprites/pcx/trains/maglev_lev3_88.pcx
 #include "../templates/trains.tnfo"
