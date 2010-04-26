@@ -133,18 +133,11 @@ WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
 #define TRAIN_88 sprites/pcx/trains/toyland_powernaut_diesel.pcx
 #include "../templates/trains.tnfo"
 
-//873   880     8       Monorail engine
-        3001    sprites/pcx/trains/monolev-ba.pcx      1       1       1       23      8       -3      -11
-        3002    sprites/pcx/trains/monolev-ba.pcx      12      1       9       17      22      -14     -8
-        3003    sprites/pcx/trains/monolev-ba.pcx      36      1       1       12      31      -15     -7
-        3004    sprites/pcx/trains/monolev-ba.pcx      69      1       9       17      22      -7      -8
-        3005    sprites/pcx/trains/monolev-ba.pcx      93      1       1       23      8       -3      -12
-        3006    sprites/pcx/trains/monolev-ba.pcx      103     1       9       17      22      -14     -8
-        3007    sprites/pcx/trains/monolev-ba.pcx      127     1       1       12      31      -15     -7
-        3008    sprites/pcx/trains/monolev-ba.pcx      161     1       9       17      22      -7      -8
+//873   880     8       Monorail Wizzowow Z99
+#define TRAIN_88 sprites/pcx/trains/toyland_monorail_WizzowowZ99_88.pcx
+#include "../templates/trains.tnfo"
 
-//881   884     4       Maglev engine
-        2829    sprites/pcx/trains/monolev-ba.pcx      1       104     1       23      8       -3      -11
-        2830    sprites/pcx/trains/monolev-ba.pcx      12      104     9       17      22      -14     -8
-        2831    sprites/pcx/trains/monolev-ba.pcx      36      104     1       12      32      -14     -9
-        2832    sprites/pcx/trains/monolev-ba.pcx      69      104     9       17      22      -6      -8
+//881   884     4       Maglev Wizzowow Rocketeer
+#define TRAIN_88_SYMETRIC sprites/pcx/trains/toyland_maglev_WizzowowRocketeer_88.pcx
+#include "../templates/trains.tnfo"
+
