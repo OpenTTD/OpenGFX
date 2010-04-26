@@ -1,156 +1,118 @@
+#include "../templates/trains.tnfo"
+
 //761   840     80      Rail wagons
-#define WAGON_ALIGNMENT_VERT 01 18  8  -3 -11
-#define WAGON_ALIGNMENT_EW   09 16 20 -12  -9
-#define WAGON_ALIGNMENT_HORI 01 12 28 -12  -9
-#define WAGON_ALIGNMENT_NS   09 16 20  -5  -9
-#define X_VERT  0
-#define X_EW   16
-#define X_HORI 48
-#define X_NS   96
-#undef Y_THIS
+
 // PAX
-#define Y_THIS 0
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 0)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 0)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 0)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 0)
+
 // Mail
-#define Y_THIS 40
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 40)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 40)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 40)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 40)
+
 // sugar empty: white grains
-#define Y_THIS 100
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 100)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 100)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 100)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 100)
 // sugar full: white grains
-#define Y_THIS 120
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 120)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 120)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 120)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 120)
+
 // cotton candy emtpy: pink grains
-#define Y_THIS 140
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 140)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 140)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 140)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 140)
 // cotton candy full: pink grains
-#define Y_THIS 160
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 160)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 160)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 160)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 160)
+
 // toffee empty: yellow grains
-#define Y_THIS 180
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 180)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 180)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 180)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 180)
 // toffee full: yellow grains
-#define Y_THIS 200
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 200)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 200)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 200)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 200)
+
 // Bubbles empty
-#define Y_THIS 60
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 60)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 60)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 60)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 60)
 // Bubbles full
-#define Y_THIS 80
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 80)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 80)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 80)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 80)
+
 // cola tanker empty
-#define Y_THIS 220
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 220)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 220)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 220)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 220)
 // cola tanker full
-#define Y_THIS 240
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 240)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 240)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 240)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 240)
+
 // sweets (no loading state)
-#define Y_THIS 280
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 280)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 280)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 280)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 280)
+
 // toys (no loading state)
-#define Y_THIS 320
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 320)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 320)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 320)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 320)
+
 // Batteries empty
-#define Y_THIS 380
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 380)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 380)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 380)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 380)
 // Batteries full
-#define Y_THIS 400
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 400)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 400)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 400)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 400)
+
 // fizzy drinks empty
-#define Y_THIS 340
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 340)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 340)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 340)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 340)
 // fizzy drinks full
-#define Y_THIS 360
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 360)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 360)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 360)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 360)
+
 // Plastics empty
-#define Y_THIS 420
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 420)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 420)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 420)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 420)
 // Plastics full
-#define Y_THIS 440
-  761 sprites/pcx/trains/toyland_railwagons.pcx X_VERT Y_THIS WAGON_ALIGNMENT_VERT
-  762 sprites/pcx/trains/toyland_railwagons.pcx X_EW   Y_THIS WAGON_ALIGNMENT_EW
-  763 sprites/pcx/trains/toyland_railwagons.pcx X_HORI Y_THIS WAGON_ALIGNMENT_HORI
-  764 sprites/pcx/trains/toyland_railwagons.pcx X_NS   Y_THIS WAGON_ALIGNMENT_NS
-#undef Y_THIS
-
-
-
+WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 440)
+WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
+WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 440)
+WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
 
 //841   872     32      Rail engines
 // Ploddyphut Cho cho
