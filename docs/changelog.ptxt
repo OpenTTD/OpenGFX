@@ -1,11 +1,25 @@
-OpenGFX 0.2.3
+OpenGFX r440
+-------------------------------------
+
+- Feature: Add 'addcheck' which checks for dependencies not added to the mercurial repo
+- Feature: Introduce target 'distclean' which should delete everything not found in the tarball
+- Feature: Slightly better PBS signals graphics - should be more visible
+
+- Fix: Adjust alignment of all rail vehicles
+
+- Doc: Explain slightly more verbose how the alignment templates work
+
+
+
+OpenGFX 0.2.3 (released 21 Mar. 2010)
+-------------------------------------
 
 - Fix: Don't rebuild the md5sums file which one wants to check against
 
 
 
-OpenGFX 0.2.2 
--------------
+OpenGFX 0.2.2 (released 28 Mar. 2010)
+-------------------------------------
 
 - Feature: GUI icon for NewGRF debug mode
 - Feature: [Makefile] Add support for Debian and Fedora
@@ -33,8 +47,8 @@ OpenGFX 0.2.2
 
 
 
-OpenGFX 0.2.1
--------------
+OpenGFX 0.2.1 (released 23 Dec. 2009)
+-------------------------------------
 - Feature: Add GUI sprites for shading windos
 - Feature: Support for rpm specs for all big distros
 - Feature: Norwegian bokmal translation
@@ -52,8 +66,8 @@ OpenGFX 0.2.1
 
 
 
-OpenGFX 0.2.0
--------------
+OpenGFX 0.2.0 (released 10 Dec. 2009)
+-------------------------------------
 - Feature: Allow localized ingame descriptions for the package. Add them for German, Dutch, Hungarian, traditional Chinese and Swedish.
 - Feature: Igloo (toyland building)
 - Feature: Fizzy drink factory
@@ -87,8 +101,8 @@ OpenGFX 0.2.0
 
 
 
-OpenGFX 0.1.1
--------------
+OpenGFX 0.1.1 (released 21 Sep. 2009)
+-------------------------------------
 - Feature: Headquarters for toyland climate
 - Feature: Toffee wagon in toyland
 - Feature: Candyfloss wagon in toyland
@@ -109,8 +123,9 @@ OpenGFX 0.1.1
 - Doc: update author overview html output script for beta1 targets
 
 
-OpenGFX 0.1.0-alpha6
---------------------
+
+OpenGFX 0.1.0-alpha6 (released 11. Aug 2009)
+--------------------------------------------
 - Feature: Add toffee truck
 - Feature: Toy truck
 - Feature: Mail truck for toyland
@@ -144,8 +159,8 @@ OpenGFX 0.1.0-alpha6
 
 
 
-OpenGFX 0.1.0-alpha5
---------------------
+OpenGFX 0.1.0-alpha5 (released 10 Jul. 2009)
+--------------------------------------------
 - Add: Resize windows towards the left sprite
 
 - Feature: Monolev engines and passenger wagon.
@@ -171,8 +186,8 @@ OpenGFX 0.1.0-alpha5
 
 
 
-OpenGFX 0.1.0-alpha4.2
-----------------------
+OpenGFX 0.1.0-alpha4.2 (released 22 Jan. 2009)
+----------------------------------------------
 - Feature: Expand and contract sprites for the new Advanced Settings menu added.
 
 - Fix: Display of full load in coal trucks improved.
@@ -180,14 +195,14 @@ OpenGFX 0.1.0-alpha4.2
 
 
 
-OpenGFX 0.1.0-alpha4.1
-----------------------
+OpenGFX 0.1.0-alpha4.1 (released 08 Jan. 2009)
+----------------------------------------------
 - Feature: Lots of accented characters
 
 
 
-OpenGFX 0.1.0-alpha4
---------------------
+OpenGFX 0.1.0-alpha4 (released 03 Jan. 200)
+-------------------------------------------
 - Feature: Bold typeface/missing characters
 - Feature: Lots of toyland graphics
 
@@ -196,8 +211,8 @@ OpenGFX 0.1.0-alpha4
 
 
 
-OpenGFX 0.1.0-alpha3
---------------------
+OpenGFX 0.1.0-alpha3 (released 24 Dec. 2008)
+--------------------------------------------
 - Feature: Company indicator
 - Feature: Some random new buildings
 - Feature: Tropical sawmill
@@ -208,8 +223,8 @@ OpenGFX 0.1.0-alpha3
 
 
 
-OpenGFX 0.1.0-alpha2
---------------------
+OpenGFX 0.1.0-alpha2 (released 23 Oct. 2008)
+--------------------------------------------
 - Feature: High score chart
 - Feature: Game end newspapers
 - Feature: Road reconstruction bulldozer
@@ -222,6 +237,6 @@ OpenGFX 0.1.0-alpha2
 
 
 
-OpenGFX 0.1.0-alpha1
---------------------
+OpenGFX 0.1.0-alpha1 (released 21 Oct. 2008)
+--------------------------------------------
 - Initial set of graphics, though incomplete
