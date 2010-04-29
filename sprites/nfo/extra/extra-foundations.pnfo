@@ -1,376 +1,376 @@
-  804 * 53       0C "Foundations."
-//temperate
-  805 * 6        07 83 01 \7! 00 5B
-  806 * 3        05 06 5A
-  509 sprites/pcx/landscape031.pcx 210 1560 09 40 64 -31 -9
-  510 sprites/pcx/landscape031.pcx 290 1560 09 40 64 -31 -9
-  511 sprites/pcx/landscape031.pcx 370 1560 09 32 64 -31 -9
-  512 sprites/pcx/landscape031.pcx 450 1560 09 32 64 -31 -9
-  513 sprites/pcx/landscape031.pcx 530 1560 09 40 64 -31 -9
-  514 sprites/pcx/landscape031.pcx 610 1560 09 40 64 -31 -9
-  515 sprites/pcx/landscape031.pcx 690 1560 09 40 64 -31 -9
-  516 sprites/pcx/landscape031.pcx 2 1624 09 40 64 -31 -9
-  517 sprites/pcx/landscape031.pcx 82 1624 09 40 64 -31 -9
-  518 sprites/pcx/landscape031.pcx 162 1624 09 32 64 -31 -9
-  519 sprites/pcx/landscape031.pcx 242 1624 09 32 64 -31 -9
-  520 sprites/pcx/landscape031.pcx 322 1624 09 40 64 -31 -9
-  521 sprites/pcx/landscape031.pcx 402 1624 09 40 64 -31 -9
-  522 sprites/pcx/landscape031.pcx 482 1624 09 32 64 -31 -9
-  523 sprites/pcx/landscape031.pcx 562 1624 09 32 64 -31 -9
-  524 sprites/pcx/landscape031.pcx 642 1624 09 40 64 -31 -9
-  525 sprites/pcx/landscape031.pcx 722 1624 09 40 64 -31 -9
-  526 sprites/pcx/landscape031.pcx 2 1688 09 32 64 -31 -9
-  527 sprites/pcx/landscape031.pcx 82 1688 09 32 64 -31 -9
-  528 sprites/pcx/landscape031.pcx 162 1688 09 40 64 -31 -9
-  529 sprites/pcx/landscape031.pcx 242 1688 09 40 64 -31 -9
-  530 sprites/pcx/landscape031.pcx 322 1688 09 32 64 -31 -9
-  531 sprites/pcx/landscape031.pcx 402 1688 09 40 64 -31 -9
-  532 sprites/pcx/landscape031.pcx 482 1688 09 40 64 -31 -9
-  533 sprites/pcx/landscape031.pcx 562 1688 09 32 64 -31 -9
-  534 sprites/pcx/landscape031.pcx 642 1688 09 32 64 -31 -9
-  535 sprites/pcx/landscape031.pcx 722 1688 09 40 64 -31 -9
-  536 sprites/pcx/landscape031.pcx 2 1752 09 40 64 -31 -9
-  537 sprites/pcx/landscape031.pcx 82 1752 09 40 64 -31 -9
-  538 sprites/pcx/landscape031.pcx 162 1752 09 40 64 -31 -9
-  539 sprites/pcx/landscape031.pcx 242 1752 09 40 64 -31 -9
-  540 sprites/pcx/landscape031.pcx 322 1752 09 32 64 -31 -9
-  541 sprites/pcx/landscape031.pcx 402 1752 09 32 64 -31 -9
-  542 sprites/pcx/landscape031.pcx 482 1752 09 40 64 -31 -9
-  543 sprites/pcx/landscape031.pcx 562 1752 09 40 64 -31 -9
-  544 sprites/pcx/landscape031.pcx 642 1752 09 32 64 -31 -9
-  545 sprites/pcx/landscape031.pcx 722 1752 09 32 64 -31 -9
-  546 sprites/pcx/landscape031.pcx 2 1816 09 40 64 -31 -9
-  547 sprites/pcx/landscape031.pcx 82 1816 09 40 64 -31 -9
-  548 sprites/pcx/landscape031.pcx 162 1816 09 32 64 -31 -9
-  549 sprites/pcx/landscape031.pcx 242 1816 09 32 64 -31 -9
-  550 sprites/pcx/landscape031.pcx 322 1816 09 40 64 -31 -9
-  551 sprites/pcx/landscape031.pcx 402 1816 09 40 64 -31 -9
-  552 sprites/pcx/landscape031.pcx 482 1816 09 32 64 -31 -9
-  553 sprites/pcx/landscape031.pcx 562 1816 09 40 64 -31 -9
-  554 sprites/pcx/landscape031.pcx 642 1816 09 40 64 -31 -9
-  555 sprites/pcx/landscape031.pcx 722 1816 09 32 64 -31 -9
-  556 sprites/pcx/landscape031.pcx 2 1880 09 32 64 -31 -9
-  557 sprites/pcx/landscape031.pcx 82 1880 09 40 64 -31 -9
-  558 sprites/pcx/landscape031.pcx 162 1880 09 40 64 -31 -9
-  559 sprites/pcx/landscape031.pcx 242 1880 09 40 64 -31 -9
-  560 sprites/pcx/landscape031.pcx 322 1880 09 40 64 -31 -9
-  561 sprites/pcx/landscape031.pcx 402 1880 09 40 64 -31 -9
-  562 sprites/pcx/landscape031.pcx 482 1880 09 32 64 -31 -9
-  563 sprites/pcx/landscape031.pcx 562 1880 09 32 64 -31 -9
-  564 sprites/pcx/landscape031.pcx 642 1880 09 40 64 -31 -9
-  565 sprites/pcx/landscape031.pcx 722 1880 09 40 64 -31 -9
-  566 sprites/pcx/landscape031.pcx 2 1944 09 32 64 -31 -9
-  567 sprites/pcx/landscape031.pcx 82 1944 09 32 64 -31 -9
-  568 sprites/pcx/landscape031.pcx 162 1944 09 40 64 -31 -9
-  569 sprites/pcx/landscape031.pcx 242 1944 09 40 64 -31 -9
-  570 sprites/pcx/landscape031.pcx 322 1944 09 32 64 -31 -9
-  571 sprites/pcx/landscape031.pcx 402 1944 09 32 64 -31 -9
-  572 sprites/pcx/landscape031.pcx 482 1944 09 40 64 -31 -9
-  573 sprites/pcx/landscape031.pcx 562 1944 09 40 64 -31 -9
-  574 sprites/pcx/landscape031.pcx 642 1944 09 32 64 -31 -9
-  575 sprites/pcx/landscape031.pcx 722 1944 09 40 64 -31 -9
-  576 sprites/pcx/landscape031.pcx 2 2008 09 40 64 -31 -9
-  577 sprites/pcx/landscape031.pcx 82 2008 09 32 64 -31 -9
-  578 sprites/pcx/landscape031.pcx 162 2008 09 32 64 -31 -9
-  579 sprites/pcx/landscape031.pcx 242 2008 09 40 64 -31 -9
-  580 sprites/pcx/landscape031.pcx 322 2008 09 40 64 -31 -9
-  581 sprites/pcx/landscape031.pcx 402 2008 09 40 64 -31 -9
-  582 sprites/pcx/landscape031.pcx 482 2008 09 40 64 -31 -9
-  583 sprites/pcx/landscape031.pcx 562 2008 09 40 64 -15 -17
-  584 sprites/pcx/landscape031.pcx 642 2008 09 33 64 -31 -25
-  585 sprites/pcx/landscape031.pcx 722 2008 09 40 64 -47 -17
-  586 sprites/pcx/landscape031.pcx 2 2072 09 33 64 -31 -9
-  587 sprites/pcx/landscape031.pcx 82 2072 09 40 64 -15 -17
-  588 sprites/pcx/landscape031.pcx 162 2072 09 33 64 -31 -25
-  589 sprites/pcx/landscape031.pcx 242 2072 09 40 64 -47 -17
-  590 sprites/pcx/landscape031.pcx 322 2072 09 33 64 -31 -9
-  591 sprites/pcx/landscape031.pcx 402 2072 09 40 64 -15 -17
-  592 sprites/pcx/landscape031.pcx 482 2072 09 33 64 -31 -25
-  593 sprites/pcx/landscape031.pcx 562 2072 09 40 64 -47 -17
-  594 sprites/pcx/landscape031.pcx 642 2072 09 33 64 -31 -9
-  595 sprites/pcx/landscape031.pcx 722 2072 09 40 64 -15 -17
-  596 sprites/pcx/landscape031.pcx 2 2136 09 33 64 -31 -25
-  597 sprites/pcx/landscape031.pcx 82 2136 09 40 64 -47 -17
-  598 sprites/pcx/landscape031.pcx 162 2136 09 33 64 -31 -9
+// Foundations
+// temperate
+-1 * 6        07 83 01 \7! 00 5B
+-1 * 3        05 06 5A
+-1 sprites/pcx/landscape031.pcx 210 1560 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 290 1560 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 370 1560 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 450 1560 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 530 1560 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 610 1560 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 690 1560 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1624 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1624 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1624 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1624 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1624 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1688 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1688 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1688 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1688 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1688 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1688 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1688 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1688 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1688 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1688 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1752 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1752 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1752 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1752 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1752 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1816 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1816 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1816 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1816 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1816 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1880 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1880 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1880 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1880 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 1944 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 1944 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 1944 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 1944 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 1944 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 1944 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 1944 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 1944 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 1944 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 1944 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2008 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2008 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2008 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2008 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2008 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2008 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2008 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2008 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 642 2008 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 722 2008 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 2 2072 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2072 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 162 2072 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 242 2072 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 322 2072 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2072 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 482 2072 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 562 2072 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 642 2072 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2072 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 2 2136 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 82 2136 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 162 2136 49 33 64 -31 -9
 
 //snow
-  897 * 6        07 83 01 \7! 01 5B
-  898 * 3        05 06 5A
-  601 sprites/pcx/landscape031.pcx 274 2136 09 40 64 -31 -9
-  602 sprites/pcx/landscape031.pcx 354 2136 09 40 64 -31 -9
-  603 sprites/pcx/landscape031.pcx 434 2136 09 32 64 -31 -9
-  604 sprites/pcx/landscape031.pcx 514 2136 09 32 64 -31 -9
-  605 sprites/pcx/landscape031.pcx 594 2136 09 40 64 -31 -9
-  606 sprites/pcx/landscape031.pcx 674 2136 09 40 64 -31 -9
-  607 sprites/pcx/landscape031.pcx 2 2200 09 40 64 -31 -9
-  608 sprites/pcx/landscape031.pcx 82 2200 09 40 64 -31 -9
-  609 sprites/pcx/landscape031.pcx 162 2200 09 40 64 -31 -9
-  610 sprites/pcx/landscape031.pcx 242 2200 09 32 64 -31 -9
-  611 sprites/pcx/landscape031.pcx 322 2200 09 32 64 -31 -9
-  612 sprites/pcx/landscape031.pcx 402 2200 09 40 64 -31 -9
-  613 sprites/pcx/landscape031.pcx 482 2200 09 40 64 -31 -9
-  614 sprites/pcx/landscape031.pcx 562 2200 09 32 64 -31 -9
-  615 sprites/pcx/landscape031.pcx 642 2200 09 32 64 -31 -9
-  616 sprites/pcx/landscape031.pcx 722 2200 09 40 64 -31 -9
-  617 sprites/pcx/landscape031.pcx 2 2264 09 40 64 -31 -9
-  618 sprites/pcx/landscape031.pcx 82 2264 09 32 64 -31 -9
-  619 sprites/pcx/landscape031.pcx 162 2264 09 32 64 -31 -9
-  620 sprites/pcx/landscape031.pcx 242 2264 09 40 64 -31 -9
-  621 sprites/pcx/landscape031.pcx 322 2264 09 40 64 -31 -9
-  622 sprites/pcx/landscape031.pcx 402 2264 09 32 64 -31 -9
-  623 sprites/pcx/landscape031.pcx 482 2264 09 40 64 -31 -9
-  624 sprites/pcx/landscape031.pcx 562 2264 09 40 64 -31 -9
-  625 sprites/pcx/landscape031.pcx 642 2264 09 32 64 -31 -9
-  626 sprites/pcx/landscape031.pcx 722 2264 09 32 64 -31 -9
-  627 sprites/pcx/landscape031.pcx 2 2328 09 40 64 -31 -9
-  628 sprites/pcx/landscape031.pcx 82 2328 09 40 64 -31 -9
-  629 sprites/pcx/landscape031.pcx 162 2328 09 40 64 -31 -9
-  630 sprites/pcx/landscape031.pcx 242 2328 09 40 64 -31 -9
-  631 sprites/pcx/landscape031.pcx 322 2328 09 40 64 -31 -9
-  632 sprites/pcx/landscape031.pcx 402 2328 09 32 64 -31 -9
-  633 sprites/pcx/landscape031.pcx 482 2328 09 32 64 -31 -9
-  634 sprites/pcx/landscape031.pcx 562 2328 09 40 64 -31 -9
-  635 sprites/pcx/landscape031.pcx 642 2328 09 40 64 -31 -9
-  636 sprites/pcx/landscape031.pcx 722 2328 09 32 64 -31 -9
-  637 sprites/pcx/landscape031.pcx 2 2392 09 32 64 -31 -9
-  638 sprites/pcx/landscape031.pcx 82 2392 09 40 64 -31 -9
-  639 sprites/pcx/landscape031.pcx 162 2392 09 40 64 -31 -9
-  640 sprites/pcx/landscape031.pcx 242 2392 09 32 64 -31 -9
-  641 sprites/pcx/landscape031.pcx 322 2392 09 32 64 -31 -9
-  642 sprites/pcx/landscape031.pcx 402 2392 09 40 64 -31 -9
-  643 sprites/pcx/landscape031.pcx 482 2392 09 40 64 -31 -9
-  644 sprites/pcx/landscape031.pcx 562 2392 09 32 64 -31 -9
-  645 sprites/pcx/landscape031.pcx 642 2392 09 40 64 -31 -9
-  646 sprites/pcx/landscape031.pcx 722 2392 09 40 64 -31 -9
-  647 sprites/pcx/landscape031.pcx 2 2456 09 32 64 -31 -9
-  648 sprites/pcx/landscape031.pcx 82 2456 09 32 64 -31 -9
-  649 sprites/pcx/landscape031.pcx 162 2456 09 40 64 -31 -9
-  650 sprites/pcx/landscape031.pcx 242 2456 09 40 64 -31 -9
-  651 sprites/pcx/landscape031.pcx 322 2456 09 40 64 -31 -9
-  652 sprites/pcx/landscape031.pcx 402 2456 09 40 64 -31 -9
-  653 sprites/pcx/landscape031.pcx 482 2456 09 40 64 -31 -9
-  654 sprites/pcx/landscape031.pcx 562 2456 09 32 64 -31 -9
-  655 sprites/pcx/landscape031.pcx 642 2456 09 32 64 -31 -9
-  656 sprites/pcx/landscape031.pcx 722 2456 09 40 64 -31 -9
-  657 sprites/pcx/landscape031.pcx 2 2520 09 40 64 -31 -9
-  658 sprites/pcx/landscape031.pcx 82 2520 09 32 64 -31 -9
-  659 sprites/pcx/landscape031.pcx 162 2520 09 32 64 -31 -9
-  660 sprites/pcx/landscape031.pcx 242 2520 09 40 64 -31 -9
-  661 sprites/pcx/landscape031.pcx 322 2520 09 40 64 -31 -9
-  662 sprites/pcx/landscape031.pcx 402 2520 09 32 64 -31 -9
-  663 sprites/pcx/landscape031.pcx 482 2520 09 32 64 -31 -9
-  664 sprites/pcx/landscape031.pcx 562 2520 09 40 64 -31 -9
-  665 sprites/pcx/landscape031.pcx 642 2520 09 40 64 -31 -9
-  666 sprites/pcx/landscape031.pcx 722 2520 09 32 64 -31 -9
-  667 sprites/pcx/landscape031.pcx 2 2584 09 40 64 -31 -9
-  668 sprites/pcx/landscape031.pcx 82 2584 09 40 64 -31 -9
-  669 sprites/pcx/landscape031.pcx 162 2584 09 32 64 -31 -9
-  670 sprites/pcx/landscape031.pcx 242 2584 09 32 64 -31 -9
-  671 sprites/pcx/landscape031.pcx 322 2584 09 40 64 -31 -9
-  672 sprites/pcx/landscape031.pcx 402 2584 09 40 64 -31 -9
-  673 sprites/pcx/landscape031.pcx 482 2584 09 40 64 -31 -9
-  674 sprites/pcx/landscape031.pcx 562 2584 09 40 64 -31 -9
-  675 sprites/pcx/landscape031.pcx 642 2584 09 40 64 -15 -17
-  676 sprites/pcx/landscape031.pcx 722 2584 09 33 64 -31 -25
-  677 sprites/pcx/landscape031.pcx 2 2648 09 40 64 -47 -17
-  678 sprites/pcx/landscape031.pcx 82 2648 09 33 64 -31 -9
-  679 sprites/pcx/landscape031.pcx 162 2648 09 40 64 -15 -17
-  680 sprites/pcx/landscape031.pcx 242 2648 09 33 64 -31 -25
-  681 sprites/pcx/landscape031.pcx 322 2648 09 40 64 -47 -17
-  682 sprites/pcx/landscape031.pcx 402 2648 09 33 64 -31 -9
-  683 sprites/pcx/landscape031.pcx 482 2648 09 40 64 -15 -17
-  684 sprites/pcx/landscape031.pcx 562 2648 09 33 64 -31 -25
-  685 sprites/pcx/landscape031.pcx 642 2648 09 40 64 -47 -17
-  686 sprites/pcx/landscape031.pcx 722 2648 09 33 64 -31 -9
-  687 sprites/pcx/landscape031.pcx 2 2712 09 40 64 -15 -17
-  688 sprites/pcx/landscape031.pcx 82 2712 09 33 64 -31 -25
-  689 sprites/pcx/landscape031.pcx 162 2712 09 40 64 -47 -17
-  690 sprites/pcx/landscape031.pcx 242 2712 09 33 64 -31 -9
+-1 * 6        07 83 01 \7! 01 5B
+-1 * 3        05 06 5A
+-1 sprites/pcx/landscape031.pcx 274 2136 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 354 2136 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 434 2136 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 514 2136 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 594 2136 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 674 2136 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2200 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2200 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2200 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2200 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2200 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2264 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2264 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2264 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2264 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2264 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2264 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2264 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2264 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2264 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2264 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2328 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2328 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2328 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2328 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2392 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2392 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2392 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2392 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2392 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2456 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2456 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2456 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2456 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2456 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2520 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2520 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2520 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2520 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2520 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2520 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2520 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2520 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2520 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2520 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2584 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2584 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2584 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2584 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 722 2584 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 2 2648 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 82 2648 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2648 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 242 2648 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 322 2648 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 402 2648 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2648 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 562 2648 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 642 2648 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 722 2648 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2712 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 82 2712 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 162 2712 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 242 2712 49 33 64 -31 -9
 
 //desert
-  989 * 6        07 83 01 \7! 02 5B
-  990 * 3        05 06 5A
-  693 sprites/pcx/landscape031.pcx 354 2712 09 40 64 -31 -9
-  694 sprites/pcx/landscape031.pcx 434 2712 09 40 64 -31 -9
-  695 sprites/pcx/landscape031.pcx 514 2712 09 32 64 -31 -9
-  696 sprites/pcx/landscape031.pcx 594 2712 09 32 64 -31 -9
-  697 sprites/pcx/landscape031.pcx 674 2712 09 40 64 -31 -9
-  698 sprites/pcx/landscape031.pcx 2 2776 09 40 64 -31 -9
-  699 sprites/pcx/landscape031.pcx 82 2776 09 40 64 -31 -9
-  700 sprites/pcx/landscape031.pcx 162 2776 09 40 64 -31 -9
-  701 sprites/pcx/landscape031.pcx 242 2776 09 40 64 -31 -9
-  702 sprites/pcx/landscape031.pcx 322 2776 09 32 64 -31 -9
-  703 sprites/pcx/landscape031.pcx 402 2776 09 32 64 -31 -9
-  704 sprites/pcx/landscape031.pcx 482 2776 09 40 64 -31 -9
-  705 sprites/pcx/landscape031.pcx 562 2776 09 40 64 -31 -9
-  706 sprites/pcx/landscape031.pcx 642 2776 09 32 64 -31 -9
-  707 sprites/pcx/landscape031.pcx 722 2776 09 32 64 -31 -9
-  708 sprites/pcx/landscape031.pcx 2 2840 09 40 64 -31 -9
-  709 sprites/pcx/landscape031.pcx 82 2840 09 40 64 -31 -9
-  710 sprites/pcx/landscape031.pcx 162 2840 09 32 64 -31 -9
-  711 sprites/pcx/landscape031.pcx 242 2840 09 32 64 -31 -9
-  712 sprites/pcx/landscape031.pcx 322 2840 09 40 64 -31 -9
-  713 sprites/pcx/landscape031.pcx 402 2840 09 40 64 -31 -9
-  714 sprites/pcx/landscape031.pcx 482 2840 09 32 64 -31 -9
-  715 sprites/pcx/landscape031.pcx 562 2840 09 40 64 -31 -9
-  716 sprites/pcx/landscape031.pcx 642 2840 09 40 64 -31 -9
-  717 sprites/pcx/landscape031.pcx 722 2840 09 32 64 -31 -9
-  718 sprites/pcx/landscape031.pcx 2 2904 09 32 64 -31 -9
-  719 sprites/pcx/landscape031.pcx 82 2904 09 40 64 -31 -9
-  720 sprites/pcx/landscape031.pcx 162 2904 09 40 64 -31 -9
-  721 sprites/pcx/landscape031.pcx 242 2904 09 40 64 -31 -9
-  722 sprites/pcx/landscape031.pcx 322 2904 09 40 64 -31 -9
-  723 sprites/pcx/landscape031.pcx 402 2904 09 40 64 -31 -9
-  724 sprites/pcx/landscape031.pcx 482 2904 09 32 64 -31 -9
-  725 sprites/pcx/landscape031.pcx 562 2904 09 32 64 -31 -9
-  726 sprites/pcx/landscape031.pcx 642 2904 09 40 64 -31 -9
-  727 sprites/pcx/landscape031.pcx 722 2904 09 40 64 -31 -9
-  728 sprites/pcx/landscape031.pcx 2 2968 09 32 64 -31 -9
-  729 sprites/pcx/landscape031.pcx 82 2968 09 32 64 -31 -9
-  730 sprites/pcx/landscape031.pcx 162 2968 09 40 64 -31 -9
-  731 sprites/pcx/landscape031.pcx 242 2968 09 40 64 -31 -9
-  732 sprites/pcx/landscape031.pcx 322 2968 09 32 64 -31 -9
-  733 sprites/pcx/landscape031.pcx 402 2968 09 32 64 -31 -9
-  734 sprites/pcx/landscape031.pcx 482 2968 09 40 64 -31 -9
-  735 sprites/pcx/landscape031.pcx 562 2968 09 40 64 -31 -9
-  736 sprites/pcx/landscape031.pcx 642 2968 09 32 64 -31 -9
-  737 sprites/pcx/landscape031.pcx 722 2968 09 40 64 -31 -9
-  738 sprites/pcx/landscape031.pcx 2 3032 09 40 64 -31 -9
-  739 sprites/pcx/landscape031.pcx 82 3032 09 32 64 -31 -9
-  740 sprites/pcx/landscape031.pcx 162 3032 09 32 64 -31 -9
-  741 sprites/pcx/landscape031.pcx 242 3032 09 40 64 -31 -9
-  742 sprites/pcx/landscape031.pcx 322 3032 09 40 64 -31 -9
-  743 sprites/pcx/landscape031.pcx 402 3032 09 40 64 -31 -9
-  744 sprites/pcx/landscape031.pcx 482 3032 09 40 64 -31 -9
-  745 sprites/pcx/landscape031.pcx 562 3032 09 40 64 -31 -9
-  746 sprites/pcx/landscape031.pcx 642 3032 09 32 64 -31 -9
-  747 sprites/pcx/landscape031.pcx 722 3032 09 32 64 -31 -9
-  748 sprites/pcx/landscape031.pcx 2 3096 09 40 64 -31 -9
-  749 sprites/pcx/landscape031.pcx 82 3096 09 40 64 -31 -9
-  750 sprites/pcx/landscape031.pcx 162 3096 09 32 64 -31 -9
-  751 sprites/pcx/landscape031.pcx 242 3096 09 32 64 -31 -9
-  752 sprites/pcx/landscape031.pcx 322 3096 09 40 64 -31 -9
-  753 sprites/pcx/landscape031.pcx 402 3096 09 40 64 -31 -9
-  754 sprites/pcx/landscape031.pcx 482 3096 09 32 64 -31 -9
-  755 sprites/pcx/landscape031.pcx 562 3096 09 32 64 -31 -9
-  756 sprites/pcx/landscape031.pcx 642 3096 09 40 64 -31 -9
-  757 sprites/pcx/landscape031.pcx 722 3096 09 40 64 -31 -9
-  758 sprites/pcx/landscape031.pcx 2 3160 09 32 64 -31 -9
-  759 sprites/pcx/landscape031.pcx 82 3160 09 40 64 -31 -9
-  760 sprites/pcx/landscape031.pcx 162 3160 09 40 64 -31 -9
-  761 sprites/pcx/landscape031.pcx 242 3160 09 32 64 -31 -9
-  762 sprites/pcx/landscape031.pcx 322 3160 09 32 64 -31 -9
-  763 sprites/pcx/landscape031.pcx 402 3160 09 40 64 -31 -9
-  764 sprites/pcx/landscape031.pcx 482 3160 09 40 64 -31 -9
-  765 sprites/pcx/landscape031.pcx 562 3160 09 40 64 -31 -9
-  766 sprites/pcx/landscape031.pcx 642 3160 09 40 64 -31 -9
-  767 sprites/pcx/landscape031.pcx 722 3160 09 40 64 -15 -17
-  768 sprites/pcx/landscape031.pcx 2 3224 09 33 64 -31 -25
-  769 sprites/pcx/landscape031.pcx 82 3224 09 40 64 -47 -17
-  770 sprites/pcx/landscape031.pcx 162 3224 09 33 64 -31 -9
-  771 sprites/pcx/landscape031.pcx 242 3224 09 40 64 -15 -17
-  772 sprites/pcx/landscape031.pcx 322 3224 09 33 64 -31 -25
-  773 sprites/pcx/landscape031.pcx 402 3224 09 40 64 -47 -17
-  774 sprites/pcx/landscape031.pcx 482 3224 09 33 64 -31 -9
-  775 sprites/pcx/landscape031.pcx 562 3224 09 40 64 -15 -17
-  776 sprites/pcx/landscape031.pcx 642 3224 09 33 64 -31 -25
-  777 sprites/pcx/landscape031.pcx 722 3224 09 40 64 -47 -17
-  778 sprites/pcx/landscape031.pcx 2 3288 09 33 64 -31 -9
-  779 sprites/pcx/landscape031.pcx 82 3288 09 40 64 -15 -17
-  780 sprites/pcx/landscape031.pcx 162 3288 09 33 64 -31 -25
-  781 sprites/pcx/landscape031.pcx 242 3288 09 40 64 -47 -17
-  782 sprites/pcx/landscape031.pcx 322 3288 09 33 64 -31 -9
+-1 * 6        07 83 01 \7! 02 5B
+-1 * 3        05 06 5A
+-1 sprites/pcx/landscape031.pcx 354 2712 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 434 2712 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 514 2712 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 594 2712 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 674 2712 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2776 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2776 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2776 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2776 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2776 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2840 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2840 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2840 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2840 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2840 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2904 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2904 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2904 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2904 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 2968 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 2968 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 2968 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 2968 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 2968 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 2968 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 2968 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 2968 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 2968 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 2968 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3032 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3032 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3032 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3032 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3032 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3096 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3096 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3096 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3096 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3096 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3160 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3160 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3160 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3160 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3160 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 2 3224 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 82 3224 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 162 3224 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3224 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 322 3224 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 402 3224 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 482 3224 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3224 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 642 3224 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 722 3224 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 2 3288 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3288 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 162 3288 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 242 3288 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 322 3288 49 33 64 -31 -9
 
 //toyland
  1081 * 6        07 83 01 \7! 03 5B
  1082 * 3        05 06 5A
-  785 sprites/pcx/landscape031.pcx 434 3288 09 40 64 -31 -9
-  786 sprites/pcx/landscape031.pcx 514 3288 09 40 64 -31 -9
-  787 sprites/pcx/landscape031.pcx 594 3288 09 32 64 -31 -9
-  788 sprites/pcx/landscape031.pcx 674 3288 09 32 64 -31 -9
-  789 sprites/pcx/landscape031.pcx 2 3352 09 40 64 -31 -9
-  790 sprites/pcx/landscape031.pcx 82 3352 09 40 64 -31 -9
-  791 sprites/pcx/landscape031.pcx 162 3352 09 40 64 -31 -9
-  792 sprites/pcx/landscape031.pcx 242 3352 09 40 64 -31 -9
-  793 sprites/pcx/landscape031.pcx 322 3352 09 40 64 -31 -9
-  794 sprites/pcx/landscape031.pcx 402 3352 09 32 64 -31 -9
-  795 sprites/pcx/landscape031.pcx 482 3352 09 32 64 -31 -9
-  796 sprites/pcx/landscape031.pcx 562 3352 09 40 64 -31 -9
-  797 sprites/pcx/landscape031.pcx 642 3352 09 40 64 -31 -9
-  798 sprites/pcx/landscape031.pcx 722 3352 09 32 64 -31 -9
-  799 sprites/pcx/landscape031.pcx 2 3416 09 32 64 -31 -9
-  800 sprites/pcx/landscape031.pcx 82 3416 09 40 64 -31 -9
-  801 sprites/pcx/landscape031.pcx 162 3416 09 40 64 -31 -9
-  802 sprites/pcx/landscape031.pcx 242 3416 09 32 64 -31 -9
-  803 sprites/pcx/landscape031.pcx 322 3416 09 32 64 -31 -9
-  804 sprites/pcx/landscape031.pcx 402 3416 09 40 64 -31 -9
-  805 sprites/pcx/landscape031.pcx 482 3416 09 40 64 -31 -9
-  806 sprites/pcx/landscape031.pcx 562 3416 09 32 64 -31 -9
-  807 sprites/pcx/landscape031.pcx 642 3416 09 40 64 -31 -9
-  808 sprites/pcx/landscape031.pcx 722 3416 09 40 64 -31 -9
-  809 sprites/pcx/landscape031.pcx 2 3480 09 32 64 -31 -9
-  810 sprites/pcx/landscape031.pcx 82 3480 09 32 64 -31 -9
-  811 sprites/pcx/landscape031.pcx 162 3480 09 40 64 -31 -9
-  812 sprites/pcx/landscape031.pcx 242 3480 09 40 64 -31 -9
-  813 sprites/pcx/landscape031.pcx 322 3480 09 40 64 -31 -9
-  814 sprites/pcx/landscape031.pcx 402 3480 09 40 64 -31 -9
-  815 sprites/pcx/landscape031.pcx 482 3480 09 40 64 -31 -9
-  816 sprites/pcx/landscape031.pcx 562 3480 09 32 64 -31 -9
-  817 sprites/pcx/landscape031.pcx 642 3480 09 32 64 -31 -9
-  818 sprites/pcx/landscape031.pcx 722 3480 09 40 64 -31 -9
-  819 sprites/pcx/landscape031.pcx 2 3544 09 40 64 -31 -9
-  820 sprites/pcx/landscape031.pcx 82 3544 09 32 64 -31 -9
-  821 sprites/pcx/landscape031.pcx 162 3544 09 32 64 -31 -9
-  822 sprites/pcx/landscape031.pcx 242 3544 09 40 64 -31 -9
-  823 sprites/pcx/landscape031.pcx 322 3544 09 40 64 -31 -9
-  824 sprites/pcx/landscape031.pcx 402 3544 09 32 64 -31 -9
-  825 sprites/pcx/landscape031.pcx 482 3544 09 32 64 -31 -9
-  826 sprites/pcx/landscape031.pcx 562 3544 09 40 64 -31 -9
-  827 sprites/pcx/landscape031.pcx 642 3544 09 40 64 -31 -9
-  828 sprites/pcx/landscape031.pcx 722 3544 09 32 64 -31 -9
-  829 sprites/pcx/landscape031.pcx 2 3608 09 40 64 -31 -9
-  830 sprites/pcx/landscape031.pcx 82 3608 09 40 64 -31 -9
-  831 sprites/pcx/landscape031.pcx 162 3608 09 32 64 -31 -9
-  832 sprites/pcx/landscape031.pcx 242 3608 09 32 64 -31 -9
-  833 sprites/pcx/landscape031.pcx 322 3608 09 40 64 -31 -9
-  834 sprites/pcx/landscape031.pcx 402 3608 09 40 64 -31 -9
-  835 sprites/pcx/landscape031.pcx 482 3608 09 40 64 -31 -9
-  836 sprites/pcx/landscape031.pcx 562 3608 09 40 64 -31 -9
-  837 sprites/pcx/landscape031.pcx 642 3608 09 40 64 -31 -9
-  838 sprites/pcx/landscape031.pcx 722 3608 09 32 64 -31 -9
-  839 sprites/pcx/landscape031.pcx 2 3672 09 32 64 -31 -9
-  840 sprites/pcx/landscape031.pcx 82 3672 09 40 64 -31 -9
-  841 sprites/pcx/landscape031.pcx 162 3672 09 40 64 -31 -9
-  842 sprites/pcx/landscape031.pcx 242 3672 09 32 64 -31 -9
-  843 sprites/pcx/landscape031.pcx 322 3672 09 32 64 -31 -9
-  844 sprites/pcx/landscape031.pcx 402 3672 09 40 64 -31 -9
-  845 sprites/pcx/landscape031.pcx 482 3672 09 40 64 -31 -9
-  846 sprites/pcx/landscape031.pcx 562 3672 09 32 64 -31 -9
-  847 sprites/pcx/landscape031.pcx 642 3672 09 32 64 -31 -9
-  848 sprites/pcx/landscape031.pcx 722 3672 09 40 64 -31 -9
-  849 sprites/pcx/landscape031.pcx 2 3736 09 40 64 -31 -9
-  850 sprites/pcx/landscape031.pcx 82 3736 09 32 64 -31 -9
-  851 sprites/pcx/landscape031.pcx 162 3736 09 40 64 -31 -9
-  852 sprites/pcx/landscape031.pcx 242 3736 09 40 64 -31 -9
-  853 sprites/pcx/landscape031.pcx 322 3736 09 32 64 -31 -9
-  854 sprites/pcx/landscape031.pcx 402 3736 09 32 64 -31 -9
-  855 sprites/pcx/landscape031.pcx 482 3736 09 40 64 -31 -9
-  856 sprites/pcx/landscape031.pcx 562 3736 09 40 64 -31 -9
-  857 sprites/pcx/landscape031.pcx 642 3736 09 40 64 -31 -9
-  858 sprites/pcx/landscape031.pcx 722 3736 09 40 64 -31 -9
-  859 sprites/pcx/landscape031.pcx 2 3800 09 40 64 -15 -17
-  860 sprites/pcx/landscape031.pcx 82 3800 09 33 64 -31 -25
-  861 sprites/pcx/landscape031.pcx 162 3800 09 40 64 -47 -17
-  862 sprites/pcx/landscape031.pcx 242 3800 09 33 64 -31 -9
-  863 sprites/pcx/landscape031.pcx 322 3800 09 40 64 -15 -17
-  864 sprites/pcx/landscape031.pcx 402 3800 09 33 64 -31 -25
-  865 sprites/pcx/landscape031.pcx 482 3800 09 40 64 -47 -17
-  866 sprites/pcx/landscape031.pcx 562 3800 09 33 64 -31 -9
-  867 sprites/pcx/landscape031.pcx 642 3800 09 40 64 -15 -17
-  868 sprites/pcx/landscape031.pcx 722 3800 09 33 64 -31 -25
-  869 sprites/pcx/landscape031.pcx 2 3864 09 40 64 -47 -17
-  870 sprites/pcx/landscape031.pcx 82 3864 09 33 64 -31 -9
-  871 sprites/pcx/landscape031.pcx 162 3864 09 40 64 -15 -17
-  872 sprites/pcx/landscape031.pcx 242 3864 09 33 64 -31 -25
-  873 sprites/pcx/landscape031.pcx 322 3864 09 40 64 -47 -17
-  874 sprites/pcx/landscape031.pcx 402 3864 09 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 434 3288 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 514 3288 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 594 3288 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 674 3288 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3352 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3352 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3352 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3352 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3416 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3416 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3416 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3416 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3416 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3480 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3480 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3480 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3480 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3480 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3544 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3544 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3544 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3544 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3544 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3544 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3544 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3544 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3544 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3544 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3608 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3608 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3608 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3608 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3672 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3672 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3672 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3672 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3672 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3672 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3672 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3672 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3672 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3672 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 82 3736 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 242 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3736 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 402 3736 49 32 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 482 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 562 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 722 3736 49 40 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 2 3800 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 82 3800 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 162 3800 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 242 3800 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 322 3800 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 402 3800 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 482 3800 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 562 3800 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 642 3800 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 722 3800 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 2 3864 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 82 3864 49 33 64 -31 -9
+-1 sprites/pcx/landscape031.pcx 162 3864 49 40 64 -15 -17
+-1 sprites/pcx/landscape031.pcx 242 3864 49 33 64 -31 -25
+-1 sprites/pcx/landscape031.pcx 322 3864 49 40 64 -47 -17
+-1 sprites/pcx/landscape031.pcx 402 3864 49 33 64 -31 -9
