@@ -43,13 +43,13 @@
  4439 sprites/pcx/morebuildings.pcx 311 308 03 60 54 -25 -31    // Recolour: CREAM, DARK_GREEN, YELLOW
  4440 sprites/pcx/morebuildings.pcx 375 308 03 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
  4441 sprites/pcx/morebuildings.pcx 439 308 09 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
- // office block
+// 4442-4445 office block
  4442 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0
- 4443 sprites/pcx/morebuildings.pcx 2 308 03 43 64 -31 -12              // Recolour: BROWN, ORANGE, RED
- 4444 sprites/pcx/morebuildings.pcx 75 308 03 98 64 -31 -67             // Recolour: BROWN, ORANGE, RED
- 4445 sprites/pcx/morebuildings.pcx 150 308 09 119 64 -31 -88   // Recolour: BROWN, ORANGE, RED
+ 4443 sprites/pcx/morebuildings.pcx 2 308 03 43 64 -31 -12      // Recolour: BROWN, ORANGE, RED
+HOUSE_HEIGHT149_1(sprites/pcx/houses/base-4444.4445.4576-offices.pcx)   // Recolour: BROWN, ORANGE, RED
+HOUSE_HEIGHT149_2(sprites/pcx/houses/base-4444.4445.4576-offices.pcx)   // Recolour: BROWN, ORANGE, RED
 //house
-  787 sprites/pcx/buildings.pcx 690 3672 09 35 64 -31 -4
+  787 sprites/pcx/buildings.pcx 690 3672 09 35 64 -31 -4        
   796 sprites/pcx/buildings.pcx 450 3720 09 35 64 -31 -4
   788 sprites/pcx/buildings.pcx 2 3720 09 29 30 -8 -4
   789 sprites/pcx/buildings.pcx 50 3720 09 29 30 -8 -4
@@ -205,8 +205,8 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 176)  // Recol
  4574 sprites/pcx/morebuildings.pcx 546 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
 //snow equiv of 4438-4441 (office block)
  4575 sprites/pcx/morebuildings.pcx 499 308 09 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
-//snow equiv of 4442-4445 (office block)
- 4576 sprites/pcx/morebuildings.pcx 230 308 09 119 64 -31 -88   // Recolour: YELLOW, BROWN, ORANGE, RED
+// 4576 snow equiv of 4442-4445 (office block)
+HOUSE_HEIGHT149_3(sprites/pcx/houses/base-4444.4445.4576-offices.pcx)   // Recolour: YELLOW, BROWN, ORANGE, RED
 //snow equiv of 4477-4479 (saloon thingy)
 HOUSE_HEIGHT87(sprites/pcx/houses/base-4477-4479.4577-office.pcx, 264)  // Recolour: STRUCT_BROWN, STRUCT_WHITE
 //snow equiv of 4459-4461 (shop)

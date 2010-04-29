@@ -1,3 +1,9 @@
+// house width: 44
+#define HOUSE_HEIGHT149(FILE, Y)        0 FILE 0 Y 09 149 64 -30 -119
+
+#define HOUSE_HEIGHT149_1(FILE)         HOUSE_HEIGHT149(FILE, 0)
+#define HOUSE_HEIGHT149_2(FILE)         HOUSE_HEIGHT149(FILE, 150)
+#define HOUSE_HEIGHT149_3(FILE)         HOUSE_HEIGHT149(FILE, 300)
 
 // house width: 66 (1px boarder on each side)
 #define HOUSE_HEIGHT87(FILE, Y)         0 FILE 0 Y 09 87 66 -31 -57
