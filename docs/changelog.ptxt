@@ -1,17 +1,19 @@
-OpenGFX r440
+OpenGFX 0.2.4 (released 29 Apr. 2010)
 -------------------------------------
 
 - Feature: Add 'addcheck' which checks for dependencies not added to the mercurial repo
 - Feature: Introduce target 'distclean' which should delete everything not found in the tarball
 - Feature: Slightly better PBS signals graphics - should be more visible
+- Feature: Improve entrance roof of office building (4444,4445,4576)
 
 - Fix: Adjust alignment of all rail vehicles
+- Fix: Flag foundation sprites such that grfcodec doesn't autocrop it
 
 - Doc: Explain slightly more verbose how the alignment templates work
 
 
 
-OpenGFX 0.2.3 (released 21 Mar. 2010)
+OpenGFX 0.2.3 (released 31 Mar. 2010)
 -------------------------------------
 
 - Fix: Don't rebuild the md5sums file which one wants to check against
