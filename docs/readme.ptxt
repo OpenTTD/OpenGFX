@@ -62,9 +62,9 @@ self-compiled grf is the the same as it should, have a look at {{FILENAME}}
 
 2. Next, download the latest OpenGFX package. There are a few sources:
 - the development homepage http://bundles.openttdcoop.org/opengfx
+- official mirror: http://www.openttd.org/download-opengfx
 - Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the
-"bananas" section: http://binaries.openttd.org/bananas/OpenGFX-0.2.1.tar.gz (or
-possibly with a newer version).
+"bananas" section: http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz
 
 3. Unpack the zip file into the OpenTTD /data directory (see section 4.2 of the
 OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes).
