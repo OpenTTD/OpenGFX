@@ -1,4 +1,4 @@
-OpenGFX 0.2.4 (released 29 Apr. 2010)
+OpenGFX 0.2.4 (29 Apr. 2010)
 -------------------------------------
 
 - Feature: Add 'addcheck' which checks for dependencies not added to the mercurial repo
@@ -13,14 +13,14 @@ OpenGFX 0.2.4 (released 29 Apr. 2010)
 
 
 
-OpenGFX 0.2.3 (released 31 Mar. 2010)
+OpenGFX 0.2.3 (31 Mar. 2010)
 -------------------------------------
 
 - Fix: Don't rebuild the md5sums file which one wants to check against
 
 
 
-OpenGFX 0.2.2 (released 28 Mar. 2010)
+OpenGFX 0.2.2 (28 Mar. 2010)
 -------------------------------------
 
 - Feature: GUI icon for NewGRF debug mode
@@ -49,7 +49,7 @@ OpenGFX 0.2.2 (released 28 Mar. 2010)
 
 
 
-OpenGFX 0.2.1 (released 23 Dec. 2009)
+OpenGFX 0.2.1 (23 Dec. 2009)
 -------------------------------------
 - Feature: Add GUI sprites for shading windos
 - Feature: Support for rpm specs for all big distros
@@ -68,7 +68,7 @@ OpenGFX 0.2.1 (released 23 Dec. 2009)
 
 
 
-OpenGFX 0.2.0 (released 10 Dec. 2009)
+OpenGFX 0.2.0 (10 Dec. 2009)
 -------------------------------------
 - Feature: Allow localized ingame descriptions for the package. Add them for German, Dutch, Hungarian, traditional Chinese and Swedish.
 - Feature: Igloo (toyland building)
@@ -103,7 +103,7 @@ OpenGFX 0.2.0 (released 10 Dec. 2009)
 
 
 
-OpenGFX 0.1.1 (released 21 Sep. 2009)
+OpenGFX 0.1.1 (21 Sep. 2009)
 -------------------------------------
 - Feature: Headquarters for toyland climate
 - Feature: Toffee wagon in toyland
@@ -126,7 +126,7 @@ OpenGFX 0.1.1 (released 21 Sep. 2009)
 
 
 
-OpenGFX 0.1.0-alpha6 (released 11. Aug 2009)
+OpenGFX 0.1.0-alpha6 (11. Aug 2009)
 --------------------------------------------
 - Feature: Add toffee truck
 - Feature: Toy truck
@@ -161,7 +161,7 @@ OpenGFX 0.1.0-alpha6 (released 11. Aug 2009)
 
 
 
-OpenGFX 0.1.0-alpha5 (released 10 Jul. 2009)
+OpenGFX 0.1.0-alpha5 (10 Jul. 2009)
 --------------------------------------------
 - Add: Resize windows towards the left sprite
 
@@ -188,7 +188,7 @@ OpenGFX 0.1.0-alpha5 (released 10 Jul. 2009)
 
 
 
-OpenGFX 0.1.0-alpha4.2 (released 22 Jan. 2009)
+OpenGFX 0.1.0-alpha4.2 (22 Jan. 2009)
 ----------------------------------------------
 - Feature: Expand and contract sprites for the new Advanced Settings menu added.
 
@@ -197,13 +197,13 @@ OpenGFX 0.1.0-alpha4.2 (released 22 Jan. 2009)
 
 
 
-OpenGFX 0.1.0-alpha4.1 (released 08 Jan. 2009)
+OpenGFX 0.1.0-alpha4.1 (08 Jan. 2009)
 ----------------------------------------------
 - Feature: Lots of accented characters
 
 
 
-OpenGFX 0.1.0-alpha4 (released 03 Jan. 200)
+OpenGFX 0.1.0-alpha4 (03 Jan. 200)
 -------------------------------------------
 - Feature: Bold typeface/missing characters
 - Feature: Lots of toyland graphics
@@ -213,7 +213,7 @@ OpenGFX 0.1.0-alpha4 (released 03 Jan. 200)
 
 
 
-OpenGFX 0.1.0-alpha3 (released 24 Dec. 2008)
+OpenGFX 0.1.0-alpha3 (24 Dec. 2008)
 --------------------------------------------
 - Feature: Company indicator
 - Feature: Some random new buildings
@@ -225,7 +225,7 @@ OpenGFX 0.1.0-alpha3 (released 24 Dec. 2008)
 
 
 
-OpenGFX 0.1.0-alpha2 (released 23 Oct. 2008)
+OpenGFX 0.1.0-alpha2 (23 Oct. 2008)
 --------------------------------------------
 - Feature: High score chart
 - Feature: Game end newspapers
@@ -239,6 +239,6 @@ OpenGFX 0.1.0-alpha2 (released 23 Oct. 2008)
 
 
 
-OpenGFX 0.1.0-alpha1 (released 21 Oct. 2008)
+OpenGFX 0.1.0-alpha1 (21 Oct. 2008)
 --------------------------------------------
 - Initial set of graphics, though incomplete
