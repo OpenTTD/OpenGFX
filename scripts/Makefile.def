@@ -17,6 +17,9 @@ CC_FLAGS       ?= -C -E - <
 MAKE_FLAGS     ?=
 UNIX2DOS_FLAGS ?= -q
 NML_FLAGS      ?=
+# OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
+CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
+
 
 NFORENUM       ?= $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
 GRFCODEC       ?= grfcodec
@@ -110,6 +113,7 @@ MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(EXTR
 
 FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
+FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|backup\.push|\.devzone)"
 
 # Remove the @ when you want a more verbose output.
 _V ?= @

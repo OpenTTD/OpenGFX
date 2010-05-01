@@ -53,8 +53,8 @@ bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
 	$(_V) mkdir -p $(DIR_NAME_SRC)
 	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
-	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j"; done; done;`; do cp -rf $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
-	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/"; done;`; do cp -rf $$k $(DIR_NAME_SRC); done
+	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
+	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
 	$(_V) cp $(MD5_FILENAME) $(DIR_NAME_SRC)
 	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
