@@ -1,104 +1,104 @@
 //674-678 company colour random thingies
-    6 sprites/pcx/gui04.pcx 162 8 01 1 34 0 0
-    7 sprites/pcx/gui04.pcx 210 8 01 16 16 0 0
-    8 sprites/pcx/gui04.pcx 242 8 01 20 16 0 0
-    9 sprites/pcx/gui04.pcx 274 8 01 20 20 0 0
-   10 sprites/pcx/gui04.pcx 306 8 01 20 40 0 0
+    6 sprites/pcx/gui04.pcx 162   8 01  1 34 0 0
+    7 sprites/pcx/gui04.pcx 210   8 01 16 16 0 0
+    8 sprites/pcx/gui04.pcx 242   8 01 20 16 0 0
+    9 sprites/pcx/gui04.pcx 274   8 01 20 20 0 0
+   10 sprites/pcx/gui04.pcx 306   8 01 20 40 0 0
 
 //679-751 gui stuff
-   11 sprites/pcx/gui04.pcx 354 8 09 20 20 0 0
-   12 sprites/pcx/gui04.pcx 386 8 01 20 20 0 0
-   13 sprites/pcx/gui04.pcx 418 8 09 20 20 0 0
-   14 sprites/pcx/gui04.pcx 450 8 09 10 10 0 1
-   15 sprites/pcx/gui04.pcx 466 8 09 16 16 0 0
-   16 sprites/pcx/gui04.pcx 498 8 09 20 20 0 0
-   17 sprites/pcx/gui04.pcx 530 8 09 16 16 0 0
-   18 sprites/pcx/gui04.pcx 562 8 09 16 16 0 0
-   19 sprites/pcx/gui04.pcx 594 8 09 16 16 0 0
-   20 sprites/pcx/gui04.pcx 626 8 09 16 16 0 0
-   21 sprites/pcx/gui04.pcx 658 8 09 16 16 0 0
-   22 sprites/pcx/gui04.pcx 690 8 09 16 16 0 0
-   23 sprites/pcx/gui04.pcx 722 8 09 16 16 0 0
-   24 sprites/pcx/gui04.pcx 754 8 09 16 16 0 0
+   11 sprites/pcx/gui04.pcx 354   8 09 20 20 0 0             // main toolbar: subsidies
+   12 sprites/pcx/gui04.pcx 386   8 01 20 20 0 0             // main toolbar: news settings
+   13 sprites/pcx/gui04.pcx 418   8 09 20 20 0 0             // (?)
+   14 sprites/pcx/gui04.pcx 450   8 09 10 10 0 1             // (?)
+   15 sprites/pcx/gui04.pcx 466   8 09 16 16 0 0             // vehicle view: center map on vehicle
+   16 sprites/pcx/gui04.pcx 498   8 09 20 20 0 0             // main toolbar: company comparisons (company league table)
+   17 sprites/pcx/gui04.pcx 530   8 09 16 16 0 0             // vehicle view: send to rail depot
+   18 sprites/pcx/gui04.pcx 562   8 09 16 16 0 0             // vehicle view: send to road depot
+   19 sprites/pcx/gui04.pcx 594   8 09 16 16 0 0             // vehicle view: send to hangar
+   20 sprites/pcx/gui04.pcx 626   8 09 16 16 0 0             // vehicle view: send to ship depot
+   21 sprites/pcx/gui04.pcx 658   8 09 16 16 0 0             // vehicle view: skip signal
+   22 sprites/pcx/gui04.pcx 690   8 09 16 16 0 0             // vehicle view: set orders
+   23 sprites/pcx/gui04.pcx 722   8 09 16 16 0 0             // vehicle view: show details
+   24 sprites/pcx/gui04.pcx 754   8 09 16 16 0 0             // vehicle view: refit
    25 sprites/pcx/random.pcx 394 10 09 20 20 0 0
-   //Terraform up/down icons
+							   //Terraform up/down icons
    26 sprites/pcx/terraform_gui.pcx 3 9 03 20 20 0 0
    27 sprites/pcx/terraform_gui.pcx 35 9 03 20 20 0 0
-   //Terraform up(3)/down(3) cursors
-   28 sprites/pcx/terraform_gui.pcx 67 9 03 32 32 0 0
-   29 sprites/pcx/terraform_gui.pcx 115 9 03 32 32 0 0
-   30 sprites/pcx/terraform_gui.pcx 163 9 03 32 32 0 0
-   31 sprites/pcx/terraform_gui.pcx 211 9 03 32 32 0 0
-   32 sprites/pcx/terraform_gui.pcx 259 9 03 32 32 0 0
-   33 sprites/pcx/terraform_gui.pcx 307 9 03 32 32 0 0
+                                                           //Terraform up(3)/down(3) cursors
+   28 sprites/pcx/terraform_gui.pcx  67   9 03 32 32 0 0
+   29 sprites/pcx/terraform_gui.pcx 115   9 03 32 32 0 0
+   30 sprites/pcx/terraform_gui.pcx 163   9 03 32 32 0 0
+   31 sprites/pcx/terraform_gui.pcx 211   9 03 32 32 0 0
+   32 sprites/pcx/terraform_gui.pcx 259   9 03 32 32 0 0
+   33 sprites/pcx/terraform_gui.pcx 307   9 03 32 32 0 0
    34 sprites/pcx/random.pcx 355 10 03 32 32 0 0
-   35 sprites/pcx/gui04.pcx 434 56 03 20 20 0 0
-   36 sprites/pcx/gui04.pcx 466 56 03 32 32 0 0
-   37 sprites/pcx/gui04.pcx 514 56 03 32 32 0 0
-   38 sprites/pcx/gui04.pcx 562 56 03 32 32 0 0
-   39 sprites/pcx/gui04.pcx 610 56 03 32 32 0 0
-   40 sprites/pcx/gui04.pcx 658 56 01 20 20 0 0
-   41 sprites/pcx/gui04.pcx 690 56 09 20 20 0 0
-   42 sprites/pcx/gui04.pcx 722 56 09 20 20 0 0
-   43 sprites/pcx/gui04.pcx 754 56 09 20 20 0 0
-   44 sprites/pcx/gui04.pcx 2 104 09 20 20 0 0
-   45 sprites/pcx/gui04.pcx 34 104 09 20 20 0 0
-   46 sprites/pcx/gui04.pcx 66 104 09 20 20 0 0
-   47 sprites/pcx/gui04.pcx 98 104 09 16 16 0 0
-   48 sprites/pcx/gui04.pcx 130 104 03 32 32 0 0
-   49 sprites/pcx/gui04.pcx 178 104 03 32 32 0 0
-   50 sprites/pcx/gui04.pcx 226 104 03 32 32 0 0
-   51 sprites/pcx/gui04.pcx 274 104 03 32 32 0 0
-   52 sprites/pcx/gui04.pcx 322 104 03 32 32 0 0
-   53 sprites/pcx/gui04.pcx 370 104 03 32 32 0 0
-   54 sprites/pcx/gui04.pcx 418 104 03 32 32 0 0
-   55 sprites/pcx/gui04.pcx 466 104 01 20 20 0 0
-   56 sprites/pcx/gui04.pcx 498 104 01 20 20 0 0
-   57 sprites/pcx/gui04.pcx 530 104 01 20 20 0 0
-   58 sprites/pcx/gui04.pcx 562 104 01 20 20 0 0
-   59 sprites/pcx/gui04.pcx 594 104 01 20 20 0 0
-   60 sprites/pcx/gui04.pcx 626 104 01 20 20 0 0
-   61 sprites/pcx/gui04.pcx 658 104 01 20 20 0 0
-   62 sprites/pcx/gui04.pcx 690 104 01 20 20 0 0
-   63 sprites/pcx/gui04.pcx 722 104 09 20 20 0 0
-   64 sprites/pcx/gui04.pcx 754 104 09 20 20 0 0
-   65 sprites/pcx/gui04.pcx 2 152 09 20 20 0 0
-   66 sprites/pcx/gui04.pcx 34 152 09 20 20 0 0
-   67 sprites/pcx/gui04.pcx 66 152 09 20 20 0 0
-   68 sprites/pcx/gui04.pcx 98 152 09 20 20 0 0
-   69 sprites/pcx/gui04.pcx 130 152 09 20 20 0 0
-   70 sprites/pcx/gui04.pcx 162 152 09 20 20 0 0
-   71 sprites/pcx/gui04.pcx 194 152 09 20 20 0 0
-   72 sprites/pcx/gui04.pcx 226 152 09 20 20 0 0
-   73 sprites/pcx/gui04.pcx 258 152 09 20 20 0 0
-   74 sprites/pcx/gui04.pcx 290 152 09 20 20 0 0
-   75 sprites/pcx/gui04.pcx 322 152 09 20 20 0 0
-   76 sprites/pcx/gui04.pcx 354 152 09 20 40 0 0
-   77 sprites/pcx/gui04.pcx 402 152 09 20 20 0 0
-   78 sprites/pcx/gui04.pcx 434 152 09 20 20 0 0
-   79 sprites/pcx/gui04.pcx 466 152 01 8 14 0 0
-   80 sprites/pcx/gui04.pcx 498 152 09 20 20 0 0
-   81 sprites/pcx/gui04.pcx 530 152 09 20 20 0 0
-   82 sprites/pcx/gui04.pcx 562 152 09 20 20 0 0
-   83 sprites/pcx/gui04.pcx 594 152 09 20 20 0 0
+   35 sprites/pcx/gui04.pcx 434  56 03 20 20 0 0             // construction toolbars: dynamite
+   36 sprites/pcx/gui04.pcx 466  56 03 32 32 0 0             // dynamite animated cursor 1
+   37 sprites/pcx/gui04.pcx 514  56 03 32 32 0 0             // dynamite animated cursor 2
+   38 sprites/pcx/gui04.pcx 562  56 03 32 32 0 0             // dynamite animated cursor 3
+   39 sprites/pcx/gui04.pcx 610  56 03 32 32 0 0             // dynamite animated cursor 4
+   40 sprites/pcx/gui04.pcx 658  56 01 20 20 0 0             // main toolbar: map menu
+   41 sprites/pcx/gui04.pcx 690  56 09 20 20 0 0             // juke box: skip to previous track
+   42 sprites/pcx/gui04.pcx 722  56 09 20 20 0 0             // juke box: skip to next track
+   43 sprites/pcx/gui04.pcx 754  56 09 20 20 0 0             // juke box: stop
+   44 sprites/pcx/gui04.pcx   2 104 09 20 20 0 0             // juke box: play (ltr languages)
+   45 sprites/pcx/gui04.pcx  34 104 09 20 20 0 0             // main toolbar: open jukebox
+   46 sprites/pcx/gui04.pcx  66 104 09 20 20 0 0             // construction toolbars: bulldozer
+   47 sprites/pcx/gui04.pcx  98 104 09 16 16 0 0             // vehicle view: reverse travel direction
+   48 sprites/pcx/gui04.pcx 130 104 03 32 32 0 0             // cursor vehicle view: goto cursor 1
+   49 sprites/pcx/gui04.pcx 178 104 03 32 32 0 0             // cursor vehicle view: goto cursor 2
+   50 sprites/pcx/gui04.pcx 226 104 03 32 32 0 0             // cursor vehicle view: goto cursor 3
+   51 sprites/pcx/gui04.pcx 274 104 03 32 32 0 0             // cursor main toolbar: land area information
+   52 sprites/pcx/gui04.pcx 322 104 03 32 32 0 0             // cursor company view: place HQ cursor
+   53 sprites/pcx/gui04.pcx 370 104 03 32 32 0 0             // cursor construction toolbar: build depot cursor
+   54 sprites/pcx/gui04.pcx 418 104 03 32 32 0 0             // cursor landscaping toolbar: place sign cursor
+   55 sprites/pcx/gui04.pcx 466 104 01 20 20 0 0             // main toolbar: info icon
+   56 sprites/pcx/gui04.pcx 498 104 01 20 20 0 0             // main toolbar: file menu (?)
+   57 sprites/pcx/gui04.pcx 530 104 01 20 20 0 0             // main toolbar: file menu (?)
+   58 sprites/pcx/gui04.pcx 562 104 01 20 20 0 0             // main toolbar: pause game
+   59 sprites/pcx/gui04.pcx 594 104 01 20 20 0 0             // main toolbar: build rail
+   60 sprites/pcx/gui04.pcx 626 104 01 20 20 0 0             // main toolbar: build road
+   61 sprites/pcx/gui04.pcx 658 104 01 20 20 0 0             // main toolbar: build waterways
+   62 sprites/pcx/gui04.pcx 690 104 01 20 20 0 0             // main toolbar: build airports
+   63 sprites/pcx/gui04.pcx 722 104 09 20 20 0 0             // main toolbar: manage trains
+   64 sprites/pcx/gui04.pcx 754 104 09 20 20 0 0             // main toolbar: manage RVs
+   65 sprites/pcx/gui04.pcx   2 152 09 20 20 0 0             // main toolbar: manage ships
+   66 sprites/pcx/gui04.pcx  34 152 09 20 20 0 0             // main toolbar: mangage aircrafts
+   67 sprites/pcx/gui04.pcx  66 152 09 20 20 0 0             // main toolbar: zoom in
+   68 sprites/pcx/gui04.pcx  98 152 09 20 20 0 0             // main toolbar: zoom out
+   69 sprites/pcx/gui04.pcx 130 152 09 20 20 0 0             // main toolbar: financial report
+   70 sprites/pcx/gui04.pcx 162 152 09 20 20 0 0             // minimap: show contour map
+   71 sprites/pcx/gui04.pcx 194 152 09 20 20 0 0             // minimap: show vehicles on map
+   72 sprites/pcx/gui04.pcx 226 152 09 20 20 0 0             // minimap: show transport routes on map
+   73 sprites/pcx/gui04.pcx 258 152 09 20 20 0 0             // main toolbar / minimap: industry
+   74 sprites/pcx/gui04.pcx 290 152 09 20 20 0 0             // main toolbar / minimap: landscaping
+   75 sprites/pcx/gui04.pcx 322 152 09 20 20 0 0             // main toolbar / minimap: companies
+   76 sprites/pcx/gui04.pcx 354 152 09 20 40 0 0             // airport toolbar: build airport
+   77 sprites/pcx/gui04.pcx 402 152 09 20 20 0 0             // main toolbar: minimap
+   78 sprites/pcx/gui04.pcx 434 152 09 20 20 0 0             // waterways toolbar: build dock
+   79 sprites/pcx/gui04.pcx 466 152 01  8 14 0 0             // oval button in CC
+   80 sprites/pcx/gui04.pcx 498 152 09 20 20 0 0             // waterways toolbar: build depot
+   81 sprites/pcx/gui04.pcx 530 152 09 20 20 0 0             // road toolbar: build bus stop
+   82 sprites/pcx/gui04.pcx 562 152 09 20 20 0 0             // road tooblar: build truck stop
+   83 sprites/pcx/gui04.pcx 594 152 09 20 20 0 0             // main toolbar: options dialogue
 
-//752-770 selectors
-  198 sprites/pcx/gui04.pcx 674 376 09 31 64 -31 7
-  199 sprites/pcx/gui04.pcx 2 440 09 31 64 -31 7
-  200 sprites/pcx/gui04.pcx 82 440 09 23 64 -31 7
-  201 sprites/pcx/gui04.pcx 162 440 09 23 64 -31 7
-  202 sprites/pcx/gui04.pcx 242 440 09 31 64 -31 7
-  203 sprites/pcx/gui04.pcx 322 440 09 31 64 -31 7
-  204 sprites/pcx/gui04.pcx 402 440 09 23 64 -31 7
-  205 sprites/pcx/gui04.pcx 482 440 09 23 64 -31 7
+//752-770 tile selectors / highlights
+  198 sprites/pcx/gui04.pcx 674 376 09 31 64 -31  7
+  199 sprites/pcx/gui04.pcx   2 440 09 31 64 -31  7
+  200 sprites/pcx/gui04.pcx  82 440 09 23 64 -31  7
+  201 sprites/pcx/gui04.pcx 162 440 09 23 64 -31  7
+  202 sprites/pcx/gui04.pcx 242 440 09 31 64 -31  7
+  203 sprites/pcx/gui04.pcx 322 440 09 31 64 -31  7
+  204 sprites/pcx/gui04.pcx 402 440 09 23 64 -31  7
+  205 sprites/pcx/gui04.pcx 482 440 09 23 64 -31  7
   206 sprites/pcx/gui04.pcx 562 440 09 39 64 -31 -1
   207 sprites/pcx/gui04.pcx 642 440 09 39 64 -31 -1
   208 sprites/pcx/gui04.pcx 722 440 09 31 64 -31 -1
-  209 sprites/pcx/gui04.pcx 2 504 09 31 64 -31 -1
-  210 sprites/pcx/gui04.pcx 82 504 09 39 64 -31 -1
+  209 sprites/pcx/gui04.pcx   2 504 09 31 64 -31 -1
+  210 sprites/pcx/gui04.pcx  82 504 09 39 64 -31 -1
   211 sprites/pcx/gui04.pcx 162 504 09 39 64 -31 -1
   212 sprites/pcx/gui04.pcx 242 504 09 31 64 -31 -1
   213 sprites/pcx/gui04.pcx 322 504 09 47 64 -31 -9
-  214 sprites/pcx/gui04.pcx 402 504 09 15 64 -31 7
+  214 sprites/pcx/gui04.pcx 402 504 09 15 64 -31  7
   215 sprites/pcx/gui04.pcx 482 504 09 31 64 -31 -1
   216 sprites/pcx/gui04.pcx 562 504 09 31 64 -31 -1

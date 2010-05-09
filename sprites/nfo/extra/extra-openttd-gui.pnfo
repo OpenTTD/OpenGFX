@@ -4,160 +4,167 @@
 //@@WARNING DISABLE 60
 
  1562 * 3        05 15 \b154
-  220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31 7
-  221 sprites/pcx/gui04.pcx 2 568 09 31 64 -31 7
-  222 sprites/pcx/gui04.pcx 82 568 09 31 64 -31 7
-  223 sprites/pcx/gui04.pcx 162 568 09 31 64 -31 7
-  224 sprites/pcx/gui04.pcx 242 568 09 31 64 -31 -1
-  225 sprites/pcx/gui04.pcx 322 568 09 39 64 -31 -1
-  226 sprites/pcx/gui04.pcx 402 568 09 31 64 -31 -1
-  227 sprites/pcx/gui04.pcx 482 568 09 23 64 -31 7
-  228 sprites/pcx/gui04.pcx 562 568 09 31 64 -31 7
-  229 sprites/pcx/gui04.pcx 642 568 09 23 64 -31 7
-  230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31 7
-  231 sprites/pcx/gui04.pcx 2 632 09 39 64 -31 -1
-   13 sprites/pcx/introletters.pcx 224 0 01 29 22 0 0
-   14 sprites/pcx/introletters.pcx 247 0 01 29 22 0 0
+                                                                                   // tile border hightlights
+  220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31   7
+  221 sprites/pcx/gui04.pcx   2 568 09 31 64 -31   7
+  222 sprites/pcx/gui04.pcx  82 568 09 31 64 -31   7
+  223 sprites/pcx/gui04.pcx 162 568 09 31 64 -31   7
+  224 sprites/pcx/gui04.pcx 242 568 09 31 64 -31  -1
+  225 sprites/pcx/gui04.pcx 322 568 09 39 64 -31  -1
+  226 sprites/pcx/gui04.pcx 402 568 09 31 64 -31  -1
+  227 sprites/pcx/gui04.pcx 482 568 09 23 64 -31   7
+  228 sprites/pcx/gui04.pcx 562 568 09 31 64 -31   7
+  229 sprites/pcx/gui04.pcx 642 568 09 23 64 -31   7
+  230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31   7
+  231 sprites/pcx/gui04.pcx   2 632 09 39 64 -31  -1
+                                                                                  // Title screen letters E and D
+   13 sprites/pcx/introletters.pcx 224   0   01 29 22   0   0
+   14 sprites/pcx/introletters.pcx 247   0   01 29 22   0   0
+                                                                                  // bridge piers colour 1 (~copper)
   234 sprites/pcx/gui04.pcx 146 632 01 8 4 28 16
   235 sprites/pcx/gui04.pcx 162 632 01 9 4 0 1
   236 sprites/pcx/gui04.pcx 178 632 09 23 32 0 1
   237 sprites/pcx/gui04.pcx 226 632 01 8 4 -31 15
   238 sprites/pcx/gui04.pcx 242 632 01 9 4 -3 0
   239 sprites/pcx/gui04.pcx 258 632 09 23 32 -31 0
+                                                                                  // bridge piers colour 2 (~copper)
   240 sprites/pcx/gui04.pcx 306 632 01 8 4 28 16
   241 sprites/pcx/gui04.pcx 322 632 01 9 4 0 1
   242 sprites/pcx/gui04.pcx 338 632 09 23 32 0 1
   243 sprites/pcx/gui04.pcx 386 632 01 8 4 -31 15
   244 sprites/pcx/gui04.pcx 402 632 01 9 4 -3 0
   245 sprites/pcx/gui04.pcx 418 632 09 23 32 -31 0
+                                                                                  // bridge piers colour 3 (~copper)
   246 sprites/pcx/gui04.pcx 466 632 01 8 4 28 16
   247 sprites/pcx/gui04.pcx 482 632 01 9 4 0 1
   248 sprites/pcx/gui04.pcx 498 632 09 23 32 0 1
   249 sprites/pcx/gui04.pcx 546 632 01 8 4 -31 15
   250 sprites/pcx/gui04.pcx 562 632 01 9 4 -3 0
   251 sprites/pcx/gui04.pcx 578 632 09 23 32 -31 0
+                                                                                  // bridge piers colour 4 (silver)
   252 sprites/pcx/gui04.pcx 626 632 01 8 4 28 16
   253 sprites/pcx/gui04.pcx 642 632 01 9 4 0 1
   254 sprites/pcx/gui04.pcx 658 632 09 23 32 0 1
   255 sprites/pcx/gui04.pcx 706 632 01 8 4 -31 15
   256 sprites/pcx/gui04.pcx 722 632 01 9 4 -3 0
   257 sprites/pcx/gui04.pcx 738 632 09 23 32 -31 0
-  258 sprites/pcx/gui04.pcx 786 632 09 10 10 0 0
-  259 sprites/pcx/gui04.pcx 2 696 01 8 8 0 0
-  260 sprites/pcx/gui04.pcx 18 696 09 9 7 0 0
-  261 sprites/pcx/gui04.pcx 34 696 01 7 9 0 0
-  262 sprites/pcx/gui04.pcx 50 696 01 7 9 0 0
-  263 sprites/pcx/gui04.pcx 66 696 01 10 10 0 0
-  264 sprites/pcx/gui04.pcx 82 696 09 7 7 0 0
-  265 sprites/pcx/gui04.pcx 98 696 09 4 7 1 2
-  266 sprites/pcx/gui04.pcx 114 696 09 4 7 1 2
-  267 sprites/pcx/gui04.pcx 130 696 09 7 4 1 1
-  268 sprites/pcx/gui04.pcx 146 696 09 7 4 2 1
-  269 sprites/pcx/gui04.pcx 162 696 01 8 8 1 1
-  270 sprites/pcx/gui04.pcx 178 696 01 9 9 1 0
-  271 sprites/pcx/gui04.pcx 194 696 01 8 7 0 0
-  272 sprites/pcx/gui04.pcx 210 696 01 8 8 0 0
-  273 sprites/pcx/gui04.pcx 226 696 09 20 20 0 0
-  274 sprites/pcx/gui04.pcx 258 696 03 32 32 0 0
-  275 sprites/pcx/gui04.pcx 306 696 01 20 20 0 0
-  276 sprites/pcx/gui04.pcx 338 696 01 32 32 0 0
-  277 sprites/pcx/gui04.pcx 386 696 09 20 20 0 0
-  278 sprites/pcx/gui04.pcx 418 696 03 32 32 0 0
-  279 sprites/pcx/gui04.pcx 466 696 01 20 20 0 0
-  280 sprites/pcx/gui04.pcx 498 696 01 32 32 0 0
-  281 sprites/pcx/gui04.pcx 546 696 01 20 20 0 0
-  282 sprites/pcx/gui04.pcx 578 696 01 32 32 0 0
-  283 sprites/pcx/gui04.pcx 626 696 01 20 20 0 0
-  284 sprites/pcx/gui04.pcx 658 696 03 32 32 0 0
-  285 sprites/pcx/gui04.pcx 706 696 01 20 20 0 0
-  286 sprites/pcx/gui04.pcx 738 696 01 32 32 0 0
-  287 sprites/pcx/gui04.pcx 2 744 01 20 20 0 0
-  288 sprites/pcx/gui04.pcx 34 744 01 32 32 0 0
-  289 sprites/pcx/gui04.pcx 82 744 09 20 20 0 0
-  290 sprites/pcx/gui04.pcx 114 744 03 32 32 0 0
-  291 sprites/pcx/gui04.pcx 162 744 01 20 20 0 0
-  292 sprites/pcx/gui04.pcx 194 744 01 32 32 0 0
-  293 sprites/pcx/gui04.pcx 242 744 01 20 20 0 0
-  294 sprites/pcx/gui04.pcx 274 744 01 32 32 0 0
-  295 sprites/pcx/gui04.pcx 322 744 09 20 20 0 0
-  296 sprites/pcx/gui04.pcx 354 744 09 20 20 0 0
-  297 sprites/pcx/gui04.pcx 386 744 03 32 32 0 0
-  298 sprites/pcx/gui04.pcx 434 744 09 40 62 -31 -9
-  299 sprites/pcx/gui04.pcx 514 744 09 40 62 -52 -20
-  300 sprites/pcx/gui04.pcx 594 744 09 40 62 -31 -9
-  301 sprites/pcx/gui04.pcx 674 744 09 40 62 -10 -20
-  302 sprites/pcx/gui04.pcx 754 744 09 20 20 0 0
-  303 sprites/pcx/gui04.pcx 2 808 03 32 32 0 0
-  304 sprites/pcx/gui04.pcx 50 808 09 20 20 0 0
-  305 sprites/pcx/gui04.pcx 82 808 03 32 32 0 0
-  306 sprites/pcx/gui04.pcx 130 808 01 18 39 -9 -9
-  307 sprites/pcx/gui04.pcx 178 808 01 32 32 0 0
-  308 sprites/pcx/gui04.pcx 226 808 01 20 20 0 0
-  309 sprites/pcx/gui04.pcx 258 808 01 32 32 0 0
-  310 sprites/pcx/gui04.pcx 306 808 09 20 20 0 0
-  311 sprites/pcx/gui04.pcx 338 808 01 20 20 0 0
-  312 sprites/pcx/gui04.pcx 370 808 01 32 32 0 0
-  313 sprites/pcx/gui04.pcx 418 808 01 20 20 0 0
-  314 sprites/pcx/gui04.pcx 450 808 01 20 20 0 0
-  315 sprites/pcx/gui04.pcx 482 808 01 20 20 0 0
-  316 sprites/pcx/gui04.pcx 514 808 01 20 20 0 0
-  317 sprites/pcx/gui04.pcx 546 808 01 20 20 0 0
-  318 sprites/pcx/gui04.pcx 578 808 01 20 20 0 0
-  319 sprites/pcx/gui04.pcx 610 808 01 20 20 0 0
-  320 sprites/pcx/gui04.pcx 642 808 01 20 20 0 0
-  321 sprites/pcx/gui04.pcx 674 808 01 20 20 0 0
-  322 sprites/pcx/gui04.pcx 706 808 01 20 20 0 0
-  323 sprites/pcx/gui04.pcx 738 808 01 20 20 0 0
-  324 sprites/pcx/gui04.pcx 770 808 01 20 20 0 0
-  325 sprites/pcx/gui04.pcx 2 856 01 20 20 0 0
-  326 sprites/pcx/gui04.pcx 34 856 09 16 16 0 0
-  327 sprites/pcx/gui04.pcx 66 856 01 16 16 0 0
-  328 sprites/pcx/gui04.pcx 98 856 01 16 16 0 0
-  329 sprites/pcx/gui04.pcx 130 856 01 16 16 0 0
-  330 sprites/pcx/gui04.pcx 162 856 09 32 32 0 0
-  331 sprites/pcx/gui04.pcx 210 856 01 32 32 0 0
-  332 sprites/pcx/gui04.pcx 258 856 01 32 32 0 0
-  333 sprites/pcx/gui04.pcx 306 856 01 32 32 0 0
-  334 sprites/pcx/gui04.pcx 354 856 09 20 20 0 0
-  335 sprites/pcx/gui04.pcx 386 856 09 20 20 0 0
-  336 sprites/pcx/gui04.pcx 418 856 09 20 20 0 0
-  337 sprites/pcx/gui04.pcx 450 856 09 20 20 0 0
-  338 sprites/pcx/gui04.pcx 482 856 09 20 20 0 0
-  339 sprites/pcx/gui04.pcx 514 856 09 20 20 0 0
-  340 sprites/pcx/gui04.pcx 546 856 09 20 20 0 0
-  341 sprites/pcx/gui04.pcx 578 856 09 20 20 0 0
-  342 sprites/pcx/gui04.pcx 610 856 09 20 20 0 0
-  343 sprites/pcx/gui04.pcx 642 856 09 20 20 0 0
-  344 sprites/pcx/gui04.pcx 674 856 09 20 20 0 0
-  345 sprites/pcx/gui04.pcx 706 856 09 20 20 0 0
-  346 sprites/pcx/gui04.pcx 738 856 09 20 20 0 0
-  347 sprites/pcx/gui04.pcx 770 856 09 20 20 0 0
-  348 sprites/pcx/gui04.pcx 2 904 09 20 20 0 0
-  349 sprites/pcx/gui04.pcx 34 904 09 20 20 0 0
-  350 sprites/pcx/gui04.pcx 66 904 09 20 20 0 0
-  351 sprites/pcx/gui04.pcx 98 904 09 20 20 0 0
-  352 sprites/pcx/gui04.pcx 130 904 09 20 20 0 0
-  353 sprites/pcx/gui04.pcx 162 904 09 20 20 0 0
-  354 sprites/pcx/gui04.pcx 194 904 01 20 20 0 0
-  355 sprites/pcx/gui04.pcx 226 904 01 20 20 0 0
-  356 sprites/pcx/gui04.pcx 258 904 01 20 20 0 0
-  357 sprites/pcx/gui04.pcx 290 904 01 32 32 0 0
-  358 sprites/pcx/gui04.pcx 338 904 01 7 7 3 4
-  359 sprites/pcx/gui04.pcx 354 904 01 7 7 3 4
-  360 sprites/pcx/gui04.pcx 370 904 01 9 10 2 3
-  361 sprites/pcx/gui04.pcx 386 904 01 9 10 2 3
-  362 sprites/pcx/gui04.pcx 402 904 01 7 11 2 1
-  363 sprites/pcx/gui04.pcx 418 904 01 9 9 3 3
-  364 sprites/pcx/gui04.pcx 434 904 09 20 20 0 0
-  365 sprites/pcx/gui04.pcx 466 904 09 20 20 0 0
-  366 sprites/pcx/gui04.pcx 498 904 09 32 32 0 0
-   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx 0 0 09 10 10 0 0
-   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx 16 0 09 10 10 0 0
- 1712 sprites/pcx/gui04.pcx 82 705 09 7 7 0 0
-   44 sprites/pcx/gui04.pcx 2 125 09 20 20 0 0
-   -1 sprites/pcx/gui04.pcx 242 352 09 8 7 0 0
-   -1 sprites/pcx/gui04.pcx 256 352 09 8 7 0 0
-   -1 sprites/pcx/extra/extra-gui-bug.pcx 0 0 09 8 7 0 0
+  
+  258 sprites/pcx/gui04.pcx 786 632 09 10 10   0   0                              // newgrf settings: square status icon
+  259 sprites/pcx/gui04.pcx   2 696 01  8  8   0   0                              // server join menu: circular status icon
+  260 sprites/pcx/gui04.pcx  18 696 09  9  7   0   0                              // server join menu: password protected
+  261 sprites/pcx/gui04.pcx  34 696 01  7  9   0   0                              // content download menu: empty check box
+  262 sprites/pcx/gui04.pcx  50 696 01  7  9   0   0                              // content download menu: checked check box
+  263 sprites/pcx/gui04.pcx  66 696 01 10 10   0   0                              // newgrf settings: warning icon
+  264 sprites/pcx/gui04.pcx  82 696 09  7  7   0   0                              // window decoration: resize (ltr languages)
+  265 sprites/pcx/gui04.pcx  98 696 09  4  7   1   2                              // window decoration: arrow up
+  266 sprites/pcx/gui04.pcx 114 696 09  4  7   1   2                              // window decoration: arrow down
+  267 sprites/pcx/gui04.pcx 130 696 09  7  4   1   1                              // window decoration: arrow left
+  268 sprites/pcx/gui04.pcx 146 696 09  7  4   2   1                              // window decoration: arrow right
+  269 sprites/pcx/gui04.pcx 162 696 01  8  8   1   1                              // window decoration: go to default directory
+  270 sprites/pcx/gui04.pcx 178 696 01  9  9   1   0                              // window decoration: (?) list (?)
+  271 sprites/pcx/gui04.pcx 194 696 01  8  7   0   0                              // window decoration: sticky window
+  272 sprites/pcx/gui04.pcx 210 696 01  8  8   0   0                              // window decoration: make window sticky
+  273 sprites/pcx/gui04.pcx 226 696 09 20 20   0   0                              // rail toolbar: autorail normal rail
+  274 sprites/pcx/gui04.pcx 258 696 03 32 32   0   0                              // cursor rail: autorail normal rail
+  275 sprites/pcx/gui04.pcx 306 696 01 20 20   0   0                              // rail toolbar: convert to normal rail
+  276 sprites/pcx/gui04.pcx 338 696 01 32 32   0   0                              // cursor rail: convert to normal rail
+  277 sprites/pcx/gui04.pcx 386 696 09 20 20   0   0                              // rail toolbar: autorail e-rail
+  278 sprites/pcx/gui04.pcx 418 696 03 32 32   0   0                              // cursor rail: autorail e-rail
+  279 sprites/pcx/gui04.pcx 466 696 01 20 20   0   0                              // rail toolbar: convert to e-rail
+  280 sprites/pcx/gui04.pcx 498 696 01 32 32   0   0                              // cursor rail: convert to e-rail
+  281 sprites/pcx/gui04.pcx 546 696 01 20 20   0   0                              // rail toolbar: depot
+  282 sprites/pcx/gui04.pcx 578 696 01 32 32   0   0                              // cursor rail: place depot
+  283 sprites/pcx/gui04.pcx 626 696 01 20 20   0   0                              // rail toolbar: autorail monorail
+  284 sprites/pcx/gui04.pcx 658 696 03 32 32   0   0                              // cursor rail: autorail monorail
+  285 sprites/pcx/gui04.pcx 706 696 01 20 20   0   0                              // rail toolbar: convert to monorail
+  286 sprites/pcx/gui04.pcx 738 696 01 32 32   0   0                              // cursor rail: convert to monorail
+  287 sprites/pcx/gui04.pcx   2 744 01 20 20   0   0                              // rail toolbar: depot monorail
+  288 sprites/pcx/gui04.pcx  34 744 01 32 32   0   0                              // cursor rail: place monorail depot
+  289 sprites/pcx/gui04.pcx  82 744 09 20 20   0   0                              // rail toolbar: autorail maglev
+  290 sprites/pcx/gui04.pcx 114 744 03 32 32   0   0                              // cursor rail: autorail maglev
+  291 sprites/pcx/gui04.pcx 162 744 01 20 20   0   0                              // rail toolbar: convert to maglev
+  292 sprites/pcx/gui04.pcx 194 744 01 32 32   0   0                              // cursor rail: convert to maglev
+  293 sprites/pcx/gui04.pcx 242 744 01 20 20   0   0                              // rail toolbar: depot maglev
+  294 sprites/pcx/gui04.pcx 274 744 01 32 32   0   0                              // cursor rail: place maglev depot
+  295 sprites/pcx/gui04.pcx 322 744 09 20 20   0   0                              // (?)
+  296 sprites/pcx/gui04.pcx 354 744 09 20 20   0   0                              // rail toolbar: waypoint
+  297 sprites/pcx/gui04.pcx 386 744 03 32 32   0   0                              // cursor rail: place waypoint
+  298 sprites/pcx/gui04.pcx 434 744 09 40 62 -31  -9                              // default waypoint building part 1 SW-NE view
+  299 sprites/pcx/gui04.pcx 514 744 09 40 62 -52 -20                              // default waypoint building part 2 SW-NE view 
+  300 sprites/pcx/gui04.pcx 594 744 09 40 62 -31  -9                              // default waypoint building part 1 NW-SE view
+  301 sprites/pcx/gui04.pcx 674 744 09 40 62 -10 -20                              // default waypoint building part 2 NW-SE view
+  302 sprites/pcx/gui04.pcx 754 744 09 20 20   0   0                              // road toolbar: autoroad
+  303 sprites/pcx/gui04.pcx   2 808 03 32 32   0   0                              // cursor road: autoroad
+  304 sprites/pcx/gui04.pcx  50 808 09 20 20   0   0                              // road toolbar: autoroad tram
+  305 sprites/pcx/gui04.pcx  82 808 03 32 32   0   0                              // cursor road: autoroad tram
+  306 sprites/pcx/gui04.pcx 130 808 01 18 39  -9  -9                              // helipad
+  307 sprites/pcx/gui04.pcx 178 808 01 32 32   0   0                              // cursor waterways: place ship lift
+  308 sprites/pcx/gui04.pcx 226 808 01 20 20   0   0                              // waterways toolbar: build canal
+  309 sprites/pcx/gui04.pcx 258 808 01 32 32   0   0                              // cursor waterways: place canal
+  310 sprites/pcx/gui04.pcx 306 808 09 20 20   0   0                              // main toolbar: fast forward
+  311 sprites/pcx/gui04.pcx 338 808 01 20 20   0   0                              // landscaping toolbar: level land
+  312 sprites/pcx/gui04.pcx 370 808 01 32 32   0   0                              // cursor landscaping: level land
+  313 sprites/pcx/gui04.pcx 418 808 01 20 20   0   0                              // depot view: sell single train
+  314 sprites/pcx/gui04.pcx 450 808 01 20 20   0   0                              // depot view: sell single road vehicle
+  315 sprites/pcx/gui04.pcx 482 808 01 20 20   0   0                              // depot view: sell single ship
+  316 sprites/pcx/gui04.pcx 514 808 01 20 20   0   0                              // depot view: sell single plane
+  317 sprites/pcx/gui04.pcx 546 808 01 20 20   0   0                              // depot view: sell all trains
+  318 sprites/pcx/gui04.pcx 578 808 01 20 20   0   0                              // depot view: sell all road vehicles
+  319 sprites/pcx/gui04.pcx 610 808 01 20 20   0   0                              // depot view: sell all ships
+  320 sprites/pcx/gui04.pcx 642 808 01 20 20   0   0                              // depot view: sell all aircrafts
+  321 sprites/pcx/gui04.pcx 674 808 01 20 20   0   0                              // depot view: autoreplace all trains in depot
+  322 sprites/pcx/gui04.pcx 706 808 01 20 20   0   0                              // depot view: autoreplace all road vehicles in depot
+  323 sprites/pcx/gui04.pcx 738 808 01 20 20   0   0                              // depot view: autoreplace all ships in depot
+  324 sprites/pcx/gui04.pcx 770 808 01 20 20   0   0                              // depot view: autoreplace all aircrafts in hangar
+  325 sprites/pcx/gui04.pcx   2 856 01 20 20   0   0                              // depot view: sell whole train
+  326 sprites/pcx/gui04.pcx  34 856 09 16 16   0   0                              // vehicle view: clone train
+  327 sprites/pcx/gui04.pcx  66 856 01 16 16   0   0                              // vehicle view: clone road vehicle
+  328 sprites/pcx/gui04.pcx  98 856 01 16 16   0   0                              // vehicle view: clone ship
+  329 sprites/pcx/gui04.pcx 130 856 01 16 16   0   0                              // vehicle view: clone aircraft
+  330 sprites/pcx/gui04.pcx 162 856 09 32 32   0   0                              // cursor clone vehicle: select train to clone
+  331 sprites/pcx/gui04.pcx 210 856 01 32 32   0   0                              // cursor clone vehicle: select road vehicle to clone
+  332 sprites/pcx/gui04.pcx 258 856 01 32 32   0   0                              // cursor clone vehicle: select ship to clone
+  333 sprites/pcx/gui04.pcx 306 856 01 32 32   0   0                              // cursor clone vehicle: select aircraft to clone
+  334 sprites/pcx/gui04.pcx 354 856 09 20 20   0   0                              // vehicle groups: create new train group
+  335 sprites/pcx/gui04.pcx 386 856 09 20 20   0   0                              // vehicle groups: create new road vehicles group
+  336 sprites/pcx/gui04.pcx 418 856 09 20 20   0   0                              // vehicle groups: create new ships group
+  337 sprites/pcx/gui04.pcx 450 856 09 20 20   0   0                              // vehicle groups: create new aircrafts group
+  338 sprites/pcx/gui04.pcx 482 856 09 20 20   0   0                              // vehicle groups: delete train group
+  339 sprites/pcx/gui04.pcx 514 856 09 20 20   0   0                              // vehicle groups: delete road vehicles group
+  340 sprites/pcx/gui04.pcx 546 856 09 20 20   0   0                              // vehicle groups: delete ships group
+  341 sprites/pcx/gui04.pcx 578 856 09 20 20   0   0                              // vehicle groups: delete aircrafts group
+  342 sprites/pcx/gui04.pcx 610 856 09 20 20   0   0                              // vehicle groups: rename train group
+  343 sprites/pcx/gui04.pcx 642 856 09 20 20   0   0                              // vehicle groups: rename road vehicles group
+  344 sprites/pcx/gui04.pcx 674 856 09 20 20   0   0                              // vehicle groups: rename ship group
+  345 sprites/pcx/gui04.pcx 706 856 09 20 20   0   0                              // vehicle groups: rename aircrafts group
+  346 sprites/pcx/gui04.pcx 738 856 09 20 20   0   0                              // vehicle groups: don't autoreplace this group of trains
+  347 sprites/pcx/gui04.pcx 770 856 09 20 20   0   0                              // vehicle groups: don't autoreplace this group of road vehicles
+  348 sprites/pcx/gui04.pcx   2 904 09 20 20   0   0                              // vehicle groups: don't autoreplace this group of ships
+  349 sprites/pcx/gui04.pcx  34 904 09 20 20   0   0                              // vehicle groups: don't autoreplace this group of aircrafts
+  350 sprites/pcx/gui04.pcx  66 904 09 20 20   0   0                              // vehicle groups: select no autoreplace for this group of trains
+  351 sprites/pcx/gui04.pcx  98 904 09 20 20   0   0                              // vehicle groups: select no autoreplace for this group of road vehicles
+  352 sprites/pcx/gui04.pcx 130 904 09 20 20   0   0                              // vehicle groups: select no autoreplace for this group of ships
+  353 sprites/pcx/gui04.pcx 162 904 09 20 20   0   0                              // vehicle groups: select no autoreplace for this group of aircrafts
+  354 sprites/pcx/gui04.pcx 194 904 01 20 20   0   0                              // road toolbar: build one-way roads
+  355 sprites/pcx/gui04.pcx 226 904 01 20 20   0   0                              // signal toolbar: convert signals
+  356 sprites/pcx/gui04.pcx 258 904 01 20 20   0   0                              // waterways toolbar: build rivers
+  357 sprites/pcx/gui04.pcx 290 904 01 32 32   0   0                              // cursor waterways: build rivers
+  358 sprites/pcx/gui04.pcx 338 904 01  7  7   3   4                              // (?) arrow left
+  359 sprites/pcx/gui04.pcx 354 904 01  7  7   3   4                              // (?) arrow right
+  360 sprites/pcx/gui04.pcx 370 904 01  9 10   2   3                              // (?) arrow down
+  361 sprites/pcx/gui04.pcx 386 904 01  9 10   2   3                              // (?) arrow up
+  362 sprites/pcx/gui04.pcx 402 904 01  7 11   2   1                              // (?) arrow left
+  363 sprites/pcx/gui04.pcx 418 904 01  9  9   3   3                              // (?) command symbol
+  364 sprites/pcx/gui04.pcx 434 904 09 20 20   0   0                              // main toolbar: switch toolbars
+  365 sprites/pcx/gui04.pcx 466 904 09 20 20   0   0                              // waterways toolbar: build aquaduct
+  366 sprites/pcx/gui04.pcx 498 904 09 32 32   0   0                              // cursor waterways: build aquaduct
+   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx  0   0 09 10 10   0   0          // (?)
+   -1 sprites/pcx/extra/extra-gui-plus-minus.pcx 16   0 09 10 10   0   0          // (?)
+ 1712 sprites/pcx/gui04.pcx  82 705 09  7  7   0   0                              // window decorations: resize window (rtl languages)
+   44 sprites/pcx/gui04.pcx   2 125 09 20 20   0   0                              // juke box: play (rtl languages)
+   -1 sprites/pcx/gui04.pcx 242 352 09  8  7   0   0                              // (?) to bottom
+   -1 sprites/pcx/gui04.pcx 256 352 09  8  7   0   0                              // (?) to top
+   -1 sprites/pcx/extra/extra-gui-bug.pcx   0   0 09  8  7   0   0                // window decorations: debugging icon
    
 //re-enable warning again after nforenum erronously warns about the sprite count for GUI sprites
 //@@WARNING ENABLE 60
