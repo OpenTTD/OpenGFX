@@ -34,7 +34,7 @@ MAKE           ?= make
 UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
 MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
-NML            ?= nml.py
+NML            ?= nml2nfo
 
 SCRIPT_DIR     ?= scripts
 SRC_DIR        ?= sprites

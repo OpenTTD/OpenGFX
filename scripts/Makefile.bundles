@@ -18,7 +18,7 @@ $(ZIP_FILENAME): $(DIR_NAME) $(TAR_FILENAME)
 	$(_E) "[Generating] $@"
 	$(_V) cp $(TAR_FILENAME) $<
 	$(_V) if [ -e $</$(MAIN_TARGET) ]; then rm $</$(MAIN_TARGET); fi # delete files which shall not be directly in the zip
-	$(_V) if [ -n "`ls $< | grep ".grf"`" ]; then rm $</*.grf; fi
+	$(_V) if [ -n "`ls $< | grep ".grf"`" ]; then rm $</*.grf; fi  # delete files which shall not be directly in the zip
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $<
 	$(_V) -rm -rf $< # delete the dirname as it's modified and needs re-building, if used again.
 bundle_bzip: $(BZIP_FILENAME)

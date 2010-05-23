@@ -63,21 +63,21 @@ endif
 endif
 
 # The real targets which build the grf
+ifeq ($(PROJECT_TYPE),NML)
+%.grf: %.nml $(REV_FILENAME)
+	$(_E) "[Generating] $@ with dep $^"
+	$(_V) $(NML) $(NML_FLAGS) --grf $@ $<
+else
 %.grf: %.nfo
 # pipe all nfo files through grfcodec and produce the grf(s)
 	$(_E) "[Generating] $@"
 	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
-
+endif
 # .INTERMEDIATE: %.nfo
 # .PRECIOUS: %.nfo
 .SECONDARY: %.nfo
 
 # Dependencies have to be added by a separate make dep step
-ifeq ($(PROJECT_TYPE),NML)
-%.nfo: %.nml $(REV_FILENAME)
-	$(_E) "[Generating] $@ with dep $^"
-	$(_V) $(NML) $(NML_FLAGS) $<
-else
 %.nfo: %.pnfo $(REV_FILENAME)
 # replace the place holders for version and name by the respective variables:
 	$(_E) "[Generating] $@ with dep $^"
@@ -85,7 +85,6 @@ else
 		sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
 		| grep -v -E '^#' > $(SRC_DIR)/$@
-endif
 	$(_E) "[NFORENUM] $@"
 	$(_V)-$(NFORENUM) ${NFORENUM_FLAGS} $@
 
@@ -111,7 +110,6 @@ depend: $(MAKEFILE_DEP)
 $(MAKEFILE_DEP): $(REV_FILENAME)
 	$(_E) "[Generating] $(MAKEFILE_DEP)"
 	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
-	$(_V) echo "Makefile.dep: $(MAIN_FILENAME_SRC)" >> $(MAKEFILE_DEP)
 	$(_V) for i in `ls Makefile* scripts/* | grep -v Makefile.dep`; do echo "Makefile.dep: $$i"; done >> $(MAKEFILE_DEP)
 
 addcheck:
