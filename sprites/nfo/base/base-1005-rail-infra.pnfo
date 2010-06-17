@@ -334,11 +334,11 @@
   119 sprites/pcx/gui04.pcx 386 232 03 32 32 0 0
 
 //1301-1308 rail fences
-  994 sprites/pcx/infra06.pcx 194 5416 09 22 33 -31 -6
-  995 sprites/pcx/infra06.pcx 242 5416 09 22 33 0 -6
-  996 sprites/pcx/infra06.pcx 290 5416 01 38 2 0 -22
-  997 sprites/pcx/infra06.pcx 306 5416 01 6 65 -31 -6
-  998 sprites/pcx/infra06.pcx 386 5416 09 14 33 -31 -6
-  999 sprites/pcx/infra06.pcx 434 5416 09 14 33 0 -6
- 1000 sprites/pcx/infra06.pcx 482 5416 09 30 33 -31 -14
- 1001 sprites/pcx/infra06.pcx 530 5416 09 30 33 0 -14
+ 1301 sprites/pcx/infra06.pcx 194 5416 09 22 33 -31  -7
+ 1302 sprites/pcx/infra06.pcx 242 5416 09 22 33   1  -7
+ 1303 sprites/pcx/infra06.pcx 290 5416 01 38 2    1 -22
+ 1304 sprites/pcx/infra06.pcx 306 5416 01  6 65 -31  -7
+ 1305 sprites/pcx/infra06.pcx 386 5416 09 14 33 -31  -7
+ 1306 sprites/pcx/infra06.pcx 434 5416 09 14 33   1  -7
+ 1307 sprites/pcx/infra06.pcx 482 5416 09 30 33 -31 -14
+ 1308 sprites/pcx/infra06.pcx 530 5416 09 30 33   1 -14
