@@ -53,8 +53,8 @@
    53 sprites/pcx/gui04.pcx 370 104 03 32 32 0 0             // cursor construction toolbar: build depot cursor
    54 sprites/pcx/gui04.pcx 418 104 03 32 32 0 0             // cursor landscaping toolbar: place sign cursor
    55 sprites/pcx/gui04.pcx 466 104 01 20 20 0 0             // main toolbar: info icon
-   56 sprites/pcx/gui04.pcx 498 104 01 20 20 0 0             // main toolbar: file menu (?)
-   57 sprites/pcx/gui04.pcx 530 104 01 20 20 0 0             // main toolbar: file menu (?)
+   -1 sprites/pcx/gui/savemenu.pcx 0 0 01 20 20 0 0          // main toolbar: file menu
+   -1 sprites/pcx/gui/savemenu.pcx 21 0 01 20 20 0 0         // main toolbar: file menu
    58 sprites/pcx/gui04.pcx 562 104 01 20 20 0 0             // main toolbar: pause game
    59 sprites/pcx/gui04.pcx 594 104 01 20 20 0 0             // main toolbar: build rail
    60 sprites/pcx/gui04.pcx 626 104 01 20 20 0 0             // main toolbar: build road
@@ -74,7 +74,7 @@
    74 sprites/pcx/gui04.pcx 290 152 09 20 20 0 0             // main toolbar / minimap: landscaping
    75 sprites/pcx/gui04.pcx 322 152 09 20 20 0 0             // main toolbar / minimap: companies
    76 sprites/pcx/gui04.pcx 354 152 09 20 40 0 0             // airport toolbar: build airport
-   77 sprites/pcx/gui04.pcx 402 152 09 20 20 0 0             // main toolbar: minimap
+   -1 sprites/pcx/gui/graphs.pcx 0 0 09 20 20 0 0            // main toolbar: graphs
    78 sprites/pcx/gui04.pcx 434 152 09 20 20 0 0             // waterways toolbar: build dock
    79 sprites/pcx/gui04.pcx 466 152 01  8 14 0 0             // oval button in CC
    80 sprites/pcx/gui04.pcx 498 152 09 20 20 0 0             // waterways toolbar: build depot
