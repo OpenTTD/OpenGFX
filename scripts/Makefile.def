@@ -3,12 +3,15 @@ shell = /bin/sh
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
 
+PROJECT_TYPE   ?= NFO
+
 ################################################################
 # Programme definitions / search paths
 ################################################################
 # Build parameters and programmes
 NFORENUM_FLAGS ?=
 GRFCODEC_FLAGS ?= -e -p 2 -c
+CATCODEC_FLAGS ?= -e
 TAR_FLAGS      ?= -cf
 ZIP_FLAGS      ?= -r
 SRCZIP_FLAGS   ?=
@@ -23,6 +26,7 @@ CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf
 
 NFORENUM       ?= $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
 GRFCODEC       ?= grfcodec
+CATCODEC       ?= catcodec
 TAR            ?= tar
 ZIP            ?= zip
 SRCZIP         ?= gzip
@@ -40,6 +44,9 @@ SCRIPT_DIR     ?= scripts
 SRC_DIR        ?= sprites
 NFO_DIR        ?= $(SRC_DIR)/nfo
 DOC_DIR        ?= docs
+ifeq ($(PROJECT_TYPE),NML)
+LANG_DIR       ?= lang
+endif      
 
 # Add some OS detection and guess an install path (use the system's default)
 OSTYPE:=$(shell uname -s)
@@ -64,6 +71,17 @@ ifdef INSTALLDIR
 INSTALL_DIR = $(INSTALLDIR)
 endif
 
+# file extentions which indicate plain text source files, 
+# parsable by a text editor (SRC) and binary source files (INC)
+ifeq ($(PROJECT_TYPE),NFO)				# NFO style
+	FILE_SRC_EXTENSIONS ?= pnfo tnfo
+	FILE_INC_EXTENSIONS ?= wav pcx
+endif
+ifeq ($(PROJECT_TYPE),NML)				# NML style
+	FILE_SRC_EXTENSIONS ?= pnml nml tnml
+	FILE_INC_EXTENSIONS ?= wav pcx png
+endif
+
 ################################################################
 # Get the Repository revision, tags and the modified status
 # The displayed name within OpenTTD / TTDPatch
@@ -71,13 +89,15 @@ endif
 # a nightly build:                 GRF's Name nightly-r51
 # a release build (taged version): GRF's Name 0.1
 ################################################################
+DEFAULT_BRANCH_NAME ?= nightly
 REPO_REVISION ?= $(shell $(HG) id -n | cut -d+ -f1)
 REPO_MODIFIED ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+REPO_BRANCH   ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
 REPO_TAGS     ?= $(shell $(HG) id -t | grep -v "tip")
 REPO_FILES_CMD := $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
 REPO_FILES    ?= $(shell $(REPO_FILES_CMD))
 REPO_DIRS     ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
-REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo nightly-r$(REPO_REVISION)$(REPO_MODIFIED))
+REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 
 ################################################################
 # Rules on how to generate filenames. Usually no need to change
@@ -93,8 +113,8 @@ VPATH = $(REPO_DIRS)
 
 FILENAME_STUB      := $(basename $(MAIN_TARGET))
 DIR_BASE           := $(FILENAME_STUB)-
-VERSION_STRING     := $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo nightly-r$(REPO_REVISION)$(REPO_MODIFIED))
-DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)nightly)
+VERSION_STRING     := $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
+DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(REPO_BRANCH))
 VERSIONED_FILENAME := $(DIR_BASE)$(VERSION_STRING)
 DIR_NAME_SRC       := $(VERSIONED_FILENAME)-source
 
@@ -104,12 +124,14 @@ ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
 REV_EXTENSION      ?= REV
 MD5_FILENAME       := $(DIR_NAME).md5
 REV_FILENAME       := $(VERSIONED_FILENAME).$(REV_EXTENSION)
+# customly defined tags. Don't change the filename.
+FILE_CUSTOM_TAGS   := custom_tags.txt
 
 DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
 DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILES_SRC)))
 
 # Directories which to remember when creating a source release
-MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(EXTRA_DIRS)
+MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG_DIR) $(EXTRA_DIRS)
 
 FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")

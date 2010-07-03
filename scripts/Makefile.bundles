@@ -3,7 +3,7 @@ $(DIR_NAME): depend $(BUNDLE_FILES)
 	$(_E) "[Generating] $@"
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
-	$(_V) -for i in $(BUNDLE_FILES); do cp $$i $@; done
+	$(_V) -for i in $(BUNDLE_FILES); do cp $(CP_FLAGS) $$i $@; done
 
 %.tar: $(DIR_NAME)
 # Create the release bundle with all files in one tar
@@ -14,13 +14,9 @@ $(DIR_NAME): depend $(BUNDLE_FILES)
 bundle: $(DIR_NAME)
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(DIR_NAME) $(TAR_FILENAME)
+$(ZIP_FILENAME): $(DIR_NAME)
 	$(_E) "[Generating] $@"
-	$(_V) cp $(TAR_FILENAME) $<
-	$(_V) if [ -e $</$(MAIN_TARGET) ]; then rm $</$(MAIN_TARGET); fi # delete files which shall not be directly in the zip
-	$(_V) if [ -n "`ls $< | grep ".grf"`" ]; then rm $</*.grf; fi  # delete files which shall not be directly in the zip
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $<
-	$(_V) -rm -rf $< # delete the dirname as it's modified and needs re-building, if used again.
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[Generating] $@"
@@ -58,6 +54,7 @@ bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_V) cp $(MD5_FILENAME) $(DIR_NAME_SRC)
 	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
 	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)

@@ -72,7 +72,8 @@
 # NML            = nml.py
 
 # Installation dir
-INSTALL_DIR      =
+# DEFAULT_BRANCH_NAME = nightly
+# INSTALL_DIR         =
 
 ################################################################
 # Get the Repository revision, tags and the modified status
@@ -81,7 +82,7 @@ INSTALL_DIR      =
 # a nightly build:                 GRF's Name nightly-r51
 # a release build (taged version): GRF's Name 0.1
 ################################################################
-# REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo nightly r$(REPO_REVISION)$(REPO_MODIFIED))
+# REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 
 ################################################################
 # Rules on how to generate filenames. Usually no need to change
