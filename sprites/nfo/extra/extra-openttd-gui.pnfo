@@ -18,8 +18,8 @@
   230 sprites/pcx/gui04.pcx 722 568 09 31 64 -31   7
   231 sprites/pcx/gui04.pcx   2 632 09 39 64 -31  -1
                                                                                   // Title screen letters E and D
-   13 sprites/pcx/introletters.pcx 224   0   01 29 22   0   0
-   14 sprites/pcx/introletters.pcx 247   0   01 29 22   0   0
+   -1 sprites/pcx/introletters.pcx        224 0 01 29 22 0 7
+   -1 sprites/pcx/gui/introletters125.pcx 311 0 01 36 27 0 0
                                                                                   // bridge piers colour 1 (~copper)
   234 sprites/pcx/gui04.pcx 146 632 01 8 4 28 16
   235 sprites/pcx/gui04.pcx 162 632 01 9 4 0 1
@@ -168,3 +168,15 @@
    
 //re-enable warning again after nforenum erronously warns about the sprite count for GUI sprites
 //@@WARNING ENABLE 60
+
+// Bigger T
+-1 * 0   0A      \b1 \b1 \w4836
+-1 sprites/pcx/gui/introletters125.pcx   0 0 01 36 31 0 0
+// Bigger O
+-1 * 0   0A      \b1 \b1 \w4842
+-1 sprites/pcx/gui/introletters125.pcx 186 0 01 36 29 0 0
+// NSP with offset
+-1 * 0   0A      \b1 \b3 \w4839
+-1 sprites/pcx/introletters.pcx  78 0 01 29 21 0 7
+-1 sprites/pcx/introletters.pcx 100 0 01 29 24 0 7
+-1 sprites/pcx/introletters.pcx 125 0 01 29 22 0 7
