@@ -80,6 +80,7 @@ endif
 ifeq ($(PROJECT_TYPE),NML)				# NML style
 	FILE_SRC_EXTENSIONS ?= pnml nml tnml
 	FILE_INC_EXTENSIONS ?= wav pcx png
+	LANG_FILES := $(shell ls $(LANG_DIR)/*.lng)
 endif
 
 ################################################################
@@ -126,6 +127,13 @@ MD5_FILENAME       := $(DIR_NAME).md5
 REV_FILENAME       := $(VERSIONED_FILENAME).$(REV_EXTENSION)
 # customly defined tags. Don't change the filename.
 FILE_CUSTOM_TAGS   := custom_tags.txt
+
+# replacement tags for the doc files:
+REPO_TITLE_DUMMY      ?= {{REPO_TITLE}}
+GRF_ID_DUMMY          ?= {{GRF_ID}}
+REPO_REVISION_DUMMY   ?= {{REPO_REVISION}}
+OUTPUT_FILENAME_DUMMY ?= {{FILENAME}}
+GRF_MD5SUM_DUMMY      ?= {{GRF_MD5}}
 
 DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
 DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILES_SRC)))

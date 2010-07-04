@@ -23,8 +23,10 @@ mrproper: distclean
 
 # Print the output for a number of variables which define this newgrf.
 test :
+ifeq ($(PROJECT_TYPE),NFO)
 	$(_E) "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	$(_E) "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
+endif
 	$(_E) "Make:                         $(MAKE)"
 	$(_E) "MD5sum:                       $(MD5SUM)"
 	$(_E) "unix2dos:                     $(UNIX2DOS)"
@@ -37,18 +39,23 @@ test :
 	$(_E) "Main target:                  $(MAIN_TARGET)"
 	$(_E) "GRF files:                    $(GRF_FILES)"
 	$(_E) "Doc files:                    $(DOC_FILES)"
+ifeq ($(PROJECT_TYPE),NML)
+	$(_E) "Language files:               $(LANG_FILES)"
+endif
 	$(_E) "REPO title:                   $(REPO_TITLE)"
 	$(_E) "Bundled files:                $(BUNDLE_FILES)"
 	$(_E) "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 	$(_E) "Dirs (build/src/base):        $(DIR_NAME) / $(DIR_NAME_SRC) / $(DIR_BASE)"
 	$(_E) "Source dirs:                  $(MAIN_DIRS)"
 	$(_E) "Source extensions (RE):       $(FILE_SRC_RE)"
-#	$(_E) "Bundle source files:          `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep "$$j"; done; done;`"
 	$(_E) "Repository dirs:              $(REPO_DIRS)"
 	$(_E) "VPATH:                        $(VPATH)"
-#	$(_E) "Repository files:             $(REPO_FILES)"
 	$(_E) "Makefile:                     $(MAKEFILE)"
 	$(_E) "Old Rev:                      $(shell [ -e $(REV_FILENAME) ] && cat $(REV_FILENAME) || "undefined")"
+# uncomment the following two lines in order to get a list of all files which are considered to be part of the repo
+# and the sub-list of those which are considered for the source bundle (for bundle_src)
+#	$(_E) "Repository files:             $(REPO_FILES)"
+#	$(_E) "Bundle source files:          `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep "$$j"; done; done;`"
 ifeq ($(OSTYPE),Linux)
 	$(_E) "Host type:                    $(OSTYPE) (Linux)"
 else
@@ -126,6 +133,9 @@ ifeq ($(PROJECT_TYPE),CATCODEC)			# BASE SOUND: special file format
 else # NFO and NML projects
 	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
 	$(_V) for i in `ls Makefile* scripts/* | grep -v Makefile.dep`; do echo "Makefile.dep: $$i"; done >> $(MAKEFILE_DEP)
+ifeq ($(PROJECT_TYPE),NML)              # We need to take care of the language file which is not referenced in the source
+	$(_V) echo "$(MAIN_TARGET): $(LANG_FILES)" >> $(MAKEFILE_DEP)
+endif
 endif
 	$(_V) [ -e $(REV_FILENAME) ] && [ "`cat $(REV_FILENAME)`" = "$(VERSION_STRING)" ] || echo "$(VERSION_STRING)" > $(REV_FILENAME)
 
