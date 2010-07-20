@@ -4,8 +4,8 @@
 //1421-1437 bunch'o'buildings
 //offices
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,0)    // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
- 1422 sprites/pcx/buildings.pcx 82 456 09 87 66 -31 -56         // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
- 1423 sprites/pcx/buildings.pcx 162 456 09 87 66 -31 -56        // (Ground tile)
+ 1422 sprites/pcx/buildings.pcx 82 456 09 87 66 -32 -56         // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+ 1423 sprites/pcx/buildings.pcx 162 456 09 87 66 -32 -56        // (Ground tile)
 // 1424, 1425
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,176)  // (Ground tile)
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1421.1425.1424-offices.pcx,88)   // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
@@ -77,13 +77,13 @@ HOUSE_HEIGHT87_4(sprites/pcx/houses/base-1430-1433-house.pcx)
  1459 sprites/pcx/temprtbuilds.pcx 498 104 03 61 52 -25 -33     // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
  1460 sprites/pcx/temprtbuilds.pcx 562 104 09 61 52 -25 -33     // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
 // 1461-1463 old offices
-  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -31 -56
-  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -31 -56
-  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -31 -56
+  382 sprites/pcx/buildings.pcx 514 2472 09 87 66 -32 -56
+  383 sprites/pcx/buildings.pcx 594 2472 09 87 66 -32 -56
+  384 sprites/pcx/buildings.pcx 674 2472 09 87 66 -32 -56
 // 1464-1466 old offices
-  174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -31 -56
-  175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -31 -56
-  176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -31 -56
+  174 sprites/pcx/buildings.pcx 194 1128 09 87 66 -32 -56
+  175 sprites/pcx/buildings.pcx 274 1128 09 87 66 -32 -56
+  176 sprites/pcx/buildings.pcx 354 1128 09 87 66 -32 -56
 // 1467-1469 old offices
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 0)      // Recolour: STRUCT_BLUE, STRUCT_WHITE
 HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 88)     // Recolour: STRUCT_BLUE, STRUCT_WHITE
@@ -97,9 +97,9 @@ HOUSE_HEIGHT87(sprites/pcx/houses/base-1467-1469-oldoffice.pcx, 176)    // Recol
    32 sprites/pcx/temprtbuilds.pcx 146 232 03 43 48 -23 -19
    33 sprites/pcx/temprtbuilds.pcx 210 232 09 44 48 -23 -20
 //modern warehouse
-  161 sprites/pcx/buildings.pcx 354 1016 09 87 66 -31 -56
-  162 sprites/pcx/buildings.pcx 434 1016 09 87 66 -31 -56
-  163 sprites/pcx/buildings.pcx 514 1016 09 87 66 -31 -56
+  161 sprites/pcx/buildings.pcx 354 1016 09 87 66 -32 -56
+  162 sprites/pcx/buildings.pcx 434 1016 09 87 66 -32 -56
+  163 sprites/pcx/buildings.pcx 514 1016 09 87 66 -32 -56
 // 1579-1586 soccer stadium
 HOUSE_HEIGHT87_1(sprites/pcx/houses/base-1479-soccer.pcx)
 HOUSE_HEIGHT87_2(sprites/pcx/houses/base-1479-soccer.pcx)
