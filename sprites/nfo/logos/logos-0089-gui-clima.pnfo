@@ -1,9 +1,9 @@
 // 89-96 Climate selectors
-  189 sprites/pcx/gui04.pcx 18 376 09 48 70 2 2
-  190 sprites/pcx/gui04.pcx 98 376 09 50 72 1 1
-  191 sprites/pcx/gui04.pcx 178 376 09 48 70 2 2
-  192 sprites/pcx/gui04.pcx 258 376 09 50 72 1 1
-  193 sprites/pcx/gui04.pcx 338 376 09 48 70 2 2
-  194 sprites/pcx/gui04.pcx 418 376 09 50 72 1 1
-  195 sprites/pcx/gui04.pcx 498 376 09 48 70 2 2
-  196 sprites/pcx/gui04.pcx 578 376 09 50 72 1 1
+  189 sprites/pcx/gui/climates.pcx 18 16 09 48 70 2 2
+  189 sprites/pcx/gui/climates.pcx 18 16 09 48 70 2 2
+  191 sprites/pcx/gui/climates.pcx 178 16 09 48 70 2 2
+  191 sprites/pcx/gui/climates.pcx 178 16 09 48 70 2 2
+  193 sprites/pcx/gui/climates.pcx 338 16 09 48 70 2 2
+  193 sprites/pcx/gui/climates.pcx 338 16 09 48 70 2 2
+  195 sprites/pcx/gui/climates.pcx 498 16 09 48 70 2 2
+  195 sprites/pcx/gui/climates.pcx 498 16 09 48 70 2 2
