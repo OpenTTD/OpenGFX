@@ -1,0 +1,32 @@
+#include "sprites/nfo/nfo-header.pnfo"
+
+#define EMPTY   0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+
+// 0-10 EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+#include "sprites/nfo/logos/logos-0011-highscore.pnfo"
+#include "sprites/nfo/logos/logos-0021-newspaper-2051.pnfo"
+#include "sprites/nfo/logos/logos-0031-tycoon-of-century.pnfo"
+// 41-42 EMPTY
+EMPTY
+EMPTY
+#include "sprites/nfo/logos/logos-0043-intro-letters.pnfo"
+#include "sprites/nfo/logos/logos-0052-original-map-generator.pnfo"
+#include "sprites/nfo/logos/logos-0089-gui-clima.pnfo"
+// 97-102 EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

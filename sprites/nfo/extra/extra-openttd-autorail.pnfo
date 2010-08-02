@@ -1,57 +1,57 @@
  1466 * 18       0C "Autorail graphics"
  1467 * 3        05 13 37
- 1468 sprites/pcx/extra/autorails.pcx 528 0 09 31 64 -31 7
- 1469 sprites/pcx/extra/autorails.pcx 608 0 09 31 64 -31 -1
- 1470 sprites/pcx/extra/autorails.pcx 688 0 09 39 64 -31 -1
- 1471 sprites/pcx/extra/autorails.pcx 0 64 09 47 64 -31 -9
- 1472 sprites/pcx/extra/autorails.pcx 80 64 09 31 64 -31 -5
- 1473 sprites/pcx/extra/autorails.pcx 160 64 09 23 64 -31 7
- 1474 sprites/pcx/extra/autorails.pcx 240 64 09 18 64 -31 4
- 1475 sprites/pcx/extra/autorails.pcx 320 64 09 31 64 -31 -1
- 1476 sprites/pcx/extra/autorails.pcx 400 64 09 31 64 -31 7
- 1477 sprites/pcx/extra/autorails.pcx 480 64 09 31 64 -31 -1
- 1478 sprites/pcx/extra/autorails.pcx 560 64 09 23 64 -31 7
- 1479 sprites/pcx/extra/autorails.pcx 640 64 09 18 64 -31 4
- 1480 sprites/pcx/extra/autorails.pcx 720 64 09 31 64 -31 -1
- 1481 sprites/pcx/extra/autorails.pcx 0 128 09 39 64 -31 -1
- 1482 sprites/pcx/extra/autorails.pcx 80 128 09 47 64 -31 -9
- 1483 sprites/pcx/extra/autorails.pcx 160 128 09 31 64 -31 -5
- 1484 sprites/pcx/extra/autorails.pcx 240 128 09 31 64 -31 7
- 1485 sprites/pcx/extra/autorails.pcx 320 128 09 31 64 -31 -1
- 1486 sprites/pcx/extra/autorails.pcx 400 128 09 47 64 -31 -9
- 1487 sprites/pcx/extra/autorails.pcx 480 128 09 26 64 -31 4
- 1488 sprites/pcx/extra/autorails.pcx 560 128 09 23 64 -31 4
- 1489 sprites/pcx/extra/autorails.pcx 640 128 09 31 64 -31 -3
- 1490 sprites/pcx/extra/autorails.pcx 720 128 09 26 64 -31 4
- 1491 sprites/pcx/extra/autorails.pcx 0 192 09 23 64 -31 4
- 1492 sprites/pcx/extra/autorails.pcx 80 192 09 31 64 -31 -3
- 1493 sprites/pcx/extra/autorails.pcx 160 192 09 31 64 -31 7
- 1494 sprites/pcx/extra/autorails.pcx 240 192 09 31 64 -31 -1
- 1495 sprites/pcx/extra/autorails.pcx 320 192 09 15 64 -31 7
- 1496 sprites/pcx/extra/autorails.pcx 400 192 09 31 64 -31 7
- 1497 sprites/pcx/extra/autorails.pcx 480 192 09 39 64 -31 -1
- 1498 sprites/pcx/extra/autorails.pcx 560 192 09 31 64 -31 -1
- 1499 sprites/pcx/extra/autorails.pcx 640 192 09 31 64 -31 7
- 1500 sprites/pcx/extra/autorails.pcx 720 192 09 39 64 -31 -1
- 1501 sprites/pcx/extra/autorails.pcx 0 256 09 31 64 -31 -1
- 1502 sprites/pcx/extra/autorails.pcx 80 256 09 31 64 -31 7
- 1503 sprites/pcx/extra/autorails.pcx 160 256 09 31 64 -31 -1
- 1504 sprites/pcx/extra/autorails.pcx 240 256 09 31 64 -31 -1
- 1505 sprites/pcx/extra/autorails.pcx 320 256 09 31 64 -31 -1
- 1506 sprites/pcx/extra/autorails.pcx 400 256 09 23 64 -31 7
- 1507 sprites/pcx/extra/autorails.pcx 480 256 09 15 64 -31 7
- 1508 sprites/pcx/extra/autorails.pcx 560 256 09 39 64 -31 -1
- 1509 sprites/pcx/extra/autorails.pcx 640 256 09 47 64 -31 -9
- 1510 sprites/pcx/extra/autorails.pcx 720 256 09 31 64 -31 7
- 1511 sprites/pcx/extra/autorails.pcx 0 320 09 31 64 -31 -1
- 1512 sprites/pcx/extra/autorails.pcx 80 320 09 31 64 -31 -1
- 1513 sprites/pcx/extra/autorails.pcx 160 320 09 31 64 -31 -1
- 1514 sprites/pcx/extra/autorails.pcx 240 320 09 23 64 -31 7
- 1515 sprites/pcx/extra/autorails.pcx 320 320 09 15 64 -31 7
- 1516 sprites/pcx/extra/autorails.pcx 400 320 09 39 64 -31 -1
- 1517 sprites/pcx/extra/autorails.pcx 480 320 09 47 64 -31 -9
- 1518 sprites/pcx/extra/autorails.pcx 560 320 09 31 64 -31 -1
- 1519 sprites/pcx/extra/autorails.pcx 640 320 09 31 64 -31 -1
- 1520 sprites/pcx/extra/autorails.pcx 720 320 09 23 64 -31 7
- 1521 sprites/pcx/extra/autorails.pcx 0 384 09 31 64 -31 7
- 1522 sprites/pcx/extra/autorails.pcx 80 384 09 31 64 -31 7
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

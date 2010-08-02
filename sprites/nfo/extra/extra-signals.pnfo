@@ -4,264 +4,264 @@
 -1 * 0   07 83 01 \7= 03 F1 //skip if toyland
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphores
-  319 sprites/pcx/semaphores.pcx 322 120 01 21 10 -6 -19
-  320 sprites/pcx/semaphores.pcx 338 120 01 23 7 -3 -21
-  321 sprites/pcx/semaphores.pcx 354 120 01 21 10 1 -19
-  322 sprites/pcx/semaphores.pcx 370 120 01 21 9 1 -19
-  323 sprites/pcx/semaphores.pcx 386 120 01 21 9 1 -19
-  324 sprites/pcx/semaphores.pcx 402 120 01 23 6 1 -21
-  325 sprites/pcx/semaphores.pcx 418 120 01 21 10 -7 -19
-  326 sprites/pcx/semaphores.pcx 434 120 01 21 10 -7 -19
-  327 sprites/pcx/semaphores.pcx 450 120 01 21 2 1 -19
-  328 sprites/pcx/semaphores.pcx 466 120 01 24 2 1 -22
-  329 sprites/pcx/semaphores.pcx 482 120 01 23 2 1 -21
-  330 sprites/pcx/semaphores.pcx 498 120 01 26 2 1 -24
-  331 sprites/pcx/semaphores.pcx 514 120 01 21 11 -7 -19
-  332 sprites/pcx/semaphores.pcx 530 120 01 21 8 -4 -19
-  333 sprites/pcx/semaphores.pcx 546 120 01 21 11 1 -19
-  334 sprites/pcx/semaphores.pcx 562 120 01 21 8 1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore presignals
-  335 sprites/pcx/semaphores.pcx 578 120 01 21 12 -6 -19
-  336 sprites/pcx/semaphores.pcx 610 120 01 23 9 -3 -21
-  337 sprites/pcx/semaphores.pcx 626 120 01 21 12 -1 -19
-  338 sprites/pcx/semaphores.pcx 658 120 01 21 11 -1 -19
-  339 sprites/pcx/semaphores.pcx 674 120 01 21 11 -1 -19
-  340 sprites/pcx/semaphores.pcx 690 120 01 23 8 -1 -21
-  341 sprites/pcx/semaphores.pcx 706 120 01 21 12 -7 -19
-  342 sprites/pcx/semaphores.pcx 738 120 01 21 12 -7 -19
-  343 sprites/pcx/semaphores.pcx 770 120 01 21 4 1 -19
-  344 sprites/pcx/semaphores.pcx 786 120 01 24 4 1 -22
-  345 sprites/pcx/semaphores.pcx 2 168 01 23 4 -1 -21
-  346 sprites/pcx/semaphores.pcx 18 168 01 26 4 -1 -24
-  347 sprites/pcx/semaphores.pcx 34 168 01 21 13 -7 -19
-  348 sprites/pcx/semaphores.pcx 66 168 01 21 10 -4 -19
-  349 sprites/pcx/semaphores.pcx 82 168 01 21 13 -1 -19
-  350 sprites/pcx/semaphores.pcx 114 168 01 21 10 -1 -19
-  351 sprites/pcx/semaphores.pcx 130 168 01 21 11 -6 -19
-  352 sprites/pcx/semaphores.pcx 146 168 01 23 8 -3 -21
-  353 sprites/pcx/semaphores.pcx 162 168 01 21 11 0 -19
-  354 sprites/pcx/semaphores.pcx 178 168 01 21 10 0 -19
-  355 sprites/pcx/semaphores.pcx 194 168 01 21 10 0 -19
-  356 sprites/pcx/semaphores.pcx 210 168 01 23 7 0 -21
-  357 sprites/pcx/semaphores.pcx 226 168 01 21 11 -7 -19
-  358 sprites/pcx/semaphores.pcx 242 168 01 21 11 -7 -19
-  359 sprites/pcx/semaphores.pcx 258 168 01 21 4 1 -19
-  360 sprites/pcx/semaphores.pcx 274 168 01 24 4 1 -22
-  361 sprites/pcx/semaphores.pcx 290 168 01 23 4 -1 -21
-  362 sprites/pcx/semaphores.pcx 306 168 01 26 4 -1 -24
-  363 sprites/pcx/semaphores.pcx 322 168 01 21 12 -7 -19
-  364 sprites/pcx/semaphores.pcx 354 168 01 21 9 -4 -19
-  365 sprites/pcx/semaphores.pcx 370 168 01 21 12 0 -19
-  366 sprites/pcx/semaphores.pcx 402 168 01 21 9 0 -19
-  367 sprites/pcx/semaphores.pcx 418 168 01 21 11 -6 -19
-  368 sprites/pcx/semaphores.pcx 434 168 01 23 8 -3 -21
-  369 sprites/pcx/semaphores.pcx 450 168 01 21 11 0 -19
-  370 sprites/pcx/semaphores.pcx 466 168 01 21 10 0 -19
-  371 sprites/pcx/semaphores.pcx 482 168 01 21 10 0 -19
-  372 sprites/pcx/semaphores.pcx 498 168 01 23 7 0 -21
-  373 sprites/pcx/semaphores.pcx 514 168 01 21 11 -7 -19
-  374 sprites/pcx/semaphores.pcx 530 168 01 21 11 -7 -19
-  375 sprites/pcx/semaphores.pcx 546 168 01 21 4 1 -19
-  376 sprites/pcx/semaphores.pcx 562 168 01 24 4 1 -22
-  377 sprites/pcx/semaphores.pcx 578 168 01 23 4 -1 -21
-  378 sprites/pcx/semaphores.pcx 594 168 01 26 4 -1 -24
-  379 sprites/pcx/semaphores.pcx 610 168 01 21 12 -7 -19
-  380 sprites/pcx/semaphores.pcx 642 168 01 21 9 -4 -19
-  381 sprites/pcx/semaphores.pcx 658 168 01 21 12 0 -19
-  382 sprites/pcx/semaphores.pcx 690 168 01 21 9 0 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS standard
- 1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
- 1220 sprites/pcx/signals_pbs.pcx 166 6 01 22 5 -2 -20
- 1221 sprites/pcx/signals_pbs.pcx 182 6 01 22 4 -1 -20
- 1222 sprites/pcx/signals_pbs.pcx 198 6 01 22 4 -1 -20
- 1223 sprites/pcx/signals_pbs.pcx 214 6 01 22 4 -1 -20
- 1224 sprites/pcx/signals_pbs.pcx 230 6 01 22 4 -1 -20
- 1225 sprites/pcx/signals_pbs.pcx 246 6 01 22 5 -1 -20
- 1226 sprites/pcx/signals_pbs.pcx 262 6 01 22 5 -1 -20
- 1227 sprites/pcx/signals_pbs.pcx 278 6 01 22 5 -1 -20
- 1228 sprites/pcx/signals_pbs.pcx 294 6 01 22 5 -1 -20
- 1229 sprites/pcx/signals_pbs.pcx 310 6 01 22 5 -2 -20
- 1230 sprites/pcx/signals_pbs.pcx 326 6 01 22 5 -2 -20
- 1231 sprites/pcx/signals_pbs.pcx 341 6 01 22 6 -3 -20
- 1232 sprites/pcx/signals_pbs.pcx 357 6 01 22 6 -3 -20
- 1233 sprites/pcx/signals_pbs.pcx 373 6 01 22 6 -3 -20
- 1234 sprites/pcx/signals_pbs.pcx 389 6 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS oneway
- 1289 sprites/pcx/signals_pbs.pcx 150 36 01 22 5 -2 -20
- 1290 sprites/pcx/signals_pbs.pcx 166 36 01 22 5 -2 -20
- 1291 sprites/pcx/signals_pbs.pcx 182 36 01 22 4 -1 -20
- 1292 sprites/pcx/signals_pbs.pcx 198 36 01 22 4 -1 -20
- 1293 sprites/pcx/signals_pbs.pcx 214 36 01 22 4 -1 -20
- 1294 sprites/pcx/signals_pbs.pcx 230 36 01 22 4 -1 -20
- 1295 sprites/pcx/signals_pbs.pcx 246 36 01 22 5 -1 -20
- 1296 sprites/pcx/signals_pbs.pcx 262 36 01 22 5 -1 -20
- 1297 sprites/pcx/signals_pbs.pcx 278 36 01 22 5 -1 -20
- 1298 sprites/pcx/signals_pbs.pcx 294 36 01 22 5 -1 -20
- 1299 sprites/pcx/signals_pbs.pcx 310 36 01 22 5 -2 -20
- 1300 sprites/pcx/signals_pbs.pcx 326 36 01 22 5 -2 -20
- 1301 sprites/pcx/signals_pbs.pcx 341 36 01 22 6 -3 -20
- 1302 sprites/pcx/signals_pbs.pcx 357 36 01 22 6 -3 -20
- 1303 sprites/pcx/signals_pbs.pcx 373 36 01 22 6 -3 -20
- 1304 sprites/pcx/signals_pbs.pcx 389 36 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 1 (standard toyland)
- 1305 sprites/pcx/signals_pbs.pcx 150 69 01 22 5 -2 -20
- 1306 sprites/pcx/signals_pbs.pcx 166 69 01 22 5 -2 -20
- 1307 sprites/pcx/signals_pbs.pcx 182 69 01 22 4 -1 -20
- 1308 sprites/pcx/signals_pbs.pcx 198 69 01 22 4 -1 -20
- 1309 sprites/pcx/signals_pbs.pcx 214 69 01 22 4 -1 -20
- 1310 sprites/pcx/signals_pbs.pcx 230 69 01 22 4 -1 -20
- 1311 sprites/pcx/signals_pbs.pcx 246 69 01 22 5 -1 -20
- 1312 sprites/pcx/signals_pbs.pcx 262 69 01 22 5 -1 -20
- 1313 sprites/pcx/signals_pbs.pcx 278 69 01 22 5 -1 -20
- 1314 sprites/pcx/signals_pbs.pcx 294 69 01 22 5 -1 -20
- 1315 sprites/pcx/signals_pbs.pcx 310 69 01 22 5 -2 -20
- 1316 sprites/pcx/signals_pbs.pcx 326 69 01 22 5 -2 -20
- 1317 sprites/pcx/signals_pbs.pcx 341 69 01 22 6 -3 -20
- 1318 sprites/pcx/signals_pbs.pcx 357 69 01 22 6 -3 -20
- 1319 sprites/pcx/signals_pbs.pcx 373 69 01 22 6 -3 -20
- 1320 sprites/pcx/signals_pbs.pcx 389 69 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 2 (oneway toyland)
- 1321 sprites/pcx/signals_pbs.pcx 150 100 01 22 5 -2 -20
- 1322 sprites/pcx/signals_pbs.pcx 166 100 01 22 5 -2 -20
- 1323 sprites/pcx/signals_pbs.pcx 182 100 01 22 4 -1 -20
- 1324 sprites/pcx/signals_pbs.pcx 198 100 01 22 4 -1 -20
- 1325 sprites/pcx/signals_pbs.pcx 214 100 01 22 4 -1 -20
- 1326 sprites/pcx/signals_pbs.pcx 230 100 01 22 4 -1 -20
- 1327 sprites/pcx/signals_pbs.pcx 246 100 01 22 5 -1 -20
- 1328 sprites/pcx/signals_pbs.pcx 262 100 01 22 5 -1 -20
- 1329 sprites/pcx/signals_pbs.pcx 278 100 01 22 5 -1 -20
- 1330 sprites/pcx/signals_pbs.pcx 294 100 01 22 5 -1 -20
- 1331 sprites/pcx/signals_pbs.pcx 310 100 01 22 5 -2 -20
- 1332 sprites/pcx/signals_pbs.pcx 326 100 01 22 5 -2 -20
- 1333 sprites/pcx/signals_pbs.pcx 341 100 01 22 6 -3 -20
- 1334 sprites/pcx/signals_pbs.pcx 357 100 01 22 6 -3 -20
- 1335 sprites/pcx/signals_pbs.pcx 373 100 01 22 6 -3 -20
- 1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore PBS 2way
-  447 sprites/pcx/semaphores.pcx 130 248 01 21 10 -6 -19
-  448 sprites/pcx/semaphores.pcx 146 248 01 23 7 -3 -21
-  449 sprites/pcx/semaphores.pcx 162 248 01 21 10 1 -19
-  450 sprites/pcx/semaphores.pcx 178 248 01 21 9 1 -19
-  451 sprites/pcx/semaphores.pcx 194 248 01 21 9 1 -19
-  452 sprites/pcx/semaphores.pcx 210 248 01 23 6 1 -21
-  453 sprites/pcx/semaphores.pcx 226 248 01 21 10 -7 -19
-  454 sprites/pcx/semaphores.pcx 242 248 01 21 10 -7 -19
-  455 sprites/pcx/semaphores.pcx 258 248 01 21 2 1 -19
-  456 sprites/pcx/semaphores.pcx 274 248 01 24 2 1 -22
-  457 sprites/pcx/semaphores.pcx 290 248 01 23 2 1 -21
-  458 sprites/pcx/semaphores.pcx 306 248 01 26 2 1 -24
-  459 sprites/pcx/semaphores.pcx 322 248 01 21 11 -7 -19
-  460 sprites/pcx/semaphores.pcx 338 248 01 21 8 -4 -19
-  461 sprites/pcx/semaphores.pcx 354 248 01 21 11 1 -19
-  462 sprites/pcx/semaphores.pcx 370 248 01 21 8 1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs 1way
-  463 sprites/pcx/semaphores.pcx 386 248 01 21 12 -6 -19
-  464 sprites/pcx/semaphores.pcx 418 248 01 23 9 -3 -21
-  465 sprites/pcx/semaphores.pcx 434 248 01 21 12 -1 -19
-  466 sprites/pcx/semaphores.pcx 466 248 01 21 11 -1 -19
-  467 sprites/pcx/semaphores.pcx 482 248 01 21 11 -1 -19
-  468 sprites/pcx/semaphores.pcx 498 248 01 23 8 -1 -21
-  469 sprites/pcx/semaphores.pcx 514 248 01 21 12 -7 -19
-  470 sprites/pcx/semaphores.pcx 546 248 01 21 12 -7 -19
-  471 sprites/pcx/semaphores.pcx 578 248 01 21 4 -1 -19
-  472 sprites/pcx/semaphores.pcx 594 248 01 24 4 -1 -22
-  473 sprites/pcx/semaphores.pcx 610 248 01 23 4 1 -21
-  474 sprites/pcx/semaphores.pcx 626 248 01 26 4 1 -24
-  475 sprites/pcx/semaphores.pcx 642 248 01 21 13 -7 -19
-  476 sprites/pcx/semaphores.pcx 674 248 01 21 10 -4 -19
-  477 sprites/pcx/semaphores.pcx 690 248 01 21 13 -1 -19
-  478 sprites/pcx/semaphores.pcx 722 248 01 21 10 -1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs unused
-  479 sprites/pcx/semaphores.pcx 738 248 01 21 11 -6 -19
-  480 sprites/pcx/semaphores.pcx 754 248 01 23 8 -3 -21
-  481 sprites/pcx/semaphores.pcx 770 248 01 21 11 0 -19
-  482 sprites/pcx/semaphores.pcx 786 248 01 21 10 0 -19
-  483 sprites/pcx/semaphores.pcx 2 296 01 21 10 0 -19
-  484 sprites/pcx/semaphores.pcx 18 296 01 23 7 0 -21
-  485 sprites/pcx/semaphores.pcx 34 296 01 21 11 -7 -19
-  486 sprites/pcx/semaphores.pcx 50 296 01 21 11 -7 -19
-  487 sprites/pcx/semaphores.pcx 66 296 01 21 4 1 -19
-  488 sprites/pcx/semaphores.pcx 82 296 01 24 4 1 -22
-  489 sprites/pcx/semaphores.pcx 98 296 01 23 4 -1 -21
-  490 sprites/pcx/semaphores.pcx 114 296 01 26 4 -1 -24
-  491 sprites/pcx/semaphores.pcx 130 296 01 21 12 -7 -19
-  492 sprites/pcx/semaphores.pcx 162 296 01 21 9 -4 -19
-  493 sprites/pcx/semaphores.pcx 178 296 01 21 12 0 -19
-  494 sprites/pcx/semaphores.pcx 210 296 01 21 9 0 -19
-  495 sprites/pcx/semaphores.pcx 226 296 01 21 11 -6 -19
-  496 sprites/pcx/semaphores.pcx 242 296 01 23 8 -3 -21
-  497 sprites/pcx/semaphores.pcx 258 296 01 21 11 0 -19
-  498 sprites/pcx/semaphores.pcx 274 296 01 21 10 0 -19
-  499 sprites/pcx/semaphores.pcx 290 296 01 21 10 0 -19
-  500 sprites/pcx/semaphores.pcx 306 296 01 23 7 0 -21
-  501 sprites/pcx/semaphores.pcx 322 296 01 21 11 -7 -19
-  502 sprites/pcx/semaphores.pcx 338 296 01 21 11 -7 -19
-  503 sprites/pcx/semaphores.pcx 354 296 01 21 4 1 -19
-  504 sprites/pcx/semaphores.pcx 370 296 01 24 4 1 -22
-  505 sprites/pcx/semaphores.pcx 386 296 01 23 4 -1 -21
-  506 sprites/pcx/semaphores.pcx 402 296 01 26 4 -1 -24
-  507 sprites/pcx/semaphores.pcx 418 296 01 21 12 -7 -19
-  508 sprites/pcx/semaphores.pcx 450 296 01 21 9 -4 -19
-  509 sprites/pcx/semaphores.pcx 466 296 01 21 12 0 -19
-  510 sprites/pcx/semaphores.pcx 498 296 01 21 9 0 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 
 
@@ -274,264 +274,264 @@
 -1 * 0   07 86 01 \70 04 F1 //skip if drive side not right
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphores
-  562 sprites/pcx/semaphores.pcx 530 344 01 21 10 -7 -19
-  563 sprites/pcx/semaphores.pcx 546 344 01 23 10 -8 -21
-  564 sprites/pcx/semaphores.pcx 562 344 01 23 10 -7 -21
-  565 sprites/pcx/semaphores.pcx 578 344 01 26 7 -5 -24
-  566 sprites/pcx/semaphores.pcx 594 344 01 21 10 -7 -19
-  567 sprites/pcx/semaphores.pcx 610 344 01 23 10 -6 -21
-  568 sprites/pcx/semaphores.pcx 626 344 01 23 10 1 -21
-  569 sprites/pcx/semaphores.pcx 642 344 01 26 7 2 -24
-  570 sprites/pcx/semaphores.pcx 658 344 01 23 3 0 -21
-  571 sprites/pcx/semaphores.pcx 674 344 01 26 3 0 -24
-  572 sprites/pcx/semaphores.pcx 690 344 01 21 3 0 -19
-  573 sprites/pcx/semaphores.pcx 706 344 01 24 3 0 -22
-  574 sprites/pcx/semaphores.pcx 722 344 01 21 12 0 -19
-  575 sprites/pcx/semaphores.pcx 754 344 01 24 9 0 -22
-  576 sprites/pcx/semaphores.pcx 770 344 01 21 12 -9 -19
-  577 sprites/pcx/semaphores.pcx 2 392 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore presignals
-  578 sprites/pcx/semaphores.pcx 18 392 01 21 12 -9 -19
-  579 sprites/pcx/semaphores.pcx 50 392 01 23 11 -9 -21
-  580 sprites/pcx/semaphores.pcx 66 392 01 23 11 -7 -21
-  581 sprites/pcx/semaphores.pcx 82 392 01 26 9 -5 -24
-  582 sprites/pcx/semaphores.pcx 98 392 01 21 12 -7 -19
-  583 sprites/pcx/semaphores.pcx 130 392 01 23 11 -6 -21
-  584 sprites/pcx/semaphores.pcx 146 392 01 23 11 0 -21
-  585 sprites/pcx/semaphores.pcx 162 392 01 26 9 0 -24
-  586 sprites/pcx/semaphores.pcx 178 392 01 23 5 0 -21
-  587 sprites/pcx/semaphores.pcx 194 392 01 26 5 0 -24
-  588 sprites/pcx/semaphores.pcx 210 392 01 21 5 -2 -19
-  589 sprites/pcx/semaphores.pcx 226 392 01 24 5 -2 -22
-  590 sprites/pcx/semaphores.pcx 242 392 01 21 13 -1 -19
-  591 sprites/pcx/semaphores.pcx 274 392 01 24 10 -1 -22
-  592 sprites/pcx/semaphores.pcx 290 392 01 21 13 -9 -19
-  593 sprites/pcx/semaphores.pcx 322 392 01 24 10 -6 -22
-  594 sprites/pcx/semaphores.pcx 338 392 01 21 11 -8 -19
-  595 sprites/pcx/semaphores.pcx 354 392 01 23 10 -8 -21
-  596 sprites/pcx/semaphores.pcx 370 392 01 23 10 -7 -21
-  597 sprites/pcx/semaphores.pcx 386 392 01 26 8 -5 -24
-  598 sprites/pcx/semaphores.pcx 402 392 01 21 11 -7 -19
-  599 sprites/pcx/semaphores.pcx 418 392 01 23 10 -6 -21
-  600 sprites/pcx/semaphores.pcx 434 392 01 23 10 1 -21
-  601 sprites/pcx/semaphores.pcx 450 392 01 26 8 1 -24
-  602 sprites/pcx/semaphores.pcx 466 392 01 23 5 0 -21
-  603 sprites/pcx/semaphores.pcx 482 392 01 26 5 0 -24
-  604 sprites/pcx/semaphores.pcx 498 392 01 21 5 -2 -19
-  605 sprites/pcx/semaphores.pcx 514 392 01 24 5 -2 -22
-  606 sprites/pcx/semaphores.pcx 530 392 01 21 12 0 -19
-  607 sprites/pcx/semaphores.pcx 562 392 01 24 9 0 -22
-  608 sprites/pcx/semaphores.pcx 578 392 01 21 12 -9 -19
-  609 sprites/pcx/semaphores.pcx 610 392 01 24 9 -6 -22
-  610 sprites/pcx/semaphores.pcx 626 392 01 21 11 -8 -19
-  611 sprites/pcx/semaphores.pcx 642 392 01 23 10 -8 -21
-  612 sprites/pcx/semaphores.pcx 658 392 01 23 10 -7 -21
-  613 sprites/pcx/semaphores.pcx 674 392 01 26 8 -5 -24
-  614 sprites/pcx/semaphores.pcx 690 392 01 21 11 -7 -19
-  615 sprites/pcx/semaphores.pcx 706 392 01 23 10 -6 -21
-  616 sprites/pcx/semaphores.pcx 722 392 01 23 10 1 -21
-  617 sprites/pcx/semaphores.pcx 738 392 01 26 8 1 -24
-  618 sprites/pcx/semaphores.pcx 754 392 01 23 5 0 -21
-  619 sprites/pcx/semaphores.pcx 770 392 01 26 5 0 -24
-  620 sprites/pcx/semaphores.pcx 786 392 01 21 5 -2 -19
-  621 sprites/pcx/semaphores.pcx 2 440 01 24 5 -2 -22
-  622 sprites/pcx/semaphores.pcx 18 440 01 21 12 0 -19
-  623 sprites/pcx/semaphores.pcx 50 440 01 24 9 0 -22
-  624 sprites/pcx/semaphores.pcx 66 440 01 21 12 -9 -19
-  625 sprites/pcx/semaphores.pcx 98 440 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS standard
- 1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
- 1220 sprites/pcx/signals_pbs.pcx 166 6 01 22 5 -2 -20
- 1221 sprites/pcx/signals_pbs.pcx 182 6 01 22 4 -1 -20
- 1222 sprites/pcx/signals_pbs.pcx 198 6 01 22 4 -1 -20
- 1223 sprites/pcx/signals_pbs.pcx 214 6 01 22 4 -1 -20
- 1224 sprites/pcx/signals_pbs.pcx 230 6 01 22 4 -1 -20
- 1225 sprites/pcx/signals_pbs.pcx 246 6 01 22 5 -1 -20
- 1226 sprites/pcx/signals_pbs.pcx 262 6 01 22 5 -1 -20
- 1227 sprites/pcx/signals_pbs.pcx 278 6 01 22 5 -1 -20
- 1228 sprites/pcx/signals_pbs.pcx 294 6 01 22 5 -1 -20
- 1229 sprites/pcx/signals_pbs.pcx 310 6 01 22 5 -2 -20
- 1230 sprites/pcx/signals_pbs.pcx 326 6 01 22 5 -2 -20
- 1231 sprites/pcx/signals_pbs.pcx 341 6 01 22 6 -3 -20
- 1232 sprites/pcx/signals_pbs.pcx 357 6 01 22 6 -3 -20
- 1233 sprites/pcx/signals_pbs.pcx 373 6 01 22 6 -3 -20
- 1234 sprites/pcx/signals_pbs.pcx 389 6 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS oneway
- 1289 sprites/pcx/signals_pbs.pcx 150 36 01 22 5 -2 -20
- 1290 sprites/pcx/signals_pbs.pcx 166 36 01 22 5 -2 -20
- 1291 sprites/pcx/signals_pbs.pcx 182 36 01 22 4 -1 -20
- 1292 sprites/pcx/signals_pbs.pcx 198 36 01 22 4 -1 -20
- 1293 sprites/pcx/signals_pbs.pcx 214 36 01 22 4 -1 -20
- 1294 sprites/pcx/signals_pbs.pcx 230 36 01 22 4 -1 -20
- 1295 sprites/pcx/signals_pbs.pcx 246 36 01 22 5 -1 -20
- 1296 sprites/pcx/signals_pbs.pcx 262 36 01 22 5 -1 -20
- 1297 sprites/pcx/signals_pbs.pcx 278 36 01 22 5 -1 -20
- 1298 sprites/pcx/signals_pbs.pcx 294 36 01 22 5 -1 -20
- 1299 sprites/pcx/signals_pbs.pcx 310 36 01 22 5 -2 -20
- 1300 sprites/pcx/signals_pbs.pcx 326 36 01 22 5 -2 -20
- 1301 sprites/pcx/signals_pbs.pcx 341 36 01 22 6 -3 -20
- 1302 sprites/pcx/signals_pbs.pcx 357 36 01 22 6 -3 -20
- 1303 sprites/pcx/signals_pbs.pcx 373 36 01 22 6 -3 -20
- 1304 sprites/pcx/signals_pbs.pcx 389 36 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 1 (standard toyland)
- 1305 sprites/pcx/signals_pbs.pcx 150 69 01 22 5 -2 -20
- 1306 sprites/pcx/signals_pbs.pcx 166 69 01 22 5 -2 -20
- 1307 sprites/pcx/signals_pbs.pcx 182 69 01 22 4 -1 -20
- 1308 sprites/pcx/signals_pbs.pcx 198 69 01 22 4 -1 -20
- 1309 sprites/pcx/signals_pbs.pcx 214 69 01 22 4 -1 -20
- 1310 sprites/pcx/signals_pbs.pcx 230 69 01 22 4 -1 -20
- 1311 sprites/pcx/signals_pbs.pcx 246 69 01 22 5 -1 -20
- 1312 sprites/pcx/signals_pbs.pcx 262 69 01 22 5 -1 -20
- 1313 sprites/pcx/signals_pbs.pcx 278 69 01 22 5 -1 -20
- 1314 sprites/pcx/signals_pbs.pcx 294 69 01 22 5 -1 -20
- 1315 sprites/pcx/signals_pbs.pcx 310 69 01 22 5 -2 -20
- 1316 sprites/pcx/signals_pbs.pcx 326 69 01 22 5 -2 -20
- 1317 sprites/pcx/signals_pbs.pcx 341 69 01 22 6 -3 -20
- 1318 sprites/pcx/signals_pbs.pcx 357 69 01 22 6 -3 -20
- 1319 sprites/pcx/signals_pbs.pcx 373 69 01 22 6 -3 -20
- 1320 sprites/pcx/signals_pbs.pcx 389 69 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 2 (oneway toyland)
- 1321 sprites/pcx/signals_pbs.pcx 150 100 01 22 5 -2 -20
- 1322 sprites/pcx/signals_pbs.pcx 166 100 01 22 5 -2 -20
- 1323 sprites/pcx/signals_pbs.pcx 182 100 01 22 4 -1 -20
- 1324 sprites/pcx/signals_pbs.pcx 198 100 01 22 4 -1 -20
- 1325 sprites/pcx/signals_pbs.pcx 214 100 01 22 4 -1 -20
- 1326 sprites/pcx/signals_pbs.pcx 230 100 01 22 4 -1 -20
- 1327 sprites/pcx/signals_pbs.pcx 246 100 01 22 5 -1 -20
- 1328 sprites/pcx/signals_pbs.pcx 262 100 01 22 5 -1 -20
- 1329 sprites/pcx/signals_pbs.pcx 278 100 01 22 5 -1 -20
- 1330 sprites/pcx/signals_pbs.pcx 294 100 01 22 5 -1 -20
- 1331 sprites/pcx/signals_pbs.pcx 310 100 01 22 5 -2 -20
- 1332 sprites/pcx/signals_pbs.pcx 326 100 01 22 5 -2 -20
- 1333 sprites/pcx/signals_pbs.pcx 341 100 01 22 6 -3 -20
- 1334 sprites/pcx/signals_pbs.pcx 357 100 01 22 6 -3 -20
- 1335 sprites/pcx/signals_pbs.pcx 373 100 01 22 6 -3 -20
- 1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore PBS 2way
-  690 sprites/pcx/semaphores.pcx 338 488 01 21 10 -7 -19
-  691 sprites/pcx/semaphores.pcx 354 488 01 23 10 -8 -21
-  692 sprites/pcx/semaphores.pcx 370 488 01 23 10 -7 -21
-  693 sprites/pcx/semaphores.pcx 386 488 01 26 7 -5 -24
-  694 sprites/pcx/semaphores.pcx 402 488 01 21 10 -7 -19
-  695 sprites/pcx/semaphores.pcx 418 488 01 23 10 -6 -21
-  696 sprites/pcx/semaphores.pcx 434 488 01 23 10 1 -21
-  697 sprites/pcx/semaphores.pcx 450 488 01 26 7 2 -24
-  698 sprites/pcx/semaphores.pcx 466 488 01 23 3 0 -21
-  699 sprites/pcx/semaphores.pcx 482 488 01 26 3 0 -24
-  700 sprites/pcx/semaphores.pcx 498 488 01 21 3 0 -19
-  701 sprites/pcx/semaphores.pcx 514 488 01 24 3 0 -22
-  702 sprites/pcx/semaphores.pcx 530 488 01 21 12 0 -19
-  703 sprites/pcx/semaphores.pcx 562 488 01 24 9 0 -22
-  704 sprites/pcx/semaphores.pcx 578 488 01 21 12 -9 -19
-  705 sprites/pcx/semaphores.pcx 610 488 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs 1way
-  706 sprites/pcx/semaphores.pcx 626 488 01 21 12 -9 -19
-  707 sprites/pcx/semaphores.pcx 658 488 01 23 11 -9 -21
-  708 sprites/pcx/semaphores.pcx 674 488 01 23 11 -7 -21
-  709 sprites/pcx/semaphores.pcx 690 488 01 26 9 -5 -24
-  710 sprites/pcx/semaphores.pcx 706 488 01 21 12 -7 -19
-  711 sprites/pcx/semaphores.pcx 738 488 01 23 11 -6 -21
-  712 sprites/pcx/semaphores.pcx 754 488 01 23 11 0 -21
-  713 sprites/pcx/semaphores.pcx 770 488 01 26 9 0 -24
-  714 sprites/pcx/semaphores.pcx 786 488 01 23 5 -1 -21
-  715 sprites/pcx/semaphores.pcx 2 536 01 26 5 -1 -24
-  716 sprites/pcx/semaphores.pcx 18 536 01 21 5 -1 -19
-  717 sprites/pcx/semaphores.pcx 34 536 01 24 5 -1 -22
-  718 sprites/pcx/semaphores.pcx 50 536 01 21 13 -1 -19
-  719 sprites/pcx/semaphores.pcx 82 536 01 24 10 -1 -22
-  720 sprites/pcx/semaphores.pcx 98 536 01 21 13 -9 -19
-  721 sprites/pcx/semaphores.pcx 130 536 01 24 10 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs unused
-  722 sprites/pcx/semaphores.pcx 146 536 01 21 11 -8 -19
-  723 sprites/pcx/semaphores.pcx 162 536 01 23 10 -8 -21
-  724 sprites/pcx/semaphores.pcx 178 536 01 23 10 -7 -21
-  725 sprites/pcx/semaphores.pcx 194 536 01 26 8 -5 -24
-  726 sprites/pcx/semaphores.pcx 210 536 01 21 11 -7 -19
-  727 sprites/pcx/semaphores.pcx 226 536 01 23 10 -6 -21
-  728 sprites/pcx/semaphores.pcx 242 536 01 23 10 1 -21
-  729 sprites/pcx/semaphores.pcx 258 536 01 26 8 1 -24
-  730 sprites/pcx/semaphores.pcx 274 536 01 23 5 0 -21
-  731 sprites/pcx/semaphores.pcx 290 536 01 26 5 0 -24
-  732 sprites/pcx/semaphores.pcx 306 536 01 21 5 -2 -19
-  733 sprites/pcx/semaphores.pcx 322 536 01 24 5 -2 -22
-  734 sprites/pcx/semaphores.pcx 338 536 01 21 12 0 -19
-  735 sprites/pcx/semaphores.pcx 370 536 01 24 9 0 -22
-  736 sprites/pcx/semaphores.pcx 386 536 01 21 12 -9 -19
-  737 sprites/pcx/semaphores.pcx 418 536 01 24 9 -6 -22
-  738 sprites/pcx/semaphores.pcx 434 536 01 21 11 -8 -19
-  739 sprites/pcx/semaphores.pcx 450 536 01 23 10 -8 -21
-  740 sprites/pcx/semaphores.pcx 466 536 01 23 10 -7 -21
-  741 sprites/pcx/semaphores.pcx 482 536 01 26 8 -5 -24
-  742 sprites/pcx/semaphores.pcx 498 536 01 21 11 -7 -19
-  743 sprites/pcx/semaphores.pcx 514 536 01 23 10 -6 -21
-  744 sprites/pcx/semaphores.pcx 530 536 01 23 10 1 -21
-  745 sprites/pcx/semaphores.pcx 546 536 01 26 8 1 -24
-  746 sprites/pcx/semaphores.pcx 562 536 01 23 5 0 -21
-  747 sprites/pcx/semaphores.pcx 578 536 01 26 5 0 -24
-  748 sprites/pcx/semaphores.pcx 594 536 01 21 5 -2 -19
-  749 sprites/pcx/semaphores.pcx 610 536 01 24 5 -2 -22
-  750 sprites/pcx/semaphores.pcx 626 536 01 21 12 0 -19
-  751 sprites/pcx/semaphores.pcx 658 536 01 24 9 0 -22
-  752 sprites/pcx/semaphores.pcx 674 536 01 21 12 -9 -19
-  753 sprites/pcx/semaphores.pcx 706 536 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 
 
@@ -541,264 +541,264 @@
 -1 * 0   07 83 01 \7! 03 F1 //skip if not toyland
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphores
-  319 sprites/pcx/semaphores.pcx 322 120 01 21 10 -6 -19
-  320 sprites/pcx/semaphores.pcx 338 120 01 23 7 -3 -21
-  321 sprites/pcx/semaphores.pcx 354 120 01 21 10 1 -19
-  322 sprites/pcx/semaphores.pcx 370 120 01 21 9 1 -19
-  323 sprites/pcx/semaphores.pcx 386 120 01 21 9 1 -19
-  324 sprites/pcx/semaphores.pcx 402 120 01 23 6 1 -21
-  325 sprites/pcx/semaphores.pcx 418 120 01 21 10 -7 -19
-  326 sprites/pcx/semaphores.pcx 434 120 01 21 10 -7 -19
-  327 sprites/pcx/semaphores.pcx 450 120 01 21 2 1 -19
-  328 sprites/pcx/semaphores.pcx 466 120 01 24 2 1 -22
-  329 sprites/pcx/semaphores.pcx 482 120 01 23 2 1 -21
-  330 sprites/pcx/semaphores.pcx 498 120 01 26 2 1 -24
-  331 sprites/pcx/semaphores.pcx 514 120 01 21 11 -7 -19
-  332 sprites/pcx/semaphores.pcx 530 120 01 21 8 -4 -19
-  333 sprites/pcx/semaphores.pcx 546 120 01 21 11 1 -19
-  334 sprites/pcx/semaphores.pcx 562 120 01 21 8 1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore presignals
-  335 sprites/pcx/semaphores.pcx 578 120 01 21 12 -6 -19
-  336 sprites/pcx/semaphores.pcx 610 120 01 23 9 -3 -21
-  337 sprites/pcx/semaphores.pcx 626 120 01 21 12 -1 -19
-  338 sprites/pcx/semaphores.pcx 658 120 01 21 11 -1 -19
-  339 sprites/pcx/semaphores.pcx 674 120 01 21 11 -1 -19
-  340 sprites/pcx/semaphores.pcx 690 120 01 23 8 -1 -21
-  341 sprites/pcx/semaphores.pcx 706 120 01 21 12 -7 -19
-  342 sprites/pcx/semaphores.pcx 738 120 01 21 12 -7 -19
-  343 sprites/pcx/semaphores.pcx 770 120 01 21 4 1 -19
-  344 sprites/pcx/semaphores.pcx 786 120 01 24 4 1 -22
-  345 sprites/pcx/semaphores.pcx 2 168 01 23 4 -1 -21
-  346 sprites/pcx/semaphores.pcx 18 168 01 26 4 -1 -24
-  347 sprites/pcx/semaphores.pcx 34 168 01 21 13 -7 -19
-  348 sprites/pcx/semaphores.pcx 66 168 01 21 10 -4 -19
-  349 sprites/pcx/semaphores.pcx 82 168 01 21 13 -1 -19
-  350 sprites/pcx/semaphores.pcx 114 168 01 21 10 -1 -19
-  351 sprites/pcx/semaphores.pcx 130 168 01 21 11 -6 -19
-  352 sprites/pcx/semaphores.pcx 146 168 01 23 8 -3 -21
-  353 sprites/pcx/semaphores.pcx 162 168 01 21 11 0 -19
-  354 sprites/pcx/semaphores.pcx 178 168 01 21 10 0 -19
-  355 sprites/pcx/semaphores.pcx 194 168 01 21 10 0 -19
-  356 sprites/pcx/semaphores.pcx 210 168 01 23 7 0 -21
-  357 sprites/pcx/semaphores.pcx 226 168 01 21 11 -7 -19
-  358 sprites/pcx/semaphores.pcx 242 168 01 21 11 -7 -19
-  359 sprites/pcx/semaphores.pcx 258 168 01 21 4 1 -19
-  360 sprites/pcx/semaphores.pcx 274 168 01 24 4 1 -22
-  361 sprites/pcx/semaphores.pcx 290 168 01 23 4 -1 -21
-  362 sprites/pcx/semaphores.pcx 306 168 01 26 4 -1 -24
-  363 sprites/pcx/semaphores.pcx 322 168 01 21 12 -7 -19
-  364 sprites/pcx/semaphores.pcx 354 168 01 21 9 -4 -19
-  365 sprites/pcx/semaphores.pcx 370 168 01 21 12 0 -19
-  366 sprites/pcx/semaphores.pcx 402 168 01 21 9 0 -19
-  367 sprites/pcx/semaphores.pcx 418 168 01 21 11 -6 -19
-  368 sprites/pcx/semaphores.pcx 434 168 01 23 8 -3 -21
-  369 sprites/pcx/semaphores.pcx 450 168 01 21 11 0 -19
-  370 sprites/pcx/semaphores.pcx 466 168 01 21 10 0 -19
-  371 sprites/pcx/semaphores.pcx 482 168 01 21 10 0 -19
-  372 sprites/pcx/semaphores.pcx 498 168 01 23 7 0 -21
-  373 sprites/pcx/semaphores.pcx 514 168 01 21 11 -7 -19
-  374 sprites/pcx/semaphores.pcx 530 168 01 21 11 -7 -19
-  375 sprites/pcx/semaphores.pcx 546 168 01 21 4 1 -19
-  376 sprites/pcx/semaphores.pcx 562 168 01 24 4 1 -22
-  377 sprites/pcx/semaphores.pcx 578 168 01 23 4 -1 -21
-  378 sprites/pcx/semaphores.pcx 594 168 01 26 4 -1 -24
-  379 sprites/pcx/semaphores.pcx 610 168 01 21 12 -7 -19
-  380 sprites/pcx/semaphores.pcx 642 168 01 21 9 -4 -19
-  381 sprites/pcx/semaphores.pcx 658 168 01 21 12 0 -19
-  382 sprites/pcx/semaphores.pcx 690 168 01 21 9 0 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS standard toyland
- 1305 sprites/pcx/signals_pbs.pcx 150 69 01 22 5 -2 -20
- 1306 sprites/pcx/signals_pbs.pcx 166 69 01 22 5 -2 -20
- 1307 sprites/pcx/signals_pbs.pcx 182 69 01 22 4 -1 -20
- 1308 sprites/pcx/signals_pbs.pcx 198 69 01 22 4 -1 -20
- 1309 sprites/pcx/signals_pbs.pcx 214 69 01 22 4 -1 -20
- 1310 sprites/pcx/signals_pbs.pcx 230 69 01 22 4 -1 -20
- 1311 sprites/pcx/signals_pbs.pcx 246 69 01 22 5 -1 -20
- 1312 sprites/pcx/signals_pbs.pcx 262 69 01 22 5 -1 -20
- 1313 sprites/pcx/signals_pbs.pcx 278 69 01 22 5 -1 -20
- 1314 sprites/pcx/signals_pbs.pcx 294 69 01 22 5 -1 -20
- 1315 sprites/pcx/signals_pbs.pcx 310 69 01 22 5 -2 -20
- 1316 sprites/pcx/signals_pbs.pcx 326 69 01 22 5 -2 -20
- 1317 sprites/pcx/signals_pbs.pcx 341 69 01 22 6 -3 -20
- 1318 sprites/pcx/signals_pbs.pcx 357 69 01 22 6 -3 -20
- 1319 sprites/pcx/signals_pbs.pcx 373 69 01 22 6 -3 -20
- 1320 sprites/pcx/signals_pbs.pcx 389 69 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS oneway toyland
- 1321 sprites/pcx/signals_pbs.pcx 150 100 01 22 5 -2 -20
- 1322 sprites/pcx/signals_pbs.pcx 166 100 01 22 5 -2 -20
- 1323 sprites/pcx/signals_pbs.pcx 182 100 01 22 4 -1 -20
- 1324 sprites/pcx/signals_pbs.pcx 198 100 01 22 4 -1 -20
- 1325 sprites/pcx/signals_pbs.pcx 214 100 01 22 4 -1 -20
- 1326 sprites/pcx/signals_pbs.pcx 230 100 01 22 4 -1 -20
- 1327 sprites/pcx/signals_pbs.pcx 246 100 01 22 5 -1 -20
- 1328 sprites/pcx/signals_pbs.pcx 262 100 01 22 5 -1 -20
- 1329 sprites/pcx/signals_pbs.pcx 278 100 01 22 5 -1 -20
- 1330 sprites/pcx/signals_pbs.pcx 294 100 01 22 5 -1 -20
- 1331 sprites/pcx/signals_pbs.pcx 310 100 01 22 5 -2 -20
- 1332 sprites/pcx/signals_pbs.pcx 326 100 01 22 5 -2 -20
- 1333 sprites/pcx/signals_pbs.pcx 341 100 01 22 6 -3 -20
- 1334 sprites/pcx/signals_pbs.pcx 357 100 01 22 6 -3 -20
- 1335 sprites/pcx/signals_pbs.pcx 373 100 01 22 6 -3 -20
- 1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 1 toyland (standard)
- 1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
- 1220 sprites/pcx/signals_pbs.pcx 166 6 01 22 5 -2 -20
- 1221 sprites/pcx/signals_pbs.pcx 182 6 01 22 4 -1 -20
- 1222 sprites/pcx/signals_pbs.pcx 198 6 01 22 4 -1 -20
- 1223 sprites/pcx/signals_pbs.pcx 214 6 01 22 4 -1 -20
- 1224 sprites/pcx/signals_pbs.pcx 230 6 01 22 4 -1 -20
- 1225 sprites/pcx/signals_pbs.pcx 246 6 01 22 5 -1 -20
- 1226 sprites/pcx/signals_pbs.pcx 262 6 01 22 5 -1 -20
- 1227 sprites/pcx/signals_pbs.pcx 278 6 01 22 5 -1 -20
- 1228 sprites/pcx/signals_pbs.pcx 294 6 01 22 5 -1 -20
- 1229 sprites/pcx/signals_pbs.pcx 310 6 01 22 5 -2 -20
- 1230 sprites/pcx/signals_pbs.pcx 326 6 01 22 5 -2 -20
- 1231 sprites/pcx/signals_pbs.pcx 341 6 01 22 6 -3 -20
- 1232 sprites/pcx/signals_pbs.pcx 357 6 01 22 6 -3 -20
- 1233 sprites/pcx/signals_pbs.pcx 373 6 01 22 6 -3 -20
- 1234 sprites/pcx/signals_pbs.pcx 389 6 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 2 toyland (oneway)
- 1289 sprites/pcx/signals_pbs.pcx 150 36 01 22 5 -2 -20
- 1290 sprites/pcx/signals_pbs.pcx 166 36 01 22 5 -2 -20
- 1291 sprites/pcx/signals_pbs.pcx 182 36 01 22 4 -1 -20
- 1292 sprites/pcx/signals_pbs.pcx 198 36 01 22 4 -1 -20
- 1293 sprites/pcx/signals_pbs.pcx 214 36 01 22 4 -1 -20
- 1294 sprites/pcx/signals_pbs.pcx 230 36 01 22 4 -1 -20
- 1295 sprites/pcx/signals_pbs.pcx 246 36 01 22 5 -1 -20
- 1296 sprites/pcx/signals_pbs.pcx 262 36 01 22 5 -1 -20
- 1297 sprites/pcx/signals_pbs.pcx 278 36 01 22 5 -1 -20
- 1298 sprites/pcx/signals_pbs.pcx 294 36 01 22 5 -1 -20
- 1299 sprites/pcx/signals_pbs.pcx 310 36 01 22 5 -2 -20
- 1300 sprites/pcx/signals_pbs.pcx 326 36 01 22 5 -2 -20
- 1301 sprites/pcx/signals_pbs.pcx 341 36 01 22 6 -3 -20
- 1302 sprites/pcx/signals_pbs.pcx 357 36 01 22 6 -3 -20
- 1303 sprites/pcx/signals_pbs.pcx 373 36 01 22 6 -3 -20
- 1304 sprites/pcx/signals_pbs.pcx 389 36 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore PBS 2way
-  447 sprites/pcx/semaphores.pcx 130 248 01 21 10 -6 -19
-  448 sprites/pcx/semaphores.pcx 146 248 01 23 7 -3 -21
-  449 sprites/pcx/semaphores.pcx 162 248 01 21 10 1 -19
-  450 sprites/pcx/semaphores.pcx 178 248 01 21 9 1 -19
-  451 sprites/pcx/semaphores.pcx 194 248 01 21 9 1 -19
-  452 sprites/pcx/semaphores.pcx 210 248 01 23 6 1 -21
-  453 sprites/pcx/semaphores.pcx 226 248 01 21 10 -7 -19
-  454 sprites/pcx/semaphores.pcx 242 248 01 21 10 -7 -19
-  455 sprites/pcx/semaphores.pcx 258 248 01 21 2 1 -19
-  456 sprites/pcx/semaphores.pcx 274 248 01 24 2 1 -22
-  457 sprites/pcx/semaphores.pcx 290 248 01 23 2 1 -21
-  458 sprites/pcx/semaphores.pcx 306 248 01 26 2 1 -24
-  459 sprites/pcx/semaphores.pcx 322 248 01 21 11 -7 -19
-  460 sprites/pcx/semaphores.pcx 338 248 01 21 8 -4 -19
-  461 sprites/pcx/semaphores.pcx 354 248 01 21 11 1 -19
-  462 sprites/pcx/semaphores.pcx 370 248 01 21 8 1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs 1way
-  463 sprites/pcx/semaphores.pcx 386 248 01 21 12 -6 -19
-  464 sprites/pcx/semaphores.pcx 418 248 01 23 9 -3 -21
-  465 sprites/pcx/semaphores.pcx 434 248 01 21 12 -1 -19
-  466 sprites/pcx/semaphores.pcx 466 248 01 21 11 -1 -19
-  467 sprites/pcx/semaphores.pcx 482 248 01 21 11 -1 -19
-  468 sprites/pcx/semaphores.pcx 498 248 01 23 8 -1 -21
-  469 sprites/pcx/semaphores.pcx 514 248 01 21 12 -7 -19
-  470 sprites/pcx/semaphores.pcx 546 248 01 21 12 -7 -19
-  471 sprites/pcx/semaphores.pcx 578 248 01 21 4 -1 -19
-  472 sprites/pcx/semaphores.pcx 594 248 01 24 4 -1 -22
-  473 sprites/pcx/semaphores.pcx 610 248 01 23 4 1 -21
-  474 sprites/pcx/semaphores.pcx 626 248 01 26 4 1 -24
-  475 sprites/pcx/semaphores.pcx 642 248 01 21 13 -7 -19
-  476 sprites/pcx/semaphores.pcx 674 248 01 21 10 -4 -19
-  477 sprites/pcx/semaphores.pcx 690 248 01 21 13 -1 -19
-  478 sprites/pcx/semaphores.pcx 722 248 01 21 10 -1 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs unused
-  479 sprites/pcx/semaphores.pcx 738 248 01 21 11 -6 -19
-  480 sprites/pcx/semaphores.pcx 754 248 01 23 8 -3 -21
-  481 sprites/pcx/semaphores.pcx 770 248 01 21 11 0 -19
-  482 sprites/pcx/semaphores.pcx 786 248 01 21 10 0 -19
-  483 sprites/pcx/semaphores.pcx 2 296 01 21 10 0 -19
-  484 sprites/pcx/semaphores.pcx 18 296 01 23 7 0 -21
-  485 sprites/pcx/semaphores.pcx 34 296 01 21 11 -7 -19
-  486 sprites/pcx/semaphores.pcx 50 296 01 21 11 -7 -19
-  487 sprites/pcx/semaphores.pcx 66 296 01 21 4 1 -19
-  488 sprites/pcx/semaphores.pcx 82 296 01 24 4 1 -22
-  489 sprites/pcx/semaphores.pcx 98 296 01 23 4 -1 -21
-  490 sprites/pcx/semaphores.pcx 114 296 01 26 4 -1 -24
-  491 sprites/pcx/semaphores.pcx 130 296 01 21 12 -7 -19
-  492 sprites/pcx/semaphores.pcx 162 296 01 21 9 -4 -19
-  493 sprites/pcx/semaphores.pcx 178 296 01 21 12 0 -19
-  494 sprites/pcx/semaphores.pcx 210 296 01 21 9 0 -19
-  495 sprites/pcx/semaphores.pcx 226 296 01 21 11 -6 -19
-  496 sprites/pcx/semaphores.pcx 242 296 01 23 8 -3 -21
-  497 sprites/pcx/semaphores.pcx 258 296 01 21 11 0 -19
-  498 sprites/pcx/semaphores.pcx 274 296 01 21 10 0 -19
-  499 sprites/pcx/semaphores.pcx 290 296 01 21 10 0 -19
-  500 sprites/pcx/semaphores.pcx 306 296 01 23 7 0 -21
-  501 sprites/pcx/semaphores.pcx 322 296 01 21 11 -7 -19
-  502 sprites/pcx/semaphores.pcx 338 296 01 21 11 -7 -19
-  503 sprites/pcx/semaphores.pcx 354 296 01 21 4 1 -19
-  504 sprites/pcx/semaphores.pcx 370 296 01 24 4 1 -22
-  505 sprites/pcx/semaphores.pcx 386 296 01 23 4 -1 -21
-  506 sprites/pcx/semaphores.pcx 402 296 01 26 4 -1 -24
-  507 sprites/pcx/semaphores.pcx 418 296 01 21 12 -7 -19
-  508 sprites/pcx/semaphores.pcx 450 296 01 21 9 -4 -19
-  509 sprites/pcx/semaphores.pcx 466 296 01 21 12 0 -19
-  510 sprites/pcx/semaphores.pcx 498 296 01 21 9 0 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 
 
@@ -811,262 +811,262 @@
 -1 * 0   07 86 01 \70 04 F1 //skip if drive side not right
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphores
-  562 sprites/pcx/semaphores.pcx 530 344 01 21 10 -7 -19
-  563 sprites/pcx/semaphores.pcx 546 344 01 23 10 -8 -21
-  564 sprites/pcx/semaphores.pcx 562 344 01 23 10 -7 -21
-  565 sprites/pcx/semaphores.pcx 578 344 01 26 7 -5 -24
-  566 sprites/pcx/semaphores.pcx 594 344 01 21 10 -7 -19
-  567 sprites/pcx/semaphores.pcx 610 344 01 23 10 -6 -21
-  568 sprites/pcx/semaphores.pcx 626 344 01 23 10 1 -21
-  569 sprites/pcx/semaphores.pcx 642 344 01 26 7 2 -24
-  570 sprites/pcx/semaphores.pcx 658 344 01 23 3 0 -21
-  571 sprites/pcx/semaphores.pcx 674 344 01 26 3 0 -24
-  572 sprites/pcx/semaphores.pcx 690 344 01 21 3 0 -19
-  573 sprites/pcx/semaphores.pcx 706 344 01 24 3 0 -22
-  574 sprites/pcx/semaphores.pcx 722 344 01 21 12 0 -19
-  575 sprites/pcx/semaphores.pcx 754 344 01 24 9 0 -22
-  576 sprites/pcx/semaphores.pcx 770 344 01 21 12 -9 -19
-  577 sprites/pcx/semaphores.pcx 2 392 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore presignals
-  578 sprites/pcx/semaphores.pcx 18 392 01 21 12 -9 -19
-  579 sprites/pcx/semaphores.pcx 50 392 01 23 11 -9 -21
-  580 sprites/pcx/semaphores.pcx 66 392 01 23 11 -7 -21
-  581 sprites/pcx/semaphores.pcx 82 392 01 26 9 -5 -24
-  582 sprites/pcx/semaphores.pcx 98 392 01 21 12 -7 -19
-  583 sprites/pcx/semaphores.pcx 130 392 01 23 11 -6 -21
-  584 sprites/pcx/semaphores.pcx 146 392 01 23 11 0 -21
-  585 sprites/pcx/semaphores.pcx 162 392 01 26 9 0 -24
-  586 sprites/pcx/semaphores.pcx 178 392 01 23 5 0 -21
-  587 sprites/pcx/semaphores.pcx 194 392 01 26 5 0 -24
-  588 sprites/pcx/semaphores.pcx 210 392 01 21 5 -2 -19
-  589 sprites/pcx/semaphores.pcx 226 392 01 24 5 -2 -22
-  590 sprites/pcx/semaphores.pcx 242 392 01 21 13 -1 -19
-  591 sprites/pcx/semaphores.pcx 274 392 01 24 10 -1 -22
-  592 sprites/pcx/semaphores.pcx 290 392 01 21 13 -9 -19
-  593 sprites/pcx/semaphores.pcx 322 392 01 24 10 -6 -22
-  594 sprites/pcx/semaphores.pcx 338 392 01 21 11 -8 -19
-  595 sprites/pcx/semaphores.pcx 354 392 01 23 10 -8 -21
-  596 sprites/pcx/semaphores.pcx 370 392 01 23 10 -7 -21
-  597 sprites/pcx/semaphores.pcx 386 392 01 26 8 -5 -24
-  598 sprites/pcx/semaphores.pcx 402 392 01 21 11 -7 -19
-  599 sprites/pcx/semaphores.pcx 418 392 01 23 10 -6 -21
-  600 sprites/pcx/semaphores.pcx 434 392 01 23 10 1 -21
-  601 sprites/pcx/semaphores.pcx 450 392 01 26 8 1 -24
-  602 sprites/pcx/semaphores.pcx 466 392 01 23 5 0 -21
-  603 sprites/pcx/semaphores.pcx 482 392 01 26 5 0 -24
-  604 sprites/pcx/semaphores.pcx 498 392 01 21 5 -2 -19
-  605 sprites/pcx/semaphores.pcx 514 392 01 24 5 -2 -22
-  606 sprites/pcx/semaphores.pcx 530 392 01 21 12 0 -19
-  607 sprites/pcx/semaphores.pcx 562 392 01 24 9 0 -22
-  608 sprites/pcx/semaphores.pcx 578 392 01 21 12 -9 -19
-  609 sprites/pcx/semaphores.pcx 610 392 01 24 9 -6 -22
-  610 sprites/pcx/semaphores.pcx 626 392 01 21 11 -8 -19
-  611 sprites/pcx/semaphores.pcx 642 392 01 23 10 -8 -21
-  612 sprites/pcx/semaphores.pcx 658 392 01 23 10 -7 -21
-  613 sprites/pcx/semaphores.pcx 674 392 01 26 8 -5 -24
-  614 sprites/pcx/semaphores.pcx 690 392 01 21 11 -7 -19
-  615 sprites/pcx/semaphores.pcx 706 392 01 23 10 -6 -21
-  616 sprites/pcx/semaphores.pcx 722 392 01 23 10 1 -21
-  617 sprites/pcx/semaphores.pcx 738 392 01 26 8 1 -24
-  618 sprites/pcx/semaphores.pcx 754 392 01 23 5 0 -21
-  619 sprites/pcx/semaphores.pcx 770 392 01 26 5 0 -24
-  620 sprites/pcx/semaphores.pcx 786 392 01 21 5 -2 -19
-  621 sprites/pcx/semaphores.pcx 2 440 01 24 5 -2 -22
-  622 sprites/pcx/semaphores.pcx 18 440 01 21 12 0 -19
-  623 sprites/pcx/semaphores.pcx 50 440 01 24 9 0 -22
-  624 sprites/pcx/semaphores.pcx 66 440 01 21 12 -9 -19
-  625 sprites/pcx/semaphores.pcx 98 440 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS standard toyland
- 1305 sprites/pcx/signals_pbs.pcx 150 69 01 22 5 -2 -20
- 1306 sprites/pcx/signals_pbs.pcx 166 69 01 22 5 -2 -20
- 1307 sprites/pcx/signals_pbs.pcx 182 69 01 22 4 -1 -20
- 1308 sprites/pcx/signals_pbs.pcx 198 69 01 22 4 -1 -20
- 1309 sprites/pcx/signals_pbs.pcx 214 69 01 22 4 -1 -20
- 1310 sprites/pcx/signals_pbs.pcx 230 69 01 22 4 -1 -20
- 1311 sprites/pcx/signals_pbs.pcx 246 69 01 22 5 -1 -20
- 1312 sprites/pcx/signals_pbs.pcx 262 69 01 22 5 -1 -20
- 1313 sprites/pcx/signals_pbs.pcx 278 69 01 22 5 -1 -20
- 1314 sprites/pcx/signals_pbs.pcx 294 69 01 22 5 -1 -20
- 1315 sprites/pcx/signals_pbs.pcx 310 69 01 22 5 -2 -20
- 1316 sprites/pcx/signals_pbs.pcx 326 69 01 22 5 -2 -20
- 1317 sprites/pcx/signals_pbs.pcx 341 69 01 22 6 -3 -20
- 1318 sprites/pcx/signals_pbs.pcx 357 69 01 22 6 -3 -20
- 1319 sprites/pcx/signals_pbs.pcx 373 69 01 22 6 -3 -20
- 1320 sprites/pcx/signals_pbs.pcx 389 69 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS oneway toyland
- 1321 sprites/pcx/signals_pbs.pcx 150 100 01 22 5 -2 -20
- 1322 sprites/pcx/signals_pbs.pcx 166 100 01 22 5 -2 -20
- 1323 sprites/pcx/signals_pbs.pcx 182 100 01 22 4 -1 -20
- 1324 sprites/pcx/signals_pbs.pcx 198 100 01 22 4 -1 -20
- 1325 sprites/pcx/signals_pbs.pcx 214 100 01 22 4 -1 -20
- 1326 sprites/pcx/signals_pbs.pcx 230 100 01 22 4 -1 -20
- 1327 sprites/pcx/signals_pbs.pcx 246 100 01 22 5 -1 -20
- 1328 sprites/pcx/signals_pbs.pcx 262 100 01 22 5 -1 -20
- 1329 sprites/pcx/signals_pbs.pcx 278 100 01 22 5 -1 -20
- 1330 sprites/pcx/signals_pbs.pcx 294 100 01 22 5 -1 -20
- 1331 sprites/pcx/signals_pbs.pcx 310 100 01 22 5 -2 -20
- 1332 sprites/pcx/signals_pbs.pcx 326 100 01 22 5 -2 -20
- 1333 sprites/pcx/signals_pbs.pcx 341 100 01 22 6 -3 -20
- 1334 sprites/pcx/signals_pbs.pcx 357 100 01 22 6 -3 -20
- 1335 sprites/pcx/signals_pbs.pcx 373 100 01 22 6 -3 -20
- 1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 1 toyland (standard)
- 1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
- 1220 sprites/pcx/signals_pbs.pcx 166 6 01 22 5 -2 -20
- 1221 sprites/pcx/signals_pbs.pcx 182 6 01 22 4 -1 -20
- 1222 sprites/pcx/signals_pbs.pcx 198 6 01 22 4 -1 -20
- 1223 sprites/pcx/signals_pbs.pcx 214 6 01 22 4 -1 -20
- 1224 sprites/pcx/signals_pbs.pcx 230 6 01 22 4 -1 -20
- 1225 sprites/pcx/signals_pbs.pcx 246 6 01 22 5 -1 -20
- 1226 sprites/pcx/signals_pbs.pcx 262 6 01 22 5 -1 -20
- 1227 sprites/pcx/signals_pbs.pcx 278 6 01 22 5 -1 -20
- 1228 sprites/pcx/signals_pbs.pcx 294 6 01 22 5 -1 -20
- 1229 sprites/pcx/signals_pbs.pcx 310 6 01 22 5 -2 -20
- 1230 sprites/pcx/signals_pbs.pcx 326 6 01 22 5 -2 -20
- 1231 sprites/pcx/signals_pbs.pcx 341 6 01 22 6 -3 -20
- 1232 sprites/pcx/signals_pbs.pcx 357 6 01 22 6 -3 -20
- 1233 sprites/pcx/signals_pbs.pcx 373 6 01 22 6 -3 -20
- 1234 sprites/pcx/signals_pbs.pcx 389 6 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //PBS unused type 2 toyland (oneway)
- 1289 sprites/pcx/signals_pbs.pcx 150 36 01 22 5 -2 -20
- 1290 sprites/pcx/signals_pbs.pcx 166 36 01 22 5 -2 -20
- 1291 sprites/pcx/signals_pbs.pcx 182 36 01 22 4 -1 -20
- 1292 sprites/pcx/signals_pbs.pcx 198 36 01 22 4 -1 -20
- 1293 sprites/pcx/signals_pbs.pcx 214 36 01 22 4 -1 -20
- 1294 sprites/pcx/signals_pbs.pcx 230 36 01 22 4 -1 -20
- 1295 sprites/pcx/signals_pbs.pcx 246 36 01 22 5 -1 -20
- 1296 sprites/pcx/signals_pbs.pcx 262 36 01 22 5 -1 -20
- 1297 sprites/pcx/signals_pbs.pcx 278 36 01 22 5 -1 -20
- 1298 sprites/pcx/signals_pbs.pcx 294 36 01 22 5 -1 -20
- 1299 sprites/pcx/signals_pbs.pcx 310 36 01 22 5 -2 -20
- 1300 sprites/pcx/signals_pbs.pcx 326 36 01 22 5 -2 -20
- 1301 sprites/pcx/signals_pbs.pcx 341 36 01 22 6 -3 -20
- 1302 sprites/pcx/signals_pbs.pcx 357 36 01 22 6 -3 -20
- 1303 sprites/pcx/signals_pbs.pcx 373 36 01 22 6 -3 -20
- 1304 sprites/pcx/signals_pbs.pcx 389 36 01 22 6 -3 -20
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore PBS 2way
-  690 sprites/pcx/semaphores.pcx 338 488 01 21 10 -7 -19
-  691 sprites/pcx/semaphores.pcx 354 488 01 23 10 -8 -21
-  692 sprites/pcx/semaphores.pcx 370 488 01 23 10 -7 -21
-  693 sprites/pcx/semaphores.pcx 386 488 01 26 7 -5 -24
-  694 sprites/pcx/semaphores.pcx 402 488 01 21 10 -7 -19
-  695 sprites/pcx/semaphores.pcx 418 488 01 23 10 -6 -21
-  696 sprites/pcx/semaphores.pcx 434 488 01 23 10 1 -21
-  697 sprites/pcx/semaphores.pcx 450 488 01 26 7 2 -24
-  698 sprites/pcx/semaphores.pcx 466 488 01 23 3 0 -21
-  699 sprites/pcx/semaphores.pcx 482 488 01 26 3 0 -24
-  700 sprites/pcx/semaphores.pcx 498 488 01 21 3 0 -19
-  701 sprites/pcx/semaphores.pcx 514 488 01 24 3 0 -22
-  702 sprites/pcx/semaphores.pcx 530 488 01 21 12 0 -19
-  703 sprites/pcx/semaphores.pcx 562 488 01 24 9 0 -22
-  704 sprites/pcx/semaphores.pcx 578 488 01 21 12 -9 -19
-  705 sprites/pcx/semaphores.pcx 610 488 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs 1way
-  706 sprites/pcx/semaphores.pcx 626 488 01 21 12 -9 -19
-  707 sprites/pcx/semaphores.pcx 658 488 01 23 11 -9 -21
-  708 sprites/pcx/semaphores.pcx 674 488 01 23 11 -7 -21
-  709 sprites/pcx/semaphores.pcx 690 488 01 26 9 -5 -24
-  710 sprites/pcx/semaphores.pcx 706 488 01 21 12 -7 -19
-  711 sprites/pcx/semaphores.pcx 738 488 01 23 11 -6 -21
-  712 sprites/pcx/semaphores.pcx 754 488 01 23 11 0 -21
-  713 sprites/pcx/semaphores.pcx 770 488 01 26 9 0 -24
-  714 sprites/pcx/semaphores.pcx 786 488 01 23 5 -1 -21
-  715 sprites/pcx/semaphores.pcx 2 536 01 26 5 -1 -24
-  716 sprites/pcx/semaphores.pcx 18 536 01 21 5 -1 -19
-  717 sprites/pcx/semaphores.pcx 34 536 01 24 5 -1 -22
-  718 sprites/pcx/semaphores.pcx 50 536 01 21 13 -1 -19
-  719 sprites/pcx/semaphores.pcx 82 536 01 24 10 -1 -22
-  720 sprites/pcx/semaphores.pcx 98 536 01 21 13 -9 -19
-  721 sprites/pcx/semaphores.pcx 130 536 01 24 10 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //semaphore pbs unused
-  722 sprites/pcx/semaphores.pcx 146 536 01 21 11 -8 -19
-  723 sprites/pcx/semaphores.pcx 162 536 01 23 10 -8 -21
-  724 sprites/pcx/semaphores.pcx 178 536 01 23 10 -7 -21
-  725 sprites/pcx/semaphores.pcx 194 536 01 26 8 -5 -24
-  726 sprites/pcx/semaphores.pcx 210 536 01 21 11 -7 -19
-  727 sprites/pcx/semaphores.pcx 226 536 01 23 10 -6 -21
-  728 sprites/pcx/semaphores.pcx 242 536 01 23 10 1 -21
-  729 sprites/pcx/semaphores.pcx 258 536 01 26 8 1 -24
-  730 sprites/pcx/semaphores.pcx 274 536 01 23 5 0 -21
-  731 sprites/pcx/semaphores.pcx 290 536 01 26 5 0 -24
-  732 sprites/pcx/semaphores.pcx 306 536 01 21 5 -2 -19
-  733 sprites/pcx/semaphores.pcx 322 536 01 24 5 -2 -22
-  734 sprites/pcx/semaphores.pcx 338 536 01 21 12 0 -19
-  735 sprites/pcx/semaphores.pcx 370 536 01 24 9 0 -22
-  736 sprites/pcx/semaphores.pcx 386 536 01 21 12 -9 -19
-  737 sprites/pcx/semaphores.pcx 418 536 01 24 9 -6 -22
-  738 sprites/pcx/semaphores.pcx 434 536 01 21 11 -8 -19
-  739 sprites/pcx/semaphores.pcx 450 536 01 23 10 -8 -21
-  740 sprites/pcx/semaphores.pcx 466 536 01 23 10 -7 -21
-  741 sprites/pcx/semaphores.pcx 482 536 01 26 8 -5 -24
-  742 sprites/pcx/semaphores.pcx 498 536 01 21 11 -7 -19
-  743 sprites/pcx/semaphores.pcx 514 536 01 23 10 -6 -21
-  744 sprites/pcx/semaphores.pcx 530 536 01 23 10 1 -21
-  745 sprites/pcx/semaphores.pcx 546 536 01 26 8 1 -24
-  746 sprites/pcx/semaphores.pcx 562 536 01 23 5 0 -21
-  747 sprites/pcx/semaphores.pcx 578 536 01 26 5 0 -24
-  748 sprites/pcx/semaphores.pcx 594 536 01 21 5 -2 -19
-  749 sprites/pcx/semaphores.pcx 610 536 01 24 5 -2 -22
-  750 sprites/pcx/semaphores.pcx 626 536 01 21 12 0 -19
-  751 sprites/pcx/semaphores.pcx 658 536 01 24 9 0 -22
-  752 sprites/pcx/semaphores.pcx 674 536 01 21 12 -9 -19
-  753 sprites/pcx/semaphores.pcx 706 536 01 24 9 -6 -22
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 

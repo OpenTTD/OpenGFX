@@ -1,17 +1,17 @@
 //531-534 rail level crossing land type 2
-  600 sprites/pcx/infra06.pcx 626 3320 09 31 64 -31 0
-  601 sprites/pcx/infra06.pcx 706 3320 09 31 64 -31 0
-  602 sprites/pcx/infra06.pcx 2 3368 09 31 64 -31 0
-  603 sprites/pcx/infra06.pcx 82 3368 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //535-538 monorail level crossing land type 2
-  636 sprites/pcx/infra06.pcx 370 3464 09 31 64 -31 0
-  637 sprites/pcx/infra06.pcx 450 3464 09 31 64 -31 0
-  638 sprites/pcx/infra06.pcx 530 3464 09 31 64 -31 0
-  639 sprites/pcx/infra06.pcx 610 3464 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //539-542 maglev level crossing land type 2
-  672 sprites/pcx/infra06.pcx 114 3608 09 31 64 -31 0
-  673 sprites/pcx/infra06.pcx 194 3608 09 31 64 -31 0
-  674 sprites/pcx/infra06.pcx 274 3608 09 31 64 -31 0
-  675 sprites/pcx/infra06.pcx 354 3608 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY

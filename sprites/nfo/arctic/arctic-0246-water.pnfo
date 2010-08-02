@@ -1,21 +1,21 @@
 //246-254 water + coastlines
-  841 sprites/pcx/terrain04.pcx 594 5208 09 31 64 -31 0
-  854 sprites/pcx/terrain04.pcx 594 5272 09 31 64 -31 0
-  855 sprites/pcx/terrain04.pcx 674 5272 09 31 64 -31 0
-  856 sprites/pcx/terrain04.pcx 2 5336 09 23 64 -31 0
-  857 sprites/pcx/terrain04.pcx 82 5336 09 39 64 -31 -8
-  858 sprites/pcx/terrain04.pcx 162 5336 09 23 64 -31 0
-  859 sprites/pcx/terrain04.pcx 242 5336 09 39 64 -31 -8
-  860 sprites/pcx/terrain04.pcx 322 5336 09 23 64 -31 0
-  861 sprites/pcx/terrain04.pcx 402 5336 09 39 64 -31 -8
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //255-260 ship depots
-  940 sprites/pcx/infra06.pcx 386 5080 09 64 64 -61 -48
-  941 sprites/pcx/infra06.pcx 466 5080 09 64 64 -1 -47
-  942 sprites/pcx/infra06.pcx 546 5080 09 53 32 -29 -37
-  943 sprites/pcx/infra06.pcx 594 5080 09 53 32 -1 -36
-  944 sprites/pcx/infra06.pcx 642 5080 09 13 14 -31 2
-  945 sprites/pcx/infra06.pcx 674 5080 09 13 14 19 3
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //261 buoy
- 1186 sprites/pcx/random.pcx 283 10 09 31 64 -31 0
+EMPTY

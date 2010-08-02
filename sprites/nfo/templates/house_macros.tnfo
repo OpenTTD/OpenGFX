@@ -1,13 +1,13 @@
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 // house width: 64
-#define HOUSE_HEIGHT149(FILE, Y)        0 FILE 0 Y 09 149 64 -31 -119
+#define HOUSE_HEIGHT149(FILE, Y)        0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 
 #define HOUSE_HEIGHT149_1(FILE)         HOUSE_HEIGHT149(FILE, 0)
 #define HOUSE_HEIGHT149_2(FILE)         HOUSE_HEIGHT149(FILE, 150)
 #define HOUSE_HEIGHT149_3(FILE)         HOUSE_HEIGHT149(FILE, 300)
 
 // house width: 66 (1px boarder on each side)
-#define HOUSE_HEIGHT87(FILE, Y)         0 FILE 0 Y 09 87 66 -32 -56
+#define HOUSE_HEIGHT87(FILE, Y)         0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 
 #define HOUSE_HEIGHT87_1(FILE)          HOUSE_HEIGHT87(FILE, 0)
 #define HOUSE_HEIGHT87_2(FILE)          HOUSE_HEIGHT87(FILE, 88)

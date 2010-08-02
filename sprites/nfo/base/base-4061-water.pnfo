@@ -1,23 +1,23 @@
 //4061-4069 water and coast tiles
 // plain water tile
-  841 sprites/pcx/terrain04.pcx 594 5208 09 31 64 -31 0
+EMPTY
 // coastal tiles
-  844 sprites/pcx/terrain04.pcx 706 5208 09 31 64 -31 0
-  845 sprites/pcx/terrain04.pcx 2 5272 09 31 64 -31 0
-  846 sprites/pcx/terrain04.pcx 82 5272 09 23 64 -31 0
-  847 sprites/pcx/terrain04.pcx 162 5272 09 39 64 -31 -8
-  848 sprites/pcx/terrain04.pcx 242 5272 09 23 64 -31 0
-  849 sprites/pcx/terrain04.pcx 322 5272 09 39 64 -31 -8
-  850 sprites/pcx/terrain04.pcx 402 5272 09 23 64 -31 0
-  851 sprites/pcx/terrain04.pcx 482 5272 09 39 64 -31 -8
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //4070-4075 ship depot
-  940 sprites/pcx/infra06.pcx 386 5080 09 64 64 -61 -48
-  941 sprites/pcx/infra06.pcx 466 5080 09 64 64 -1 -47
-  942 sprites/pcx/infra06.pcx 546 5080 09 53 32 -29 -37
-  943 sprites/pcx/infra06.pcx 594 5080 09 53 32 -1 -36
-  944 sprites/pcx/infra06.pcx 642 5080 09 13 14 -31 2
-  945 sprites/pcx/infra06.pcx 674 5080 09 13 14 19 3
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //4076 buoy
- 1186 sprites/pcx/random.pcx 283 10 09 31 64 -31 0
+EMPTY

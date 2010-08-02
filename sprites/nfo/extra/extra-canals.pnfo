@@ -1,74 +1,74 @@
  1173 * 25       0C "Canal graphics"
  1174 * 3        05 08 41
 //sloped water
-   12 sprites/pcx/waterfeatures.pcx 658 8 09 23 64 -31 0
-   13 sprites/pcx/waterfeatures.pcx 2 72 09 39 64 -31 -8
-   14 sprites/pcx/waterfeatures.pcx 82 72 09 23 64 -31 0
-   15 sprites/pcx/waterfeatures.pcx 162 72 09 39 64 -31 -8
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //locks
-   10 sprites/pcx/redstardocks.pcx 562 8 09 62 64 -5 -50
-   11 sprites/pcx/redstardocks.pcx 642 8 09 62 64 -57 -41
-   12 sprites/pcx/redstardocks.pcx 722 8 09 62 64 -57 -50
-   13 sprites/pcx/redstardocks.pcx 2 88 09 62 64 -7 -42
-   14 sprites/pcx/redstardocks.pcx 82 88 09 62 64 0 -52
-   15 sprites/pcx/redstardocks.pcx 162 88 09 62 64 -63 -44
-   16 sprites/pcx/redstardocks.pcx 242 88 09 62 64 -62 -52
-   17 sprites/pcx/redstardocks.pcx 322 88 09 62 64 -1 -45
-   18 sprites/pcx/redstardocks.pcx 402 88 09 62 64 -7 -42
-   19 sprites/pcx/redstardocks.pcx 482 88 09 60 64 -57 -40
-   20 sprites/pcx/redstardocks.pcx 562 88 09 62 66 -57 -41
-   21 sprites/pcx/redstardocks.pcx 642 88 09 60 64 -5 -40
-   22 sprites/pcx/redstardocks.pcx 722 88 09 62 64 -2 -45
-   23 sprites/pcx/redstardocks.pcx 2 168 09 60 64 -63 -44
-   24 sprites/pcx/redstardocks.pcx 82 168 09 62 66 -62 -45
-   25 sprites/pcx/redstardocks.pcx 162 168 09 60 64 1 -44
-   26 sprites/pcx/redstardocks.pcx 242 168 09 60 64 -5 -41
-   27 sprites/pcx/redstardocks.pcx 322 168 09 62 68 -57 -42
-   28 sprites/pcx/redstardocks.pcx 402 168 09 60 64 -57 -41
-   29 sprites/pcx/redstardocks.pcx 482 168 09 62 64 -7 -43
-   30 sprites/pcx/redstardocks.pcx 562 168 09 60 64 0 -44
-   31 sprites/pcx/redstardocks.pcx 642 168 09 62 68 -63 -44
-   32 sprites/pcx/redstardocks.pcx 722 168 09 60 64 -62 -44
-   33 sprites/pcx/redstardocks.pcx 2 248 09 62 64 -1 -45
-   10 sprites/pcx/redstardocks.pcx 562 8 09 62 64 -5 -50
-   11 sprites/pcx/redstardocks.pcx 642 8 09 62 64 -57 -41
-   12 sprites/pcx/redstardocks.pcx 722 8 09 62 64 -57 -50
-   13 sprites/pcx/redstardocks.pcx 2 88 09 62 64 -7 -42
-   14 sprites/pcx/redstardocks.pcx 82 88 09 62 64 0 -52
-   15 sprites/pcx/redstardocks.pcx 162 88 09 62 64 -63 -44
-   16 sprites/pcx/redstardocks.pcx 242 88 09 62 64 -62 -52
-   17 sprites/pcx/redstardocks.pcx 322 88 09 62 64 -1 -45
-   18 sprites/pcx/redstardocks.pcx 402 88 09 62 64 -7 -42
-   19 sprites/pcx/redstardocks.pcx 482 88 09 60 64 -57 -40
-   20 sprites/pcx/redstardocks.pcx 562 88 09 62 66 -57 -41
-   21 sprites/pcx/redstardocks.pcx 642 88 09 60 64 -5 -40
-   22 sprites/pcx/redstardocks.pcx 722 88 09 62 64 -2 -45
-   23 sprites/pcx/redstardocks.pcx 2 168 09 60 64 -63 -44
-   24 sprites/pcx/redstardocks.pcx 82 168 09 62 66 -62 -45
-   25 sprites/pcx/redstardocks.pcx 162 168 09 60 64 1 -44
-   26 sprites/pcx/redstardocks.pcx 242 168 09 60 64 -5 -41
-   27 sprites/pcx/redstardocks.pcx 322 168 09 62 68 -57 -42
-   28 sprites/pcx/redstardocks.pcx 402 168 09 60 64 -57 -41
-   29 sprites/pcx/redstardocks.pcx 482 168 09 62 64 -7 -43
-   30 sprites/pcx/redstardocks.pcx 562 168 09 60 64 0 -44
-   31 sprites/pcx/redstardocks.pcx 642 168 09 62 68 -63 -44
-   32 sprites/pcx/redstardocks.pcx 722 168 09 60 64 -62 -44
-   33 sprites/pcx/redstardocks.pcx 2 248 09 62 64 -1 -45
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //canal watersides
-   53 sprites/pcx/waterfeatures.pcx 338 312 09 19 38 -5 0
-   54 sprites/pcx/waterfeatures.pcx 386 312 09 18 38 -5 13
-   55 sprites/pcx/waterfeatures.pcx 434 312 09 18 38 -31 13
-   56 sprites/pcx/waterfeatures.pcx 482 312 09 19 38 -31 0
-   57 sprites/pcx/waterfeatures.pcx 530 312 09 9 19 14 11
-   58 sprites/pcx/waterfeatures.pcx 562 312 09 9 16 -7 22
-   59 sprites/pcx/waterfeatures.pcx 594 312 09 9 19 -31 11
-   60 sprites/pcx/waterfeatures.pcx 626 312 09 9 16 -7 0
-   61 sprites/pcx/waterfeatures.pcx 658 312 09 6 8 25 13
-   62 sprites/pcx/waterfeatures.pcx 674 312 09 4 12 -5 27
-   63 sprites/pcx/waterfeatures.pcx 706 312 09 6 8 -31 13
-   64 sprites/pcx/waterfeatures.pcx 722 312 09 5 12 -5 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //GUI
-  394 sprites/pcx/gui04.pcx 594 952 09 20 20 0 0
+EMPTY

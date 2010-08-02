@@ -1,18 +1,18 @@
 //990-1003 foundations
--1 sprites/pcx/landscape031.pcx 210 1176 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 290 1176 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 370 1176 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 450 1176 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 530 1176 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 610 1176 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 690 1176 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 2 1240 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 82 1240 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 162 1240 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 242 1240 49 32 64 -31 -9
--1 sprites/pcx/landscape031.pcx 322 1240 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 402 1240 49 40 64 -31 -9
--1 sprites/pcx/landscape031.pcx 482 1240 49 32 64 -31 -9
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //1004 map edge
-  839 sprites/pcx/terrain04.pcx 498 5208 09 31 64 -31 0
+EMPTY

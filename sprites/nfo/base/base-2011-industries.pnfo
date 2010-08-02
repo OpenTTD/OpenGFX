@@ -1,404 +1,404 @@
 //2011-2364 industries
 //2011-2025 coal mine
-    3 sprites/pcx/industries010.pcx 66 8 03 26 37 -17 -8
-    4 sprites/pcx/industries010.pcx 114 8 03 50 36 -16 -33
-    5 sprites/pcx/industries010.pcx 162 8 09 50 58 -16 -33
-    6 sprites/pcx/industries010.pcx 226 8 09 50 58 -16 -33
-    7 sprites/pcx/industries010.pcx 290 8 09 50 58 -16 -33
-    8 sprites/pcx/industries010.pcx 354 8 03 32 49 -30 -9
-    9 sprites/pcx/industries010.pcx 418 8 03 41 48 -29 -18
-   10 sprites/pcx/industries010.pcx 482 8 09 41 48 -29 -18
-   11 sprites/pcx/industries010.pcx 546 8 03 30 36 -16 -12
-   12 sprites/pcx/industries010.pcx 594 8 03 43 36 -16 -25
-   13 sprites/pcx/industries010.pcx 642 8 09 43 36 -16 -25
-   14 sprites/pcx/industries010.pcx 690 8 09 31 64 -31 0
-   15 sprites/pcx/industries010.pcx 2 72 09 31 64 -31 0
-   16 sprites/pcx/industries010.pcx 82 72 09 31 64 -31 0
-   17 sprites/pcx/industries010.pcx 162 72 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2026-2039 copper ore mine
-   19 sprites/pcx/industries010.pcx 258 72 03 30 32 -14 -15
-   20 sprites/pcx/industries010.pcx 306 72 03 45 32 -14 -30
-   21 sprites/pcx/industries010.pcx 354 72 09 54 47 -15 -39
-   22 sprites/pcx/industries010.pcx 418 72 09 54 47 -15 -39
-   23 sprites/pcx/industries010.pcx 482 72 09 54 47 -15 -39
-   24 sprites/pcx/industries010.pcx 546 72 03 31 32 -18 -15
-   25 sprites/pcx/industries010.pcx 594 72 03 49 32 -18 -33
-   26 sprites/pcx/industries010.pcx 642 72 09 49 32 -18 -33
-   27 sprites/pcx/industries010.pcx 690 72 03 29 28 -12 -15
-   28 sprites/pcx/industries010.pcx 738 72 03 32 28 -12 -18
-   29 sprites/pcx/industries010.pcx 2 136 09 33 30 -13 -19
-   30 sprites/pcx/industries010.pcx 50 136 03 31 46 -20 -8
-   31 sprites/pcx/industries010.pcx 114 136 03 31 46 -20 -8
-   32 sprites/pcx/industries010.pcx 178 136 09 32 47 -21 -9
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2040-2044 grey smoke effect
-   33 sprites/pcx/industries010.pcx 242 136 01 8 8 -4 -4
-   34 sprites/pcx/industries010.pcx 258 136 01 10 12 -6 -5
-   35 sprites/pcx/industries010.pcx 290 136 01 10 14 -7 -5
-   36 sprites/pcx/industries010.pcx 322 136 01 12 15 -7 -6
-   37 sprites/pcx/industries010.pcx 354 136 01 14 16 -8 -7
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2045-2054 power plant
-  157 sprites/pcx/industries010.pcx 706 792 03 20 43 -21 2
-  158 sprites/pcx/industries010.pcx 754 792 03 56 43 -21 -34
-  159 sprites/pcx/industries010.pcx 2 872 09 56 43 -21 -34
-  160 sprites/pcx/industries010.pcx 50 872 03 29 50 -31 -4
-  161 sprites/pcx/industries010.pcx 114 872 03 51 50 -31 -26
-  162 sprites/pcx/industries010.pcx 178 872 09 58 50 -31 -33
-  163 sprites/pcx/industries010.pcx 242 872 03 17 30 -14 -3
-  164 sprites/pcx/industries010.pcx 290 872 03 28 27 -13 -14
-  165 sprites/pcx/industries010.pcx 322 872 09 41 34 -13 -14
-  166 sprites/pcx/industries010.pcx 370 872 09 52 49 -26 -29
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2055-2060 power plant spark effect
-  167 sprites/pcx/industries010.pcx 434 872 09 26 16 0 0
-  168 sprites/pcx/industries010.pcx 466 872 09 36 21 0 0
-  169 sprites/pcx/industries010.pcx 498 872 09 34 28 0 0
-  170 sprites/pcx/industries010.pcx 546 872 09 33 34 0 0
-  171 sprites/pcx/industries010.pcx 594 872 09 16 30 0 0
-  172 sprites/pcx/industries010.pcx 642 872 09 14 34 0 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2061-2071 sawmill
-   55 sprites/pcx/industries010.pcx 722 200 03 30 51 -24 -4
-   56 sprites/pcx/industries010.pcx 2 280 03 43 48 -23 -17
-   57 sprites/pcx/industries010.pcx 66 280 09 44 51 -24 -18
-   58 sprites/pcx/industries010.pcx 130 280 03 26 40 -10 -6
-   59 sprites/pcx/industries010.pcx 178 280 03 37 40 -10 -17
-   60 sprites/pcx/industries010.pcx 226 280 09 45 55 -26 -17
-   61 sprites/pcx/industries010.pcx 290 280 03 38 54 -27 -12
-   62 sprites/pcx/industries010.pcx 354 280 03 38 54 -27 -12
-   63 sprites/pcx/industries010.pcx 418 280 09 40 53 -26 -14
-   64 sprites/pcx/industries010.pcx 482 280 09 37 54 -30 -11
-   65 sprites/pcx/industries010.pcx 546 280 09 38 45 -31 -13
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2072-2077 forest
-  121 sprites/pcx/random.pcx 10 136 09 67 64 -31 -39
-  122 sprites/pcx/random.pcx 80 136 09 67 64 -31 -39
-  123 sprites/pcx/random.pcx 150 136 09 67 64 -31 -39
-  124 sprites/pcx/random.pcx 220 136 09 67 64 -31 -39
-  125 sprites/pcx/random.pcx 290 136 09 67 64 -31 -39
-  126 sprites/pcx/random.pcx 360 176 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2078-2095 oil refinery
-  174 sprites/pcx/industries010.pcx 706 872 03 20 42 -21 1
-  175 sprites/pcx/industries010.pcx 754 872 03 44 43 -21 -23
-  176 sprites/pcx/industries010.pcx 2 952 09 47 43 -21 -26
-  177 sprites/pcx/industries010.pcx 50 952 03 11 23 -14 1
-  178 sprites/pcx/industries010.pcx 82 952 03 76 31 -17 -64
-  179 sprites/pcx/industries010.pcx 130 952 09 71 26 -16 -59
-  180 sprites/pcx/industries010.pcx 162 952 03 9 12 -5 0
-  181 sprites/pcx/industries010.pcx 194 952 03 82 24 -10 -73
-  182 sprites/pcx/industries010.pcx 226 952 09 110 22 -9 -101
-  183 sprites/pcx/industries010.pcx 258 952 03 75 52 -21 -49
-  184 sprites/pcx/industries010.pcx 322 952 03 75 52 -21 -49
-  185 sprites/pcx/industries010.pcx 386 952 09 75 53 -21 -49
-  186 sprites/pcx/industries010.pcx 450 952 03 35 26 -11 -12
-  187 sprites/pcx/industries010.pcx 482 952 03 56 62 -31 -33
-  188 sprites/pcx/industries010.pcx 562 952 09 59 64 -31 -36
-  189 sprites/pcx/industries010.pcx 642 952 03 19 46 -19 -3
-  190 sprites/pcx/industries010.pcx 706 952 03 26 46 -19 -10
-  191 sprites/pcx/industries010.pcx 2 1080 09 26 46 -19 -10
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2096-2105 oil rig
-  351 sprites/pcx/industries010.pcx 690 1976 09 75 32 -31 -43
-  352 sprites/pcx/industries010.pcx 738 1976 09 110 32 -31 -94
-  353 sprites/pcx/industries010.pcx 2 2104 09 117 50 -31 -117
-  354 sprites/pcx/industries010.pcx 66 2104 09 1 1 0 0
-  355 sprites/pcx/industries010.pcx 82 2104 03 75 32 -31 -43
-  356 sprites/pcx/industries010.pcx 130 2104 09 110 32 -31 -94
-  357 sprites/pcx/industries010.pcx 178 2104 09 117 50 -31 -117
-  358 sprites/pcx/industries010.pcx 242 2104 03 75 32 -31 -43
-  359 sprites/pcx/industries010.pcx 290 2104 09 110 32 -31 -94
-  360 sprites/pcx/industries010.pcx 338 2104 09 117 50 -31 -117
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2106-2117 farm
-  301 sprites/pcx/industries010.pcx 658 1704 09 31 64 -31 0
-  302 sprites/pcx/industries010.pcx 2 1752 09 31 64 -31 0
-  303 sprites/pcx/industries010.pcx 82 1752 09 37 32 -17 -1
-  304 sprites/pcx/industries010.pcx 130 1752 09 37 26 -17 -17
-  305 sprites/pcx/industries010.pcx 162 1752 09 31 64 -31 0
-  306 sprites/pcx/industries010.pcx 242 1752 09 29 57 -26 -4
-  307 sprites/pcx/industries010.pcx 306 1752 09 31 64 -31 0
-  308 sprites/pcx/industries010.pcx 386 1752 09 29 38 -20 -4
-  309 sprites/pcx/industries010.pcx 434 1752 09 31 64 -31 0
-  310 sprites/pcx/industries010.pcx 514 1752 09 48 27 -6 -27
-  311 sprites/pcx/industries010.pcx 546 1752 09 31 64 -31 0
-  312 sprites/pcx/industries010.pcx 626 1752 09 30 54 -30 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2118-2139 steel mill
-  272 sprites/pcx/industries010.pcx 2 1576 09 31 64 -31 0
-  273 sprites/pcx/industries010.pcx 82 1576 09 26 64 -31 -11
-  274 sprites/pcx/industries010.pcx 162 1576 09 31 64 -31 0
-  275 sprites/pcx/industries010.pcx 242 1576 09 28 64 -31 -13
-  276 sprites/pcx/industries010.pcx 322 1576 09 31 64 -31 0
-  277 sprites/pcx/industries010.pcx 402 1576 09 33 64 -31 -18
-  278 sprites/pcx/industries010.pcx 482 1576 09 31 64 -31 0
-  279 sprites/pcx/industries010.pcx 562 1576 09 31 64 -31 0
-  280 sprites/pcx/industries010.pcx 642 1576 09 48 64 -31 -33
-  281 sprites/pcx/industries010.pcx 722 1576 09 31 64 -31 0
-  282 sprites/pcx/industries010.pcx 2 1640 09 53 64 -31 -38
-  283 sprites/pcx/industries010.pcx 82 1640 03 31 64 -31 0
-  284 sprites/pcx/industries010.pcx 162 1640 03 26 64 -31 -11
-  285 sprites/pcx/industries010.pcx 242 1640 03 31 64 -31 0
-  286 sprites/pcx/industries010.pcx 322 1640 03 28 64 -31 -13
-  287 sprites/pcx/industries010.pcx 402 1640 03 31 64 -31 0
-  288 sprites/pcx/industries010.pcx 482 1640 03 15 64 -31 0
-  289 sprites/pcx/industries010.pcx 562 1640 03 31 64 -31 0
-  290 sprites/pcx/industries010.pcx 642 1640 03 31 64 -31 0
-  291 sprites/pcx/industries010.pcx 722 1640 03 47 64 -31 -32
-  292 sprites/pcx/industries010.pcx 2 1704 03 31 64 -31 0
-  293 sprites/pcx/industries010.pcx 82 1704 03 23 64 -31 -8
-  294 sprites/pcx/industries010.pcx 162 1704 03 31 64 -31 0
-  295 sprites/pcx/industries010.pcx 242 1704 03 31 64 -31 0
-  296 sprites/pcx/industries010.pcx 322 1704 03 31 64 -31 0
-  297 sprites/pcx/industries010.pcx 402 1704 03 31 64 -31 0
-  298 sprites/pcx/industries010.pcx 482 1704 03 34 64 -31 -3
-  299 sprites/pcx/industries010.pcx 562 1704 03 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2140-2160 factory             // Recolour: RANDOM
-   39 sprites/pcx/industries010.pcx 402 136 09 31 64 -31 0
-   40 sprites/pcx/industries010.pcx 482 136 09 31 64 -31 0
-   41 sprites/pcx/industries010.pcx 562 136 09 31 64 -31 0
-   42 sprites/pcx/industries010.pcx 642 136 09 31 64 -31 0
-   43 sprites/pcx/industries010.pcx 722 136 09 52 64 -31 -37
-   44 sprites/pcx/industries010.pcx 2 200 09 47 20 1 -38
-   45 sprites/pcx/industries010.pcx 34 200 09 31 25 -24 -19
-   46 sprites/pcx/industries010.pcx 66 200 09 34 64 -31 -3
-   47 sprites/pcx/industries010.pcx 146 200 09 31 64 -31 0
-   48 sprites/pcx/industries010.pcx 226 200 09 31 64 -31 0
-   49 sprites/pcx/industries010.pcx 306 200 09 31 64 -31 0
-   50 sprites/pcx/industries010.pcx 386 200 09 68 64 -31 -37
-   51 sprites/pcx/industries010.pcx 466 200 09 69 64 -31 -38
-   52 sprites/pcx/industries010.pcx 546 200 09 50 64 -31 -19
-   53 sprites/pcx/industries010.pcx 626 200 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2161-2172 printworks
-  314 sprites/pcx/industries010.pcx 706 1752 03 31 64 -31 0
-  315 sprites/pcx/industries010.pcx 2 1816 03 31 64 -31 0
-  316 sprites/pcx/industries010.pcx 82 1816 03 41 64 -31 -10
-  317 sprites/pcx/industries010.pcx 162 1816 03 31 64 -31 0
-  318 sprites/pcx/industries010.pcx 242 1816 03 62 64 -31 -31
-  319 sprites/pcx/industries010.pcx 322 1816 03 47 64 -31 -16
-  320 sprites/pcx/industries010.pcx 402 1816 03 57 64 -31 -26
-  321 sprites/pcx/industries010.pcx 482 1816 03 31 64 -31 0
-  322 sprites/pcx/industries010.pcx 562 1816 09 77 64 -31 -46
-  323 sprites/pcx/industries010.pcx 642 1816 09 44 64 -31 -13
-  324 sprites/pcx/industries010.pcx 722 1816 09 52 64 -31 -21
-  325 sprites/pcx/industries010.pcx 2 1912 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2174-2179 oil derrick
-  368 sprites/pcx/industries010.pcx 706 2104 09 31 64 -31 0
-  369 sprites/pcx/industries010.pcx 2 2232 09 44 31 -11 -29
-  370 sprites/pcx/industries010.pcx 50 2232 09 44 31 -11 -29
-  371 sprites/pcx/industries010.pcx 98 2232 09 44 31 -11 -29
-  372 sprites/pcx/industries010.pcx 146 2232 09 44 31 -11 -29
-  373 sprites/pcx/industries010.pcx 194 2232 09 44 31 -11 -29
-  374 sprites/pcx/industries010.pcx 242 2232 09 44 31 -11 -29
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2180-2183 temperate bank
-  152 sprites/pcx/industries010.pcx 402 792 09 44 58 -31 -16
-  153 sprites/pcx/industries010.pcx 466 792 09 47 58 -31 -18
-  154 sprites/pcx/industries010.pcx 530 792 09 31 64 -31 0
-  155 sprites/pcx/industries010.pcx 610 792 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2184-2187 other bank
-  362 sprites/pcx/industries010.pcx 418 2104 09 31 64 -31 0
-  363 sprites/pcx/industries010.pcx 498 2104 09 31 64 -31 0
-  364 sprites/pcx/industries010.pcx 578 2104 09 44 12 1 -19
-  365 sprites/pcx/industries010.pcx 610 2104 09 59 53 -20 -39
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2188-2199 food processing plant
-  327 sprites/pcx/industries010.pcx 98 1912 03 36 64 -31 -5             // Recolour: RANDOM
-  328 sprites/pcx/industries010.pcx 178 1912 03 49 64 -31 -18           // Recolour: RANDOM
-  329 sprites/pcx/industries010.pcx 258 1912 09 49 64 -31 -18           // Recolour: RANDOM
-  330 sprites/pcx/industries010.pcx 338 1912 03 31 64 -31 0             // Recolour: RANDOM
-  331 sprites/pcx/industries010.pcx 418 1912 03 50 64 -31 -19           // Recolour: RANDOM
-  332 sprites/pcx/industries010.pcx 498 1912 09 54 64 -31 -23           // Recolour: RANDOM
-  333 sprites/pcx/industries010.pcx 578 1912 03 12 23 -11 9             // Recolour: RANDOM
-  334 sprites/pcx/industries010.pcx 610 1912 03 41 23 -11 -20           // Recolour: RANDOM
-  335 sprites/pcx/industries010.pcx 642 1912 09 41 23 -11 -20           // Recolour: RANDOM
-  336 sprites/pcx/industries010.pcx 674 1912 03 31 64 -31 0             // Recolour: RANDOM
-  337 sprites/pcx/industries010.pcx 2 1976 03 31 64 -31 0               // Recolour: RANDOM
-  338 sprites/pcx/industries010.pcx 82 1976 09 31 64 -31 0              // Recolour: RANDOM
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2200-2214 paper mill
-  136 sprites/pcx/industries010.pcx 98 696 03 37 62 -30 -4
-  137 sprites/pcx/industries010.pcx 178 696 03 51 62 -30 -18
-  138 sprites/pcx/industries010.pcx 258 696 09 51 62 -30 -18
-  139 sprites/pcx/industries010.pcx 338 696 03 29 36 -17 -1
-  140 sprites/pcx/industries010.pcx 386 696 03 42 36 -17 -14
-  141 sprites/pcx/industries010.pcx 434 696 09 43 37 -17 -15
-  142 sprites/pcx/industries010.pcx 482 696 09 43 37 -17 -15
-  143 sprites/pcx/industries010.pcx 530 696 03 66 64 -31 -35
-  144 sprites/pcx/industries010.pcx 610 696 09 78 64 -31 -47
-  145 sprites/pcx/industries010.pcx 690 696 09 78 64 -31 -47
-  146 sprites/pcx/industries010.pcx 2 792 03 34 64 -31 -3
-  147 sprites/pcx/industries010.pcx 82 792 03 37 64 -31 -6
-  148 sprites/pcx/industries010.pcx 162 792 09 37 64 -31 -6
-  149 sprites/pcx/industries010.pcx 242 792 09 37 64 -31 -6
-  150 sprites/pcx/industries010.pcx 322 792 09 32 44 -23 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2215-2265 gold mine
-  193 sprites/pcx/industries010.pcx 82 1080 03 31 64 -31 0
-  194 sprites/pcx/industries010.pcx 162 1080 03 31 64 -31 0
-  195 sprites/pcx/industries010.pcx 242 1080 03 31 64 -31 0
-  196 sprites/pcx/industries010.pcx 322 1080 03 31 64 -31 0
-  197 sprites/pcx/industries010.pcx 402 1080 03 31 64 -31 0
-  198 sprites/pcx/industries010.pcx 482 1080 03 31 64 -31 0
-  199 sprites/pcx/industries010.pcx 562 1080 03 31 64 -31 0
-  200 sprites/pcx/industries010.pcx 642 1080 03 31 64 -31 0
-  201 sprites/pcx/industries010.pcx 722 1080 03 31 64 -31 0
-  202 sprites/pcx/industries010.pcx 2 1128 03 31 64 -31 0
-  203 sprites/pcx/industries010.pcx 82 1128 03 31 64 -31 0
-  204 sprites/pcx/industries010.pcx 162 1128 03 31 64 -31 0
-  205 sprites/pcx/industries010.pcx 242 1128 03 31 64 -31 0
-  206 sprites/pcx/industries010.pcx 322 1128 03 31 64 -31 0
-  207 sprites/pcx/industries010.pcx 402 1128 03 31 64 -31 0
-  208 sprites/pcx/industries010.pcx 482 1128 03 31 64 -31 0
-  209 sprites/pcx/industries010.pcx 562 1128 03 42 64 -31 -11
-  210 sprites/pcx/industries010.pcx 642 1128 03 31 64 -31 0
-  211 sprites/pcx/industries010.pcx 722 1128 03 31 64 -31 0
-  212 sprites/pcx/industries010.pcx 2 1192 03 44 64 -31 -13
-  213 sprites/pcx/industries010.pcx 82 1192 03 31 64 -31 0
-  214 sprites/pcx/industries010.pcx 162 1192 03 31 64 -31 0
-  215 sprites/pcx/industries010.pcx 242 1192 03 31 64 -31 0
-  216 sprites/pcx/industries010.pcx 322 1192 03 31 64 -31 0
-  217 sprites/pcx/industries010.pcx 402 1192 03 31 64 -31 0
-  218 sprites/pcx/industries010.pcx 482 1192 03 31 64 -31 0
-  219 sprites/pcx/industries010.pcx 562 1192 03 31 64 -31 0
-  220 sprites/pcx/industries010.pcx 642 1192 03 31 64 -31 0
-  221 sprites/pcx/industries010.pcx 722 1192 03 31 64 -31 0
-  222 sprites/pcx/industries010.pcx 2 1256 03 31 64 -31 0
-  223 sprites/pcx/industries010.pcx 82 1256 03 31 64 -31 0
-  224 sprites/pcx/industries010.pcx 162 1256 03 31 64 -31 0
-  225 sprites/pcx/industries010.pcx 242 1256 09 52 64 -31 -21
-  226 sprites/pcx/industries010.pcx 322 1256 09 32 64 -31 -1
-  227 sprites/pcx/industries010.pcx 402 1256 09 32 64 -31 -1
-  228 sprites/pcx/industries010.pcx 482 1256 09 43 64 -31 -12
-  229 sprites/pcx/industries010.pcx 562 1256 09 31 64 -31 0
-  230 sprites/pcx/industries010.pcx 642 1256 09 31 64 -31 0
-  231 sprites/pcx/industries010.pcx 722 1256 09 31 64 -31 0
-  232 sprites/pcx/industries010.pcx 2 1320 09 31 64 -31 0
-  233 sprites/pcx/industries010.pcx 82 1320 09 31 64 -31 0
-  234 sprites/pcx/industries010.pcx 162 1320 09 31 64 -31 0
-  235 sprites/pcx/industries010.pcx 242 1320 09 31 64 -31 0
-  236 sprites/pcx/industries010.pcx 322 1320 09 31 64 -31 0
-  237 sprites/pcx/industries010.pcx 402 1320 09 31 64 -31 0
-  238 sprites/pcx/industries010.pcx 482 1320 09 31 64 -31 0
-  239 sprites/pcx/industries010.pcx 562 1320 09 31 64 -31 0
-  240 sprites/pcx/industries010.pcx 642 1320 09 31 64 -31 0
-  241 sprites/pcx/industries010.pcx 722 1320 09 54 45 -23 -27
-  242 sprites/pcx/industries010.pcx 2 1384 09 54 45 -23 -27
-  243 sprites/pcx/industries010.pcx 66 1384 09 54 45 -23 -27
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2266-2292 diamond mine
-  244 sprites/pcx/industries010.pcx 130 1384 03 31 64 -31 0
-  245 sprites/pcx/industries010.pcx 210 1384 03 31 64 -31 0
-  246 sprites/pcx/industries010.pcx 290 1384 03 31 64 -31 0
-  247 sprites/pcx/industries010.pcx 370 1384 03 46 64 -31 -15
-  248 sprites/pcx/industries010.pcx 450 1384 03 31 64 -31 0
-  249 sprites/pcx/industries010.pcx 530 1384 03 31 64 -31 0
-  250 sprites/pcx/industries010.pcx 610 1384 03 32 64 -31 -1
-  251 sprites/pcx/industries010.pcx 690 1384 03 31 64 -31 0
-  252 sprites/pcx/industries010.pcx 2 1448 03 31 64 -31 0
-  253 sprites/pcx/industries010.pcx 82 1448 03 31 64 -31 0
-  254 sprites/pcx/industries010.pcx 162 1448 03 44 64 -31 -13
-  255 sprites/pcx/industries010.pcx 242 1448 03 31 64 -31 0
-  256 sprites/pcx/industries010.pcx 322 1448 03 46 64 -31 -15
-  257 sprites/pcx/industries010.pcx 402 1448 03 31 64 -31 0
-  258 sprites/pcx/industries010.pcx 482 1448 03 31 64 -31 0
-  259 sprites/pcx/industries010.pcx 562 1448 03 32 64 -31 -1
-  260 sprites/pcx/industries010.pcx 642 1448 03 31 64 -31 0
-  261 sprites/pcx/industries010.pcx 722 1448 03 31 64 -31 0
-  262 sprites/pcx/industries010.pcx 2 1512 09 35 64 -31 -4
-  263 sprites/pcx/industries010.pcx 82 1512 09 47 64 -31 -16
-  264 sprites/pcx/industries010.pcx 162 1512 09 36 64 -31 -5
-  265 sprites/pcx/industries010.pcx 242 1512 09 46 64 -31 -15
-  266 sprites/pcx/industries010.pcx 322 1512 09 31 64 -31 0
-  267 sprites/pcx/industries010.pcx 402 1512 09 31 64 -31 0
-  268 sprites/pcx/industries010.pcx 482 1512 09 33 64 -31 -2
-  269 sprites/pcx/industries010.pcx 562 1512 09 31 64 -31 0
-  270 sprites/pcx/industries010.pcx 642 1512 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2293-2340 copper ore mine
-   67 sprites/pcx/industries010.pcx 626 280 03 31 64 -31 0
-   68 sprites/pcx/industries010.pcx 706 280 03 31 64 -31 0
-   69 sprites/pcx/industries010.pcx 2 344 03 31 64 -31 0
-   70 sprites/pcx/industries010.pcx 82 344 03 31 64 -31 0
-   71 sprites/pcx/industries010.pcx 162 344 03 31 64 -31 0
-   72 sprites/pcx/industries010.pcx 242 344 03 31 64 -31 0
-   73 sprites/pcx/industries010.pcx 322 344 03 31 64 -31 0
-   74 sprites/pcx/industries010.pcx 402 344 03 31 64 -31 0
-   75 sprites/pcx/industries010.pcx 482 344 03 31 64 -31 0
-   76 sprites/pcx/industries010.pcx 562 344 03 31 64 -31 0
-   77 sprites/pcx/industries010.pcx 642 344 03 31 64 -31 0
-   78 sprites/pcx/industries010.pcx 722 344 03 31 64 -31 0
-   79 sprites/pcx/industries010.pcx 2 392 03 31 64 -31 0
-   80 sprites/pcx/industries010.pcx 82 392 03 31 64 -31 0
-   81 sprites/pcx/industries010.pcx 162 392 03 31 64 -31 0
-   82 sprites/pcx/industries010.pcx 242 392 03 31 64 -31 0
-   83 sprites/pcx/industries010.pcx 322 392 03 31 64 -31 0
-   84 sprites/pcx/industries010.pcx 402 392 03 31 64 -31 0
-   85 sprites/pcx/industries010.pcx 482 392 03 31 64 -31 0
-   86 sprites/pcx/industries010.pcx 562 392 03 31 64 -31 0
-   87 sprites/pcx/industries010.pcx 642 392 03 31 64 -31 0
-   88 sprites/pcx/industries010.pcx 722 392 03 31 64 -31 0
-   89 sprites/pcx/industries010.pcx 2 440 03 31 64 -31 0
-   90 sprites/pcx/industries010.pcx 82 440 03 31 64 -31 0
-   91 sprites/pcx/industries010.pcx 162 440 03 31 64 -31 0
-   92 sprites/pcx/industries010.pcx 242 440 03 31 64 -31 0
-   93 sprites/pcx/industries010.pcx 322 440 03 31 64 -31 0
-   94 sprites/pcx/industries010.pcx 402 440 03 31 64 -31 0
-   95 sprites/pcx/industries010.pcx 482 440 03 31 64 -31 0
-   96 sprites/pcx/industries010.pcx 562 440 03 31 64 -31 0
-   97 sprites/pcx/industries010.pcx 642 440 03 31 64 -31 0
-   98 sprites/pcx/industries010.pcx 722 440 03 31 64 -31 0
-   99 sprites/pcx/industries010.pcx 2 488 09 31 64 -31 0
-  100 sprites/pcx/industries010.pcx 82 488 09 31 64 -31 0
-  101 sprites/pcx/industries010.pcx 162 488 09 31 64 -31 0
-  102 sprites/pcx/industries010.pcx 242 488 09 31 64 -31 0
-  103 sprites/pcx/industries010.pcx 322 488 09 31 64 -31 0
-  104 sprites/pcx/industries010.pcx 402 488 09 31 64 -31 0
-  105 sprites/pcx/industries010.pcx 482 488 09 31 64 -31 0
-  106 sprites/pcx/industries010.pcx 562 488 09 31 64 -31 0
-  107 sprites/pcx/industries010.pcx 642 488 09 31 64 -31 0
-  108 sprites/pcx/industries010.pcx 722 488 09 31 64 -31 0
-  109 sprites/pcx/industries010.pcx 2 536 09 31 64 -31 0
-  110 sprites/pcx/industries010.pcx 82 536 09 31 64 -31 0
-  111 sprites/pcx/industries010.pcx 162 536 09 31 64 -31 0
-  112 sprites/pcx/industries010.pcx 242 536 09 31 64 -31 0
-  113 sprites/pcx/industries010.pcx 322 536 09 31 64 -31 0
-  114 sprites/pcx/industries010.pcx 402 536 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2341-2343 fruit/rubber plantation
-  116 sprites/pcx/industries010.pcx 498 536 01 31 64 -31 0
-  117 sprites/pcx/industries010.pcx 578 536 01 59 60 -30 -29
-  118 sprites/pcx/industries010.pcx 658 536 01 59 60 -30 -29
+EMPTY
+EMPTY
+EMPTY
 
 //2344-2346 water tower
-  340 sprites/pcx/industries010.pcx 178 1976 03 70 43 -23 -42           // Recolour: RANDOM
-  341 sprites/pcx/industries010.pcx 226 1976 03 70 43 -23 -42           // Recolour: RANDOM
-  342 sprites/pcx/industries010.pcx 274 1976 09 70 43 -23 -42           // Recolour: RANDOM
+EMPTY
+EMPTY
+EMPTY
 
 //1347-2352 pumping station
-  344 sprites/pcx/industries010.pcx 338 1976 03 62 35 -18 -33           // Recolour: RANDOM
-  345 sprites/pcx/industries010.pcx 386 1976 03 62 35 -18 -33           // Recolour: RANDOM
-  346 sprites/pcx/industries010.pcx 434 1976 09 62 35 -18 -33           // Recolour: RANDOM
-  347 sprites/pcx/industries010.pcx 482 1976 03 49 51 -24 -27           // Recolour: RANDOM
-  348 sprites/pcx/industries010.pcx 546 1976 03 49 51 -24 -27           // Recolour: RANDOM
-  349 sprites/pcx/industries010.pcx 610 1976 09 49 51 -24 -27           // Recolour: RANDOM
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //2353-2364 jack lumber's house
-    3 sprites/pcx/lumbermill.pcx 66 8 09 43 64 -31 -12
-    4 sprites/pcx/lumbermill.pcx 146 8 09 59 64 -31 -28
-    5 sprites/pcx/lumbermill.pcx 226 8 09 59 64 -31 -28
-    6 sprites/pcx/lumbermill.pcx 306 8 09 31 64 -31 0
-    7 sprites/pcx/lumbermill.pcx 386 8 09 43 64 -31 -12
-    8 sprites/pcx/lumbermill.pcx 466 8 09 59 64 -31 -28
-    9 sprites/pcx/lumbermill.pcx 546 8 09 59 64 -31 -28
-   10 sprites/pcx/lumbermill.pcx 626 8 09 31 64 -31 0
-   11 sprites/pcx/lumbermill.pcx 706 8 09 43 64 -31 -12
-   12 sprites/pcx/lumbermill.pcx 2 88 09 59 64 -31 -28
-   13 sprites/pcx/lumbermill.pcx 82 88 09 59 64 -31 -28
-   14 sprites/pcx/lumbermill.pcx 162 88 09 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

@@ -1,14 +1,14 @@
 
 // Definition for short engines. See TRAIN_88 for the definition this numbers base on.
 #ifdef TRAIN_78
--1 TRAIN_78   0   0 01 24  8  -3 -13
--1 TRAIN_78   9   0 09 20 22 -13 -11
--1 TRAIN_78  32   0 01 16 32 -16 -12
--1 TRAIN_78  65   0 09 20 22  -5 -11
--1 TRAIN_78  88   0 01 24  8  -3 -13
--1 TRAIN_78  97   0 09 20 22 -13 -11
--1 TRAIN_78 120   0 01 16 32 -16 -12
--1 TRAIN_78 153   0 09 20 22  -5 -11
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 #undef TRAIN_78
 #endif
 
@@ -28,48 +28,48 @@
 // - Narrower sprites need their x-offset adjusted ONLY for the sprite facing right.
 
 #ifdef TRAIN_88_SYMETRIC
--1 TRAIN_88_SYMETRIC   0   0 01 24  8  -3 -13
--1 TRAIN_88_SYMETRIC   9   0 09 20 22 -13 -11
--1 TRAIN_88_SYMETRIC  32   0 01 17 32 -16 -12
--1 TRAIN_88_SYMETRIC  65   0 09 20 22  -5 -11
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 #undef TRAIN_88_SYMETRIC
 #endif
 
 #ifdef TRAIN_88
--1 TRAIN_88   0   0 01 24  8  -3 -13
--1 TRAIN_88   9   0 09 20 22 -13 -11
--1 TRAIN_88  32   0 01 17 32 -16 -12
--1 TRAIN_88  65   0 09 20 22  -5 -11
--1 TRAIN_88  88   0 01 24  8  -3 -11
--1 TRAIN_88  97   0 09 20 22 -13 -11
--1 TRAIN_88 120   0 01 17 32 -16 -12
--1 TRAIN_88 153   0 09 20 22  -5 -11
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 #undef TRAIN_88
 #endif
 
 #ifdef TRAIN_98
--1 TRAIN_98   0   0 01 24  8  -3 -13
--1 TRAIN_98   9   0 09 20 22 -13 -11
--1 TRAIN_98  32   0 01 16 36 -16 -11
--1 TRAIN_98  69   0 09 20 22  -5 -11
--1 TRAIN_98  92   0 01 24  8  -3 -11
--1 TRAIN_98 101   0 09 20 22 -13 -11
--1 TRAIN_98 124   0 01 16 36 -20 -11
--1 TRAIN_98 161   0 09 20 22  -5 -11
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 #undef TRAIN_98
 #endif
 
 // 28px wide wagons as defined in arctic_monolevwagons.pcx and alike
 // alignment corresponding to the 7/8 view
-#define WAGON_SHORT_VERT(FILE, Y) -1 FILE  0 Y 01 18 8   -3 -10
-#define WAGON_SHORT_NWSE(FILE, Y) -1 FILE 16 Y 09 16 20 -12  -8
-#define WAGON_SHORT_HORI(FILE, Y) -1 FILE 48 Y 01 12 28 -14  -7
-#define WAGON_SHORT_SWNE(FILE, Y) -1 FILE 96 Y 09 16 20  -4  -8
+#define WAGON_SHORT_VERT(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_SHORT_NWSE(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_SHORT_HORI(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_SHORT_SWNE(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 
 // 32px wide wagons rail wagons. They'll glitch in the depot view
 // see http://www.tt-forums.net/download/file.php?id=126371
 // alignment corresponding to the 8/8 view
-#define WAGON_WIDE_VERT(FILE, Y) -1 FILE  0 Y 01 24  8  -3 -13
-#define WAGON_WIDE_NWSE(FILE, Y) -1 FILE 16 Y 09 17 22 -13 -8
-#define WAGON_WIDE_HORI(FILE, Y) -1 FILE 48 Y 01 12 32 -16 -7
-#define WAGON_WIDE_SWNE(FILE, Y) -1 FILE 96 Y 09 17 22  -5 -8
+#define WAGON_WIDE_VERT(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_WIDE_NWSE(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_WIDE_HORI(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define WAGON_WIDE_SWNE(FILE, Y) -1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0

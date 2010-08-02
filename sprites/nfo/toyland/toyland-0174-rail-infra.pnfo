@@ -1,186 +1,186 @@
 //174   205     32      Rail
-    3 sprites/pcx/infra08.pcx 66 8 09 21 40 -19 5
-    4 sprites/pcx/infra08.pcx 114 8 09 21 40 -19 5
-    5 sprites/pcx/infra08.pcx 162 8 01 7 40 -19 4
-    6 sprites/pcx/infra08.pcx 210 8 01 7 40 -19 20
-    7 sprites/pcx/infra08.pcx 258 8 01 19 12 11 6
-    8 sprites/pcx/infra08.pcx 290 8 01 19 12 -21 6
- 1014 sprites/pcx/infra08.pcx 226 5480 01 31 64 -31 0
- 1015 sprites/pcx/infra08.pcx 306 5480 01 31 64 -31 0
- 1016 sprites/pcx/infra08.pcx 386 5480 01 31 64 -31 0
- 1017 sprites/pcx/infra08.pcx 466 5480 01 31 64 -31 0
- 1018 sprites/pcx/infra08.pcx 546 5480 01 31 64 -31 0
- 1019 sprites/pcx/infra08.pcx 626 5480 01 31 64 -31 0
- 1020 sprites/pcx/infra08.pcx 706 5480 01 31 64 -31 0
- 1021 sprites/pcx/infra08.pcx 2 5528 01 31 64 -31 0
- 1022 sprites/pcx/infra08.pcx 82 5528 01 31 64 -31 0
- 1023 sprites/pcx/infra08.pcx 162 5528 01 31 64 -31 0
- 1024 sprites/pcx/infra08.pcx 242 5528 01 31 64 -31 0
- 1025 sprites/pcx/infra08.pcx 322 5528 01 31 64 -31 0
- 1026 sprites/pcx/infra08.pcx 402 5528 01 39 64 -31 -8
- 1027 sprites/pcx/infra08.pcx 482 5528 01 31 64 -31 0
- 1028 sprites/pcx/infra08.pcx 562 5528 01 31 64 -31 0
- 1029 sprites/pcx/infra08.pcx 642 5528 01 23 64 -31 0
- 1030 sprites/pcx/infra08.pcx 722 5528 01 31 64 -31 -8
- 1031 sprites/pcx/infra08.pcx 2 5592 01 23 64 -31 0
- 1032 sprites/pcx/infra08.pcx 82 5592 01 31 64 -31 -8
- 1033 sprites/pcx/infra08.pcx 162 5592 01 39 64 -31 -8
- 1034 sprites/pcx/infra08.pcx 242 5592 01 39 64 -31 -8
- 1035 sprites/pcx/infra08.pcx 322 5592 01 23 64 -31 0
- 1036 sprites/pcx/infra08.pcx 402 5592 01 23 64 -31 0
- 1037 sprites/pcx/infra08.pcx 482 5592 01 39 64 -31 -8
- 1038 sprites/pcx/infra08.pcx 562 5592 01 31 64 -31 0
- 1039 sprites/pcx/infra08.pcx 642 5592 01 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //206   237     32      Monorail
-   10 sprites/pcx/infra08.pcx 338 8 09 18 34 -15 7
-   11 sprites/pcx/infra08.pcx 386 8 09 18 35 -16 7
-   12 sprites/pcx/infra08.pcx 434 8 01 7 40 -19 4
-   13 sprites/pcx/infra08.pcx 482 8 01 7 40 -19 20
-   14 sprites/pcx/infra08.pcx 530 8 01 19 12 11 6
-   15 sprites/pcx/infra08.pcx 562 8 01 19 12 -21 6
- 1040 sprites/pcx/infra08.pcx 722 5592 01 31 64 -31 0
- 1041 sprites/pcx/infra08.pcx 2 5656 01 31 64 -31 0
- 1042 sprites/pcx/infra08.pcx 82 5656 01 31 64 -31 0
- 1043 sprites/pcx/infra08.pcx 162 5656 01 31 64 -31 0
- 1044 sprites/pcx/infra08.pcx 242 5656 01 31 64 -31 0
- 1045 sprites/pcx/infra08.pcx 322 5656 01 31 64 -31 0
- 1046 sprites/pcx/infra08.pcx 402 5656 01 31 64 -31 0
- 1047 sprites/pcx/infra08.pcx 482 5656 01 31 64 -31 0
- 1048 sprites/pcx/infra08.pcx 562 5656 01 31 64 -31 0
- 1049 sprites/pcx/infra08.pcx 642 5656 01 31 64 -31 0
- 1050 sprites/pcx/infra08.pcx 722 5656 01 31 64 -31 0
- 1051 sprites/pcx/infra08.pcx 2 5704 01 31 64 -31 0
- 1052 sprites/pcx/infra08.pcx 82 5704 01 39 64 -31 -8
- 1053 sprites/pcx/infra08.pcx 162 5704 01 31 64 -31 0
- 1054 sprites/pcx/infra08.pcx 242 5704 01 31 64 -31 0
- 1055 sprites/pcx/infra08.pcx 322 5704 01 23 64 -31 0
- 1056 sprites/pcx/infra08.pcx 402 5704 01 31 64 -31 -8
- 1057 sprites/pcx/infra08.pcx 482 5704 01 23 64 -31 0
- 1058 sprites/pcx/infra08.pcx 562 5704 01 31 64 -31 -8
- 1059 sprites/pcx/infra08.pcx 642 5704 01 39 64 -31 -8
- 1060 sprites/pcx/infra08.pcx 722 5704 01 39 64 -31 -8
- 1061 sprites/pcx/infra08.pcx 2 5768 01 23 64 -31 0
- 1062 sprites/pcx/infra08.pcx 82 5768 01 23 64 -31 0
- 1063 sprites/pcx/infra08.pcx 162 5768 01 39 64 -31 -8
- 1064 sprites/pcx/infra08.pcx 242 5768 01 31 64 -31 0
- 1065 sprites/pcx/infra08.pcx 322 5768 01 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //238   269     32      Maglev
-   17 sprites/pcx/infra08.pcx 610 8 09 16 30 -14 8
-   18 sprites/pcx/infra08.pcx 658 8 09 16 30 -14 8
-   19 sprites/pcx/infra08.pcx 706 8 01 7 40 -19 4
-   20 sprites/pcx/infra08.pcx 754 8 01 7 40 -19 20
-   21 sprites/pcx/infra08.pcx 2 40 01 19 12 11 6
-   22 sprites/pcx/infra08.pcx 34 40 01 19 12 -21 6
- 1066 sprites/pcx/infra08.pcx 402 5768 01 31 64 -31 0
- 1067 sprites/pcx/infra08.pcx 482 5768 01 31 64 -31 0
- 1068 sprites/pcx/infra08.pcx 562 5768 01 31 64 -31 0
- 1069 sprites/pcx/infra08.pcx 642 5768 01 31 64 -31 0
- 1070 sprites/pcx/infra08.pcx 722 5768 01 31 64 -31 0
- 1071 sprites/pcx/infra08.pcx 2 5832 01 31 64 -31 0
- 1072 sprites/pcx/infra08.pcx 82 5832 01 31 64 -31 0
- 1073 sprites/pcx/infra08.pcx 162 5832 01 31 64 -31 0
- 1074 sprites/pcx/infra08.pcx 242 5832 01 31 64 -31 0
- 1075 sprites/pcx/infra08.pcx 322 5832 01 31 64 -31 0
- 1076 sprites/pcx/infra08.pcx 402 5832 01 31 64 -31 0
- 1077 sprites/pcx/infra08.pcx 482 5832 01 31 64 -31 0
- 1078 sprites/pcx/infra08.pcx 562 5832 01 39 64 -31 -8
- 1079 sprites/pcx/infra08.pcx 642 5832 01 31 64 -31 0
- 1080 sprites/pcx/infra08.pcx 722 5832 01 31 64 -31 0
- 1081 sprites/pcx/infra08.pcx 2 5896 01 23 64 -31 0
- 1082 sprites/pcx/infra08.pcx 82 5896 01 31 64 -31 -8
- 1083 sprites/pcx/infra08.pcx 162 5896 01 23 64 -31 0
- 1084 sprites/pcx/infra08.pcx 242 5896 01 31 64 -31 -8
- 1085 sprites/pcx/infra08.pcx 322 5896 01 39 64 -31 -8
- 1086 sprites/pcx/infra08.pcx 402 5896 01 39 64 -31 -8
- 1087 sprites/pcx/infra08.pcx 482 5896 01 23 64 -31 0
- 1088 sprites/pcx/infra08.pcx 562 5896 01 23 64 -31 0
- 1089 sprites/pcx/infra08.pcx 642 5896 01 39 64 -31 -8
- 1090 sprites/pcx/infra08.pcx 722 5896 01 31 64 -31 0
- 1091 sprites/pcx/infra08.pcx 2 5960 01 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //270   270     1       Company statue
-  270 sprites/pcx/toysta.pcx 0 0 09 70 32 -15 -46
+EMPTY
 
 //271   286     16      Signals
- 1219 sprites/pcx/infra08.pcx 642 6536 01 15 4 -1 -13
- 1220 sprites/pcx/infra08.pcx 658 6536 01 15 4 -1 -13
- 1221 sprites/pcx/infra08.pcx 674 6536 01 15 4 -1 -13
- 1222 sprites/pcx/infra08.pcx 690 6536 01 15 4 -1 -13
- 1223 sprites/pcx/infra08.pcx 706 6536 01 15 4 -1 -13
- 1224 sprites/pcx/infra08.pcx 722 6536 01 15 4 -1 -13
- 1225 sprites/pcx/infra08.pcx 738 6536 01 15 4 -1 -13
- 1226 sprites/pcx/infra08.pcx 754 6536 01 15 4 -1 -13
- 1227 sprites/pcx/infra08.pcx 770 6536 01 15 5 -1 -13
- 1228 sprites/pcx/infra08.pcx 786 6536 01 15 5 -1 -13
- 1229 sprites/pcx/infra08.pcx 2 6584 01 15 5 -1 -13
- 1230 sprites/pcx/infra08.pcx 18 6584 01 15 5 -1 -13
- 1231 sprites/pcx/infra08.pcx 34 6584 01 15 4 -1 -13
- 1232 sprites/pcx/infra08.pcx 50 6584 01 15 4 -1 -13
- 1233 sprites/pcx/infra08.pcx 66 6584 01 15 4 -1 -13
- 1234 sprites/pcx/infra08.pcx 82 6584 01 15 4 -1 -13
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //287   310     24      Level crossings
- 1162 sprites/pcx/infra08.pcx 82 6376 01 31 64 -31 0
- 1163 sprites/pcx/infra08.pcx 162 6376 01 31 64 -31 0
- 1164 sprites/pcx/infra08.pcx 242 6376 01 31 64 -31 0
- 1165 sprites/pcx/infra08.pcx 322 6376 01 31 64 -31 0
- 1166 sprites/pcx/infra08.pcx 402 6376 01 31 64 -31 0
- 1167 sprites/pcx/infra08.pcx 482 6376 01 31 64 -31 0
- 1168 sprites/pcx/infra08.pcx 562 6376 01 31 64 -31 0
- 1169 sprites/pcx/infra08.pcx 642 6376 01 31 64 -31 0
- 1170 sprites/pcx/infra08.pcx 722 6376 01 31 64 -31 0
- 1171 sprites/pcx/infra08.pcx 2 6440 01 31 64 -31 0
- 1172 sprites/pcx/infra08.pcx 82 6440 01 31 64 -31 0
- 1173 sprites/pcx/infra08.pcx 162 6440 01 31 64 -31 0
- 1174 sprites/pcx/infra08.pcx 242 6440 01 31 64 -31 0
- 1175 sprites/pcx/infra08.pcx 322 6440 01 31 64 -31 0
- 1176 sprites/pcx/infra08.pcx 402 6440 01 31 64 -31 0
- 1177 sprites/pcx/infra08.pcx 482 6440 01 31 64 -31 0
- 1178 sprites/pcx/infra08.pcx 562 6440 01 31 64 -31 0
- 1179 sprites/pcx/infra08.pcx 642 6440 01 31 64 -31 0
- 1180 sprites/pcx/infra08.pcx 722 6440 01 31 64 -31 0
- 1181 sprites/pcx/infra08.pcx 2 6488 01 31 64 -31 0
- 1182 sprites/pcx/infra08.pcx 82 6488 01 31 64 -31 0
- 1183 sprites/pcx/infra08.pcx 162 6488 01 31 64 -31 0
- 1184 sprites/pcx/infra08.pcx 242 6488 01 31 64 -31 0
- 1185 sprites/pcx/infra08.pcx 322 6488 01 31 64 -31 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //311   316     6       Rail depot
-  908 sprites/pcx/infra08.pcx 434 4952 09 8 12 15 6
-  909 sprites/pcx/infra08.pcx 466 4952 09 38 50 -1 -25
-  910 sprites/pcx/infra08.pcx 530 4952 09 8 14 -25 6
-  911 sprites/pcx/infra08.pcx 562 4952 09 38 50 -47 -25
-  912 sprites/pcx/infra08.pcx 626 4952 09 38 50 -47 -25
-  913 sprites/pcx/infra08.pcx 690 4952 09 38 50 -1 -25
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //317   322     6       Monorail depot
-  916 sprites/pcx/infra08.pcx 2 5016 09 8 12 15 6
-  917 sprites/pcx/infra08.pcx 34 5016 09 39 50 -1 -26
-  918 sprites/pcx/infra08.pcx 98 5016 09 8 14 -25 6
-  919 sprites/pcx/infra08.pcx 130 5016 09 39 50 -47 -26
-  920 sprites/pcx/infra08.pcx 194 5016 09 39 50 -47 -26
-  921 sprites/pcx/infra08.pcx 258 5016 09 39 50 -1 -26
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //323   328     6       Maglev depot
-  924 sprites/pcx/infra08.pcx 354 5016 09 8 12 15 6
-  925 sprites/pcx/infra08.pcx 386 5016 09 38 50 -1 -25
-  926 sprites/pcx/infra08.pcx 450 5016 09 8 14 -25 6
-  927 sprites/pcx/infra08.pcx 482 5016 09 38 50 -47 -25
-  928 sprites/pcx/infra08.pcx 546 5016 09 38 50 -47 -25
-  929 sprites/pcx/infra08.pcx 610 5016 09 38 50 -1 -25
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //329   340     12      Rail GUI cursors
-   97 sprites/pcx/gui04.pcx 226 184 03 32 32 0 0
-   98 sprites/pcx/gui04.pcx 274 184 03 32 32 0 0
-   99 sprites/pcx/gui04.pcx 322 184 03 32 32 0 0
-  100 sprites/pcx/gui04.pcx 370 184 03 32 32 0 0
-  101 sprites/pcx/gui04.pcx 418 184 03 32 32 0 0
-  102 sprites/pcx/gui04.pcx 466 184 03 32 32 0 0
-  103 sprites/pcx/gui04.pcx 514 184 03 32 32 0 0
-  104 sprites/pcx/gui04.pcx 562 184 03 32 32 0 0
-  105 sprites/pcx/gui04.pcx 610 184 03 30 32 0 0
-  106 sprites/pcx/gui04.pcx 658 184 03 32 32 0 0
-  107 sprites/pcx/gui04.pcx 706 184 03 34 32 0 0
-  108 sprites/pcx/gui04.pcx 754 184 03 32 32 0 0
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

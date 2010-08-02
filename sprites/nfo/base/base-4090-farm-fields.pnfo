@@ -1,210 +1,210 @@
 //4090-4125 farm fences
-  877 sprites/pcx/landscape031.pcx 514 3864 09 20 33 -30 12
-  878 sprites/pcx/landscape031.pcx 562 3864 09 20 33 0 11
-  879 sprites/pcx/landscape031.pcx 610 3864 09 28 33 -30 4
-  880 sprites/pcx/landscape031.pcx 658 3864 09 28 33 0 3
-  881 sprites/pcx/landscape031.pcx 706 3864 09 12 33 -30 20
-  882 sprites/pcx/landscape031.pcx 754 3864 09 12 33 0 19
-  883 sprites/pcx/landscape031.pcx 2 3928 09 20 33 -30 12
-  884 sprites/pcx/landscape031.pcx 50 3928 09 20 33 0 11
-  885 sprites/pcx/landscape031.pcx 98 3928 09 28 33 -30 4
-  886 sprites/pcx/landscape031.pcx 146 3928 09 28 33 0 3
-  887 sprites/pcx/landscape031.pcx 194 3928 09 12 33 -30 20
-  888 sprites/pcx/landscape031.pcx 242 3928 09 12 33 0 19
-  889 sprites/pcx/landscape031.pcx 290 3928 09 19 32 -31 12
-  890 sprites/pcx/landscape031.pcx 338 3928 09 19 32 1 12
-  891 sprites/pcx/landscape031.pcx 386 3928 09 26 33 -31 4
-  892 sprites/pcx/landscape031.pcx 434 3928 09 26 33 1 4
-  893 sprites/pcx/landscape031.pcx 482 3928 09 10 33 -31 20
-  894 sprites/pcx/landscape031.pcx 530 3928 09 10 33 1 20
-  895 sprites/pcx/landscape031.pcx 578 3928 09 20 33 -30 12
-  896 sprites/pcx/landscape031.pcx 626 3928 09 20 33 0 11
-  897 sprites/pcx/landscape031.pcx 674 3928 09 28 33 -30 3
-  898 sprites/pcx/landscape031.pcx 722 3928 09 28 33 0 2
-  899 sprites/pcx/landscape031.pcx 2 3976 09 12 33 -30 19
-  900 sprites/pcx/landscape031.pcx 50 3976 09 12 33 0 18
-  901 sprites/pcx/landscape031.pcx 98 3976 09 20 33 -30 12
-  902 sprites/pcx/landscape031.pcx 146 3976 09 20 33 0 11
-  903 sprites/pcx/landscape031.pcx 194 3976 09 28 33 -30 3
-  904 sprites/pcx/landscape031.pcx 242 3976 09 28 33 0 2
-  905 sprites/pcx/landscape031.pcx 290 3976 09 12 33 -30 19
-  906 sprites/pcx/landscape031.pcx 338 3976 09 12 33 0 18
-  907 sprites/pcx/landscape031.pcx 386 3976 09 20 33 -30 12
-  908 sprites/pcx/landscape031.pcx 434 3976 09 20 33 0 11
-  909 sprites/pcx/landscape031.pcx 482 3976 09 28 33 -30 3
-  910 sprites/pcx/landscape031.pcx 530 3976 09 28 33 0 2
-  911 sprites/pcx/landscape031.pcx 578 3976 09 12 33 -30 19
-  912 sprites/pcx/landscape031.pcx 626 3976 09 12 33 0 18
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 
 //4126-4296 farm tiles
-  469 sprites/pcx/terrain04.pcx 18 2952 09 31 64 -31 0
-  470 sprites/pcx/terrain04.pcx 98 2952 09 31 64 -31 0
-  471 sprites/pcx/terrain04.pcx 178 2952 09 23 64 -31 0
-  472 sprites/pcx/terrain04.pcx 258 2952 09 23 64 -31 0
-  473 sprites/pcx/terrain04.pcx 338 2952 09 31 64 -31 0
-  474 sprites/pcx/terrain04.pcx 418 2952 09 31 64 -31 0
-  475 sprites/pcx/terrain04.pcx 498 2952 09 23 64 -31 0
-  476 sprites/pcx/terrain04.pcx 578 2952 09 23 64 -31 0
-  477 sprites/pcx/terrain04.pcx 658 2952 09 39 64 -31 -8
-  478 sprites/pcx/terrain04.pcx 2 3016 09 39 64 -31 -8
-  479 sprites/pcx/terrain04.pcx 82 3016 09 31 64 -31 -8
-  480 sprites/pcx/terrain04.pcx 162 3016 09 31 64 -31 -8
-  481 sprites/pcx/terrain04.pcx 242 3016 09 39 64 -31 -8
-  482 sprites/pcx/terrain04.pcx 322 3016 09 39 64 -31 -8
-  483 sprites/pcx/terrain04.pcx 402 3016 09 31 64 -31 -8
-  484 sprites/pcx/terrain04.pcx 482 3016 09 47 64 -31 -16
-  485 sprites/pcx/terrain04.pcx 562 3016 09 15 64 -31 0
-  486 sprites/pcx/terrain04.pcx 642 3016 09 31 64 -31 -8
-  487 sprites/pcx/terrain04.pcx 722 3016 09 31 64 -31 -8
-  488 sprites/pcx/terrain04.pcx 2 3080 09 31 64 -31 0
-  489 sprites/pcx/terrain04.pcx 82 3080 09 31 64 -31 0
-  490 sprites/pcx/terrain04.pcx 162 3080 09 23 64 -31 0
-  491 sprites/pcx/terrain04.pcx 242 3080 09 23 64 -31 0
-  492 sprites/pcx/terrain04.pcx 322 3080 09 31 64 -31 0
-  493 sprites/pcx/terrain04.pcx 402 3080 09 31 64 -31 0
-  494 sprites/pcx/terrain04.pcx 482 3080 09 23 64 -31 0
-  495 sprites/pcx/terrain04.pcx 562 3080 09 23 64 -31 0
-  496 sprites/pcx/terrain04.pcx 642 3080 09 39 64 -31 -8
-  497 sprites/pcx/terrain04.pcx 722 3080 09 39 64 -31 -8
-  498 sprites/pcx/terrain04.pcx 2 3144 09 31 64 -31 -8
-  499 sprites/pcx/terrain04.pcx 82 3144 09 31 64 -31 -8
-  500 sprites/pcx/terrain04.pcx 162 3144 09 39 64 -31 -8
-  501 sprites/pcx/terrain04.pcx 242 3144 09 39 64 -31 -8
-  502 sprites/pcx/terrain04.pcx 322 3144 09 31 64 -31 -8
-  503 sprites/pcx/terrain04.pcx 402 3144 09 47 64 -31 -16
-  504 sprites/pcx/terrain04.pcx 482 3144 09 15 64 -31 0
-  505 sprites/pcx/terrain04.pcx 562 3144 09 31 64 -31 -8
-  506 sprites/pcx/terrain04.pcx 642 3144 09 31 64 -31 -8
-  507 sprites/pcx/terrain04.pcx 722 3144 09 31 64 -31 0
-  508 sprites/pcx/terrain04.pcx 2 3208 09 31 64 -31 0
-  509 sprites/pcx/terrain04.pcx 82 3208 09 23 64 -31 0
-  510 sprites/pcx/terrain04.pcx 162 3208 09 23 64 -31 0
-  511 sprites/pcx/terrain04.pcx 242 3208 09 31 64 -31 0
-  512 sprites/pcx/terrain04.pcx 322 3208 09 31 64 -31 0
-  513 sprites/pcx/terrain04.pcx 402 3208 09 23 64 -31 0
-  514 sprites/pcx/terrain04.pcx 482 3208 09 23 64 -31 0
-  515 sprites/pcx/terrain04.pcx 562 3208 09 39 64 -31 -8
-  516 sprites/pcx/terrain04.pcx 642 3208 09 39 64 -31 -8
-  517 sprites/pcx/terrain04.pcx 722 3208 09 31 64 -31 -8
-  518 sprites/pcx/terrain04.pcx 2 3272 09 31 64 -31 -8
-  519 sprites/pcx/terrain04.pcx 82 3272 09 39 64 -31 -8
-  520 sprites/pcx/terrain04.pcx 162 3272 09 39 64 -31 -8
-  521 sprites/pcx/terrain04.pcx 242 3272 09 31 64 -31 -8
-  522 sprites/pcx/terrain04.pcx 322 3272 09 47 64 -31 -16
-  523 sprites/pcx/terrain04.pcx 402 3272 09 15 64 -31 0
-  524 sprites/pcx/terrain04.pcx 482 3272 09 31 64 -31 -8
-  525 sprites/pcx/terrain04.pcx 562 3272 09 31 64 -31 -8
-  526 sprites/pcx/terrain04.pcx 642 3272 09 31 64 -31 0
-  527 sprites/pcx/terrain04.pcx 722 3272 09 31 64 -31 0
-  528 sprites/pcx/terrain04.pcx 2 3336 09 23 64 -31 0
-  529 sprites/pcx/terrain04.pcx 82 3336 09 23 64 -31 0
-  530 sprites/pcx/terrain04.pcx 162 3336 09 31 64 -31 0
-  531 sprites/pcx/terrain04.pcx 242 3336 09 31 64 -31 0
-  532 sprites/pcx/terrain04.pcx 322 3336 09 23 64 -31 0
-  533 sprites/pcx/terrain04.pcx 402 3336 09 23 64 -31 0
-  534 sprites/pcx/terrain04.pcx 482 3336 09 39 64 -31 -8
-  535 sprites/pcx/terrain04.pcx 562 3336 09 39 64 -31 -8
-  536 sprites/pcx/terrain04.pcx 642 3336 09 31 64 -31 -8
-  537 sprites/pcx/terrain04.pcx 722 3336 09 31 64 -31 -8
-  538 sprites/pcx/terrain04.pcx 2 3400 09 39 64 -31 -8
-  539 sprites/pcx/terrain04.pcx 82 3400 09 39 64 -31 -8
-  540 sprites/pcx/terrain04.pcx 162 3400 09 31 64 -31 -8
-  541 sprites/pcx/terrain04.pcx 242 3400 09 47 64 -31 -16
-  542 sprites/pcx/terrain04.pcx 322 3400 09 15 64 -31 0
-  543 sprites/pcx/terrain04.pcx 402 3400 09 31 64 -31 -8
-  544 sprites/pcx/terrain04.pcx 482 3400 09 31 64 -31 -8
-  545 sprites/pcx/terrain04.pcx 562 3400 09 31 64 -31 0
-  546 sprites/pcx/terrain04.pcx 642 3400 09 31 64 -31 0
-  547 sprites/pcx/terrain04.pcx 722 3400 09 23 64 -31 0
-  548 sprites/pcx/terrain04.pcx 2 3464 09 23 64 -31 0
-  549 sprites/pcx/terrain04.pcx 82 3464 09 31 64 -31 0
-  550 sprites/pcx/terrain04.pcx 162 3464 09 31 64 -31 0
-  551 sprites/pcx/terrain04.pcx 242 3464 09 23 64 -31 0
-  552 sprites/pcx/terrain04.pcx 322 3464 09 23 64 -31 0
-  553 sprites/pcx/terrain04.pcx 402 3464 09 39 64 -31 -8
-  554 sprites/pcx/terrain04.pcx 482 3464 09 39 64 -31 -8
-  555 sprites/pcx/terrain04.pcx 562 3464 09 31 64 -31 -8
-  556 sprites/pcx/terrain04.pcx 642 3464 09 31 64 -31 -8
-  557 sprites/pcx/terrain04.pcx 722 3464 09 39 64 -31 -8
-  558 sprites/pcx/terrain04.pcx 2 3528 09 39 64 -31 -8
-  559 sprites/pcx/terrain04.pcx 82 3528 09 31 64 -31 -8
-  560 sprites/pcx/terrain04.pcx 162 3528 09 47 64 -31 -16
-  561 sprites/pcx/terrain04.pcx 242 3528 09 15 64 -31 0
-  562 sprites/pcx/terrain04.pcx 322 3528 09 31 64 -31 -8
-  563 sprites/pcx/terrain04.pcx 402 3528 09 31 64 -31 -8
-  564 sprites/pcx/terrain04.pcx 482 3528 09 31 64 -31 0
-  565 sprites/pcx/terrain04.pcx 562 3528 09 31 64 -31 0
-  566 sprites/pcx/terrain04.pcx 642 3528 09 23 64 -31 0
-  567 sprites/pcx/terrain04.pcx 722 3528 09 23 64 -31 0
-  568 sprites/pcx/terrain04.pcx 2 3592 09 31 64 -31 0
-  569 sprites/pcx/terrain04.pcx 82 3592 09 31 64 -31 0
-  570 sprites/pcx/terrain04.pcx 162 3592 09 23 64 -31 0
-  571 sprites/pcx/terrain04.pcx 242 3592 09 23 64 -31 0
-  572 sprites/pcx/terrain04.pcx 322 3592 09 39 64 -31 -8
-  573 sprites/pcx/terrain04.pcx 402 3592 09 39 64 -31 -8
-  574 sprites/pcx/terrain04.pcx 482 3592 09 31 64 -31 -8
-  575 sprites/pcx/terrain04.pcx 562 3592 09 31 64 -31 -8
-  576 sprites/pcx/terrain04.pcx 642 3592 09 39 64 -31 -8
-  577 sprites/pcx/terrain04.pcx 722 3592 09 39 64 -31 -8
-  578 sprites/pcx/terrain04.pcx 2 3656 09 31 64 -31 -8
-  579 sprites/pcx/terrain04.pcx 82 3656 09 47 64 -31 -16
-  580 sprites/pcx/terrain04.pcx 162 3656 09 15 64 -31 0
-  581 sprites/pcx/terrain04.pcx 242 3656 09 31 64 -31 -8
-  582 sprites/pcx/terrain04.pcx 322 3656 09 31 64 -31 -8
-  583 sprites/pcx/terrain04.pcx 402 3656 09 31 64 -31 0
-  584 sprites/pcx/terrain04.pcx 482 3656 09 31 64 -31 0
-  585 sprites/pcx/terrain04.pcx 562 3656 09 23 64 -31 0
-  586 sprites/pcx/terrain04.pcx 642 3656 09 23 64 -31 0
-  587 sprites/pcx/terrain04.pcx 722 3656 09 31 64 -31 0
-  588 sprites/pcx/terrain04.pcx 2 3720 09 31 64 -31 0
-  589 sprites/pcx/terrain04.pcx 82 3720 09 23 64 -31 0
-  590 sprites/pcx/terrain04.pcx 162 3720 09 23 64 -31 0
-  591 sprites/pcx/terrain04.pcx 242 3720 09 39 64 -31 -8
-  592 sprites/pcx/terrain04.pcx 322 3720 09 39 64 -31 -8
-  593 sprites/pcx/terrain04.pcx 402 3720 09 31 64 -31 -8
-  594 sprites/pcx/terrain04.pcx 482 3720 09 31 64 -31 -8
-  595 sprites/pcx/terrain04.pcx 562 3720 09 39 64 -31 -8
-  596 sprites/pcx/terrain04.pcx 642 3720 09 39 64 -31 -8
-  597 sprites/pcx/terrain04.pcx 722 3720 09 31 64 -31 -8
-  598 sprites/pcx/terrain04.pcx 2 3784 09 47 64 -31 -16
-  599 sprites/pcx/terrain04.pcx 82 3784 09 15 64 -31 0
-  600 sprites/pcx/terrain04.pcx 162 3784 09 31 64 -31 -8
-  601 sprites/pcx/terrain04.pcx 242 3784 09 31 64 -31 -8
-  602 sprites/pcx/terrain04.pcx 322 3784 09 31 64 -31 0
-  603 sprites/pcx/terrain04.pcx 402 3784 09 31 64 -31 0
-  604 sprites/pcx/terrain04.pcx 482 3784 09 23 64 -31 0
-  605 sprites/pcx/terrain04.pcx 562 3784 09 23 64 -31 0
-  606 sprites/pcx/terrain04.pcx 642 3784 09 31 64 -31 0
-  607 sprites/pcx/terrain04.pcx 722 3784 09 31 64 -31 0
-  608 sprites/pcx/terrain04.pcx 2 3848 09 23 64 -31 0
-  609 sprites/pcx/terrain04.pcx 82 3848 09 23 64 -31 0
-  610 sprites/pcx/terrain04.pcx 162 3848 09 39 64 -31 -8
-  611 sprites/pcx/terrain04.pcx 242 3848 09 39 64 -31 -8
-  612 sprites/pcx/terrain04.pcx 322 3848 09 31 64 -31 -8
-  613 sprites/pcx/terrain04.pcx 402 3848 09 31 64 -31 -8
-  614 sprites/pcx/terrain04.pcx 482 3848 09 39 64 -31 -8
-  615 sprites/pcx/terrain04.pcx 562 3848 09 39 64 -31 -8
-  616 sprites/pcx/terrain04.pcx 642 3848 09 31 64 -31 -8
-  617 sprites/pcx/terrain04.pcx 722 3848 09 47 64 -31 -16
-  618 sprites/pcx/terrain04.pcx 2 3912 09 15 64 -31 0
-  619 sprites/pcx/terrain04.pcx 82 3912 09 31 64 -31 -8
-  620 sprites/pcx/terrain04.pcx 162 3912 09 31 64 -31 -8
-  621 sprites/pcx/terrain04.pcx 242 3912 09 31 64 -31 0
-  622 sprites/pcx/terrain04.pcx 322 3912 09 31 64 -31 0
-  623 sprites/pcx/terrain04.pcx 402 3912 09 23 64 -31 0
-  624 sprites/pcx/terrain04.pcx 482 3912 09 23 64 -31 0
-  625 sprites/pcx/terrain04.pcx 562 3912 09 31 64 -31 0
-  626 sprites/pcx/terrain04.pcx 642 3912 09 31 64 -31 0
-  627 sprites/pcx/terrain04.pcx 722 3912 09 23 64 -31 0
-  628 sprites/pcx/terrain04.pcx 2 3960 09 23 64 -31 0
-  629 sprites/pcx/terrain04.pcx 82 3960 09 39 64 -31 -8
-  630 sprites/pcx/terrain04.pcx 162 3960 09 39 64 -31 -8
-  631 sprites/pcx/terrain04.pcx 242 3960 09 31 64 -31 -8
-  632 sprites/pcx/terrain04.pcx 322 3960 09 31 64 -31 -8
-  633 sprites/pcx/terrain04.pcx 402 3960 09 39 64 -31 -8
-  634 sprites/pcx/terrain04.pcx 482 3960 09 39 64 -31 -8
-  635 sprites/pcx/terrain04.pcx 562 3960 09 31 64 -31 -8
-  636 sprites/pcx/terrain04.pcx 642 3960 09 47 64 -31 -16
-  637 sprites/pcx/terrain04.pcx 722 3960 09 15 64 -31 0
-  638 sprites/pcx/terrain04.pcx 2 4024 09 31 64 -31 -8
-  639 sprites/pcx/terrain04.pcx 82 4024 09 31 64 -31 -8
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

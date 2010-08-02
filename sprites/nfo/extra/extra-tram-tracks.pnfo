@@ -1,115 +1,115 @@
  1248 * 33       0C "Tram track graphics"
  1249 * 3        05 0B 71
- 1339 sprites/pcx/infra08.pcx 162 6648 09 13 20 0 4
- 1340 sprites/pcx/infra08.pcx 194 6648 09 13 20 0 4
- 1341 sprites/pcx/infra08.pcx 226 6648 03 36 64 -18 -8
- 1342 sprites/pcx/infra08.pcx 306 6648 03 36 62 -16 -8
- 1343 sprites/pcx/infra08.pcx 386 6648 09 31 64 -31 0
- 1344 sprites/pcx/infra08.pcx 466 6648 09 31 64 -31 0
- 1345 sprites/pcx/infra08.pcx 546 6648 09 31 64 -31 0
- 1346 sprites/pcx/infra08.pcx 626 6648 09 31 64 -31 0
- 1347 sprites/pcx/infra08.pcx 706 6648 09 31 64 -31 0
- 1348 sprites/pcx/infra08.pcx 2 6696 09 31 64 -31 0
- 1349 sprites/pcx/infra08.pcx 82 6696 09 31 64 -31 0
- 1350 sprites/pcx/infra08.pcx 162 6696 09 31 64 -31 0
- 1351 sprites/pcx/infra08.pcx 242 6696 09 31 64 -31 0
- 1352 sprites/pcx/infra08.pcx 322 6696 09 31 64 -31 0
- 1353 sprites/pcx/infra08.pcx 402 6696 09 31 64 -31 0
- 1354 sprites/pcx/infra08.pcx 482 6696 09 39 64 -31 -8
- 1355 sprites/pcx/infra08.pcx 562 6696 09 23 64 -31 0
- 1356 sprites/pcx/infra08.pcx 642 6696 09 23 64 -31 0
- 1357 sprites/pcx/infra08.pcx 722 6696 09 39 64 -31 -8
- 1358 sprites/pcx/infra08.pcx 2 6760 09 31 64 -31 0
- 1359 sprites/pcx/infra08.pcx 82 6760 09 31 64 -31 0
- 1360 sprites/pcx/infra08.pcx 162 6760 09 31 64 -31 0
- 1361 sprites/pcx/infra08.pcx 242 6760 09 31 64 -31 0
- 1362 sprites/pcx/infra08.pcx 322 6760 09 31 64 -31 0
- 1363 sprites/pcx/infra08.pcx 402 6760 09 31 64 -31 0
- 1364 sprites/pcx/infra08.pcx 482 6760 09 31 64 -31 0
- 1365 sprites/pcx/infra08.pcx 562 6760 09 31 64 -31 0
- 1366 sprites/pcx/infra08.pcx 642 6760 09 31 64 -31 0
- 1367 sprites/pcx/infra08.pcx 722 6760 09 31 64 -31 0
- 1368 sprites/pcx/infra08.pcx 2 6808 09 31 64 -31 0
- 1369 sprites/pcx/infra08.pcx 82 6808 09 31 64 -31 0
- 1370 sprites/pcx/infra08.pcx 162 6808 09 31 64 -31 0
- 1371 sprites/pcx/infra08.pcx 242 6808 09 31 64 -31 0
- 1372 sprites/pcx/infra08.pcx 322 6808 09 31 64 -31 0
- 1373 sprites/pcx/infra08.pcx 402 6808 09 31 64 -31 0
- 1374 sprites/pcx/infra08.pcx 482 6808 09 31 64 -31 0
- 1375 sprites/pcx/infra08.pcx 562 6808 09 31 64 -31 0
- 1376 sprites/pcx/infra08.pcx 642 6808 09 31 64 -31 0
- 1377 sprites/pcx/infra08.pcx 722 6808 09 39 64 -31 -8
- 1378 sprites/pcx/infra08.pcx 2 6872 09 23 64 -31 0
- 1379 sprites/pcx/infra08.pcx 82 6872 09 23 64 -31 0
- 1380 sprites/pcx/infra08.pcx 162 6872 09 39 64 -31 -8
- 1381 sprites/pcx/infra08.pcx 242 6872 09 31 64 -31 0
- 1382 sprites/pcx/infra08.pcx 322 6872 09 31 64 -31 0
- 1383 sprites/pcx/infra08.pcx 402 6872 09 31 64 -31 0
- 1384 sprites/pcx/infra08.pcx 482 6872 09 31 64 -31 0
- 1385 sprites/pcx/infra08.pcx 562 6872 09 31 64 -31 0
- 1386 sprites/pcx/infra08.pcx 642 6872 09 31 64 -31 0
- 1387 sprites/pcx/infra08.pcx 722 6872 09 20 20 0 0
- 1388 sprites/pcx/infra08.pcx 2 6936 09 31 64 -31 0
- 1389 sprites/pcx/infra08.pcx 82 6936 09 64 60 1 -49
- 1390 sprites/pcx/infra08.pcx 162 6936 09 31 64 -31 0
- 1391 sprites/pcx/infra08.pcx 242 6936 09 64 60 -59 -49
- 1392 sprites/pcx/infra08.pcx 322 6936 09 64 60 -59 -49
- 1393 sprites/pcx/infra08.pcx 402 6936 09 64 60 1 -49
- 1394 sprites/pcx/infra08.pcx 482 6936 09 48 64 -31 -17
- 1395 sprites/pcx/infra08.pcx 562 6936 09 57 64 -31 -26
- 1396 sprites/pcx/infra08.pcx 642 6936 09 57 64 -31 -26
- 1397 sprites/pcx/infra08.pcx 722 6936 09 57 64 -31 -26
- 1398 sprites/pcx/infra08.pcx 2 7016 09 57 64 -31 -26
- 1399 sprites/pcx/infra08.pcx 82 7016 09 57 64 -31 -26
- 1400 sprites/pcx/infra08.pcx 162 7016 09 57 64 -31 -26
- 1401 sprites/pcx/infra08.pcx 242 7016 09 57 64 -31 -26
- 1402 sprites/pcx/infra08.pcx 322 7016 09 48 64 -31 -17
- 1403 sprites/pcx/infra08.pcx 402 7016 09 57 64 -31 -26
- 1404 sprites/pcx/infra08.pcx 482 7016 09 57 64 -31 -26
- 1405 sprites/pcx/infra08.pcx 562 7016 09 57 64 -31 -26
- 1406 sprites/pcx/infra08.pcx 642 7016 09 57 64 -31 -26
- 1407 sprites/pcx/infra08.pcx 722 7016 09 65 64 -31 -34
- 1408 sprites/pcx/infra08.pcx 2 7096 09 65 64 -31 -34
- 1409 sprites/pcx/infra08.pcx 82 7096 09 65 64 -31 -34
- 1410 sprites/pcx/infra08.pcx 162 7096 09 65 64 -31 -34
- 1411 sprites/pcx/infra08.pcx 242 7096 09 65 64 -31 -34
- 1412 sprites/pcx/infra08.pcx 322 7096 09 65 64 -31 -34
- 1413 sprites/pcx/infra08.pcx 402 7096 09 65 64 -31 -34
- 1414 sprites/pcx/infra08.pcx 482 7096 09 65 64 -31 -34
- 1415 sprites/pcx/infra08.pcx 562 7096 09 31 64 -31 0
- 1416 sprites/pcx/infra08.pcx 642 7096 09 31 64 -31 0
- 1417 sprites/pcx/infra08.pcx 722 7096 09 31 64 -31 0
- 1418 sprites/pcx/infra08.pcx 2 7176 09 31 64 -31 0
- 1419 sprites/pcx/infra08.pcx 82 7176 09 48 64 -31 -17
- 1420 sprites/pcx/infra08.pcx 162 7176 09 48 64 -31 -17
- 1421 sprites/pcx/infra08.pcx 242 7176 09 48 64 -31 -17
- 1422 sprites/pcx/infra08.pcx 322 7176 09 48 64 -31 -17
- 1423 sprites/pcx/infra08.pcx 402 7176 09 57 64 -31 -26
- 1424 sprites/pcx/infra08.pcx 482 7176 09 57 64 -31 -26
- 1425 sprites/pcx/infra08.pcx 562 7176 09 57 64 -31 -26
- 1426 sprites/pcx/infra08.pcx 642 7176 09 57 64 -31 -26
- 1427 sprites/pcx/infra08.pcx 722 7176 09 57 64 -31 -26
- 1428 sprites/pcx/infra08.pcx 2 7256 09 57 64 -31 -26
- 1429 sprites/pcx/infra08.pcx 82 7256 09 57 64 -31 -26
- 1430 sprites/pcx/infra08.pcx 162 7256 09 57 64 -31 -26
- 1431 sprites/pcx/infra08.pcx 242 7256 09 57 64 -31 -26
- 1432 sprites/pcx/infra08.pcx 322 7256 09 57 64 -31 -26
- 1433 sprites/pcx/infra08.pcx 402 7256 09 57 64 -31 -26
- 1434 sprites/pcx/infra08.pcx 482 7256 09 48 64 -31 -17
- 1435 sprites/pcx/infra08.pcx 562 7256 09 48 64 -31 -17
- 1436 sprites/pcx/infra08.pcx 642 7256 09 48 64 -31 -17
- 1437 sprites/pcx/infra08.pcx 722 7256 09 48 64 -31 -17
- 1438 sprites/pcx/infra08.pcx 2 7336 09 57 64 -31 -25
- 1439 sprites/pcx/infra08.pcx 82 7336 09 57 64 -31 -26
- 1440 sprites/pcx/infra08.pcx 162 7336 09 57 64 -31 -25
- 1441 sprites/pcx/infra08.pcx 242 7336 09 57 64 -31 -26
- 1442 sprites/pcx/infra08.pcx 322 7336 09 57 64 -31 -25
- 1443 sprites/pcx/infra08.pcx 402 7336 09 57 64 -31 -26
- 1444 sprites/pcx/infra08.pcx 482 7336 09 57 64 -31 -25
- 1445 sprites/pcx/infra08.pcx 562 7336 09 57 64 -31 -26
- 1446 sprites/pcx/infra08.pcx 642 7336 09 31 64 -31 0
- 1447 sprites/pcx/infra08.pcx 722 7336 09 31 64 -31 0
- 1448 sprites/pcx/infra08.pcx 2 7416 09 39 64 -31 -8
- 1449 sprites/pcx/infra08.pcx 82 7416 09 23 64 -31 0
- 1450 sprites/pcx/infra08.pcx 162 7416 09 23 64 -31 0
- 1451 sprites/pcx/infra08.pcx 242 7416 09 39 64 -31 -8
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

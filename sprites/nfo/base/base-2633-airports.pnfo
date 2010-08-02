@@ -1,60 +1,60 @@
 //2633-2691 airports
-    3 sprites/pcx/airports01.pcx 66 8 09 87 64 -31 -56
-    4 sprites/pcx/airports01.pcx 146 8 09 31 64 -31 0
-    5 sprites/pcx/airports01.pcx 226 8 09 31 64 -31 0
-    6 sprites/pcx/airports01.pcx 306 8 09 31 64 -31 0
-    7 sprites/pcx/airports01.pcx 386 8 09 31 64 -31 0
-    8 sprites/pcx/airports01.pcx 466 8 09 31 64 -31 0
-    9 sprites/pcx/airports01.pcx 546 8 09 31 64 -31 0
-   10 sprites/pcx/airports01.pcx 626 8 09 31 64 -31 0
-   11 sprites/pcx/airports01.pcx 706 8 09 31 64 -31 0
-   12 sprites/pcx/airports01.pcx 2 120 09 31 64 -31 0
-   13 sprites/pcx/airports01.pcx 82 120 09 31 64 -31 0
-   14 sprites/pcx/airports01.pcx 162 120 09 31 64 -31 0
-   15 sprites/pcx/airports01.pcx 242 120 09 31 64 -31 0
-   16 sprites/pcx/airports01.pcx 322 120 09 31 64 -31 0
-   17 sprites/pcx/airports01.pcx 402 120 09 31 64 -31 0
-   18 sprites/pcx/airports01.pcx 482 120 09 31 64 -31 0
-   19 sprites/pcx/airports01.pcx 562 120 09 31 64 -31 0
-   20 sprites/pcx/airports01.pcx 642 120 09 67 66 -28 -38
-   21 sprites/pcx/airports01.pcx 722 120 09 79 50 -24 -60
-   22 sprites/pcx/airports01.pcx 2 216 09 62 41 -20 -40
-   23 sprites/pcx/airports01.pcx 50 216 09 51 42 -19 -33
-   24 sprites/pcx/airports01.pcx 98 216 09 66 64 -36 -39
-   25 sprites/pcx/airports01.pcx 178 216 09 55 64 -4 -38
-   26 sprites/pcx/airports01.pcx 258 216 09 17 18 13 0
-   27 sprites/pcx/airports01.pcx 290 216 09 55 64 -2 -38
-   28 sprites/pcx/airports01.pcx 370 216 09 17 18 16 -1
-   29 sprites/pcx/airports01.pcx 402 216 09 17 17 -8 -9
-   30 sprites/pcx/airports01.pcx 434 216 09 23 27 -9 -16
-   31 sprites/pcx/airports01.pcx 466 216 09 20 28 -12 -14
-   32 sprites/pcx/airports01.pcx 514 216 09 24 36 -29 -10
-   33 sprites/pcx/airports01.pcx 562 216 09 19 31 0 -3
-   34 sprites/pcx/airports01.pcx 610 216 09 19 31 -30 -2
-   35 sprites/pcx/airports01.pcx 658 216 09 31 64 -31 0
-   36 sprites/pcx/airports01.pcx 2 296 09 31 64 -31 0
-   37 sprites/pcx/airports01.pcx 82 296 09 31 64 -31 0
-   38 sprites/pcx/airports01.pcx 162 296 09 26 50 -21 -13
-   39 sprites/pcx/airports01.pcx 226 296 09 31 64 -31 0
-   40 sprites/pcx/airports01.pcx 306 296 09 31 64 -31 0
-   41 sprites/pcx/airports01.pcx 386 296 09 31 64 -31 0
-   42 sprites/pcx/airports01.pcx 466 296 09 31 64 -31 0
-   43 sprites/pcx/airports01.pcx 546 296 09 31 64 -31 0
-   44 sprites/pcx/airports01.pcx 626 296 09 31 64 -31 0
-   45 sprites/pcx/airports01.pcx 706 296 09 31 64 -31 0
-   46 sprites/pcx/airports01.pcx 786 296 09 21 10 0 -24
-   47 sprites/pcx/airports01.pcx 2 344 09 21 10 0 -24
-   48 sprites/pcx/airports01.pcx 18 344 09 21 10 0 -24
-   49 sprites/pcx/airports01.pcx 34 344 09 21 9 1 -24
-   50 sprites/pcx/airports01.pcx 50 344 09 27 6 -2 -22
-   51 sprites/pcx/airports01.pcx 66 344 09 25 15 -7 -21
-   52 sprites/pcx/airports01.pcx 98 344 09 22 30 -14 -19
-   53 sprites/pcx/airports01.pcx 146 344 09 17 35 -16 -14
-   54 sprites/pcx/airports01.pcx 194 344 09 22 30 -13 -19
-   55 sprites/pcx/airports01.pcx 242 344 09 25 15 -5 -21
-   56 sprites/pcx/airports01.pcx 274 344 09 27 7 -2 -22
-   57 sprites/pcx/airports01.pcx 290 344 09 25 15 -5 -21
-   58 sprites/pcx/airports01.pcx 322 344 09 22 30 -13 -19
-   59 sprites/pcx/airports01.pcx 370 344 09 17 35 -16 -14
-   60 sprites/pcx/airports01.pcx 418 344 09 22 30 -14 -19
-   61 sprites/pcx/airports01.pcx 466 344 09 25 15 -7 -21
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY

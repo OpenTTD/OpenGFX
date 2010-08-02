@@ -1,0 +1,31 @@
+#include "sprites/nfo/nfo-header.pnfo"
+
+#define EMPTY   0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+
+0 * 4   00 00 00 00
+
+#include "sprites/nfo/extra/extra-header.pnfo"
+#include "sprites/nfo/templates/trains.tnfo"
+
+#include "sprites/nfo/extra/extra-2ccmap.pnfo"
+#include "sprites/nfo/extra/extra-aqueduct.pnfo"
+#include "sprites/nfo/extra/extra-canals.pnfo"
+#include "sprites/nfo/extra/extra-chars.pnfo"
+#include "sprites/nfo/extra/extra-erails.pnfo"
+#include "sprites/nfo/extra/extra-foundations.pnfo"
+#include "sprites/nfo/extra/extra-oneway.pnfo"
+#include "sprites/nfo/extra/extra-road-stops.pnfo"
+#include "sprites/nfo/extra/extra-shores.pnfo"
+#include "sprites/nfo/extra/extra-signals.pnfo"
+#include "sprites/nfo/extra/extra-sloped-tracks.pnfo"
+#include "sprites/nfo/extra/extra-snow-temperate.pnfo"
+#include "sprites/nfo/extra/extra-tram-tracks.pnfo"
+
+// OpenTTD only features:
+// (skip to end for TTDPatch)
+0 * 0   09 9D 04 \7= 00 00 00 00 00
+#include "sprites/nfo/extra/extra-openttd-airport.pnfo"
+#include "sprites/nfo/extra/extra-openttd-autorail.pnfo"
+#include "sprites/nfo/extra/extra-openttd-flags.pnfo"
+#include "sprites/nfo/extra/extra-openttd-gui.pnfo"
+#include "sprites/nfo/extra/extra-openttd-overrides.pnfo"

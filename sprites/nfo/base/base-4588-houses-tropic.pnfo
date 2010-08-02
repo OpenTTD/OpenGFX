@@ -1,50 +1,50 @@
 //4588-4625 tropic buildings
-    8 sprites/pcx/towns02.pcx 402 8 03 31 64 -31 0
-    9 sprites/pcx/towns02.pcx 482 8 03 47 64 -31 -16
-   10 sprites/pcx/towns02.pcx 562 8 09 63 64 -31 -32
-   11 sprites/pcx/towns02.pcx 642 8 03 31 64 -31 0
-   12 sprites/pcx/towns02.pcx 722 8 03 43 64 -31 -12
-   13 sprites/pcx/towns02.pcx 2 88 09 40 64 -31 -9
-   14 sprites/pcx/towns02.pcx 82 88 03 31 64 -31 0
-   15 sprites/pcx/towns02.pcx 162 88 03 33 64 -31 -2
-   16 sprites/pcx/towns02.pcx 242 88 09 37 64 -31 -6
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 //continuing
-    3 sprites/pcx/towns02.pcx 66 8 09 32 64 -31 -1
-    4 sprites/pcx/towns02.pcx 146 8 09 54 64 -31 -23
-    5 sprites/pcx/towns02.pcx 226 8 09 37 64 -31 -6
- 4600 sprites/pcx/towns02.pcx 306 8 09 46 64 -31 -15
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 //continuing
-   22 sprites/pcx/towns02.pcx 594 88 03 35 64 -31 -4
-   23 sprites/pcx/towns02.pcx 674 88 03 112 64 -31 -81
-   24 sprites/pcx/towns02.pcx 2 216 09 105 64 -31 -74
+EMPTY
+EMPTY
+EMPTY
 // tropic church
- 4604 sprites/pcx/trop_4604_church.pcx 0 0 09 56 64 -31 -25
+EMPTY
 //continuing
-   18 sprites/pcx/towns02.pcx 338 88 03 31 64 -31 0
-   19 sprites/pcx/towns02.pcx 418 88 03 47 64 -31 -16
-   20 sprites/pcx/towns02.pcx 498 88 09 47 64 -31 -17
+EMPTY
+EMPTY
+EMPTY
 //continuing
- 4608 sprites/pcx/towns02.pcx 98 216 03 31 64 -31 0
- 4609 sprites/pcx/towns02.pcx 178 216 03 74 64 -31 -43  // Recolour: PINK, RED, YELLOW
- 4610 sprites/pcx/towns02.pcx 258 216 09 74 64 -31 -43  // Recolour: PINK, RED, YELLOW
- 4611 sprites/pcx/towns02.pcx 338 216 03 31 64 -31 0    // Recolour: PINK, RED, YELLOW
- 4612 sprites/pcx/towns02.pcx 418 216 03 69 64 -31 -38  // Recolour: PINK, RED, YELLOW
- 4613 sprites/pcx/towns02.pcx 498 216 09 69 64 -31 -38  // Recolour: PINK, RED, YELLOW
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 //continuing
- 4614 sprites/pcx/twotile_dig.pcx 66 0 03 31 63 -31 0
- 4615 sprites/pcx/twotile_dig.pcx 0 0 03 31 63 -31 0
- 4616 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 10 10 03 96 32 1 -65
- 4617 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 50 10 03 121 64 -31 -90
- 4618 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 120 10 09 117 32 1 -86
- 4619 sprites/pcx/tropical_sprites4616-19_drginaldee.pcx 160 10 09 133 64 -31 -102
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 //continuing
-   35 sprites/pcx/towns02.pcx 2 344 03 31 64 -31 0
-   33 sprites/pcx/towns02.pcx 594 216 03 67 64 -31 -36
-   34 sprites/pcx/towns02.pcx 674 216 09 67 64 -31 -36
+EMPTY
+EMPTY
+EMPTY
 //continuing
- 4623 sprites/pcx/tropical_modern_office.pcx 182 189 03 30 63 -31 0
- 4624 sprites/pcx/tropical_modern_office.pcx 123 70 03 63 64 -30 -32
- 4625 sprites/pcx/tropical_modern_office.pcx 195 228 09 117 63 -31 -87
+EMPTY
+EMPTY
+EMPTY
 
 //4626 city roadside tree
-    6 sprites/pcx/landscape031.pcx 114 8 09 32 9 -4 -26
+EMPTY

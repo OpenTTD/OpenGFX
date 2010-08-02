@@ -1,5 +1,7 @@
 #include "sprites/nfo/nfo-header.pnfo"
 
+#define EMPTY   0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+
 #include "sprites/nfo/toyland/toyland-0000-terrain.pnfo"
 #include "sprites/nfo/toyland/toyland-0076-water.pnfo"
 #include "sprites/nfo/toyland/toyland-0086-rough-rocky-terrain.pnfo"
