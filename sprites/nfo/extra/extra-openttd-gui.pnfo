@@ -1,9 +1,6 @@
 // OpenTTD GUI graphics
 
-//nforenum erronously warns about the sprite count here for OpenTTD GUI sprites
-//@@WARNING DISABLE 60
-
- 1562 * 3        05 15 \b154
+-1 * 3   05 15 \b154
                                                                                    // tile border hightlights
   220 sprites/pcx/gui04.pcx 690 504 09 31 64 -31   7
   221 sprites/pcx/gui04.pcx   2 568 09 31 64 -31   7
@@ -165,9 +162,6 @@
    -1 sprites/pcx/gui04.pcx 242 352 09  8  7   0   0                              // (?) to bottom
    -1 sprites/pcx/gui04.pcx 256 352 09  8  7   0   0                              // (?) to top
    -1 sprites/pcx/extra/extra-gui-bug.pcx   0   0 09  8  7   0   0                // window decorations: debugging icon
-   
-//re-enable warning again after nforenum erronously warns about the sprite count for GUI sprites
-//@@WARNING ENABLE 60
 
 // Bigger T
 -1 * 0   0A      \b1 \b1 \w4836
