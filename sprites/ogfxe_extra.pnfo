@@ -37,4 +37,5 @@
 #include "sprites/nfo/extra/extra-openttd-autorail.pnfo"
 #include "sprites/nfo/extra/extra-openttd-flags.pnfo"
 #include "sprites/nfo/extra/extra-openttd-gui.pnfo"
+#include "sprites/nfo/extra/extra-openttd-airport-preview.pnfo"
 #include "sprites/nfo/extra/extra-openttd-overrides.pnfo"

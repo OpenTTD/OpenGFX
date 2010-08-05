@@ -46,7 +46,7 @@ NFO_DIR        ?= $(SRC_DIR)/nfo
 DOC_DIR        ?= docs
 ifeq ($(PROJECT_TYPE),NML)
 LANG_DIR       ?= lang
-endif      
+endif
 
 # Add some OS detection and guess an install path (use the system's default)
 OSTYPE:=$(shell uname -s)
@@ -71,7 +71,7 @@ ifdef INSTALLDIR
 INSTALL_DIR = $(INSTALLDIR)
 endif
 
-# file extentions which indicate plain text source files, 
+# file extentions which indicate plain text source files,
 # parsable by a text editor (SRC) and binary source files (INC)
 ifeq ($(PROJECT_TYPE),NFO)				# NFO style
 	FILE_SRC_EXTENSIONS ?= pnfo tnfo
