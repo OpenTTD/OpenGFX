@@ -18,6 +18,8 @@
 #include "sprites/nfo/extra/extra-snow-temperate.pnfo"
 #include "sprites/nfo/extra/extra-tram-tracks.pnfo"
 
+#include "sprites/nfo/extra/extra-toyland-infrastructure.pnfo"
+
 // additional to openttd.grf
 // Rivers
 #include "sprites/nfo/extra/extra-plus-waterfeatures.pnfo"

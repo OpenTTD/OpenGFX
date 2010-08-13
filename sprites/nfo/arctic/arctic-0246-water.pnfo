@@ -18,4 +18,4 @@
   945 sprites/pcx/infra06.pcx 674 5080 09 13 14 19 3
 
 //261 buoy
- 1186 sprites/pcx/random.pcx 283 10 09 31 64 -31 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here

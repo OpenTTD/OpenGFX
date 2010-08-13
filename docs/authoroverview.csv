@@ -159,7 +159,7 @@ ogfx1_base;4023;4060;38;Rocks;Zephyris;Zephyris;;1
 ogfx1_base;4061;4061;1;Water;Leppka;Zephyris;;1
 ogfx1_base;4062;4069;8;Coast tiles;Leppka, Zephyris;Zephyris;;1
 ogfx1_base;4070;4075;6;Ship depot;Red*Star;;;1
-ogfx1_base;4076;4076;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfx1_base;4076;4076;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfx1_base;4077;4089;13;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;4090;4125;36;Farm fences;Soeb, andythenorth;Soeb;781;1
 ogfx1_base;4126;4296;171;Farm tiles;Zephyris;Zephyris;;1
@@ -267,7 +267,7 @@ ogfxc_arctic;230;237;8;Rail tunnels;Zephyris;Zephyris;;1
 ogfxc_arctic;238;245;8;Water;Leppka;Zephyris;;1
 ogfxc_arctic;246;246;1;Coastline;Leppka, Zephyris;Zephyris;;1
 ogfxc_arctic;247;260;14;Ship depot;Red*Star;;;1
-ogfxc_arctic;261;261;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfxc_arctic;261;261;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxc_arctic;262;268;7;Oil well;Zephyris;buttercup;;1
 ogfxc_arctic;269;283;15;Headquarters;Zephyris;;;1
 ogfxc_arctic;284;309;26;Maglev tracks;Zephyris;Zephyris;;1
@@ -295,7 +295,7 @@ ogfxh_tropical;218;233;16;Tunnels;Zephyris;Zephyris;;1
 ogfxh_tropical;234;234;1;Water;Leppka;Zephyris;;1
 ogfxh_tropical;235;242;8;Coastline;Leppka, Zephyris;Zephyris;;1
 ogfxh_tropical;243;248;6;Ship depot;Red*Star;;;1
-ogfxh_tropical;249;249;1;Buoy;FooBar, Leppka;FooBar;;1
+ogfxh_tropical;249;249;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxh_tropical;250;256;7;Oil well;Zephyris;buttercup;;1
 ogfxh_tropical;257;271;15;Headquarters;Zephyris;;;1
 ogfxh_tropical;272;297;26;Maglev tracks;Zephyris;Zephyris;;1
@@ -328,7 +328,7 @@ ogfxi_logos;89;96;8;Landscape preview;LordAzamath;;;1
 ogfxi_logos;97;102;6;deprecated;n/a;n/a;;1
 ogfxt_toyland;0;75;76;Terrain;Zephyris;Zephyris;;1
 ogfxt_toyland;76;84;9;Water and shore tiles;Leppka, Zephyris;Zephyris;;1
-ogfxt_toyland;85;85;1;Buoy;Leppka, FooBar;FooBar;;1
+ogfxt_toyland;85;85;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxt_toyland;86;108;23;Rough terrain;Zephyris;Zephyris;;1
 ogfxt_toyland;109;127;19;Rocks;Zephyris;Zephyris;;1
 ogfxt_toyland;128;133;6;Candyfloss forest;Athanasios, LordAzamath;buttercup;;1
@@ -381,6 +381,7 @@ ogfxe_extra;0;3;4;[Type 08] Sloped water;Leppka;buttercup;;1
 ogfxe_extra;4;51;48;[Type 08] Locks;FooBar, Red*Star;FooBar;;1
 ogfxe_extra;52;63;12;[Type 08] Canal watersides;Zephyris;buttercup;;1
 ogfxe_extra;64;64;1;[Type 08] GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
+ogfxe_extra;0;693;693;2;Toyland buoy;2006TTD, planetmaker;planetmaker;;1
 ogfxe_extra;0;5;6;[Type 09] One-way road arrows;FooBar;FooBar;;1
 ogfxe_extra;0;255;256;[Type 0A] Two company color translation maps;n/a;n/a;;1
 ogfxe_extra;0;112;113;[Type 0B] Tram tracks;FooBar, PikkaBird, Zephyris;FooBar;;1

@@ -8,4 +8,4 @@
   879 sprites/pcx/terrain04.pcx 82 5464 09 39 64 -31 -8
   880 sprites/pcx/terrain04.pcx 162 5464 09 23 64 -31 0
   881 sprites/pcx/terrain04.pcx 242 5464 09 39 64 -31 -8
- 1186 sprites/pcx/random.pcx 283 10 09 31 64 -31 0
+-1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here
