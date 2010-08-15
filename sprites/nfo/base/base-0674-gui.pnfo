@@ -48,11 +48,11 @@
    48 sprites/pcx/gui04.pcx 130 104 03 32 32 0 0             // cursor vehicle view: goto cursor 1
    49 sprites/pcx/gui04.pcx 178 104 03 32 32 0 0             // cursor vehicle view: goto cursor 2
    50 sprites/pcx/gui04.pcx 226 104 03 32 32 0 0             // cursor vehicle view: goto cursor 3
-   51 sprites/pcx/gui04.pcx 274 104 03 32 32 0 0             // cursor main toolbar: land area information
+  719 sprites/pcx/gui/help.pcx 89 2 03 31 26 0 0             // cursor main toolbar: land area information
    52 sprites/pcx/gui04.pcx 322 104 03 32 32 0 0             // cursor company view: place HQ cursor
    53 sprites/pcx/gui04.pcx 370 104 03 32 32 0 0             // cursor construction toolbar: build depot cursor
    54 sprites/pcx/gui04.pcx 418 104 03 32 32 0 0             // cursor landscaping toolbar: place sign cursor
-   55 sprites/pcx/gui04.pcx 466 104 01 20 20 0 0             // main toolbar: info icon
+  723 sprites/pcx/gui/help.pcx 68 23 01 19 19 1 1            // main toolbar: info icon
    -1 sprites/pcx/gui/savemenu.pcx 0 0 01 20 20 0 0          // main toolbar: file menu
    -1 sprites/pcx/gui/savemenu.pcx 21 0 01 20 20 0 0         // main toolbar: file menu
    58 sprites/pcx/gui04.pcx 562 104 01 20 20 0 0             // main toolbar: pause game
