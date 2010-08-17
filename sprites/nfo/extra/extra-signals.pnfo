@@ -58,54 +58,12 @@
 #include "../templates/signals.tnfo"
 
 //semaphore presignals
-  335 sprites/pcx/semaphores.pcx 578 120 01 21 12 -6 -19
-  336 sprites/pcx/semaphores.pcx 610 120 01 23 9 -3 -21
-  337 sprites/pcx/semaphores.pcx 626 120 01 21 12 -1 -19
-  338 sprites/pcx/semaphores.pcx 658 120 01 21 11 -1 -19
-  339 sprites/pcx/semaphores.pcx 674 120 01 21 11 -1 -19
-  340 sprites/pcx/semaphores.pcx 690 120 01 23 8 -1 -21
-  341 sprites/pcx/semaphores.pcx 706 120 01 21 12 -7 -19
-  342 sprites/pcx/semaphores.pcx 738 120 01 21 12 -7 -19
-  343 sprites/pcx/semaphores.pcx 770 120 01 21 4 1 -19
-  344 sprites/pcx/semaphores.pcx 786 120 01 24 4 1 -22
-  345 sprites/pcx/semaphores.pcx 2 168 01 23 4 -1 -21
-  346 sprites/pcx/semaphores.pcx 18 168 01 26 4 -1 -24
-  347 sprites/pcx/semaphores.pcx 34 168 01 21 13 -7 -19
-  348 sprites/pcx/semaphores.pcx 66 168 01 21 10 -4 -19
-  349 sprites/pcx/semaphores.pcx 82 168 01 21 13 -1 -19
-  350 sprites/pcx/semaphores.pcx 114 168 01 21 10 -1 -19
-  351 sprites/pcx/semaphores.pcx 130 168 01 21 11 -6 -19
-  352 sprites/pcx/semaphores.pcx 146 168 01 23 8 -3 -21
-  353 sprites/pcx/semaphores.pcx 162 168 01 21 11 0 -19
-  354 sprites/pcx/semaphores.pcx 178 168 01 21 10 0 -19
-  355 sprites/pcx/semaphores.pcx 194 168 01 21 10 0 -19
-  356 sprites/pcx/semaphores.pcx 210 168 01 23 7 0 -21
-  357 sprites/pcx/semaphores.pcx 226 168 01 21 11 -7 -19
-  358 sprites/pcx/semaphores.pcx 242 168 01 21 11 -7 -19
-  359 sprites/pcx/semaphores.pcx 258 168 01 21 4 1 -19
-  360 sprites/pcx/semaphores.pcx 274 168 01 24 4 1 -22
-  361 sprites/pcx/semaphores.pcx 290 168 01 23 4 -1 -21
-  362 sprites/pcx/semaphores.pcx 306 168 01 26 4 -1 -24
-  363 sprites/pcx/semaphores.pcx 322 168 01 21 12 -7 -19
-  364 sprites/pcx/semaphores.pcx 354 168 01 21 9 -4 -19
-  365 sprites/pcx/semaphores.pcx 370 168 01 21 12 0 -19
-  366 sprites/pcx/semaphores.pcx 402 168 01 21 9 0 -19
-  367 sprites/pcx/semaphores.pcx 418 168 01 21 11 -6 -19
-  368 sprites/pcx/semaphores.pcx 434 168 01 23 8 -3 -21
-  369 sprites/pcx/semaphores.pcx 450 168 01 21 11 0 -19
-  370 sprites/pcx/semaphores.pcx 466 168 01 21 10 0 -19
-  371 sprites/pcx/semaphores.pcx 482 168 01 21 10 0 -19
-  372 sprites/pcx/semaphores.pcx 498 168 01 23 7 0 -21
-  373 sprites/pcx/semaphores.pcx 514 168 01 21 11 -7 -19
-  374 sprites/pcx/semaphores.pcx 530 168 01 21 11 -7 -19
-  375 sprites/pcx/semaphores.pcx 546 168 01 21 4 1 -19
-  376 sprites/pcx/semaphores.pcx 562 168 01 24 4 1 -22
-  377 sprites/pcx/semaphores.pcx 578 168 01 23 4 -1 -21
-  378 sprites/pcx/semaphores.pcx 594 168 01 26 4 -1 -24
-  379 sprites/pcx/semaphores.pcx 610 168 01 21 12 -7 -19
-  380 sprites/pcx/semaphores.pcx 642 168 01 21 9 -4 -19
-  381 sprites/pcx/semaphores.pcx 658 168 01 21 12 0 -19
-  382 sprites/pcx/semaphores.pcx 690 168 01 21 9 0 -19
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-entry.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-exit.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-combo.pcx
+#include "../templates/signals.tnfo"
 
 //PBS standard
  1219 sprites/pcx/signals_pbs.pcx 150 6 01 22 5 -2 -20
@@ -180,40 +138,12 @@
  1336 sprites/pcx/signals_pbs.pcx 389 100 01 22 6 -3 -20
 
 //semaphore PBS 2way
-  447 sprites/pcx/semaphores.pcx 130 248 01 21 10 -6 -19
-  448 sprites/pcx/semaphores.pcx 146 248 01 23 7 -3 -21
-  449 sprites/pcx/semaphores.pcx 162 248 01 21 10 1 -19
-  450 sprites/pcx/semaphores.pcx 178 248 01 21 9 1 -19
-  451 sprites/pcx/semaphores.pcx 194 248 01 21 9 1 -19
-  452 sprites/pcx/semaphores.pcx 210 248 01 23 6 1 -21
-  453 sprites/pcx/semaphores.pcx 226 248 01 21 10 -7 -19
-  454 sprites/pcx/semaphores.pcx 242 248 01 21 10 -7 -19
-  455 sprites/pcx/semaphores.pcx 258 248 01 21 2 1 -19
-  456 sprites/pcx/semaphores.pcx 274 248 01 24 2 1 -22
-  457 sprites/pcx/semaphores.pcx 290 248 01 23 2 1 -21
-  458 sprites/pcx/semaphores.pcx 306 248 01 26 2 1 -24
-  459 sprites/pcx/semaphores.pcx 322 248 01 21 11 -7 -19
-  460 sprites/pcx/semaphores.pcx 338 248 01 21 8 -4 -19
-  461 sprites/pcx/semaphores.pcx 354 248 01 21 11 1 -19
-  462 sprites/pcx/semaphores.pcx 370 248 01 21 8 1 -19
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-pbs.pcx
+#include "../templates/signals.tnfo"
 
 //semaphore pbs 1way
-  463 sprites/pcx/semaphores.pcx 386 248 01 21 12 -6 -19
-  464 sprites/pcx/semaphores.pcx 418 248 01 23 9 -3 -21
-  465 sprites/pcx/semaphores.pcx 434 248 01 21 12 -1 -19
-  466 sprites/pcx/semaphores.pcx 466 248 01 21 11 -1 -19
-  467 sprites/pcx/semaphores.pcx 482 248 01 21 11 -1 -19
-  468 sprites/pcx/semaphores.pcx 498 248 01 23 8 -1 -21
-  469 sprites/pcx/semaphores.pcx 514 248 01 21 12 -7 -19
-  470 sprites/pcx/semaphores.pcx 546 248 01 21 12 -7 -19
-  471 sprites/pcx/semaphores.pcx 578 248 01 21 4 -1 -19
-  472 sprites/pcx/semaphores.pcx 594 248 01 24 4 -1 -22
-  473 sprites/pcx/semaphores.pcx 610 248 01 23 4 1 -21
-  474 sprites/pcx/semaphores.pcx 626 248 01 26 4 1 -24
-  475 sprites/pcx/semaphores.pcx 642 248 01 21 13 -7 -19
-  476 sprites/pcx/semaphores.pcx 674 248 01 21 10 -4 -19
-  477 sprites/pcx/semaphores.pcx 690 248 01 21 13 -1 -19
-  478 sprites/pcx/semaphores.pcx 722 248 01 21 10 -1 -19
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-pbs-oneway.pcx
+#include "../templates/signals.tnfo"
 
 //semaphore pbs unused
   479 sprites/pcx/semaphores.pcx 738 248 01 21 11 -6 -19
@@ -249,10 +179,6 @@
   509 sprites/pcx/semaphores.pcx 466 296 01 21 12 0 -19
   510 sprites/pcx/semaphores.pcx 498 296 01 21 9 0 -19
 
-
-
-
-  269 * 58       0C "Pre-signal, semaphore, and PBS graphics (British Style)"
 
 //With German semaphore style
 -1 * 0   07 83 01 \7= 03 F3 //skip if toyland
