@@ -53,23 +53,9 @@
  1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
  1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
 
-//semaphores
-  319 sprites/pcx/semaphores.pcx 322 120 01 21 10 -6 -19
-  320 sprites/pcx/semaphores.pcx 338 120 01 23 7 -3 -21
-  321 sprites/pcx/semaphores.pcx 354 120 01 21 10 1 -19
-  322 sprites/pcx/semaphores.pcx 370 120 01 21 9 1 -19
-  323 sprites/pcx/semaphores.pcx 386 120 01 21 9 1 -19
-  324 sprites/pcx/semaphores.pcx 402 120 01 23 6 1 -21
-  325 sprites/pcx/semaphores.pcx 418 120 01 21 10 -7 -19
-  326 sprites/pcx/semaphores.pcx 434 120 01 21 10 -7 -19
-  327 sprites/pcx/semaphores.pcx 450 120 01 21 2 1 -19
-  328 sprites/pcx/semaphores.pcx 466 120 01 24 2 1 -22
-  329 sprites/pcx/semaphores.pcx 482 120 01 23 2 1 -21
-  330 sprites/pcx/semaphores.pcx 498 120 01 26 2 1 -24
-  331 sprites/pcx/semaphores.pcx 514 120 01 21 11 -7 -19
-  332 sprites/pcx/semaphores.pcx 530 120 01 21 8 -4 -19
-  333 sprites/pcx/semaphores.pcx 546 120 01 21 11 1 -19
-  334 sprites/pcx/semaphores.pcx 562 120 01 21 8 1 -19
+//semaphores left-side
+#define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-generic.pcx
+#include "../templates/signals.tnfo"
 
 //semaphore presignals
   335 sprites/pcx/semaphores.pcx 578 120 01 21 12 -6 -19
