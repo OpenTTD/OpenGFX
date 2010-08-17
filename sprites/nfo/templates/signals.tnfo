@@ -1,0 +1,24 @@
+// Template image: sprites/source/templates/signals.[xcf|png]
+
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
+#define sprite(X)  FILE X 50 09 30 20 -8 -26
+
+ 1 sprite(10)  // ne-sw red
+ 2 sprite(40)  //       green
+ 3 sprite(70)  // sw-ne red
+ 4 sprite(100) //       green
+ 5 sprite(130) // se-nw red
+ 6 sprite(160) //       green
+ 7 sprite(190) // nw-se red
+ 8 sprite(220) //       green
+ 9 sprite(250) // w -e  red
+10 sprite(280) //       green
+11 sprite(310) // e -w  red
+12 sprite(340) //       green
+13 sprite(370) // n -s  red
+14 sprite(400) //       green
+15 sprite(430) // s -n  red
+16 sprite(460) //       green
+
+#undef FILE
+#undef sprite
