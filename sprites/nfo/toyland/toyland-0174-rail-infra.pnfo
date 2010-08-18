@@ -66,39 +66,14 @@
  1064 sprites/pcx/infra08.pcx 242 5768 01 31 64 -31 0
  1065 sprites/pcx/infra08.pcx 322 5768 01 31 64 -31 0
 
-//238   269     32      Maglev
-   17 sprites/pcx/infra08.pcx 610 8 09 16 30 -14 8
-   18 sprites/pcx/infra08.pcx 658 8 09 16 30 -14 8
-   19 sprites/pcx/infra08.pcx 706 8 01 7 40 -19 4
-   20 sprites/pcx/infra08.pcx 754 8 01 7 40 -19 20
-   21 sprites/pcx/infra08.pcx 2 40 01 19 12 11 6
-   22 sprites/pcx/infra08.pcx 34 40 01 19 12 -21 6
- 1066 sprites/pcx/infra08.pcx 402 5768 01 31 64 -31 0
- 1067 sprites/pcx/infra08.pcx 482 5768 01 31 64 -31 0
- 1068 sprites/pcx/infra08.pcx 562 5768 01 31 64 -31 0
- 1069 sprites/pcx/infra08.pcx 642 5768 01 31 64 -31 0
- 1070 sprites/pcx/infra08.pcx 722 5768 01 31 64 -31 0
- 1071 sprites/pcx/infra08.pcx 2 5832 01 31 64 -31 0
- 1072 sprites/pcx/infra08.pcx 82 5832 01 31 64 -31 0
- 1073 sprites/pcx/infra08.pcx 162 5832 01 31 64 -31 0
- 1074 sprites/pcx/infra08.pcx 242 5832 01 31 64 -31 0
- 1075 sprites/pcx/infra08.pcx 322 5832 01 31 64 -31 0
- 1076 sprites/pcx/infra08.pcx 402 5832 01 31 64 -31 0
- 1077 sprites/pcx/infra08.pcx 482 5832 01 31 64 -31 0
- 1078 sprites/pcx/infra08.pcx 562 5832 01 39 64 -31 -8
- 1079 sprites/pcx/infra08.pcx 642 5832 01 31 64 -31 0
- 1080 sprites/pcx/infra08.pcx 722 5832 01 31 64 -31 0
- 1081 sprites/pcx/infra08.pcx 2 5896 01 23 64 -31 0
- 1082 sprites/pcx/infra08.pcx 82 5896 01 31 64 -31 -8
- 1083 sprites/pcx/infra08.pcx 162 5896 01 23 64 -31 0
- 1084 sprites/pcx/infra08.pcx 242 5896 01 31 64 -31 -8
- 1085 sprites/pcx/infra08.pcx 322 5896 01 39 64 -31 -8
- 1086 sprites/pcx/infra08.pcx 402 5896 01 39 64 -31 -8
- 1087 sprites/pcx/infra08.pcx 482 5896 01 23 64 -31 0
- 1088 sprites/pcx/infra08.pcx 562 5896 01 23 64 -31 0
- 1089 sprites/pcx/infra08.pcx 642 5896 01 39 64 -31 -8
- 1090 sprites/pcx/infra08.pcx 722 5896 01 31 64 -31 0
- 1091 sprites/pcx/infra08.pcx 2 5960 01 31 64 -31 0
+// Maglev tracks
+// Overlays
+#define THIS_PCX_FILE sprites/pcx/infrastructure/rail/maglev_overlays.pcx
+#include "../templates/maglev_overlays.tnfo"
+
+// Normal maglev tracks
+#define THIS_PCX_FILE sprites/pcx/infrastructure/rail/maglev_tracks_toyland.pcx
+#include "../templates/rail_tracks.tnfo"
 
 //270   270     1       Company statue
   270 sprites/pcx/toysta.pcx 0 0 09 70 32 -15 -46

@@ -1,30 +1,6 @@
-//272-297 maglev track land type 1
-  360 sprites/pcx/infra06.pcx 354 1960 09 31 64 -31 0
-  361 sprites/pcx/infra06.pcx 434 1960 09 31 64 -31 0
-  362 sprites/pcx/infra06.pcx 514 1960 09 31 64 -31 0
-  363 sprites/pcx/infra06.pcx 594 1960 09 31 64 -31 0
-  364 sprites/pcx/infra06.pcx 674 1960 09 31 64 -31 0
-  365 sprites/pcx/infra06.pcx 2 2024 09 31 64 -31 0
-  366 sprites/pcx/infra06.pcx 82 2024 09 31 64 -31 0
-  367 sprites/pcx/infra06.pcx 162 2024 09 31 64 -31 0
-  368 sprites/pcx/infra06.pcx 242 2024 09 31 64 -31 0
-  369 sprites/pcx/infra06.pcx 322 2024 09 31 64 -31 0
-  370 sprites/pcx/infra06.pcx 402 2024 09 31 64 -31 0
-  371 sprites/pcx/infra06.pcx 482 2024 09 31 64 -31 0
-  372 sprites/pcx/infra06.pcx 562 2024 09 39 64 -31 -8
-  373 sprites/pcx/infra06.pcx 642 2024 09 31 64 -31 0
-  374 sprites/pcx/infra06.pcx 722 2024 09 31 64 -31 0
-  375 sprites/pcx/infra06.pcx 2 2088 09 23 64 -31 0
-  376 sprites/pcx/infra06.pcx 82 2088 09 31 64 -31 -8
-  377 sprites/pcx/infra06.pcx 162 2088 09 23 64 -31 0
-  378 sprites/pcx/infra06.pcx 242 2088 09 31 64 -31 -8
-  379 sprites/pcx/infra06.pcx 322 2088 09 39 64 -31 -8
-  380 sprites/pcx/infra06.pcx 402 2088 09 39 64 -31 -8
-  381 sprites/pcx/infra06.pcx 482 2088 09 23 64 -31 0
-  382 sprites/pcx/infra06.pcx 562 2088 09 23 64 -31 0
-  383 sprites/pcx/infra06.pcx 642 2088 09 39 64 -31 -8
-  384 sprites/pcx/infra06.pcx 722 2088 09 31 64 -31 0
-  385 sprites/pcx/infra06.pcx 2 2152 09 31 64 -31 0
+// Normal maglev tracks
+#define THIS_PCX_FILE sprites/pcx/infrastructure/rail/maglev_tracks_tropic.pcx
+#include "../templates/rail_tracks.tnfo"
 
 //298-301 maglev level crossing land type 1
   654 sprites/pcx/infra06.pcx 626 3512 09 31 64 -31 0

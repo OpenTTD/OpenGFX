@@ -32,9 +32,9 @@ ogfx1_base;1093;1118;26;Monorail temperate;Zephyris;Zephyris;;1
 ogfx1_base;1119;1144;26;Monorail snow;Zephyris;Zephyris;;1
 ogfx1_base;1145;1150;6;Monorail depot;Zephyris;buttercup;;1
 ogfx1_base;1151;1168;18;Monorail station;FooBar, Zephyris;FooBar;;1
-ogfx1_base;1169;1174;6;Maglev overlays;Zephyris;Zephyris;;1
-ogfx1_base;1175;1200;26;Maglev temperate;Zephyris;Zephyris;;1
-ogfx1_base;1201;1226;26;Maglev snow;Zephyris;Zephyris;;1
+ogfx1_base;1169;1174;6;Maglev overlays;Zephyris, planetmaker;Zephyris, planetmaker;;1
+ogfx1_base;1175;1200;26;Maglev temperate;Zephyris, 2006TTD;Zephyris, planetmaker;;1
+ogfx1_base;1201;1226;26;Maglev snow;Zephyris, 2006TTD;Zephyris, planetmaker;;1
 ogfx1_base;1227;1232;6;Maglev depot;Zephyris;buttercup;;1
 ogfx1_base;1233;1250;18;Maglev station;FooBar, Zephyris;FooBar;;1
 ogfx1_base;1251;1274;24;GUI rail buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
@@ -270,7 +270,7 @@ ogfxc_arctic;247;260;14;Ship depot;Red*Star;;;1
 ogfxc_arctic;261;261;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxc_arctic;262;268;7;Oil well;Zephyris;buttercup;;1
 ogfxc_arctic;269;283;15;Headquarters;Zephyris;;;1
-ogfxc_arctic;284;309;26;Maglev tracks;Zephyris;Zephyris;;1
+ogfxc_arctic;284;309;26;Maglev tracks;Zephyris, 2006TTD;Zephyris, planetmaker;;1
 ogfxc_arctic;310;313;4;Maglev level crossings;Zephyris;Zephyris;;1
 ogfxc_arctic;314;321;8;Maglev tunnels;Zephyris;Zephyris;;1
 ogfxc_arctic;322;327;6;Snow forest;FooBar, Zephyris;FooBar;;1
@@ -298,7 +298,7 @@ ogfxh_tropical;243;248;6;Ship depot;Red*Star;;;1
 ogfxh_tropical;249;249;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxh_tropical;250;256;7;Oil well;Zephyris;buttercup;;1
 ogfxh_tropical;257;271;15;Headquarters;Zephyris;;;1
-ogfxh_tropical;272;297;26;Maglev tracks;Zephyris;Zephyris;;1
+ogfxh_tropical;272;297;26;Maglev tracks;Zephyris, 2006TTD;Zephyris, planetmaker;;1
 ogfxh_tropical;298;301;4;Maglev level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;302;309;8;Maglev tunnels;Zephyris;Zephyris;;1
 ogfxh_tropical;310;310;1;Statue;FooBar, Zephyris;FooBar;;1
@@ -310,7 +310,7 @@ ogfxh_tropical;369;387;19;Desert;Zephyris;Zephyris;;1
 ogfxh_tropical;388;406;19;Road rainforest tiles;Zephyris;Zephyris;;1
 ogfxh_tropical;407;432;26;Rail desert tracks;Zephyris;Zephyris;;1
 ogfxh_tropical;433;458;26;Monorail desert tracks;Zephyris;Zephyris;;1
-ogfxh_tropical;459;484;26;Maglev desert tracks;Zephyris;Zephyris;;1
+ogfxh_tropical;459;484;26;Maglev desert tracks;Zephyris, 2006TTD;Zephyris, planetmaker;;1
 ogfxh_tropical;485;516;32;Desert tunnels;Zephyris;Zephyris;;1
 ogfxh_tropical;517;530;14;Foundations;Zephyris;Zephyris;;1
 ogfxh_tropical;531;542;12;Desert level crossings;Zephyris;Zephyris;;1
@@ -337,7 +337,7 @@ ogfxt_toyland;153;171;19;Roads;Zephyris;Zephyris;;1
 ogfxt_toyland;172;173;2;Streetlights;LordAzamath;FooBar;;1
 ogfxt_toyland;174;205;32;Rail;Zephyris;Zephyris;;1
 ogfxt_toyland;206;237;32;Monorail;Zephyris;Zephyris;;1
-ogfxt_toyland;238;269;32;Maglev;Zephyris;Zephyris;;1
+ogfxt_toyland;238;269;32;Maglev;Zephyris, 2006TTD;Zephyris, planetmaker;;1
 ogfxt_toyland;270;270;1;Company statue;Lord Azamath;planetmaker;119;1
 ogfxt_toyland;271;286;16;Signals;Raumkraut;;;1
 ogfxt_toyland;287;310;24;Level crossings;Zephyris;Zephyris;;1
