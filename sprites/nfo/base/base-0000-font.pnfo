@@ -3,7 +3,7 @@
     4 sprites/pcx/gui04.pcx 98 8 03 24 31 -15 -12
 
 //2-225 regular font + random thingies
-    3 sprites/pcx/medfontcond.pcx 66 8 01 1 2 0 -2
+    2 sprites/pcx/medfontcond.pcx 66 8 41 1 2 0 -2
     4 sprites/pcx/medfontcond.pcx 82 8 01 13 3 0 -2
     5 sprites/pcx/medfontcond.pcx 98 8 01 13 5 0 -2
     6 sprites/pcx/medfontcond.pcx 114 8 01 13 9 0 -2
@@ -228,8 +228,8 @@
   225 sprites/pcx/medfontcond.pcx 514 136 01 13 7 0 -2
   226 sprites/pcx/medfontcond.pcx 530 136 01 13 7 0 -2
 
-//226 random thingy
-  120 sprites/pcx/medfont.pcx 338 72 01 1 1 0 0
+//226 small space
+  226 sprites/pcx/medfont.pcx 338 72 41 1 1 0 0
 
 //227-449 small font including random thingies
   741 sprites/pcx/gui04.pcx 242 3464 01 5 1 0 1
@@ -458,7 +458,7 @@
 
 
 //450-673 newspaper font including random thingies Darn random thingies!!
-  514 sprites/pcx/gui04.pcx 562 3160 01 1 5 0 0
+  450 sprites/pcx/gui04.pcx 562 3160 41 1 5 0 0
   515 sprites/pcx/gui04.pcx 578 3160 01 21 3 0 -2
   516 sprites/pcx/gui04.pcx 594 3160 01 21 7 0 -2
   517 sprites/pcx/gui04.pcx 610 3160 01 21 11 0 -2
@@ -681,4 +681,4 @@
   734 sprites/pcx/gui04.pcx 130 3464 01 21 9 0 -2
   735 sprites/pcx/gui04.pcx 146 3464 01 21 9 0 -2
   736 sprites/pcx/gui04.pcx 162 3464 01 21 1 0 -2
-  737 sprites/pcx/gui04.pcx 178 3464 01 21 9 0 -2
+  673 sprites/pcx/gui04.pcx 178 3464 01 21 9 0 -2
