@@ -1,7 +1,7 @@
 // Template image: sprites/source/templates/signals.[xcf|png]
 
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
-#define sprite(X)  FILE X 50 09 30 20 -8 -26
+#define sprite(X)  FILE X 50 01 30 20 -8 -26
 
  1 sprite(10)  // ne-sw red
  2 sprite(40)  //       green
