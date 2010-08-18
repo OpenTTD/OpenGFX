@@ -3,54 +3,12 @@
 //With British semaphore style
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+#define FILE sprites/pcx/infrastructure/signals/light-entry.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/light-exit.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/light-combo.pcx
+#include "../templates/signals.tnfo"
 
 //semaphores left-side
 #define FILE sprites/pcx/infrastructure/signals/semaphores-leftside-generic.pcx
@@ -184,54 +142,12 @@
 -1 * 0   07 86 01 \70 04 F1 //skip if drive side not right
   513 * 3        05 04 F0
 //light presignals
- 1238 sprites/pcx/infra08.pcx 146 6584 01 21 4 -1 -19
- 1239 sprites/pcx/infra08.pcx 162 6584 01 21 4 -1 -19
- 1240 sprites/pcx/infra08.pcx 178 6584 01 21 4 -1 -19
- 1241 sprites/pcx/infra08.pcx 194 6584 01 21 4 -1 -19
- 1242 sprites/pcx/infra08.pcx 210 6584 01 21 4 -1 -19
- 1243 sprites/pcx/infra08.pcx 226 6584 01 21 4 -1 -19
- 1244 sprites/pcx/infra08.pcx 242 6584 01 21 4 -1 -19
- 1245 sprites/pcx/infra08.pcx 258 6584 01 21 4 -1 -19
- 1246 sprites/pcx/infra08.pcx 274 6584 01 21 5 -1 -19
- 1247 sprites/pcx/infra08.pcx 290 6584 01 21 5 -1 -19
- 1248 sprites/pcx/infra08.pcx 306 6584 01 21 5 -2 -19
- 1249 sprites/pcx/infra08.pcx 322 6584 01 21 5 -2 -19
- 1250 sprites/pcx/infra08.pcx 338 6584 01 21 6 -2 -19
- 1251 sprites/pcx/infra08.pcx 354 6584 01 21 6 -2 -19
- 1252 sprites/pcx/infra08.pcx 370 6584 01 21 6 -2 -19
- 1253 sprites/pcx/infra08.pcx 386 6584 01 21 6 -2 -19
- 1254 sprites/pcx/infra08.pcx 402 6584 01 21 4 -1 -19
- 1255 sprites/pcx/infra08.pcx 418 6584 01 21 4 -1 -19
- 1256 sprites/pcx/infra08.pcx 434 6584 01 21 4 -1 -19
- 1257 sprites/pcx/infra08.pcx 450 6584 01 21 4 -1 -19
- 1258 sprites/pcx/infra08.pcx 466 6584 01 21 4 -1 -19
- 1259 sprites/pcx/infra08.pcx 482 6584 01 21 4 -1 -19
- 1260 sprites/pcx/infra08.pcx 498 6584 01 21 4 -1 -19
- 1261 sprites/pcx/infra08.pcx 514 6584 01 21 4 -1 -19
- 1262 sprites/pcx/infra08.pcx 530 6584 01 21 5 -1 -19
- 1263 sprites/pcx/infra08.pcx 546 6584 01 21 5 -1 -19
- 1264 sprites/pcx/infra08.pcx 562 6584 01 21 5 -2 -19
- 1265 sprites/pcx/infra08.pcx 578 6584 01 21 5 -2 -19
- 1266 sprites/pcx/infra08.pcx 594 6584 01 21 6 -2 -19
- 1267 sprites/pcx/infra08.pcx 610 6584 01 21 6 -2 -19
- 1268 sprites/pcx/infra08.pcx 626 6584 01 21 6 -2 -19
- 1269 sprites/pcx/infra08.pcx 642 6584 01 21 6 -2 -19
- 1270 sprites/pcx/infra08.pcx 658 6584 01 21 4 -1 -19
- 1271 sprites/pcx/infra08.pcx 674 6584 01 21 4 -1 -19
- 1272 sprites/pcx/infra08.pcx 690 6584 01 21 4 -1 -19
- 1273 sprites/pcx/infra08.pcx 706 6584 01 21 4 -1 -19
- 1274 sprites/pcx/infra08.pcx 722 6584 01 21 4 -1 -19
- 1275 sprites/pcx/infra08.pcx 738 6584 01 21 4 -1 -19
- 1276 sprites/pcx/infra08.pcx 754 6584 01 21 4 -1 -19
- 1277 sprites/pcx/infra08.pcx 770 6584 01 21 4 -1 -19
- 1278 sprites/pcx/infra08.pcx 786 6584 01 21 5 -1 -19
- 1279 sprites/pcx/infra08.pcx 2 6616 01 21 5 -1 -19
- 1280 sprites/pcx/infra08.pcx 18 6616 01 21 5 -2 -19
- 1281 sprites/pcx/infra08.pcx 34 6616 01 21 5 -2 -19
- 1282 sprites/pcx/infra08.pcx 50 6616 01 21 6 -2 -19
- 1283 sprites/pcx/infra08.pcx 66 6616 01 21 6 -2 -19
- 1284 sprites/pcx/infra08.pcx 82 6616 01 21 6 -2 -19
- 1285 sprites/pcx/infra08.pcx 98 6616 01 21 6 -2 -19
+#define FILE sprites/pcx/infrastructure/signals/light-entry.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/light-exit.pcx
+#include "../templates/signals.tnfo"
+#define FILE sprites/pcx/infrastructure/signals/light-combo.pcx
+#include "../templates/signals.tnfo"
 
 //semaphores
   562 sprites/pcx/semaphores.pcx 530 344 01 21 10 -7 -19

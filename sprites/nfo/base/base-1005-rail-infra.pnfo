@@ -304,22 +304,8 @@
   108 sprites/pcx/gui04.pcx 754 184 03 32 32 0 0
 
 //1275-1290 signals
- 1190 sprites/pcx/infra06.pcx 738 6504 01 15 4 -1 -13
- 1191 sprites/pcx/infra06.pcx 754 6504 01 15 4 -1 -13
- 1192 sprites/pcx/infra06.pcx 770 6504 01 15 4 -1 -13
- 1193 sprites/pcx/infra06.pcx 786 6504 01 15 4 -1 -13
- 1194 sprites/pcx/infra06.pcx 2 6552 01 15 4 -1 -13
- 1195 sprites/pcx/infra06.pcx 18 6552 01 15 4 -1 -13
- 1196 sprites/pcx/infra06.pcx 34 6552 01 15 4 -1 -13
- 1197 sprites/pcx/infra06.pcx 50 6552 01 15 4 -1 -13
- 1198 sprites/pcx/infra06.pcx 66 6552 01 15 5 -1 -13
- 1199 sprites/pcx/infra06.pcx 82 6552 01 15 5 -1 -13
- 1200 sprites/pcx/infra06.pcx 98 6552 01 15 5 -1 -13
- 1201 sprites/pcx/infra06.pcx 114 6552 01 15 5 -1 -13
- 1202 sprites/pcx/infra06.pcx 130 6552 01 15 4 -1 -13
- 1203 sprites/pcx/infra06.pcx 146 6552 01 15 4 -1 -13
- 1204 sprites/pcx/infra06.pcx 162 6552 01 15 4 -1 -13
- 1205 sprites/pcx/infra06.pcx 178 6552 01 15 4 -1 -13
+#define FILE sprites/pcx/infrastructure/signals/light-generic.pcx
+#include "../templates/signals.tnfo"
 
 //1291-1300 signal, depot and station gui elements
   110 sprites/pcx/gui04.pcx 18 232 09 20 20 0 0

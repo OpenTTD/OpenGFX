@@ -38,7 +38,7 @@ ogfx1_base;1201;1226;26;Maglev snow;Zephyris;Zephyris;;1
 ogfx1_base;1227;1232;6;Maglev depot;Zephyris;buttercup;;1
 ogfx1_base;1233;1250;18;Maglev station;FooBar, Zephyris;FooBar;;1
 ogfx1_base;1251;1274;24;GUI rail buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfx1_base;1275;1290;16;Signals;Raumkraut;;;1
+ogfx1_base;1275;1290;16;Signals;Raumkraut, TTD2006;Ammler;;1
 ogfx1_base;1291;1300;10;GUI rail buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;1301;1308;8;Rail fences;Soeb;FooBar, Soeb;;1
 ogfx1_base;1309;1312;4;GUI road buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
@@ -370,11 +370,11 @@ ogfxt_toyland;1066;1145;80;Bridges;Zephyris;Zephyris;;1
 ogfxt_toyland;1146;1177;32;Tunnels;Zephyris;Zephyris;;1
 ogfxt_toyland;1178;1193;16;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxt_toyland;1194;1194;1;Recolour sprite;n/a;n/a;;1
-ogfxe_extra;0;47;48;[Type 04] Pre-signal graphics;;;;1
-ogfxe_extra;48;111;64;[Type 04] Semaphore graphics;michael blunck;michael blunck;;1
+ogfxe_extra;0;47;48;[Type 04] Pre-signal graphics;2006TTD;Ammler;;1
+ogfxe_extra;48;111;64;[Type 04] Semaphore graphics;mb, Born Acorn;mb, Ammler;;1
 ogfxe_extra;112;175;64;[Type 04] PBS graphics;Bilbo;Bilbo;78;1
-ogfxe_extra;176;239;64;[Type 04] PBS semaphore graphics;michael blunck;michael blunck;;1
-ogfxe_extra;0;35;36;[Type 05] Overhead wires and pylon graphics;michael blunck;michael blunck;;1
+ogfxe_extra;176;239;64;[Type 04] PBS semaphore graphics;mb, Born Acorn;mb, Ammler;;1
+ogfxe_extra;0;35;36;[Type 05] Overhead wires and pylon graphics;mb;mb;;1
 ogfxe_extra;36;47;12;[Type 05] Elrail GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxe_extra;0;89;90;[Type 06] Foundations for BuildOnSlopes and half tiles (NS and EW foundations);Zephyris;Zephyris;;1
 ogfxe_extra;0;3;4;[Type 08] Sloped water;Leppka;buttercup;;1
