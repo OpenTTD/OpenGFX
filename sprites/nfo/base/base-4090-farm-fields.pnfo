@@ -189,22 +189,6 @@
   618 sprites/pcx/terrain04.pcx 2 3912 09 15 64 -31 0
   619 sprites/pcx/terrain04.pcx 82 3912 09 31 64 -31 -8
   620 sprites/pcx/terrain04.pcx 162 3912 09 31 64 -31 -8
-  621 sprites/pcx/terrain04.pcx 242 3912 09 31 64 -31 0
-  622 sprites/pcx/terrain04.pcx 322 3912 09 31 64 -31 0
-  623 sprites/pcx/terrain04.pcx 402 3912 09 23 64 -31 0
-  624 sprites/pcx/terrain04.pcx 482 3912 09 23 64 -31 0
-  625 sprites/pcx/terrain04.pcx 562 3912 09 31 64 -31 0
-  626 sprites/pcx/terrain04.pcx 642 3912 09 31 64 -31 0
-  627 sprites/pcx/terrain04.pcx 722 3912 09 23 64 -31 0
-  628 sprites/pcx/terrain04.pcx 2 3960 09 23 64 -31 0
-  629 sprites/pcx/terrain04.pcx 82 3960 09 39 64 -31 -8
-  630 sprites/pcx/terrain04.pcx 162 3960 09 39 64 -31 -8
-  631 sprites/pcx/terrain04.pcx 242 3960 09 31 64 -31 -8
-  632 sprites/pcx/terrain04.pcx 322 3960 09 31 64 -31 -8
-  633 sprites/pcx/terrain04.pcx 402 3960 09 39 64 -31 -8
-  634 sprites/pcx/terrain04.pcx 482 3960 09 39 64 -31 -8
-  635 sprites/pcx/terrain04.pcx 562 3960 09 31 64 -31 -8
-  636 sprites/pcx/terrain04.pcx 642 3960 09 47 64 -31 -16
-  637 sprites/pcx/terrain04.pcx 722 3960 09 15 64 -31 0
-  638 sprites/pcx/terrain04.pcx 2 4024 09 31 64 -31 -8
-  639 sprites/pcx/terrain04.pcx 82 4024 09 31 64 -31 -8
+  
+#define THIS_PCX_FILE sprites/pcx/terrain/field_haybales.pcx
+#include "../templates/ground_tiles.tnfo"
