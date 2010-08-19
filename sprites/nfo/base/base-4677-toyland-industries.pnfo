@@ -85,12 +85,12 @@
 
 //4737  4742    6       Toyland: Fizzy drink factory
 //Recolour: CC translates to random colour
- 4737 sprites/pcx/fizzydrink_factory.pcx 5 10 03 48 49 -28 -38
- 4738 sprites/pcx/fizzydrink_factory.pcx 69 10 03 119 56 -31 -96
- 4739 sprites/pcx/fizzydrink_factory.pcx 133 10 03 68 23 -22 -43
- 4740 sprites/pcx/fizzydrink_factory.pcx 165 10 09 29 23 1 -4
- 4741 sprites/pcx/fizzydrink_factory.pcx 197 10 09 151 64 -31 -128
- 4742 sprites/pcx/fizzydrink_factory.pcx 277 10 09 78 26 -22 -53
+ 4737 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 5 10 03 48 49 -28 -38
+ 4738 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 69 10 03 119 56 -31 -96
+ 4739 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 133 10 03 68 23 -22 -43
+ 4740 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 165 49 09 29 23 1 -4
+ 4741 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 197 10 09 151 64 -31 -128
+ 4742 sprites/pcx/industries/fizzy-drink-4737-4742.pcx 277 10 09 78 26 -22 -53
 
 //4743  4762    20      Toyland: Bubble generator
 //Recolour: CC translates to random colour
