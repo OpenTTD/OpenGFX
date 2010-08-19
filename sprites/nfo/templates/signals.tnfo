@@ -11,10 +11,10 @@
  6 sprite(160) //       green
  7 sprite(190) // nw-se red
  8 sprite(220) //       green
+11 sprite(310) // e -w  red
+12 sprite(340) //       green 
  9 sprite(250) // w -e  red
 10 sprite(280) //       green
-11 sprite(310) // e -w  red
-12 sprite(340) //       green
 13 sprite(370) // s -n  red
 14 sprite(400) //       green
 15 sprite(430) // n -s  red
