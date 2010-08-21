@@ -26,8 +26,7 @@ include ${MAKEFILE_CONFIG}
 include ${MAKEFILE_DEF}
 
 # Check dependencies for building all:
-all: depend
-	$(_V) $(MAKE) $(MAKE_FLAGS) -f $(MAKEFILE) $(MAIN_TARGET)
+all: $(MAIN_TARGET)
 	
 # Include dependencies (if applicable)
 -include ${MAKEFILE_DEP}

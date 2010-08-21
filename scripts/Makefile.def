@@ -3,14 +3,16 @@ shell = /bin/sh
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
 
-PROJECT_TYPE   ?= NFO
+PROJECT_TYPE       ?= NFO
 
 ################################################################
 # Programme definitions / search paths
 ################################################################
 # Build parameters and programmes
 NFORENUM_FLAGS ?=
+NFO_WARN_LEVEL ?= 4 
 GRFCODEC_FLAGS ?= -e -p 2 -c
+GRFCODEC_PIPE  ?= | cat
 CATCODEC_FLAGS ?= -e
 TAR_FLAGS      ?= -cf
 ZIP_FLAGS      ?= -r
@@ -24,7 +26,7 @@ NML_FLAGS      ?=
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 
-NFORENUM       ?= $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
+NFORENUM       ?= nforenum 
 GRFCODEC       ?= grfcodec
 CATCODEC       ?= catcodec
 TAR            ?= tar
@@ -38,7 +40,7 @@ MAKE           ?= make
 UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
 MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
-NML            ?= nml2nfo
+NML            ?= nmlc
 
 SCRIPT_DIR     ?= scripts
 SRC_DIR        ?= sprites
@@ -46,7 +48,7 @@ NFO_DIR        ?= $(SRC_DIR)/nfo
 DOC_DIR        ?= docs
 ifeq ($(PROJECT_TYPE),NML)
 LANG_DIR       ?= lang
-endif
+endif      
 
 # Add some OS detection and guess an install path (use the system's default)
 OSTYPE:=$(shell uname -s)
@@ -71,7 +73,7 @@ ifdef INSTALLDIR
 INSTALL_DIR = $(INSTALLDIR)
 endif
 
-# file extentions which indicate plain text source files,
+# file extentions which indicate plain text source files, 
 # parsable by a text editor (SRC) and binary source files (INC)
 ifeq ($(PROJECT_TYPE),NFO)				# NFO style
 	FILE_SRC_EXTENSIONS ?= pnfo tnfo
@@ -144,6 +146,17 @@ MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG
 FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|backup\.push|\.devzone)"
+
+# Make a bit of a guess on which dependency check we should use as default, if not defined otherwise
+# We can savely assume that python is available, if HG is available. Also mdep only makes sense for
+# NFO - style projects
+ifeq ($(HG),hg)
+ifeq ($(PROJECT_TYPE),NFO)
+DEP_CHECK_TYPE     ?=mdep
+endif
+endif
+
+DEP_CHECK_TYPE     ?=normal
 
 # Remove the @ when you want a more verbose output.
 _V ?= @

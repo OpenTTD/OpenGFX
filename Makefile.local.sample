@@ -6,6 +6,11 @@
 # REPO_NAME          := My first NewGRF 
 # GRF_ID             := 01 02 03 04
 
+# There are two different ways to do the dep check:
+# "normal": the usual bash tools being used
+# "mdep":   A faster script which requires python
+# DEP_CHECK_TYPE     := mdep
+
 # If everything is default, you don't need the rest:
 
 # comment out those dirs which are not in use

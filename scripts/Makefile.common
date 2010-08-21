@@ -1,8 +1,10 @@
-.PHONY: clean mrproper test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs check
+.PHONY: clean mrproper distclean test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs check addcheck
 .DEFAULT:
 
+FORCE: ;
+
 # Clean the source tree
-clean:
+clean: FORCE
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
 	$(_V)-rm -rf $(MAKEFILE_DEP) $(MAIN_TARGET) $(SRC_DIR)/*.nfo $(DOC_FILENAMES) $(REV_FILENAME) md5.check
@@ -12,13 +14,15 @@ clean:
 # state of a tarball (except for manual changes to Makefile.local, of
 # course).
 distclean: clean
+	$(_E) "[DISTCLEAN]"
 	$(_V)-rm -rf $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC) $(DIR_NAME)
-	$(_V)for i in `ls -d $(DIR_BASE)*`; do if [ "$$i" != "$(MD5_FILENAME)" ]; then rm $$i; fi; done
+	$(_V)for i in `ls -d $(DIR_BASE)*`; do if [ "$$i" != "$(MD5_FILENAME)" ]; then rm -rf $$i; fi; done
 
 # Even more thoroughly clean the tree. Intended to be used on a
 # repository checkout. Also cleans files that are in a source tarball,
 # but not in the repository.
 mrproper: distclean
+	$(_E) "[MRPOPER]"
 	$(_V)-rm -rf $(MD5_FILENAME)
 
 # Print the output for a number of variables which define this newgrf.
@@ -73,13 +77,13 @@ endif
 # The real targets which build the grf
 ifeq ($(PROJECT_TYPE),NML)
 %.grf: %.nml $(REV_FILENAME)
-	$(_E) "[Generating] $@"
+	$(_E) "[NML] $@ with dep $^"
 	$(_V) $(NML) $(NML_FLAGS) --grf $@ $<
 else
 %.grf: %.nfo
 # pipe all nfo files through grfcodec and produce the grf(s)
-	$(_E) "[Generating] $@ with dep $^"
-	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
+	$(_E) "[GRFCODEC] $@ with dep $^"
+	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@) $(GRFCODEC_PIPE)
 endif
 # .INTERMEDIATE: %.nfo
 .PRECIOUS: %.nfo %.nml
@@ -87,22 +91,23 @@ endif
 
 # pre-processing for NML - style projects:
 %.nml: %.pnml $(REV_FILENAME)
-	$(_E) "[Generating] $@ with dep $^"
+	$(_E) "[CPP] $@ with dep $<"
 	$(_V) $(CC) $(CC_FLAGS) $< > $@
 
 # Dependencies have to be added by a separate make dep step
 %.nfo: %.pnfo $(REV_FILENAME)
 # replace the place holders for version and name by the respective variables:
-	$(_E) "[Generating] $@ with dep $^"
+	$(_E) "[CPP] $@"
+	$(_V) cp scripts/nfoheader.nfo $(SRC_DIR)/$@
 	$(_V) $(CC) $(CC_FLAGS) $< | \
 		sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
-		| grep -v -E '^#' > $(SRC_DIR)/$@
+		>> $(SRC_DIR)/$@
 	$(_E) "[NFORENUM] $@"
-	$(_V)-$(NFORENUM) ${NFORENUM_FLAGS} $@
+	$(_V) $(NFORENUM) ${NFORENUM_FLAGS} $@ ; [ $$? -lt $(NFO_WARN_LEVEL) ] || ( echo "Fatal nforenum error!" && exit 1 )
 
 %.txt: %.ptxt $(REV_FILENAME) md5
-	$(_E) "[Generating] $@"
+	$(_E) "[TXT] $@ with dep $^"
 	$(_V) cat $< \
 		| sed -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		| sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" \
@@ -125,20 +130,31 @@ ifeq ($(PROJECT_TYPE),NML) # NML projects need to define some custom tags in a s
 	$(_V) echo "FILENAME: $(MAIN_TARGET)" >> $(FILE_CUSTOM_TAGS)
 endif
 
-depend: $(MAKEFILE_DEP)
-$(MAKEFILE_DEP): $(REV_FILENAME)
-	$(_E) "[Generating] $(MAKEFILE_DEP)"
+depend $(MAKEFILE_DEP): $(REV_FILENAME)
+	$(_E) "[DEPEND] $(MAKEFILE_DEP)"
+ifeq ($(DEP_CHECK_TYPE), normal)
+	$(_E) "normal dep check"
 ifeq ($(PROJECT_TYPE),CATCODEC)			# BASE SOUND: special file format
 	$(_V) echo "$(SRC_DIR)/$(MAIN_FILENAME_SRC): "`cat $(SRC_DIR)/$(MAIN_FILENAME_SRC) | $(AWK) 'BEGIN { FS = " " } ; { print $$1 }' | grep 'wav' | grep -v '^//' | sed 's/"//g' | sort | uniq` > $(MAKEFILE_DEP)
-else # NFO and NML projects
+else                                    # NFO and NML projects
 	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
-	$(_V) for i in `ls Makefile* scripts/* | grep -v Makefile.dep`; do echo "Makefile.dep: $$i"; done >> $(MAKEFILE_DEP)
+	$(_V) ls -1 Makefile* scripts/* | sed -e '/Makefile.dep/d' -e 's/.*/Makefile.dep: &/' >> $(MAKEFILE_DEP) 
 ifeq ($(PROJECT_TYPE),NML)              # We need to take care of the language file which is not referenced in the source
 	$(_V) echo "$(MAIN_TARGET): $(LANG_FILES)" >> $(MAKEFILE_DEP)
-endif
-endif
+endif                                   # NML project 
+endif                                   # normal dep check
+else ifeq ($(DEP_CHECK_TYPE), mdep)
+	$(_E) "mdep dep check"
+	$(_V) scripts/mdep.py --target=$(FILENAME_STUB).nfo -Isprites/nfo -Itemplates $(MAIN_FILENAME_SRC) > $(MAKEFILE_DEP)
+	$(_V) ls -1 Makefile* scripts/* | sed -e '/Makefile.dep/d' -e 's/.*/Makefile.dep: &/' >> $(MAKEFILE_DEP) 
+ifeq ($(PROJECT_TYPE),NML)              # We need to take care of the language file which is not referenced in the source
+	$(_V) echo "$(MAIN_TARGET): $(LANG_FILES)" >> $(MAKEFILE_DEP)
+endif                                   # NML project
+endif                                   # mdep dep check
+
+$(REV_FILENAME):
 	$(_V) [ -e $(REV_FILENAME) ] && [ "`cat $(REV_FILENAME)`" = "$(VERSION_STRING)" ] || echo "$(VERSION_STRING)" > $(REV_FILENAME)
 
 addcheck:
-	$(_E) "[Checking] for missing repo files:"
+	$(_E) "[ADDCHECK] for missing repo files:"
 	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do hg st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
