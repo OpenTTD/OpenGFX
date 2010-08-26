@@ -330,7 +330,7 @@ ogfxt_toyland;0;75;76;Terrain;Zephyris;Zephyris;;1
 ogfxt_toyland;76;84;9;Water and shore tiles;Leppka, Zephyris;Zephyris;;1
 ogfxt_toyland;85;85;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxt_toyland;86;108;23;Rough terrain;Zephyris;Zephyris;;1
-ogfxt_toyland;109;127;19;Rocks;Zephyris;Zephyris;;1
+ogfxt_toyland;109;127;19;Rocks;Zephyris, 2006TTD;planetmaker;;1
 ogfxt_toyland;128;133;6;Candyfloss forest;Athanasios, LordAzamath;buttercup;;1
 ogfxt_toyland;134;152;19;City roads;Zephyris;Zephyris;;1
 ogfxt_toyland;153;171;19;Roads;Zephyris;Zephyris;;1
