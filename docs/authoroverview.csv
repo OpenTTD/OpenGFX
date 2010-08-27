@@ -230,7 +230,7 @@ ogfx1_base;4671;4671;1;Toyland: building;athanasios;FooBar;107;1
 ogfx1_base;4672;4673;2;Toyland: Wrapper design for 4674;athanasios,edorfaus;edorfaus,planetmaker;107;1
 ogfx1_base;4674;4674;1;Toyland: building;athanasios;buttercup;107;1
 ogfx1_base;4675;4676;2;Toyland: Building ground tiles;Zephyris;FooBar;;1
-ogfx1_base;4677;4685;9;Toyland: Sweet factory;Zephyris,Rubidium,edorfaus;planetmaker,Rubidium;110;1
+ogfx1_base;4677;4685;9;Toyland: Sweet factory;Zephyris,Rubidium,edorfaus, 2006TTD;planetmaker,Rubidium;110;1
 ogfx1_base;4686;4690;5;Toyland: Battery farm;Soeb;Soeb;;1
 ogfx1_base;4691;4693;3;Toyland: Cola wells;Athanasios;buttercup;;1
 ogfx1_base;4694;4694;1;Toyland: Statue;Spaz O Mataz;planetmaker;111;1
