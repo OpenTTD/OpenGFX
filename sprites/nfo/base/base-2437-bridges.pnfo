@@ -165,9 +165,3 @@
   403 sprites/pcx/gui04.pcx 194 1000 09 21 43 -2 0
   404 sprites/pcx/gui04.pcx 242 1000 09 21 43 -2 0
   405 sprites/pcx/gui04.pcx 290 1000 09 21 43 -2 0
-
-//2601 transmitter
-   79 sprites/pcx/airports01.pcx 98 472 09 90 63 -30 -78
-
-//2602 lighthouse
-  915 sprites/pcx/landscape031.pcx 706 3976 09 61 41 -22 -48

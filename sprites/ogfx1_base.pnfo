@@ -17,6 +17,7 @@
 #include "sprites/nfo/base/base-2011-industries.pnfo"
 #include "sprites/nfo/base/base-2365-tunnels.pnfo"
 #include "sprites/nfo/base/base-2437-bridges.pnfo"
+#include "sprites/nfo/base/base-2601-objects.pnfo"
 #include "sprites/nfo/base/base-2603-hq.pnfo"
 #include "sprites/nfo/base/base-2633-airports.pnfo"
 #include "sprites/nfo/base/base-2692-roadstops-docks.pnfo"
