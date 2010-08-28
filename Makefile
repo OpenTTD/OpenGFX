@@ -3,37 +3,38 @@
 # Name of the Makefile which contains all the settings which describe
 # how to make this newgrf. It defines all the paths, the grf name,
 # the files for a bundle etc.
-MAKEFILE_CONFIG=Makefile.config
 MAKEFILE=Makefile
-
-# Name of the Makefile which contains the local settings. It overrides
-# the global settings in Makefile.config.
-MAKEFILE_LOCAL=Makefile.local
-MAKEFILE_DEF=scripts/Makefile.def
-MAKEFILE_BUNDLES=scripts/Makefile.bundles
-MAKEFILE_COMMON=scripts/Makefile.common
-MAKEFILE_IN=scripts/Makefile.in
 MAKEFILE_DEP=Makefile.dep
 
 # Include the project's configuration file
-include ${MAKEFILE_CONFIG}
+include Makefile.config
 
 # this overrides definitions from above by individual settings
 # (if applicable):
--include ${MAKEFILE_LOCAL}
+-include Makefile.local
 
 # include the universal Makefile definitions for NewGRF Projects
-include ${MAKEFILE_DEF}
+include scripts/Makefile.def
 
 # Check dependencies for building all:
-all: $(MAIN_TARGET)
+all: $(TARGET_FILES)
 	
-# Include dependencies (if applicable)
--include ${MAKEFILE_DEP}
+# Rules used by all projects
+include scripts/Makefile.common
+
+# Include the project type specific Makefiles. They take care of
+# their conditional inclusion themselves
+-include scripts/Makefile_nfo # nfo-style projects
+-include scripts/Makefile_nml # nml-style projects
+-include scripts/Makefile_obg # additionally for graphic base sets
+-include scripts/Makefile_obs # sound base sets
 
 # Include repo-specific rules (if applicable)
--include ${MAKEFILE_IN}
+-include Makefile.in
+-include scripts/Makefile.in
 
-# Include rules commonly used for NewGRFs and bundle generation
-include ${MAKEFILE_COMMON}
-include ${MAKEFILE_BUNDLES}
+# Include rules for bundle generation
+include scripts/Makefile.bundles
+
+# Include dependencies (if applicable)
+-include $(MAKEFILE_DEP)

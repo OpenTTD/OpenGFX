@@ -1,25 +1,24 @@
-$(DIR_NAME): depend $(BUNDLE_FILES)
+$(DIR_NAME): $(MAKEFILE_DEP) $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
-	$(_E) "[Generating] $@"
+	$(_E) "[ASSEMBLING] $@"
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
 	$(_V) -for i in $(BUNDLE_FILES); do cp $(CP_FLAGS) $$i $@; done
 
 %.tar: $(DIR_NAME)
 # Create the release bundle with all files in one tar
-	$(_E) "[Generating] $@"
+	$(_E) "[TAR] $@"
 	$(_V)$(TAR) $(TAR_FLAGS) $@ $(basename $@)
-	$(_E)
 
 bundle: $(DIR_NAME)
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
 $(ZIP_FILENAME): $(DIR_NAME)
-	$(_E) "[Generating] $@"
-	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $<
+	$(_E) "[ZIP] $@"
+	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
-	$(_E) "[Generating] $@"
+	$(_E) "[BZIP] $@"
 	$(_V)$(BZIP) $(BZIP_FLAGS) $^
 
 # Installation process
@@ -34,41 +33,41 @@ endif
 md5: $(MD5_FILENAME)
 
 # OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
-$(MD5_FILENAME): $(MAIN_TARGET) $(GRF_FILES)
-	$(_E) "[Generating] $@"
-	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) | sed "s/  / /;s/ /  /" > $(MD5_FILENAME)
+$(MD5_FILENAME): $(TARGET_FILES)
+	$(_E) "[MD5] $@"
+	$(_V) $(MD5SUM) $(TARGET_FILES) | sed "s/  / /;s/ /  /" > $(MD5_FILENAME)
 
 # OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
-check: $(MAIN_TARGET) $(GRF_FILES)
+check: $(TARGET_FILES) $(GRF_FILENAMES)
 	$(_V) if [ -f $(MD5_FILENAME) ]; then echo "[CHECKING md5sums]"; else echo "Required file '$(MD5_FILENAME)' which to test against not found!"; false; fi
-	$(_V) $(MD5SUM) $(GRF_FILES) $(MAIN_TARGET) | sed "s/  / /;s/ /  /" > md5.check
+	$(_V) $(MD5SUM) $(TARGET_FILES) | sed "s/  / /;s/ /  /" > md5.check
 	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; false; fi
 
 bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
-	$(_E) "[Preparing] $(DIR_NAME_SRC)"
+	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
 	$(_V) mkdir -p $(DIR_NAME_SRC)
 	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
 	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
 	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
-	$(_V) cp $(MD5_FILENAME) $(DIR_NAME_SRC)
-	$(_V) cp Makefile.local.sample $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'VPATH =' >> $(DIR_NAME_SRC)/$(MAKEFILE_DEF)
-	$(_V) echo 'VPATH = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/$(MAKEFILE_DEF)
-	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
-	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/$(MAKEFILE_LOCAL)
+	$(_V) cp $(CP_FLAGS) $(MD5_FILENAME) $(DIR_NAME_SRC)
+	$(_V) cp $(CP_FLAGS) Makefile.local.sample $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'VPATH =' >> $(DIR_NAME_SRC)/Makefile.def
+	$(_V) echo 'VPATH = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.def
+	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.local
 	$(_V) $(TAR) $(TAR_FLAGS) $(DIR_NAME_SRC).tar $(DIR_NAME_SRC)
-	$(_E) "[Generating] $(DIR_NAME_SRC).tar.gz"
+	$(_E) "[GZIP] $(DIR_NAME_SRC).tar.gz"
 	$(_V) $(SRCZIP) $(SRCZIP_FLAGS) $(DIR_NAME_SRC).tar
 	$(_V) rm -rf $(DIR_NAME_SRC)
 
 $(INSTALL_DIR):
-	$(_E) "Install dir didn't exist. Creating $@"
+	$(_E) "[WRITING]"
 	$(_V) mkdir -p $(INSTALL_DIR)
 
 release-install:
@@ -77,5 +76,3 @@ release-source:
 	$(_E) "Target is obsolete. Use 'bundle_src' instead."
 release_zip:
 	$(_E) "Target is obsolete. Use 'bundle_zip' instead."
-
-remake: clean all

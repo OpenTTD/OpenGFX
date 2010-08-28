@@ -3,19 +3,24 @@ shell = /bin/sh
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
 
-PROJECT_TYPE       ?= NFO
+# Legacy settings for project type
+ifeq ($(PROJECT_TYPE),NFO)
+USE_NFO := 1
+endif
+ifeq ($(PROJECT_TYPE),NML)
+USE_NML := 1
+endif
 
 ################################################################
 # Programme definitions / search paths
 ################################################################
 # Build parameters and programmes
-NFORENUM_FLAGS ?=
+NFORENUM_FLAGS ?= $(shell [ `$(NFORENUM) -s -v 2>/dev/null | wc -l ` -eq 1 ] && echo "-s" || echo "")
 NFO_WARN_LEVEL ?= 4 
-GRFCODEC_FLAGS ?= -e -p 2 -c
-GRFCODEC_PIPE  ?= | cat
+GRFCODEC_FLAGS ?= $(shell $(GRFCODEC) -s -v >/dev/null 2>/dev/null && echo "-s" || echo "") -e -p 2 -c
 CATCODEC_FLAGS ?= -e
 TAR_FLAGS      ?= -cf
-ZIP_FLAGS      ?= -r
+ZIP_FLAGS      ?= -r -q
 SRCZIP_FLAGS   ?=
 BZIP_FLAGS     ?= -k9f
 CC_FLAGS       ?= -C -E - <
@@ -26,7 +31,7 @@ NML_FLAGS      ?=
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 
-NFORENUM       ?= nforenum 
+NFORENUM       ?= nforenum
 GRFCODEC       ?= grfcodec
 CATCODEC       ?= catcodec
 TAR            ?= tar
@@ -46,7 +51,7 @@ SCRIPT_DIR     ?= scripts
 SRC_DIR        ?= sprites
 NFO_DIR        ?= $(SRC_DIR)/nfo
 DOC_DIR        ?= docs
-ifeq ($(PROJECT_TYPE),NML)
+ifdef USE_NML
 LANG_DIR       ?= lang
 endif      
 
@@ -75,13 +80,14 @@ endif
 
 # file extentions which indicate plain text source files, 
 # parsable by a text editor (SRC) and binary source files (INC)
-ifeq ($(PROJECT_TYPE),NFO)				# NFO style
+ifdef USE_NFO
 	FILE_SRC_EXTENSIONS ?= pnfo tnfo
 	FILE_INC_EXTENSIONS ?= wav pcx
 endif
-ifeq ($(PROJECT_TYPE),NML)				# NML style
+ifdef USE_NML
 	FILE_SRC_EXTENSIONS ?= pnml nml tnml
 	FILE_INC_EXTENSIONS ?= wav pcx png
+	TAG_FILENAME := custom_tags.txt
 	LANG_FILES := $(shell ls $(LANG_DIR)/*.lng)
 endif
 
@@ -93,14 +99,14 @@ endif
 # a release build (taged version): GRF's Name 0.1
 ################################################################
 DEFAULT_BRANCH_NAME ?= nightly
-REPO_REVISION ?= $(shell $(HG) id -n | cut -d+ -f1)
-REPO_MODIFIED ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
-REPO_BRANCH   ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
-REPO_TAGS     ?= $(shell $(HG) id -t | grep -v "tip")
+REPO_REVISION  := $(shell $(HG) id -n | cut -d+ -f1)
+REPO_MODIFIED  := $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+REPO_BRANCH    := $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
+REPO_TAGS      := $(shell $(HG) id -t | grep -v "tip")
 REPO_FILES_CMD := $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
-REPO_FILES    ?= $(shell $(REPO_FILES_CMD))
-REPO_DIRS     ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
-REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
+REPO_FILES     := $(shell $(REPO_FILES_CMD))
+REPO_DIRS      := $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
+REPO_TITLE     := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 
 ################################################################
 # Rules on how to generate filenames. Usually no need to change
@@ -114,7 +120,7 @@ REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)
 VPATH =
 VPATH = $(REPO_DIRS)
 
-FILENAME_STUB      := $(basename $(MAIN_TARGET))
+FILENAME_STUB      := $(firstword $(basename $(TARGET_FILES)))
 DIR_BASE           := $(FILENAME_STUB)-
 VERSION_STRING     := $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(DIR_BASE)$(REPO_BRANCH))
@@ -137,21 +143,21 @@ REPO_REVISION_DUMMY   ?= {{REPO_REVISION}}
 OUTPUT_FILENAME_DUMMY ?= {{FILENAME}}
 GRF_MD5SUM_DUMMY      ?= {{GRF_MD5}}
 
-DOC_FILES_SRC      := $(LICENSE_FILENAME_SRC) $(README_FILENAME_SRC) $(CHANGELOG_FILENAME_SRC)
-DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILES_SRC)))
+DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILENAMES)))
+GRF_FILES          := $(filter %.grf,$(TARGET_FILES))
 
 # Directories which to remember when creating a source release
 MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG_DIR) $(EXTRA_DIRS)
 
 FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
-FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|backup\.push|\.devzone)"
+FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|\.hgeol|backup\.push|\.devzone)"
 
 # Make a bit of a guess on which dependency check we should use as default, if not defined otherwise
 # We can savely assume that python is available, if HG is available. Also mdep only makes sense for
 # NFO - style projects
 ifeq ($(HG),hg)
-ifeq ($(PROJECT_TYPE),NFO)
+ifdef USE_NFO
 DEP_CHECK_TYPE     ?=mdep
 endif
 endif

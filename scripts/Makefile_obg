@@ -1,0 +1,31 @@
+# Here also go all build targets specific to this very newgrf
+ifdef USE_OBG
+
+# Order of the grf files.
+MAIN_FILENAME_TYPE := base arctic tropical logos toyland extra
+
+test::
+	$(_E) "GRF files:                    $(GRF_FILES)"
+
+%.obg: $(GRF_FILES) $(DESC_FILENAME) $(DOC_FILES) $(REV_FILENAME)
+	$(_E) "[ASSEMBLING] $@"
+	@echo "[metadata]" > $@
+	@echo "name        = $(REPO_NAME)" >> $@
+	@echo "shortname   = $(REPO_SHORTNAME)" >> $@
+	@echo "version     = $(REPO_REVISION)" >> $@
+	@echo "palette     = $(REPO_PALETTE)" >> $@
+	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(REPO_TITLE)]/' >> $@
+
+	@echo "" >> $@
+	@echo "[files]" >> $@
+	$(_V) $(_V)for i in $(subst =, ,$(join $(foreach var,$(MAIN_FILENAME_TYPE),"$(var)=" ), $(foreach var,$(GRF_FILES),"$(var)"))); do printf "%-8s = %s\n" $$i | grep 'grf' >> $@; done
+
+	@echo "" >> $@
+	@echo "[md5s]" >> $@
+	$(_V)for i in $(TARGET_FILES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $@; done
+
+	@echo "" >> $@
+	@echo "[origin]" >> $@
+	@echo "$(REPO_ORIGIN)" >> $@
+
+endif

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import re, os, sys, getopt
 
-include_pat = re.compile(r'^[^//].*#include\s*"([^"]*)"')
-pcx_pat = re.compile(r'.\s(\S+\.[pP][cC][xX])\s')
+include_pat = re.compile(r'#include\s*"([^"]*)"')
+pcx_pat = re.compile(r'\s(\S+\.[pP][cC][xX])\s')
 
 def scan_file(fname):
     """
@@ -15,8 +15,9 @@ def scan_file(fname):
     @rtype:  C{set} of C{str}, C{set} of C{str}
     """
     fp = open(fname, 'r')
-    data = fp.read()
+    line = fp.read()
     fp.close()
+    data= re.sub('//.*', '', line)
 
     includes = set()
     s = 0
