@@ -7,7 +7,7 @@ MAIN_FILENAME_TYPE := base arctic tropical logos toyland extra
 test::
 	$(_E) "GRF files:                    $(GRF_FILES)"
 
-%.obg: $(GRF_FILES) $(DESC_FILENAME) $(DOC_FILES) $(REV_FILENAME)
+%.obg: $(GRF_FILES) $(DESC_FILENAME) $(REV_FILENAME)
 	$(_E) "[ASSEMBLING] $@"
 	@echo "[metadata]" > $@
 	@echo "name        = $(REPO_NAME)" >> $@
