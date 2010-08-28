@@ -29,8 +29,11 @@
    30 sprites/pcx/airports01.pcx 434 216 09 23 27 -9 -16
    31 sprites/pcx/airports01.pcx 466 216 09 20 28 -12 -14
    32 sprites/pcx/airports01.pcx 514 216 09 24 36 -29 -10
-   33 sprites/pcx/airports01.pcx 562 216 09 19 31 0 -3
-   34 sprites/pcx/airports01.pcx 610 216 09 19 31 -30 -2
+
+   // Fences
+   33 sprites/pcx/infrastructure/airport_fences.pcx 12 14 09 20 33  -2 -4
+   34 sprites/pcx/infrastructure/airport_fences.pcx 58 14 09 20 33 -31 -4
+   
    35 sprites/pcx/airports01.pcx 658 216 09 31 64 -31 0
    36 sprites/pcx/airports01.pcx 2 296 09 31 64 -31 0
    37 sprites/pcx/airports01.pcx 82 296 09 31 64 -31 0
