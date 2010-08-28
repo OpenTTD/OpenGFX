@@ -5,11 +5,11 @@
 // There are four alternate plain, level ground rough ground tiles in (Open)TTD
 // which are changed every 16 tiles
 
-#define THIS_PCX_FILE sprites/pcx/terrain/toyland_ground_lightgreen.pcx
--1 THIS_PCX_FILE   2  14 09 31 64 -31   0
--1 THIS_PCX_FILE   2  14 09 31 64 -31   0
--1 THIS_PCX_FILE   2  14 09 31 64 -31   0
--1 THIS_PCX_FILE   2  14 09 31 64 -31   0
+#define THIS_PCX_FILE sprites/pcx/terrain/toyland_ground_roughvariation.pcx
+-1 THIS_PCX_FILE  68  35 09 31 64 -31   0
+-1 THIS_PCX_FILE  68  68 09 31 64 -31   0
+-1 THIS_PCX_FILE  68 101 09 31 64 -31   0
+-1 THIS_PCX_FILE  68 134 09 31 64 -31   0
 #undef THIS_PCX_FILE
   
 //109-127 Rocks
