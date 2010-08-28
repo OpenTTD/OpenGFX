@@ -1,5 +1,5 @@
 //2601 transmitter
-   79 sprites/pcx/airports01.pcx 98 472 09 90 63 -30 -78
+   79 sprites/pcx/infrastructure/airports.pcx 98 472 09 90 63 -30 -78
 
 //2602 lighthouse
   915 sprites/pcx/landscape031.pcx 706 3976 09 61 41 -22 -48
