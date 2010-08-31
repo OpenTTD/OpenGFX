@@ -71,7 +71,7 @@ HOUSE_HEIGHT149_2(sprites/pcx/houses/base-4444.4445.4576-offices.pcx)   // Recol
  4462 sprites/pcx/arcticchurch.pcx 10 10 03 31 64 -31 0
  4463 sprites/pcx/arcticchurch.pcx 80 10 03 31 64 -31 0
  4464 sprites/pcx/arcticchurch.pcx 150 10 03 44 64 -31 -13
- 4465 sprites/pcx/arcticchurch.pcx 220 10 09 49 64 -31 -18
+HOUSE_H87_1(sprites/pcx/houses/base-4465-arctic-church.pcx)
 //houses
  4466 sprites/pcx/buildings.pcx 706 3528 09 35 64 -31 -4
  4467 sprites/pcx/buildings.pcx 146 3576 09 25 36 -16 -2        // Recolour: BROWN, CREAM, GRAY
