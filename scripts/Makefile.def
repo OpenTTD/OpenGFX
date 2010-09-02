@@ -143,7 +143,6 @@ REPO_REVISION_DUMMY   ?= {{REPO_REVISION}}
 OUTPUT_FILENAME_DUMMY ?= {{FILENAME}}
 GRF_MD5SUM_DUMMY      ?= {{GRF_MD5}}
 
-DOC_FILES          := $(addsuffix .txt,$(basename $(DOC_FILENAMES)))
 GRF_FILES          := $(filter %.grf,$(TARGET_FILES))
 
 # Directories which to remember when creating a source release
