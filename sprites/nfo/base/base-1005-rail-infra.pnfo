@@ -71,24 +71,24 @@
   913 sprites/pcx/infra06.pcx 690 4952 09 38 50 -1 -25
 
 //1069-1086 rail station
-  848 sprites/pcx/infra06.pcx 34 4696 09 26 42 -9 -6
-  849 sprites/pcx/infra06.pcx 82 4696 09 26 42 -31 -6
-  850 sprites/pcx/infra06.pcx 130 4696 09 26 42 -9 -6
-  851 sprites/pcx/infra06.pcx 178 4696 09 26 42 -31 -6
-  852 sprites/pcx/infra06.pcx 226 4696 09 32 42 -31 -12
-  853 sprites/pcx/infra06.pcx 274 4696 09 32 42 -9 -12
-  854 sprites/pcx/infra06.pcx 322 4696 09 31 42 -9 -11
-  855 sprites/pcx/infra06.pcx 370 4696 09 36 42 -31 -16
-  856 sprites/pcx/infra06.pcx 418 4696 09 36 42 -9 -16
-  857 sprites/pcx/infra06.pcx 466 4696 09 31 42 -31 -11
-  858 sprites/pcx/infra06.pcx 514 4696 09 38 64 -31 -6
-  859 sprites/pcx/infra06.pcx 594 4696 09 38 64 -31 -6
-  860 sprites/pcx/infra06.pcx 674 4696 09 52 66 -31 -20
-  861 sprites/pcx/infra06.pcx 2 4760 09 52 66 -33 -20
-  862 sprites/pcx/infra06.pcx 82 4760 09 38 64 0 0
-  863 sprites/pcx/infra06.pcx 162 4760 09 38 64 0 0
-  864 sprites/pcx/infra06.pcx 242 4760 09 52 66 0 0
-  865 sprites/pcx/infra06.pcx 322 4760 09 52 66 0 0
+  848 sprites/pcx/infra06.pcx 34 4696 49 26 42 -9 -6
+  849 sprites/pcx/infra06.pcx 82 4696 49 26 42 -31 -6
+  850 sprites/pcx/infra06.pcx 130 4696 49 26 42 -9 -6
+  851 sprites/pcx/infra06.pcx 178 4696 49 26 42 -31 -6
+  852 sprites/pcx/infra06.pcx 226 4696 49 32 42 -31 -12
+  853 sprites/pcx/infra06.pcx 274 4696 49 32 42 -9 -12
+  854 sprites/pcx/infra06.pcx 322 4696 49 31 42 -9 -11
+  855 sprites/pcx/infra06.pcx 370 4696 49 36 42 -31 -16
+  856 sprites/pcx/infra06.pcx 418 4696 49 36 42 -9 -16
+  857 sprites/pcx/infra06.pcx 466 4696 49 31 42 -31 -11
+  858 sprites/pcx/infra06.pcx 514 4696 49 38 64 -31 -6
+  859 sprites/pcx/infra06.pcx 594 4696 49 38 64 -31 -6
+  860 sprites/pcx/infra06.pcx 674 4696 49 52 66 -31 -20
+  861 sprites/pcx/infra06.pcx 2 4760 49 52 66 -33 -20
+  862 sprites/pcx/infra06.pcx 82 4760 49 38 64 0 0
+  863 sprites/pcx/infra06.pcx 162 4760 49 38 64 0 0
+  864 sprites/pcx/infra06.pcx 242 4760 49 52 66 0 0
+  865 sprites/pcx/infra06.pcx 322 4760 49 52 66 0 0
 
 //1087-1092 monorail overlays
    10 sprites/pcx/infra06.pcx 338 8 09 18 34 -15 7
@@ -163,24 +163,24 @@
   921 sprites/pcx/infra06.pcx 258 5016 09 39 50 -1 -26
 
 //1151-1168 monorail station
-  868 sprites/pcx/infra06.pcx 434 4760 09 26 42 -9 -6
-  869 sprites/pcx/infra06.pcx 482 4760 09 26 42 -31 -6
-  870 sprites/pcx/infra06.pcx 530 4760 09 26 42 -9 -6
-  871 sprites/pcx/infra06.pcx 578 4760 09 26 42 -31 -6
-  872 sprites/pcx/infra06.pcx 626 4760 09 35 42 -31 -15
-  873 sprites/pcx/infra06.pcx 674 4760 09 35 42 -9 -15
-  874 sprites/pcx/infra06.pcx 722 4760 09 31 42 -9 -11
-  875 sprites/pcx/infra06.pcx 2 4824 09 36 42 -31 -16
-  876 sprites/pcx/infra06.pcx 50 4824 09 36 42 -9 -16
-  877 sprites/pcx/infra06.pcx 98 4824 09 31 42 -31 -11
-  878 sprites/pcx/infra06.pcx 146 4824 09 42 64 -31 -11
-  879 sprites/pcx/infra06.pcx 226 4824 09 42 64 -31 -11
-  880 sprites/pcx/infra06.pcx 306 4824 09 52 66 -31 -20
-  881 sprites/pcx/infra06.pcx 386 4824 09 52 66 -33 -20
-  882 sprites/pcx/infra06.pcx 466 4824 09 42 64 0 0
-  883 sprites/pcx/infra06.pcx 546 4824 09 42 64 0 0
-  884 sprites/pcx/infra06.pcx 626 4824 09 52 66 0 0
-  885 sprites/pcx/infra06.pcx 706 4824 09 52 66 0 0
+  868 sprites/pcx/infra06.pcx 434 4760 49 26 42 -9 -6
+  869 sprites/pcx/infra06.pcx 482 4760 49 26 42 -31 -6
+  870 sprites/pcx/infra06.pcx 530 4760 49 26 42 -9 -6
+  871 sprites/pcx/infra06.pcx 578 4760 49 26 42 -31 -6
+  872 sprites/pcx/infra06.pcx 626 4760 49 35 42 -31 -15
+  873 sprites/pcx/infra06.pcx 674 4760 49 35 42 -9 -15
+  874 sprites/pcx/infra06.pcx 722 4760 49 31 42 -9 -11
+  875 sprites/pcx/infra06.pcx 2 4824 49 36 42 -31 -16
+  876 sprites/pcx/infra06.pcx 50 4824 49 36 42 -9 -16
+  877 sprites/pcx/infra06.pcx 98 4824 49 31 42 -31 -11
+  878 sprites/pcx/infra06.pcx 146 4824 49 42 64 -31 -11
+  879 sprites/pcx/infra06.pcx 226 4824 49 42 64 -31 -11
+  880 sprites/pcx/infra06.pcx 306 4824 49 52 66 -31 -20
+  881 sprites/pcx/infra06.pcx 386 4824 49 52 66 -33 -20
+  882 sprites/pcx/infra06.pcx 466 4824 49 42 64 0 0
+  883 sprites/pcx/infra06.pcx 546 4824 49 42 64 0 0
+  884 sprites/pcx/infra06.pcx 626 4824 49 52 66 0 0
+  885 sprites/pcx/infra06.pcx 706 4824 49 52 66 0 0
 
 // Maglev tracks
 // Overlays
@@ -204,24 +204,24 @@
   929 sprites/pcx/infra06.pcx 610 5016 09 38 50 -1 -25
 
 //1233-1250 maglev station
-  888 sprites/pcx/infra06.pcx 18 4888 09 26 42 -9 -6
-  889 sprites/pcx/infra06.pcx 66 4888 09 26 42 -31 -6
-  890 sprites/pcx/infra06.pcx 114 4888 09 26 42 -9 -6
-  891 sprites/pcx/infra06.pcx 162 4888 09 26 42 -31 -6
-  892 sprites/pcx/infra06.pcx 210 4888 09 37 42 -31 -17
-  893 sprites/pcx/infra06.pcx 258 4888 09 37 42 -9 -17
-  894 sprites/pcx/infra06.pcx 306 4888 09 31 43 -10 -11
-  895 sprites/pcx/infra06.pcx 354 4888 09 36 44 -33 -16
-  896 sprites/pcx/infra06.pcx 418 4888 09 36 44 -9 -16
-  897 sprites/pcx/infra06.pcx 482 4888 09 31 43 -31 -11
-  898 sprites/pcx/infra06.pcx 530 4888 09 42 64 -32 -10
-  899 sprites/pcx/infra06.pcx 610 4888 09 42 64 -30 -10
-  900 sprites/pcx/infra06.pcx 690 4888 09 52 66 -32 -19
-  901 sprites/pcx/infra06.pcx 2 4952 09 52 66 -32 -19
-  902 sprites/pcx/infra06.pcx 82 4952 09 42 64 0 0
-  903 sprites/pcx/infra06.pcx 162 4952 09 42 64 0 0
-  904 sprites/pcx/infra06.pcx 242 4952 09 52 66 0 0
-  905 sprites/pcx/infra06.pcx 322 4952 09 52 66 0 0
+  888 sprites/pcx/infra06.pcx 18 4888 49 26 42 -9 -6
+  889 sprites/pcx/infra06.pcx 66 4888 49 26 42 -31 -6
+  890 sprites/pcx/infra06.pcx 114 4888 49 26 42 -9 -6
+  891 sprites/pcx/infra06.pcx 162 4888 49 26 42 -31 -6
+  892 sprites/pcx/infra06.pcx 210 4888 49 37 42 -31 -17
+  893 sprites/pcx/infra06.pcx 258 4888 49 37 42 -9 -17
+  894 sprites/pcx/infra06.pcx 306 4888 49 31 43 -10 -11
+  895 sprites/pcx/infra06.pcx 354 4888 49 36 44 -33 -16
+  896 sprites/pcx/infra06.pcx 418 4888 49 36 44 -9 -16
+  897 sprites/pcx/infra06.pcx 482 4888 49 31 43 -31 -11
+  898 sprites/pcx/infra06.pcx 530 4888 49 42 64 -32 -10
+  899 sprites/pcx/infra06.pcx 610 4888 49 42 64 -30 -10
+  900 sprites/pcx/infra06.pcx 690 4888 49 52 66 -32 -19
+  901 sprites/pcx/infra06.pcx 2 4952 49 52 66 -32 -19
+  902 sprites/pcx/infra06.pcx 82 4952 49 42 64 0 0
+  903 sprites/pcx/infra06.pcx 162 4952 49 42 64 0 0
+  904 sprites/pcx/infra06.pcx 242 4952 49 52 66 0 0
+  905 sprites/pcx/infra06.pcx 322 4952 49 52 66 0 0
 
 //1251-1262 rail gui buttons
    85 sprites/pcx/gui04.pcx 642 152 09 20 20 0 0
