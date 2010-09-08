@@ -101,13 +101,13 @@ endif
 # a release build (taged version): GRF's Name 0.1
 ################################################################
 DEFAULT_BRANCH_NAME ?= nightly
-REPO_REVISION  := $(shell $(HG) id -n | cut -d+ -f1)
-REPO_MODIFIED  := $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
-REPO_BRANCH    := $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
-REPO_TAGS      := $(shell $(HG) id -t | grep -v "tip")
-REPO_FILES_CMD := $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
-REPO_FILES     := $(shell $(REPO_FILES_CMD))
-REPO_DIRS      := $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
+REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
+REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
+REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
+REPO_FILES_CMD ?= $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
+REPO_FILES     ?= $(shell $(REPO_FILES_CMD))
+REPO_DIRS      ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
 REPO_TITLE     := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 
 ################################################################
