@@ -29,6 +29,11 @@ ifdef INSTALLDIR
 	$(_E) [Warning] The use of 'INSTALLDIR' is deprecated and may be removed in the future.
 	$(_E) [Warning] Use 'INSTALL_DIR' instead.
 endif
+ifdef DOCDIR
+	$(_E) [INSTALL] docs to $(DOCDIR)
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -c $(DOC_FILES) $(DOCDIR)
+endif
 
 md5: $(MD5_FILENAME)
 
