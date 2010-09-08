@@ -25,7 +25,7 @@ SRCZIP_FLAGS   ?=
 BZIP_FLAGS     ?= -k9f
 CC_FLAGS       ?= -C -E - <
 MAKE_FLAGS     ?=
-UNIX2DOS_FLAGS ?= -q
+UNIX2DOS_FLAGS ?= $(shell $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
 NML_FLAGS      ?=
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
@@ -65,7 +65,12 @@ ifeq ($(OSTYPE),Darwin)
 INSTALL_DIR?=$(HOME)/Documents/OpenTTD/data/$(PROJECT_NAME)
 else
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
-INSTALL_DIR?=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data\$(PROJECT_NAME)
+WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
+ifeq ($(WIN_VER),5)
+	INSTALL_DIR?=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\data\$(PROJECT_NAME)
+else
+	INSTALL_DIR?=C:\Users\Public\Documents\OpenTTD\data\$(PROJECT_NAME)
+endif
 else
 INSTALL_DIR?=
 endif

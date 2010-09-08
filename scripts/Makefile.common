@@ -33,7 +33,7 @@ remake:
 test::
 	$(_E) "Make:                         $(MAKE)"
 	$(_E) "MD5sum:                       $(MD5SUM)"
-	$(_E) "unix2dos:                     $(UNIX2DOS)"
+	$(_E) "unix2dos:                     $(UNIX2DOS) $(UNIX2DOS_FLAGS)"
 	$(_E) "gcc:                          $(CC) $(CC_FLAGS)"
 	$(_E) "zip:                          $(ZIP) $(ZIP_FLAGS)"
 	$(_E) "bzip:                         $(BZIP) $(BZIP_FLAGS)"
