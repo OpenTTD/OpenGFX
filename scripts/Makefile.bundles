@@ -22,9 +22,10 @@ $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_V)$(BZIP) $(BZIP_FLAGS) $^
 
 # Installation process
-install: $(TAR_FILENAME) $(INSTALL_DIR)
+install: $(DIR_NAME)
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
-	$(_V)-cp $(TAR_FILENAME) $(INSTALL_DIR)
+	$(_V) install -d $(INSTALL_DIR)
+	$(_V) install -c $(TARGET_FILES) $(INSTALL_DIR)
 ifdef INSTALLDIR
 	$(_E) [Warning] The use of 'INSTALLDIR' is deprecated and may be removed in the future.
 	$(_E) [Warning] Use 'INSTALL_DIR' instead.

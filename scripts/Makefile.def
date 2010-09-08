@@ -56,20 +56,22 @@ LANG_DIR       ?= lang
 endif      
 
 # Add some OS detection and guess an install path (use the system's default)
+PROJECT_NAME := $(basename $(firstword $(TARGET_FILES)))
 OSTYPE:=$(shell uname -s)
 ifeq ($(OSTYPE),Linux)
-INSTALL_DIR?=$(HOME)/.openttd/data
+INSTALL_DIR?=$(HOME)/.openttd/data/$(PROJECT_NAME)
 else
 ifeq ($(OSTYPE),Darwin)
-INSTALL_DIR?=$(HOME)/Documents/OpenTTD/data
+INSTALL_DIR?=$(HOME)/Documents/OpenTTD/data/$(PROJECT_NAME)
 else
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
-INSTALL_DIR?=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data
+INSTALL_DIR?=C:\Documents and Settings\$(USERNAME)\My Documents\OpenTTD\data\$(PROJECT_NAME)
 else
 INSTALL_DIR?=
 endif
 endif
 endif
+DOCDIR ?= $(INSTALL_DIR)
 
 # Previous versions used INSTALLDIR instead of INSTALL_DIR. Use the previous version,
 # if supplied via command line parameter:
