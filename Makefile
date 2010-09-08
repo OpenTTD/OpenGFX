@@ -11,6 +11,7 @@ include Makefile.config
 
 # this overrides definitions from above by individual settings
 # (if applicable):
+-include Makefile.dist
 -include Makefile.local
 
 # include the universal Makefile definitions for NewGRF Projects

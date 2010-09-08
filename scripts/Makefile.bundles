@@ -57,16 +57,17 @@ bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
 	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
 	$(_V) cp $(CP_FLAGS) $(MD5_FILENAME) $(DIR_NAME_SRC)
-	$(_V) cp $(CP_FLAGS) Makefile.local.sample $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) cp $(CP_FLAGS) Makefile.local.sample $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'VPATH =' >> $(DIR_NAME_SRC)/Makefile.def
 	$(_V) echo 'VPATH = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.def
-	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/Makefile.local
-	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo 'DEP_CHECK_TYPE = normal' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) $(TAR) $(TAR_FLAGS) $(DIR_NAME_SRC).tar $(DIR_NAME_SRC)
 	$(_E) "[GZIP] $(DIR_NAME_SRC).tar.gz"
 	$(_V) $(SRCZIP) $(SRCZIP_FLAGS) $(DIR_NAME_SRC).tar
