@@ -1,3 +1,50 @@
+OpenGFX 0.3.0 (10 Sep 2010)
+-------------------------------------
+
+- Feature: Airport preview sprites
+- Feature: Generic UK signals
+- Feature: Farm fields with bales of straw
+- Feature: New 'rocks' for toyland climate
+- Feature: New 'rough' ground tiles for toyland
+- Feature: Toyland specific buoy sprites
+- Feature: GUI sprites for vehicle profits, new news messages and exclusive transport rights
+- Feature: [Makefile] Alternative dependency check implemented in python
+- Feature: [Makefile] Native support for .hgeol (mercurial 1.5.4 or later)
+- Feature: [Makefile] Allow to specify installtion directory for documentation via DOCDIR
+
+- Change: Resize the title letters 125% and replace O...TTD with it
+- Change: New light signals
+- Change: alternative save/menu and graphs buttons for main toolbar
+- Change: Replace info toolbar button with a white question mark
+- Change: New sprites for fizzy drinks factory
+- Change: Replace the unused buoy sprites in the 4 climate grfs by empty sprites. GUI sprites are always used.
+- Change: [Makefile] Update to Makefile version 0.4.1
+- Change: [Makefile] Install into a directory and don't install the tar anymore
+- Change: [Makefile] Fail on nforenum errors, but keep going for warnings
+- Change: [Makefile] renum is now officially called nforenum everywhere
+- Change: [Makefile] Keep preprocessing output in the nfo. It allows to easier find the files where something went wrong
+- Change: [Makefile] Rename the Makefile with needed settings for tar bundles to Makefile.dist
+- Change: [Makefile] Make use of option -s for nforenum and grfcodec and tidy up output generally a bit more
+- Change: [Makefile] Simplify the test target
+- Change: [Makefile] Remove a bit unnecessary output
+
+- Fix: Some pixels of the bubble wagon had erronous colours
+- Fix: Sugar wagon had more white than intended
+- Fix: Alignment of rail fences
+- Fix: Supply default replacement strings for the documentation files
+- Fix: Macros for houses were slightly misaligned.
+- Fix: House misalignment during wrong sprite width (66 instead 64)
+- Fix: Glitch with some maglev track sprites
+- Fix: Revised livery for Millenium Z1 monorail engine
+- Fix: Company colour for sweets factory
+- Fix: Gaps in the airport fences. Rework their size and alignment
+- Fix: nicer roof for arctic church
+- Fix: No more broken glass on station roofs
+- Fix: [Makefile] Some unix2dos don't know how to be quiet. Let them babble but not complain
+
+
+
+
 OpenGFX 0.2.4 (29 Apr. 2010)
 -------------------------------------
 
