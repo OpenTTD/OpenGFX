@@ -3,6 +3,7 @@ syntax: glob
 
 # The local makefile should be ignored:
 Makefile.local
+Makefile.dist
 Makefile.dep
 .REV
 
