@@ -53,8 +53,8 @@
    53 sprites/pcx/gui04.pcx 370 104 03 32 32 0 0             // cursor construction toolbar: build depot cursor
    54 sprites/pcx/gui04.pcx 418 104 03 32 32 0 0             // cursor landscaping toolbar: place sign cursor
   723 sprites/pcx/gui/help.pcx 68 23 01 19 19 1 1            // main toolbar: info icon
-   -1 sprites/pcx/gui/savemenu.pcx 0 0 01 20 20 0 0          // main toolbar: file menu
-   -1 sprites/pcx/gui/savemenu.pcx 21 0 01 20 20 0 0         // main toolbar: file menu
+  724 sprites/pcx/gui/savemenu.pcx 21 0 01 20 20 0 0         // main toolbar: file menu
+  725 sprites/pcx/gui/savemenu.pcx 0 0 01 20 20 0 0          // main toolbar: file menu
    58 sprites/pcx/gui04.pcx 562 104 01 20 20 0 0             // main toolbar: pause game
    59 sprites/pcx/gui04.pcx 594 104 01 20 20 0 0             // main toolbar: build rail
    60 sprites/pcx/gui04.pcx 626 104 01 20 20 0 0             // main toolbar: build road
