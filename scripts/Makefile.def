@@ -25,7 +25,7 @@ SRCZIP_FLAGS   ?=
 BZIP_FLAGS     ?= -k9f
 CC_FLAGS       ?= -C -E - <
 MAKE_FLAGS     ?=
-UNIX2DOS_FLAGS ?= $(shell $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
+UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
 NML_FLAGS      ?=
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
