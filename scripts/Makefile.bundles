@@ -25,7 +25,7 @@ $(BZIP_FILENAME): $(TAR_FILENAME)
 install: $(DIR_NAME)
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
 	$(_V) install -d $(INSTALL_DIR)
-	$(_V) install -c $(TARGET_FILES) $(INSTALL_DIR)
+	$(_V) install -m644 $(TARGET_FILES) $(INSTALL_DIR)
 ifdef INSTALLDIR
 	$(_E) [Warning] The use of 'INSTALLDIR' is deprecated and may be removed in the future.
 	$(_E) [Warning] Use 'INSTALL_DIR' instead.
@@ -33,7 +33,7 @@ endif
 ifdef DOCDIR
 	$(_E) [INSTALL] docs to $(DOCDIR)
 	$(_V) install -d $(DOCDIR)
-	$(_V) install -c $(DOC_FILES) $(DOCDIR)
+	$(_V) install -m644 $(DOC_FILES) $(DOCDIR)
 endif
 
 md5: $(MD5_FILENAME)
