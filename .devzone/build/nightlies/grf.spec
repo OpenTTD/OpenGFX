@@ -28,16 +28,16 @@ cd %{name}.hg
 
 make %{?_smp_mflags} bundle_src bundle_zip ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
-mv *.tar.gz *.zip ../%{name} 1>%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
-cd ../%{name} 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
-tar -xz < `ls *-source.tar.gz` 1>%{name}-%{version}-build.log 2>%{name}-%{version}-build.err.log
-mv *-source/* . 1>%{name}-%{version}-build.log 2>%{name}-%{version}-build.err.log
-rmdir *-source 1>%{name}-%{version}-build.log 2>%{name}-%{version}-build.err.log
+mv *.tar.gz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
+cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
+tar -xz < `ls *-source.tar.gz` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+mv *-source/* . 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+rmdir *-source 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 
 %build
 #we have unix2dos installed for the zip, but now, we like to build without
 #docs aren't built by default
-make %{?_smp_mflags} docs UNIX2DOS= 1>%{name}-%{version}-build.log 2>%{name}-%{version}-build.err.log
+make %{?_smp_mflags} docs UNIX2DOS= 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 #cleanup, because we don't make a fresh chroot fro every build
 rm -r ~/.nforenum
 grf2html -o grf2html *.grf 1>%{name}-%{version}-grf2html.log 2>&1
