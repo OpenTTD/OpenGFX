@@ -1,0 +1,8 @@
+R;%{BUILD}/*.zip
+%{BUILD}/*.md5
+%{BUILD}/*build.log
+E;%{BUILD}/*build.err.log
+L;%{BUILD}/sprites/*.nfo
+%{BUILD}/grf2html
+%{BUILD}/*grf2html.log
+T;/usr/src/packages/RPMS/noarch/*.noarch.rpm
