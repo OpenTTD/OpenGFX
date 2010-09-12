@@ -15,8 +15,6 @@ opengfx*md5
 # Ignore intermediate files created by the Makefile:
 sprites/ogfx?_*.cpnfo
 sprites/ogfx?_*.nfo
-docs/license.txt
-docs/changelog.txt
 docs/readme.txt
 
 # Ignore directories from bundle creation / install:
