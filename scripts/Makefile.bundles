@@ -63,8 +63,6 @@ bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
 	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'VPATH =' >> $(DIR_NAME_SRC)/Makefile.def
-	$(_V) echo 'VPATH = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.def
 	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'DEP_CHECK_TYPE = normal' >> $(DIR_NAME_SRC)/Makefile.dist

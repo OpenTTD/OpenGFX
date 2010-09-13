@@ -81,10 +81,9 @@ ifeq ($(DEP_CHECK_TYPE), normal)
 	$(_V) for i in `echo $(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
 else                                    # normal dep check / mdep
 	$(_V) for i in $(basename $(GRF_FILES)); do scripts/mdep.py --target=$$i.nfo -I$(NFO_DIR) -Itemplates $$i.pnfo > $(MAKEFILE_DEP); done
-	$(_V) printf "$(addsuffix .nfo,$(basename $(GRF_FILES))) " >> $(MAKEFILE_DEP)
 endif                                   # mdep dep check
 	$(_V) printf "$(TARGET_FILES) $(MAKEFILE_DEP): " >> $(MAKEFILE_DEP)
-	$(_V) for i in `ls Makefile* scripts/* | sed -e '/Makefile.dep/d' | grep -v 'rej' | grep -v 'orig'`; do printf "$$i " >> $(MAKEFILE_DEP); done; printf "\n" >> $(MAKEFILE_DEP)
+	$(_V) for i in `ls Makefile* scripts/* | sed -e '/Makefile.dep/d'`; do printf "$$i " >> $(MAKEFILE_DEP); done; printf "\n" >> $(MAKEFILE_DEP)
 	$(_V) echo "$(TARGET_FILES): $(LANG_FILES)" >> $(MAKEFILE_DEP)
 endif
 
