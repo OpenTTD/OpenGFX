@@ -5,8 +5,7 @@
 clean:
 	$(_E) "[CLEANING]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
-	$(_V)-rm -rf $(MAKEFILE_DEP) $(TARGET_FILES) $(SRC_DIR)/*.nfo $(DOC_FILES) $(REV_FILENAME) md5.check
-	$(_V)-rm -rf $(CLEAN_ADD)
+	$(_V)-rm -rf *.dep $(TARGET_FILES) $(SRC_DIR)/*.nfo $(patsubst %.grf,%.nml,$(GRF_FILES)) $(REV_FILENAME) md5.check $(CLEAN_ADD) $(SRC_DIR)/*.cnfo
 
 # More thoroughly clean the source tree. Should restore the initial
 # state of a tarball (except for manual changes to Makefile.local, of
@@ -50,7 +49,8 @@ test::
 	$(_E) "                       bzip:  $(BZIP_FILENAME)"
 	$(_E) "Dirs (build/src/base):        $(DIR_NAME) / $(DIR_NAME_SRC) / $(DIR_BASE)"
 	$(_E) "Source dirs:                  $(MAIN_DIRS)"
-	$(_E) "Source extensions (RE):       $(FILE_SRC_RE)"
+	$(_E) "Source file extensions (RE):  $(FILE_SRC_RE)"
+	$(_E) "Source include ext. (RE):     $(FILE_INC_RE)"
 	$(_E) "Repository dirs (= VPATH):    $(REPO_DIRS)"
 # uncomment the following two lines in order to get a list of all files which are considered to be part of the repo
 # and the sub-list of those which are considered for the source bundle (for bundle_src)
@@ -58,8 +58,9 @@ test::
 #	$(_E) "Repository files:             $(REPO_FILES)"
 #	$(_E) "Bundle source files:          `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep "$$j"; done; done;`"
 
-.PRECIOUS: %.nfo %.nml
-.SECONDARY: %.nfo %.nml
+.PRECIOUS: %.nfo %.nml %.cnfo
+.SECONDARY: %.nfo %.nml %.cnfo
+.DELETE_ON_ERROR: %.cnfo
 
 %.txt: %.ptxt $(REV_FILENAME) $(MD5_FILENAME)
 	$(_E) "[TXT] $@"
@@ -74,17 +75,28 @@ test::
 
 docs: $(DOC_FILES)
 
-ifndef USE_CAT
-depend $(MAKEFILE_DEP): $(REV_FILENAME)
-	$(_E) "[DEPEND] $(MAKEFILE_DEP)"
-ifeq ($(DEP_CHECK_TYPE), normal)
-	$(_V) for i in `echo $(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do echo "$$i: "`for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done` | grep -v -E ": $$" ; done | sort | uniq | $(AWK) '{ print $$0"\n\t$$(_V) touch $$@" }' > $(MAKEFILE_DEP)
-else                                    # normal dep check / mdep
-	$(_V) for i in $(basename $(GRF_FILES)); do scripts/mdep.py --target=$$i.nfo -I$(NFO_DIR) -Itemplates $$i.pnfo > $(MAKEFILE_DEP); done
-endif                                   # mdep dep check
-	$(_V) printf "$(TARGET_FILES) $(MAKEFILE_DEP): " >> $(MAKEFILE_DEP)
-	$(_V) for i in `ls Makefile* scripts/* | sed -e '/Makefile.dep/d'`; do printf "$$i " >> $(MAKEFILE_DEP); done; printf "\n" >> $(MAKEFILE_DEP)
-	$(_V) echo "$(TARGET_FILES): $(LANG_FILES)" >> $(MAKEFILE_DEP)
+$(MAKEFILE_DEP) depend: $(REV_FILENAME)
+	$(_E) "[DEP] $(MAKEFILE_DEP)"
+	$(_V) echo "$(MAKEFILE_DEP): $(MAKEFILE) Makefile.config" > $(MAKEFILE_DEP)
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile.common $(SCRIPT_DIR)/Makefile.def $(SCRIPT_DIR)/Makefile.bundles" >>$(MAKEFILE_DEP)
+	$(_V) echo "$(TARGET_FILES): $(LANG_FILES) $(MAKEFILE_DEP)" >> $(MAKEFILE_DEP)
+ifdef USE_NFO
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_nfo" >> $(MAKEFILE_DEP)
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/nfoheader.nfo $(SCRIPT_DIR)/mdep.py" >> $(MAKEFILE_DEP)
+endif
+ifdef USE_OBG
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_obg" >> $(MAKEFILE_DEP)
+endif
+ifdef USE_NML
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_nml" >> $(MAKEFILE_DEP)
+endif
+
+ifeq ($(DEP_CHECK_TYPE),normal)
+%.gfx.dep: %.src.dep
+	$(_E) "[DEP] $@"
+	$(_V) echo "" > $@
+	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; done; done | sort | uniq >> $@
+	$(_V) touch $@
 endif
 
 # Create the dependencies. Allow project types to define their own
@@ -93,4 +105,4 @@ $(REV_FILENAME):
 
 addcheck:
 	$(_E) "[ADDCHECK] for missing repo files:"
-	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do hg st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
+	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)|grf)$$'`; do hg st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"

@@ -1,5 +1,15 @@
 ifdef USE_NFO
 
+$(patsubst %.grf,%.src.dep,$(GRF_FILES)):
+	$(_E) "[DEP] $@"
+ifeq ($(DEP_CHECK_TYPE),normal)
+	$(_V) $(CC) -C -M -MF $@ -E -MT $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@) -MT $@ - < $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
+	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.pnfo,$@)" >> $@
+endif
+ifeq ($(DEP_CHECK_TYPE),mdep)
+	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.nfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) >> $@
+endif
+
 test::
 	$(_E) "nforenum:                     $(NFORENUM) $(NFORENUM_FLAGS)"
 	$(_E) "grfcodec:                     $(GRFCODEC) $(GRFCODEC_FLAGS)"
@@ -11,11 +21,12 @@ test::
 endif # project_type == NFO
 
 # Pre-processing of the pnfo files. Make sure a correct header is used, we supply one.
-%.nfo: %.pnfo $(REV_FILENAME)
+%.cnfo: %.pnfo $(REV_FILENAME)
 	$(_E) "[CPP] $@"
+	$(_V) $(CC) $(CC_FLAGS) $< > $(SRC_DIR)/$@
+%.nfo: %.cnfo
 	$(_V) cp scripts/nfoheader.nfo $(SRC_DIR)/$@
-	$(_V) $(CC) $(CC_FLAGS) $< | \
-		sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
+	$(_V) cat $(SRC_DIR)/$< | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
 		>> $(SRC_DIR)/$@
 	$(_E) "[NFORENUM] $@"

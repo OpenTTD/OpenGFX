@@ -64,6 +64,10 @@ ifeq ($(OSTYPE),Darwin)
 INSTALL_DIR?=$(HOME)/Documents/OpenTTD/data/$(PROJECT_NAME)
 else
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
+# If CC has been set to the default implicit value (cc), check if it can be used. Otherwise use a saner default.
+ifeq "$(origin CC)" "default"
+	CC=$(shell which cc 2>/dev/null && echo "cc" || echo "gcc")
+endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
 	INSTALL_DIR?=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\data\$(PROJECT_NAME)
@@ -155,8 +159,8 @@ GRF_FILES          := $(filter %.grf,$(TARGET_FILES))
 # Directories which to remember when creating a source release
 MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG_DIR) $(EXTRA_DIRS)
 
-FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
-FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
+FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | sed -e "s/[[:space:]]/|/")
+FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | sed -e "s/[[:space:]]/|/")
 FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|\.hgeol|backup\.push|\.devzone)"
 
 # Make a bit of a guess on which dependency check we should use as default, if not defined otherwise

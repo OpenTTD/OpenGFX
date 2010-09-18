@@ -5,6 +5,8 @@ syntax: glob
 Makefile.local
 Makefile.dist
 Makefile.dep
+*.src.dep
+*.gfx.dep
 .REV
 
 # And the description file and the grs which are generated automatically
@@ -13,7 +15,7 @@ ogfx?_*.grf
 opengfx*md5
 
 # Ignore intermediate files created by the Makefile:
-sprites/ogfx?_*.cpnfo
+sprites/ogfx?_*.cnfo
 sprites/ogfx?_*.nfo
 docs/readme.txt
 

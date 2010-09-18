@@ -38,4 +38,6 @@ include scripts/Makefile.common
 include scripts/Makefile.bundles
 
 # Include dependencies (if applicable)
--include $(MAKEFILE_DEP)
+-include Makefile.dep
+-include $(patsubst %.grf,%.src.dep,$(GRF_FILES))
+-include $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))

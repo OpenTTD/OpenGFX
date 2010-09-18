@@ -2,7 +2,7 @@
 import re, os, sys, getopt
 
 include_pat = re.compile(r'#include\s*"([^"]*)"')
-pcx_pat = re.compile(r'\s(\S+\.[pP][cC][xX])\s')
+pcx_pat = re.compile(r'\s(\S+\.[pP][cCnN][xXgG])\s')
 
 def scan_file(fname):
     """

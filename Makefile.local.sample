@@ -1,6 +1,7 @@
 # There are two different ways to do the dep check:
 # "normal": the usual bash tools being used
 # "mdep":   A faster script which requires python
+# "none":   Skip the dependency generation (mostly)
 # DEP_CHECK_TYPE     := mdep
 
 ################################################################
