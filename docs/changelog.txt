@@ -1,3 +1,20 @@
+OpenGFX 0.3.1 (19 Sep 2010)
+-------------------------------------
+- Feature: [Makefile] build from source bundle and make rpm
+- Feature: [Makefile] Allow to opt-out of installing changelog and / or license
+- Change: [Makefile] Update to Makefile 0.4.6
+- Change: [Makefile] No need to process or modify license and changelog documents
+- Change: [Makefile] Handle windows path separators
+- Change: [Makefile] Remove double declaration of variable in release bundles
+- Change: [Makefile] Also build the documentation when a simple make is called
+- Change: [Makefile] Re-introduce another intermediate step so that a gcc failure is fatal again
+- Change: [Makefile] Decide upon the DEP_CHECK_TYPE by checking for the availability of python
+- Fix: [Makefile] Make it impossible to overwrite the md5 file to check against, unless one builds source bundle
+- Fix: [Makefile] Handle a 'missing' unix2dos binary gracefully and do the right thing
+- Fix: [Makefile] Don't install text and grf files as executable
+- Fix: [Makefile] Define gcc for buggy MinGW
+- Fix: switch floppy sprites
+
 OpenGFX 0.3.0 (10 Sep 2010)
 -------------------------------------
 
