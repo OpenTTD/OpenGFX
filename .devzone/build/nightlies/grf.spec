@@ -14,7 +14,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:      noarch
 
-BuildRequires:  mercurial p7zip grfcodec nforenum unix2dos grf2html %{?dz_requires}
+BuildRequires:  mercurial p7zip grfcodec unix2dos grf2html
 
 %description
 Build script for #openttdcoop DevZone projects
