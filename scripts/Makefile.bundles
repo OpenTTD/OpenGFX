@@ -30,33 +30,50 @@ ifdef INSTALLDIR
 	$(_E) [Warning] The use of 'INSTALLDIR' is deprecated and may be removed in the future.
 	$(_E) [Warning] Use 'INSTALL_DIR' instead.
 endif
-ifdef DOCDIR
+ifndef DO_NOT_INSTALL_DOCS
+ifneq ($(filter-out $(LICENSE_FILE) $(CHANGELOG_FILE),$(DOC_FILES)),)
 	$(_E) [INSTALL] docs to $(DOCDIR)
 	$(_V) install -d $(DOCDIR)
-	$(_V) install -m644 $(DOC_FILES) $(DOCDIR)
+	$(_V) install -m644 $(filter-out $(LICENSE_FILE) $(CHANGELOG_FILE),$(DOC_FILES)) $(DOCDIR)
 endif
+endif
+ifndef DO_NOT_INSTALL_LICENSE
+ifneq ($(LICENSE_FILE),)
+	$(_E) [INSTALL] license to $(DOCDIR)
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -m644 $(LICENSE_FILE) $(DOCDIR)
+endif
+endif
+ifndef DO_NOT_INSTALL_CHANGELOG
+ifneq ($(CHANGELOG_FILE),)
+	$(_E) [INSTALL] changelog to $(DOCDIR)
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -m644 $(CHANGELOG_FILE) $(DOCDIR)
+endif
+endif
+
+
 
 md5: $(MD5_FILENAME)
 
 # OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
-$(MD5_FILENAME): $(TARGET_FILES)
+%.md5: $(TARGET_FILES)
 	$(_E) "[MD5] $@"
-	$(_V) $(MD5SUM) $(TARGET_FILES) | sed "s/  / /;s/ /  /" > $(MD5_FILENAME)
+	$(_V) $(MD5SUM) $(TARGET_FILES) | sed "s/  / /;s/ /  /" > $@
 
 # OSX md5 programm generates slightly different output. Aleviate that by throwing some sed on all output:
-check: $(TARGET_FILES) $(GRF_FILENAMES)
-	$(_V) if [ -f $(MD5_FILENAME) ]; then echo "[CHECKING md5sums]"; else echo "Required file '$(MD5_FILENAME)' which to test against not found!"; false; fi
-	$(_V) $(MD5SUM) $(TARGET_FILES) | sed "s/  / /;s/ /  /" > md5.check
-	$(_V) if [ -z "`diff md5.check $(MD5_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff md5.check $(MD5_FILENAME)`"; false; fi
+check: $(MD5_FILENAME)
+	$(_V) if [ -f $(MD5_SRC_FILENAME) ]; then echo "[CHECKING md5sums]"; else echo "Required file '$(MD5_SRC_FILENAME)' which to test against not found!"; false; fi
+	$(_V) if [ -z "`diff $(MD5_FILENAME) $(MD5_SRC_FILENAME)`" ]; then echo "No differences in md5sums"; else echo "Differences in md5sums:"; echo "`diff $(MD5_FILENAME) $(MD5_SRC_FILENAME)`"; false; fi
 
-bundle_src: $(REV_FILENAME) $(MD5_FILENAME)
+bundle_src: $(REV_FILENAME) $(MD5_SRC_FILENAME)
 	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
 	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
 	$(_V) mkdir -p $(DIR_NAME_SRC)
 	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
 	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
 	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
-	$(_V) cp $(CP_FLAGS) $(MD5_FILENAME) $(DIR_NAME_SRC)
+	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
 	$(_V) cp $(CP_FLAGS) Makefile.local.sample $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.dist

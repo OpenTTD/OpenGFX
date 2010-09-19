@@ -1,8 +1,11 @@
-# There are two different ways to do the dep check:
-# "normal": the usual bash tools being used
-# "mdep":   A faster script which requires python
-# "none":   Skip the dependency generation (mostly)
-# DEP_CHECK_TYPE     := mdep
+################################################################
+# Install paths and options
+################################################################
+# INSTALL_DIR    = /usr/share/games/openttd/data/mynewgrf
+# DOCDIR         = /usr/share/games/openttd/data/mynewgrf
+# DO_NOT_INSTALL_DOCS      = 1
+# DO_NOT_INSTALL_LICENSE   = 1
+# DO_NOT_INSTALL_CHANGELOG = 1
 
 ################################################################
 # Programme definitions / search paths
@@ -35,6 +38,14 @@
 # UNIX2DOS       = $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # MD5SUM         = $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
 # NML            = nmlc
+
+# There are two different ways to do the dep check:
+# "normal": the usual bash tools being used
+# "mdep":   A faster script which requires python
+# "none":   Skip the dependency generation (mostly)
+# DEP_CHECK_TYPE := mdep
+
+
 
 # Remove the @ when you want a more verbose output.
 # _V = @

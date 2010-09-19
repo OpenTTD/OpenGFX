@@ -18,7 +18,7 @@ include Makefile.config
 include scripts/Makefile.def
 
 # Check dependencies for building all:
-all: $(TARGET_FILES)
+all: $(TARGET_FILES) $(DOC_FILES)
 	
 # Rules used by all projects
 include scripts/Makefile.common

@@ -143,6 +143,7 @@ BZIP_FILENAME      := $(TAR_FILENAME).bz2
 ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
 REV_EXTENSION      ?= REV
 MD5_FILENAME       := $(DIR_NAME).md5
+MD5_SRC_FILENAME   := $(DIR_NAME).check.md5
 REV_FILENAME       := $(VERSIONED_FILENAME).$(REV_EXTENSION)
 # customly defined tags. Don't change the filename.
 FILE_CUSTOM_TAGS   := custom_tags.txt
@@ -155,24 +156,19 @@ OUTPUT_FILENAME_DUMMY ?= {{FILENAME}}
 GRF_MD5SUM_DUMMY      ?= {{GRF_MD5}}
 
 GRF_FILES          := $(filter %.grf,$(TARGET_FILES))
+LICENSE_FILE       ?= $(filter $(DOC_DIR)/license.txt,$(DOC_FILES))
+CHANGELOG_FILE     ?= $(filter $(DOC_DIR)/changelog.txt,$(DOC_FILES))
 
 # Directories which to remember when creating a source release
 MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG_DIR) $(EXTRA_DIRS)
 
-FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | sed -e "s/[[:space:]]/|/")
-FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | sed -e "s/[[:space:]]/|/")
+FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | sed -e "s/[[:space:]]/|/g")
+FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | sed -e "s/[[:space:]]/|/g")
 FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|\.hgeol|backup\.push|\.devzone)"
 
 # Make a bit of a guess on which dependency check we should use as default, if not defined otherwise
-# We can savely assume that python is available, if HG is available. Also mdep only makes sense for
-# NFO - style projects
-ifeq ($(HG),hg)
-ifdef USE_NFO
-DEP_CHECK_TYPE     ?=mdep
-endif
-endif
-
-DEP_CHECK_TYPE     ?=normal
+# mdep doesn't yet work for NML style projects
+DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ] && echo "mdep" || echo "normal")
 
 # Remove the @ when you want a more verbose output.
 _V ?= @
