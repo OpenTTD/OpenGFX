@@ -1,5 +1,3 @@
-#include "sprites/nfo/nfo-header.pnfo"
-
 #define EMPTY   0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
 
 // 0-10 EMPTY

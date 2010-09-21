@@ -1,5 +1,3 @@
-#include "sprites/nfo/nfo-header.pnfo"
-
 // macros:
 #include "sprites/nfo/templates/house_macros.tnfo"
 #include "sprites/nfo/templates/trains.tnfo"
