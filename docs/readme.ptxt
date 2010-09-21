@@ -1,4 +1,4 @@
-OpenGFX Readme - 8bpp Graphics Replacement Project
+OpenGFX Readme - 8bpp Graphics Base Set for OpenTTD
 
 ==============================
 Current Version: {{REPO_TITLE}}
@@ -21,12 +21,12 @@ Contents
 0 About OpenGFX
 ===============
 
-OpenGFX is an open source replacement for the original Transport Tycoon Deluxe
-(TTD) graphics used by OpenTTD. The main goal of OpenGFX therefore is to provide
-a set of free base graphics which make it possible to play OpenTTD without
-requiring the (copyright protected) files from the TTD CD. This potentially
-increases the OpenTTD fanbase and makes it a true free game (with "free" as in
-both "free beer" and "open source").
+OpenGFX is an open source graphics base set designed to be used by OpenTTD.
+
+OpenGFX provides a set of free and open source base graphics, and aims to
+ensure the best possible out-of-the-box experience with OpenTTD.
+
+The project's home is http://dev.openttdcoop.org/projects/opengfx
 
 
 
