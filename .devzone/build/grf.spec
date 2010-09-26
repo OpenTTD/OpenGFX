@@ -38,7 +38,7 @@ mkdir ttdpatch 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.l
 mv opengfx-ttdpatch* ttdpatch/ 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 FILENAME=`basename ttdpatch/*` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 echo $(cd ttdpatch && md5sum $FILENAME) > ttdpatch/$FILENAME.md5 2>>%{name}-%{version}-build.err.log
-cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/
+cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/ 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 
 %build
 #we have unix2dos installed for the zip, but now, we like to build without
