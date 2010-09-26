@@ -26,13 +26,17 @@ mv %{name} %{name}.hg
 mkdir %{name}
 cd %{name}.hg
 
-make %{?_smp_mflags} bundle_src bundle_zip ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_src bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
 mv *.tar.gz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 tar -xz < `ls *-source.tar.gz` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 mv *-source/* . 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 rmdir *-source 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+# move ttdpatch pack and generate md5file:
+mv opengfx-ttdpatch* ttdpatch/ 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+FILENAME=`basename ttdpatch/*` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+echo $(cd ttdpatch && md5sum $FILENAME) > ttdpatch/$FILENAME.md5 2>>%{name}-%{version}-build.err.log
 
 %build
 #we have unix2dos installed for the zip, but now, we like to build without

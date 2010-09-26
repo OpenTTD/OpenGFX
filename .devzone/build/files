@@ -6,3 +6,6 @@ L;%{BUILD}/sprites/*.nfo
 %{BUILD}/grf2html
 %{BUILD}/*grf2html.log
 T;/usr/src/packages/RPMS/noarch/*.noarch.rpm
+%{BUILD}/ttdpatch
+%{BUILD}/docs/readme.txt
+%{BUILD}/docs/changelog.txt
