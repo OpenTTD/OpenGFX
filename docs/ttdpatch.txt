@@ -1,0 +1,2 @@
+Replace your trg?r.grf files with those and include ogfxe_extra.grf to your 
+newgrfw.cfg (Don't forget to backup your original files.)
