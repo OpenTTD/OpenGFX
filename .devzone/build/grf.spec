@@ -34,9 +34,11 @@ tar -xz < `ls *-source.tar.gz` 1>>%{name}-%{version}-build.log 2>>%{name}-%{vers
 mv *-source/* . 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 rmdir *-source 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 # move ttdpatch pack and generate md5file:
+mkdir ttdpatch 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 mv opengfx-ttdpatch* ttdpatch/ 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 FILENAME=`basename ttdpatch/*` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 echo $(cd ttdpatch && md5sum $FILENAME) > ttdpatch/$FILENAME.md5 2>>%{name}-%{version}-build.err.log
+cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/
 
 %build
 #we have unix2dos installed for the zip, but now, we like to build without
