@@ -1,20 +1,20 @@
 //1178  1193    16      GUI buttons and cursors
-  128 sprites/pcx/gui04.pcx 690 232 09 20 20 0 0
-  129 sprites/pcx/gui04.pcx 722 232 09 20 20 0 0
-  130 sprites/pcx/gui04.pcx 754 232 09 20 20 0 0
-  131 sprites/pcx/gui04.pcx 2 280 09 20 20 0 0
-  132 sprites/pcx/gui04.pcx 34 280 03 32 32 0 0
-  133 sprites/pcx/gui04.pcx 82 280 03 32 32 0 0
-  134 sprites/pcx/gui04.pcx 130 280 03 32 32 0 0
-  135 sprites/pcx/gui04.pcx 178 280 03 32 32 0 0
-  126 sprites/pcx/gui04.pcx 626 232 03 32 32 0 0
-   74 sprites/pcx/gui04.pcx 290 152 09 20 20 0 0
-    4 sprites/pcx/gui04.pcx 98 8 03 24 31 -15 -12
-  396 sprites/pcx/gui04.pcx 642 952 03 32 32 0 0
-  123 sprites/pcx/gui04.pcx 514 232 03 32 32 0 0
-  124 sprites/pcx/gui04.pcx 562 232 03 32 32 0 0
-  119 sprites/pcx/gui04.pcx 386 232 03 32 32 0 0
-  116 sprites/pcx/gui04.pcx 258 232 03 32 32 0 0
+  128 sprites/png/gui04.png 690 232 09 20 20 0 0
+  129 sprites/png/gui04.png 722 232 09 20 20 0 0
+  130 sprites/png/gui04.png 754 232 09 20 20 0 0
+  131 sprites/png/gui04.png 2 280 09 20 20 0 0
+  132 sprites/png/gui04.png 34 280 03 32 32 0 0
+  133 sprites/png/gui04.png 82 280 03 32 32 0 0
+  134 sprites/png/gui04.png 130 280 03 32 32 0 0
+  135 sprites/png/gui04.png 178 280 03 32 32 0 0
+  126 sprites/png/gui04.png 626 232 03 32 32 0 0
+   74 sprites/png/gui04.png 290 152 09 20 20 0 0
+    4 sprites/png/gui04.png 98 8 03 24 31 -15 -12
+  396 sprites/png/gui04.png 642 952 03 32 32 0 0
+  123 sprites/png/gui04.png 514 232 03 32 32 0 0
+  124 sprites/png/gui04.png 562 232 03 32 32 0 0
+  119 sprites/png/gui04.png 386 232 03 32 32 0 0
+  116 sprites/png/gui04.png 258 232 03 32 32 0 0
 
 //1194  1194    1       Recolour sprite
  1194 * 257      00 00 AB 00 00 00 00 00 00 00 00 20 21 21 28 F5 15 D8 88 10 11 6A 20 13 28 68 18 18 19 1A 5B 5C

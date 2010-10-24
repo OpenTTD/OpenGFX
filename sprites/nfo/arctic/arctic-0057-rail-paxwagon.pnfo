@@ -1,5 +1,5 @@
 //57-60 passenger wagon
-WAGON_WIDE_VERT(sprites/pcx/trains/arctic_railwagons.pcx, 0)
-WAGON_WIDE_NWSE(sprites/pcx/trains/arctic_railwagons.pcx, 0)
-WAGON_WIDE_HORI(sprites/pcx/trains/arctic_railwagons.pcx, 0)
-WAGON_WIDE_SWNE(sprites/pcx/trains/arctic_railwagons.pcx, 0)
+WAGON_WIDE_VERT(sprites/png/trains/arctic_railwagons.png, 0)
+WAGON_WIDE_NWSE(sprites/png/trains/arctic_railwagons.png, 0)
+WAGON_WIDE_HORI(sprites/png/trains/arctic_railwagons.png, 0)
+WAGON_WIDE_SWNE(sprites/png/trains/arctic_railwagons.png, 0)

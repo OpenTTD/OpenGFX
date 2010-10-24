@@ -28,7 +28,7 @@
          00
 
 //774 some weird white ball
-  218 sprites/pcx/gui04.pcx 658 504 01 7 7 -3 -4
+  218 sprites/png/gui04.png 658 504 01 7 7 -3 -4
 
 //775-804 recolour sprites
   775 * 257      00 00 01 00 00 00 00 00 00 00 00 0A 0B 0C 0D 0E 0F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E

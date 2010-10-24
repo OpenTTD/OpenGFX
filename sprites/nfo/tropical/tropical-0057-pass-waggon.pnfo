@@ -1,6 +1,6 @@
 //57-60 passenger carriage
 #include "../templates/trains.tnfo"
-WAGON_WIDE_VERT(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_NWSE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_HORI(sprites/pcx/trains/tropic_railwagons.pcx, 0)
-WAGON_WIDE_SWNE(sprites/pcx/trains/tropic_railwagons.pcx, 0)
+WAGON_WIDE_VERT(sprites/png/trains/tropic_railwagons.png, 0)
+WAGON_WIDE_NWSE(sprites/png/trains/tropic_railwagons.png, 0)
+WAGON_WIDE_HORI(sprites/png/trains/tropic_railwagons.png, 0)
+WAGON_WIDE_SWNE(sprites/png/trains/tropic_railwagons.png, 0)

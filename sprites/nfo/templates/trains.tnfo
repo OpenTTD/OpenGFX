@@ -19,7 +19,7 @@
 // We assume:
 // - Sprites are aligned by their upper left corner.
 // - Vehicle sprites have their wheels at the bottom of the sprite.
-// - Vehicle sprites are aligned in the pcx such that the back (if any) is at the border, if
+// - Vehicle sprites are aligned in the png such that the back (if any) is at the border, if
 //   they are shorter than the available width (important for engines). Wagons need to be centred.
 // Thus:
 // - Taller sprites need their y-offset adjusted by the difference to this value here
@@ -59,7 +59,7 @@
 #undef TRAIN_98
 #endif
 
-// 28px wide wagons as defined in arctic_monolevwagons.pcx and alike
+// 28px wide wagons as defined in arctic_monolevwagons.png and alike
 // alignment corresponding to the 7/8 view
 #define WAGON_SHORT_VERT(FILE, Y) -1 FILE  0 Y 01 18 8   -3 -10
 #define WAGON_SHORT_NWSE(FILE, Y) -1 FILE 16 Y 09 16 20 -12  -8

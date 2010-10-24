@@ -1,4 +1,4 @@
-// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
+// Format: spritenum pngfile xpos ypos compression ysize xsize xrel yrel
 
 // house width: 64
 #define HOUSE_HEIGHT149(FILE, Y)        0 FILE 0 Y 09 149 64 -31 -119

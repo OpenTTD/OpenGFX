@@ -1,4 +1,4 @@
 // Normal maglev tracks
-#define THIS_PCX_FILE sprites/pcx/infrastructure/rail/maglev_tracks_desert.pcx
+#define THIS_PCX_FILE sprites/png/infrastructure/rail/maglev_tracks_desert.png
 #include "../templates/rail_tracks.tnfo"
 

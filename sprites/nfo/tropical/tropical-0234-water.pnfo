@@ -1,21 +1,21 @@
 //234-242 water + coastline
-  841 sprites/pcx/terrain04.pcx 594 5208 09 31 64 -31 0
-  864 sprites/pcx/terrain04.pcx 514 5336 09 31 64 -31 0
-  865 sprites/pcx/terrain04.pcx 594 5336 09 31 64 -31 0
-  866 sprites/pcx/terrain04.pcx 674 5336 09 23 64 -31 0
-  867 sprites/pcx/terrain04.pcx 2 5400 09 39 64 -31 -8
-  868 sprites/pcx/terrain04.pcx 82 5400 09 23 64 -31 0
-  869 sprites/pcx/terrain04.pcx 162 5400 09 39 64 -31 -8
-  870 sprites/pcx/terrain04.pcx 242 5400 09 23 64 -31 0
-  871 sprites/pcx/terrain04.pcx 322 5400 09 39 64 -31 -8
+  841 sprites/png/terrain04.png 594 5208 09 31 64 -31 0
+  864 sprites/png/terrain04.png 514 5336 09 31 64 -31 0
+  865 sprites/png/terrain04.png 594 5336 09 31 64 -31 0
+  866 sprites/png/terrain04.png 674 5336 09 23 64 -31 0
+  867 sprites/png/terrain04.png 2 5400 09 39 64 -31 -8
+  868 sprites/png/terrain04.png 82 5400 09 23 64 -31 0
+  869 sprites/png/terrain04.png 162 5400 09 39 64 -31 -8
+  870 sprites/png/terrain04.png 242 5400 09 23 64 -31 0
+  871 sprites/png/terrain04.png 322 5400 09 39 64 -31 -8
 
 //243-248 ship depot
-  940 sprites/pcx/infra06.pcx 386 5080 09 64 64 -61 -48
-  941 sprites/pcx/infra06.pcx 466 5080 09 64 64 -1 -47
-  942 sprites/pcx/infra06.pcx 546 5080 09 53 32 -29 -37
-  943 sprites/pcx/infra06.pcx 594 5080 09 53 32 -1 -36
-  944 sprites/pcx/infra06.pcx 642 5080 09 13 14 -31 2
-  945 sprites/pcx/infra06.pcx 674 5080 09 13 14 19 3
+  940 sprites/png/infra06.png 386 5080 09 64 64 -61 -48
+  941 sprites/png/infra06.png 466 5080 09 64 64 -1 -47
+  942 sprites/png/infra06.png 546 5080 09 53 32 -29 -37
+  943 sprites/png/infra06.png 594 5080 09 53 32 -1 -36
+  944 sprites/png/infra06.png 642 5080 09 13 14 -31 2
+  945 sprites/png/infra06.png 674 5080 09 13 14 19 3
 
 //249  buoy
--1 sprites/pcx/empty.pcx 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here
+-1 sprites/png/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here

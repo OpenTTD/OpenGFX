@@ -1,7 +1,7 @@
 //322-327 snow forest + snow forest ground tile
-  129 sprites/pcx/random.pcx 430 132 09 72 64 -31 -44
-  130 sprites/pcx/random.pcx 500 132 09 72 64 -31 -44
-  131 sprites/pcx/random.pcx 570 132 09 72 64 -31 -44
-  132 sprites/pcx/random.pcx 640 132 09 72 64 -31 -44
-  133 sprites/pcx/random.pcx 710 132 09 72 64 -31 -44
-  134 sprites/pcx/random.pcx 360 136 09 31 64 -31 0
+  129 sprites/png/random.png 430 132 09 72 64 -31 -44
+  130 sprites/png/random.png 500 132 09 72 64 -31 -44
+  131 sprites/png/random.png 570 132 09 72 64 -31 -44
+  132 sprites/png/random.png 640 132 09 72 64 -31 -44
+  133 sprites/png/random.png 710 132 09 72 64 -31 -44
+  134 sprites/png/random.png 360 136 09 31 64 -31 0

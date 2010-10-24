@@ -3,142 +3,142 @@
 //761   840     80      Rail wagons
 
 // PAX
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 0)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 0)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 0)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 0)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 0)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 0)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 0)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 0)
 
 // Mail
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 40)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 40)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 40)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 40)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 40)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 40)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 40)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 40)
 
 // sugar empty: white grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 100)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 100)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 100)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 100)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 100)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 100)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 100)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 100)
 // sugar full: white grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 120)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 120)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 120)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 120)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 120)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 120)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 120)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 120)
 
 // cotton candy emtpy: pink grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 140)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 140)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 140)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 140)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 140)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 140)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 140)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 140)
 // cotton candy full: pink grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 160)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 160)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 160)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 160)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 160)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 160)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 160)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 160)
 
 // toffee empty: yellow grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 180)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 180)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 180)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 180)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 180)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 180)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 180)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 180)
 // toffee full: yellow grains
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 200)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 200)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 200)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 200)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 200)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 200)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 200)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 200)
 
 // Bubbles empty
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 60)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 60)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 60)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 60)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 60)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 60)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 60)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 60)
 // Bubbles full
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 80)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 80)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 80)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 80)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 80)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 80)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 80)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 80)
 
 // cola tanker empty
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 220)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 220)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 220)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 220)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 220)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 220)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 220)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 220)
 // cola tanker full
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 240)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 240)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 240)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 240)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 240)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 240)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 240)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 240)
 
 // sweets (no loading state)
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 280)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 280)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 280)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 280)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 280)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 280)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 280)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 280)
 
 // toys (no loading state)
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 320)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 320)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 320)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 320)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 320)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 320)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 320)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 320)
 
 // Batteries empty
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 380)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 380)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 380)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 380)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 380)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 380)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 380)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 380)
 // Batteries full
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 400)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 400)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 400)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 400)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 400)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 400)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 400)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 400)
 
 // fizzy drinks empty
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 340)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 340)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 340)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 340)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 340)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 340)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 340)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 340)
 // fizzy drinks full
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 360)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 360)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 360)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 360)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 360)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 360)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 360)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 360)
 
 // Plastics empty
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 420)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 420)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 420)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 420)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 420)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 420)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 420)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 420)
 // Plastics full
-WAGON_SHORT_VERT(sprites/pcx/trains/toyland_railwagons.pcx, 440)
-WAGON_SHORT_NWSE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
-WAGON_SHORT_HORI(sprites/pcx/trains/toyland_railwagons.pcx, 440)
-WAGON_SHORT_SWNE(sprites/pcx/trains/toyland_railwagons.pcx, 440)
+WAGON_SHORT_VERT(sprites/png/trains/toyland_railwagons.png, 440)
+WAGON_SHORT_NWSE(sprites/png/trains/toyland_railwagons.png, 440)
+WAGON_SHORT_HORI(sprites/png/trains/toyland_railwagons.png, 440)
+WAGON_SHORT_SWNE(sprites/png/trains/toyland_railwagons.png, 440)
 
 //841   872     32      Rail engines
 // Ploddyphut Cho cho
-#define TRAIN_78 sprites/pcx/trains/toyland_ploddyphut.pcx // ploddyphutpcx
+#define TRAIN_78 sprites/png/trains/toyland_ploddyphut.png // ploddyphutpng
 #include "../templates/trains.tnfo"
 
 // Powernaut Choo Choo is defined separately and earlier in the main toyland file
 // via toyland-0393-powernaut-steam.pnfo
 
 // Mightymover Cho Cho
-#define TRAIN_88 sprites/pcx/trains/toyland_mightymover.pcx // powernautpcx
+#define TRAIN_88 sprites/png/trains/toyland_mightymover.png // powernautpng
 #include "../templates/trains.tnfo"
 
 // Ploddyphut Diesel
-#define TRAIN_88 sprites/pcx/trains/toyland_ploddyphut_diesel.pcx
+#define TRAIN_88 sprites/png/trains/toyland_ploddyphut_diesel.png
 #include "../templates/trains.tnfo"
 
 // Powernaut Diesel
-#define TRAIN_88 sprites/pcx/trains/toyland_powernaut_diesel.pcx
+#define TRAIN_88 sprites/png/trains/toyland_powernaut_diesel.png
 #include "../templates/trains.tnfo"
 
 //873   880     8       Monorail Wizzowow Z99
-#define TRAIN_88 sprites/pcx/trains/toyland_monorail_WizzowowZ99_88.pcx
+#define TRAIN_88 sprites/png/trains/toyland_monorail_WizzowowZ99_88.png
 #include "../templates/trains.tnfo"
 
 //881   884     4       Maglev Wizzowow Rocketeer
-#define TRAIN_88_SYMETRIC sprites/pcx/trains/toyland_maglev_WizzowowRocketeer_88.pcx
+#define TRAIN_88_SYMETRIC sprites/png/trains/toyland_maglev_WizzowowRocketeer_88.png
 #include "../templates/trains.tnfo"
 

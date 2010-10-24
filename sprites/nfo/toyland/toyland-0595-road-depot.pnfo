@@ -1,7 +1,7 @@
 //595   600     6       Road depot
-    5 sprites/pcx/ToyRdDep.pcx 98 8 09 13 12 19 4
-    6 sprites/pcx/ToyRdDep.pcx 130 8 09 47 60 1 -32
-    7 sprites/pcx/ToyRdDep.pcx 210 8 09 13 13 -29 4
-    8 sprites/pcx/ToyRdDep.pcx 242 8 09 47 60 -59 -32
-    9 sprites/pcx/ToyRdDep.pcx 322 8 09 47 60 -59 -32
-   10 sprites/pcx/ToyRdDep.pcx 402 8 09 47 60 1 -32
+    5 sprites/png/ToyRdDep.png 98 8 09 13 12 19 4
+    6 sprites/png/ToyRdDep.png 130 8 09 47 60 1 -32
+    7 sprites/png/ToyRdDep.png 210 8 09 13 13 -29 4
+    8 sprites/png/ToyRdDep.png 242 8 09 47 60 -59 -32
+    9 sprites/png/ToyRdDep.png 322 8 09 47 60 -59 -32
+   10 sprites/png/ToyRdDep.png 402 8 09 47 60 1 -32

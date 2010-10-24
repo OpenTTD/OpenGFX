@@ -1,6 +1,6 @@
 // replace the buoys for toyland climate
 // Note: Sprites for menu and on the water is the same. So we have to replace the menu sprite.
 -1 * 0    0A \b01 \b01 \w693
--1 sprites/pcx/infrastructure/toyland_buoys_2006TTD.pcx 184 14 09 20 20 1 1 // Menu sprite
+-1 sprites/png/infrastructure/toyland_buoys_2006TTD.png 184 14 09 20 20 1 1 // Menu sprite
 -1 * 0    0A \b01 \b01 \w702
--1 sprites/pcx/infrastructure/toyland_buoys_2006TTD.pcx 225 06 09 32 32 0 0 // Cursor sprite
+-1 sprites/png/infrastructure/toyland_buoys_2006TTD.png 225 06 09 32 32 0 0 // Cursor sprite

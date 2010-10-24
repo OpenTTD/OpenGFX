@@ -1,4 +1,4 @@
-#define EMPTY   0 sprites/pcx/empty.pcx 0 0 03 1 1 0 0
+#define EMPTY   0 sprites/png/empty.png 0 0 03 1 1 0 0
 
 // 0-10 EMPTY
 EMPTY
