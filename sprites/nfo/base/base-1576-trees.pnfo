@@ -378,6 +378,7 @@
   376 sprites/png/landscape031.png 274 984 09 39 26 -13 -33
 
 //1947-2009 toyland trees
+//1947 - 1953 reverse cone tree
   378 sprites/png/toyland_tree_reversecone.png 4 12 09 20 13 -7 -14
   379 sprites/png/toyland_tree_reversecone.png 36 12 09 26 17 -9 -19
   380 sprites/png/toyland_tree_reversecone.png 68 12 09 32 24 -12 -25
@@ -386,6 +387,7 @@
   383 sprites/png/toyland_tree_reversecone.png 188 12 09 39 27 -14 -32
   384 sprites/png/toyland_tree_reversecone.png 232 12 09 39 16 -8 -32
 
+//1954 - 1960 sugar bubble tree
   399 sprites/png/landscape031.png 258 1048 09 12 3 -1 -6
   400 sprites/png/landscape031.png 274 1048 09 17 3 -1 -11
   401 sprites/png/landscape031.png 290 1048 09 30 13 -6 -24
@@ -394,6 +396,7 @@
   404 sprites/png/landscape031.png 386 1048 09 47 29 -14 -41
   405 sprites/png/landscape031.png 434 1048 09 39 29 -14 -33
 
+//1961 - 1967 baloon tree
   427 sprites/png/toyland_tree_balloon.png 6 16 09 8 10 -11 -31
   428 sprites/png/toyland_tree_balloon.png 24 16 09 16 16 -11 -31
   429 sprites/png/toyland_tree_balloon.png 48 16 09 24 24 -11 -31
@@ -402,6 +405,7 @@
   432 sprites/png/toyland_tree_balloon.png 160 16 09 32 30 -11 -31
   433 sprites/png/toyland_tree_balloon.png 198 16 09 32 30 -11 -31
 
+//1968 - 1974 moving cylinder
   406 sprites/png/random.png 190 453 09 36 22 -11 -30
   407 sprites/png/random.png 213 453 09 36 22 -11 -30
   408 sprites/png/random.png 236 453 09 36 22 -11 -30
@@ -410,6 +414,7 @@
   411 sprites/png/random.png 305 453 09 36 22 -11 -30
   412 sprites/png/random.png 328 453 09 36 22 -11 -30
 
+//1975 - 1981 paper streamer tree
   385 sprites/png/landscape031.png 578 984 09 18 9 -4 -12
   386 sprites/png/landscape031.png 594 984 09 26 13 -6 -20
   387 sprites/png/landscape031.png 626 984 09 31 17 -8 -25
@@ -418,14 +423,16 @@
   390 sprites/png/landscape031.png 722 984 09 39 20 -10 -33
   391 sprites/png/landscape031.png 754 984 09 31 5 -2 -25
 
+//1982 - 1988 fly agaric tree
   413 sprites/png/landscape031.png 738 1048 09 37 18 -9 -31
   414 sprites/png/landscape031.png 770 1048 09 37 18 -9 -31
-  415 sprites/png/landscape031.png 2 1112 09 37 26 -13 -31
+  415 sprites/png/landscape031.png 2 1112 09 37 26 -12 -31
   416 sprites/png/landscape031.png 34 1112 09 37 31 -15 -31
   417 sprites/png/landscape031.png 82 1112 09 37 31 -15 -31
-  418 sprites/png/landscape031.png 130 1112 09 37 31 -15 -31
-  419 sprites/png/landscape031.png 178 1112 09 37 24 -12 -31
+  418 sprites/png/landscape031.png 130 1112 09 37 31 -14 -31
+  419 sprites/png/landscape031.png 178 1112 09 37 24 -10 -31
 
+//1989-1995 cone tree
   420 sprites/png/random.png 370 453 09 37 30 -15 -31
   421 sprites/png/random.png 401 453 09 37 30 -15 -31
   422 sprites/png/random.png 432 453 09 37 30 -15 -31
@@ -434,6 +441,7 @@
   425 sprites/png/random.png 525 453 09 37 30 -15 -31
   426 sprites/png/random.png 556 453 09 37 30 -15 -31
 
+//1996 - 2002 stylized tree
   427 sprites/png/random.png 10 453 09 37 24 -12 -31
   428 sprites/png/random.png 35 453 09 37 24 -12 -31
   429 sprites/png/random.png 60 453 09 37 24 -12 -31
@@ -442,7 +450,8 @@
   432 sprites/png/random.png 135 453 09 37 24 -12 -31
   433 sprites/png/random.png 160 453 09 37 24 -12 -31
 
-  434 sprites/png/random.png 11 493 09 38 5 -2 -32
+//2003 - 2009 conifer tree
+  434 sprites/png/random.png 11 493 09 38 5 -3 -32
   435 sprites/png/random.png 27 493 09 38 32 -16 -32
   436 sprites/png/random.png 75 493 09 38 32 -16 -32
   437 sprites/png/random.png 123 493 09 38 32 -16 -32
