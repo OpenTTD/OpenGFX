@@ -128,7 +128,7 @@
   122 sprites/png/terrain04.png 642 712 09 31 64 -31 -8
   123 sprites/png/terrain04.png 722 712 09 31 64 -31 -8
 
-//4042-4060 adjacent rocks
+//4042-4060 adjacent rocks (not used in OpenTTD or even TTD)
   105 sprites/png/terrain04.png 82 648 09 31 64 -31 0
   106 sprites/png/terrain04.png 162 648 09 31 64 -31 0
   107 sprites/png/terrain04.png 242 648 09 23 64 -31 0
