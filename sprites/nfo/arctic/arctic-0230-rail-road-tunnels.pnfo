@@ -9,11 +9,11 @@
   719 sprites/png/infra06.png 482 3864 09 39 64 -31 -38
 
 //238-245 road tunnel
-  736 sprites/png/infra06.png 242 3992 09 39 64 -31 -8
-  737 sprites/png/infra06.png 322 3992 09 39 64 -31 -38
-  738 sprites/png/infra06.png 402 3992 09 23 64 -31 0
-  739 sprites/png/infra06.png 482 3992 09 23 64 -31 -30
-  740 sprites/png/infra06.png 562 3992 09 23 64 -31 0
-  741 sprites/png/infra06.png 642 3992 09 23 64 -31 -30
-  742 sprites/png/infra06.png 722 3992 09 39 64 -31 -8
-  743 sprites/png/infra06.png 2 4056 09 39 64 -31 -38
+  238 sprites/png/infrastructure/roadtunnel.png 113 101 09 39 64 -31  -8
+  239 sprites/png/infrastructure/roadtunnel.png 193 101 09 39 64 -31 -38
+  240 sprites/png/infrastructure/roadtunnel.png 653 101 09 23 64 -31   0
+  241 sprites/png/infrastructure/roadtunnel.png 733 101 09 23 64 -31 -30
+  242 sprites/png/infrastructure/roadtunnel.png 337 101 09 23 64 -31   0
+  243 sprites/png/infrastructure/roadtunnel.png 417 101 09 23 64 -31 -30
+  244 sprites/png/infrastructure/roadtunnel.png 877 101 09 39 64 -31  -8
+  245 sprites/png/infrastructure/roadtunnel.png 957 101 09 39 64 -31 -38

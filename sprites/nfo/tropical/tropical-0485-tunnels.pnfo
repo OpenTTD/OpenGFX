@@ -1,3 +1,5 @@
+// desert ground tiles
+
 //485-492 rail tunnel land type 2
   814 sprites/png/infra06.png 594 4440 09 39 64 -31 -8
   815 sprites/png/infra06.png 674 4440 09 39 64 -31 -38
@@ -29,11 +31,11 @@
   837 sprites/png/infra06.png 82 4632 09 39 64 -31 -38
 
 //509-516 road tunnel land type 2
-  838 sprites/png/infra06.png 162 4632 09 39 64 -31 -8
-  839 sprites/png/infra06.png 242 4632 09 39 64 -31 -38
-  840 sprites/png/infra06.png 322 4632 09 23 64 -31 0
-  841 sprites/png/infra06.png 402 4632 09 23 64 -31 -30
-  842 sprites/png/infra06.png 482 4632 09 23 64 -31 0
-  843 sprites/png/infra06.png 562 4632 09 23 64 -31 -30
-  844 sprites/png/infra06.png 642 4632 09 39 64 -31 -8
-  845 sprites/png/infra06.png 722 4632 09 39 64 -31 -38
+  509 sprites/png/infrastructure/roadtunnel.png 113 322 09 39 64 -31  -8
+  510 sprites/png/infrastructure/roadtunnel.png 193 322 09 39 64 -31 -38
+  511 sprites/png/infrastructure/roadtunnel.png 653 322 09 23 64 -31   0
+  512 sprites/png/infrastructure/roadtunnel.png 733 322 09 23 64 -31 -30
+  513 sprites/png/infrastructure/roadtunnel.png 337 322 09 23 64 -31   0
+  514 sprites/png/infrastructure/roadtunnel.png 417 322 09 23 64 -31 -30
+  515 sprites/png/infrastructure/roadtunnel.png 877 322 09 39 64 -31  -8
+  516 sprites/png/infrastructure/roadtunnel.png 957 322 09 39 64 -31 -38
