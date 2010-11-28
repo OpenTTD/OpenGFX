@@ -44,8 +44,6 @@ cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/ 1>>%{name}-%{version}-build.log 2>>
 #we have unix2dos installed for the zip, but now, we like to build without
 #docs aren't built by default
 make %{?_smp_mflags} docs UNIX2DOS= 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
-#cleanup, because we don't make a fresh chroot fro every build
-rm -r ~/.nforenum
 grf2html -o grf2html *.grf 1>%{name}-%{version}-grf2html.log 2>&1
 
 %install
