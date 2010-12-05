@@ -1,12 +1,13 @@
 //341   392     52      Aircraft
-   35 sprites/png/vehiclesair021.png 290 104 09 11 32 -15 -6
-   36 sprites/png/vehiclesair021.png 338 104 09 12 25 -11 -5
-   37 sprites/png/vehiclesair021.png 370 104 09 14 30 -13 -5
-   38 sprites/png/vehiclesair021.png 418 104 09 18 25 -11 -9
-   39 sprites/png/vehiclesair021.png 450 104 09 20 32 -15 -11
-   40 sprites/png/vehiclesair021.png 498 104 09 18 25 -12 -9
-   41 sprites/png/vehiclesair021.png 530 104 01 15 30 -15 -6
-   42 sprites/png/vehiclesair021.png 578 104 09 12 25 -12 -5
+// Ploddyphut 100
+    3 sprites/png/aircraft/toyland_aircraft.png 214  15 09 11 32 -15  -6
+    4 sprites/png/aircraft/toyland_aircraft.png 262  15 09 12 25 -11  -5
+    5 sprites/png/aircraft/toyland_aircraft.png 294  15 09 15 30 -13  -5
+    6 sprites/png/aircraft/toyland_aircraft.png 342  15 09 18 25 -11  -9
+    7 sprites/png/aircraft/toyland_aircraft.png 374  15 09 20 32 -15 -11
+    8 sprites/png/aircraft/toyland_aircraft.png 422  15 09 18 25 -12  -9
+    9 sprites/png/aircraft/toyland_aircraft.png 454  15 01 15 30 -15  -6
+   10 sprites/png/aircraft/toyland_aircraft.png 502  15 09 12 25 -12  -5
 
     3 sprites/png/vehiclesair021.png 66 8 09 15 39 -19 -9
     4 sprites/png/vehiclesair021.png 114 8 09 14 32 -16 -6
