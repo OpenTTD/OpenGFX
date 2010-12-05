@@ -44,17 +44,17 @@
   378 sprites/png/aircraft/toyland_flashbangWhizzer.png 307   7 09 29 48 -24 -15
   379 sprites/png/aircraft/toyland_flashbangWhizzer.png 371   7 01 19 62 -34  -8
   380 sprites/png/aircraft/toyland_flashbangWhizzer.png 451   7 09 22 48 -24 -10
-
-  155 sprites/png/vehiclesair021.png 578 488 09 13 14 -6 -5
-  156 sprites/png/vehiclesair021.png 610 488 09 11 19 -10 -4
-  157 sprites/png/vehiclesair021.png 642 488 09 10 24 -13 -4
-  158 sprites/png/vehiclesair021.png 674 488 09 13 19 -10 -6
-  159 sprites/png/vehiclesair021.png 706 488 09 15 12 -5 -7
-  160 sprites/png/vehiclesair021.png 738 488 09 13 19 -7 -6
-  161 sprites/png/vehiclesair021.png 770 488 01 10 24 -9 -4
-  162 sprites/png/vehiclesair021.png 2 536 09 11 19 -7 -4
-
-  163 sprites/png/vehiclesair021.png 34 536 09 10 22 -10 -3
-  164 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5
-  165 sprites/png/vehiclesair021.png 114 536 01 14 30 -14 -5
-  166 sprites/png/vehiclesair021.png 162 536 01 14 30 -14 -5
+// Powernaut Helicopter
+  381 sprites/png/aircraft/toyland_aircraft.png 213 206 09 13 14  -6  -5
+  382 sprites/png/aircraft/toyland_aircraft.png 245 206 09 11 19 -10  -4
+  383 sprites/png/aircraft/toyland_aircraft.png 277 206 09 10 24 -13  -4
+  384 sprites/png/aircraft/toyland_aircraft.png 309 206 09 13 19 -10  -6
+  385 sprites/png/aircraft/toyland_aircraft.png 341 206 09 15 12  -5  -7
+  386 sprites/png/aircraft/toyland_aircraft.png 372 206 09 13 19  -7  -6
+  387 sprites/png/aircraft/toyland_aircraft.png 402 206 01 10 24  -9  -4
+  388 sprites/png/aircraft/toyland_aircraft.png 437 207 09 11 19  -7  -4
+// Helocopter rotor
+  389 sprites/png/vehiclesair021.png 34 536 09 10 22 -10 -3
+  390 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5
+  391 sprites/png/vehiclesair021.png 114 536 01 14 30 -14 -5
+  392 sprites/png/vehiclesair021.png 162 536 01 14 30 -14 -5
