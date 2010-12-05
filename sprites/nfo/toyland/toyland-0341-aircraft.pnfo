@@ -17,16 +17,16 @@
     8 sprites/png/aircraft/toyland_aircraft.png 453  45 09 22 32 -14 -11
     9 sprites/png/aircraft/toyland_aircraft.png 500  45 01 20 36 -18 -9
    10 sprites/png/aircraft/toyland_aircraft.png 548  45 09 14 31 -13 -6
-
-   27 sprites/png/vehiclesair021.png 706 56 09 15 32 -15 -8
-   28 sprites/png/vehiclesair021.png 754 56 09 13 28 -13 -6
-   29 sprites/png/vehiclesair021.png 2 104 09 15 36 -16 -6
-   30 sprites/png/vehiclesair021.png 50 104 09 20 28 -13 -10
-   31 sprites/png/vehiclesair021.png 98 104 09 23 32 -15 -12
-   32 sprites/png/vehiclesair021.png 146 104 09 20 28 -13 -10
-   33 sprites/png/vehiclesair021.png 194 104 01 15 36 -18 -6
-   34 sprites/png/vehiclesair021.png 242 104 09 13 28 -13 -6
-
+// Flashban X1
+   43 sprites/png/aircraft/toyland_aircraft.png 210  83 09 17 38 -18  -9
+   44 sprites/png/aircraft/toyland_aircraft.png 259  83 09 14 34 -18  -7
+   45 sprites/png/aircraft/toyland_aircraft.png 307  83 09 17 44 -22  -9
+   46 sprites/png/aircraft/toyland_aircraft.png 367  82 09 24 36 -19 -15
+   47 sprites/png/aircraft/toyland_aircraft.png 415  82 09 26 38 -18 -15
+   48 sprites/png/aircraft/toyland_aircraft.png 463  81 09 23 35 -14 -14
+   49 sprites/png/aircraft/toyland_aircraft.png 510  82 01 17 43 -20  -9
+   50 sprites/png/aircraft/toyland_aircraft.png 559  82 09 14 36 -15  -7
+// Juggerplane M1
    11 sprites/png/vehiclesair021.png 450 8 09 25 50 -24 -15
    12 sprites/png/vehiclesair021.png 514 8 09 22 48 -24 -12
    13 sprites/png/vehiclesair021.png 578 8 09 23 56 -23 -11
