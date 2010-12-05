@@ -18,23 +18,23 @@
     9 sprites/png/aircraft/toyland_aircraft.png 500  45 01 20 36 -18 -9
    10 sprites/png/aircraft/toyland_aircraft.png 548  45 09 14 31 -13 -6
 // Flashban X1
-   43 sprites/png/aircraft/toyland_aircraft.png 210  83 09 17 38 -18  -9
-   44 sprites/png/aircraft/toyland_aircraft.png 259  83 09 14 34 -18  -7
-   45 sprites/png/aircraft/toyland_aircraft.png 307  83 09 17 44 -22  -9
-   46 sprites/png/aircraft/toyland_aircraft.png 367  82 09 24 36 -19 -15
-   47 sprites/png/aircraft/toyland_aircraft.png 415  82 09 26 38 -18 -15
-   48 sprites/png/aircraft/toyland_aircraft.png 463  81 09 23 35 -14 -14
-   49 sprites/png/aircraft/toyland_aircraft.png 510  82 01 17 43 -20  -9
-   50 sprites/png/aircraft/toyland_aircraft.png 559  82 09 14 36 -15  -7
+  357 sprites/png/aircraft/toyland_aircraft.png 211  82 09 17 38 -18  -9
+  358 sprites/png/aircraft/toyland_aircraft.png 259  82 09 14 34 -18  -7
+  359 sprites/png/aircraft/toyland_aircraft.png 307  82 09 17 44 -22  -9
+  360 sprites/png/aircraft/toyland_aircraft.png 367  82 09 24 36 -19 -15
+  361 sprites/png/aircraft/toyland_aircraft.png 415  82 09 26 38 -18 -15
+  362 sprites/png/aircraft/toyland_aircraft.png 463  82 09 23 35 -14 -14
+  363 sprites/png/aircraft/toyland_aircraft.png 510  82 01 17 43 -20  -9
+  364 sprites/png/aircraft/toyland_aircraft.png 559  82 09 14 34 -15  -7
 // Juggerplane M1
-   11 sprites/png/vehiclesair021.png 450 8 09 25 50 -24 -15
-   12 sprites/png/vehiclesair021.png 514 8 09 22 48 -24 -12
-   13 sprites/png/vehiclesair021.png 578 8 09 23 56 -23 -11
-   14 sprites/png/vehiclesair021.png 642 8 09 31 48 -24 -17
-   15 sprites/png/vehiclesair021.png 706 8 09 33 49 -24 -17
-   16 sprites/png/vehiclesair021.png 2 56 09 31 48 -22 -17
-   17 sprites/png/vehiclesair021.png 66 56 01 23 56 -31 -11
-   18 sprites/png/vehiclesair021.png 130 56 09 22 48 -22 -12
+  365 sprites/png/aircraft/toyland_aircraft.png 210 114 09 24 47 -22 -13
+  366 sprites/png/aircraft/toyland_aircraft.png 275 114 09 23 48 -24 -10
+  367 sprites/png/aircraft/toyland_aircraft.png 339 114 09 24 57 -25 -11
+  368 sprites/png/aircraft/toyland_aircraft.png 403 114 09 30 48 -24 -17
+  369 sprites/png/aircraft/toyland_aircraft.png 468 114 09 34 47 -23 -18
+  370 sprites/png/aircraft/toyland_aircraft.png 537 114 09 30 48 -22 -17
+  371 sprites/png/aircraft/toyland_aircraft.png 600 114 01 24 57 -30 -11
+  372 sprites/png/aircraft/toyland_aircraft.png 664 114 09 23 48 -22 -10
 
    19 sprites/png/vehiclesair021.png 194 56 09 24 42 -20 -13
    20 sprites/png/vehiclesair021.png 242 56 09 22 47 -21 -10
