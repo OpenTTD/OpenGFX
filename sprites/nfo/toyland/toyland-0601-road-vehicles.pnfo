@@ -1,33 +1,33 @@
 //601   760     160     Road trucks
 
-// Bus (egrvts #xxxx)
-  601 sprites/png/egrvts.png 562 1656 01 18 8 -3 -10
-  602 sprites/png/egrvts.png 578 1656 09 16 20 -14 -7
-  603 sprites/png/egrvts.png 610 1656 01 12 28 -14 -6
-  604 sprites/png/egrvts.png 658 1656 09 16 20 -6 -7
-  605 sprites/png/egrvts.png 690 1656 01 18 8 -3 -10
-  606 sprites/png/egrvts.png 706 1656 09 16 20 -14 -7
-  607 sprites/png/egrvts.png 738 1656 01 12 28 -14 -6
-  608 sprites/png/egrvts.png 2 1688 09 16 20 -6 -7
+// 601 - 608 Ploddyphut Bus
+1 sprites/png/roadvehicles/toyland_rv.png 122 22 01 18 8 -3 -10 
+2 sprites/png/roadvehicles/toyland_rv.png 138 22 01 16 20 -14 -7 
+3 sprites/png/roadvehicles/toyland_rv.png 170 22 01 12 28 -14 -6 
+4 sprites/png/roadvehicles/toyland_rv.png 218 22 01 16 20 -6 -7 
+5 sprites/png/roadvehicles/toyland_rv.png 250 22 01 18 8 -3 -10 
+6 sprites/png/roadvehicles/toyland_rv.png 266 22 01 16 20 -14 -7 
+7 sprites/png/roadvehicles/toyland_rv.png 298 22 01 12 28 -14 -6 
+8 sprites/png/roadvehicles/toyland_rv.png 346 22 01 16 20 -6 -7 
 
-// Sugar truck empty egrvts #2345 ff
-  609 sprites/png/egrvts.png 402 2568 01 18 8 -3 -10
-  610 sprites/png/egrvts.png 418 2568 09 16 20 -14 -7
-  611 sprites/png/egrvts.png 450 2568 01 12 28 -14 -6
-  612 sprites/png/egrvts.png 498 2568 09 16 20 -6 -7
-  613 sprites/png/egrvts.png 530 2568 01 18 8 -3 -10
-  614 sprites/png/egrvts.png 546 2568 09 16 20 -14 -7
-  615 sprites/png/egrvts.png 578 2568 01 12 28 -14 -6
-  616 sprites/png/egrvts.png 626 2568 09 16 20 -6 -7
-// Sugar truck full egrvts #2442 ff
-  617 sprites/png/egrvts.png 338 2696 01 18 8 -3 -10
-  618 sprites/png/egrvts.png 354 2696 09 16 20 -14 -7
-  619 sprites/png/egrvts.png 386 2696 01 12 28 -14 -6
-  620 sprites/png/egrvts.png 434 2696 09 16 20 -6 -7
-  621 sprites/png/egrvts.png 466 2696 01 18 8 -3 -10
-  622 sprites/png/egrvts.png 482 2696 09 16 20 -14 -7
-  623 sprites/png/egrvts.png 514 2696 01 12 28 -14 -6
-  624 sprites/png/egrvts.png 562 2696 09 16 20 -6 -7
+// 609 - 616 Sugar truck empty
+10 sprites/png/roadvehicles/toyland_rv.png 462 21 01 18 8 -3 -10 
+11 sprites/png/roadvehicles/toyland_rv.png 478 21 01 16 20 -14 -7 
+12 sprites/png/roadvehicles/toyland_rv.png 510 21 01 12 28 -14 -6 
+13 sprites/png/roadvehicles/toyland_rv.png 558 21 01 16 20 -6 -7 
+14 sprites/png/roadvehicles/toyland_rv.png 590 21 01 18 8 -3 -10 
+15 sprites/png/roadvehicles/toyland_rv.png 606 21 01 16 20 -14 -7 
+16 sprites/png/roadvehicles/toyland_rv.png 638 21 01 12 28 -14 -6 
+17 sprites/png/roadvehicles/toyland_rv.png 686 21 01 16 20 -6 -7 
+// 617 - 624 Sugar truck full
+19 sprites/png/roadvehicles/toyland_rv.png 462 44 01 18 8 -3 -10 
+20 sprites/png/roadvehicles/toyland_rv.png 478 44 01 16 20 -14 -7 
+21 sprites/png/roadvehicles/toyland_rv.png 510 44 01 12 28 -14 -6 
+22 sprites/png/roadvehicles/toyland_rv.png 558 44 01 16 20 -6 -7 
+23 sprites/png/roadvehicles/toyland_rv.png 590 44 01 18 8 -3 -10 
+24 sprites/png/roadvehicles/toyland_rv.png 606 44 01 16 20 -14 -7 
+25 sprites/png/roadvehicles/toyland_rv.png 638 44 01 12 28 -14 -6 
+26 sprites/png/roadvehicles/toyland_rv.png 686 44 01 16 20 -6 -7 
 
 // Cola truck emtpy egrvts
   625 sprites/png/egrvts.png 306 4360 01 18 8 -3 -10

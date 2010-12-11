@@ -1,0 +1,21 @@
+template tmpl_rv_toyland (x, y) {
+    [    x, y,  8, 18,  -3, -10 ]
+    [ 16+x, y, 20, 16, -14,  -7 ]
+    [ 48+x, y, 28, 12, -14,  -6 ]
+    [ 96+x, y, 20, 16,  -6,  -7 ]
+    [128+x, y,  8, 18,  -3, -10 ]
+    [144+x, y, 20, 16, -14,  -7 ]
+    [176+x, y, 28, 12, -14,  -6 ]
+    [224+x, y, 20, 16,  -6,  -7 ]
+}
+
+// Ploddyphut bus
+replace(3092, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  22) }
+
+// Sugar truck
+replace(3100, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  21) }
+replace(3108, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  44) }
+
+// Mail van
+replace(3172, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 202) }
+
