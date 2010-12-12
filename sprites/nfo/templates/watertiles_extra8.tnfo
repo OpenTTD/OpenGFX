@@ -1,0 +1,13 @@
+-1 THIS_GFX_FILE 1277 THIS_Y 09 15 64 -31 0
+-1 THIS_GFX_FILE 1357 THIS_Y 09 31 64 -31 -8
+-1 THIS_GFX_FILE  559 THIS_Y 09 23 64 -31 0
+-1 THIS_GFX_FILE 1197 THIS_Y 09 47 64 -31 -16
+-1 THIS_GFX_FILE  879 THIS_Y 09 31 64 -31 -8
+-1 THIS_GFX_FILE 1039 THIS_Y 09 39 64 -31 -8
+-1 THIS_GFX_FILE 1119 THIS_Y 09 31 64 -31 -8
+-1 THIS_GFX_FILE 1437 THIS_Y 09 31 64 -31 -8
+-1 sprites/png/empty.png 0 0 03 1 1 0 0  // vertical canyon (not used)
+-1 sprites/png/empty.png 0 0 03 1 1 0 0  // horizontal canyon (not used)
+
+#undef THIS_GFX_FILE
+#undef THIS_Y
