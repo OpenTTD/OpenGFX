@@ -29,164 +29,166 @@
 25 sprites/png/roadvehicles/toyland_rv.png 638 44 01 12 28 -14 -6 
 26 sprites/png/roadvehicles/toyland_rv.png 686 44 01 16 20 -6 -7 
 
-// Cola truck emtpy egrvts
-  625 sprites/png/egrvts.png 306 4360 01 18 8 -3 -10
-  626 sprites/png/egrvts.png 322 4360 09 16 20 -14 -7
-  627 sprites/png/egrvts.png 354 4360 01 12 28 -14 -6
-  628 sprites/png/egrvts.png 402 4360 09 16 20 -6 -7
-  629 sprites/png/egrvts.png 434 4360 01 18 8 -3 -10
-  630 sprites/png/egrvts.png 450 4360 09 16 20 -14 -7
-  631 sprites/png/egrvts.png 482 4360 01 12 28 -14 -6
-  632 sprites/png/egrvts.png 530 4360 09 16 20 -6 -7
-// Cola truck full (no difference) egrvts
-  633 sprites/png/egrvts.png 306 4360 01 18 8 -3 -10
-  634 sprites/png/egrvts.png 322 4360 09 16 20 -14 -7
-  635 sprites/png/egrvts.png 354 4360 01 12 28 -14 -6
-  636 sprites/png/egrvts.png 402 4360 09 16 20 -6 -7
-  637 sprites/png/egrvts.png 434 4360 01 18 8 -3 -10
-  638 sprites/png/egrvts.png 450 4360 09 16 20 -14 -7
-  639 sprites/png/egrvts.png 482 4360 01 12 28 -14 -6
-  640 sprites/png/egrvts.png 530 4360 09 16 20 -6 -7
+// 625 - 632 cola truck empty
+28 sprites/png/roadvehicles/toyland_rv.png 122 58 01 18 8 -3 -10 
+29 sprites/png/roadvehicles/toyland_rv.png 138 58 01 16 20 -14 -7 
+30 sprites/png/roadvehicles/toyland_rv.png 170 58 01 12 28 -14 -6 
+31 sprites/png/roadvehicles/toyland_rv.png 218 58 01 16 20 -6 -7 
+32 sprites/png/roadvehicles/toyland_rv.png 250 58 01 18 8 -3 -10 
+33 sprites/png/roadvehicles/toyland_rv.png 266 58 01 16 20 -14 -7 
+34 sprites/png/roadvehicles/toyland_rv.png 298 58 01 12 28 -14 -6 
+35 sprites/png/roadvehicles/toyland_rv.png 346 58 01 16 20 -6 -7 
+// 633 - 640 cola truck full
+37 sprites/png/roadvehicles/toyland_rv.png 122 83 01 18 8 -3 -10 
+38 sprites/png/roadvehicles/toyland_rv.png 138 83 01 16 20 -14 -7 
+39 sprites/png/roadvehicles/toyland_rv.png 170 83 01 12 28 -14 -6 
+40 sprites/png/roadvehicles/toyland_rv.png 218 83 01 16 20 -6 -7 
+41 sprites/png/roadvehicles/toyland_rv.png 250 83 01 18 8 -3 -10 
+42 sprites/png/roadvehicles/toyland_rv.png 266 83 01 16 20 -14 -7 
+43 sprites/png/roadvehicles/toyland_rv.png 298 83 01 12 28 -14 -6 
+44 sprites/png/roadvehicles/toyland_rv.png 346 83 01 16 20 -6 -7 
 
-// Candyfloss truck empty egrvts
-  641 sprites/png/egrvts.png 562 2760 01 18 8 -3 -10
-  642 sprites/png/egrvts.png 578 2760 09 16 20 -14 -7
-  643 sprites/png/egrvts.png 610 2760 01 12 28 -14 -6
-  644 sprites/png/egrvts.png 658 2760 09 16 20 -6 -7
-  645 sprites/png/egrvts.png 690 2760 01 18 8 -3 -10
-  646 sprites/png/egrvts.png 706 2760 09 16 20 -14 -7
-  647 sprites/png/egrvts.png 738 2760 01 12 28 -13 -6
-  648 sprites/png/egrvts.png 2 2792 09 16 20 -6 -7
-// Candyfloss truck full egrvts
-  649 sprites/png/egrvts.png 498 2856 01 18 8 -3 -10
-  650 sprites/png/egrvts.png 514 2856 09 16 20 -14 -7
-  651 sprites/png/egrvts.png 546 2856 01 12 28 -14 -6
-  652 sprites/png/egrvts.png 594 2856 09 16 20 -6 -7
-  653 sprites/png/egrvts.png 626 2856 01 18 8 -3 -10
-  654 sprites/png/egrvts.png 642 2856 09 16 20 -14 -7
-  655 sprites/png/egrvts.png 674 2856 01 12 28 -14 -6
-  656 sprites/png/egrvts.png 722 2856 09 16 20 -6 -7
+// 641 - 648 cotton candy truck empty
+46 sprites/png/roadvehicles/toyland_rv.png 462 72 01 18 8 -3 -10 
+47 sprites/png/roadvehicles/toyland_rv.png 478 72 01 16 20 -14 -7 
+48 sprites/png/roadvehicles/toyland_rv.png 510 72 01 12 28 -14 -6 
+49 sprites/png/roadvehicles/toyland_rv.png 558 72 01 16 20 -6 -7 
+50 sprites/png/roadvehicles/toyland_rv.png 590 72 01 18 8 -3 -10 
+51 sprites/png/roadvehicles/toyland_rv.png 606 72 01 16 20 -14 -7 
+52 sprites/png/roadvehicles/toyland_rv.png 638 72 01 12 28 -14 -6 
+53 sprites/png/roadvehicles/toyland_rv.png 686 72 01 16 20 -6 -7 
+// 649 - 656 cotton candy truck full
+55 sprites/png/roadvehicles/toyland_rv.png 462 94 01 18 8 -3 -10 
+56 sprites/png/roadvehicles/toyland_rv.png 478 94 01 16 20 -14 -7 
+57 sprites/png/roadvehicles/toyland_rv.png 510 94 01 12 28 -14 -6 
+58 sprites/png/roadvehicles/toyland_rv.png 558 94 01 16 20 -6 -7 
+59 sprites/png/roadvehicles/toyland_rv.png 590 94 01 18 8 -3 -10 
+60 sprites/png/roadvehicles/toyland_rv.png 606 94 01 16 20 -14 -7 
+61 sprites/png/roadvehicles/toyland_rv.png 638 94 01 12 28 -14 -6 
+62 sprites/png/roadvehicles/toyland_rv.png 686 94 01 16 20 -6 -7 
 
-// Toffee truck empty (egrvts 2182ff)
-  657 sprites/png/egrvts.png 322 2376 01 18 8 -3 -10
-  658 sprites/png/egrvts.png 338 2376 09 16 20 -14 -7
-  659 sprites/png/egrvts.png 370 2376 01 12 28 -14 -6
-  660 sprites/png/egrvts.png 418 2376 09 16 20 -6 -7
-  661 sprites/png/egrvts.png 450 2376 01 18 8 -3 -10
-  662 sprites/png/egrvts.png 466 2376 09 16 20 -14 -7
-  663 sprites/png/egrvts.png 498 2376 01 12 28 -14 -6
-  664 sprites/png/egrvts.png 546 2376 09 16 20 -6 -7
-// Toffee truck full (egrvts 2230ff)
-  665 sprites/png/egrvts.png 258 2440 01 18 8 -3 -10
-  666 sprites/png/egrvts.png 274 2440 09 16 20 -14 -7
-  667 sprites/png/egrvts.png 306 2440 01 12 28 -14 -6
-  668 sprites/png/egrvts.png 354 2440 09 16 20 -6 -7
-  669 sprites/png/egrvts.png 386 2440 01 17 8 -3 -9
-  670 sprites/png/egrvts.png 402 2440 09 16 20 -14 -7
-  671 sprites/png/egrvts.png 434 2440 01 12 28 -14 -6
-  672 sprites/png/egrvts.png 482 2440 09 16 20 -6 -7
+// 657 - 664 toffee truck empty
+64 sprites/png/roadvehicles/toyland_rv.png 462 126 01 18 8 -3 -10 
+65 sprites/png/roadvehicles/toyland_rv.png 478 126 01 16 20 -14 -7 
+66 sprites/png/roadvehicles/toyland_rv.png 510 126 01 12 28 -14 -6 
+67 sprites/png/roadvehicles/toyland_rv.png 558 126 01 16 20 -6 -7 
+68 sprites/png/roadvehicles/toyland_rv.png 590 126 01 18 8 -3 -10 
+69 sprites/png/roadvehicles/toyland_rv.png 606 126 01 16 20 -14 -7 
+70 sprites/png/roadvehicles/toyland_rv.png 638 126 01 12 28 -14 -6 
+71 sprites/png/roadvehicles/toyland_rv.png 686 126 01 16 20 -6 -7 
+// 665 - 672 toffee truck full
+73 sprites/png/roadvehicles/toyland_rv.png 462 147 01 18 8 -3 -10 
+74 sprites/png/roadvehicles/toyland_rv.png 478 147 01 16 20 -14 -7 
+75 sprites/png/roadvehicles/toyland_rv.png 510 147 01 12 28 -14 -6 
+76 sprites/png/roadvehicles/toyland_rv.png 558 147 01 16 20 -6 -7 
+77 sprites/png/roadvehicles/toyland_rv.png 590 147 01 18 8 -3 -10 
+78 sprites/png/roadvehicles/toyland_rv.png 606 147 01 16 20 -14 -7 
+79 sprites/png/roadvehicles/toyland_rv.png 638 147 01 12 28 -14 -6 
+80 sprites/png/roadvehicles/toyland_rv.png 686 147 01 16 20 -6 -7 
 
-// Toy truck (egrvts #5485ff)
-  673 sprites/png/egrvts.png 130 5896 01 18 8 -3 -10
-  674 sprites/png/egrvts.png 146 5896 09 16 20 -14 -7
-  675 sprites/png/egrvts.png 178 5896 01 12 28 -14 -6
-  676 sprites/png/egrvts.png 226 5896 09 16 20 -6 -7
-  677 sprites/png/egrvts.png 258 5896 01 17 8 -3 -10
-  678 sprites/png/egrvts.png 274 5896 09 16 20 -14 -7
-  679 sprites/png/egrvts.png 306 5896 01 12 28 -14 -6
-  680 sprites/png/egrvts.png 354 5896 09 16 20 -6 -7
+// 673 - 680 toy truck
+82 sprites/png/roadvehicles/toyland_rv.png 462 230 01 18 8 -3 -10 
+83 sprites/png/roadvehicles/toyland_rv.png 478 230 01 16 20 -14 -7 
+84 sprites/png/roadvehicles/toyland_rv.png 510 230 01 12 28 -14 -6 
+85 sprites/png/roadvehicles/toyland_rv.png 558 230 01 16 20 -6 -7 
+86 sprites/png/roadvehicles/toyland_rv.png 590 230 01 18 8 -3 -10 
+87 sprites/png/roadvehicles/toyland_rv.png 606 230 01 16 20 -14 -7 
+88 sprites/png/roadvehicles/toyland_rv.png 638 230 01 12 28 -14 -6 
+89 sprites/png/roadvehicles/toyland_rv.png 686 230 01 16 20 -6 -7 
 
-//Mail truck toyland (egrvts #5496ff)
-  681 sprites/png/egrvts.png 434 5896 01 18 8 -3 -10
-  682 sprites/png/egrvts.png 450 5896 09 16 20 -14 -7
-  683 sprites/png/egrvts.png 482 5896 01 12 28 -14 -6
-  684 sprites/png/egrvts.png 530 5896 09 16 20 -6 -7
-  685 sprites/png/egrvts.png 562 5896 01 17 8 -3 -10
-  686 sprites/png/egrvts.png 578 5896 09 16 20 -14 -7
-  687 sprites/png/egrvts.png 610 5896 01 12 28 -14 -6
-  688 sprites/png/egrvts.png 658 5896 09 16 20 -6 -7
+// 681 - 688 mail truck
+91 sprites/png/roadvehicles/toyland_rv.png 462 202 01 18 8 -3 -10 
+92 sprites/png/roadvehicles/toyland_rv.png 478 202 01 16 20 -14 -7 
+93 sprites/png/roadvehicles/toyland_rv.png 510 202 01 12 28 -14 -6 
+94 sprites/png/roadvehicles/toyland_rv.png 558 202 01 16 20 -6 -7 
+95 sprites/png/roadvehicles/toyland_rv.png 590 202 01 18 8 -3 -10 
+96 sprites/png/roadvehicles/toyland_rv.png 606 202 01 16 20 -14 -7 
+97 sprites/png/roadvehicles/toyland_rv.png 638 202 01 12 28 -14 -6 
+98 sprites/png/roadvehicles/toyland_rv.png 686 202 01 16 20 -6 -7 
 
-// Sweets truck (egrvts #5430ff)
-  689 sprites/png/egrvts.png 162 5832 01 18 8 -3 -10
-  690 sprites/png/egrvts.png 178 5832 09 16 20 -14 -7
-  691 sprites/png/egrvts.png 210 5832 01 12 28 -14 -6
-  692 sprites/png/egrvts.png 258 5832 09 16 20 -6 -7
-  693 sprites/png/egrvts.png 290 5832 01 18 8 -3 -10
-  694 sprites/png/egrvts.png 306 5832 09 16 20 -14 -7
-  695 sprites/png/egrvts.png 338 5832 01 12 28 -14 -6
-  696 sprites/png/egrvts.png 386 5832 09 16 20 -6 -7
+// 689 - 696 sweets (=candy truck)
+100 sprites/png/roadvehicles/toyland_rv.png 462 258 01 18 8 -3 -10 
+101 sprites/png/roadvehicles/toyland_rv.png 478 258 01 16 20 -14 -7 
+102 sprites/png/roadvehicles/toyland_rv.png 510 258 01 12 28 -14 -6 
+103 sprites/png/roadvehicles/toyland_rv.png 558 258 01 16 20 -6 -7 
+104 sprites/png/roadvehicles/toyland_rv.png 590 258 01 18 8 -3 -10 
+105 sprites/png/roadvehicles/toyland_rv.png 606 258 01 16 20 -14 -7 
+106 sprites/png/roadvehicles/toyland_rv.png 638 258 01 12 28 -14 -6 
+107 sprites/png/roadvehicles/toyland_rv.png 686 258 01 16 20 -6 -7 
 
-// Battery truck empty (egrvts #3667 ff)
-  697 sprites/png/egrvts.png 18 4168 01 18 8 -3 -10
-  698 sprites/png/egrvts.png 34 4168 09 16 20 -14 -7
-  699 sprites/png/egrvts.png 66 4168 01 12 28 -14 -6
-  700 sprites/png/egrvts.png 114 4168 09 16 20 -6 -7
-  701 sprites/png/egrvts.png 146 4168 01 18 8 -3 -10
-  702 sprites/png/egrvts.png 162 4168 09 16 20 -14 -7
-  703 sprites/png/egrvts.png 194 4168 01 12 28 -14 -6
-  704 sprites/png/egrvts.png 242 4168 09 16 20 -6 -7
-// Battery truck full (egrvts #3764 ff)
-  705 sprites/png/egrvts.png 210 4328 01 18 8 -3 -10
-  706 sprites/png/egrvts.png 226 4328 09 16 20 -14 -7
-  707 sprites/png/egrvts.png 258 4328 01 12 28 -14 -6
-  708 sprites/png/egrvts.png 306 4328 09 16 20 -6 -7
-  709 sprites/png/egrvts.png 338 4328 01 18 8 -3 -10
-  710 sprites/png/egrvts.png 354 4328 09 16 20 -14 -7
-  711 sprites/png/egrvts.png 386 4328 01 12 28 -14 -6
-  712 sprites/png/egrvts.png 434 4328 09 16 20 -6 -7
+// 697 - 704 battery truck empty
+109 sprites/png/roadvehicles/toyland_rv.png 122 113 01 18 8 -3 -10 
+110 sprites/png/roadvehicles/toyland_rv.png 138 113 01 16 20 -14 -7 
+111 sprites/png/roadvehicles/toyland_rv.png 170 113 01 12 28 -14 -6 
+112 sprites/png/roadvehicles/toyland_rv.png 218 113 01 16 20 -6 -7 
+113 sprites/png/roadvehicles/toyland_rv.png 250 113 01 18 8 -3 -10 
+114 sprites/png/roadvehicles/toyland_rv.png 266 113 01 16 20 -14 -7 
+115 sprites/png/roadvehicles/toyland_rv.png 298 113 01 12 28 -14 -6 
+116 sprites/png/roadvehicles/toyland_rv.png 346 113 01 16 20 -6 -7 
+// 705 - 712 battery truck full
+118 sprites/png/roadvehicles/toyland_rv.png 122 135 01 18 8 -3 -10 
+119 sprites/png/roadvehicles/toyland_rv.png 138 135 01 16 20 -14 -7 
+120 sprites/png/roadvehicles/toyland_rv.png 170 135 01 12 28 -14 -6 
+121 sprites/png/roadvehicles/toyland_rv.png 218 135 01 16 20 -6 -7 
+122 sprites/png/roadvehicles/toyland_rv.png 250 135 01 18 8 -3 -10 
+123 sprites/png/roadvehicles/toyland_rv.png 266 135 01 16 20 -14 -7 
+124 sprites/png/roadvehicles/toyland_rv.png 298 135 01 12 28 -14 -6 
+125 sprites/png/roadvehicles/toyland_rv.png 346 135 01 16 20 -6 -7 
 
-// Fizzy drinks truck egrvts #3667 ff
-  713 sprites/png/egrvts.png 18 4168 01 18 8 -3 -10
-  714 sprites/png/egrvts.png 34 4168 09 16 20 -14 -7
-  715 sprites/png/egrvts.png 66 4168 01 12 28 -14 -6
-  716 sprites/png/egrvts.png 114 4168 09 16 20 -6 -7
-  717 sprites/png/egrvts.png 146 4168 01 18 8 -3 -10
-  718 sprites/png/egrvts.png 162 4168 09 16 20 -14 -7
-  719 sprites/png/egrvts.png 194 4168 01 12 28 -14 -6
-  720 sprites/png/egrvts.png 242 4168 09 16 20 -6 -7
-// egrvts #3764 ff
-  721 sprites/png/egrvts.png 722 4264 01 18 8 -3 -10
-  722 sprites/png/egrvts.png 738 4264 09 16 20 -14 -7
-  723 sprites/png/egrvts.png 2 4296 01 12 28 -14 -6
-  724 sprites/png/egrvts.png 50 4296 09 16 20 -6 -7
-  725 sprites/png/egrvts.png 82 4296 01 18 8 -3 -10
-  726 sprites/png/egrvts.png 98 4296 09 16 20 -14 -7
-  727 sprites/png/egrvts.png 130 4296 01 12 28 -14 -6
-  728 sprites/png/egrvts.png 178 4296 09 16 20 -6 -7
+// 713 - 720 fizzy drinks truck empty
+127 sprites/png/roadvehicles/toyland_rv.png 122 164 01 18 8 -3 -10 
+128 sprites/png/roadvehicles/toyland_rv.png 138 164 01 16 20 -14 -7 
+129 sprites/png/roadvehicles/toyland_rv.png 170 164 01 12 28 -14 -6 
+130 sprites/png/roadvehicles/toyland_rv.png 218 164 01 16 20 -6 -7 
+131 sprites/png/roadvehicles/toyland_rv.png 250 164 01 18 8 -3 -10 
+132 sprites/png/roadvehicles/toyland_rv.png 266 164 01 16 20 -14 -7 
+133 sprites/png/roadvehicles/toyland_rv.png 298 164 01 12 28 -14 -6 
+134 sprites/png/roadvehicles/toyland_rv.png 346 164 01 16 20 -6 -7 
+// 721 - 728 fizzy drinks truck full
+136 sprites/png/roadvehicles/toyland_rv.png 122 188 01 18 8 -3 -10 
+137 sprites/png/roadvehicles/toyland_rv.png 138 188 01 16 20 -14 -7 
+138 sprites/png/roadvehicles/toyland_rv.png 170 188 01 12 28 -14 -6 
+139 sprites/png/roadvehicles/toyland_rv.png 218 188 01 16 20 -6 -7 
+140 sprites/png/roadvehicles/toyland_rv.png 250 188 01 18 8 -3 -10 
+141 sprites/png/roadvehicles/toyland_rv.png 266 188 01 16 20 -14 -7 
+142 sprites/png/roadvehicles/toyland_rv.png 298 188 01 12 28 -14 -6 
+143 sprites/png/roadvehicles/toyland_rv.png 346 188 01 16 20 -6 -7 
 
-// Plastics van #3175ff
-  729 sprites/png/egrvts.png 402 3560 01 18 8 -3 -10
-  730 sprites/png/egrvts.png 418 3560 09 16 20 -14 -7
-  731 sprites/png/egrvts.png 450 3560 01 12 28 -14 -6
-  732 sprites/png/egrvts.png 498 3560 09 16 20 -6 -7
-  733 sprites/png/egrvts.png 530 3560 01 18 8 -3 -10
-  734 sprites/png/egrvts.png 546 3560 09 16 20 -14 -7
-  735 sprites/png/egrvts.png 578 3560 01 12 28 -14 -6
-  736 sprites/png/egrvts.png 626 3560 09 16 20 -6 -7
-  737 sprites/png/egrvts.png 210 3912 01 18 8 -3 -10
-  738 sprites/png/egrvts.png 226 3912 09 16 20 -14 -7
-  739 sprites/png/egrvts.png 258 3912 01 12 28 -14 -6
-  740 sprites/png/egrvts.png 306 3912 09 16 20 -6 -7
-  741 sprites/png/egrvts.png 338 3912 01 18 8 -3 -10
-  742 sprites/png/egrvts.png 354 3912 09 16 20 -14 -7
-  743 sprites/png/egrvts.png 386 3912 01 12 28 -14 -6
-  744 sprites/png/egrvts.png 434 3912 09 16 20 -6 -7
+// 729 - 736 plastics truck empty
+145 sprites/png/roadvehicles/toyland_rv.png 122 215 01 18 8 -3 -10 
+146 sprites/png/roadvehicles/toyland_rv.png 138 215 01 16 20 -14 -7 
+147 sprites/png/roadvehicles/toyland_rv.png 170 215 01 12 28 -14 -6 
+148 sprites/png/roadvehicles/toyland_rv.png 218 215 01 16 20 -6 -7 
+149 sprites/png/roadvehicles/toyland_rv.png 250 215 01 18 8 -3 -10 
+150 sprites/png/roadvehicles/toyland_rv.png 266 215 01 16 20 -14 -7 
+151 sprites/png/roadvehicles/toyland_rv.png 298 215 01 12 28 -14 -6 
+152 sprites/png/roadvehicles/toyland_rv.png 346 215 01 16 20 -6 -7 
+// 737 - 744 plastics truck full
+154 sprites/png/roadvehicles/toyland_rv.png 122 238 01 18 8 -3 -10 
+155 sprites/png/roadvehicles/toyland_rv.png 138 238 01 16 20 -14 -7 
+156 sprites/png/roadvehicles/toyland_rv.png 170 238 01 12 28 -14 -6 
+157 sprites/png/roadvehicles/toyland_rv.png 218 238 01 16 20 -6 -7 
+158 sprites/png/roadvehicles/toyland_rv.png 250 238 01 18 8 -3 -10 
+159 sprites/png/roadvehicles/toyland_rv.png 266 238 01 16 20 -14 -7 
+160 sprites/png/roadvehicles/toyland_rv.png 298 238 01 12 28 -14 -6 
+161 sprites/png/roadvehicles/toyland_rv.png 346 238 01 16 20 -6 -7 
 
-// Bubble truck (egrvts #7272ff)
-  745 sprites/png/egrvts.png 626 7944 01 18 8 -3 -10
-  746 sprites/png/egrvts.png 642 7944 09 16 20 -14 -7
-  747 sprites/png/egrvts.png 674 7944 01 12 28 -14 -6
-  748 sprites/png/egrvts.png 722 7944 09 16 20 -6 -7
-  749 sprites/png/egrvts.png 754 7944 01 17 8 -3 -10
-  750 sprites/png/egrvts.png 770 7944 09 16 20 -14 -7
-  751 sprites/png/egrvts.png 2 7976 01 12 28 -14 -6
-  752 sprites/png/egrvts.png 50 7976 09 16 20 -6 -7
-// Bubble truck loaded (egrvts #7252ff)
-  753 sprites/png/egrvts.png 82 8072 01 18 8 -3 -10
-  754 sprites/png/egrvts.png 98 8072 09 16 20 -14 -7
-  755 sprites/png/egrvts.png 130 8072 01 12 28 -14 -6
-  756 sprites/png/egrvts.png 178 8072 09 16 20 -6 -7
-  757 sprites/png/egrvts.png 210 8072 01 17 8 -3 -10
-  758 sprites/png/egrvts.png 226 8072 09 16 20 -14 -7
-  759 sprites/png/egrvts.png 258 8072 01 12 28 -14 -6
-  760 sprites/png/egrvts.png 306 8072 09 16 20 -6 -7
+// 745 - 756 bubble truck empty
+163 sprites/png/roadvehicles/toyland_rv.png 122 270 01 18 8 -3 -10 
+164 sprites/png/roadvehicles/toyland_rv.png 138 270 01 16 20 -14 -7 
+165 sprites/png/roadvehicles/toyland_rv.png 170 270 01 12 28 -14 -6 
+166 sprites/png/roadvehicles/toyland_rv.png 218 270 01 16 20 -6 -7 
+167 sprites/png/roadvehicles/toyland_rv.png 250 270 01 18 8 -3 -10 
+168 sprites/png/roadvehicles/toyland_rv.png 266 270 01 16 20 -14 -7 
+169 sprites/png/roadvehicles/toyland_rv.png 298 270 01 12 28 -14 -6 
+170 sprites/png/roadvehicles/toyland_rv.png 346 270 01 16 20 -6 -7 
+// 757 - 764 bubble truck full
+172 sprites/png/roadvehicles/toyland_rv.png 122 295 01 18 8 -3 -10 
+173 sprites/png/roadvehicles/toyland_rv.png 138 295 01 16 20 -14 -7 
+174 sprites/png/roadvehicles/toyland_rv.png 170 295 01 12 28 -14 -6 r
+175 sprites/png/roadvehicles/toyland_rv.png 218 295 01 16 20 -6 -7 
+176 sprites/png/roadvehicles/toyland_rv.png 250 295 01 18 8 -3 -10 
+177 sprites/png/roadvehicles/toyland_rv.png 266 295 01 16 20 -14 -7 
+178 sprites/png/roadvehicles/toyland_rv.png 298 295 01 12 28 -14 -6 
+179 sprites/png/roadvehicles/toyland_rv.png 346 295 01 16 20 -6 -7 
+

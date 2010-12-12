@@ -16,6 +16,40 @@ replace(3092, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 
 replace(3100, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  21) }
 replace(3108, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  44) }
 
-// Mail van
+// cola truck
+replace(3116, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  58) }
+replace(3124, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  83) }
+
+// cotton candy truck
+replace(3132, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  72) }
+replace(3140, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  94) }
+
+// toffee truck
+replace(3148, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 126) }
+replace(3156, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 147) }
+
+// toy truck
+replace(3164, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 230) }
+
+// Mail truck
 replace(3172, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 202) }
+
+// sweets (=candy) truck
+replace(3180, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 258) }
+
+// battery truck
+replace(3188, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 113) }
+replace(3196, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 135) }
+
+// fizzy drinks truck
+replace(3204, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 164) }
+replace(3212, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 188) }
+
+// plastics truck
+replace(3220, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 215) }
+replace(3228, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 238) }
+
+// bubble truck
+replace(3204, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 270) }
+replace(3212, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 295) }
 
