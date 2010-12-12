@@ -1,13 +1,7 @@
 //234-242 water + coastline
-  841 sprites/png/terrain04.png 594 5208 09 31 64 -31 0
-  864 sprites/png/terrain04.png 514 5336 09 31 64 -31 0
-  865 sprites/png/terrain04.png 594 5336 09 31 64 -31 0
-  866 sprites/png/terrain04.png 674 5336 09 23 64 -31 0
-  867 sprites/png/terrain04.png 2 5400 09 39 64 -31 -8
-  868 sprites/png/terrain04.png 82 5400 09 23 64 -31 0
-  869 sprites/png/terrain04.png 162 5400 09 39 64 -31 -8
-  870 sprites/png/terrain04.png 242 5400 09 23 64 -31 0
-  871 sprites/png/terrain04.png 322 5400 09 39 64 -31 -8
+#define THIS_GFX_FILE sprites/png/terrain/shoretiles.png
+#define THIS_Y 97
+#include "../templates/watertiles8.tnfo"
 
 //243-248 ship depot
   940 sprites/png/infra06.png 386 5080 09 64 64 -61 -48

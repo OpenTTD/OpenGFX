@@ -1,15 +1,7 @@
 //4061-4069 water and coast tiles
-// plain water tile
-  841 sprites/png/terrain04.png 594 5208 09 31 64 -31 0
-// coastal tiles
-  844 sprites/png/terrain04.png 706 5208 09 31 64 -31 0
-  845 sprites/png/terrain04.png 2 5272 09 31 64 -31 0
-  846 sprites/png/terrain04.png 82 5272 09 23 64 -31 0
-  847 sprites/png/terrain04.png 162 5272 09 39 64 -31 -8
-  848 sprites/png/terrain04.png 242 5272 09 23 64 -31 0
-  849 sprites/png/terrain04.png 322 5272 09 39 64 -31 -8
-  850 sprites/png/terrain04.png 402 5272 09 23 64 -31 0
-  851 sprites/png/terrain04.png 482 5272 09 39 64 -31 -8
+#define THIS_GFX_FILE sprites/png/terrain/shoretiles.png
+#define THIS_Y 1
+#include "../templates/watertiles8.tnfo"
 
 //4070-4075 ship depot
   940 sprites/png/infra06.png 386 5080 09 64 64 -61 -48
