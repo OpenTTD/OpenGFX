@@ -1,3 +1,4 @@
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 //1005-1010 rail overlays
     3 sprites/png/infra06.png 66 8 09 21 40 -19 5
     4 sprites/png/infra06.png 114 8 09 21 40 -19 5
@@ -75,8 +76,8 @@
   849 sprites/png/infra06.png 82 4696 49 26 42 -31 -6
   850 sprites/png/infra06.png 130 4696 49 26 42 -9 -6
   851 sprites/png/infra06.png 178 4696 49 26 42 -31 -6
-  852 sprites/png/infra06.png 226 4696 49 32 42 -31 -12
-  853 sprites/png/infra06.png 274 4696 49 32 42 -9 -12
+ 1073 sprites/png/stations/RevStatBuilding_DanMacK.png 14 4 49 32 42 -31 -12
+ 1074 sprites/png/stations/RevStatBuilding_DanMacK.png 62 4 49 32 42 -9 -12
   854 sprites/png/infra06.png 322 4696 49 31 42 -9 -11
   855 sprites/png/infra06.png 370 4696 49 36 42 -31 -16
   856 sprites/png/infra06.png 418 4696 49 36 42 -9 -16
