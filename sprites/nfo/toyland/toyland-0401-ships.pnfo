@@ -1,18 +1,18 @@
-//401   416     16      Ships
-   11 sprites/png/ships01.png 546 8 09 51 19 -8 -19
-   12 sprites/png/ships01.png 578 8 09 41 67 -62 -3
-   13 sprites/png/ships01.png 658 8 09 22 86 -42 -9
-   14 sprites/png/ships01.png 2 72 09 42 67 -5 -4
-   15 sprites/png/ships01.png 82 72 09 53 19 -8 -25
-   16 sprites/png/ships01.png 114 72 09 42 66 -60 -4
-   17 sprites/png/ships01.png 194 72 01 22 86 -44 -10
-   18 sprites/png/ships01.png 290 72 09 42 66 -3 -3
+//401 - 416     16      Ships
+1 sprites/png/ships/toyland_ships.png 14 12 01 39 19 -8 -19
+2 sprites/png/ships/toyland_ships.png 46 12 01 32 56 -62 -3
+3 sprites/png/ships/toyland_ships.png 110 12 01 26 73 -42 -14
+4 sprites/png/ships/toyland_ships.png 190 12 01 37 56 -5 -4
+5 sprites/png/ships/toyland_ships.png 254 12 01 42 19 -8 -16
+6 sprites/png/ships/toyland_ships.png 286 12 01 37 56 -60 -4
+7 sprites/png/ships/toyland_ships.png 350 12 01 26 73 -44 -10
+8 sprites/png/ships/toyland_ships.png 430 12 01 32 56 -3 -3
 
-   19 sprites/png/ships01.png 370 72 09 32 16 -7 -15
-   20 sprites/png/ships01.png 402 72 09 28 42 -44 2
-   21 sprites/png/ships01.png 450 72 09 19 52 -24 -6
-   22 sprites/png/ships01.png 514 72 09 25 42 2 3
-   23 sprites/png/ships01.png 562 72 09 26 16 -7 -12
-   24 sprites/png/ships01.png 594 72 09 25 42 -45 4
-   25 sprites/png/ships01.png 642 72 01 19 52 -26 -8
-   26 sprites/png/ships01.png 706 72 09 28 42 2 1
+10 sprites/png/ships/toyland_ships.png 14 63 01 35 16 -7 -18
+11 sprites/png/ships/toyland_ships.png 46 63 01 34 42 -44 -4
+12 sprites/png/ships/toyland_ships.png 110 63 01 28 52 -24 -15
+13 sprites/png/ships/toyland_ships.png 190 63 01 29 42 2 -1
+14 sprites/png/ships/toyland_ships.png 254 63 01 32 16 -7 -18
+15 sprites/png/ships/toyland_ships.png 286 63 01 29 42 -45 0
+16 sprites/png/ships/toyland_ships.png 350 63 01 28 52 -26 -17
+17 sprites/png/ships/toyland_ships.png 430 63 01 35 42 1 -6

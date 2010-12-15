@@ -8,6 +8,7 @@ Makefile.dep
 *.src.dep
 *.gfx.dep
 .REV
+parsetab.py
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
