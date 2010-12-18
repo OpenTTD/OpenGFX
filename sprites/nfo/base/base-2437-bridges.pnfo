@@ -157,11 +157,11 @@
  1688 sprites/png/infra08.png 578 8696 01 39 50 -21 -14
 
 //2593-2600 bridge gui
-  398 sprites/png/gui04.png 706 952 03 32 52 -2 0
-  399 sprites/png/gui04.png 2 1001 09 20 43 -2 0
-  400 sprites/png/gui04.png 50 1001 09 20 43 -2 0
-  401 sprites/png/gui04.png 98 1001 09 20 43 -2 0
-  402 sprites/png/gui04.png 146 1001 09 20 43 -2 0
-  403 sprites/png/gui04.png 194 1001 09 20 43 -2 0
-  404 sprites/png/gui04.png 242 1001 09 20 43 -2 0
-  405 sprites/png/gui04.png 290 1001 09 20 43 -2 0
+  2593 sprites/png/gui04.png 706 952 03 32 52 0 0
+  2594 sprites/png/gui04.png 2 1001 09 20 43 0 0
+  2595 sprites/png/gui04.png 50 1001 09 20 43 0 0
+  2596 sprites/png/gui04.png 98 1001 09 20 43 0 0
+  2597 sprites/png/gui04.png 146 1001 09 20 43 0 0
+  2598 sprites/png/gui04.png 194 1001 09 20 43 0 0
+  2599 sprites/png/gui04.png 242 1001 09 20 43 0 0
+  2600 sprites/png/gui04.png 290 1001 09 20 43 0 0
