@@ -16,18 +16,18 @@ test::
 
 %.grf: %.nfo
 	$(_E) "[GRFCODEC] $@"
-	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
+	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@) .
 
 endif # project_type == NFO
 
 # Pre-processing of the pnfo files. Make sure a correct header is used, we supply one.
 %.cnfo: %.pnfo $(REV_FILENAME)
 	$(_E) "[CPP] $@"
-	$(_V) $(CC) $(CC_FLAGS) $< > $(SRC_DIR)/$@
+	$(_V) $(CC) $(CC_FLAGS) $< > $@
 %.nfo: %.cnfo
-	$(_V) cp scripts/nfoheader.nfo $(SRC_DIR)/$@
-	$(_V) cat $(SRC_DIR)/$< | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
+	$(_V) cp scripts/nfoheader.nfo $@
+	$(_V) cat $< | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
 		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
-		>> $(SRC_DIR)/$@
+		>> $@
 	$(_E) "[NFORENUM] $@"
 	$(_V) $(NFORENUM) ${NFORENUM_FLAGS} $@ ; [ $$? -lt $(NFO_WARN_LEVEL) ] || ( echo "Fatal nforenum error!" && exit 1 )

@@ -102,6 +102,7 @@ endif
 
 # Create the dependencies. Allow project types to define their own
 $(REV_FILENAME):
+	$(_V) for i in `ls *.$(REV_EXTENSION) 2> /dev/null`; do if $$i != ""; then rm $$i; fi; done
 	$(_V) touch $@
 
 addcheck:

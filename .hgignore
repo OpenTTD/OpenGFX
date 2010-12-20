@@ -16,8 +16,8 @@ ogfx?_*.grf
 opengfx*md5
 
 # Ignore intermediate files created by the Makefile:
-sprites/ogfx?_*.cnfo
-sprites/ogfx?_*.nfo
+ogfx?_*.cnfo
+ogfx?_*.nfo
 docs/readme.txt
 
 # Ignore directories from bundle creation / install:
