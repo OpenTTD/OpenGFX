@@ -345,7 +345,7 @@ ogfxt_toyland;311;316;6;Rail depot;Zephyris;buttercup;;1
 ogfxt_toyland;317;322;6;Monorail depot;Zephyris;buttercup;;1
 ogfxt_toyland;323;328;6;Maglev depot;Zephyris;buttercup;;1
 ogfxt_toyland;329;340;12;Rail GUI cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfxt_toyland;341;388;48;Aircraft;DanMacK;planetmaker;;1
+ogfxt_toyland;341;388;48;Aircraft;DanMacK;planetmaker, Ammler;2003;1
 ogfxt_toyland;389;392;20;Helicoper rotor;Zephyris;Zephyris;;1
 ogfxt_toyland;393;400;8;Train engine;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
 ogfxt_toyland;401;416;16;Ships;DanMacK;planetmaker;;1

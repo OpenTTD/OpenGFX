@@ -1,3 +1,4 @@
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 //341   392     52      Aircraft
 // Ploddyphut 100
   341 sprites/png/aircraft/toyland_aircraft.png 214  15 09 11 32 -15  -6
@@ -45,14 +46,15 @@
   379 sprites/png/aircraft/toyland_flashbangWhizzer.png 371   7 01 19 62 -34  -8
   380 sprites/png/aircraft/toyland_flashbangWhizzer.png 451   7 09 22 48 -24 -10
 // Powernaut Helicopter
-  381 sprites/png/aircraft/toyland_aircraft.png 213 206 09 13 14  -6  -5
-  382 sprites/png/aircraft/toyland_aircraft.png 245 206 09 11 19 -10  -4
-  383 sprites/png/aircraft/toyland_aircraft.png 277 206 09 10 24 -13  -4
-  384 sprites/png/aircraft/toyland_aircraft.png 309 206 09 13 19 -10  -6
-  385 sprites/png/aircraft/toyland_aircraft.png 341 206 09 15 12  -5  -7
-  386 sprites/png/aircraft/toyland_aircraft.png 372 206 09 13 19  -7  -6
-  387 sprites/png/aircraft/toyland_aircraft.png 402 206 01 10 24  -9  -4
-  388 sprites/png/aircraft/toyland_aircraft.png 437 207 09 11 19  -7  -4
+  381 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 25 4 09 14 8 -3 -4
+  382 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 41 4 09 13 24 -14 -4
+  383 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 73 4 09 13 32 -20 -5
+  384 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 121 4 09 19 23 -14 -11
+  385 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 153 4 09 22 8 -3 -13
+  386 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 169 4 09 19 23 -7 -11
+  387 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 200 4 01 13 32 -9 -5
+  388 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 248 4 09 13 24 -7 -4
+   
 // Helocopter rotor
   389 sprites/png/vehiclesair021.png 34 536 09 10 22 -10 -3
   390 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5
