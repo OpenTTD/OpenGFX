@@ -1,3 +1,27 @@
+OpenGFX 0.3.2 (22 Dec 2010)
+-------------------------------------
+- Feature: New toyland aircraft with faces
+- Feature: Red-nose for toyland vehicles
+- Feature: Toyland-specifc ships
+- Feature: [TTDP] make target bundle_ttdp
+- Change: [Makefile] Update to version 0.5.2
+- Change: convert from pcx to png sprites. This will need GRFCodec r785 / version 5.1 or newer compiled with PNG support to compile OpenGFX.
+- Change: Slightly modified shore line tiles with a bit less grid
+- Change: replace house of single station with a bigger one
+- Fix: Bridge GUI sprites were 1 pixel too high
+- Fix: GUI sprites should not have offsets as that causes glitches
+- Fix: red/green semaphore PBS sprites were swapped for the leftside signals
+- Fix: Toyland tree alignments and their documentation
+- Fix: Road tunnel entries were mis-aligned with respect to eachother
+- Fix: More sparkling for the fizzy drink factory
+- Fix: Wrong sprites in the snowy maglev tracks
+- Fix: Don't include the nfo header twice
+- Fix: [Makefile] Dep check was slightly broken, causing incomplete re-builds or keeping old dependencies
+- Fix: [Makefile] Intermediate files were not always searched for in the correct path
+- Doc: Update readme, especially wrt required grfcodec version
+- Doc: Add some more proper sprite numbers
+- Doc: Updated mission statement
+
 OpenGFX 0.3.1 (19 Sep 2010)
 -------------------------------------
 - Feature: [Makefile] build from source bundle and make rpm
