@@ -1,13 +1,13 @@
 ifdef USE_NFO
 
-$(patsubst %.grf,%.src.dep,$(GRF_FILES)):
+$(patsubst %.grf,%.src.dep,$(GRF_FILES)): $(REV_FILENAME)
 	$(_E) "[DEP] $@"
 ifeq ($(DEP_CHECK_TYPE),normal)
 	$(_V) $(CC) -C -M -MF $@ -E -MT $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@) -MT $@ - < $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
 	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.pnfo,$@)" >> $@
 endif
 ifeq ($(DEP_CHECK_TYPE),mdep)
-	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.nfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) >> $@
+	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.nfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) > $@
 endif
 
 test::
