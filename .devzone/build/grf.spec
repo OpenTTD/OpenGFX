@@ -26,6 +26,9 @@ mv %{name} %{name}.hg
 mkdir %{name}
 cd %{name}.hg
 
+# update to the tag, if not revision
+[ "$(echo %{version} | cut -b-1)" != "r" ] && hg up %{version}
+
 make %{?_smp_mflags} bundle_src bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
 mv *.tar.gz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
