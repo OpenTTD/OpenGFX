@@ -100,32 +100,9 @@
    15 sprites/png/infra06.png 562 8 01 19 12 -21 6
 
 //1093-1118 monorail track terrain 1
-  164 sprites/png/infra06.png 434 808 09 31 64 -31 0
-  165 sprites/png/infra06.png 514 808 09 31 64 -31 0
-  166 sprites/png/infra06.png 594 808 09 31 64 -31 0
-  167 sprites/png/infra06.png 674 808 09 31 64 -31 0
-  168 sprites/png/infra06.png 2 872 09 31 64 -31 0
-  169 sprites/png/infra06.png 82 872 09 31 64 -31 0
-  170 sprites/png/infra06.png 162 872 09 31 64 -31 0
-  171 sprites/png/infra06.png 242 872 09 31 64 -31 0
-  172 sprites/png/infra06.png 322 872 09 31 64 -31 0
-  173 sprites/png/infra06.png 402 872 09 31 64 -31 0
-  174 sprites/png/infra06.png 482 872 09 31 64 -31 0
-  175 sprites/png/infra06.png 562 872 09 31 64 -31 0
-  176 sprites/png/infra06.png 642 872 09 39 64 -31 -8
-  177 sprites/png/infra06.png 722 872 09 31 64 -31 0
-  178 sprites/png/infra06.png 2 936 09 31 64 -31 0
-  179 sprites/png/infra06.png 82 936 09 23 64 -31 0
-  180 sprites/png/infra06.png 162 936 09 31 64 -31 -8
-  181 sprites/png/infra06.png 242 936 09 23 64 -31 0
-  182 sprites/png/infra06.png 322 936 09 31 64 -31 -8
-  183 sprites/png/infra06.png 402 936 09 39 64 -31 -8
-  184 sprites/png/infra06.png 482 936 09 39 64 -31 -8
-  185 sprites/png/infra06.png 562 936 09 23 64 -31 0
-  186 sprites/png/infra06.png 642 936 09 23 64 -31 0
-  187 sprites/png/infra06.png 722 936 09 39 64 -31 -8
-  188 sprites/png/infra06.png 2 1000 09 31 64 -31 0
-  189 sprites/png/infra06.png 82 1000 09 31 64 -31 0
+// Normal temperate monorail tracks
+#define THIS_PCX_FILE sprites/png/infrastructure/rail/monorail_tracks_temperate.png
+#include "../templates/rail_tracks.tnfo"
 
 //1119-1144 monorail track terrain 2
   248 sprites/png/infra06.png 514 1288 09 31 64 -31 0
