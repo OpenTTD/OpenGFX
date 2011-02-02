@@ -32,6 +32,14 @@
 // disable the warning:for newgrfs
 //@@WARNING DISABLE 101
 
+// Define action14 stuff
+-1 * 0  14 "C" "INFO"
+            "B" "VRSN" \w4 \d{{REPO_REVISION}}
+            "B" "MINV" \w4 \d0
+            "B" "PALS" \w1 "W"
+            00
+        00
+
 // In TTDP there's no other ingame place to see the version than here:
    10 * 230      08 07 FF "OT" 01 "{{REPO_TITLE}}" 00
          "For information and credits, please refer to the readme.txt which came with the OpenGFX package." 00
