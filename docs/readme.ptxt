@@ -12,6 +12,7 @@ Contents
 4 Reporting bugs and Contributing
 5 Building of OpenGFX
     5.1 Notes for package maintainers
+    5.2 Note on the NML files
 6 License
     6.1 Obtaining the source
 7 Credits
@@ -220,6 +221,16 @@ Mind to re-start OpenTTD as it needs to re-read the grf files.
 - The variable which supplies the install path changed for the sake of
   consistency and better readability to INSTALL_DIR. The old INSTALLDIR still
   works but is deprecated.
+
+5.2 Note on the NML files
+-------------------------
+The repository contains a few NML files in sprites/nml/*/*.bnml which act as
+possible source for the corresponding pnfo files in sprites/nfo/*/*.pnfo files.
+NML is no requirement to build OpenGFX as the NFO files are part of the
+repository, but some repetitive alignment tasks are made a bit easier by using
+NML. The pnfo files can be generated from the bnml files by using the make
+target 'nml2nfo' which will re-generate all pnfo files which can be generated
+from bnml files.
 
 
 
