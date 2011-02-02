@@ -1,0 +1,55 @@
+/* Templates dedicated to trains within OpenGFX
+ * Based on the templates as provided by Pikka
+ */
+
+// Effectively the 28px wagons of OpenGFX are 7/8 wagons, but
+// they need a different alignment than a 7/8 wagon.
+
+// Train, 4 views, 8/8 length for arbitrary height over 12px
+template tmpl_train_4view_88short_high(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	[  0+x, y,  8, 22+z,  -3, -13-z]
+	[ 16+x, y, 20, 16+z, -15,  -5-z]
+	[ 48+x, y, 29, 12+z, -14,  -8-z]
+	[ 96+x, y, 20, 16+z,  -7,  -5-z]
+}
+// "original" offsets as by Pikka. Use when all new vehicles
+// are included and everything NML-ified
+//	[  0, y,  8, 22+z,  -3, -13-z]
+//	[ 16, y, 20, 16+z, -15,  -9-z]
+//	[ 48, y, 29, 12+z, -14,  -8-z]
+//	[ 96, y, 20, 16+z,  -7,  -9-z]
+//
+// Train, 4 views, 8/8 length for a height of 12 px
+template tmpl_train_4view_88short(x, y) { tmpl_train_4view_88short_high(x, y, 0) }
+
+// Train, 8 views, 8/8 length for arbitrary height over 12px
+template tmpl_train_8view_88short_high(x, y, z) {
+    tmpl_train_4view_88short_high(x, y, z)
+    tmpl_train_4view_88short_high(x+128, y, z)
+}
+// Train, 8 views, 8/8 length for a height of 12 px
+template tmpl_train_8view_88short(x, y) { tmpl_train_8view_88short_high(x, y, 0) }
+
+
+
+
+// Train, 4 views, 8/8 length for arbitrary height over 12px
+template tmpl_train_4view_88_high(x, y, z) {
+	[  0, y,  8, 24+z,  -3, -12-z]
+	[ 16, y, 22, 17+z, -14,  -9-z]
+	[ 48, y, 32, 12+z, -16,  -8-z]
+	[ 96, y, 22, 17+z,  -6,  -9-z]
+}
+// Train, 4 views, 8/8 length for a height of 12 px
+template tmpl_train_4view_88(x, y) { tmpl_train_4view_88_high(x, y, 0) }
+
+
+
+// Train, 8 views, 8/8 length for arbitrary height over 12px
+template tmpl_train_8view_88_high(x, y, z) {
+    tmpl_train_4view_88_high(x, y, z)
+    tmpl_train_4view_88_high(x+128, y, z)
+}
+// Train, 8 views, 8/8 length for a height of 12 px
+template tmpl_train_8view_88(x, y) { tmpl_train_8view_88_high(x, y, 0) }

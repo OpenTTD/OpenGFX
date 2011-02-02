@@ -20,6 +20,8 @@
 #include "sprites/nfo/base/base-2633-airports.pnfo"
 #include "sprites/nfo/base/base-2692-roadstops-docks.pnfo"
 #include "sprites/nfo/base/base-2733-rail-vehicles.pnfo"
+#include "sprites/nfo/base/base-3017-rail-vehicles-arctic.pnfo"
+#include "sprites/nfo/base/base-3073-effectvehicle.pnfo"
 #include "sprites/nfo/base/base-3092-road-vehicles.pnfo"
 #include "sprites/nfo/base/base-3668-ships.pnfo"
 #include "sprites/nfo/base/base-3701-smoke-explosion.pnfo"

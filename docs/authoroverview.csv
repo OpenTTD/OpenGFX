@@ -128,7 +128,7 @@ ogfx1_base;2841;2904;64;Monolev wagons;Zephyris, molace;buttercup, planetmaker;;
 ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
 ogfx1_base;2981;2992;12;Monorail engines;Born Acorn;Ammler;102;1
 ogfx1_base;2993;3016;24;Maglev engines;Born Acorn;Ammler;102;1
-ogfx1_base;3017;3072;56;Rail engines continued;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfx1_base;3017;3072;56;Rail engines arctic;buttercup, DanMacK, Purno, Uzurpator;planetmaker;;1
 ogfx1_base;3073;3078;6;Diesel smoke;FooBar;FooBar;;1
 ogfx1_base;3079;3083;5;Steam;FooBar;FooBar;;1
 ogfx1_base;3084;3089;6;Spark;Soeb;Soeb;;1
