@@ -7,7 +7,7 @@ ifeq ($(DEP_CHECK_TYPE),normal)
 	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.pnfo,$@)" >> $@
 endif
 ifeq ($(DEP_CHECK_TYPE),mdep)
-	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.nfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) > $@
+	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.cnfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) > $@
 endif
 
 test::
