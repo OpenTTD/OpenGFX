@@ -399,5 +399,6 @@ ogfxe_extra;0;155;159;[Type 16] OpenTTD GUI sprites: profits;2006TTD, planetmake
 ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch123; planetmaker;;1
 ogfxe_extra;0;843;844;Waterfeatures (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfxe_extra;0;127;128;Tropical trains and -carriages;Molace, DanMacK, Zephyris;planetmaker;;1
 ogfxe_extra;0;345;346;Additional Font Characters;Bilbo, FooBar;FooBar;;1
 ogfxe_extra;0;75;76;Temperate snow tiles;Zephyris;Zephyris;;1
