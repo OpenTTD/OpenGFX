@@ -1,214 +1,218 @@
-//3741-3904 aircraft
-//3741 Bakewell Luckett LB-8, Yate Aerospace AYAe46
-    3 sprites/png/vehiclesair021.png 66 8 09 15 39 -19 -9
-    4 sprites/png/vehiclesair021.png 114 8 09 14 32 -16 -6
-    5 sprites/png/vehiclesair021.png 162 8 09 20 36 -16 -9
-    6 sprites/png/vehiclesair021.png 210 8 09 22 31 -16 -11
-    7 sprites/png/vehiclesair021.png 258 8 09 24 39 -19 -13
-    8 sprites/png/vehiclesair021.png 306 8 09 22 32 -14 -11
-    9 sprites/png/vehiclesair021.png 354 8 01 20 36 -18 -9
-   10 sprites/png/vehiclesair021.png 402 8 09 14 31 -13 -6
-//3749 Darwin 300
-   11 sprites/png/vehiclesair021.png 450 8 09 25 50 -24 -15
-   12 sprites/png/vehiclesair021.png 514 8 09 22 48 -24 -12
-   13 sprites/png/vehiclesair021.png 578 8 09 23 56 -23 -11
-   14 sprites/png/vehiclesair021.png 642 8 09 31 48 -24 -17
-   15 sprites/png/vehiclesair021.png 706 8 09 33 49 -24 -17
-   16 sprites/png/vehiclesair021.png 2 56 09 31 48 -22 -17
-   17 sprites/png/vehiclesair021.png 66 56 01 23 56 -31 -11
-   18 sprites/png/vehiclesair021.png 130 56 09 22 48 -22 -12
-//3757 Yate Haugan
-   19 sprites/png/vehiclesair021.png 194 56 09 24 42 -20 -13
-   20 sprites/png/vehiclesair021.png 242 56 09 22 47 -21 -10
-   21 sprites/png/vehiclesair021.png 306 56 09 19 62 -26 -8
-   22 sprites/png/vehiclesair021.png 386 56 09 29 48 -22 -15
-   23 sprites/png/vehiclesair021.png 450 56 09 32 42 -20 -14
-   24 sprites/png/vehiclesair021.png 498 56 09 29 48 -24 -15
-   25 sprites/png/vehiclesair021.png 562 56 01 19 62 -34 -8
-   26 sprites/png/vehiclesair021.png 642 56 09 22 48 -24 -10
-//3765 Coleman Count
-   27 sprites/png/vehiclesair021.png 706 56 09 15 32 -15 -8
-   28 sprites/png/vehiclesair021.png 754 56 09 13 28 -13 -6
-   29 sprites/png/vehiclesair021.png 2 104 09 15 36 -16 -6
-   30 sprites/png/vehiclesair021.png 50 104 09 20 28 -13 -10
-   31 sprites/png/vehiclesair021.png 98 104 09 23 32 -15 -12
-   32 sprites/png/vehiclesair021.png 146 104 09 20 28 -13 -10
-   33 sprites/png/vehiclesair021.png 194 104 01 15 36 -18 -6
-   34 sprites/png/vehiclesair021.png 242 104 09 13 28 -13 -6
-//3773 Samson U52,
-   35 sprites/png/vehiclesair021.png 290 104 09 11 32 -15 -6
-   36 sprites/png/vehiclesair021.png 338 104 09 12 25 -11 -5
-   37 sprites/png/vehiclesair021.png 370 104 09 14 30 -13 -5
-   38 sprites/png/vehiclesair021.png 418 104 09 18 25 -11 -9
-   39 sprites/png/vehiclesair021.png 450 104 09 20 32 -15 -11
-   40 sprites/png/vehiclesair021.png 498 104 09 18 25 -12 -9
-   41 sprites/png/vehiclesair021.png 530 104 01 15 30 -15 -6
-   42 sprites/png/vehiclesair021.png 578 104 09 12 25 -12 -5
-//3781 FFP Dart, Bakewell Luckett LB-9, Bakewell Luckett LB80, Yate Aerospace YAC1-11, Darwin 100, Dinger 100
-   43 sprites/png/vehiclesair021.png 610 104 09 17 38 -18 -9
-   44 sprites/png/vehiclesair021.png 658 104 09 14 34 -18 -7
-   45 sprites/png/vehiclesair021.png 706 104 09 17 44 -22 -9
-   46 sprites/png/vehiclesair021.png 2 152 09 24 36 -19 -15
-   47 sprites/png/vehiclesair021.png 50 152 09 26 38 -18 -15
-   48 sprites/png/vehiclesair021.png 98 152 09 23 35 -14 -14
-   49 sprites/png/vehiclesair021.png 146 152 01 17 43 -20 -9
-   50 sprites/png/vehiclesair021.png 194 152 09 14 36 -15 -7
-//3789 Bakewell Luckett LB-10, Bakewell Luckett LB-11, Guru Galaxy
-   51 sprites/png/vehiclesair021.png 242 152 09 23 50 -24 -13
-   52 sprites/png/vehiclesair021.png 306 152 09 20 47 -24 -10
-   53 sprites/png/vehiclesair021.png 370 152 09 22 54 -23 -11
-   54 sprites/png/vehiclesair021.png 434 152 09 31 47 -24 -17
-   55 sprites/png/vehiclesair021.png 498 152 09 33 49 -24 -17
-   56 sprites/png/vehiclesair021.png 562 152 09 31 47 -21 -17
-   57 sprites/png/vehiclesair021.png 626 152 01 22 54 -29 -11
-   58 sprites/png/vehiclesair021.png 690 152 09 20 47 -21 -10
-//3797 Darwin 200, Darwin 400, Darwin 500, Darwin 600, Airtaxi A21, Airtaxi A31, Airtaxi A32, Airtaxi A33
-   59 sprites/png/vehiclesair021.png 2 200 09 23 50 -24 -13
-   60 sprites/png/vehiclesair021.png 66 200 09 20 47 -24 -10
-   61 sprites/png/vehiclesair021.png 130 200 09 22 54 -23 -11
-   62 sprites/png/vehiclesair021.png 194 200 09 31 47 -24 -17
-   63 sprites/png/vehiclesair021.png 258 200 09 33 49 -24 -17
-   64 sprites/png/vehiclesair021.png 322 200 09 31 47 -21 -17
-   65 sprites/png/vehiclesair021.png 386 200 01 22 54 -29 -11
-   66 sprites/png/vehiclesair021.png 450 200 09 20 47 -21 -10
-//3805 Bakewell Cotswald LB-3
-   67 sprites/png/vehiclesair021.png 514 200 09 13 36 -17 -7
-   68 sprites/png/vehiclesair021.png 562 200 09 13 28 -12 -5
-   69 sprites/png/vehiclesair021.png 610 200 09 16 33 -14 -6
-   70 sprites/png/vehiclesair021.png 658 200 09 18 28 -12 -10
-   71 sprites/png/vehiclesair021.png 706 200 09 22 36 -17 -12
-   72 sprites/png/vehiclesair021.png 754 200 09 18 28 -14 -10
-   73 sprites/png/vehiclesair021.png 2 248 01 16 33 -17 -6
-   74 sprites/png/vehiclesair021.png 50 248 09 13 28 -14 -5
-//3813 Tricario Helicopter
-   75 sprites/png/vehiclesair021.png 98 248 09 14 8 -3 -4
-   76 sprites/png/vehiclesair021.png 114 248 09 13 23 -14 -4
-   77 sprites/png/vehiclesair021.png 146 248 09 13 31 -20 -5
-   78 sprites/png/vehiclesair021.png 194 248 09 19 23 -14 -11
-   79 sprites/png/vehiclesair021.png 226 248 09 21 8 -3 -13
-   80 sprites/png/vehiclesair021.png 242 248 09 19 23 -7 -11
-   81 sprites/png/vehiclesair021.png 274 248 01 13 31 -9 -5
-   82 sprites/png/vehiclesair021.png 322 248 09 13 23 -7 -4
-//3821 FFP Hyperdart 2
-   83 sprites/png/vehiclesair021.png 354 248 09 17 36 -17 -8
-   84 sprites/png/vehiclesair021.png 402 248 09 18 34 -16 -6
-   85 sprites/png/vehiclesair021.png 450 248 09 21 37 -14 -8
-   86 sprites/png/vehiclesair021.png 498 248 09 23 34 -16 -11
-   87 sprites/png/vehiclesair021.png 546 248 09 25 36 -17 -11
-   88 sprites/png/vehiclesair021.png 594 248 09 23 34 -16 -11
-   89 sprites/png/vehiclesair021.png 642 248 01 21 37 -21 -8
-   90 sprites/png/vehiclesair021.png 690 248 09 18 34 -16 -6
-//3829 Dinger 200
-   91 sprites/png/vehiclesair021.png 738 248 09 26 44 -21 -12
-   92 sprites/png/vehiclesair021.png 2 296 09 25 42 -23 -10
-   93 sprites/png/vehiclesair021.png 50 296 09 22 48 -25 -9
-   94 sprites/png/vehiclesair021.png 114 296 09 28 42 -23 -16
-   95 sprites/png/vehiclesair021.png 162 296 09 33 45 -21 -19
-   96 sprites/png/vehiclesair021.png 226 296 09 28 42 -17 -16
-   97 sprites/png/vehiclesair021.png 274 296 01 22 48 -21 -9
-   98 sprites/png/vehiclesair021.png 338 296 09 25 42 -17 -10
-//3837 Dinger 1000
-   99 sprites/png/vehiclesair021.png 386 296 09 24 50 -24 -13
-  100 sprites/png/vehiclesair021.png 450 296 09 22 47 -21 -10
-  101 sprites/png/vehiclesair021.png 514 296 09 26 62 -26 -13
-  102 sprites/png/vehiclesair021.png 594 296 09 32 47 -21 -18
-  103 sprites/png/vehiclesair021.png 658 296 09 34 50 -24 -16
-  104 sprites/png/vehiclesair021.png 722 296 09 32 47 -24 -18
-  105 sprites/png/vehiclesair021.png 2 344 01 26 62 -34 -13
-  106 sprites/png/vehiclesair021.png 82 344 09 22 47 -24 -10
-//3845 YateZ-Shuttle
-  107 sprites/png/vehiclesair021.png 146 344 09 21 46 -22 -8
-  108 sprites/png/vehiclesair021.png 210 344 09 21 44 -25 -6
-  109 sprites/png/vehiclesair021.png 274 344 09 21 44 -19 -8
-  110 sprites/png/vehiclesair021.png 338 344 09 20 44 -25 -8
-  111 sprites/png/vehiclesair021.png 402 344 09 22 46 -22 -7
-  112 sprites/png/vehiclesair021.png 466 344 09 20 44 -17 -8
-  113 sprites/png/vehiclesair021.png 530 344 01 21 44 -23 -8
-  114 sprites/png/vehiclesair021.png 594 344 09 21 44 -17 -6
-//3853 Airtaxi A34-1000
-  115 sprites/png/vehiclesair021.png 658 344 09 24 62 -30 -8
-  116 sprites/png/vehiclesair021.png 738 344 09 25 51 -30 -6
-  117 sprites/png/vehiclesair021.png 2 392 09 29 47 -23 -11
-  118 sprites/png/vehiclesair021.png 66 392 09 24 51 -30 -11
-  119 sprites/png/vehiclesair021.png 130 392 09 24 62 -30 -8
-  120 sprites/png/vehiclesair021.png 210 392 09 24 51 -19 -11
-  121 sprites/png/vehiclesair021.png 274 392 01 29 47 -22 -11
-  122 sprites/png/vehiclesair021.png 338 392 09 25 51 -19 -6
-//3861 Kelling K6
-  123 sprites/png/vehiclesair021.png 402 392 09 24 47 -22 -13
-  124 sprites/png/vehiclesair021.png 466 392 09 23 48 -24 -10
-  125 sprites/png/vehiclesair021.png 530 392 09 24 57 -25 -11
-  126 sprites/png/vehiclesair021.png 594 392 09 30 48 -24 -17
-  127 sprites/png/vehiclesair021.png 658 392 09 34 47 -23 -18
-  128 sprites/png/vehiclesair021.png 722 392 09 30 48 -22 -17
-  129 sprites/png/vehiclesair021.png 2 440 01 24 57 -30 -11
-  130 sprites/png/vehiclesair021.png 66 440 09 23 48 -22 -10
-//3869 Kelling K7
-  131 sprites/png/vehiclesair021.png 130 440 09 19 27 -12 -8
-  132 sprites/png/vehiclesair021.png 162 440 09 17 37 -18 -6
-  133 sprites/png/vehiclesair021.png 210 440 09 18 51 -26 -8
-  134 sprites/png/vehiclesair021.png 274 440 09 28 37 -18 -15
-  135 sprites/png/vehiclesair021.png 322 440 09 28 27 -13 -13
-  136 sprites/png/vehiclesair021.png 354 440 09 28 37 -17 -15
-  137 sprites/png/vehiclesair021.png 402 440 01 18 51 -23 -8
-  138 sprites/png/vehiclesair021.png 466 440 09 17 37 -17 -6
-//3877 Darwin 700
-  139 sprites/png/vehiclesair021.png 514 440 09 19 35 -16 -8
-  140 sprites/png/vehiclesair021.png 562 440 09 19 39 -18 -7
-  141 sprites/png/vehiclesair021.png 610 440 09 20 51 -26 -8
-  142 sprites/png/vehiclesair021.png 674 440 09 28 38 -18 -15
-  143 sprites/png/vehiclesair021.png 722 440 09 28 36 -17 -13
-  144 sprites/png/vehiclesair021.png 2 488 09 28 39 -19 -15
-  145 sprites/png/vehiclesair021.png 50 488 01 20 51 -23 -8
-  146 sprites/png/vehiclesair021.png 114 488 09 19 39 -19 -7
-//3885 Kelling K1
-  147 sprites/png/vehiclesair021.png 162 488 09 18 44 -21 -9
-  148 sprites/png/vehiclesair021.png 226 488 09 16 38 -15 -7
-  149 sprites/png/vehiclesair021.png 274 488 09 20 40 -16 -8
-  150 sprites/png/vehiclesair021.png 322 488 09 16 38 -15 -5
-  151 sprites/png/vehiclesair021.png 370 488 09 19 44 -21 -5
-  152 sprites/png/vehiclesair021.png 434 488 09 16 38 -21 -5
-  153 sprites/png/vehiclesair021.png 482 488 01 20 40 -22 -8
-  154 sprites/png/vehiclesair021.png 530 488 09 17 38 -21 -8
-//3893 Guru X2 helicopter
-  155 sprites/png/vehiclesair021.png 578 488 09 13 14 -6 -5
-  156 sprites/png/vehiclesair021.png 610 488 09 11 19 -10 -4
-  157 sprites/png/vehiclesair021.png 642 488 09 10 24 -13 -4
-  158 sprites/png/vehiclesair021.png 674 488 09 13 19 -10 -6
-  159 sprites/png/vehiclesair021.png 706 488 09 15 12 -5 -7
-  160 sprites/png/vehiclesair021.png 738 488 09 13 19 -7 -6
-  161 sprites/png/vehiclesair021.png 770 488 01 10 24 -9 -4
-  162 sprites/png/vehiclesair021.png 2 536 09 11 19 -7 -4
-//3901 Helicopter rotors
-  163 sprites/png/vehiclesair021.png 34 536 09 10 22 -10 -3
-  164 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5
-  165 sprites/png/vehiclesair021.png 114 536 01 14 30 -14 -5
-  166 sprites/png/vehiclesair021.png 162 536 01 14 30 -14 -5
+// Automatically generated by GRFCODEC. Do not modify!
+// (Info version 7)
+// Escapes: 2+ 2- 2< 2> 2u< 2u> 2/ 2% 2u/ 2u% 2* 2& 2| 2^ 2sto = 2s 2rst = 2r 2psto 2ror = 2rot 2cmp 2ucmp 2<< 2u>> 2>>
+// Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
+// Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-//3905-3932 weird air vehiclescraftsthingsandsubmarine
-//3905-3907 broken blimp
-  167 sprites/png/vehiclesair021.png 210 536 09 48 76 -40 -30
-  168 sprites/png/vehiclesair021.png 306 536 09 66 73 -38 -33
-  169 sprites/png/vehiclesair021.png 386 536 09 65 77 -37 -43
-//3908-3909 small ufo
-   20 sprites/png/eyecandy.png 642 8 09 13 19 -8 -7
-   21 sprites/png/eyecandy.png 674 8 09 13 19 -8 -7
-//3910-3917 submarines
- 3910 sprites/png/random.png 360 333 09 17 10 -4 -14
- 3911 sprites/png/random.png 380 333 09 17 10 -4 -14
- 3912 sprites/png/random.png 400 333 09 17 10 -4 -14
- 3913 sprites/png/random.png 420 333 09 17 10 -4 -14
- 3914 sprites/png/random.png 440 333 09 27 20 -9 -21
- 3915 sprites/png/random.png 470 333 09 27 20 -9 -21
- 3916 sprites/png/random.png 500 333 09 27 20 -9 -21
- 3917 sprites/png/random.png 530 333 09 27 20 -9 -21
-//3918-3919 small fighter
-    1 sprites/png/random.png 10 10 09 18 35 -13 -8
-    2 sprites/png/random.png 58 10 09 18 35 -13 -8
-//3920 large ufo
- 3920 sprites/png/random.png 602 10 09 21 35 -15 -10
-//3921 large fighter
- 3921 sprites/png/random.png 551 10 09 18 31 -12 -12
-//3922-3923 apache fighter
-    3 sprites/png/random.png 122 10 09 23 25 -10 -16
-    4 sprites/png/random.png 162 10 09 23 25 -10 -16
+3741 sprites/png/aircraft/BL-LB8-YateYAe46.png 3 25 01 18 40 -20 -9 
+3742 sprites/png/aircraft/BL-LB8-YateYAe46.png 51 25 01 15 36 -19 -5 
+3743 sprites/png/aircraft/BL-LB8-YateYAe46.png 99 25 01 22 42 -21 -11 
+3744 sprites/png/aircraft/BL-LB8-YateYAe46.png 147 25 01 29 36 -18 -14 
+3745 sprites/png/aircraft/BL-LB8-YateYAe46.png 195 25 01 32 40 -20 -16 
+3746 sprites/png/aircraft/BL-LB8-YateYAe46.png 243 25 01 29 36 -12 -16 
+3747 sprites/png/aircraft/BL-LB8-YateYAe46.png 291 25 01 22 42 -21 -11 
+3748 sprites/png/aircraft/BL-LB8-YateYAe46.png 339 25 01 15 36 -16 -5 
+
+3749 sprites/png/aircraft/Darwin300.png 3 20 01 32 66 -33 -16 
+3750 sprites/png/aircraft/Darwin300.png 83 20 01 32 60 -39 -12 
+3751 sprites/png/aircraft/Darwin300.png 163 20 01 34 69 -34 -17 
+3752 sprites/png/aircraft/Darwin300.png 243 20 01 42 58 -29 -21 
+3753 sprites/png/aircraft/Darwin300.png 307 20 01 43 64 -32 -21 
+3754 sprites/png/aircraft/Darwin300.png 387 20 01 42 58 -23 -24 
+3755 sprites/png/aircraft/Darwin300.png 451 20 01 34 69 -34 -17 
+3756 sprites/png/aircraft/Darwin300.png 531 20 01 32 60 -18 -8 
+
+3757 sprites/png/vehiclesair021.png 194 56 01 24 42 -20 -13 
+3758 sprites/png/vehiclesair021.png 242 56 01 22 47 -21 -10 
+3759 sprites/png/vehiclesair021.png 306 56 01 19 62 -26 -8 
+3760 sprites/png/vehiclesair021.png 386 56 01 29 48 -22 -15 
+3761 sprites/png/vehiclesair021.png 450 56 01 32 42 -20 -14 
+3762 sprites/png/vehiclesair021.png 498 56 01 29 48 -24 -15 
+3763 sprites/png/vehiclesair021.png 562 56 01 19 62 -34 -8 
+3764 sprites/png/vehiclesair021.png 642 56 01 22 48 -24 -10 
+
+3765 sprites/png/vehiclesair021.png 706 56 01 15 32 -15 -8 
+3766 sprites/png/vehiclesair021.png 754 56 01 13 28 -13 -6 
+3767 sprites/png/vehiclesair021.png 2 104 01 15 36 -16 -6 
+3768 sprites/png/vehiclesair021.png 50 104 01 20 28 -13 -10 
+3769 sprites/png/vehiclesair021.png 98 104 01 23 32 -15 -12 
+3770 sprites/png/vehiclesair021.png 146 104 01 20 28 -13 -10 
+3771 sprites/png/vehiclesair021.png 194 104 01 15 36 -18 -6 
+3772 sprites/png/vehiclesair021.png 242 104 01 13 28 -13 -6 
+
+3773 sprites/png/vehiclesair021.png 290 104 01 11 32 -15 -6 
+3774 sprites/png/vehiclesair021.png 338 104 01 12 25 -11 -5 
+3775 sprites/png/vehiclesair021.png 370 104 01 14 30 -13 -5 
+3776 sprites/png/vehiclesair021.png 418 104 01 18 25 -11 -9 
+3777 sprites/png/vehiclesair021.png 450 104 01 20 32 -15 -11 
+3778 sprites/png/vehiclesair021.png 498 104 01 18 25 -12 -9 
+3779 sprites/png/vehiclesair021.png 530 104 01 15 30 -15 -6 
+3780 sprites/png/vehiclesair021.png 578 104 01 12 25 -12 -5 
+
+3781 sprites/png/vehiclesair021.png 610 104 01 17 38 -18 -9 
+3782 sprites/png/vehiclesair021.png 658 104 01 14 34 -18 -7 
+3783 sprites/png/vehiclesair021.png 706 104 01 17 44 -22 -9 
+3784 sprites/png/vehiclesair021.png 2 152 01 24 36 -19 -15 
+3785 sprites/png/vehiclesair021.png 50 152 01 26 38 -18 -15 
+3786 sprites/png/vehiclesair021.png 98 152 01 23 35 -14 -14 
+3787 sprites/png/vehiclesair021.png 146 152 01 17 43 -20 -9 
+3788 sprites/png/vehiclesair021.png 194 152 01 14 36 -15 -7 
+
+3789 sprites/png/vehiclesair021.png 242 152 01 23 50 -24 -13 
+3790 sprites/png/vehiclesair021.png 306 152 01 20 47 -24 -10 
+3791 sprites/png/vehiclesair021.png 370 152 01 22 54 -23 -11 
+3792 sprites/png/vehiclesair021.png 434 152 01 31 47 -24 -17 
+3793 sprites/png/vehiclesair021.png 498 152 01 33 49 -24 -17 
+3794 sprites/png/vehiclesair021.png 562 152 01 31 47 -21 -17 
+3795 sprites/png/vehiclesair021.png 626 152 01 22 54 -29 -11 
+3796 sprites/png/vehiclesair021.png 690 152 01 20 47 -21 -10 
+
+3797 sprites/png/vehiclesair021.png 2 200 01 23 50 -24 -13 
+3798 sprites/png/vehiclesair021.png 66 200 01 20 47 -24 -10 
+3799 sprites/png/vehiclesair021.png 130 200 01 22 54 -23 -11 
+3800 sprites/png/vehiclesair021.png 194 200 01 31 47 -24 -17 
+3801 sprites/png/vehiclesair021.png 258 200 01 33 49 -24 -17 
+3802 sprites/png/vehiclesair021.png 322 200 01 31 47 -21 -17 
+3803 sprites/png/vehiclesair021.png 386 200 01 22 54 -29 -11 
+3804 sprites/png/vehiclesair021.png 450 200 01 20 47 -21 -10 
+
+3805 sprites/png/vehiclesair021.png 514 200 01 13 36 -17 -7 
+3806 sprites/png/vehiclesair021.png 562 200 01 13 28 -12 -5 
+3807 sprites/png/vehiclesair021.png 610 200 01 16 33 -14 -6 
+3808 sprites/png/vehiclesair021.png 658 200 01 18 28 -12 -10 
+3809 sprites/png/vehiclesair021.png 706 200 01 22 36 -17 -12 
+3810 sprites/png/vehiclesair021.png 754 200 01 18 28 -14 -12 
+3811 sprites/png/vehiclesair021.png 2 248 01 16 33 -17 -6 
+3812 sprites/png/vehiclesair021.png 50 248 01 13 28 -14 -5 
+
+3813 sprites/png/vehiclesair021.png 98 248 01 14 8 -3 -4 
+3814 sprites/png/vehiclesair021.png 114 248 01 13 23 -14 -4 
+3815 sprites/png/vehiclesair021.png 146 248 01 13 31 -20 -5 
+3816 sprites/png/vehiclesair021.png 194 248 01 19 23 -14 -11 
+3817 sprites/png/vehiclesair021.png 226 248 01 21 8 -3 -13 
+3818 sprites/png/vehiclesair021.png 242 248 01 19 23 -7 -11 
+3819 sprites/png/vehiclesair021.png 274 248 01 13 31 -9 -5 
+3820 sprites/png/vehiclesair021.png 322 248 01 13 23 -7 -4 
+
+3821 sprites/png/vehiclesair021.png 354 248 01 17 36 -17 -8 
+3822 sprites/png/vehiclesair021.png 402 248 01 18 34 -16 -6 
+3823 sprites/png/vehiclesair021.png 450 248 01 21 37 -14 -6 
+3824 sprites/png/vehiclesair021.png 498 248 01 23 34 -16 -11 
+3825 sprites/png/vehiclesair021.png 546 248 01 25 36 -17 -11 
+3826 sprites/png/vehiclesair021.png 594 248 01 23 34 -16 -11 
+3827 sprites/png/vehiclesair021.png 642 248 01 21 37 -21 -8 
+3828 sprites/png/vehiclesair021.png 690 248 01 18 34 -16 -6 
+
+3829 sprites/png/vehiclesair021.png 738 248 01 26 44 -21 -12 
+3830 sprites/png/vehiclesair021.png 2 296 01 25 42 -23 -10 
+3831 sprites/png/vehiclesair021.png 50 296 01 22 48 -25 -9 
+3832 sprites/png/vehiclesair021.png 114 296 01 28 42 -23 -16 
+3833 sprites/png/vehiclesair021.png 162 296 01 33 45 -21 -19 
+3834 sprites/png/vehiclesair021.png 226 296 01 28 42 -17 -16 
+3835 sprites/png/vehiclesair021.png 274 296 01 1 22 48 -21 
+3836 sprites/png/vehiclesair021.png 338 296 01 25 42 -17 -10 
+
+3837 sprites/png/vehiclesair021.png 386 296 01 24 50 -24 -13 
+3838 sprites/png/vehiclesair021.png 450 296 01 22 47 -21 -10 
+3839 sprites/png/vehiclesair021.png 514 296 01 26 62 -26 -13 
+3840 sprites/png/vehiclesair021.png 594 296 01 32 47 -21 -18 
+3841 sprites/png/vehiclesair021.png 658 296 01 34 50 -24 -16 
+3842 sprites/png/vehiclesair021.png 722 296 01 32 47 -24 -18 
+3843 sprites/png/vehiclesair021.png 2 344 01 1 26 62 -34 
+3844 sprites/png/vehiclesair021.png 82 344 01 22 47 -24 -10 
+
+3845 sprites/png/vehiclesair021.png 146 344 01 21 46 -22 -8 
+3846 sprites/png/vehiclesair021.png 210 344 01 21 44 -25 -6 
+3847 sprites/png/vehiclesair021.png 274 344 01 21 44 -19 -8 
+3848 sprites/png/vehiclesair021.png 338 344 01 20 44 -25 -8 
+3849 sprites/png/vehiclesair021.png 402 344 01 22 46 -22 -7 
+3850 sprites/png/vehiclesair021.png 466 344 01 20 44 -17 -8 
+3851 sprites/png/vehiclesair021.png 530 344 01 1 21 44 -23 
+3852 sprites/png/vehiclesair021.png 594 344 01 21 44 -17 -6 
+
+3853 sprites/png/vehiclesair021.png 658 344 01 24 62 -30 -8 
+3854 sprites/png/vehiclesair021.png 738 344 01 25 51 -30 -6 
+3855 sprites/png/vehiclesair021.png 2 392 01 29 47 -23 -11 
+3856 sprites/png/vehiclesair021.png 66 392 01 24 51 -30 -11 
+3857 sprites/png/vehiclesair021.png 130 392 01 24 62 -30 -8 
+3858 sprites/png/vehiclesair021.png 210 392 01 24 51 -19 -11 
+3859 sprites/png/vehiclesair021.png 274 392 01 1 29 47 -22 
+3860 sprites/png/vehiclesair021.png 338 392 01 25 51 -19 -6 
+
+3861 sprites/png/vehiclesair021.png 402 392 01 24 47 -22 -13 
+3862 sprites/png/vehiclesair021.png 466 392 01 23 48 -24 -10 
+3863 sprites/png/vehiclesair021.png 530 392 01 24 57 -25 -11 
+3864 sprites/png/vehiclesair021.png 594 392 01 30 48 -24 -17 
+3865 sprites/png/vehiclesair021.png 658 392 01 34 47 -23 -18 
+3866 sprites/png/vehiclesair021.png 722 392 01 30 48 -22 -17 
+3867 sprites/png/vehiclesair021.png 2 440 01 1 24 57 -30 
+3868 sprites/png/vehiclesair021.png 66 440 01 23 48 -22 -10 
+
+3869 sprites/png/vehiclesair021.png 130 440 01 19 27 -12 -8 
+3870 sprites/png/vehiclesair021.png 162 440 01 17 37 -18 -6 
+3871 sprites/png/vehiclesair021.png 210 440 01 18 51 -26 -8 
+3872 sprites/png/vehiclesair021.png 274 440 01 28 37 -18 -15 
+3873 sprites/png/vehiclesair021.png 322 440 01 28 27 -13 -13 
+3874 sprites/png/vehiclesair021.png 354 440 01 28 37 -17 -15 
+3875 sprites/png/vehiclesair021.png 402 440 01 1 18 51 -23 
+3876 sprites/png/vehiclesair021.png 466 440 01 17 37 -17 -6 
+
+3877 sprites/png/vehiclesair021.png 514 440 01 19 35 -16 -8 
+3878 sprites/png/vehiclesair021.png 562 440 01 19 39 -18 -7 
+3879 sprites/png/vehiclesair021.png 610 440 01 20 51 -26 -8 
+3880 sprites/png/vehiclesair021.png 674 440 01 28 38 -18 -15 
+3881 sprites/png/vehiclesair021.png 722 440 01 28 36 -17 -13 
+3882 sprites/png/vehiclesair021.png 2 488 01 28 39 -19 -15 
+3883 sprites/png/vehiclesair021.png 50 488 01 1 20 51 -23 
+3884 sprites/png/vehiclesair021.png 114 488 01 19 39 -19 -7 
+
+3885 sprites/png/vehiclesair021.png 162 488 01 18 44 -21 -9 
+3886 sprites/png/vehiclesair021.png 226 488 01 16 38 -15 -7 
+3887 sprites/png/vehiclesair021.png 274 488 01 20 40 -16 -8 
+3888 sprites/png/vehiclesair021.png 322 488 01 16 38 -15 -5 
+3889 sprites/png/vehiclesair021.png 370 488 01 19 44 -21 -5 
+3890 sprites/png/vehiclesair021.png 434 488 01 16 38 -21 -5 
+3891 sprites/png/vehiclesair021.png 482 488 01 1 20 40 -22 
+3892 sprites/png/vehiclesair021.png 530 488 01 17 38 -21 -8 
+
+3893 sprites/png/vehiclesair021.png 578 488 01 13 14 -6 -5 
+3894 sprites/png/vehiclesair021.png 610 488 01 11 19 -10 -4 
+3895 sprites/png/vehiclesair021.png 642 488 01 10 24 -13 -4 
+3896 sprites/png/vehiclesair021.png 674 488 01 13 19 -10 -6 
+3897 sprites/png/vehiclesair021.png 706 488 01 15 12 -5 -7 
+3898 sprites/png/vehiclesair021.png 738 488 01 13 19 -7 -6 
+3899 sprites/png/vehiclesair021.png 770 488 01 1 10 24 -9 
+3900 sprites/png/vehiclesair021.png 2 536 01 11 19 -7 -4 
+
+3901 sprites/png/vehiclesair021.png 34 536 01 10 22 -10 -3 
+3902 sprites/png/vehiclesair021.png 66 536 01 1 14 30 -14 
+3903 sprites/png/vehiclesair021.png 114 536 01 1 14 30 -14 
+3904 sprites/png/vehiclesair021.png 162 536 01 1 14 30 -14 
+
+3905 sprites/png/vehiclesair021.png 210 536 01 48 76 -40 -30 
+3906 sprites/png/vehiclesair021.png 306 536 01 66 73 -38 -33 
+3907 sprites/png/vehiclesair021.png 386 536 01 65 77 -37 -43 
+
+3908 sprites/png/eyecandy.png 642 8 01 13 19 -8 -7 
+3909 sprites/png/eyecandy.png 674 8 01 13 19 -8 -7 
+
+3910 sprites/png/random.png 360 333 01 17 10 -4 -14 
+3911 sprites/png/random.png 380 333 01 17 10 -4 -14 
+3912 sprites/png/random.png 400 333 01 17 10 -4 -14 
+3913 sprites/png/random.png 420 333 01 17 10 -4 -14 
+3914 sprites/png/random.png 440 333 01 27 20 -9 -21 
+3915 sprites/png/random.png 470 333 01 27 20 -9 -21 
+3916 sprites/png/random.png 500 333 01 27 20 -9 -21 
+3917 sprites/png/random.png 530 333 01 27 20 -9 -21 
+
+3918 sprites/png/random.png 10 10 01 18 35 -13 -8 
+3919 sprites/png/random.png 58 10 01 18 35 -13 -8 
+
+3920 sprites/png/random.png 602 10 01 21 35 -15 -10 
+
+3921 sprites/png/random.png 551 10 01 18 31 -12 -12 
+
+3922 sprites/png/random.png 122 10 01 23 25 -10 -16 
+3923 sprites/png/random.png 162 10 01 23 25 -10 -16 
+
