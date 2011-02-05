@@ -142,7 +142,7 @@ ogfx1_base;3701;3708;8;Large smoker;FooBar;FooBar;;1
 ogfx1_base;3709;3724;16;Explosion large;Zephyris;FooBar;;1
 ogfx1_base;3725;3736;12;Explosion small;Zephyris;FooBar;;1
 ogfx1_base;3737;3740;4;Breakdown smoke;FooBar;FooBar;;1
-ogfx1_base;3741;3904;164;Aeroplanes;Zephyris;Zephyris;;1
+ogfx1_base;3741;3904;164;Aircraft;Zephyris, Pikka, DanMacK;Zephyris, planetmaker;;1
 ogfx1_base;3905;3907;3;Broken airship;PikkaBird, Zephyris;Zephyris;;1
 ogfx1_base;3908;3909;2;Ufo small;DanMacK;Soeb;;1
 ogfx1_base;3910;3917;8;Submarine;FooBar;FooBar;;1
