@@ -228,9 +228,9 @@ base_graphics(3893, "sprites/png/vehiclesair021.png") {
 base_graphics(3901, "sprites/png/vehiclesair021.png") {
 //3901 Helicopter rotors
 	[34, 536, 22, 10, -10, -3]
-	[66, 536, 14, 01, 30, -14]
-	[114, 536, 14, 01, 30, -14]
-	[162, 536, 14, 01, 30, -14]
+	[66, 536, 30, 14, -14, -5]
+	[114, 536, 30, 14, -14, -5]
+	[162, 536, 30, 14, -14, -5]
 }
 
 //3905-3932 weird air vehiclescraftsthingsandsubmarine

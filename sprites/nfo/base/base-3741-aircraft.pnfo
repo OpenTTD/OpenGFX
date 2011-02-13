@@ -19,7 +19,7 @@
 3751 sprites/png/aircraft/Darwin300.png 163 20 01 34 69 -34 -17 
 3752 sprites/png/aircraft/Darwin300.png 243 20 01 42 58 -29 -21 
 3753 sprites/png/aircraft/Darwin300.png 307 20 01 43 64 -32 -21 
-3754 sprites/png/aircraft/Darwin300.png 387 20 01 42 58 -23 -24 
+3754 sprites/png/aircraft/Darwin300.png 387 20 01 42 58 -21 -26 
 3755 sprites/png/aircraft/Darwin300.png 451 20 01 34 69 -34 -17 
 3756 sprites/png/aircraft/Darwin300.png 531 20 01 32 60 -18 -8 
 
@@ -186,9 +186,9 @@
 3900 sprites/png/vehiclesair021.png 2 536 01 11 19 -7 -4 
 
 3901 sprites/png/vehiclesair021.png 34 536 01 10 22 -10 -3 
-3902 sprites/png/vehiclesair021.png 66 536 01 1 14 30 -14 
-3903 sprites/png/vehiclesair021.png 114 536 01 1 14 30 -14 
-3904 sprites/png/vehiclesair021.png 162 536 01 1 14 30 -14 
+3902 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5 
+3903 sprites/png/vehiclesair021.png 114 536 01 14 30 -14 -5 
+3904 sprites/png/vehiclesair021.png 162 536 01 14 30 -14 -5 
 
 3905 sprites/png/vehiclesair021.png 210 536 01 48 76 -40 -30 
 3906 sprites/png/vehiclesair021.png 306 536 01 66 73 -38 -33 
