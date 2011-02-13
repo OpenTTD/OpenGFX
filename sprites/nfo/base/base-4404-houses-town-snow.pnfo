@@ -104,7 +104,7 @@ HOUSE_HEIGHT87(sprites/png/houses/base-4477-4479.4577-office.png, 176)  // Recol
  4489 sprites/png/morebuilding2.png 358 2 03 114 64 -31 -83
  4490 sprites/png/morebuilding2.png 284 2 03 114 64 -31 -84
  4491 sprites/png/morebuilding2.png 212 2 09 114 64 -31 -83
- 4492 sprites/png/morebuilding2.png 138 2 09 114 64 -31 -84
+ 4492 sprites/png/morebuilding2.png 138 2 09 114 64 -31 -83
 
 
 //4493-4511 snow stage 1
@@ -225,4 +225,4 @@ HOUSE_HEIGHT87(sprites/png/houses/base-4477-4479.4577-office.png, 264)  // Recol
  4585 sprites/png/morebuilding2.png 784 2 09 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN
 //snow equiv of 4485-4492 (offices)
  4586 sprites/png/morebuilding2.png 504 2 09 114 64 -31 -83
- 4587 sprites/png/morebuilding2.png 430 2 09 114 64 -31 -84
+ 4587 sprites/png/morebuilding2.png 430 2 09 114 64 -31 -83
