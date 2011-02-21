@@ -245,16 +245,19 @@
   195 sprites/png/industries010.png 242 1080 03 31 64 -31 0
   196 sprites/png/industries010.png 322 1080 03 31 64 -31 0
   197 sprites/png/industries010.png 402 1080 03 31 64 -31 0
+  
   198 sprites/png/industries010.png 482 1080 03 31 64 -31 0
   199 sprites/png/industries010.png 562 1080 03 31 64 -31 0
   200 sprites/png/industries010.png 642 1080 03 31 64 -31 0
   201 sprites/png/industries010.png 722 1080 03 31 64 -31 0
   202 sprites/png/industries010.png 2 1128 03 31 64 -31 0
   203 sprites/png/industries010.png 82 1128 03 31 64 -31 0
-  204 sprites/png/industries010.png 162 1128 03 31 64 -31 0
+//  204 sprites/png/industries010.png 162 1128 03 31 64 -31 0 // wrong sprite in graphics file, use next:
+  220 sprites/png/industries010.png 642 1192 03 31 64 -31 0
   205 sprites/png/industries010.png 242 1128 03 31 64 -31 0
   206 sprites/png/industries010.png 322 1128 03 31 64 -31 0
   207 sprites/png/industries010.png 402 1128 03 31 64 -31 0
+
   208 sprites/png/industries010.png 482 1128 03 31 64 -31 0
   209 sprites/png/industries010.png 562 1128 03 42 64 -31 -11
   210 sprites/png/industries010.png 642 1128 03 31 64 -31 0
@@ -265,8 +268,11 @@
   215 sprites/png/industries010.png 242 1192 03 31 64 -31 0
   216 sprites/png/industries010.png 322 1192 03 31 64 -31 0
   217 sprites/png/industries010.png 402 1192 03 31 64 -31 0
-  218 sprites/png/industries010.png 482 1192 03 31 64 -31 0
-  219 sprites/png/industries010.png 562 1192 03 31 64 -31 0
+
+//  218 sprites/png/industries010.png 482 1192 03 31 64 -31 0 // wrong sprite there in file. Use next:
+  202 sprites/png/industries010.png 2 1128 03 31 64 -31 0
+//  219 sprites/png/industries010.png 562 1192 03 31 64 -31 0 // wrong sprite there in file. Use next:
+  203 sprites/png/industries010.png 82 1128 03 31 64 -31 0
   220 sprites/png/industries010.png 642 1192 03 31 64 -31 0
   221 sprites/png/industries010.png 722 1192 03 31 64 -31 0
   222 sprites/png/industries010.png 2 1256 03 31 64 -31 0
