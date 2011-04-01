@@ -1,3 +1,27 @@
+OpenGFX 0.3.3 (1 Apr 2011)
+-------------------------------------
+- Feature: Separate rail engine sprites for the tropical climate and rework wagons to 29px
+- Add: New sprites for the Darwin300 and the Bakewell Luckett aircraft
+- Add: Allow to also generate parts of the extra grf
+- Add: Allow to manually generate pnfo files via nml
+- Add: allow to use includes in the nml files
+- Change: Add the a NML file for the aircraft
+- Change: Use the base_sprite variable in some nml files
+- Cleanup: Remove outdated and unused graphics files
+- Doc: Aircraft sprites
+- Fix: Updated and resized sprites for the arctic engines
+- Fix: Glitch with horizontal monorail track
+- Fix: misalignment 1px
+- Fix: Airport hangar was slightly too big
+- Fix: Add missing graphics file
+- Fix: Add static meta data (action14) to the extra newgrf
+- Fix: build script didn't update to tag for releases
+- Fix: commit all necessary hooks
+- Fix: Glitch with some maglev crossing sprites
+- Fix: [Makefile] A re-build was not always triggered when required
+- Fix: Helicopter sprite sizes were converted wrongly
+
+
 OpenGFX 0.3.2 (22 Dec 2010)
 -------------------------------------
 - Feature: New toyland aircraft with faces
