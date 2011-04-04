@@ -2,17 +2,151 @@
  * Based on the templates as provided by Pikka
  */
 
-// Effectively the 28px wagons of OpenGFX are 7/8 wagons, but
-// they need a different alignment than a 7/8 wagon.
+/*
+ * =========================
+ * Full length templates
+ * =========================
+ */
 
-// Train, 4 views, 8/8 length for arbitrary height over 12px
-template tmpl_train_4view_88short_high(x, y, z) {
-    /* Slightly odd offsets esp. in the / views */
-	[  0+x, y,  8, 22+z,  -3, -13-z]
-	[ 16+x, y, 20, 16+z, -13,  -6-z]
-	[ 48+x, y, 29, 12+z, -14,  -7-z]
-	[ 96+x, y, 20, 16+z,  -6,  -6-z]
+template tmpl_train_4view_88length_high_width_height_offset
+	(x2, x3, x4, ew2, ew3, ew4, h1, h2, h3, h4, w, x, y, z) {
+	[  0+x, y,  8,     18+z+h1,  -3, -13-z]
+	[ x2+x, y, 20+ew2, 16+z+h2, -13,  -6-z]
+	[ x3+x, y,  w+ew3, 12+z+h3, -14,  -7-z]
+	[ x4+x, y, 20+ew4, 16+z+h4,  -6,  -6-z]
 }
+
+/*
+ * 28 pixels
+ */
+
+// Train, 4 views, 8/8 length (28px) for arbitrary height over 12px
+template tmpl_train_4view_88length_28px_high(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		(16, 48, 96,   0, 0, 0,   0, 0, 0, 0,   28,   x, y, z)
+}
+// Train, 4 views, 8/8 length (28px) for a height of 12 px
+template tmpl_train_4view_88length_28px(x, y) { tmpl_train_4view_88length_28px_high(x, y, 0) }
+
+
+// Train, 8 views, 8/8 length (28px) for arbitrary height over 12px
+template tmpl_train_8view_88length_28px_high(x, y, z) {
+    tmpl_train_4view_88length_28px_high(x, y, z)
+    tmpl_train_4view_88length_28px_high(x+128, y, z)
+}
+// Train, 8 views, 8/8 (28px) length for a height of 12 px
+template tmpl_train_8view_88length_28px(x, y) { tmpl_train_8view_88length_28px_high(x, y, 0) }
+
+/*
+ * 29 pixels
+ */
+
+// Train, 4 views, 8/8 length (29px) for arbitrary height over 12px
+template tmpl_train_4view_88length_29px_high(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		(16, 48, 96,   0, 0, 0,   4, 0, 0, 0,   29,   x, y, z)
+}
+// Train, 4 views, 8/8 length (29px) for a height of 12 px
+template tmpl_train_4view_88length_29px(x, y) { tmpl_train_4view_88length_29px_high(x, y, 0) }
+
+
+// Train, 8 views, 8/8 length (29px) for arbitrary height over 12px
+template tmpl_train_8view_88length_29px_high(x, y, z) {
+    tmpl_train_4view_88length_29px_high(x, y, z)
+    tmpl_train_4view_88length_29px_high(x+128, y, z)
+}
+// Train, 8 views, 8/8 (29px) length for a height of 12 px
+template tmpl_train_8view_88length_29px(x, y) { tmpl_train_8view_88length_29px_high(x, y, 0) }
+
+/*
+ * 32 pixels (normal arangment)
+ */
+
+// Train, 4 views, 8/8 length (32px) for arbitrary height over 12px
+template tmpl_train_4view_88length_32px_high(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		(16, 48, 96,   0, 0, 0,   4, 0, 0, 0,   32,   x, y, z)
+}
+// Train, 4 views, 8/8 length (32px) for a height of 12 px
+template tmpl_train_4view_88length_32px(x, y) { tmpl_train_4view_88length_32px_high(x, y, 0) }
+
+
+// Train, 8 views, 8/8 length (32px) for arbitrary height over 12px
+template tmpl_train_8view_88length_32px_high(x, y, z) {
+    tmpl_train_4view_88length_32px_high(x, y, z)
+    tmpl_train_4view_88length_32px_high(x+128, y, z)
+}
+// Train, 8 views, 8/8 (32px) length for a height of 12 px
+template tmpl_train_8view_88length_32px(x, y) { tmpl_train_8view_88length_32px_high(x, y, 0) }
+
+/*
+ * 32 pixels (compact arangment, 2ccTS style)
+ */
+
+// Train, 4 views, 8/8 length (32px) for arbitrary height over 12px
+template tmpl_train_4view_88length_32px_high_compact(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		( 9, 32, 65,   0, 0, 0,   4, 0, 0, 0,   32,   x, y, z)
+}
+// Train, 4 views, 8/8 length (32px) for a height of 12 px
+template tmpl_train_4view_88length_32px_compact(x, y) { tmpl_train_4view_88length_32px_high_compact(x, y, 0) }
+
+
+// Train, 8 views, 8/8 length (32px) for arbitrary height over 12px
+template tmpl_train_8view_88length_32px_high_compact(x, y, z) {
+    tmpl_train_4view_88length_32px_high_compact(x, y, z)
+    tmpl_train_4view_88length_32px_high_compact(x+88, y, z)
+}
+// Train, 8 views, 8/8 (32px) length for a height of 12 px
+template tmpl_train_8view_88length_32px_compact(x, y) { tmpl_train_8view_88length_32px_high_compact(x, y, 0) }
+
+/*
+ * 36 pixels (normal arangment)
+ */
+
+// Train, 4 views, 9/8 length (36px) for arbitrary height over 12px
+template tmpl_train_4view_98length_36px_high(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		(16, 48, 96,   2, 0, 2,   2, 0, 0, 0,   36,   x, y, z)
+}
+// Train, 4 views, 9/8 length (36px) for a height of 12 px
+template tmpl_train_4view_98length_36px(x, y) { tmpl_train_4view_98length_36px_high(x, y, 0) }
+
+
+// Train, 8 views, 9/8 length (36px) for arbitrary height over 12px
+template tmpl_train_8view_98length_36px_high(x, y, z) {
+    tmpl_train_4view_98length_36px_high(x, y, z)
+    tmpl_train_4view_98length_36px_high(x+128, y, z)
+}
+// Train, 8 views, 9/8 (36px) length for a height of 12 px
+template tmpl_train_8view_98length_36px(x, y) { tmpl_train_8view_98length_36px_high(x, y, 0) }
+
+/*
+ * 36 pixels (compact arangment)
+ */
+
+// Train, 4 views, 9/8 length (36px) for arbitrary height over 12px
+template tmpl_train_4view_98length_36px_high_compact(x, y, z) {
+    /* Slightly odd offsets esp. in the / views */
+	tmpl_train_4view_88length_high_width_height_offset
+		( 9, 32, 69,  2, 0, 2,   2, 0, 0, 0,   36,   x, y, z)
+}
+// Train, 4 views, 9/8 length (36px) for a height of 12 px
+template tmpl_train_4view_98length_36px_compact(x, y) { tmpl_train_4view_98length_36px_high_compact(x, y, 0) }
+
+// Train, 8 views, 9/8 length (36px) for arbitrary height over 12px
+template tmpl_train_8view_98length_36px_high_compact(x, y, z) {
+    tmpl_train_4view_98length_36px_high_compact(x, y, z)
+    tmpl_train_4view_98length_36px_high_compact(x+92, y, z)
+}
+// Train, 8 views, 9/8 (36px) length for a height of 12 px
+template tmpl_train_8view_98length_36px_compact(x, y) { tmpl_train_8view_98length_36px_high_compact(x, y, 0) }
+
 // "original" offsets as by Pikka. Use when all new vehicles
 // are included and everything NML-ified
 //	[  0, y,  8, 22+z,  -3, -13-z]
@@ -20,36 +154,4 @@ template tmpl_train_4view_88short_high(x, y, z) {
 //	[ 48, y, 29, 12+z, -14,  -8-z]
 //	[ 96, y, 20, 16+z,  -7,  -9-z]
 //
-// Train, 4 views, 8/8 length for a height of 12 px
-template tmpl_train_4view_88short(x, y) { tmpl_train_4view_88short_high(x, y, 0) }
 
-// Train, 8 views, 8/8 length for arbitrary height over 12px
-template tmpl_train_8view_88short_high(x, y, z) {
-    tmpl_train_4view_88short_high(x, y, z)
-    tmpl_train_4view_88short_high(x+128, y, z)
-}
-// Train, 8 views, 8/8 length for a height of 12 px
-template tmpl_train_8view_88short(x, y) { tmpl_train_8view_88short_high(x, y, 0) }
-
-
-
-
-// Train, 4 views, 8/8 length for arbitrary height over 12px
-template tmpl_train_4view_88_high(x, y, z) {
-	[  0, y,  8, 24+z,  -3, -12-z]
-	[ 16, y, 22, 17+z, -14,  -9-z]
-	[ 48, y, 32, 12+z, -16,  -8-z]
-	[ 96, y, 22, 17+z,  -6,  -9-z]
-}
-// Train, 4 views, 8/8 length for a height of 12 px
-template tmpl_train_4view_88(x, y) { tmpl_train_4view_88_high(x, y, 0) }
-
-
-
-// Train, 8 views, 8/8 length for arbitrary height over 12px
-template tmpl_train_8view_88_high(x, y, z) {
-    tmpl_train_4view_88_high(x, y, z)
-    tmpl_train_4view_88_high(x+128, y, z)
-}
-// Train, 8 views, 8/8 length for a height of 12 px
-template tmpl_train_8view_88(x, y) { tmpl_train_8view_88_high(x, y, 0) }

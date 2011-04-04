@@ -1,26 +1,26 @@
 #include "sprites/nml/templates/tmpl_trains.nml"
 
 // CS 2400 (Diesel)
-base_graphics(3017, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 49) }
+base_graphics(3017, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 49) }
 
 // Centennial (Diesel)
-base_graphics(3025, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 95) }
+base_graphics(3025, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 95) }
 
 // CS 4000 (Diesel)
-base_graphics(3033, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 72) }
+base_graphics(3033, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 72) }
 
 // Wills 2-8-0 (Steam)
-base_graphics(3041, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 3) }
+base_graphics(3041, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 3) }
 
 // Kelling 3100 (Diesel)
-base_graphics(3049, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_88short(89, 141) }
+base_graphics(3049, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_88length_29px(89, 141) }
 
 // Turner Turbo (Diesel)
-base_graphics(3053, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 164) }
+base_graphics(3053, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 164) }
 
 // MJS 1000 (Diesel)
-base_graphics(3061, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_88short(89, 118) }
+base_graphics(3061, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_88length_29px(89, 118) }
 
 // MJS 250 (Steam)
-base_graphics(3065, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88short(89, 26) }
+base_graphics(3065, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 26) }
 
