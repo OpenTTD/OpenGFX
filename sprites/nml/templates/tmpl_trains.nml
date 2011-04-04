@@ -11,9 +11,9 @@
 template tmpl_train_4view_88length_high_width_height_offset
 	(x2, x3, x4, ew2, ew3, ew4, h1, h2, h3, h4, w, x, y, z) {
 	[  0+x, y,  8,     18+z+h1,  -3, -13-z]
-	[ x2+x, y, 20+ew2, 16+z+h2, -13,  -6-z]
+	[ x2+x, y, 20+ew2, 16+z+h2, -13,  -8-z]
 	[ x3+x, y,  w+ew3, 12+z+h3, -14,  -7-z]
-	[ x4+x, y, 20+ew4, 16+z+h4,  -6,  -6-z]
+	[ x4+x, y, 20+ew4, 16+z+h4,  -6,  -8-z]
 }
 
 /*
