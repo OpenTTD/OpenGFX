@@ -1,0 +1,72 @@
+//2733-3072 rail vehicles
+
+//2905-2980 locomotives rail
+// 2905 Chaney Jubilee + SH 8P (Steam)
+#define TRAIN_88 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png
+#include "../templates/trains.tnfo"
+   
+// 2913 Ginzu A4 (Steam)
+#define TRAIN_88 sprites/png/trains/temperate_GinzuA4_88.png
+#include "../templates/trains.tnfo"
+   
+// 2921 Kirby Paul (Steam)
+#define TRAIN_88 sprites/png/trains/temperate_kirbypaul_88.png
+#include "../templates/trains.tnfo"
+   
+// 2929 SH/Hendry 25 + Floss 47 (Diesel)
+#define TRAIN_88_SYMETRIC sprites/png/trains/temperate_SH_Hendry25_88.png
+#include "../templates/trains.tnfo"
+
+// 2933 UU/37 (Diesel)
+#define TRAIN_88_SYMETRIC sprites/png/trains/temperate_UU37_88.png
+#include "../templates/trains.tnfo"
+
+// 2937 SH/30 + SH/40 (Electric)
+#define TRAIN_88_SYMETRIC sprites/png/trains/temperate_SH30_SH40_88.png
+#include "../templates/trains.tnfo"
+   
+// 2941 SH 125 (Diesel)
+#define TRAIN_88 sprites/png/trains/temperate_sh125_88.png
+#include "../templates/trains.tnfo"
+  
+// 2949 Manley-Morel VT (Diesel)
+#define TRAIN_98 sprites/png/trains/temperate_manleymorel_98.png
+#include "../templates/trains.tnfo"
+   
+// 2957 Dash (Diesel)
+#define TRAIN_98 sprites/png/trains/temperate_dash_98.png
+#include "../templates/trains.tnfo"
+
+// 2965 Asia Star (Electric)
+#define TRAIN_88 sprites/png/trains/temperate_asiastar_88.png
+#include "../templates/trains.tnfo"
+
+// 2973 T.I.M. (Electric)
+#define TRAIN_88 sprites/png/trains/temperate_tim_88.png
+#include "../templates/trains.tnfo"
+
+//2981-2992 locomotives monorail
+//      X2001
+#define TRAIN_88_SYMETRIC sprites/png/trains/monorail_x2001_88.png
+#include "../templates/trains.tnfo"
+
+//      Millenium
+#define TRAIN_88 sprites/png/trains/monorail_millenium_88.png
+#include "../templates/trains.tnfo"
+
+//2993-3016 locomotives maglev
+//      Lev 3 Pegasus
+#define TRAIN_88 sprites/png/trains/maglev_lev3_88.png
+#include "../templates/trains.tnfo"
+
+//      Lev 4 Chimaera
+#define TRAIN_88 sprites/png/trains/maglev_lev4_88.png
+#include "../templates/trains.tnfo"
+
+//      Lev 1 Leviathan
+#define TRAIN_88_SYMETRIC sprites/png/trains/maglev_lev1_88.png
+#include "../templates/trains.tnfo"
+
+//      Lev 2 Cyclops
+#define TRAIN_88_SYMETRIC sprites/png/trains/maglev_lev2_88.png
+#include "../templates/trains.tnfo"
