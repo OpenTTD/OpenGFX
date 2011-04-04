@@ -1,0 +1,70 @@
+#include "sprites/nml/templates/tmpl_trains.nml"
+
+/* 
+ * **********************
+ * Rail engines temperate
+ * **********************
+ */
+
+// Chaney Jubilee + SH 8P (Steam)
+base_graphics(2905, "sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// Ginzu A4 (Steam)
+base_graphics(2913, "sprites/png/trains/temperate_GinzuA4_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// Kirby Paul (Steam)
+base_graphics(2921, "sprites/png/trains/temperate_kirbypaul_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// SH/Hendry 25 + Floss 47 (Diesel)
+base_graphics(2929, "sprites/png/trains/temperate_SH_Hendry25_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
+
+// UU/37 (Diesel)
+base_graphics(2933, "sprites/png/trains/temperate_UU37_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
+
+// SH/30 + SH/40 (Diesel)
+base_graphics(2937, "sprites/png/trains/temperate_SH30_SH40_88.png") { tmpl_pikka_4view_88length_32px_high_compact(  0,   0,  4) }
+
+// SH 125 (Diesel)
+base_graphics(2941, "sprites/png/trains/temperate_sh125_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// Manley-Morel VT (Diesel)
+base_graphics(2949, "sprites/png/trains/temperate_manleymorel_98.png") { tmpl_pikka_8view_88length_36px_compact(  0,   0) }
+
+// Dash (Diesel)
+base_graphics(2957, "sprites/png/trains/temperate_dash_98.png") { tmpl_pikka_8view_88length_36px_compact(  0,   0) }
+
+// Asia Star (Electric)
+base_graphics(2965, "sprites/png/trains/temperate_asiastar_88.png") { tmpl_pikka_8view_88length_32px_high_compact(  0,   0,  5) }
+
+// T.I.M. (Electric)
+base_graphics(2973, "sprites/png/trains/temperate_tim_88.png") { tmpl_pikka_8view_88length_32px_high_compact(  0,   0,  5) }
+
+/* 
+ * **********************
+ * Monorail engines
+ * **********************
+ */
+
+// X2001
+base_graphics(2981, "sprites/png/trains/monorail_x2001_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
+
+// Millenium
+base_graphics(2985, "sprites/png/trains/monorail_millenium_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+/* 
+ * **********************
+ * Maglev engines
+ * **********************
+ */
+
+// Lev3 Pegasus
+base_graphics(2993, "sprites/png/trains/maglev_lev3_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// Lev4 Chimaera
+base_graphics(3001, "sprites/png/trains/maglev_lev4_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+
+// Lev1 Leviathan
+base_graphics(3009, "sprites/png/trains/maglev_lev1_88.png") { tmpl_pikka_4view_88length_32px_high_compact(  0,   0,  1) }
+
+// Lev2 Cyclops
+base_graphics(3013, "sprites/png/trains/maglev_lev2_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }

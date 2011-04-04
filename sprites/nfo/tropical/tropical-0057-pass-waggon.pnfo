@@ -5,8 +5,8 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-57 sprites/png/trains/tropic_railwagons2.png 4 25 01 22 8 -3 -13 
-58 sprites/png/trains/tropic_railwagons2.png 20 25 01 16 20 -13 -6 
-59 sprites/png/trains/tropic_railwagons2.png 52 25 01 12 29 -14 -7 
-60 sprites/png/trains/tropic_railwagons2.png 100 25 01 16 20 -6 -6 
+57 sprites/png/trains/tropic_railwagons2.png 4 25 01 22 8 -3 -12 
+58 sprites/png/trains/tropic_railwagons2.png 20 25 01 16 20 -14 -9 
+59 sprites/png/trains/tropic_railwagons2.png 52 25 01 12 29 -16 -8 
+60 sprites/png/trains/tropic_railwagons2.png 100 25 01 16 20 -6 -9 
 
