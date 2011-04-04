@@ -1,0 +1,137 @@
+#include "sprites/nml/templates/tmpl_trains.nml"
+
+// temperate rail passenger wagon (full + empty)
+base_graphics(2733, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,   0) }
+
+// temperate rail coal wagon (empty)
+base_graphics(2737, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  25) }
+
+// temperate rail mail wagon (full + empty)
+base_graphics(2741, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  50) }
+
+// temperate rail oil wagon (full + empty)
+base_graphics(2745, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  75) }
+
+// temperate rail livestock wagon (full + empty)
+base_graphics(2749, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 100) }
+
+// temperate rail goods wagon (full + empty)
+base_graphics(2753, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 125) }
+
+// arctic rail food wagon (full + empty)
+base_graphics(2757, "sprites/png/trains/arctic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 400) }
+
+// temperate rail grain wagon (empty)
+base_graphics(2761, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 150) }
+
+// temperate rail wood wagon (empty)
+base_graphics(2765, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 175) }
+
+// temperate rail steel wagon (empty)
+base_graphics(2769, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 200) }
+
+// temperate rail iron ore wagon (empty)
+base_graphics(2773, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 225) }
+
+// temperate rail valuables wagon (full + empty)
+base_graphics(2777, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 375) }
+
+// temperate rail coal wagon (full)
+base_graphics(2781, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 250) }
+
+// temperate rail grain wagon (full)
+base_graphics(2785, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 275) }
+
+// temperate rail wood wagon (full)
+base_graphics(2789, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 300) }
+
+// temperate rail steel wagon (full)
+base_graphics(2793, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 325) }
+
+// temperate rail iron ore wagon (full)
+base_graphics(2797, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 350) }
+
+// arctic rail paper wagon (full)
+base_graphics(2801, "sprites/png/trains/arctic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 425) }
+
+// tropical rail copper ore wagon (full)
+base_graphics(2805, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 450) }
+
+// tropical rail water wagon (full + empty)
+base_graphics(2809, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 475) }
+
+// tropical rail fruit wagon (empgy)
+base_graphics(2813, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 500) }
+
+// tropical rail fruit wagon (full)
+base_graphics(2817, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 525) }
+
+// tropical rail rubber wagon (empty)
+base_graphics(2821, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 550) }
+
+// tropical rail rubber wagon (full)
+base_graphics(2825, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 575) }
+
+
+/* 
+ * **********************
+ * Monorail
+ * **********************
+ */
+
+// monorail passenger (empty + full)
+base_graphics(2829, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0,   0) }
+
+// monorail coal (empty)
+base_graphics(2833, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 100) }
+
+// monorail mail (empty + full)
+base_graphics(2837, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0,  40) }
+
+// monorail oil (empty + full)
+base_graphics(2841, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 140) }
+
+// monorail livestock (empty + full)
+base_graphics(2845, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 180) }
+
+// monorail goods (empty + full)
+base_graphics(2849, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 220) }
+
+// monorail food (empty + full)
+base_graphics(2853, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0,  40) }
+
+// monorail grain (empty)
+base_graphics(2857, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 240) }
+
+// monorail wood (empty)
+base_graphics(2861, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 280) }
+
+// monorail steel + paper (empty)
+base_graphics(2865, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 320) }
+
+// monorail ore (empty)
+base_graphics(2869, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 360) }
+
+// monorail valuables (empty + full)
+base_graphics(2873, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0,  80) }
+
+// monorail coal (full)
+base_graphics(2877, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 120) }
+
+// monorail grain (full)
+base_graphics(2881, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 260) }
+
+// monorail wood (full)
+base_graphics(2885, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 300) }
+
+// monorail steel (full)
+base_graphics(2889, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 340) }
+
+// monorail ore (full)
+base_graphics(2893, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 380) }
+
+// monorail paper (full)
+base_graphics(2897, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 340) }
+
+// monorail copper (full)
+base_graphics(2901, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 300) }
