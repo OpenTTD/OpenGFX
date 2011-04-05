@@ -14,7 +14,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:      noarch
 
-BuildRequires:  mercurial p7zip grfcodec unix2dos grf2html
+BuildRequires:  mercurial p7zip xz grfcodec unix2dos grf2html
 
 %description
 Build script for #openttdcoop DevZone projects
@@ -29,11 +29,11 @@ cd %{name}.hg
 # update to the tag, if not revision
 [ "$(echo %{version} | cut -b-1)" != "r" ] && hg up %{version}
 
-make %{?_smp_mflags} bundle_src bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_xsrc bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
 mv *.tar.gz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
-tar -xz < `ls *-source.tar.gz` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+tar -xJ < `ls *-source.tar.xz` 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 mv *-source/* . 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 rmdir *-source 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 # move ttdpatch pack and generate md5file:

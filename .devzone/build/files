@@ -1,5 +1,5 @@
 R;%{BUILD}/*.zip
-5;%{BUILD}/*.tar.gz
+5;%{BUILD}/*.tar.xz
 %{BUILD}/*.md5
 %{BUILD}/*build.log
 E;%{BUILD}/*build.err.log
