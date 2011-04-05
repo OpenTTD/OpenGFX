@@ -1,0 +1,19 @@
+#include "sprites/nml/templates/tmpl_trains.nml"
+/*
+ * =============================================================================
+ * Arctic wagon replacements
+ * =============================================================================
+ */
+
+if (climate == CLIMATE_ARCTIC) {
+	replace(2737, "sprites/png/trains/arctic_railwagons.png") { tmpl_pikka_4view_88length_32px(  0,  25) } // coal       (empty)
+	replace(2781, "sprites/png/trains/arctic_railwagons.png") { tmpl_pikka_4view_88length_32px(  0, 250) } // coal       (full)
+	replace(2753, "sprites/png/trains/arctic_railwagons.png") { tmpl_pikka_4view_88length_32px(  0, 125) } // goods      (full + empty)
+	replace(2769, "sprites/png/trains/arctic_railwagons.png") { tmpl_pikka_4view_88length_32px(  0,  25) } // paper      (empty, =temp. steel) 
+
+	replace(2833, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 100) } // coal      (empty)
+	replace(2877, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 120) } // coal      (full)
+	replace(2841, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 140) } // oil       (full + empty)
+	replace(2849, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 220) } // goods     (full + empty)
+	replace(2853, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0, 420) } // food      (full + empty)
+}

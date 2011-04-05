@@ -132,6 +132,23 @@ template tmpl_pikka_4view_88length_32px_compact(x, y) {
 template tmpl_pikka_8view_88length_32px_compact(x, y) {
 	tmpl_pikka_8view_88length_32px_high_compact(x, y, 0)
 }
+
+
+template tmpl_pikka_4view_88length_32px_high(x, y, z) {
+	tmpl_pikka_4view_88length_32px_high_offset(16, 48, 96, x, y, z)
+}
+template tmpl_pikka_8view_88length_32px_high(x, y, z) {
+	tmpl_pikka_4view_88length_32px_high_offset(16, 48, 96, x, y, z)
+	tmpl_pikka_4view_88length_32px_high_offset(16, 48, 96, x+128, y, z)
+}
+template tmpl_pikka_4view_88length_32px(x, y) {
+	tmpl_pikka_4view_88length_32px_high(x, y, 0)
+}
+template tmpl_pikka_8view_88length_32px(x, y) {
+	tmpl_pikka_8view_88length_32px_high(x, y, 0)
+}
+
+
 /*
  * 36 pixels (normal arangment)
  */
