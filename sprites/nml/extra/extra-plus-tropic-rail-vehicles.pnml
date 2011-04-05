@@ -1,0 +1,38 @@
+#include "sprites/nml/templates/tmpl_trains.nml"
+/*
+ * =============================================================================
+ * Tropical wagon replacements
+ * =============================================================================
+ */
+
+if (climate == CLIMATE_TROPICAL) {
+	replace(2741, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,   0) } // mail       (full + empty)
+	replace(2777, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,  50) } // valuables  (full + empty)
+	replace(2745, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 100) } // oil        (full + empty)
+
+
+    // CS 2400 (Diesel)
+    replace(3017, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 90) }
+
+    // Centennial (Diesel)
+    replace(3025, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 144) }
+
+    // CS 4000 (Diesel)
+    replace(3033, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 61) }
+
+    // Wills 2-8-0 (Steam)
+    // replace(3041, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(89, 3) }
+
+    // Kelling 3100 (Diesel)
+    replace(3049, "sprites/png/trains/tropical_engines.png") { tmpl_train_4view_88length_29px(69, 173) }
+
+    // Turner Turbo (Diesel)
+    replace(3053, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 118) }
+
+    // MJS 1000 (Diesel)
+    replace(3061, "sprites/png/trains/tropical_engines.png") { tmpl_train_4view_88length_29px(69, 33) }
+
+    // MJS 250 (Steam)
+    replace(3065, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 6) }
+
+}

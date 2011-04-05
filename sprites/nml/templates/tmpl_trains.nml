@@ -107,8 +107,6 @@ template tmpl_train_4view_88length_32px_high_compact(x, y, z) {
 }
 // Train, 4 views, 8/8 length (32px) for a height of 12 px
 template tmpl_train_4view_88length_32px_compact(x, y) { tmpl_train_4view_88length_32px_high_compact(x, y, 0) }
-
-
 // Train, 8 views, 8/8 length (32px) for arbitrary height over 12px
 template tmpl_train_8view_88length_32px_high_compact(x, y, z) {
     tmpl_train_4view_88length_32px_high_compact(x, y, z)
@@ -116,6 +114,10 @@ template tmpl_train_8view_88length_32px_high_compact(x, y, z) {
 }
 // Train, 8 views, 8/8 (32px) length for a height of 12 px
 template tmpl_train_8view_88length_32px_compact(x, y) { tmpl_train_8view_88length_32px_high_compact(x, y, 0) }
+
+/*
+ * 32 pixels (Pikka arangment)
+ */
 
 template tmpl_pikka_4view_88length_32px_high_compact(x, y, z) {
 	tmpl_pikka_4view_88length_32px_high_offset(9, 32, 65, x, y, z)
@@ -153,7 +155,7 @@ template tmpl_train_8view_98length_36px_high(x, y, z) {
 template tmpl_train_8view_98length_36px(x, y) { tmpl_train_8view_98length_36px_high(x, y, 0) }
 
 /*
- * 36 pixels (compact arangment)
+ * 36 pixels (compact arangment, Pikka-sizes)
  */
 
 // Train, 4 views, 8/8 length (36px) for arbitrary height over 12px

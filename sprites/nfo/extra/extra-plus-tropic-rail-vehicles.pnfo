@@ -12,153 +12,93 @@
 
 2 * 5 0A \b1 \b4 \w2741 
 
-3 sprites/png/trains/tropic_railwagons2.png 4 0 01 22 8 -3 -13 
-4 sprites/png/trains/tropic_railwagons2.png 20 0 01 16 20 -13 -6 
-5 sprites/png/trains/tropic_railwagons2.png 52 0 01 12 29 -14 -7 
-6 sprites/png/trains/tropic_railwagons2.png 100 0 01 16 20 -6 -6 
+3 sprites/png/trains/tropic_railwagons2.png 4 0 01 22 8 -3 -12 
+4 sprites/png/trains/tropic_railwagons2.png 20 0 01 16 20 -14 -9 
+5 sprites/png/trains/tropic_railwagons2.png 52 0 01 12 29 -16 -8 
+6 sprites/png/trains/tropic_railwagons2.png 100 0 01 16 20 -6 -9 
 
-7 * 5 0A \b1 \b4 \w2745 
+7 * 5 0A \b1 \b4 \w2777 
 
-8 sprites/png/trains/tropic_railwagons2.png 4 100 01 22 8 -3 -13 
-9 sprites/png/trains/tropic_railwagons2.png 20 100 01 16 20 -13 -6 
-10 sprites/png/trains/tropic_railwagons2.png 52 100 01 12 29 -14 -7 
-11 sprites/png/trains/tropic_railwagons2.png 100 100 01 16 20 -6 -6 
+8 sprites/png/trains/tropic_railwagons2.png 4 50 01 22 8 -3 -12 
+9 sprites/png/trains/tropic_railwagons2.png 20 50 01 16 20 -14 -9 
+10 sprites/png/trains/tropic_railwagons2.png 52 50 01 12 29 -16 -8 
+11 sprites/png/trains/tropic_railwagons2.png 100 50 01 16 20 -6 -9 
 
-12 * 5 0A \b1 \b4 \w2753 
+12 * 5 0A \b1 \b4 \w2745 
 
-13 sprites/png/trains/tropic_railwagons2.png 4 75 01 22 8 -3 -13 
-14 sprites/png/trains/tropic_railwagons2.png 20 75 01 16 20 -13 -6 
-15 sprites/png/trains/tropic_railwagons2.png 52 75 01 12 29 -14 -7 
-16 sprites/png/trains/tropic_railwagons2.png 100 75 01 16 20 -6 -6 
+13 sprites/png/trains/tropic_railwagons2.png 4 100 01 22 8 -3 -12 
+14 sprites/png/trains/tropic_railwagons2.png 20 100 01 16 20 -14 -9 
+15 sprites/png/trains/tropic_railwagons2.png 52 100 01 12 29 -16 -8 
+16 sprites/png/trains/tropic_railwagons2.png 100 100 01 16 20 -6 -9 
 
-17 * 5 0A \b1 \b4 \w2757 
+17 * 5 0A \b1 \b8 \w3017 
 
-18 sprites/png/trains/tropic_railwagons2.png 4 175 01 22 8 -3 -13 
-19 sprites/png/trains/tropic_railwagons2.png 20 175 01 16 20 -13 -6 
-20 sprites/png/trains/tropic_railwagons2.png 52 175 01 12 29 -14 -7 
-21 sprites/png/trains/tropic_railwagons2.png 100 175 01 16 20 -6 -6 
+18 sprites/png/trains/tropical_engines.png 69 90 01 22 8 -3 -12 
+19 sprites/png/trains/tropical_engines.png 85 90 01 16 20 -14 -9 
+20 sprites/png/trains/tropical_engines.png 117 90 01 12 29 -16 -8 
+21 sprites/png/trains/tropical_engines.png 165 90 01 16 20 -6 -9 
+22 sprites/png/trains/tropical_engines.png 197 90 01 22 8 -3 -12 
+23 sprites/png/trains/tropical_engines.png 213 90 01 16 20 -14 -9 
+24 sprites/png/trains/tropical_engines.png 245 90 01 12 29 -16 -8 
+25 sprites/png/trains/tropical_engines.png 293 90 01 16 20 -6 -9 
 
-22 * 5 0A \b1 \b4 \w2761 
+26 * 5 0A \b1 \b8 \w3025 
 
-23 sprites/png/trains/tropic_railwagons2.png 4 125 01 22 8 -3 -13 
-24 sprites/png/trains/tropic_railwagons2.png 20 125 01 16 20 -13 -6 
-25 sprites/png/trains/tropic_railwagons2.png 52 125 01 12 29 -14 -7 
-26 sprites/png/trains/tropic_railwagons2.png 100 125 01 16 20 -6 -6 
+27 sprites/png/trains/tropical_engines.png 69 144 01 22 8 -3 -12 
+28 sprites/png/trains/tropical_engines.png 85 144 01 16 20 -14 -9 
+29 sprites/png/trains/tropical_engines.png 117 144 01 12 29 -16 -8 
+30 sprites/png/trains/tropical_engines.png 165 144 01 16 20 -6 -9 
+31 sprites/png/trains/tropical_engines.png 197 144 01 22 8 -3 -12 
+32 sprites/png/trains/tropical_engines.png 213 144 01 16 20 -14 -9 
+33 sprites/png/trains/tropical_engines.png 245 144 01 12 29 -16 -8 
+34 sprites/png/trains/tropical_engines.png 293 144 01 16 20 -6 -9 
 
-27 * 5 0A \b1 \b4 \w2765 
+35 * 5 0A \b1 \b8 \w3033 
 
-28 sprites/png/trains/tropic_railwagons2.png 4 150 01 22 8 -3 -13 
-29 sprites/png/trains/tropic_railwagons2.png 20 150 01 16 20 -13 -6 
-30 sprites/png/trains/tropic_railwagons2.png 52 150 01 12 29 -14 -7 
-31 sprites/png/trains/tropic_railwagons2.png 100 150 01 16 20 -6 -6 
+36 sprites/png/trains/tropical_engines.png 69 61 01 22 8 -3 -12 
+37 sprites/png/trains/tropical_engines.png 85 61 01 16 20 -14 -9 
+38 sprites/png/trains/tropical_engines.png 117 61 01 12 29 -16 -8 
+39 sprites/png/trains/tropical_engines.png 165 61 01 16 20 -6 -9 
+40 sprites/png/trains/tropical_engines.png 197 61 01 22 8 -3 -12 
+41 sprites/png/trains/tropical_engines.png 213 61 01 16 20 -14 -9 
+42 sprites/png/trains/tropical_engines.png 245 61 01 12 29 -16 -8 
+43 sprites/png/trains/tropical_engines.png 293 61 01 16 20 -6 -9 
 
-32 * 5 0A \b1 \b4 \w2773 
+44 * 5 0A \b1 \b4 \w3049 
 
-33 sprites/png/trains/tropic_railwagons2.png 4 250 01 22 8 -3 -13 
-34 sprites/png/trains/tropic_railwagons2.png 20 250 01 16 20 -13 -6 
-35 sprites/png/trains/tropic_railwagons2.png 52 250 01 12 29 -14 -7 
-36 sprites/png/trains/tropic_railwagons2.png 100 250 01 16 20 -6 -6 
+45 sprites/png/trains/tropical_engines.png 69 173 01 22 8 -3 -12 
+46 sprites/png/trains/tropical_engines.png 85 173 01 16 20 -14 -9 
+47 sprites/png/trains/tropical_engines.png 117 173 01 12 29 -16 -8 
+48 sprites/png/trains/tropical_engines.png 165 173 01 16 20 -6 -9 
 
-37 * 5 0A \b1 \b4 \w2777 
+49 * 5 0A \b1 \b8 \w3053 
 
-38 sprites/png/trains/tropic_railwagons2.png 4 50 01 22 8 -3 -13 
-39 sprites/png/trains/tropic_railwagons2.png 20 50 01 16 20 -13 -6 
-40 sprites/png/trains/tropic_railwagons2.png 52 50 01 12 29 -14 -7 
-41 sprites/png/trains/tropic_railwagons2.png 100 50 01 16 20 -6 -6 
+50 sprites/png/trains/tropical_engines.png 69 118 01 22 8 -3 -12 
+51 sprites/png/trains/tropical_engines.png 85 118 01 16 20 -14 -9 
+52 sprites/png/trains/tropical_engines.png 117 118 01 12 29 -16 -8 
+53 sprites/png/trains/tropical_engines.png 165 118 01 16 20 -6 -9 
+54 sprites/png/trains/tropical_engines.png 197 118 01 22 8 -3 -12 
+55 sprites/png/trains/tropical_engines.png 213 118 01 16 20 -14 -9 
+56 sprites/png/trains/tropical_engines.png 245 118 01 12 29 -16 -8 
+57 sprites/png/trains/tropical_engines.png 293 118 01 16 20 -6 -9 
 
-42 * 5 0A \b1 \b4 \w2785 
+58 * 5 0A \b1 \b4 \w3061 
 
-43 sprites/png/trains/tropic_railwagons2.png 132 125 01 22 8 -3 -13 
-44 sprites/png/trains/tropic_railwagons2.png 148 125 01 16 20 -13 -6 
-45 sprites/png/trains/tropic_railwagons2.png 180 125 01 12 29 -14 -7 
-46 sprites/png/trains/tropic_railwagons2.png 228 125 01 16 20 -6 -6 
+59 sprites/png/trains/tropical_engines.png 69 33 01 22 8 -3 -12 
+60 sprites/png/trains/tropical_engines.png 85 33 01 16 20 -14 -9 
+61 sprites/png/trains/tropical_engines.png 117 33 01 12 29 -16 -8 
+62 sprites/png/trains/tropical_engines.png 165 33 01 16 20 -6 -9 
 
-47 * 5 0A \b1 \b4 \w2789 
+63 * 5 0A \b1 \b8 \w3065 
 
-48 sprites/png/trains/tropic_railwagons2.png 132 150 01 22 8 -3 -13 
-49 sprites/png/trains/tropic_railwagons2.png 148 150 01 16 20 -13 -6 
-50 sprites/png/trains/tropic_railwagons2.png 180 150 01 12 29 -14 -7 
-51 sprites/png/trains/tropic_railwagons2.png 228 150 01 16 20 -6 -6 
+64 sprites/png/trains/tropical_engines.png 69 6 01 22 8 -3 -12 
+65 sprites/png/trains/tropical_engines.png 85 6 01 16 20 -14 -9 
+66 sprites/png/trains/tropical_engines.png 117 6 01 12 29 -16 -8 
+67 sprites/png/trains/tropical_engines.png 165 6 01 16 20 -6 -9 
+68 sprites/png/trains/tropical_engines.png 197 6 01 22 8 -3 -12 
+69 sprites/png/trains/tropical_engines.png 213 6 01 16 20 -14 -9 
+70 sprites/png/trains/tropical_engines.png 245 6 01 12 29 -16 -8 
+71 sprites/png/trains/tropical_engines.png 293 6 01 16 20 -6 -9 
 
-52 * 5 0A \b1 \b8 \w3017 
-
-53 sprites/png/trains/tropical_engines.png 69 90 01 22 8 -3 -13 
-54 sprites/png/trains/tropical_engines.png 85 90 01 16 20 -13 -6 
-55 sprites/png/trains/tropical_engines.png 117 90 01 12 29 -14 -7 
-56 sprites/png/trains/tropical_engines.png 165 90 01 16 20 -6 -6 
-57 sprites/png/trains/tropical_engines.png 197 90 01 22 8 -3 -13 
-58 sprites/png/trains/tropical_engines.png 213 90 01 16 20 -13 -6 
-59 sprites/png/trains/tropical_engines.png 245 90 01 12 29 -14 -7 
-60 sprites/png/trains/tropical_engines.png 293 90 01 16 20 -6 -6 
-
-61 * 5 0A \b1 \b8 \w3025 
-
-62 sprites/png/trains/tropical_engines.png 69 144 01 22 8 -3 -13 
-63 sprites/png/trains/tropical_engines.png 85 144 01 16 20 -13 -6 
-64 sprites/png/trains/tropical_engines.png 117 144 01 12 29 -14 -7 
-65 sprites/png/trains/tropical_engines.png 165 144 01 16 20 -6 -6 
-66 sprites/png/trains/tropical_engines.png 197 144 01 22 8 -3 -13 
-67 sprites/png/trains/tropical_engines.png 213 144 01 16 20 -13 -6 
-68 sprites/png/trains/tropical_engines.png 245 144 01 12 29 -14 -7 
-69 sprites/png/trains/tropical_engines.png 293 144 01 16 20 -6 -6 
-
-70 * 5 0A \b1 \b8 \w3033 
-
-71 sprites/png/trains/tropical_engines.png 69 61 01 22 8 -3 -13 
-72 sprites/png/trains/tropical_engines.png 85 61 01 16 20 -13 -6 
-73 sprites/png/trains/tropical_engines.png 117 61 01 12 29 -14 -7 
-74 sprites/png/trains/tropical_engines.png 165 61 01 16 20 -6 -6 
-75 sprites/png/trains/tropical_engines.png 197 61 01 22 8 -3 -13 
-76 sprites/png/trains/tropical_engines.png 213 61 01 16 20 -13 -6 
-77 sprites/png/trains/tropical_engines.png 245 61 01 12 29 -14 -7 
-78 sprites/png/trains/tropical_engines.png 293 61 01 16 20 -6 -6 
-
-79 * 5 0A \b1 \b8 \w3041 
-
-80 sprites/png/trains/tropical_wills280.png 5 13 01 22 8 -3 -13 
-81 sprites/png/trains/tropical_wills280.png 21 13 01 16 20 -13 -6 
-82 sprites/png/trains/tropical_wills280.png 53 13 01 12 29 -14 -7 
-83 sprites/png/trains/tropical_wills280.png 101 13 01 16 20 -6 -6 
-84 sprites/png/trains/tropical_wills280.png 133 13 01 22 8 -3 -13 
-85 sprites/png/trains/tropical_wills280.png 149 13 01 16 20 -13 -6 
-86 sprites/png/trains/tropical_wills280.png 181 13 01 12 29 -14 -7 
-87 sprites/png/trains/tropical_wills280.png 229 13 01 16 20 -6 -6 
-
-88 * 5 0A \b1 \b4 \w3049 
-
-89 sprites/png/trains/tropical_engines.png 69 173 01 22 8 -3 -13 
-90 sprites/png/trains/tropical_engines.png 85 173 01 16 20 -13 -6 
-91 sprites/png/trains/tropical_engines.png 117 173 01 12 29 -14 -7 
-92 sprites/png/trains/tropical_engines.png 165 173 01 16 20 -6 -6 
-
-93 * 5 0A \b1 \b8 \w3053 
-
-94 sprites/png/trains/tropical_engines.png 69 118 01 22 8 -3 -13 
-95 sprites/png/trains/tropical_engines.png 85 118 01 16 20 -13 -6 
-96 sprites/png/trains/tropical_engines.png 117 118 01 12 29 -14 -7 
-97 sprites/png/trains/tropical_engines.png 165 118 01 16 20 -6 -6 
-98 sprites/png/trains/tropical_engines.png 197 118 01 22 8 -3 -13 
-99 sprites/png/trains/tropical_engines.png 213 118 01 16 20 -13 -6 
-100 sprites/png/trains/tropical_engines.png 245 118 01 12 29 -14 -7 
-101 sprites/png/trains/tropical_engines.png 293 118 01 16 20 -6 -6 
-
-102 * 5 0A \b1 \b4 \w3061 
-
-103 sprites/png/trains/tropical_engines.png 69 33 01 22 8 -3 -13 
-104 sprites/png/trains/tropical_engines.png 85 33 01 16 20 -13 -6 
-105 sprites/png/trains/tropical_engines.png 117 33 01 12 29 -14 -7 
-106 sprites/png/trains/tropical_engines.png 165 33 01 16 20 -6 -6 
-
-107 * 5 0A \b1 \b8 \w3065 
-
-108 sprites/png/trains/tropical_engines.png 69 6 01 22 8 -3 -13 
-109 sprites/png/trains/tropical_engines.png 85 6 01 16 20 -13 -6 
-110 sprites/png/trains/tropical_engines.png 117 6 01 12 29 -14 -7 
-111 sprites/png/trains/tropical_engines.png 165 6 01 16 20 -6 -6 
-112 sprites/png/trains/tropical_engines.png 197 6 01 22 8 -3 -13 
-113 sprites/png/trains/tropical_engines.png 213 6 01 16 20 -13 -6 
-114 sprites/png/trains/tropical_engines.png 245 6 01 12 29 -14 -7 
-115 sprites/png/trains/tropical_engines.png 293 6 01 16 20 -6 -6 
-
-116 * 2 10 10 
+72 * 2 10 10 
 
