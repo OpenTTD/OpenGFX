@@ -22,22 +22,22 @@ base_graphics(833, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4vi
 base_graphics(837, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 440) } // plastics		(full)
 
 // Ploddyphut Cho cho
-base_graphics(841, "sprites/png/trains/toyland_ploddyphut.png") { tmpl_pikka_8view_88length_32px(0,   0) }
+base_graphics(841, "sprites/png/trains/toyland_ploddyphut.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Powernaut Choo Choo is defined separately and earlier in the main toyland file
 // via toyland-0393-powernaut-steam.pnfo
 
 // Mightymover Cho Cho
-base_graphics(849, "sprites/png/trains/toyland_mightymover.png") { tmpl_pikka_8view_88length_32px(0,   0) }
+base_graphics(849, "sprites/png/trains/toyland_mightymover.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Ploddyphut Diesel
-base_graphics(857, "sprites/png/trains/toyland_ploddyphut_diesel.png") { tmpl_pikka_8view_88length_32px(0,   0) }
+base_graphics(857, "sprites/png/trains/toyland_ploddyphut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Powernaut Diesel
-base_graphics(865, "sprites/png/trains/toyland_powernaut_diesel.png") { tmpl_pikka_8view_88length_32px(0,   0) }
+base_graphics(865, "sprites/png/trains/toyland_powernaut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Monorail Wizzowow Z99
-base_graphics(873, "sprites/png/trains/toyland_monorail_WizzowowZ99_88.png") { tmpl_pikka_8view_88length_32px(0,   0) }
+base_graphics(873, "sprites/png/trains/toyland_monorail_WizzowowZ99_88.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Maglev Wizzowow Rocketeer
-base_graphics(881, "sprites/png/trains/toyland_maglev_WizzowowRocketeer_88.png") { tmpl_pikka_4view_88length_32px_high(0,   0, 1) }
+base_graphics(881, "sprites/png/trains/toyland_maglev_WizzowowRocketeer_88.png") { tmpl_pikka_4view_88length_32px_high_compact(0,   0, 1) }
