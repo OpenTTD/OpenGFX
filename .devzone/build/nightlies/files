@@ -1,0 +1,12 @@
+R;%{BUILD}/*.zip
+5;%{BUILD}/*.tar.xz
+%{BUILD}/*.md5
+%{BUILD}/*build.log
+E;%{BUILD}/*build.err.log
+L;%{BUILD}/*.nfo
+%{BUILD}/grf2html
+%{BUILD}/*grf2html.log
+T;/usr/src/packages/RPMS/noarch/*.noarch.rpm
+%{BUILD}/ttdpatch
+%{BUILD}/docs/readme.txt
+%{BUILD}/docs/changelog.txt
