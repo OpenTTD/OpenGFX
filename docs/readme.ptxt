@@ -237,8 +237,8 @@ from bnml files.
 6 License
 =========
 
-OpenGFX Graphics Replacement Set for OpenTTD Copyright (C) 2007-2009 OpenGFX
-Authors (see below)
+OpenGFX Graphics Replacement Set for OpenTTD
+Copyright (C) 2007-2011 OpenGFX by the OpenGFX team (see below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
@@ -303,6 +303,8 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 * AndersI (Anders Isaksson)
 * Ammler (Marcel Gmür)
 * 2006TTD (Anthony Lam)
+
+Contact: ottd @ planetmaker.de or on irc.oftc.net/#openttd
 
 A detailed list of who worked on what is available in the file
 docs/authoroverview.csv in the source repository.

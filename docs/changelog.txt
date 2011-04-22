@@ -1,3 +1,8 @@
+OpenGFX r637
+- Feature: Allow source bundles in xz, zip, gzip and bzip2 format; use xz by default
+- Change: Rework rail vehicle alignment, using more Pikkas alignment
+
+
 OpenGFX 0.3.3 (1 Apr 2011)
 -------------------------------------
 - Add: New sprites for the Darwin300 and the Bakewell Luckett aircraft
