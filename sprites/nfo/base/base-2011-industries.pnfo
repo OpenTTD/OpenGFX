@@ -11,7 +11,7 @@
    11 sprites/png/industries010.png 546 8 03 30 36 -16 -12
    12 sprites/png/industries010.png 594 8 03 43 36 -16 -25
    13 sprites/png/industries010.png 642 8 09 43 36 -16 -25
-   14 sprites/png/industries010.png 690 8 09 31 64 -31 0
+   14 sprites/png/industries010.png 690 8 09 31 64 -31 0	// ground sprite used elsewhere, e.g. in gold mine
    15 sprites/png/industries010.png 2 72 09 31 64 -31 0
    16 sprites/png/industries010.png 82 72 09 31 64 -31 0
    17 sprites/png/industries010.png 162 72 09 31 64 -31 0
@@ -240,12 +240,12 @@
   150 sprites/png/industries010.png 322 792 09 32 44 -23 0
 
 //2215-2265 gold mine
+// 1st construction stage
   193 sprites/png/industries010.png 82 1080 03 31 64 -31 0
   194 sprites/png/industries010.png 162 1080 03 31 64 -31 0
   195 sprites/png/industries010.png 242 1080 03 31 64 -31 0
   196 sprites/png/industries010.png 322 1080 03 31 64 -31 0
   197 sprites/png/industries010.png 402 1080 03 31 64 -31 0
-  
   198 sprites/png/industries010.png 482 1080 03 31 64 -31 0
   199 sprites/png/industries010.png 562 1080 03 31 64 -31 0
   200 sprites/png/industries010.png 642 1080 03 31 64 -31 0
@@ -257,8 +257,9 @@
   205 sprites/png/industries010.png 242 1128 03 31 64 -31 0
   206 sprites/png/industries010.png 322 1128 03 31 64 -31 0
   207 sprites/png/industries010.png 402 1128 03 31 64 -31 0
-
   208 sprites/png/industries010.png 482 1128 03 31 64 -31 0
+
+// 2nd construction stage (start 2232)
   209 sprites/png/industries010.png 562 1128 03 42 64 -31 -11
   210 sprites/png/industries010.png 642 1128 03 31 64 -31 0
   211 sprites/png/industries010.png 722 1128 03 31 64 -31 0
@@ -268,7 +269,6 @@
   215 sprites/png/industries010.png 242 1192 03 31 64 -31 0
   216 sprites/png/industries010.png 322 1192 03 31 64 -31 0
   217 sprites/png/industries010.png 402 1192 03 31 64 -31 0
-
 //  218 sprites/png/industries010.png 482 1192 03 31 64 -31 0 // wrong sprite there in file. Use next:
   202 sprites/png/industries010.png 2 1128 03 31 64 -31 0
 //  219 sprites/png/industries010.png 562 1192 03 31 64 -31 0 // wrong sprite there in file. Use next:
@@ -278,6 +278,8 @@
   222 sprites/png/industries010.png 2 1256 03 31 64 -31 0
   223 sprites/png/industries010.png 82 1256 03 31 64 -31 0
   224 sprites/png/industries010.png 162 1256 03 31 64 -31 0
+
+// finished goldmine (2247
   225 sprites/png/industries010.png 242 1256 09 52 64 -31 -21
   226 sprites/png/industries010.png 322 1256 09 32 64 -31 -1
   227 sprites/png/industries010.png 402 1256 09 32 64 -31 -1
@@ -294,6 +296,8 @@
   238 sprites/png/industries010.png 482 1320 09 31 64 -31 0
   239 sprites/png/industries010.png 562 1320 09 31 64 -31 0
   240 sprites/png/industries010.png 642 1320 09 31 64 -31 0
+
+// animated cable towers for gold mine
   241 sprites/png/industries010.png 722 1320 09 54 45 -23 -27
   242 sprites/png/industries010.png 2 1384 09 54 45 -23 -27
   243 sprites/png/industries010.png 66 1384 09 54 45 -23 -27
