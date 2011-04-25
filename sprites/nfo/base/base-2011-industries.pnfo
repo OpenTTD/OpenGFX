@@ -11,7 +11,8 @@
    11 sprites/png/industries010.png 546 8 03 30 36 -16 -12
    12 sprites/png/industries010.png 594 8 03 43 36 -16 -25
    13 sprites/png/industries010.png 642 8 09 43 36 -16 -25
-   14 sprites/png/industries010.png 690 8 09 31 64 -31 0	// ground sprite used elsewhere, e.g. in gold mine
+   	// ground sprite # 2022: used elsewhere, e.g. in gold mine, factory 2nd const. stage:
+   14 sprites/png/industries010.png 690 8 09 31 64 -31 0
    15 sprites/png/industries010.png 2 72 09 31 64 -31 0
    16 sprites/png/industries010.png 82 72 09 31 64 -31 0
    17 sprites/png/industries010.png 162 72 09 31 64 -31 0
@@ -156,22 +157,26 @@
   298 sprites/png/industries/steelmill.png 482 138 03 34 64 -31  -3
   299 sprites/png/industries/steelmill.png 562 138 03 31 64 -31   0
 
-//2140-2160 factory             // Recolour: RANDOM
-   39 sprites/png/industries010.png 402 136 09 31 64 -31 0
-   40 sprites/png/industries010.png 482 136 09 31 64 -31 0
-   41 sprites/png/industries010.png 562 136 09 31 64 -31 0
-   42 sprites/png/industries010.png 642 136 09 31 64 -31 0
-   43 sprites/png/industries010.png 722 136 09 52 64 -31 -37
-   44 sprites/png/industries010.png 2 200 09 47 20 1 -38
-   45 sprites/png/industries010.png 34 200 09 31 25 -24 -19
-   46 sprites/png/industries010.png 66 200 09 34 64 -31 -3
-   47 sprites/png/industries010.png 146 200 09 31 64 -31 0
-   48 sprites/png/industries010.png 226 200 09 31 64 -31 0
-   49 sprites/png/industries010.png 306 200 09 31 64 -31 0
-   50 sprites/png/industries010.png 386 200 09 68 64 -31 -37
-   51 sprites/png/industries010.png 466 200 09 69 64 -31 -38
-   52 sprites/png/industries010.png 546 200 09 50 64 -31 -19
-   53 sprites/png/industries010.png 626 200 09 31 64 -31 0
+//2146-2160 factory             // Recolour: RANDOM
+   // ground tiles (built-up)
+   39 sprites/png/industries/factory.png 402  10 09 31 64 -31   0 // Up
+   41 sprites/png/industries/factory.png 562  10 09 31 64 -31   0 // Right
+   40 sprites/png/industries/factory.png 482  10 09 31 64 -31   0 // Left
+   42 sprites/png/industries/factory.png 642  10 09 31 64 -31   0 // Down
+   // three buildings (4th tile has no building)
+   43 sprites/png/industries/factory.png 104   2 09 62 57 -28 -37 // Up
+   44 sprites/png/industries/factory.png  17   2 09 62 38 -17 -39 // Right
+   45 sprites/png/industries/factory.png  56   2 09 54 47 -24 -29 // Left
+   // 1st const. stage (4 ground tiles)
+   46 sprites/png/industries/factory.png  66  74 09 31 64 -31   0 // Up
+   48 sprites/png/industries/factory.png 226  74 09 31 64 -31   0 // Right
+   47 sprites/png/industries/factory.png 146  74 09 31 64 -31   0 // Left
+   49 sprites/png/industries/factory.png 306  74 09 31 64 -31   0 // Down
+   // building sprites 2nd const. stage (on dirt ground #2022, coal)
+   50 sprites/png/industries/factory.png 262   1 09 62 57 -28 -37 // Up
+   51 sprites/png/industries/factory.png 175   1 09 58 38 -17 -39 // Right
+   52 sprites/png/industries/factory.png 214   1 09 54 47 -24 -29 // Left
+   53 sprites/png/industries/factory.png 718  90 09 91 64 -31 -60 // Down
 
 //2161-2172 printworks
   314 sprites/png/industries010.png 706 1752 03 31 64 -31 0
