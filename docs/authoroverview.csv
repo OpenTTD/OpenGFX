@@ -88,8 +88,8 @@ ogfx1_base;2072;2077;6;Industries forest;FooBar, Zephyris;FooBar;;1
 ogfx1_base;2078;2095;18;Industries oil refinery;LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;2096;2105;10;Industries oil rig;Red*Star;buttercup;;1
 ogfx1_base;2106;2117;12;Industries farm;Zephyris;buttercup;;1
-ogfx1_base;2118;2139;22;Industries steel mill;Zephyris;buttercup;;1
-ogfx1_base;2140;2152;13;Industries factory;Zephyris;;;1
+ogfx1_base;2118;2139;22;Industries steel mill;Zephyris, planetmaker (retouching);planetmaker;;1
+ogfx1_base;2140;2152;13;Industries factory;Zephyris (buildings), andythenorth (machine parts), BenK (crates), Zimmlock (crane), planetmaker (retouching);planetmaker;;1
 ogfx1_base;2153;2172;20;Industries printworks;Zephyris;buttercup;;1
 ogfx1_base;2173;2179;7;Industries oil wells;Zephyris;buttercup;;1
 ogfx1_base;2180;2183;4;Industries bank 1;Zephyris;buttercup;;1
