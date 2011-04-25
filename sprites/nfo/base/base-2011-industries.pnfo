@@ -127,34 +127,34 @@
   312 sprites/png/industries010.png 626 1752 09 30 54 -30 0
 
 //2118-2139 steel mill
-  272 sprites/png/industries010.png 2 1576 09 31 64 -31 0
-  273 sprites/png/industries010.png 82 1576 09 26 64 -31 -11
-  274 sprites/png/industries010.png 162 1576 09 31 64 -31 0
-  275 sprites/png/industries010.png 242 1576 09 28 64 -31 -13
-  276 sprites/png/industries010.png 322 1576 09 31 64 -31 0
-  277 sprites/png/industries010.png 402 1576 09 33 64 -31 -18
-  278 sprites/png/industries010.png 482 1576 09 31 64 -31 0
-  279 sprites/png/industries010.png 562 1576 09 31 64 -31 0
-  280 sprites/png/industries010.png 642 1576 09 48 64 -31 -33
-  281 sprites/png/industries010.png 722 1576 09 31 64 -31 0
-  282 sprites/png/industries010.png 2 1640 09 53 64 -31 -38
-  283 sprites/png/industries010.png 82 1640 03 31 64 -31 0
-  284 sprites/png/industries010.png 162 1640 03 26 64 -31 -11
-  285 sprites/png/industries010.png 242 1640 03 31 64 -31 0
-  286 sprites/png/industries010.png 322 1640 03 28 64 -31 -13
-  287 sprites/png/industries010.png 402 1640 03 31 64 -31 0
-  288 sprites/png/industries010.png 482 1640 03 15 64 -31 0
-  289 sprites/png/industries010.png 562 1640 03 31 64 -31 0
-  290 sprites/png/industries010.png 642 1640 03 31 64 -31 0
-  291 sprites/png/industries010.png 722 1640 03 47 64 -31 -32
-  292 sprites/png/industries010.png 2 1704 03 31 64 -31 0
-  293 sprites/png/industries010.png 82 1704 03 23 64 -31 -8
-  294 sprites/png/industries010.png 162 1704 03 31 64 -31 0
-  295 sprites/png/industries010.png 242 1704 03 31 64 -31 0
-  296 sprites/png/industries010.png 322 1704 03 31 64 -31 0
-  297 sprites/png/industries010.png 402 1704 03 31 64 -31 0
-  298 sprites/png/industries010.png 482 1704 03 34 64 -31 -3
-  299 sprites/png/industries010.png 562 1704 03 31 64 -31 0
+  272 sprites/png/industries/steelmill.png   2  10 09 31 64 -31   0
+  273 sprites/png/industries/steelmill.png  82  10 09 42 64 -31 -11
+  274 sprites/png/industries/steelmill.png 162  10 09 31 64 -31   0
+  275 sprites/png/industries/steelmill.png 242  10 09 44 64 -31 -13
+  276 sprites/png/industries/steelmill.png 322  10 09 31 64 -31   0
+  277 sprites/png/industries/steelmill.png 402  10 09 49 64 -31 -18
+  278 sprites/png/industries/steelmill.png 482  10 09 31 64 -31   0
+  279 sprites/png/industries/steelmill.png 562  10 09 31 64 -31   0
+  280 sprites/png/industries/steelmill.png 642  10 09 64 64 -31 -33
+  281 sprites/png/industries/steelmill.png 722  10 09 31 64 -31   0
+  282 sprites/png/industries/steelmill.png   2  74 09 69 64 -31 -38
+  283 sprites/png/industries/steelmill.png  82  74 03 31 64 -31   0
+  284 sprites/png/industries/steelmill.png 162  74 03 42 64 -31 -11
+  285 sprites/png/industries/steelmill.png 242  74 03 31 64 -31   0
+  286 sprites/png/industries/steelmill.png 322  60 03 58 64 -31 -27
+  287 sprites/png/industries/steelmill.png 402  74 03 31 64 -31   0
+  288 sprites/png/industries/steelmill.png 482  74 03 47 64 -31 -16
+  289 sprites/png/industries/steelmill.png 562  74 03 31 64 -31   0
+  290 sprites/png/industries/steelmill.png 642  85 03 31 64 -31   0
+  291 sprites/png/industries/steelmill.png 722  74 03 63 64 -31 -32
+  292 sprites/png/industries/steelmill.png   2 165 03 31 64 -31   0
+  293 sprites/png/industries/steelmill.png  82 138 03 39 64 -31  -8
+  294 sprites/png/industries/steelmill.png 162 138 03 31 64 -31   0
+  295 sprites/png/industries/steelmill.png 242 138 03 31 64 -31   0
+  296 sprites/png/industries/steelmill.png 322 138 03 31 64 -31   0
+  297 sprites/png/industries/steelmill.png 402 138 03 31 64 -31   0
+  298 sprites/png/industries/steelmill.png 482 138 03 34 64 -31  -3
+  299 sprites/png/industries/steelmill.png 562 138 03 31 64 -31   0
 
 //2140-2160 factory             // Recolour: RANDOM
    39 sprites/png/industries010.png 402 136 09 31 64 -31 0
@@ -240,7 +240,7 @@
   150 sprites/png/industries010.png 322 792 09 32 44 -23 0
 
 //2215-2265 gold mine
-// 1st construction stage
+// 1st construction stage (2215 - 2231)
   193 sprites/png/industries010.png 82 1080 03 31 64 -31 0
   194 sprites/png/industries010.png 162 1080 03 31 64 -31 0
   195 sprites/png/industries010.png 242 1080 03 31 64 -31 0
@@ -259,7 +259,7 @@
   207 sprites/png/industries010.png 402 1128 03 31 64 -31 0
   208 sprites/png/industries010.png 482 1128 03 31 64 -31 0
 
-// 2nd construction stage (start 2232)
+// 2nd construction stage (2232 - 2246)
   209 sprites/png/industries010.png 562 1128 03 42 64 -31 -11
   210 sprites/png/industries010.png 642 1128 03 31 64 -31 0
   211 sprites/png/industries010.png 722 1128 03 31 64 -31 0
@@ -279,7 +279,7 @@
   223 sprites/png/industries010.png 82 1256 03 31 64 -31 0
   224 sprites/png/industries010.png 162 1256 03 31 64 -31 0
 
-// finished goldmine (2247
+// finished goldmine (2247 - 2262)
   225 sprites/png/industries010.png 242 1256 09 52 64 -31 -21
   226 sprites/png/industries010.png 322 1256 09 32 64 -31 -1
   227 sprites/png/industries010.png 402 1256 09 32 64 -31 -1
@@ -297,7 +297,7 @@
   239 sprites/png/industries010.png 562 1320 09 31 64 -31 0
   240 sprites/png/industries010.png 642 1320 09 31 64 -31 0
 
-// animated cable towers for gold mine
+// animated sharft towers for gold mine (2263-2265)
   241 sprites/png/industries010.png 722 1320 09 54 45 -23 -27
   242 sprites/png/industries010.png 2 1384 09 54 45 -23 -27
   243 sprites/png/industries010.png 66 1384 09 54 45 -23 -27
