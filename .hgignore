@@ -12,6 +12,7 @@ parsetab.py
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
+opengfx/*
 ogfx?_*.grf
 opengfx*md5
 

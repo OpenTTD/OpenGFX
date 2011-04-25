@@ -5,7 +5,12 @@
 clean:
 	$(_E) "[CLEANING]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
-	$(_V)-rm -rf *.dep $(TARGET_FILES) $(patsubst %.grf,%.nfo,$(GRF_FILES)) $(patsubst %.grf,%.nml,$(GRF_FILES)) *.$(REV_EXTENSION) md5.check $(CLEAN_ADD) $(patsubst %.grf,%.cnfo,$(GRF_FILES))
+	$(_V)-rm -rf *.dep $(TARGET_FILES) $(REV_FILENAME) md5.check 
+	$(_V)-rm -rf $(patsubst %.grf,%.md5,$(GRF_FILES))
+	$(_V)-rm -rf $(patsubst %.grf,%.nml,$(GRF_FILES))
+	$(_V)-rm -rf $(patsubst %.grf,%.cnfo,$(GRF_FILES)) $(patsubst %.grf,%.nfo,$(GRF_FILES))
+	$(_V)-rm -rf $(DIR_NAME)
+	$(_V)-if [ "$(CLEAN_ADD)" ]; then for i in `ls $(CLEAN_ADD) 2> /dev/null`; do [ "$$i" != "" ] && rm $$i; done; fi
 
 # More thoroughly clean the source tree. Should restore the initial
 # state of a tarball (except for manual changes to Makefile.local, of
@@ -42,6 +47,8 @@ test::
 	$(_E) "Documentation directory:      $(DOCDIR)"
 	$(_E) "Repository revision:          r$(REPO_REVISION)"
 	$(_E) "Current repository branch:    $(REPO_BRANCH)"
+	$(_E) "Repository version:           $(REPO_VERSION)"
+	$(_E) "Version string:               $(VERSION_STRING)"
 	$(_E) "Build targets:                $(TARGET_FILES)"
 	$(_E) "Doc files:                    $(DOC_FILES)"
 	$(_E) "Bundle filenames       tar:   $(TAR_FILENAME)"
@@ -83,7 +90,7 @@ $(MAKEFILE_DEP) depend: $(REV_FILENAME)
 	$(_V) echo "$(TARGET_FILES): $(LANG_FILES) $(MAKEFILE_DEP)" >> $(MAKEFILE_DEP)
 ifdef USE_NFO
 	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_nfo" >> $(MAKEFILE_DEP)
-	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/nfoheader.nfo $(SCRIPT_DIR)/mdep.py" >> $(MAKEFILE_DEP)
+	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/mdep.py" >> $(MAKEFILE_DEP)
 endif
 ifdef USE_OBG
 	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_obg" >> $(MAKEFILE_DEP)
@@ -96,7 +103,7 @@ ifeq ($(DEP_CHECK_TYPE),normal)
 %.gfx.dep: %.src.dep
 	$(_E) "[DEP] $@"
 	$(_V) echo "" > $@
-	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; done; done | sort | uniq >> $@
+	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do if [ -f $$j ]; then for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; fi; done; done | sort | uniq >> $@
 	$(_V) touch $@
 endif
 

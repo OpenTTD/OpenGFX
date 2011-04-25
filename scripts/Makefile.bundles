@@ -103,10 +103,3 @@ $(DIR_NAME_SRC): $(REV_FILENAME) $(MD5_SRC_FILENAME)
 $(INSTALL_DIR):
 	$(_E) "[WRITING]"
 	$(_V) mkdir -p $(INSTALL_DIR)
-
-release-install:
-	$(_E) "Target is obsolete. Use 'install' instead."
-release-source:
-	$(_E) "Target is obsolete. Use 'bundle_src' instead."
-release_zip:
-	$(_E) "Target is obsolete. Use 'bundle_zip' instead."
