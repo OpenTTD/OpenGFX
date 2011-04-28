@@ -157,7 +157,7 @@ ogfx1_base;3981;3999;19;Temperate land;Zephyris;Zephyris;;1
 ogfx1_base;4000;4022;23;Rough terrain;Zephyris;Zephyris;;1
 ogfx1_base;4023;4060;38;Rocks;Zephyris;Zephyris;;1
 ogfx1_base;4061;4061;1;Water;Leppka;Zephyris;;1
-ogfx1_base;4062;4069;8;Coast tiles;Leppka, Zephyris;Zephyris;;1
+ogfx1_base;4062;4069;8;Coast tiles;planetmaker Leppka, Zephyris;Zephyris;;1
 ogfx1_base;4070;4075;6;Ship depot;Red*Star;;;1
 ogfx1_base;4076;4076;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfx1_base;4077;4089;13;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
@@ -265,7 +265,7 @@ ogfxc_arctic;203;210;8;Rail level crossings;Zephyris;Zephyris;;1
 ogfxc_arctic;211;229;19;Road tiles;Zephyris;Zephyris;;1
 ogfxc_arctic;230;237;8;Rail tunnels;Zephyris;Zephyris;;1
 ogfxc_arctic;238;245;8;Water;Leppka;Zephyris;;1
-ogfxc_arctic;246;246;1;Coastline;Leppka, Zephyris;Zephyris;;1
+ogfxc_arctic;246;246;1;Coastline;planetmaker, Leppka, Zephyris;Zephyris;;1
 ogfxc_arctic;247;260;14;Ship depot;Red*Star;;;1
 ogfxc_arctic;261;261;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxc_arctic;262;268;7;Oil well;Zephyris;buttercup;;1
@@ -293,7 +293,7 @@ ogfxh_tropical;191;198;8;Rail level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;199;217;19;Road desert tiles;Zephyris;Zephyris;;1
 ogfxh_tropical;218;233;16;Tunnels;Zephyris;Zephyris;;1
 ogfxh_tropical;234;234;1;Water;Leppka;Zephyris;;1
-ogfxh_tropical;235;242;8;Coastline;Leppka, Zephyris;Zephyris;;1
+ogfxh_tropical;235;242;8;Coastline;planetmaker, Leppka, Zephyris;Zephyris;;1
 ogfxh_tropical;243;248;6;Ship depot;Red*Star;;;1
 ogfxh_tropical;249;249;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxh_tropical;250;256;7;Oil well;Zephyris;buttercup;;1
@@ -387,7 +387,7 @@ ogfxe_extra;0;5;6;[Type 09] One-way road arrows;FooBar;FooBar;;1
 ogfxe_extra;0;255;256;[Type 0A] Two company color translation maps;n/a;n/a;;1
 ogfxe_extra;0;112;113;[Type 0B] Tram tracks;FooBar, PikkaBird, Zephyris;FooBar;;1
 ogfxe_extra;0;132;133;[Type 0C] Snowy temperate trees;;;127;0
-ogfxe_extra;0;15;16;[Type 0D] Coast Tile graphics;Leppka, Zephyris;buttercup;;1
+ogfxe_extra;0;15;16;[Type 0D] Coast Tile graphics;planetmaker, Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;11;12;[Type 0F] Sprites for marking tracks on slopes (for track reservation);FooBar, Zephyris;n/a;;1
 ogfxe_extra;0;14;15;[Type 10] Additional airport graphics;Skidd13, Zephyris;Zephyris;;1
 ogfxe_extra;0;7;8;[Type 11] Road stop graphics;FooBar;FooBar;;1
