@@ -114,45 +114,50 @@
   360 sprites/png/industries010.png 338 2104 09 117 50 -31 -117
 
 //2106-2117 farm
-  301 sprites/png/industries010.png 658 1704 09 31 64 -31 0
-  302 sprites/png/industries010.png 2 1752 09 31 64 -31 0
-  303 sprites/png/industries010.png 82 1752 09 37 32 -17 -1
-  304 sprites/png/industries010.png 130 1752 09 37 26 -17 -17
-  305 sprites/png/industries010.png 162 1752 09 31 64 -31 0
-  306 sprites/png/industries010.png 242 1752 09 29 57 -26 -4
-  307 sprites/png/industries010.png 306 1752 09 31 64 -31 0
-  308 sprites/png/industries010.png 386 1752 09 29 38 -20 -4
-  309 sprites/png/industries010.png 434 1752 09 31 64 -31 0
-  310 sprites/png/industries010.png 514 1752 09 48 27 -6 -27
-  311 sprites/png/industries010.png 546 1752 09 31 64 -31 0
-  312 sprites/png/industries010.png 626 1752 09 30 54 -30 0
+  2106 sprites/png/industries/farm.png  10 10 09  31 64 -31   0 // 1st half ground tile
+  2107 sprites/png/industries/farm.png  90 10 09  31 64 -31   0 // 2nd half ground tile
+  2108 sprites/png/industries/farm.png  10 60 09  64 32 -17 -28 // 1st half building
+  2109 sprites/png/industries/farm.png  90 60 09  37 26 -17 -17 // 2nd half building
+  2110 sprites/png/industries/farm.png 170 10 09  31 64 -31   0 // ground A
+  2111 sprites/png/industries/farm.png 170 60 09  29 57 -26  -4 // building A: barn (shed)
+  2112 sprites/png/industries/farm.png 250 10 09  31 64 -31   0 // ground B
+  2113 sprites/png/industries/farm.png 250 60 09  31 38 -20 -12 // building B: barn (garage)
+  2114 sprites/png/industries/farm.png 330 10 09  31 64 -31   0 // ground C
+  2115 sprites/png/industries/farm.png 330 60 09  48 45  -6 -34 // building C: silo
+  2116 sprites/png/industries/farm.png 410 10 09  31 64 -31   0 // ground D
+  2117 sprites/png/industries/farm.png 410 60 09  30 54 -30   0 // building D: pigs
 
-//2118-2139 steel mill
+//2118-2145 steel mill
   272 sprites/png/industries/steelmill.png   2  10 09 31 64 -31   0
   273 sprites/png/industries/steelmill.png  82  10 09 42 64 -31 -11
   274 sprites/png/industries/steelmill.png 162  10 09 31 64 -31   0
   275 sprites/png/industries/steelmill.png 242  10 09 44 64 -31 -13
   276 sprites/png/industries/steelmill.png 322  10 09 31 64 -31   0
+
   277 sprites/png/industries/steelmill.png 402  10 09 49 64 -31 -18
   278 sprites/png/industries/steelmill.png 482  10 09 31 64 -31   0
   279 sprites/png/industries/steelmill.png 562  10 09 31 64 -31   0
   280 sprites/png/industries/steelmill.png 642  10 09 64 64 -31 -33
   281 sprites/png/industries/steelmill.png 722  10 09 31 64 -31   0
+
   282 sprites/png/industries/steelmill.png   2  74 09 69 64 -31 -38
   283 sprites/png/industries/steelmill.png  82  74 03 31 64 -31   0
   284 sprites/png/industries/steelmill.png 162  74 03 42 64 -31 -11
   285 sprites/png/industries/steelmill.png 242  74 03 31 64 -31   0
   286 sprites/png/industries/steelmill.png 322  60 03 58 64 -31 -27
+
   287 sprites/png/industries/steelmill.png 402  74 03 31 64 -31   0
   288 sprites/png/industries/steelmill.png 482  74 03 47 64 -31 -16
   289 sprites/png/industries/steelmill.png 562  74 03 31 64 -31   0
   290 sprites/png/industries/steelmill.png 642  85 03 31 64 -31   0
   291 sprites/png/industries/steelmill.png 722  74 03 63 64 -31 -32
+
   292 sprites/png/industries/steelmill.png   2 165 03 31 64 -31   0
   293 sprites/png/industries/steelmill.png  82 138 03 39 64 -31  -8
   294 sprites/png/industries/steelmill.png 162 138 03 31 64 -31   0
   295 sprites/png/industries/steelmill.png 242 138 03 31 64 -31   0
   296 sprites/png/industries/steelmill.png 322 138 03 31 64 -31   0
+
   297 sprites/png/industries/steelmill.png 402 138 03 31 64 -31   0
   298 sprites/png/industries/steelmill.png 482 138 03 34 64 -31  -3
   299 sprites/png/industries/steelmill.png 562 138 03 31 64 -31   0

@@ -1,6 +1,13 @@
-OpenGFX r637
+OpenGFX r644
 - Feature: Allow source bundles in xz, zip, gzip and bzip2 format; use xz by default
 - Change: Rework rail vehicle alignment, using more Pikkas alignment
+- Change: Significantly improved transparency and building stages of the steel mill
+- Change: Re-touch and re-slice factory, improving esp. the transparency and construction views
+- Change: [Makefile] Update to makefile r284
+- Fix: Missing animation for headstocks of gold mine
+- Fix: [Makefile] Clean the nfo and cnfo files related to the grfs we build
+- Fix: [Makefile] Having the nfo and not the cnfo file depend on source changes resulted in not everything being re-built when it needed to be re-built
+
 
 
 OpenGFX 0.3.3 (1 Apr 2011)
