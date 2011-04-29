@@ -86,14 +86,14 @@
 3811 sprites/png/vehiclesair021.png 2 248 01 16 33 -17 -6 
 3812 sprites/png/vehiclesair021.png 50 248 01 13 28 -14 -5 
 
-3813 sprites/png/vehiclesair021.png 98 248 01 14 8 -3 -4 
-3814 sprites/png/vehiclesair021.png 114 248 01 13 23 -14 -4 
-3815 sprites/png/vehiclesair021.png 146 248 01 13 31 -20 -5 
-3816 sprites/png/vehiclesair021.png 194 248 01 19 23 -14 -11 
-3817 sprites/png/vehiclesair021.png 226 248 01 21 8 -3 -13 
-3818 sprites/png/vehiclesair021.png 242 248 01 19 23 -7 -11 
-3819 sprites/png/vehiclesair021.png 274 248 01 13 31 -9 -5 
-3820 sprites/png/vehiclesair021.png 322 248 01 13 23 -7 -4 
+3813 sprites/png/aircraft/TricaroHelicopter.png 6 5 01 16 12 -7 -8 
+3814 sprites/png/aircraft/TricaroHelicopter.png 38 5 01 14 24 -15 -6 
+3815 sprites/png/aircraft/TricaroHelicopter.png 70 5 01 10 33 -21 -4 
+3816 sprites/png/aircraft/TricaroHelicopter.png 118 5 01 18 28 -14 -9 
+3817 sprites/png/aircraft/TricaroHelicopter.png 166 5 01 22 12 -6 -13 
+3818 sprites/png/aircraft/TricaroHelicopter.png 198 5 01 19 25 -9 -11 
+3819 sprites/png/aircraft/TricaroHelicopter.png 230 5 01 13 33 -16 -6 
+3820 sprites/png/aircraft/TricaroHelicopter.png 278 5 01 14 28 -14 -7 
 
 3821 sprites/png/vehiclesair021.png 354 248 01 17 36 -17 -8 
 3822 sprites/png/vehiclesair021.png 402 248 01 18 34 -16 -6 
