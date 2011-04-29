@@ -14,7 +14,7 @@ $(TTDP_BUNDLE)-$(VERSION_STRING).zip: $(TTDP_BUNDLE)
 bundle_ttdp: $(TTDP_BUNDLE)-$(VERSION_STRING).zip
 
 
-ifdef USE_NML
+ifdef USE_NML2NFO
 sprites/nfo/base/%.pnfo: sprites/nml/base/%.bnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`

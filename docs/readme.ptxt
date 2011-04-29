@@ -228,9 +228,9 @@ The repository contains a few NML files in sprites/nml/*/*.bnml which act as
 possible source for the corresponding pnfo files in sprites/nfo/*/*.pnfo files.
 NML is no requirement to build OpenGFX as the NFO files are part of the
 repository, but some repetitive alignment tasks are made a bit easier by using
-NML. The pnfo files can be generated from the bnml files by using the make
-target 'nml2nfo' which will re-generate all pnfo files which can be generated
-from bnml files.
+NML. The pnfo files can be generated from the bnml files by giving USE_NML2NFO=1 as
+a command line parameter or by defining it in Makefile.local. Then the bnml files
+will become an automatic dependency for the corresponding pnfo file, if present.
 
 
 
