@@ -13,10 +13,6 @@ $(TTDP_BUNDLE)-$(VERSION_STRING).zip: $(TTDP_BUNDLE)
 
 bundle_ttdp: $(TTDP_BUNDLE)-$(VERSION_STRING).zip
 
-nml2nfo: $(BNML_FILES) $(PNML_FILES)
-	$(_E) "[NML2NFO]"
-	$(_V) for i in $(BNML_FILES); do echo "[NML] $$i"; $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $$i | $(NML) $(NML_FLAGS) --nfo `echo "$$i" | sed "s/nml/nfo/g" | sed "s/bnfo/pnfo/"` --start-sprite=`echo "$$i" | cut -d- -f2 | sed "s/^0*//"`; done
-	$(_V) for i in $(PNML_FILES); do echo "[NML] $$i"; $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $$i | $(NML) $(NML_FLAGS) --nfo `echo "$$i" | sed "s/nml/nfo/g"`; done
 
 ifdef USE_NML
 sprites/nfo/base/%.pnfo: sprites/nml/base/%.bnml
