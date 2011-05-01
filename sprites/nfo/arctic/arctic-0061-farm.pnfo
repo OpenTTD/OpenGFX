@@ -1,13 +1,13 @@
 //61-72 farm
-  301 sprites/png/industries010.png 658 1704 09 31 64 -31 0
-  302 sprites/png/industries010.png 2 1752 09 31 64 -31 0
-  303 sprites/png/industries010.png 82 1752 09 37 32 -17 -1
-  304 sprites/png/industries010.png 130 1752 09 37 26 -17 -17
-  305 sprites/png/industries010.png 162 1752 09 31 64 -31 0
-  306 sprites/png/industries010.png 242 1752 09 29 57 -26 -4
-  307 sprites/png/industries010.png 306 1752 09 31 64 -31 0
-  308 sprites/png/industries010.png 386 1752 09 29 38 -20 -4
-  309 sprites/png/industries010.png 434 1752 09 31 64 -31 0
-  310 sprites/png/industries010.png 514 1752 09 48 27 -6 -27
-  311 sprites/png/industries010.png 546 1752 09 31 64 -31 0
-  312 sprites/png/industries010.png 626 1752 09 30 54 -30 0
+  61 sprites/png/industries/farm.png  10 150 09  31 64 -31   0 // 1st half ground tile
+  62 sprites/png/industries/farm.png  90 150 09  31 64 -31   0 // 2nd half ground tile
+  63 sprites/png/industries/farm.png  10  60 09  64 32 -17 -28 // 1st half building
+  64 sprites/png/industries/farm.png  90  60 09  37 26 -17 -17 // 2nd half building
+  65 sprites/png/industries/farm.png 170 150 09  31 64 -31   0 // ground A
+  66 sprites/png/industries/farm.png 170  60 09  29 57 -26  -4 // building A: barn (shed)
+  67 sprites/png/industries/farm.png 250 150 09  31 64 -31   0 // ground B
+  68 sprites/png/industries/farm.png 250  60 09  31 38 -20 -12 // building B: barn (garage)
+  69 sprites/png/industries/farm.png 330 150 09  31 64 -31   0 // ground C
+  70 sprites/png/industries/farm.png 330  60 09  48 45  -6 -34 // building C: silo
+  71 sprites/png/industries/farm.png 410  10 09  31 64 -31   0 // ground D, same as temperate
+  72 sprites/png/industries/farm.png 410  60 09  30 54 -30   0 // building D: pigs
