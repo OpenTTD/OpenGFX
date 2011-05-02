@@ -1,8 +1,8 @@
 //262-268 oil well
-  377 sprites/png/industries010.png 322 2232 09 31 64 -31 0
-  378 sprites/png/industries010.png 402 2232 09 44 31 -11 -29
-  379 sprites/png/industries010.png 450 2232 09 44 31 -11 -29
-  380 sprites/png/industries010.png 498 2232 09 44 31 -11 -29
-  381 sprites/png/industries010.png 546 2232 09 44 31 -11 -29
-  382 sprites/png/industries010.png 594 2232 09 44 31 -11 -29
-  383 sprites/png/industries010.png 642 2232 09 44 31 -11 -29
+  377 sprites/png/industries/industries_misc.png 322 2232 09 31 64 -31 0
+  378 sprites/png/industries/industries_misc.png 402 2232 09 44 31 -11 -29
+  379 sprites/png/industries/industries_misc.png 450 2232 09 44 31 -11 -29
+  380 sprites/png/industries/industries_misc.png 498 2232 09 44 31 -11 -29
+  381 sprites/png/industries/industries_misc.png 546 2232 09 44 31 -11 -29
+  382 sprites/png/industries/industries_misc.png 594 2232 09 44 31 -11 -29
+  383 sprites/png/industries/industries_misc.png 642 2232 09 44 31 -11 -29

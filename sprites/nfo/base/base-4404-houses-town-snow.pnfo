@@ -39,12 +39,12 @@
  4436 sprites/png/morebuildings.png 386 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
  4437 sprites/png/morebuildings.png 466 200 09 95 64 -31 -64    // Recolour: DARK_GREEN, GRAY, RED
 //office block
- 4438 sprites/png/industries010.png 674 1912 03 31 64 -31 0
+ 4438 sprites/png/industries/industries_misc.png 674 1912 03 31 64 -31 0
  4439 sprites/png/morebuildings.png 311 308 03 60 54 -25 -31    // Recolour: CREAM, DARK_GREEN, YELLOW
  4440 sprites/png/morebuildings.png 375 308 03 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
  4441 sprites/png/morebuildings.png 439 308 09 92 53 -25 -64    // Recolour: CREAM, DARK_GREEN, YELLOW
 // 4442-4445 office block
- 4442 sprites/png/industries010.png 674 1912 03 31 64 -31 0
+ 4442 sprites/png/industries/industries_misc.png 674 1912 03 31 64 -31 0
  4443 sprites/png/morebuildings.png 2 308 03 43 64 -31 -12      // Recolour: BROWN, ORANGE, RED
 HOUSE_HEIGHT149_1(sprites/png/houses/base-4444.4445.4576-offices.png)   // Recolour: BROWN, ORANGE, RED
 HOUSE_HEIGHT149_2(sprites/png/houses/base-4444.4445.4576-offices.png)   // Recolour: BROWN, ORANGE, RED
@@ -95,7 +95,7 @@ HOUSE_HEIGHT87(sprites/png/houses/base-4477-4479.4577-office.png, 176)  // Recol
  4480 sprites/png/morebuilding2.png 571 2 03 31 64 -31 0
  4481 sprites/png/morebuilding2.png 571 2 03 1 1 0 0
  4482 sprites/png/morebuilding2.png 646 2 03 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN, GRAY, ORANGE
- 4483 sprites/png/industries010.png 674 1912 03 31 64 -31 0
+ 4483 sprites/png/industries/industries_misc.png 674 1912 03 31 64 -31 0
  4484 sprites/png/morebuilding2.png 714 2 09 87 64 -31 -56      // Recolour: BROWN, DARK_GREEN, GRAY, ORANGE
  4485 sprites/png/morebuilding2.png 2 2 09 31 64 -31 0
  4486 sprites/png/morebuilding2.png 68 2 09 31 64 -31 0

@@ -14,16 +14,16 @@
  4685 sprites/png/industries/sweetfactory.png  70 140 01  88 32 -31 -57
 
 //4686  4690    5       Toyland: Battery farm
-    3 sprites/png/BatteryFarm2.png 66 8 09 31 64 -31 0
-    4 sprites/png/BatteryFarm2.png 146 8 09 31 64 -31 0
-    5 sprites/png/BatteryFarm2.png 226 8 09 34 64 -31 -3
-    6 sprites/png/BatteryFarm2.png 306 8 09 38 64 -31 -7
-    7 sprites/png/BatteryFarm2.png 386 8 09 31 64 -31 0
+    3 sprites/png/industries/BatteryFarm.png 66 8 09 31 64 -31 0
+    4 sprites/png/industries/BatteryFarm.png 146 8 09 31 64 -31 0
+    5 sprites/png/industries/BatteryFarm.png 226 8 09 34 64 -31 -3
+    6 sprites/png/industries/BatteryFarm.png 306 8 09 38 64 -31 -7
+    7 sprites/png/industries/BatteryFarm.png 386 8 09 31 64 -31 0
 
 //4691  4693    3       Toyland: Cola wells
-    3 sprites/png/colawells.png 66 8 09 31 64 -31 0
-    4 sprites/png/colawells.png 146 8 09 38 64 -31 -7
-    5 sprites/png/colawells.png 226 8 09 38 64 -31 -7
+    3 sprites/png/industries/colawells.png 66 8 09 31 64 -31 0
+    4 sprites/png/industries/colawells.png 146 8 09 38 64 -31 -7
+    5 sprites/png/industries/colawells.png 226 8 09 38 64 -31 -7
 
 //4694  4694    1       Toyland: Statue
  4694 sprites/png/toyland_statue_sprite270.png 0 0 09 80 36 -18 -55     // Recolour: CREAM, PALE_GREEN, RED
@@ -92,37 +92,37 @@
  4741 sprites/png/industries/fizzy-drink-4737-4742.png 197 10 09 151 64 -21 -128  // can with part of tap
  4742 sprites/png/industries/fizzy-drink-4737-4742.png 277 10 09  78 26 -12  -53  // glass and tap
 
-//4743  4762    20      Toyland: Bubble generator
+//4743  4762    20      Toyland: industries/Bubble generator
 //Recolour: CC translates to random colour
- 4743 sprites/png/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
- 4744 sprites/png/BubbleGenerator8bpp.png  63   0 09 117 39   0  -88
- 4745 sprites/png/BubbleGenerator8bpp.png   0   0 09 117 63 -31 -104
- 4746 sprites/png/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
- 4747 sprites/png/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
+ 4743 sprites/png/industries/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
+ 4744 sprites/png/industries/BubbleGenerator8bpp.png  63   0 09 117 39   0  -88
+ 4745 sprites/png/industries/BubbleGenerator8bpp.png   0   0 09 117 63 -31 -104
+ 4746 sprites/png/industries/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
+ 4747 sprites/png/industries/BubbleGenerator8bpp.png  50 110 09   5  5   0    0
 
-// Bubbles
-    3 sprites/png/bubbles.png 66 8 09 15 15 -7 -15
-    4 sprites/png/bubbles.png 98 8 09 16 15 -7 -16
-    5 sprites/png/bubbles.png 130 8 09 15 16 -7 -15
-    6 sprites/png/bubbles.png 162 8 09 4 17 -8 -2
-    7 sprites/png/bubbles.png 194 8 09 8 17 -8 -6
-    8 sprites/png/bubbles.png 226 8 09 12 17 -8 -10
-    9 sprites/png/bubbles.png 258 8 09 15 17 -8 -13
-   10 sprites/png/bubbles.png 290 8 09 21 20 -9 -18
-   11 sprites/png/bubbles.png 322 8 09 28 28 -13 -21
-   12 sprites/png/bubbles.png 370 8 09 36 37 -17 -25
-   13 sprites/png/bubbles.png 418 8 09 16 15 -7 -15
-   14 sprites/png/bubbles.png 450 8 09 18 15 -7 -14
-   15 sprites/png/bubbles.png 482 8 09 22 13 -6 -12
-   16 sprites/png/bubbles.png 514 8 09 26 11 -5 -6
-   17 sprites/png/bubbles.png 530 8 09 35 7 -3 1
+// industries/Bubbles
+    3 sprites/png/industries/bubbles.png 66 8 09 15 15 -7 -15
+    4 sprites/png/industries/bubbles.png 98 8 09 16 15 -7 -16
+    5 sprites/png/industries/bubbles.png 130 8 09 15 16 -7 -15
+    6 sprites/png/industries/bubbles.png 162 8 09 4 17 -8 -2
+    7 sprites/png/industries/bubbles.png 194 8 09 8 17 -8 -6
+    8 sprites/png/industries/bubbles.png 226 8 09 12 17 -8 -10
+    9 sprites/png/industries/bubbles.png 258 8 09 15 17 -8 -13
+   10 sprites/png/industries/bubbles.png 290 8 09 21 20 -9 -18
+   11 sprites/png/industries/bubbles.png 322 8 09 28 28 -13 -21
+   12 sprites/png/industries/bubbles.png 370 8 09 36 37 -17 -25
+   13 sprites/png/industries/bubbles.png 418 8 09 16 15 -7 -15
+   14 sprites/png/industries/bubbles.png 450 8 09 18 15 -7 -14
+   15 sprites/png/industries/bubbles.png 482 8 09 22 13 -6 -12
+   16 sprites/png/industries/bubbles.png 514 8 09 26 11 -5 -6
+   17 sprites/png/industries/bubbles.png 530 8 09 35 7 -3 1
 
 //4763  4767    5       Toyland: Toffee quarry
- 4763 sprites/png/toffee_quary.png  90 0 09 35 44 -21 -10
- 4764 sprites/png/toffee_quary.png  30 0 09 62 49 -38 -20
- 4765 sprites/png/toffee_quary.png 140 0 09 22 16 -20 5
- 4766 sprites/png/toffee_quary.png 160 0 09 52 39 -4 -8
- 4767 sprites/png/toffee_quary.png   0 0 09 25 24 -8 -8
+ 4763 sprites/png/industries/toffee_quary.png  90 0 09 35 44 -21 -10
+ 4764 sprites/png/industries/toffee_quary.png  30 0 09 62 49 -38 -20
+ 4765 sprites/png/industries/toffee_quary.png 140 0 09 22 16 -20 5
+ 4766 sprites/png/industries/toffee_quary.png 160 0 09 52 39 -4 -8
+ 4767 sprites/png/industries/toffee_quary.png   0 0 09 25 24 -8 -8
 
 //4768  4789    22      Toyland: Sugar mine
  4768 sprites/png/industries/sugarmine/bgstockpile.png           32   1 09 32 64 -32   0
