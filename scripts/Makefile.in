@@ -15,22 +15,22 @@ bundle_ttdp: $(TTDP_BUNDLE)-$(VERSION_STRING).zip
 
 
 ifdef USE_NML2NFO
-sprites/nfo/base/%.pnfo: sprites/nml/base/%.bnml
+sprites/nfo/base/%.pnfo: sprites/nml/base/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
-sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.bnml
+sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
-sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.bnml
+sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
-sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.bnml
+sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
-sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.bnml
+sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
-sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.bnml
+sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.pnml
 	$(_E) "[NML2NFO] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@
 endif

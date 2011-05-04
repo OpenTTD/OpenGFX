@@ -1,12 +1,23 @@
-OpenGFX r644
-- Feature: Allow source bundles in xz, zip, gzip and bzip2 format; use xz by default
-- Change: Rework rail vehicle alignment, using more Pikkas alignment
+OpenGFX r656
+------------
+- Feature: [Makefile] Optionally use nml to generate (some) pnfo files
+- Feature: [Makefile] Allow source bundles in xz, zip, gzip and bzip2 format; use xz by default
+
+- Change: Temperate farm retouched
+- Change: Tricaro helicopter with new sprites (#2118)
 - Change: Significantly improved transparency and building stages of the steel mill
 - Change: Re-touch and re-slice factory, improving esp. the transparency and construction views
+- Change: Company-colour version for the Darwin 300 (#2107)
+- Change: Rework rail vehicle alignment, using more Pikkas alignment
 - Change: [Makefile] Update to makefile r284
+
+- Fix: Reduce the size of the sand beaches in order to make less apparent a glitch with some coast corners (#2137)
+- Fix: Wrong, untranslated colour in some bridge GUI sprites (#2153)
 - Fix: Missing animation for headstocks of gold mine
 - Fix: [Makefile] Clean the nfo and cnfo files related to the grfs we build
 - Fix: [Makefile] Having the nfo and not the cnfo file depend on source changes resulted in not everything being re-built when it needed to be re-built
+
+- Doc: Meaning of re-colour sprites
 
 
 
@@ -16,9 +27,10 @@ OpenGFX 0.3.3 (1 Apr 2011)
 - Add: Allow to also generate parts of the extra grf
 - Add: Allow to manually generate pnfo files via nml
 - Add: allow to use includes in the nml files
+
 - Change: Add the a NML file for the aircraft
 - Change: Use the base_sprite variable in some nml files
-- Doc: Aircraft sprites
+
 - Fix: Updated and resized sprites for the arctic engines
 - Fix: Glitch with horizontal monorail track
 - Fix: misalignment 1px
@@ -29,6 +41,9 @@ OpenGFX 0.3.3 (1 Apr 2011)
 - Fix: [Makefile] A re-build was not always triggered when required
 - Fix: Helicopter sprite sizes were converted wrongly
 
+- Doc: Aircraft sprites
+
+
 
 OpenGFX 0.3.2 (22 Dec 2010)
 -------------------------------------
@@ -36,10 +51,12 @@ OpenGFX 0.3.2 (22 Dec 2010)
 - Feature: Red-nose for toyland vehicles
 - Feature: Toyland-specifc ships
 - Feature: [TTDP] make target bundle_ttdp
+
 - Change: [Makefile] Update to version 0.5.2
 - Change: convert from pcx to png sprites. This will need GRFCodec r785 / version 5.1 or newer compiled with PNG support to compile OpenGFX.
 - Change: Slightly modified shore line tiles with a bit less grid
 - Change: replace house of single station with a bigger one
+
 - Fix: Bridge GUI sprites were 1 pixel too high
 - Fix: GUI sprites should not have offsets as that causes glitches
 - Fix: red/green semaphore PBS sprites were swapped for the leftside signals
@@ -50,14 +67,19 @@ OpenGFX 0.3.2 (22 Dec 2010)
 - Fix: Don't include the nfo header twice
 - Fix: [Makefile] Dep check was slightly broken, causing incomplete re-builds or keeping old dependencies
 - Fix: [Makefile] Intermediate files were not always searched for in the correct path
+
 - Doc: Update readme, especially wrt required grfcodec version
 - Doc: Add some more proper sprite numbers
 - Doc: Updated mission statement
 
+
+
 OpenGFX 0.3.1 (19 Sep 2010)
 -------------------------------------
+
 - Feature: [Makefile] build from source bundle and make rpm
 - Feature: [Makefile] Allow to opt-out of installing changelog and / or license
+
 - Change: [Makefile] Update to Makefile 0.4.6
 - Change: [Makefile] No need to process or modify license and changelog documents
 - Change: [Makefile] Handle windows path separators
@@ -65,11 +87,14 @@ OpenGFX 0.3.1 (19 Sep 2010)
 - Change: [Makefile] Also build the documentation when a simple make is called
 - Change: [Makefile] Re-introduce another intermediate step so that a gcc failure is fatal again
 - Change: [Makefile] Decide upon the DEP_CHECK_TYPE by checking for the availability of python
+
 - Fix: [Makefile] Make it impossible to overwrite the md5 file to check against, unless one builds source bundle
 - Fix: [Makefile] Handle a 'missing' unix2dos binary gracefully and do the right thing
 - Fix: [Makefile] Don't install text and grf files as executable
 - Fix: [Makefile] Define gcc for buggy MinGW
 - Fix: switch floppy sprites
+
+
 
 OpenGFX 0.3.0 (10 Sep 2010)
 -------------------------------------
