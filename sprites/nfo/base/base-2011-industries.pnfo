@@ -113,19 +113,10 @@
   359 sprites/png/industries/industries_misc.png 290 2104 09 110 32 -31 -94
   360 sprites/png/industries/industries_misc.png 338 2104 09 117 50 -31 -117
 
-//2106-2117 farm
-  2106 sprites/png/industries/farm.png  10 10 09  31 64 -31   0 // 1st half ground tile
-  2107 sprites/png/industries/farm.png  90 10 09  31 64 -31   0 // 2nd half ground tile
-  2108 sprites/png/industries/farm.png  10 60 09  64 32 -17 -28 // 1st half building
-  2109 sprites/png/industries/farm.png  90 60 09  37 26 -17 -17 // 2nd half building
-  2110 sprites/png/industries/farm.png 170 10 09  31 64 -31   0 // ground A
-  2111 sprites/png/industries/farm.png 170 60 09  29 57 -26  -4 // building A: barn (shed)
-  2112 sprites/png/industries/farm.png 250 10 09  31 64 -31   0 // ground B
-  2113 sprites/png/industries/farm.png 250 60 09  31 38 -20 -12 // building B: barn (garage)
-  2114 sprites/png/industries/farm.png 330 10 09  31 64 -31   0 // ground C
-  2115 sprites/png/industries/farm.png 330 60 09  48 45  -6 -34 // building C: silo
-  2116 sprites/png/industries/farm.png 410 10 09  31 64 -31   0 // ground D
-  2117 sprites/png/industries/farm.png 410 60 09  30 54 -30   0 // building D: pigs
+//2106-2117 farm_temperate
+
+#define FARM_GFX_FILE sprites/png/industries/farm_temperate.png
+#include "../templates/farm.pnfo"
 
 //2118-2145 steel mill
   272 sprites/png/industries/steelmill.png   2  10 09 31 64 -31   0
