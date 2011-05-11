@@ -152,8 +152,9 @@
   134 sprites/png/landscape031.png 738 264 09 39 22 -11 -33
   135 sprites/png/landscape031.png 770 264 09 37 21 -10 -31
   136 sprites/png/landscape031.png 2 328 09 35 19 -9 -29
-// 1709 conifer
-//continues...
+
+//continues... following trees have snowy equivalents:
+// 1709 conifer (1765)
   138 sprites/png/landscape031.png 50 328 09 18 8 -4 -12
   139 sprites/png/landscape031.png 66 328 09 32 14 -7 -26
   140 sprites/png/landscape031.png 98 328 09 41 18 -9 -35
@@ -218,8 +219,8 @@
   192 sprites/png/landscape031.png 66 456 09 44 20 -10 -38
   193 sprites/png/landscape031.png 98 456 09 43 20 -10 -37
 
-//1765-1820 arctic trees
-// 1765 snowy conifer (equiv of )
+//1765-1820 arctic snowy trees
+// 1765 snowy conifer (equiv of 1709)
   194 sprites/png/landscape031.png 130 456 09 18 8 -4 -12
   195 sprites/png/landscape031.png 146 456 09 32 14 -7 -26
   196 sprites/png/landscape031.png 178 456 09 41 18 -9 -35
@@ -227,7 +228,7 @@
   198 sprites/png/landscape031.png 242 456 09 53 19 -9 -47
   199 sprites/png/landscape031.png 274 456 09 53 17 -8 -47
   200 sprites/png/landscape031.png 306 456 09 51 13 -6 -45
-// 1772 snowy leaf tree (equiv. of )
+// 1772 snowy leaf tree (equiv. of 1716)
   201 sprites/png/landscape031.png 338 456 09 22 10 -5 -16
   202 sprites/png/landscape031.png 354 456 09 27 13 -6 -21
   203 sprites/png/landscape031.png 386 456 09 39 18 -9 -33
@@ -235,7 +236,7 @@
   205 sprites/png/landscape031.png 450 456 09 46 22 -11 -40
   206 sprites/png/landscape031.png 482 456 09 44 21 -10 -38
   207 sprites/png/landscape031.png 514 456 09 41 19 -9 -35
-// 1779 snowy leaf tree (equiv. of )
+// 1779 snowy leaf tree (equiv. of 1723)
   208 sprites/png/landscape031.png 546 456 09 22 10 -5 -16
   209 sprites/png/landscape031.png 562 456 09 27 13 -6 -21
   210 sprites/png/landscape031.png 594 456 09 39 18 -9 -33
@@ -243,7 +244,7 @@
   212 sprites/png/landscape031.png 658 456 09 46 21 -10 -40
   213 sprites/png/landscape031.png 690 456 09 40 21 -10 -34
   214 sprites/png/landscape031.png 722 456 09 39 19 -9 -33
-// 1786 snowy conifer (equiv. of )
+// 1786 snowy conifer (equiv. of 1730)
   215 sprites/png/landscape031.png 754 456 09 22 10 -5 -16
   216 sprites/png/landscape031.png 770 456 09 27 13 -6 -21
   217 sprites/png/landscape031.png 2 520 09 39 18 -9 -33
@@ -251,7 +252,7 @@
   219 sprites/png/landscape031.png 66 520 09 45 21 -10 -39
   220 sprites/png/landscape031.png 98 520 09 45 18 -9 -39
   221 sprites/png/landscape031.png 130 520 09 45 17 -8 -39
-// 1793 snowy conifer (equiv. of )
+// 1793 snowy conifer (equiv. of 1737)
   222 sprites/png/landscape031.png 162 520 09 22 10 -5 -16
   223 sprites/png/landscape031.png 178 520 09 27 13 -6 -21
   224 sprites/png/landscape031.png 210 520 09 39 18 -9 -33
@@ -259,7 +260,7 @@
   226 sprites/png/landscape031.png 274 520 09 45 21 -10 -39
   227 sprites/png/landscape031.png 306 520 09 45 19 -9 -39
   228 sprites/png/landscape031.png 338 520 09 45 17 -8 -39
-// 1800 snowy conifer (equiv. of )
+// 1800 snowy conifer (equiv. of 1744)
   229 sprites/png/landscape031.png 370 520 09 22 9 -4 -16
   230 sprites/png/landscape031.png 386 520 09 27 12 -6 -21
   231 sprites/png/landscape031.png 418 520 09 39 16 -8 -33
@@ -267,7 +268,7 @@
   233 sprites/png/landscape031.png 482 520 09 53 18 -9 -47
   234 sprites/png/landscape031.png 514 520 09 53 17 -8 -47
   235 sprites/png/landscape031.png 546 520 09 52 16 -8 -46
-// 1807 snowy conifer (equiv. of )
+// 1807 snowy conifer (equiv. of 1751)
   236 sprites/png/landscape031.png 578 520 09 18 8 -4 -12
   237 sprites/png/landscape031.png 594 520 09 32 12 -6 -26
   238 sprites/png/landscape031.png 626 520 09 41 17 -8 -35
@@ -275,7 +276,7 @@
   240 sprites/png/landscape031.png 690 520 09 53 18 -9 -47
   241 sprites/png/landscape031.png 722 520 09 53 18 -9 -47
   242 sprites/png/landscape031.png 754 520 09 51 13 -6 -45
-// 1814 snowy leaf tree (equiv. of )
+// 1814 snowy leaf tree (equiv. of 1758)
   243 sprites/png/landscape031.png 786 520 09 19 10 -5 -13
   244 sprites/png/landscape031.png 2 584 09 33 15 -7 -27
   245 sprites/png/landscape031.png 34 584 09 39 18 -9 -33
@@ -430,8 +431,8 @@
   375 sprites/png/landscape031.png 226 984 09 41 29 -14 -35
   376 sprites/png/landscape031.png 274 984 09 39 26 -13 -33
 
-//1947-2009 toyland trees
-//1947 - 1953 reverse cone tree
+//1947-2009 toyland trees; (see src/table/tree_land.h for recolour info)
+//1947 - 1953 reverse cone tree (recolour cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   378 sprites/png/toyland_tree_reversecone.png 4 12 09 20 13 -7 -14
   379 sprites/png/toyland_tree_reversecone.png 36 12 09 26 17 -9 -19
   380 sprites/png/toyland_tree_reversecone.png 68 12 09 32 24 -12 -25
@@ -440,7 +441,7 @@
   383 sprites/png/toyland_tree_reversecone.png 188 12 09 39 27 -14 -32
   384 sprites/png/toyland_tree_reversecone.png 232 12 09 39 16 -8 -32
 
-//1954 - 1960 sugar bubble tree
+//1954 - 1960 sugar bubble tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   399 sprites/png/landscape031.png 258 1048 09 12 3 -1 -6
   400 sprites/png/landscape031.png 274 1048 09 17 3 -1 -11
   401 sprites/png/landscape031.png 290 1048 09 30 13 -6 -24
@@ -449,7 +450,7 @@
   404 sprites/png/landscape031.png 386 1048 09 47 29 -14 -41
   405 sprites/png/landscape031.png 434 1048 09 39 29 -14 -33
 
-//1961 - 1967 baloon tree
+//1961 - 1967 baloon tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   427 sprites/png/toyland_tree_balloon.png 6 16 09 8 10 -11 -31
   428 sprites/png/toyland_tree_balloon.png 24 16 09 16 16 -11 -31
   429 sprites/png/toyland_tree_balloon.png 48 16 09 24 24 -11 -31
@@ -458,7 +459,7 @@
   432 sprites/png/toyland_tree_balloon.png 160 16 09 32 30 -11 -31
   433 sprites/png/toyland_tree_balloon.png 198 16 09 32 30 -11 -31
 
-//1968 - 1974 moving cylinder
+//1968 - 1974 moving cylinder (no recolour)
   406 sprites/png/random.png 190 453 09 36 22 -11 -30
   407 sprites/png/random.png 213 453 09 36 22 -11 -30
   408 sprites/png/random.png 236 453 09 36 22 -11 -30
@@ -467,7 +468,7 @@
   411 sprites/png/random.png 305 453 09 36 22 -11 -30
   412 sprites/png/random.png 328 453 09 36 22 -11 -30
 
-//1975 - 1981 paper streamer tree
+//1975 - 1981 paper streamer tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   385 sprites/png/landscape031.png 578 984 09 18 9 -4 -12
   386 sprites/png/landscape031.png 594 984 09 26 13 -6 -20
   387 sprites/png/landscape031.png 626 984 09 31 17 -8 -25
@@ -476,7 +477,7 @@
   390 sprites/png/landscape031.png 722 984 09 39 20 -10 -33
   391 sprites/png/landscape031.png 754 984 09 31 5 -2 -25
 
-//1982 - 1988 fly agaric tree
+//1982 - 1988 fly agaric tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   413 sprites/png/landscape031.png 738 1048 09 37 18 -9 -31
   414 sprites/png/landscape031.png 770 1048 09 37 18 -9 -31
   415 sprites/png/landscape031.png 2 1112 09 37 26 -12 -31
@@ -485,7 +486,7 @@
   418 sprites/png/landscape031.png 130 1112 09 37 31 -14 -31
   419 sprites/png/landscape031.png 178 1112 09 37 24 -10 -31
 
-//1989-1995 cone tree
+//1989-1995 cone tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   420 sprites/png/random.png 370 453 09 37 30 -15 -31
   421 sprites/png/random.png 401 453 09 37 30 -15 -31
   422 sprites/png/random.png 432 453 09 37 30 -15 -31
@@ -494,7 +495,7 @@
   425 sprites/png/random.png 525 453 09 37 30 -15 -31
   426 sprites/png/random.png 556 453 09 37 30 -15 -31
 
-//1996 - 2002 stylized tree
+//1996 - 2002 stylized tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   427 sprites/png/random.png 10 453 09 37 24 -12 -31
   428 sprites/png/random.png 35 453 09 37 24 -12 -31
   429 sprites/png/random.png 60 453 09 37 24 -12 -31
