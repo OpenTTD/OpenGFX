@@ -1,0 +1,19 @@
+//
+// This file is part of the OpenGFX Graphics Base Set for OpenTTD.
+// OpenGFX is free software; you can redistribute it and/or modify it under the
+// terms of the GNU General Public License as published by the Free
+// Software Foundation, version 2 or - upon your discretion - any later version.
+// OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+// without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// See the GNU General Public License for more details. You should have received a copy of
+// the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
+//
+
+   -1 THIS_GFX_FILE   0 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE  40 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE  80 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE 120 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE 160 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE 200 0 09 80 35 -19 -73
+   -1 THIS_GFX_FILE 240 0 09 80 35 -19 -73
+#undef THIS_GFX_FILE

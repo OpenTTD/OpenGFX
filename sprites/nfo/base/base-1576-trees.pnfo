@@ -1,6 +1,6 @@
 //1576-2009 trees
 //1576-1764 temperate trees
-// 1576 Leaf tree
+// 1576 Leaf tree												#1
     4 sprites/png/landscape031.png 82 8 09 12 6 -3 -6
     5 sprites/png/landscape031.png 98 8 09 18 6 -3 -12
     6 sprites/png/landscape031.png 114 8 09 32 9 -4 -26
@@ -8,7 +8,7 @@
     8 sprites/png/landscape031.png 162 8 09 37 12 -6 -31
     9 sprites/png/landscape031.png 194 8 09 36 12 -6 -32
    10 sprites/png/landscape031.png 226 8 09 36 10 -5 -32
-// 1583 leaf tree
+// 1583 leaf tree												#2
    11 sprites/png/landscape031.png 242 8 09 11 5 -2 -5
    12 sprites/png/landscape031.png 258 8 09 18 6 -3 -12
    13 sprites/png/landscape031.png 274 8 09 30 9 -4 -24
@@ -16,7 +16,7 @@
    15 sprites/png/landscape031.png 322 8 09 38 12 -6 -32
    16 sprites/png/landscape031.png 354 8 09 38 12 -6 -32
    17 sprites/png/landscape031.png 386 8 09 36 12 -6 -30
-// 1590 conifer
+// 1590 conifer													#3
    18 sprites/png/landscape031.png 418 8 09 12 6 -3 -6
    19 sprites/png/landscape031.png 434 8 09 18 8 -4 -12
    20 sprites/png/landscape031.png 450 8 09 32 14 -7 -26
@@ -24,7 +24,7 @@
    22 sprites/png/landscape031.png 514 8 09 41 18 -9 -35
    23 sprites/png/landscape031.png 546 8 09 40 17 -8 -34
    24 sprites/png/landscape031.png 578 8 09 36 10 -5 -30
-// 1597 conifer
+// 1597 conifer													#4
    25 sprites/png/landscape031.png 594 8 09 12 4 -2 -6
    26 sprites/png/landscape031.png 610 8 09 19 6 -3 -13
    27 sprites/png/landscape031.png 626 8 09 27 10 -5 -21
@@ -32,7 +32,7 @@
    29 sprites/png/landscape031.png 674 8 09 36 14 -7 -30
    30 sprites/png/landscape031.png 706 8 09 35 14 -7 -29
    31 sprites/png/landscape031.png 738 8 09 34 12 -6 -28
-// 1604 leaf tree
+// 1604 leaf tree												#5
    32 sprites/png/landscape031.png 770 8 09 11 6 -3 -5
    33 sprites/png/landscape031.png 786 8 09 19 6 -3 -13
    34 sprites/png/landscape031.png 2 72 09 27 11 -5 -21
@@ -40,7 +40,7 @@
    36 sprites/png/landscape031.png 50 72 09 39 12 -6 -33
    37 sprites/png/landscape031.png 82 72 09 39 12 -6 -33
    38 sprites/png/landscape031.png 114 72 09 39 10 -5 -33
-// 1611 conifer or leaf tree
+// 1611 conifer or leaf tree									#6
    39 sprites/png/landscape031.png 130 72 09 11 6 -3 -5
    40 sprites/png/landscape031.png 146 72 09 19 6 -3 -13
    41 sprites/png/landscape031.png 162 72 09 30 11 -5 -24
@@ -48,7 +48,7 @@
    43 sprites/png/landscape031.png 210 72 09 39 12 -6 -33
    44 sprites/png/landscape031.png 242 72 09 39 12 -6 -33
    45 sprites/png/landscape031.png 274 72 09 39 12 -6 -33
-// 1618 leaf tree
+// 1618 leaf tree												#7
    46 sprites/png/landscape031.png 306 72 09 10 7 -3 -4
    47 sprites/png/landscape031.png 322 72 09 18 11 -5 -12
    48 sprites/png/landscape031.png 338 72 09 30 20 -10 -24
@@ -56,7 +56,7 @@
    50 sprites/png/landscape031.png 402 72 09 37 22 -11 -31
    51 sprites/png/landscape031.png 434 72 09 37 20 -10 -31
    52 sprites/png/landscape031.png 466 72 09 35 18 -9 -29
-// 1625 leaf tree
+// 1625 leaf tree												#8
    53 sprites/png/landscape031.png 498 72 09 11 9 -4 -5
    54 sprites/png/landscape031.png 514 72 09 19 12 -6 -13
    55 sprites/png/landscape031.png 546 72 09 32 18 -9 -26
@@ -64,7 +64,7 @@
    57 sprites/png/landscape031.png 610 72 09 39 22 -11 -33
    58 sprites/png/landscape031.png 642 72 09 36 20 -10 -30
    59 sprites/png/landscape031.png 674 72 09 34 17 -8 -28
-// 1632 leaf tree
+// 1632 leaf tree												#9
    60 sprites/png/landscape031.png 706 72 09 10 8 -4 -4
    61 sprites/png/landscape031.png 722 72 09 19 12 -6 -13
    62 sprites/png/landscape031.png 754 72 09 33 19 -9 -27
@@ -72,7 +72,7 @@
    64 sprites/png/landscape031.png 34 136 09 38 21 -10 -32
    65 sprites/png/landscape031.png 66 136 09 35 18 -9 -29
    66 sprites/png/landscape031.png 98 136 09 34 17 -8 -28
-// 1639 leaf tree
+// 1639 leaf tree												#10
    67 sprites/png/landscape031.png 130 136 09 9 7 -3 -3
    68 sprites/png/landscape031.png 146 136 09 19 12 -6 -13
    69 sprites/png/landscape031.png 178 136 09 32 20 -10 -26
@@ -80,7 +80,7 @@
    71 sprites/png/landscape031.png 242 136 09 35 21 -10 -29
    72 sprites/png/landscape031.png 274 136 09 34 18 -9 -28
    73 sprites/png/landscape031.png 306 136 09 34 17 -8 -28
-// 1646 leaf tree
+// 1646 leaf tree												#11
    74 sprites/png/landscape031.png 338 136 09 10 7 -3 -4
    75 sprites/png/landscape031.png 354 136 09 19 12 -6 -13
    76 sprites/png/landscape031.png 386 136 09 33 20 -10 -27
@@ -88,7 +88,7 @@
    78 sprites/png/landscape031.png 450 136 09 38 21 -10 -32
    79 sprites/png/landscape031.png 482 136 09 35 19 -9 -29
    80 sprites/png/landscape031.png 514 136 09 33 15 -7 -27
-// 1653 leaf tree
+// 1653 leaf tree												#12
    81 sprites/png/landscape031.png 546 136 09 12 8 -4 -6
    82 sprites/png/landscape031.png 562 136 09 19 12 -6 -13
    83 sprites/png/landscape031.png 594 136 09 31 17 -8 -25
@@ -96,7 +96,7 @@
    85 sprites/png/landscape031.png 658 136 09 38 22 -11 -32
    86 sprites/png/landscape031.png 690 136 09 38 20 -10 -32
    87 sprites/png/landscape031.png 722 136 09 37 18 -9 -31
-// 1660 leaf tree
+// 1660 leaf tree												#13
    88 sprites/png/landscape031.png 754 136 09 12 8 -4 -6
    89 sprites/png/landscape031.png 770 136 09 21 12 -6 -15
    90 sprites/png/landscape031.png 2 200 09 31 18 -9 -25
@@ -104,7 +104,7 @@
    92 sprites/png/landscape031.png 66 200 09 38 22 -11 -32
    93 sprites/png/landscape031.png 98 200 09 37 19 -9 -31
    94 sprites/png/landscape031.png 130 200 09 36 16 -8 -30
-// 1667 conifer
+// 1667 conifer													#14
    95 sprites/png/landscape031.png 162 200 09 12 8 -4 -6
    96 sprites/png/landscape031.png 178 200 09 21 12 -6 -15
    97 sprites/png/landscape031.png 210 200 09 31 18 -9 -25
@@ -112,7 +112,7 @@
    99 sprites/png/landscape031.png 274 200 09 38 22 -11 -32
   100 sprites/png/landscape031.png 306 200 09 37 19 -9 -31
   101 sprites/png/landscape031.png 338 200 09 36 16 -8 -30
-// 1674 leaf tree
+// 1674 leaf tree												#15
   102 sprites/png/landscape031.png 370 200 09 19 13 -6 -13
   103 sprites/png/landscape031.png 402 200 09 23 16 -8 -17
   104 sprites/png/landscape031.png 434 200 09 33 22 -11 -27
@@ -120,7 +120,7 @@
   106 sprites/png/landscape031.png 514 200 09 39 30 -15 -33
   107 sprites/png/landscape031.png 562 200 09 38 27 -13 -32
   108 sprites/png/landscape031.png 594 200 09 38 25 -12 -32
-// 1681 leaf tree
+// 1681 leaf tree												#16
   109 sprites/png/landscape031.png 626 200 09 19 13 -6 -13
   110 sprites/png/landscape031.png 658 200 09 23 18 -9 -17
   111 sprites/png/landscape031.png 690 200 09 33 24 -12 -27
@@ -128,7 +128,7 @@
   113 sprites/png/landscape031.png 2 264 09 39 30 -15 -33
   114 sprites/png/landscape031.png 50 264 09 38 27 -13 -32
   115 sprites/png/landscape031.png 82 264 09 38 25 -12 -32
-// 1688 leaf tree
+// 1688 leaf tree												#17
   116 sprites/png/landscape031.png 114 264 09 19 13 -6 -13
   117 sprites/png/landscape031.png 146 264 09 23 18 -9 -17
   118 sprites/png/landscape031.png 178 264 09 33 24 -12 -27
@@ -136,7 +136,7 @@
   120 sprites/png/landscape031.png 258 264 09 39 30 -15 -33
   121 sprites/png/landscape031.png 306 264 09 37 23 -11 -31
   122 sprites/png/landscape031.png 338 264 09 34 19 -9 -28
-// 1695 leaf tree
+// 1695 leaf tree												#18
   123 sprites/png/landscape031.png 370 264 09 19 13 -6 -13
   124 sprites/png/landscape031.png 402 264 09 23 18 -9 -17
   125 sprites/png/landscape031.png 434 264 09 33 24 -12 -27
@@ -144,7 +144,7 @@
   127 sprites/png/landscape031.png 514 264 09 39 30 -15 -33
   128 sprites/png/landscape031.png 562 264 09 38 27 -13 -32
   129 sprites/png/landscape031.png 594 264 09 32 21 -10 -26
-// 1702 leaf tree
+// 1702 leaf tree												#19
   130 sprites/png/landscape031.png 626 264 09 19 10 -5 -13
   131 sprites/png/landscape031.png 642 264 09 23 13 -6 -17
   132 sprites/png/landscape031.png 674 264 09 33 18 -9 -27
@@ -154,139 +154,74 @@
   136 sprites/png/landscape031.png 2 328 09 35 19 -9 -29
 
 //continues... following trees have snowy equivalents:
-// 1709 conifer (1765)
-  138 sprites/png/landscape031.png 50 328 09 18 8 -4 -12
-  139 sprites/png/landscape031.png 66 328 09 32 14 -7 -26
-  140 sprites/png/landscape031.png 98 328 09 41 18 -9 -35
-  141 sprites/png/landscape031.png 130 328 09 53 19 -9 -47
-  142 sprites/png/landscape031.png 162 328 09 53 19 -9 -47
-  143 sprites/png/landscape031.png 194 328 09 53 17 -8 -47
-  144 sprites/png/landscape031.png 226 328 09 51 13 -6 -45
-// 1716 leaf tree
-  145 sprites/png/landscape031.png 258 328 09 22 10 -5 -16
-  146 sprites/png/landscape031.png 274 328 09 27 13 -6 -21
-  147 sprites/png/landscape031.png 306 328 09 39 18 -9 -33
-  148 sprites/png/landscape031.png 338 328 09 46 22 -11 -40
-  149 sprites/png/landscape031.png 370 328 09 46 22 -11 -40
-  150 sprites/png/landscape031.png 402 328 09 44 21 -10 -38
-  151 sprites/png/landscape031.png 434 328 09 41 19 -9 -35
-// 1723 leaf tree
-  152 sprites/png/landscape031.png 466 328 09 22 10 -5 -16
-  153 sprites/png/landscape031.png 482 328 09 27 13 -6 -21
-  154 sprites/png/landscape031.png 514 328 09 39 18 -9 -33
-  155 sprites/png/landscape031.png 546 328 09 46 22 -11 -40
-  156 sprites/png/landscape031.png 578 328 09 46 21 -10 -40
-  157 sprites/png/landscape031.png 610 328 09 40 21 -10 -34
-  158 sprites/png/landscape031.png 642 328 09 39 19 -9 -33
-// 1730 conifer
-  159 sprites/png/landscape031.png 674 328 09 22 10 -5 -16
-  160 sprites/png/landscape031.png 690 328 09 27 13 -6 -21
-  161 sprites/png/landscape031.png 722 328 09 39 18 -9 -33
-  162 sprites/png/landscape031.png 754 328 09 46 22 -11 -40
-  163 sprites/png/landscape031.png 2 392 09 45 21 -10 -39
-  164 sprites/png/landscape031.png 34 392 09 45 18 -9 -39
-  165 sprites/png/landscape031.png 66 392 09 45 17 -8 -39
-// 1737 conifer
-  166 sprites/png/landscape031.png 98 392 09 22 10 -5 -16
-  167 sprites/png/landscape031.png 114 392 09 27 13 -6 -21
-  168 sprites/png/landscape031.png 146 392 09 39 18 -9 -33
-  169 sprites/png/landscape031.png 178 392 09 46 21 -10 -40
-  170 sprites/png/landscape031.png 210 392 09 45 21 -10 -39
-  171 sprites/png/landscape031.png 242 392 09 45 19 -9 -39
-  172 sprites/png/landscape031.png 274 392 09 45 17 -8 -39
-// 1744 conifer
-  173 sprites/png/landscape031.png 306 392 09 22 9 -4 -16
-  174 sprites/png/landscape031.png 322 392 09 27 12 -6 -21
-  175 sprites/png/landscape031.png 354 392 09 39 16 -8 -33
-  176 sprites/png/landscape031.png 386 392 09 53 18 -9 -47
-  177 sprites/png/landscape031.png 418 392 09 53 18 -9 -47
-  178 sprites/png/landscape031.png 450 392 09 53 17 -8 -47
-  179 sprites/png/landscape031.png 482 392 09 51 16 -8 -45
-// 1751 conifer
-  180 sprites/png/landscape031.png 514 392 09 18 8 -4 -12
-  181 sprites/png/landscape031.png 530 392 09 31 12 -6 -25
-  182 sprites/png/landscape031.png 562 392 09 41 17 -8 -35
-  183 sprites/png/landscape031.png 594 392 09 51 18 -9 -45
-  184 sprites/png/landscape031.png 626 392 09 53 18 -9 -47
-  185 sprites/png/landscape031.png 658 392 09 53 18 -9 -47
-  186 sprites/png/landscape031.png 690 392 09 51 13 -6 -45
-// 1758 leaf tree
-  187 sprites/png/landscape031.png 722 392 09 19 10 -5 -13
-  188 sprites/png/landscape031.png 738 392 09 33 15 -7 -27
-  189 sprites/png/landscape031.png 770 392 09 39 18 -9 -33
-  190 sprites/png/landscape031.png 2 456 09 45 23 -11 -39
-  191 sprites/png/landscape031.png 34 456 09 45 23 -11 -39
-  192 sprites/png/landscape031.png 66 456 09 44 20 -10 -38
-  193 sprites/png/landscape031.png 98 456 09 43 20 -10 -37
+// 1709 conifer (snowy: 1765)                                             #1
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_01_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1716 leaf tree (snowy: 1772)                                           #2
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_06_leaf.png
+#include "../templates/trees.tnfo"
+
+// 1723 leaf tree (snowy: 1779)                                           #3
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_07_leaf.png
+#include "../templates/trees.tnfo"
+
+// 1730 conifer (snowy: 1786)                                             #4
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_08_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1737 conifer (snowy: 1793)                                             #5
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_09_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1744 conifer (snowy: 1800)                                             #6
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_04_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1751 conifer (snowy: 1807)                                             #7
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_05_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1758 leaf tree (snowy: 1814)                                           #8
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_10_leaf.png
+#include "../templates/trees.tnfo"
+
 
 //1765-1820 arctic snowy trees
-// 1765 snowy conifer (equiv of 1709)
-  194 sprites/png/landscape031.png 130 456 09 18 8 -4 -12
-  195 sprites/png/landscape031.png 146 456 09 32 14 -7 -26
-  196 sprites/png/landscape031.png 178 456 09 41 18 -9 -35
-  197 sprites/png/landscape031.png 210 456 09 53 19 -9 -47
-  198 sprites/png/landscape031.png 242 456 09 53 19 -9 -47
-  199 sprites/png/landscape031.png 274 456 09 53 17 -8 -47
-  200 sprites/png/landscape031.png 306 456 09 51 13 -6 -45
-// 1772 snowy leaf tree (equiv. of 1716)
-  201 sprites/png/landscape031.png 338 456 09 22 10 -5 -16
-  202 sprites/png/landscape031.png 354 456 09 27 13 -6 -21
-  203 sprites/png/landscape031.png 386 456 09 39 18 -9 -33
-  204 sprites/png/landscape031.png 418 456 09 46 22 -11 -40
-  205 sprites/png/landscape031.png 450 456 09 46 22 -11 -40
-  206 sprites/png/landscape031.png 482 456 09 44 21 -10 -38
-  207 sprites/png/landscape031.png 514 456 09 41 19 -9 -35
-// 1779 snowy leaf tree (equiv. of 1723)
-  208 sprites/png/landscape031.png 546 456 09 22 10 -5 -16
-  209 sprites/png/landscape031.png 562 456 09 27 13 -6 -21
-  210 sprites/png/landscape031.png 594 456 09 39 18 -9 -33
-  211 sprites/png/landscape031.png 626 456 09 46 22 -11 -40
-  212 sprites/png/landscape031.png 658 456 09 46 21 -10 -40
-  213 sprites/png/landscape031.png 690 456 09 40 21 -10 -34
-  214 sprites/png/landscape031.png 722 456 09 39 19 -9 -33
-// 1786 snowy conifer (equiv. of 1730)
-  215 sprites/png/landscape031.png 754 456 09 22 10 -5 -16
-  216 sprites/png/landscape031.png 770 456 09 27 13 -6 -21
-  217 sprites/png/landscape031.png 2 520 09 39 18 -9 -33
-  218 sprites/png/landscape031.png 34 520 09 46 22 -11 -40
-  219 sprites/png/landscape031.png 66 520 09 45 21 -10 -39
-  220 sprites/png/landscape031.png 98 520 09 45 18 -9 -39
-  221 sprites/png/landscape031.png 130 520 09 45 17 -8 -39
-// 1793 snowy conifer (equiv. of 1737)
-  222 sprites/png/landscape031.png 162 520 09 22 10 -5 -16
-  223 sprites/png/landscape031.png 178 520 09 27 13 -6 -21
-  224 sprites/png/landscape031.png 210 520 09 39 18 -9 -33
-  225 sprites/png/landscape031.png 242 520 09 46 21 -10 -40
-  226 sprites/png/landscape031.png 274 520 09 45 21 -10 -39
-  227 sprites/png/landscape031.png 306 520 09 45 19 -9 -39
-  228 sprites/png/landscape031.png 338 520 09 45 17 -8 -39
-// 1800 snowy conifer (equiv. of 1744)
-  229 sprites/png/landscape031.png 370 520 09 22 9 -4 -16
-  230 sprites/png/landscape031.png 386 520 09 27 12 -6 -21
-  231 sprites/png/landscape031.png 418 520 09 39 16 -8 -33
-  232 sprites/png/landscape031.png 450 520 09 53 18 -9 -47
-  233 sprites/png/landscape031.png 482 520 09 53 18 -9 -47
-  234 sprites/png/landscape031.png 514 520 09 53 17 -8 -47
-  235 sprites/png/landscape031.png 546 520 09 52 16 -8 -46
-// 1807 snowy conifer (equiv. of 1751)
-  236 sprites/png/landscape031.png 578 520 09 18 8 -4 -12
-  237 sprites/png/landscape031.png 594 520 09 32 12 -6 -26
-  238 sprites/png/landscape031.png 626 520 09 41 17 -8 -35
-  239 sprites/png/landscape031.png 658 520 09 51 18 -9 -45
-  240 sprites/png/landscape031.png 690 520 09 53 18 -9 -47
-  241 sprites/png/landscape031.png 722 520 09 53 18 -9 -47
-  242 sprites/png/landscape031.png 754 520 09 51 13 -6 -45
-// 1814 snowy leaf tree (equiv. of 1758)
-  243 sprites/png/landscape031.png 786 520 09 19 10 -5 -13
-  244 sprites/png/landscape031.png 2 584 09 33 15 -7 -27
-  245 sprites/png/landscape031.png 34 584 09 39 18 -9 -33
-  246 sprites/png/landscape031.png 66 584 09 45 23 -11 -39
-  247 sprites/png/landscape031.png 98 584 09 45 23 -11 -39
-  248 sprites/png/landscape031.png 130 584 09 44 20 -10 -38
-  249 sprites/png/landscape031.png 162 584 09 43 20 -10 -37
+// 1765 snowy conifer (equiv of 1709)                                     #1
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_01_snow_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1772 snowy leaf tree (equiv. of 1716)                                  #2
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_06_snow_leaf.png
+#include "../templates/trees.tnfo"
+
+// 1779 snowy leaf tree (equiv. of 1723)                                  #3
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_07_snow_leaf.png
+#include "../templates/trees.tnfo"
+
+// 1786 snowy conifer (equiv. of 1730)                                    #4
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_08_snow_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1793 snowy conifer (equiv. of 1737)                                    #5
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_09_snow_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1800 snowy conifer (equiv. of 1744)                                    #6
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_04_snow_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1807 snowy conifer (equiv. of 1751)                                    #7
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_05_snow_conifer.png
+#include "../templates/trees.tnfo"
+
+// 1814 snowy leaf tree (equiv. of 1758)                                  #8
+#define THIS_GFX_FILE sprites/png/trees/arctic/tree_10_snow_leaf.png
+#include "../templates/trees.tnfo"
 
 //1821-1946 tropical trees
-// 1821 banana tree
+// 1821 banana tree												#1
   251 sprites/png/landscape031.png 210 584 09 18 10 -5 -12
   252 sprites/png/landscape031.png 226 584 09 29 16 -8 -23
   253 sprites/png/landscape031.png 258 584 09 36 21 -10 -30
@@ -294,7 +229,7 @@
   255 sprites/png/landscape031.png 322 584 09 42 25 -12 -36
   256 sprites/png/landscape031.png 354 584 09 40 19 -9 -34
   257 sprites/png/landscape031.png 386 584 09 34 17 -8 -28
-// 1828 banana tree 2
+// 1828 banana tree 2											#2
   258 sprites/png/landscape031.png 418 584 09 18 10 -5 -12
   259 sprites/png/landscape031.png 434 584 09 29 16 -8 -23
   260 sprites/png/landscape031.png 466 584 09 36 21 -10 -30
@@ -302,7 +237,7 @@
   262 sprites/png/landscape031.png 530 584 09 42 25 -12 -36
   263 sprites/png/landscape031.png 562 584 09 40 19 -9 -34
   264 sprites/png/landscape031.png 594 584 09 34 17 -8 -28
-// 1835 leaf tree
+// 1835 leaf tree												#3
   265 sprites/png/landscape031.png 626 584 09 16 11 -5 -10
   266 sprites/png/landscape031.png 642 584 09 26 18 -9 -20
   267 sprites/png/landscape031.png 674 584 09 36 25 -12 -30
@@ -310,7 +245,7 @@
   269 sprites/png/landscape031.png 754 584 09 41 29 -14 -35
   270 sprites/png/landscape031.png 2 648 09 41 29 -14 -35
   271 sprites/png/landscape031.png 50 648 09 39 26 -13 -33
-// 1842 leaf tree
+// 1842 leaf tree												#4
   272 sprites/png/landscape031.png 82 648 09 22 16 -8 -16
   273 sprites/png/landscape031.png 114 648 09 28 23 -11 -22
   274 sprites/png/landscape031.png 146 648 09 42 23 -11 -36
@@ -318,7 +253,7 @@
   276 sprites/png/landscape031.png 226 648 09 53 29 -14 -47
   277 sprites/png/landscape031.png 274 648 09 53 29 -14 -47
   278 sprites/png/landscape031.png 322 648 09 51 26 -13 -45
-// 1849 large scrub
+// 1849 large scrub												#5
   279 sprites/png/landscape031.png 354 648 09 10 9 -4 -4
   280 sprites/png/landscape031.png 370 648 09 13 12 -6 -7
   281 sprites/png/landscape031.png 402 648 09 18 19 -9 -12
@@ -326,7 +261,7 @@
   283 sprites/png/landscape031.png 466 648 09 24 23 -11 -18
   284 sprites/png/landscape031.png 498 648 09 24 22 -11 -18
   285 sprites/png/landscape031.png 530 648 09 22 18 -9 -16
-// 1856 large scrub 2
+// 1856 large scrub 2											#6
   286 sprites/png/landscape031.png 562 648 09 7 11 -5 -1
   287 sprites/png/landscape031.png 578 648 09 9 12 -6 -3
   288 sprites/png/landscape031.png 610 648 09 14 20 -10 -8
@@ -334,7 +269,7 @@
   290 sprites/png/landscape031.png 674 648 09 17 23 -11 -11
   291 sprites/png/landscape031.png 706 648 09 15 23 -11 -9
   292 sprites/png/landscape031.png 738 648 09 14 18 -9 -8
-// 1863 leaf tree
+// 1863 leaf tree												#7
   293 sprites/png/landscape031.png 770 648 09 16 11 -5 -10
   294 sprites/png/landscape031.png 2 712 09 26 18 -9 -20
   295 sprites/png/landscape031.png 34 712 09 36 25 -12 -30
@@ -342,7 +277,7 @@
   297 sprites/png/landscape031.png 114 712 09 41 29 -14 -35
   298 sprites/png/landscape031.png 162 712 09 41 29 -14 -35
   299 sprites/png/landscape031.png 210 712 09 39 26 -13 -33
-// 1870 eucalyptus tree
+// 1870 eucalyptus tree											#8
   300 sprites/png/landscape031.png 242 712 09 32 16 -8 -26
   301 sprites/png/landscape031.png 274 712 09 45 21 -10 -39
   302 sprites/png/landscape031.png 306 712 09 62 26 -13 -56
@@ -350,7 +285,7 @@
   304 sprites/png/landscape031.png 386 712 09 76 29 -14 -70
   305 sprites/png/landscape031.png 434 712 09 75 29 -14 -69
   306 sprites/png/landscape031.png 482 712 09 74 26 -13 -68
-// 1877 leaf tree
+// 1877 leaf tree												#9
   307 sprites/png/landscape031.png 514 712 09 16 11 -5 -10
   308 sprites/png/landscape031.png 530 712 09 26 18 -9 -20
   309 sprites/png/landscape031.png 562 712 09 36 25 -12 -30
@@ -358,7 +293,7 @@
   311 sprites/png/landscape031.png 642 712 09 41 29 -14 -35
   312 sprites/png/landscape031.png 690 712 09 41 29 -14 -35
   313 sprites/png/landscape031.png 738 712 09 39 26 -13 -33
-// 1884 palm tree
+// 1884 palm tree												#10
   314 sprites/png/landscape031.png 770 712 09 24 15 -7 -18
   315 sprites/png/landscape031.png 2 808 09 30 16 -8 -24
   316 sprites/png/landscape031.png 34 808 09 34 19 -9 -28
@@ -366,7 +301,7 @@
   318 sprites/png/landscape031.png 98 808 09 43 22 -11 -37
   319 sprites/png/landscape031.png 130 808 09 38 22 -11 -32
   320 sprites/png/landscape031.png 162 808 09 34 19 -9 -28
-// 1891 coconut tree
+// 1891 coconut tree											#11
   321 sprites/png/landscape031.png 194 808 09 17 11 -5 -11
   322 sprites/png/landscape031.png 210 808 09 24 15 -7 -18
   323 sprites/png/landscape031.png 242 808 09 28 20 -10 -22
@@ -374,7 +309,7 @@
   325 sprites/png/landscape031.png 306 808 09 35 21 -10 -29
   326 sprites/png/landscape031.png 338 808 09 32 16 -8 -26
   327 sprites/png/landscape031.png 370 808 09 31 16 -8 -25
-// 1898 large palm tree
+// 1898 large palm tree											#12
   328 sprites/png/landscape031.png 402 808 09 21 15 -7 -15
   329 sprites/png/landscape031.png 434 808 09 30 19 -9 -24
   330 sprites/png/landscape031.png 466 808 09 50 25 -12 -44
@@ -382,7 +317,7 @@
   332 sprites/png/landscape031.png 530 808 09 72 22 -11 -66
   333 sprites/png/landscape031.png 562 808 09 64 19 -10 -58
   334 sprites/png/landscape031.png 594 808 09 50 17 -8 -44
-// 1905 palm tree 2
+// 1905 palm tree 2												#13
   335 sprites/png/landscape031.png 626 808 09 23 11 -5 -17
   336 sprites/png/landscape031.png 642 808 09 30 15 -7 -24
   337 sprites/png/landscape031.png 674 808 09 34 20 -10 -28
@@ -390,7 +325,7 @@
   339 sprites/png/landscape031.png 738 808 09 41 21 -10 -35
   340 sprites/png/landscape031.png 770 808 09 38 16 -8 -32
   341 sprites/png/landscape031.png 2 904 09 37 16 -8 -31
-// 1912 cactus
+// 1912 cactus													#14
   342 sprites/png/landscape031.png 34 904 09 12 4 -2 -6
   343 sprites/png/landscape031.png 50 904 09 28 7 -3 -22
   344 sprites/png/landscape031.png 66 904 09 28 13 -6 -22
@@ -398,7 +333,7 @@
   346 sprites/png/landscape031.png 130 904 09 28 14 -7 -22
   347 sprites/png/landscape031.png 162 904 09 28 14 -7 -22
   348 sprites/png/landscape031.png 194 904 09 28 14 -7 -22
-// 1919 small cacuts
+// 1919 small cacuts											#15
   349 sprites/png/landscape031.png 226 904 09 6 3 -1 0
   350 sprites/png/landscape031.png 242 904 09 10 5 -2 -4
   351 sprites/png/landscape031.png 258 904 09 12 6 -3 -6
@@ -406,7 +341,7 @@
   353 sprites/png/landscape031.png 290 904 09 12 6 -3 -6
   354 sprites/png/landscape031.png 306 904 09 12 6 -3 -6
   355 sprites/png/landscape031.png 322 904 09 12 6 -3 -6
-// 1926 palm tree 3
+// 1926 palm tree 3												#16
   356 sprites/png/landscape031.png 338 904 09 21 15 -7 -15
   357 sprites/png/landscape031.png 370 904 09 30 19 -9 -24
   358 sprites/png/landscape031.png 402 904 09 42 25 -12 -36
@@ -414,7 +349,7 @@
   360 sprites/png/landscape031.png 466 904 09 59 22 -11 -53
   361 sprites/png/landscape031.png 498 904 09 52 19 -9 -46
   362 sprites/png/landscape031.png 530 904 09 43 17 -8 -37
-// 1933 leaf tree
+// 1933 leaf tree												#17
   363 sprites/png/landscape031.png 562 904 09 17 16 -8 -11
   364 sprites/png/landscape031.png 594 904 09 23 23 -11 -17
   365 sprites/png/landscape031.png 626 904 09 33 27 -13 -27
@@ -422,7 +357,7 @@
   367 sprites/png/landscape031.png 706 904 09 44 34 -17 -38
   368 sprites/png/landscape031.png 754 904 09 44 34 -17 -38
   369 sprites/png/landscape031.png 2 984 09 42 30 -15 -36
-// 1940 leaf tree
+// 1940 leaf tree												#18
   370 sprites/png/landscape031.png 50 984 09 16 10 -5 -10
   371 sprites/png/landscape031.png 66 984 09 26 18 -9 -20
   372 sprites/png/landscape031.png 98 984 09 36 25 -12 -30
