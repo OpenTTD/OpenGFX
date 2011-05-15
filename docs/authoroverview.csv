@@ -65,8 +65,14 @@ ogfx1_base;1536;1551;16;Town buildings;Zephyris;buttercup;;1
 ogfx1_base;1552;1553;2;Theatre;Zephyris;buttercup;;1
 ogfx1_base;1554;1561;8;Football stadium;Zephyris;buttercup, Ammler;;1
 ogfx1_base;1562;1575;14;Town buildings;Zephyris;buttercup;;1
-ogfx1_base;1576;1764;189;Trees temperate;Zephyris;Zephyris;;1
-ogfx1_base;1765;1820;56;Trees arctic;Froix (no snow), planetmaker: snow;planetmaker;;1
+ogfx1_base;1576;1583;7;Tree temperate;planetmaker;planetmaker;;1
+ogfx1_base;1583;1645;63;Trees temperate (1-10);Froix;planetmaker;;1
+ogfx1_base;1646;1666;21;Trees temperate (11-13);Froix (stage 4), planetmaker (growth+decay stages);planetmaker;;1
+ogfx1_base;1668;1673;7;Trees temperate (14);Froix;planetmaker;;1
+ogfx1_base;1674;1680;7;Trees temperate (15);planetmaker;planetmaker;;1
+ogfx1_base;1681;1694;14;Trees temperate (16,17);Froix (stage 4), planetmaker (growth+decay stages);planetmaker;;1
+ogfx1_base;1695;1708;14;Trees temperate (18,19);planetmaker;planetmaker;;1
+ogfx1_base;1765;1820;56;Trees arctic;Froix (no snow), planetmaker (growth+decay stages): snow;planetmaker;;1
 ogfx1_base;1821;1946;126;Trees tropical;Zephyris;Zephyris;;1
 ogfx1_base;1947;1953;7;Toyland: Tree: upside-down cone;Zephyris, edorfaus;planetmaker;106;1
 ogfx1_base;1954;1960;7;Toyland: Tree: lollypop;LordAzamath;buttercup;;1
