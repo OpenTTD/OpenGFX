@@ -1,0 +1,79 @@
+;----------script-fu-set-all-layers-invisible----------
+;procedure by Hevan53
+;------------------------------------------------------
+
+(define (script-fu-set-all-layers-invisible inImage inDrawable)
+        (let*  (
+                (layers (gimp-image-get-layers inImage))
+                (num-layers (car layers))
+                (layer-array (cadr layers))
+                (theLayer)
+               )
+
+        (gimp-image-undo-group-start inImage)
+
+        (while (> num-layers 0)
+                (set! num-layers (- num-layers 1))
+                (set! theLayer (aref layer-array num-layers))
+                (if (= (car (gimp-drawable-get-visible theLayer) ) TRUE)
+                (gimp-drawable-set-visible theLayer FALSE)
+                )
+        )
+
+        (gimp-image-undo-group-end inImage)
+        (gimp-displays-flush)
+
+        )
+)
+
+;--------------------save-layers-----------------------
+;procedure by planetmaker
+;------------------------------------------------------
+(define
+	(
+		save-layers 
+
+		inImageName
+		outImageName
+		inLayers
+	)
+	(let*
+		(
+			(image (car (gimp-file-load RUN-NONINTERACTIVE inImageName inImageName)))
+			(visibleStuff (car (gimp-image-get-active-layer image)))
+        	(layers (gimp-image-get-layers image))
+        	(num-layers (car layers))
+        	(layer-array (cadr layers))
+        	(thisLayer 1)
+			(userLayers inLayers)
+		)
+		
+		; First make everything invisble
+		(script-fu-set-all-layers-invisible image image)
+		
+		; Now make those layers visible which were asked to become visible
+		(while (not (null? userLayers))
+			(set! thisLayer (aref layer-array (- (- num-layers (car userLayers)) 1)))
+;			(gimp-message (number->string thisLayer))
+			(set! userLayers (cdr userLayers))
+			(gimp-drawable-set-visible thisLayer TRUE)
+		)
+		
+		; Merge all visible layers into one layer which we then save to the given filename
+		(set! visibleStuff (car (gimp-image-merge-visible-layers image CLIP-TO-IMAGE)))
+		(file-png-save RUN-NONINTERACTIVE image visibleStuff outImageName outImageName 0 9 0 0 0 0 0)
+		(gimp-image-delete image)
+	)
+)
+
+
+; // ===================================================================
+; // List of source and target images followed by a list of layers in the
+; // source image which will make up the target image. Layers are counted
+; // from bottom to the top; the lowest layer is layer 0
+; // Example:
+; // (save-layers "source-file-name" "target-file-name" '(layer1 layer2 layer3 ...))
+; // ===================================================================
+
+GRAPHICS_LINE
+(gimp-quit 0)

@@ -159,8 +159,6 @@ or obtain the tarball from
     http://bundles.openttdcoop.org/opengfx/releases.
    
 Prerequisites to building OpenGFX:
-- mercurial (only when not building from a tarball, available from
-  http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages)
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
 - grfcodec and nforenum, r785 / version 5.1 or better.
@@ -168,6 +166,9 @@ Prerequisites to building OpenGFX:
 - some gnu utils: make, cat, sed, awk
   and you might additionally want a text editor of your choice and a graphics
   programme suitable to handle palettes.
+- mercurial (only when not building from a tarball, available from
+  http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages)
+- gimp 2.4 or later (only when building png files from their layered source files)
 
 On Windows: we advise to get a mingw development environment, download grfcodec,
 nforenum and mercurial from the sources mentioned above)
@@ -184,6 +185,10 @@ distribution.
 On Mac: Install the developers tools and get grfcodec (and thus also nforenum)
 from the source mentioned above. Mercurial is easiest installed via macports:
 sudo port install mercurial
+On OSX gimp is not found in the path, if you installed the App package as supplied
+from the gimp's project page. You can add that to your search path if you link
+the binary:
+sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp
 
 The use of mercurial is strongly encouraged as only that allows to keep track of
 changes.

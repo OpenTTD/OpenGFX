@@ -41,3 +41,4 @@ include scripts/Makefile.bundles
 -include Makefile.dep
 -include $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 -include $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
+-include Makefile_gfx.dep # write png files from source psd/xcf files

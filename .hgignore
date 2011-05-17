@@ -5,6 +5,8 @@ syntax: glob
 Makefile.local
 Makefile.dist
 Makefile.dep
+Makefile_gfx.dep
+*.scr
 *.src.dep
 *.gfx.dep
 .REV

@@ -9,6 +9,7 @@ clean:
 	$(_V)-rm -rf $(patsubst %.grf,%.md5,$(GRF_FILES))
 	$(_V)-rm -rf $(patsubst %.grf,%.nml,$(GRF_FILES))
 	$(_V)-rm -rf $(patsubst %.grf,%.cnfo,$(GRF_FILES)) $(patsubst %.grf,%.nfo,$(GRF_FILES))
+	$(_V) for name in `cat $(GRAPHICS_SOURCE_LIST_FILE) | $(AWK) 'BEGIN { FS="\t+"} ; { print $$1".scr" }'`; do [ -w $$name ] && rm $$name; done
 	$(_V)-rm -rf $(DIR_NAME)
 	$(_V)-if [ "$(CLEAN_ADD)" ]; then for i in `ls $(CLEAN_ADD) 2> /dev/null`; do [ "$$i" != "" ] && rm $$i; done; fi
 
@@ -41,6 +42,7 @@ test::
 	$(_E) "gcc:                          $(CC) $(CC_FLAGS)"
 	$(_E) "zip:                          $(ZIP) $(ZIP_FLAGS)"
 	$(_E) "bzip:                         $(BZIP) $(BZIP_FLAGS)"
+	$(_E) "gimp:                         $(GIMP) $(GIMP_FLAGS)"
 	$(_E) "OS-Information:               $(OSTYPE)"
 	$(_E) "REPO title:                   $(REPO_TITLE)"
 	$(_E) "Installation directory:       $(INSTALL_DIR)"
@@ -83,6 +85,14 @@ test::
 
 docs: $(DOC_FILES)
 
+ifdef GRAPHICS_SOURCE_LIST_FILE
+Makefile_gfx.dep: $(GRAPHICS_SOURCE_LIST_FILE)
+	$(_E) "[GFX DEP]"
+	$(_V) cat $< \
+		| $(AWK) 'BEGIN { FS="\t+"} ; { print $$1": "$$2" $<" }' \
+		> $@
+endif
+
 $(MAKEFILE_DEP) depend: $(REV_FILENAME)
 	$(_E) "[DEP] $(MAKEFILE_DEP)"
 	$(_V) echo "$(MAKEFILE_DEP): $(MAKEFILE) Makefile.config" > $(MAKEFILE_DEP)
@@ -98,6 +108,14 @@ endif
 ifdef USE_NML
 	$(_V) echo "$(MAKEFILE_DEP): $(SCRIPT_DIR)/Makefile_nml" >> $(MAKEFILE_DEP)
 endif
+ifdef GRAPHICS_SOURCE_LIST_FILE
+ifdef GIMP
+	$(_E) "[DEP] *.scr"
+	$(_V) cat $(GRAPHICS_SOURCE_LIST_FILE) | while read line; do $(CC) -C -D GRAPHICS_LINE="`echo "$$line" | $(AWK) 'BEGIN { FS="\t+"} ; { print "(save-layers ???"$$2"??? ???"$$1"??? ??x??("$$3"))" }'`" -E - < scripts/gimpscript | grep -v '^#' | sed "s/??x??/'/g" | sed "s/???/\"/g" > `echo "$$line" | $(AWK) 'BEGIN { FS="\t+"} ; { print $$1".scr" }'`; done
+else
+	$(_E) "Gimp missing, png files not re-generated!"
+endif
+endif
 
 ifeq ($(DEP_CHECK_TYPE),normal)
 %.gfx.dep: %.src.dep
@@ -105,6 +123,16 @@ ifeq ($(DEP_CHECK_TYPE),normal)
 	$(_V) echo "" > $@
 	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do if [ -f $$j ]; then for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; fi; done; done | sort | uniq >> $@
 	$(_V) touch $@
+endif
+
+%.png: Makefile_gfx.dep
+
+%.png: %.png.scr
+ifdef GRAPHICS_SOURCE_LIST_FILE
+ifdef GIMP
+	$(_E) "[GIMP] $@"
+	$(_V) $(GIMP) $(GIMP_FLAGS) $< >/dev/null
+endif
 endif
 
 # Create the dependencies. Allow project types to define their own
