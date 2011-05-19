@@ -125,10 +125,10 @@ HOUSE_HEIGHT87_8(sprites/png/houses/base-1479-soccer.png)
   758 sprites/png/buildings.png 386 3624 09 35 64 -31 -4
   764 sprites/png/buildings.png 626 3624 09 29 26 -14 -10
 //house
-  437 sprites/png/houses/base-1497.png  2 88 09 31 64 -31 0     // constr. stage 1 (as ground tile)
-  438 sprites/png/houses/base-1498.png  2 88 09 31 64 -31 0     // constr. stage 2 (as ground tile)
-  439 sprites/png/houses/base-1499.png  2 88 09 31 64 -31 0     // ground tile for finished building
-  445 sprites/png/houses/base-1500.png  2 19 09 100 64 -31 -69  // finished building
+ 1497 sprites/png/houses/base-1497.png  2 88 09 31 64 -31 0     // constr. stage 1 (as ground tile)
+ 1498 sprites/png/houses/base-1498.png  2 88 09 31 64 -31 0     // constr. stage 2 (as ground tile)
+ 1499 sprites/png/houses/base-1499.png  2 88 09 31 64 -31 0     // ground tile for finished building
+ 1500 sprites/png/houses/base-1500.png  2 19 09 100 64 -31 -69  // finished building
 //house
  1501 sprites/png/buildings.png 274 3192 09 35 64 -31 -4
   585 sprites/png/buildings.png 514 3192 09 24 38 -16 -1
