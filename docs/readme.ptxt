@@ -242,8 +242,8 @@ will become an automatic dependency for the corresponding pnfo file, if present.
 6 License
 =========
 
-OpenGFX Graphics Replacement Set for OpenTTD
-Copyright (C) 2007-2011 OpenGFX by the OpenGFX team (see below)
+OpenGFX Graphics Base Set for OpenTTD
+Copyright (C) 2007-2011 by the OpenGFX team (see below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
@@ -255,8 +255,8 @@ PARTICULAR PURPOSE. See the GNU General Public License
 for more details.
 
 You should have received a copy of the GNU General Public License along with
-this program; if not, write to the Free
-Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301
+this program; if not, write to the 
+Free Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301
 USA.
 
 

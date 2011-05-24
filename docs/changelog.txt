@@ -1,23 +1,29 @@
-OpenGFX r656
-------------
+OpenGFX 0.3.4 (24 May 2011)
+---------------------------
+- Feature: New arctic trees
+- Feature: New temperate trees
+- Feature / Fix: Reduce the size of the sand beaches in order to make less apparent a glitch with some coast corners (#2137)
+- Feature: Rework factory, improving esp. the transparent view and construction stages
+- Feature: Rework transparent view and building stages of the steel mill
 - Feature: [Makefile] Optionally use nml to generate (some) pnfo files
 - Feature: [Makefile] Allow source bundles in xz, zip, gzip and bzip2 format; use xz by default
 
-- Change: Temperate farm retouched
+- Change: Temperate and arctic farms retouched
 - Change: Tricaro helicopter with new sprites (#2118)
-- Change: Significantly improved transparency and building stages of the steel mill
-- Change: Re-touch and re-slice factory, improving esp. the transparency and construction views
 - Change: Company-colour version for the Darwin 300 (#2107)
 - Change: Rework rail vehicle alignment, using more Pikkas alignment
 - Change: [Makefile] Update to makefile r284
+- Change: [Makefile] Prepare for using gimp's scripting capability in order to generate png files from their (layered) psd or xcf source files, saving potentially many repetitive tasks
 
-- Fix: Reduce the size of the sand beaches in order to make less apparent a glitch with some coast corners (#2137)
 - Fix: Wrong, untranslated colour in some bridge GUI sprites (#2153)
 - Fix: Missing animation for headstocks of gold mine
+- Fix: An airport tile had erronously flashing pixels
+- Fix: One house had a ground tile displayed as construction stage
 - Fix: [Makefile] Clean the nfo and cnfo files related to the grfs we build
 - Fix: [Makefile] Having the nfo and not the cnfo file depend on source changes resulted in not everything being re-built when it needed to be re-built
 
 - Doc: Meaning of re-colour sprites
+- Doc: Tree sprites
 
 
 
