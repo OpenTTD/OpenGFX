@@ -14,7 +14,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:      noarch
 
-BuildRequires:  mercurial p7zip xz grfcodec unix2dos grf2html
+BuildRequires:  mercurial p7zip xz unix2dos grf2html %{?dz_requires}
 
 %description
 Build script for #openttdcoop DevZone projects
@@ -29,7 +29,7 @@ cd %{name}.hg
 # update to the tag, if not revision
 [ "$(echo %{version} | cut -b-1)" != "r" ] && hg up %{version}
 
-make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp USE_NML2NFO=1 ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
 mv *.tar.gz *.tar.xz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
@@ -46,7 +46,7 @@ cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/ 1>>%{name}-%{version}-build.log 2>>
 %build
 #we have unix2dos installed for the zip, but now, we like to build without
 #docs aren't built by default
-make %{?_smp_mflags} docs UNIX2DOS= 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
+make %{?_smp_mflags} docs USE_NML2NFO=1 UNIX2DOS= 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 grf2html -o grf2html *.grf 1>%{name}-%{version}-grf2html.log 2>&1
 
 %install
@@ -56,7 +56,7 @@ make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
 make check
 
 %clean
-#rm -rf %{buildroot} 
+rm -rf %{buildroot} 
 
 %files
 %defattr(-,root,root,-)
