@@ -29,7 +29,7 @@ cd %{name}.hg
 # update to the tag, if not revision
 [ "$(echo %{version} | cut -b-1)" != "r" ] && hg up %{version}
 
-make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp USE_NML2NFO=1 ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
 
 mv *.tar.gz *.tar.xz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
@@ -43,6 +43,13 @@ FILENAME=`basename ttdpatch/*` 1>>%{name}-%{version}-build.log 2>>%{name}-%{vers
 echo $(cd ttdpatch && md5sum $FILENAME) > ttdpatch/$FILENAME.md5 2>>%{name}-%{version}-build.err.log
 cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/ 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 
+# clean the nfos created by nml
+md5sum $(ls sprites/nml/*/*.pnml | sed s/nml/nfo/g) > nml.check
+rm $(ls sprites/nml/*/*.pnml | sed s/nml/nfo/g)
+# workaround for nml:
+mkdir lang
+touch lang/english.lng
+
 %build
 #we have unix2dos installed for the zip, but now, we like to build without
 #docs aren't built by default
@@ -54,6 +61,7 @@ make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
 
 %check
 make check
+md5sum -c nml.check
 
 %clean
 rm -rf %{buildroot} 
