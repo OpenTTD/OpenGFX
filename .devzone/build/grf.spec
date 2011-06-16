@@ -33,7 +33,7 @@ cd %{name}.hg
 md5sum $(ls sprites/nml/*/*.pnml | sed s/nml/nfo/g) > ../%{name}/nml.check
 rm $(ls sprites/nml/*/*.pnml | sed s/nml/nfo/g)
 # workaround for nml:
-mkdir lang
+mkdir -p lang
 touch lang/english.lng
 
 make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp USE_NML2NFO=1 ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
