@@ -7,7 +7,7 @@ base_graphics(3017, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_
 base_graphics(3025, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 95) }
 
 // CS 4000 (Diesel)
-base_graphics(3033, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 72) }
+base_graphics(3033, "sprites/png/trains/arctic_CS4000_88.png") { tmpl_train_8view_88length_29px(3, 1) }
 
 // Wills 2-8-0 (Steam)
 base_graphics(3041, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 3) }
