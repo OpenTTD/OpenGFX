@@ -19,7 +19,7 @@ base_graphics(2749, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_
 base_graphics(2753, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 125) }
 
 // arctic rail food wagon (full + empty)
-base_graphics(2757, "sprites/png/trains/arctic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 400) }
+base_graphics(2757, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   216) }
 
 // temperate rail grain wagon (empty)
 base_graphics(2761, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 150) }
@@ -52,7 +52,7 @@ base_graphics(2793, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_
 base_graphics(2797, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 350) }
 
 // arctic rail paper wagon (full)
-base_graphics(2801, "sprites/png/trains/arctic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 425) }
+base_graphics(2801, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  206,   137) }
 
 // tropical rail copper ore wagon (full)
 base_graphics(2805, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132,   250) }

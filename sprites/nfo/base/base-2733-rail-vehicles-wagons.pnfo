@@ -35,10 +35,10 @@
 2755 sprites/png/trains/temperate_railwagons.png 48 125 01 12 32 -16 -8 
 2756 sprites/png/trains/temperate_railwagons.png 96 125 01 16 20 -6 -9 
 
-2757 sprites/png/trains/arctic_railwagons.png 0 400 01 22 8 -3 -12 
-2758 sprites/png/trains/arctic_railwagons.png 16 400 01 16 20 -14 -9 
-2759 sprites/png/trains/arctic_railwagons.png 48 400 01 12 32 -16 -8 
-2760 sprites/png/trains/arctic_railwagons.png 96 400 01 16 20 -6 -9 
+2757 sprites/png/trains/arctic_railwagons2.png 78 216 01 22 8 -3 -12 
+2758 sprites/png/trains/arctic_railwagons2.png 94 216 01 16 20 -14 -9 
+2759 sprites/png/trains/arctic_railwagons2.png 126 216 01 12 29 -16 -8 
+2760 sprites/png/trains/arctic_railwagons2.png 174 216 01 16 20 -6 -9 
 
 2761 sprites/png/trains/temperate_railwagons.png 0 150 01 22 8 -3 -12 
 2762 sprites/png/trains/temperate_railwagons.png 16 150 01 16 20 -14 -9 
@@ -90,10 +90,10 @@
 2799 sprites/png/trains/temperate_railwagons.png 48 350 01 12 32 -16 -8 
 2800 sprites/png/trains/temperate_railwagons.png 96 350 01 16 20 -6 -9 
 
-2801 sprites/png/trains/arctic_railwagons.png 0 425 01 22 8 -3 -12 
-2802 sprites/png/trains/arctic_railwagons.png 16 425 01 16 20 -14 -9 
-2803 sprites/png/trains/arctic_railwagons.png 48 425 01 12 32 -16 -8 
-2804 sprites/png/trains/arctic_railwagons.png 96 425 01 16 20 -6 -9 
+2801 sprites/png/trains/arctic_railwagons2.png 206 137 01 22 8 -3 -12 
+2802 sprites/png/trains/arctic_railwagons2.png 222 137 01 16 20 -14 -9 
+2803 sprites/png/trains/arctic_railwagons2.png 254 137 01 12 29 -16 -8 
+2804 sprites/png/trains/arctic_railwagons2.png 302 137 01 16 20 -6 -9 
 
 2805 sprites/png/trains/tropic_railwagons2.png 132 250 01 22 8 -3 -12 
 2806 sprites/png/trains/tropic_railwagons2.png 148 250 01 16 20 -14 -9 

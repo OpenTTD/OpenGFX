@@ -10,68 +10,131 @@
 
 1 * 9 07 40 04 \7! \dx00000001 10 
 
-2 * 5 0A \b1 \b4 \w2737 
+2 * 5 0A \b1 \b4 \w2733 
 
-3 sprites/png/trains/arctic_railwagons.png 0 25 01 24 8 -3 -12 
-4 sprites/png/trains/arctic_railwagons.png 16 25 01 17 22 -14 -9 
-5 sprites/png/trains/arctic_railwagons.png 48 25 01 12 32 -16 -8 
-6 sprites/png/trains/arctic_railwagons.png 96 25 01 17 22 -6 -9 
+3 sprites/png/trains/arctic_railwagons2.png 78 32 01 22 8 -3 -12 
+4 sprites/png/trains/arctic_railwagons2.png 94 32 01 16 20 -14 -9 
+5 sprites/png/trains/arctic_railwagons2.png 126 32 01 12 29 -16 -8 
+6 sprites/png/trains/arctic_railwagons2.png 174 32 01 16 20 -6 -9 
 
-7 * 5 0A \b1 \b4 \w2781 
+7 * 5 0A \b1 \b4 \w2737 
 
-8 sprites/png/trains/arctic_railwagons.png 0 250 01 24 8 -3 -12 
-9 sprites/png/trains/arctic_railwagons.png 16 250 01 17 22 -14 -9 
-10 sprites/png/trains/arctic_railwagons.png 48 250 01 12 32 -16 -8 
-11 sprites/png/trains/arctic_railwagons.png 96 250 01 17 22 -6 -9 
+8 sprites/png/trains/arctic_railwagons2.png 78 246 01 22 8 -3 -12 
+9 sprites/png/trains/arctic_railwagons2.png 94 246 01 16 20 -14 -9 
+10 sprites/png/trains/arctic_railwagons2.png 126 246 01 12 29 -16 -8 
+11 sprites/png/trains/arctic_railwagons2.png 174 246 01 16 20 -6 -9 
 
-12 * 5 0A \b1 \b4 \w2753 
+12 * 5 0A \b1 \b4 \w2741 
 
-13 sprites/png/trains/arctic_railwagons.png 0 125 01 24 8 -3 -12 
-14 sprites/png/trains/arctic_railwagons.png 16 125 01 17 22 -14 -9 
-15 sprites/png/trains/arctic_railwagons.png 48 125 01 12 32 -16 -8 
-16 sprites/png/trains/arctic_railwagons.png 96 125 01 17 22 -6 -9 
+13 sprites/png/trains/arctic_railwagons2.png 78 57 01 22 8 -3 -12 
+14 sprites/png/trains/arctic_railwagons2.png 94 57 01 16 20 -14 -9 
+15 sprites/png/trains/arctic_railwagons2.png 126 57 01 12 29 -16 -8 
+16 sprites/png/trains/arctic_railwagons2.png 174 57 01 16 20 -6 -9 
 
-17 * 5 0A \b1 \b4 \w2769 
+17 * 5 0A \b1 \b4 \w2745 
 
-18 sprites/png/trains/arctic_railwagons.png 0 25 01 24 8 -3 -12 
-19 sprites/png/trains/arctic_railwagons.png 16 25 01 17 22 -14 -9 
-20 sprites/png/trains/arctic_railwagons.png 48 25 01 12 32 -16 -8 
-21 sprites/png/trains/arctic_railwagons.png 96 25 01 17 22 -6 -9 
+18 sprites/png/trains/arctic_railwagons2.png 78 7 01 22 8 -3 -12 
+19 sprites/png/trains/arctic_railwagons2.png 94 7 01 16 20 -14 -9 
+20 sprites/png/trains/arctic_railwagons2.png 126 7 01 12 29 -16 -8 
+21 sprites/png/trains/arctic_railwagons2.png 174 7 01 16 20 -6 -9 
 
-22 * 5 0A \b1 \b4 \w2833 
+22 * 5 0A \b1 \b4 \w2749 
 
-23 sprites/png/trains/arctic_monolevwagons.png 0 100 01 18 8 -3 -12 
-24 sprites/png/trains/arctic_monolevwagons.png 16 100 01 16 20 -13 -9 
-25 sprites/png/trains/arctic_monolevwagons.png 48 100 01 12 28 -15 -8 
-26 sprites/png/trains/arctic_monolevwagons.png 96 100 01 16 20 -5 -9 
+23 sprites/png/trains/arctic_railwagons2.png 78 188 01 22 8 -3 -12 
+24 sprites/png/trains/arctic_railwagons2.png 94 188 01 16 20 -14 -9 
+25 sprites/png/trains/arctic_railwagons2.png 126 188 01 12 29 -16 -8 
+26 sprites/png/trains/arctic_railwagons2.png 174 188 01 16 20 -6 -9 
 
-27 * 5 0A \b1 \b4 \w2877 
+27 * 5 0A \b1 \b4 \w2753 
 
-28 sprites/png/trains/arctic_monolevwagons.png 0 120 01 18 8 -3 -12 
-29 sprites/png/trains/arctic_monolevwagons.png 16 120 01 16 20 -13 -9 
-30 sprites/png/trains/arctic_monolevwagons.png 48 120 01 12 28 -15 -8 
-31 sprites/png/trains/arctic_monolevwagons.png 96 120 01 16 20 -5 -9 
+28 sprites/png/trains/arctic_railwagons2.png 78 163 01 22 8 -3 -12 
+29 sprites/png/trains/arctic_railwagons2.png 94 163 01 16 20 -14 -9 
+30 sprites/png/trains/arctic_railwagons2.png 126 163 01 12 29 -16 -8 
+31 sprites/png/trains/arctic_railwagons2.png 174 163 01 16 20 -6 -9 
 
-32 * 5 0A \b1 \b4 \w2841 
+32 * 5 0A \b1 \b4 \w2761 
 
-33 sprites/png/trains/arctic_monolevwagons.png 0 140 01 18 8 -3 -12 
-34 sprites/png/trains/arctic_monolevwagons.png 16 140 01 16 20 -13 -9 
-35 sprites/png/trains/arctic_monolevwagons.png 48 140 01 12 28 -15 -8 
-36 sprites/png/trains/arctic_monolevwagons.png 96 140 01 16 20 -5 -9 
+33 sprites/png/trains/arctic_railwagons2.png 78 110 01 22 8 -3 -12 
+34 sprites/png/trains/arctic_railwagons2.png 94 110 01 16 20 -14 -9 
+35 sprites/png/trains/arctic_railwagons2.png 126 110 01 12 29 -16 -8 
+36 sprites/png/trains/arctic_railwagons2.png 174 110 01 16 20 -6 -9 
 
-37 * 5 0A \b1 \b4 \w2849 
+37 * 5 0A \b1 \b4 \w2765 
 
-38 sprites/png/trains/arctic_monolevwagons.png 0 220 01 18 8 -3 -12 
-39 sprites/png/trains/arctic_monolevwagons.png 16 220 01 16 20 -13 -9 
-40 sprites/png/trains/arctic_monolevwagons.png 48 220 01 12 28 -15 -8 
-41 sprites/png/trains/arctic_monolevwagons.png 96 220 01 16 20 -5 -9 
+38 sprites/png/trains/arctic_railwagons2.png 78 274 01 22 8 -3 -12 
+39 sprites/png/trains/arctic_railwagons2.png 94 274 01 16 20 -14 -9 
+40 sprites/png/trains/arctic_railwagons2.png 126 274 01 12 29 -16 -8 
+41 sprites/png/trains/arctic_railwagons2.png 174 274 01 16 20 -6 -9 
 
-42 * 5 0A \b1 \b4 \w2853 
+42 * 5 0A \b1 \b4 \w2769 
 
-43 sprites/png/trains/arctic_monolevwagons.png 0 420 01 18 8 -3 -12 
-44 sprites/png/trains/arctic_monolevwagons.png 16 420 01 16 20 -13 -9 
-45 sprites/png/trains/arctic_monolevwagons.png 48 420 01 12 28 -15 -8 
-46 sprites/png/trains/arctic_monolevwagons.png 96 420 01 16 20 -5 -9 
+43 sprites/png/trains/arctic_railwagons2.png 78 137 01 22 8 -3 -12 
+44 sprites/png/trains/arctic_railwagons2.png 94 137 01 16 20 -14 -9 
+45 sprites/png/trains/arctic_railwagons2.png 126 137 01 12 29 -16 -8 
+46 sprites/png/trains/arctic_railwagons2.png 174 137 01 16 20 -6 -9 
 
-47 * 2 10 10 
+47 * 5 0A \b1 \b4 \w2777 
+
+48 sprites/png/trains/arctic_railwagons2.png 78 83 01 22 8 -3 -12 
+49 sprites/png/trains/arctic_railwagons2.png 94 83 01 16 20 -14 -9 
+50 sprites/png/trains/arctic_railwagons2.png 126 83 01 12 29 -16 -8 
+51 sprites/png/trains/arctic_railwagons2.png 174 83 01 16 20 -6 -9 
+
+52 * 5 0A \b1 \b4 \w2781 
+
+53 sprites/png/trains/arctic_railwagons2.png 206 246 01 22 8 -3 -12 
+54 sprites/png/trains/arctic_railwagons2.png 222 246 01 16 20 -14 -9 
+55 sprites/png/trains/arctic_railwagons2.png 254 246 01 12 29 -16 -8 
+56 sprites/png/trains/arctic_railwagons2.png 302 246 01 16 20 -6 -9 
+
+57 * 5 0A \b1 \b4 \w2785 
+
+58 sprites/png/trains/arctic_railwagons2.png 206 110 01 22 8 -3 -12 
+59 sprites/png/trains/arctic_railwagons2.png 222 110 01 16 20 -14 -9 
+60 sprites/png/trains/arctic_railwagons2.png 254 110 01 12 29 -16 -8 
+61 sprites/png/trains/arctic_railwagons2.png 302 110 01 16 20 -6 -9 
+
+62 * 5 0A \b1 \b4 \w2789 
+
+63 sprites/png/trains/arctic_railwagons2.png 206 274 01 22 8 -3 -12 
+64 sprites/png/trains/arctic_railwagons2.png 222 274 01 16 20 -14 -9 
+65 sprites/png/trains/arctic_railwagons2.png 254 274 01 12 29 -16 -8 
+66 sprites/png/trains/arctic_railwagons2.png 302 274 01 16 20 -6 -9 
+
+67 * 5 0A \b1 \b4 \w2833 
+
+68 sprites/png/trains/arctic_monolevwagons.png 0 100 01 18 8 -3 -12 
+69 sprites/png/trains/arctic_monolevwagons.png 16 100 01 16 20 -13 -9 
+70 sprites/png/trains/arctic_monolevwagons.png 48 100 01 12 28 -15 -8 
+71 sprites/png/trains/arctic_monolevwagons.png 96 100 01 16 20 -5 -9 
+
+72 * 5 0A \b1 \b4 \w2877 
+
+73 sprites/png/trains/arctic_monolevwagons.png 0 120 01 18 8 -3 -12 
+74 sprites/png/trains/arctic_monolevwagons.png 16 120 01 16 20 -13 -9 
+75 sprites/png/trains/arctic_monolevwagons.png 48 120 01 12 28 -15 -8 
+76 sprites/png/trains/arctic_monolevwagons.png 96 120 01 16 20 -5 -9 
+
+77 * 5 0A \b1 \b4 \w2841 
+
+78 sprites/png/trains/arctic_monolevwagons.png 0 140 01 18 8 -3 -12 
+79 sprites/png/trains/arctic_monolevwagons.png 16 140 01 16 20 -13 -9 
+80 sprites/png/trains/arctic_monolevwagons.png 48 140 01 12 28 -15 -8 
+81 sprites/png/trains/arctic_monolevwagons.png 96 140 01 16 20 -5 -9 
+
+82 * 5 0A \b1 \b4 \w2849 
+
+83 sprites/png/trains/arctic_monolevwagons.png 0 220 01 18 8 -3 -12 
+84 sprites/png/trains/arctic_monolevwagons.png 16 220 01 16 20 -13 -9 
+85 sprites/png/trains/arctic_monolevwagons.png 48 220 01 12 28 -15 -8 
+86 sprites/png/trains/arctic_monolevwagons.png 96 220 01 16 20 -5 -9 
+
+87 * 5 0A \b1 \b4 \w2853 
+
+88 sprites/png/trains/arctic_monolevwagons.png 0 420 01 18 8 -3 -12 
+89 sprites/png/trains/arctic_monolevwagons.png 16 420 01 16 20 -13 -9 
+90 sprites/png/trains/arctic_monolevwagons.png 48 420 01 12 28 -15 -8 
+91 sprites/png/trains/arctic_monolevwagons.png 96 420 01 16 20 -5 -9 
+
+92 * 2 10 10 
 
