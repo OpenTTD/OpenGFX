@@ -1,55 +1,55 @@
 #include "sprites/nml/templates/tmpl_trains.nml"
 
 // temperate rail passenger wagon (full + empty)
-base_graphics(2733, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,   0) }
+base_graphics(2733, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   2) }
 
 // temperate rail coal wagon (empty)
-base_graphics(2737, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  25) }
+base_graphics(2737, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   259) }
 
 // temperate rail mail wagon (full + empty)
-base_graphics(2741, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  50) }
+base_graphics(2741, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   27) }
 
 // temperate rail oil wagon (full + empty)
-base_graphics(2745, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0,  75) }
+base_graphics(2745, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   130) }
 
 // temperate rail livestock wagon (full + empty)
-base_graphics(2749, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 100) }
+base_graphics(2749, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   104) }
 
 // temperate rail goods wagon (full + empty)
-base_graphics(2753, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 125) }
+base_graphics(2753, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   79) }
 
 // arctic rail food wagon (full + empty)
 base_graphics(2757, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   216) }
 
 // temperate rail grain wagon (empty)
-base_graphics(2761, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 150) }
+base_graphics(2761, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   205) }
 
 // temperate rail wood wagon (empty)
-base_graphics(2765, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 175) }
+base_graphics(2765, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   156) }
 
 // temperate rail steel wagon (empty)
-base_graphics(2769, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 200) }
+base_graphics(2769, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   180) }
 
 // temperate rail iron ore wagon (empty)
-base_graphics(2773, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 225) }
+base_graphics(2773, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   232) }
 
 // temperate rail valuables wagon (full + empty)
-base_graphics(2777, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 375) }
+base_graphics(2777, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  6,   52) }
 
 // temperate rail coal wagon (full)
-base_graphics(2781, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 250) }
+base_graphics(2781, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  133,   259) }
 
 // temperate rail grain wagon (full)
-base_graphics(2785, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 275) }
+base_graphics(2785, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  133,   205) }
 
 // temperate rail wood wagon (full)
-base_graphics(2789, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 300) }
+base_graphics(2789, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  133,   156) }
 
 // temperate rail steel wagon (full)
-base_graphics(2793, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 325) }
+base_graphics(2793, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  133,   180) }
 
 // temperate rail iron ore wagon (full)
-base_graphics(2797, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_4view_88length_32px(  0, 350) }
+base_graphics(2797, "sprites/png/trains/temperate_railwagons2.png") { tmpl_train_4view_88length_29px(  133,   232) }
 
 // arctic rail paper wagon (full)
 base_graphics(2801, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  206,   137) }
