@@ -6,10 +6,64 @@
  */
 
 if (climate == CLIMATE_TROPICAL) {
-	replace(2741, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,   0) } // mail       (full + empty)
-	replace(2777, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,  50) } // valuables  (full + empty)
-	replace(2745, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 100) } // oil        (full + empty)
 
+    /*
+     * -----------
+     * rail wagons
+     * -----------
+     */
+    
+    //    passenger
+    replace(2733, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 25) }
+    //    mail
+    replace(2741, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 0) }
+    //    oil
+    replace(2745, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 100) }
+    //    goods
+    replace(2753, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 175) }
+    //    food
+    replace(2757, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 275) }
+    //    grain empty
+    replace(2761, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 125) }
+    //    wood empty
+    replace(2765, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 150) }
+    //    copper ore empty
+    replace(2773, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 250) }
+    //    valuables
+    replace(2777, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 50) }
+    //    grain loaded
+    replace(2785, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 125) }
+    //    wood loaded
+    replace(2789, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 150) }
+    
+    /*
+     * --------------
+     * monolev wagons
+     * --------------
+     */
+    
+    //    oil
+    replace(2841, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 100) }
+    //    goods
+    replace(2849, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 140) }
+    //    food
+    replace(2853, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 260) }
+    //    grain empty
+    replace(2857, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 160) }
+    //    wood empty
+    replace(2861, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 200) }
+    //    copper ore empty
+    replace(2869, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 280) }
+    //    grain loaded
+    replace(2881, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 180) }
+    //    wood loaded
+    replace(2885, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 220) }
+
+    /*
+     * -------
+     * engines
+     * -------
+     */
 
     // CS 2400 (Diesel)
     replace(3017, "sprites/png/trains/tropical_engines.png") { tmpl_train_8view_88length_29px(69, 90) }

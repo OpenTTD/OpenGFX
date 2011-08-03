@@ -95,35 +95,35 @@
 2803 sprites/png/trains/arctic_railwagons.png 48 425 01 12 32 -16 -8 
 2804 sprites/png/trains/arctic_railwagons.png 96 425 01 16 20 -6 -9 
 
-2805 sprites/png/trains/tropic_railwagons.png 0 450 01 22 8 -3 -12 
-2806 sprites/png/trains/tropic_railwagons.png 16 450 01 16 20 -14 -9 
-2807 sprites/png/trains/tropic_railwagons.png 48 450 01 12 32 -16 -8 
-2808 sprites/png/trains/tropic_railwagons.png 96 450 01 16 20 -6 -9 
+2805 sprites/png/trains/tropic_railwagons2.png 132 250 01 22 8 -3 -12 
+2806 sprites/png/trains/tropic_railwagons2.png 148 250 01 16 20 -14 -9 
+2807 sprites/png/trains/tropic_railwagons2.png 180 250 01 12 29 -16 -8 
+2808 sprites/png/trains/tropic_railwagons2.png 228 250 01 16 20 -6 -9 
 
-2809 sprites/png/trains/tropic_railwagons.png 0 475 01 22 8 -3 -12 
-2810 sprites/png/trains/tropic_railwagons.png 16 475 01 16 20 -14 -9 
-2811 sprites/png/trains/tropic_railwagons.png 48 475 01 12 32 -16 -8 
-2812 sprites/png/trains/tropic_railwagons.png 96 475 01 16 20 -6 -9 
+2809 sprites/png/trains/tropic_railwagons2.png 4 200 01 22 8 -3 -12 
+2810 sprites/png/trains/tropic_railwagons2.png 20 200 01 16 20 -14 -9 
+2811 sprites/png/trains/tropic_railwagons2.png 52 200 01 12 29 -16 -8 
+2812 sprites/png/trains/tropic_railwagons2.png 100 200 01 16 20 -6 -9 
 
-2813 sprites/png/trains/tropic_railwagons.png 0 500 01 22 8 -3 -12 
-2814 sprites/png/trains/tropic_railwagons.png 16 500 01 16 20 -14 -9 
-2815 sprites/png/trains/tropic_railwagons.png 48 500 01 12 32 -16 -8 
-2816 sprites/png/trains/tropic_railwagons.png 96 500 01 16 20 -6 -9 
+2813 sprites/png/trains/tropic_railwagons2.png 4 225 01 22 8 -3 -12 
+2814 sprites/png/trains/tropic_railwagons2.png 20 225 01 16 20 -14 -9 
+2815 sprites/png/trains/tropic_railwagons2.png 52 225 01 12 29 -16 -8 
+2816 sprites/png/trains/tropic_railwagons2.png 100 225 01 16 20 -6 -9 
 
-2817 sprites/png/trains/tropic_railwagons.png 0 525 01 22 8 -3 -12 
-2818 sprites/png/trains/tropic_railwagons.png 16 525 01 16 20 -14 -9 
-2819 sprites/png/trains/tropic_railwagons.png 48 525 01 12 32 -16 -8 
-2820 sprites/png/trains/tropic_railwagons.png 96 525 01 16 20 -6 -9 
+2817 sprites/png/trains/tropic_railwagons2.png 132 225 01 22 8 -3 -12 
+2818 sprites/png/trains/tropic_railwagons2.png 148 225 01 16 20 -14 -9 
+2819 sprites/png/trains/tropic_railwagons2.png 180 225 01 12 29 -16 -8 
+2820 sprites/png/trains/tropic_railwagons2.png 228 225 01 16 20 -6 -9 
 
-2821 sprites/png/trains/tropic_railwagons.png 0 550 01 22 8 -3 -12 
-2822 sprites/png/trains/tropic_railwagons.png 16 550 01 16 20 -14 -9 
-2823 sprites/png/trains/tropic_railwagons.png 48 550 01 12 32 -16 -8 
-2824 sprites/png/trains/tropic_railwagons.png 96 550 01 16 20 -6 -9 
+2821 sprites/png/trains/tropicmonolev.png 0 380 01 18 8 -3 -12 
+2822 sprites/png/trains/tropicmonolev.png 16 380 01 16 20 -13 -9 
+2823 sprites/png/trains/tropicmonolev.png 48 380 01 12 28 -15 -8 
+2824 sprites/png/trains/tropicmonolev.png 96 380 01 16 20 -5 -9 
 
-2825 sprites/png/trains/tropic_railwagons.png 0 575 01 22 8 -3 -12 
-2826 sprites/png/trains/tropic_railwagons.png 16 575 01 16 20 -14 -9 
-2827 sprites/png/trains/tropic_railwagons.png 48 575 01 12 32 -16 -8 
-2828 sprites/png/trains/tropic_railwagons.png 96 575 01 16 20 -6 -9 
+2825 sprites/png/trains/tropicmonolev.png 0 400 01 18 8 -3 -12 
+2826 sprites/png/trains/tropicmonolev.png 16 400 01 16 20 -13 -9 
+2827 sprites/png/trains/tropicmonolev.png 48 400 01 12 28 -15 -8 
+2828 sprites/png/trains/tropicmonolev.png 96 400 01 16 20 -5 -9 
 
 2829 sprites/png/trains/temperatemonolev.png 0 0 01 18 8 -3 -12 
 2830 sprites/png/trains/temperatemonolev.png 16 0 01 16 20 -13 -9 

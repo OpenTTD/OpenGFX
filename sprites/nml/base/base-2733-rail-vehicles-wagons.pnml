@@ -55,22 +55,22 @@ base_graphics(2797, "sprites/png/trains/temperate_railwagons.png") { tmpl_train_
 base_graphics(2801, "sprites/png/trains/arctic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 425) }
 
 // tropical rail copper ore wagon (full)
-base_graphics(2805, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 450) }
+base_graphics(2805, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132,   250) }
 
 // tropical rail water wagon (full + empty)
-base_graphics(2809, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 475) }
+base_graphics(2809, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,   200) }
 
-// tropical rail fruit wagon (empgy)
-base_graphics(2813, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 500) }
+// tropical rail fruit wagon (empty)
+base_graphics(2813, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4,   225) }
 
 // tropical rail fruit wagon (full)
-base_graphics(2817, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 525) }
+base_graphics(2817, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132,   225) }
 
 // tropical rail rubber wagon (empty)
-base_graphics(2821, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 550) }
+base_graphics(2821, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 380) }
 
 // tropical rail rubber wagon (full)
-base_graphics(2825, "sprites/png/trains/tropic_railwagons.png") { tmpl_train_4view_88length_32px(  0, 575) }
+base_graphics(2825, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 400) }
 
 
 /* 
@@ -97,7 +97,7 @@ base_graphics(2845, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4vie
 // monorail goods (empty + full)
 base_graphics(2849, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 220) }
 
-// monorail food (empty + full) [NOTE: using the arctic one for now to match the normal rail food wagon in tropic (which also uses the arctic one there]
+// monorail food (empty + full)
 base_graphics(2853, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0,  420) }
 
 // monorail grain (empty)
