@@ -157,40 +157,40 @@ HOUSE_HEIGHT87_3(sprites/png/houses/base-1519-1523-small-flats.png)
 HOUSE_HEIGHT87_4(sprites/png/houses/base-1519-1523-small-flats.png)
 HOUSE_HEIGHT87_5(sprites/png/houses/base-1519-1523-small-flats.png)
 // 1524-1529 small flats
-HOUSE_HEIGHT87_3(sprites/png/houses/base-1524-1529-small-flats.png)
 HOUSE_HEIGHT87_6(sprites/png/houses/base-1524-1529-small-flats.png)
+HOUSE_HEIGHT87_3(sprites/png/houses/base-1524-1529-small-flats.png)
 HOUSE_HEIGHT87_5(sprites/png/houses/base-1524-1529-small-flats.png)
 HOUSE_HEIGHT87_2(sprites/png/houses/base-1524-1529-small-flats.png)
 HOUSE_HEIGHT87_4(sprites/png/houses/base-1524-1529-small-flats.png)
 HOUSE_HEIGHT87_1(sprites/png/houses/base-1524-1529-small-flats.png)
-// office block
+// 1530-1535 office block
     3 sprites/png/morebuildings.png 66 8 09 31 64 -31 0
     4 sprites/png/morebuildings.png 146 8 09 45 64 -31 -14
     5 sprites/png/morebuildings.png 226 8 09 31 64 -31 0
     6 sprites/png/morebuildings.png 306 8 09 106 64 -31 -75
     7 sprites/png/morebuildings.png 386 8 09 31 64 -31 0
     8 sprites/png/morebuildings.png 466 8 09 106 64 -31 -75
-//old flats
+//1536-1537 old flats
 HOUSE_HEIGHT87(sprites/png/houses/base-1536-1537-oldflats.png,0)
 HOUSE_HEIGHT87(sprites/png/houses/base-1536-1537-oldflats.png,88) // Recolour: STRUCT_WHITE
-//old flats
+//1538-1539 old flats
 HOUSE_HEIGHT87(sprites/png/houses/base-1538-1539-oldflats.png,0)
 HOUSE_HEIGHT87(sprites/png/houses/base-1538-1539-oldflats.png,88) // Recolour: STRUCT_CONCRETE
-//office block
+//1540-1545 office block
    44 sprites/png/temprtbuilds.png 178 360 03 31 64 -31 0
    45 sprites/png/temprtbuilds.png 258 360 03 48 62 -30 -20
    46 sprites/png/temprtbuilds.png 338 360 03 31 64 -31 0
    47 sprites/png/temprtbuilds.png 418 360 09 83 62 -30 -55
    48 sprites/png/temprtbuilds.png 498 360 03 31 64 -31 0
  1545 sprites/png/temprtbuilds.png 578 360 03 83 62 -30 -55
-//office tower
+//1536-1551 office tower
    51 sprites/png/temprtbuilds.png 674 360 03 31 64 -31 0
    52 sprites/png/temprtbuilds.png 2 456 03 47 56 -25 -18
    53 sprites/png/temprtbuilds.png 66 456 03 31 64 -31 0
    54 sprites/png/temprtbuilds.png 146 456 03 98 56 -25 -69
    55 sprites/png/temprtbuilds.png 210 456 03 31 64 -31 0
    56 sprites/png/temprtbuilds.png 290 456 09 98 56 -25 -69
-//theatre
+//1552-1553 theatre
    10 sprites/png/morebuildings.png 562 8 09 31 64 -31 0
    11 sprites/png/morebuildings.png 642 8 09 55 64 -31 -24
 // 1554-1561 football stadium
