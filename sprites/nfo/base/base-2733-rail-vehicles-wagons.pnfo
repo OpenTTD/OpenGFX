@@ -155,10 +155,10 @@
 2851 sprites/png/trains/temperatemonolev.png 48 220 01 12 28 -15 -8 
 2852 sprites/png/trains/temperatemonolev.png 96 220 01 16 20 -5 -9 
 
-2853 sprites/png/trains/tropicmonolev.png 0 40 01 18 8 -3 -12 
-2854 sprites/png/trains/tropicmonolev.png 16 40 01 16 20 -13 -9 
-2855 sprites/png/trains/tropicmonolev.png 48 40 01 12 28 -15 -8 
-2856 sprites/png/trains/tropicmonolev.png 96 40 01 16 20 -5 -9 
+2853 sprites/png/trains/arctic_monolevwagons.png 0 420 01 18 8 -3 -12 
+2854 sprites/png/trains/arctic_monolevwagons.png 16 420 01 16 20 -13 -9 
+2855 sprites/png/trains/arctic_monolevwagons.png 48 420 01 12 28 -15 -8 
+2856 sprites/png/trains/arctic_monolevwagons.png 96 420 01 16 20 -5 -9 
 
 2857 sprites/png/trains/temperatemonolev.png 0 240 01 18 8 -3 -12 
 2858 sprites/png/trains/temperatemonolev.png 16 240 01 16 20 -13 -9 

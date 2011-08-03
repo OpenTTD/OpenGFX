@@ -97,8 +97,8 @@ base_graphics(2845, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4vie
 // monorail goods (empty + full)
 base_graphics(2849, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 220) }
 
-// monorail food (empty + full)
-base_graphics(2853, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0,  40) }
+// monorail food (empty + full) [NOTE: using the arctic one for now to match the normal rail food wagon in tropic (which also uses the arctic one there]
+base_graphics(2853, "sprites/png/trains/arctic_monolevwagons.png") { tmpl_train_4view_88length_28px(  0,  420) }
 
 // monorail grain (empty)
 base_graphics(2857, "sprites/png/trains/temperatemonolev.png") { tmpl_train_4view_88length_28px(  0, 240) }
