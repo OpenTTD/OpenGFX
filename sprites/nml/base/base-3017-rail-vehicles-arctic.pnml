@@ -1,7 +1,7 @@
 #include "sprites/nml/templates/tmpl_trains.nml"
 
 // CS 2400 (Diesel)
-base_graphics(3017, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 49) }
+base_graphics(3017, "sprites/png/trains/arctic_CS2400_88.png") { tmpl_train_8view_88length_29px(1, 1) }
 
 // Centennial (Diesel)
 base_graphics(3025, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 95) }

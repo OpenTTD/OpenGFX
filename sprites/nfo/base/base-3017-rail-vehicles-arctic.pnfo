@@ -5,14 +5,14 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-3017 sprites/png/trains/arctic_engines.png 89 49 01 22 8 -3 -12 
-3018 sprites/png/trains/arctic_engines.png 105 49 01 16 20 -14 -9 
-3019 sprites/png/trains/arctic_engines.png 137 49 01 12 29 -16 -8 
-3020 sprites/png/trains/arctic_engines.png 185 49 01 16 20 -6 -9 
-3021 sprites/png/trains/arctic_engines.png 217 49 01 22 8 -3 -12 
-3022 sprites/png/trains/arctic_engines.png 233 49 01 16 20 -14 -9 
-3023 sprites/png/trains/arctic_engines.png 265 49 01 12 29 -16 -8 
-3024 sprites/png/trains/arctic_engines.png 313 49 01 16 20 -6 -9 
+3017 sprites/png/trains/arctic_CS2400_88.png 1 1 01 22 8 -3 -12 
+3018 sprites/png/trains/arctic_CS2400_88.png 17 1 01 16 20 -14 -9 
+3019 sprites/png/trains/arctic_CS2400_88.png 49 1 01 12 29 -16 -8 
+3020 sprites/png/trains/arctic_CS2400_88.png 97 1 01 16 20 -6 -9 
+3021 sprites/png/trains/arctic_CS2400_88.png 129 1 01 22 8 -3 -12 
+3022 sprites/png/trains/arctic_CS2400_88.png 145 1 01 16 20 -14 -9 
+3023 sprites/png/trains/arctic_CS2400_88.png 177 1 01 12 29 -16 -8 
+3024 sprites/png/trains/arctic_CS2400_88.png 225 1 01 16 20 -6 -9 
 
 3025 sprites/png/trains/arctic_engines.png 89 95 01 22 8 -3 -12 
 3026 sprites/png/trains/arctic_engines.png 105 95 01 16 20 -14 -9 
