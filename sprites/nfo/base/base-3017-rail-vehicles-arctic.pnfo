@@ -55,10 +55,10 @@
 3059 sprites/png/trains/arctic_engines.png 265 164 01 12 29 -16 -8 
 3060 sprites/png/trains/arctic_engines.png 313 164 01 16 20 -6 -9 
 
-3061 sprites/png/trains/arctic_engines.png 89 118 01 22 8 -3 -12 
-3062 sprites/png/trains/arctic_engines.png 105 118 01 16 20 -14 -9 
-3063 sprites/png/trains/arctic_engines.png 137 118 01 12 29 -16 -8 
-3064 sprites/png/trains/arctic_engines.png 185 118 01 16 20 -6 -9 
+3061 sprites/png/trains/arctic_MJS1000_88.png 2 1 01 22 8 -3 -12 
+3062 sprites/png/trains/arctic_MJS1000_88.png 18 1 01 16 20 -14 -9 
+3063 sprites/png/trains/arctic_MJS1000_88.png 50 1 01 12 29 -16 -8 
+3064 sprites/png/trains/arctic_MJS1000_88.png 98 1 01 16 20 -6 -9 
 
 3065 sprites/png/trains/arctic_engines.png 89 26 01 22 8 -3 -12 
 3066 sprites/png/trains/arctic_engines.png 105 26 01 16 20 -14 -9 

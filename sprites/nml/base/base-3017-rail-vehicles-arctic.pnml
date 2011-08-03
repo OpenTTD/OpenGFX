@@ -19,7 +19,7 @@ base_graphics(3049, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_
 base_graphics(3053, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 164) }
 
 // MJS 1000 (Diesel)
-base_graphics(3061, "sprites/png/trains/arctic_engines.png") { tmpl_train_4view_88length_29px(89, 118) }
+base_graphics(3061, "sprites/png/trains/arctic_MJS1000_88.png") { tmpl_train_4view_88length_29px(2, 1) }
 
 // MJS 250 (Steam)
 base_graphics(3065, "sprites/png/trains/arctic_engines.png") { tmpl_train_8view_88length_29px(89, 26) }
