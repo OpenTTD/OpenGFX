@@ -67,10 +67,10 @@ base_graphics(2813, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4v
 base_graphics(2817, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132,   225) }
 
 // tropical rail rubber wagon (empty)
-base_graphics(2821, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 380) }
+base_graphics(2821, "sprites/png/trains/tropic_railwagon_rubber.png") { tmpl_train_4view_88length_29px(  4,   0) }
 
 // tropical rail rubber wagon (full)
-base_graphics(2825, "sprites/png/trains/tropicmonolev.png") { tmpl_train_4view_88length_28px(  0, 400) }
+base_graphics(2825, "sprites/png/trains/tropic_railwagon_rubber.png") { tmpl_train_4view_88length_29px(  132,   0) }
 
 
 /* 
