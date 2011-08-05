@@ -76,15 +76,16 @@ base_graphics(3781, "sprites/png/aircraft/FFPDart.png") {
 	[443, 26, 43, 23, -21, -11]
 }
 //3789 Bakewell Luckett LB-10, Bakewell Luckett LB-11, Guru Galaxy
-base_graphics(3789, "sprites/png/vehiclesair021.png") {
-	[242, 152, 50, 23, -24, -13]
-	[306, 152, 47, 20, -24, -10]
-	[370, 152, 54, 22, -23, -11]
-	[434, 152, 47, 31, -24, -17]
-	[498, 152, 49, 33, -24, -17]
-	[562, 152, 47, 31, -21, -17]
-	[626, 152, 54, 22, -29, -11]
-	[690, 152, 47, 20, -21, -10]
+base_graphics(3789, "sprites/png/aircraft/LB10-11-Galaxy.png") {
+    //xoff = round.down(-xsize/2); yoff = round.down(-ysize/2)+1
+	[  6, 27, 54, 29, -27, -13]
+	[ 70, 27, 51, 27, -25, -12]
+	[134, 27, 61, 28, -30, -13]
+	[214, 27, 51, 38, -25, -28]
+	[278, 27, 54, 42, -27, -20]
+	[342, 27, 51, 38, -25, -28]
+	[406, 27, 61, 28, -30, -13]
+	[486, 27, 51, 27, -25, -12]
 }
 //3797 Darwin 200, Darwin 400, Darwin 500, Darwin 600, Airtaxi A21, Airtaxi A31, Airtaxi A32, Airtaxi A33
 base_graphics(3797, "sprites/png/aircraft/Darwin200.png") {
