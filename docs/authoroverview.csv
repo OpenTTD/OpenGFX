@@ -126,7 +126,8 @@ ogfx1_base;2692;2707;16;Bus station;FooBar, Zephyris;FooBar;;1
 ogfx1_base;2708;2723;16;Truck station;FooBar, Zephyris;FooBar;;1
 ogfx1_base;2724;2726;3;GUI airport and road;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;2727;2732;6;Docks;FooBar, LordAzamath, Red*Star;FooBar;;1
-ogfx1_base;2733;2828;96;Rail wagons;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
+ogfx1_base;2733;2820;88;Rail wagons;DanMacK;planetmaker;1983;1
+ogfx1_base;2821;2828;8;Rail wagons: rubber;DanMacK, FooBar;planetmaker;;1
 ogfx1_base;2829;2832;4;Monolev passenger carriage;Born Acorn, molace;Ammler, planetmaker;;1
 ogfx1_base;2833;2836;4;Monolev coal wagon;Zephyris, molace, DJNekkid;buttercup, planetmaker;;1
 ogfx1_base;2837;2840;4;Monolev mail wagon;Born Acorn, molace;Ammler, planetmaker;102;1
@@ -134,7 +135,10 @@ ogfx1_base;2841;2904;64;Monolev wagons;Zephyris, molace;buttercup, planetmaker;;
 ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
 ogfx1_base;2981;2992;12;Monorail engines;Born Acorn;Ammler;102;1
 ogfx1_base;2993;3016;24;Maglev engines;Born Acorn;Ammler;102;1
-ogfx1_base;3017;3072;56;Rail engines arctic;buttercup, DanMacK, Purno, Uzurpator;planetmaker;;1
+ogfx1_base;3017;3072;56;Rail engines arctic (except below);buttercup, DanMacK, Purno, Uzurpator;planetmaker;;1
+ogfx1_base;3017;3024;8;CS 2400 (Diesel);DanMacK,;planetmaker;2405;1
+ogfx1_base;3033;3040;8;CS 4000 (Diesel);DanMacK,;planetmaker;2406;1
+ogfx1_base;3061;3064;4;MJS 1000 (Diesel);DanMacK,;planetmaker;2421;1
 ogfx1_base;3073;3078;6;Diesel smoke;FooBar;FooBar;;1
 ogfx1_base;3079;3083;5;Steam;FooBar;FooBar;;1
 ogfx1_base;3084;3089;6;Spark;Soeb;Soeb;;1
@@ -411,3 +415,5 @@ ogfxe_extra;0;843;844;Waterfeatures (climate specific and random tiles for canal
 ogfxe_extra;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
 ogfxe_extra;0;345;346;Additional Font Characters;Bilbo, FooBar;FooBar;;1
 ogfxe_extra;0;75;76;Temperate snow tiles;Zephyris;Zephyris;;1
+ogfxe_extra;0;0;0;Arctic rail wagon overrides;DanMacK;planetmaker;2053;1
+ogfxe_extra;0;0;0;Tropic rail wagon overrides;DanMacK;planetmaker;1960;1
