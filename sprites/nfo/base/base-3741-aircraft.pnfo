@@ -5,59 +5,59 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-3741 sprites/png/aircraft/BL-LB8-YateYAe46.png 3 25 01 18 40 -20 -9 
-3742 sprites/png/aircraft/BL-LB8-YateYAe46.png 51 25 01 15 36 -19 -5 
-3743 sprites/png/aircraft/BL-LB8-YateYAe46.png 99 25 01 22 42 -21 -11 
-3744 sprites/png/aircraft/BL-LB8-YateYAe46.png 147 25 01 29 36 -18 -14 
-3745 sprites/png/aircraft/BL-LB8-YateYAe46.png 195 25 01 32 40 -20 -16 
-3746 sprites/png/aircraft/BL-LB8-YateYAe46.png 243 25 01 29 36 -12 -16 
-3747 sprites/png/aircraft/BL-LB8-YateYAe46.png 291 25 01 22 42 -21 -11 
-3748 sprites/png/aircraft/BL-LB8-YateYAe46.png 339 25 01 15 36 -16 -5 
+3741 sprites/png/aircraft/BL-LB8-YateYAe46.png 3 25 01 18 40 -20 -8 
+3742 sprites/png/aircraft/BL-LB8-YateYAe46.png 51 25 01 15 36 -18 -6 
+3743 sprites/png/aircraft/BL-LB8-YateYAe46.png 99 25 01 22 42 -21 -10 
+3744 sprites/png/aircraft/BL-LB8-YateYAe46.png 147 25 01 29 36 -18 -13 
+3745 sprites/png/aircraft/BL-LB8-YateYAe46.png 195 25 01 32 40 -20 -15 
+3746 sprites/png/aircraft/BL-LB8-YateYAe46.png 243 25 01 29 36 -18 -13 
+3747 sprites/png/aircraft/BL-LB8-YateYAe46.png 291 25 01 22 42 -21 -10 
+3748 sprites/png/aircraft/BL-LB8-YateYAe46.png 339 25 01 15 36 -18 -6 
 
-3749 sprites/png/aircraft/Darwin300.png 2 4 01 32 66 -33 -16 
-3750 sprites/png/aircraft/Darwin300.png 82 4 01 32 60 -39 -12 
-3751 sprites/png/aircraft/Darwin300.png 162 4 01 34 68 -34 -17 
-3752 sprites/png/aircraft/Darwin300.png 242 4 01 42 58 -29 -21 
-3753 sprites/png/aircraft/Darwin300.png 306 4 01 43 64 -32 -21 
-3754 sprites/png/aircraft/Darwin300.png 386 4 01 42 58 -21 -26 
-3755 sprites/png/aircraft/Darwin300.png 450 4 01 34 68 -34 -17 
-3756 sprites/png/aircraft/Darwin300.png 530 4 01 32 60 -18 -8 
+3749 sprites/png/aircraft/Darwin300.png 2 4 01 32 66 -33 -15 
+3750 sprites/png/aircraft/Darwin300.png 82 4 01 32 60 -30 -15 
+3751 sprites/png/aircraft/Darwin300.png 162 4 01 34 68 -34 -16 
+3752 sprites/png/aircraft/Darwin300.png 242 4 01 42 58 -29 -20 
+3753 sprites/png/aircraft/Darwin300.png 306 4 01 43 64 -32 -20 
+3754 sprites/png/aircraft/Darwin300.png 386 4 01 42 58 -29 -20 
+3755 sprites/png/aircraft/Darwin300.png 450 4 01 34 68 -34 -16 
+3756 sprites/png/aircraft/Darwin300.png 530 4 01 32 60 -30 -15 
 
-3757 sprites/png/aircraft/YateHaugan.png 3 20 01 34 36 -18 -17 
-3758 sprites/png/aircraft/YateHaugan.png 51 20 01 29 52 -26 -14 
-3759 sprites/png/aircraft/YateHaugan.png 115 20 01 22 74 -37 -11 
-3760 sprites/png/aircraft/YateHaugan.png 195 20 01 35 53 -26 -17 
-3761 sprites/png/aircraft/YateHaugan.png 259 20 01 41 36 -18 -20 
-3762 sprites/png/aircraft/YateHaugan.png 307 20 01 35 53 -26 -17 
-3763 sprites/png/aircraft/YateHaugan.png 371 20 01 22 74 -37 -11 
-3764 sprites/png/aircraft/YateHaugan.png 451 20 01 29 52 -26 -14 
+3757 sprites/png/aircraft/YateHaugan.png 3 20 01 34 36 -18 -16 
+3758 sprites/png/aircraft/YateHaugan.png 51 20 01 29 52 -26 -13 
+3759 sprites/png/aircraft/YateHaugan.png 115 20 01 22 74 -37 -10 
+3760 sprites/png/aircraft/YateHaugan.png 195 20 01 35 53 -26 -16 
+3761 sprites/png/aircraft/YateHaugan.png 259 20 01 41 36 -18 -19 
+3762 sprites/png/aircraft/YateHaugan.png 307 20 01 35 53 -26 -16 
+3763 sprites/png/aircraft/YateHaugan.png 371 20 01 22 74 -37 -10 
+3764 sprites/png/aircraft/YateHaugan.png 451 20 01 29 52 -26 -13 
 
-3765 sprites/png/aircraft/ColemanCount.png 8 20 01 20 48 -24 -10 
-3766 sprites/png/aircraft/ColemanCount.png 72 20 01 17 38 -19 -8 
-3767 sprites/png/aircraft/ColemanCount.png 120 20 01 24 42 -21 -12 
-3768 sprites/png/aircraft/ColemanCount.png 168 20 01 27 37 -18 -13 
-3769 sprites/png/aircraft/ColemanCount.png 216 20 01 29 48 -24 -14 
-3770 sprites/png/aircraft/ColemanCount.png 280 20 01 27 37 -18 -13 
-3771 sprites/png/aircraft/ColemanCount.png 328 20 01 24 42 -21 -12 
-3772 sprites/png/aircraft/ColemanCount.png 376 20 01 17 38 -19 -8 
+3765 sprites/png/aircraft/ColemanCount.png 8 20 01 20 48 -24 -9 
+3766 sprites/png/aircraft/ColemanCount.png 72 20 01 17 38 -19 -7 
+3767 sprites/png/aircraft/ColemanCount.png 120 20 01 24 42 -21 -11 
+3768 sprites/png/aircraft/ColemanCount.png 168 20 01 27 37 -18 -12 
+3769 sprites/png/aircraft/ColemanCount.png 216 20 01 29 48 -24 -13 
+3770 sprites/png/aircraft/ColemanCount.png 280 20 01 27 37 -18 -12 
+3771 sprites/png/aircraft/ColemanCount.png 328 20 01 24 42 -21 -11 
+3772 sprites/png/aircraft/ColemanCount.png 376 20 01 17 38 -19 -7 
 
-3773 sprites/png/aircraft/SampsonU52.png 5 24 01 17 36 -18 -8 
-3774 sprites/png/aircraft/SampsonU52.png 55 24 01 13 25 -12 -6 
-3775 sprites/png/aircraft/SampsonU52.png 88 24 01 17 29 -14 -8 
-3776 sprites/png/aircraft/SampsonU52.png 135 24 01 19 25 -12 -9 
-3777 sprites/png/aircraft/SampsonU52.png 167 24 01 22 32 -16 -11 
-3778 sprites/png/aircraft/SampsonU52.png 215 24 01 19 25 -12 -9 
-3779 sprites/png/aircraft/SampsonU52.png 247 24 01 17 29 -14 -8 
-3780 sprites/png/aircraft/SampsonU52.png 295 24 01 13 25 -12 -6 
+3773 sprites/png/aircraft/SampsonU52.png 5 24 01 17 36 -18 -7 
+3774 sprites/png/aircraft/SampsonU52.png 55 24 01 13 25 -12 -5 
+3775 sprites/png/aircraft/SampsonU52.png 88 24 01 17 29 -14 -7 
+3776 sprites/png/aircraft/SampsonU52.png 135 24 01 19 25 -12 -8 
+3777 sprites/png/aircraft/SampsonU52.png 167 24 01 22 32 -16 -10 
+3778 sprites/png/aircraft/SampsonU52.png 215 24 01 19 25 -12 -8 
+3779 sprites/png/aircraft/SampsonU52.png 247 24 01 17 29 -14 -7 
+3780 sprites/png/aircraft/SampsonU52.png 295 24 01 13 25 -12 -5 
 
-3781 sprites/png/aircraft/FFPDart.png 75 26 01 25 38 -19 -12 
-3782 sprites/png/aircraft/FFPDart.png 123 26 01 23 43 -21 -11 
-3783 sprites/png/aircraft/FFPDart.png 171 26 01 21 55 -27 -10 
-3784 sprites/png/aircraft/FFPDart.png 235 26 01 30 43 -21 -15 
-3785 sprites/png/aircraft/FFPDart.png 283 26 01 35 38 -19 -17 
-3786 sprites/png/aircraft/FFPDart.png 331 26 01 30 43 -21 -15 
-3787 sprites/png/aircraft/FFPDart.png 379 26 01 21 55 -27 -10 
-3788 sprites/png/aircraft/FFPDart.png 443 26 01 23 43 -21 -11 
+3781 sprites/png/aircraft/FFPDart.png 75 26 01 25 38 -19 -11 
+3782 sprites/png/aircraft/FFPDart.png 123 26 01 23 43 -21 -10 
+3783 sprites/png/aircraft/FFPDart.png 171 26 01 21 55 -27 -9 
+3784 sprites/png/aircraft/FFPDart.png 235 26 01 30 43 -21 -14 
+3785 sprites/png/aircraft/FFPDart.png 283 26 01 35 38 -19 -16 
+3786 sprites/png/aircraft/FFPDart.png 331 26 01 30 43 -21 -14 
+3787 sprites/png/aircraft/FFPDart.png 379 26 01 21 55 -27 -9 
+3788 sprites/png/aircraft/FFPDart.png 443 26 01 23 43 -21 -10 
 
 3789 sprites/png/aircraft/LB10-11-Galaxy.png 6 27 01 29 54 -27 -13 
 3790 sprites/png/aircraft/LB10-11-Galaxy.png 70 27 01 27 51 -25 -12 
@@ -77,14 +77,14 @@
 3803 sprites/png/aircraft/Darwin200.png 441 26 01 34 65 -34 -16 
 3804 sprites/png/aircraft/Darwin200.png 521 26 01 29 57 -28 -13 
 
-3805 sprites/png/aircraft/BakewellCotswaldLB3.png 4 22 01 16 47 -23 -8 
-3806 sprites/png/aircraft/BakewellCotswaldLB3.png 68 22 01 19 35 -17 -9 
-3807 sprites/png/aircraft/BakewellCotswaldLB3.png 116 22 01 25 33 -16 -12 
-3808 sprites/png/aircraft/BakewellCotswaldLB3.png 164 22 01 21 34 -17 -10 
-3809 sprites/png/aircraft/BakewellCotswaldLB3.png 212 22 01 22 47 -23 -11 
-3810 sprites/png/aircraft/BakewellCotswaldLB3.png 276 22 01 22 34 -17 -11 
-3811 sprites/png/aircraft/BakewellCotswaldLB3.png 324 22 01 25 33 -16 -12 
-3812 sprites/png/aircraft/BakewellCotswaldLB3.png 373 22 01 19 35 -17 -9 
+3805 sprites/png/aircraft/BakewellCotswaldLB3.png 4 22 01 16 47 -23 -7 
+3806 sprites/png/aircraft/BakewellCotswaldLB3.png 68 22 01 19 35 -17 -8 
+3807 sprites/png/aircraft/BakewellCotswaldLB3.png 116 22 01 25 33 -16 -11 
+3808 sprites/png/aircraft/BakewellCotswaldLB3.png 164 22 01 21 34 -17 -9 
+3809 sprites/png/aircraft/BakewellCotswaldLB3.png 212 22 01 22 47 -23 -10 
+3810 sprites/png/aircraft/BakewellCotswaldLB3.png 276 22 01 22 34 -17 -10 
+3811 sprites/png/aircraft/BakewellCotswaldLB3.png 324 22 01 25 33 -16 -11 
+3812 sprites/png/aircraft/BakewellCotswaldLB3.png 373 22 01 19 35 -17 -8 
 
 3813 sprites/png/aircraft/TricaroHelicopter.png 6 5 01 16 12 -7 -8 
 3814 sprites/png/aircraft/TricaroHelicopter.png 38 5 01 14 24 -14 -5 
