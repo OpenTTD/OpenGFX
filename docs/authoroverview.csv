@@ -153,10 +153,12 @@ ogfx1_base;3709;3724;16;Explosion large;Zephyris;FooBar;;1
 ogfx1_base;3725;3736;12;Explosion small;Zephyris;FooBar;;1
 ogfx1_base;3737;3740;4;Breakdown smoke;FooBar;FooBar;;1
 ogfx1_base;3741;3904;164;Aircraft (except listed below);Zephyris, Pikka, DanMacK;Zephyris, planetmaker;;1
+ogfx1_base;3741;3748;8;Aircraft: Bakewell Luckett LB-8 etc.;DanMacK,PikkaBird;planetmaker;2109;1
+ogfx1_base;3749;3757;8;Aircraft: Darwin 300;DanMacK,PikkaBird;planetmaker;2109;1
 ogfx1_base;3757;3864;8;Aircraft: Yate Haugan;DanMacK,PikkaBird;FooBar;2106;1
 ogfx1_base;3765;3872;8;Aircraft: Coleman Count;DanMacK,PikkaBird;FooBar;2105;1
 ogfx1_base;3773;3780;8;Aircraft: Samson U52;DanMacK,Zephyris;FooBar;2103;1
-ogfx1_base;3781;3888;8;Aircraft: FFP Dart etc.;DanMacK,PikkaBird;FooBar;2108;1
+ogfx1_base;3781;3788;8;Aircraft: FFP Dart etc.;DanMacK,PikkaBird;FooBar;2108;1
 ogfx1_base;3805;3812;8;Aircraft: Bakewell Cotswald LB-3;DanMacK,PikkaBird;FooBar;2104;1
 ogfx1_base;3905;3907;3;Broken airship;PikkaBird, Zephyris;Zephyris;;1
 ogfx1_base;3908;3909;2;Ufo small;DanMacK;Soeb;;1
