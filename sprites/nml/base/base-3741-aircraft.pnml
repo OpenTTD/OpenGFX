@@ -64,15 +64,16 @@ base_graphics(3773, "sprites/png/aircraft/SampsonU52.png") {
 	[295, 24, 25, 13, -12,  -6]
 }
 //3781 FFP Dart, Bakewell Luckett LB-9, Bakewell Luckett LB80, Yate Aerospace YAC1-11, Darwin 100, Dinger 100
-base_graphics(3781, "sprites/png/vehiclesair021.png") {
-	[610, 104, 38, 17, -18,  -9]
-	[658, 104, 34, 14, -18,  -7]
-	[706, 104, 44, 17, -22,  -9]
-	[  2, 152, 36, 24, -19, -15]
-	[ 50, 152, 38, 26, -18, -15]
-	[ 98, 152, 35, 23, -14, -14]
-	[146, 152, 43, 17, -20,  -9]
-	[194, 152, 36, 14, -15,  -7]
+base_graphics(3781, "sprites/png/aircraft/FFPDart.png") {
+    //offset = round.down(-size/2) => centered in bounding box
+	[ 75, 26, 38, 25, -19, -12]
+	[123, 26, 43, 23, -21, -11]
+	[171, 26, 55, 21, -27, -10]
+	[235, 26, 43, 30, -21, -15]
+	[283, 26, 38, 35, -19, -17]
+	[331, 26, 43, 30, -21, -15]
+	[379, 26, 55, 21, -27, -10]
+	[443, 26, 43, 23, -21, -11]
 }
 //3789 Bakewell Luckett LB-10, Bakewell Luckett LB-11, Guru Galaxy
 base_graphics(3789, "sprites/png/vehiclesair021.png") {

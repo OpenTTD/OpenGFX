@@ -50,14 +50,14 @@
 3779 sprites/png/aircraft/SampsonU52.png 247 24 01 17 29 -14 -8 
 3780 sprites/png/aircraft/SampsonU52.png 295 24 01 13 25 -12 -6 
 
-3781 sprites/png/vehiclesair021.png 610 104 01 17 38 -18 -9 
-3782 sprites/png/vehiclesair021.png 658 104 01 14 34 -18 -7 
-3783 sprites/png/vehiclesair021.png 706 104 01 17 44 -22 -9 
-3784 sprites/png/vehiclesair021.png 2 152 01 24 36 -19 -15 
-3785 sprites/png/vehiclesair021.png 50 152 01 26 38 -18 -15 
-3786 sprites/png/vehiclesair021.png 98 152 01 23 35 -14 -14 
-3787 sprites/png/vehiclesair021.png 146 152 01 17 43 -20 -9 
-3788 sprites/png/vehiclesair021.png 194 152 01 14 36 -15 -7 
+3781 sprites/png/aircraft/FFPDart.png 75 26 01 25 38 -19 -12 
+3782 sprites/png/aircraft/FFPDart.png 123 26 01 23 43 -21 -11 
+3783 sprites/png/aircraft/FFPDart.png 171 26 01 21 55 -27 -10 
+3784 sprites/png/aircraft/FFPDart.png 235 26 01 30 43 -21 -15 
+3785 sprites/png/aircraft/FFPDart.png 283 26 01 35 38 -19 -17 
+3786 sprites/png/aircraft/FFPDart.png 331 26 01 30 43 -21 -15 
+3787 sprites/png/aircraft/FFPDart.png 379 26 01 21 55 -27 -10 
+3788 sprites/png/aircraft/FFPDart.png 443 26 01 23 43 -21 -11 
 
 3789 sprites/png/vehiclesair021.png 242 152 01 23 50 -24 -13 
 3790 sprites/png/vehiclesair021.png 306 152 01 20 47 -24 -10 
