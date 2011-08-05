@@ -32,14 +32,14 @@
 3763 sprites/png/vehiclesair021.png 562 56 01 19 62 -34 -8 
 3764 sprites/png/vehiclesair021.png 642 56 01 22 48 -24 -10 
 
-3765 sprites/png/vehiclesair021.png 706 56 01 15 32 -15 -8 
-3766 sprites/png/vehiclesair021.png 754 56 01 13 28 -13 -6 
-3767 sprites/png/vehiclesair021.png 2 104 01 15 36 -16 -6 
-3768 sprites/png/vehiclesair021.png 50 104 01 20 28 -13 -10 
-3769 sprites/png/vehiclesair021.png 98 104 01 23 32 -15 -12 
-3770 sprites/png/vehiclesair021.png 146 104 01 20 28 -13 -10 
-3771 sprites/png/vehiclesair021.png 194 104 01 15 36 -18 -6 
-3772 sprites/png/vehiclesair021.png 242 104 01 13 28 -13 -6 
+3765 sprites/png/aircraft/ColemanCount.png 8 20 01 20 48 -24 -10 
+3766 sprites/png/aircraft/ColemanCount.png 72 20 01 17 38 -19 -8 
+3767 sprites/png/aircraft/ColemanCount.png 120 20 01 24 42 -21 -12 
+3768 sprites/png/aircraft/ColemanCount.png 168 20 01 27 37 -18 -13 
+3769 sprites/png/aircraft/ColemanCount.png 216 20 01 29 48 -24 -14 
+3770 sprites/png/aircraft/ColemanCount.png 280 20 01 27 37 -18 -13 
+3771 sprites/png/aircraft/ColemanCount.png 328 20 01 24 42 -21 -12 
+3772 sprites/png/aircraft/ColemanCount.png 376 20 01 17 38 -19 -8 
 
 3773 sprites/png/aircraft/SampsonU52.png 5 24 01 17 36 -18 -8 
 3774 sprites/png/aircraft/SampsonU52.png 55 24 01 13 25 -12 -6 
