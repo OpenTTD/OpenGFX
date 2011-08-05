@@ -132,7 +132,7 @@ ogfx1_base;2829;2832;4;Monolev passenger carriage;Born Acorn, molace;Ammler, pla
 ogfx1_base;2833;2836;4;Monolev coal wagon;Zephyris, molace, DJNekkid;buttercup, planetmaker;;1
 ogfx1_base;2837;2840;4;Monolev mail wagon;Born Acorn, molace;Ammler, planetmaker;102;1
 ogfx1_base;2841;2904;64;Monolev wagons;Zephyris, molace;buttercup, planetmaker;;1
-ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;buttercup;;1
+ogfx1_base;2905;2980;76;Rail engines;buttercup, DanMacK, Purno, Uzurpator;FooBar, PikkaBird;2075;1
 ogfx1_base;2981;2992;12;Monorail engines;Born Acorn;Ammler;102;1
 ogfx1_base;2993;3016;24;Maglev engines;Born Acorn;Ammler;102;1
 ogfx1_base;3017;3072;56;Rail engines arctic (except below);buttercup, DanMacK, Purno, Uzurpator;planetmaker;;1

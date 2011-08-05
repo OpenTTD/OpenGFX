@@ -5,47 +5,47 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-2905 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 0 0 01 24 8 -3 -12 
-2906 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 9 0 01 17 22 -14 -9 
-2907 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 32 0 01 12 32 -16 -8 
-2908 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 65 0 01 17 22 -6 -9 
-2909 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 88 0 01 24 8 -3 -12 
-2910 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 97 0 01 17 22 -14 -9 
-2911 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 120 0 01 12 32 -16 -8 
-2912 sprites/png/trains/temperate_ChaneyJubilee_SH8P_88.png 153 0 01 17 22 -6 -9 
+2905 sprites/png/trains/temperate_engines_28px.png 111 35 01 28 8 -3 -18 
+2906 sprites/png/trains/temperate_engines_28px.png 127 35 01 22 20 -14 -15 
+2907 sprites/png/trains/temperate_engines_28px.png 159 35 01 18 29 -16 -14 
+2908 sprites/png/trains/temperate_engines_28px.png 207 35 01 22 20 -6 -15 
+2909 sprites/png/trains/temperate_engines_28px.png 239 35 01 28 8 -3 -18 
+2910 sprites/png/trains/temperate_engines_28px.png 255 35 01 22 20 -14 -15 
+2911 sprites/png/trains/temperate_engines_28px.png 287 35 01 18 29 -16 -14 
+2912 sprites/png/trains/temperate_engines_28px.png 335 35 01 22 20 -6 -15 
 
-2913 sprites/png/trains/temperate_GinzuA4_88.png 0 0 01 24 8 -3 -12 
-2914 sprites/png/trains/temperate_GinzuA4_88.png 9 0 01 17 22 -14 -9 
-2915 sprites/png/trains/temperate_GinzuA4_88.png 32 0 01 12 32 -16 -8 
-2916 sprites/png/trains/temperate_GinzuA4_88.png 65 0 01 17 22 -6 -9 
-2917 sprites/png/trains/temperate_GinzuA4_88.png 88 0 01 24 8 -3 -12 
-2918 sprites/png/trains/temperate_GinzuA4_88.png 97 0 01 17 22 -14 -9 
-2919 sprites/png/trains/temperate_GinzuA4_88.png 120 0 01 12 32 -16 -8 
-2920 sprites/png/trains/temperate_GinzuA4_88.png 153 0 01 17 22 -6 -9 
+2913 sprites/png/trains/temperate_engines_28px.png 111 64 01 28 8 -3 -18 
+2914 sprites/png/trains/temperate_engines_28px.png 127 64 01 22 20 -14 -15 
+2915 sprites/png/trains/temperate_engines_28px.png 159 64 01 18 29 -16 -14 
+2916 sprites/png/trains/temperate_engines_28px.png 207 64 01 22 20 -6 -15 
+2917 sprites/png/trains/temperate_engines_28px.png 239 64 01 28 8 -3 -18 
+2918 sprites/png/trains/temperate_engines_28px.png 255 64 01 22 20 -14 -15 
+2919 sprites/png/trains/temperate_engines_28px.png 287 64 01 18 29 -16 -14 
+2920 sprites/png/trains/temperate_engines_28px.png 335 64 01 22 20 -6 -15 
 
-2921 sprites/png/trains/temperate_kirbypaul_88.png 0 0 01 24 8 -3 -12 
-2922 sprites/png/trains/temperate_kirbypaul_88.png 9 0 01 17 22 -14 -9 
-2923 sprites/png/trains/temperate_kirbypaul_88.png 32 0 01 12 32 -16 -8 
-2924 sprites/png/trains/temperate_kirbypaul_88.png 65 0 01 17 22 -6 -9 
-2925 sprites/png/trains/temperate_kirbypaul_88.png 88 0 01 24 8 -3 -12 
-2926 sprites/png/trains/temperate_kirbypaul_88.png 97 0 01 17 22 -14 -9 
-2927 sprites/png/trains/temperate_kirbypaul_88.png 120 0 01 12 32 -16 -8 
-2928 sprites/png/trains/temperate_kirbypaul_88.png 153 0 01 17 22 -6 -9 
+2921 sprites/png/trains/temperate_engines_28px.png 111 6 01 28 8 -3 -18 
+2922 sprites/png/trains/temperate_engines_28px.png 127 6 01 22 20 -14 -15 
+2923 sprites/png/trains/temperate_engines_28px.png 159 6 01 18 29 -16 -14 
+2924 sprites/png/trains/temperate_engines_28px.png 207 6 01 22 20 -6 -15 
+2925 sprites/png/trains/temperate_engines_28px.png 239 6 01 28 8 -3 -18 
+2926 sprites/png/trains/temperate_engines_28px.png 255 6 01 22 20 -14 -15 
+2927 sprites/png/trains/temperate_engines_28px.png 287 6 01 18 29 -16 -14 
+2928 sprites/png/trains/temperate_engines_28px.png 335 6 01 22 20 -6 -15 
 
-2929 sprites/png/trains/temperate_SH_Hendry25_88.png 0 0 01 24 8 -3 -12 
-2930 sprites/png/trains/temperate_SH_Hendry25_88.png 9 0 01 17 22 -14 -9 
-2931 sprites/png/trains/temperate_SH_Hendry25_88.png 32 0 01 12 32 -16 -8 
-2932 sprites/png/trains/temperate_SH_Hendry25_88.png 65 0 01 17 22 -6 -9 
+2929 sprites/png/trains/temperate_engines_28px.png 111 93 01 28 8 -3 -18 
+2930 sprites/png/trains/temperate_engines_28px.png 127 93 01 22 20 -14 -15 
+2931 sprites/png/trains/temperate_engines_28px.png 159 93 01 18 29 -16 -14 
+2932 sprites/png/trains/temperate_engines_28px.png 207 93 01 22 20 -6 -15 
 
-2933 sprites/png/trains/temperate_UU37_88.png 0 0 01 24 8 -3 -12 
-2934 sprites/png/trains/temperate_UU37_88.png 9 0 01 17 22 -14 -9 
-2935 sprites/png/trains/temperate_UU37_88.png 32 0 01 12 32 -16 -8 
-2936 sprites/png/trains/temperate_UU37_88.png 65 0 01 17 22 -6 -9 
+2933 sprites/png/trains/temperate_engines_28px.png 111 122 01 28 8 -3 -18 
+2934 sprites/png/trains/temperate_engines_28px.png 127 122 01 22 20 -14 -15 
+2935 sprites/png/trains/temperate_engines_28px.png 159 122 01 18 29 -16 -14 
+2936 sprites/png/trains/temperate_engines_28px.png 207 122 01 22 20 -6 -15 
 
-2937 sprites/png/trains/temperate_SH30_SH40_88.png 0 0 01 28 8 -3 -16 
-2938 sprites/png/trains/temperate_SH30_SH40_88.png 9 0 01 21 22 -14 -13 
-2939 sprites/png/trains/temperate_SH30_SH40_88.png 32 0 01 16 32 -16 -12 
-2940 sprites/png/trains/temperate_SH30_SH40_88.png 65 0 01 21 22 -6 -13 
+2937 sprites/png/trains/temperate_engines_28px.png 111 180 01 28 8 -3 -18 
+2938 sprites/png/trains/temperate_engines_28px.png 127 180 01 22 20 -14 -15 
+2939 sprites/png/trains/temperate_engines_28px.png 159 180 01 18 29 -16 -14 
+2940 sprites/png/trains/temperate_engines_28px.png 207 180 01 22 20 -6 -15 
 
 2941 sprites/png/trains/temperate_sh125_88.png 0 0 01 24 8 -3 -12 
 2942 sprites/png/trains/temperate_sh125_88.png 9 0 01 17 22 -14 -9 
@@ -56,41 +56,41 @@
 2947 sprites/png/trains/temperate_sh125_88.png 120 0 01 12 32 -16 -8 
 2948 sprites/png/trains/temperate_sh125_88.png 153 0 01 17 22 -6 -9 
 
-2949 sprites/png/trains/temperate_manleymorel_98.png 0 0 01 24 8 -3 -12 
-2950 sprites/png/trains/temperate_manleymorel_98.png 9 0 01 17 22 -14 -9 
-2951 sprites/png/trains/temperate_manleymorel_98.png 32 0 01 12 36 -16 -8 
-2952 sprites/png/trains/temperate_manleymorel_98.png 69 0 01 17 22 -6 -9 
-2953 sprites/png/trains/temperate_manleymorel_98.png 92 0 01 24 8 -3 -12 
-2954 sprites/png/trains/temperate_manleymorel_98.png 101 0 01 17 22 -14 -9 
-2955 sprites/png/trains/temperate_manleymorel_98.png 124 0 01 12 36 -16 -8 
-2956 sprites/png/trains/temperate_manleymorel_98.png 161 0 01 17 22 -6 -9 
+2949 sprites/png/trains/temperate_engines_28px.png 111 151 01 28 8 -3 -18 
+2950 sprites/png/trains/temperate_engines_28px.png 127 151 01 22 20 -14 -15 
+2951 sprites/png/trains/temperate_engines_28px.png 159 151 01 18 29 -16 -14 
+2952 sprites/png/trains/temperate_engines_28px.png 207 151 01 22 20 -6 -15 
+2953 sprites/png/trains/temperate_engines_28px.png 239 151 01 28 8 -3 -18 
+2954 sprites/png/trains/temperate_engines_28px.png 255 151 01 22 20 -14 -15 
+2955 sprites/png/trains/temperate_engines_28px.png 287 151 01 18 29 -16 -14 
+2956 sprites/png/trains/temperate_engines_28px.png 335 151 01 22 20 -6 -15 
 
-2957 sprites/png/trains/temperate_dash_98.png 0 0 01 24 8 -3 -12 
-2958 sprites/png/trains/temperate_dash_98.png 9 0 01 17 22 -14 -9 
-2959 sprites/png/trains/temperate_dash_98.png 32 0 01 12 36 -16 -8 
-2960 sprites/png/trains/temperate_dash_98.png 69 0 01 17 22 -6 -9 
-2961 sprites/png/trains/temperate_dash_98.png 92 0 01 24 8 -3 -12 
-2962 sprites/png/trains/temperate_dash_98.png 101 0 01 17 22 -14 -9 
-2963 sprites/png/trains/temperate_dash_98.png 124 0 01 12 36 -16 -8 
-2964 sprites/png/trains/temperate_dash_98.png 161 0 01 17 22 -6 -9 
+2957 sprites/png/trains/temperate_engines_28px.png 111 209 01 28 8 -3 -18 
+2958 sprites/png/trains/temperate_engines_28px.png 127 209 01 22 20 -14 -15 
+2959 sprites/png/trains/temperate_engines_28px.png 159 209 01 18 29 -16 -14 
+2960 sprites/png/trains/temperate_engines_28px.png 207 209 01 22 20 -6 -15 
+2961 sprites/png/trains/temperate_engines_28px.png 239 209 01 28 8 -3 -18 
+2962 sprites/png/trains/temperate_engines_28px.png 255 209 01 22 20 -14 -15 
+2963 sprites/png/trains/temperate_engines_28px.png 287 209 01 18 29 -16 -14 
+2964 sprites/png/trains/temperate_engines_28px.png 335 209 01 22 20 -6 -15 
 
-2965 sprites/png/trains/temperate_asiastar_88.png 0 0 01 29 8 -3 -17 
-2966 sprites/png/trains/temperate_asiastar_88.png 9 0 01 22 22 -14 -14 
-2967 sprites/png/trains/temperate_asiastar_88.png 32 0 01 17 32 -16 -13 
-2968 sprites/png/trains/temperate_asiastar_88.png 65 0 01 22 22 -6 -14 
-2969 sprites/png/trains/temperate_asiastar_88.png 88 0 01 29 8 -3 -17 
-2970 sprites/png/trains/temperate_asiastar_88.png 97 0 01 22 22 -14 -14 
-2971 sprites/png/trains/temperate_asiastar_88.png 120 0 01 17 32 -16 -13 
-2972 sprites/png/trains/temperate_asiastar_88.png 153 0 01 22 22 -6 -14 
+2965 sprites/png/trains/temperate_engines_28px.png 111 296 01 28 8 -3 -18 
+2966 sprites/png/trains/temperate_engines_28px.png 127 296 01 22 20 -14 -15 
+2967 sprites/png/trains/temperate_engines_28px.png 159 296 01 18 29 -16 -14 
+2968 sprites/png/trains/temperate_engines_28px.png 207 296 01 22 20 -6 -15 
+2969 sprites/png/trains/temperate_engines_28px.png 239 296 01 28 8 -3 -18 
+2970 sprites/png/trains/temperate_engines_28px.png 255 296 01 22 20 -14 -15 
+2971 sprites/png/trains/temperate_engines_28px.png 287 296 01 18 29 -16 -14 
+2972 sprites/png/trains/temperate_engines_28px.png 335 296 01 22 20 -6 -15 
 
-2973 sprites/png/trains/temperate_tim_88.png 0 0 01 29 8 -3 -17 
-2974 sprites/png/trains/temperate_tim_88.png 9 0 01 22 22 -14 -14 
-2975 sprites/png/trains/temperate_tim_88.png 32 0 01 17 32 -16 -13 
-2976 sprites/png/trains/temperate_tim_88.png 65 0 01 22 22 -6 -14 
-2977 sprites/png/trains/temperate_tim_88.png 88 0 01 29 8 -3 -17 
-2978 sprites/png/trains/temperate_tim_88.png 97 0 01 22 22 -14 -14 
-2979 sprites/png/trains/temperate_tim_88.png 120 0 01 17 32 -16 -13 
-2980 sprites/png/trains/temperate_tim_88.png 153 0 01 22 22 -6 -14 
+2973 sprites/png/trains/temperate_engines_28px.png 111 267 01 28 8 -3 -18 
+2974 sprites/png/trains/temperate_engines_28px.png 127 267 01 22 20 -14 -15 
+2975 sprites/png/trains/temperate_engines_28px.png 159 267 01 18 29 -16 -14 
+2976 sprites/png/trains/temperate_engines_28px.png 207 267 01 22 20 -6 -15 
+2977 sprites/png/trains/temperate_engines_28px.png 239 267 01 28 8 -3 -18 
+2978 sprites/png/trains/temperate_engines_28px.png 255 267 01 22 20 -14 -15 
+2979 sprites/png/trains/temperate_engines_28px.png 287 267 01 18 29 -16 -14 
+2980 sprites/png/trains/temperate_engines_28px.png 335 267 01 22 20 -6 -15 
 
 2981 sprites/png/trains/monorail_x2001_88.png 0 0 01 24 8 -3 -12 
 2982 sprites/png/trains/monorail_x2001_88.png 9 0 01 17 22 -14 -9 

@@ -74,6 +74,29 @@ template tmpl_train_8view_88length_29px_high(x, y, z) {
 template tmpl_train_8view_88length_29px(x, y) { tmpl_train_8view_88length_29px_high(x, y, 0) }
 
 /*
+ * 29 pixels (based on Pikka template)
+ */
+
+template tmpl_pikka_4view_88length_29px_plus6height(x, y) {
+    [   x, y,  8, 28,  -3, -18]
+    [16+x, y, 20, 22, -14, -15]
+    [48+x, y, 29, 18, -16, -14]
+    [96+x, y, 20, 22,  -6, -15]
+}
+ 
+template tmpl_pikka_8view_88length_29px_plus6height(x, y) {
+    [    x, y,  8, 28,  -3, -18]
+    [ 16+x, y, 20, 22, -14, -15]
+    [ 48+x, y, 29, 18, -16, -14]
+    [ 96+x, y, 20, 22,  -6, -15]
+    [128+x, y,  8, 28,  -3, -18]
+    [144+x, y, 20, 22, -14, -15]
+    [176+x, y, 29, 18, -16, -14]
+    [224+x, y, 20, 22,  -6, -15]
+} 
+
+
+/*
  * 32 pixels (normal arangment)
  */
 
