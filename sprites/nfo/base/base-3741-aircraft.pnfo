@@ -23,14 +23,14 @@
 3755 sprites/png/aircraft/Darwin300.png 450 4 01 34 68 -34 -17 
 3756 sprites/png/aircraft/Darwin300.png 530 4 01 32 60 -18 -8 
 
-3757 sprites/png/vehiclesair021.png 194 56 01 24 42 -20 -13 
-3758 sprites/png/vehiclesair021.png 242 56 01 22 47 -21 -10 
-3759 sprites/png/vehiclesair021.png 306 56 01 19 62 -26 -8 
-3760 sprites/png/vehiclesair021.png 386 56 01 29 48 -22 -15 
-3761 sprites/png/vehiclesair021.png 450 56 01 32 42 -20 -14 
-3762 sprites/png/vehiclesair021.png 498 56 01 29 48 -24 -15 
-3763 sprites/png/vehiclesair021.png 562 56 01 19 62 -34 -8 
-3764 sprites/png/vehiclesair021.png 642 56 01 22 48 -24 -10 
+3757 sprites/png/aircraft/YateHaugan.png 3 20 01 34 36 -18 -17 
+3758 sprites/png/aircraft/YateHaugan.png 51 20 01 29 52 -26 -14 
+3759 sprites/png/aircraft/YateHaugan.png 115 20 01 22 74 -37 -11 
+3760 sprites/png/aircraft/YateHaugan.png 195 20 01 35 53 -26 -17 
+3761 sprites/png/aircraft/YateHaugan.png 259 20 01 41 36 -18 -20 
+3762 sprites/png/aircraft/YateHaugan.png 307 20 01 35 53 -26 -17 
+3763 sprites/png/aircraft/YateHaugan.png 371 20 01 22 74 -37 -11 
+3764 sprites/png/aircraft/YateHaugan.png 451 20 01 29 52 -26 -14 
 
 3765 sprites/png/aircraft/ColemanCount.png 8 20 01 20 48 -24 -10 
 3766 sprites/png/aircraft/ColemanCount.png 72 20 01 17 38 -19 -8 

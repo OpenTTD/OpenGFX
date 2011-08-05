@@ -27,15 +27,16 @@ base_graphics(3741, "sprites/png/aircraft/BL-LB8-YateYAe46.png") { tmpl_aircraft
 base_graphics(3749, "sprites/png/aircraft/Darwin300.png") { tmpl_aircraft_66x32(2, 4) }
 
 //3757 Yate Haugan
-base_graphics(3757, "sprites/png/vehiclesair021.png") { 
-	[194, 56, 42, 24, -20, -13]
-	[242, 56, 47, 22, -21, -10]
-	[306, 56, 62, 19, -26,  -8]
-	[386, 56, 48, 29, -22, -15]
-	[450, 56, 42, 32, -20, -14]
-	[498, 56, 48, 29, -24, -15]
-	[562, 56, 62, 19, -34,  -8]
-	[642, 56, 48, 22, -24, -10]
+base_graphics(3757, "sprites/png/aircraft/YateHaugan.png") { 
+    //offset = round.down(-size/2) => centered in bounding box
+	[  3, 20, 36, 34, -18, -17]
+	[ 51, 20, 52, 29, -26, -14]
+	[115, 20, 74, 22, -37, -11]
+	[195, 20, 53, 35, -26, -17]
+	[259, 20, 36, 41, -18, -20]
+	[307, 20, 53, 35, -26, -17]
+	[371, 20, 74, 22, -37, -11]
+	[451, 20, 52, 29, -26, -14]
 }
 
 //3765 Coleman Count
