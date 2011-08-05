@@ -14,31 +14,31 @@ if (climate == CLIMATE_ARCTIC) {
     */
     
     //    passenger
-    replace(2733, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   32) }
+    replace(2733, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   32) }
     //    coal empty
-    replace(2737, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   246) }
+    replace(2737, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   246) }
     //    mail
-    replace(2741, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   57) }
+    replace(2741, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   57) }
     //    oil
-    replace(2745, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   7) }
+    replace(2745, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   7) }
     //    livestock
-    replace(2749, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   188) }
+    replace(2749, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   188) }
     //    goods
-    replace(2753, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   163) }
+    replace(2753, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   163) }
     //    grain empty
-    replace(2761, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   110) }
+    replace(2761, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   110) }
     //    wood empty
-    replace(2765, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   274) }
+    replace(2765, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   274) }
     //    paper empty
-    replace(2769, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   137) }
+    replace(2769, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   137) }
     //    valuables
-    replace(2777, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  78,   83) }
+    replace(2777, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  78,   83) }
     //    coal loaded
-    replace(2781, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  206,   246) }
+    replace(2781, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  206,   246) }
     //    grain loaded
-    replace(2785, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  206,   110) }
+    replace(2785, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  206,   110) }
     //    wood loaded
-    replace(2789, "sprites/png/trains/arctic_railwagons2.png") { tmpl_train_4view_88length_29px(  206,   274) }
+    replace(2789, "sprites/png/trains/arctic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  206,   274) }
     
     /*
     * --------------

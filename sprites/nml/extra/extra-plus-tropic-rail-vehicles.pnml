@@ -14,27 +14,27 @@ if (climate == CLIMATE_TROPICAL) {
      */
     
     //    passenger
-    replace(2733, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 25) }
+    replace(2733, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 25) }
     //    mail
-    replace(2741, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 0) }
+    replace(2741, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 0) }
     //    oil
-    replace(2745, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 100) }
+    replace(2745, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 100) }
     //    goods
-    replace(2753, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 175) }
+    replace(2753, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 175) }
     //    food
-    replace(2757, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 275) }
+    replace(2757, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  132, 275) }
     //    grain empty
-    replace(2761, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 125) }
+    replace(2761, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 125) }
     //    wood empty
-    replace(2765, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 150) }
+    replace(2765, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 150) }
     //    copper ore empty
-    replace(2773, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 250) }
+    replace(2773, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 250) }
     //    valuables
-    replace(2777, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  4, 50) }
+    replace(2777, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  4, 50) }
     //    grain loaded
-    replace(2785, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 125) }
+    replace(2785, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  132, 125) }
     //    wood loaded
-    replace(2789, "sprites/png/trains/tropic_railwagons2.png") { tmpl_train_4view_88length_29px(  132, 150) }
+    replace(2789, "sprites/png/trains/tropic_railwagons_28px.png") { tmpl_train_4view_88length_29px(  132, 150) }
     
     /*
      * --------------

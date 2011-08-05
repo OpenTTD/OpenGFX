@@ -5,125 +5,125 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-2733 sprites/png/trains/temperate_railwagons2.png 6 2 01 22 8 -3 -12 
-2734 sprites/png/trains/temperate_railwagons2.png 22 2 01 16 20 -14 -9 
-2735 sprites/png/trains/temperate_railwagons2.png 54 2 01 12 29 -16 -8 
-2736 sprites/png/trains/temperate_railwagons2.png 102 2 01 16 20 -6 -9 
+2733 sprites/png/trains/temperate_railwagons_28px.png 6 2 01 22 8 -3 -12 
+2734 sprites/png/trains/temperate_railwagons_28px.png 22 2 01 16 20 -14 -9 
+2735 sprites/png/trains/temperate_railwagons_28px.png 54 2 01 12 29 -16 -8 
+2736 sprites/png/trains/temperate_railwagons_28px.png 102 2 01 16 20 -6 -9 
 
-2737 sprites/png/trains/temperate_railwagons2.png 6 259 01 22 8 -3 -12 
-2738 sprites/png/trains/temperate_railwagons2.png 22 259 01 16 20 -14 -9 
-2739 sprites/png/trains/temperate_railwagons2.png 54 259 01 12 29 -16 -8 
-2740 sprites/png/trains/temperate_railwagons2.png 102 259 01 16 20 -6 -9 
+2737 sprites/png/trains/temperate_railwagons_28px.png 6 259 01 22 8 -3 -12 
+2738 sprites/png/trains/temperate_railwagons_28px.png 22 259 01 16 20 -14 -9 
+2739 sprites/png/trains/temperate_railwagons_28px.png 54 259 01 12 29 -16 -8 
+2740 sprites/png/trains/temperate_railwagons_28px.png 102 259 01 16 20 -6 -9 
 
-2741 sprites/png/trains/temperate_railwagons2.png 6 27 01 22 8 -3 -12 
-2742 sprites/png/trains/temperate_railwagons2.png 22 27 01 16 20 -14 -9 
-2743 sprites/png/trains/temperate_railwagons2.png 54 27 01 12 29 -16 -8 
-2744 sprites/png/trains/temperate_railwagons2.png 102 27 01 16 20 -6 -9 
+2741 sprites/png/trains/temperate_railwagons_28px.png 6 27 01 22 8 -3 -12 
+2742 sprites/png/trains/temperate_railwagons_28px.png 22 27 01 16 20 -14 -9 
+2743 sprites/png/trains/temperate_railwagons_28px.png 54 27 01 12 29 -16 -8 
+2744 sprites/png/trains/temperate_railwagons_28px.png 102 27 01 16 20 -6 -9 
 
-2745 sprites/png/trains/temperate_railwagons2.png 6 130 01 22 8 -3 -12 
-2746 sprites/png/trains/temperate_railwagons2.png 22 130 01 16 20 -14 -9 
-2747 sprites/png/trains/temperate_railwagons2.png 54 130 01 12 29 -16 -8 
-2748 sprites/png/trains/temperate_railwagons2.png 102 130 01 16 20 -6 -9 
+2745 sprites/png/trains/temperate_railwagons_28px.png 6 130 01 22 8 -3 -12 
+2746 sprites/png/trains/temperate_railwagons_28px.png 22 130 01 16 20 -14 -9 
+2747 sprites/png/trains/temperate_railwagons_28px.png 54 130 01 12 29 -16 -8 
+2748 sprites/png/trains/temperate_railwagons_28px.png 102 130 01 16 20 -6 -9 
 
-2749 sprites/png/trains/temperate_railwagons2.png 6 104 01 22 8 -3 -12 
-2750 sprites/png/trains/temperate_railwagons2.png 22 104 01 16 20 -14 -9 
-2751 sprites/png/trains/temperate_railwagons2.png 54 104 01 12 29 -16 -8 
-2752 sprites/png/trains/temperate_railwagons2.png 102 104 01 16 20 -6 -9 
+2749 sprites/png/trains/temperate_railwagons_28px.png 6 104 01 22 8 -3 -12 
+2750 sprites/png/trains/temperate_railwagons_28px.png 22 104 01 16 20 -14 -9 
+2751 sprites/png/trains/temperate_railwagons_28px.png 54 104 01 12 29 -16 -8 
+2752 sprites/png/trains/temperate_railwagons_28px.png 102 104 01 16 20 -6 -9 
 
-2753 sprites/png/trains/temperate_railwagons2.png 6 79 01 22 8 -3 -12 
-2754 sprites/png/trains/temperate_railwagons2.png 22 79 01 16 20 -14 -9 
-2755 sprites/png/trains/temperate_railwagons2.png 54 79 01 12 29 -16 -8 
-2756 sprites/png/trains/temperate_railwagons2.png 102 79 01 16 20 -6 -9 
+2753 sprites/png/trains/temperate_railwagons_28px.png 6 79 01 22 8 -3 -12 
+2754 sprites/png/trains/temperate_railwagons_28px.png 22 79 01 16 20 -14 -9 
+2755 sprites/png/trains/temperate_railwagons_28px.png 54 79 01 12 29 -16 -8 
+2756 sprites/png/trains/temperate_railwagons_28px.png 102 79 01 16 20 -6 -9 
 
-2757 sprites/png/trains/arctic_railwagons2.png 78 216 01 22 8 -3 -12 
-2758 sprites/png/trains/arctic_railwagons2.png 94 216 01 16 20 -14 -9 
-2759 sprites/png/trains/arctic_railwagons2.png 126 216 01 12 29 -16 -8 
-2760 sprites/png/trains/arctic_railwagons2.png 174 216 01 16 20 -6 -9 
+2757 sprites/png/trains/arctic_railwagons_28px.png 78 216 01 22 8 -3 -12 
+2758 sprites/png/trains/arctic_railwagons_28px.png 94 216 01 16 20 -14 -9 
+2759 sprites/png/trains/arctic_railwagons_28px.png 126 216 01 12 29 -16 -8 
+2760 sprites/png/trains/arctic_railwagons_28px.png 174 216 01 16 20 -6 -9 
 
-2761 sprites/png/trains/temperate_railwagons2.png 6 205 01 22 8 -3 -12 
-2762 sprites/png/trains/temperate_railwagons2.png 22 205 01 16 20 -14 -9 
-2763 sprites/png/trains/temperate_railwagons2.png 54 205 01 12 29 -16 -8 
-2764 sprites/png/trains/temperate_railwagons2.png 102 205 01 16 20 -6 -9 
+2761 sprites/png/trains/temperate_railwagons_28px.png 6 205 01 22 8 -3 -12 
+2762 sprites/png/trains/temperate_railwagons_28px.png 22 205 01 16 20 -14 -9 
+2763 sprites/png/trains/temperate_railwagons_28px.png 54 205 01 12 29 -16 -8 
+2764 sprites/png/trains/temperate_railwagons_28px.png 102 205 01 16 20 -6 -9 
 
-2765 sprites/png/trains/temperate_railwagons2.png 6 156 01 22 8 -3 -12 
-2766 sprites/png/trains/temperate_railwagons2.png 22 156 01 16 20 -14 -9 
-2767 sprites/png/trains/temperate_railwagons2.png 54 156 01 12 29 -16 -8 
-2768 sprites/png/trains/temperate_railwagons2.png 102 156 01 16 20 -6 -9 
+2765 sprites/png/trains/temperate_railwagons_28px.png 6 156 01 22 8 -3 -12 
+2766 sprites/png/trains/temperate_railwagons_28px.png 22 156 01 16 20 -14 -9 
+2767 sprites/png/trains/temperate_railwagons_28px.png 54 156 01 12 29 -16 -8 
+2768 sprites/png/trains/temperate_railwagons_28px.png 102 156 01 16 20 -6 -9 
 
-2769 sprites/png/trains/temperate_railwagons2.png 6 180 01 22 8 -3 -12 
-2770 sprites/png/trains/temperate_railwagons2.png 22 180 01 16 20 -14 -9 
-2771 sprites/png/trains/temperate_railwagons2.png 54 180 01 12 29 -16 -8 
-2772 sprites/png/trains/temperate_railwagons2.png 102 180 01 16 20 -6 -9 
+2769 sprites/png/trains/temperate_railwagons_28px.png 6 180 01 22 8 -3 -12 
+2770 sprites/png/trains/temperate_railwagons_28px.png 22 180 01 16 20 -14 -9 
+2771 sprites/png/trains/temperate_railwagons_28px.png 54 180 01 12 29 -16 -8 
+2772 sprites/png/trains/temperate_railwagons_28px.png 102 180 01 16 20 -6 -9 
 
-2773 sprites/png/trains/temperate_railwagons2.png 6 232 01 22 8 -3 -12 
-2774 sprites/png/trains/temperate_railwagons2.png 22 232 01 16 20 -14 -9 
-2775 sprites/png/trains/temperate_railwagons2.png 54 232 01 12 29 -16 -8 
-2776 sprites/png/trains/temperate_railwagons2.png 102 232 01 16 20 -6 -9 
+2773 sprites/png/trains/temperate_railwagons_28px.png 6 232 01 22 8 -3 -12 
+2774 sprites/png/trains/temperate_railwagons_28px.png 22 232 01 16 20 -14 -9 
+2775 sprites/png/trains/temperate_railwagons_28px.png 54 232 01 12 29 -16 -8 
+2776 sprites/png/trains/temperate_railwagons_28px.png 102 232 01 16 20 -6 -9 
 
-2777 sprites/png/trains/temperate_railwagons2.png 6 52 01 22 8 -3 -12 
-2778 sprites/png/trains/temperate_railwagons2.png 22 52 01 16 20 -14 -9 
-2779 sprites/png/trains/temperate_railwagons2.png 54 52 01 12 29 -16 -8 
-2780 sprites/png/trains/temperate_railwagons2.png 102 52 01 16 20 -6 -9 
+2777 sprites/png/trains/temperate_railwagons_28px.png 6 52 01 22 8 -3 -12 
+2778 sprites/png/trains/temperate_railwagons_28px.png 22 52 01 16 20 -14 -9 
+2779 sprites/png/trains/temperate_railwagons_28px.png 54 52 01 12 29 -16 -8 
+2780 sprites/png/trains/temperate_railwagons_28px.png 102 52 01 16 20 -6 -9 
 
-2781 sprites/png/trains/temperate_railwagons2.png 133 259 01 22 8 -3 -12 
-2782 sprites/png/trains/temperate_railwagons2.png 149 259 01 16 20 -14 -9 
-2783 sprites/png/trains/temperate_railwagons2.png 181 259 01 12 29 -16 -8 
-2784 sprites/png/trains/temperate_railwagons2.png 229 259 01 16 20 -6 -9 
+2781 sprites/png/trains/temperate_railwagons_28px.png 133 259 01 22 8 -3 -12 
+2782 sprites/png/trains/temperate_railwagons_28px.png 149 259 01 16 20 -14 -9 
+2783 sprites/png/trains/temperate_railwagons_28px.png 181 259 01 12 29 -16 -8 
+2784 sprites/png/trains/temperate_railwagons_28px.png 229 259 01 16 20 -6 -9 
 
-2785 sprites/png/trains/temperate_railwagons2.png 133 205 01 22 8 -3 -12 
-2786 sprites/png/trains/temperate_railwagons2.png 149 205 01 16 20 -14 -9 
-2787 sprites/png/trains/temperate_railwagons2.png 181 205 01 12 29 -16 -8 
-2788 sprites/png/trains/temperate_railwagons2.png 229 205 01 16 20 -6 -9 
+2785 sprites/png/trains/temperate_railwagons_28px.png 133 205 01 22 8 -3 -12 
+2786 sprites/png/trains/temperate_railwagons_28px.png 149 205 01 16 20 -14 -9 
+2787 sprites/png/trains/temperate_railwagons_28px.png 181 205 01 12 29 -16 -8 
+2788 sprites/png/trains/temperate_railwagons_28px.png 229 205 01 16 20 -6 -9 
 
-2789 sprites/png/trains/temperate_railwagons2.png 133 156 01 22 8 -3 -12 
-2790 sprites/png/trains/temperate_railwagons2.png 149 156 01 16 20 -14 -9 
-2791 sprites/png/trains/temperate_railwagons2.png 181 156 01 12 29 -16 -8 
-2792 sprites/png/trains/temperate_railwagons2.png 229 156 01 16 20 -6 -9 
+2789 sprites/png/trains/temperate_railwagons_28px.png 133 156 01 22 8 -3 -12 
+2790 sprites/png/trains/temperate_railwagons_28px.png 149 156 01 16 20 -14 -9 
+2791 sprites/png/trains/temperate_railwagons_28px.png 181 156 01 12 29 -16 -8 
+2792 sprites/png/trains/temperate_railwagons_28px.png 229 156 01 16 20 -6 -9 
 
-2793 sprites/png/trains/temperate_railwagons2.png 133 180 01 22 8 -3 -12 
-2794 sprites/png/trains/temperate_railwagons2.png 149 180 01 16 20 -14 -9 
-2795 sprites/png/trains/temperate_railwagons2.png 181 180 01 12 29 -16 -8 
-2796 sprites/png/trains/temperate_railwagons2.png 229 180 01 16 20 -6 -9 
+2793 sprites/png/trains/temperate_railwagons_28px.png 133 180 01 22 8 -3 -12 
+2794 sprites/png/trains/temperate_railwagons_28px.png 149 180 01 16 20 -14 -9 
+2795 sprites/png/trains/temperate_railwagons_28px.png 181 180 01 12 29 -16 -8 
+2796 sprites/png/trains/temperate_railwagons_28px.png 229 180 01 16 20 -6 -9 
 
-2797 sprites/png/trains/temperate_railwagons2.png 133 232 01 22 8 -3 -12 
-2798 sprites/png/trains/temperate_railwagons2.png 149 232 01 16 20 -14 -9 
-2799 sprites/png/trains/temperate_railwagons2.png 181 232 01 12 29 -16 -8 
-2800 sprites/png/trains/temperate_railwagons2.png 229 232 01 16 20 -6 -9 
+2797 sprites/png/trains/temperate_railwagons_28px.png 133 232 01 22 8 -3 -12 
+2798 sprites/png/trains/temperate_railwagons_28px.png 149 232 01 16 20 -14 -9 
+2799 sprites/png/trains/temperate_railwagons_28px.png 181 232 01 12 29 -16 -8 
+2800 sprites/png/trains/temperate_railwagons_28px.png 229 232 01 16 20 -6 -9 
 
-2801 sprites/png/trains/arctic_railwagons2.png 206 137 01 22 8 -3 -12 
-2802 sprites/png/trains/arctic_railwagons2.png 222 137 01 16 20 -14 -9 
-2803 sprites/png/trains/arctic_railwagons2.png 254 137 01 12 29 -16 -8 
-2804 sprites/png/trains/arctic_railwagons2.png 302 137 01 16 20 -6 -9 
+2801 sprites/png/trains/arctic_railwagons_28px.png 206 137 01 22 8 -3 -12 
+2802 sprites/png/trains/arctic_railwagons_28px.png 222 137 01 16 20 -14 -9 
+2803 sprites/png/trains/arctic_railwagons_28px.png 254 137 01 12 29 -16 -8 
+2804 sprites/png/trains/arctic_railwagons_28px.png 302 137 01 16 20 -6 -9 
 
-2805 sprites/png/trains/tropic_railwagons2.png 132 250 01 22 8 -3 -12 
-2806 sprites/png/trains/tropic_railwagons2.png 148 250 01 16 20 -14 -9 
-2807 sprites/png/trains/tropic_railwagons2.png 180 250 01 12 29 -16 -8 
-2808 sprites/png/trains/tropic_railwagons2.png 228 250 01 16 20 -6 -9 
+2805 sprites/png/trains/tropic_railwagons_28px.png 132 250 01 22 8 -3 -12 
+2806 sprites/png/trains/tropic_railwagons_28px.png 148 250 01 16 20 -14 -9 
+2807 sprites/png/trains/tropic_railwagons_28px.png 180 250 01 12 29 -16 -8 
+2808 sprites/png/trains/tropic_railwagons_28px.png 228 250 01 16 20 -6 -9 
 
-2809 sprites/png/trains/tropic_railwagons2.png 4 200 01 22 8 -3 -12 
-2810 sprites/png/trains/tropic_railwagons2.png 20 200 01 16 20 -14 -9 
-2811 sprites/png/trains/tropic_railwagons2.png 52 200 01 12 29 -16 -8 
-2812 sprites/png/trains/tropic_railwagons2.png 100 200 01 16 20 -6 -9 
+2809 sprites/png/trains/tropic_railwagons_28px.png 4 200 01 22 8 -3 -12 
+2810 sprites/png/trains/tropic_railwagons_28px.png 20 200 01 16 20 -14 -9 
+2811 sprites/png/trains/tropic_railwagons_28px.png 52 200 01 12 29 -16 -8 
+2812 sprites/png/trains/tropic_railwagons_28px.png 100 200 01 16 20 -6 -9 
 
-2813 sprites/png/trains/tropic_railwagons2.png 4 225 01 22 8 -3 -12 
-2814 sprites/png/trains/tropic_railwagons2.png 20 225 01 16 20 -14 -9 
-2815 sprites/png/trains/tropic_railwagons2.png 52 225 01 12 29 -16 -8 
-2816 sprites/png/trains/tropic_railwagons2.png 100 225 01 16 20 -6 -9 
+2813 sprites/png/trains/tropic_railwagons_28px.png 4 225 01 22 8 -3 -12 
+2814 sprites/png/trains/tropic_railwagons_28px.png 20 225 01 16 20 -14 -9 
+2815 sprites/png/trains/tropic_railwagons_28px.png 52 225 01 12 29 -16 -8 
+2816 sprites/png/trains/tropic_railwagons_28px.png 100 225 01 16 20 -6 -9 
 
-2817 sprites/png/trains/tropic_railwagons2.png 132 225 01 22 8 -3 -12 
-2818 sprites/png/trains/tropic_railwagons2.png 148 225 01 16 20 -14 -9 
-2819 sprites/png/trains/tropic_railwagons2.png 180 225 01 12 29 -16 -8 
-2820 sprites/png/trains/tropic_railwagons2.png 228 225 01 16 20 -6 -9 
+2817 sprites/png/trains/tropic_railwagons_28px.png 132 225 01 22 8 -3 -12 
+2818 sprites/png/trains/tropic_railwagons_28px.png 148 225 01 16 20 -14 -9 
+2819 sprites/png/trains/tropic_railwagons_28px.png 180 225 01 12 29 -16 -8 
+2820 sprites/png/trains/tropic_railwagons_28px.png 228 225 01 16 20 -6 -9 
 
-2821 sprites/png/trains/tropic_railwagon_rubber.png 4 0 01 22 8 -3 -12 
-2822 sprites/png/trains/tropic_railwagon_rubber.png 20 0 01 16 20 -14 -9 
-2823 sprites/png/trains/tropic_railwagon_rubber.png 52 0 01 12 29 -16 -8 
-2824 sprites/png/trains/tropic_railwagon_rubber.png 100 0 01 16 20 -6 -9 
+2821 sprites/png/trains/tropic_railwagon_rubber_28px.png 4 0 01 22 8 -3 -12 
+2822 sprites/png/trains/tropic_railwagon_rubber_28px.png 20 0 01 16 20 -14 -9 
+2823 sprites/png/trains/tropic_railwagon_rubber_28px.png 52 0 01 12 29 -16 -8 
+2824 sprites/png/trains/tropic_railwagon_rubber_28px.png 100 0 01 16 20 -6 -9 
 
-2825 sprites/png/trains/tropic_railwagon_rubber.png 132 0 01 22 8 -3 -12 
-2826 sprites/png/trains/tropic_railwagon_rubber.png 148 0 01 16 20 -14 -9 
-2827 sprites/png/trains/tropic_railwagon_rubber.png 180 0 01 12 29 -16 -8 
-2828 sprites/png/trains/tropic_railwagon_rubber.png 228 0 01 16 20 -6 -9 
+2825 sprites/png/trains/tropic_railwagon_rubber_28px.png 132 0 01 22 8 -3 -12 
+2826 sprites/png/trains/tropic_railwagon_rubber_28px.png 148 0 01 16 20 -14 -9 
+2827 sprites/png/trains/tropic_railwagon_rubber_28px.png 180 0 01 12 29 -16 -8 
+2828 sprites/png/trains/tropic_railwagon_rubber_28px.png 228 0 01 16 20 -6 -9 
 
 2829 sprites/png/trains/temperatemonolev.png 0 0 01 18 8 -3 -12 
 2830 sprites/png/trains/temperatemonolev.png 16 0 01 16 20 -13 -9 
