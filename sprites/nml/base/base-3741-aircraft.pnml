@@ -95,15 +95,16 @@ base_graphics(3797, "sprites/png/vehiclesair021.png") {
 	[450, 200, 47, 20, -21, -10]
 }
 //3805 Bakewell Cotswald LB-3
-base_graphics(3805, "sprites/png/vehiclesair021.png") {
-	[514, 200, 36, 13, -17,  -7]
-	[562, 200, 28, 13, -12,  -5]
-	[610, 200, 33, 16, -14,  -6]
-	[658, 200, 28, 18, -12, -10]
-	[706, 200, 36, 22, -17, -12]
-	[754, 200, 28, 18, -14, -12]
-	[  2, 248, 33, 16, -17,  -6]
-	[ 50, 248, 28, 13, -14,  -5]
+base_graphics(3805, "sprites/png/aircraft/BakewellCotswaldLB3.png") {
+    //offset = round.down(-size/2) => centered in bounding box
+	[  4, 22, 47, 16, -23,  -8]
+	[ 68, 22, 35, 19, -17,  -9]
+	[116, 22, 33, 25, -16, -12]
+	[164, 22, 34, 21, -17, -10]
+	[212, 22, 47, 22, -23, -11]
+	[276, 22, 34, 22, -17, -11]
+	[324, 22, 33, 25, -16, -12]
+	[373, 22, 35, 19, -17,  -9]
 }
 //3813 Tricario Helicopter
 base_graphics(3813, "sprites/png/aircraft/TricaroHelicopter.png") {
