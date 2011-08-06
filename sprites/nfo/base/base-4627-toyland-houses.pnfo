@@ -70,5 +70,5 @@
    17 sprites/png/toylandblds.png 642 8 09 92 48 -22 -65
 
 //4675  4676    2       Toyland: Building ground tiles
- 4675 sprites/png/random.png 584 540 09 31 64 -31 0
- 4676 sprites/png/random.png 584 540 09 31 64 -31 0
+ 4675 sprites/png/terrain/toyland_pavement_fulltile.png 0 0 09 31 64 -31 0
+ 4676 sprites/png/terrain/toyland_pavement_fulltile.png 0 0 09 31 64 -31 0
