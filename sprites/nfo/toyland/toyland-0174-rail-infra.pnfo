@@ -76,7 +76,7 @@
 #include "../templates/rail_tracks.tnfo"
 
 //270   270     1       Company statue
-  270 sprites/png/toysta.png 0 0 09 70 32 -15 -46
+  270 sprites/png/houses/toysta.png 0 0 09 70 32 -15 -46
 
 //271   286     16      Signals
  1219 sprites/png/infra08.png 642 6536 01 15 4 -1 -13
