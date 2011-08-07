@@ -1,17 +1,17 @@
  1429 * 23       0C "Extra airport graphics"
  1430 * 3        05 10 0F
- 1513 sprites/png/infra08.png 50 7768 09 31 64 -31 0
- 1514 sprites/png/infra08.png 130 7768 09 31 64 -31 0
- 1515 sprites/png/infra08.png 210 7768 09 31 64 -31 0
- 1516 sprites/png/infra08.png 290 7768 09 31 64 -31 0
- 1517 sprites/png/infra08.png 370 7768 09 31 64 -31 0
- 1518 sprites/png/infra08.png 450 7768 09 31 64 -31 0
- 1519 sprites/png/infra08.png 530 7768 09 55 64 -2 -38
- 1520 sprites/png/infra08.png 610 7768 09 17 18 16 -1
- 1521 sprites/png/infra08.png 642 7768 09 55 64 -2 -38
- 1522 sprites/png/infra08.png 722 7768 09 17 18 -30 1
- 1523 sprites/png/infra08.png 2 7848 09 55 64 -2 -38
- 1524 sprites/png/infra08.png 82 7848 09 55 64 -2 -38
- 1525 sprites/png/infra08.png 162 7848 09 31 64 -31 0
- 1526 sprites/png/infra08.png 242 7848 09 31 64 -31 0
- 1527 sprites/png/infra08.png 322 7848 09 31 64 -31 0
+ 1513 sprites/png/infrastructure/infra08.png 50 7768 09 31 64 -31 0
+ 1514 sprites/png/infrastructure/infra08.png 130 7768 09 31 64 -31 0
+ 1515 sprites/png/infrastructure/infra08.png 210 7768 09 31 64 -31 0
+ 1516 sprites/png/infrastructure/infra08.png 290 7768 09 31 64 -31 0
+ 1517 sprites/png/infrastructure/infra08.png 370 7768 09 31 64 -31 0
+ 1518 sprites/png/infrastructure/infra08.png 450 7768 09 31 64 -31 0
+ 1519 sprites/png/infrastructure/infra08.png 530 7768 09 55 64 -2 -38
+ 1520 sprites/png/infrastructure/infra08.png 610 7768 09 17 18 16 -1
+ 1521 sprites/png/infrastructure/infra08.png 642 7768 09 55 64 -2 -38
+ 1522 sprites/png/infrastructure/infra08.png 722 7768 09 17 18 -30 1
+ 1523 sprites/png/infrastructure/infra08.png 2 7848 09 55 64 -2 -38
+ 1524 sprites/png/infrastructure/infra08.png 82 7848 09 55 64 -2 -38
+ 1525 sprites/png/infrastructure/infra08.png 162 7848 09 31 64 -31 0
+ 1526 sprites/png/infrastructure/infra08.png 242 7848 09 31 64 -31 0
+ 1527 sprites/png/infrastructure/infra08.png 322 7848 09 31 64 -31 0

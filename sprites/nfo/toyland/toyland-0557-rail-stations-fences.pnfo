@@ -34,11 +34,11 @@
   857 sprites/png/random.png 110 600 09 31 42 -31 -11
 
 //587   594     8       Rail fences
- 1004 sprites/png/infra08.png 610 5416 09 22 33 -31 -6
- 1005 sprites/png/infra08.png 658 5416 09 22 33 0 -6
- 1006 sprites/png/infra08.png 706 5416 01 38 2 0 -22
- 1007 sprites/png/infra08.png 722 5416 01 6 65 -31 -6
- 1008 sprites/png/infra08.png 2 5480 09 14 33 -31 -6
- 1009 sprites/png/infra08.png 50 5480 09 14 33 0 -6
- 1010 sprites/png/infra08.png 98 5480 09 30 33 -31 -14
- 1011 sprites/png/infra08.png 146 5480 09 30 33 0 -14
+ 1004 sprites/png/infrastructure/infra08.png 610 5416 09 22 33 -31 -6
+ 1005 sprites/png/infrastructure/infra08.png 658 5416 09 22 33 0 -6
+ 1006 sprites/png/infrastructure/infra08.png 706 5416 01 38 2 0 -22
+ 1007 sprites/png/infrastructure/infra08.png 722 5416 01 6 65 -31 -6
+ 1008 sprites/png/infrastructure/infra08.png 2 5480 09 14 33 -31 -6
+ 1009 sprites/png/infrastructure/infra08.png 50 5480 09 14 33 0 -6
+ 1010 sprites/png/infrastructure/infra08.png 98 5480 09 30 33 -31 -14
+ 1011 sprites/png/infrastructure/infra08.png 146 5480 09 30 33 0 -14

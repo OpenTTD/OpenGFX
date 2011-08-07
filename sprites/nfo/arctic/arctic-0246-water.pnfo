@@ -4,12 +4,12 @@
 #include "../templates/watertiles8.tnfo"
 
 //255-260 ship depots
-  940 sprites/png/infra06.png 386 5080 09 64 64 -61 -48
-  941 sprites/png/infra06.png 466 5080 09 64 64 -1 -47
-  942 sprites/png/infra06.png 546 5080 09 53 32 -29 -37
-  943 sprites/png/infra06.png 594 5080 09 53 32 -1 -36
-  944 sprites/png/infra06.png 642 5080 09 13 14 -31 2
-  945 sprites/png/infra06.png 674 5080 09 13 14 19 3
+  940 sprites/png/infrastructure/infra06.png 386 5080 09 64 64 -61 -48
+  941 sprites/png/infrastructure/infra06.png 466 5080 09 64 64 -1 -47
+  942 sprites/png/infrastructure/infra06.png 546 5080 09 53 32 -29 -37
+  943 sprites/png/infrastructure/infra06.png 594 5080 09 53 32 -1 -36
+  944 sprites/png/infrastructure/infra06.png 642 5080 09 13 14 -31 2
+  945 sprites/png/infrastructure/infra06.png 674 5080 09 13 14 19 3
 
 //261 buoy
 -1 sprites/png/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here

@@ -1,28 +1,28 @@
 //1146  1177    32      Tunnels
- 1130 sprites/png/infra08.png 722 6120 01 39 64 -31 -8
- 1131 sprites/png/infra08.png 2 6184 01 39 64 -31 -38
- 1132 sprites/png/infra08.png 82 6184 01 23 64 -31 0
- 1133 sprites/png/infra08.png 162 6184 01 23 64 -31 -30
- 1134 sprites/png/infra08.png 242 6184 01 23 64 -31 0
- 1135 sprites/png/infra08.png 322 6184 01 23 64 -31 -30
- 1136 sprites/png/infra08.png 402 6184 01 39 64 -31 -8
- 1137 sprites/png/infra08.png 482 6184 01 39 64 -31 -38
- 1138 sprites/png/infra08.png 562 6184 01 39 64 -31 -8
- 1139 sprites/png/infra08.png 642 6184 01 39 64 -31 -38
- 1140 sprites/png/infra08.png 722 6184 01 23 64 -31 0
- 1141 sprites/png/infra08.png 2 6248 01 23 64 -31 -30
- 1142 sprites/png/infra08.png 82 6248 01 23 64 -31 0
- 1143 sprites/png/infra08.png 162 6248 01 23 64 -31 -30
- 1144 sprites/png/infra08.png 242 6248 01 39 64 -31 -8
- 1145 sprites/png/infra08.png 322 6248 01 39 64 -31 -38
- 1146 sprites/png/infra08.png 402 6248 01 39 64 -31 -8
- 1147 sprites/png/infra08.png 482 6248 01 39 64 -31 -38
- 1148 sprites/png/infra08.png 562 6248 01 23 64 -31 0
- 1149 sprites/png/infra08.png 642 6248 01 23 64 -31 -30
- 1150 sprites/png/infra08.png 722 6248 01 23 64 -31 0
- 1151 sprites/png/infra08.png 2 6312 01 23 64 -31 -30
- 1152 sprites/png/infra08.png 82 6312 01 39 64 -31 -8
- 1153 sprites/png/infra08.png 162 6312 01 39 64 -31 -38
+ 1130 sprites/png/infrastructure/infra08.png 722 6120 01 39 64 -31 -8
+ 1131 sprites/png/infrastructure/infra08.png 2 6184 01 39 64 -31 -38
+ 1132 sprites/png/infrastructure/infra08.png 82 6184 01 23 64 -31 0
+ 1133 sprites/png/infrastructure/infra08.png 162 6184 01 23 64 -31 -30
+ 1134 sprites/png/infrastructure/infra08.png 242 6184 01 23 64 -31 0
+ 1135 sprites/png/infrastructure/infra08.png 322 6184 01 23 64 -31 -30
+ 1136 sprites/png/infrastructure/infra08.png 402 6184 01 39 64 -31 -8
+ 1137 sprites/png/infrastructure/infra08.png 482 6184 01 39 64 -31 -38
+ 1138 sprites/png/infrastructure/infra08.png 562 6184 01 39 64 -31 -8
+ 1139 sprites/png/infrastructure/infra08.png 642 6184 01 39 64 -31 -38
+ 1140 sprites/png/infrastructure/infra08.png 722 6184 01 23 64 -31 0
+ 1141 sprites/png/infrastructure/infra08.png 2 6248 01 23 64 -31 -30
+ 1142 sprites/png/infrastructure/infra08.png 82 6248 01 23 64 -31 0
+ 1143 sprites/png/infrastructure/infra08.png 162 6248 01 23 64 -31 -30
+ 1144 sprites/png/infrastructure/infra08.png 242 6248 01 39 64 -31 -8
+ 1145 sprites/png/infrastructure/infra08.png 322 6248 01 39 64 -31 -38
+ 1146 sprites/png/infrastructure/infra08.png 402 6248 01 39 64 -31 -8
+ 1147 sprites/png/infrastructure/infra08.png 482 6248 01 39 64 -31 -38
+ 1148 sprites/png/infrastructure/infra08.png 562 6248 01 23 64 -31 0
+ 1149 sprites/png/infrastructure/infra08.png 642 6248 01 23 64 -31 -30
+ 1150 sprites/png/infrastructure/infra08.png 722 6248 01 23 64 -31 0
+ 1151 sprites/png/infrastructure/infra08.png 2 6312 01 23 64 -31 -30
+ 1152 sprites/png/infrastructure/infra08.png 82 6312 01 39 64 -31 -8
+ 1153 sprites/png/infrastructure/infra08.png 162 6312 01 39 64 -31 -38
  1170 sprites/png/infrastructure/roadtunnel.png 113 396 09 39 64 -31  -8
  1171 sprites/png/infrastructure/roadtunnel.png 193 396 09 39 64 -31 -38
  1172 sprites/png/infrastructure/roadtunnel.png 653 396 09 23 64 -31   0

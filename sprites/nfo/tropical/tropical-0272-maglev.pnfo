@@ -3,17 +3,17 @@
 #include "../templates/rail_tracks.tnfo"
 
 //298-301 maglev level crossing land type 1
-  654 sprites/png/infra06.png 626 3512 09 31 64 -31 0
-  655 sprites/png/infra06.png 706 3512 09 31 64 -31 0
-  656 sprites/png/infra06.png 2 3560 09 31 64 -31 0
-  657 sprites/png/infra06.png 82 3560 09 31 64 -31 0
+  654 sprites/png/infrastructure/infra06.png 626 3512 09 31 64 -31 0
+  655 sprites/png/infrastructure/infra06.png 706 3512 09 31 64 -31 0
+  656 sprites/png/infrastructure/infra06.png 2 3560 09 31 64 -31 0
+  657 sprites/png/infrastructure/infra06.png 82 3560 09 31 64 -31 0
 
 //302-309 maglev tunnel land type 1
-  762 sprites/png/infra06.png 642 4120 09 39 64 -31 -8
-  763 sprites/png/infra06.png 722 4120 09 39 64 -31 -38
-  764 sprites/png/infra06.png 2 4184 09 23 64 -31 0
-  765 sprites/png/infra06.png 82 4184 09 23 64 -31 -30
-  766 sprites/png/infra06.png 162 4184 09 23 64 -31 0
-  767 sprites/png/infra06.png 242 4184 09 23 64 -31 -30
-  768 sprites/png/infra06.png 322 4184 09 39 64 -31 -8
-  769 sprites/png/infra06.png 402 4184 09 39 64 -31 -38
+  762 sprites/png/infrastructure/infra06.png 642 4120 09 39 64 -31 -8
+  763 sprites/png/infrastructure/infra06.png 722 4120 09 39 64 -31 -38
+  764 sprites/png/infrastructure/infra06.png 2 4184 09 23 64 -31 0
+  765 sprites/png/infrastructure/infra06.png 82 4184 09 23 64 -31 -30
+  766 sprites/png/infrastructure/infra06.png 162 4184 09 23 64 -31 0
+  767 sprites/png/infrastructure/infra06.png 242 4184 09 23 64 -31 -30
+  768 sprites/png/infrastructure/infra06.png 322 4184 09 39 64 -31 -8
+  769 sprites/png/infrastructure/infra06.png 402 4184 09 39 64 -31 -38

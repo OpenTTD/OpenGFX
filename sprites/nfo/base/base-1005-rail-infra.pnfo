@@ -1,103 +1,103 @@
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 //1005-1010 rail overlays
-    3 sprites/png/infra06.png 66 8 09 21 40 -19 5
-    4 sprites/png/infra06.png 114 8 09 21 40 -19 5
-    5 sprites/png/infra06.png 162 8 01 7 40 -19 4
-    6 sprites/png/infra06.png 210 8 01 7 40 -19 20
-    7 sprites/png/infra06.png 258 8 01 19 12 11 6
-    8 sprites/png/infra06.png 290 8 01 19 12 -21 6
+    3 sprites/png/infrastructure/infra06.png 66 8 09 21 40 -19 5
+    4 sprites/png/infrastructure/infra06.png 114 8 09 21 40 -19 5
+    5 sprites/png/infrastructure/infra06.png 162 8 01 7 40 -19 4
+    6 sprites/png/infrastructure/infra06.png 210 8 01 7 40 -19 20
+    7 sprites/png/infrastructure/infra06.png 258 8 01 19 12 11 6
+    8 sprites/png/infrastructure/infra06.png 290 8 01 19 12 -21 6
 
 //1011-1036 rail tracks terrain type 1
-   24 sprites/png/infra06.png 82 40 09 31 64 -31 0
-   25 sprites/png/infra06.png 162 40 09 31 64 -31 0
-   26 sprites/png/infra06.png 242 40 09 31 64 -31 0
-   27 sprites/png/infra06.png 322 40 09 31 64 -31 0
-   28 sprites/png/infra06.png 402 40 09 31 64 -31 0
-   29 sprites/png/infra06.png 482 40 09 31 64 -31 0
-   30 sprites/png/infra06.png 562 40 09 31 64 -31 0
-   31 sprites/png/infra06.png 642 40 09 31 64 -31 0
-   32 sprites/png/infra06.png 722 40 09 31 64 -31 0
-   33 sprites/png/infra06.png 2 88 09 31 64 -31 0
-   34 sprites/png/infra06.png 82 88 09 31 64 -31 0
-   35 sprites/png/infra06.png 162 88 09 31 64 -31 0
-   36 sprites/png/infra06.png 242 88 09 39 64 -31 -8
-   37 sprites/png/infra06.png 322 88 09 31 64 -31 0
-   38 sprites/png/infra06.png 402 88 09 31 64 -31 0
-   39 sprites/png/infra06.png 482 88 09 23 64 -31 0
-   40 sprites/png/infra06.png 562 88 09 31 64 -31 -8
-   41 sprites/png/infra06.png 642 88 09 23 64 -31 0
-   42 sprites/png/infra06.png 722 88 09 31 64 -31 -8
-   43 sprites/png/infra06.png 2 152 09 39 64 -31 -8
-   44 sprites/png/infra06.png 82 152 09 39 64 -31 -8
-   45 sprites/png/infra06.png 162 152 09 23 64 -31 0
-   46 sprites/png/infra06.png 242 152 09 23 64 -31 0
-   47 sprites/png/infra06.png 322 152 09 39 64 -31 -8
-   48 sprites/png/infra06.png 402 152 09 31 64 -31 0
-   49 sprites/png/infra06.png 482 152 09 31 64 -31 0
+   24 sprites/png/infrastructure/infra06.png 82 40 09 31 64 -31 0
+   25 sprites/png/infrastructure/infra06.png 162 40 09 31 64 -31 0
+   26 sprites/png/infrastructure/infra06.png 242 40 09 31 64 -31 0
+   27 sprites/png/infrastructure/infra06.png 322 40 09 31 64 -31 0
+   28 sprites/png/infrastructure/infra06.png 402 40 09 31 64 -31 0
+   29 sprites/png/infrastructure/infra06.png 482 40 09 31 64 -31 0
+   30 sprites/png/infrastructure/infra06.png 562 40 09 31 64 -31 0
+   31 sprites/png/infrastructure/infra06.png 642 40 09 31 64 -31 0
+   32 sprites/png/infrastructure/infra06.png 722 40 09 31 64 -31 0
+   33 sprites/png/infrastructure/infra06.png 2 88 09 31 64 -31 0
+   34 sprites/png/infrastructure/infra06.png 82 88 09 31 64 -31 0
+   35 sprites/png/infrastructure/infra06.png 162 88 09 31 64 -31 0
+   36 sprites/png/infrastructure/infra06.png 242 88 09 39 64 -31 -8
+   37 sprites/png/infrastructure/infra06.png 322 88 09 31 64 -31 0
+   38 sprites/png/infrastructure/infra06.png 402 88 09 31 64 -31 0
+   39 sprites/png/infrastructure/infra06.png 482 88 09 23 64 -31 0
+   40 sprites/png/infrastructure/infra06.png 562 88 09 31 64 -31 -8
+   41 sprites/png/infrastructure/infra06.png 642 88 09 23 64 -31 0
+   42 sprites/png/infrastructure/infra06.png 722 88 09 31 64 -31 -8
+   43 sprites/png/infrastructure/infra06.png 2 152 09 39 64 -31 -8
+   44 sprites/png/infrastructure/infra06.png 82 152 09 39 64 -31 -8
+   45 sprites/png/infrastructure/infra06.png 162 152 09 23 64 -31 0
+   46 sprites/png/infrastructure/infra06.png 242 152 09 23 64 -31 0
+   47 sprites/png/infrastructure/infra06.png 322 152 09 39 64 -31 -8
+   48 sprites/png/infrastructure/infra06.png 402 152 09 31 64 -31 0
+   49 sprites/png/infrastructure/infra06.png 482 152 09 31 64 -31 0
 
 //1037-1062 rail tracks terrain type 2
-  108 sprites/png/infra06.png 114 520 09 31 64 -31 0
-  109 sprites/png/infra06.png 194 520 09 31 64 -31 0
-  110 sprites/png/infra06.png 274 520 09 31 64 -31 0
-  111 sprites/png/infra06.png 354 520 09 31 64 -31 0
-  112 sprites/png/infra06.png 434 520 09 31 64 -31 0
-  113 sprites/png/infra06.png 514 520 09 31 64 -31 0
-  114 sprites/png/infra06.png 594 520 09 31 64 -31 0
-  115 sprites/png/infra06.png 674 520 09 31 64 -31 0
-  116 sprites/png/infra06.png 2 568 09 31 64 -31 0
-  117 sprites/png/infra06.png 82 568 09 31 64 -31 0
-  118 sprites/png/infra06.png 162 568 09 31 64 -31 0
-  119 sprites/png/infra06.png 242 568 09 31 64 -31 0
-  120 sprites/png/infra06.png 322 568 09 39 64 -31 -8
-  121 sprites/png/infra06.png 402 568 09 31 64 -31 0
-  122 sprites/png/infra06.png 482 568 09 31 64 -31 0
-  123 sprites/png/infra06.png 562 568 09 23 64 -31 0
-  124 sprites/png/infra06.png 642 568 09 31 64 -31 -8
-  125 sprites/png/infra06.png 722 568 09 23 64 -31 0
-  126 sprites/png/infra06.png 2 632 09 31 64 -31 -8
-  127 sprites/png/infra06.png 82 632 09 39 64 -31 -8
-  128 sprites/png/infra06.png 162 632 09 39 64 -31 -8
-  129 sprites/png/infra06.png 242 632 09 23 64 -31 0
-  130 sprites/png/infra06.png 322 632 09 23 64 -31 0
-  131 sprites/png/infra06.png 402 632 09 39 64 -31 -8
-  132 sprites/png/infra06.png 482 632 09 31 64 -31 0
-  133 sprites/png/infra06.png 562 632 09 31 64 -31 0
+  108 sprites/png/infrastructure/infra06.png 114 520 09 31 64 -31 0
+  109 sprites/png/infrastructure/infra06.png 194 520 09 31 64 -31 0
+  110 sprites/png/infrastructure/infra06.png 274 520 09 31 64 -31 0
+  111 sprites/png/infrastructure/infra06.png 354 520 09 31 64 -31 0
+  112 sprites/png/infrastructure/infra06.png 434 520 09 31 64 -31 0
+  113 sprites/png/infrastructure/infra06.png 514 520 09 31 64 -31 0
+  114 sprites/png/infrastructure/infra06.png 594 520 09 31 64 -31 0
+  115 sprites/png/infrastructure/infra06.png 674 520 09 31 64 -31 0
+  116 sprites/png/infrastructure/infra06.png 2 568 09 31 64 -31 0
+  117 sprites/png/infrastructure/infra06.png 82 568 09 31 64 -31 0
+  118 sprites/png/infrastructure/infra06.png 162 568 09 31 64 -31 0
+  119 sprites/png/infrastructure/infra06.png 242 568 09 31 64 -31 0
+  120 sprites/png/infrastructure/infra06.png 322 568 09 39 64 -31 -8
+  121 sprites/png/infrastructure/infra06.png 402 568 09 31 64 -31 0
+  122 sprites/png/infrastructure/infra06.png 482 568 09 31 64 -31 0
+  123 sprites/png/infrastructure/infra06.png 562 568 09 23 64 -31 0
+  124 sprites/png/infrastructure/infra06.png 642 568 09 31 64 -31 -8
+  125 sprites/png/infrastructure/infra06.png 722 568 09 23 64 -31 0
+  126 sprites/png/infrastructure/infra06.png 2 632 09 31 64 -31 -8
+  127 sprites/png/infrastructure/infra06.png 82 632 09 39 64 -31 -8
+  128 sprites/png/infrastructure/infra06.png 162 632 09 39 64 -31 -8
+  129 sprites/png/infrastructure/infra06.png 242 632 09 23 64 -31 0
+  130 sprites/png/infrastructure/infra06.png 322 632 09 23 64 -31 0
+  131 sprites/png/infrastructure/infra06.png 402 632 09 39 64 -31 -8
+  132 sprites/png/infrastructure/infra06.png 482 632 09 31 64 -31 0
+  133 sprites/png/infrastructure/infra06.png 562 632 09 31 64 -31 0
 
 //1063-1068 rail depots
-  908 sprites/png/infra06.png 434 4952 09 8 12 15 6
-  909 sprites/png/infra06.png 466 4952 09 38 50 -1 -25
-  910 sprites/png/infra06.png 530 4952 09 8 14 -25 6
-  911 sprites/png/infra06.png 562 4952 09 38 50 -47 -25
-  912 sprites/png/infra06.png 626 4952 09 38 50 -47 -25
-  913 sprites/png/infra06.png 690 4952 09 38 50 -1 -25
+  908 sprites/png/infrastructure/infra06.png 434 4952 09 8 12 15 6
+  909 sprites/png/infrastructure/infra06.png 466 4952 09 38 50 -1 -25
+  910 sprites/png/infrastructure/infra06.png 530 4952 09 8 14 -25 6
+  911 sprites/png/infrastructure/infra06.png 562 4952 09 38 50 -47 -25
+  912 sprites/png/infrastructure/infra06.png 626 4952 09 38 50 -47 -25
+  913 sprites/png/infrastructure/infra06.png 690 4952 09 38 50 -1 -25
 
 //1069-1086 rail station
-  848 sprites/png/infra06.png 34 4696 49 26 42 -9 -6
-  849 sprites/png/infra06.png 82 4696 49 26 42 -31 -6
-  850 sprites/png/infra06.png 130 4696 49 26 42 -9 -6
-  851 sprites/png/infra06.png 178 4696 49 26 42 -31 -6
+  848 sprites/png/infrastructure/infra06.png 34 4696 49 26 42 -9 -6
+  849 sprites/png/infrastructure/infra06.png 82 4696 49 26 42 -31 -6
+  850 sprites/png/infrastructure/infra06.png 130 4696 49 26 42 -9 -6
+  851 sprites/png/infrastructure/infra06.png 178 4696 49 26 42 -31 -6
  1073 sprites/png/stations/RevStatBuilding_DanMacK.png 14 4 49 32 42 -31 -12
  1074 sprites/png/stations/RevStatBuilding_DanMacK.png 62 4 49 32 42 -9 -12
-  854 sprites/png/infra06.png 322 4696 49 31 42 -9 -11
-  855 sprites/png/infra06.png 370 4696 49 36 42 -31 -16
-  856 sprites/png/infra06.png 418 4696 49 36 42 -9 -16
-  857 sprites/png/infra06.png 466 4696 49 31 42 -31 -11
-  858 sprites/png/infra06.png 514 4696 49 38 64 -31 -6
-  859 sprites/png/infra06.png 594 4696 49 38 64 -31 -6
-  860 sprites/png/infra06.png 674 4696 49 52 66 -31 -20
-  861 sprites/png/infra06.png 2 4760 49 52 66 -33 -20
-  862 sprites/png/infra06.png 82 4760 49 38 64 0 0
-  863 sprites/png/infra06.png 162 4760 49 38 64 0 0
-  864 sprites/png/infra06.png 242 4760 49 52 66 0 0
-  865 sprites/png/infra06.png 322 4760 49 52 66 0 0
+  854 sprites/png/infrastructure/infra06.png 322 4696 49 31 42 -9 -11
+  855 sprites/png/infrastructure/infra06.png 370 4696 49 36 42 -31 -16
+  856 sprites/png/infrastructure/infra06.png 418 4696 49 36 42 -9 -16
+  857 sprites/png/infrastructure/infra06.png 466 4696 49 31 42 -31 -11
+  858 sprites/png/infrastructure/infra06.png 514 4696 49 38 64 -31 -6
+  859 sprites/png/infrastructure/infra06.png 594 4696 49 38 64 -31 -6
+  860 sprites/png/infrastructure/infra06.png 674 4696 49 52 66 -31 -20
+  861 sprites/png/infrastructure/infra06.png 2 4760 49 52 66 -33 -20
+  862 sprites/png/infrastructure/infra06.png 82 4760 49 38 64 0 0
+  863 sprites/png/infrastructure/infra06.png 162 4760 49 38 64 0 0
+  864 sprites/png/infrastructure/infra06.png 242 4760 49 52 66 0 0
+  865 sprites/png/infrastructure/infra06.png 322 4760 49 52 66 0 0
 
 //1087-1092 monorail overlays
-   10 sprites/png/infra06.png 338 8 09 18 34 -15 7
-   11 sprites/png/infra06.png 386 8 09 18 35 -16 7
-   12 sprites/png/infra06.png 434 8 01 7 40 -19 4
-   13 sprites/png/infra06.png 482 8 01 7 40 -19 20
-   14 sprites/png/infra06.png 530 8 01 19 12 11 6
-   15 sprites/png/infra06.png 562 8 01 19 12 -21 6
+   10 sprites/png/infrastructure/infra06.png 338 8 09 18 34 -15 7
+   11 sprites/png/infrastructure/infra06.png 386 8 09 18 35 -16 7
+   12 sprites/png/infrastructure/infra06.png 434 8 01 7 40 -19 4
+   13 sprites/png/infrastructure/infra06.png 482 8 01 7 40 -19 20
+   14 sprites/png/infrastructure/infra06.png 530 8 01 19 12 11 6
+   15 sprites/png/infrastructure/infra06.png 562 8 01 19 12 -21 6
 
 //1093-1118 monorail track terrain 1
 // Normal temperate monorail tracks
@@ -105,60 +105,60 @@
 #include "../templates/rail_tracks.tnfo"
 
 //1119-1144 monorail track terrain 2
-  248 sprites/png/infra06.png 514 1288 09 31 64 -31 0
-  249 sprites/png/infra06.png 594 1288 09 31 64 -31 0
-  250 sprites/png/infra06.png 674 1288 09 31 64 -31 0
-  251 sprites/png/infra06.png 2 1352 09 31 64 -31 0
-  252 sprites/png/infra06.png 82 1352 09 31 64 -31 0
-  253 sprites/png/infra06.png 162 1352 09 31 64 -31 0
-  254 sprites/png/infra06.png 242 1352 09 31 64 -31 0
-  255 sprites/png/infra06.png 322 1352 09 31 64 -31 0
-  256 sprites/png/infra06.png 402 1352 09 31 64 -31 0
-  257 sprites/png/infra06.png 482 1352 09 31 64 -31 0
-  258 sprites/png/infra06.png 562 1352 09 31 64 -31 0
-  259 sprites/png/infra06.png 642 1352 09 31 64 -31 0
-  260 sprites/png/infra06.png 722 1352 09 39 64 -31 -8
-  261 sprites/png/infra06.png 2 1416 09 31 64 -31 0
-  262 sprites/png/infra06.png 82 1416 09 31 64 -31 0
-  263 sprites/png/infra06.png 162 1416 09 23 64 -31 0
-  264 sprites/png/infra06.png 242 1416 09 31 64 -31 -8
-  265 sprites/png/infra06.png 322 1416 09 23 64 -31 0
-  266 sprites/png/infra06.png 402 1416 09 31 64 -31 -8
-  267 sprites/png/infra06.png 482 1416 09 39 64 -31 -8
-  268 sprites/png/infra06.png 562 1416 09 39 64 -31 -8
-  269 sprites/png/infra06.png 642 1416 09 23 64 -31 0
-  270 sprites/png/infra06.png 722 1416 09 23 64 -31 0
-  271 sprites/png/infra06.png 2 1480 09 39 64 -31 -8
-  272 sprites/png/infra06.png 82 1480 09 31 64 -31 0
-  273 sprites/png/infra06.png 162 1480 09 31 64 -31 0
+  248 sprites/png/infrastructure/infra06.png 514 1288 09 31 64 -31 0
+  249 sprites/png/infrastructure/infra06.png 594 1288 09 31 64 -31 0
+  250 sprites/png/infrastructure/infra06.png 674 1288 09 31 64 -31 0
+  251 sprites/png/infrastructure/infra06.png 2 1352 09 31 64 -31 0
+  252 sprites/png/infrastructure/infra06.png 82 1352 09 31 64 -31 0
+  253 sprites/png/infrastructure/infra06.png 162 1352 09 31 64 -31 0
+  254 sprites/png/infrastructure/infra06.png 242 1352 09 31 64 -31 0
+  255 sprites/png/infrastructure/infra06.png 322 1352 09 31 64 -31 0
+  256 sprites/png/infrastructure/infra06.png 402 1352 09 31 64 -31 0
+  257 sprites/png/infrastructure/infra06.png 482 1352 09 31 64 -31 0
+  258 sprites/png/infrastructure/infra06.png 562 1352 09 31 64 -31 0
+  259 sprites/png/infrastructure/infra06.png 642 1352 09 31 64 -31 0
+  260 sprites/png/infrastructure/infra06.png 722 1352 09 39 64 -31 -8
+  261 sprites/png/infrastructure/infra06.png 2 1416 09 31 64 -31 0
+  262 sprites/png/infrastructure/infra06.png 82 1416 09 31 64 -31 0
+  263 sprites/png/infrastructure/infra06.png 162 1416 09 23 64 -31 0
+  264 sprites/png/infrastructure/infra06.png 242 1416 09 31 64 -31 -8
+  265 sprites/png/infrastructure/infra06.png 322 1416 09 23 64 -31 0
+  266 sprites/png/infrastructure/infra06.png 402 1416 09 31 64 -31 -8
+  267 sprites/png/infrastructure/infra06.png 482 1416 09 39 64 -31 -8
+  268 sprites/png/infrastructure/infra06.png 562 1416 09 39 64 -31 -8
+  269 sprites/png/infrastructure/infra06.png 642 1416 09 23 64 -31 0
+  270 sprites/png/infrastructure/infra06.png 722 1416 09 23 64 -31 0
+  271 sprites/png/infrastructure/infra06.png 2 1480 09 39 64 -31 -8
+  272 sprites/png/infrastructure/infra06.png 82 1480 09 31 64 -31 0
+  273 sprites/png/infrastructure/infra06.png 162 1480 09 31 64 -31 0
 
 //1145-1150 monorail depot
-  916 sprites/png/infra06.png 2 5016 09 8 12 15 6
-  917 sprites/png/infra06.png 34 5016 09 39 50 -1 -26
-  918 sprites/png/infra06.png 98 5016 09 8 14 -25 6
-  919 sprites/png/infra06.png 130 5016 09 39 50 -47 -26
-  920 sprites/png/infra06.png 194 5016 09 39 50 -47 -26
-  921 sprites/png/infra06.png 258 5016 09 39 50 -1 -26
+  916 sprites/png/infrastructure/infra06.png 2 5016 09 8 12 15 6
+  917 sprites/png/infrastructure/infra06.png 34 5016 09 39 50 -1 -26
+  918 sprites/png/infrastructure/infra06.png 98 5016 09 8 14 -25 6
+  919 sprites/png/infrastructure/infra06.png 130 5016 09 39 50 -47 -26
+  920 sprites/png/infrastructure/infra06.png 194 5016 09 39 50 -47 -26
+  921 sprites/png/infrastructure/infra06.png 258 5016 09 39 50 -1 -26
 
 //1151-1168 monorail station
-  868 sprites/png/infra06.png 434 4760 49 26 42 -9 -6
-  869 sprites/png/infra06.png 482 4760 49 26 42 -31 -6
-  870 sprites/png/infra06.png 530 4760 49 26 42 -9 -6
-  871 sprites/png/infra06.png 578 4760 49 26 42 -31 -6
-  872 sprites/png/infra06.png 626 4760 49 35 42 -31 -15
-  873 sprites/png/infra06.png 674 4760 49 35 42 -9 -15
-  874 sprites/png/infra06.png 722 4760 49 31 42 -9 -11
-  875 sprites/png/infra06.png 2 4824 49 36 42 -31 -16
-  876 sprites/png/infra06.png 50 4824 49 36 42 -9 -16
-  877 sprites/png/infra06.png 98 4824 49 31 42 -31 -11
-  878 sprites/png/infra06.png 146 4824 49 42 64 -31 -11
-  879 sprites/png/infra06.png 226 4824 49 42 64 -31 -11
-  880 sprites/png/infra06.png 306 4824 49 52 66 -31 -20
-  881 sprites/png/infra06.png 386 4824 49 52 66 -33 -20
-  882 sprites/png/infra06.png 466 4824 49 42 64 0 0
-  883 sprites/png/infra06.png 546 4824 49 42 64 0 0
-  884 sprites/png/infra06.png 626 4824 49 52 66 0 0
-  885 sprites/png/infra06.png 706 4824 49 52 66 0 0
+  868 sprites/png/infrastructure/infra06.png 434 4760 49 26 42 -9 -6
+  869 sprites/png/infrastructure/infra06.png 482 4760 49 26 42 -31 -6
+  870 sprites/png/infrastructure/infra06.png 530 4760 49 26 42 -9 -6
+  871 sprites/png/infrastructure/infra06.png 578 4760 49 26 42 -31 -6
+  872 sprites/png/infrastructure/infra06.png 626 4760 49 35 42 -31 -15
+  873 sprites/png/infrastructure/infra06.png 674 4760 49 35 42 -9 -15
+  874 sprites/png/infrastructure/infra06.png 722 4760 49 31 42 -9 -11
+  875 sprites/png/infrastructure/infra06.png 2 4824 49 36 42 -31 -16
+  876 sprites/png/infrastructure/infra06.png 50 4824 49 36 42 -9 -16
+  877 sprites/png/infrastructure/infra06.png 98 4824 49 31 42 -31 -11
+  878 sprites/png/infrastructure/infra06.png 146 4824 49 42 64 -31 -11
+  879 sprites/png/infrastructure/infra06.png 226 4824 49 42 64 -31 -11
+  880 sprites/png/infrastructure/infra06.png 306 4824 49 52 66 -31 -20
+  881 sprites/png/infrastructure/infra06.png 386 4824 49 52 66 -33 -20
+  882 sprites/png/infrastructure/infra06.png 466 4824 49 42 64 0 0
+  883 sprites/png/infrastructure/infra06.png 546 4824 49 42 64 0 0
+  884 sprites/png/infrastructure/infra06.png 626 4824 49 52 66 0 0
+  885 sprites/png/infrastructure/infra06.png 706 4824 49 52 66 0 0
 
 // Maglev tracks
 // Overlays
@@ -174,32 +174,32 @@
 #include "../templates/rail_tracks.tnfo"
 
 //1227-1232 maglev depot
-  924 sprites/png/infra06.png 354 5016 09 8 12 15 6
-  925 sprites/png/infra06.png 386 5016 09 38 50 -1 -25
-  926 sprites/png/infra06.png 450 5016 09 8 14 -25 6
-  927 sprites/png/infra06.png 482 5016 09 38 50 -47 -25
-  928 sprites/png/infra06.png 546 5016 09 38 50 -47 -25
-  929 sprites/png/infra06.png 610 5016 09 38 50 -1 -25
+  924 sprites/png/infrastructure/infra06.png 354 5016 09 8 12 15 6
+  925 sprites/png/infrastructure/infra06.png 386 5016 09 38 50 -1 -25
+  926 sprites/png/infrastructure/infra06.png 450 5016 09 8 14 -25 6
+  927 sprites/png/infrastructure/infra06.png 482 5016 09 38 50 -47 -25
+  928 sprites/png/infrastructure/infra06.png 546 5016 09 38 50 -47 -25
+  929 sprites/png/infrastructure/infra06.png 610 5016 09 38 50 -1 -25
 
 //1233-1250 maglev station
-  888 sprites/png/infra06.png 18 4888 49 26 42 -9 -6
-  889 sprites/png/infra06.png 66 4888 49 26 42 -31 -6
-  890 sprites/png/infra06.png 114 4888 49 26 42 -9 -6
-  891 sprites/png/infra06.png 162 4888 49 26 42 -31 -6
-  892 sprites/png/infra06.png 210 4888 49 37 42 -31 -17
-  893 sprites/png/infra06.png 258 4888 49 37 42 -9 -17
-  894 sprites/png/infra06.png 306 4888 49 31 43 -10 -11
-  895 sprites/png/infra06.png 354 4888 49 36 44 -33 -16
-  896 sprites/png/infra06.png 418 4888 49 36 44 -9 -16
-  897 sprites/png/infra06.png 482 4888 49 31 43 -31 -11
-  898 sprites/png/infra06.png 530 4888 49 42 64 -32 -10
-  899 sprites/png/infra06.png 610 4888 49 42 64 -30 -10
-  900 sprites/png/infra06.png 690 4888 49 52 66 -32 -19
-  901 sprites/png/infra06.png 2 4952 49 52 66 -32 -19
-  902 sprites/png/infra06.png 82 4952 49 42 64 0 0
-  903 sprites/png/infra06.png 162 4952 49 42 64 0 0
-  904 sprites/png/infra06.png 242 4952 49 52 66 0 0
-  905 sprites/png/infra06.png 322 4952 49 52 66 0 0
+  888 sprites/png/infrastructure/infra06.png 18 4888 49 26 42 -9 -6
+  889 sprites/png/infrastructure/infra06.png 66 4888 49 26 42 -31 -6
+  890 sprites/png/infrastructure/infra06.png 114 4888 49 26 42 -9 -6
+  891 sprites/png/infrastructure/infra06.png 162 4888 49 26 42 -31 -6
+  892 sprites/png/infrastructure/infra06.png 210 4888 49 37 42 -31 -17
+  893 sprites/png/infrastructure/infra06.png 258 4888 49 37 42 -9 -17
+  894 sprites/png/infrastructure/infra06.png 306 4888 49 31 43 -10 -11
+  895 sprites/png/infrastructure/infra06.png 354 4888 49 36 44 -33 -16
+  896 sprites/png/infrastructure/infra06.png 418 4888 49 36 44 -9 -16
+  897 sprites/png/infrastructure/infra06.png 482 4888 49 31 43 -31 -11
+  898 sprites/png/infrastructure/infra06.png 530 4888 49 42 64 -32 -10
+  899 sprites/png/infrastructure/infra06.png 610 4888 49 42 64 -30 -10
+  900 sprites/png/infrastructure/infra06.png 690 4888 49 52 66 -32 -19
+  901 sprites/png/infrastructure/infra06.png 2 4952 49 52 66 -32 -19
+  902 sprites/png/infrastructure/infra06.png 82 4952 49 42 64 0 0
+  903 sprites/png/infrastructure/infra06.png 162 4952 49 42 64 0 0
+  904 sprites/png/infrastructure/infra06.png 242 4952 49 52 66 0 0
+  905 sprites/png/infrastructure/infra06.png 322 4952 49 52 66 0 0
 
 //1251-1262 rail gui buttons
    85 sprites/png/gui/gui04.png 642 152 09 20 20 0 0
@@ -246,11 +246,11 @@
   119 sprites/png/gui/gui04.png 386 232 03 32 32 0 0
 
 //1301-1308 rail fences
- 1301 sprites/png/infra06.png 194 5416 09 22 33 -31  -7
- 1302 sprites/png/infra06.png 242 5416 09 22 33   1  -7
- 1303 sprites/png/infra06.png 290 5416 01 38 2    1 -22
- 1304 sprites/png/infra06.png 306 5416 01  6 65 -31  -7
- 1305 sprites/png/infra06.png 386 5416 09 14 33 -31  -7
- 1306 sprites/png/infra06.png 434 5416 09 14 33   1  -7
- 1307 sprites/png/infra06.png 482 5416 09 30 33 -31 -14
- 1308 sprites/png/infra06.png 530 5416 09 30 33   1 -14
+ 1301 sprites/png/infrastructure/infra06.png 194 5416 09 22 33 -31  -7
+ 1302 sprites/png/infrastructure/infra06.png 242 5416 09 22 33   1  -7
+ 1303 sprites/png/infrastructure/infra06.png 290 5416 01 38 2    1 -22
+ 1304 sprites/png/infrastructure/infra06.png 306 5416 01  6 65 -31  -7
+ 1305 sprites/png/infrastructure/infra06.png 386 5416 09 14 33 -31  -7
+ 1306 sprites/png/infrastructure/infra06.png 434 5416 09 14 33   1  -7
+ 1307 sprites/png/infrastructure/infra06.png 482 5416 09 30 33 -31 -14
+ 1308 sprites/png/infrastructure/infra06.png 530 5416 09 30 33   1 -14

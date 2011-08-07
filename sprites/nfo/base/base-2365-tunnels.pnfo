@@ -1,29 +1,29 @@
 //2365-2428 tunnels
 //terrain 1 (temperate)
-  2365 sprites/png/infra06.png 466 3608 09 39 64 -31 -8
-  2366 sprites/png/infra06.png 546 3608 09 39 64 -31 -38
-  2367 sprites/png/infra06.png 626 3608 09 23 64 -31 0
-  2368 sprites/png/infra06.png 706 3608 09 23 64 -31 -30
-  2369 sprites/png/infra06.png 2 3672 09 23 64 -31 0
-  2370 sprites/png/infra06.png 82 3672 09 23 64 -31 -30
-  2371 sprites/png/infra06.png 162 3672 09 39 64 -31 -8
-  2372 sprites/png/infra06.png 242 3672 09 39 64 -31 -38
-  2373 sprites/png/infra06.png 322 3672 09 39 64 -31 -8
-  2374 sprites/png/infra06.png 402 3672 09 39 64 -31 -38
-  2375 sprites/png/infra06.png 482 3672 09 23 64 -31 0
-  2376 sprites/png/infra06.png 562 3672 09 23 64 -31 -30
-  2377 sprites/png/infra06.png 642 3672 09 23 64 -31 0
-  2378 sprites/png/infra06.png 722 3672 09 23 64 -31 -30
-  2379 sprites/png/infra06.png 2 3736 09 39 64 -31 -8
-  2380 sprites/png/infra06.png 82 3736 09 39 64 -31 -38
-  2381 sprites/png/infra06.png 162 3736 09 39 64 -31 -8
-  2382 sprites/png/infra06.png 242 3736 09 39 64 -31 -38
-  2383 sprites/png/infra06.png 322 3736 09 23 64 -31 0
-  2384 sprites/png/infra06.png 402 3736 09 23 64 -31 -30
-  2385 sprites/png/infra06.png 482 3736 09 23 64 -31 0
-  2386 sprites/png/infra06.png 562 3736 09 23 64 -31 -30
-  2387 sprites/png/infra06.png 642 3736 09 39 64 -31 -8
-  2388 sprites/png/infra06.png 722 3736 09 39 64 -31 -38
+  2365 sprites/png/infrastructure/infra06.png 466 3608 09 39 64 -31 -8
+  2366 sprites/png/infrastructure/infra06.png 546 3608 09 39 64 -31 -38
+  2367 sprites/png/infrastructure/infra06.png 626 3608 09 23 64 -31 0
+  2368 sprites/png/infrastructure/infra06.png 706 3608 09 23 64 -31 -30
+  2369 sprites/png/infrastructure/infra06.png 2 3672 09 23 64 -31 0
+  2370 sprites/png/infrastructure/infra06.png 82 3672 09 23 64 -31 -30
+  2371 sprites/png/infrastructure/infra06.png 162 3672 09 39 64 -31 -8
+  2372 sprites/png/infrastructure/infra06.png 242 3672 09 39 64 -31 -38
+  2373 sprites/png/infrastructure/infra06.png 322 3672 09 39 64 -31 -8
+  2374 sprites/png/infrastructure/infra06.png 402 3672 09 39 64 -31 -38
+  2375 sprites/png/infrastructure/infra06.png 482 3672 09 23 64 -31 0
+  2376 sprites/png/infrastructure/infra06.png 562 3672 09 23 64 -31 -30
+  2377 sprites/png/infrastructure/infra06.png 642 3672 09 23 64 -31 0
+  2378 sprites/png/infrastructure/infra06.png 722 3672 09 23 64 -31 -30
+  2379 sprites/png/infrastructure/infra06.png 2 3736 09 39 64 -31 -8
+  2380 sprites/png/infrastructure/infra06.png 82 3736 09 39 64 -31 -38
+  2381 sprites/png/infrastructure/infra06.png 162 3736 09 39 64 -31 -8
+  2382 sprites/png/infrastructure/infra06.png 242 3736 09 39 64 -31 -38
+  2383 sprites/png/infrastructure/infra06.png 322 3736 09 23 64 -31 0
+  2384 sprites/png/infrastructure/infra06.png 402 3736 09 23 64 -31 -30
+  2385 sprites/png/infrastructure/infra06.png 482 3736 09 23 64 -31 0
+  2386 sprites/png/infrastructure/infra06.png 562 3736 09 23 64 -31 -30
+  2387 sprites/png/infrastructure/infra06.png 642 3736 09 39 64 -31 -8
+  2388 sprites/png/infrastructure/infra06.png 722 3736 09 39 64 -31 -38
 // temperate road tunnels
   2389 sprites/png/infrastructure/roadtunnel.png 113  27 09 39 64 -31  -8
   2390 sprites/png/infrastructure/roadtunnel.png 193  27 09 39 64 -31 -38
@@ -35,30 +35,30 @@
   2396 sprites/png/infrastructure/roadtunnel.png 957  27 09 39 64 -31 -38
 
 //terrain 2 (snow)
-  2397 sprites/png/infra06.png 354 4248 09 39 64 -31 -8
-  2398 sprites/png/infra06.png 434 4248 09 39 64 -31 -38
-  2399 sprites/png/infra06.png 514 4248 09 23 64 -31 0
-  2400 sprites/png/infra06.png 594 4248 09 23 64 -31 -30
-  2401 sprites/png/infra06.png 674 4248 09 23 64 -31 0
-  2402 sprites/png/infra06.png 2 4312 09 23 64 -31 -30
-  2403 sprites/png/infra06.png 82 4312 09 39 64 -31 -8
-  2404 sprites/png/infra06.png 162 4312 09 39 64 -31 -38
-  2405 sprites/png/infra06.png 242 4312 09 39 64 -31 -8
-  2406 sprites/png/infra06.png 322 4312 09 39 64 -31 -38
-  2407 sprites/png/infra06.png 402 4312 09 23 64 -31 0
-  2408 sprites/png/infra06.png 482 4312 09 23 64 -31 -30
-  2409 sprites/png/infra06.png 562 4312 09 23 64 -31 0
-  2410 sprites/png/infra06.png 642 4312 09 23 64 -31 -30
-  2411 sprites/png/infra06.png 722 4312 09 39 64 -31 -8
-  2412 sprites/png/infra06.png 2 4376 09 39 64 -31 -38
-  2413 sprites/png/infra06.png 82 4376 09 39 64 -31 -8
-  2414 sprites/png/infra06.png 162 4376 09 39 64 -31 -38
-  2415 sprites/png/infra06.png 242 4376 09 23 64 -31 0
-  2416 sprites/png/infra06.png 322 4376 09 23 64 -31 -30
-  2417 sprites/png/infra06.png 402 4376 09 23 64 -31 0
-  2418 sprites/png/infra06.png 482 4376 09 23 64 -31 -30
-  2419 sprites/png/infra06.png 562 4376 09 39 64 -31 -8
-  2420 sprites/png/infra06.png 642 4376 09 39 64 -31 -38
+  2397 sprites/png/infrastructure/infra06.png 354 4248 09 39 64 -31 -8
+  2398 sprites/png/infrastructure/infra06.png 434 4248 09 39 64 -31 -38
+  2399 sprites/png/infrastructure/infra06.png 514 4248 09 23 64 -31 0
+  2400 sprites/png/infrastructure/infra06.png 594 4248 09 23 64 -31 -30
+  2401 sprites/png/infrastructure/infra06.png 674 4248 09 23 64 -31 0
+  2402 sprites/png/infrastructure/infra06.png 2 4312 09 23 64 -31 -30
+  2403 sprites/png/infrastructure/infra06.png 82 4312 09 39 64 -31 -8
+  2404 sprites/png/infrastructure/infra06.png 162 4312 09 39 64 -31 -38
+  2405 sprites/png/infrastructure/infra06.png 242 4312 09 39 64 -31 -8
+  2406 sprites/png/infrastructure/infra06.png 322 4312 09 39 64 -31 -38
+  2407 sprites/png/infrastructure/infra06.png 402 4312 09 23 64 -31 0
+  2408 sprites/png/infrastructure/infra06.png 482 4312 09 23 64 -31 -30
+  2409 sprites/png/infrastructure/infra06.png 562 4312 09 23 64 -31 0
+  2410 sprites/png/infrastructure/infra06.png 642 4312 09 23 64 -31 -30
+  2411 sprites/png/infrastructure/infra06.png 722 4312 09 39 64 -31 -8
+  2412 sprites/png/infrastructure/infra06.png 2 4376 09 39 64 -31 -38
+  2413 sprites/png/infrastructure/infra06.png 82 4376 09 39 64 -31 -8
+  2414 sprites/png/infrastructure/infra06.png 162 4376 09 39 64 -31 -38
+  2415 sprites/png/infrastructure/infra06.png 242 4376 09 23 64 -31 0
+  2416 sprites/png/infrastructure/infra06.png 322 4376 09 23 64 -31 -30
+  2417 sprites/png/infrastructure/infra06.png 402 4376 09 23 64 -31 0
+  2418 sprites/png/infrastructure/infra06.png 482 4376 09 23 64 -31 -30
+  2419 sprites/png/infrastructure/infra06.png 562 4376 09 39 64 -31 -8
+  2420 sprites/png/infrastructure/infra06.png 642 4376 09 39 64 -31 -38
 // snowy road tunnels
   2421 sprites/png/infrastructure/roadtunnel.png 113 249 09 39 64 -31  -8
   2422 sprites/png/infrastructure/roadtunnel.png 193 249 09 39 64 -31 -38

@@ -1,34 +1,34 @@
 // desert ground tiles
 
 //485-492 rail tunnel land type 2
-  814 sprites/png/infra06.png 594 4440 09 39 64 -31 -8
-  815 sprites/png/infra06.png 674 4440 09 39 64 -31 -38
-  816 sprites/png/infra06.png 2 4504 09 23 64 -31 0
-  817 sprites/png/infra06.png 82 4504 09 23 64 -31 -30
-  818 sprites/png/infra06.png 162 4504 09 23 64 -31 0
-  819 sprites/png/infra06.png 242 4504 09 23 64 -31 -30
-  820 sprites/png/infra06.png 322 4504 09 39 64 -31 -8
-  821 sprites/png/infra06.png 402 4504 09 39 64 -31 -38
+  814 sprites/png/infrastructure/infra06.png 594 4440 09 39 64 -31 -8
+  815 sprites/png/infrastructure/infra06.png 674 4440 09 39 64 -31 -38
+  816 sprites/png/infrastructure/infra06.png 2 4504 09 23 64 -31 0
+  817 sprites/png/infrastructure/infra06.png 82 4504 09 23 64 -31 -30
+  818 sprites/png/infrastructure/infra06.png 162 4504 09 23 64 -31 0
+  819 sprites/png/infrastructure/infra06.png 242 4504 09 23 64 -31 -30
+  820 sprites/png/infrastructure/infra06.png 322 4504 09 39 64 -31 -8
+  821 sprites/png/infrastructure/infra06.png 402 4504 09 39 64 -31 -38
 
 //493-500 monorail tunnel land type 2
-  822 sprites/png/infra06.png 482 4504 09 39 64 -31 -8
-  823 sprites/png/infra06.png 562 4504 09 39 64 -31 -38
-  824 sprites/png/infra06.png 642 4504 09 23 64 -31 0
-  825 sprites/png/infra06.png 722 4504 09 23 64 -31 -30
-  826 sprites/png/infra06.png 2 4568 09 23 64 -31 0
-  827 sprites/png/infra06.png 82 4568 09 23 64 -31 -30
-  828 sprites/png/infra06.png 162 4568 09 39 64 -31 -8
-  829 sprites/png/infra06.png 242 4568 09 39 64 -31 -38
+  822 sprites/png/infrastructure/infra06.png 482 4504 09 39 64 -31 -8
+  823 sprites/png/infrastructure/infra06.png 562 4504 09 39 64 -31 -38
+  824 sprites/png/infrastructure/infra06.png 642 4504 09 23 64 -31 0
+  825 sprites/png/infrastructure/infra06.png 722 4504 09 23 64 -31 -30
+  826 sprites/png/infrastructure/infra06.png 2 4568 09 23 64 -31 0
+  827 sprites/png/infrastructure/infra06.png 82 4568 09 23 64 -31 -30
+  828 sprites/png/infrastructure/infra06.png 162 4568 09 39 64 -31 -8
+  829 sprites/png/infrastructure/infra06.png 242 4568 09 39 64 -31 -38
 
 //501-508 maglev tunnel land type 2
-  830 sprites/png/infra06.png 322 4568 09 39 64 -31 -8
-  831 sprites/png/infra06.png 402 4568 09 39 64 -31 -38
-  832 sprites/png/infra06.png 482 4568 09 23 64 -31 0
-  833 sprites/png/infra06.png 562 4568 09 23 64 -31 -30
-  834 sprites/png/infra06.png 642 4568 09 23 64 -31 0
-  835 sprites/png/infra06.png 722 4568 09 23 64 -31 -30
-  836 sprites/png/infra06.png 2 4632 09 39 64 -31 -8
-  837 sprites/png/infra06.png 82 4632 09 39 64 -31 -38
+  830 sprites/png/infrastructure/infra06.png 322 4568 09 39 64 -31 -8
+  831 sprites/png/infrastructure/infra06.png 402 4568 09 39 64 -31 -38
+  832 sprites/png/infrastructure/infra06.png 482 4568 09 23 64 -31 0
+  833 sprites/png/infrastructure/infra06.png 562 4568 09 23 64 -31 -30
+  834 sprites/png/infrastructure/infra06.png 642 4568 09 23 64 -31 0
+  835 sprites/png/infrastructure/infra06.png 722 4568 09 23 64 -31 -30
+  836 sprites/png/infrastructure/infra06.png 2 4632 09 39 64 -31 -8
+  837 sprites/png/infrastructure/infra06.png 82 4632 09 39 64 -31 -38
 
 //509-516 road tunnel land type 2
   509 sprites/png/infrastructure/roadtunnel.png 113 322 09 39 64 -31  -8
