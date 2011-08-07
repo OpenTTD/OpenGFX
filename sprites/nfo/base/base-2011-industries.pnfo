@@ -74,12 +74,12 @@
    65 sprites/png/industries/industries_misc.png 546 280 09 38 45 -31 -13
 
 //2072-2077 forest
-  121 sprites/png/random.png 10 136 09 67 64 -31 -39
-  122 sprites/png/random.png 80 136 09 67 64 -31 -39
-  123 sprites/png/random.png 150 136 09 67 64 -31 -39
-  124 sprites/png/random.png 220 136 09 67 64 -31 -39
-  125 sprites/png/random.png 290 136 09 67 64 -31 -39
-  126 sprites/png/random.png 360 176 09 31 64 -31 0
+  121 sprites/png/miscellaneous/random.png 10 136 09 67 64 -31 -39
+  122 sprites/png/miscellaneous/random.png 80 136 09 67 64 -31 -39
+  123 sprites/png/miscellaneous/random.png 150 136 09 67 64 -31 -39
+  124 sprites/png/miscellaneous/random.png 220 136 09 67 64 -31 -39
+  125 sprites/png/miscellaneous/random.png 290 136 09 67 64 -31 -39
+  126 sprites/png/miscellaneous/random.png 360 176 09 31 64 -31 0
 
 //2078-2095 oil refinery
   174 sprites/png/industries/industries_misc.png 706 872 03 20 42 -21 1

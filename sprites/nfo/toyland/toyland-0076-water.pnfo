@@ -3,4 +3,4 @@
 #define THIS_Y 145
 #include "../templates/watertiles8.tnfo"
 
--1 sprites/png/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here
+-1 sprites/png/miscellaneous/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here

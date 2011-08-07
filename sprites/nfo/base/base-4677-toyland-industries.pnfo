@@ -31,7 +31,7 @@
 //4695  4698    4       Toyland: Tea pot and piggy bank
    27 sprites/png/houses/toyland_wrappedhouses.png 402 296 03 89 64 -31 -58
    28 sprites/png/houses/toyland_wrappedhouses.png 482 296 03 71 64 -31 -40
- 4697 sprites/png/random.png 370 493 09 30 36 -18 -8
+ 4697 sprites/png/miscellaneous/random.png 370 493 09 30 36 -18 -8
 
  4698 sprites/png/houses/Piggybank.png 0 0 09 31 26 -12 -9
 
@@ -66,22 +66,22 @@
  4720 sprites/png/industries/toyfactory/ToyFactoryToy.png       0   0 09  11 13   0   18 // offset (16, 100) to (0, 108)
 
 //4721  4736    16      Toyland: Plastic fountains
-    3 sprites/png/plasfount.png 66 8 09 44 64 -31 -13
-    4 sprites/png/plasfount.png 146 8 09 44 64 -31 -13
-    5 sprites/png/plasfount.png 226 8 09 44 64 -31 -13
-    6 sprites/png/plasfount.png 306 8 09 44 64 -31 -13
-    7 sprites/png/plasfount.png 386 8 09 44 64 -31 -13
-    8 sprites/png/plasfount.png 466 8 09 44 64 -31 -13
-    9 sprites/png/plasfount.png 546 8 09 44 64 -31 -13
-   10 sprites/png/plasfount.png 626 8 09 44 64 -31 -13
-   11 sprites/png/plasfount.png 706 8 09 36 64 -31 -24
-   12 sprites/png/plasfount.png 2 72 09 36 64 -31 -24
-   13 sprites/png/plasfount.png 82 72 09 36 64 -31 -24
-   14 sprites/png/plasfount.png 162 72 09 36 64 -31 -24
-   15 sprites/png/plasfount.png 242 72 09 36 64 -31 -24
-   16 sprites/png/plasfount.png 322 72 09 36 64 -31 -24
-   17 sprites/png/plasfount.png 402 72 09 36 64 -31 -24
-   18 sprites/png/plasfount.png 482 72 09 36 64 -31 -24
+    3 sprites/png/industries/plasfount.png 66 8 09 44 64 -31 -13
+    4 sprites/png/industries/plasfount.png 146 8 09 44 64 -31 -13
+    5 sprites/png/industries/plasfount.png 226 8 09 44 64 -31 -13
+    6 sprites/png/industries/plasfount.png 306 8 09 44 64 -31 -13
+    7 sprites/png/industries/plasfount.png 386 8 09 44 64 -31 -13
+    8 sprites/png/industries/plasfount.png 466 8 09 44 64 -31 -13
+    9 sprites/png/industries/plasfount.png 546 8 09 44 64 -31 -13
+   10 sprites/png/industries/plasfount.png 626 8 09 44 64 -31 -13
+   11 sprites/png/industries/plasfount.png 706 8 09 36 64 -31 -24
+   12 sprites/png/industries/plasfount.png 2 72 09 36 64 -31 -24
+   13 sprites/png/industries/plasfount.png 82 72 09 36 64 -31 -24
+   14 sprites/png/industries/plasfount.png 162 72 09 36 64 -31 -24
+   15 sprites/png/industries/plasfount.png 242 72 09 36 64 -31 -24
+   16 sprites/png/industries/plasfount.png 322 72 09 36 64 -31 -24
+   17 sprites/png/industries/plasfount.png 402 72 09 36 64 -31 -24
+   18 sprites/png/industries/plasfount.png 482 72 09 36 64 -31 -24
 
 //4737  4742    6       Toyland: Fizzy drink factory
 //Recolour: CC translates to random colour

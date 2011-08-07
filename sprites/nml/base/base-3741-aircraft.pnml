@@ -135,7 +135,7 @@ base_graphics(3813, "sprites/png/aircraft/TricaroHelicopter.png") {
 	[278, 5, 28, 14, -14,  -7]
 }
 //3821 FFP Hyperdart 2
-base_graphics(3821, "sprites/png/vehiclesair021.png") {
+base_graphics(3821, "sprites/png/aircraft/vehiclesair021.png") {
 	[354, 248, 36, 17, -17, -8]
 	[402, 248, 34, 18, -16, -6]
 	[450, 248, 37, 21, -14, -6]
@@ -146,7 +146,7 @@ base_graphics(3821, "sprites/png/vehiclesair021.png") {
 	[690, 248, 34, 18, -16, -6]
 }
 //3829 Dinger 200
-base_graphics(3829, "sprites/png/vehiclesair021.png") {
+base_graphics(3829, "sprites/png/aircraft/vehiclesair021.png") {
 	[738, 248, 44, 26, -21, -12]
 	[2, 296, 42, 25, -23, -10]
 	[50, 296, 48, 22, -25, -9]
@@ -156,7 +156,7 @@ base_graphics(3829, "sprites/png/vehiclesair021.png") {
 	[274, 296, 48, 22, -21, -9]
 	[338, 296, 42, 25, -17, -10]
 }
-base_graphics(3837, "sprites/png/vehiclesair021.png") {
+base_graphics(3837, "sprites/png/aircraft/vehiclesair021.png") {
 //3837 Dinger 1000
 	[386, 296, 50, 24, -24, -13]
 	[450, 296, 47, 22, -21, -10]
@@ -167,7 +167,7 @@ base_graphics(3837, "sprites/png/vehiclesair021.png") {
 	[  2, 344, 62, 26, -34, -13]
 	[82, 344, 47, 22, -24, -10]
 }
-base_graphics(3845, "sprites/png/vehiclesair021.png") {
+base_graphics(3845, "sprites/png/aircraft/vehiclesair021.png") {
 //3845 YateZ-Shuttle
 	[146, 344, 46, 21, -22, -8]
 	[210, 344, 44, 21, -25, -6]
@@ -178,7 +178,7 @@ base_graphics(3845, "sprites/png/vehiclesair021.png") {
 	[530, 344, 44, 21, -23, -8]
 	[594, 344, 44, 21, -17, -6]
 }
-base_graphics(3853, "sprites/png/vehiclesair021.png") {
+base_graphics(3853, "sprites/png/aircraft/vehiclesair021.png") {
 //3853 Airtaxi A34-1000
 	[658, 344, 62, 24, -30, -8]
 	[738, 344, 51, 25, -30, -6]
@@ -189,7 +189,7 @@ base_graphics(3853, "sprites/png/vehiclesair021.png") {
 	[274, 392, 47, 29, -22, -11]
 	[338, 392, 51, 25, -19, -6]
 }
-base_graphics(3861, "sprites/png/vehiclesair021.png") {
+base_graphics(3861, "sprites/png/aircraft/vehiclesair021.png") {
 //3861 Kelling K6
 	[402, 392, 47, 24, -22, -13]
 	[466, 392, 48, 23, -24, -10]
@@ -200,7 +200,7 @@ base_graphics(3861, "sprites/png/vehiclesair021.png") {
 	[  2, 440, 57, 24, -30, -11]
 	[66, 440, 48, 23, -22, -10]
 }
-base_graphics(3869, "sprites/png/vehiclesair021.png") {
+base_graphics(3869, "sprites/png/aircraft/vehiclesair021.png") {
 //3869 Kelling K7
 	[130, 440, 27, 19, -12, -8]
 	[162, 440, 37, 17, -18, -6]
@@ -211,7 +211,7 @@ base_graphics(3869, "sprites/png/vehiclesair021.png") {
 	[402, 440, 51, 18, -23, -8]
 	[466, 440, 37, 17, -17, -6]
 }
-base_graphics(3877, "sprites/png/vehiclesair021.png") {
+base_graphics(3877, "sprites/png/aircraft/vehiclesair021.png") {
 //3877 Darwin 700
 	[514, 440, 35, 19, -16, -8]
 	[562, 440, 39, 19, -18, -7]
@@ -222,7 +222,7 @@ base_graphics(3877, "sprites/png/vehiclesair021.png") {
 	[ 50, 488, 51, 20, -23, -8]
 	[114, 488, 39, 19, -19, -7]
 }
-base_graphics(3885, "sprites/png/vehiclesair021.png") {
+base_graphics(3885, "sprites/png/aircraft/vehiclesair021.png") {
 //3885 Kelling K1
 	[162, 488, 44, 18, -21, -9]
 	[226, 488, 38, 16, -15, -7]
@@ -233,7 +233,7 @@ base_graphics(3885, "sprites/png/vehiclesair021.png") {
 	[482, 488, 40, 20, -22, -8]
 	[530, 488, 38, 17, -21, -8]
 }
-base_graphics(3893, "sprites/png/vehiclesair021.png") {
+base_graphics(3893, "sprites/png/aircraft/vehiclesair021.png") {
 //3893 Guru X2 helicopter
 	[578, 488, 14, 13, -6, -5]
 	[610, 488, 19, 11, -10, -4]
@@ -244,7 +244,7 @@ base_graphics(3893, "sprites/png/vehiclesair021.png") {
 	[770, 488, 24, 10, -9, -4]
 	[2, 536, 19, 11, -7, -4]
 }
-base_graphics(3901, "sprites/png/vehiclesair021.png") {
+base_graphics(3901, "sprites/png/aircraft/vehiclesair021.png") {
 //3901 Helicopter rotors
 	[34, 536, 22, 10, -10, -3]
 	[66, 536, 30, 14, -14, -5]
@@ -253,18 +253,18 @@ base_graphics(3901, "sprites/png/vehiclesair021.png") {
 }
 
 //3905-3932 weird air vehiclescraftsthingsandsubmarine
-base_graphics(3905, "sprites/png/vehiclesair021.png") {
+base_graphics(3905, "sprites/png/aircraft/vehiclesair021.png") {
 //3905-3907 broken blimp
 	[210, 536, 76, 48, -40, -30]
 	[306, 536, 73, 66, -38, -33]
 	[386, 536, 77, 65, -37, -43]
 }
 //3908-3909 small ufo
-base_graphics(3908, "sprites/png/eyecandy.png") {
+base_graphics(3908, "sprites/png/miscellaneous/eyecandy.png") {
 	[642, 8, 19, 13, -8, -7]
 	[674, 8, 19, 13, -8, -7]
 }
-base_graphics(3910, "sprites/png/random.png") {
+base_graphics(3910, "sprites/png/miscellaneous/random.png") {
 //3910-3917 submarines
 	[360, 333, 10, 17, -4, -14]
 	[380, 333, 10, 17, -4, -14]
@@ -276,19 +276,19 @@ base_graphics(3910, "sprites/png/random.png") {
 	[530, 333, 20, 27, -9, -21]
 }
 //3918-3919 small fighter
-base_graphics(3918, "sprites/png/random.png") {
+base_graphics(3918, "sprites/png/miscellaneous/random.png") {
 	[10, 10, 35, 18, -13, -8]
 	[58, 10, 35, 18, -13, -8]
 }
-base_graphics(3920, "sprites/png/random.png") {
+base_graphics(3920, "sprites/png/miscellaneous/random.png") {
 //3920 large ufo
 	[602, 10, 35, 21, -15, -10]
 }
-base_graphics(3921, "sprites/png/random.png") {
+base_graphics(3921, "sprites/png/miscellaneous/random.png") {
 //3921 large fighter
 	[551, 10, 31, 18, -12, -12]
 }
-base_graphics(3922, "sprites/png/random.png") {
+base_graphics(3922, "sprites/png/miscellaneous/random.png") {
 //3922-3923 apache fighter
 	[122, 10, 25, 23, -10, -16]
 	[162, 10, 25, 23, -10, -16]

@@ -1,25 +1,25 @@
 
 //3073-3089 rail smoke/spark effects
 //diesel smoke
- 3073 sprites/png/random.png 10 333 01 4 4 -2 -2
- 3074 sprites/png/random.png 17 333 01 5 5 -2 -2
- 3075 sprites/png/random.png 25 333 01 6 6 -3 -3
- 3076 sprites/png/random.png 36 333 01 7 7 -3 -3
- 3077 sprites/png/random.png 45 333 01 8 8 -4 -4
- 3078 sprites/png/random.png 56 333 01 9 9 -4 -4
+ 3073 sprites/png/miscellaneous/random.png 10 333 01 4 4 -2 -2
+ 3074 sprites/png/miscellaneous/random.png 17 333 01 5 5 -2 -2
+ 3075 sprites/png/miscellaneous/random.png 25 333 01 6 6 -3 -3
+ 3076 sprites/png/miscellaneous/random.png 36 333 01 7 7 -3 -3
+ 3077 sprites/png/miscellaneous/random.png 45 333 01 8 8 -4 -4
+ 3078 sprites/png/miscellaneous/random.png 56 333 01 9 9 -4 -4
 //steam smoke
- 3079 sprites/png/random.png 106 333 01 8 8 -4 -4
- 3080 sprites/png/random.png 121 333 01 10 10 -5 -5
- 3081 sprites/png/random.png 137 333 01 12 12 -6 -6
- 3082 sprites/png/random.png 154 333 01 14 14 -7 -7
- 3083 sprites/png/random.png 171 333 01 16 16 -8 -8
+ 3079 sprites/png/miscellaneous/random.png 106 333 01 8 8 -4 -4
+ 3080 sprites/png/miscellaneous/random.png 121 333 01 10 10 -5 -5
+ 3081 sprites/png/miscellaneous/random.png 137 333 01 12 12 -6 -6
+ 3082 sprites/png/miscellaneous/random.png 154 333 01 14 14 -7 -7
+ 3083 sprites/png/miscellaneous/random.png 171 333 01 16 16 -8 -8
 //elektric spark
-    3 sprites/png/eyecandy.png 66 8 09 4 3 -1 -2
-    4 sprites/png/eyecandy.png 82 8 09 7 7 -2 -4
-    5 sprites/png/eyecandy.png 98 8 09 10 12 -4 -5
-    6 sprites/png/eyecandy.png 130 8 09 15 18 -7 -7
-    7 sprites/png/eyecandy.png 162 8 09 21 27 -13 -9
-    8 sprites/png/eyecandy.png 194 8 09 27 33 -15 -11
+    3 sprites/png/miscellaneous/eyecandy.png 66 8 09 4 3 -1 -2
+    4 sprites/png/miscellaneous/eyecandy.png 82 8 09 7 7 -2 -4
+    5 sprites/png/miscellaneous/eyecandy.png 98 8 09 10 12 -4 -5
+    6 sprites/png/miscellaneous/eyecandy.png 130 8 09 15 18 -7 -7
+    7 sprites/png/miscellaneous/eyecandy.png 162 8 09 21 27 -13 -9
+    8 sprites/png/miscellaneous/eyecandy.png 194 8 09 27 33 -15 -11
 
 //3090-3091 stop/go depot flags
   141 sprites/png/gui/gui04.png 402 280 01 7 7 0 1

@@ -1,8 +1,8 @@
 //476   491     16      Bus stop
-  948 sprites/png/random.png 10 540 09 31 64 -31 0
-  949 sprites/png/random.png 78 540 09 37 64 -31 -6
-  950 sprites/png/random.png 146 540 09 35 64 -31 -4
-  951 sprites/png/random.png 214 540 09 40 64 -31 -9
+  948 sprites/png/miscellaneous/random.png 10 540 09 31 64 -31 0
+  949 sprites/png/miscellaneous/random.png 78 540 09 37 64 -31 -6
+  950 sprites/png/miscellaneous/random.png 146 540 09 35 64 -31 -4
+  951 sprites/png/miscellaneous/random.png 214 540 09 40 64 -31 -9
   952 sprites/png/infrastructure/infra08.png 322 5160 09 31 64 -27 -2
   953 sprites/png/infrastructure/infra08.png 402 5160 09 37 64 -37 -9
   954 sprites/png/infrastructure/infra08.png 482 5160 09 35 64 -55 -22
@@ -17,10 +17,10 @@
   963 sprites/png/infrastructure/infra08.png 402 5224 09 40 64 -31 -9
 
 //492   507     16      Truck stop
-  976 sprites/png/random.png 446 540 09 36 64 -31 -5
-  977 sprites/png/random.png 514 540 09 42 64 -31 -11
-  978 sprites/png/random.png 310 540 09 40 64 -31 -9
-  979 sprites/png/random.png 378 540 09 41 64 -31 -10
+  976 sprites/png/miscellaneous/random.png 446 540 09 36 64 -31 -5
+  977 sprites/png/miscellaneous/random.png 514 540 09 42 64 -31 -11
+  978 sprites/png/miscellaneous/random.png 310 540 09 40 64 -31 -9
+  979 sprites/png/miscellaneous/random.png 378 540 09 41 64 -31 -10
   980 sprites/png/infrastructure/infra08.png 2 5352 09 36 64 -61 -20
   981 sprites/png/infrastructure/infra08.png 82 5352 09 42 64 -7 -29
   982 sprites/png/infrastructure/infra08.png 162 5352 09 40 64 -25 -12

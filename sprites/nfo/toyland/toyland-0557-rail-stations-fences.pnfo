@@ -1,37 +1,37 @@
 //557   568     12      Rail stations
 
-  868 sprites/png/random.png 460 640 09 26 42 -9 -6
-  869 sprites/png/random.png 310 640 09 26 42 -31 -6
-  870 sprites/png/random.png 410 640 09 26 42 -9 -6
-  871 sprites/png/random.png 360 640 09 26 42 -31 -6
-  872 sprites/png/random.png 10 640 09 35 42 -31 -15
-  873 sprites/png/random.png 60 640 09 35 42 -9 -15
-  874 sprites/png/random.png 210 640 09 31 42 -9 -11
-  877 sprites/png/random.png 110 640 09 36 42 -31 -16
-  876 sprites/png/random.png 260 640 09 36 42 -9 -16
-  875 sprites/png/random.png 160 640 09 31 42 -31 -11
+  868 sprites/png/miscellaneous/random.png 460 640 09 26 42 -9 -6
+  869 sprites/png/miscellaneous/random.png 310 640 09 26 42 -31 -6
+  870 sprites/png/miscellaneous/random.png 410 640 09 26 42 -9 -6
+  871 sprites/png/miscellaneous/random.png 360 640 09 26 42 -31 -6
+  872 sprites/png/miscellaneous/random.png 10 640 09 35 42 -31 -15
+  873 sprites/png/miscellaneous/random.png 60 640 09 35 42 -9 -15
+  874 sprites/png/miscellaneous/random.png 210 640 09 31 42 -9 -11
+  877 sprites/png/miscellaneous/random.png 110 640 09 36 42 -31 -16
+  876 sprites/png/miscellaneous/random.png 260 640 09 36 42 -9 -16
+  875 sprites/png/miscellaneous/random.png 160 640 09 31 42 -31 -11
 
-  888 sprites/png/random.png 460 640 09 26 42 -9 -6
-  889 sprites/png/random.png 310 640 09 26 42 -31 -6
-  890 sprites/png/random.png 410 640 09 26 42 -9 -6
-  891 sprites/png/random.png 360 640 09 26 42 -31 -6
-  892 sprites/png/random.png 10 680 09 37 42 -31 -17
-  893 sprites/png/random.png 60 680 09 37 42 -9 -17
-  896 sprites/png/random.png 260 680 09 31 43 -10 -11
-  897 sprites/png/random.png 110 680 09 36 44 -33 -16
-  894 sprites/png/random.png 210 680 09 36 44 -9 -16
-  895 sprites/png/random.png 160 680 09 31 43 -31 -11
+  888 sprites/png/miscellaneous/random.png 460 640 09 26 42 -9 -6
+  889 sprites/png/miscellaneous/random.png 310 640 09 26 42 -31 -6
+  890 sprites/png/miscellaneous/random.png 410 640 09 26 42 -9 -6
+  891 sprites/png/miscellaneous/random.png 360 640 09 26 42 -31 -6
+  892 sprites/png/miscellaneous/random.png 10 680 09 37 42 -31 -17
+  893 sprites/png/miscellaneous/random.png 60 680 09 37 42 -9 -17
+  896 sprites/png/miscellaneous/random.png 260 680 09 31 43 -10 -11
+  897 sprites/png/miscellaneous/random.png 110 680 09 36 44 -33 -16
+  894 sprites/png/miscellaneous/random.png 210 680 09 36 44 -9 -16
+  895 sprites/png/miscellaneous/random.png 160 680 09 31 43 -31 -11
 
-  848 sprites/png/random.png 460 600 09 26 42 -9 -6
-  849 sprites/png/random.png 310 600 09 26 42 -31 -6
-  850 sprites/png/random.png 410 600 09 26 42 -9 -6
-  851 sprites/png/random.png 360 600 09 26 42 -31 -6
-  852 sprites/png/random.png 10 600 09 32 42 -31 -12
-  853 sprites/png/random.png 60 600 09 32 42 -9 -12
-  854 sprites/png/random.png 210 600 09 31 42 -9 -11
-  855 sprites/png/random.png 160 600 09 36 42 -31 -16
-  856 sprites/png/random.png 260 600 09 36 42 -9 -16
-  857 sprites/png/random.png 110 600 09 31 42 -31 -11
+  848 sprites/png/miscellaneous/random.png 460 600 09 26 42 -9 -6
+  849 sprites/png/miscellaneous/random.png 310 600 09 26 42 -31 -6
+  850 sprites/png/miscellaneous/random.png 410 600 09 26 42 -9 -6
+  851 sprites/png/miscellaneous/random.png 360 600 09 26 42 -31 -6
+  852 sprites/png/miscellaneous/random.png 10 600 09 32 42 -31 -12
+  853 sprites/png/miscellaneous/random.png 60 600 09 32 42 -9 -12
+  854 sprites/png/miscellaneous/random.png 210 600 09 31 42 -9 -11
+  855 sprites/png/miscellaneous/random.png 160 600 09 36 42 -31 -16
+  856 sprites/png/miscellaneous/random.png 260 600 09 36 42 -9 -16
+  857 sprites/png/miscellaneous/random.png 110 600 09 31 42 -31 -11
 
 //587   594     8       Rail fences
  1004 sprites/png/infrastructure/infra08.png 610 5416 09 22 33 -31 -6

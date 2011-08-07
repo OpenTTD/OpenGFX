@@ -56,7 +56,7 @@
   388 sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png 248 4 09 13 24 -7 -4
    
 // Helocopter rotor
-  389 sprites/png/vehiclesair021.png 34 536 09 10 22 -10 -3
-  390 sprites/png/vehiclesair021.png 66 536 01 14 30 -14 -5
-  391 sprites/png/vehiclesair021.png 114 536 01 14 30 -14 -5
-  392 sprites/png/vehiclesair021.png 162 536 01 14 30 -14 -5
+  389 sprites/png/aircraft/vehiclesair021.png 34 536 09 10 22 -10 -3
+  390 sprites/png/aircraft/vehiclesair021.png 66 536 01 14 30 -14 -5
+  391 sprites/png/aircraft/vehiclesair021.png 114 536 01 14 30 -14 -5
+  392 sprites/png/aircraft/vehiclesair021.png 162 536 01 14 30 -14 -5

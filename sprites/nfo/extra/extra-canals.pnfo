@@ -1,10 +1,10 @@
  1173 * 25       0C "Canal graphics"
  1174 * 3        05 08 41
 //sloped water
-   12 sprites/png/waterfeatures.png 658 8 09 23 64 -31 0
-   13 sprites/png/waterfeatures.png 2 72 09 39 64 -31 -8
-   14 sprites/png/waterfeatures.png 82 72 09 23 64 -31 0
-   15 sprites/png/waterfeatures.png 162 72 09 39 64 -31 -8
+   12 sprites/png/terrain/waterfeatures.png 658 8 09 23 64 -31 0
+   13 sprites/png/terrain/waterfeatures.png 2 72 09 39 64 -31 -8
+   14 sprites/png/terrain/waterfeatures.png 82 72 09 23 64 -31 0
+   15 sprites/png/terrain/waterfeatures.png 162 72 09 39 64 -31 -8
 
 //locks
    10 sprites/png/infrastructure/redstardocks.png 562 8 09 62 64 -5 -50
@@ -57,18 +57,18 @@
    33 sprites/png/infrastructure/redstardocks.png 2 248 09 62 64 -1 -45
 
 //canal watersides
-   53 sprites/png/waterfeatures.png 338 312 09 19 38 -5 0
-   54 sprites/png/waterfeatures.png 386 312 09 18 38 -5 13
-   55 sprites/png/waterfeatures.png 434 312 09 18 38 -31 13
-   56 sprites/png/waterfeatures.png 482 312 09 19 38 -31 0
-   57 sprites/png/waterfeatures.png 530 312 09 9 19 14 11
-   58 sprites/png/waterfeatures.png 562 312 09 9 16 -7 22
-   59 sprites/png/waterfeatures.png 594 312 09 9 19 -31 11
-   60 sprites/png/waterfeatures.png 626 312 09 9 16 -7 0
-   61 sprites/png/waterfeatures.png 658 312 09 6 8 25 13
-   62 sprites/png/waterfeatures.png 674 312 09 4 12 -5 27
-   63 sprites/png/waterfeatures.png 706 312 09 6 8 -31 13
-   64 sprites/png/waterfeatures.png 722 312 09 5 12 -5 0
+   53 sprites/png/terrain/waterfeatures.png 338 312 09 19 38 -5 0
+   54 sprites/png/terrain/waterfeatures.png 386 312 09 18 38 -5 13
+   55 sprites/png/terrain/waterfeatures.png 434 312 09 18 38 -31 13
+   56 sprites/png/terrain/waterfeatures.png 482 312 09 19 38 -31 0
+   57 sprites/png/terrain/waterfeatures.png 530 312 09 9 19 14 11
+   58 sprites/png/terrain/waterfeatures.png 562 312 09 9 16 -7 22
+   59 sprites/png/terrain/waterfeatures.png 594 312 09 9 19 -31 11
+   60 sprites/png/terrain/waterfeatures.png 626 312 09 9 16 -7 0
+   61 sprites/png/terrain/waterfeatures.png 658 312 09 6 8 25 13
+   62 sprites/png/terrain/waterfeatures.png 674 312 09 4 12 -5 27
+   63 sprites/png/terrain/waterfeatures.png 706 312 09 6 8 -31 13
+   64 sprites/png/terrain/waterfeatures.png 722 312 09 5 12 -5 0
 
 //GUI
   394 sprites/png/gui/gui04.png 594 952 09 20 20 0 0

@@ -12,4 +12,4 @@
   945 sprites/png/infrastructure/infra06.png 674 5080 09 13 14 19 3
 
 //249  buoy
--1 sprites/png/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here
+-1 sprites/png/miscellaneous/empty.png 0 0 03 1 1 0 0 // unused sprite. The GUI sprite is used here

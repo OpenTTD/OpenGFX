@@ -1,102 +1,102 @@
 // 0-75 Terrain
-  328 sprites/png/terrain04.png 34 2056 09 31 64 -31 0
-  329 sprites/png/terrain04.png 114 2056 09 31 64 -31 0
-  330 sprites/png/terrain04.png 194 2056 09 23 64 -31 0
-  331 sprites/png/terrain04.png 274 2056 09 23 64 -31 0
+  328 sprites/png/terrain/terrain04.png 34 2056 09 31 64 -31 0
+  329 sprites/png/terrain/terrain04.png 114 2056 09 31 64 -31 0
+  330 sprites/png/terrain/terrain04.png 194 2056 09 23 64 -31 0
+  331 sprites/png/terrain/terrain04.png 274 2056 09 23 64 -31 0
 
-  332 sprites/png/terrain04.png 354 2056 09 31 64 -31 0
-  333 sprites/png/terrain04.png 434 2056 09 31 64 -31 0
-  334 sprites/png/terrain04.png 514 2056 09 23 64 -31 0
-  335 sprites/png/terrain04.png 594 2056 09 23 64 -31 0
+  332 sprites/png/terrain/terrain04.png 354 2056 09 31 64 -31 0
+  333 sprites/png/terrain/terrain04.png 434 2056 09 31 64 -31 0
+  334 sprites/png/terrain/terrain04.png 514 2056 09 23 64 -31 0
+  335 sprites/png/terrain/terrain04.png 594 2056 09 23 64 -31 0
 
-  336 sprites/png/terrain04.png 674 2056 09 39 64 -31 -8
-  337 sprites/png/terrain04.png 2 2120 09 39 64 -31 -8
-  338 sprites/png/terrain04.png 82 2120 09 31 64 -31 -8
-  339 sprites/png/terrain04.png 162 2120 09 31 64 -31 -8
+  336 sprites/png/terrain/terrain04.png 674 2056 09 39 64 -31 -8
+  337 sprites/png/terrain/terrain04.png 2 2120 09 39 64 -31 -8
+  338 sprites/png/terrain/terrain04.png 82 2120 09 31 64 -31 -8
+  339 sprites/png/terrain/terrain04.png 162 2120 09 31 64 -31 -8
 
-  340 sprites/png/terrain04.png 242 2120 09 39 64 -31 -8
-  341 sprites/png/terrain04.png 322 2120 09 39 64 -31 -8
-  342 sprites/png/terrain04.png 402 2120 09 31 64 -31 -8
-  343 sprites/png/terrain04.png 482 2120 09 47 64 -31 -16
+  340 sprites/png/terrain/terrain04.png 242 2120 09 39 64 -31 -8
+  341 sprites/png/terrain/terrain04.png 322 2120 09 39 64 -31 -8
+  342 sprites/png/terrain/terrain04.png 402 2120 09 31 64 -31 -8
+  343 sprites/png/terrain/terrain04.png 482 2120 09 47 64 -31 -16
 
-  344 sprites/png/terrain04.png 562 2120 09 15 64 -31 0
-  345 sprites/png/terrain04.png 642 2120 09 31 64 -31 -8
-  346 sprites/png/terrain04.png 722 2120 09 31 64 -31 -8
-
-
-
-  349 sprites/png/terrain04.png 34 2184 09 31 64 -31 0
-  350 sprites/png/terrain04.png 114 2184 09 31 64 -31 0
-  351 sprites/png/terrain04.png 194 2184 09 23 64 -31 0
-  352 sprites/png/terrain04.png 274 2184 09 23 64 -31 0
-
-  353 sprites/png/terrain04.png 354 2184 09 31 64 -31 0
-  354 sprites/png/terrain04.png 434 2184 09 31 64 -31 0
-  355 sprites/png/terrain04.png 514 2184 09 23 64 -31 0
-  356 sprites/png/terrain04.png 594 2184 09 23 64 -31 0
-
-  357 sprites/png/terrain04.png 674 2184 09 39 64 -31 -8
-  358 sprites/png/terrain04.png 2 2248 09 39 64 -31 -8
-  359 sprites/png/terrain04.png 82 2248 09 31 64 -31 -8
-  360 sprites/png/terrain04.png 162 2248 09 31 64 -31 -8
-
-  361 sprites/png/terrain04.png 242 2248 09 39 64 -31 -8
-  362 sprites/png/terrain04.png 322 2248 09 39 64 -31 -8
-  363 sprites/png/terrain04.png 402 2248 09 31 64 -31 -8
-  364 sprites/png/terrain04.png 482 2248 09 47 64 -31 -16
-
-  365 sprites/png/terrain04.png 562 2248 09 15 64 -31 0
-  366 sprites/png/terrain04.png 642 2248 09 31 64 -31 -8
-  367 sprites/png/terrain04.png 722 2248 09 31 64 -31 -8
+  344 sprites/png/terrain/terrain04.png 562 2120 09 15 64 -31 0
+  345 sprites/png/terrain/terrain04.png 642 2120 09 31 64 -31 -8
+  346 sprites/png/terrain/terrain04.png 722 2120 09 31 64 -31 -8
 
 
 
-  368 sprites/png/terrain04.png 2 2312 09 31 64 -31 0
-  369 sprites/png/terrain04.png 82 2312 09 31 64 -31 0
-  370 sprites/png/terrain04.png 162 2312 09 23 64 -31 0
-  371 sprites/png/terrain04.png 242 2312 09 23 64 -31 0
+  349 sprites/png/terrain/terrain04.png 34 2184 09 31 64 -31 0
+  350 sprites/png/terrain/terrain04.png 114 2184 09 31 64 -31 0
+  351 sprites/png/terrain/terrain04.png 194 2184 09 23 64 -31 0
+  352 sprites/png/terrain/terrain04.png 274 2184 09 23 64 -31 0
 
-  372 sprites/png/terrain04.png 322 2312 09 31 64 -31 0
-  373 sprites/png/terrain04.png 402 2312 09 31 64 -31 0
-  374 sprites/png/terrain04.png 482 2312 09 23 64 -31 0
-  375 sprites/png/terrain04.png 562 2312 09 23 64 -31 0
+  353 sprites/png/terrain/terrain04.png 354 2184 09 31 64 -31 0
+  354 sprites/png/terrain/terrain04.png 434 2184 09 31 64 -31 0
+  355 sprites/png/terrain/terrain04.png 514 2184 09 23 64 -31 0
+  356 sprites/png/terrain/terrain04.png 594 2184 09 23 64 -31 0
 
-  376 sprites/png/terrain04.png 642 2312 09 39 64 -31 -8
-  377 sprites/png/terrain04.png 722 2312 09 39 64 -31 -8
-  378 sprites/png/terrain04.png 2 2376 09 31 64 -31 -8
-  379 sprites/png/terrain04.png 82 2376 09 31 64 -31 -8
+  357 sprites/png/terrain/terrain04.png 674 2184 09 39 64 -31 -8
+  358 sprites/png/terrain/terrain04.png 2 2248 09 39 64 -31 -8
+  359 sprites/png/terrain/terrain04.png 82 2248 09 31 64 -31 -8
+  360 sprites/png/terrain/terrain04.png 162 2248 09 31 64 -31 -8
 
-  380 sprites/png/terrain04.png 162 2376 09 39 64 -31 -8
-  381 sprites/png/terrain04.png 242 2376 09 39 64 -31 -8
-  382 sprites/png/terrain04.png 322 2376 09 31 64 -31 -8
-  383 sprites/png/terrain04.png 402 2376 09 47 64 -31 -16
+  361 sprites/png/terrain/terrain04.png 242 2248 09 39 64 -31 -8
+  362 sprites/png/terrain/terrain04.png 322 2248 09 39 64 -31 -8
+  363 sprites/png/terrain/terrain04.png 402 2248 09 31 64 -31 -8
+  364 sprites/png/terrain/terrain04.png 482 2248 09 47 64 -31 -16
 
-  384 sprites/png/terrain04.png 482 2376 09 15 64 -31 0
-  385 sprites/png/terrain04.png 562 2376 09 31 64 -31 -8
-  386 sprites/png/terrain04.png 642 2376 09 31 64 -31 -8
+  365 sprites/png/terrain/terrain04.png 562 2248 09 15 64 -31 0
+  366 sprites/png/terrain/terrain04.png 642 2248 09 31 64 -31 -8
+  367 sprites/png/terrain/terrain04.png 722 2248 09 31 64 -31 -8
 
 
 
-  387 sprites/png/terrain04.png 722 2376 09 31 64 -31 0
-  388 sprites/png/terrain04.png 2 2440 09 31 64 -31 0
-  389 sprites/png/terrain04.png 82 2440 09 23 64 -31 0
-  390 sprites/png/terrain04.png 162 2440 09 23 64 -31 0
+  368 sprites/png/terrain/terrain04.png 2 2312 09 31 64 -31 0
+  369 sprites/png/terrain/terrain04.png 82 2312 09 31 64 -31 0
+  370 sprites/png/terrain/terrain04.png 162 2312 09 23 64 -31 0
+  371 sprites/png/terrain/terrain04.png 242 2312 09 23 64 -31 0
 
-  391 sprites/png/terrain04.png 242 2440 09 31 64 -31 0
-  392 sprites/png/terrain04.png 322 2440 09 31 64 -31 0
-  393 sprites/png/terrain04.png 402 2440 09 23 64 -31 0
-  394 sprites/png/terrain04.png 482 2440 09 23 64 -31 0
+  372 sprites/png/terrain/terrain04.png 322 2312 09 31 64 -31 0
+  373 sprites/png/terrain/terrain04.png 402 2312 09 31 64 -31 0
+  374 sprites/png/terrain/terrain04.png 482 2312 09 23 64 -31 0
+  375 sprites/png/terrain/terrain04.png 562 2312 09 23 64 -31 0
 
-  395 sprites/png/terrain04.png 562 2440 09 39 64 -31 -8
-  396 sprites/png/terrain04.png 642 2440 09 39 64 -31 -8
-  397 sprites/png/terrain04.png 722 2440 09 31 64 -31 -8
-  398 sprites/png/terrain04.png 2 2504 09 31 64 -31 -8
+  376 sprites/png/terrain/terrain04.png 642 2312 09 39 64 -31 -8
+  377 sprites/png/terrain/terrain04.png 722 2312 09 39 64 -31 -8
+  378 sprites/png/terrain/terrain04.png 2 2376 09 31 64 -31 -8
+  379 sprites/png/terrain/terrain04.png 82 2376 09 31 64 -31 -8
 
-  399 sprites/png/terrain04.png 82 2504 09 39 64 -31 -8
-  400 sprites/png/terrain04.png 162 2504 09 39 64 -31 -8
-  401 sprites/png/terrain04.png 242 2504 09 31 64 -31 -8
-  402 sprites/png/terrain04.png 322 2504 09 47 64 -31 -16
+  380 sprites/png/terrain/terrain04.png 162 2376 09 39 64 -31 -8
+  381 sprites/png/terrain/terrain04.png 242 2376 09 39 64 -31 -8
+  382 sprites/png/terrain/terrain04.png 322 2376 09 31 64 -31 -8
+  383 sprites/png/terrain/terrain04.png 402 2376 09 47 64 -31 -16
 
-  403 sprites/png/terrain04.png 402 2504 09 15 64 -31 0
-  404 sprites/png/terrain04.png 482 2504 09 31 64 -31 -8
-  405 sprites/png/terrain04.png 562 2504 09 31 64 -31 -8
+  384 sprites/png/terrain/terrain04.png 482 2376 09 15 64 -31 0
+  385 sprites/png/terrain/terrain04.png 562 2376 09 31 64 -31 -8
+  386 sprites/png/terrain/terrain04.png 642 2376 09 31 64 -31 -8
+
+
+
+  387 sprites/png/terrain/terrain04.png 722 2376 09 31 64 -31 0
+  388 sprites/png/terrain/terrain04.png 2 2440 09 31 64 -31 0
+  389 sprites/png/terrain/terrain04.png 82 2440 09 23 64 -31 0
+  390 sprites/png/terrain/terrain04.png 162 2440 09 23 64 -31 0
+
+  391 sprites/png/terrain/terrain04.png 242 2440 09 31 64 -31 0
+  392 sprites/png/terrain/terrain04.png 322 2440 09 31 64 -31 0
+  393 sprites/png/terrain/terrain04.png 402 2440 09 23 64 -31 0
+  394 sprites/png/terrain/terrain04.png 482 2440 09 23 64 -31 0
+
+  395 sprites/png/terrain/terrain04.png 562 2440 09 39 64 -31 -8
+  396 sprites/png/terrain/terrain04.png 642 2440 09 39 64 -31 -8
+  397 sprites/png/terrain/terrain04.png 722 2440 09 31 64 -31 -8
+  398 sprites/png/terrain/terrain04.png 2 2504 09 31 64 -31 -8
+
+  399 sprites/png/terrain/terrain04.png 82 2504 09 39 64 -31 -8
+  400 sprites/png/terrain/terrain04.png 162 2504 09 39 64 -31 -8
+  401 sprites/png/terrain/terrain04.png 242 2504 09 31 64 -31 -8
+  402 sprites/png/terrain/terrain04.png 322 2504 09 47 64 -31 -16
+
+  403 sprites/png/terrain/terrain04.png 402 2504 09 15 64 -31 0
+  404 sprites/png/terrain/terrain04.png 482 2504 09 31 64 -31 -8
+  405 sprites/png/terrain/terrain04.png 562 2504 09 31 64 -31 -8
