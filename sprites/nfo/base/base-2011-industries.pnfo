@@ -79,7 +79,7 @@
   123 sprites/png/miscellaneous/random.png 150 136 09 67 64 -31 -39
   124 sprites/png/miscellaneous/random.png 220 136 09 67 64 -31 -39
   125 sprites/png/miscellaneous/random.png 290 136 09 67 64 -31 -39
-  126 sprites/png/miscellaneous/random.png 360 176 09 31 64 -31 0
+  126 sprites/png/industries/forest_groundtiles.png 0 0 09 31 64 -31 0
 
 //2078-2095 oil refinery
   174 sprites/png/industries/industries_misc.png 706 872 03 20 42 -21 1
