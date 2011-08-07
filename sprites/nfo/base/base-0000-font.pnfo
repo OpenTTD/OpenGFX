@@ -229,7 +229,7 @@
   226 sprites/png/gui/medfontcond.png 530 136 01 13 7 0 -2
 
 //226 small space
-  226 sprites/png/gui/medfont.png 338 72 41 1 1 0 0
+  226 sprites/png/gui/medfontcond.png 338 72 41 1 1 0 0
 
 //227-449 small font including random thingies
   741 sprites/png/gui/gui04.png 242 3464 01 5 1 0 1
