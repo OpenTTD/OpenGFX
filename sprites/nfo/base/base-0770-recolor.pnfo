@@ -31,7 +31,7 @@
          00
 
 //774 some weird white ball (drag for terraform?)
-  218 sprites/png/gui04.png 658 504 01 7 7 -3 -4
+  218 sprites/png/gui/gui04.png 658 504 01 7 7 -3 -4
 
 //775-804 recolour sprites
 // PALETTE_TO_DARK_BLUE

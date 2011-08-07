@@ -1,5 +1,5 @@
 //3668 dock gui cursor
-  396 sprites/png/gui04.png 642 952 03 32 32 0 0
+  396 sprites/png/gui/gui04.png 642 952 03 32 32 0 0
 
 //3669-3700 ships
     3 sprites/png/ships01.png 66 8 09 39 19 -8 -15

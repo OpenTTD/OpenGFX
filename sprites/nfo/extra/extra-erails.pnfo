@@ -40,15 +40,15 @@
    -1 sprites/png/extra/elrails.png 562 56 01 18 2 0 -16
    -1 sprites/png/extra/elrails.png 578 56 01 16 8 0 -15
    -1 sprites/png/extra/elrails.png 594 56 01 16 8 -7 -15
-  368 sprites/png/gui04.png 562 904 09 20 20 0 0
-  369 sprites/png/gui04.png 594 904 09 20 20 0 0
-  370 sprites/png/gui04.png 626 904 09 20 20 0 0
-  371 sprites/png/gui04.png 658 904 09 20 20 0 0
-  372 sprites/png/gui04.png 690 904 03 32 32 0 0
-  373 sprites/png/gui04.png 738 904 03 32 32 0 0
-  374 sprites/png/gui04.png 2 952 03 32 32 0 0
-  375 sprites/png/gui04.png 50 952 03 32 32 0 0
-  376 sprites/png/gui04.png 98 952 09 20 20 0 0
-  377 sprites/png/gui04.png 130 952 03 32 32 0 0
+  368 sprites/png/gui/gui04.png 562 904 09 20 20 0 0
+  369 sprites/png/gui/gui04.png 594 904 09 20 20 0 0
+  370 sprites/png/gui/gui04.png 626 904 09 20 20 0 0
+  371 sprites/png/gui/gui04.png 658 904 09 20 20 0 0
+  372 sprites/png/gui/gui04.png 690 904 03 32 32 0 0
+  373 sprites/png/gui/gui04.png 738 904 03 32 32 0 0
+  374 sprites/png/gui/gui04.png 2 952 03 32 32 0 0
+  375 sprites/png/gui/gui04.png 50 952 03 32 32 0 0
+  376 sprites/png/gui/gui04.png 98 952 09 20 20 0 0
+  377 sprites/png/gui/gui04.png 130 952 03 32 32 0 0
    -1 sprites/png/extra/elrails.png 306 104 01 22 12 -9 -18
    -1 sprites/png/extra/elrails.png 338 104 01 22 12 -1 -18

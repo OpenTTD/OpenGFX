@@ -1,14 +1,14 @@
 //4077-4089 more gui stuff
-  144 sprites/png/gui04.png 450 280 09 20 20 0 0
-  145 sprites/png/gui04.png 482 280 01 8 8 -3 -4
-  146 sprites/png/gui04.png 498 280 01 3 3 -1 -1
-  147 sprites/png/gui04.png 514 280 03 32 32 0 0
-  148 sprites/png/gui04.png 562 280 03 32 32 0 0
-  149 sprites/png/gui04.png 610 280 09 20 20 0 0
-  150 sprites/png/gui04.png 642 280 09 20 20 0 0
-  151 sprites/png/gui04.png 674 280 09 20 20 0 0
-  152 sprites/png/gui04.png 706 280 09 20 20 0 0
-  153 sprites/png/gui04.png 738 280 09 20 20 0 0
-  154 sprites/png/gui04.png 2 328 03 32 32 0 0
-  155 sprites/png/gui04.png 50 328 03 32 32 0 0
-  156 sprites/png/gui04.png 98 328 03 32 32 0 0
+  144 sprites/png/gui/gui04.png 450 280 09 20 20 0 0
+  145 sprites/png/gui/gui04.png 482 280 01 8 8 -3 -4
+  146 sprites/png/gui/gui04.png 498 280 01 3 3 -1 -1
+  147 sprites/png/gui/gui04.png 514 280 03 32 32 0 0
+  148 sprites/png/gui/gui04.png 562 280 03 32 32 0 0
+  149 sprites/png/gui/gui04.png 610 280 09 20 20 0 0
+  150 sprites/png/gui/gui04.png 642 280 09 20 20 0 0
+  151 sprites/png/gui/gui04.png 674 280 09 20 20 0 0
+  152 sprites/png/gui/gui04.png 706 280 09 20 20 0 0
+  153 sprites/png/gui/gui04.png 738 280 09 20 20 0 0
+  154 sprites/png/gui/gui04.png 2 328 03 32 32 0 0
+  155 sprites/png/gui/gui04.png 50 328 03 32 32 0 0
+  156 sprites/png/gui/gui04.png 98 328 03 32 32 0 0

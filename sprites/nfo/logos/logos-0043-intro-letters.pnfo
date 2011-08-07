@@ -1,10 +1,10 @@
 // 43-51 T[RA]N[S]PO[YC]
-    3 sprites/png/introletters.png 0 0 01 29 25 0 0
-    4 sprites/png/introletters.png 26 0 01 29 23 0 0
-    5 sprites/png/introletters.png 50 0 01 29 27 0 0
-    6 sprites/png/introletters.png 78 0 01 29 21 0 0
-    7 sprites/png/introletters.png 100 0 01 29 24 0 0
-    8 sprites/png/introletters.png 125 0 01 29 22 0 0
-    9 sprites/png/introletters.png 148 0 01 29 23 0 0
-   10 sprites/png/introletters.png 172 0 01 29 27 0 0
-   11 sprites/png/introletters.png 200 0 01 29 23 0 0
+    3 sprites/png/gui/introletters.png 0 0 01 29 25 0 0
+    4 sprites/png/gui/introletters.png 26 0 01 29 23 0 0
+    5 sprites/png/gui/introletters.png 50 0 01 29 27 0 0
+    6 sprites/png/gui/introletters.png 78 0 01 29 21 0 0
+    7 sprites/png/gui/introletters.png 100 0 01 29 24 0 0
+    8 sprites/png/gui/introletters.png 125 0 01 29 22 0 0
+    9 sprites/png/gui/introletters.png 148 0 01 29 23 0 0
+   10 sprites/png/gui/introletters.png 172 0 01 29 27 0 0
+   11 sprites/png/gui/introletters.png 200 0 01 29 23 0 0

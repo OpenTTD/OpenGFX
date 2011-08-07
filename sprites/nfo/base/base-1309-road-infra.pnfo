@@ -1,8 +1,8 @@
 //1309-1312 road gui elements
-  121 sprites/png/gui04.png 450 232 09 20 20 0 0
-  122 sprites/png/gui04.png 482 232 09 20 20 0 0
-  123 sprites/png/gui04.png 514 232 03 32 32 0 0
-  124 sprites/png/gui04.png 562 232 03 32 32 0 0
+  121 sprites/png/gui/gui04.png 450 232 09 20 20 0 0
+  122 sprites/png/gui/gui04.png 482 232 09 20 20 0 0
+  123 sprites/png/gui/gui04.png 514 232 03 32 32 0 0
+  124 sprites/png/gui/gui04.png 562 232 03 32 32 0 0
 
 //1313-1331 road city
   444 sprites/png/infra06.png 434 2440 09 31 64 -31 0

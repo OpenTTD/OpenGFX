@@ -35,9 +35,9 @@
   991 sprites/png/infra08.png 82 5416 09 41 64 -5 -27
 
 //2724-2726 airport and road stop gui cursors
-  137 sprites/png/gui04.png 242 280 03 32 32 0 0
-  138 sprites/png/gui04.png 290 280 03 32 32 0 0
-  139 sprites/png/gui04.png 338 280 03 32 32 0 0
+  137 sprites/png/gui/gui04.png 242 280 03 32 32 0 0
+  138 sprites/png/gui/gui04.png 290 280 03 32 32 0 0
+  139 sprites/png/gui/gui04.png 338 280 03 32 32 0 0
 
 //2727-2732 docks
     3 sprites/png/redstardocks.png 66 8 09 32 64 -39 -13

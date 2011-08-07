@@ -22,6 +22,6 @@
     8 sprites/png/eyecandy.png 194 8 09 27 33 -15 -11
 
 //3090-3091 stop/go depot flags
-  141 sprites/png/gui04.png 402 280 01 7 7 0 1
-  142 sprites/png/gui04.png 418 280 01 7 7 0 1
+  141 sprites/png/gui/gui04.png 402 280 01 7 7 0 1
+  142 sprites/png/gui/gui04.png 418 280 01 7 7 0 1
 

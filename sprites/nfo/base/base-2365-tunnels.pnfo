@@ -70,11 +70,11 @@
   2428 sprites/png/infrastructure/roadtunnel.png 957 249 09 39 64 -31 -38
 
 //2429-2436 tunnel gui
-  128 sprites/png/gui04.png 690 232 09 20 20 0 0
-  129 sprites/png/gui04.png 722 232 09 20 20 0 0
-  130 sprites/png/gui04.png 754 232 09 20 20 0 0
-  131 sprites/png/gui04.png 2 280 09 20 20 0 0
-  132 sprites/png/gui04.png 34 280 03 32 32 0 0
-  133 sprites/png/gui04.png 82 280 03 32 32 0 0
-  134 sprites/png/gui04.png 130 280 03 32 32 0 0
-  135 sprites/png/gui04.png 178 280 03 32 32 0 0
+  128 sprites/png/gui/gui04.png 690 232 09 20 20 0 0
+  129 sprites/png/gui/gui04.png 722 232 09 20 20 0 0
+  130 sprites/png/gui/gui04.png 754 232 09 20 20 0 0
+  131 sprites/png/gui/gui04.png 2 280 09 20 20 0 0
+  132 sprites/png/gui/gui04.png 34 280 03 32 32 0 0
+  133 sprites/png/gui/gui04.png 82 280 03 32 32 0 0
+  134 sprites/png/gui/gui04.png 130 280 03 32 32 0 0
+  135 sprites/png/gui/gui04.png 178 280 03 32 32 0 0

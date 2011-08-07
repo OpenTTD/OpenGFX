@@ -147,15 +147,15 @@
   929 sprites/png/infra08.png 610 5016 09 38 50 -1 -25
 
 //329   340     12      Rail GUI cursors
-   97 sprites/png/gui04.png 226 184 03 32 32 0 0
-   98 sprites/png/gui04.png 274 184 03 32 32 0 0
-   99 sprites/png/gui04.png 322 184 03 32 32 0 0
-  100 sprites/png/gui04.png 370 184 03 32 32 0 0
-  101 sprites/png/gui04.png 418 184 03 32 32 0 0
-  102 sprites/png/gui04.png 466 184 03 32 32 0 0
-  103 sprites/png/gui04.png 514 184 03 32 32 0 0
-  104 sprites/png/gui04.png 562 184 03 32 32 0 0
-  105 sprites/png/gui04.png 610 184 03 30 32 0 0
-  106 sprites/png/gui04.png 658 184 03 32 32 0 0
-  107 sprites/png/gui04.png 706 184 03 34 32 0 0
-  108 sprites/png/gui04.png 754 184 03 32 32 0 0
+   97 sprites/png/gui/gui04.png 226 184 03 32 32 0 0
+   98 sprites/png/gui/gui04.png 274 184 03 32 32 0 0
+   99 sprites/png/gui/gui04.png 322 184 03 32 32 0 0
+  100 sprites/png/gui/gui04.png 370 184 03 32 32 0 0
+  101 sprites/png/gui/gui04.png 418 184 03 32 32 0 0
+  102 sprites/png/gui/gui04.png 466 184 03 32 32 0 0
+  103 sprites/png/gui/gui04.png 514 184 03 32 32 0 0
+  104 sprites/png/gui/gui04.png 562 184 03 32 32 0 0
+  105 sprites/png/gui/gui04.png 610 184 03 30 32 0 0
+  106 sprites/png/gui/gui04.png 658 184 03 32 32 0 0
+  107 sprites/png/gui/gui04.png 706 184 03 34 32 0 0
+  108 sprites/png/gui/gui04.png 754 184 03 32 32 0 0

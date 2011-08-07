@@ -202,48 +202,48 @@
   905 sprites/png/infra06.png 322 4952 49 52 66 0 0
 
 //1251-1262 rail gui buttons
-   85 sprites/png/gui04.png 642 152 09 20 20 0 0
-   86 sprites/png/gui04.png 674 152 09 20 20 0 0
-   87 sprites/png/gui04.png 706 152 09 20 20 0 0
-   88 sprites/png/gui04.png 738 152 09 20 20 0 0
-   89 sprites/png/gui04.png 770 152 09 20 20 0 0
-   90 sprites/png/gui04.png 2 184 09 20 20 0 0
-   91 sprites/png/gui04.png 34 184 09 20 20 0 0
-   92 sprites/png/gui04.png 66 184 09 20 20 0 0
-   93 sprites/png/gui04.png 98 184 09 20 20 0 0
-   94 sprites/png/gui04.png 130 184 09 20 20 0 0
-   96 sprites/png/gui04.png 194 184 09 20 20 0 0
-   95 sprites/png/gui04.png 162 184 09 20 20 0 0
+   85 sprites/png/gui/gui04.png 642 152 09 20 20 0 0
+   86 sprites/png/gui/gui04.png 674 152 09 20 20 0 0
+   87 sprites/png/gui/gui04.png 706 152 09 20 20 0 0
+   88 sprites/png/gui/gui04.png 738 152 09 20 20 0 0
+   89 sprites/png/gui/gui04.png 770 152 09 20 20 0 0
+   90 sprites/png/gui/gui04.png 2 184 09 20 20 0 0
+   91 sprites/png/gui/gui04.png 34 184 09 20 20 0 0
+   92 sprites/png/gui/gui04.png 66 184 09 20 20 0 0
+   93 sprites/png/gui/gui04.png 98 184 09 20 20 0 0
+   94 sprites/png/gui/gui04.png 130 184 09 20 20 0 0
+   96 sprites/png/gui/gui04.png 194 184 09 20 20 0 0
+   95 sprites/png/gui/gui04.png 162 184 09 20 20 0 0
 
 //1263-1274 rail gui cursors
-   97 sprites/png/gui04.png 226 184 03 32 32 0 0
-   98 sprites/png/gui04.png 274 184 03 32 32 0 0
-   99 sprites/png/gui04.png 322 184 03 32 32 0 0
-  100 sprites/png/gui04.png 370 184 03 32 32 0 0
-  101 sprites/png/gui04.png 418 184 03 32 32 0 0
-  102 sprites/png/gui04.png 466 184 03 32 32 0 0
-  103 sprites/png/gui04.png 514 184 03 32 32 0 0
-  104 sprites/png/gui04.png 562 184 03 32 32 0 0
-  105 sprites/png/gui04.png 610 184 03 30 32 0 0
-  106 sprites/png/gui04.png 658 184 03 32 32 0 0
-  107 sprites/png/gui04.png 706 184 03 34 32 0 0
-  108 sprites/png/gui04.png 754 184 03 32 32 0 0
+   97 sprites/png/gui/gui04.png 226 184 03 32 32 0 0
+   98 sprites/png/gui/gui04.png 274 184 03 32 32 0 0
+   99 sprites/png/gui/gui04.png 322 184 03 32 32 0 0
+  100 sprites/png/gui/gui04.png 370 184 03 32 32 0 0
+  101 sprites/png/gui/gui04.png 418 184 03 32 32 0 0
+  102 sprites/png/gui/gui04.png 466 184 03 32 32 0 0
+  103 sprites/png/gui/gui04.png 514 184 03 32 32 0 0
+  104 sprites/png/gui/gui04.png 562 184 03 32 32 0 0
+  105 sprites/png/gui/gui04.png 610 184 03 30 32 0 0
+  106 sprites/png/gui/gui04.png 658 184 03 32 32 0 0
+  107 sprites/png/gui/gui04.png 706 184 03 34 32 0 0
+  108 sprites/png/gui/gui04.png 754 184 03 32 32 0 0
 
 //1275-1290 signals
 #define FILE sprites/png/infrastructure/signals/light-generic.png
 #include "../templates/signals.tnfo"
 
 //1291-1300 signal, depot and station gui elements
-  110 sprites/png/gui04.png 18 232 09 20 20 0 0
-  111 sprites/png/gui04.png 50 232 03 32 32 0 0
-  112 sprites/png/gui04.png 98 232 03 32 32 0 0
-  113 sprites/png/gui04.png 146 232 09 20 20 0 0
-  114 sprites/png/gui04.png 178 232 09 20 20 0 0
-  115 sprites/png/gui04.png 210 232 03 32 32 0 0
-  116 sprites/png/gui04.png 258 232 03 32 32 0 0
-  117 sprites/png/gui04.png 306 232 09 20 40 0 0
-  118 sprites/png/gui04.png 354 232 09 20 20 0 0
-  119 sprites/png/gui04.png 386 232 03 32 32 0 0
+  110 sprites/png/gui/gui04.png 18 232 09 20 20 0 0
+  111 sprites/png/gui/gui04.png 50 232 03 32 32 0 0
+  112 sprites/png/gui/gui04.png 98 232 03 32 32 0 0
+  113 sprites/png/gui/gui04.png 146 232 09 20 20 0 0
+  114 sprites/png/gui/gui04.png 178 232 09 20 20 0 0
+  115 sprites/png/gui/gui04.png 210 232 03 32 32 0 0
+  116 sprites/png/gui/gui04.png 258 232 03 32 32 0 0
+  117 sprites/png/gui/gui04.png 306 232 09 20 40 0 0
+  118 sprites/png/gui/gui04.png 354 232 09 20 20 0 0
+  119 sprites/png/gui/gui04.png 386 232 03 32 32 0 0
 
 //1301-1308 rail fences
  1301 sprites/png/infra06.png 194 5416 09 22 33 -31  -7
