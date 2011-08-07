@@ -68,7 +68,7 @@ HOUSE_HEIGHT149_2(sprites/png/houses/base-4444.4445.4576-offices.png)   // Recol
   123 sprites/png/houses/buildings.png 146 792 09 87 66 -31 -56
   124 sprites/png/houses/buildings.png 226 792 09 87 66 -31 -56
 //arctic church
- 4462 sprites/png/houses/arcticchurch.png 10 10 03 31 64 -31 0
+ 4462 sprites/png/houses/base-4462-arctic-church-groundtile.png 0 0 03 31 64 -31 0
  4463 sprites/png/houses/arcticchurch.png 80 10 03 31 64 -31 0
  4464 sprites/png/houses/arcticchurch.png 150 10 03 44 64 -31 -13
 HOUSE_H87_1(sprites/png/houses/base-4465-arctic-church.png)
