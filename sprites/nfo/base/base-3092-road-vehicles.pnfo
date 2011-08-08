@@ -77,23 +77,23 @@
 3154 sprites/png/roadvehicles/vehiclesroad01.png 514 72 01 12 28 -14 -6 
 3155 sprites/png/roadvehicles/vehiclesroad01.png 562 72 09 16 20 -6 -7 
 
-3156 sprites/png/roadvehicles/vehiclesroad01.png 594 72 01 18 8 -3 -10 
-3157 sprites/png/roadvehicles/vehiclesroad01.png 610 72 09 16 20 -14 -7 
-3158 sprites/png/roadvehicles/vehiclesroad01.png 642 72 01 12 28 -14 -6 
-3159 sprites/png/roadvehicles/vehiclesroad01.png 690 72 09 16 20 -6 -7 
-3160 sprites/png/roadvehicles/vehiclesroad01.png 722 72 01 18 8 -3 -10 
-3161 sprites/png/roadvehicles/vehiclesroad01.png 738 72 09 16 20 -14 -7 
-3162 sprites/png/roadvehicles/vehiclesroad01.png 2 104 01 12 28 -14 -6 
-3163 sprites/png/roadvehicles/vehiclesroad01.png 50 104 09 16 20 -6 -7 
+3156 sprites/png/roadvehicles/flatbeds.png 0 190 01 18 8 -3 -10 
+3157 sprites/png/roadvehicles/flatbeds.png 16 190 09 16 20 -14 -7 
+3158 sprites/png/roadvehicles/flatbeds.png 48 190 01 12 28 -14 -6 
+3159 sprites/png/roadvehicles/flatbeds.png 96 190 09 16 20 -6 -7 
+3160 sprites/png/roadvehicles/flatbeds.png 128 190 01 18 8 -3 -10 
+3161 sprites/png/roadvehicles/flatbeds.png 144 190 09 16 20 -14 -7 
+3162 sprites/png/roadvehicles/flatbeds.png 176 190 01 12 28 -14 -6 
+3163 sprites/png/roadvehicles/flatbeds.png 224 190 09 16 20 -6 -7 
 
-3164 sprites/png/roadvehicles/vehiclesroad01.png 82 104 01 18 8 -3 -10 
-3165 sprites/png/roadvehicles/vehiclesroad01.png 98 104 09 16 20 -14 -7 
-3166 sprites/png/roadvehicles/vehiclesroad01.png 130 104 01 12 28 -14 -6 
-3167 sprites/png/roadvehicles/vehiclesroad01.png 178 104 09 16 20 -6 -7 
-3168 sprites/png/roadvehicles/vehiclesroad01.png 210 104 01 18 8 -3 -10 
-3169 sprites/png/roadvehicles/vehiclesroad01.png 226 104 09 16 20 -14 -7 
-3170 sprites/png/roadvehicles/vehiclesroad01.png 258 104 01 12 28 -14 -6 
-3171 sprites/png/roadvehicles/vehiclesroad01.png 306 104 09 16 20 -6 -7 
+3164 sprites/png/roadvehicles/flatbeds.png 0 222 01 18 8 -3 -10 
+3165 sprites/png/roadvehicles/flatbeds.png 16 222 09 16 20 -14 -7 
+3166 sprites/png/roadvehicles/flatbeds.png 48 222 01 12 28 -14 -6 
+3167 sprites/png/roadvehicles/flatbeds.png 96 222 09 16 20 -6 -7 
+3168 sprites/png/roadvehicles/flatbeds.png 128 222 01 18 8 -3 -10 
+3169 sprites/png/roadvehicles/flatbeds.png 144 222 09 16 20 -14 -7 
+3170 sprites/png/roadvehicles/flatbeds.png 176 222 01 12 28 -14 -6 
+3171 sprites/png/roadvehicles/flatbeds.png 224 222 09 16 20 -6 -7 
 
 3172 sprites/png/roadvehicles/vehiclesroad01.png 338 104 01 18 8 -3 -10 
 3173 sprites/png/roadvehicles/vehiclesroad01.png 354 104 09 16 20 -14 -7 
@@ -131,23 +131,23 @@
 3202 sprites/png/roadvehicles/vehiclesroad01.png 514 136 01 12 28 -14 -6 
 3203 sprites/png/roadvehicles/vehiclesroad01.png 562 136 09 16 20 -6 -7 
 
-3204 sprites/png/roadvehicles/vehiclesroad01.png 594 136 01 18 8 -3 -10 
-3205 sprites/png/roadvehicles/vehiclesroad01.png 610 136 09 16 20 -14 -7 
-3206 sprites/png/roadvehicles/vehiclesroad01.png 642 136 01 12 28 -14 -6 
-3207 sprites/png/roadvehicles/vehiclesroad01.png 690 136 09 16 20 -6 -7 
-3208 sprites/png/roadvehicles/vehiclesroad01.png 722 136 01 18 8 -3 -10 
-3209 sprites/png/roadvehicles/vehiclesroad01.png 738 136 09 16 20 -14 -7 
-3210 sprites/png/roadvehicles/vehiclesroad01.png 2 168 01 12 28 -14 -6 
-3211 sprites/png/roadvehicles/vehiclesroad01.png 50 168 09 16 20 -6 -7 
+3204 sprites/png/roadvehicles/flatbeds.png 0 254 01 18 8 -3 -10 
+3205 sprites/png/roadvehicles/flatbeds.png 16 254 09 16 20 -14 -7 
+3206 sprites/png/roadvehicles/flatbeds.png 48 254 01 12 28 -14 -6 
+3207 sprites/png/roadvehicles/flatbeds.png 96 254 09 16 20 -6 -7 
+3208 sprites/png/roadvehicles/flatbeds.png 128 254 01 18 8 -3 -10 
+3209 sprites/png/roadvehicles/flatbeds.png 144 254 09 16 20 -14 -7 
+3210 sprites/png/roadvehicles/flatbeds.png 176 254 01 12 28 -14 -6 
+3211 sprites/png/roadvehicles/flatbeds.png 224 254 09 16 20 -6 -7 
 
-3212 sprites/png/roadvehicles/vehiclesroad01.png 82 168 01 18 8 -3 -10 
-3213 sprites/png/roadvehicles/vehiclesroad01.png 98 168 09 16 20 -14 -7 
-3214 sprites/png/roadvehicles/vehiclesroad01.png 130 168 01 12 28 -14 -6 
-3215 sprites/png/roadvehicles/vehiclesroad01.png 178 168 09 16 20 -6 -7 
-3216 sprites/png/roadvehicles/vehiclesroad01.png 210 168 01 18 8 -3 -10 
-3217 sprites/png/roadvehicles/vehiclesroad01.png 226 168 09 16 20 -14 -7 
-3218 sprites/png/roadvehicles/vehiclesroad01.png 258 168 01 12 28 -14 -6 
-3219 sprites/png/roadvehicles/vehiclesroad01.png 306 168 09 16 20 -6 -7 
+3212 sprites/png/roadvehicles/flatbeds.png 0 286 01 18 8 -3 -10 
+3213 sprites/png/roadvehicles/flatbeds.png 16 286 09 16 20 -14 -7 
+3214 sprites/png/roadvehicles/flatbeds.png 48 286 01 12 28 -14 -6 
+3215 sprites/png/roadvehicles/flatbeds.png 96 286 09 16 20 -6 -7 
+3216 sprites/png/roadvehicles/flatbeds.png 128 286 01 18 8 -3 -10 
+3217 sprites/png/roadvehicles/flatbeds.png 144 286 09 16 20 -14 -7 
+3218 sprites/png/roadvehicles/flatbeds.png 176 286 01 12 28 -14 -6 
+3219 sprites/png/roadvehicles/flatbeds.png 224 286 09 16 20 -6 -7 
 
 3220 sprites/png/roadvehicles/vehiclesroad01.png 338 168 01 18 8 -3 -10 
 3221 sprites/png/roadvehicles/vehiclesroad01.png 354 168 09 16 20 -14 -7 
@@ -158,14 +158,14 @@
 3226 sprites/png/roadvehicles/vehiclesroad01.png 514 168 01 12 28 -14 -6 
 3227 sprites/png/roadvehicles/vehiclesroad01.png 562 168 09 16 20 -6 -7 
 
-3228 sprites/png/roadvehicles/vehiclesroad01.png 594 168 01 18 8 -3 -10 
-3229 sprites/png/roadvehicles/vehiclesroad01.png 610 168 09 16 20 -14 -7 
-3230 sprites/png/roadvehicles/vehiclesroad01.png 642 168 01 12 28 -14 -6 
-3231 sprites/png/roadvehicles/vehiclesroad01.png 690 168 09 16 20 -6 -7 
-3232 sprites/png/roadvehicles/vehiclesroad01.png 722 168 01 18 8 -3 -10 
-3233 sprites/png/roadvehicles/vehiclesroad01.png 738 168 09 16 20 -14 -7 
-3234 sprites/png/roadvehicles/vehiclesroad01.png 2 200 01 12 28 -14 -6 
-3235 sprites/png/roadvehicles/vehiclesroad01.png 50 200 09 16 20 -6 -7 
+3228 sprites/png/roadvehicles/flatbeds.png 0 318 01 18 8 -3 -10 
+3229 sprites/png/roadvehicles/flatbeds.png 16 318 09 16 20 -14 -7 
+3230 sprites/png/roadvehicles/flatbeds.png 48 318 01 12 28 -14 -6 
+3231 sprites/png/roadvehicles/flatbeds.png 96 318 09 16 20 -6 -7 
+3232 sprites/png/roadvehicles/flatbeds.png 128 318 01 18 8 -3 -10 
+3233 sprites/png/roadvehicles/flatbeds.png 144 318 09 16 20 -14 -7 
+3234 sprites/png/roadvehicles/flatbeds.png 176 318 01 12 28 -14 -6 
+3235 sprites/png/roadvehicles/flatbeds.png 224 318 09 16 20 -6 -7 
 
 3236 sprites/png/roadvehicles/vehiclesroad01.png 82 200 01 18 8 -3 -10 
 3237 sprites/png/roadvehicles/vehiclesroad01.png 98 200 09 16 20 -14 -7 
@@ -293,23 +293,23 @@
 3346 sprites/png/roadvehicles/vehiclesroad01.png 514 328 01 12 28 -14 -6 
 3347 sprites/png/roadvehicles/vehiclesroad01.png 562 328 09 16 20 -6 -7 
 
-3348 sprites/png/roadvehicles/vehiclesroad01.png 594 328 01 18 8 -3 -10 
-3349 sprites/png/roadvehicles/vehiclesroad01.png 610 328 09 16 20 -14 -7 
-3350 sprites/png/roadvehicles/vehiclesroad01.png 642 328 01 12 28 -14 -6 
-3351 sprites/png/roadvehicles/vehiclesroad01.png 690 328 09 16 20 -6 -7 
-3352 sprites/png/roadvehicles/vehiclesroad01.png 722 328 01 18 8 -3 -10 
-3353 sprites/png/roadvehicles/vehiclesroad01.png 738 328 09 16 20 -14 -7 
-3354 sprites/png/roadvehicles/vehiclesroad01.png 2 360 01 12 28 -14 -6 
-3355 sprites/png/roadvehicles/vehiclesroad01.png 50 360 09 16 20 -6 -7 
+3348 sprites/png/roadvehicles/flatbeds.png 0 20 01 18 8 -3 -10 
+3349 sprites/png/roadvehicles/flatbeds.png 16 20 09 16 20 -14 -7 
+3350 sprites/png/roadvehicles/flatbeds.png 48 20 01 12 28 -14 -6 
+3351 sprites/png/roadvehicles/flatbeds.png 96 20 09 16 20 -6 -7 
+3352 sprites/png/roadvehicles/flatbeds.png 128 20 01 18 8 -3 -10 
+3353 sprites/png/roadvehicles/flatbeds.png 144 20 09 16 20 -14 -7 
+3354 sprites/png/roadvehicles/flatbeds.png 176 20 01 12 28 -14 -6 
+3355 sprites/png/roadvehicles/flatbeds.png 224 20 09 16 20 -6 -7 
 
-3356 sprites/png/roadvehicles/vehiclesroad01.png 82 360 01 18 8 -3 -10 
-3357 sprites/png/roadvehicles/vehiclesroad01.png 98 360 09 16 20 -14 -7 
-3358 sprites/png/roadvehicles/vehiclesroad01.png 130 360 01 12 28 -14 -6 
-3359 sprites/png/roadvehicles/vehiclesroad01.png 178 360 09 16 20 -6 -7 
-3360 sprites/png/roadvehicles/vehiclesroad01.png 210 360 01 18 8 -3 -10 
-3361 sprites/png/roadvehicles/vehiclesroad01.png 226 360 09 16 20 -14 -7 
-3362 sprites/png/roadvehicles/vehiclesroad01.png 258 360 01 12 28 -14 -6 
-3363 sprites/png/roadvehicles/vehiclesroad01.png 306 360 09 16 20 -6 -7 
+3356 sprites/png/roadvehicles/flatbeds.png 0 52 01 18 8 -3 -10 
+3357 sprites/png/roadvehicles/flatbeds.png 16 52 09 16 20 -14 -7 
+3358 sprites/png/roadvehicles/flatbeds.png 48 52 01 12 28 -14 -6 
+3359 sprites/png/roadvehicles/flatbeds.png 96 52 09 16 20 -6 -7 
+3360 sprites/png/roadvehicles/flatbeds.png 128 52 01 18 8 -3 -10 
+3361 sprites/png/roadvehicles/flatbeds.png 144 52 09 16 20 -14 -7 
+3362 sprites/png/roadvehicles/flatbeds.png 176 52 01 12 28 -14 -6 
+3363 sprites/png/roadvehicles/flatbeds.png 224 52 09 16 20 -6 -7 
 
 3364 sprites/png/roadvehicles/vehiclesroad01.png 338 360 01 18 8 -3 -10 
 3365 sprites/png/roadvehicles/vehiclesroad01.png 354 360 09 16 20 -14 -7 
@@ -347,23 +347,23 @@
 3394 sprites/png/roadvehicles/vehiclesroad01.png 514 392 01 12 28 -14 -6 
 3395 sprites/png/roadvehicles/vehiclesroad01.png 562 392 09 16 20 -6 -7 
 
-3396 sprites/png/roadvehicles/vehiclesroad01.png 594 392 01 18 8 -3 -10 
-3397 sprites/png/roadvehicles/vehiclesroad01.png 610 392 09 16 20 -14 -7 
-3398 sprites/png/roadvehicles/vehiclesroad01.png 642 392 01 12 28 -14 -6 
-3399 sprites/png/roadvehicles/vehiclesroad01.png 690 392 09 16 20 -6 -7 
-3400 sprites/png/roadvehicles/vehiclesroad01.png 722 392 01 18 8 -3 -10 
-3401 sprites/png/roadvehicles/vehiclesroad01.png 738 392 09 16 20 -14 -7 
-3402 sprites/png/roadvehicles/vehiclesroad01.png 2 424 01 12 28 -14 -6 
-3403 sprites/png/roadvehicles/vehiclesroad01.png 50 424 09 16 20 -6 -7 
+3396 sprites/png/roadvehicles/flatbeds.png 0 84 01 18 8 -3 -10 
+3397 sprites/png/roadvehicles/flatbeds.png 16 84 09 16 20 -14 -7 
+3398 sprites/png/roadvehicles/flatbeds.png 48 84 01 12 28 -14 -6 
+3399 sprites/png/roadvehicles/flatbeds.png 96 84 09 16 20 -6 -7 
+3400 sprites/png/roadvehicles/flatbeds.png 128 84 01 18 8 -3 -10 
+3401 sprites/png/roadvehicles/flatbeds.png 144 84 09 16 20 -14 -7 
+3402 sprites/png/roadvehicles/flatbeds.png 176 84 01 12 28 -14 -6 
+3403 sprites/png/roadvehicles/flatbeds.png 224 84 09 16 20 -6 -7 
 
-3404 sprites/png/roadvehicles/vehiclesroad01.png 82 424 01 18 8 -3 -10 
-3405 sprites/png/roadvehicles/vehiclesroad01.png 98 424 09 16 20 -14 -7 
-3406 sprites/png/roadvehicles/vehiclesroad01.png 130 424 01 12 28 -14 -6 
-3407 sprites/png/roadvehicles/vehiclesroad01.png 178 424 09 16 20 -6 -7 
-3408 sprites/png/roadvehicles/vehiclesroad01.png 210 424 01 18 8 -3 -10 
-3409 sprites/png/roadvehicles/vehiclesroad01.png 226 424 09 16 20 -14 -7 
-3410 sprites/png/roadvehicles/vehiclesroad01.png 258 424 01 12 28 -14 -6 
-3411 sprites/png/roadvehicles/vehiclesroad01.png 306 424 09 16 20 -6 -7 
+3404 sprites/png/roadvehicles/flatbeds.png 0 116 01 18 8 -3 -10 
+3405 sprites/png/roadvehicles/flatbeds.png 16 116 09 16 20 -14 -7 
+3406 sprites/png/roadvehicles/flatbeds.png 48 116 01 12 28 -14 -6 
+3407 sprites/png/roadvehicles/flatbeds.png 96 116 09 16 20 -6 -7 
+3408 sprites/png/roadvehicles/flatbeds.png 128 116 01 18 8 -3 -10 
+3409 sprites/png/roadvehicles/flatbeds.png 144 116 09 16 20 -14 -7 
+3410 sprites/png/roadvehicles/flatbeds.png 176 116 01 12 28 -14 -6 
+3411 sprites/png/roadvehicles/flatbeds.png 224 116 09 16 20 -6 -7 
 
 3412 sprites/png/roadvehicles/vehiclesroad01.png 338 424 01 18 8 -3 -10 
 3413 sprites/png/roadvehicles/vehiclesroad01.png 354 424 09 16 20 -14 -7 
@@ -374,14 +374,14 @@
 3418 sprites/png/roadvehicles/vehiclesroad01.png 514 424 01 12 28 -14 -6 
 3419 sprites/png/roadvehicles/vehiclesroad01.png 562 424 09 16 20 -6 -7 
 
-3420 sprites/png/roadvehicles/vehiclesroad01.png 594 424 01 18 8 -3 -10 
-3421 sprites/png/roadvehicles/vehiclesroad01.png 610 424 09 16 20 -14 -7 
-3422 sprites/png/roadvehicles/vehiclesroad01.png 642 424 01 12 28 -14 -6 
-3423 sprites/png/roadvehicles/vehiclesroad01.png 690 424 09 16 20 -6 -7 
-3424 sprites/png/roadvehicles/vehiclesroad01.png 722 424 01 18 8 -3 -10 
-3425 sprites/png/roadvehicles/vehiclesroad01.png 738 424 09 16 20 -14 -7 
-3426 sprites/png/roadvehicles/vehiclesroad01.png 2 456 01 12 28 -14 -6 
-3427 sprites/png/roadvehicles/vehiclesroad01.png 50 456 09 16 20 -6 -7 
+3420 sprites/png/roadvehicles/flatbeds.png 0 148 01 18 8 -3 -10 
+3421 sprites/png/roadvehicles/flatbeds.png 16 148 09 16 20 -14 -7 
+3422 sprites/png/roadvehicles/flatbeds.png 48 148 01 12 28 -14 -6 
+3423 sprites/png/roadvehicles/flatbeds.png 96 148 09 16 20 -6 -7 
+3424 sprites/png/roadvehicles/flatbeds.png 128 148 01 18 8 -3 -10 
+3425 sprites/png/roadvehicles/flatbeds.png 144 148 09 16 20 -14 -7 
+3426 sprites/png/roadvehicles/flatbeds.png 176 148 01 12 28 -14 -6 
+3427 sprites/png/roadvehicles/flatbeds.png 224 148 09 16 20 -6 -7 
 
 3428 sprites/png/roadvehicles/vehiclesroad01.png 82 456 01 18 8 -3 -10 
 3429 sprites/png/roadvehicles/vehiclesroad01.png 98 456 09 16 20 -14 -7 
@@ -509,23 +509,23 @@
 3538 sprites/png/roadvehicles/vehiclesroad01.png 514 584 01 12 28 -14 -6 
 3539 sprites/png/roadvehicles/vehiclesroad01.png 562 584 09 16 20 -6 -7 
 
-3540 sprites/png/roadvehicles/vehiclesroad01.png 594 584 01 18 8 -3 -10 
-3541 sprites/png/roadvehicles/vehiclesroad01.png 610 584 09 16 20 -14 -7 
-3542 sprites/png/roadvehicles/vehiclesroad01.png 642 584 01 12 28 -14 -6 
-3543 sprites/png/roadvehicles/vehiclesroad01.png 690 584 09 16 20 -6 -7 
-3544 sprites/png/roadvehicles/vehiclesroad01.png 722 584 01 18 8 -3 -10 
-3545 sprites/png/roadvehicles/vehiclesroad01.png 738 584 09 16 20 -14 -7 
-3546 sprites/png/roadvehicles/vehiclesroad01.png 2 616 01 12 28 -14 -6 
-3547 sprites/png/roadvehicles/vehiclesroad01.png 50 616 09 16 20 -6 -7 
+3540 sprites/png/roadvehicles/flatbeds.png 0 360 01 18 8 -3 -10 
+3541 sprites/png/roadvehicles/flatbeds.png 16 360 09 16 20 -14 -7 
+3542 sprites/png/roadvehicles/flatbeds.png 48 360 01 12 28 -14 -6 
+3543 sprites/png/roadvehicles/flatbeds.png 96 360 09 16 20 -6 -7 
+3544 sprites/png/roadvehicles/flatbeds.png 128 360 01 18 8 -3 -10 
+3545 sprites/png/roadvehicles/flatbeds.png 144 360 09 16 20 -14 -7 
+3546 sprites/png/roadvehicles/flatbeds.png 176 360 01 12 28 -14 -6 
+3547 sprites/png/roadvehicles/flatbeds.png 224 360 09 16 20 -6 -7 
 
-3548 sprites/png/roadvehicles/vehiclesroad01.png 82 616 01 18 8 -3 -10 
-3549 sprites/png/roadvehicles/vehiclesroad01.png 98 616 09 16 20 -14 -7 
-3550 sprites/png/roadvehicles/vehiclesroad01.png 130 616 01 12 28 -14 -6 
-3551 sprites/png/roadvehicles/vehiclesroad01.png 178 616 09 16 20 -6 -7 
-3552 sprites/png/roadvehicles/vehiclesroad01.png 210 616 01 18 8 -3 -10 
-3553 sprites/png/roadvehicles/vehiclesroad01.png 226 616 09 16 20 -14 -7 
-3554 sprites/png/roadvehicles/vehiclesroad01.png 258 616 01 12 28 -14 -6 
-3555 sprites/png/roadvehicles/vehiclesroad01.png 306 616 09 16 20 -6 -7 
+3548 sprites/png/roadvehicles/flatbeds.png 0 392 01 18 8 -3 -10 
+3549 sprites/png/roadvehicles/flatbeds.png 16 392 09 16 20 -14 -7 
+3550 sprites/png/roadvehicles/flatbeds.png 48 392 01 12 28 -14 -6 
+3551 sprites/png/roadvehicles/flatbeds.png 96 392 09 16 20 -6 -7 
+3552 sprites/png/roadvehicles/flatbeds.png 128 392 01 18 8 -3 -10 
+3553 sprites/png/roadvehicles/flatbeds.png 144 392 09 16 20 -14 -7 
+3554 sprites/png/roadvehicles/flatbeds.png 176 392 01 12 28 -14 -6 
+3555 sprites/png/roadvehicles/flatbeds.png 224 392 09 16 20 -6 -7 
 
 3556 sprites/png/roadvehicles/vehiclesroad01.png 338 616 01 18 8 -3 -10 
 3557 sprites/png/roadvehicles/vehiclesroad01.png 354 616 09 16 20 -14 -7 
@@ -563,23 +563,23 @@
 3586 sprites/png/roadvehicles/vehiclesroad01.png 514 648 01 12 28 -14 -6 
 3587 sprites/png/roadvehicles/vehiclesroad01.png 562 648 09 16 20 -6 -7 
 
-3588 sprites/png/roadvehicles/vehiclesroad01.png 594 648 01 18 8 -3 -10 
-3589 sprites/png/roadvehicles/vehiclesroad01.png 610 648 09 16 20 -14 -7 
-3590 sprites/png/roadvehicles/vehiclesroad01.png 642 648 01 12 28 -14 -6 
-3591 sprites/png/roadvehicles/vehiclesroad01.png 690 648 09 16 20 -6 -7 
-3592 sprites/png/roadvehicles/vehiclesroad01.png 722 648 01 18 8 -3 -10 
-3593 sprites/png/roadvehicles/vehiclesroad01.png 738 648 09 16 20 -14 -7 
-3594 sprites/png/roadvehicles/vehiclesroad01.png 2 680 01 12 28 -14 -6 
-3595 sprites/png/roadvehicles/vehiclesroad01.png 50 680 09 16 20 -6 -7 
+3588 sprites/png/roadvehicles/flatbeds.png 0 424 01 18 8 -3 -10 
+3589 sprites/png/roadvehicles/flatbeds.png 16 424 09 16 20 -14 -7 
+3590 sprites/png/roadvehicles/flatbeds.png 48 424 01 12 28 -14 -6 
+3591 sprites/png/roadvehicles/flatbeds.png 96 424 09 16 20 -6 -7 
+3592 sprites/png/roadvehicles/flatbeds.png 128 424 01 18 8 -3 -10 
+3593 sprites/png/roadvehicles/flatbeds.png 144 424 09 16 20 -14 -7 
+3594 sprites/png/roadvehicles/flatbeds.png 176 424 01 12 28 -14 -6 
+3595 sprites/png/roadvehicles/flatbeds.png 224 424 09 16 20 -6 -7 
 
-3596 sprites/png/roadvehicles/vehiclesroad01.png 82 680 01 18 8 -3 -10 
-3597 sprites/png/roadvehicles/vehiclesroad01.png 98 680 09 16 20 -14 -7 
-3598 sprites/png/roadvehicles/vehiclesroad01.png 130 680 01 12 28 -14 -6 
-3599 sprites/png/roadvehicles/vehiclesroad01.png 178 680 09 16 20 -6 -7 
-3600 sprites/png/roadvehicles/vehiclesroad01.png 210 680 01 18 8 -3 -10 
-3601 sprites/png/roadvehicles/vehiclesroad01.png 226 680 09 16 20 -14 -7 
-3602 sprites/png/roadvehicles/vehiclesroad01.png 258 680 01 12 28 -14 -6 
-3603 sprites/png/roadvehicles/vehiclesroad01.png 306 680 09 16 20 -6 -7 
+3596 sprites/png/roadvehicles/flatbeds.png 0 456 01 18 8 -3 -10 
+3597 sprites/png/roadvehicles/flatbeds.png 16 456 09 16 20 -14 -7 
+3598 sprites/png/roadvehicles/flatbeds.png 48 456 01 12 28 -14 -6 
+3599 sprites/png/roadvehicles/flatbeds.png 96 456 09 16 20 -6 -7 
+3600 sprites/png/roadvehicles/flatbeds.png 128 456 01 18 8 -3 -10 
+3601 sprites/png/roadvehicles/flatbeds.png 144 456 09 16 20 -14 -7 
+3602 sprites/png/roadvehicles/flatbeds.png 176 456 01 12 28 -14 -6 
+3603 sprites/png/roadvehicles/flatbeds.png 224 456 09 16 20 -6 -7 
 
 3604 sprites/png/roadvehicles/vehiclesroad01.png 338 680 01 18 8 -3 -10 
 3605 sprites/png/roadvehicles/vehiclesroad01.png 354 680 09 16 20 -14 -7 
@@ -590,14 +590,14 @@
 3610 sprites/png/roadvehicles/vehiclesroad01.png 514 680 01 12 28 -14 -6 
 3611 sprites/png/roadvehicles/vehiclesroad01.png 562 680 09 16 20 -6 -7 
 
-3612 sprites/png/roadvehicles/vehiclesroad01.png 594 680 01 18 8 -3 -10 
-3613 sprites/png/roadvehicles/vehiclesroad01.png 610 680 09 16 20 -14 -7 
-3614 sprites/png/roadvehicles/vehiclesroad01.png 642 680 01 12 28 -14 -6 
-3615 sprites/png/roadvehicles/vehiclesroad01.png 690 680 09 16 20 -6 -7 
-3616 sprites/png/roadvehicles/vehiclesroad01.png 722 680 01 18 8 -3 -10 
-3617 sprites/png/roadvehicles/vehiclesroad01.png 738 680 09 16 20 -14 -7 
-3618 sprites/png/roadvehicles/vehiclesroad01.png 2 712 01 12 28 -14 -6 
-3619 sprites/png/roadvehicles/vehiclesroad01.png 50 712 09 16 20 -6 -7 
+3612 sprites/png/roadvehicles/flatbeds.png 0 488 01 18 8 -3 -10 
+3613 sprites/png/roadvehicles/flatbeds.png 16 488 09 16 20 -14 -7 
+3614 sprites/png/roadvehicles/flatbeds.png 48 488 01 12 28 -14 -6 
+3615 sprites/png/roadvehicles/flatbeds.png 96 488 09 16 20 -6 -7 
+3616 sprites/png/roadvehicles/flatbeds.png 128 488 01 18 8 -3 -10 
+3617 sprites/png/roadvehicles/flatbeds.png 144 488 09 16 20 -14 -7 
+3618 sprites/png/roadvehicles/flatbeds.png 176 488 01 12 28 -14 -6 
+3619 sprites/png/roadvehicles/flatbeds.png 224 488 09 16 20 -6 -7 
 
 3620 sprites/png/roadvehicles/vehiclesroad01.png 82 712 01 18 8 -3 -10 
 3621 sprites/png/roadvehicles/vehiclesroad01.png 98 712 09 16 20 -14 -7 

@@ -146,6 +146,15 @@ ogfx1_base;3090;3091;2;GUI vehicle start/stop;bubersson, LordAzamath, Zephyris;Z
 ogfx1_base;3092;3283;192;Trucks gen 1;Zephyris;Zephyris;;1
 ogfx1_base;3284;3475;192;Trucks gen 2;Zephyris;Zephyris;;1
 ogfx1_base;3476;3667;192;Trucks gen 3;Zephyris;Zephyris;;1
+ogfx1_base;3156;3171;16;Trucks wood/steel gen1 (unloaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3204;3219;16;Trucks wood/steel gen1 (loaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3228;3235;8;Trucks paper gen1 (loaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3348;3363;16;Trucks wood/steel gen2 (unloaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3396;3411;16;Trucks wood/steel gen2 (loaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3420;3427;8;Trucks paper gen2 (loaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3540;3555;16;Trucks wood/steel gen3 (unloaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3588;3603;16;Trucks wood/steel gen3 (loaded);Zephyris, FooBar;Zephyris;1676;1
+ogfx1_base;3612;3617;8;Trucks paper gen3 (loaded);Zephyris, FooBar;Zephyris;1676;1
 ogfx1_base;3668;3668;1;GUI docks;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;3669;3700;32;Ships;buttercup, Lead@Inbox, Zephyris;buttercup;;1
 ogfx1_base;3701;3708;8;Large smoker;FooBar;FooBar;;1
