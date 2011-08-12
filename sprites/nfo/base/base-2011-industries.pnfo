@@ -61,17 +61,17 @@
   172 sprites/png/industries/industries_misc.png 642 872 09 14 34 0 0
 
 //2061-2071 sawmill
-   55 sprites/png/industries/industries_misc.png 722 200 03 30 51 -24 -4
-   56 sprites/png/industries/industries_misc.png 2 280 03 43 48 -23 -17
-   57 sprites/png/industries/industries_misc.png 66 280 09 44 51 -24 -18
-   58 sprites/png/industries/industries_misc.png 130 280 03 26 40 -10 -6
-   59 sprites/png/industries/industries_misc.png 178 280 03 37 40 -10 -17
-   60 sprites/png/industries/industries_misc.png 226 280 09 45 55 -26 -17
-   61 sprites/png/industries/industries_misc.png 290 280 03 38 54 -27 -12
-   62 sprites/png/industries/industries_misc.png 354 280 03 38 54 -27 -12
-   63 sprites/png/industries/industries_misc.png 418 280 09 40 53 -26 -14
-   64 sprites/png/industries/industries_misc.png 482 280 09 37 54 -30 -11
-   65 sprites/png/industries/industries_misc.png 546 280 09 38 45 -31 -13
+   55 sprites/png/industries/sawmill.png 722   0 03 30 51 -24 -4
+   56 sprites/png/industries/sawmill.png   2  80 03 43 48 -23 -17
+   57 sprites/png/industries/sawmill.png  66  80 09 44 51 -24 -18
+   58 sprites/png/industries/sawmill.png 130  80 03 26 40 -10 -6
+   59 sprites/png/industries/sawmill.png 178  80 03 37 40 -10 -17
+   60 sprites/png/industries/sawmill.png 226  80 09 45 55 -26 -17
+   61 sprites/png/industries/sawmill.png 290  80 03 38 54 -27 -12
+   62 sprites/png/industries/sawmill.png 354  80 03 38 54 -27 -12
+   63 sprites/png/industries/sawmill.png 418  80 09 40 53 -26 -14
+   64 sprites/png/industries/sawmill.png 482  80 09 37 54 -30 -11
+   65 sprites/png/industries/sawmill.png 546  80 09 38 45 -31 -13
 
 //2072-2077 forest
   121 sprites/png/miscellaneous/random.png 10 136 09 67 64 -31 -39
