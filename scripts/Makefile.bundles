@@ -90,7 +90,8 @@ $(DIR_NAME_SRC): $(REV_FILENAME) $(MD5_SRC_FILENAME)
 	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
 	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
 	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
-	$(_V) echo -e "# This file is auto generated to make source bundle independent from Mercurial repository.\n" > $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo "# This file is auto generated to make source bundle independent from Mercurial repository." > $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) echo "" >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.dist
 	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.dist
