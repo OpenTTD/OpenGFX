@@ -383,9 +383,9 @@
   114 sprites/png/industries/industries_misc.png 402 536 09 31 64 -31 0
 
 //2341-2343 fruit/rubber plantation
-  116 sprites/png/industries/industries_misc.png 498 536 01 31 64 -31 0
-  117 sprites/png/industries/industries_misc.png 578 536 01 59 60 -30 -29
-  118 sprites/png/industries/industries_misc.png 658 536 01 59 60 -30 -29
+  116 sprites/png/industries/plantations.png  21 88 01 31 64 -31   0
+  117 sprites/png/industries/plantations.png 104 22 01 97 64 -31 -66
+  118 sprites/png/industries/plantations.png 184 22 01 97 64 -31 -66
 
 //2344-2346 water tower
   340 sprites/png/industries/industries_misc.png 178 1976 03 70 43 -23 -42           // Recolour: RANDOM
