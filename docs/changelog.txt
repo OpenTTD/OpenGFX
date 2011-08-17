@@ -1,3 +1,29 @@
+OpenGFX 0.3.5 (17 Aug 2011)
+---------------------------
+- Feature: Show outline of arctic church on ground tile
+- Feature: New sprite for a sawmill tile
+- Feature: New sprites for Food Processor
+- Feature: Update to tropic rail wagons
+- Feature: New rubber wagon sprites to match rail wagons rather than monolev wagons
+- Feature: New sprites for arctic CS2400 and MJS 1000
+- Feature: Revised arctic railcars 
+- Feature: Revised temperate rail wagons
+- Feature: Revised aircraft
+- Feature: Temperate locomotives resized to 28px
+- Feature: New ground tile for toyland buildings
+- Feature: Revised GuruX2 helicopter
+- Feature: Show outline of arctic church on ground tile
+- Change: [Makefile] Add nml2nfo to the buildsystem (will use nml releases)
+- Fix: Improve graphics of flatbed road vehicles
+- Fix: [Makefile] do not copy Makefile.local as this is still available, instead add a note of purpose to Makefile.dist
+- Fix: Tropic food monolev wagon was invisible
+- Fix: Swapped first two sprites of 1524-1529 small flats
+- Fix: Remove action colours from arctic_engines.png
+- Fix: Improve farm field fences and hedges
+- Fix: Update toyland rough terrain sprites
+- Fix: New forest ground tile shows holes where trees used to sit in invisible industries mode
+
+
 OpenGFX 0.3.4 (24 May 2011)
 ---------------------------
 - Feature: New arctic trees
