@@ -1,6 +1,8 @@
 //Waterfeatures
+
+/* Canal sides (dikes) for all climates and normal terrain and river mouths */
  -1 * 0  0C "Waterfeatures"
-   68 * 4        01 05 01 0C
+   68 * 4        01 05 01 \b12 // Snowy canal sides (dikes)
    69 sprites/png/terrain/waterfeatures.png 18 360 09 19 38 -5 0
    70 sprites/png/terrain/waterfeatures.png 66 360 09 18 38 -5 13
    71 sprites/png/terrain/waterfeatures.png 114 360 09 18 38 -31 13
@@ -15,7 +17,7 @@
    80 sprites/png/terrain/waterfeatures.png 402 360 09 5 12 -5 0
    81 * 7        02 05 35 01 00 00 00
 
-   82 * 4        01 05 01 0C
+   82 * 4        01 05 01 \b12 // arctic canal sides (dikes)
    83 sprites/png/terrain/waterfeatures.png 466 360 09 19 38 -5 0
    84 sprites/png/terrain/waterfeatures.png 514 360 09 18 38 -5 13
    85 sprites/png/terrain/waterfeatures.png 562 360 09 18 38 -31 13
@@ -31,9 +33,9 @@
    95 * 7        02 05 36 01 00 00 00
    96 * 14       02 05 37 81 81 00 FF 01 35 00 04 04 36 00
    97 * 6        07 83 01 \7! 01 01
-   98 * 7        03 05 01 02 00 37 00
+   98 * 7        03 05 01 02 00 37 00 // Dikes
 
-   99 * 4        01 05 01 0C
+   99 * 4        01 05 01 \b12 // desert canal sides (dikes)
   100 sprites/png/terrain/waterfeatures.png 162 392 09 19 38 -5 0
   101 sprites/png/terrain/waterfeatures.png 210 392 09 18 38 -5 13
   102 sprites/png/terrain/waterfeatures.png 258 392 09 18 38 -31 13
@@ -48,7 +50,7 @@
   111 sprites/png/terrain/waterfeatures.png 546 392 09 5 12 -5 0
   112 * 7        02 05 38 01 00 00 00
 
-  113 * 4        01 05 01 0C
+  113 * 4        01 05 01 \b12 // tropic canal sides (dikes)
   114 sprites/png/terrain/waterfeatures.png 610 392 09 19 38 -5 0
   115 sprites/png/terrain/waterfeatures.png 658 392 09 18 38 -5 13
   116 sprites/png/terrain/waterfeatures.png 706 392 09 18 38 -31 13
@@ -64,9 +66,9 @@
   126 * 7        02 05 39 01 00 00 00
   127 * 14       02 05 40 81 81 00 FF 01 38 00 01 01 39 00
   128 * 6        07 83 01 \7! 02 01
-  129 * 7        03 05 01 02 00 40 00
+  129 * 7        03 05 01 02 00 40 00 // Dikes
 
-  130 * 4        01 05 01 0C
+  130 * 4        01 05 01 \b12 // toyland canal sides (dikes)
   131 sprites/png/terrain/waterfeatures.png 306 424 09 19 38 -5 0
   132 sprites/png/terrain/waterfeatures.png 354 424 09 18 38 -5 13
   133 sprites/png/terrain/waterfeatures.png 402 424 09 18 38 -31 13
@@ -81,8 +83,10 @@
   142 sprites/png/terrain/waterfeatures.png 690 424 09 5 12 -5 0
   143 * 7        02 05 41 01 00 00 00
   144 * 6        07 83 01 \7! 03 01
-  145 * 7        03 05 01 02 00 41 00
+  145 * 7        03 05 01 02 00 41 00 // Dikes
 
+
+/* Random rapids for sloped rivers */
   146 * 4        01 05 01 04
   147 sprites/png/terrain/waterfeatures.png 2 456 09 23 64 -31 0
   148 sprites/png/terrain/waterfeatures.png 82 456 09 39 64 -31 -8
@@ -193,18 +197,14 @@
   238 sprites/png/terrain/waterfeatures.png 626 840 09 39 64 -31 -8
   239 sprites/png/terrain/waterfeatures.png 706 840 09 23 64 -31 0
   240 sprites/png/terrain/waterfeatures.png 2 904 09 39 64 -31 -8
-
-  241 * 7        02
-        05 // Canals
-        0F // ID
-        01 00 00 00
+  241 * 7        02 05 0F 01 00 00 00
 
   242 * 39       02
         05 // Canals
         10 // ID
-        80 // Random:  Use 80 to randomize the object (vehicle, station, building, industry) based on its own triggers and bits.
-        00 // Trigger:
-        00 // Randbit: Only 0 random bits are available.
+        80 // RandomAction2
+        00 // No trigger
+        00 // Nothing can be re-randomized
         10 // 16 Sets
         00 00
         01 00
@@ -225,11 +225,13 @@
 
   243 * 7        03
         05 // Canals
-        01 // 1 water slope
-        05 00 //
-        10 00 //
+        01 // 1 set
+        05 // river slopes
+        00 //
+        10 00 // action2 ID
 
-  244 * 4        01 05 01 3C
+/* Riverbanks for all climates and slopes, on normal terrain and river mouths */
+  244 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate river mouth)
   245 sprites/png/terrain/waterfeatures.png 146 904 09 19 38 -5 0
   246 sprites/png/terrain/waterfeatures.png 194 904 09 18 38 -5 13
   247 sprites/png/terrain/waterfeatures.png 242 904 09 18 38 -31 13
@@ -292,7 +294,7 @@
   304 sprites/png/terrain/waterfeatures.png 594 1016 09 6 12 -5 -8
   305 * 7        02 05 20 01 00 00 00
 
-  306 * 4        01 05 01 3C
+  306 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate)
   307 sprites/png/terrain/waterfeatures.png 658 1016 09 19 38 -5 0
   308 sprites/png/terrain/waterfeatures.png 706 1016 09 18 38 -5 13
   309 sprites/png/terrain/waterfeatures.png 754 1016 09 18 38 -31 13
@@ -354,11 +356,11 @@
   365 sprites/png/terrain/waterfeatures.png 306 1160 09 7 8 -31 5
   366 sprites/png/terrain/waterfeatures.png 322 1160 09 6 12 -5 -8
   367 * 7        02 05 21 01 00 00 00
-  368 * 14       02 05 22 81 80 00 FF 01 20 00 00 00 21 00
+  368 * 14       02 05 22 81 80 00 FF 01 20 00 00 00 21 00 //
   369 * 6        07 83 01 \7! 00 01
   370 * 7        03 05 01 06 00 22 00
 
-  371 * 4        01 05 01 3C
+  371 * 4        01 05 01 \b60 // 60 sprites for river banks (snowy river mouth)
   372 sprites/png/terrain/waterfeatures.png 434 1160 09 19 38 -5 0
   373 sprites/png/terrain/waterfeatures.png 482 1160 09 18 38 -5 13
   374 sprites/png/terrain/waterfeatures.png 530 1160 09 18 38 -31 13
@@ -421,7 +423,7 @@
   431 sprites/png/terrain/waterfeatures.png 50 1304 09 6 12 -5 -8
   432 * 7        02 05 30 01 00 00 00
 
-  433 * 4        01 05 01 3C
+  433 * 4        01 05 01 \b60 // 60 sprites for river banks (arctic river mouth)
   434 sprites/png/terrain/waterfeatures.png 114 1304 09 19 38 -5 0
   435 sprites/png/terrain/waterfeatures.png 162 1304 09 18 38 -5 13
   436 sprites/png/terrain/waterfeatures.png 210 1304 09 18 38 -31 13
@@ -483,7 +485,7 @@
   492 sprites/png/terrain/waterfeatures.png 546 1384 09 7 8 -31 5
   493 sprites/png/terrain/waterfeatures.png 562 1384 09 6 12 -5 -8
   494 * 7        02 05 31 01 00 00 00
-  495 * 4        01 05 01 3C
+  495 * 4        01 05 01 \b60 // 60 sprites for river banks (snowy)
   496 sprites/png/terrain/waterfeatures.png 626 1384 09 19 38 -5 0
   497 sprites/png/terrain/waterfeatures.png 674 1384 09 18 38 -5 13
   498 sprites/png/terrain/waterfeatures.png 722 1384 09 18 38 -31 13
@@ -545,7 +547,7 @@
   554 sprites/png/terrain/waterfeatures.png 306 1528 09 7 8 -31 5
   555 sprites/png/terrain/waterfeatures.png 322 1528 09 6 12 -5 -8
   556 * 7        02 05 32 01 00 00 00
-  557 * 4        01 05 01 3C
+  557 * 4        01 05 01 \b60 // 60 sprites for river banks (arctic)
   558 sprites/png/terrain/waterfeatures.png 386 1528 09 19 38 -5 0
   559 sprites/png/terrain/waterfeatures.png 434 1528 09 18 38 -5 13
   560 sprites/png/terrain/waterfeatures.png 482 1528 09 18 38 -31 13
@@ -607,12 +609,13 @@
   616 sprites/png/terrain/waterfeatures.png 2 1672 09 7 8 -31 5
   617 sprites/png/terrain/waterfeatures.png 18 1672 09 6 12 -5 -8
   618 * 7        02 05 33 01 00 00 00
-  619 * 14       02 05 34 81 81 00 FF 01 30 00 04 04 31 00
-  620 * 14       02 05 35 81 81 00 FF 01 32 00 04 04 33 00
-  621 * 14       02 05 36 81 80 00 FF 01 34 00 00 00 35 00
+  619 * 14       02 05 34 81 81 00 FF 01 30 00 04 04 31 00 // normal river
+  620 * 14       02 05 35 81 81 00 FF 01 32 00 04 04 33 00 // coast
+  621 * 14       02 05 36 81 80 00 FF 01 34 00 00 00 35 00 // choose height
   622 * 6        07 83 01 \7! 01 01
   623 * 7        03 05 01 06 00 36 00
-  624 * 4        01 05 01 3C
+
+  624 * 4        01 05 01 \b60 // 60 sprites for river banks (desert river mouth)
   625 sprites/png/terrain/waterfeatures.png 162 1672 09 19 38 -5 0
   626 sprites/png/terrain/waterfeatures.png 210 1672 09 18 38 -5 13
   627 sprites/png/terrain/waterfeatures.png 258 1672 09 18 38 -31 13
@@ -674,7 +677,7 @@
   683 sprites/png/terrain/waterfeatures.png 578 1752 09 7 8 -31 5
   684 sprites/png/terrain/waterfeatures.png 594 1752 09 6 12 -5 -8
   685 * 7        02 05 40 01 00 00 00
-  686 * 4        01 05 01 3C
+  686 * 4        01 05 01 \b60 // 60 sprites for river banks (tropic river mouth)
   687 sprites/png/terrain/waterfeatures.png 658 1752 09 19 38 -5 0
   688 sprites/png/terrain/waterfeatures.png 706 1752 09 18 38 -5 13
   689 sprites/png/terrain/waterfeatures.png 754 1752 09 18 38 -31 13
@@ -736,7 +739,8 @@
   745 sprites/png/terrain/waterfeatures.png 306 1896 09 7 8 -31 5
   746 sprites/png/terrain/waterfeatures.png 322 1896 09 6 12 -5 -8
   747 * 7        02 05 41 01 00 00 00
-  748 * 4        01 05 01 3C
+
+  748 * 4        01 05 01 \b60 // 60 sprites for river banks (desert)
   749 sprites/png/terrain/waterfeatures.png 386 1896 09 19 38 -5 0
   750 sprites/png/terrain/waterfeatures.png 434 1896 09 18 38 -5 13
   751 sprites/png/terrain/waterfeatures.png 482 1896 09 18 38 -31 13
@@ -798,7 +802,8 @@
   807 sprites/png/terrain/waterfeatures.png 2 2040 09 7 8 -31 5
   808 sprites/png/terrain/waterfeatures.png 18 2040 09 6 12 -5 -8
   809 * 7        02 05 42 01 00 00 00
-  810 * 4        01 05 01 3C
+
+  810 * 4        01 05 01 \b60 // 60 sprites for river banks (tropic)
   811 sprites/png/terrain/waterfeatures.png 82 2040 09 19 38 -5 0
   812 sprites/png/terrain/waterfeatures.png 130 2040 09 18 38 -5 13
   813 sprites/png/terrain/waterfeatures.png 178 2040 09 18 38 -31 13
@@ -860,12 +865,13 @@
   869 sprites/png/terrain/waterfeatures.png 514 2120 09 7 8 -31 5
   870 sprites/png/terrain/waterfeatures.png 530 2120 09 6 12 -5 -8
   871 * 7        02 05 43 01 00 00 00
-  872 * 14       02 05 44 81 81 00 FF 01 40 00 01 01 41 00
-  873 * 14       02 05 45 81 81 00 FF 01 42 00 01 01 43 00
+  872 * 14       02 05 44 81 81 00 FF 01 40 00 01 01 41 00 // normal height. Select terrain
+  873 * 14       02 05 45 81 81 00 FF 01 42 00 01 01 43 00 // shore. Select terrain
   874 * 14       02 05 46 81 80 00 FF 01 44 00 00 00 45 00
   875 * 6        07 83 01 \7! 02 01
   876 * 7        03 05 01 06 00 46 00
-  877 * 4        01 05 01 3C
+
+  877 * 4        01 05 01 \b60 // 60 sprites for river banks (toyland river mouth)
   878 sprites/png/terrain/waterfeatures.png 674 2120 09 19 38 -5 0
   879 sprites/png/terrain/waterfeatures.png 722 2120 09 18 38 -5 13
   880 sprites/png/terrain/waterfeatures.png 2 2168 09 18 38 -31 13
@@ -927,7 +933,8 @@
   936 sprites/png/terrain/waterfeatures.png 354 2248 09 7 8 -31 5
   937 sprites/png/terrain/waterfeatures.png 370 2248 09 6 12 -5 -8
   938 * 7        02 05 50 01 00 00 00
-  939 * 4        01 05 01 3C
+
+  939 * 4        01 05 01 \b60 // 60 sprites for riverbanks (toyland)
   940 sprites/png/terrain/waterfeatures.png 434 2248 09 19 38 -5 0
   941 sprites/png/terrain/waterfeatures.png 482 2248 09 18 38 -5 13
   942 sprites/png/terrain/waterfeatures.png 530 2248 09 18 38 -31 13
