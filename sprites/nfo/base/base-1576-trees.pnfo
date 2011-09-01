@@ -292,13 +292,13 @@
 
 //1947-2009 toyland trees; (see src/table/tree_land.h for recolour info)
 //1947 - 1953 reverse cone tree (recolour cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-  378 sprites/png/trees/toyland/toyland_tree_reversecone.png 4 12 09 20 13 -7 -14
-  379 sprites/png/trees/toyland/toyland_tree_reversecone.png 36 12 09 26 17 -9 -19
-  380 sprites/png/trees/toyland/toyland_tree_reversecone.png 68 12 09 32 24 -12 -25
-  381 sprites/png/trees/toyland/toyland_tree_reversecone.png 106 12 09 39 29 -12 -32
-  382 sprites/png/trees/toyland/toyland_tree_reversecone.png 144 12 09 39 29 -14 -32
-  383 sprites/png/trees/toyland/toyland_tree_reversecone.png 188 12 09 39 27 -14 -32
-  384 sprites/png/trees/toyland/toyland_tree_reversecone.png 232 12 09 39 16 -8 -32
+  378 sprites/png/trees/toyland/toyland_tree_reversecone.png 4 12 01 20 15 -7 -14
+  379 sprites/png/trees/toyland/toyland_tree_reversecone.png 36 12 01 26 20 -10 -19
+  380 sprites/png/trees/toyland/toyland_tree_reversecone.png 68 12 01 32 26 -13 -25
+  381 sprites/png/trees/toyland/toyland_tree_reversecone.png 104 12 01 39 31 -15 -32
+  382 sprites/png/trees/toyland/toyland_tree_reversecone.png 144 12 01 39 31 -15 -32
+  383 sprites/png/trees/toyland/toyland_tree_reversecone.png 188 12 01 39 30 -15 -32
+  384 sprites/png/trees/toyland/toyland_tree_reversecone.png 232 12 01 39 18 -9 -32
 
 //1954 - 1960 sugar bubble tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
   399 sprites/png/landscape/landscape031.png 258 1048 09 12 3 -1 -6
@@ -310,13 +310,13 @@
   405 sprites/png/landscape/landscape031.png 434 1048 09 39 29 -14 -33
 
 //1961 - 1967 baloon tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-  427 sprites/png/trees/toyland/toyland_tree_balloon.png 6 16 09 8 10 -11 -31
-  428 sprites/png/trees/toyland/toyland_tree_balloon.png 24 16 09 16 16 -11 -31
-  429 sprites/png/trees/toyland/toyland_tree_balloon.png 48 16 09 24 24 -11 -31
-  430 sprites/png/trees/toyland/toyland_tree_balloon.png 82 16 09 32 30 -11 -31
-  431 sprites/png/trees/toyland/toyland_tree_balloon.png 120 16 09 32 30 -11 -31
-  432 sprites/png/trees/toyland/toyland_tree_balloon.png 160 16 09 32 30 -11 -31
-  433 sprites/png/trees/toyland/toyland_tree_balloon.png 198 16 09 32 30 -11 -31
+  427 sprites/png/trees/toyland/toyland_tree_balloon.png 6 16 09 8 10 -5 -31
+  428 sprites/png/trees/toyland/toyland_tree_balloon.png 24 16 09 16 16 -8 -31
+  429 sprites/png/trees/toyland/toyland_tree_balloon.png 48 16 09 24 24 -12 -31
+  430 sprites/png/trees/toyland/toyland_tree_balloon.png 82 16 09 32 30 -14 -31
+  431 sprites/png/trees/toyland/toyland_tree_balloon.png 120 16 09 32 30 -14 -31
+  432 sprites/png/trees/toyland/toyland_tree_balloon.png 160 16 09 32 30 -14 -31
+  433 sprites/png/trees/toyland/toyland_tree_balloon.png 198 16 09 32 30 -14 -31
 
 //1968 - 1974 moving cylinder (no recolour)
   406 sprites/png/miscellaneous/random.png 190 453 09 36 22 -11 -30
