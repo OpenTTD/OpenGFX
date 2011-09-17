@@ -319,10 +319,10 @@
  -1 * 7        02 05 20 01 00 00 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate)
- -1 sprites/png/terrain/waterfeatures.png 658 1016 09 19 38 -5 0
- -1 sprites/png/terrain/waterfeatures.png 706 1016 09 18 38 -5 13
- -1 sprites/png/terrain/waterfeatures.png 754 1016 09 18 38 -31 13
- -1 sprites/png/terrain/waterfeatures.png 2 1064 09 19 38 -31 0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_ne.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_se.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_sw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_nw.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 50 1064 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 82 1064 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 114 1064 09 9 19 -31 11
@@ -331,6 +331,7 @@
  -1 sprites/png/terrain/waterfeatures.png 194 1064 09 4 12 -5 27
  -1 sprites/png/terrain/waterfeatures.png 226 1064 09 6 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 242 1064 09 5 12 -5 0
+
  -1 sprites/png/terrain/waterfeatures.png 274 1064 09 11 40 -7 0
  -1 sprites/png/terrain/waterfeatures.png 322 1064 09 18 39 -6 5
  -1 sprites/png/terrain/waterfeatures.png 370 1064 09 11 38 -31 12
@@ -514,10 +515,10 @@
  -1 sprites/png/terrain/waterfeatures.png 562 1384 09 6 12 -5 -8
  -1 * 7        02 05 31 01 00 00 00
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (snowy)
- -1 sprites/png/terrain/waterfeatures.png 626 1384 09 19 38 -5 0
- -1 sprites/png/terrain/waterfeatures.png 674 1384 09 18 38 -5 13
- -1 sprites/png/terrain/waterfeatures.png 722 1384 09 18 38 -31 13
- -1 sprites/png/terrain/waterfeatures.png 2 1432 09 19 38 -31 0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_ne.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_se.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_sw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_nw.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 50 1432 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 82 1432 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 114 1432 09 9 19 -31 11
@@ -576,10 +577,10 @@
  -1 sprites/png/terrain/waterfeatures.png 322 1528 09 6 12 -5 -8
  -1 * 7        02 05 32 01 00 00 00
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (arctic)
- -1 sprites/png/terrain/waterfeatures.png 386 1528 09 19 38 -5 0
- -1 sprites/png/terrain/waterfeatures.png 434 1528 09 18 38 -5 13
- -1 sprites/png/terrain/waterfeatures.png 482 1528 09 18 38 -31 13
- -1 sprites/png/terrain/waterfeatures.png 530 1528 09 19 38 -31 0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_ne.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_se.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_sw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_nw.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 578 1528 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 610 1528 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 642 1528 09 9 19 -31 11
@@ -836,10 +837,10 @@
  -1 * 7        02 05 42 01 00 00 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (tropic)
- -1 sprites/png/terrain/waterfeatures.png 82 2040 09 19 38 -5 0
- -1 sprites/png/terrain/waterfeatures.png 130 2040 09 18 38 -5 13
- -1 sprites/png/terrain/waterfeatures.png 178 2040 09 18 38 -31 13
- -1 sprites/png/terrain/waterfeatures.png 226 2040 09 19 38 -31 0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_ne.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_se.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_sw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_nw.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 274 2040 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 306 2040 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 338 2040 09 9 19 -31 11
