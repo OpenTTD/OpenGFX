@@ -70,8 +70,8 @@ HOUSE_HEIGHT87_4(sprites/png/houses/base-1430-1433-house.png)
  1454 sprites/png/houses/statuefountain.png 18 21 09 26 22 -7 -16
  1455 sprites/png/houses/statuefountain.png 41 21 09 42 34 -17 -22
 //parks
- 1456 sprites/png/houses/temprtbuilds.png 258 104 09 40 64 -31 -9
- 1457 sprites/png/houses/temprtbuilds.png 338 104 09 40 64 -31 -9
+ 1456 sprites/png/houses/1456_1457_parks.png 11  0 09 80 64 -31 -49
+ 1457 sprites/png/houses/1456_1457_parks.png 91 10 09 70 64 -31 -39
 //small offices
  1458 sprites/png/houses/temprtbuilds.png 434 104 03 31 52 -25 -3      // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
  1459 sprites/png/houses/temprtbuilds.png 498 104 03 61 52 -25 -33     // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
