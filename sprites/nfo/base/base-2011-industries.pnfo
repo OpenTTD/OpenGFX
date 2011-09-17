@@ -210,15 +210,19 @@
   365 sprites/png/industries/industries_misc.png 610 2104 09 59 53 -20 -39
 
 //2188-2199 food processing plant
-  327 sprites/png/industries/industries_misc.png 98 1912 03 36 64 -31 -5             // Recolour: RANDOM
-  328 sprites/png/industries/industries_misc.png 178 1912 03 49 64 -31 -18           // Recolour: RANDOM
+	// factory hall
+  2188 sprites/png/industries/food_factory/foodfactory_stage1.png  64  48 03 80 64 -31 -49             // Recolour: RANDOM
+  2189 sprites/png/industries/food_factory/foodfactory_stage2.png  96  32 03 80 64 -31 -49             // Recolour: RANDOM
   329 sprites/png/industries/industries_misc.png 258 1912 09 49 64 -31 -18           // Recolour: RANDOM
-  330 sprites/png/industries/industries_misc.png 338 1912 03 31 64 -31 0             // Recolour: RANDOM
-  331 sprites/png/industries/industries_misc.png 418 1912 03 50 64 -31 -19           // Recolour: RANDOM
+	// building with chimney
+  2191 sprites/png/industries/food_factory/foodfactory_stage1.png 192  48 03 80 64 -31 -49             // Recolour: RANDOM
+  2192 sprites/png/industries/food_factory/foodfactory_stage2.png 224  32 03 80 64 -31 -49             // Recolour: RANDOM
   332 sprites/png/industries/industries_misc.png 498 1912 09 54 64 -31 -23           // Recolour: RANDOM
+	// storage tank
   333 sprites/png/industries/industries_misc.png 578 1912 03 12 23 -11 9             // Recolour: RANDOM
   334 sprites/png/industries/industries_misc.png 610 1912 03 41 23 -11 -20           // Recolour: RANDOM
   335 sprites/png/industries/industries_misc.png 642 1912 09 41 23 -11 -20           // Recolour: RANDOM
+  	// courtyard
   336 sprites/png/industries/industries_misc.png 674 1912 03 31 64 -31 0             // Recolour: RANDOM
   337 sprites/png/industries/industries_misc.png 2 1976 03 31 64 -31 0               // Recolour: RANDOM
   338 sprites/png/industries/industries_misc.png 82 1976 09 31 64 -31 0              // Recolour: RANDOM
