@@ -1,4 +1,4 @@
-OpenGFX r738
+OpenGFX 0.3.6 (21 Sep 2011)
 ---------------------------
 - Feature: New sprites for fruit and rubber plantations
 - Feature: Separate water for rivers
