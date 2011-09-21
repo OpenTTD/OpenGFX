@@ -91,130 +91,130 @@
 // Spritesets for OpenTTD >= 1.1.4 (r22923) with flat water
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 456 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 162 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 242 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 22 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162 22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 242 22 09 39 64 -31 -8
  -1 * 7        02 05 00 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 456 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 514 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 594 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434  22 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 594  22 09 39 64 -31 -8
  -1 * 7        02 05 01 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 82 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 162 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162  86 09 39 64 -31 -8
  -1 * 7        02 05 02 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 434 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 514 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514  86 09 39 64 -31 -8
  -1 * 7        02 05 03 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 2 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 150 09 39 64 -31 -8
  -1 * 7        02 05 04 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 194 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 584 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 354 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 150 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 150 09 39 64 -31 -8
  -1 * 7        02 05 05 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 546 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 584 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 706 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 150 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 214 09 39 64 -31 -8
  -1 * 7        02 05 06 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 114 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 194 648 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 274 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 114 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 214 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 214 09 39 64 -31 -8
  -1 * 7        02 05 07 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 466 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 546 648 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 626 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 466 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 214 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 214 09 39 64 -31 -8
  -1 * 7        02 05 08 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 18 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 98 712 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 178 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 258 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  18 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  98 278 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 178 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 258 278 09 39 64 -31 -8
  -1 * 7        02 05 09 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 370 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 450 712 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 530 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 610 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 370 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 450 278 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 530 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 610 278 09 39 64 -31 -8
  -1 * 7        02 05 0A 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 722 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 82 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 162 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 722 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162 342 09 39 64 -31 -8
  -1 * 7        02 05 0B 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 434 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 514 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514 342 09 39 64 -31 -8
  -1 * 7        02 05 0C 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 2 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 406 09 39 64 -31 -8
  -1 * 7        02 05 0D 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 194 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 840 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 354 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 406 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 406 09 39 64 -31 -8
  -1 * 7        02 05 0E 01 00 00 00
 
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 546 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 840 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 706 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 904 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 406 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 470 09 39 64 -31 -8
  -1 * 7        02 05 0F 01 00 00 00
 
  -1 * 39       02
@@ -245,115 +245,115 @@
 
 // Random rapids for sloped rivers
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 2 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 456 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 162 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 242 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82  22 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 242  22 09 39 64 -31 -8
  -1 * 7        02 05 10 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 354 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 456 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 514 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 594 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434  22 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 594  22 09 39 64 -31 -8
  -1 * 7        02 05 11 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 706 456 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 82 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 162 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706  22 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162  86 09 39 64 -31 -8
  -1 * 7        02 05 12 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 274 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 434 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 514 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514  86 09 39 64 -31 -8
  -1 * 7        02 05 13 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 626 520 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 520 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 2 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626  86 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706  86 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 150 09 39 64 -31 -8
  -1 * 7        02 05 14 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 194 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 584 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 354 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 150 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 150 09 39 64 -31 -8
  -1 * 7        02 05 15 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 546 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 584 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 706 584 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 150 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 150 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 214 09 39 64 -31 -8
  -1 * 7        02 05 16 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 114 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 194 648 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 274 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 114 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 214 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 214 09 39 64 -31 -8
  -1 * 7        02 05 17 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 466 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 546 648 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 626 648 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 466 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 214 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 214 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 214 09 39 64 -31 -8
  -1 * 7        02 05 18 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 18 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 98 712 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 178 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 258 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  18 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  98 278 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 178 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 258 278 09 39 64 -31 -8
  -1 * 7        02 05 19 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 370 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 450 712 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 530 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 610 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 370 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 450 278 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 530 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 610 278 09 39 64 -31 -8
  -1 * 7        02 05 1A 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 722 712 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 82 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 162 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 722 278 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 162 342 09 39 64 -31 -8
  -1 * 7        02 05 1B 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 274 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 354 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 434 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 514 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 514 342 09 39 64 -31 -8
  -1 * 7        02 05 1C 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 626 776 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 706 776 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 2 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 82 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 342 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 342 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png  82 406 09 39 64 -31 -8
  -1 * 7        02 05 1D 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 194 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 274 840 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 354 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 434 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 194 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 274 406 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 354 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 434 406 09 39 64 -31 -8
  -1 * 7        02 05 1E 01 00 00 00
 
  -1 * 4        01 05 01 04
- -1 sprites/png/terrain/waterfeatures.png 546 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 626 840 09 39 64 -31 -8
- -1 sprites/png/terrain/waterfeatures.png 706 840 09 23 64 -31 0
- -1 sprites/png/terrain/waterfeatures.png 2 904 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 546 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 626 406 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png 706 406 09 23 64 -31  0
+ -1 sprites/png/terrain/waterfeatures/riverrapids.png   2 470 09 39 64 -31 -8
  -1 * 7        02 05 1F 01 00 00 00
 
  -1 * 39       02

@@ -1,3 +1,18 @@
+OpenGFX r738
+---------------------------
+- Feature: New sprites for fruit and rubber plantations
+- Feature: Separate water for rivers
+- Feature: New park sprites to match trees and river water (issue #3081)
+- Feature: New road side trees to match other trees for temperate and arctic (issue #3081)
+- Feature: Improved construction stages for some tiles of the food processing plant
+- Feature: More undulating riverbanks for flat river tiles (issue #3011)
+
+- Fix: Provide new sprites for the used types of river mouths (issue #2981)
+- Fix: Some tree sprites were truncated (issue #3023)
+
+- Doc: Sprites of the waterfeatures
+
+
 OpenGFX 0.3.5 (17 Aug 2011)
 ---------------------------
 - Feature: Show outline of arctic church on ground tile
@@ -6,14 +21,16 @@ OpenGFX 0.3.5 (17 Aug 2011)
 - Feature: Update to tropic rail wagons
 - Feature: New rubber wagon sprites to match rail wagons rather than monolev wagons
 - Feature: New sprites for arctic CS2400 and MJS 1000
-- Feature: Revised arctic railcars 
+- Feature: Revised arctic railcars
 - Feature: Revised temperate rail wagons
 - Feature: Revised aircraft
 - Feature: Temperate locomotives resized to 28px
 - Feature: New ground tile for toyland buildings
 - Feature: Revised GuruX2 helicopter
 - Feature: Show outline of arctic church on ground tile
+
 - Change: [Makefile] Add nml2nfo to the buildsystem (will use nml releases)
+
 - Fix: Improve graphics of flatbed road vehicles
 - Fix: [Makefile] do not copy Makefile.local as this is still available, instead add a note of purpose to Makefile.dist
 - Fix: Tropic food monolev wagon was invisible

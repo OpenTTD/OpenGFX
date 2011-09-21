@@ -407,7 +407,7 @@ ogfxe_extra;176;239;64;[Type 04] PBS semaphore graphics;mb, Born Acorn;mb, Ammle
 ogfxe_extra;0;35;36;[Type 05] Overhead wires and pylon graphics;mb;mb;;1
 ogfxe_extra;36;47;12;[Type 05] Elrail GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxe_extra;0;89;90;[Type 06] Foundations for BuildOnSlopes and half tiles (NS and EW foundations);Zephyris;Zephyris;;1
-ogfxe_extra;0;3;4;[Type 08] Sloped water;Leppka;buttercup;;1
+ogfxe_extra;0;3;4;[Type 08] Sloped water;Leppka, planetmaker;buttercup;;1
 ogfxe_extra;4;51;48;[Type 08] Locks;FooBar, Red*Star;FooBar;;1
 ogfxe_extra;52;63;12;[Type 08] Canal watersides;Zephyris;buttercup;;1
 ogfxe_extra;64;64;1;[Type 08] GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
