@@ -85,11 +85,10 @@
  -1 * 6        07 83 01 \7! 03 01
  -1 * 7        03 05 01 02 00 41 00 // Dikes
 
-// Set graphics flag that we provide 5 sprites for river water
- -1 * 0        00 05 01 01 05 // canals, 1 property, 1 ID, start with ID 00
-					09 01
 
 // Random rapids for sloped rivers
+
+// Spritesets for OpenTTD >= 1.1.4 (r22923) with flat water
  -1 * 4        01 05 01 05
  -1 sprites/png/terrain/river_water.png     0   0 09 31 64 -31 0
  -1 sprites/png/terrain/waterfeatures.png 2 456 09 23 64 -31 0
@@ -220,7 +219,7 @@
 
  -1 * 39       02
         05 // Canals
-        10 // ID
+        20 // ID
         80 // RandomAction2
         00 // No trigger
         00 // Nothing can be re-randomized
@@ -242,12 +241,168 @@
         0E 00
         0F 00
 
+// Spritesets for OpenTTD < 1.1.4 (r22923) without flat water
+
+// Random rapids for sloped rivers
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 2 456 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 82 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 162 456 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 242 456 09 39 64 -31 -8
+ -1 * 7        02 05 10 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 354 456 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 434 456 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 514 456 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 594 456 09 39 64 -31 -8
+ -1 * 7        02 05 11 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 706 456 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 2 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 82 520 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 162 520 09 39 64 -31 -8
+ -1 * 7        02 05 12 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 274 520 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 354 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 434 520 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 514 520 09 39 64 -31 -8
+ -1 * 7        02 05 13 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 626 520 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 706 520 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 2 584 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 82 584 09 39 64 -31 -8
+ -1 * 7        02 05 14 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 194 584 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 274 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 354 584 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 434 584 09 39 64 -31 -8
+ -1 * 7        02 05 15 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 546 584 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 626 584 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 706 584 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 2 648 09 39 64 -31 -8
+ -1 * 7        02 05 16 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 114 648 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 194 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 274 648 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 354 648 09 39 64 -31 -8
+ -1 * 7        02 05 17 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 466 648 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 546 648 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 626 648 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 706 648 09 39 64 -31 -8
+ -1 * 7        02 05 18 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 18 712 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 98 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 178 712 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 258 712 09 39 64 -31 -8
+ -1 * 7        02 05 19 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 370 712 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 450 712 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 530 712 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 610 712 09 39 64 -31 -8
+ -1 * 7        02 05 1A 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 722 712 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 2 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 82 776 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 162 776 09 39 64 -31 -8
+ -1 * 7        02 05 1B 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 274 776 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 354 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 434 776 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 514 776 09 39 64 -31 -8
+ -1 * 7        02 05 1C 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 626 776 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 706 776 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 2 840 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 82 840 09 39 64 -31 -8
+ -1 * 7        02 05 1D 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 194 840 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 274 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 354 840 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 434 840 09 39 64 -31 -8
+ -1 * 7        02 05 1E 01 00 00 00
+
+ -1 * 4        01 05 01 04
+ -1 sprites/png/terrain/waterfeatures.png 546 840 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 626 840 09 39 64 -31 -8
+ -1 sprites/png/terrain/waterfeatures.png 706 840 09 23 64 -31 0
+ -1 sprites/png/terrain/waterfeatures.png 2 904 09 39 64 -31 -8
+ -1 * 7        02 05 1F 01 00 00 00
+
+ -1 * 39       02
+        05 // Canals
+        21 // ID
+        80 // RandomAction2
+        00 // No trigger
+        00 // Nothing can be re-randomized
+        10 // 16 Sets
+        10 00
+        11 00
+        12 00
+        13 00
+        14 00
+        15 00
+        16 00
+        17 00
+        18 00
+        19 00
+        1A 00
+        1B 00
+        1C 00
+        1D 00
+        1E 00
+        1F 00
+
+// Waterater features for OpenTTD >= 1.1.4 (r22918) with flat water sprite
+// Skip, if version is smaller
+ -1 * 0        09 A1 04 \7< \dx11405986 EE
+ // Set graphics flag that we provide 5 sprites for river water
+ -1 * 0        00 05 01 01 05 // canals, 1 property, 1 ID, start with ID 00
+					09 01
  -1 * 7        03
         05 // Canals
         01 // 1 set
         05 // river slopes
         00 //
-        10 00 // action2 ID
+        20 00 // action2 ID
+ -1 * 0        07 9A 01 \7= FF EF // Always now jump the code for older OpenTTD
+ -1 * 0        10 EE // Jump target for OpenTTD < 1.1.4 r22918
+
+// Action3 rivers for OpenTTD < 1.1.4 r22923 (without flat water sprite)
+ -1 * 7        03
+        05 // Canals
+        01 // 1 set
+        05 // river slopes
+        00 //
+        21 00 // action2 ID
+ -1 * 0        10 EF // Jump target for OpenTTD >= 1.1.4 r22918
 
 // Riverbanks for all climates and slopes, on normal terrain and river mouths
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate river mouth)
