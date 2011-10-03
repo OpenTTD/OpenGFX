@@ -425,7 +425,8 @@ ogfxe_extra;0;54;55;[Type 13] Autorail sprites;FooBar;n/a;;1
 ogfxe_extra;0;35;36;[Type 14] Flag sprites;OpenTTD Developers;OpenTTD Developers;;1
 ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp, andythenorth;Zephyris, planetmaker, Ammler;;1
 ogfxe_extra;0;155;159;[Type 16] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
-ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch123; planetmaker;;1
+ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
+ogfxe_extra;0;161;162;[Type 16] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
 ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1
 ogfxe_extra;0;843;844;River shores;planetmaker (flat, rivermouths), Leppka (normal sloped);planetmaker;;1
