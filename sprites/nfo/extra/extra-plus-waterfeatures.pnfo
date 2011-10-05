@@ -1191,3 +1191,21 @@
  -1 * 14       02 05 52 81 80 00 FF 01 50 00 00 00 51 00
  -1 * 6        07 83 01 \7! 03 01
  -1 * 7        03 05 01 06 00 52 00
+ 
+ // Buoys are snow-aware:
+ -1 * 4        01 05 \b1 \b1 // normal buoy
+ -1 sprites/png/infrastructure/buoy_map.png  0  0 09 20 20  0  0
+ -1 * 7        02 05 01 01 00 00 00
+ 
+ -1 * 4        01 05 \b1 \b1 // snowy buoy
+ -1 sprites/png/infrastructure/buoy_map.png  0 32 09 22 24  0  0
+ -1 * 7        02 05 02 01 00 00 00
+ 
+ -1 * 15       02 05 03 81
+                   81 00 04    // terrain type variable, check only "on or above snowline"
+				   01          // check one range
+				   02 00 04 04 // snowy tile
+				   01 00       // default: default tile
+
+ -1 * 7        03 05 01 08 00 03 00
+

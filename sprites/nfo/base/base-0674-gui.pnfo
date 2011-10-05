@@ -20,7 +20,7 @@
    22 sprites/png/gui/gui04.png 690   8 09 16 16 0 0             // vehicle view: set orders
    23 sprites/png/gui/gui04.png 722   8 09 16 16 0 0             // vehicle view: show details
    24 sprites/png/gui/gui04.png 754   8 09 16 16 0 0             // vehicle view: refit
-   25 sprites/png/miscellaneous/random.png 394 10 09 20 20 0 0
+   25 sprites/png/miscellaneous/random.png 394 10 09 20 20 0 0   // buoy for GUI
 							   //Terraform up/down icons
    26 sprites/png/gui/terraform_gui.png 3 9 03 20 20 0 0
    27 sprites/png/gui/terraform_gui.png 35 9 03 20 20 0 0

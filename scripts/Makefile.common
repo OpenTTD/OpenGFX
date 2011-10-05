@@ -72,7 +72,7 @@ test::
 
 .PRECIOUS: %.nfo %.nml %.cnfo
 .SECONDARY: %.nfo %.nml %.cnfo
-.DELETE_ON_ERROR: %.cnfo
+.DELETE_ON_ERROR: %.cnfo %.nfo
 
 %.txt: %.ptxt $(REV_FILENAME) $(MD5_FILENAME)
 	$(_E) "[TXT] $@"
