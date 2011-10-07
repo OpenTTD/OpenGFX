@@ -1,3 +1,12 @@
+OpenGFX 0.3.7 (07 Oct 2011)
+---------------------------
+- Feature: GUI sprites for autoreplace status for vehicle groups
+- Feature: Snow-aware buoy
+
+- Add: Information about used colour depth / required blitter
+
+
+
 OpenGFX 0.3.6 (21 Sep 2011)
 ---------------------------
 - Feature: New sprites for fruit and rubber plantations

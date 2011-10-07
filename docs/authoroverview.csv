@@ -412,6 +412,7 @@ ogfxe_extra;4;51;48;[Type 08] Locks;FooBar, Red*Star;FooBar;;1
 ogfxe_extra;52;63;12;[Type 08] Canal watersides;Zephyris;buttercup;;1
 ogfxe_extra;64;64;1;[Type 08] GUI;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxe_extra;0;693;693;2;Toyland buoy;2006TTD, planetmaker;planetmaker;;1
+ogfxe_extra;0;1;1;[Type 08] Snowy buoy; Leppka, FooBar, planetmaker; planetmaker;;1
 ogfxe_extra;0;5;6;[Type 09] One-way road arrows;FooBar;FooBar;;1
 ogfxe_extra;0;255;256;[Type 0A] Two company color translation maps;n/a;n/a;;1
 ogfxe_extra;0;112;113;[Type 0B] Tram tracks;FooBar, PikkaBird, Zephyris;FooBar;;1
