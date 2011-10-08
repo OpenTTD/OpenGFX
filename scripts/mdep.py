@@ -156,7 +156,8 @@ def output_deps(dependencies, opt_dict):
             sources.update(depnames)
         sources.discard(target)
 
-        handle.write(target + ": " + " ".join(sources) + "\n")
+        for dep in sources:
+            handle.write(target + ": " + dep + "\n")
         if opt_dict['touch']:
             handle.write("\t$(_V) touch $@\n")
 
