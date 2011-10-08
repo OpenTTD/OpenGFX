@@ -1,3 +1,26 @@
+
+%.obg: $(GRF_FILES) $(DESC_FILENAME) $(REV_FILENAME)
+	$(_E) "[ASSEMBLING] $@"
+	@echo "[metadata]" > $@
+	@echo "name        = $(REPO_NAME)" >> $@
+	@echo "shortname   = $(REPO_SHORTNAME)" >> $@
+	@echo "version     = $(REPO_REVISION)" >> $@
+	@echo "palette     = $(REPO_PALETTE)" >> $@
+	@echo "blitter     = $(REPO_BLITTER)" >> $@
+	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(REPO_TITLE)]/' >> $@
+
+	@echo "" >> $@
+	@echo "[files]" >> $@
+	$(_V) $(_V)for i in $(subst =, ,$(join $(foreach var,$(MAIN_FILENAME_TYPE),"$(var)=" ), $(foreach var,$(GRF_FILES),"$(var)"))); do printf "%-8s = %s\n" $$i | grep 'grf' >> $@; done
+
+	@echo "" >> $@
+	@echo "[md5s]" >> $@
+	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $@; done
+
+	@echo "" >> $@
+	@echo "[origin]" >> $@
+	@echo "$(REPO_ORIGIN)" >> $@
+
 # TTDPatch bundle:
 $(TTDP_BUNDLE): $(GRF_FILES) $(DOC_FILES) $(TTDP_DOC)
 	$(_E) "[BUNDLE] for TTDPatch"
