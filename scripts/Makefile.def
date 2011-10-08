@@ -6,7 +6,7 @@ shell = /bin/sh
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= $(shell [ `which nmlc`] && echo "nmlc" || echo "")
+NML            ?= $(shell [ `which nmlc` ] && echo "nmlc" || echo "")
 NML_FLAGS      ?= -c
 # NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -d\  -f1 | sed "s@r\([0-9]*\)[M]*@\1@g")
 
