@@ -121,8 +121,9 @@ def scan_files(startfiles, opt_dict):
         includes, graphics = scan_file(fname)
         good_inc, bad_inc = check_existence(opt_dict['include_dirs'], includes)
         good_gfx, bad_gfx = check_existence(opt_dict['include_dirs'], graphics)
-        dependencies[fname] = good_inc.union(bad_inc) \
-                              .union(good_gfx).union(bad_gfx)
+#        dependencies[fname] = good_inc.union(bad_inc) \
+#                              .union(good_gfx).union(bad_gfx)
+        dependencies[fname] = good_gfx.union(bad_gfx)
         if len(bad_inc) > 0 or len(bad_gfx) > 0:
             missing[fname] = bad_inc.union(bad_gfx)
 

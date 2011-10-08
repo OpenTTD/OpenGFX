@@ -11,30 +11,27 @@ DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ]
 # NFO-specific targets and rules
 ################################################################
 
-$(patsubst %.grf,%.src.dep,$(GRF_FILES)): $(REV_FILENAME) $(EXTRA_DEP)
+%.src.dep: $(REV_FILENAME) $(EXTRA_DEP)
 	$(_E) "[DEP] $@"
-ifeq ($(DEP_CHECK_TYPE),normal)
 	$(_V) $(CC) -C -M -MF $@ -E -MT $(NFO_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ - < $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
 	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.cnfo,$@)" >> $@
-endif
-ifeq ($(DEP_CHECK_TYPE),mdep)
-	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.cnfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) > $@
-endif
 
-%.gfx.dep: %.src.dep $(GRAPHICS_SOURCE_LIST_FILE)
+%.gfx.dep: %.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
 	$(_E) "[DEP] $@"
 	$(_V) echo "" > $@
 ifeq ($(DEP_CHECK_TYPE),normal)
 	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do if [ -f $$j ]; then for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; fi; done; done | sort | uniq >> $@
+else # DEP_CHECK_TYPE (mdep)
+	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.gfx.dep,%.grf,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.gfx.dep,%.pnfo,$@) > $@
+endif # DEP_CHECK_TYPE
 ifdef NEED_GIMP
 	$(_V) for name in $(GRAPHICS_SOURCE_LIST_FILE); do cat $${name} | grep -v '^#' | $(AWK) '{ print $$1".scm: "$$2" "}' >> $@; done
 endif # NEED_GIMP
-endif # DEP_CHECK_TYPE
 
-depend:: $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
+depend:: $(patsubst %.grf,%.gfx.dep,$(GRF_FILES)) $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 
 # Preprocessing into one file
-%.cnfo: %.pnfo $(REV_FILENAME)
+%.cnfo: $(SRC_DIR)/%.pnfo $(REV_FILENAME)
 	$(_E) "[CPP] $@"
 	$(_V) $(CC) $(CC_FLAGS) $< > $@
 
