@@ -18,9 +18,7 @@ DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ]
 %.gfx.dep: $(SRC_DIR)/%.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
 	$(_E) "[DEP] $@"
 	$(_V) echo "" > $@
-ifeq ($(DEP_CHECK_TYPE),normal)
-	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do if [ -f $$j ]; then for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; fi; done; done | sort | uniq >> $@
-else # DEP_CHECK_TYPE (mdep)
+ifeq ($(DEP_CHECK_TYPE),mdep)
 	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.gfx.dep,%.grf,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.gfx.dep,%.pnfo,$@) > $@
 endif # DEP_CHECK_TYPE
 ifdef NEED_GIMP
