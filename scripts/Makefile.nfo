@@ -11,12 +11,11 @@ DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ]
 # NFO-specific targets and rules
 ################################################################
 
-%.src.dep: $(REV_FILENAME) $(EXTRA_DEP)
+%.src.dep: $(SRC_DIR)/%.pnfo
 	$(_E) "[DEP] $@"
-	$(_V) $(CC) -C -M -MF $@ -E -MT $(NFO_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ - < $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
-	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.cnfo,$@)" >> $@
+	$(_V) $(CC) -C -M -MF $@ -E -MT $(SRC_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ - < $(SRC_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
 
-%.gfx.dep: %.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
+%.gfx.dep: $(SRC_DIR)/%.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
 	$(_E) "[DEP] $@"
 	$(_V) echo "" > $@
 ifeq ($(DEP_CHECK_TYPE),normal)
@@ -31,7 +30,7 @@ endif # NEED_GIMP
 depend:: $(patsubst %.grf,%.gfx.dep,$(GRF_FILES)) $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 
 # Preprocessing into one file
-%.cnfo: $(SRC_DIR)/%.pnfo $(REV_FILENAME)
+%.cnfo: %.pnfo $(REV_FILENAME)
 	$(_E) "[CPP] $@"
 	$(_V) $(CC) $(CC_FLAGS) $< > $@
 
@@ -44,9 +43,9 @@ depend:: $(patsubst %.grf,%.gfx.dep,$(GRF_FILES)) $(patsubst %.grf,%.src.dep,$(G
 	$(_V) $(NFORENUM) ${NFORENUM_FLAGS} $@ ; [ $$? -lt $(NFO_WARN_LEVEL) ] || ( echo "Fatal nforenum error!" && exit 1 )
 
 # run grfcodec
-%.grf: %.nfo
+%.grf: $(SRC_DIR)/%.nfo
 	$(_E) "[GRFCODEC] $@"
-	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@) .
+	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
 
 endif # project_type == NFO
 
@@ -55,8 +54,9 @@ endif # project_type == NFO
 ################################################################
 clean::
 	$(_E) "[CLEAN NFO]"
-	$(_V)-rm -rf $(patsubst %.grf,%.cnfo,$(GRF_FILES))
-	$(_V)-rm -rf $(patsubst %.grf,%.nfo,$(GRF_FILES))
+	$(_V)-rm -rf $(SRC_DIR)/$(patsubst %.grf,%.cnfo,$(GRF_FILES))
+	$(_V)-rm -rf $(SRC_DIR)/$(patsubst %.grf,%.nfo,$(GRF_FILES))
+	$(_V)-rm -rf $(SRC_DIR)/$(patsubst %.grf,%.bak,$(GRF_FILES))
 
 test::
 	$(_E) "nforenum:                     $(NFORENUM) $(NFORENUM_FLAGS)"
