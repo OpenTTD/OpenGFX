@@ -6,14 +6,14 @@ shell = /bin/sh
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= $(shell [ `which nmlc` ] && echo "nmlc" || echo "")
+NML            ?= $(shell [ `which nmlc 2>/dev/null` ] && echo "nmlc" || echo "")
 NML_FLAGS      ?= -c
 # NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -d\  -f1 | sed "s@r\([0-9]*\)[M]*@\1@g")
 
 CC             ?= gcc
 CC_FLAGS       ?= -C -E - <
 
-GIMP           ?= $(shell [ `which gimp` ] && echo "gimp" || echo "")
+GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
 GIMP_FLAGS     ?= -i -b - <
 
 # Macs have a different md5 command than linux or mingw envirnoment:
