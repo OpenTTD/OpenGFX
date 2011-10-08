@@ -1,44 +1,79 @@
 # Generic NewGRF Makefile
 
-# Name of the Makefile which contains all the settings which describe
-# how to make this newgrf. It defines all the paths, the grf name,
-# the files for a bundle etc.
-MAKEFILE=Makefile
-MAKEFILE_DEP=Makefile.dep
-
-# Include the project's configuration file
+# Necessary defines unique to this NewGRF
+-include Makefile.local
 include Makefile.config
 
-# this overrides definitions from above by individual settings
-# (if applicable):
--include Makefile.dist
--include Makefile.local
-
-# include the universal Makefile definitions for NewGRF Projects
+# Necessary defines common to all NewGRFs
 include scripts/Makefile.def
 
-# Check dependencies for building all:
-all: $(TARGET_FILES) $(DOC_FILES)
-	
-# Rules used by all projects
-include scripts/Makefile.common
+# most important build targets for users
+all:
+	$(_V) $(MAKE) $(MAKE_FLAGS) depend
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(TARGET_FILES) $(DOC_FILES)
 
-# Include the project type specific Makefiles. They take care of
-# their conditional inclusion themselves
--include scripts/Makefile_nfo # nfo-style projects
--include scripts/Makefile_nml # nml-style projects
--include scripts/Makefile_obg # additionally for graphic base sets
--include scripts/Makefile_obs # sound base sets
+docs: $(DOC_FILES)
 
-# Include repo-specific rules (if applicable)
--include Makefile.in
+grf: $(GRF_FILES)
+
+bundle: $(DIR_NAME)
+
+clean::
+	$(_E) "[CLEAN]"
+
+remake:
+	$(_V) $(MAKE) $(MAKE_FLAGS) clean
+	$(_V) $(MAKE) $(MAKE_FLAGS) all
+
+distclean:: clean
+	$(_E) "[DISTCLEAN]"
+
+# Include custom rules
 -include scripts/Makefile.in
 
-# Include rules for bundle generation
-include scripts/Makefile.bundles
+# Do not include the dependencies when we're cleaning
+#    or going to call make recursively again
+ifeq "$(MAKECMDGOALS)" ""
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "clean"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "distclean"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "remake"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "mrproper"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "maintainer-clean"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "all"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "depend"
+NODEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "test"
+NODEP = 1
+endif
 
-# Include dependencies (if applicable)
+ifndef NODEP
 -include Makefile.dep
 -include $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 -include $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
--include Makefile_gfx.dep # write png files from source psd/xcf files
+endif
+
+# Stuff common to all NewGRFs
+include scripts/Makefile.common
+
+# Include the language - specific makefile
+-include scripts/Makefile.nml
+-include scripts/Makefile.nfo
+
+# Include bundles etc
+include scripts/Makefile.bundles
+

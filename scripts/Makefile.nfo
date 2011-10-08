@@ -1,0 +1,67 @@
+ifdef USE_NFO
+
+# Extensions to be included in source releases
+FILE_SRC_EXTENSIONS ?= pnfo tnfo
+FILE_INC_EXTENSIONS ?= wav pcx
+
+# Dependency check type
+DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ] && echo "mdep" || echo "normal")
+
+################################################################
+# NFO-specific targets and rules
+################################################################
+
+$(patsubst %.grf,%.src.dep,$(GRF_FILES)): $(REV_FILENAME) $(EXTRA_DEP)
+	$(_E) "[DEP] $@"
+ifeq ($(DEP_CHECK_TYPE),normal)
+	$(_V) $(CC) -C -M -MF $@ -E -MT $(NFO_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ - < $(NFO_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
+	$(_V) echo "$@: $(patsubst %.src.dep,$(NFO_DIR)/%.cnfo,$@)" >> $@
+endif
+ifeq ($(DEP_CHECK_TYPE),mdep)
+	$(_V) $(SCRIPT_DIR)/mdep.py --target=$(patsubst %.src.dep,%.cnfo,$@) -I$(NFO_DIR) -Itemplates $(patsubst %.src.dep,%.pnfo,$@) > $@
+endif
+
+%.gfx.dep: %.src.dep $(GRAPHICS_SOURCE_LIST_FILE)
+	$(_E) "[DEP] $@"
+	$(_V) echo "" > $@
+ifeq ($(DEP_CHECK_TYPE),normal)
+	$(_V) for i in `cat $<`; do for j in `echo "$$i" | grep -iE "($(FILE_SRC_RE))"`; do if [ -f $$j ]; then for k in `cat $$j | grep -v '^//'| grep -E -o "[-|a-z|A-Z|0-9|_|/|\.]*\.($(FILE_INC_RE))"`; do echo "$(patsubst %.gfx.dep,%.grf,$@): $$k"; done; fi; done; done | sort | uniq >> $@
+ifdef NEED_GIMP
+	$(_V) for name in $(GRAPHICS_SOURCE_LIST_FILE); do cat $${name} | grep -v '^#' | $(AWK) '{ print $$1".scm: "$$2" "}' >> $@; done
+endif # NEED_GIMP
+endif # DEP_CHECK_TYPE
+
+depend:: $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
+
+# Preprocessing into one file
+%.cnfo: %.pnfo $(REV_FILENAME)
+	$(_E) "[CPP] $@"
+	$(_V) $(CC) $(CC_FLAGS) $< > $@
+
+# Replace any strings like grfID and run nforenum
+%.nfo: %.cnfo
+	$(_V) cat $< | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(REPO_TITLE_DUMMY)/$(REPO_TITLE)/" \
+		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
+		> $@
+	$(_E) "[NFORENUM] $@"
+	$(_V) $(NFORENUM) ${NFORENUM_FLAGS} $@ ; [ $$? -lt $(NFO_WARN_LEVEL) ] || ( echo "Fatal nforenum error!" && exit 1 )
+
+# run grfcodec
+%.grf: %.nfo
+	$(_E) "[GRFCODEC] $@"
+	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@) .
+
+endif # project_type == NFO
+
+################################################################
+# Definitions which extend the common rules
+################################################################
+clean::
+	$(_E) "[CLEAN NFO]"
+	$(_V)-rm -rf $(patsubst %.grf,%.cnfo,$(GRF_FILES))
+	$(_V)-rm -rf $(patsubst %.grf,%.nfo,$(GRF_FILES))
+
+test::
+	$(_E) "nforenum:                     $(NFORENUM) $(NFORENUM_FLAGS)"
+	$(_E) "grfcodec:                     $(GRFCODEC) $(GRFCODEC_FLAGS)"
+	$(_E) "Dependency check type:        $(DEP_CHECK_TYPE)"

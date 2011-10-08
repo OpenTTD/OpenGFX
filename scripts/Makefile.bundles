@@ -1,3 +1,8 @@
+################################################################
+# Binary bundle targets
+################################################################
+
+# Bundle directory
 $(DIR_NAME): $(MAKEFILE_DEP) $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[ASSEMBLING] $@"
@@ -6,11 +11,9 @@ $(DIR_NAME): $(MAKEFILE_DEP) $(BUNDLE_FILES)
 	$(_V) -for i in $(BUNDLE_FILES); do cp $(CP_FLAGS) $$i $@; done
 
 %.tar: %
-# Create the release bundle with all files in one tar
 	$(_E) "[TAR] $@"
 	$(_V) $(TAR) $(TAR_FLAGS) $@ $(basename $@)
 
-bundle: $(DIR_NAME)
 bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
 %.zip: $(DIR_NAME)
@@ -30,15 +33,13 @@ bundle_xz: $(XZ_FILENAME)
 	$(_E) "[XZ] $@"
 	$(_V) $(XZ) $(XZ_FLAGS) $^
 
-# Installation process
+################################################################
+# Install targets
+################################################################
 install: $(DIR_NAME)
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
 	$(_V) install -d $(INSTALL_DIR)
 	$(_V) install -m644 $(TARGET_FILES) $(INSTALL_DIR)
-ifdef INSTALLDIR
-	$(_E) [Warning] The use of 'INSTALLDIR' is deprecated and may be removed in the future.
-	$(_E) [Warning] Use 'INSTALL_DIR' instead.
-endif
 ifndef DO_NOT_INSTALL_DOCS
 ifneq ($(filter-out $(LICENSE_FILE) $(CHANGELOG_FILE),$(DOC_FILES)),)
 	$(_E) [INSTALL] docs to $(DOCDIR)
@@ -62,6 +63,9 @@ endif
 endif
 
 
+################################################################
+# Bundle source targets
+################################################################
 
 md5: $(MD5_FILENAME)
 
@@ -82,24 +86,35 @@ bundle_gsrc: $(DIR_NAME_SRC).tar.gz
 bundle_xsrc: $(DIR_NAME_SRC).tar.xz
 bundle_zsrc: $(DIR_NAME_SRC).zip
 
-$(DIR_NAME_SRC): $(REV_FILENAME) $(MD5_SRC_FILENAME)
+# Addition to config for tar releases
+Makefile.dist: $(REV_FILENAME) $(SCRIPT_DIR)/Makefile.bundles
+	$(_V) echo '################################################################' > $@
+	$(_V) echo '# Definitions needed for tar releases' >> $@
+	$(_V) echo '# This part is automatically generated' >> $@
+	$(_V) echo '################################################################' >> $@
+	$(_V) echo 'REPO_REVISION := $(REPO_REVISION)' >> $@
+	$(_V) echo 'REPO_BRANCH := $(REPO_BRANCH)' >> $@
+	$(_V) echo 'REPO_MODIFIED := $(REPO_MODIFIED)' >> $@
+	$(_V) echo 'REPO_TAGS    := $(REPO_TAGS)'    >> $@
+	$(_V) echo 'HG := :' >> $@
+	$(_V) echo 'DIST_DIRS := $(VPATH)' >> $@
+	$(_V) echo 'DEP_CHECK_TYPE := normal' >> $@
+	$(_V) echo 'FROM_TAR := 1' >> $@
+
+ifneq ("$(strip $(HG))",":")
+$(DIR_NAME_SRC): $(shell $(HG) status -m -a -d -c -n) $(REV_FILENAME) $(MD5_SRC_FILENAME) Makefile.dist
 	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
-	$(_V) rm -rf $(DIR_NAME_SRC) $(DIR_NAME_SRC).tar.gz
-	$(_V) mkdir -p $(DIR_NAME_SRC)
-	$(_V) mkdir -p $(addprefix $(DIR_NAME_SRC)/,$(shell for i in $(REPO_DIRS); do for j in $(MAIN_DIRS); do echo $$i | grep -E "^$$j"; done; done))
-	$(_V) for k in `for i in $(REPO_FILES); do for j in $(MAIN_DIRS); do echo "$$i" | grep -E "^$$j" | grep -E -v $(FILES_NOT_PACK_RE); done; done;`; do cp $(CP_FLAGS) $$k $(addprefix $(DIR_NAME_SRC)/,$$k); done
-	$(_V) for k in `for i in $(REPO_FILES); do echo "$$i" | grep -v "/" | grep -E -v $(FILES_NOT_PACK_RE); done;`; do cp $(CP_FLAGS) $$k $(DIR_NAME_SRC); done
+	$(_V)-rm -rf $@
+	$(_V) for i in $(shell $(HG) status -m -a -d -c -n | grep -v -E '$(RE_FILES_NO_SRC_BUNDLE)'); do mkdir -p $@/`dirname $$i`; cp $(CP_FLAGS) $$i $@/$$i; done
 	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
-	$(_V) echo "# This file is auto generated to make source bundle independent from Mercurial repository." > $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo "" >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_REVISION = $(REPO_REVISION)' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_BRANCH = $(REPO_BRANCH)' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_MODIFIED = $(REPO_MODIFIED)' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'HG = :' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_FILES = $(REPO_FILES)' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'REPO_DIRS = $(REPO_DIRS)' >> $(DIR_NAME_SRC)/Makefile.dist
-	$(_V) echo 'DEP_CHECK_TYPE = normal' >> $(DIR_NAME_SRC)/Makefile.dist
+	$(_V) cat Makefile.dist >> $(DIR_NAME_SRC)/Makefile.local
+else
+$(DIR_NAME_SRC):
+	$(_E) "Source releases can only be made from a hg checkout."
+	$(_V) false
+endif
+
+bundle_tarsrc: $(DIR_NAME_SRC).tar
 
 $(INSTALL_DIR):
 	$(_E) "[WRITING]"

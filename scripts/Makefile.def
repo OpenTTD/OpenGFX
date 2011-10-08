@@ -1,65 +1,82 @@
 shell = /bin/sh
 
-# We want to disable the default rules. It's not c/c++ anyway
-.SUFFIXES:
-
-# Legacy settings for project type
-ifeq ($(PROJECT_TYPE),NFO)
-USE_NFO := 1
-endif
-ifeq ($(PROJECT_TYPE),NML)
-USE_NML := 1
-endif
-
 ################################################################
 # Programme definitions / search paths
 ################################################################
-# Build parameters and programmes
-NFORENUM_FLAGS ?= $(shell [ `$(NFORENUM) -s -v 2>/dev/null | wc -l ` -eq 1 ] && echo "-s" || echo "")
-NFO_WARN_LEVEL ?= 4 
-GRFCODEC_FLAGS ?= $(shell $(GRFCODEC) -s -v >/dev/null 2>/dev/null && echo "-s" || echo "") -e -p 2 -c
-CATCODEC_FLAGS ?= -e
-GIMP_FLAGS     ?= -i -b - <
-TAR_FLAGS      ?= -cf
-ZIP_FLAGS      ?= -9rq
-GZIP_FLAGS     ?= -9f
-BZIP_FLAGS     ?= -9fk
-XZ_FLAGS       ?= -efk
+MAKE           ?= make
+MAKE_FLAGS     ?= -r
+
+NML            ?= nmlc
+NML_FLAGS      ?= -c
+# NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -d\  -f1 | sed "s@r\([0-9]*\)[M]*@\1@g")
+
+CC             ?= gcc
 CC_FLAGS       ?= -C -E - <
-MAKE_FLAGS     ?=
+
+GIMP           ?= $(shell [ `which gimp` ] && echo "gimp" || echo "")
+GIMP_FLAGS     ?= -i -b - <
+
+# Macs have a different md5 command than linux or mingw envirnoment:
+MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
+
+TAR            ?= tar
+TAR_FLAGS      ?= -cf
+
+ZIP            ?= zip
+ZIP_FLAGS      ?= -9rq
+
+GZIP           ?= gzip
+GZIP_FLAGS     ?= -9f
+
+BZIP           ?= bzip2
+BZIP_FLAGS     ?= -9fk
+
+XZ             ?= xz
+XZ_FLAGS       ?= -efk
+
+NFORENUM       ?= nforenum
+NFORENUM_FLAGS ?= $(shell [ `$(NFORENUM) -s -v 2>/dev/null | wc -l ` -eq 1 ] && echo "-s" || echo "")
+NFO_WARN_LEVEL ?= 4
+
+GRFCODEC       ?= grfcodec
+GRFCODEC_FLAGS ?= $(shell $(GRFCODEC) -s -v >/dev/null 2>/dev/null && echo "-s" || echo "") -e -p 2 -c
+
+CATCODEC       ?= catcodec
+CATCODEC_FLAGS ?= -e
+
+AWK            ?= awk
+
+GREP           ?= grep
+
+HG             ?= hg
+
+UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
-NML_FLAGS      ?=
+
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
-
-NFORENUM       ?= nforenum
-GRFCODEC       ?= grfcodec
-CATCODEC       ?= catcodec
-GIMP           ?= $(shell [ `which gimp` ] && echo "gimp" || echo "")
-TAR            ?= tar
-ZIP            ?= zip
-GZIP           ?= gzip
-BZIP           ?= bzip2
-XZ             ?= xz
-CC             ?= gcc
-AWK            ?= awk
-HG             ?= hg
-MAKE           ?= make
-UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
-# Macs have a different md5 command than linux or mingw envirnoment:
-MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
-NML            ?= nmlc
-
 SCRIPT_DIR     ?= scripts
-SRC_DIR        ?= sprites
-NFO_DIR        ?= $(SRC_DIR)/nfo
+SRC_DIR        ?= src
 DOC_DIR        ?= docs
 ifdef USE_NML
 LANG_DIR       ?= lang
+LANG_EXTENSION ?= lng
 endif
 
+# Regular expression which excludes files from source bundle
+ifndef RE_FILES_NO_SRC_BUNDLE
+RE_FILES_NO_SRC_BUNDLE = ^.devzone|^.hg
+else
+RE_FILES_NO_SRC_BUNDLE = $(RE_FILES_NO_SRC_BUNDLE)|^.devzone|^.hg
+endif
+
+################################################################
+# OS-specific definitions and paths
+################################################################
 PROJECT_NAME := $(basename $(firstword $(TARGET_FILES)))
+
+# Determine the OS we run on and set the default install path accordingly
 OSTYPE:=$(shell uname -s)
 ifeq ($(OSTYPE),Linux)
 INSTALL_DIR?=$(HOME)/.openttd/data/$(PROJECT_NAME)
@@ -85,26 +102,6 @@ endif
 endif
 DOCDIR ?= $(INSTALL_DIR)
 
-# Previous versions used INSTALLDIR instead of INSTALL_DIR. Use the previous version,
-# if supplied via command line parameter:
-
-ifdef INSTALLDIR
-INSTALL_DIR = $(INSTALLDIR)
-endif
-
-# file extentions which indicate plain text source files, 
-# parsable by a text editor (SRC) and binary source files (INC)
-ifdef USE_NFO
-	FILE_SRC_EXTENSIONS ?= pnfo tnfo
-	FILE_INC_EXTENSIONS ?= wav pcx
-endif
-ifdef USE_NML
-	FILE_SRC_EXTENSIONS ?= pnml nml tnml
-	FILE_INC_EXTENSIONS ?= wav pcx png
-	TAG_FILENAME := custom_tags.txt
-	LANG_FILES := $(shell ls $(LANG_DIR)/*.lng)
-endif
-
 ################################################################
 # Get the Repository revision, tags and the modified status
 # The displayed name within OpenTTD / TTDPatch
@@ -114,16 +111,27 @@ endif
 ################################################################
 # This must be conditional declarations, or building from the tar.gz won't work anymore
 DEFAULT_BRANCH_NAME ?=
+
+# HG revision
 REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
+
+# Whether there are local changes
 REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+
+# Branch name
 REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
+
+# Any tag which is not 'tip'
 REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
-REPO_FILES_CMD ?= $(HG) --config "ui.slash=1" st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
-REPO_FILES     ?= $(shell $(REPO_FILES_CMD))
-REPO_DIRS      ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
+
+# Filename addition, if we're not building the default branch
 REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "$(REPO_BRANCH)-"; fi)
-REPO_VERSION   ?= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH_STRING)r$(REPO_REVISION)$(REPO_MODIFIED))
-REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION)
+
+# The shown version is either a tag, or in the absence of a tag the revision.
+REPO_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH_STRING)r$(REPO_REVISION)$(REPO_MODIFIED))
+
+# The title consists of name and version
+REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION_STRING)
 
 ################################################################
 # Rules on how to generate filenames. Usually no need to change
@@ -134,14 +142,12 @@ REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION)
 # a release build (tagged version): mynewgrf-0.1
 # followed by an M, if the source repository is not a clean version.
 
-VPATH =
-VPATH = $(REPO_DIRS)
-
+# Common to all filenames
 FILENAME_STUB      := $(firstword $(basename $(TARGET_FILES)))
+
 DIR_BASE           := $(FILENAME_STUB)-
-VERSION_STRING     := $(REPO_VERSION)
-DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(VERSION_STRING) || echo $(FILENAME_STUB))
-VERSIONED_FILENAME := $(DIR_BASE)$(VERSION_STRING)
+DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(DIR_BASE)$(REPO_VERSION_STRING) || echo $(FILENAME_STUB))
+VERSIONED_FILENAME := $(DIR_BASE)$(REPO_VERSION_STRING)
 DIR_NAME_SRC       := $(VERSIONED_FILENAME)-source
 
 TAR_FILENAME       := $(DIR_NAME).tar
@@ -149,10 +155,9 @@ BZIP_FILENAME      := $(TAR_FILENAME).bz2
 GZIP_FILENAME      := $(TAR_FILENAME).gz
 XZ_FILENAME        := $(TAR_FILENAME).xz
 ZIP_FILENAME       := $(VERSIONED_FILENAME).zip
-REV_EXTENSION      ?= REV
 MD5_FILENAME       := $(DIR_NAME).md5
 MD5_SRC_FILENAME   := $(DIR_NAME).check.md5
-REV_FILENAME       := $(VERSIONED_FILENAME).$(REV_EXTENSION)
+REV_FILENAME       := .version
 # customly defined tags. Don't change the filename.
 FILE_CUSTOM_TAGS   := custom_tags.txt
 
@@ -167,16 +172,15 @@ GRF_FILES          := $(filter %.grf,$(TARGET_FILES))
 LICENSE_FILE       ?= $(filter $(DOC_DIR)/license.txt,$(DOC_FILES))
 CHANGELOG_FILE     ?= $(filter $(DOC_DIR)/changelog.txt,$(DOC_FILES))
 
-# Directories which to remember when creating a source release
-MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG_DIR) $(EXTRA_DIRS)
+MAKEFILE_DEP       := Makefile.dep
 
-FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | sed -e "s/[[:space:]]/|/g")
-FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | sed -e "s/[[:space:]]/|/g")
-FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|\.hgeol|backup\.push|\.devzone)"
-
-# Make a bit of a guess on which dependency check we should use as default, if not defined otherwise
-# mdep doesn't yet work for NML style projects
-DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ] && echo "mdep" || echo "normal")
+# Check whether we can use gimp
+ifneq ("$(strip $(GRAPHICS_SOURCE_LIST_FILES))", "")
+NEED_GIMP = "yes"
+ifneq ("$(GIMP)", "")
+USE_GIMP := "yes"
+endif # GIMP
+endif # GRAPHICS_SOURCE_LIST_FILE
 
 # Remove the @ when you want a more verbose output.
 _V ?= @

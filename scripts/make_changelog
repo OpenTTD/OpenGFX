@@ -1,0 +1,127 @@
+#!/bin/bash
+#
+# Script to generate a first version of a changelog from a
+# mercurial repository with the commit style as of the DevZone
+# (c) 2011 Ingo von Borstel
+
+function make_changelog () {
+    echo "Changelog for $1$2"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Feature"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Change"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Add"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Codechange"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Fix"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Revert"
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -e "^- Doc" \
+		| grep -v "changelog"
+
+    hg log -b $1 --template="$SHOWREV- {desc}\n" $2 \
+		| sed "s/ (r[0-9].*):/:/g" \
+		| grep -v "Added tag " \
+		| sed "s/ \(#[0-9].*\):\(.*\)/:\2 (issue \1)/g" \
+		| grep -v "^- Feature" \
+		| grep -v "^- Change" \
+		| grep -v "^- Fix" \
+		| grep -v "^- Doc" \
+		| grep -v "^- Add" \
+		| grep -v "^- Revert" \
+		| grep -v "^- Codechange"
+}
+
+
+if [ $# -gt 2 ]; then
+    echo "No parameters given!"
+    echo "Usage: $0 [-rXXX:YYY] [--showrev]"
+    echo "where optionally XXX and YYY denote a revision number or tag name."
+	echo "--showrev allows to prefix each change with the revision number which"
+	echo "          implements that particular change".
+    exit 1
+fi
+
+CURRENT_BRANCH=`hg id -b`
+CURRENT_REV=`hg id -n | cut -d+ -f1`
+CURRENT_BRANCH_START_REV=`hg log -b $CURRENT_BRANCH --template='{rev}\n' | tail -n1`
+TIP_REV=`hg id -rtip -n`
+TIP_BRANCH=`hg id -b -rtip`
+
+REVS=
+SHOWREV=
+
+# parse the arguments
+optarr=( $(getopt -o 'r:s' --long 'revision:,showrev' -- "$@") )
+
+i=0
+while true; do
+    case ${optarr[$i]} in
+        -s|--showrev) SHOWREV="{rev}: " ; ((i++));;
+        -r|--revision) REVS=`echo "-r${optarr[$((i+1))]}" | sed "s/'//g"`;((i=i+2));;
+        --) ((i++)); break;;
+        *) echo "Internal Error!"; exit 1;;
+        esac
+done
+
+if [ -z $REVS ]; then
+    # We create by default the changelog from the last tag to the current revision:
+    TAGS=`hg tags`
+    # get the last tag and its properties:
+    TAG=`hg tags | head -n2 | tail -n1 | cut -d\  -f1`
+    TAG_BRANCH=`hg id -b -r$TAG`
+    if [ $TAG_BRANCH != $CURRENT_BRANCH ]; then
+        START_REV=`hg log -b $CURRENT_BRANCH --template='{rev}\n' | tail -n1`
+    else
+        START_REV=$TAG
+    fi
+    # get the branching revision of the tag. Everything from there to our current 
+    # branch's start is needed for the changelog, too (presumably)
+    REVS=-r$START_REV:$CURRENT_REV
+else
+	TAG_BRANCH=$CURRENT_BRANCH
+fi
+
+if [ $TIP_REV != $CURRENT_REV ]; then
+    echo "Warning! Current revision ($CURRENT_BRANCH-$CURRENT_REV) is not tip ($TIP_BRANCH-$TIP_REV)!"
+    echo ""
+fi;
+
+make_changelog $CURRENT_BRANCH $REVS
+if [ $CURRENT_BRANCH != $TAG_BRANCH ]; then
+    echo ""
+    if [ $TAG_BRANCH != "default" ]; then
+        START_REV=`hg log -b $TAG_BRANCH --template='{rev}\n' | tail -n1`
+        echo "Changelog from start of $TAG_BRANCH-branch (r$START_REV) to start of $CURRENT_BRANCH-branch (r$CURRENT_BRANCH_START_REV)"
+        echo "Pay attention to remove duplicate entries, if you backported stuff to the $TAG_BRANCH-branch"
+    else
+        START_REV=`hg id -n -r$TAG`
+        echo "Changelog from $TAG (r$START_REV) to start of $CURRENT_BRANCH-branch (r$CURRENT_BRANCH_START_REV)"
+    fi
+    echo ""
+    make_changelog default -r$START_REV:$CURRENT_BRANCH_START_REV
+fi
