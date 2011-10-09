@@ -1,0 +1,15 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+// Water and shore tiles (8-tile version)
+base_graphics(4061, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") { tmpl_level_ground(1, 1) }
+base_graphics(4062, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") { tmpl_8shore_tiles(1, 1) }
+
+// ship depot
+base_graphics(4070, "sprites/png/infrastructure/infra06.png") { [ 386, 5080,  64,  64, -61, -48] }
+base_graphics(4071, "sprites/png/infrastructure/infra06.png") { [ 466, 5080,  64,  64,  -1, -47] }
+base_graphics(4072, "sprites/png/infrastructure/infra06.png") { [ 546, 5080,  32,  53, -29, -37] }
+base_graphics(4073, "sprites/png/infrastructure/infra06.png") { [ 594, 5080,  32,  53,  -1, -36] }
+base_graphics(4074, "sprites/png/infrastructure/infra06.png") { [ 642, 5080,  14,  13, -31,   2] }
+base_graphics(4075, "sprites/png/infrastructure/infra06.png") { [ 674, 5080,  14,  13,  19,   3] }
+
+base_graphics(4076, "sprites/png/miscellaneous/empty.png") { [   0,    0,   1,   1,   0,   0] } // unused buoy sprite
