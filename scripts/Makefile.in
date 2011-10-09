@@ -47,23 +47,23 @@ ogfxe_extra.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/extra | sed "s@nml
 
 sprites/nfo/base/%.pnfo: sprites/nml/base/%.pnml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
 
 sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.pnml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
 
 sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.pnml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
 
 sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.pnml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
 
 sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.pnml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^0*//"`
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
 
 sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.pnml
 	$(_E) "[NML2NFO] $@"
