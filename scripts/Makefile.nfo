@@ -13,9 +13,9 @@ DEP_CHECK_TYPE     ?=$(shell [ `which python 2>/dev/null` ] && [ -z $(USE_NML) ]
 
 %.src.dep: $(SRC_DIR)/%.pnfo
 	$(_E) "[DEP] $@"
-	$(_V) $(CC) -C -M -MF $@ -E -MT $(SRC_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ - < $(SRC_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
+	$(_V) $(CC) -C -M -MF $@ -E -MT $(SRC_DIR)/$(patsubst %.src.dep,%.cnfo,$@) -MT $@ -MT $(SRC_DIR)/$(patsubst %.src.dep,%.gfx.dep,$@) - < $(SRC_DIR)/$(patsubst %.src.dep,%.pnfo,$@)
 
-%.gfx.dep: $(SRC_DIR)/%.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
+%.gfx.dep: %.src.dep $(SRC_DIR)/%.pnfo $(GRAPHICS_SOURCE_LIST_FILE)
 	$(_E) "[DEP] $@"
 	$(_V) echo "" > $@
 ifeq ($(DEP_CHECK_TYPE),mdep)

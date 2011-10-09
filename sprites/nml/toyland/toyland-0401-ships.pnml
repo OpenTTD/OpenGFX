@@ -21,4 +21,4 @@ template tmpl_ship_16x32(x,y) {
 }
 
 base_graphics(401, "sprites/png/ships/toyland_ships.png") { tmpl_ship_19x39(14, 12) }
-base_graphics(416, "sprites/png/ships/toyland_ships.png") { tmpl_ship_16x32(14, 63) }
+base_graphics(409, "sprites/png/ships/toyland_ships.png") { tmpl_ship_16x32(14, 63) }
