@@ -32,8 +32,7 @@ clean::
 	$(_V)-rm -rf $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
 	$(_V)-rm -rf $(patsubst %.grf,%.md5,$(GRF_FILES))
 ifdef NEED_GIMP
-	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\([pP][cCnN][xXgG]\)/scm/")
-	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
+	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/")
 endif # NEED_GIMP
 	$(_V)-rm -rf $(DIR_NAME)
 	$(_V)-rm -rf $(DIR_BASE)*-source
@@ -115,7 +114,8 @@ test::
 Makefile.dep: $(GRAPHICS_SOURCE_LIST_FILES) Makefile Makefile.config $(SCRIPT_DIR)/Makefile.common $(SCRIPT_DIR)/Makefile.def $(SCRIPT_DIR)/Makefile.bundles
 	$(_E) "[DEP] $@"
 ifdef NEED_GIMP
-	$(_V) for i in `cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\([pP][cCnN][xXgG]\)/scm/"`; do echo "$$i: $(GRAPHICS_SOURCE_LIST_FILES)" > $@; done
+	$(_V) echo "" > $@
+	$(_V) for j in $(GRAPHICS_SOURCE_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/"`; do echo "$$i: $$j" >> $@; done; done
 	$(_V) cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | sed "s/[ ] */ /g" | cut -d\  -f1-2 | sed "s/ /: /g" >> $@
 else # NEED_GIMP
 	$(_V) touch $@
@@ -144,14 +144,11 @@ ifdef NEED_GIMP
 	$(_V) echo "(gimp-quit 0)" >> $@
 
 # create the png file. And make sure it's re-created even when present in the repo
-%.png: %.scm
+%.gimp.png: %.gimp.scm
 	$(_E) "[GIMP] $@"
 ifdef USE_GIMP
 	$(_V) $(GIMP) $(GIMP_FLAGS) $< >/dev/null
 	$(_V) touch $@
-else # USE_GIMP
-	$(_E) "... Gimp not found. Graphis cannot be created. Terminating."
-	$(_V) false
 endif # USE_GIMP
 endif # NEED_GIMP
 
@@ -161,4 +158,4 @@ endif # NEED_GIMP
 
 addcheck:
 	$(_E) "[ADDCHECK] for missing repo files:"
-	$(_V) for i in `$(HG) status -u -i -n | grep -E '($(FILE_SRC_RE)|grf)$$'`; do hg st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
+	$(_V) for i in `$(HG) status -u -i -n | grep -E '($(FILE_SRC_RE)|grf)$$'`; do $(HG) st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
