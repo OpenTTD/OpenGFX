@@ -120,6 +120,14 @@ ifdef NEED_GIMP
 else # NEED_GIMP
 	$(_V) touch $@
 endif # NEED_GIMP
+ifneq ($(strip $(NML)),)
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/base);     do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/arctic);   do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/tropical); do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/logo);     do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/toyland);  do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+	$(_V) for i in $(shell $(HG) st -m -a -c -n sprites/nml/extra);    do $(CC) $(CC_FLAGS) $$i | grep -v "^#" | $(NML) -M --MT `echo $$i | sed "s@nml@nfo@g"` --MF $$i.dep; echo "-include $$i.dep" >> $@; done
+endif
 
 # Create the dependencies. Allow project types to define their own
 $(REV_FILENAME):

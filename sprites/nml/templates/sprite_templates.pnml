@@ -1,0 +1,84 @@
+/*
+ * This file is part of OpenGFX.
+ * OpenGFX is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+ * OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+template tmpl_level_ground(x, y) {
+    [ x, y, 64, 31, -31,  0 ]
+}
+template tmpl_normal_slope(x, y, zoffset) {
+    [ x, y, 64, 31, -31,  zoffset ]
+}
+
+template tmpl_groundtiles(x, y) {
+    [   0+x,   y, 64, 31, -31,  0 ]
+    [  80+x,   y, 64, 31, -31,  0 ]
+    [ 160+x,   y, 64, 23, -31,  0 ]
+    [ 240+x,   y, 64, 23, -31,  0 ]
+
+    [ 320+x,   y, 64, 31, -31,  0 ]
+    [ 398+x,   y, 64, 31, -31,  0 ]
+    [ 478+x,   y, 64, 23, -31,  0 ]
+    [ 558+x,   y, 64, 23, -31,  0 ]
+
+    [ 638+x,   y, 64, 39, -31, -8 ]
+    [ 718+x,   y, 64, 39, -31, -8 ]
+    [ 798+x,   y, 64, 31, -31, -8 ]
+    [ 878+x,   y, 64, 31, -31, -8 ]
+
+    [ 958+x,   y, 64, 39, -31, -8 ]
+    [1038+x,   y, 64, 39, -31, -8 ]
+    [1118+x,   y, 64, 31, -31, -8 ]
+    [1196+x,   y, 64, 47, -31,-16 ]
+
+    [1276+x,   y, 64, 15, -31,  0 ]
+    [1356+x,   y, 64, 31, -31, -8 ]
+    [1436+x,   y, 64, 31, -31, -8 ]
+}
+
+template tmpl_rough(x, y) {
+    tmpl_level_ground(    x, y)
+    tmpl_level_ground( 65+x, y)
+    tmpl_level_ground(130+x, y)
+    tmpl_level_ground(195+x, y)
+}
+
+template tmpl_additional_rough(x, y) {
+	tmpl_rough(1501+x, y)
+}
+
+template tmpl_16shore_tiles(x, y) {
+    [1276+x,   y, 64, 15, -31,  0 ]
+    [  80+x,   y, 64, 31, -31,  0 ]
+    [ 160+x,   y, 64, 23, -31,  0 ]
+    [ 240+x,   y, 64, 23, -31,  0 ]
+
+    [ 320+x,   y, 64, 31, -31,  0 ]
+    [1356+x,   y, 64, 31, -31, -8 ]
+    [ 478+x,   y, 64, 23, -31,  0 ]
+    [ 558+x,   y, 64, 23, -31,  0 ]
+
+    [ 638+x,   y, 64, 39, -31, -8 ]
+    [ 718+x,   y, 64, 39, -31, -8 ]
+    [1196+x,   y, 64, 47, -31,-16 ]
+    [ 878+x,   y, 64, 31, -31, -8 ]
+
+    [ 958+x,   y, 64, 39, -31, -8 ]
+    [1038+x,   y, 64, 39, -31, -8 ]
+    [1118+x,   y, 64, 31, -31, -8 ]
+    [1436+x,   y, 64, 31, -31, -8 ]
+}
+
+template tmpl_8shore_tiles(x, y) {
+    [ 320+x,   y, 64, 31, -31,  0 ]
+    [  80+x,   y, 64, 31, -31,  0 ]
+    [ 160+x,   y, 64, 23, -31,  0 ]
+    [ 638+x,   y, 64, 39, -31, -8 ]
+
+    [ 478+x,   y, 64, 23, -31,  0 ]
+    [ 958+x,   y, 64, 39, -31, -8 ]
+    [ 240+x,   y, 64, 23, -31,  0 ]
+    [ 718+x,   y, 64, 39, -31, -8 ]
+}

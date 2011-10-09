@@ -6,8 +6,8 @@ Makefile.local
 Makefile.dist
 Makefile.dep
 *.scm
-*.src.dep
-*.gfx.dep
+*.dep
+*.nml
 .version
 parsetab.py
 

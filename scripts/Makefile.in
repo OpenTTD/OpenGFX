@@ -45,29 +45,32 @@ ogfxi_logo.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/logo | sed "s@nml@n
 ogfxt_toyland.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/toyland | sed "s@nml@nfo@g")
 ogfxe_extra.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/extra | sed "s@nml@nfo@g")
 
-sprites/nfo/base/%.pnfo: sprites/nml/base/%.pnml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
+%.nml: %.pnml
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< > $@
 
-sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.pnml
+sprites/nfo/base/%.pnfo: sprites/nml/base/%.nml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
 
-sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.pnml
+sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.nml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
 
-sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.pnml
+sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.nml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
 
-sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.pnml
+sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.nml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"`
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
 
-sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.pnml
+sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.nml
 	$(_E) "[NML2NFO] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< | $(NML) $(NML_FLAGS) --nfo $@
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
+
+sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.nml
+	$(_E) "[NML2NFO] $@"
+	$(_V) $(NML) $(NML_FLAGS) --nfo $@ $<
 
 maintainer-clean::
 	$(_V)-for i in `$(HG) st -m -a -c -n sprites/nml | sed "s@nml@nfo@g" | grep -v 'templates'`; do rm $$i; done

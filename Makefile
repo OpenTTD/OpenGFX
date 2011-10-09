@@ -9,6 +9,7 @@ include scripts/Makefile.def
 
 # most important build targets for users
 all:
+	$(_V) $(MAKE) Makefile.dep
 	$(_V) $(MAKE) $(MAKE_FLAGS) depend
 	$(_V) $(MAKE) $(MAKE_FLAGS) $(TARGET_FILES) $(DOC_FILES)
 
@@ -35,23 +36,33 @@ distclean:: clean
 #    or going to call make recursively again
 ifeq "$(MAKECMDGOALS)" ""
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "clean"
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "distclean"
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "remake"
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "mrproper"
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "maintainer-clean"
 NODEP = 1
+PREDEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "all"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "Makefile.dep"
 NODEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "depend"
@@ -59,10 +70,14 @@ NODEP = 1
 endif
 ifeq "$(MAKECMDGOALS)" "test"
 NODEP = 1
+PREDEP = 1
+endif
+
+ifndef PREDEP
+-include Makefile.dep
 endif
 
 ifndef NODEP
--include Makefile.dep
 -include $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 -include $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
 endif
