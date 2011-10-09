@@ -111,7 +111,7 @@ test::
 # Dependency check targets
 ################################################################
 
-Makefile.dep: $(GRAPHICS_SOURCE_LIST_FILES) Makefile Makefile.config $(SCRIPT_DIR)/Makefile.common $(SCRIPT_DIR)/Makefile.def $(SCRIPT_DIR)/Makefile.bundles
+Makefile.dep: $(GRAPHICS_SOURCE_LIST_FILES) Makefile Makefile.config $(SCRIPT_DIR)/Makefile.common $(SCRIPT_DIR)/Makefile.def $(SCRIPT_DIR)/Makefile.bundles $(shell $(HG) st -m -a -c -n sprites/nml)
 	$(_E) "[DEP] $@"
 ifdef NEED_GIMP
 	$(_V) echo "" > $@
