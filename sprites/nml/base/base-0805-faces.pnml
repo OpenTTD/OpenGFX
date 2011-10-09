@@ -1,0 +1,194 @@
+template tmpl_default_face() { [0, 0, 92, 119, 0, 0] }
+
+//805-911 white manager faces
+base_graphics( 805, "sprites/png/gui/gui04.png") { [ 354, 1000,  92, 119,   0,   0] }
+base_graphics( 806, "sprites/png/gui/gui04.png") { [ 466, 1000,  92, 119,   0,   0] }
+base_graphics( 807, "sprites/png/gui/gui04.png") { [ 578, 1000,  92, 119,   0,   0] }
+base_graphics( 808, "sprites/png/gui/gui04.png") { [ 690, 1000,  92, 119,   0,   0] }
+base_graphics( 809, "sprites/png/gui/gui04.png") { [   2, 1144,  92, 119,   0,   0] }
+base_graphics( 810, "sprites/png/gui/gui04.png") { [ 114, 1144,  92, 119,   0,   0] }
+base_graphics( 811, "sprites/png/gui/gui04.png") { [ 226, 1144,  92, 119,   0,   0] }
+base_graphics( 812, "sprites/png/gui/gui04.png") { [ 338, 1144,  92, 119,   0,   0] }
+base_graphics( 813, "sprites/png/gui/gui04.png") { [ 450, 1144,  92, 119,   0,   0] }
+base_graphics( 814, "sprites/png/gui/gui04.png") { [ 562, 1144,  92, 119,   0,   0] }
+base_graphics( 815, "sprites/png/gui/gui04.png") { [ 674, 1144,  92, 119,   0,   0] }
+base_graphics( 816, "sprites/png/gui/gui04.png") { [   2, 1288,  92, 119,   0,   0] }
+base_graphics( 817, "sprites/png/gui/gui04.png") { [ 114, 1288,  92, 119,   0,   0] }
+base_graphics( 818, "sprites/png/gui/gui04.png") { [ 226, 1288,  92, 119,   0,   0] }
+base_graphics( 819, "sprites/png/gui/gui04.png") { [ 338, 1288,  92, 119,   0,   0] }
+base_graphics( 820, "sprites/png/gui/gui04.png") { [ 450, 1288,  92, 119,   0,   0] }
+base_graphics( 821, "sprites/png/gui/gui04.png") { [ 562, 1288,  92, 119,   0,   0] }
+base_graphics( 822, "sprites/png/gui/gui04.png") { [ 674, 1288,  92, 119,   0,   0] }
+base_graphics( 823, "sprites/png/gui/gui04.png") { [   2, 1432,  92, 119,   0,   0] }
+base_graphics( 824, "sprites/png/gui/gui04.png") { [ 114, 1432,  92, 119,   0,   0] }
+base_graphics( 825, "sprites/png/gui/gui04.png") { [ 226, 1432,  92, 119,   0,   0] }
+base_graphics( 826, "sprites/png/gui/gui04.png") { [ 338, 1432,  92, 119,   0,   0] }
+base_graphics( 827, "sprites/png/gui/gui04.png") { [ 450, 1432,  92, 119,   0,   0] }
+base_graphics( 828, "sprites/png/gui/gui04.png") { [ 562, 1432,  92, 119,   0,   0] }
+base_graphics( 829, "sprites/png/gui/gui04.png") { [ 674, 1432,  92, 119,   0,   0] }
+base_graphics( 830, "sprites/png/gui/gui04.png") { [   2, 1576,  92, 119,   0,   0] }
+base_graphics( 831, "sprites/png/gui/gui04.png") { [ 114, 1576,  92, 119,   0,   0] }
+base_graphics( 832, "sprites/png/gui/gui04.png") { [ 226, 1576,  92, 119,   0,   0] }
+base_graphics( 833, "sprites/png/gui/gui04.png") { [ 338, 1576,  92, 119,   0,   0] }
+base_graphics( 834, "sprites/png/gui/gui04.png") { [ 450, 1576,  92, 119,   0,   0] }
+base_graphics( 835, "sprites/png/gui/gui04.png") { [ 562, 1576,  92, 119,   0,   0] }
+base_graphics( 836, "sprites/png/gui/gui04.png") { [ 674, 1576,  92, 119,   0,   0] }
+base_graphics( 837, "sprites/png/gui/gui04.png") { [   2, 1720,  92, 119,   0,   0] }
+base_graphics( 838, "sprites/png/gui/gui04.png") { [ 114, 1720,  92, 119,   0,   0] }
+base_graphics( 839, "sprites/png/gui/gui04.png") { [ 226, 1720,  92, 119,   0,   0] }
+base_graphics( 840, "sprites/png/gui/gui04.png") { [ 338, 1720,  92, 119,   0,   0] }
+base_graphics( 841, "sprites/png/gui/gui04.png") { [ 450, 1720,  92, 119,   0,   0] }
+base_graphics( 842, "sprites/png/gui/gui04.png") { [ 562, 1720,  92, 119,   0,   0] }
+base_graphics( 843, "sprites/png/gui/gui04.png") { [ 674, 1720,  92, 119,   0,   0] }
+base_graphics( 844, "sprites/png/gui/gui04.png") { [   2, 1864,  92, 119,   0,   0] }
+base_graphics( 845, "sprites/png/gui/gui04.png") { [ 114, 1864,  92, 119,   0,   0] }
+base_graphics( 846, "sprites/png/gui/gui04.png") { [ 226, 1864,  92, 119,   0,   0] }
+base_graphics( 847, "sprites/png/gui/gui04.png") { [ 338, 1864,  92, 119,   0,   0] }
+base_graphics( 848, "sprites/png/gui/gui04.png") { [ 450, 1864,  92, 119,   0,   0] }
+base_graphics( 849, "sprites/png/gui/gui04.png") { [ 562, 1864,  92, 119,   0,   0] }
+base_graphics( 850, "sprites/png/gui/gui04.png") { [ 674, 1864,  92, 119,   0,   0] }
+base_graphics( 851, "sprites/png/gui/gui04.png") { [   2, 2008,  92, 119,   0,   0] }
+base_graphics( 852, "sprites/png/gui/gui04.png") { [ 114, 2008,  92, 119,   0,   0] }
+base_graphics( 853, "sprites/png/gui/gui04.png") { [ 226, 2008,  92, 119,   0,   0] }
+base_graphics( 854, "sprites/png/gui/gui04.png") { [ 338, 2008,  92, 119,   0,   0] }
+base_graphics( 855, "sprites/png/gui/gui04.png") { [ 450, 2008,  92, 119,   0,   0] }
+base_graphics( 856, "sprites/png/gui/gui04.png") { [ 562, 2008,  92, 119,   0,   0] }
+base_graphics( 857, "sprites/png/gui/gui04.png") { [ 674, 2008,  92, 119,   0,   0] }
+base_graphics( 858, "sprites/png/gui/gui04.png") { [   2, 2152,  92, 119,   0,   0] }
+base_graphics( 859, "sprites/png/gui/gui04.png") { [ 114, 2152,  92, 119,   0,   0] }
+base_graphics( 860, "sprites/png/gui/gui04.png") { [ 226, 2152,  92, 119,   0,   0] }
+base_graphics( 861, "sprites/png/gui/gui04.png") { [ 338, 2152,  92, 119,   0,   0] }
+base_graphics( 862, "sprites/png/gui/gui04.png") { [ 450, 2152,  92, 119,   0,   0] }
+base_graphics( 863, "sprites/png/gui/gui04.png") { [ 562, 2152,  92, 119,   0,   0] }
+base_graphics( 864, "sprites/png/gui/gui04.png") { [ 674, 2152,  92, 119,   0,   0] }
+base_graphics( 865, "sprites/png/gui/gui04.png") { [   2, 2296,  92, 119,   0,   0] }
+base_graphics( 866, "sprites/png/gui/gui04.png") { [ 114, 2296,  92, 119,   0,   0] }
+base_graphics( 867, "sprites/png/gui/gui04.png") { [ 226, 2296,  92, 119,   0,   0] }
+base_graphics( 868, "sprites/png/gui/gui04.png") { [ 338, 2296,  92, 119,   0,   0] }
+base_graphics( 869, "sprites/png/gui/gui04.png") { [ 450, 2296,  92, 119,   0,   0] }
+base_graphics( 870, "sprites/png/gui/gui04.png") { [ 562, 2296,  92, 119,   0,   0] }
+base_graphics( 871, "sprites/png/gui/gui04.png") { [ 674, 2296,  92, 119,   0,   0] }
+base_graphics( 872, "sprites/png/gui/gui04.png") { [   2, 2440,  92, 119,   0,   0] }
+base_graphics( 873, "sprites/png/gui/gui04.png") { [ 114, 2440,  92, 119,   0,   0] }
+base_graphics( 874, "sprites/png/gui/gui04.png") { [ 226, 2440,  92, 119,   0,   0] }
+base_graphics( 875, "sprites/png/gui/gui04.png") { [ 338, 2440,  92, 119,   0,   0] }
+base_graphics( 876, "sprites/png/gui/gui04.png") { [ 450, 2440,  92, 119,   0,   0] }
+base_graphics( 877, "sprites/png/gui/gui04.png") { [ 562, 2440,  92, 119,   0,   0] }
+base_graphics( 878, "sprites/png/gui/gui04.png") { [ 674, 2440,  92, 119,   0,   0] }
+base_graphics( 879, "sprites/png/gui/gui04.png") { [   2, 2584,  92, 119,   0,   0] }
+base_graphics( 880, "sprites/png/gui/gui04.png") { [ 114, 2584,  92, 119,   0,   0] }
+base_graphics( 881, "sprites/png/gui/gui04.png") { [ 226, 2584,  92, 119,   0,   0] }
+base_graphics( 882, "sprites/png/gui/gui04.png") { [ 338, 2584,  92, 119,   0,   0] }
+base_graphics( 883, "sprites/png/gui/gui04.png") { [ 450, 2584,  92, 119,   0,   0] }
+base_graphics( 884, "sprites/png/gui/gui04.png") { [ 562, 2584,  92, 119,   0,   0] }
+base_graphics( 885, "sprites/png/gui/gui04.png") { [ 674, 2584,  92, 119,   0,   0] }
+base_graphics( 886, "sprites/png/gui/gui04.png") { [   2, 2728,  92, 119,   0,   0] }
+base_graphics( 887, "sprites/png/gui/gui04.png") { [ 114, 2728,  92, 119,   0,   0] }
+base_graphics( 888, "sprites/png/gui/gui04.png") { [ 226, 2728,  92, 119,   0,   0] }
+base_graphics( 889, "sprites/png/gui/gui04.png") { [ 338, 2728,  92, 119,   0,   0] }
+base_graphics( 890, "sprites/png/gui/gui04.png") { [ 450, 2728,  92, 119,   0,   0] }
+base_graphics( 891, "sprites/png/AfricanManagerFaces/891.png") { tmpl_default_face() }
+base_graphics( 892, "sprites/png/AfricanManagerFaces/892.png") { tmpl_default_face() }
+base_graphics( 893, "sprites/png/AfricanManagerFaces/893.png") { tmpl_default_face() }
+base_graphics( 894, "sprites/png/AfricanManagerFaces/894.png") { tmpl_default_face() }
+base_graphics( 895, "sprites/png/gui/gui04.png") { [ 226, 2872,  92, 119,   0,   0] }
+base_graphics( 896, "sprites/png/gui/gui04.png") { [ 338, 2872,  92, 119,   0,   0] }
+base_graphics( 897, "sprites/png/gui/gui04.png") { [ 450, 2872,  92, 119,   0,   0] }
+base_graphics( 898, "sprites/png/gui/gui04.png") { [ 562, 2872,  92, 119,   0,   0] }
+base_graphics( 899, "sprites/png/gui/gui04.png") { [ 674, 2872,  92, 119,   0,   0] }
+base_graphics( 900, "sprites/png/gui/gui04.png") { [   2, 3016,  92, 119,   0,   0] }
+base_graphics( 901, "sprites/png/gui/gui04.png") { [ 114, 3016,  92, 119,   0,   0] }
+base_graphics( 902, "sprites/png/gui/gui04.png") { [ 226, 3016,  92, 119,   0,   0] }
+base_graphics( 903, "sprites/png/gui/gui04.png") { [ 338, 3016,  92, 119,   0,   0] }
+base_graphics( 904, "sprites/png/gui/gui04.png") { [ 450, 3016,  92, 119,   0,   0] }
+base_graphics( 905, "sprites/png/gui/gui04.png") { [ 562, 3016,  92, 119,   0,   0] }
+base_graphics( 906, "sprites/png/gui/gui04.png") { [ 674, 3016,  92, 119,   0,   0] }
+base_graphics( 907, "sprites/png/gui/gui04.png") { [   2, 3160,  92, 119,   0,   0] }
+base_graphics( 908, "sprites/png/gui/gui04.png") { [ 114, 3160,  92, 119,   0,   0] }
+base_graphics( 909, "sprites/png/gui/gui04.png") { [ 226, 3160,  92, 119,   0,   0] }
+base_graphics( 910, "sprites/png/gui/gui04.png") { [ 338, 3160,  92, 119,   0,   0] }
+base_graphics( 911, "sprites/png/gui/gui04.png") { [ 450, 3160,  92, 119,   0,   0] }
+
+//912-989 black manager faces
+base_graphics( 912, "sprites/png/AfricanManagerFaces/912.png") { tmpl_default_face() }
+base_graphics( 913, "sprites/png/AfricanManagerFaces/913.png") { tmpl_default_face() }
+base_graphics( 914, "sprites/png/AfricanManagerFaces/914.png") { tmpl_default_face() }
+base_graphics( 915, "sprites/png/AfricanManagerFaces/915.png") { tmpl_default_face() }
+base_graphics( 916, "sprites/png/AfricanManagerFaces/916.png") { tmpl_default_face() }
+base_graphics( 917, "sprites/png/AfricanManagerFaces/917.png") { tmpl_default_face() }
+base_graphics( 918, "sprites/png/AfricanManagerFaces/918.png") { tmpl_default_face() }
+base_graphics( 919, "sprites/png/AfricanManagerFaces/919.png") { tmpl_default_face() }
+base_graphics( 920, "sprites/png/AfricanManagerFaces/920.png") { tmpl_default_face() }
+base_graphics( 921, "sprites/png/AfricanManagerFaces/921.png") { tmpl_default_face() }
+base_graphics( 922, "sprites/png/AfricanManagerFaces/922.png") { tmpl_default_face() }
+base_graphics( 923, "sprites/png/AfricanManagerFaces/923.png") { tmpl_default_face() }
+base_graphics( 924, "sprites/png/AfricanManagerFaces/924.png") { tmpl_default_face() }
+base_graphics( 925, "sprites/png/AfricanManagerFaces/925.png") { tmpl_default_face() }
+base_graphics( 926, "sprites/png/AfricanManagerFaces/926.png") { tmpl_default_face() }
+base_graphics( 927, "sprites/png/AfricanManagerFaces/927.png") { tmpl_default_face() }
+base_graphics( 928, "sprites/png/AfricanManagerFaces/928.png") { tmpl_default_face() }
+base_graphics( 929, "sprites/png/AfricanManagerFaces/929.png") { tmpl_default_face() }
+base_graphics( 930, "sprites/png/AfricanManagerFaces/930.png") { tmpl_default_face() }
+base_graphics( 931, "sprites/png/AfricanManagerFaces/931.png") { tmpl_default_face() }
+base_graphics( 932, "sprites/png/AfricanManagerFaces/932.png") { tmpl_default_face() }
+base_graphics( 933, "sprites/png/AfricanManagerFaces/933.png") { tmpl_default_face() }
+base_graphics( 934, "sprites/png/AfricanManagerFaces/934.png") { tmpl_default_face() }
+base_graphics( 935, "sprites/png/AfricanManagerFaces/935.png") { tmpl_default_face() }
+base_graphics( 936, "sprites/png/AfricanManagerFaces/936.png") { tmpl_default_face() }
+base_graphics( 937, "sprites/png/AfricanManagerFaces/937.png") { tmpl_default_face() }
+base_graphics( 938, "sprites/png/AfricanManagerFaces/938.png") { tmpl_default_face() }
+base_graphics( 939, "sprites/png/AfricanManagerFaces/939.png") { tmpl_default_face() }
+base_graphics( 940, "sprites/png/AfricanManagerFaces/940.png") { tmpl_default_face() }
+base_graphics( 941, "sprites/png/AfricanManagerFaces/941.png") { tmpl_default_face() }
+
+// Re-use sunglasses
+base_graphics( 942, "sprites/png/gui/gui04.png") { [ 226, 1720,  92, 119,   0,   0] }
+base_graphics( 943, "sprites/png/gui/gui04.png") { [ 338, 1720,  92, 119,   0,   0] }
+
+
+base_graphics( 944, "sprites/png/AfricanManagerFaces/944.png") { tmpl_default_face() }
+base_graphics( 945, "sprites/png/AfricanManagerFaces/945.png") { tmpl_default_face() }
+base_graphics( 946, "sprites/png/AfricanManagerFaces/946.png") { tmpl_default_face() }
+base_graphics( 947, "sprites/png/AfricanManagerFaces/947.png") { tmpl_default_face() }
+base_graphics( 948, "sprites/png/AfricanManagerFaces/948.png") { tmpl_default_face() }
+base_graphics( 949, "sprites/png/AfricanManagerFaces/949.png") { tmpl_default_face() }
+base_graphics( 950, "sprites/png/AfricanManagerFaces/950.png") { tmpl_default_face() }
+base_graphics( 951, "sprites/png/AfricanManagerFaces/951.png") { tmpl_default_face() }
+base_graphics( 952, "sprites/png/AfricanManagerFaces/952.png") { tmpl_default_face() }
+base_graphics( 953, "sprites/png/AfricanManagerFaces/953.png") { tmpl_default_face() }
+base_graphics( 954, "sprites/png/AfricanManagerFaces/954.png") { tmpl_default_face() }
+base_graphics( 955, "sprites/png/AfricanManagerFaces/955.png") { tmpl_default_face() }
+base_graphics( 956, "sprites/png/AfricanManagerFaces/956.png") { tmpl_default_face() }
+base_graphics( 957, "sprites/png/AfricanManagerFaces/957.png") { tmpl_default_face() }
+base_graphics( 958, "sprites/png/AfricanManagerFaces/958.png") { tmpl_default_face() }
+base_graphics( 959, "sprites/png/AfricanManagerFaces/959.png") { tmpl_default_face() }
+base_graphics( 960, "sprites/png/AfricanManagerFaces/960.png") { tmpl_default_face() }
+base_graphics( 961, "sprites/png/AfricanManagerFaces/961.png") { tmpl_default_face() }
+base_graphics( 962, "sprites/png/AfricanManagerFaces/962.png") { tmpl_default_face() }
+base_graphics( 963, "sprites/png/AfricanManagerFaces/963.png") { tmpl_default_face() }
+base_graphics( 964, "sprites/png/AfricanManagerFaces/964.png") { tmpl_default_face() }
+base_graphics( 965, "sprites/png/AfricanManagerFaces/965.png") { tmpl_default_face() }
+base_graphics( 966, "sprites/png/AfricanManagerFaces/966.png") { tmpl_default_face() }
+base_graphics( 967, "sprites/png/AfricanManagerFaces/967.png") { tmpl_default_face() }
+base_graphics( 968, "sprites/png/AfricanManagerFaces/968.png") { tmpl_default_face() }
+base_graphics( 969, "sprites/png/AfricanManagerFaces/969.png") { tmpl_default_face() }
+base_graphics( 970, "sprites/png/AfricanManagerFaces/970.png") { tmpl_default_face() }
+base_graphics( 971, "sprites/png/AfricanManagerFaces/971.png") { tmpl_default_face() }
+base_graphics( 972, "sprites/png/AfricanManagerFaces/972.png") { tmpl_default_face() }
+base_graphics( 973, "sprites/png/AfricanManagerFaces/973.png") { tmpl_default_face() }
+base_graphics( 974, "sprites/png/AfricanManagerFaces/974.png") { tmpl_default_face() }
+base_graphics( 975, "sprites/png/AfricanManagerFaces/975.png") { tmpl_default_face() }
+base_graphics( 976, "sprites/png/AfricanManagerFaces/976.png") { tmpl_default_face() }
+base_graphics( 977, "sprites/png/AfricanManagerFaces/977.png") { tmpl_default_face() }
+base_graphics( 978, "sprites/png/AfricanManagerFaces/978.png") { tmpl_default_face() }
+base_graphics( 979, "sprites/png/AfricanManagerFaces/979.png") { tmpl_default_face() }
+base_graphics( 980, "sprites/png/AfricanManagerFaces/980.png") { tmpl_default_face() }
+base_graphics( 981, "sprites/png/AfricanManagerFaces/981.png") { tmpl_default_face() }
+base_graphics( 982, "sprites/png/AfricanManagerFaces/982.png") { tmpl_default_face() }
+base_graphics( 983, "sprites/png/AfricanManagerFaces/983.png") { tmpl_default_face() }
+base_graphics( 984, "sprites/png/AfricanManagerFaces/984.png") { tmpl_default_face() }
+base_graphics( 985, "sprites/png/AfricanManagerFaces/985.png") { tmpl_default_face() }
+base_graphics( 986, "sprites/png/AfricanManagerFaces/986.png") { tmpl_default_face() }
+base_graphics( 987, "sprites/png/AfricanManagerFaces/987.png") { tmpl_default_face() }
+base_graphics( 988, "sprites/png/AfricanManagerFaces/988.png") { tmpl_default_face() }
+base_graphics( 989, "sprites/png/AfricanManagerFaces/989.png") { tmpl_default_face() }

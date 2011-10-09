@@ -1,190 +1,377 @@
-//805-911 white manager faces
-#define FACES_DEFAULT  0  0 03 119 92 0 0
-  407 sprites/png/gui/gui04.png 354 1000 03 119 92 0 0
-  408 sprites/png/gui/gui04.png 466 1000 03 119 92 0 0
-  409 sprites/png/gui/gui04.png 578 1000 03 119 92 0 0
-  410 sprites/png/gui/gui04.png 690 1000 03 119 92 0 0
-  411 sprites/png/gui/gui04.png 2 1144 03 119 92 0 0
-  412 sprites/png/gui/gui04.png 114 1144 03 119 92 0 0
-  413 sprites/png/gui/gui04.png 226 1144 03 119 92 0 0
-  414 sprites/png/gui/gui04.png 338 1144 03 119 92 0 0
-  415 sprites/png/gui/gui04.png 450 1144 03 119 92 0 0
-  416 sprites/png/gui/gui04.png 562 1144 03 119 92 0 0
-  417 sprites/png/gui/gui04.png 674 1144 03 119 92 0 0
-  418 sprites/png/gui/gui04.png 2 1288 03 119 92 0 0
-  419 sprites/png/gui/gui04.png 114 1288 03 119 92 0 0
-  420 sprites/png/gui/gui04.png 226 1288 03 119 92 0 0
-  421 sprites/png/gui/gui04.png 338 1288 03 119 92 0 0
-  422 sprites/png/gui/gui04.png 450 1288 03 119 92 0 0
-  423 sprites/png/gui/gui04.png 562 1288 03 119 92 0 0
-  424 sprites/png/gui/gui04.png 674 1288 03 119 92 0 0
-  425 sprites/png/gui/gui04.png 2 1432 03 119 92 0 0
-  426 sprites/png/gui/gui04.png 114 1432 03 119 92 0 0
-  427 sprites/png/gui/gui04.png 226 1432 03 119 92 0 0
-  428 sprites/png/gui/gui04.png 338 1432 03 119 92 0 0
-  429 sprites/png/gui/gui04.png 450 1432 03 119 92 0 0
-  430 sprites/png/gui/gui04.png 562 1432 03 119 92 0 0
-  431 sprites/png/gui/gui04.png 674 1432 03 119 92 0 0
-  432 sprites/png/gui/gui04.png 2 1576 03 119 92 0 0
-  433 sprites/png/gui/gui04.png 114 1576 03 119 92 0 0
-  434 sprites/png/gui/gui04.png 226 1576 03 119 92 0 0
-  435 sprites/png/gui/gui04.png 338 1576 03 119 92 0 0
-  436 sprites/png/gui/gui04.png 450 1576 03 119 92 0 0
-  437 sprites/png/gui/gui04.png 562 1576 03 119 92 0 0
-  438 sprites/png/gui/gui04.png 674 1576 03 119 92 0 0
-  439 sprites/png/gui/gui04.png 2 1720 03 119 92 0 0
-  440 sprites/png/gui/gui04.png 114 1720 03 119 92 0 0
-  441 sprites/png/gui/gui04.png 226 1720 03 119 92 0 0
-  442 sprites/png/gui/gui04.png 338 1720 03 119 92 0 0
-  443 sprites/png/gui/gui04.png 450 1720 03 119 92 0 0
-  444 sprites/png/gui/gui04.png 562 1720 03 119 92 0 0
-  445 sprites/png/gui/gui04.png 674 1720 03 119 92 0 0
-  446 sprites/png/gui/gui04.png 2 1864 03 119 92 0 0
-  447 sprites/png/gui/gui04.png 114 1864 03 119 92 0 0
-  448 sprites/png/gui/gui04.png 226 1864 03 119 92 0 0
-  449 sprites/png/gui/gui04.png 338 1864 03 119 92 0 0
-  450 sprites/png/gui/gui04.png 450 1864 03 119 92 0 0
-  451 sprites/png/gui/gui04.png 562 1864 03 119 92 0 0
-  452 sprites/png/gui/gui04.png 674 1864 03 119 92 0 0
-  453 sprites/png/gui/gui04.png 2 2008 03 119 92 0 0
-  454 sprites/png/gui/gui04.png 114 2008 03 119 92 0 0
-  455 sprites/png/gui/gui04.png 226 2008 03 119 92 0 0
-  456 sprites/png/gui/gui04.png 338 2008 03 119 92 0 0
-  457 sprites/png/gui/gui04.png 450 2008 03 119 92 0 0
-  458 sprites/png/gui/gui04.png 562 2008 03 119 92 0 0
-  459 sprites/png/gui/gui04.png 674 2008 03 119 92 0 0
-  460 sprites/png/gui/gui04.png 2 2152 03 119 92 0 0
-  461 sprites/png/gui/gui04.png 114 2152 03 119 92 0 0
-  462 sprites/png/gui/gui04.png 226 2152 03 119 92 0 0
-  463 sprites/png/gui/gui04.png 338 2152 03 119 92 0 0
-  464 sprites/png/gui/gui04.png 450 2152 03 119 92 0 0
-  465 sprites/png/gui/gui04.png 562 2152 03 119 92 0 0
-  466 sprites/png/gui/gui04.png 674 2152 03 119 92 0 0
-  467 sprites/png/gui/gui04.png 2 2296 03 119 92 0 0
-  468 sprites/png/gui/gui04.png 114 2296 03 119 92 0 0
-  469 sprites/png/gui/gui04.png 226 2296 03 119 92 0 0
-  470 sprites/png/gui/gui04.png 338 2296 03 119 92 0 0
-  471 sprites/png/gui/gui04.png 450 2296 03 119 92 0 0
-  472 sprites/png/gui/gui04.png 562 2296 03 119 92 0 0
-  473 sprites/png/gui/gui04.png 674 2296 03 119 92 0 0
-  474 sprites/png/gui/gui04.png 2 2440 03 119 92 0 0
-  475 sprites/png/gui/gui04.png 114 2440 03 119 92 0 0
-  476 sprites/png/gui/gui04.png 226 2440 03 119 92 0 0
-  477 sprites/png/gui/gui04.png 338 2440 03 119 92 0 0
-  478 sprites/png/gui/gui04.png 450 2440 03 119 92 0 0
-  479 sprites/png/gui/gui04.png 562 2440 03 119 92 0 0
-  480 sprites/png/gui/gui04.png 674 2440 03 119 92 0 0
-  481 sprites/png/gui/gui04.png 2 2584 03 119 92 0 0
-  482 sprites/png/gui/gui04.png 114 2584 03 119 92 0 0
-  483 sprites/png/gui/gui04.png 226 2584 03 119 92 0 0
-  484 sprites/png/gui/gui04.png 338 2584 03 119 92 0 0
-  485 sprites/png/gui/gui04.png 450 2584 03 119 92 0 0
-  486 sprites/png/gui/gui04.png 562 2584 03 119 92 0 0
-  487 sprites/png/gui/gui04.png 674 2584 03 119 92 0 0
-  488 sprites/png/gui/gui04.png 2 2728 03 119 92 0 0
-  489 sprites/png/gui/gui04.png 114 2728 03 119 92 0 0
-  490 sprites/png/gui/gui04.png 226 2728 03 119 92 0 0
-  491 sprites/png/gui/gui04.png 338 2728 03 119 92 0 0
-  492 sprites/png/gui/gui04.png 450 2728 03 119 92 0 0
-  891 sprites/png/AfricanManagerFaces/891.png FACES_DEFAULT
-  892 sprites/png/AfricanManagerFaces/892.png FACES_DEFAULT
-  893 sprites/png/AfricanManagerFaces/893.png FACES_DEFAULT
-  894 sprites/png/AfricanManagerFaces/894.png FACES_DEFAULT
-  497 sprites/png/gui/gui04.png 226 2872 03 119 92 0 0
-  498 sprites/png/gui/gui04.png 338 2872 03 119 92 0 0
-  499 sprites/png/gui/gui04.png 450 2872 03 119 92 0 0
-  500 sprites/png/gui/gui04.png 562 2872 03 119 92 0 0
-  501 sprites/png/gui/gui04.png 674 2872 03 119 92 0 0
-  502 sprites/png/gui/gui04.png 2 3016 03 119 92 0 0
-  503 sprites/png/gui/gui04.png 114 3016 03 119 92 0 0
-  504 sprites/png/gui/gui04.png 226 3016 03 119 92 0 0
-  505 sprites/png/gui/gui04.png 338 3016 03 119 92 0 0
-  506 sprites/png/gui/gui04.png 450 3016 03 119 92 0 0
-  507 sprites/png/gui/gui04.png 562 3016 03 119 92 0 0
-  508 sprites/png/gui/gui04.png 674 3016 03 119 92 0 0
-  509 sprites/png/gui/gui04.png 2 3160 03 119 92 0 0
-  510 sprites/png/gui/gui04.png 114 3160 03 119 92 0 0
-  511 sprites/png/gui/gui04.png 226 3160 03 119 92 0 0
-  512 sprites/png/gui/gui04.png 338 3160 03 119 92 0 0
-  513 sprites/png/gui/gui04.png 450 3160 03 119 92 0 0
+// Automatically generated by GRFCODEC. Do not modify!
+// (Info version 7)
+// Escapes: 2+ 2- 2< 2> 2u< 2u> 2/ 2% 2u/ 2u% 2* 2& 2| 2^ 2sto = 2s 2rst = 2r 2psto 2ror = 2rot 2cmp 2ucmp 2<< 2u>> 2>>
+// Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
+// Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-//912-989 black manager faces
-  912 sprites/png/AfricanManagerFaces/912.png FACES_DEFAULT
-  913 sprites/png/AfricanManagerFaces/913.png FACES_DEFAULT
-  914 sprites/png/AfricanManagerFaces/914.png FACES_DEFAULT
-  915 sprites/png/AfricanManagerFaces/915.png FACES_DEFAULT
-  916 sprites/png/AfricanManagerFaces/916.png FACES_DEFAULT
-  917 sprites/png/AfricanManagerFaces/917.png FACES_DEFAULT
-  918 sprites/png/AfricanManagerFaces/918.png FACES_DEFAULT
-  919 sprites/png/AfricanManagerFaces/919.png FACES_DEFAULT
-  920 sprites/png/AfricanManagerFaces/920.png FACES_DEFAULT
-  921 sprites/png/AfricanManagerFaces/921.png FACES_DEFAULT
-  922 sprites/png/AfricanManagerFaces/922.png FACES_DEFAULT
-  923 sprites/png/AfricanManagerFaces/923.png FACES_DEFAULT
-  924 sprites/png/AfricanManagerFaces/924.png FACES_DEFAULT
-  925 sprites/png/AfricanManagerFaces/925.png FACES_DEFAULT
-  926 sprites/png/AfricanManagerFaces/926.png FACES_DEFAULT
-  927 sprites/png/AfricanManagerFaces/927.png FACES_DEFAULT
-  928 sprites/png/AfricanManagerFaces/928.png FACES_DEFAULT
-  929 sprites/png/AfricanManagerFaces/929.png FACES_DEFAULT
-  930 sprites/png/AfricanManagerFaces/930.png FACES_DEFAULT
-  931 sprites/png/AfricanManagerFaces/931.png FACES_DEFAULT
-  932 sprites/png/AfricanManagerFaces/932.png FACES_DEFAULT
-  933 sprites/png/AfricanManagerFaces/933.png FACES_DEFAULT
-  934 sprites/png/AfricanManagerFaces/934.png FACES_DEFAULT
-  935 sprites/png/AfricanManagerFaces/935.png FACES_DEFAULT
-  936 sprites/png/AfricanManagerFaces/936.png FACES_DEFAULT
-  937 sprites/png/AfricanManagerFaces/937.png FACES_DEFAULT
-  938 sprites/png/AfricanManagerFaces/938.png FACES_DEFAULT
-  939 sprites/png/AfricanManagerFaces/939.png FACES_DEFAULT
-  940 sprites/png/AfricanManagerFaces/940.png FACES_DEFAULT
-  941 sprites/png/AfricanManagerFaces/941.png FACES_DEFAULT
-// Reuse sunglasses
-  942 sprites/png/gui/gui04.png 226 1720 03 119 92 0 0
-  943 sprites/png/gui/gui04.png 338 1720 03 119 92 0 0
-  944 sprites/png/AfricanManagerFaces/944.png FACES_DEFAULT
-  945 sprites/png/AfricanManagerFaces/945.png FACES_DEFAULT
-  946 sprites/png/AfricanManagerFaces/946.png FACES_DEFAULT
-  947 sprites/png/AfricanManagerFaces/947.png FACES_DEFAULT
-  948 sprites/png/AfricanManagerFaces/948.png FACES_DEFAULT
-  949 sprites/png/AfricanManagerFaces/949.png FACES_DEFAULT
-  950 sprites/png/AfricanManagerFaces/950.png FACES_DEFAULT
-  951 sprites/png/AfricanManagerFaces/951.png FACES_DEFAULT
-  952 sprites/png/AfricanManagerFaces/952.png FACES_DEFAULT
-  953 sprites/png/AfricanManagerFaces/953.png FACES_DEFAULT
-  954 sprites/png/AfricanManagerFaces/954.png FACES_DEFAULT
-  955 sprites/png/AfricanManagerFaces/955.png FACES_DEFAULT
-  956 sprites/png/AfricanManagerFaces/956.png FACES_DEFAULT
-  957 sprites/png/AfricanManagerFaces/957.png FACES_DEFAULT
-  958 sprites/png/AfricanManagerFaces/958.png FACES_DEFAULT
-  959 sprites/png/AfricanManagerFaces/959.png FACES_DEFAULT
-  960 sprites/png/AfricanManagerFaces/960.png FACES_DEFAULT
-  961 sprites/png/AfricanManagerFaces/961.png FACES_DEFAULT
-  962 sprites/png/AfricanManagerFaces/962.png FACES_DEFAULT
-  963 sprites/png/AfricanManagerFaces/963.png FACES_DEFAULT
-  964 sprites/png/AfricanManagerFaces/964.png FACES_DEFAULT
-  965 sprites/png/AfricanManagerFaces/965.png FACES_DEFAULT
-  966 sprites/png/AfricanManagerFaces/966.png FACES_DEFAULT
-  967 sprites/png/AfricanManagerFaces/967.png FACES_DEFAULT
-  968 sprites/png/AfricanManagerFaces/968.png FACES_DEFAULT
-  969 sprites/png/AfricanManagerFaces/969.png FACES_DEFAULT
-  970 sprites/png/AfricanManagerFaces/970.png FACES_DEFAULT
-  971 sprites/png/AfricanManagerFaces/971.png FACES_DEFAULT
-  972 sprites/png/AfricanManagerFaces/972.png FACES_DEFAULT
-  973 sprites/png/AfricanManagerFaces/973.png FACES_DEFAULT
-  974 sprites/png/AfricanManagerFaces/974.png FACES_DEFAULT
-  975 sprites/png/AfricanManagerFaces/975.png FACES_DEFAULT
-  976 sprites/png/AfricanManagerFaces/976.png FACES_DEFAULT
-  977 sprites/png/AfricanManagerFaces/977.png FACES_DEFAULT
-  978 sprites/png/AfricanManagerFaces/978.png FACES_DEFAULT
-  979 sprites/png/AfricanManagerFaces/979.png FACES_DEFAULT
-  980 sprites/png/AfricanManagerFaces/980.png FACES_DEFAULT
-  981 sprites/png/AfricanManagerFaces/981.png FACES_DEFAULT
-  982 sprites/png/AfricanManagerFaces/982.png FACES_DEFAULT
-  983 sprites/png/AfricanManagerFaces/983.png FACES_DEFAULT
-  984 sprites/png/AfricanManagerFaces/984.png FACES_DEFAULT
-  985 sprites/png/AfricanManagerFaces/985.png FACES_DEFAULT
-  986 sprites/png/AfricanManagerFaces/986.png FACES_DEFAULT
-  987 sprites/png/AfricanManagerFaces/987.png FACES_DEFAULT
-  988 sprites/png/AfricanManagerFaces/988.png FACES_DEFAULT
-  989 sprites/png/AfricanManagerFaces/989.png FACES_DEFAULT
+805 sprites/png/gui/gui04.png 354 1000 01 119 92 0 0 
+
+806 sprites/png/gui/gui04.png 466 1000 01 119 92 0 0 
+
+807 sprites/png/gui/gui04.png 578 1000 01 119 92 0 0 
+
+808 sprites/png/gui/gui04.png 690 1000 01 119 92 0 0 
+
+809 sprites/png/gui/gui04.png 2 1144 01 119 92 0 0 
+
+810 sprites/png/gui/gui04.png 114 1144 01 119 92 0 0 
+
+811 sprites/png/gui/gui04.png 226 1144 01 119 92 0 0 
+
+812 sprites/png/gui/gui04.png 338 1144 01 119 92 0 0 
+
+813 sprites/png/gui/gui04.png 450 1144 01 119 92 0 0 
+
+814 sprites/png/gui/gui04.png 562 1144 01 119 92 0 0 
+
+815 sprites/png/gui/gui04.png 674 1144 01 119 92 0 0 
+
+816 sprites/png/gui/gui04.png 2 1288 01 119 92 0 0 
+
+817 sprites/png/gui/gui04.png 114 1288 01 119 92 0 0 
+
+818 sprites/png/gui/gui04.png 226 1288 01 119 92 0 0 
+
+819 sprites/png/gui/gui04.png 338 1288 01 119 92 0 0 
+
+820 sprites/png/gui/gui04.png 450 1288 01 119 92 0 0 
+
+821 sprites/png/gui/gui04.png 562 1288 01 119 92 0 0 
+
+822 sprites/png/gui/gui04.png 674 1288 01 119 92 0 0 
+
+823 sprites/png/gui/gui04.png 2 1432 01 119 92 0 0 
+
+824 sprites/png/gui/gui04.png 114 1432 01 119 92 0 0 
+
+825 sprites/png/gui/gui04.png 226 1432 01 119 92 0 0 
+
+826 sprites/png/gui/gui04.png 338 1432 01 119 92 0 0 
+
+827 sprites/png/gui/gui04.png 450 1432 01 119 92 0 0 
+
+828 sprites/png/gui/gui04.png 562 1432 01 119 92 0 0 
+
+829 sprites/png/gui/gui04.png 674 1432 01 119 92 0 0 
+
+830 sprites/png/gui/gui04.png 2 1576 01 119 92 0 0 
+
+831 sprites/png/gui/gui04.png 114 1576 01 119 92 0 0 
+
+832 sprites/png/gui/gui04.png 226 1576 01 119 92 0 0 
+
+833 sprites/png/gui/gui04.png 338 1576 01 119 92 0 0 
+
+834 sprites/png/gui/gui04.png 450 1576 01 119 92 0 0 
+
+835 sprites/png/gui/gui04.png 562 1576 01 119 92 0 0 
+
+836 sprites/png/gui/gui04.png 674 1576 01 119 92 0 0 
+
+837 sprites/png/gui/gui04.png 2 1720 01 119 92 0 0 
+
+838 sprites/png/gui/gui04.png 114 1720 01 119 92 0 0 
+
+839 sprites/png/gui/gui04.png 226 1720 01 119 92 0 0 
+
+840 sprites/png/gui/gui04.png 338 1720 01 119 92 0 0 
+
+841 sprites/png/gui/gui04.png 450 1720 01 119 92 0 0 
+
+842 sprites/png/gui/gui04.png 562 1720 01 119 92 0 0 
+
+843 sprites/png/gui/gui04.png 674 1720 01 119 92 0 0 
+
+844 sprites/png/gui/gui04.png 2 1864 01 119 92 0 0 
+
+845 sprites/png/gui/gui04.png 114 1864 01 119 92 0 0 
+
+846 sprites/png/gui/gui04.png 226 1864 01 119 92 0 0 
+
+847 sprites/png/gui/gui04.png 338 1864 01 119 92 0 0 
+
+848 sprites/png/gui/gui04.png 450 1864 01 119 92 0 0 
+
+849 sprites/png/gui/gui04.png 562 1864 01 119 92 0 0 
+
+850 sprites/png/gui/gui04.png 674 1864 01 119 92 0 0 
+
+851 sprites/png/gui/gui04.png 2 2008 01 119 92 0 0 
+
+852 sprites/png/gui/gui04.png 114 2008 01 119 92 0 0 
+
+853 sprites/png/gui/gui04.png 226 2008 01 119 92 0 0 
+
+854 sprites/png/gui/gui04.png 338 2008 01 119 92 0 0 
+
+855 sprites/png/gui/gui04.png 450 2008 01 119 92 0 0 
+
+856 sprites/png/gui/gui04.png 562 2008 01 119 92 0 0 
+
+857 sprites/png/gui/gui04.png 674 2008 01 119 92 0 0 
+
+858 sprites/png/gui/gui04.png 2 2152 01 119 92 0 0 
+
+859 sprites/png/gui/gui04.png 114 2152 01 119 92 0 0 
+
+860 sprites/png/gui/gui04.png 226 2152 01 119 92 0 0 
+
+861 sprites/png/gui/gui04.png 338 2152 01 119 92 0 0 
+
+862 sprites/png/gui/gui04.png 450 2152 01 119 92 0 0 
+
+863 sprites/png/gui/gui04.png 562 2152 01 119 92 0 0 
+
+864 sprites/png/gui/gui04.png 674 2152 01 119 92 0 0 
+
+865 sprites/png/gui/gui04.png 2 2296 01 119 92 0 0 
+
+866 sprites/png/gui/gui04.png 114 2296 01 119 92 0 0 
+
+867 sprites/png/gui/gui04.png 226 2296 01 119 92 0 0 
+
+868 sprites/png/gui/gui04.png 338 2296 01 119 92 0 0 
+
+869 sprites/png/gui/gui04.png 450 2296 01 119 92 0 0 
+
+870 sprites/png/gui/gui04.png 562 2296 01 119 92 0 0 
+
+871 sprites/png/gui/gui04.png 674 2296 01 119 92 0 0 
+
+872 sprites/png/gui/gui04.png 2 2440 01 119 92 0 0 
+
+873 sprites/png/gui/gui04.png 114 2440 01 119 92 0 0 
+
+874 sprites/png/gui/gui04.png 226 2440 01 119 92 0 0 
+
+875 sprites/png/gui/gui04.png 338 2440 01 119 92 0 0 
+
+876 sprites/png/gui/gui04.png 450 2440 01 119 92 0 0 
+
+877 sprites/png/gui/gui04.png 562 2440 01 119 92 0 0 
+
+878 sprites/png/gui/gui04.png 674 2440 01 119 92 0 0 
+
+879 sprites/png/gui/gui04.png 2 2584 01 119 92 0 0 
+
+880 sprites/png/gui/gui04.png 114 2584 01 119 92 0 0 
+
+881 sprites/png/gui/gui04.png 226 2584 01 119 92 0 0 
+
+882 sprites/png/gui/gui04.png 338 2584 01 119 92 0 0 
+
+883 sprites/png/gui/gui04.png 450 2584 01 119 92 0 0 
+
+884 sprites/png/gui/gui04.png 562 2584 01 119 92 0 0 
+
+885 sprites/png/gui/gui04.png 674 2584 01 119 92 0 0 
+
+886 sprites/png/gui/gui04.png 2 2728 01 119 92 0 0 
+
+887 sprites/png/gui/gui04.png 114 2728 01 119 92 0 0 
+
+888 sprites/png/gui/gui04.png 226 2728 01 119 92 0 0 
+
+889 sprites/png/gui/gui04.png 338 2728 01 119 92 0 0 
+
+890 sprites/png/gui/gui04.png 450 2728 01 119 92 0 0 
+
+891 sprites/png/AfricanManagerFaces/891.png 0 0 01 119 92 0 0 
+
+892 sprites/png/AfricanManagerFaces/892.png 0 0 01 119 92 0 0 
+
+893 sprites/png/AfricanManagerFaces/893.png 0 0 01 119 92 0 0 
+
+894 sprites/png/AfricanManagerFaces/894.png 0 0 01 119 92 0 0 
+
+895 sprites/png/gui/gui04.png 226 2872 01 119 92 0 0 
+
+896 sprites/png/gui/gui04.png 338 2872 01 119 92 0 0 
+
+897 sprites/png/gui/gui04.png 450 2872 01 119 92 0 0 
+
+898 sprites/png/gui/gui04.png 562 2872 01 119 92 0 0 
+
+899 sprites/png/gui/gui04.png 674 2872 01 119 92 0 0 
+
+900 sprites/png/gui/gui04.png 2 3016 01 119 92 0 0 
+
+901 sprites/png/gui/gui04.png 114 3016 01 119 92 0 0 
+
+902 sprites/png/gui/gui04.png 226 3016 01 119 92 0 0 
+
+903 sprites/png/gui/gui04.png 338 3016 01 119 92 0 0 
+
+904 sprites/png/gui/gui04.png 450 3016 01 119 92 0 0 
+
+905 sprites/png/gui/gui04.png 562 3016 01 119 92 0 0 
+
+906 sprites/png/gui/gui04.png 674 3016 01 119 92 0 0 
+
+907 sprites/png/gui/gui04.png 2 3160 01 119 92 0 0 
+
+908 sprites/png/gui/gui04.png 114 3160 01 119 92 0 0 
+
+909 sprites/png/gui/gui04.png 226 3160 01 119 92 0 0 
+
+910 sprites/png/gui/gui04.png 338 3160 01 119 92 0 0 
+
+911 sprites/png/gui/gui04.png 450 3160 01 119 92 0 0 
+
+912 sprites/png/AfricanManagerFaces/912.png 0 0 01 119 92 0 0 
+
+913 sprites/png/AfricanManagerFaces/913.png 0 0 01 119 92 0 0 
+
+914 sprites/png/AfricanManagerFaces/914.png 0 0 01 119 92 0 0 
+
+915 sprites/png/AfricanManagerFaces/915.png 0 0 01 119 92 0 0 
+
+916 sprites/png/AfricanManagerFaces/916.png 0 0 01 119 92 0 0 
+
+917 sprites/png/AfricanManagerFaces/917.png 0 0 01 119 92 0 0 
+
+918 sprites/png/AfricanManagerFaces/918.png 0 0 01 119 92 0 0 
+
+919 sprites/png/AfricanManagerFaces/919.png 0 0 01 119 92 0 0 
+
+920 sprites/png/AfricanManagerFaces/920.png 0 0 01 119 92 0 0 
+
+921 sprites/png/AfricanManagerFaces/921.png 0 0 01 119 92 0 0 
+
+922 sprites/png/AfricanManagerFaces/922.png 0 0 01 119 92 0 0 
+
+923 sprites/png/AfricanManagerFaces/923.png 0 0 01 119 92 0 0 
+
+924 sprites/png/AfricanManagerFaces/924.png 0 0 01 119 92 0 0 
+
+925 sprites/png/AfricanManagerFaces/925.png 0 0 01 119 92 0 0 
+
+926 sprites/png/AfricanManagerFaces/926.png 0 0 01 119 92 0 0 
+
+927 sprites/png/AfricanManagerFaces/927.png 0 0 01 119 92 0 0 
+
+928 sprites/png/AfricanManagerFaces/928.png 0 0 01 119 92 0 0 
+
+929 sprites/png/AfricanManagerFaces/929.png 0 0 01 119 92 0 0 
+
+930 sprites/png/AfricanManagerFaces/930.png 0 0 01 119 92 0 0 
+
+931 sprites/png/AfricanManagerFaces/931.png 0 0 01 119 92 0 0 
+
+932 sprites/png/AfricanManagerFaces/932.png 0 0 01 119 92 0 0 
+
+933 sprites/png/AfricanManagerFaces/933.png 0 0 01 119 92 0 0 
+
+934 sprites/png/AfricanManagerFaces/934.png 0 0 01 119 92 0 0 
+
+935 sprites/png/AfricanManagerFaces/935.png 0 0 01 119 92 0 0 
+
+936 sprites/png/AfricanManagerFaces/936.png 0 0 01 119 92 0 0 
+
+937 sprites/png/AfricanManagerFaces/937.png 0 0 01 119 92 0 0 
+
+938 sprites/png/AfricanManagerFaces/938.png 0 0 01 119 92 0 0 
+
+939 sprites/png/AfricanManagerFaces/939.png 0 0 01 119 92 0 0 
+
+940 sprites/png/AfricanManagerFaces/940.png 0 0 01 119 92 0 0 
+
+941 sprites/png/AfricanManagerFaces/941.png 0 0 01 119 92 0 0 
+
+942 sprites/png/gui/gui04.png 226 1720 01 119 92 0 0 
+
+943 sprites/png/gui/gui04.png 338 1720 01 119 92 0 0 
+
+944 sprites/png/AfricanManagerFaces/944.png 0 0 01 119 92 0 0 
+
+945 sprites/png/AfricanManagerFaces/945.png 0 0 01 119 92 0 0 
+
+946 sprites/png/AfricanManagerFaces/946.png 0 0 01 119 92 0 0 
+
+947 sprites/png/AfricanManagerFaces/947.png 0 0 01 119 92 0 0 
+
+948 sprites/png/AfricanManagerFaces/948.png 0 0 01 119 92 0 0 
+
+949 sprites/png/AfricanManagerFaces/949.png 0 0 01 119 92 0 0 
+
+950 sprites/png/AfricanManagerFaces/950.png 0 0 01 119 92 0 0 
+
+951 sprites/png/AfricanManagerFaces/951.png 0 0 01 119 92 0 0 
+
+952 sprites/png/AfricanManagerFaces/952.png 0 0 01 119 92 0 0 
+
+953 sprites/png/AfricanManagerFaces/953.png 0 0 01 119 92 0 0 
+
+954 sprites/png/AfricanManagerFaces/954.png 0 0 01 119 92 0 0 
+
+955 sprites/png/AfricanManagerFaces/955.png 0 0 01 119 92 0 0 
+
+956 sprites/png/AfricanManagerFaces/956.png 0 0 01 119 92 0 0 
+
+957 sprites/png/AfricanManagerFaces/957.png 0 0 01 119 92 0 0 
+
+958 sprites/png/AfricanManagerFaces/958.png 0 0 01 119 92 0 0 
+
+959 sprites/png/AfricanManagerFaces/959.png 0 0 01 119 92 0 0 
+
+960 sprites/png/AfricanManagerFaces/960.png 0 0 01 119 92 0 0 
+
+961 sprites/png/AfricanManagerFaces/961.png 0 0 01 119 92 0 0 
+
+962 sprites/png/AfricanManagerFaces/962.png 0 0 01 119 92 0 0 
+
+963 sprites/png/AfricanManagerFaces/963.png 0 0 01 119 92 0 0 
+
+964 sprites/png/AfricanManagerFaces/964.png 0 0 01 119 92 0 0 
+
+965 sprites/png/AfricanManagerFaces/965.png 0 0 01 119 92 0 0 
+
+966 sprites/png/AfricanManagerFaces/966.png 0 0 01 119 92 0 0 
+
+967 sprites/png/AfricanManagerFaces/967.png 0 0 01 119 92 0 0 
+
+968 sprites/png/AfricanManagerFaces/968.png 0 0 01 119 92 0 0 
+
+969 sprites/png/AfricanManagerFaces/969.png 0 0 01 119 92 0 0 
+
+970 sprites/png/AfricanManagerFaces/970.png 0 0 01 119 92 0 0 
+
+971 sprites/png/AfricanManagerFaces/971.png 0 0 01 119 92 0 0 
+
+972 sprites/png/AfricanManagerFaces/972.png 0 0 01 119 92 0 0 
+
+973 sprites/png/AfricanManagerFaces/973.png 0 0 01 119 92 0 0 
+
+974 sprites/png/AfricanManagerFaces/974.png 0 0 01 119 92 0 0 
+
+975 sprites/png/AfricanManagerFaces/975.png 0 0 01 119 92 0 0 
+
+976 sprites/png/AfricanManagerFaces/976.png 0 0 01 119 92 0 0 
+
+977 sprites/png/AfricanManagerFaces/977.png 0 0 01 119 92 0 0 
+
+978 sprites/png/AfricanManagerFaces/978.png 0 0 01 119 92 0 0 
+
+979 sprites/png/AfricanManagerFaces/979.png 0 0 01 119 92 0 0 
+
+980 sprites/png/AfricanManagerFaces/980.png 0 0 01 119 92 0 0 
+
+981 sprites/png/AfricanManagerFaces/981.png 0 0 01 119 92 0 0 
+
+982 sprites/png/AfricanManagerFaces/982.png 0 0 01 119 92 0 0 
+
+983 sprites/png/AfricanManagerFaces/983.png 0 0 01 119 92 0 0 
+
+984 sprites/png/AfricanManagerFaces/984.png 0 0 01 119 92 0 0 
+
+985 sprites/png/AfricanManagerFaces/985.png 0 0 01 119 92 0 0 
+
+986 sprites/png/AfricanManagerFaces/986.png 0 0 01 119 92 0 0 
+
+987 sprites/png/AfricanManagerFaces/987.png 0 0 01 119 92 0 0 
+
+988 sprites/png/AfricanManagerFaces/988.png 0 0 01 119 92 0 0 
+
+989 sprites/png/AfricanManagerFaces/989.png 0 0 01 119 92 0 0 
+
