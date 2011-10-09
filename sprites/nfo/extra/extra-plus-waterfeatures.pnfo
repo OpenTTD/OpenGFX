@@ -407,10 +407,10 @@
 // Riverbanks for all climates and slopes, on normal terrain and river mouths
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate river mouth)
 // flat
- -1 sprites/png/terrain/rivermouth_ne.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 338 904 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 370 904 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 402 904 09 9 19 -31 11
@@ -420,10 +420,10 @@
  -1 sprites/png/terrain/waterfeatures.png 514 904 09 6 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 530 904 09 5 12 -5 0
 // slope down to NW
- -1 sprites/png/terrain/rivermouth_ne.png  479   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  479   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  479   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  479   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  479   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  479   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  479   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  479   1 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 754 904 09 6 20 13 5
  -1 sprites/png/terrain/waterfeatures.png 2 968 09 7 13 -6 16
  -1 sprites/png/terrain/waterfeatures.png 34 968 09 6 20 -31 12
@@ -433,10 +433,10 @@
  -1 sprites/png/terrain/waterfeatures.png 146 968 09 4 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 162 968 09 4 15 -7 0
 // slope down to SW
- -1 sprites/png/terrain/rivermouth_ne.png  959   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  959   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  959   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  959   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  959   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  959   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  959   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  959   1 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 386 968 09 9 16 17 3
  -1 sprites/png/terrain/waterfeatures.png 418 968 09 9 15 -7 22
  -1 sprites/png/terrain/waterfeatures.png 450 968 09 9 16 -31 11
@@ -446,10 +446,10 @@
  -1 sprites/png/terrain/waterfeatures.png 546 968 09 7 8 -31 11
  -1 sprites/png/terrain/waterfeatures.png 562 968 09 6 12 -5 -8
 // slope down to NE
- -1 sprites/png/terrain/rivermouth_ne.png  241   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  241   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  241   1 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  241   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  241   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  241   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  241   1 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  241   1 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 2 1016 09 6 20 13 12
  -1 sprites/png/terrain/waterfeatures.png 34 1016 09 7 13 -5 16
  -1 sprites/png/terrain/waterfeatures.png 66 1016 09 6 20 -31 5
@@ -459,10 +459,10 @@
  -1 sprites/png/terrain/waterfeatures.png 178 1016 09 5 8 -31 6
  -1 sprites/png/terrain/waterfeatures.png 194 1016 09 4 15 -6 0
 // Slope down to SE
- -1 sprites/png/terrain/rivermouth_ne.png  719   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  719   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  719   1 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  719   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  719   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  719   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  719   1 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  719   1 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 418 1016 09 9 16 17 11
  -1 sprites/png/terrain/waterfeatures.png 450 1016 09 9 15 -6 22
  -1 sprites/png/terrain/waterfeatures.png 482 1016 09 9 16 -31 3
@@ -474,10 +474,10 @@
  -1 * 7        02 05 20 01 00 00 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (temperate)
- -1 sprites/png/terrain/waterfeatures/riverbank_temperate_ne.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_temperate_se.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_temperate_sw.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_temperate_nw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_ne.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_se.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_sw.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_temperate_nw.gimp.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 50 1064 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 82 1064 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 114 1064 09 9 19 -31 11
@@ -604,10 +604,10 @@
  -1 * 7        02 05 30 01 00 00 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (arctic river mouth)
- -1 sprites/png/terrain/rivermouth_ne.png    1  49 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png    1  49 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png    1  49 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png    1  49 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png    1  49 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png    1  49 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png    1  49 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png    1  49 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 306 1304 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 338 1304 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 370 1304 09 9 19 -31 11
@@ -617,10 +617,10 @@
  -1 sprites/png/terrain/waterfeatures.png 482 1304 09 6 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 498 1304 09 5 12 -5 0
 // slope down to NW
- -1 sprites/png/terrain/rivermouth_ne.png  479  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  479  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  479  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  479  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  479  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  479  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  479  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  479  49 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 722 1304 09 6 20 13 5
  -1 sprites/png/terrain/waterfeatures.png 754 1304 09 7 13 -6 16
  -1 sprites/png/terrain/waterfeatures.png 2 1336 09 6 20 -31 12
@@ -630,10 +630,10 @@
  -1 sprites/png/terrain/waterfeatures.png 114 1336 09 4 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 130 1336 09 4 15 -7 0
 // slope down to SW
- -1 sprites/png/terrain/rivermouth_ne.png  959  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  959  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  959  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  959  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  959  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  959  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  959  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  959  49 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 354 1336 09 9 16 17 3
  -1 sprites/png/terrain/waterfeatures.png 386 1336 09 9 15 -7 22
  -1 sprites/png/terrain/waterfeatures.png 418 1336 09 9 16 -31 11
@@ -643,10 +643,10 @@
  -1 sprites/png/terrain/waterfeatures.png 514 1336 09 7 8 -31 11
  -1 sprites/png/terrain/waterfeatures.png 530 1336 09 6 12 -5 -8
 // slope down to NE
- -1 sprites/png/terrain/rivermouth_ne.png  241  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  241  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  241  49 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  241  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  241  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  241  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  241  49 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  241  49 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 754 1336 09 6 20 13 12
  -1 sprites/png/terrain/waterfeatures.png 2 1384 09 7 13 -5 16
  -1 sprites/png/terrain/waterfeatures.png 34 1384 09 6 20 -31 5
@@ -656,10 +656,10 @@
  -1 sprites/png/terrain/waterfeatures.png 146 1384 09 5 8 -31 6
  -1 sprites/png/terrain/waterfeatures.png 162 1384 09 4 15 -6 0
 // Slope down to SE
- -1 sprites/png/terrain/rivermouth_ne.png  719  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  719  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  719  49 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  719  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  719  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  719  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  719  49 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  719  49 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 386 1384 09 9 16 17 11
  -1 sprites/png/terrain/waterfeatures.png 418 1384 09 9 15 -6 22
  -1 sprites/png/terrain/waterfeatures.png 450 1384 09 9 16 -31 3
@@ -670,10 +670,10 @@
  -1 sprites/png/terrain/waterfeatures.png 562 1384 09 6 12 -5 -8
  -1 * 7        02 05 31 01 00 00 00
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (snowy)
- -1 sprites/png/terrain/waterfeatures/riverbank_snow_ne.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_snow_se.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_snow_sw.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_snow_nw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_ne.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_se.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_sw.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_snow_nw.gimp.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 50 1432 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 82 1432 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 114 1432 09 9 19 -31 11
@@ -732,10 +732,10 @@
  -1 sprites/png/terrain/waterfeatures.png 322 1528 09 6 12 -5 -8
  -1 * 7        02 05 32 01 00 00 00
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (arctic)
- -1 sprites/png/terrain/waterfeatures/riverbank_arctic_ne.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_arctic_se.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_arctic_sw.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_arctic_nw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_ne.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_se.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_sw.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_arctic_nw.gimp.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 578 1528 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 610 1528 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 642 1528 09 9 19 -31 11
@@ -862,10 +862,10 @@
  -1 sprites/png/terrain/waterfeatures.png 594 1752 09 6 12 -5 -8
  -1 * 7        02 05 40 01 00 00 00
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (tropic river mouth)
- -1 sprites/png/terrain/rivermouth_ne.png    1  97 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png    1  97 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png    1  97 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png    1  97 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png    1  97 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png    1  97 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png    1  97 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png    1  97 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 50 1800 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 82 1800 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 114 1800 09 9 19 -31 11
@@ -875,10 +875,10 @@
  -1 sprites/png/terrain/waterfeatures.png 226 1800 09 6 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 242 1800 09 5 12 -5 0
 // slope down to NW
- -1 sprites/png/terrain/rivermouth_ne.png  479  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  479  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  479  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  479  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  479  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  479  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  479  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  479  97 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 466 1800 09 6 20 13 5
  -1 sprites/png/terrain/waterfeatures.png 498 1800 09 7 13 -6 16
  -1 sprites/png/terrain/waterfeatures.png 530 1800 09 6 20 -31 12
@@ -888,10 +888,10 @@
  -1 sprites/png/terrain/waterfeatures.png 642 1800 09 4 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 658 1800 09 4 15 -7 0
 // slope down to SW
- -1 sprites/png/terrain/rivermouth_ne.png  959  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  959  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  959  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  959  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  959  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  959  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  959  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  959  97 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 98 1848 09 9 16 17 3
  -1 sprites/png/terrain/waterfeatures.png 130 1848 09 9 15 -7 22
  -1 sprites/png/terrain/waterfeatures.png 162 1848 09 9 16 -31 11
@@ -901,10 +901,10 @@
  -1 sprites/png/terrain/waterfeatures.png 258 1848 09 7 8 -31 11
  -1 sprites/png/terrain/waterfeatures.png 274 1848 09 6 12 -5 -8
 // slope down to NE
- -1 sprites/png/terrain/rivermouth_ne.png  241  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  241  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  241  97 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  241  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  241  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  241  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  241  97 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  241  97 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 498 1848 09 6 20 13 12
  -1 sprites/png/terrain/waterfeatures.png 530 1848 09 7 13 -5 16
  -1 sprites/png/terrain/waterfeatures.png 562 1848 09 6 20 -31 5
@@ -914,10 +914,10 @@
  -1 sprites/png/terrain/waterfeatures.png 674 1848 09 5 8 -31 6
  -1 sprites/png/terrain/waterfeatures.png 690 1848 09 4 15 -6 0
 // Slope down to SE
- -1 sprites/png/terrain/rivermouth_ne.png  719  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  719  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  719  97 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  719  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  719  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  719  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  719  97 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  719  97 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 146 1896 09 9 16 17 11
  -1 sprites/png/terrain/waterfeatures.png 178 1896 09 9 15 -6 22
  -1 sprites/png/terrain/waterfeatures.png 210 1896 09 9 16 -31 3
@@ -992,10 +992,10 @@
  -1 * 7        02 05 42 01 00 00 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (tropic)
- -1 sprites/png/terrain/waterfeatures/riverbank_tropical_ne.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_tropical_se.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_tropical_sw.png    1   1 09 31 64 -31   0
- -1 sprites/png/terrain/waterfeatures/riverbank_tropical_nw.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_ne.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_se.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_sw.gimp.png    1   1 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/riverbank_tropical_nw.gimp.png    1   1 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 274 2040 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 306 2040 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 338 2040 09 9 19 -31 11
@@ -1060,10 +1060,10 @@
  -1 * 7        03 05 01 06 00 46 00
 
  -1 * 4        01 05 01 \b60 // 60 sprites for river banks (toyland river mouth)
- -1 sprites/png/terrain/rivermouth_ne.png    1 145 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png    1 145 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png    1 145 09 31 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png    1 145 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png    1 145 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png    1 145 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png    1 145 09 31 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png    1 145 09 31 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 98 2168 09 9 19 14 11
  -1 sprites/png/terrain/waterfeatures.png 130 2168 09 9 16 -7 22
  -1 sprites/png/terrain/waterfeatures.png 162 2168 09 9 19 -31 11
@@ -1073,10 +1073,10 @@
  -1 sprites/png/terrain/waterfeatures.png 274 2168 09 6 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 290 2168 09 5 12 -5 0
 // slope down to NW
- -1 sprites/png/terrain/rivermouth_ne.png  479 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  479 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  479 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  479 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  479 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  479 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  479 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  479 145 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 514 2168 09 6 20 13 5
  -1 sprites/png/terrain/waterfeatures.png 546 2168 09 7 13 -6 16
  -1 sprites/png/terrain/waterfeatures.png 578 2168 09 6 20 -31 12
@@ -1086,10 +1086,10 @@
  -1 sprites/png/terrain/waterfeatures.png 690 2168 09 4 8 -31 13
  -1 sprites/png/terrain/waterfeatures.png 706 2168 09 4 15 -7 0
 // slope down to SW
- -1 sprites/png/terrain/rivermouth_ne.png  959 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  959 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  959 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  959 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  959 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  959 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  959 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  959 145 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 146 2200 09 9 16 17 3
  -1 sprites/png/terrain/waterfeatures.png 178 2200 09 9 15 -7 22
  -1 sprites/png/terrain/waterfeatures.png 210 2200 09 9 16 -31 11
@@ -1099,10 +1099,10 @@
  -1 sprites/png/terrain/waterfeatures.png 306 2200 09 7 8 -31 11
  -1 sprites/png/terrain/waterfeatures.png 322 2200 09 6 12 -5 -8
 // slope down to NE
- -1 sprites/png/terrain/rivermouth_ne.png  241 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_se.png  241 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_sw.png  241 145 09 23 64 -31   0
- -1 sprites/png/terrain/rivermouth_nw.png  241 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  241 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  241 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  241 145 09 23 64 -31   0
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  241 145 09 23 64 -31   0
  -1 sprites/png/terrain/waterfeatures.png 546 2200 09 6 20 13 12
  -1 sprites/png/terrain/waterfeatures.png 578 2200 09 7 13 -5 16
  -1 sprites/png/terrain/waterfeatures.png 610 2200 09 6 20 -31 5
@@ -1112,10 +1112,10 @@
  -1 sprites/png/terrain/waterfeatures.png 722 2200 09 5 8 -31 6
  -1 sprites/png/terrain/waterfeatures.png 738 2200 09 4 15 -6 0
 // Slope down to SE
- -1 sprites/png/terrain/rivermouth_ne.png  719 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_se.png  719 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_sw.png  719 145 09 39 64 -31  -8
- -1 sprites/png/terrain/rivermouth_nw.png  719 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png  719 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png  719 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png  719 145 09 39 64 -31  -8
+ -1 sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png  719 145 09 39 64 -31  -8
  -1 sprites/png/terrain/waterfeatures.png 194 2248 09 9 16 17 11
  -1 sprites/png/terrain/waterfeatures.png 226 2248 09 9 15 -6 22
  -1 sprites/png/terrain/waterfeatures.png 258 2248 09 9 16 -31 3
@@ -1191,16 +1191,16 @@
  -1 * 14       02 05 52 81 80 00 FF 01 50 00 00 00 51 00
  -1 * 6        07 83 01 \7! 03 01
  -1 * 7        03 05 01 06 00 52 00
- 
+
  // Buoys are snow-aware:
  -1 * 4        01 05 \b1 \b1 // normal buoy
  -1 sprites/png/infrastructure/buoy_map.png  0  0 09 20 20  0  0
  -1 * 7        02 05 01 01 00 00 00
- 
+
  -1 * 4        01 05 \b1 \b1 // snowy buoy
  -1 sprites/png/infrastructure/buoy_map.png  0 32 09 22 24  0  0
  -1 * 7        02 05 02 01 00 00 00
- 
+
  -1 * 15       02 05 03 81
                    81 00 04    // terrain type variable, check only "on or above snowline"
 				   01          // check one range

@@ -1,0 +1,94 @@
+# Riverbanks
+
+# river banks temperate grass
+sprites/png/terrain/riverbank_Temperate_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankNE
+sprites/png/terrain/riverbank_Temperate_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankNW
+sprites/png/terrain/riverbank_Temperate_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankSE
+sprites/png/terrain/riverbank_Temperate_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankSW
+sprites/png/terrain/rivercorner_Temperate_n.gimp.png   sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverCornersN RiverCornersBlueN
+sprites/png/terrain/rivercorner_Temperate_s.gimp.png   sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverCornersS RiverCornersBlueS
+sprites/png/terrain/rivercorner_Temperate_e.gimp.png   sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverCornersE RiverCornersBlueE
+sprites/png/terrain/rivercorner_Temperate_w.gimp.png   sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverCornersW RiverCornersBlueW
+sprites/png/terrain/rivercorners_Temperate.gimp.png     sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverCornersSmall RiverCornersBlue
+
+sprites/png/terrain/rivermouth_Temperate_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate SeaWater Coast RiverbankMask RiverMouthNE
+sprites/png/terrain/rivermouth_Temperate_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate SeaWater Coast RiverbankMask RiverMouthNW
+sprites/png/terrain/rivermouth_Temperate_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate SeaWater Coast RiverbankMask RiverMouthSE
+sprites/png/terrain/rivermouth_Temperate_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTemperate GridTemperate SeaWater Coast RiverbankMask RiverMouthSW
+
+# river banks tropical grass
+sprites/png/terrain/riverbank_Tropical_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverbankNE
+sprites/png/terrain/riverbank_Tropical_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverbankNW
+sprites/png/terrain/riverbank_Tropical_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverbankSE
+sprites/png/terrain/riverbank_Tropical_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverbankSW
+sprites/png/terrain/rivercorner_Tropical_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverCornersN RiverCornersBlueN
+sprites/png/terrain/rivercorner_Tropical_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverCornersS RiverCornersBlueS
+sprites/png/terrain/rivercorner_Tropical_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverCornersE RiverCornersBlueE
+sprites/png/terrain/rivercorner_Tropical_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverCornersW RiverCornersBlueW
+sprites/png/terrain/rivercorners_Tropical.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical RiverbankMask RiverCornersSmall RiverCornersBlue
+
+sprites/png/terrain/rivermouth_Tropical_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical SeaWater Coast RiverbankMask RiverMouthNE
+sprites/png/terrain/rivermouth_Tropical_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical SeaWater Coast RiverbankMask RiverMouthNW
+sprites/png/terrain/rivermouth_Tropical_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical SeaWater Coast RiverbankMask RiverMouthSE
+sprites/png/terrain/rivermouth_Tropical_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundTropical GridTropical SeaWater Coast RiverbankMask RiverMouthSW
+
+# river banks arctic grass
+sprites/png/terrain/riverbank_Arctic_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNE
+sprites/png/terrain/riverbank_Arctic_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNW
+sprites/png/terrain/riverbank_Arctic_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSE
+sprites/png/terrain/riverbank_Arctic_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSW
+sprites/png/terrain/rivercorner_Arctic_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersN RiverCornersBlueN
+sprites/png/terrain/rivercorner_Arctic_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersS RiverCornersBlueS
+sprites/png/terrain/rivercorner_Arctic_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersE RiverCornersBlueE
+sprites/png/terrain/rivercorner_Arctic_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersW RiverCornersBlueW
+sprites/png/terrain/rivercorners_Arctic.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersSmall RiverCornersBlue
+
+sprites/png/terrain/rivermouth_Arctic_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic SeaWater Coast RiverbankMask RiverMouthNE
+sprites/png/terrain/rivermouth_Arctic_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic SeaWater Coast RiverbankMask RiverMouthNW
+sprites/png/terrain/rivermouth_Arctic_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic SeaWater Coast RiverbankMask RiverMouthSE
+sprites/png/terrain/rivermouth_Arctic_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic SeaWater Coast RiverbankMask RiverMouthSW
+
+# river banks arctic snow level 1
+sprites/png/terrain/riverbank_Snow1_ne.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNE SnowLv1 RiverbankNESnow
+sprites/png/terrain/riverbank_Snow1_nw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNW SnowLv1 RiverbankNWSnow
+sprites/png/terrain/riverbank_Snow1_se.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSE SnowLv1 RiverbankSESnow
+sprites/png/terrain/riverbank_Snow1_sw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSW SnowLv1 RiverbankSWSnow
+sprites/png/terrain/rivercorner_Snow1_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersN SnowLv1 1RiverCornersBlueN
+sprites/png/terrain/rivercorner_Snow1_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersS SnowLv1 RiverCornersBlueS
+sprites/png/terrain/rivercorner_Snow1_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersE SnowLv1 RiverCornersBlueE
+sprites/png/terrain/rivercorner_Snow1_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersW SnowLv1 RiverCornersBlueW
+sprites/png/terrain/rivercorners_Snow1.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersSmall SnowLv1 RiverCornersBlue
+
+# river banks arctic snow level 2
+sprites/png/terrain/riverbank_Snow2_ne.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNE SnowLv2 RiverbankNESnow
+sprites/png/terrain/riverbank_Snow2_nw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNW SnowLv2 RiverbankNWSnow
+sprites/png/terrain/riverbank_Snow2_se.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSE SnowLv2 RiverbankSESnow
+sprites/png/terrain/riverbank_Snow2_sw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSW SnowLv2 RiverbankSWSnow
+sprites/png/terrain/rivercorner_Snow2_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersN SnowLv2 1RiverCornersBlueN
+sprites/png/terrain/rivercorner_Snow2_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersS SnowLv2 RiverCornersBlueS
+sprites/png/terrain/rivercorner_Snow2_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersE SnowLv2 RiverCornersBlueE
+sprites/png/terrain/rivercorner_Snow2_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersW SnowLv2 RiverCornersBlueW
+sprites/png/terrain/rivercorners_Snow2.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersSmall SnowLv2 RiverCornersBlue
+
+# river banks arctic snow level 3
+sprites/png/terrain/riverbank_Snow3_ne.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNE SnowLv3 RiverbankNESnow
+sprites/png/terrain/riverbank_Snow3_nw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankNW SnowLv3 RiverbankNWSnow
+sprites/png/terrain/riverbank_Snow3_se.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSE SnowLv3 RiverbankSESnow
+sprites/png/terrain/riverbank_Snow3_sw.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverbankSW SnowLv3 RiverbankSWSnow
+sprites/png/terrain/rivercorner_Snow3_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersN SnowLv3 1RiverCornersBlueN
+sprites/png/terrain/rivercorner_Snow3_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersS SnowLv3 RiverCornersBlueS
+sprites/png/terrain/rivercorner_Snow3_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersE SnowLv3 RiverCornersBlueE
+sprites/png/terrain/rivercorner_Snow3_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersW SnowLv3 RiverCornersBlueW
+sprites/png/terrain/rivercorners_Snow3.gimp.png        sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersSmall SnowLv3 RiverCornersBlue
+
+# river bankds fully snowed
+sprites/png/terrain/riverbank_FullSnow_ne.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankNESnow
+sprites/png/terrain/riverbank_FullSnow_nw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankNWSnow
+sprites/png/terrain/riverbank_FullSnow_se.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankSESnow
+sprites/png/terrain/riverbank_FullSnow_sw.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankSWSnow
+sprites/png/terrain/rivercorner_FullSnow_n.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersN SnowLv1 1RiverCornersBlueN
+sprites/png/terrain/rivercorner_FullSnow_s.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersS SnowLv1 RiverCornersBlueS
+sprites/png/terrain/rivercorner_FullSnow_e.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersE SnowLv1 RiverCornersBlueE
+sprites/png/terrain/rivercorner_FullSnow_w.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersW SnowLv1 RiverCornersBlueW
+sprites/png/terrain/rivercorners_FullSnow.gimp.png    sprites/source/terrain/shoretiles.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersSmall RiverCornersBlue
+
