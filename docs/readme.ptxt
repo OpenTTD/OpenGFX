@@ -162,7 +162,7 @@ or obtain the tarball from
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
-- grfcodec and nforenum, r785 / version 5.1 or better.
+- grfcodec and nforenum, version 5.1.2
   (available from http://www.openttd.org/download-grfcodec)
 - some gnu utils: make, cat, sed, awk
   and you might additionally want a text editor of your choice and a graphics
