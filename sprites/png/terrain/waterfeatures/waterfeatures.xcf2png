@@ -1,6 +1,7 @@
 # Sea shores
 # Temperate sea shore
 sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png       sprites/source/terrain/terrain.xcf      White BlueForShore GroundTemperate GridTemperate SeaWater Coast
+sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png          sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic    SeaWater Coast
 
 # Riverbanks
 

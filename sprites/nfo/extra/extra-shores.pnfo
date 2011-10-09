@@ -15,8 +15,8 @@
  1376 * 6        07 83 01 \7! 01 \b12
  1377 * 55       0C "Missing shore tile graphics for "
          "the sub-arctic climate"
-#define THIS_GFX_FILE sprites/png/terrain/shoretiles.png
-#define THIS_Y 49
+#define THIS_GFX_FILE sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png
+#define THIS_Y 1
  1378 * 3        05 0D \b10
 #include "../templates/watertiles_extra8.tnfo"
 
