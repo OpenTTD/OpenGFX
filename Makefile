@@ -9,7 +9,7 @@ include scripts/Makefile.def
 
 # most important build targets for users
 all:
-	$(_V) $(MAKE) Makefile.dep
+	$(_V) $(MAKE) $(MAKE_FLAGS) Makefile.dep
 	$(_V) $(MAKE) $(MAKE_FLAGS) depend
 	$(_V) $(MAKE) $(MAKE_FLAGS) $(TARGET_FILES) $(DOC_FILES)
 
@@ -17,7 +17,9 @@ docs: $(DOC_FILES)
 
 grf: $(GRF_FILES)
 
-bundle: $(DIR_NAME)
+bundle:
+	$(_V) $(MAKE) $(MAKE_FLAGS) all
+	$(_V) $(MAKE) $(DIR_NAME)
 
 clean::
 	$(_E) "[CLEAN]"
@@ -72,6 +74,31 @@ ifeq "$(MAKECMDGOALS)" "test"
 NODEP = 1
 PREDEP = 1
 endif
+ifeq "$(MAKECMDGOALS)" "bundle_src"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "bundle_gsrc"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "bundle_bsrc"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "bundle_xsrc"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "bundle_zsrc"
+NODEP = 1
+PREDEP = 1
+endif
+ifeq "$(MAKECMDGOALS)" "bundle"
+NODEP = 1
+PREDEP = 1
+endif
+
 
 ifndef PREDEP
 -include Makefile.dep
