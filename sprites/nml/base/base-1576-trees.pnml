@@ -1,44 +1,44 @@
 #include "sprites/nml/templates/sprite_templates.pnml"
 
 //1576-1764 temperate trees
-base_graphics(1576, "sprites/png/trees/temperate/tree_wide_01_leaf.png") { tmpl_tree_wide() }
-base_graphics(1583, "sprites/png/trees/temperate/tree_wide_02_leaf.png") { tmpl_tree_wide() }
-base_graphics(1590, "sprites/png/trees/temperate/tree_wide_03_conifer.png") { tmpl_tree_wide() }
-base_graphics(1597, "sprites/png/trees/arctic/tree_01_conifer.png") { tmpl_tree_narrow() }
-base_graphics(1604, "sprites/png/trees/temperate/tree_wide_05_leaf.png") { tmpl_tree_wide() }
-base_graphics(1611, "sprites/png/trees/arctic/tree_08_conifer.png") { tmpl_tree_narrow() }
-base_graphics(1618, "sprites/png/trees/temperate/tree_wide_07_leaf.png") { tmpl_tree_wide() }
-base_graphics(1625, "sprites/png/trees/arctic/tree_06_leaf.png") { tmpl_tree_narrow() }
-base_graphics(1632, "sprites/png/trees/arctic/tree_07_leaf.png") { tmpl_tree_narrow() }
-base_graphics(1639, "sprites/png/trees/arctic/tree_10_leaf.png") { tmpl_tree_narrow() }
-base_graphics(1646, "sprites/png/trees/temperate/tree_wide_11_leaf.png") { tmpl_tree_wide() }
-base_graphics(1653, "sprites/png/trees/temperate/tree_wide_12_leaf.png") { tmpl_tree_wide() }
-base_graphics(1660, "sprites/png/trees/temperate/tree_wide_13_leaf.png") { tmpl_tree_wide() }
-base_graphics(1667, "sprites/png/trees/arctic/tree_09_conifer.png") { tmpl_tree_narrow() }
-base_graphics(1674, "sprites/png/trees/temperate/tree_wide_15_leaf.png") { tmpl_tree_wide() }
-base_graphics(1681, "sprites/png/trees/temperate/tree_wide_16_leaf.png") { tmpl_tree_wide() }
-base_graphics(1688, "sprites/png/trees/temperate/tree_wide_17_leaf.png") { tmpl_tree_wide() }
-base_graphics(1695, "sprites/png/trees/temperate/tree_wide_18_leaf.png") { tmpl_tree_wide() }
-base_graphics(1702, "sprites/png/trees/temperate/tree_wide_19_leaf.png") { tmpl_tree_wide() }
+base_graphics(1576, "sprites/png/trees/temperate/tree_wide_01_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1583, "sprites/png/trees/temperate/tree_wide_02_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1590, "sprites/png/trees/temperate/tree_wide_03_conifer.gimp.png") { tmpl_tree_wide() }
+base_graphics(1597, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1604, "sprites/png/trees/temperate/tree_wide_05_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1611, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1618, "sprites/png/trees/temperate/tree_wide_07_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1625, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1632, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1639, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1646, "sprites/png/trees/temperate/tree_wide_11_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1653, "sprites/png/trees/temperate/tree_wide_12_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1660, "sprites/png/trees/temperate/tree_wide_13_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1667, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics(1674, "sprites/png/trees/temperate/tree_wide_15_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1681, "sprites/png/trees/temperate/tree_wide_16_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1688, "sprites/png/trees/temperate/tree_wide_17_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1695, "sprites/png/trees/temperate/tree_wide_18_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics(1702, "sprites/png/trees/temperate/tree_wide_19_leaf.gimp.png") { tmpl_tree_wide() }
 
 //Arctic trees: the following trees have snowy equivalents:
-base_graphics(1709, "sprites/png/trees/arctic/tree_01_conifer.png") { tmpl_tree_narrow() }      // 1709 conifer (snowy: 1765)
-base_graphics(1716, "sprites/png/trees/arctic/tree_06_leaf.png") { tmpl_tree_narrow() }         // 1716 leaf tree (snowy: 1772)
-base_graphics(1723, "sprites/png/trees/arctic/tree_07_leaf.png") { tmpl_tree_narrow() }         // 1723 leaf tree (snowy: 1779)
-base_graphics(1730, "sprites/png/trees/arctic/tree_08_conifer.png") { tmpl_tree_narrow() }      // 1730 conifer (snowy: 1786)
-base_graphics(1737, "sprites/png/trees/arctic/tree_09_conifer.png") { tmpl_tree_narrow() }      // 1737 conifer (snowy: 1793)
-base_graphics(1744, "sprites/png/trees/arctic/tree_04_conifer.png") { tmpl_tree_narrow() }      // 1744 conifer (snowy: 1800)
-base_graphics(1751, "sprites/png/trees/arctic/tree_05_conifer.png") { tmpl_tree_narrow() }      // 1751 conifer (snowy: 1807)
-base_graphics(1758, "sprites/png/trees/arctic/tree_10_leaf.png") { tmpl_tree_narrow() }         // 1758 leaf tree (snowy: 1814)
+base_graphics(1709, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }      // 1709 conifer (snowy: 1765)
+base_graphics(1716, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }         // 1716 leaf tree (snowy: 1772)
+base_graphics(1723, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }         // 1723 leaf tree (snowy: 1779)
+base_graphics(1730, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }      // 1730 conifer (snowy: 1786)
+base_graphics(1737, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }      // 1737 conifer (snowy: 1793)
+base_graphics(1744, "sprites/png/trees/arctic/tree_04_conifer.gimp.png") { tmpl_tree_narrow() }      // 1744 conifer (snowy: 1800)
+base_graphics(1751, "sprites/png/trees/arctic/tree_05_conifer.gimp.png") { tmpl_tree_narrow() }      // 1751 conifer (snowy: 1807)
+base_graphics(1758, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }         // 1758 leaf tree (snowy: 1814)
 // snowy trees
-base_graphics(1765, "sprites/png/trees/arctic/tree_01_snow_conifer.png") { tmpl_tree_narrow() } // 1765 snowy conifer (equiv of 1709)
-base_graphics(1772, "sprites/png/trees/arctic/tree_06_snow_leaf.png") { tmpl_tree_narrow() }    // 1772 snowy leaf tree (equiv. of 1716)
-base_graphics(1779, "sprites/png/trees/arctic/tree_07_snow_leaf.png") { tmpl_tree_narrow() }    // 1779 snowy leaf tree (equiv. of 1723)
-base_graphics(1786, "sprites/png/trees/arctic/tree_08_snow_conifer.png") { tmpl_tree_narrow() } // 1786 snowy conifer (equiv. of 1730)
-base_graphics(1793, "sprites/png/trees/arctic/tree_09_snow_conifer.png") { tmpl_tree_narrow() } // 1793 snowy conifer (equiv. of 1737)
-base_graphics(1800, "sprites/png/trees/arctic/tree_04_snow_conifer.png") { tmpl_tree_narrow() } // 1800 snowy conifer (equiv. of 1744)
-base_graphics(1807, "sprites/png/trees/arctic/tree_05_snow_conifer.png") { tmpl_tree_narrow() } // 1807 snowy conifer (equiv. of 1751)
-base_graphics(1814, "sprites/png/trees/arctic/tree_10_snow_leaf.png") { tmpl_tree_narrow() }    // 1814 snowy leaf tree (equiv. of 1758)
+base_graphics(1765, "sprites/png/trees/arctic/tree_01_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1765 snowy conifer (equiv of 1709)
+base_graphics(1772, "sprites/png/trees/arctic/tree_06_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1772 snowy leaf tree (equiv. of 1716)
+base_graphics(1779, "sprites/png/trees/arctic/tree_07_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1779 snowy leaf tree (equiv. of 1723)
+base_graphics(1786, "sprites/png/trees/arctic/tree_08_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1786 snowy conifer (equiv. of 1730)
+base_graphics(1793, "sprites/png/trees/arctic/tree_09_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1793 snowy conifer (equiv. of 1737)
+base_graphics(1800, "sprites/png/trees/arctic/tree_04_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1800 snowy conifer (equiv. of 1744)
+base_graphics(1807, "sprites/png/trees/arctic/tree_05_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1807 snowy conifer (equiv. of 1751)
+base_graphics(1814, "sprites/png/trees/arctic/tree_10_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1814 snowy leaf tree (equiv. of 1758)
 
 //1821-1946 tropical trees
 // 1821 banana tree												#1
