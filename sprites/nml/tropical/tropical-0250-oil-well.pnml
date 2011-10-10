@@ -1,0 +1,8 @@
+// oil wells on tropical grass
+base_graphics( 250, "sprites/png/industries/industries_misc.png") { [ 722, 2232,  64,  31, -31,   0] }
+base_graphics( 251, "sprites/png/industries/industries_misc.png") { [   2, 2296,  31,  44, -11, -29] }
+base_graphics( 252, "sprites/png/industries/industries_misc.png") { [  50, 2296,  31,  44, -11, -29] }
+base_graphics( 253, "sprites/png/industries/industries_misc.png") { [  98, 2296,  31,  44, -11, -29] }
+base_graphics( 254, "sprites/png/industries/industries_misc.png") { [ 146, 2296,  31,  44, -11, -29] }
+base_graphics( 255, "sprites/png/industries/industries_misc.png") { [ 194, 2296,  31,  44, -11, -29] }
+base_graphics( 256, "sprites/png/industries/industries_misc.png") { [ 242, 2296,  31,  44, -11, -29] }

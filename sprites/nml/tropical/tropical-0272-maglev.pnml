@@ -1,0 +1,19 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+base_graphics( 272, "sprites/png/infrastructure/rail/maglev_tracks_tropic.png") { tmpl_rail_tracks() }
+
+//298-301 maglev level crossing tropical grass
+base_graphics( 298, "sprites/png/infrastructure/infra06.png") { [ 626, 3512,  64,  31, -31,   0] }
+base_graphics( 299, "sprites/png/infrastructure/infra06.png") { [ 706, 3512,  64,  31, -31,   0] }
+base_graphics( 300, "sprites/png/infrastructure/infra06.png") { [   2, 3560,  64,  31, -31,   0] }
+base_graphics( 301, "sprites/png/infrastructure/infra06.png") { [  82, 3560,  64,  31, -31,   0] }
+
+// maglev tunnels tropical grass
+base_graphics( 302, "sprites/png/infrastructure/infra06.png") { [ 642, 4120,  64,  39, -31,  -8] }
+base_graphics( 303, "sprites/png/infrastructure/infra06.png") { [ 722, 4120,  64,  39, -31, -38] }
+base_graphics( 304, "sprites/png/infrastructure/infra06.png") { [   2, 4184,  64,  23, -31,   0] }
+base_graphics( 305, "sprites/png/infrastructure/infra06.png") { [  82, 4184,  64,  23, -31, -30] }
+base_graphics( 306, "sprites/png/infrastructure/infra06.png") { [ 162, 4184,  64,  23, -31,   0] }
+base_graphics( 307, "sprites/png/infrastructure/infra06.png") { [ 242, 4184,  64,  23, -31, -30] }
+base_graphics( 308, "sprites/png/infrastructure/infra06.png") { [ 322, 4184,  64,  39, -31,  -8] }
+base_graphics( 309, "sprites/png/infrastructure/infra06.png") { [ 402, 4184,  64,  39, -31, -38] }

@@ -1,0 +1,3 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+base_graphics( 543, "sprites/png/industries/farm_tropical.png") { tmpl_farm() }

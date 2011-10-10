@@ -1,0 +1,27 @@
+// rail on desert ground
+base_graphics( 407, "sprites/png/infrastructure/infra06.png") { [ 674,  632,  64,  31, -31,   0] }
+base_graphics( 408, "sprites/png/infrastructure/infra06.png") { [   2,  696,  64,  31, -31,   0] }
+base_graphics( 409, "sprites/png/infrastructure/infra06.png") { [  82,  696,  64,  31, -31,   0] }
+base_graphics( 410, "sprites/png/infrastructure/infra06.png") { [ 162,  696,  64,  31, -31,   0] }
+base_graphics( 411, "sprites/png/infrastructure/infra06.png") { [ 242,  696,  64,  31, -31,   0] }
+base_graphics( 412, "sprites/png/infrastructure/infra06.png") { [ 322,  696,  64,  31, -31,   0] }
+base_graphics( 413, "sprites/png/infrastructure/infra06.png") { [ 402,  696,  64,  31, -31,   0] }
+base_graphics( 414, "sprites/png/infrastructure/infra06.png") { [ 482,  696,  64,  31, -31,   0] }
+base_graphics( 415, "sprites/png/infrastructure/infra06.png") { [ 562,  696,  64,  31, -31,   0] }
+base_graphics( 416, "sprites/png/infrastructure/infra06.png") { [ 642,  696,  64,  31, -31,   0] }
+base_graphics( 417, "sprites/png/infrastructure/infra06.png") { [ 722,  696,  64,  31, -31,   0] }
+base_graphics( 418, "sprites/png/infrastructure/infra06.png") { [   2,  744,  64,  31, -31,   0] }
+base_graphics( 419, "sprites/png/infrastructure/infra06.png") { [  82,  744,  64,  39, -31,  -8] }
+base_graphics( 420, "sprites/png/infrastructure/infra06.png") { [ 162,  744,  64,  31, -31,   0] }
+base_graphics( 421, "sprites/png/infrastructure/infra06.png") { [ 242,  744,  64,  31, -31,   0] }
+base_graphics( 422, "sprites/png/infrastructure/infra06.png") { [ 322,  744,  64,  23, -31,   0] }
+base_graphics( 423, "sprites/png/infrastructure/infra06.png") { [ 402,  744,  64,  31, -31,  -8] }
+base_graphics( 424, "sprites/png/infrastructure/infra06.png") { [ 482,  744,  64,  23, -31,   0] }
+base_graphics( 425, "sprites/png/infrastructure/infra06.png") { [ 562,  744,  64,  31, -31,  -8] }
+base_graphics( 426, "sprites/png/infrastructure/infra06.png") { [ 642,  744,  64,  39, -31,  -8] }
+base_graphics( 427, "sprites/png/infrastructure/infra06.png") { [ 722,  744,  64,  39, -31,  -8] }
+base_graphics( 428, "sprites/png/infrastructure/infra06.png") { [   2,  808,  64,  23, -31,   0] }
+base_graphics( 429, "sprites/png/infrastructure/infra06.png") { [  82,  808,  64,  23, -31,   0] }
+base_graphics( 430, "sprites/png/infrastructure/infra06.png") { [ 162,  808,  64,  39, -31,  -8] }
+base_graphics( 431, "sprites/png/infrastructure/infra06.png") { [ 242,  808,  64,  31, -31,   0] }
+base_graphics( 432, "sprites/png/infrastructure/infra06.png") { [ 322,  808,  64,  31, -31,   0] }

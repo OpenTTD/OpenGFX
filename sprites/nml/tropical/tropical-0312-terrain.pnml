@@ -1,0 +1,83 @@
+// bare desert stage 2
+base_graphics( 312, "sprites/png/terrain/terrain04.png") { [ 514, 4952,  64,  31, -31,   0] }
+base_graphics( 313, "sprites/png/terrain/terrain04.png") { [ 594, 4952,  64,  31, -31,   0] }
+base_graphics( 314, "sprites/png/terrain/terrain04.png") { [ 674, 4952,  64,  23, -31,   0] }
+base_graphics( 315, "sprites/png/terrain/terrain04.png") { [   2, 5016,  64,  23, -31,   0] }
+base_graphics( 316, "sprites/png/terrain/terrain04.png") { [  82, 5016,  64,  31, -31,   0] }
+base_graphics( 317, "sprites/png/terrain/terrain04.png") { [ 162, 5016,  64,  31, -31,   0] }
+base_graphics( 318, "sprites/png/terrain/terrain04.png") { [ 242, 5016,  64,  23, -31,   0] }
+base_graphics( 319, "sprites/png/terrain/terrain04.png") { [ 322, 5016,  64,  23, -31,   0] }
+base_graphics( 320, "sprites/png/terrain/terrain04.png") { [ 402, 5016,  64,  39, -31,  -8] }
+base_graphics( 321, "sprites/png/terrain/terrain04.png") { [ 482, 5016,  64,  39, -31,  -8] }
+base_graphics( 322, "sprites/png/terrain/terrain04.png") { [ 562, 5016,  64,  31, -31,  -8] }
+base_graphics( 323, "sprites/png/terrain/terrain04.png") { [ 642, 5016,  64,  31, -31,  -8] }
+base_graphics( 324, "sprites/png/terrain/terrain04.png") { [ 722, 5016,  64,  39, -31,  -8] }
+base_graphics( 325, "sprites/png/terrain/terrain04.png") { [   2, 5080,  64,  39, -31,  -8] }
+base_graphics( 326, "sprites/png/terrain/terrain04.png") { [  82, 5080,  64,  31, -31,  -8] }
+base_graphics( 327, "sprites/png/terrain/terrain04.png") { [ 162, 5080,  64,  47, -31, -16] }
+base_graphics( 328, "sprites/png/terrain/terrain04.png") { [ 242, 5080,  64,  15, -31,   0] }
+base_graphics( 329, "sprites/png/terrain/terrain04.png") { [ 322, 5080,  64,  31, -31,  -8] }
+base_graphics( 330, "sprites/png/terrain/terrain04.png") { [ 402, 5080,  64,  31, -31,  -8] }
+
+// bare desert stage 3
+base_graphics( 331, "sprites/png/terrain/terrain04.png") { [ 514, 4952,  64,  31, -31,   0] }
+base_graphics( 332, "sprites/png/terrain/terrain04.png") { [ 594, 4952,  64,  31, -31,   0] }
+base_graphics( 333, "sprites/png/terrain/terrain04.png") { [ 674, 4952,  64,  23, -31,   0] }
+base_graphics( 334, "sprites/png/terrain/terrain04.png") { [   2, 5016,  64,  23, -31,   0] }
+base_graphics( 335, "sprites/png/terrain/terrain04.png") { [  82, 5016,  64,  31, -31,   0] }
+base_graphics( 336, "sprites/png/terrain/terrain04.png") { [ 162, 5016,  64,  31, -31,   0] }
+base_graphics( 337, "sprites/png/terrain/terrain04.png") { [ 242, 5016,  64,  23, -31,   0] }
+base_graphics( 338, "sprites/png/terrain/terrain04.png") { [ 322, 5016,  64,  23, -31,   0] }
+base_graphics( 339, "sprites/png/terrain/terrain04.png") { [ 402, 5016,  64,  39, -31,  -8] }
+base_graphics( 340, "sprites/png/terrain/terrain04.png") { [ 482, 5016,  64,  39, -31,  -8] }
+base_graphics( 341, "sprites/png/terrain/terrain04.png") { [ 562, 5016,  64,  31, -31,  -8] }
+base_graphics( 342, "sprites/png/terrain/terrain04.png") { [ 642, 5016,  64,  31, -31,  -8] }
+base_graphics( 343, "sprites/png/terrain/terrain04.png") { [ 722, 5016,  64,  39, -31,  -8] }
+base_graphics( 344, "sprites/png/terrain/terrain04.png") { [   2, 5080,  64,  39, -31,  -8] }
+base_graphics( 345, "sprites/png/terrain/terrain04.png") { [  82, 5080,  64,  31, -31,  -8] }
+base_graphics( 346, "sprites/png/terrain/terrain04.png") { [ 162, 5080,  64,  47, -31, -16] }
+base_graphics( 347, "sprites/png/terrain/terrain04.png") { [ 242, 5080,  64,  15, -31,   0] }
+base_graphics( 348, "sprites/png/terrain/terrain04.png") { [ 322, 5080,  64,  31, -31,  -8] }
+base_graphics( 349, "sprites/png/terrain/terrain04.png") { [ 402, 5080,  64,  31, -31,  -8] }
+
+// desert
+base_graphics( 350, "sprites/png/terrain/terrain04.png") { [ 514, 5080,  64,  31, -31,   0] }
+base_graphics( 351, "sprites/png/terrain/terrain04.png") { [ 594, 5080,  64,  31, -31,   0] }
+base_graphics( 352, "sprites/png/terrain/terrain04.png") { [ 674, 5080,  64,  23, -31,   0] }
+base_graphics( 353, "sprites/png/terrain/terrain04.png") { [   2, 5144,  64,  23, -31,   0] }
+base_graphics( 354, "sprites/png/terrain/terrain04.png") { [  82, 5144,  64,  31, -31,   0] }
+base_graphics( 355, "sprites/png/terrain/terrain04.png") { [ 162, 5144,  64,  31, -31,   0] }
+base_graphics( 356, "sprites/png/terrain/terrain04.png") { [ 242, 5144,  64,  23, -31,   0] }
+base_graphics( 357, "sprites/png/terrain/terrain04.png") { [ 322, 5144,  64,  23, -31,   0] }
+base_graphics( 358, "sprites/png/terrain/terrain04.png") { [ 402, 5144,  64,  39, -31,  -8] }
+base_graphics( 359, "sprites/png/terrain/terrain04.png") { [ 482, 5144,  64,  39, -31,  -8] }
+base_graphics( 360, "sprites/png/terrain/terrain04.png") { [ 562, 5144,  64,  31, -31,  -8] }
+base_graphics( 361, "sprites/png/terrain/terrain04.png") { [ 642, 5144,  64,  31, -31,  -8] }
+base_graphics( 362, "sprites/png/terrain/terrain04.png") { [ 722, 5144,  64,  39, -31,  -8] }
+base_graphics( 363, "sprites/png/terrain/terrain04.png") { [   2, 5208,  64,  39, -31,  -8] }
+base_graphics( 364, "sprites/png/terrain/terrain04.png") { [  82, 5208,  64,  31, -31,  -8] }
+base_graphics( 365, "sprites/png/terrain/terrain04.png") { [ 162, 5208,  64,  47, -31, -16] }
+base_graphics( 366, "sprites/png/terrain/terrain04.png") { [ 242, 5208,  64,  15, -31,   0] }
+base_graphics( 367, "sprites/png/terrain/terrain04.png") { [ 322, 5208,  64,  31, -31,  -8] }
+base_graphics( 368, "sprites/png/terrain/terrain04.png") { [ 402, 5208,  64,  31, -31,  -8] }
+
+// desert (again. Why ever)
+base_graphics( 369, "sprites/png/terrain/terrain04.png") { [ 514, 5080,  64,  31, -31,   0] }
+base_graphics( 370, "sprites/png/terrain/terrain04.png") { [ 594, 5080,  64,  31, -31,   0] }
+base_graphics( 371, "sprites/png/terrain/terrain04.png") { [ 674, 5080,  64,  23, -31,   0] }
+base_graphics( 372, "sprites/png/terrain/terrain04.png") { [   2, 5144,  64,  23, -31,   0] }
+base_graphics( 373, "sprites/png/terrain/terrain04.png") { [  82, 5144,  64,  31, -31,   0] }
+base_graphics( 374, "sprites/png/terrain/terrain04.png") { [ 162, 5144,  64,  31, -31,   0] }
+base_graphics( 375, "sprites/png/terrain/terrain04.png") { [ 242, 5144,  64,  23, -31,   0] }
+base_graphics( 376, "sprites/png/terrain/terrain04.png") { [ 322, 5144,  64,  23, -31,   0] }
+base_graphics( 377, "sprites/png/terrain/terrain04.png") { [ 402, 5144,  64,  39, -31,  -8] }
+base_graphics( 378, "sprites/png/terrain/terrain04.png") { [ 482, 5144,  64,  39, -31,  -8] }
+base_graphics( 379, "sprites/png/terrain/terrain04.png") { [ 562, 5144,  64,  31, -31,  -8] }
+base_graphics( 380, "sprites/png/terrain/terrain04.png") { [ 642, 5144,  64,  31, -31,  -8] }
+base_graphics( 381, "sprites/png/terrain/terrain04.png") { [ 722, 5144,  64,  39, -31,  -8] }
+base_graphics( 382, "sprites/png/terrain/terrain04.png") { [   2, 5208,  64,  39, -31,  -8] }
+base_graphics( 383, "sprites/png/terrain/terrain04.png") { [  82, 5208,  64,  31, -31,  -8] }
+base_graphics( 384, "sprites/png/terrain/terrain04.png") { [ 162, 5208,  64,  47, -31, -16] }
+base_graphics( 385, "sprites/png/terrain/terrain04.png") { [ 242, 5208,  64,  15, -31,   0] }
+base_graphics( 386, "sprites/png/terrain/terrain04.png") { [ 322, 5208,  64,  31, -31,  -8] }
+base_graphics( 387, "sprites/png/terrain/terrain04.png") { [ 402, 5208,  64,  31, -31,  -8] }

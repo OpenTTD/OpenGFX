@@ -1,0 +1,19 @@
+// rail tunnels on tropical grass
+base_graphics( 218, "sprites/png/infrastructure/infra06.png") { [ 114, 4056,  64,  39, -31,  -8] }
+base_graphics( 219, "sprites/png/infrastructure/infra06.png") { [ 194, 4056,  64,  39, -31, -38] }
+base_graphics( 220, "sprites/png/infrastructure/infra06.png") { [ 274, 4056,  64,  23, -31,   0] }
+base_graphics( 221, "sprites/png/infrastructure/infra06.png") { [ 354, 4056,  64,  23, -31, -30] }
+base_graphics( 222, "sprites/png/infrastructure/infra06.png") { [ 434, 4056,  64,  23, -31,   0] }
+base_graphics( 223, "sprites/png/infrastructure/infra06.png") { [ 514, 4056,  64,  23, -31, -30] }
+base_graphics( 224, "sprites/png/infrastructure/infra06.png") { [ 594, 4056,  64,  39, -31,  -8] }
+base_graphics( 225, "sprites/png/infrastructure/infra06.png") { [ 674, 4056,  64,  39, -31, -38] }
+
+// road tunnels on tropical grass
+base_graphics( 226, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  175,  64,  39, -31,  -8] }
+base_graphics( 227, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  175,  64,  39, -31, -38] }
+base_graphics( 228, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  175,  64,  23, -31,   0] }
+base_graphics( 229, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  175,  64,  23, -31, -30] }
+base_graphics( 230, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  175,  64,  23, -31,   0] }
+base_graphics( 231, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  175,  64,  23, -31, -30] }
+base_graphics( 232, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  175,  64,  39, -31,  -8] }
+base_graphics( 233, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  175,  64,  39, -31, -38] }

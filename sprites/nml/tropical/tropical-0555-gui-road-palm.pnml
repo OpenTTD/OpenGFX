@@ -1,0 +1,6 @@
+//555-556 build desert tile button and cursor
+base_graphics( 555, "sprites/png/gui/gui04.png") { [ 766,  280,  20,  20,   0,   0] }
+base_graphics( 556, "sprites/png/gui/gui04.png") { [ 766,  376,  32,  32,   0,   0] }
+
+// tropical city roadside palm tree
+base_graphics( 557, "sprites/png/landscape/landscape031.png") { [ 466,  584,  21,  36, -10, -30] }

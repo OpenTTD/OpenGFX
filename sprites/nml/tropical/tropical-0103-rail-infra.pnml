@@ -1,0 +1,111 @@
+//103-108 monorail overlays
+base_graphics( 103, "sprites/png/infrastructure/infra06.png") { [ 338,    8,  34,  18, -15,   7] }
+base_graphics( 104, "sprites/png/infrastructure/infra06.png") { [ 386,    8,  35,  18, -16,   7] }
+base_graphics( 105, "sprites/png/infrastructure/infra06.png") { [ 434,    8,  40,   7, -19,   4] }
+base_graphics( 106, "sprites/png/infrastructure/infra06.png") { [ 482,    8,  40,   7, -19,  20] }
+base_graphics( 107, "sprites/png/infrastructure/infra06.png") { [ 530,    8,  12,  19,  11,   6] }
+base_graphics( 108, "sprites/png/infrastructure/infra06.png") { [ 562,    8,  12,  19, -21,   6] }
+
+//109-134 monorail track tropical grass
+base_graphics( 109, "sprites/png/infrastructure/infra06.png") { [   2, 1176,  64,  31, -31,   0] }
+base_graphics( 110, "sprites/png/infrastructure/infra06.png") { [  82, 1176,  64,  31, -31,   0] }
+base_graphics( 111, "sprites/png/infrastructure/infra06.png") { [ 162, 1176,  64,  31, -31,   0] }
+base_graphics( 112, "sprites/png/infrastructure/infra06.png") { [ 242, 1176,  64,  31, -31,   0] }
+base_graphics( 113, "sprites/png/infrastructure/infra06.png") { [ 322, 1176,  64,  31, -31,   0] }
+base_graphics( 114, "sprites/png/infrastructure/infra06.png") { [ 402, 1176,  64,  31, -31,   0] }
+base_graphics( 115, "sprites/png/infrastructure/infra06.png") { [ 482, 1176,  64,  31, -31,   0] }
+base_graphics( 116, "sprites/png/infrastructure/infra06.png") { [ 562, 1176,  64,  31, -31,   0] }
+base_graphics( 117, "sprites/png/infrastructure/infra06.png") { [ 642, 1176,  64,  31, -31,   0] }
+base_graphics( 118, "sprites/png/infrastructure/infra06.png") { [ 722, 1176,  64,  31, -31,   0] }
+base_graphics( 119, "sprites/png/infrastructure/infra06.png") { [   2, 1224,  64,  31, -31,   0] }
+base_graphics( 120, "sprites/png/infrastructure/infra06.png") { [  82, 1224,  64,  31, -31,   0] }
+base_graphics( 121, "sprites/png/infrastructure/infra06.png") { [ 162, 1224,  64,  39, -31,  -8] }
+base_graphics( 122, "sprites/png/infrastructure/infra06.png") { [ 242, 1224,  64,  31, -31,   0] }
+base_graphics( 123, "sprites/png/infrastructure/infra06.png") { [ 322, 1224,  64,  31, -31,   0] }
+base_graphics( 124, "sprites/png/infrastructure/infra06.png") { [ 402, 1224,  64,  23, -31,   0] }
+base_graphics( 125, "sprites/png/infrastructure/infra06.png") { [ 482, 1224,  64,  31, -31,  -8] }
+base_graphics( 126, "sprites/png/infrastructure/infra06.png") { [ 562, 1224,  64,  23, -31,   0] }
+base_graphics( 127, "sprites/png/infrastructure/infra06.png") { [ 642, 1224,  64,  31, -31,  -8] }
+base_graphics( 128, "sprites/png/infrastructure/infra06.png") { [ 722, 1224,  64,  39, -31,  -8] }
+base_graphics( 129, "sprites/png/infrastructure/infra06.png") { [   2, 1288,  64,  39, -31,  -8] }
+base_graphics( 130, "sprites/png/infrastructure/infra06.png") { [  82, 1288,  64,  23, -31,   0] }
+base_graphics( 131, "sprites/png/infrastructure/infra06.png") { [ 162, 1288,  64,  23, -31,   0] }
+base_graphics( 132, "sprites/png/infrastructure/infra06.png") { [ 242, 1288,  64,  39, -31,  -8] }
+base_graphics( 133, "sprites/png/infrastructure/infra06.png") { [ 322, 1288,  64,  31, -31,   0] }
+base_graphics( 134, "sprites/png/infrastructure/infra06.png") { [ 402, 1288,  64,  31, -31,   0] }
+
+//135-142 monorail level crossing tropical grass
+base_graphics( 135, "sprites/png/infrastructure/infra06.png") { [ 114, 3416,  64,  31, -31,   0] }
+base_graphics( 136, "sprites/png/infrastructure/infra06.png") { [ 194, 3416,  64,  31, -31,   0] }
+base_graphics( 137, "sprites/png/infrastructure/infra06.png") { [ 274, 3416,  64,  31, -31,   0] }
+base_graphics( 138, "sprites/png/infrastructure/infra06.png") { [ 354, 3416,  64,  31, -31,   0] }
+base_graphics( 139, "sprites/png/infrastructure/infra06.png") { [ 466, 3416,  64,  31, -31,   0] }
+base_graphics( 140, "sprites/png/infrastructure/infra06.png") { [ 546, 3416,  64,  31, -31,   0] }
+base_graphics( 141, "sprites/png/infrastructure/infra06.png") { [ 626, 3416,  64,  31, -31,   0] }
+base_graphics( 142, "sprites/png/infrastructure/infra06.png") { [ 706, 3416,  64,  31, -31,   0] }
+
+//143-150 monorail tunnel tropical grass
+base_graphics( 143, "sprites/png/infrastructure/infra06.png") { [   2, 4120,  64,  39, -31,  -8] }
+base_graphics( 144, "sprites/png/infrastructure/infra06.png") { [  82, 4120,  64,  39, -31, -38] }
+base_graphics( 145, "sprites/png/infrastructure/infra06.png") { [ 162, 4120,  64,  23, -31,   0] }
+base_graphics( 146, "sprites/png/infrastructure/infra06.png") { [ 242, 4120,  64,  23, -31, -30] }
+base_graphics( 147, "sprites/png/infrastructure/infra06.png") { [ 322, 4120,  64,  23, -31,   0] }
+base_graphics( 148, "sprites/png/infrastructure/infra06.png") { [ 402, 4120,  64,  23, -31, -30] }
+base_graphics( 149, "sprites/png/infrastructure/infra06.png") { [ 482, 4120,  64,  39, -31,  -8] }
+base_graphics( 150, "sprites/png/infrastructure/infra06.png") { [ 562, 4120,  64,  39, -31, -38] }
+
+//151-156 rail overlay
+base_graphics( 151, "sprites/png/infrastructure/infra06.png") { [  66,    8,  40,  21, -19,   5] }
+base_graphics( 152, "sprites/png/infrastructure/infra06.png") { [ 114,    8,  40,  21, -19,   5] }
+base_graphics( 153, "sprites/png/infrastructure/infra06.png") { [ 162,    8,  40,   7, -19,   4] }
+base_graphics( 154, "sprites/png/infrastructure/infra06.png") { [ 210,    8,  40,   7, -19,  20] }
+base_graphics( 155, "sprites/png/infrastructure/infra06.png") { [ 258,    8,  12,  19,  11,   6] }
+base_graphics( 156, "sprites/png/infrastructure/infra06.png") { [ 290,    8,  12,  19, -21,   6] }
+
+//157-182 rail track tropical grass
+base_graphics( 157, "sprites/png/infrastructure/infra06.png") { [ 354,  328,  64,  31, -31,   0] }
+base_graphics( 158, "sprites/png/infrastructure/infra06.png") { [ 434,  328,  64,  31, -31,   0] }
+base_graphics( 159, "sprites/png/infrastructure/infra06.png") { [ 514,  328,  64,  31, -31,   0] }
+base_graphics( 160, "sprites/png/infrastructure/infra06.png") { [ 594,  328,  64,  31, -31,   0] }
+base_graphics( 161, "sprites/png/infrastructure/infra06.png") { [ 674,  328,  64,  31, -31,   0] }
+base_graphics( 162, "sprites/png/infrastructure/infra06.png") { [   2,  392,  64,  31, -31,   0] }
+base_graphics( 163, "sprites/png/infrastructure/infra06.png") { [  82,  392,  64,  31, -31,   0] }
+base_graphics( 164, "sprites/png/infrastructure/infra06.png") { [ 162,  392,  64,  31, -31,   0] }
+base_graphics( 165, "sprites/png/infrastructure/infra06.png") { [ 242,  392,  64,  31, -31,   0] }
+base_graphics( 166, "sprites/png/infrastructure/infra06.png") { [ 322,  392,  64,  31, -31,   0] }
+base_graphics( 167, "sprites/png/infrastructure/infra06.png") { [ 402,  392,  64,  31, -31,   0] }
+base_graphics( 168, "sprites/png/infrastructure/infra06.png") { [ 482,  392,  64,  31, -31,   0] }
+base_graphics( 169, "sprites/png/infrastructure/infra06.png") { [ 562,  392,  64,  39, -31,  -8] }
+base_graphics( 170, "sprites/png/infrastructure/infra06.png") { [ 642,  392,  64,  31, -31,   0] }
+base_graphics( 171, "sprites/png/infrastructure/infra06.png") { [ 722,  392,  64,  31, -31,   0] }
+base_graphics( 172, "sprites/png/infrastructure/infra06.png") { [   2,  456,  64,  23, -31,   0] }
+base_graphics( 173, "sprites/png/infrastructure/infra06.png") { [  82,  456,  64,  31, -31,  -8] }
+base_graphics( 174, "sprites/png/infrastructure/infra06.png") { [ 162,  456,  64,  23, -31,   0] }
+base_graphics( 175, "sprites/png/infrastructure/infra06.png") { [ 242,  456,  64,  31, -31,  -8] }
+base_graphics( 176, "sprites/png/infrastructure/infra06.png") { [ 322,  456,  64,  39, -31,  -8] }
+base_graphics( 177, "sprites/png/infrastructure/infra06.png") { [ 402,  456,  64,  39, -31,  -8] }
+base_graphics( 178, "sprites/png/infrastructure/infra06.png") { [ 482,  456,  64,  23, -31,   0] }
+base_graphics( 179, "sprites/png/infrastructure/infra06.png") { [ 562,  456,  64,  23, -31,   0] }
+base_graphics( 180, "sprites/png/infrastructure/infra06.png") { [ 642,  456,  64,  39, -31,  -8] }
+base_graphics( 181, "sprites/png/infrastructure/infra06.png") { [ 722,  456,  64,  31, -31,   0] }
+base_graphics( 182, "sprites/png/infrastructure/infra06.png") { [   2,  520,  64,  31, -31,   0] }
+
+//183-190 fences
+base_graphics( 183, "sprites/png/infrastructure/infra06.png") { [ 194, 5416,  33,  22, -31,  -6] }
+base_graphics( 184, "sprites/png/infrastructure/infra06.png") { [ 242, 5416,  33,  22,   0,  -6] }
+base_graphics( 185, "sprites/png/infrastructure/infra06.png") { [ 290, 5416,   2,  38,   0, -22] }
+base_graphics( 186, "sprites/png/infrastructure/infra06.png") { [ 306, 5416,  65,   6, -31,  -6] }
+base_graphics( 187, "sprites/png/infrastructure/infra06.png") { [ 386, 5416,  33,  14, -31,  -6] }
+base_graphics( 188, "sprites/png/infrastructure/infra06.png") { [ 434, 5416,  33,  14,   0,  -6] }
+base_graphics( 189, "sprites/png/infrastructure/infra06.png") { [ 482, 5416,  33,  30, -31, -14] }
+base_graphics( 190, "sprites/png/infrastructure/infra06.png") { [ 530, 5416,  33,  30,   0, -14] }
+
+//191-198 rail level crossing tropical grass
+base_graphics( 191, "sprites/png/infrastructure/infra06.png") { [ 354, 3272,  64,  31, -31,   0] }
+base_graphics( 192, "sprites/png/infrastructure/infra06.png") { [ 434, 3272,  64,  31, -31,   0] }
+base_graphics( 193, "sprites/png/infrastructure/infra06.png") { [ 514, 3272,  64,  31, -31,   0] }
+base_graphics( 194, "sprites/png/infrastructure/infra06.png") { [ 594, 3272,  64,  31, -31,   0] }
+base_graphics( 195, "sprites/png/infrastructure/infra06.png") { [ 706, 3272,  64,  31, -31,   0] }
+base_graphics( 196, "sprites/png/infrastructure/infra06.png") { [   2, 3320,  64,  31, -31,   0] }
+base_graphics( 197, "sprites/png/infrastructure/infra06.png") { [  82, 3320,  64,  31, -31,   0] }
+base_graphics( 198, "sprites/png/infrastructure/infra06.png") { [ 162, 3320,  64,  31, -31,   0] }

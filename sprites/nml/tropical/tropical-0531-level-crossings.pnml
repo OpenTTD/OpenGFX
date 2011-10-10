@@ -1,0 +1,17 @@
+// rail level crossings on desert ground
+base_graphics( 531, "sprites/png/infrastructure/infra06.png") { [ 626, 3320,  64,  31, -31,   0] }
+base_graphics( 532, "sprites/png/infrastructure/infra06.png") { [ 706, 3320,  64,  31, -31,   0] }
+base_graphics( 533, "sprites/png/infrastructure/infra06.png") { [   2, 3368,  64,  31, -31,   0] }
+base_graphics( 534, "sprites/png/infrastructure/infra06.png") { [  82, 3368,  64,  31, -31,   0] }
+
+// monorail level crossings on desert ground
+base_graphics( 535, "sprites/png/infrastructure/infra06.png") { [ 370, 3464,  64,  31, -31,   0] }
+base_graphics( 536, "sprites/png/infrastructure/infra06.png") { [ 450, 3464,  64,  31, -31,   0] }
+base_graphics( 537, "sprites/png/infrastructure/infra06.png") { [ 530, 3464,  64,  31, -31,   0] }
+base_graphics( 538, "sprites/png/infrastructure/infra06.png") { [ 610, 3464,  64,  31, -31,   0] }
+
+// maglev level crossings on desert ground
+base_graphics( 539, "sprites/png/infrastructure/infra06.png") { [ 114, 3608,  64,  31, -31,   0] }
+base_graphics( 540, "sprites/png/infrastructure/infra06.png") { [ 194, 3608,  64,  31, -31,   0] }
+base_graphics( 541, "sprites/png/infrastructure/infra06.png") { [ 274, 3608,  64,  31, -31,   0] }
+base_graphics( 542, "sprites/png/infrastructure/infra06.png") { [ 354, 3608,  64,  31, -31,   0] }

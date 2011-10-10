@@ -1,0 +1,39 @@
+// rail tunnel on desert ground
+base_graphics( 485, "sprites/png/infrastructure/infra06.png") { [ 594, 4440,  64,  39, -31,  -8] }
+base_graphics( 486, "sprites/png/infrastructure/infra06.png") { [ 674, 4440,  64,  39, -31, -38] }
+base_graphics( 487, "sprites/png/infrastructure/infra06.png") { [   2, 4504,  64,  23, -31,   0] }
+base_graphics( 488, "sprites/png/infrastructure/infra06.png") { [  82, 4504,  64,  23, -31, -30] }
+base_graphics( 489, "sprites/png/infrastructure/infra06.png") { [ 162, 4504,  64,  23, -31,   0] }
+base_graphics( 490, "sprites/png/infrastructure/infra06.png") { [ 242, 4504,  64,  23, -31, -30] }
+base_graphics( 491, "sprites/png/infrastructure/infra06.png") { [ 322, 4504,  64,  39, -31,  -8] }
+base_graphics( 492, "sprites/png/infrastructure/infra06.png") { [ 402, 4504,  64,  39, -31, -38] }
+
+// monorail tunnel on desert ground
+base_graphics( 493, "sprites/png/infrastructure/infra06.png") { [ 482, 4504,  64,  39, -31,  -8] }
+base_graphics( 494, "sprites/png/infrastructure/infra06.png") { [ 562, 4504,  64,  39, -31, -38] }
+base_graphics( 495, "sprites/png/infrastructure/infra06.png") { [ 642, 4504,  64,  23, -31,   0] }
+base_graphics( 496, "sprites/png/infrastructure/infra06.png") { [ 722, 4504,  64,  23, -31, -30] }
+base_graphics( 497, "sprites/png/infrastructure/infra06.png") { [   2, 4568,  64,  23, -31,   0] }
+base_graphics( 498, "sprites/png/infrastructure/infra06.png") { [  82, 4568,  64,  23, -31, -30] }
+base_graphics( 499, "sprites/png/infrastructure/infra06.png") { [ 162, 4568,  64,  39, -31,  -8] }
+base_graphics( 500, "sprites/png/infrastructure/infra06.png") { [ 242, 4568,  64,  39, -31, -38] }
+
+// maglev tunnel on desert ground
+base_graphics( 501, "sprites/png/infrastructure/infra06.png") { [ 322, 4568,  64,  39, -31,  -8] }
+base_graphics( 502, "sprites/png/infrastructure/infra06.png") { [ 402, 4568,  64,  39, -31, -38] }
+base_graphics( 503, "sprites/png/infrastructure/infra06.png") { [ 482, 4568,  64,  23, -31,   0] }
+base_graphics( 504, "sprites/png/infrastructure/infra06.png") { [ 562, 4568,  64,  23, -31, -30] }
+base_graphics( 505, "sprites/png/infrastructure/infra06.png") { [ 642, 4568,  64,  23, -31,   0] }
+base_graphics( 506, "sprites/png/infrastructure/infra06.png") { [ 722, 4568,  64,  23, -31, -30] }
+base_graphics( 507, "sprites/png/infrastructure/infra06.png") { [   2, 4632,  64,  39, -31,  -8] }
+base_graphics( 508, "sprites/png/infrastructure/infra06.png") { [  82, 4632,  64,  39, -31, -38] }
+
+// road tunnel on desert ground
+base_graphics( 509, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  322,  64,  39, -31,  -8] }
+base_graphics( 510, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  322,  64,  39, -31, -38] }
+base_graphics( 511, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  322,  64,  23, -31,   0] }
+base_graphics( 512, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  322,  64,  23, -31, -30] }
+base_graphics( 513, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  322,  64,  23, -31,   0] }
+base_graphics( 514, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  322,  64,  23, -31, -30] }
+base_graphics( 515, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  322,  64,  39, -31,  -8] }
+base_graphics( 516, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  322,  64,  39, -31, -38] }
