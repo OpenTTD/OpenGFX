@@ -1,167 +1,335 @@
-//2437-2592 bridges
- 1533 sprites/png/infrastructure/infra08.png 546 7848 09 31 64 -31 -8
- 1534 sprites/png/infrastructure/infra08.png 626 7848 09 31 64 -31 -8
- 1535 sprites/png/infrastructure/infra08.png 706 7848 09 31 64 -31 -8
- 1536 sprites/png/infrastructure/infra08.png 2 7960 09 31 64 -31 -8
- 1537 sprites/png/infrastructure/infra08.png 82 7960 09 39 64 -31 -8
- 1538 sprites/png/infrastructure/infra08.png 162 7960 09 23 64 -31 0
- 1539 sprites/png/infrastructure/infra08.png 242 7960 09 39 64 -31 -8
- 1540 sprites/png/infrastructure/infra08.png 322 7960 09 23 64 -31 0
- 1541 sprites/png/infrastructure/infra08.png 402 7960 09 31 64 -31 -8
- 1542 sprites/png/infrastructure/infra08.png 482 7960 09 31 64 -31 -8
- 1543 sprites/png/infrastructure/infra08.png 562 7960 09 31 64 -31 -8
- 1544 sprites/png/infrastructure/infra08.png 642 7960 09 31 64 -31 -8
- 1545 sprites/png/infrastructure/infra08.png 722 7960 09 39 64 -31 -8
- 1546 sprites/png/infrastructure/infra08.png 2 8024 09 23 64 -31 0
- 1547 sprites/png/infrastructure/infra08.png 82 8024 09 39 64 -31 -8
- 1548 sprites/png/infrastructure/infra08.png 162 8024 09 23 64 -31 0
- 1549 sprites/png/infrastructure/infra08.png 242 8024 01 46 52 -24 -21
- 1550 sprites/png/infrastructure/infra08.png 306 8024 01 62 51 -24 -37
- 1551 sprites/png/infrastructure/infra08.png 370 8024 01 54 34 0 -24
- 1552 sprites/png/infrastructure/infra08.png 418 8024 01 56 35 -3 -42
- 1553 sprites/png/infrastructure/infra08.png 466 8024 01 46 52 -24 -21
- 1554 sprites/png/infrastructure/infra08.png 530 8024 01 62 51 -24 -37
- 1555 sprites/png/infrastructure/infra08.png 594 8024 01 54 34 0 -24
- 1556 sprites/png/infrastructure/infra08.png 642 8024 01 56 35 -3 -42
- 1557 sprites/png/infrastructure/infra08.png 690 8024 01 46 52 -26 -21
- 1558 sprites/png/infrastructure/infra08.png 2 8104 01 62 51 -25 -37
- 1559 sprites/png/infrastructure/infra08.png 66 8104 01 54 34 -32 -24
- 1560 sprites/png/infrastructure/infra08.png 114 8104 01 56 35 -30 -42
- 1561 sprites/png/infrastructure/infra08.png 162 8104 01 46 52 -26 -21
- 1562 sprites/png/infrastructure/infra08.png 226 8104 01 62 51 -25 -37
- 1563 sprites/png/infrastructure/infra08.png 290 8104 01 54 34 -32 -24
- 1564 sprites/png/infrastructure/infra08.png 338 8104 01 56 35 -30 -42
- 1565 sprites/png/infrastructure/infra08.png 386 8104 01 46 52 -24 -21
- 1566 sprites/png/infrastructure/infra08.png 450 8104 01 62 51 -24 -37
- 1567 sprites/png/infrastructure/infra08.png 514 8104 01 46 52 -24 -21
- 1568 sprites/png/infrastructure/infra08.png 578 8104 01 62 51 -24 -37
- 1569 sprites/png/infrastructure/infra08.png 642 8104 01 46 52 -26 -21
- 1570 sprites/png/infrastructure/infra08.png 706 8104 01 62 51 -25 -37
- 1571 sprites/png/infrastructure/infra08.png 2 8184 01 46 52 -26 -21
- 1572 sprites/png/infrastructure/infra08.png 66 8184 01 62 51 -25 -37
- 1573 sprites/png/infrastructure/infra08.png 130 8184 01 8 4 28 16
- 1574 sprites/png/infrastructure/infra08.png 146 8184 01 9 4 0 1
- 1575 sprites/png/infrastructure/infra08.png 162 8184 01 8 4 28 16
- 1576 sprites/png/infrastructure/infra08.png 178 8184 01 9 4 0 1
- 1577 sprites/png/infrastructure/infra08.png 194 8184 01 8 4 -31 15
- 1578 sprites/png/infrastructure/infra08.png 210 8184 01 9 4 -3 0
- 1579 sprites/png/infrastructure/infra08.png 226 8184 01 8 4 -31 15
- 1580 sprites/png/infrastructure/infra08.png 242 8184 01 8 4 -3 1
- 1581 sprites/png/infrastructure/infra08.png 258 8184 01 62 52 -24 -37
- 1582 sprites/png/infrastructure/infra08.png 322 8184 01 62 52 -26 -37
- 1583 sprites/png/infrastructure/infra08.png 386 8184 01 62 52 -24 -37
- 1584 sprites/png/infrastructure/infra08.png 450 8184 01 62 52 -26 -37
- 1585 sprites/png/infrastructure/infra08.png 514 8184 01 64 37 -3 -42
- 1586 sprites/png/infrastructure/infra08.png 562 8184 01 64 37 -32 -42
- 1587 sprites/png/infrastructure/infra08.png 610 8184 09 23 32 0 1
- 1588 sprites/png/infrastructure/infra08.png 658 8184 09 23 32 -31 0
- 1589 sprites/png/infrastructure/infra08.png 706 8184 01 27 51 -25 -2
- 1590 sprites/png/infrastructure/infra08.png 2 8264 01 27 51 -24 -2
- 1591 sprites/png/infrastructure/infra08.png 66 8264 01 27 51 -25 -2
- 1592 sprites/png/infrastructure/infra08.png 130 8264 01 27 51 -24 -2
- 1593 sprites/png/infrastructure/infra08.png 194 8264 01 19 32 -30 -5
- 1594 sprites/png/infrastructure/infra08.png 242 8264 01 19 32 0 -5
- 1595 sprites/png/infrastructure/infra08.png 290 8264 09 51 64 -31 -23
- 1596 sprites/png/infrastructure/infra08.png 370 8264 09 51 64 -31 -23
- 1597 sprites/png/infrastructure/infra08.png 450 8264 09 51 64 -31 -23
- 1598 sprites/png/infrastructure/infra08.png 530 8264 09 51 64 -31 -23
- 1599 sprites/png/infrastructure/infra08.png 610 8264 09 51 64 -55 -35
- 1600 sprites/png/infrastructure/infra08.png 690 8264 09 51 64 -7 -34
- 1601 sprites/png/infrastructure/infra08.png 2 8328 09 25 34 -31 -3
- 1602 sprites/png/infrastructure/infra08.png 50 8328 09 25 34 0 -2
- 1603 sprites/png/infrastructure/infra08.png 98 8328 01 47 50 -23 -24
- 1604 sprites/png/infrastructure/infra08.png 162 8328 01 47 50 -23 -24
- 1605 sprites/png/infrastructure/infra08.png 226 8328 01 41 50 -23 -18
- 1606 sprites/png/infrastructure/infra08.png 290 8328 01 41 50 -23 -17
- 1607 sprites/png/infrastructure/infra08.png 354 8328 01 47 50 -23 -23
- 1608 sprites/png/infrastructure/infra08.png 418 8328 01 47 50 -23 -23
- 1609 sprites/png/infrastructure/infra08.png 482 8328 01 47 50 -23 -24
- 1610 sprites/png/infrastructure/infra08.png 546 8328 01 47 50 -23 -24
- 1611 sprites/png/infrastructure/infra08.png 610 8328 01 41 50 -23 -18
- 1612 sprites/png/infrastructure/infra08.png 674 8328 01 41 50 -23 -17
- 1613 sprites/png/infrastructure/infra08.png 738 8328 01 47 50 -23 -23
- 1614 sprites/png/infrastructure/infra08.png 2 8392 01 47 50 -23 -23
- 1615 sprites/png/infrastructure/infra08.png 66 8392 01 47 47 -44 -35
- 1616 sprites/png/infrastructure/infra08.png 130 8392 01 47 52 -49 -35
- 1617 sprites/png/infrastructure/infra08.png 194 8392 01 42 52 -49 -30
- 1618 sprites/png/infrastructure/infra08.png 258 8392 01 42 52 1 -29
- 1619 sprites/png/infrastructure/infra08.png 322 8392 01 47 52 1 -34
- 1620 sprites/png/infrastructure/infra08.png 386 8392 01 47 47 1 -34
- 1621 sprites/png/infrastructure/infra08.png 450 8392 01 13 12 -5 -7
- 1622 sprites/png/infrastructure/infra08.png 482 8392 01 13 12 -5 -7
- 1623 sprites/png/infrastructure/infra08.png 514 8392 01 13 12 -5 -7
- 1624 sprites/png/infrastructure/infra08.png 546 8392 01 13 12 -5 -7
- 1625 sprites/png/infrastructure/infra08.png 578 8392 09 21 49 -24 2
- 1626 sprites/png/infrastructure/infra08.png 642 8392 09 21 49 -23 2
- 1627 sprites/png/infrastructure/infra08.png 706 8392 09 35 50 -23 -8
- 1628 sprites/png/infrastructure/infra08.png 2 8456 09 35 50 -25 -8
- 1629 sprites/png/infrastructure/infra08.png 66 8456 09 32 51 -25 -6
- 1630 sprites/png/infrastructure/infra08.png 130 8456 09 32 51 -24 -6
- 1631 sprites/png/infrastructure/infra08.png 194 8456 09 28 53 -28 -7
- 1632 sprites/png/infrastructure/infra08.png 258 8456 09 28 53 -23 -7
- 1633 sprites/png/infrastructure/infra08.png 322 8456 09 21 49 -24 3
- 1634 sprites/png/infrastructure/infra08.png 386 8456 09 21 49 -23 3
- 1635 sprites/png/infrastructure/infra08.png 450 8456 09 35 50 -23 -8
- 1636 sprites/png/infrastructure/infra08.png 514 8456 09 35 50 -25 -8
- 1637 sprites/png/infrastructure/infra08.png 578 8456 09 32 51 -25 -6
- 1638 sprites/png/infrastructure/infra08.png 642 8456 09 32 51 -24 -6
- 1639 sprites/png/infrastructure/infra08.png 706 8456 09 28 53 -28 -7
- 1640 sprites/png/infrastructure/infra08.png 2 8504 09 28 53 -23 -7
- 1641 sprites/png/infrastructure/infra08.png 66 8504 09 36 47 -21 -11
- 1642 sprites/png/infrastructure/infra08.png 130 8504 09 36 47 -24 -11
- 1643 sprites/png/infrastructure/infra08.png 194 8504 09 36 49 -23 -12
- 1644 sprites/png/infrastructure/infra08.png 258 8504 09 36 49 -24 -12
- 1645 sprites/png/infrastructure/infra08.png 322 8504 09 48 50 -4 -34
- 1646 sprites/png/infrastructure/infra08.png 386 8504 09 48 50 -44 -34
- 1647 sprites/png/infrastructure/infra08.png 450 8504 09 24 28 -1 -2
- 1648 sprites/png/infrastructure/infra08.png 498 8504 09 24 28 -25 -2
- 1649 sprites/png/infrastructure/infra08.png 546 8504 09 51 64 -31 -23
- 1650 sprites/png/infrastructure/infra08.png 626 8504 09 51 64 -31 -23
- 1651 sprites/png/infrastructure/infra08.png 706 8504 09 51 64 -31 -23
- 1652 sprites/png/infrastructure/infra08.png 2 8568 09 51 64 -31 -23
- 1653 sprites/png/infrastructure/infra08.png 82 8568 09 51 64 -55 -35
- 1654 sprites/png/infrastructure/infra08.png 162 8568 09 51 64 -7 -34
- 1655 sprites/png/infrastructure/infra08.png 242 8568 01 43 34 -31 -27
- 1656 sprites/png/infrastructure/infra08.png 290 8568 01 50 48 -45 -27
- 1657 sprites/png/infrastructure/infra08.png 354 8568 01 35 50 -45 -12
- 1658 sprites/png/infrastructure/infra08.png 418 8568 01 35 50 -3 -12
- 1659 sprites/png/infrastructure/infra08.png 482 8568 01 50 48 -1 -27
- 1660 sprites/png/infrastructure/infra08.png 546 8568 01 43 34 -1 -27
- 1661 sprites/png/infrastructure/infra08.png 594 8568 01 9 6 -1 -1
- 1662 sprites/png/infrastructure/infra08.png 610 8568 01 9 6 -1 -1
- 1663 sprites/png/infrastructure/infra08.png 626 8568 01 9 6 -3 -1
- 1664 sprites/png/infrastructure/infra08.png 642 8568 01 9 6 -3 -1
- 1665 sprites/png/infrastructure/infra08.png 658 8568 01 39 50 -25 -15
- 1666 sprites/png/infrastructure/infra08.png 722 8568 01 37 48 -23 -13
- 1667 sprites/png/infrastructure/infra08.png 2 8632 01 31 48 -23 -7
- 1668 sprites/png/infrastructure/infra08.png 66 8632 01 31 48 -21 -6
- 1669 sprites/png/infrastructure/infra08.png 130 8632 01 37 48 -21 -12
- 1670 sprites/png/infrastructure/infra08.png 194 8632 01 39 50 -21 -14
- 1671 sprites/png/infrastructure/infra08.png 258 8632 01 39 50 -25 -15
- 1672 sprites/png/infrastructure/infra08.png 322 8632 01 37 48 -23 -13
- 1673 sprites/png/infrastructure/infra08.png 386 8632 01 31 48 -23 -7
- 1674 sprites/png/infrastructure/infra08.png 450 8632 01 31 48 -21 -6
- 1675 sprites/png/infrastructure/infra08.png 514 8632 01 37 48 -21 -12
- 1676 sprites/png/infrastructure/infra08.png 578 8632 01 39 50 -21 -14
- 1677 sprites/png/infrastructure/infra08.png 642 8632 01 39 50 -25 -15
- 1678 sprites/png/infrastructure/infra08.png 706 8632 01 37 48 -23 -13
- 1679 sprites/png/infrastructure/infra08.png 2 8696 01 31 48 -23 -7
- 1680 sprites/png/infrastructure/infra08.png 66 8696 01 31 48 -21 -6
- 1681 sprites/png/infrastructure/infra08.png 130 8696 01 37 48 -21 -12
- 1682 sprites/png/infrastructure/infra08.png 194 8696 01 39 50 -21 -14
- 1683 sprites/png/infrastructure/infra08.png 258 8696 01 39 50 -25 -15
- 1684 sprites/png/infrastructure/infra08.png 322 8696 01 37 48 -23 -13
- 1685 sprites/png/infrastructure/infra08.png 386 8696 01 31 48 -23 -7
- 1686 sprites/png/infrastructure/infra08.png 450 8696 01 31 48 -21 -6
- 1687 sprites/png/infrastructure/infra08.png 514 8696 01 37 48 -21 -12
- 1688 sprites/png/infrastructure/infra08.png 578 8696 01 39 50 -21 -14
+// Automatically generated by GRFCODEC. Do not modify!
+// (Info version 7)
+// Escapes: 2+ 2- 2< 2> 2u< 2u> 2/ 2% 2u/ 2u% 2* 2& 2| 2^ 2sto = 2s 2rst = 2r 2psto 2ror = 2rot 2cmp 2ucmp 2<< 2u>> 2>>
+// Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
+// Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-//2593-2600 bridge gui
-  2593 sprites/png/gui/gui04.png 706 952 03 32 52 0 0
-  2594 sprites/png/gui/gui04.png 2 1001 09 20 43 0 0
-  2595 sprites/png/gui/gui04.png 50 1001 09 20 43 0 0
-  2596 sprites/png/gui/gui04.png 98 1001 09 20 43 0 0
-  2597 sprites/png/gui/gui04.png 146 1001 09 20 43 0 0
-  2598 sprites/png/gui/gui04.png 194 1001 09 20 43 0 0
-  2599 sprites/png/gui/gui04.png 242 1001 09 20 43 0 0
-  2600 sprites/png/gui/gui04.png 290 1001 09 20 43 0 0
+2437 sprites/png/infrastructure/infra08.png 546 7848 01 31 64 -31 -8 
+
+2438 sprites/png/infrastructure/infra08.png 626 7848 01 31 64 -31 -8 
+
+2439 sprites/png/infrastructure/infra08.png 706 7848 01 31 64 -31 -8 
+
+2440 sprites/png/infrastructure/infra08.png 2 7960 01 31 64 -31 -8 
+
+2441 sprites/png/infrastructure/infra08.png 82 7960 01 39 64 -31 -8 
+
+2442 sprites/png/infrastructure/infra08.png 162 7960 01 23 64 -31 0 
+
+2443 sprites/png/infrastructure/infra08.png 242 7960 01 39 64 -31 -8 
+
+2444 sprites/png/infrastructure/infra08.png 322 7960 01 23 64 -31 0 
+
+2445 sprites/png/infrastructure/infra08.png 402 7960 01 31 64 -31 -8 
+
+2446 sprites/png/infrastructure/infra08.png 482 7960 01 31 64 -31 -8 
+
+2447 sprites/png/infrastructure/infra08.png 562 7960 01 31 64 -31 -8 
+
+2448 sprites/png/infrastructure/infra08.png 642 7960 01 31 64 -31 -8 
+
+2449 sprites/png/infrastructure/infra08.png 722 7960 01 39 64 -31 -8 
+
+2450 sprites/png/infrastructure/infra08.png 2 8024 01 23 64 -31 0 
+
+2451 sprites/png/infrastructure/infra08.png 82 8024 01 39 64 -31 -8 
+
+2452 sprites/png/infrastructure/infra08.png 162 8024 01 23 64 -31 0 
+
+2453 sprites/png/infrastructure/infra08.png 242 8024 01 46 52 -24 -21 
+
+2454 sprites/png/infrastructure/infra08.png 306 8024 01 62 51 -24 -37 
+
+2455 sprites/png/infrastructure/infra08.png 370 8024 01 54 34 0 -24 
+
+2456 sprites/png/infrastructure/infra08.png 418 8024 01 56 35 -3 -42 
+
+2457 sprites/png/infrastructure/infra08.png 466 8024 01 46 52 -24 -21 
+
+2458 sprites/png/infrastructure/infra08.png 530 8024 01 62 51 -24 -37 
+
+2459 sprites/png/infrastructure/infra08.png 594 8024 01 54 34 0 -24 
+
+2460 sprites/png/infrastructure/infra08.png 642 8024 01 56 35 -3 -42 
+
+2461 sprites/png/infrastructure/infra08.png 690 8024 01 46 52 -26 -21 
+
+2462 sprites/png/infrastructure/infra08.png 2 8104 01 62 51 -25 -37 
+
+2463 sprites/png/infrastructure/infra08.png 66 8104 01 54 34 -32 -24 
+
+2464 sprites/png/infrastructure/infra08.png 114 8104 01 56 35 -30 -42 
+
+2465 sprites/png/infrastructure/infra08.png 162 8104 01 46 52 -26 -21 
+
+2466 sprites/png/infrastructure/infra08.png 226 8104 01 62 51 -25 -37 
+
+2467 sprites/png/infrastructure/infra08.png 290 8104 01 54 34 -32 -24 
+
+2468 sprites/png/infrastructure/infra08.png 338 8104 01 56 35 -30 -42 
+
+2469 sprites/png/infrastructure/infra08.png 386 8104 01 46 52 -24 -21 
+
+2470 sprites/png/infrastructure/infra08.png 450 8104 01 62 51 -24 -37 
+
+2471 sprites/png/infrastructure/infra08.png 514 8104 01 46 52 -24 -21 
+
+2472 sprites/png/infrastructure/infra08.png 578 8104 01 62 51 -24 -37 
+
+2473 sprites/png/infrastructure/infra08.png 642 8104 01 46 52 -26 -21 
+
+2474 sprites/png/infrastructure/infra08.png 706 8104 01 62 51 -25 -37 
+
+2475 sprites/png/infrastructure/infra08.png 2 8184 01 46 52 -26 -21 
+
+2476 sprites/png/infrastructure/infra08.png 66 8184 01 62 51 -25 -37 
+
+2477 sprites/png/infrastructure/infra08.png 130 8184 01 8 4 28 16 
+
+2478 sprites/png/infrastructure/infra08.png 146 8184 01 9 4 0 1 
+
+2479 sprites/png/infrastructure/infra08.png 162 8184 01 8 4 28 16 
+
+2480 sprites/png/infrastructure/infra08.png 178 8184 01 9 4 0 1 
+
+2481 sprites/png/infrastructure/infra08.png 194 8184 01 8 4 -31 15 
+
+2482 sprites/png/infrastructure/infra08.png 210 8184 01 9 4 -3 0 
+
+2483 sprites/png/infrastructure/infra08.png 226 8184 01 8 4 -31 15 
+
+2484 sprites/png/infrastructure/infra08.png 242 8184 01 8 4 -3 1 
+
+2485 sprites/png/infrastructure/infra08.png 258 8184 01 62 52 -24 -37 
+
+2486 sprites/png/infrastructure/infra08.png 322 8184 01 62 52 -26 -37 
+
+2487 sprites/png/infrastructure/infra08.png 386 8184 01 62 52 -24 -37 
+
+2488 sprites/png/infrastructure/infra08.png 450 8184 01 62 52 -26 -37 
+
+2489 sprites/png/infrastructure/infra08.png 514 8184 01 64 37 -3 -42 
+
+2490 sprites/png/infrastructure/infra08.png 562 8184 01 64 37 -32 -42 
+
+2491 sprites/png/infrastructure/infra08.png 610 8184 01 23 32 0 1 
+
+2492 sprites/png/infrastructure/infra08.png 658 8184 01 23 32 -31 0 
+
+2493 sprites/png/infrastructure/infra08.png 706 8184 01 27 51 -25 -2 
+
+2494 sprites/png/infrastructure/infra08.png 2 8264 01 27 51 -24 -2 
+
+2495 sprites/png/infrastructure/infra08.png 66 8264 01 27 51 -25 -2 
+
+2496 sprites/png/infrastructure/infra08.png 130 8264 01 27 51 -24 -2 
+
+2497 sprites/png/infrastructure/infra08.png 194 8264 01 19 32 -30 -5 
+
+2498 sprites/png/infrastructure/infra08.png 242 8264 01 19 32 0 -5 
+
+2499 sprites/png/infrastructure/infra08.png 290 8264 01 51 64 -31 -23 
+
+2500 sprites/png/infrastructure/infra08.png 370 8264 01 51 64 -31 -23 
+
+2501 sprites/png/infrastructure/infra08.png 450 8264 01 51 64 -31 -23 
+
+2502 sprites/png/infrastructure/infra08.png 530 8264 01 51 64 -31 -23 
+
+2503 sprites/png/infrastructure/infra08.png 610 8264 01 51 64 -55 -35 
+
+2504 sprites/png/infrastructure/infra08.png 690 8264 01 51 64 -7 -34 
+
+2505 sprites/png/infrastructure/infra08.png 2 8328 01 25 34 -31 -3 
+
+2506 sprites/png/infrastructure/infra08.png 50 8328 01 25 34 0 -2 
+
+2507 sprites/png/infrastructure/infra08.png 98 8328 01 47 50 -23 -24 
+
+2508 sprites/png/infrastructure/infra08.png 162 8328 01 47 50 -23 -24 
+
+2509 sprites/png/infrastructure/infra08.png 226 8328 01 41 50 -23 -18 
+
+2510 sprites/png/infrastructure/infra08.png 290 8328 01 41 50 -23 -17 
+
+2511 sprites/png/infrastructure/infra08.png 354 8328 01 47 50 -23 -23 
+
+2512 sprites/png/infrastructure/infra08.png 418 8328 01 47 50 -23 -23 
+
+2513 sprites/png/infrastructure/infra08.png 482 8328 01 47 50 -23 -24 
+
+2514 sprites/png/infrastructure/infra08.png 546 8328 01 47 50 -23 -24 
+
+2515 sprites/png/infrastructure/infra08.png 610 8328 01 41 50 -23 -18 
+
+2516 sprites/png/infrastructure/infra08.png 674 8328 01 41 50 -23 -17 
+
+2517 sprites/png/infrastructure/infra08.png 738 8328 01 47 50 -23 -23 
+
+2518 sprites/png/infrastructure/infra08.png 2 8392 01 47 50 -23 -23 
+
+2519 sprites/png/infrastructure/infra08.png 66 8392 01 47 47 -44 -35 
+
+2520 sprites/png/infrastructure/infra08.png 130 8392 01 47 52 -49 -35 
+
+2521 sprites/png/infrastructure/infra08.png 194 8392 01 42 52 -49 -30 
+
+2522 sprites/png/infrastructure/infra08.png 258 8392 01 42 52 1 -29 
+
+2523 sprites/png/infrastructure/infra08.png 322 8392 01 47 52 1 -34 
+
+2524 sprites/png/infrastructure/infra08.png 386 8392 01 47 47 1 -34 
+
+2525 sprites/png/infrastructure/infra08.png 450 8392 01 13 12 -5 -7 
+
+2526 sprites/png/infrastructure/infra08.png 482 8392 01 13 12 -5 -7 
+
+2527 sprites/png/infrastructure/infra08.png 514 8392 01 13 12 -5 -7 
+
+2528 sprites/png/infrastructure/infra08.png 546 8392 01 13 12 -5 -7 
+
+2529 sprites/png/infrastructure/infra08.png 578 8392 01 21 49 -24 2 
+
+2530 sprites/png/infrastructure/infra08.png 642 8392 01 21 49 -23 2 
+
+2531 sprites/png/infrastructure/infra08.png 706 8392 01 35 50 -23 -8 
+
+2532 sprites/png/infrastructure/infra08.png 2 8456 01 35 50 -25 -8 
+
+2533 sprites/png/infrastructure/infra08.png 66 8456 01 32 51 -25 -6 
+
+2534 sprites/png/infrastructure/infra08.png 130 8456 01 32 51 -24 -6 
+
+2535 sprites/png/infrastructure/infra08.png 194 8456 01 28 53 -28 -7 
+
+2536 sprites/png/infrastructure/infra08.png 258 8456 01 28 53 -23 -7 
+
+2537 sprites/png/infrastructure/infra08.png 322 8456 01 21 49 -24 3 
+
+2538 sprites/png/infrastructure/infra08.png 386 8456 01 21 49 -23 3 
+
+2539 sprites/png/infrastructure/infra08.png 450 8456 01 35 50 -23 -8 
+
+2540 sprites/png/infrastructure/infra08.png 514 8456 01 35 50 -25 -8 
+
+2541 sprites/png/infrastructure/infra08.png 578 8456 01 32 51 -25 -6 
+
+2542 sprites/png/infrastructure/infra08.png 642 8456 01 32 51 -24 -6 
+
+2543 sprites/png/infrastructure/infra08.png 706 8456 01 28 53 -28 -7 
+
+2544 sprites/png/infrastructure/infra08.png 2 8504 01 28 53 -23 -7 
+
+2545 sprites/png/infrastructure/infra08.png 66 8504 01 36 47 -21 -11 
+
+2546 sprites/png/infrastructure/infra08.png 130 8504 01 36 47 -24 -11 
+
+2547 sprites/png/infrastructure/infra08.png 194 8504 01 36 49 -23 -12 
+
+2548 sprites/png/infrastructure/infra08.png 258 8504 01 36 49 -24 -12 
+
+2549 sprites/png/infrastructure/infra08.png 322 8504 01 48 50 -4 -34 
+
+2550 sprites/png/infrastructure/infra08.png 386 8504 01 48 50 -44 -34 
+
+2551 sprites/png/infrastructure/infra08.png 450 8504 01 24 28 -1 -2 
+
+2552 sprites/png/infrastructure/infra08.png 498 8504 01 24 28 -25 -2 
+
+2553 sprites/png/infrastructure/infra08.png 546 8504 01 51 64 -31 -23 
+
+2554 sprites/png/infrastructure/infra08.png 626 8504 01 51 64 -31 -23 
+
+2555 sprites/png/infrastructure/infra08.png 706 8504 01 51 64 -31 -23 
+
+2556 sprites/png/infrastructure/infra08.png 2 8568 01 51 64 -31 -23 
+
+2557 sprites/png/infrastructure/infra08.png 82 8568 01 51 64 -55 -35 
+
+2558 sprites/png/infrastructure/infra08.png 162 8568 01 51 64 -7 -34 
+
+2559 sprites/png/infrastructure/infra08.png 242 8568 01 43 34 -31 -27 
+
+2560 sprites/png/infrastructure/infra08.png 290 8568 01 50 48 -45 -27 
+
+2561 sprites/png/infrastructure/infra08.png 354 8568 01 35 50 -45 -12 
+
+2562 sprites/png/infrastructure/infra08.png 418 8568 01 35 50 -3 -12 
+
+2563 sprites/png/infrastructure/infra08.png 482 8568 01 50 48 -1 -27 
+
+2564 sprites/png/infrastructure/infra08.png 546 8568 01 43 34 -1 -27 
+
+2565 sprites/png/infrastructure/infra08.png 594 8568 01 9 6 -1 -1 
+
+2566 sprites/png/infrastructure/infra08.png 610 8568 01 9 6 -1 -1 
+
+2567 sprites/png/infrastructure/infra08.png 626 8568 01 9 6 -3 -1 
+
+2568 sprites/png/infrastructure/infra08.png 642 8568 01 9 6 -3 -1 
+
+2569 sprites/png/infrastructure/infra08.png 658 8568 01 39 50 -25 -15 
+
+2570 sprites/png/infrastructure/infra08.png 722 8568 01 37 48 -23 -13 
+
+2571 sprites/png/infrastructure/infra08.png 2 8632 01 31 48 -23 -7 
+
+2572 sprites/png/infrastructure/infra08.png 66 8632 01 31 48 -21 -6 
+
+2573 sprites/png/infrastructure/infra08.png 130 8632 01 37 48 -21 -12 
+
+2574 sprites/png/infrastructure/infra08.png 194 8632 01 39 50 -21 -14 
+
+2575 sprites/png/infrastructure/infra08.png 258 8632 01 39 50 -25 -15 
+
+2576 sprites/png/infrastructure/infra08.png 322 8632 01 37 48 -23 -13 
+
+2577 sprites/png/infrastructure/infra08.png 386 8632 01 31 48 -23 -7 
+
+2578 sprites/png/infrastructure/infra08.png 450 8632 01 31 48 -21 -6 
+
+2579 sprites/png/infrastructure/infra08.png 514 8632 01 37 48 -21 -12 
+
+2580 sprites/png/infrastructure/infra08.png 578 8632 01 39 50 -21 -14 
+
+2581 sprites/png/infrastructure/infra08.png 642 8632 01 39 50 -25 -15 
+
+2582 sprites/png/infrastructure/infra08.png 706 8632 01 37 48 -23 -13 
+
+2583 sprites/png/infrastructure/infra08.png 2 8696 01 31 48 -23 -7 
+
+2584 sprites/png/infrastructure/infra08.png 66 8696 01 31 48 -21 -6 
+
+2585 sprites/png/infrastructure/infra08.png 130 8696 01 37 48 -21 -12 
+
+2586 sprites/png/infrastructure/infra08.png 194 8696 01 39 50 -21 -14 
+
+2587 sprites/png/infrastructure/infra08.png 258 8696 01 39 50 -25 -15 
+
+2588 sprites/png/infrastructure/infra08.png 322 8696 01 37 48 -23 -13 
+
+2589 sprites/png/infrastructure/infra08.png 386 8696 01 31 48 -23 -7 
+
+2590 sprites/png/infrastructure/infra08.png 450 8696 01 31 48 -21 -6 
+
+2591 sprites/png/infrastructure/infra08.png 514 8696 01 37 48 -21 -12 
+
+2592 sprites/png/infrastructure/infra08.png 578 8696 01 39 50 -21 -14 
+
+2593 sprites/png/gui/gui04.png 706 952 01 32 52 0 0 
+
+2594 sprites/png/gui/gui04.png 2 1001 01 20 43 0 0 
+
+2595 sprites/png/gui/gui04.png 50 1001 01 20 43 0 0 
+
+2596 sprites/png/gui/gui04.png 98 1001 01 20 43 0 0 
+
+2597 sprites/png/gui/gui04.png 146 1001 01 20 43 0 0 
+
+2598 sprites/png/gui/gui04.png 194 1001 01 20 43 0 0 
+
+2599 sprites/png/gui/gui04.png 242 1001 01 20 43 0 0 
+
+2600 sprites/png/gui/gui04.png 290 1001 01 20 43 0 0 
+
