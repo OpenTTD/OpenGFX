@@ -1,0 +1,8 @@
+// arctic oil wells
+base_graphics( 262, "sprites/png/industries/industries_misc.png") { [ 322, 2232,  64,  31, -31,   0] }
+base_graphics( 263, "sprites/png/industries/industries_misc.png") { [ 402, 2232,  31,  44, -11, -29] }
+base_graphics( 264, "sprites/png/industries/industries_misc.png") { [ 450, 2232,  31,  44, -11, -29] }
+base_graphics( 265, "sprites/png/industries/industries_misc.png") { [ 498, 2232,  31,  44, -11, -29] }
+base_graphics( 266, "sprites/png/industries/industries_misc.png") { [ 546, 2232,  31,  44, -11, -29] }
+base_graphics( 267, "sprites/png/industries/industries_misc.png") { [ 594, 2232,  31,  44, -11, -29] }
+base_graphics( 268, "sprites/png/industries/industries_misc.png") { [ 642, 2232,  31,  44, -11, -29] }

@@ -1,0 +1,2 @@
+// arctic city roadside tree
+base_graphics( 342, "sprites/png/trees/temperate/tree_wide_12_leaf.gimp.png") { [  50,    0,  45,  80, -20, -76] }

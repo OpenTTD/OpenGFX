@@ -1,0 +1,4 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+// arctic farm
+base_graphics(  61, "sprites/png/industries/farm_arctic.png") { tmpl_farm() }

@@ -1,0 +1,16 @@
+// Head quarters
+base_graphics( 269, "sprites/png/miscellaneous/hq.png") { [ 402,   56,  64,  31, -31,   0] }
+base_graphics( 270, "sprites/png/miscellaneous/hq.png") { [ 482,   56,  64,  31, -31,   0] }
+base_graphics( 271, "sprites/png/miscellaneous/hq.png") { [ 562,   56,  64,  31, -31,   0] }
+base_graphics( 272, "sprites/png/miscellaneous/hq.png") { [ 642,   56,  64,  31, -31,   0] }
+base_graphics( 273, "sprites/png/miscellaneous/hq.png") { [ 722,   56,  64,  31, -31,   0] }
+base_graphics( 274, "sprites/png/miscellaneous/hq.png") { [   2,  104,  64,  31, -31,   0] }
+base_graphics( 275, "sprites/png/miscellaneous/hq.png") { [  82,  104,  64,  31, -31,   0] }
+base_graphics( 276, "sprites/png/miscellaneous/hq.png") { [ 162,  104,  64,  31, -31,   0] }
+base_graphics( 277, "sprites/png/miscellaneous/hq.png") { [ 242,  104,  64,  31, -31,   0] }
+base_graphics( 278, "sprites/png/miscellaneous/hq.png") { [ 322,  104,  59,  15, -26,   0] }
+base_graphics( 279, "sprites/png/miscellaneous/hq.png") { [ 386,  104,  64,  31, -31,   0] }
+base_graphics( 280, "sprites/png/miscellaneous/hq.png") { [ 466,  104,  32,  18,   1,  -3] }
+base_graphics( 281, "sprites/png/miscellaneous/hq.png") { [ 514,  104,  64,  31, -31,   0] }
+base_graphics( 282, "sprites/png/miscellaneous/hq.png") { [ 594,  104,   4,   5, -31,  12] }
+base_graphics( 283, "sprites/png/miscellaneous/hq.png") { [ 610,  104,  64,  31, -31,   0] }

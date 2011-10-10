@@ -1,0 +1,45 @@
+//73-95 arctic rough land
+base_graphics(  73, "sprites/png/terrain/terrain04.png") { [ 642, 1096,  64,  31, -31,   0] }
+base_graphics(  74, "sprites/png/terrain/terrain04.png") { [ 722, 1096,  64,  31, -31,   0] }
+base_graphics(  75, "sprites/png/terrain/terrain04.png") { [   2, 1160,  64,  23, -31,   0] }
+base_graphics(  76, "sprites/png/terrain/terrain04.png") { [  82, 1160,  64,  23, -31,   0] }
+base_graphics(  77, "sprites/png/terrain/terrain04.png") { [ 162, 1160,  64,  31, -31,   0] }
+base_graphics(  78, "sprites/png/terrain/terrain04.png") { [ 242, 1160,  64,  31, -31,   0] }
+base_graphics(  79, "sprites/png/terrain/terrain04.png") { [ 322, 1160,  64,  23, -31,   0] }
+base_graphics(  80, "sprites/png/terrain/terrain04.png") { [ 402, 1160,  64,  23, -31,   0] }
+base_graphics(  81, "sprites/png/terrain/terrain04.png") { [ 482, 1160,  64,  39, -31,  -8] }
+base_graphics(  82, "sprites/png/terrain/terrain04.png") { [ 562, 1160,  64,  39, -31,  -8] }
+base_graphics(  83, "sprites/png/terrain/terrain04.png") { [ 642, 1160,  64,  31, -31,  -8] }
+base_graphics(  84, "sprites/png/terrain/terrain04.png") { [ 722, 1160,  64,  31, -31,  -8] }
+base_graphics(  85, "sprites/png/terrain/terrain04.png") { [   2, 1224,  64,  39, -31,  -8] }
+base_graphics(  86, "sprites/png/terrain/terrain04.png") { [  82, 1224,  64,  39, -31,  -8] }
+base_graphics(  87, "sprites/png/terrain/terrain04.png") { [ 162, 1224,  64,  31, -31,  -8] }
+base_graphics(  88, "sprites/png/terrain/terrain04.png") { [ 242, 1224,  64,  47, -31, -16] }
+base_graphics(  89, "sprites/png/terrain/terrain04.png") { [ 322, 1224,  64,  15, -31,   0] }
+base_graphics(  90, "sprites/png/terrain/terrain04.png") { [ 402, 1224,  64,  31, -31,  -8] }
+base_graphics(  91, "sprites/png/terrain/terrain04.png") { [ 482, 1224,  64,  31, -31,  -8] }
+base_graphics(  92, "sprites/png/terrain/terrain04.png") { [ 562, 1224,  64,  31, -31,   0] }
+base_graphics(  93, "sprites/png/terrain/terrain04.png") { [ 642, 1224,  64,  31, -31,   0] }
+base_graphics(  94, "sprites/png/terrain/terrain04.png") { [ 722, 1224,  64,  31, -31,   0] }
+base_graphics(  95, "sprites/png/terrain/terrain04.png") { [   2, 1288,  64,  31, -31,   0] }
+
+// arctic rocky land
+base_graphics(  96, "sprites/png/terrain/terrain04.png") { [  82, 1288,  64,  31, -31,   0] }
+base_graphics(  97, "sprites/png/terrain/terrain04.png") { [ 162, 1288,  64,  31, -31,   0] }
+base_graphics(  98, "sprites/png/terrain/terrain04.png") { [ 242, 1288,  64,  23, -31,   0] }
+base_graphics(  99, "sprites/png/terrain/terrain04.png") { [ 322, 1288,  64,  23, -31,   0] }
+base_graphics( 100, "sprites/png/terrain/terrain04.png") { [ 402, 1288,  64,  31, -31,   0] }
+base_graphics( 101, "sprites/png/terrain/terrain04.png") { [ 482, 1288,  64,  31, -31,   0] }
+base_graphics( 102, "sprites/png/terrain/terrain04.png") { [ 562, 1288,  64,  23, -31,   0] }
+base_graphics( 103, "sprites/png/terrain/terrain04.png") { [ 642, 1288,  64,  23, -31,   0] }
+base_graphics( 104, "sprites/png/terrain/terrain04.png") { [ 722, 1288,  64,  39, -31,  -8] }
+base_graphics( 105, "sprites/png/terrain/terrain04.png") { [   2, 1352,  64,  39, -31,  -8] }
+base_graphics( 106, "sprites/png/terrain/terrain04.png") { [  82, 1352,  64,  31, -31,  -8] }
+base_graphics( 107, "sprites/png/terrain/terrain04.png") { [ 162, 1352,  64,  31, -31,  -8] }
+base_graphics( 108, "sprites/png/terrain/terrain04.png") { [ 242, 1352,  64,  39, -31,  -8] }
+base_graphics( 109, "sprites/png/terrain/terrain04.png") { [ 322, 1352,  64,  39, -31,  -8] }
+base_graphics( 110, "sprites/png/terrain/terrain04.png") { [ 402, 1352,  64,  31, -31,  -8] }
+base_graphics( 111, "sprites/png/terrain/terrain04.png") { [ 482, 1352,  64,  47, -31, -16] }
+base_graphics( 112, "sprites/png/terrain/terrain04.png") { [ 562, 1352,  64,  15, -31,   0] }
+base_graphics( 113, "sprites/png/terrain/terrain04.png") { [ 642, 1352,  64,  31, -31,  -8] }
+base_graphics( 114, "sprites/png/terrain/terrain04.png") { [ 722, 1352,  64,  31, -31,  -8] }
