@@ -1,0 +1,49 @@
+//4588-4625 tropic buildings
+base_graphics(4588, "sprites/png/houses/towns02.png") { [ 402,    8,  64,  31, -31,   0] }
+base_graphics(4589, "sprites/png/houses/towns02.png") { [ 482,    8,  64,  47, -31, -16] }
+base_graphics(4590, "sprites/png/houses/towns02.png") { [ 562,    8,  64,  63, -31, -32] }
+base_graphics(4591, "sprites/png/houses/towns02.png") { [ 642,    8,  64,  31, -31,   0] }
+base_graphics(4592, "sprites/png/houses/towns02.png") { [ 722,    8,  64,  43, -31, -12] }
+base_graphics(4593, "sprites/png/houses/towns02.png") { [   2,   88,  64,  40, -31,  -9] }
+base_graphics(4594, "sprites/png/houses/towns02.png") { [  82,   88,  64,  31, -31,   0] }
+base_graphics(4595, "sprites/png/houses/towns02.png") { [ 162,   88,  64,  33, -31,  -2] }
+base_graphics(4596, "sprites/png/houses/towns02.png") { [ 242,   88,  64,  37, -31,  -6] }
+//continuing
+base_graphics(4597, "sprites/png/houses/towns02.png") { [  66,    8,  64,  32, -31,  -1] }
+base_graphics(4598, "sprites/png/houses/towns02.png") { [ 146,    8,  64,  54, -31, -23] }
+base_graphics(4599, "sprites/png/houses/towns02.png") { [ 226,    8,  64,  37, -31,  -6] }
+base_graphics(4600, "sprites/png/houses/towns02.png") { [ 306,    8,  64,  46, -31, -15] }
+//continuing
+base_graphics(4601, "sprites/png/houses/towns02.png") { [ 594,   88,  64,  35, -31,  -4] }
+base_graphics(4602, "sprites/png/houses/towns02.png") { [ 674,   88,  64, 112, -31, -81] }
+base_graphics(4603, "sprites/png/houses/towns02.png") { [   2,  216,  64, 105, -31, -74] }
+
+// tropic church
+base_graphics(4604, "sprites/png/houses/trop_4604_church.png") { [   0,    0,  64,  56, -31, -25] }
+base_graphics(4605, "sprites/png/houses/towns02.png") { [ 338,   88,  64,  31, -31,   0] }
+base_graphics(4606, "sprites/png/houses/towns02.png") { [ 418,   88,  64,  47, -31, -16] }
+base_graphics(4607, "sprites/png/houses/towns02.png") { [ 498,   88,  64,  47, -31, -17] }
+
+base_graphics(4608, "sprites/png/houses/towns02.png") { [  98,  216,  64,  31, -31,   0] }
+base_graphics(4609, "sprites/png/houses/towns02.png") { [ 178,  216,  64,  74, -31, -43] }
+base_graphics(4610, "sprites/png/houses/towns02.png") { [ 258,  216,  64,  74, -31, -43] }
+base_graphics(4611, "sprites/png/houses/towns02.png") { [ 338,  216,  64,  31, -31,   0] }
+base_graphics(4612, "sprites/png/houses/towns02.png") { [ 418,  216,  64,  69, -31, -38] }
+base_graphics(4613, "sprites/png/houses/towns02.png") { [ 498,  216,  64,  69, -31, -38] }
+
+base_graphics(4614, "sprites/png/houses/twotile_dig.png") { [  66,    0,  63,  31, -31,   0] }
+base_graphics(4615, "sprites/png/houses/twotile_dig.png") { [   0,    0,  63,  31, -31,   0] }
+base_graphics(4616, "sprites/png/houses/tropical_sprites4616-19_drginaldee.png") { [  10,   10,  32,  96,   1, -65] }
+base_graphics(4617, "sprites/png/houses/tropical_sprites4616-19_drginaldee.png") { [  50,   10,  64, 121, -31, -90] }
+base_graphics(4618, "sprites/png/houses/tropical_sprites4616-19_drginaldee.png") { [ 120,   10,  32, 117,   1, -86] }
+base_graphics(4619, "sprites/png/houses/tropical_sprites4616-19_drginaldee.png") { [ 160,   10,  64, 133, -31, -102] }
+
+base_graphics(4620, "sprites/png/houses/towns02.png") { [   2,  344,  64,  31, -31,   0] }
+base_graphics(4621, "sprites/png/houses/towns02.png") { [ 594,  216,  64,  67, -31, -36] }
+base_graphics(4622, "sprites/png/houses/towns02.png") { [ 674,  216,  64,  67, -31, -36] }
+
+base_graphics(4623, "sprites/png/houses/tropical_modern_office.png") { [ 182,  189,  63,  30, -31,   0] }
+base_graphics(4624, "sprites/png/houses/tropical_modern_office.png") { [ 123,   70,  64,  63, -30, -32] }
+base_graphics(4625, "sprites/png/houses/tropical_modern_office.png") { [ 195,  228,  63, 117, -31, -87] }
+
+base_graphics(4626, "sprites/png/trees/temperate/tree_wide_18_leaf.gimp.png") { [  50,    0,  45,  80, -20, -76] }
