@@ -1,0 +1,48 @@
+//2692-2723 road stops
+//bus stop
+base_graphics(2692, "sprites/png/infrastructure/infra08.png") { [   2, 5160,  64,  31, -31,   0] }
+base_graphics(2693, "sprites/png/infrastructure/infra08.png") { [  82, 5160,  64,  37, -31,  -6] }
+base_graphics(2694, "sprites/png/infrastructure/infra08.png") { [ 162, 5160,  64,  35, -31,  -4] }
+base_graphics(2695, "sprites/png/infrastructure/infra08.png") { [ 242, 5160,  64,  40, -31,  -9] }
+base_graphics(2696, "sprites/png/infrastructure/infra08.png") { [ 322, 5160,  64,  31, -27,  -2] }
+base_graphics(2697, "sprites/png/infrastructure/infra08.png") { [ 402, 5160,  64,  37, -37,  -9] }
+base_graphics(2698, "sprites/png/infrastructure/infra08.png") { [ 482, 5160,  64,  35, -55, -22] }
+base_graphics(2699, "sprites/png/infrastructure/infra08.png") { [ 562, 5160,  64,  40,  -5, -26] }
+base_graphics(2700, "sprites/png/infrastructure/infra08.png") { [ 642, 5160,  64,  31,  -5, -13] }
+base_graphics(2701, "sprites/png/infrastructure/infra08.png") { [ 722, 5160,  64,  37, -31,  -6] }
+base_graphics(2702, "sprites/png/infrastructure/infra08.png") { [   2, 5224,  64,  35, -31,  -4] }
+base_graphics(2703, "sprites/png/infrastructure/infra08.png") { [  82, 5224,  64,  40, -57, -22] }
+base_graphics(2704, "sprites/png/infrastructure/infra08.png") { [ 162, 5224,  64,  31, -57, -13] }
+base_graphics(2705, "sprites/png/infrastructure/infra08.png") { [ 242, 5224,  64,  37, -11, -22] }
+base_graphics(2706, "sprites/png/infrastructure/infra08.png") { [ 322, 5224,  64,  35, -25,  -7] }
+base_graphics(2707, "sprites/png/infrastructure/infra08.png") { [ 402, 5224,  64,  40, -31,  -9] }
+//cargo stop
+base_graphics(2708, "sprites/png/infrastructure/infra08.png") { [ 434, 5288,  64,  36, -31,  -5] }
+base_graphics(2709, "sprites/png/infrastructure/infra08.png") { [ 514, 5288,  64,  42, -31, -11] }
+base_graphics(2710, "sprites/png/infrastructure/infra08.png") { [ 594, 5288,  64,  40, -31,  -9] }
+base_graphics(2711, "sprites/png/infrastructure/infra08.png") { [ 674, 5288,  64,  41, -31, -10] }
+base_graphics(2712, "sprites/png/infrastructure/infra08.png") { [   2, 5352,  64,  36, -61, -20] }
+base_graphics(2713, "sprites/png/infrastructure/infra08.png") { [  82, 5352,  64,  42,  -7, -29] }
+base_graphics(2714, "sprites/png/infrastructure/infra08.png") { [ 162, 5352,  64,  40, -25, -12] }
+base_graphics(2715, "sprites/png/infrastructure/infra08.png") { [ 242, 5352,  64,  41, -31, -10] }
+base_graphics(2716, "sprites/png/infrastructure/infra08.png") { [ 322, 5352,  64,  36,  -5, -18] }
+base_graphics(2717, "sprites/png/infrastructure/infra08.png") { [ 402, 5352,  64,  42, -31, -11] }
+base_graphics(2718, "sprites/png/infrastructure/infra08.png") { [ 482, 5352,  64,  40, -31,  -9] }
+base_graphics(2719, "sprites/png/infrastructure/infra08.png") { [ 562, 5352,  64,  41, -57, -23] }
+base_graphics(2720, "sprites/png/infrastructure/infra08.png") { [ 642, 5352,  64,  36, -27,  -7] }
+base_graphics(2721, "sprites/png/infrastructure/infra08.png") { [ 722, 5352,  64,  42, -37, -14] }
+base_graphics(2722, "sprites/png/infrastructure/infra08.png") { [   2, 5416,  64,  40, -55, -27] }
+base_graphics(2723, "sprites/png/infrastructure/infra08.png") { [  82, 5416,  64,  41,  -5, -27] }
+
+//2724-2726 airport and road stop gui cursors
+base_graphics(2724, "sprites/png/gui/gui04.png") { [ 242,  280,  32,  32,   0,   0] }
+base_graphics(2725, "sprites/png/gui/gui04.png") { [ 290,  280,  32,  32,   0,   0] }
+base_graphics(2726, "sprites/png/gui/gui04.png") { [ 338,  280,  32,  32,   0,   0] }
+
+//2727-2732 docks
+base_graphics(2727, "sprites/png/infrastructure/redstardocks.png") { [  66,    8,  64,  32, -39, -13] }
+base_graphics(2728, "sprites/png/infrastructure/redstardocks.png") { [ 146,    8,  64,  40, -23, -13] }
+base_graphics(2729, "sprites/png/infrastructure/redstardocks.png") { [ 226,    8,  64,  40, -39, -13] }
+base_graphics(2730, "sprites/png/infrastructure/redstardocks.png") { [ 306,    8,  64,  34, -23, -15] }
+base_graphics(2731, "sprites/png/infrastructure/redstardocks.png") { [ 386,    8,  64,  55, -39, -28] }
+base_graphics(2732, "sprites/png/infrastructure/redstardocks.png") { [ 466,    8,  64,  58, -23, -31] }

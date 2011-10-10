@@ -166,3 +166,17 @@ template tmpl_farm() {
 	tmpl_level_ground(410, 10)      // ground D
 	[410, 60, 54, 30, -30,  -1 ]    // building D: pigs
 }
+
+template tmpl_house_too_wide(y) {
+	[ 0, y, 66, 87, -32, -56]
+}
+template tmpl_houses_too_wide(n) {
+	tmpl_house_too_wide(n*88)
+}
+
+template tmpl_house_height87(y) {
+	[ 0, y, 64, 87, -31, -56]
+}
+template tmpl_houses_height87(n) {
+	tmpl_house_height87(n*88)
+}
