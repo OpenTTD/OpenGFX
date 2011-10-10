@@ -5,7 +5,7 @@
 // real sprites:
 #include "sprites/nfo/base/base-0000-font.pnfo"
 #include "sprites/nfo/base/base-0674-gui.pnfo"
-#include "sprites/nfo/base/base-0770-recolor.pnfo"
+#include "sprites/nfo/base/base-0771-recolor.pnfo"
 #include "sprites/nfo/base/base-0805-faces.pnfo"
 #include "sprites/nfo/base/base-0990-foundations.pnfo"
 #include "sprites/nfo/base/base-1005-rail-infra.pnfo"
