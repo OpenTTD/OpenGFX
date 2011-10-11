@@ -5,7 +5,7 @@
 // Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
 // Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
 
-0 * 5 05 08 FF \w4 
+0 * 8 05 88 FF \w4 FF \w0 
 
 1 sprites/png/terrain/waterfeatures.png 658 8 01 23 64 -31 0 
 2 sprites/png/terrain/waterfeatures.png 2 72 01 39 64 -31 -8 
