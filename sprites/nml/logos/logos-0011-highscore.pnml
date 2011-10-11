@@ -1,0 +1,10 @@
+base_graphics(  11, "sprites/png/gui/highscore.png") { [   2,   16, 640,  50,   0,   0] }
+base_graphics(  12, "sprites/png/gui/highscore.png") { [   2,   80, 640,  50,   0,   0] }
+base_graphics(  13, "sprites/png/gui/highscore.png") { [   2,  144, 640,  50,   0,   0] }
+base_graphics(  14, "sprites/png/gui/highscore.png") { [   2,  208, 640,  50,   0,   0] }
+base_graphics(  15, "sprites/png/gui/highscore.png") { [   2,  272, 640,  50,   0,   0] }
+base_graphics(  16, "sprites/png/gui/highscore.png") { [   2,  336, 640,  50,   0,   0] }
+base_graphics(  17, "sprites/png/gui/highscore.png") { [   2,  400, 640,  50,   0,   0] }
+base_graphics(  18, "sprites/png/gui/highscore.png") { [   2,  464, 640,  50,   0,   0] }
+base_graphics(  19, "sprites/png/gui/highscore.png") { [   2,  528, 640,  50,   0,   0] }
+base_graphics(  20, "sprites/png/gui/highscore.png") { [   2,  592, 640,  30,   0,   0] }

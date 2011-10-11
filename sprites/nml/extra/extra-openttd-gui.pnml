@@ -1,0 +1,172 @@
+
+replacenew(OTTD_GUI, "") {
+                                                                                   // tile border hightlights
+	[ 690,  504,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[   2,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[  82,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[ 162,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[ 242,  568,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"]
+	[ 322,  568,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"]
+	[ 402,  568,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"]
+	[ 482,  568,  64,  23, -31,   7, "sprites/png/gui/gui04.png"]
+	[ 562,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[ 642,  568,  64,  23, -31,   7, "sprites/png/gui/gui04.png"]
+	[ 722,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
+	[   2,  632,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"]
+                                                                                  // Title screen letters E and D
+	[ 224,    0,  22,  29,   0,   7, "sprites/png/gui/introletters.png"]
+	[ 311,    0,  27,  36,   0,   0, "sprites/png/gui/introletters125.png"]
+                                                                                  // bridge piers colour 1 (~copper)
+	[ 146,  632,   4,   8,  28,  16, "sprites/png/gui/gui04.png"]
+	[ 162,  632,   4,   9,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 178,  632,  32,  23,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 226,  632,   4,   8, -31,  15, "sprites/png/gui/gui04.png"]
+	[ 242,  632,   4,   9,  -3,   0, "sprites/png/gui/gui04.png"]
+	[ 258,  632,  32,  23, -31,   0, "sprites/png/gui/gui04.png"]
+                                                                                  // bridge piers colour 2 (~copper)
+	[ 306,  632,   4,   8,  28,  16, "sprites/png/gui/gui04.png"]
+	[ 322,  632,   4,   9,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 338,  632,  32,  23,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 386,  632,   4,   8, -31,  15, "sprites/png/gui/gui04.png"]
+	[ 402,  632,   4,   9,  -3,   0, "sprites/png/gui/gui04.png"]
+	[ 418,  632,  32,  23, -31,   0, "sprites/png/gui/gui04.png"]
+                                                                                  // bridge piers colour 3 (~copper)
+	[ 466,  632,   4,   8,  28,  16, "sprites/png/gui/gui04.png"]
+	[ 482,  632,   4,   9,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 498,  632,  32,  23,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 546,  632,   4,   8, -31,  15, "sprites/png/gui/gui04.png"]
+	[ 562,  632,   4,   9,  -3,   0, "sprites/png/gui/gui04.png"]
+	[ 578,  632,  32,  23, -31,   0, "sprites/png/gui/gui04.png"]
+                                                                                  // bridge piers colour 4 (silver)
+	[ 626,  632,   4,   8,  28,  16, "sprites/png/gui/gui04.png"]
+	[ 642,  632,   4,   9,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 658,  632,  32,  23,   0,   1, "sprites/png/gui/gui04.png"]
+	[ 706,  632,   4,   8, -31,  15, "sprites/png/gui/gui04.png"]
+	[ 722,  632,   4,   9,  -3,   0, "sprites/png/gui/gui04.png"]
+	[ 738,  632,  32,  23, -31,   0, "sprites/png/gui/gui04.png"]
+
+	[ 786,  632,  10,  10,   0,   0, "sprites/png/gui/gui04.png"]                   // newgrf settings: square status icon
+	[   2,  696,   8,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // server join menu: circular status icon
+	[  18,  696,   7,   9,   0,   0, "sprites/png/gui/gui04.png"]                   // server join menu: password protected
+	[  34,  696,   9,   7,   0,   0, "sprites/png/gui/gui04.png"]                   // content download menu: empty check box
+	[  50,  696,   9,   7,   0,   0, "sprites/png/gui/gui04.png"]                   // content download menu: checked check box
+	[  66,  696,  10,  10,   0,   0, "sprites/png/gui/gui04.png"]                   // newgrf settings: warning icon
+	[  82,  696,   7,   7,   0,   0, "sprites/png/gui/gui04.png"]                   // window decoration: resize (ltr languages)
+	[  98,  696,   7,   4,   1,   2, "sprites/png/gui/gui04.png"]                   // window decoration: arrow up
+	[ 114,  696,   7,   4,   1,   2, "sprites/png/gui/gui04.png"]                   // window decoration: arrow down
+	[ 130,  696,   4,   7,   1,   1, "sprites/png/gui/gui04.png"]                   // window decoration: arrow left
+	[ 146,  696,   4,   7,   2,   1, "sprites/png/gui/gui04.png"]                   // window decoration: arrow right
+	[ 162,  696,   8,   8,   1,   1, "sprites/png/gui/gui04.png"]                   // window decoration: go to default directory
+	[ 178,  696,   9,   9,   1,   0, "sprites/png/gui/gui04.png"]                   // window decoration: (?) list (?)
+	[ 194,  696,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // window decoration: sticky window
+	[ 210,  696,   8,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // window decoration: make window sticky
+	[ 226,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail normal rail
+	[ 258,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail normal rail
+	[ 306,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to normal rail
+	[ 338,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to normal rail
+	[ 386,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail e-rail
+	[ 418,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail e-rail
+	[ 466,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to e-rail
+	[ 498,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to e-rail
+	[ 546,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot
+	[ 578,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place depot
+	[ 626,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail monorail
+	[ 658,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail monorail
+	[ 706,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to monorail
+	[ 738,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to monorail
+	[   2,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot monorail
+	[  34,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place monorail depot
+	[  82,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail maglev
+	[ 114,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail maglev
+	[ 162,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to maglev
+	[ 194,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to maglev
+	[ 242,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot maglev
+	[ 274,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place maglev depot
+	[ 322,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // (?)
+	[ 354,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: waypoint
+	[ 386,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place waypoint
+	[ 434,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"]                   // default waypoint building part 1 SW-NE view
+	[ 514,  744,  62,  40, -52, -20, "sprites/png/gui/gui04.png"]                   // default waypoint building part 2 SW-NE view
+	[ 594,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"]                   // default waypoint building part 1 NW-SE view
+	[ 674,  744,  62,  40, -10, -20, "sprites/png/gui/gui04.png"]                   // default waypoint building part 2 NW-SE view
+	[ 754,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: autoroad
+	[   2,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad
+	[  50,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: autoroad tram
+	[  82,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad tram
+	[ 130,  808,  39,  18,  -9,  -9, "sprites/png/gui/gui04.png"]                   // helipad
+	[ 178,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place ship lift
+	[ 226,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build canal
+	[ 258,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place canal
+	[ 306,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // main toolbar: fast forward
+	[ 338,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // landscaping toolbar: level land
+	[ 370,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor landscaping: level land
+	[ 418,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single train
+	[ 450,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single road vehicle
+	[ 482,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single ship
+	[ 514,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single plane
+	[ 546,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell all trains
+	[ 578,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell all road vehicles
+	[ 610,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell all ships
+	[ 642,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell all aircrafts
+	[ 674,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: autoreplace all trains in depot
+	[ 706,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: autoreplace all road vehicles in depot
+	[ 738,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: autoreplace all ships in depot
+	[ 770,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: autoreplace all aircrafts in hangar
+	[   2,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell whole train
+	[  34,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone train
+	[  66,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone road vehicle
+	[  98,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone ship
+	[ 130,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone aircraft
+	[ 162,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select train to clone
+	[ 210,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select road vehicle to clone
+	[ 258,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select ship to clone
+	[ 306,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select aircraft to clone
+	[ 354,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new train group
+	[ 386,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new road vehicles group
+	[ 418,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new ships group
+	[ 450,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new aircrafts group
+	[ 482,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: delete train group
+	[ 514,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: delete road vehicles group
+	[ 546,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: delete ships group
+	[ 578,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: delete aircrafts group
+	[ 610,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: rename train group
+	[ 642,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: rename road vehicles group
+	[ 674,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: rename ship group
+	[ 706,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: rename aircrafts group
+	[ 738,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: don't autoreplace this group of trains
+	[ 770,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: don't autoreplace this group of road vehicles
+	[   2,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: don't autoreplace this group of ships
+	[  34,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: don't autoreplace this group of aircrafts
+	[  66,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: select no autoreplace for this group of trains
+	[  98,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: select no autoreplace for this group of road vehicles
+	[ 130,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: select no autoreplace for this group of ships
+	[ 162,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: select no autoreplace for this group of aircrafts
+	[ 194,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: build one-way roads
+	[ 226,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // signal toolbar: convert signals
+	[ 258,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build rivers
+	[ 290,  904,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: build rivers
+	[ 338,  904,   7,   7,   3,   4, "sprites/png/gui/gui04.png"]                   // (?) arrow left
+	[ 354,  904,   7,   7,   3,   4, "sprites/png/gui/gui04.png"]                   // (?) arrow right
+	[ 370,  904,  10,   9,   2,   3, "sprites/png/gui/gui04.png"]                   // (?) arrow down
+	[ 386,  904,  10,   9,   2,   3, "sprites/png/gui/gui04.png"]                   // (?) arrow up
+	[ 402,  904,  11,   7,   2,   1, "sprites/png/gui/gui04.png"]                   // (?) arrow left
+	[ 418,  904,   9,   9,   3,   3, "sprites/png/gui/gui04.png"]                   // (?) command symbol
+	[ 434,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // main toolbar: switch toolbars
+	[ 466,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build aquaduct
+	[ 498,  904,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: build aquaduct
+	[   0,    0,  10,  10,   0,   0, "sprites/png/extra/extra-gui-plus-minus.png"]  // (?)
+	[  16,    0,  10,  10,   0,   0, "sprites/png/extra/extra-gui-plus-minus.png"]  // (?)
+	[  82,  705,   7,   7,   0,   0, "sprites/png/gui/gui04.png"]                   // window decorations: resize window (rtl languages)
+	[   2,  125,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // juke box: play (rtl languages)
+	[ 242,  352,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // (?) to bottom
+	[ 256,  352,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // (?) to top
+	[   0,    0,   7,   8,   0,   0, "sprites/png/extra/extra-gui-bug.png"]         // window decorations: debugging icon
+	[ 401,  201,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit not applicable
+	[ 401,  167,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit negative
+	[ 401,  154,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit some
+	[ 401,  128,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit lots
+	[ 401,   99,   8,  10,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Unread news
+	[   6,    7,  13,  10,   0,   0, "sprites/png/extra/extra-gui-exclusive.png"]   // Exclusive transport rights
+	[   2,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace protection
+	[  20,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace defined
+}

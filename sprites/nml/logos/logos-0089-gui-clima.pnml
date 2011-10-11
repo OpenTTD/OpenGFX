@@ -1,0 +1,8 @@
+base_graphics(  89, "sprites/png/gui/gui04.png") { [  18,  376,  70,  48,   2,   2] }
+base_graphics(  90, "sprites/png/gui/gui04.png") { [  98,  376,  72,  50,   1,   1] }
+base_graphics(  91, "sprites/png/gui/gui04.png") { [ 178,  376,  70,  48,   2,   2] }
+base_graphics(  92, "sprites/png/gui/gui04.png") { [ 258,  376,  72,  50,   1,   1] }
+base_graphics(  93, "sprites/png/gui/gui04.png") { [ 338,  376,  70,  48,   2,   2] }
+base_graphics(  94, "sprites/png/gui/gui04.png") { [ 418,  376,  72,  50,   1,   1] }
+base_graphics(  95, "sprites/png/gui/gui04.png") { [ 498,  376,  70,  48,   2,   2] }
+base_graphics(  96, "sprites/png/gui/gui04.png") { [ 578,  376,  72,  50,   1,   1] }

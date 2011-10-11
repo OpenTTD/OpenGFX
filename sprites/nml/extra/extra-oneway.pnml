@@ -1,0 +1,8 @@
+replacenew(ONE_WAY_ROAD, "") {
+	[  18,    8,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  50,    8,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  82,    8,  28,  16, -14,  -8, "sprites/png/extra/oneway.png"]
+	[ 114,    8,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 146,    8,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 178,    8,  28,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+}

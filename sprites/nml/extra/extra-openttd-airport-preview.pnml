@@ -1,0 +1,11 @@
+replacenew(AIRPORT_PREVIEW, "") {
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_small.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_city.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_heliport.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_metropolitan.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_international.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_commuter.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_helidepot.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_intercontinental.png"]
+	[   0,    0, 230, 140,   0,   0, NOCROP, "sprites/png/extra/airport_preview_helistation.png"]
+}
