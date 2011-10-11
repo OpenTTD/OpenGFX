@@ -41,7 +41,7 @@ ifneq ("$(strip $(NML))","")
 ogfx1_base.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/base | sed "s@nml@nfo@g")
 ogfxc_arctic.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/arctic | sed "s@nml@nfo@g")
 ogfxh_tropical.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/tropical | sed "s@nml@nfo@g")
-ogfxi_logo.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/logo | sed "s@nml@nfo@g")
+ogfxi_logos.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/logos | sed "s@nml@nfo@g")
 ogfxt_toyland.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/toyland | sed "s@nml@nfo@g")
 ogfxe_extra.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/extra | sed "s@nml@nfo@g")
 
