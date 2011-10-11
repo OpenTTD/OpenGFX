@@ -1,0 +1,45 @@
+//134   152     19      City roads
+base_graphics( 134, "sprites/png/infrastructure/infra08.png") { [  82, 5960,  64,  31, -31,   0] }
+base_graphics( 135, "sprites/png/infrastructure/infra08.png") { [ 162, 5960,  64,  31, -31,   0] }
+base_graphics( 136, "sprites/png/infrastructure/infra08.png") { [ 242, 5960,  64,  31, -31,   0] }
+base_graphics( 137, "sprites/png/infrastructure/infra08.png") { [ 322, 5960,  64,  31, -31,   0] }
+base_graphics( 138, "sprites/png/infrastructure/infra08.png") { [ 402, 5960,  64,  31, -31,   0] }
+base_graphics( 139, "sprites/png/infrastructure/infra08.png") { [ 482, 5960,  64,  31, -31,   0] }
+base_graphics( 140, "sprites/png/infrastructure/infra08.png") { [ 562, 5960,  64,  31, -31,   0] }
+base_graphics( 141, "sprites/png/infrastructure/infra08.png") { [ 642, 5960,  64,  31, -31,   0] }
+base_graphics( 142, "sprites/png/infrastructure/infra08.png") { [ 722, 5960,  64,  31, -31,   0] }
+base_graphics( 143, "sprites/png/infrastructure/infra08.png") { [   2, 6008,  64,  31, -31,   0] }
+base_graphics( 144, "sprites/png/infrastructure/infra08.png") { [  82, 6008,  64,  31, -31,   0] }
+base_graphics( 145, "sprites/png/infrastructure/infra08.png") { [ 162, 6008,  64,  39, -31,  -8] }
+base_graphics( 146, "sprites/png/infrastructure/infra08.png") { [ 242, 6008,  64,  23, -31,   0] }
+base_graphics( 147, "sprites/png/infrastructure/infra08.png") { [ 322, 6008,  64,  23, -31,   0] }
+base_graphics( 148, "sprites/png/infrastructure/infra08.png") { [ 402, 6008,  64,  39, -31,  -8] }
+base_graphics( 149, "sprites/png/infrastructure/infra08.png") { [ 482, 6008,  64,  31, -31,   0] }
+base_graphics( 150, "sprites/png/infrastructure/infra08.png") { [ 562, 6008,  64,  31, -31,   0] }
+base_graphics( 151, "sprites/png/infrastructure/infra08.png") { [ 642, 6008,  64,  31, -31,   0] }
+base_graphics( 152, "sprites/png/infrastructure/infra08.png") { [ 722, 6008,  64,  31, -31,   0] }
+
+//153   171     19      Roads
+base_graphics( 153, "sprites/png/infrastructure/infra08.png") { [   2, 6072,  64,  31, -31,   0] }
+base_graphics( 154, "sprites/png/infrastructure/infra08.png") { [  82, 6072,  64,  31, -31,   0] }
+base_graphics( 155, "sprites/png/infrastructure/infra08.png") { [ 162, 6072,  64,  31, -31,   0] }
+base_graphics( 156, "sprites/png/infrastructure/infra08.png") { [ 242, 6072,  64,  31, -31,   0] }
+base_graphics( 157, "sprites/png/infrastructure/infra08.png") { [ 322, 6072,  64,  31, -31,   0] }
+base_graphics( 158, "sprites/png/infrastructure/infra08.png") { [ 402, 6072,  64,  31, -31,   0] }
+base_graphics( 159, "sprites/png/infrastructure/infra08.png") { [ 482, 6072,  64,  31, -31,   0] }
+base_graphics( 160, "sprites/png/infrastructure/infra08.png") { [ 562, 6072,  64,  31, -31,   0] }
+base_graphics( 161, "sprites/png/infrastructure/infra08.png") { [ 642, 6072,  64,  31, -31,   0] }
+base_graphics( 162, "sprites/png/infrastructure/infra08.png") { [ 722, 6072,  64,  31, -31,   0] }
+base_graphics( 163, "sprites/png/infrastructure/infra08.png") { [   2, 6120,  64,  31, -31,   0] }
+base_graphics( 164, "sprites/png/infrastructure/infra08.png") { [  82, 6120,  64,  39, -31,  -8] }
+base_graphics( 165, "sprites/png/infrastructure/infra08.png") { [ 162, 6120,  64,  23, -31,   0] }
+base_graphics( 166, "sprites/png/infrastructure/infra08.png") { [ 242, 6120,  64,  23, -31,   0] }
+base_graphics( 167, "sprites/png/infrastructure/infra08.png") { [ 322, 6120,  64,  39, -31,  -8] }
+base_graphics( 168, "sprites/png/infrastructure/infra08.png") { [ 402, 6120,  64,  31, -31,   0] }
+base_graphics( 169, "sprites/png/infrastructure/infra08.png") { [ 482, 6120,  64,  31, -31,   0] }
+base_graphics( 170, "sprites/png/infrastructure/infra08.png") { [ 562, 6120,  64,  31, -31,   0] }
+base_graphics( 171, "sprites/png/infrastructure/infra08.png") { [ 642, 6120,  64,  31, -31,   0] }
+
+//172   173     2       Streetlights
+base_graphics( 172, "sprites/png/miscellaneous/random.png") { [ 254,   10,   4,  14,   0, -13] }
+base_graphics( 173, "sprites/png/miscellaneous/random.png") { [ 259,   10,   4,  14,  -4, -12] }

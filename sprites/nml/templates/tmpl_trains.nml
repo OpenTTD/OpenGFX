@@ -83,7 +83,7 @@ template tmpl_pikka_4view_88length_29px_plus6height(x, y) {
     [48+x, y, 29, 18, -16, -14]
     [96+x, y, 20, 22,  -6, -15]
 }
- 
+
 template tmpl_pikka_8view_88length_29px_plus6height(x, y) {
     [    x, y,  8, 28,  -3, -18]
     [ 16+x, y, 20, 22, -14, -15]
@@ -93,7 +93,7 @@ template tmpl_pikka_8view_88length_29px_plus6height(x, y) {
     [144+x, y, 20, 22, -14, -15]
     [176+x, y, 29, 18, -16, -14]
     [224+x, y, 20, 22,  -6, -15]
-} 
+}
 
 
 /*
@@ -169,6 +169,20 @@ template tmpl_pikka_4view_88length_32px(x, y) {
 }
 template tmpl_pikka_8view_88length_32px(x, y) {
 	tmpl_pikka_8view_88length_32px_high(x, y, 0)
+}
+
+/* Templates which are incompatible with pikka templates
+ * Don't use when introducing new sprites
+ */
+template tmpl_ogfx_4view_88length_32px(x) {
+	[  0+x, 0,  8, 24,  -3, -13]
+	[  9+x, 0, 22, 20, -13, -11]
+	[ 32+x, 0, 32, 17, -16, -12]
+	[ 65+x, 0, 22, 20,  -5, -11]
+}
+template tmpl_ogfx_8view_88length_32px(x) {
+	tmpl_ogfx_4view_88length_32px(x+0)
+	tmpl_ogfx_4view_88length_32px(x+88)
 }
 
 

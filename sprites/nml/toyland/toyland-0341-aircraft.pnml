@@ -1,0 +1,61 @@
+//341   392     52      Aircraft
+// Ploddyphut 100
+base_graphics( 341, "sprites/png/aircraft/toyland_aircraft.png") { [ 214,   15,  32,  11, -15,  -6] }
+base_graphics( 342, "sprites/png/aircraft/toyland_aircraft.png") { [ 262,   15,  25,  12, -11,  -5] }
+base_graphics( 343, "sprites/png/aircraft/toyland_aircraft.png") { [ 294,   15,  30,  15, -13,  -5] }
+base_graphics( 344, "sprites/png/aircraft/toyland_aircraft.png") { [ 342,   15,  25,  18, -11,  -9] }
+base_graphics( 345, "sprites/png/aircraft/toyland_aircraft.png") { [ 374,   15,  32,  20, -15, -11] }
+base_graphics( 346, "sprites/png/aircraft/toyland_aircraft.png") { [ 422,   15,  25,  18, -12,  -9] }
+base_graphics( 347, "sprites/png/aircraft/toyland_aircraft.png") { [ 454,   15,  30,  15, -15,  -6] }
+base_graphics( 348, "sprites/png/aircraft/toyland_aircraft.png") { [ 502,   15,  25,  12, -12,  -5] }
+// Ploddyphut 500
+base_graphics( 349, "sprites/png/aircraft/toyland_aircraft.png") { [ 212,   45,  39,  15, -19,  -9] }
+base_graphics( 350, "sprites/png/aircraft/toyland_aircraft.png") { [ 260,   45,  32,  14, -16,  -6] }
+base_graphics( 351, "sprites/png/aircraft/toyland_aircraft.png") { [ 308,   45,  36,  20, -16,  -9] }
+base_graphics( 352, "sprites/png/aircraft/toyland_aircraft.png") { [ 356,   45,  31,  22, -16, -11] }
+base_graphics( 353, "sprites/png/aircraft/toyland_aircraft.png") { [ 404,   45,  39,  24, -19, -13] }
+base_graphics( 354, "sprites/png/aircraft/toyland_aircraft.png") { [ 453,   45,  32,  22, -14, -11] }
+base_graphics( 355, "sprites/png/aircraft/toyland_aircraft.png") { [ 500,   45,  36,  20, -18,  -9] }
+base_graphics( 356, "sprites/png/aircraft/toyland_aircraft.png") { [ 548,   45,  31,  14, -13,  -6] }
+// Flashban X1
+base_graphics( 357, "sprites/png/aircraft/toyland_aircraft.png") { [ 211,   82,  38,  17, -18,  -9] }
+base_graphics( 358, "sprites/png/aircraft/toyland_aircraft.png") { [ 259,   82,  34,  14, -18,  -7] }
+base_graphics( 359, "sprites/png/aircraft/toyland_aircraft.png") { [ 307,   82,  44,  17, -22,  -9] }
+base_graphics( 360, "sprites/png/aircraft/toyland_aircraft.png") { [ 367,   82,  36,  24, -19, -15] }
+base_graphics( 361, "sprites/png/aircraft/toyland_aircraft.png") { [ 415,   82,  38,  26, -18, -15] }
+base_graphics( 362, "sprites/png/aircraft/toyland_aircraft.png") { [ 463,   82,  35,  23, -14, -14] }
+base_graphics( 363, "sprites/png/aircraft/toyland_aircraft.png") { [ 510,   82,  43,  17, -20,  -9] }
+base_graphics( 364, "sprites/png/aircraft/toyland_aircraft.png") { [ 559,   82,  34,  14, -15,  -7] }
+// Juggerplane M1
+base_graphics( 365, "sprites/png/aircraft/toyland_aircraft.png") { [ 210,  114,  47,  24, -22, -13] }
+base_graphics( 366, "sprites/png/aircraft/toyland_aircraft.png") { [ 275,  114,  48,  23, -24, -10] }
+base_graphics( 367, "sprites/png/aircraft/toyland_aircraft.png") { [ 339,  114,  57,  24, -25, -11] }
+base_graphics( 368, "sprites/png/aircraft/toyland_aircraft.png") { [ 403,  114,  48,  30, -24, -17] }
+base_graphics( 369, "sprites/png/aircraft/toyland_aircraft.png") { [ 468,  114,  47,  34, -23, -18] }
+base_graphics( 370, "sprites/png/aircraft/toyland_aircraft.png") { [ 537,  114,  48,  30, -22, -17] }
+base_graphics( 371, "sprites/png/aircraft/toyland_aircraft.png") { [ 600,  114,  57,  24, -30, -11] }
+base_graphics( 372, "sprites/png/aircraft/toyland_aircraft.png") { [ 664,  114,  48,  23, -22, -10] }
+// Flashbang Whizzer
+base_graphics( 373, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [   3,    7,  42,  24, -20, -13] }
+base_graphics( 374, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [  51,    7,  47,  22, -21, -10] }
+base_graphics( 375, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 115,    7,  62,  19, -26,  -8] }
+base_graphics( 376, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 195,    7,  48,  29, -22, -15] }
+base_graphics( 377, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 259,    7,  42,  32, -20, -14] }
+base_graphics( 378, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 307,    7,  48,  29, -24, -15] }
+base_graphics( 379, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 371,    7,  62,  19, -34,  -8] }
+base_graphics( 380, "sprites/png/aircraft/toyland_flashbangWhizzer.png") { [ 451,    7,  48,  22, -24, -10] }
+// Powernaut Helicopter
+base_graphics( 381, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [  25,    4,   8,  14,  -3,  -4] }
+base_graphics( 382, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [  41,    4,  24,  13, -14,  -4] }
+base_graphics( 383, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [  73,    4,  32,  13, -20,  -5] }
+base_graphics( 384, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [ 121,    4,  23,  19, -14, -11] }
+base_graphics( 385, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [ 153,    4,   8,  22,  -3, -13] }
+base_graphics( 386, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [ 169,    4,  23,  19,  -7, -11] }
+base_graphics( 387, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [ 200,    4,  32,  13,  -9,  -5] }
+base_graphics( 388, "sprites/png/aircraft/toyland_PowernautHelicopter_DanMacK.png") { [ 248,    4,  24,  13,  -7,  -4] }
+
+// Helocopter rotor
+base_graphics( 389, "sprites/png/aircraft/vehiclesair021.png") { [  34,  536,  22,  10, -10,  -3] }
+base_graphics( 390, "sprites/png/aircraft/vehiclesair021.png") { [  66,  536,  30,  14, -14,  -5] }
+base_graphics( 391, "sprites/png/aircraft/vehiclesair021.png") { [ 114,  536,  30,  14, -14,  -5] }
+base_graphics( 392, "sprites/png/aircraft/vehiclesair021.png") { [ 162,  536,  30,  14, -14,  -5] }

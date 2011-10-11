@@ -1,0 +1,165 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+//174   205     32      Rail
+base_graphics( 174, "sprites/png/infrastructure/infra08.png") { [  66,    8,  40,  21, -19,   5] }
+base_graphics( 175, "sprites/png/infrastructure/infra08.png") { [ 114,    8,  40,  21, -19,   5] }
+base_graphics( 176, "sprites/png/infrastructure/infra08.png") { [ 162,    8,  40,   7, -19,   4] }
+base_graphics( 177, "sprites/png/infrastructure/infra08.png") { [ 210,    8,  40,   7, -19,  20] }
+base_graphics( 178, "sprites/png/infrastructure/infra08.png") { [ 258,    8,  12,  19,  11,   6] }
+base_graphics( 179, "sprites/png/infrastructure/infra08.png") { [ 290,    8,  12,  19, -21,   6] }
+base_graphics( 180, "sprites/png/infrastructure/infra08.png") { [ 226, 5480,  64,  31, -31,   0] }
+base_graphics( 181, "sprites/png/infrastructure/infra08.png") { [ 306, 5480,  64,  31, -31,   0] }
+base_graphics( 182, "sprites/png/infrastructure/infra08.png") { [ 386, 5480,  64,  31, -31,   0] }
+base_graphics( 183, "sprites/png/infrastructure/infra08.png") { [ 466, 5480,  64,  31, -31,   0] }
+base_graphics( 184, "sprites/png/infrastructure/infra08.png") { [ 546, 5480,  64,  31, -31,   0] }
+base_graphics( 185, "sprites/png/infrastructure/infra08.png") { [ 626, 5480,  64,  31, -31,   0] }
+base_graphics( 186, "sprites/png/infrastructure/infra08.png") { [ 706, 5480,  64,  31, -31,   0] }
+base_graphics( 187, "sprites/png/infrastructure/infra08.png") { [   2, 5528,  64,  31, -31,   0] }
+base_graphics( 188, "sprites/png/infrastructure/infra08.png") { [  82, 5528,  64,  31, -31,   0] }
+base_graphics( 189, "sprites/png/infrastructure/infra08.png") { [ 162, 5528,  64,  31, -31,   0] }
+base_graphics( 190, "sprites/png/infrastructure/infra08.png") { [ 242, 5528,  64,  31, -31,   0] }
+base_graphics( 191, "sprites/png/infrastructure/infra08.png") { [ 322, 5528,  64,  31, -31,   0] }
+base_graphics( 192, "sprites/png/infrastructure/infra08.png") { [ 402, 5528,  64,  39, -31,  -8] }
+base_graphics( 193, "sprites/png/infrastructure/infra08.png") { [ 482, 5528,  64,  31, -31,   0] }
+base_graphics( 194, "sprites/png/infrastructure/infra08.png") { [ 562, 5528,  64,  31, -31,   0] }
+base_graphics( 195, "sprites/png/infrastructure/infra08.png") { [ 642, 5528,  64,  23, -31,   0] }
+base_graphics( 196, "sprites/png/infrastructure/infra08.png") { [ 722, 5528,  64,  31, -31,  -8] }
+base_graphics( 197, "sprites/png/infrastructure/infra08.png") { [   2, 5592,  64,  23, -31,   0] }
+base_graphics( 198, "sprites/png/infrastructure/infra08.png") { [  82, 5592,  64,  31, -31,  -8] }
+base_graphics( 199, "sprites/png/infrastructure/infra08.png") { [ 162, 5592,  64,  39, -31,  -8] }
+base_graphics( 200, "sprites/png/infrastructure/infra08.png") { [ 242, 5592,  64,  39, -31,  -8] }
+base_graphics( 201, "sprites/png/infrastructure/infra08.png") { [ 322, 5592,  64,  23, -31,   0] }
+base_graphics( 202, "sprites/png/infrastructure/infra08.png") { [ 402, 5592,  64,  23, -31,   0] }
+base_graphics( 203, "sprites/png/infrastructure/infra08.png") { [ 482, 5592,  64,  39, -31,  -8] }
+base_graphics( 204, "sprites/png/infrastructure/infra08.png") { [ 562, 5592,  64,  31, -31,   0] }
+base_graphics( 205, "sprites/png/infrastructure/infra08.png") { [ 642, 5592,  64,  31, -31,   0] }
+
+//206   237     32      Monorail
+base_graphics( 206, "sprites/png/infrastructure/infra08.png") { [ 338,    8,  34,  18, -15,   7] }
+base_graphics( 207, "sprites/png/infrastructure/infra08.png") { [ 386,    8,  35,  18, -16,   7] }
+base_graphics( 208, "sprites/png/infrastructure/infra08.png") { [ 434,    8,  40,   7, -19,   4] }
+base_graphics( 209, "sprites/png/infrastructure/infra08.png") { [ 482,    8,  40,   7, -19,  20] }
+base_graphics( 210, "sprites/png/infrastructure/infra08.png") { [ 530,    8,  12,  19,  11,   6] }
+base_graphics( 211, "sprites/png/infrastructure/infra08.png") { [ 562,    8,  12,  19, -21,   6] }
+base_graphics( 212, "sprites/png/infrastructure/infra08.png") { [ 722, 5592,  64,  31, -31,   0] }
+base_graphics( 213, "sprites/png/infrastructure/infra08.png") { [   2, 5656,  64,  31, -31,   0] }
+base_graphics( 214, "sprites/png/infrastructure/infra08.png") { [  82, 5656,  64,  31, -31,   0] }
+base_graphics( 215, "sprites/png/infrastructure/infra08.png") { [ 162, 5656,  64,  31, -31,   0] }
+base_graphics( 216, "sprites/png/infrastructure/infra08.png") { [ 242, 5656,  64,  31, -31,   0] }
+base_graphics( 217, "sprites/png/infrastructure/infra08.png") { [ 322, 5656,  64,  31, -31,   0] }
+base_graphics( 218, "sprites/png/infrastructure/infra08.png") { [ 402, 5656,  64,  31, -31,   0] }
+base_graphics( 219, "sprites/png/infrastructure/infra08.png") { [ 482, 5656,  64,  31, -31,   0] }
+base_graphics( 220, "sprites/png/infrastructure/infra08.png") { [ 562, 5656,  64,  31, -31,   0] }
+base_graphics( 221, "sprites/png/infrastructure/infra08.png") { [ 642, 5656,  64,  31, -31,   0] }
+base_graphics( 222, "sprites/png/infrastructure/infra08.png") { [ 722, 5656,  64,  31, -31,   0] }
+base_graphics( 223, "sprites/png/infrastructure/infra08.png") { [   2, 5704,  64,  31, -31,   0] }
+base_graphics( 224, "sprites/png/infrastructure/infra08.png") { [  82, 5704,  64,  39, -31,  -8] }
+base_graphics( 225, "sprites/png/infrastructure/infra08.png") { [ 162, 5704,  64,  31, -31,   0] }
+base_graphics( 226, "sprites/png/infrastructure/infra08.png") { [ 242, 5704,  64,  31, -31,   0] }
+base_graphics( 227, "sprites/png/infrastructure/infra08.png") { [ 322, 5704,  64,  23, -31,   0] }
+base_graphics( 228, "sprites/png/infrastructure/infra08.png") { [ 402, 5704,  64,  31, -31,  -8] }
+base_graphics( 229, "sprites/png/infrastructure/infra08.png") { [ 482, 5704,  64,  23, -31,   0] }
+base_graphics( 230, "sprites/png/infrastructure/infra08.png") { [ 562, 5704,  64,  31, -31,  -8] }
+base_graphics( 231, "sprites/png/infrastructure/infra08.png") { [ 642, 5704,  64,  39, -31,  -8] }
+base_graphics( 232, "sprites/png/infrastructure/infra08.png") { [ 722, 5704,  64,  39, -31,  -8] }
+base_graphics( 233, "sprites/png/infrastructure/infra08.png") { [   2, 5768,  64,  23, -31,   0] }
+base_graphics( 234, "sprites/png/infrastructure/infra08.png") { [  82, 5768,  64,  23, -31,   0] }
+base_graphics( 235, "sprites/png/infrastructure/infra08.png") { [ 162, 5768,  64,  39, -31,  -8] }
+base_graphics( 236, "sprites/png/infrastructure/infra08.png") { [ 242, 5768,  64,  31, -31,   0] }
+base_graphics( 237, "sprites/png/infrastructure/infra08.png") { [ 322, 5768,  64,  31, -31,   0] }
+
+// Maglev tracks
+// Overlays
+base_graphics( 238, "sprites/png/infrastructure/rail/maglev_overlays.png") { [  10,   10,  30,  16, -14,   8] }
+base_graphics( 239, "sprites/png/infrastructure/rail/maglev_overlays.png") { [  50,   10,  30,  16, -14,   8] }
+base_graphics( 240, "sprites/png/infrastructure/rail/maglev_overlays.png") { [  90,   10,  40,   7, -19,   4] }
+base_graphics( 241, "sprites/png/infrastructure/rail/maglev_overlays.png") { [ 140,   10,  40,   7, -19,  20] }
+base_graphics( 242, "sprites/png/infrastructure/rail/maglev_overlays.png") { [ 190,   10,  12,  19,  11,   6] }
+base_graphics( 243, "sprites/png/infrastructure/rail/maglev_overlays.png") { [ 220,   10,  12,  19, -21,   6] }
+
+// Normal maglev tracks
+base_graphics( 244, "sprites/png/infrastructure/rail/maglev_tracks_toyland.png") { tmpl_rail_tracks() }
+
+//270   270     1       Company statue
+base_graphics( 270, "sprites/png/houses/toysta.png") { [   0,    0,  32,  70, -15, -46] }
+
+//271   286     16      Signals
+base_graphics( 271, "sprites/png/infrastructure/infra08.png") { [ 642, 6536,   4,  15,  -1, -13] }
+base_graphics( 272, "sprites/png/infrastructure/infra08.png") { [ 658, 6536,   4,  15,  -1, -13] }
+base_graphics( 273, "sprites/png/infrastructure/infra08.png") { [ 674, 6536,   4,  15,  -1, -13] }
+base_graphics( 274, "sprites/png/infrastructure/infra08.png") { [ 690, 6536,   4,  15,  -1, -13] }
+base_graphics( 275, "sprites/png/infrastructure/infra08.png") { [ 706, 6536,   4,  15,  -1, -13] }
+base_graphics( 276, "sprites/png/infrastructure/infra08.png") { [ 722, 6536,   4,  15,  -1, -13] }
+base_graphics( 277, "sprites/png/infrastructure/infra08.png") { [ 738, 6536,   4,  15,  -1, -13] }
+base_graphics( 278, "sprites/png/infrastructure/infra08.png") { [ 754, 6536,   4,  15,  -1, -13] }
+base_graphics( 279, "sprites/png/infrastructure/infra08.png") { [ 770, 6536,   5,  15,  -1, -13] }
+base_graphics( 280, "sprites/png/infrastructure/infra08.png") { [ 786, 6536,   5,  15,  -1, -13] }
+base_graphics( 281, "sprites/png/infrastructure/infra08.png") { [   2, 6584,   5,  15,  -1, -13] }
+base_graphics( 282, "sprites/png/infrastructure/infra08.png") { [  18, 6584,   5,  15,  -1, -13] }
+base_graphics( 283, "sprites/png/infrastructure/infra08.png") { [  34, 6584,   4,  15,  -1, -13] }
+base_graphics( 284, "sprites/png/infrastructure/infra08.png") { [  50, 6584,   4,  15,  -1, -13] }
+base_graphics( 285, "sprites/png/infrastructure/infra08.png") { [  66, 6584,   4,  15,  -1, -13] }
+base_graphics( 286, "sprites/png/infrastructure/infra08.png") { [  82, 6584,   4,  15,  -1, -13] }
+
+//287   310     24      Level crossings
+base_graphics( 287, "sprites/png/infrastructure/infra08.png") { [  82, 6376,  64,  31, -31,   0] }
+base_graphics( 288, "sprites/png/infrastructure/infra08.png") { [ 162, 6376,  64,  31, -31,   0] }
+base_graphics( 289, "sprites/png/infrastructure/infra08.png") { [ 242, 6376,  64,  31, -31,   0] }
+base_graphics( 290, "sprites/png/infrastructure/infra08.png") { [ 322, 6376,  64,  31, -31,   0] }
+base_graphics( 291, "sprites/png/infrastructure/infra08.png") { [ 402, 6376,  64,  31, -31,   0] }
+base_graphics( 292, "sprites/png/infrastructure/infra08.png") { [ 482, 6376,  64,  31, -31,   0] }
+base_graphics( 293, "sprites/png/infrastructure/infra08.png") { [ 562, 6376,  64,  31, -31,   0] }
+base_graphics( 294, "sprites/png/infrastructure/infra08.png") { [ 642, 6376,  64,  31, -31,   0] }
+base_graphics( 295, "sprites/png/infrastructure/infra08.png") { [ 722, 6376,  64,  31, -31,   0] }
+base_graphics( 296, "sprites/png/infrastructure/infra08.png") { [   2, 6440,  64,  31, -31,   0] }
+base_graphics( 297, "sprites/png/infrastructure/infra08.png") { [  82, 6440,  64,  31, -31,   0] }
+base_graphics( 298, "sprites/png/infrastructure/infra08.png") { [ 162, 6440,  64,  31, -31,   0] }
+base_graphics( 299, "sprites/png/infrastructure/infra08.png") { [ 242, 6440,  64,  31, -31,   0] }
+base_graphics( 300, "sprites/png/infrastructure/infra08.png") { [ 322, 6440,  64,  31, -31,   0] }
+base_graphics( 301, "sprites/png/infrastructure/infra08.png") { [ 402, 6440,  64,  31, -31,   0] }
+base_graphics( 302, "sprites/png/infrastructure/infra08.png") { [ 482, 6440,  64,  31, -31,   0] }
+base_graphics( 303, "sprites/png/infrastructure/infra08.png") { [ 562, 6440,  64,  31, -31,   0] }
+base_graphics( 304, "sprites/png/infrastructure/infra08.png") { [ 642, 6440,  64,  31, -31,   0] }
+base_graphics( 305, "sprites/png/infrastructure/infra08.png") { [ 722, 6440,  64,  31, -31,   0] }
+base_graphics( 306, "sprites/png/infrastructure/infra08.png") { [   2, 6488,  64,  31, -31,   0] }
+base_graphics( 307, "sprites/png/infrastructure/infra08.png") { [  82, 6488,  64,  31, -31,   0] }
+base_graphics( 308, "sprites/png/infrastructure/infra08.png") { [ 162, 6488,  64,  31, -31,   0] }
+base_graphics( 309, "sprites/png/infrastructure/infra08.png") { [ 242, 6488,  64,  31, -31,   0] }
+base_graphics( 310, "sprites/png/infrastructure/infra08.png") { [ 322, 6488,  64,  31, -31,   0] }
+
+//311   316     6       Rail depot
+base_graphics( 311, "sprites/png/infrastructure/infra08.png") { [ 434, 4952,  12,   8,  15,   6] }
+base_graphics( 312, "sprites/png/infrastructure/infra08.png") { [ 466, 4952,  50,  38,  -1, -25] }
+base_graphics( 313, "sprites/png/infrastructure/infra08.png") { [ 530, 4952,  14,   8, -25,   6] }
+base_graphics( 314, "sprites/png/infrastructure/infra08.png") { [ 562, 4952,  50,  38, -47, -25] }
+base_graphics( 315, "sprites/png/infrastructure/infra08.png") { [ 626, 4952,  50,  38, -47, -25] }
+base_graphics( 316, "sprites/png/infrastructure/infra08.png") { [ 690, 4952,  50,  38,  -1, -25] }
+//317   322     6       Monorail depot
+base_graphics( 317, "sprites/png/infrastructure/infra08.png") { [   2, 5016,  12,   8,  15,   6] }
+base_graphics( 318, "sprites/png/infrastructure/infra08.png") { [  34, 5016,  50,  39,  -1, -26] }
+base_graphics( 319, "sprites/png/infrastructure/infra08.png") { [  98, 5016,  14,   8, -25,   6] }
+base_graphics( 320, "sprites/png/infrastructure/infra08.png") { [ 130, 5016,  50,  39, -47, -26] }
+base_graphics( 321, "sprites/png/infrastructure/infra08.png") { [ 194, 5016,  50,  39, -47, -26] }
+base_graphics( 322, "sprites/png/infrastructure/infra08.png") { [ 258, 5016,  50,  39,  -1, -26] }
+
+//323   328     6       Maglev depot
+base_graphics( 323, "sprites/png/infrastructure/infra08.png") { [ 354, 5016,  12,   8,  15,   6] }
+base_graphics( 324, "sprites/png/infrastructure/infra08.png") { [ 386, 5016,  50,  38,  -1, -25] }
+base_graphics( 325, "sprites/png/infrastructure/infra08.png") { [ 450, 5016,  14,   8, -25,   6] }
+base_graphics( 326, "sprites/png/infrastructure/infra08.png") { [ 482, 5016,  50,  38, -47, -25] }
+base_graphics( 327, "sprites/png/infrastructure/infra08.png") { [ 546, 5016,  50,  38, -47, -25] }
+base_graphics( 328, "sprites/png/infrastructure/infra08.png") { [ 610, 5016,  50,  38,  -1, -25] }
+
+//329   340     12      Rail GUI cursors
+base_graphics( 329, "sprites/png/gui/gui04.png") { [ 226,  184,  32,  32,   0,   0] }
+base_graphics( 330, "sprites/png/gui/gui04.png") { [ 274,  184,  32,  32,   0,   0] }
+base_graphics( 331, "sprites/png/gui/gui04.png") { [ 322,  184,  32,  32,   0,   0] }
+base_graphics( 332, "sprites/png/gui/gui04.png") { [ 370,  184,  32,  32,   0,   0] }
+base_graphics( 333, "sprites/png/gui/gui04.png") { [ 418,  184,  32,  32,   0,   0] }
+base_graphics( 334, "sprites/png/gui/gui04.png") { [ 466,  184,  32,  32,   0,   0] }
+base_graphics( 335, "sprites/png/gui/gui04.png") { [ 514,  184,  32,  32,   0,   0] }
+base_graphics( 336, "sprites/png/gui/gui04.png") { [ 562,  184,  32,  32,   0,   0] }
+base_graphics( 337, "sprites/png/gui/gui04.png") { [ 610,  184,  32,  30,   0,   0] }
+base_graphics( 338, "sprites/png/gui/gui04.png") { [ 658,  184,  32,  32,   0,   0] }
+base_graphics( 339, "sprites/png/gui/gui04.png") { [ 706,  184,  32,  34,   0,   0] }
+base_graphics( 340, "sprites/png/gui/gui04.png") { [ 754,  184,  32,  32,   0,   0] }

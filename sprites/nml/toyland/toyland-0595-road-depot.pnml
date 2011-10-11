@@ -1,0 +1,7 @@
+//595   600     6       Road depot
+base_graphics( 595, "sprites/png/infrastructure/ToyRdDep.png") { [  98,    8,  12,  13,  19,   4] }
+base_graphics( 596, "sprites/png/infrastructure/ToyRdDep.png") { [ 130,    8,  60,  47,   1, -32] }
+base_graphics( 597, "sprites/png/infrastructure/ToyRdDep.png") { [ 210,    8,  13,  13, -29,   4] }
+base_graphics( 598, "sprites/png/infrastructure/ToyRdDep.png") { [ 242,    8,  60,  47, -59, -32] }
+base_graphics( 599, "sprites/png/infrastructure/ToyRdDep.png") { [ 322,    8,  60,  47, -59, -32] }
+base_graphics( 600, "sprites/png/infrastructure/ToyRdDep.png") { [ 402,    8,  60,  47,   1, -32] }

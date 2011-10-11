@@ -1,0 +1,6 @@
+#include "sprites/nml/templates/tmpl_trains.nml"
+
+//393 - 400 Powernaut Cho Cho
+base_graphics( 393, "sprites/png/trains/toyland_powernaut.png") {
+	tmpl_ogfx_8view_88length_32px(0)
+}

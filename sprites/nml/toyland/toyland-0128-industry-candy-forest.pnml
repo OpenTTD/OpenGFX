@@ -1,0 +1,6 @@
+base_graphics( 128, "sprites/png/industries/candyflossforest.png") { [  82,    8,  45,  66, -22, -40] }
+base_graphics( 129, "sprites/png/industries/candyflossforest.png") { [ 146,    8,  55,  66, -27, -40] }
+base_graphics( 130, "sprites/png/industries/candyflossforest.png") { [ 210,    8,  56,  66, -28, -40] }
+base_graphics( 131, "sprites/png/industries/candyflossforest.png") { [ 274,    8,  61,  66, -30, -40] }
+base_graphics( 132, "sprites/png/industries/candyflossforest.png") { [ 354,    8,  35,  66, -17, -40] }
+base_graphics( 133, "sprites/png/industries/candyflossforest.png") { [ 402,    8,  64,  31, -31,   0] }

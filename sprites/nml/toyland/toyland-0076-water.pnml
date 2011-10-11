@@ -1,0 +1,8 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+// plain water and seashore tiles
+base_graphics(  76, "sprites/png/terrain/shoretiles.png") { [   1,  145,  64,  31, -31,   0] }
+base_graphics(  77, "sprites/png/terrain/shoretiles.png") { tmpl_8shore_tiles(1, 145) }
+
+// unused buoy
+base_graphics(  85, "sprites/png/miscellaneous/empty.png") { [   0,    0,   1,   1,   0,   0] }
