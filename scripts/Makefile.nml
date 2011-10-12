@@ -1,0 +1,52 @@
+ifdef USE_NML
+
+# Filenames to be included in source releases
+FILE_SRC_EXTENSIONS ?= pnml nml tnml
+FILE_INC_EXTENSIONS ?= wav pcx png
+
+# NML-specific files
+TAG_FILENAME := custom_tags.txt
+LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
+
+################################################################
+# NML-specific targets and rules
+################################################################
+
+%.src.dep: %.pnml
+	$(_E) "[DEP] $@"
+	$(_V) $(CC) -C -M -MF $@ -E -MT $@ - < $<
+
+%.nml: %.pnml %.src.dep $(REV_FILENAME) $(TAG_FILENAME)
+	$(_E) "[CPP] $@"
+	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< > $@
+
+%.gfx.dep: %.nml
+	$(_E) "[DEP] $@"
+	$(_V) $(NML) -M --MF $@ $<
+
+%.grf: %.nml %.gfx.dep $(TAG_FILENAME) $(LANG_FILES) $(MAKEFILE_DEP)
+	$(_E) "[NML] $@"
+	$(_V) $(NML) $(NML_FLAGS) --grf $@ $<
+
+$(TAG_FILENAME): $(REV_FILENAME)
+	$(_E) "[LANG] $@"
+	$(_V) echo "VERSION  :$(REPO_VERSION_STRING)" > $@
+	$(_V) echo "TITLE    :$(REPO_TITLE)" >> $@
+	$(_V) echo "FILENAME :$(TARGET_FILES)" >> $@
+
+endif # project_type == NML
+
+################################################################
+# Definitions which extend the common rules
+################################################################
+clean::
+	$(_E) "[CLEAN NML]"
+	$(_V)-rm -rf $(patsubst %.grf,%.nml,$(GRF_FILES))
+	$(_V)-rm -rf parsetab.py
+	$(_V)-rm -rf $(TAG_FILENAME)
+
+test::
+	$(_E) "nml:                          $(NML) $(NML_FLAGS)"
+	$(_E) "Language files:               $(LANG_FILES)"
+
+depend:: Makefile.dep $(patsubst %.grf,%.src.dep,$(GRF_FILES)) $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))

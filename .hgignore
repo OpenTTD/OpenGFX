@@ -10,6 +10,7 @@ Makefile.dep
 *.nml
 .version
 parsetab.py
+custom_tags.txt
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
@@ -24,9 +25,6 @@ docs/readme.txt
 
 # Ignore directories from bundle creation / install:
 opengfx-*
-
-#The .renum dir
-.renum
 
 # Ignore frequent development left-overs like
 # editor backups, patches, rejects etc. pp

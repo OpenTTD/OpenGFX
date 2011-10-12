@@ -14,10 +14,8 @@ VPATH = $(DIST_DIRS)
 endif
 
 # Don't delete intermediate files
-.PRECIOUS: %.nfo %.nml %.cnfo %.scm %.png
-.SECONDARY: %.nfo %.nml %.cnfo %.scm %.png
-
-.DELETE_ON_ERROR: %.cnfo
+.PRECIOUS: %.nml %.scm %.gimp.png
+.SECONDARY: %.nml %.scm %.gimp.png
 
 ################################################################
 # Cleaning targets
