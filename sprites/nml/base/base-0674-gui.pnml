@@ -1,0 +1,104 @@
+//674-678 company colour random thingies
+base_graphics( 674, "") { [ 162,    8,  34,   1,   0,   0, "sprites/png/gui/gui04.png"] }
+base_graphics( 675, "") { [ 210,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }
+base_graphics( 676, "") { [ 242,    8,  16,  20,   0,   0, "sprites/png/gui/gui04.png"] }
+base_graphics( 677, "") { [ 274,    8,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }
+base_graphics( 678, "") { [ 306,    8,  40,  20,   0,   0, "sprites/png/gui/gui04.png"] }
+
+//679-751 gui stuff
+base_graphics( 679, "") { [ 354,    8,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: subsidies
+base_graphics( 680, "") { [ 386,    8,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: news settings
+base_graphics( 681, "") { [ 418,    8,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // (?)
+base_graphics( 682, "") { [ 450,    8,  10,  10,   0,   1, "sprites/png/gui/gui04.png"] }                   // (?)
+base_graphics( 683, "") { [ 466,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: center map on vehicle
+base_graphics( 684, "") { [ 498,    8,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: company comparisons (company league table)
+base_graphics( 685, "") { [ 530,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: send to rail depot
+base_graphics( 686, "") { [ 562,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: send to road depot
+base_graphics( 687, "") { [ 594,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: send to hangar
+base_graphics( 688, "") { [ 626,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: send to ship depot
+base_graphics( 689, "") { [ 658,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: skip signal
+base_graphics( 690, "") { [ 690,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: set orders
+base_graphics( 691, "") { [ 722,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: show details
+base_graphics( 692, "") { [ 754,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: refit
+base_graphics( 693, "") { [ 394,   10,  20,  20,   0,   0, "sprites/png/miscellaneous/random.png"] }        // buoy for GUI
+// Terraform icons up/down
+base_graphics( 694, "") { [   3,    9,  20,  20,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 695, "") { [  35,    9,  20,  20,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+// Terraform cursors up/down
+base_graphics( 696, "") { [  67,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 697, "") { [ 115,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 698, "") { [ 163,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 699, "") { [ 211,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 700, "") { [ 259,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 701, "") { [ 307,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+base_graphics( 702, "") { [ 355,   10,  32,  32,   0,   0, "sprites/png/miscellaneous/random.png"] }
+base_graphics( 703, "") { [ 434,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // construction toolbars: dynamite
+base_graphics( 704, "") { [ 466,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 1
+base_graphics( 705, "") { [ 514,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 2
+base_graphics( 706, "") { [ 562,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 3
+base_graphics( 707, "") { [ 610,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 4
+base_graphics( 708, "") { [ 658,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: map menu
+base_graphics( 709, "") { [ 690,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // juke box: skip to previous track
+base_graphics( 710, "") { [ 722,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // juke box: skip to next track
+base_graphics( 711, "") { [ 754,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // juke box: stop
+base_graphics( 712, "") { [   2,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // juke box: play (ltr languages)
+base_graphics( 713, "") { [  34,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: open jukebox
+base_graphics( 714, "") { [  66,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // construction toolbars: bulldozer
+base_graphics( 715, "") { [  98,  104,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: reverse travel direction
+base_graphics( 716, "") { [ 130,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor vehicle view: goto cursor 1
+base_graphics( 717, "") { [ 178,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor vehicle view: goto cursor 2
+base_graphics( 718, "") { [ 226,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor vehicle view: goto cursor 3
+base_graphics( 719, "") { [  89,    2,  26,  31,   0,   0, "sprites/png/gui/help.png"] }                    // cursor main toolbar: land area information
+base_graphics( 720, "") { [ 322,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor company view: place HQ cursor
+base_graphics( 721, "") { [ 370,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor construction toolbar: build depot cursor
+base_graphics( 722, "") { [ 418,  104,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // cursor landscaping toolbar: place sign cursor
+base_graphics( 723, "") { [  68,   23,  19,  19,   1,   1, "sprites/png/gui/help.png"] }                    // main toolbar: info icon
+base_graphics( 724, "") { [  21,    0,  20,  20,   0,   0, "sprites/png/gui/savemenu.png"] }                // main toolbar: file menu
+base_graphics( 725, "") { [   0,    0,  20,  20,   0,   0, "sprites/png/gui/savemenu.png"] }                // main toolbar: file menu
+base_graphics( 726, "") { [ 562,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: pause game
+base_graphics( 727, "") { [ 594,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: build rail
+base_graphics( 728, "") { [ 626,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: build road
+base_graphics( 729, "") { [ 658,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: build waterways
+base_graphics( 730, "") { [ 690,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: build airports
+base_graphics( 731, "") { [ 722,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: manage trains
+base_graphics( 732, "") { [ 754,  104,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: manage RVs
+base_graphics( 733, "") { [   2,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: manage ships
+base_graphics( 734, "") { [  34,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: mangage aircrafts
+base_graphics( 735, "") { [  66,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: zoom in
+base_graphics( 736, "") { [  98,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: zoom out
+base_graphics( 737, "") { [ 130,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: financial report
+base_graphics( 738, "") { [ 162,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // minimap: show contour map
+base_graphics( 739, "") { [ 194,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // minimap: show vehicles on map
+base_graphics( 740, "") { [ 226,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // minimap: show transport routes on map
+base_graphics( 741, "") { [ 258,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar / minimap: industry
+base_graphics( 742, "") { [ 290,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar / minimap: landscaping
+base_graphics( 743, "") { [ 322,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar / minimap: companies
+base_graphics( 744, "") { [ 354,  152,  40,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // airport toolbar: build airport
+base_graphics( 745, "") { [   0,    0,  20,  20,   0,   0, "sprites/png/gui/graphs.png"] }                  // main toolbar: graphs
+base_graphics( 746, "") { [ 434,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // waterways toolbar: build dock
+base_graphics( 747, "") { [ 466,  152,  14,   8,   0,   0, "sprites/png/gui/gui04.png"] }                   // oval button in CC
+base_graphics( 748, "") { [ 498,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // waterways toolbar: build depot
+base_graphics( 749, "") { [ 530,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // road toolbar: build bus stop
+base_graphics( 750, "") { [ 562,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // road tooblar: build truck stop
+base_graphics( 751, "") { [ 594,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: options dialogue
+
+//752-770 tile selectors / highlights
+base_graphics( 752, "") { [ 674,  376,  64,  31, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 753, "") { [   2,  440,  64,  31, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 754, "") { [  82,  440,  64,  23, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 755, "") { [ 162,  440,  64,  23, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 756, "") { [ 242,  440,  64,  31, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 757, "") { [ 322,  440,  64,  31, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 758, "") { [ 402,  440,  64,  23, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 759, "") { [ 482,  440,  64,  23, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 760, "") { [ 562,  440,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 761, "") { [ 642,  440,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 762, "") { [ 722,  440,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 763, "") { [   2,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 764, "") { [  82,  504,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 765, "") { [ 162,  504,  64,  39, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 766, "") { [ 242,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 767, "") { [ 322,  504,  64,  47, -31,  -9, "sprites/png/gui/gui04.png"] }
+base_graphics( 768, "") { [ 402,  504,  64,  15, -31,   7, "sprites/png/gui/gui04.png"] }
+base_graphics( 769, "") { [ 482,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
+base_graphics( 770, "") { [ 562,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }

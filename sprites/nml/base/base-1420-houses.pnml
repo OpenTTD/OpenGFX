@@ -1,0 +1,232 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+
+//1420 plain paved tile
+base_graphics(1420, "sprites/png/industries/industries_misc.png")      { [ 674, 1912,  64,  31, -31,   0] }
+
+//1421-1437 bunch'o'buildings
+//offices
+base_graphics(1421, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,    0,  66,  87, -32, -56] }      // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+base_graphics(1422, "sprites/png/houses/buildings.png")                { [  82,  456,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+base_graphics(1423, "sprites/png/houses/buildings.png")                { [ 162,  456,  66,  87, -32, -56] }         // (Ground tile)
+base_graphics(1424, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,  176,  66,  87, -32, -56] }      // (Ground tile)
+base_graphics(1425, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,   88,  66,  87, -32, -56] }      // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+// 1426-1429 flats
+base_graphics(1426, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,    0,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics(1427, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,   88,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics(1428, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,  176,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics(1429, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,  264,  66,  87, -32, -56] }         // (Ground tile)
+// 1430-1433 house
+base_graphics(1430, "sprites/png/houses/base-1430-1433-house.png")     { [   0,  176,  66,  87, -32, -56] }
+base_graphics(1431, "sprites/png/houses/base-1430-1433-house.png")     { [   0,   88,  66,  87, -32, -56] }
+base_graphics(1432, "sprites/png/houses/base-1430-1433-house.png")     { [   0,    0,  66,  87, -32, -56] }
+base_graphics(1433, "sprites/png/houses/base-1430-1433-house.png")     { [   0,  264,  66,  87, -32, -56] }
+//church
+base_graphics(1434, "sprites/png/houses/temprtbuilds.png")             { [  66,    8,  38,  21, -19,   3] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics(1435, "sprites/png/houses/temprtbuilds.png")             { [ 114,    8,  38,  28, -19,  -4] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics(1436, "sprites/png/houses/temprtbuilds.png")             { [ 162,    8,  38,  38, -19, -14] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics(1437, "sprites/png/houses/temprtbuilds.png")             { [ 210,    8,  64,  34, -31,  -3] }
+
+base_graphics(1438, "") {
+	recolour_sprite {
+		0x69: 0x46;
+		0x6A: 0x47;
+		0x6D: 0x4A;
+		0x6E: 0x4B;
+		0x72: 0x49;
+		0x74: 0x4C;
+		0x76: 0x4D;
+		0x77: 0x4E;
+		0x78: 0x4F;
+		0x7B: 0x48;
+	}
+	recolour_sprite {
+		0x58: 0x00;
+		0x69: 0x02;
+		0x6A: 0x36;
+		0x6D: 0x23;
+		0x6E: 0x24;
+		0x72: 0x22;
+		0x74: 0x24;
+		0x76: 0x25;
+		0x77: 0x26;
+		0x78: 0x27;
+		0x7B: 0x35;
+	}
+}
+
+//1440-1575 bunch'o'buildings
+//office block with elevator
+base_graphics(1440, "sprites/png/houses/temprtbuilds.png")             { [ 306,    8,  54,  37, -26,  -8] }
+base_graphics(1441, "sprites/png/houses/temprtbuilds.png")             { [ 370,    8,  60,  77, -30, -48] }
+base_graphics(1442, "sprites/png/houses/temprtbuilds.png")             { [ 450,    8,  60,  77, -30, -48] }
+base_graphics(1443, "sprites/png/houses/temprtbuilds.png")             { [ 530,    8,   3,  14,   0,  -2] }         // Elevator
+// These are in fact two houses for the same houseID.  so V1 and V2 (V2 is sprites 1501-1506)
+base_graphics(1444, "sprites/png/houses/buildings.png")                { [ 258, 3000,  26,  29, -14,  -5] }
+base_graphics(1445, "sprites/png/houses/buildings.png")                { [ 290, 3000,  26,  29, -14,  -5] }
+base_graphics(1446, "sprites/png/houses/buildings.png")                { [ 322, 3000,  26,  29, -14,  -5] }         // 1st variation
+base_graphics(1447, "sprites/png/houses/buildings.png")                { [  82, 3000,  64,  35, -31,  -4] }         // (Ground tile)
+//hotel
+base_graphics(1448, "sprites/png/houses/temprtbuilds.png")             { [ 562,    8,  64,  31, -31,  -3] }
+base_graphics(1449, "sprites/png/houses/temprtbuilds.png")             { [ 642,    8,  64,  67, -31, -39] }
+base_graphics(1450, "sprites/png/houses/temprtbuilds.png")             { [ 722,    8,  64,  74, -31, -43] }
+base_graphics(1451, "sprites/png/houses/temprtbuilds.png")             { [   2,  104,  64,  32, -31,  -4] }
+base_graphics(1452, "sprites/png/houses/temprtbuilds.png")             { [  82,  104,  64,  67, -31, -39] }
+base_graphics(1453, "sprites/png/houses/temprtbuilds.png")             { [ 162,  104,  64,  71, -31, -43] }
+//statue+fountain
+base_graphics(1454, "sprites/png/houses/statuefountain.png")           { [  18,   21,  22,  26,  -7, -16] }
+base_graphics(1455, "sprites/png/houses/statuefountain.png")           { [  41,   21,  34,  42, -17, -22] }
+//parks
+base_graphics(1456, "sprites/png/houses/1456_1457_parks.png")          { [  11,    0,  64,  80, -31, -49] }
+base_graphics(1457, "sprites/png/houses/1456_1457_parks.png")          { [  91,   10,  64,  70, -31, -39] }
+//small offices
+base_graphics(1458, "sprites/png/houses/temprtbuilds.png")             { [ 434,  104,  52,  31, -25,  -3] }         // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
+base_graphics(1459, "sprites/png/houses/temprtbuilds.png")             { [ 498,  104,  52,  61, -25, -33] }         // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
+base_graphics(1460, "sprites/png/houses/temprtbuilds.png")             { [ 562,  104,  52,  61, -25, -33] }         // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
+// 1461-1463 old offices
+base_graphics(1461, "sprites/png/houses/buildings.png")                { [ 515, 2472,  64,  87, -35, -60] }         // (sx: 1, sy: 3) -> xrel+-4 / yrel+ -4
+base_graphics(1462, "sprites/png/houses/buildings.png")                { [ 595, 2472,  64,  87, -35, -60] }
+base_graphics(1463, "sprites/png/houses/buildings.png")                { [ 675, 2472,  64,  87, -35, -60] }
+// 1464-1466 old offices
+base_graphics(1464, "sprites/png/houses/buildings.png")                { [ 194, 1128,  66,  87, -28, -60] }         // (sx: 3, sy: 1) -> xrel+4 / yrel+ -4
+base_graphics(1465, "sprites/png/houses/buildings.png")                { [ 274, 1128,  66,  87, -28, -60] }
+base_graphics(1466, "sprites/png/houses/buildings.png")                { [ 354, 1128,  66,  87, -28, -60] }
+// 1467-1469 old offices                                                  (sx:  2, sy:  0) -> xrel+4 / yrel+ -2
+base_graphics(1467, "sprites/png/houses/base-1467-1469-oldoffice.png") { [   0,    0,  66,  87, -28, -58] }         // Recolour: STRUCT_BLUE, STRUCT_WHITE
+base_graphics(1468, "sprites/png/houses/base-1467-1469-oldoffice.png") { [   0,   88,  66,  87, -28, -58] }         // Recolour: STRUCT_BLUE, STRUCT_WHITE
+base_graphics(1469, "sprites/png/houses/base-1467-1469-oldoffice.png") { [   0,  176,  66,  87, -28, -58] }         // Recolour: STRUCT_BLUE, STRUCT_WHITE
+// 1470-1472 pointy modern building                             (sx:  2, sy:  0) -> xrel+4 / yrel+ -2
+base_graphics(1470, "sprites/png/houses/temprtbuilds.png")             { [ 642,  104,  52, 115, -24, -88] }         // Recolour: BLUE, GREEN, ORANGE, RED
+base_graphics(1471, "sprites/png/houses/temprtbuilds.png")             { [ 706,  104,  54, 115, -25, -88] }         // Recolour: BLUE, GREEN, ORANGE, RED
+base_graphics(1472, "sprites/png/houses/temprtbuilds.png")             { [   2,  232,  54, 115, -25, -88] }         // Recolour: BLUE, GREEN, ORANGE, RED
+// 1473-1475 warehouse                                          (sx:  2, sy:  0) -> xrel+4 / yrel+ -2
+base_graphics(1473, "sprites/png/houses/temprtbuilds.png")             { [  82,  232,  48,  29, -23,  -5] }
+base_graphics(1474, "sprites/png/houses/temprtbuilds.png")             { [ 146,  232,  48,  43, -23, -19] }
+base_graphics(1475, "sprites/png/houses/temprtbuilds.png")             { [ 210,  232,  48,  44, -23, -20] }
+// 1476-1478 modern warehouse                                   (sx:  2, sy:  0) -> xrel+4 / yrel+ -2
+base_graphics(1476, "sprites/png/houses/buildings.png")                { [ 354, 1016,  66,  87, -28, -58] }
+base_graphics(1477, "sprites/png/houses/buildings.png")                { [ 434, 1016,  66,  87, -28, -58] }
+base_graphics(1478, "sprites/png/houses/buildings.png")                { [ 514, 1016,  66,  87, -28, -58] }
+// 1579-1586 soccer stadium
+base_graphics(1479, "sprites/png/houses/base-1479-soccer.png")         {
+	tmpl_house_too_wide(0)
+	tmpl_house_too_wide(88)
+	tmpl_house_too_wide(176)
+	tmpl_house_too_wide(264)
+	tmpl_house_too_wide(352)
+	tmpl_house_too_wide(440)
+	tmpl_house_too_wide(528)
+	tmpl_house_too_wide(616)
+}
+//old house
+base_graphics(1487, "sprites/png/houses/buildings.png")                { [  82, 3288,  64,  35, -31,  -4] }
+base_graphics(1488, "sprites/png/houses/buildings.png")                { [ 226, 3288,  26,  28, -18,  -5] }
+//old house
+base_graphics(1489, "sprites/png/houses/buildings.png")                { [ 322, 3336,  64,  35, -31,  -4] }
+base_graphics(1490, "sprites/png/houses/buildings.png")                { [ 466, 3336,  26,  28,  -8,  -4] }
+//old house
+base_graphics(1491, "sprites/png/houses/buildings.png")                { [ 434, 2904,  64,  35, -31,  -4] }
+base_graphics(1492, "sprites/png/houses/buildings.png")                { [ 754, 2904,  30,  29, -17,  -6] }
+//old house
+base_graphics(1493, "sprites/png/houses/buildings.png")                { [ 258, 3480,  64,  35, -31,  -4] }
+base_graphics(1494, "sprites/png/houses/buildings.png")                { [ 434, 3480,  28,  27, -14,  -7] }
+//old house
+base_graphics(1495, "sprites/png/houses/buildings.png")                { [ 386, 3624,  64,  35, -31,  -4] }
+base_graphics(1496, "sprites/png/houses/buildings.png")                { [ 626, 3624,  26,  29, -14, -10] }
+//house
+base_graphics(1497, "sprites/png/houses/base-1497.png")                { [   2,   88,  64,  31, -31,   0] }         // constr. stage 1 (as ground tile)
+base_graphics(1498, "sprites/png/houses/base-1498.png")                { [   2,   88,  64,  31, -31,   0] }         // constr. stage 2 (as ground tile)
+base_graphics(1499, "sprites/png/houses/base-1499.png")                { [   2,   88,  64,  31, -31,   0] }         // ground tile for finished building
+base_graphics(1500, "sprites/png/houses/base-1500.png")                { [   2,   19,  64, 100, -31, -69] }         // finished building
+//house
+base_graphics(1501, "sprites/png/houses/buildings.png")                { [ 274, 3192,  64,  35, -31,  -4] }
+base_graphics(1502, "sprites/png/houses/buildings.png")                { [ 514, 3192,  38,  24, -16,  -1] }
+base_graphics(1503, "sprites/png/houses/buildings.png")                { [ 354, 3192,  64,  35, -31,  -4] }
+base_graphics(1504, "sprites/png/houses/buildings.png")                { [ 562, 3192,  38,  24, -16,  -1] }
+base_graphics(1505, "sprites/png/houses/buildings.png")                { [ 434, 3192,  64,  35, -31,  -4] }
+base_graphics(1506, "sprites/png/houses/buildings.png")                { [ 610, 3192,  38,  24, -16,  -1] }
+//house
+base_graphics(1507, "sprites/png/houses/buildings.png")                { [ 226, 3768,  64,  35, -31,  -4] }
+base_graphics(1508, "sprites/png/houses/buildings.png")                { [ 466, 3768,  36,  28, -18,  -8] }
+base_graphics(1509, "sprites/png/houses/buildings.png")                { [ 306, 3768,  64,  35, -31,  -4] }
+base_graphics(1510, "sprites/png/houses/buildings.png")                { [ 514, 3768,  36,  28, -18,  -8] }
+base_graphics(1511, "sprites/png/houses/buildings.png")                { [ 386, 3768,  64,  35, -31,  -4] }
+base_graphics(1512, "sprites/png/houses/buildings.png")                { [ 562, 3768,  36,  28, -18,  -8] }
+//house
+base_graphics(1513, "sprites/png/houses/buildings.png")                { [ 706, 3816,  64,  35, -31,  -4] }
+base_graphics(1514, "sprites/png/houses/buildings.png")                { [ 306, 3864,  32,  27, -12,  -9] }
+base_graphics(1515, "sprites/png/houses/buildings.png")                { [   2, 3864,  64,  35, -31,  -4] }
+base_graphics(1516, "sprites/png/houses/buildings.png")                { [ 354, 3864,  32,  27, -12,  -9] }
+base_graphics(1517, "sprites/png/houses/buildings.png")                { [  82, 3864,  64,  35, -31,  -4] }
+base_graphics(1518, "sprites/png/houses/buildings.png")                { [ 402, 3864,  32,  27, -12,  -9] }
+// 1519-1523 small flats
+base_graphics(1519, "sprites/png/houses/base-1519-1523-small-flats.png") { tmpl_house_too_wide(0) }
+base_graphics(1520, "sprites/png/houses/base-1519-1523-small-flats.png") { tmpl_house_too_wide(88) }
+base_graphics(1521, "sprites/png/houses/base-1519-1523-small-flats.png") { tmpl_house_too_wide(176) }
+base_graphics(1522, "sprites/png/houses/base-1519-1523-small-flats.png") { tmpl_house_too_wide(264) }
+base_graphics(1523, "sprites/png/houses/base-1519-1523-small-flats.png") { tmpl_house_too_wide(352) }
+// 1524-1529 small flats
+base_graphics(1524, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(440) }
+base_graphics(1525, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(176) }
+base_graphics(1526, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(352) }
+base_graphics(1527, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(88) }
+base_graphics(1528, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(264) }
+base_graphics(1529, "sprites/png/houses/base-1524-1529-small-flats.png") { tmpl_house_too_wide(0) }
+// 1530-1535 office block
+base_graphics(1530, "sprites/png/houses/morebuildings.png")            { [  66,    8,  64,  31, -31,   0] }
+base_graphics(1531, "sprites/png/houses/morebuildings.png")            { [ 146,    8,  64,  45, -31, -14] }
+base_graphics(1532, "sprites/png/houses/morebuildings.png")            { [ 226,    8,  64,  31, -31,   0] }
+base_graphics(1533, "sprites/png/houses/morebuildings.png")            { [ 306,    8,  64, 106, -31, -75] }
+base_graphics(1534, "sprites/png/houses/morebuildings.png")            { [ 386,    8,  64,  31, -31,   0] }
+base_graphics(1535, "sprites/png/houses/morebuildings.png")            { [ 466,    8,  64, 106, -31, -75] }
+//1536-1537 old flats
+base_graphics(1536, "sprites/png/houses/base-1536-1537-oldflats.png")  { tmpl_house_too_wide(0) }
+base_graphics(1537, "sprites/png/houses/base-1536-1537-oldflats.png")  { tmpl_house_too_wide(88) }         // Recolour: STRUCT_WHITE
+//1538-1539 old flats
+base_graphics(1538, "sprites/png/houses/base-1538-1539-oldflats.png")  { tmpl_house_too_wide(0) }
+base_graphics(1539, "sprites/png/houses/base-1538-1539-oldflats.png")  { tmpl_house_too_wide(88) }         // Recolour: STRUCT_CONCRETE
+//1540-1545 office block
+base_graphics(1540, "sprites/png/houses/temprtbuilds.png")             { [ 178,  360,  64,  31, -31,   0] }
+base_graphics(1541, "sprites/png/houses/temprtbuilds.png")             { [ 258,  360,  62,  48, -30, -20] }
+base_graphics(1542, "sprites/png/houses/temprtbuilds.png")             { [ 338,  360,  64,  31, -31,   0] }
+base_graphics(1543, "sprites/png/houses/temprtbuilds.png")             { [ 418,  360,  62,  83, -30, -55] }
+base_graphics(1544, "sprites/png/houses/temprtbuilds.png")             { [ 498,  360,  64,  31, -31,   0] }
+base_graphics(1545, "sprites/png/houses/temprtbuilds.png")             { [ 578,  360,  62,  83, -30, -55] }
+//1546-1551 office tower
+base_graphics(1546, "sprites/png/houses/temprtbuilds.png")             { [ 674,  360,  64,  31, -31,   0] }
+base_graphics(1547, "sprites/png/houses/temprtbuilds.png")             { [   2,  456,  56,  47, -25, -18] }
+base_graphics(1548, "sprites/png/houses/temprtbuilds.png")             { [  66,  456,  64,  31, -31,   0] }
+base_graphics(1549, "sprites/png/houses/temprtbuilds.png")             { [ 146,  456,  56,  98, -25, -69] }
+base_graphics(1550, "sprites/png/houses/temprtbuilds.png")             { [ 210,  456,  64,  31, -31,   0] }
+base_graphics(1551, "sprites/png/houses/temprtbuilds.png")             { [ 290,  456,  56,  98, -25, -69] }
+//1552-1553 theatre
+base_graphics(1552, "sprites/png/houses/morebuildings.png")            { [ 562,    8,  64,  31, -31,   0] }
+base_graphics(1553, "sprites/png/houses/morebuildings.png")            { [ 642,    8,  64,  55, -31, -24] }
+// 1554-1561 football stadium
+base_graphics(1554, "sprites/png/houses/base-1554-football.png")       {
+	tmpl_house_too_wide(176)
+	tmpl_house_too_wide(88)
+	tmpl_house_too_wide(0)
+	tmpl_house_too_wide(264)
+	tmpl_house_too_wide(352)
+	tmpl_house_too_wide(440)
+	tmpl_house_too_wide(616)
+	tmpl_house_too_wide(528)
+}
+//modern office building
+base_graphics(1562, "sprites/png/houses/temprtbuilds.png")             { [ 258,  568,  64,  31, -31,   0] }
+base_graphics(1563, "sprites/png/houses/temprtbuilds.png")             { [ 338,  568,  37, 132, -18, -108] }
+base_graphics(1564, "sprites/png/houses/temprtbuilds.png")             { [ 386,  568,  64,  31, -31,   0] }
+base_graphics(1565, "sprites/png/houses/temprtbuilds.png")             { [ 466,  568,  37, 132, -18, -108] }
+//house
+base_graphics(1566, "sprites/png/houses/buildings.png")                { [   2, 2856,  64,  35, -31,  -4] }
+base_graphics(1567, "sprites/png/houses/buildings.png")                { [ 178, 2856,  36,  28, -12,  -9] }         // Recolour: STRUCT_WHITE
+//house
+base_graphics(1568, "sprites/png/houses/buildings.png")                { [ 386, 3624,  64,  35, -31,  -4] }
+base_graphics(1569, "sprites/png/houses/buildings.png")                { [ 530, 3624,  26,  29, -14, -10] }         // Recolour: CREAM
+//house
+base_graphics(1570, "sprites/png/houses/buildings.png")                { [ 194, 2696,  64,  35, -31,  -4] }
+base_graphics(1571, "sprites/png/houses/buildings.png")                { [ 578, 2696,  32,  27, -17, -11] }
+base_graphics(1572, "sprites/png/houses/buildings.png")                { [ 274, 2696,  64,  35, -31,  -4] }
+base_graphics(1573, "sprites/png/houses/buildings.png")                { [ 626, 2696,  32,  27, -17, -11] }
+base_graphics(1574, "sprites/png/houses/buildings.png")                { [ 354, 2696,  64,  35, -31,  -4] }
+base_graphics(1575, "sprites/png/houses/buildings.png")                { [ 674, 2696,  32,  27, -17, -11] }

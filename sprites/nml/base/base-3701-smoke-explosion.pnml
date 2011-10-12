@@ -1,0 +1,45 @@
+//3701-3740 smoke/explosion effects
+//powerplant smoke
+base_graphics(3701, "sprites/png/miscellaneous/random.png") { [  10,  383,  50,  60,  -1, -59] }
+base_graphics(3702, "sprites/png/miscellaneous/random.png") { [  70,  383,  50,  60,  -1, -59] }
+base_graphics(3703, "sprites/png/miscellaneous/random.png") { [ 130,  383,  50,  60,  -1, -59] }
+base_graphics(3704, "sprites/png/miscellaneous/random.png") { [ 190,  383,  50,  60,  -1, -59] }
+base_graphics(3705, "sprites/png/miscellaneous/random.png") { [ 250,  383,  50,  60,  -1, -59] }
+base_graphics(3706, "sprites/png/miscellaneous/random.png") { [ 310,  383,  50,  60,  -1, -59] }
+base_graphics(3707, "sprites/png/miscellaneous/random.png") { [ 370,  383,  50,  60,  -1, -59] }
+base_graphics(3708, "sprites/png/miscellaneous/random.png") { [ 430,  383,  50,  60,  -1, -59] }
+//large explosion
+base_graphics(3709, "sprites/png/miscellaneous/random.png") { [  10,  267,  47,  47, -23, -23] }
+base_graphics(3710, "sprites/png/miscellaneous/random.png") { [  60,  267,  47,  47, -23, -23] }
+base_graphics(3711, "sprites/png/miscellaneous/random.png") { [ 110,  267,  47,  47, -23, -23] }
+base_graphics(3712, "sprites/png/miscellaneous/random.png") { [ 160,  267,  47,  47, -23, -23] }
+base_graphics(3713, "sprites/png/miscellaneous/random.png") { [ 210,  267,  47,  47, -23, -23] }
+base_graphics(3714, "sprites/png/miscellaneous/random.png") { [ 260,  267,  47,  47, -23, -23] }
+base_graphics(3715, "sprites/png/miscellaneous/random.png") { [ 310,  267,  47,  47, -23, -23] }
+base_graphics(3716, "sprites/png/miscellaneous/random.png") { [ 360,  267,  47,  47, -23, -23] }
+base_graphics(3717, "sprites/png/miscellaneous/random.png") { [ 410,  267,  47,  47, -23, -23] }
+base_graphics(3718, "sprites/png/miscellaneous/random.png") { [ 460,  267,  47,  47, -23, -23] }
+base_graphics(3719, "sprites/png/miscellaneous/random.png") { [ 510,  267,  47,  47, -23, -23] }
+base_graphics(3720, "sprites/png/miscellaneous/random.png") { [ 560,  267,  47,  47, -23, -23] }
+base_graphics(3721, "sprites/png/miscellaneous/random.png") { [ 610,  267,  47,  47, -23, -23] }
+base_graphics(3722, "sprites/png/miscellaneous/random.png") { [ 660,  267,  47,  47, -23, -23] }
+base_graphics(3723, "sprites/png/miscellaneous/random.png") { [ 710,  267,  47,  47, -23, -23] }
+base_graphics(3724, "sprites/png/miscellaneous/random.png") { [ 710,  267,  47,  47, -23, -23] }
+//small explosion
+base_graphics(3725, "sprites/png/miscellaneous/random.png") { [  10,  233,  28,  28, -14, -14] }
+base_graphics(3726, "sprites/png/miscellaneous/random.png") { [  42,  233,  28,  28, -14, -14] }
+base_graphics(3727, "sprites/png/miscellaneous/random.png") { [  74,  233,  28,  28, -14, -14] }
+base_graphics(3728, "sprites/png/miscellaneous/random.png") { [ 106,  233,  28,  28, -14, -14] }
+base_graphics(3729, "sprites/png/miscellaneous/random.png") { [ 140,  233,  28,  28, -14, -14] }
+base_graphics(3730, "sprites/png/miscellaneous/random.png") { [ 172,  233,  28,  28, -14, -14] }
+base_graphics(3731, "sprites/png/miscellaneous/random.png") { [ 204,  233,  28,  28, -14, -14] }
+base_graphics(3732, "sprites/png/miscellaneous/random.png") { [ 236,  233,  28,  28, -14, -14] }
+base_graphics(3733, "sprites/png/miscellaneous/random.png") { [ 270,  233,  28,  28, -14, -14] }
+base_graphics(3734, "sprites/png/miscellaneous/random.png") { [ 302,  233,  28,  28, -14, -14] }
+base_graphics(3735, "sprites/png/miscellaneous/random.png") { [ 334,  233,  28,  28, -14, -14] }
+base_graphics(3736, "sprites/png/miscellaneous/random.png") { [ 366,  233,  28,  28, -14, -14] }
+//breakdown smoke
+base_graphics(3737, "sprites/png/miscellaneous/random.png") { [ 208,  333,  32,  32,   0, -31] }
+base_graphics(3738, "sprites/png/miscellaneous/random.png") { [ 245,  333,  32,  32,   0, -31] }
+base_graphics(3739, "sprites/png/miscellaneous/random.png") { [ 282,  333,  32,  32,   0, -31] }
+base_graphics(3740, "sprites/png/miscellaneous/random.png") { [ 320,  333,  32,  32,   0, -31] }
