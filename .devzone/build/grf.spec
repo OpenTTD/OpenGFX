@@ -14,7 +14,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:      noarch
 
-BuildRequires:  mercurial p7zip xz grfcodec unix2dos grf2html
+BuildRequires:  mercurial p7zip xz grfcodec unix2dos grf2html gimp %{dz_requires}
 
 %description
 Build script for #openttdcoop DevZone projects
@@ -29,7 +29,12 @@ cd %{name}.hg
 # update to the tag, if not revision
 [ "$(echo %{version} | cut -b-1)" != "r" ] && hg up %{version}
 
+make maintainer-clean
+
 make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+
+hg st 1>> ../%{name}/%{name}-%{version}-build.err.log 2>>&1
+[[ $(hg st -m) ]] && exit
 
 mv *.tar.gz *.tar.xz *.zip ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 cd ../%{name} 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
