@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 // bare land 3924 - 3942
 base_graphics(3924, "sprites/png/terrain/terrain04.png") { [  82,    8,  64,  31, -31,   0] }

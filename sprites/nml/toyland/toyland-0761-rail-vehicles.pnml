@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/tmpl_trains.nml"
+
 
 base_graphics(761, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,   0) } // pax		(empty + full)
 base_graphics(765, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  40) } // mail		(empty + full)

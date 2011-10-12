@@ -11,21 +11,15 @@
 # Programme definitions / search paths
 ################################################################
 # Build parameters and programmes
-# NFORENUM_FLAGS = $(shell [ `$(NFORENUM) -s -v 2>/dev/null | wc -l ` -eq 1 ] && echo "-s" || echo "")
-# NFO_WARN_LEVEL = 4
-# GRFCODEC_FLAGS = $(shell $(GRFCODEC) -s -v >/dev/null 2>/dev/null && echo "-s" || echo "") -e -p 2 -c
-# TAR_FLAGS      = -cf
+# TAR_FLAGS      = -cf 
 # ZIP_FLAGS      = -r
 # SRCZIP_FLAGS   =
 # BZIP_FLAGS     = -k9f
 # CC_FLAGS       = -C -E - <
 # MAKE_FLAGS     =
 # UNIX2DOS_FLAGS = -q
-# NML_FLAGS      = -c -p WIN
+# NML_FLAGS      =
 
-# NFORENUM       = nforenum
-# GRFCODEC       = grfcodec
-# NML            = nmlc
 # TAR            = tar
 # ZIP            = zip
 # SRCZIP         = gzip
@@ -36,6 +30,7 @@
 # MAKE           = make
 # UNIX2DOS       = $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # MD5SUM         = $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
+# NML            = nmlc
 
 # There are two different ways to do the dep check:
 # "normal": the usual bash tools being used

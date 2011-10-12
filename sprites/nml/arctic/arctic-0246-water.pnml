@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 // Water and shore tiles (8-tile version)
 base_graphics( 246, "sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png") { tmpl_level_ground(1, 1) }

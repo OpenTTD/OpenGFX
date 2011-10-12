@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 //0-18 arctic bare land stage 2
 base_graphics(   0, "sprites/png/terrain/terrain04.png") { [  34,  776,  64,  31, -31,   0] }

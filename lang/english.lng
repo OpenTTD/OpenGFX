@@ -1,2 +1,5 @@
 ##grflangid 0x01
+STR_GRF_NAME                                                    :OpenGFX {VERSION}
+STR_GRF_DESCRIPTION                                             :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Brought to you by the OpenGFX team{}See readme for a list of contributors{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION                                             :0.7.0

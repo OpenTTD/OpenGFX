@@ -1,0 +1,35 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+#include "sprites/nml/templates/tmpl_trains.nml"
+
+// 0-10 EMPTY
+base_graphics(  0, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  1, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  2, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  3, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  4, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  5, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  6, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  7, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  8, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(  9, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics( 10, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+
+#include "sprites/nml/logos/logos-0011-highscore.pnml"
+#include "sprites/nml/logos/logos-0021-newspaper-2051.pnml"
+#include "sprites/nml/logos/logos-0031-tycoon-of-century.pnml"
+
+// 41-42 EMPTY
+base_graphics( 41, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics( 42, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+
+#include "sprites/nml/logos/logos-0043-intro-letters.pnml"
+#include "sprites/nml/logos/logos-0052-original-map-generator.pnml"
+#include "sprites/nml/logos/logos-0089-gui-clima.pnml"
+
+// 97-102 EMPTY
+base_graphics( 97, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics( 98, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics( 99, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(100, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(101, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
+base_graphics(102, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }

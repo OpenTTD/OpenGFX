@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 //1420 plain paved tile
 base_graphics(1420, "sprites/png/industries/industries_misc.png")      { [ 674, 1912,  64,  31, -31,   0] }

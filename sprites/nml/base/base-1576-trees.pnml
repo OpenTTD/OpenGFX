@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 //1576-1764 temperate trees
 base_graphics(1576, "sprites/png/trees/temperate/tree_wide_01_leaf.gimp.png") { tmpl_tree_wide() }

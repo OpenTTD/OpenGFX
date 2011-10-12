@@ -1,0 +1,45 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+#include "sprites/nml/templates/tmpl_trains.nml"
+
+#include "sprites/nml/extra/extra-header.pnml"
+
+#include "sprites/nml/extra/extra-2ccmap.pnml"
+#include "sprites/nml/extra/extra-aqueduct.pnml"
+#include "sprites/nml/extra/extra-canals.pnml"
+#include "sprites/nml/extra/extra-chars.pnml"
+#include "sprites/nml/extra/extra-erails.pnml"
+#include "sprites/nml/extra/extra-foundations.pnml"
+#include "sprites/nml/extra/extra-oneway.pnml"
+#include "sprites/nml/extra/extra-road-stops.pnml"
+#include "sprites/nml/extra/extra-shores.pnml"
+#include "sprites/nml/extra/extra-signals.pnml"
+#include "sprites/nml/extra/extra-sloped-tracks.pnml"
+#include "sprites/nml/extra/extra-snow-temperate.pnml"
+#include "sprites/nml/extra/extra-tram-tracks.pnml"
+
+#include "sprites/nml/extra/extra-plus-waterfeatures.pnml"
+
+if (climate == CLIMATE_ARCTIC) {
+#include "sprites/nml/extra/extra-plus-arctic-rail-vehicles.pnml"
+}
+
+if (climate == CLIMATE_TROPICAL) {
+#include "sprites/nml/extra/extra-plus-tropic-rail-vehicles.pnml"
+}
+
+if (climate == CLIMATE_TOYLAND) {
+#include "sprites/nml/extra/extra-plus-toyland-infrastructure.pnml"
+#include "sprites/nml/extra/extra-plus-toyland-infrastructure-signals.pnml"
+}
+
+
+// OpenTTD only features:
+// (skip to end for TTDPatch)
+if (ttd_platform != PLATFORM_TTDPATCH) {
+#include "sprites/nml/extra/extra-openttd-airport.pnml"
+#include "sprites/nml/extra/extra-openttd-autorail.pnml"
+#include "sprites/nml/extra/extra-openttd-flags.pnml"
+#include "sprites/nml/extra/extra-openttd-gui.pnml"
+#include "sprites/nml/extra/extra-openttd-airport-preview.pnml"
+#include "sprites/nml/extra/extra-openttd-overrides.pnml"
+}

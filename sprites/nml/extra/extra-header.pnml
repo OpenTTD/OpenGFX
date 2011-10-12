@@ -1,0 +1,14 @@
+grf {
+	grfid: "\FFOG\01";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESCRIPTION);
+	version: REPO_REVISION;
+	min_compatible_version: 0;
+}
+	
+	
+if (ttd_platform == PLATFORM_OPENTTD) {
+	if (openttd_version < version_openttd(0, 7, 0)) {
+		error(FATAL, REQUIRES_OPENTTD, string(STR_OPENTTD_VERSION));
+	}
+}

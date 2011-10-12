@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 // maglev tracks
 base_graphics( 284, "sprites/png/infrastructure/rail/maglev_tracks_arctic.png") { tmpl_rail_tracks() }

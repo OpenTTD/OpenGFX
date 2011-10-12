@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/tmpl_trains.nml"
+
 
 // temperate rail passenger wagon (full + empty)
 base_graphics(2733, "sprites/png/trains/temperate_railwagons_28px.png") { tmpl_train_4view_88length_29px(  6,   2) }

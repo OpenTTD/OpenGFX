@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 // plain water and seashore tiles
 base_graphics(  76, "sprites/png/terrain/shoretiles.png") { [   1,  145,  64,  31, -31,   0] }

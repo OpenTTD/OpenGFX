@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 //86-108 Rough terrain
 base_graphics(  86, "sprites/png/terrain/toyland_ground_lightgreen.png") { tmpl_otherground() }

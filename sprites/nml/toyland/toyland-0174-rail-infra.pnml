@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
+
 
 //174   205     32      Rail
 base_graphics( 174, "sprites/png/infrastructure/infra08.png") { [  66,    8,  40,  21, -19,   5] }

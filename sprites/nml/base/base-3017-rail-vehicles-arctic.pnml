@@ -1,4 +1,4 @@
-#include "sprites/nml/templates/tmpl_trains.nml"
+
 
 // CS 2400 (Diesel)
 base_graphics(3017, "sprites/png/trains/arctic_CS2400_28px.png") { tmpl_train_8view_88length_29px(1, 1) }

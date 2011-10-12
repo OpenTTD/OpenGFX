@@ -37,46 +37,8 @@ $(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip: $(TTDP_BUNDLE)
 bundle_ttdp: $(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip
 
 
-ifneq ("$(strip $(NML))","")
-ogfx1_base.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/base | sed "s@nml@nfo@g")
-ogfxc_arctic.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/arctic | sed "s@nml@nfo@g")
-ogfxh_tropical.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/tropical | sed "s@nml@nfo@g")
-ogfxi_logos.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/logos | sed "s@nml@nfo@g")
-ogfxt_toyland.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/toyland | sed "s@nml@nfo@g")
-ogfxe_extra.src.dep: $(shell $(HG) st -m -a -c -n sprites/nml/extra | sed "s@nml@nfo@g")
-
-%.nml: %.pnml
-	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< > $@
-
-sprites/nfo/base/%.pnfo: sprites/nml/base/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
-
-sprites/nfo/arctic/%.pnfo: sprites/nml/arctic/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
-
-sprites/nfo/tropical/%.pnfo: sprites/nml/tropical/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
-
-sprites/nfo/toyland/%.pnfo: sprites/nml/toyland/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
-
-sprites/nfo/logos/%.pnfo: sprites/nml/logos/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ --start-sprite=`echo "$<" | cut -d- -f2 | sed "s/^[0]*\([0-9]\)/\1/"` $<
-
-sprites/nfo/extra/%.pnfo: sprites/nml/extra/%.nml
-	$(_E) "[NML2NFO] $@"
-	$(_V) $(NML) $(NML_FLAGS) --nfo $@ $<
-
 maintainer-clean::
-	$(_V)-for i in `$(HG) st -m -a -c -n sprites/nml | sed "s@nml@nfo@g" | grep -v 'templates'`; do rm $$i; done
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
 
 test::
 	$(_E) "Graphics source list:         $(GRAPHICS_SOURCE_LIST_FILES)"
-
-endif
