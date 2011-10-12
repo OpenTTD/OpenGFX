@@ -1,0 +1,4 @@
+// Override two engines for legacy reasons
+engine_override("\44\44\22\02", "\44\44\01\11");
+engine_override("\6D\62\04\02", "\6D\62\04\01");
+engine_override("Meo ", "Meo\17");

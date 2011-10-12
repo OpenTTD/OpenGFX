@@ -105,6 +105,20 @@ template tmpl_8shore_tiles(x, y) {
     [ 718+x,   y, 64, 39, -31, -8 ]
 }
 
+template tmpl_10shore_tiles(x, y) {
+	[1276+x,   y, 64, 15, -31,  0 ]
+    [1356+x,   y, 64, 31, -31, -8 ]
+    [ 558+x,   y, 64, 23, -31,  0 ]
+    [1196+x,   y, 64, 47, -31,-16 ]
+    [ 878+x,   y, 64, 31, -31, -8 ]
+
+    [1038+x,   y, 64, 39, -31, -8 ]
+    [1118+x,   y, 64, 31, -31, -8 ]
+    [1436+x,   y, 64, 31, -31, -8 ]
+	[ 398+x,   y, 64, 31, -31,  0 ] // not yet used
+	[ 798+x,   y, 64, 31, -31,  0 ] // not yet used
+}
+
 /* used currently for monorail and maglev tracks */
 template tmpl_rail_tracks() {
   [34, 13, 64, 31, -31, 0]
@@ -152,6 +166,24 @@ template tmpl_signals(x,y) {
 	[x + 390, y, 20, 30, -9, -28] //       green
 	[x + 420, y, 20, 30, -9, -28] // n-s   red
 	[x + 450, y, 20, 30, -9, -28] //       green
+}
+template tmpl_signals_file(x,y,file) {
+	[x +   0, y, 20, 30, -9, -28, file] // ne-sw red
+	[x +  30, y, 20, 30, -9, -28, file] //       green
+	[x +  60, y, 20, 30, -9, -28, file] // sw-ne red
+	[x +  90, y, 20, 30, -9, -28, file] //       green
+	[x + 120, y, 20, 30, -9, -28, file] // se-nw red
+	[x + 150, y, 20, 30, -9, -28, file] //       green
+	[x + 180, y, 20, 30, -9, -28, file] // nw-se red
+	[x + 210, y, 20, 30, -9, -28, file] //       green
+	[x + 300, y, 20, 30, -9, -28, file] // e-w   red
+	[x + 330, y, 20, 30, -9, -28, file] //       green
+	[x + 240, y, 20, 30, -9, -28, file] // w-e   red
+	[x + 270, y, 20, 30, -9, -28, file] //       green
+	[x + 360, y, 20, 30, -9, -28, file] // s-n   red
+	[x + 390, y, 20, 30, -9, -28, file] //       green
+	[x + 420, y, 20, 30, -9, -28, file] // n-s   red
+	[x + 450, y, 20, 30, -9, -28, file] //       green
 }
 
 template tmpl_tree_wide() {

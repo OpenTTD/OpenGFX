@@ -1,0 +1,1047 @@
+// Waterfeatures
+
+// Canal sides
+
+spriteset( set_canal_sides_temperate, "") {
+	[  18,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  66,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 114,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 162,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 210,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 242,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 274,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 306,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 338,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 354,  360,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 386,  360,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 402,  360,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset( set_canal_sides_snow, "") {
+	[  18,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  66,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 114,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 162,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 210,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 242,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 274,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 306,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 338,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 354,  360,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 386,  360,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 402,  360,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset( set_canal_sides_arctic, "") {
+	[ 466,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 514,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 562,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 610,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 658,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 690,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 722,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 754,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 786,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[   2,  392,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[  34,  392,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[  50,  392,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset( set_canal_sides_desert, "") {
+	[ 162,  392,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 210,  392,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 258,  392,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 306,  392,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 354,  392,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 386,  392,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 418,  392,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 450,  392,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482,  392,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 498,  392,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 530,  392,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 546,  392,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset( set_canal_sides_tropical, "") {
+	[ 610,  392,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 658,  392,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 706,  392,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 754,  392,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[   2,  424,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  34,  424,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[  66,  424,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  98,  424,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 130,  424,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 146,  424,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 178,  424,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 194,  424,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset( set_canal_sides_toyland, "") {
+	[ 306,  424,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 354,  424,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 402,  424,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 450,  424,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 498,  424,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 530,  424,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 562,  424,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 594,  424,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626,  424,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 642,  424,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 674,  424,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 690,  424,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+}
+
+switch(FEAT_CANALS, SELF, canal_sides_arctic_terrain_switch, terrain_type ) {
+	TILETYPE_SNOW: set_canal_sides_snow;
+	set_canal_sides_arctic;
+}
+switch(FEAT_CANALS, SELF, canal_sides_tropical_terrain_switch, terrain_type ) {
+	TILETYPE_DESERT: set_canal_sides_desert;
+	set_canal_sides_tropical;
+}
+switch(FEAT_CANALS, SELF, canal_sides_climate_switch, climate) {
+	CLIMATE_ARCTIC:   canal_sides_arctic_terrain_switch;
+	CLIMATE_TROPICAL: canal_sides_tropical_terrain_switch;
+	CLIMATE_TOYLAND:  set_canal_sides_toyland;
+	set_canal_sides_temperate;
+}
+
+item(FEAT_CANALS, dikes, WF_DIKES) {
+	graphics {
+		default: canal_sides_climate_switch;
+	}
+}
+
+
+spriteset(set_riverwater_new_1, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[   2,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 242,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_2, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 354,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 594,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_3, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 706,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_4, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 274,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_5, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 626,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_6, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 194,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_7, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 546,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_8, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 114,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 194,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_9, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 466,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 546,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_10, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[  18,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  98,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 178,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 258,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_11, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 370,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 450,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 530,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 610,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_12, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 722,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_13, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 274,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_14, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 626,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_15, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 194,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_new_16, "") {
+	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	[ 546,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  470,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+random_switch(FEAT_CANALS, SELF, randomswitch_riverwater_new) {
+	1: set_riverwater_new_1;
+	1: set_riverwater_new_2;
+	1: set_riverwater_new_3;
+	1: set_riverwater_new_4;
+	1: set_riverwater_new_5;
+	1: set_riverwater_new_6;
+	1: set_riverwater_new_7;
+	1: set_riverwater_new_8;
+	1: set_riverwater_new_9;
+	1: set_riverwater_new_10;
+	1: set_riverwater_new_11;
+	1: set_riverwater_new_12;
+	1: set_riverwater_new_13;
+	1: set_riverwater_new_14;
+	1: set_riverwater_new_15;
+	1: set_riverwater_new_16;
+}
+
+spriteset(set_riverwater_old_1, "") {
+	[   2,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 242,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_2, "") {
+	[ 354,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 594,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_3, "") {
+	[ 706,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_4, "") {
+	[ 274,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_5, "") {
+	[ 626,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_6, "") {
+	[ 194,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_7, "") {
+	[ 546,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_8, "") {
+	[ 114,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 194,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_9, "") {
+	[ 466,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 546,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_10, "") {
+	[  18,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  98,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 178,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 258,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_11, "") {
+	[ 370,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 450,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 530,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 610,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_12, "") {
+	[ 722,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 162,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_13, "") {
+	[ 274,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 514,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_14, "") {
+	[ 626,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[  82,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_15, "") {
+	[ 194,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 274,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 354,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 434,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+spriteset(set_riverwater_old_16, "") {
+	[ 546,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 626,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[ 706,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+	[   2,  470,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
+}
+random_switch(FEAT_CANALS, SELF, randomswitch_riverwater_old) {
+	1: set_riverwater_old_1;
+	1: set_riverwater_old_2;
+	1: set_riverwater_old_3;
+	1: set_riverwater_old_4;
+	1: set_riverwater_old_5;
+	1: set_riverwater_old_6;
+	1: set_riverwater_old_7;
+	1: set_riverwater_old_8;
+	1: set_riverwater_old_9;
+	1: set_riverwater_old_10;
+	1: set_riverwater_old_11;
+	1: set_riverwater_old_12;
+	1: set_riverwater_old_13;
+	1: set_riverwater_old_14;
+	1: set_riverwater_old_15;
+	1: set_riverwater_old_16;
+}
+
+if (openttd_version > version_openttd(1, 1, 4, 22918)) {
+	item(FEAT_CANALS, riverwater, WF_RIVER_SLOPE) {
+		property {
+			graphic_flags: bitmask(WATERFEATURE_ALTERNATIVE_SPRITES);
+		}
+		graphics {
+			default: randomswitch_riverwater_new;
+		}
+	}
+} else {
+	item(FEAT_CANALS, riverwater, WF_RIVER_SLOPE) {
+		property {
+			graphic_flags: 0;
+		}
+		graphics {
+			default: randomswitch_riverwater_old;
+		}
+	}
+}
+
+spriteset(set_rivermouth_temperate, "") {
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 338,  904,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 370,  904,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 402,  904,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 434,  904,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 466,  904,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 482,  904,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 514,  904,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 530,  904,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 479,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 479,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 479,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 479,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 754,  904,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[   2,  968,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[  34,  968,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[  66,  968,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  98,  968,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 114,  968,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 146,  968,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 162,  968,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 959,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 959,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 959,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 959,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 386,  968,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 418,  968,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 450,  968,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 482,  968,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 514,  968,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 530,  968,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 546,  968,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 562,  968,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 241,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 241,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 241,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 241,    1,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[   2, 1016,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1016,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 1016,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1016,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1016,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1016,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1016,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1016,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 719,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 719,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 719,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 719,    1,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 418, 1016,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1016,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1016,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 1016,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 546, 1016,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1016,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 1016,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1016,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_riverbank_temperate, "") {
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_nw.gimp.png"]
+	[  50, 1064,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 1064,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1064,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1064,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1064,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1064,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1064,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1064,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+
+	[ 274, 1064,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1064,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1064,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1064,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 1064,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1064,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1064,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1064,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1064,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1064,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1064,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 1064,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1064,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 1064,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1112,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1112,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1112,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1112,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 1112,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1112,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1112,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1112,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1112,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1112,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1112,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 1112,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 1112,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1112,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1112,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1112,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1112,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1112,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 1112,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1112,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1112,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1112,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 1112,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1160,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1160,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1160,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1160,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1160,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 1160,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1160,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1160,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1160,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1160,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1160,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_rivermouth_snow, "") {
+	[ 434, 1160,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1160,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1160,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 1160,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 1160,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 1160,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1160,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 1160,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 1160,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 1160,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1208,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 1208,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1208,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1208,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1208,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1208,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1208,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1208,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1208,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 1208,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1208,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 1208,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1208,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 434, 1208,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 1208,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 1208,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1208,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1208,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 1208,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1208,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 1208,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 1208,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 786, 1208,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1256,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 1256,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1256,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 1256,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1256,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 1256,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 1256,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1256,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1256,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1256,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 1256,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 1256,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 1256,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 434, 1256,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1256,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1256,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1256,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 1256,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 1256,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1256,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 1256,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 1256,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 1256,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1304,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 1304,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1304,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1304,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_rivermouth_arctic, "") {
+	[   1,   49,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[   1,   49,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[   1,   49,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[   1,   49,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 306, 1304,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 1304,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1304,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 1304,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 434, 1304,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1304,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1304,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1304,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 479,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 479,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 479,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 479,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 722, 1304,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 1304,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1336,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1336,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 1336,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 1336,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1336,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1336,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 959,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 959,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 959,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 959,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 354, 1336,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 1336,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1336,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1336,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1336,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1336,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 1336,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1336,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 241,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 241,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 241,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 241,   49,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 754, 1336,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1384,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1384,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 1384,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1384,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1384,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1384,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 1384,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 719,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 719,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 719,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 719,   49,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 386, 1384,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1384,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1384,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 1384,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 1384,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1384,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 546, 1384,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1384,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_riverbank_snow, "") {
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_snow_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_snow_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_snow_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_snow_nw.gimp.png"]
+	[  50, 1432,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 1432,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1432,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1432,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1432,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1432,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1432,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1432,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1432,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1432,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1432,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1432,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 1432,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1432,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1432,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1432,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1432,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1432,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1432,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 1432,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1432,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 1432,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1480,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1480,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1480,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1480,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 1480,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1480,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1480,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1480,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1480,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1480,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1480,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 1480,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 1480,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1480,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1480,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1480,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1480,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1480,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 1480,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1480,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1480,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1480,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 1480,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1528,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1528,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1528,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1528,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1528,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 1528,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1528,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1528,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1528,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1528,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1528,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_riverbank_arctic, "") {
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_nw.gimp.png"]
+	[ 578, 1528,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1528,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1528,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1528,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 1528,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 1528,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 1528,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 1528,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1576,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 1576,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 1576,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1576,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1576,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1576,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1576,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1576,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1576,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 1576,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1576,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 1576,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1576,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 1576,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 1576,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1576,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1576,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1576,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1576,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 1576,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 1576,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 1576,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 1576,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1624,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 1624,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 1624,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1624,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1624,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1624,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1624,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1624,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1624,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 1624,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 1624,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 1624,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 1624,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 1624,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1624,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 546, 1624,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1624,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1624,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1624,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 1624,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 1624,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 1624,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 786, 1624,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 1672,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 1672,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_rivermouth_tropical, "") {
+	[   1,   97,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[   1,   97,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[   1,   97,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[   1,   97,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[  50, 1800,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 1800,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 1800,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 1800,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1800,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1800,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1800,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1800,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 479,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 479,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 479,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 479,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 466, 1800,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 1800,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1800,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1800,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1800,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 1800,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1800,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 1800,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 959,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 959,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 959,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 959,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[  98, 1848,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 1848,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 1848,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 1848,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 1848,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1848,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 1848,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1848,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 241,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 241,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 241,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 241,   97,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 498, 1848,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 1848,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 1848,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 1848,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 1848,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 1848,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 1848,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 1848,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 719,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 719,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 719,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 719,   97,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 146, 1896,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 1896,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 1896,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 1896,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 1896,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 1896,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 1896,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 1896,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_riverbank_tropical, "") {
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_nw.gimp.png"]
+	[ 274, 2040,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 2040,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 2040,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 2040,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 2040,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 2040,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 2040,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 2040,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 2040,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 546, 2040,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 594, 2040,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 2040,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 2040,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 2040,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 2040,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 2072,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 2072,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 2072,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 2072,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 2072,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 2072,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 2072,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 2072,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 2072,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 2072,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 2072,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 2072,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 2072,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 2072,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 2072,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 2072,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 2072,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 2072,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2072,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 2072,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 2072,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 2072,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 2072,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 2120,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 2120,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 2120,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[  82, 2120,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 2120,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 2120,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 2120,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 2120,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 2120,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 2120,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 2120,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 2120,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 2120,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 2120,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 2120,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 498, 2120,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 2120,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 2120,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_rivermouth_toyland, "") {
+	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[  98, 2168,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 130, 2168,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 2168,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 2168,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 2168,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 2168,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 2168,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 2168,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 479,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 479,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 479,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 479,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 514, 2168,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 546, 2168,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2168,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 2168,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 2168,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 2168,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 2168,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 2168,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 959,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 959,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 959,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 959,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 146, 2200,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 178, 2200,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 2200,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 2200,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 2200,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 2200,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 2200,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 2200,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 241,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 241,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 241,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 241,  145,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 546, 2200,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2200,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 2200,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 642, 2200,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 2200,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 2200,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 2200,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 2200,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 719,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
+	[ 719,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
+	[ 719,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
+	[ 719,  145,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	[ 194, 2248,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 226, 2248,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 2248,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 2248,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 2248,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 2248,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 2248,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 2248,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+spriteset(set_riverbank_toyland, "") {
+	[ 434, 2248,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 2248,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 2248,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2248,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 2248,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 2248,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 2248,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 2248,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 2248,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 2248,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 2296,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 2296,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 2296,  40,  11,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[  98, 2296,  39,  18,  -6,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 146, 2296,  38,  11, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 194, 2296,  39,  18, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 242, 2296,  20,   6,  13,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 274, 2296,  13,   7,  -6,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 306, 2296,  20,   6, -31,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 338, 2296,  13,   7,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 370, 2296,   8,   5,  25,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 2296,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 418, 2296,   8,   4, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 434, 2296,  15,   4,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 466, 2296,  38,  20,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 514, 2296,  38,  26,  -5,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 562, 2296,  37,  20, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 610, 2296,  38,  27, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 658, 2296,  16,   9,  17,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 690, 2296,  15,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 722, 2296,  16,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 754, 2296,  15,   9,  -6,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 786, 2296,   8,   7,  25,   5, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 2344,  10,   5,  -4,  27, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 2344,   8,   7, -31,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 2344,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  66, 2344,  39,  18,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 114, 2344,  38,  11,  -5,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 162, 2344,  39,  18, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 210, 2344,  40,  11, -32,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 258, 2344,  20,   6,  13,  12, "sprites/png/terrain/waterfeatures.png"]
+	[ 290, 2344,  13,   7,  -5,  16, "sprites/png/terrain/waterfeatures.png"]
+	[ 322, 2344,  20,   6, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 354, 2344,  13,   7,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 386, 2344,   8,   4,  26,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 402, 2344,  12,   3,  -5,  20, "sprites/png/terrain/waterfeatures.png"]
+	[ 434, 2344,   8,   5, -31,   6, "sprites/png/terrain/waterfeatures.png"]
+	[ 450, 2344,  15,   4,  -6,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 2344,  38,  27,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 2344,  37,  20,  -4,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2344,  37,  26, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[ 626, 2344,  38,  20, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 674, 2344,  16,   9,  17,  11, "sprites/png/terrain/waterfeatures.png"]
+	[ 706, 2344,  15,   9,  -6,  22, "sprites/png/terrain/waterfeatures.png"]
+	[ 738, 2344,  16,   9, -31,   3, "sprites/png/terrain/waterfeatures.png"]
+	[ 770, 2344,  15,   9,  -7,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[   2, 2392,   8,   7,  25,  11, "sprites/png/terrain/waterfeatures.png"]
+	[  18, 2392,  10,   5,  -4,  26, "sprites/png/terrain/waterfeatures.png"]
+	[  34, 2392,   8,   7, -31,   5, "sprites/png/terrain/waterfeatures.png"]
+	[  50, 2392,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_height_temperate, tile_height) {
+	0: set_rivermouth_temperate;
+	set_riverbank_temperate;
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_height_tropical, tile_height) {
+	0: set_rivermouth_tropical;
+	set_riverbank_tropical;
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_height_arctic, tile_height) {
+	0: set_rivermouth_arctic;
+	set_riverbank_arctic;
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_height_snow, tile_height) {
+	0: set_rivermouth_snow;
+	set_riverbank_snow;
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_height_toyland, tile_height) {
+	0: set_rivermouth_toyland;
+	set_riverbank_toyland;
+}
+
+switch( FEAT_CANALS, SELF, switch_riverbank_terrain_arctic, terrain_type) {
+	TILETYPE_SNOW: switch_riverbank_height_snow;
+	switch_riverbank_height_arctic;
+}
+switch( FEAT_CANALS, SELF, switch_riverbank_climate, climate) {
+	CLIMATE_ARCTIC:   switch_riverbank_terrain_arctic;
+	CLIMATE_TROPICAL: switch_riverbank_height_tropical;
+	CLIMATE_TOYLAND:  switch_riverbank_height_toyland;
+	switch_riverbank_height_temperate;
+}
+
+item( FEAT_CANALS, riverbanks, WF_RIVERBANKS) {
+	graphics {
+		default: switch_riverbank_climate;
+	}
+}
+
+
+
+spriteset(buoy_normal, "sprites/png/infrastructure/buoy_map.png") {	[   0,    0,  20,  20,   0,   0] }
+spriteset(buoy_snow, "sprites/png/infrastructure/buoy_map.png")   { [   0,   32,  24,  22,   0,   0] }
+switch( FEAT_CANALS, SELF, buoy_terrain_switch, terrain_type) {
+	TILETYPE_SNOW: buoy_snow;
+	buoy_normal;
+}
+item( FEAT_CANALS, buoy, WF_BUOY) {
+	graphics { default: buoy_terrain_switch; }
+}

@@ -1,0 +1,4 @@
+
+// Replace buoy and build canal cursor
+replace( 693, "sprites/png/infrastructure/toyland_buoys_2006TTD.png") { [ 184,   14,  20,  20,   1,   1] } // Menu sprite
+replace( 702, "sprites/png/infrastructure/toyland_buoys_2006TTD.png") { [ 225,   06,  32,  32,   0,   0] } // Cursor sprite

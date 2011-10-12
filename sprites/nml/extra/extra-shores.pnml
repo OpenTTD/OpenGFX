@@ -1,0 +1,23 @@
+#include "sprites/nml/templates/sprite_templates.pnml"
+// Additional coast sprites
+
+if (climate == CLIMATE_TEMPERATE) {
+	replacenew(COAST_TILES_BASEGFX, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") {
+		tmpl_10shore_tiles(1, 1)
+	}
+}
+if (climate == CLIMATE_ARCTIC) {
+	replacenew(COAST_TILES_BASEGFX, "sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png") {
+		tmpl_10shore_tiles(1, 1)
+	}
+}
+if (climate == CLIMATE_TROPICAL) {
+	replacenew(COAST_TILES_BASEGFX, "sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png") {
+		tmpl_10shore_tiles(1, 1)
+	}
+}
+if (climate == CLIMATE_TOYLAND) {
+	replacenew(COAST_TILES_BASEGFX, "sprites/png/terrain/shoretiles.png") {
+		tmpl_10shore_tiles(1, 145)
+	}
+}
