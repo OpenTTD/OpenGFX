@@ -30,11 +30,11 @@ $(TTDP_BUNDLE): $(GRF_FILES) $(DOC_FILES) $(TTDP_DOC)
 	$(_V) cp $(DOC_FILES) $@/
 	$(_V) cp $(TTDP_DOC) $@/
 
-$(TTDP_BUNDLE)-$(VERSION_STRING).zip: $(TTDP_BUNDLE)
+$(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip: $(TTDP_BUNDLE)
 	$(_E) "[ZIP] $<"
 	$(_V) pushd $< && $(ZIP) $(ZIP_FLAGS) ../$@ * >/dev/null && popd
 
-bundle_ttdp: $(TTDP_BUNDLE)-$(VERSION_STRING).zip
+bundle_ttdp: $(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip
 
 
 ifneq ("$(strip $(NML))","")
