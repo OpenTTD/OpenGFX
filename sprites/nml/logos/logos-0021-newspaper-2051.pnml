@@ -1,0 +1,11 @@
+// Newspaper
+base_graphics(21, "sprites/png/gui/newspaper.png") { [0, 0, 640, 50, 0, 0] }
+base_graphics(22, "sprites/png/gui/newspaper.png") { [0, 50, 640, 50, 0, 0] }
+base_graphics(23, "sprites/png/gui/newspaper.png") { [0, 100, 640, 50, 0, 0] }
+base_graphics(24, "sprites/png/gui/newspaper.png") { [0, 150, 640, 50, 0, 0] }
+base_graphics(25, "sprites/png/gui/newspaper.png") { [0, 200, 640, 50, 0, 0] }
+base_graphics(26, "sprites/png/gui/newspaper.png") { [0, 250, 640, 50, 0, 0] }
+base_graphics(27, "sprites/png/gui/newspaper.png") { [0, 300, 640, 50, 0, 0] }
+base_graphics(28, "sprites/png/gui/newspaper.png") { [0, 350, 640, 50, 0, 0] }
+base_graphics(29, "sprites/png/gui/newspaper.png") { [0, 400, 640, 50, 0, 0] }
+base_graphics(30, "sprites/png/gui/newspaper.png") { [0, 450, 640, 30, 0, 0] }
