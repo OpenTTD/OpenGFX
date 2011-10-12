@@ -1,0 +1,1001 @@
+// "Characters"
+// Additional Characters (all font sizes)
+// Euro-sign (€ U+20AC)
+font_glyph(NORMAL, 0x20AC, "") {
+	[  30,   10,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x20AC, "") {
+	[  30,   30,   5,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x20AC, "") {
+	[  30,   40,  15,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Ligature OE (Œ U+0152; œ U+0153)
+font_glyph(NORMAL, 0x0152, "") {
+	[  50,   10,  12,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 300,   10,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0152, "") {
+	[  50,   30,   5,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[  70,   30,   5,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0152, "") {
+	[  50,   40,  19,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  70,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Letter S with caron (Š U+0160; š U+0161)
+font_glyph(NORMAL, 0x0160, "") {
+	[  90,   10,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 110,   10,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0160, "") {
+	[  90,   30,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 110,   30,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0160, "") {
+	[  90,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 110,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Letter Z with caron (Ž U+017D; ž U+017E)
+font_glyph(NORMAL, 0x017D, "") {
+	[ 120,   10,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 140,   10,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x017D, "") {
+	[ 120,   30,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 140,   30,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x017D, "") {
+	[ 120,   40,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 140,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Degree symbol (° U+00B0)
+font_glyph(NORMAL, 0x00B0, "") {
+	[ 150,   10,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00B0, "") {
+	[ 150,   30,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00B0, "") {
+	[ 150,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Left curly bracket; Vertical bar; Right Curly Bracket; Tilde ({ U+007B; | U+007C; } U+007C; ~ U+007D)
+font_glyph(NORMAL, 0x007B, "") {
+	[ 160,   10,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 170,   10,   3,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 180,   10,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 190,   10,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x007B, "") {
+	[ 160,   30,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 170,   30,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 180,   30,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 190,   30,   4,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x007B, "") {
+	[ 160,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 170,   40,   3,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 180,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 190,   40,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Middle dot (· U+00B7)
+font_glyph(NORMAL, 0x00B7, "") {
+	[ 210,   10,   3,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00B7, "") {
+	[ 210,   30,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00B7, "") {
+	[ 210,   40,   2,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Letter O with double acute (O U+0150; o U+0151)
+font_glyph(NORMAL, 0x0150, "") {
+	[ 230,   10,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 320,   10,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0150, "") {
+	[ 230,   30,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 220,   30,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0150, "") {
+	[ 230,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 220,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Letter U with double acute (U U+0170; u U+0171)
+font_glyph(NORMAL, 0x0170, "") {
+	[ 260,   10,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 250,   10,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0170, "") {
+	[ 260,   30,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 250,   30,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0170, "") {
+	[ 260,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 250,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+010C   C   Latin Capital Letter C with caron
+// U+010D   c   Latin Small Letter C with caron
+font_glyph(NORMAL, 0x010C, "") {
+	[  30,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  50,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x010C, "") {
+	[  30,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[  50,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x010C, "") {
+	[  30,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  50,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+010E   D   Latin Capital Letter D with caron
+// U+010F   d   Latin Small Letter D with caron
+font_glyph(NORMAL, 0x010E, "") {
+	[  70,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  90,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x010E, "") {
+	[  70,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[  90,   90,   5,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x010E, "") {
+	[  70,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  90,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+011A   E   Latin Capital Letter E with caron
+// U+011B   e   Latin Small Letter E with caron
+font_glyph(NORMAL, 0x011A, "") {
+	[ 110,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 130,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x011A, "") {
+	[ 110,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 130,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x011A, "") {
+	[ 110,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 130,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0147   N   Latin Capital Letter N with caron
+// U+0148   n   Latin Small Letter N with caron
+font_glyph(NORMAL, 0x0147, "") {
+	[ 150,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 170,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0147, "") {
+	[ 150,   90,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 170,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0147, "") {
+	[ 150,  100,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 170,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0158   R   Latin Capital Letter R with caron
+// U+0159   r   Latin Small Letter R with caron
+font_glyph(NORMAL, 0x0158, "") {
+	[ 190,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 210,   70,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0158, "") {
+	[ 190,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 210,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0158, "") {
+	[ 190,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 210,  100,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0164   T   Latin Capital Letter T with caron
+// U+0165   t   Latin Small Letter T with caron
+font_glyph(NORMAL, 0x0164, "") {
+	[ 230,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 250,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0164, "") {
+	[ 230,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 250,   90,   4,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0164, "") {
+	[ 230,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 250,  100,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+016E   U   Latin Capital Letter U with ring above
+// U+016F   u   Latin Small Letter U with ring above
+font_glyph(NORMAL, 0x016E, "") {
+	[ 270,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 290,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x016E, "") {
+	[ 270,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 290,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x016E, "") {
+	[ 270,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 290,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0106 C Latin Capital Letter C with acute
+// U+0107 c Latin Small Letter C with acute
+font_glyph(NORMAL, 0x0106, "") {
+	[ 310,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 330,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0106, "") {
+	[ 310,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 330,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0106, "") {
+	[ 310,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 330,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0110 Ð Latin Capital Letter D with stroke
+// U+0111 d Latin Small Letter D with stroke
+font_glyph(NORMAL, 0x0110, "") {
+	[ 350,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 370,   70,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0110, "") {
+	[ 350,   90,   4,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 370,   90,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0110, "") {
+	[ 350,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 370,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+013D L Latin Capital Letter L with caron
+// U+013E l Latin Small Letter L with caron
+font_glyph(NORMAL, 0x013D, "") {
+	[ 390,   70,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 410,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x013D, "") {
+	[ 390,   90,   5,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 410,   90,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x013D, "") {
+	[ 390,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 410,  100,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+00B4 ´ Acute accent
+font_glyph(NORMAL, 0x00B4, "") {
+	[  30,  130,   4,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00B4, "") {
+	[  30,  150,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00B4, "") {
+	[  30,  160,   3,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+00BD ½ Vulgar fraction one half
+font_glyph(NORMAL, 0x00BD, "") {
+	[  40,  130,  11,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00BD, "") {
+	[  40,  150,   9,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00BD, "") {
+	[  40,  160,  11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+00B5 µ Micro sign
+font_glyph(NORMAL, 0x00B5, "") {
+	[  60,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00B5, "") {
+	[  60,  150,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00B5, "") {
+	[  60,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+00AA ª Feminine Ordinal Indicator
+font_glyph(NORMAL, 0x00AA, "") {
+	[  80,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x00AA, "") {
+	[  80,  150,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x00AA, "") {
+	[  80,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+2019 ’ RIGHT SINGLE QUOTATION MARK
+font_glyph(NORMAL, 0x2019, "") {
+	[  90,  130,   3,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x2019, "") {
+	[  90,  150,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x2019, "") {
+	[  90,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+201E „ DOUBLE LOW-9 QUOTATION MARK
+font_glyph(NORMAL, 0x201E, "") {
+	[ 100,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x201E, "") {
+	[ 100,  150,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x201E, "") {
+	[ 100,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+201C “ LEFT DOUBLE QUOTATION MARK
+font_glyph(NORMAL, 0x201C, "") {
+	[ 110,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x201C, "") {
+	[ 110,  150,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x201C, "") {
+	[ 110,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+203A › SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+font_glyph(NORMAL, 0x203A, "") {
+	[ 760,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x203A, "") {
+	[ 760,  150,   2,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x203A, "") {
+	[ 760,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+2013 – EN DASH
+font_glyph(NORMAL, 0x2013, "") {
+	[ 120,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x2013, "") {
+	[ 120,  150,   4,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x2013, "") {
+	[ 120,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0174 W Latin Capital Letter W with circumflex
+// U+0175 w Latin Small Letter W with circumflex
+font_glyph(NORMAL, 0x0174, "") {
+	[ 420,   70,  12,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 440,   70,  10,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0174, "") {
+	[ 420,   90,   5,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 440,   90,   5,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0174, "") {
+	[ 420,  100,  18,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 440,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0176 Y Latin Capital Letter Y with circumflex
+// U+0177 y Latin Small Letter Y with circumflex
+font_glyph(NORMAL, 0x0176, "") {
+	[ 460,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 480,   70,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0176, "") {
+	[ 460,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 480,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0176, "") {
+	[ 460,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 480,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0108 C Latin Capital Letter C with circumflex
+// U+0109 c Latin Small Letter C with circumflex
+font_glyph(NORMAL, 0x0108, "") {
+	[ 500,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 520,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0108, "") {
+	[ 500,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 520,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0108, "") {
+	[ 500,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 520,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+011C G Latin Capital Letter G with circumflex
+// U+011D g Latin Small Letter G with circumflex
+font_glyph(NORMAL, 0x011C, "") {
+	[ 540,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 560,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x011C, "") {
+	[ 540,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 560,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x011C, "") {
+	[ 540,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 560,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0124 H Latin Capital Letter H with circumflex
+// U+0125 h Latin Small Letter H with circumflex
+font_glyph(NORMAL, 0x0124, "") {
+	[ 580,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 600,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0124, "") {
+	[ 580,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 600,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0124, "") {
+	[ 580,  100,  15,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 600,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0134 J Latin Capital Letter J with circumflex
+// U+0135 j Latin Small Letter J with circumflex
+font_glyph(NORMAL, 0x0134, "") {
+	[ 620,   70,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 640,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0134, "") {
+	[ 620,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 640,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0134, "") {
+	[ 620,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 640,  100,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+016C U Latin Capital Letter U with breve
+// U+016D u Latin Small Letter U with breve
+font_glyph(NORMAL, 0x016C, "") {
+	[ 650,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 670,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x016C, "") {
+	[ 650,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 670,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x016C, "") {
+	[ 650,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 670,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0102 A Latin Capital Letter A with breve
+// U+0103 a Latin Small Letter A with breve
+font_glyph(NORMAL, 0x0102, "") {
+	[ 690,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 710,   70,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0102, "") {
+	[ 690,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 710,   90,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0102, "") {
+	[ 690,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 710,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+015E S Latin Capital Letter S with cedilla
+// U+015F s Latin Small Letter S with cedilla
+font_glyph(NORMAL, 0x015E, "") {
+	[ 730,   70,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 740,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x015E, "") {
+	[ 730,   90,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 740,   90,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x015E, "") {
+	[ 730,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 740,  100,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0162 T Latin Capital Letter T with cedilla
+// U+0163 t Latin Small Letter T with cedilla
+font_glyph(NORMAL, 0x0162, "") {
+	[ 750,   70,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 770,   70,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0162, "") {
+	[ 750,   90,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 770,   90,   2,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0162, "") {
+	[ 750,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 770,  100,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+011E G Latin Capital Letter G with breve
+// U+011F g Latin Small Letter G with breve
+font_glyph(NORMAL, 0x011E, "") {
+	[ 140,  130,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 160,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x011E, "") {
+	[ 140,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 160,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x011E, "") {
+	[ 140,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 160,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0130 I Latin Capital Letter I with dot above
+// U+0131 i Latin Small Letter dotless I
+font_glyph(NORMAL, 0x0130, "") {
+	[ 180,  130,   3,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 190,  130,   3,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0130, "") {
+	[ 180,  150,   1,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 190,  150,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0130, "") {
+	[ 180,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 190,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0122 G Latin Capital Letter G with cedilla
+// U+0123 g Latin Small Letter G with cedilla
+font_glyph(NORMAL, 0x0122, "") {
+	[ 200,  130,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 220,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0122, "") {
+	[ 200,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 220,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0122, "") {
+	[ 200,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 220,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0136 K Latin Capital Letter K with cedilla
+// U+0137 k Latin Small Letter K with cedilla
+font_glyph(NORMAL, 0x0136, "") {
+	[ 240,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 260,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0136, "") {
+	[ 240,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 260,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0136, "") {
+	[ 240,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 260,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+013B L Latin Capital Letter L with cedilla
+// U+013C l Latin Small Letter L with cedilla
+font_glyph(NORMAL, 0x013B, "") {
+	[ 280,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 300,  130,   4,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x013B, "") {
+	[ 280,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 300,  150,   2,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x013B, "") {
+	[ 280,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 300,  160,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0145 N Latin Capital Letter N with cedilla
+// U+0146 n Latin Small Letter N with cedilla
+font_glyph(NORMAL, 0x0145, "") {
+	[ 310,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 330,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0145, "") {
+	[ 310,  150,   4,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 330,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0145, "") {
+	[ 310,  160,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 330,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0100 A Latin Capital Letter A with macron
+// U+0101 a Latin Small Letter A with macron
+font_glyph(NORMAL, 0x0100, "") {
+	[ 350,  130,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 370,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0100, "") {
+	[ 350,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 370,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0100, "") {
+	[ 350,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 370,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0112 E Latin Capital Letter E with macron
+// U+0113 e Latin Small Letter E with macron
+font_glyph(NORMAL, 0x0112, "") {
+	[ 380,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 400,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0112, "") {
+	[ 380,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 400,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0112, "") {
+	[ 380,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 400,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+012A I Latin Capital Letter I with macron
+// U+012B i Latin Small Letter I with macron
+font_glyph(NORMAL, 0x012A, "") {
+	[ 410,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 420,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x012A, "") {
+	[ 410,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 420,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x012A, "") {
+	[ 410,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 420,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+016A U Latin Capital Letter U with macron
+// U+016B u Latin Small Letter U with macron
+font_glyph(NORMAL, 0x016A, "") {
+	[ 430,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 450,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x016A, "") {
+	[ 430,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 450,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x016A, "") {
+	[ 430,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 450,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0143 N Latin Capital Letter N with acute
+// U+0144 n Latin Small Letter N with acute
+font_glyph(NORMAL, 0x0143, "") {
+	[ 470,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 490,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0143, "") {
+	[ 470,  150,   4,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 490,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0143, "") {
+	[ 470,  160,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 490,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+015A S Latin Capital Letter S with acute
+// U+015B s Latin Small Letter S with acute
+font_glyph(NORMAL, 0x015A, "") {
+	[ 510,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 520,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x015A, "") {
+	[ 510,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 520,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x015A, "") {
+	[ 510,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 520,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+017B Z Latin Capital Letter Z with dot above
+// U+017C z Latin Small Letter Z with dot above
+font_glyph(NORMAL, 0x017B, "") {
+	[ 530,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 550,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x017B, "") {
+	[ 530,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 550,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x017B, "") {
+	[ 530,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 550,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0179 Z Latin Capital Letter Z with acute
+// U+017A z Latin Small Letter Z with acute
+font_glyph(NORMAL, 0x0179, "") {
+	[ 770,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 790,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0179, "") {
+	[ 770,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 790,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0179, "") {
+	[ 770,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 790,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0139 L Latin Capital Letter L with acute
+// U+013A l Latin Small Letter L with acute
+font_glyph(NORMAL, 0x0139, "") {
+	[  30,  190,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  50,  190,   4,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0139, "") {
+	[  30,  210,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[  50,  210,   2,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0139, "") {
+	[  30,  220,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[  50,  220,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0141 L Latin Capital Letter L with stroke
+// U+0142 l Latin Small Letter L with stroke
+font_glyph(NORMAL, 0x0141, "") {
+	[ 560,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 580,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0141, "") {
+	[ 560,  150,   4,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 580,  150,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0141, "") {
+	[ 560,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 580,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0104 A Latin Capital Letter A with ogonek
+// U+0105 a Latin Small Letter A with ogonek
+font_glyph(NORMAL, 0x0104, "") {
+	[ 590,  130,   9,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 610,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0104, "") {
+	[ 590,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 610,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0104, "") {
+	[ 590,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 610,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0118 E Latin Capital Letter E with ogonek
+// U+0119 e Latin Small Letter E with ogonek
+font_glyph(NORMAL, 0x0118, "") {
+	[ 620,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 640,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0118, "") {
+	[ 620,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 640,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0118, "") {
+	[ 620,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 640,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+012E I Latin Capital Letter I with ogonek
+// U+012F i Latin Small Letter I with ogonek
+font_glyph(NORMAL, 0x012E, "") {
+	[ 650,  130,   4,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 660,  130,   4,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x012E, "") {
+	[ 650,  150,   2,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 660,  150,   2,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x012E, "") {
+	[ 650,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 660,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0172 U Latin Capital Letter U with ogonek
+// U+0173 u Latin Small Letter U with ogonek
+font_glyph(NORMAL, 0x0172, "") {
+	[ 670,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 690,  130,   7,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0172, "") {
+	[ 670,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[ 690,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0172, "") {
+	[ 670,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 690,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+0116 E Latin Capital Letter E with dot above
+// U+0117 e Latin Small Letter E with dot above
+font_glyph(NORMAL, 0x0116, "") {
+	[ 710,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 730,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x0116, "") {
+	[ 710,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 730,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x0116, "") {
+	[ 710,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 730,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// U+015C S Latin Capital Letter S with circumflex
+// U+015D s Latin Small Letter S with circumflex
+font_glyph(NORMAL, 0x015C, "") {
+	[ 740,  130,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 750,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(SMALL, 0x015C, "") {
+	[ 740,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+	[ 750,  150,   3,   6,   0,   0,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(LARGE, 0x015C, "") {
+	[ 740,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 750,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+
+
+// Large font only
+// Latin Capital letter AE (Æ U+00C6)
+font_glyph(LARGE, 0x00C6, "") {
+	[ 300,   40,  19,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Small Letter AE (æ U+00E6)
+font_glyph(LARGE, 0x00E6, "") {
+	[ 280,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Capital letter O with stroke (Ø U+00D8)
+font_glyph(LARGE, 0x00D8, "") {
+	[ 330,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Small Letter O with stroke (ø U+00F8)
+font_glyph(LARGE, 0x00F8, "") {
+	[ 320,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Capital letter Eth (Ð U+00D0)
+font_glyph(LARGE, 0x00D0, "") {
+	[ 350,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Small Letter Eth (ð U+00F0)
+font_glyph(LARGE, 0x00F0, "") {
+	[ 370,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Capital Letter Thorn (Þ U+00DE)
+font_glyph(LARGE, 0x00DE, "") {
+	[ 380,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Latin Small Letter Thorn (þ U+00FE)
+font_glyph(LARGE, 0x00FE, "") {
+	[ 400,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Section sign (§ U+00A7)
+font_glyph(LARGE, 0x00A7, "") {
+	[ 420,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Copyright sign (© U+00A9)
+font_glyph(LARGE, 0x00A9, "") {
+	[ 430,   40,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Registered sign (® U+00AE)
+font_glyph(LARGE, 0x00AE, "") {
+	[ 150,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Plus-minus sign; Superscript two; Superscript three (± U+00B1; ² U+00B2; ³ U+00B3)
+font_glyph(LARGE, 0x00B1, "") {
+	[ 480,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 490,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 500,   40,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Multiplication sign (× U+00D7)
+font_glyph(LARGE, 0x00D7, "") {
+	[ 510,   40,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+// Division sign (÷ U+00F7)
+font_glyph(LARGE, 0x00F7, "") {
+	[ 520,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}

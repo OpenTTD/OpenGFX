@@ -1,613 +1,1129 @@
- 1710 * 11       0C "Characters"
-//Additional Characters (all font sizes)
-//Euro-sign (€ U+20AC)
--1 * 0 12 03 00 01 AC 20 01 01 AC 20 02 01 AC 20
--1 sprites/png/gui/font_addl.png 30 10 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 30 30 01 6 5 0 0
--1 sprites/png/gui/font_addl.png 30 40 01 21 15 0 -2
-
-// Latin Ligature OE (Œ U+0152; œ U+0153)
--1 * 0 12 03 00 02 52 01 01 02 52 01 02 02 52 01
--1 sprites/png/gui/font_addl.png 50 10 01 13 12 0 -2
--1 sprites/png/gui/font_addl.png 300 10 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 50 30 01 5 5 0 1
--1 sprites/png/gui/font_addl.png 70 30 01 5 5 0 1
--1 sprites/png/gui/font_addl.png 50 40 01 21 19 0 -2
--1 sprites/png/gui/font_addl.png 70 40 01 21 13 0 -2
-
-// Latin Letter S with caron (Š U+0160; š U+0161)
--1 * 0 12 03 00 02 60 01 01 02 60 01 02 02 60 01
--1 sprites/png/gui/font_addl.png 90 10 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 110 10 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 90 30 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 110 30 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 90 40 01 21 9 0 -2
--1 sprites/png/gui/font_addl.png 110 40 01 21 6 0 -2
-
-// Latin Letter Z with caron (Ž U+017D; ž U+017E)
--1 * 0 12 03 00 02 7D 01 01 02 7D 01 02 02 7D 01
--1 sprites/png/gui/font_addl.png 120 10 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 140 10 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 120 30 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 140 30 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 120 40 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 140 40 01 21 7 0 -2
-
-// Degree symbol (° U+00B0)
--1 * 0 12 03 00 01 B0 00 01 01 B0 00 02 01 B0 00
--1 sprites/png/gui/font_addl.png 150 10 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 150 30 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 150 40 01 21 7 0 -2
-
-// Left curly bracket; Vertical bar; Right Curly Bracket; Tilde ({ U+007B; | U+007C; } U+007C; ~ U+007D)
--1 * 0 12 03 00 04 7B 00 01 04 7B 00 02 04 7B 00
--1 sprites/png/gui/font_addl.png 160 10 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 170 10 01 13 3 0 -2
--1 sprites/png/gui/font_addl.png 180 10 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 190 10 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 160 30 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 170 30 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 180 30 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 190 30 01 5 4 0 1
--1 sprites/png/gui/font_addl.png 160 40 01 21 6 0 -2
--1 sprites/png/gui/font_addl.png 170 40 01 21 3 0 -2
--1 sprites/png/gui/font_addl.png 180 40 01 21 6 0 -2
--1 sprites/png/gui/font_addl.png 190 40 01 21 12 0 -2
-
-// Middle dot (· U+00B7)
--1 * 0 12 03 00 01 B7 00 01 01 B7 00 02 01 B7 00
--1 sprites/png/gui/font_addl.png 210 10 01 13 3 0 -2
--1 sprites/png/gui/font_addl.png 210 30 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 210 40 01 21 2 0 -2
-
-// Latin Letter O with double acute (O U+0150; o U+0151)
--1 * 0 12 03 00 02 50 01 01 02 50 01 02 02 50 01
--1 sprites/png/gui/font_addl.png 230 10 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 320 10 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 230 30 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 220 30 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 230 40 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 220 40 01 21 9 0 -2
-
-// Latin Letter U with double acute (U U+0170; u U+0171)
--1 * 0 12 03 00 02 70 01 01 02 70 01 02 02 70 01
--1 sprites/png/gui/font_addl.png 260 10 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 250 10 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 260 30 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 250 30 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 260 40 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 250 40 01 21 9 0 -2
-
-//U+010C   C   Latin Capital Letter C with caron
-//U+010D   c   Latin Small Letter C with caron
--1 * 0 12 03 00 02 0C 01 01 02 0C 01 02 02 0C 01
--1 sprites/png/gui/font_addl.png 30 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 50 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 30 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 50 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 30 100 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 50 100 01 21 8 0 -2
-
-//U+010E   D   Latin Capital Letter D with caron
-//U+010F   d   Latin Small Letter D with caron
--1 * 0 12 03 00 02 0E 01 01 02 0E 01 02 02 0E 01
--1 sprites/png/gui/font_addl.png 70 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 90 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 70 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 90 90 01 5 5 0 1
--1 sprites/png/gui/font_addl.png 70 100 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 90 100 01 21 12 0 -2
-
-//U+011A   E   Latin Capital Letter E with caron
-//U+011B   e   Latin Small Letter E with caron
--1 * 0 12 03 00 02 1A 01 01 02 1A 01 02 02 1A 01
--1 sprites/png/gui/font_addl.png 110 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 130 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 110 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 130 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 110 100 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 130 100 01 21 8 0 -2
-
-//U+0147   N   Latin Capital Letter N with caron
-//U+0148   n   Latin Small Letter N with caron
--1 * 0 12 03 00 02 47 01 01 02 47 01 02 02 47 01
--1 sprites/png/gui/font_addl.png 150 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 170 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 150 90 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 170 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 150 100 01 21 16 0 -2
--1 sprites/png/gui/font_addl.png 170 100 01 21 10 0 -2
-
-//U+0158   R   Latin Capital Letter R with caron
-//U+0159   r   Latin Small Letter R with caron
--1 * 0 12 03 00 02 58 01 01 02 58 01 02 02 58 01
--1 sprites/png/gui/font_addl.png 190 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 210 70 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 190 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 210 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 190 100 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 210 100 01 21 6 0 -2
-
-//U+0164   T   Latin Capital Letter T with caron
-//U+0165   t   Latin Small Letter T with caron
--1 * 0 12 03 00 02 64 01 01 02 64 01 02 02 64 01
--1 sprites/png/gui/font_addl.png 230 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 250 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 230 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 250 90 01 5 4 0 1
--1 sprites/png/gui/font_addl.png 230 100 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 250 100 01 21 7 0 -2
-
-//U+016E   U   Latin Capital Letter U with ring above
-//U+016F   u   Latin Small Letter U with ring above
--1 * 0 12 03 00 02 6E 01 01 02 6E 01 02 02 6E 01
--1 sprites/png/gui/font_addl.png 270 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 290 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 270 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 290 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 270 100 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 290 100 01 21 8 0 -2
-
-//U+0106 C Latin Capital Letter C with acute
-//U+0107 c Latin Small Letter C with acute
--1 * 0 12 03 00 02 06 01 01 02 06 01 02 02 06 01
--1 sprites/png/gui/font_addl.png 310 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 330 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 310 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 330 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 310 100 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 330 100 01 21 8 0 -2
-
-//U+0110 Ð Latin Capital Letter D with stroke
-//U+0111 d Latin Small Letter D with stroke
--1 * 0 12 03 00 02 10 01 01 02 10 01 02 02 10 01
--1 sprites/png/gui/font_addl.png 350 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 370 70 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 350 90 01 5 4 0 1
--1 sprites/png/gui/font_addl.png 370 90 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 350 100 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 370 100 01 21 9 0 -2
-
-//U+013D L Latin Capital Letter L with caron
-//U+013E l Latin Small Letter L with caron
--1 * 0 12 03 00 02 3D 01 01 02 3D 01 02 02 3D 01
--1 sprites/png/gui/font_addl.png 390 70 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 410 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 390 90 01 5 5 0 1
--1 sprites/png/gui/font_addl.png 410 90 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 390 100 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 410 100 01 21 7 0 -2
-
-//U+00B4 ´ Acute accent
--1 * 0 12 03 00 01 B4 00 01 01 B4 00 02 01 B4 00
--1 sprites/png/gui/font_addl.png 30 130 01 13 4 0 -2
--1 sprites/png/gui/font_addl.png 30 150 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 30 160 01 21 3 0 -2
-
-//U+00BD ½ Vulgar fraction one half
--1 * 0 12 03 00 01 BD 00 01 01 BD 00 02 01 BD 00
--1 sprites/png/gui/font_addl.png 40 130 01 13 11 0 -2
--1 sprites/png/gui/font_addl.png 40 150 01 5 9 0 1
--1 sprites/png/gui/font_addl.png 40 160 01 21 11 0 -2
-
-//U+00B5 µ Micro sign
--1 * 0 12 03 00 01 B5 00 01 01 B5 00 02 01 B5 00
--1 sprites/png/gui/font_addl.png 60 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 60 150 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 60 160 01 21 10 0 -2
-
-//U+00AA ª Feminine Ordinal Indicator
--1 * 0 12 03 00 01 AA 00 01 01 AA 00 02 01 AA 00
--1 sprites/png/gui/font_addl.png 80 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 80 150 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 80 160 01 21 6 0 -2
-
-//U+2019 ’ RIGHT SINGLE QUOTATION MARK
--1 * 0 12 03 00 01 19 20 01 01 19 20 02 01 19 20
--1 sprites/png/gui/font_addl.png 90 130 01 13 3 0 -2
--1 sprites/png/gui/font_addl.png 90 150 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 90 160 01 21 4 0 -2
-
-//U+201E „ DOUBLE LOW-9 QUOTATION MARK
--1 * 0 12 03 00 01 1E 20 01 01 1E 20 02 01 1E 20
--1 sprites/png/gui/font_addl.png 100 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 100 150 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 100 160 01 21 8 0 -2
-
-//U+201C “ LEFT DOUBLE QUOTATION MARK
--1 * 0 12 03 00 01 1C 20 01 01 1C 20 02 01 1C 20
--1 sprites/png/gui/font_addl.png 110 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 110 150 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 110 160 01 21 8 0 -2
-
-//U+203A › SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
--1 * 0 12 03 00 01 3A 20 01 01 3A 20 02 01 3A 20
--1 sprites/png/gui/font_addl.png 760 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 760 150 01 5 2 0 1
--1 sprites/png/gui/font_addl.png 760 160 01 21 4 0 -2
-
-//U+2013 – EN DASH
--1 * 0 12 03 00 01 13 20 01 01 13 20 02 01 13 20
--1 sprites/png/gui/font_addl.png 120 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 120 150 01 5 4 0 1
--1 sprites/png/gui/font_addl.png 120 160 01 21 9 0 -2
-
-//U+0174 W Latin Capital Letter W with circumflex
-//U+0175 w Latin Small Letter W with circumflex
--1 * 0 12 03 00 02 74 01 01 02 74 01 02 02 74 01
--1 sprites/png/gui/font_addl.png 420 70 01 13 12 0 -2
--1 sprites/png/gui/font_addl.png 440 70 01 13 10 0 -2
--1 sprites/png/gui/font_addl.png 420 90 01 6 5 0 0
--1 sprites/png/gui/font_addl.png 440 90 01 6 5 0 0
--1 sprites/png/gui/font_addl.png 420 100 01 21 18 0 -2
--1 sprites/png/gui/font_addl.png 440 100 01 21 13 0 -2
-
-//U+0176 Y Latin Capital Letter Y with circumflex
-//U+0177 y Latin Small Letter Y with circumflex
--1 * 0 12 03 00 02 76 01 01 02 76 01 02 02 76 01
--1 sprites/png/gui/font_addl.png 460 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 480 70 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 460 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 480 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 460 100 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 480 100 01 21 9 0 -2
-
-//U+0108 C Latin Capital Letter C with circumflex
-//U+0109 c Latin Small Letter C with circumflex
--1 * 0 12 03 00 02 08 01 01 02 08 01 02 02 08 01
--1 sprites/png/gui/font_addl.png 500 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 520 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 500 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 520 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 500 100 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 520 100 01 21 8 0 -2
-
-//U+011C G Latin Capital Letter G with circumflex
-//U+011D g Latin Small Letter G with circumflex
--1 * 0 12 03 00 02 1C 01 01 02 1C 01 02 02 1C 01
--1 sprites/png/gui/font_addl.png 540 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 560 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 540 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 560 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 540 100 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 560 100 01 21 10 0 -2
-
-//U+0124 H Latin Capital Letter H with circumflex
-//U+0125 h Latin Small Letter H with circumflex
--1 * 0 12 03 00 02 24 01 01 02 24 01 02 02 24 01
--1 sprites/png/gui/font_addl.png 580 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 600 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 580 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 600 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 580 100 01 21 15 0 -2
--1 sprites/png/gui/font_addl.png 600 100 01 21 10 0 -2
-
-//U+0134 J Latin Capital Letter J with circumflex
-//U+0135 j Latin Small Letter J with circumflex
--1 * 0 12 03 00 02 34 01 01 02 34 01 02 02 34 01
--1 sprites/png/gui/font_addl.png 620 70 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 640 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 620 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 640 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 620 100 01 21 8 0 -2
--1 sprites/png/gui/font_addl.png 640 100 01 21 5 0 -2
-
-//U+016C U Latin Capital Letter U with breve
-//U+016D u Latin Small Letter U with breve
--1 * 0 12 03 00 02 6C 01 01 02 6C 01 02 02 6C 01
--1 sprites/png/gui/font_addl.png 650 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 670 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 650 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 670 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 650 100 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 670 100 01 21 9 0 -2
-
-//U+0102 A Latin Capital Letter A with breve
-//U+0103 a Latin Small Letter A with breve
--1 * 0 12 03 00 02 02 01 01 02 02 01 02 02 02 01
--1 sprites/png/gui/font_addl.png 690 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 710 70 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 690 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 710 90 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 690 100 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 710 100 01 21 8 0 -2
-
-//U+015E S Latin Capital Letter S with cedilla
-//U+015F s Latin Small Letter S with cedilla
--1 * 0 12 03 00 02 5E 01 01 02 5E 01 02 02 5E 01
--1 sprites/png/gui/font_addl.png 730 70 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 740 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 730 90 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 740 90 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 730 100 01 21 9 0 -2
--1 sprites/png/gui/font_addl.png 740 100 01 21 6 0 -2
-
-//U+0162 T Latin Capital Letter T with cedilla
-//U+0163 t Latin Small Letter T with cedilla
--1 * 0 12 03 00 02 62 01 01 02 62 01 02 02 62 01
--1 sprites/png/gui/font_addl.png 750 70 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 770 70 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 750 90 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 770 90 01 6 2 0 1
--1 sprites/png/gui/font_addl.png 750 100 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 770 100 01 21 5 0 -2
-
-//U+011E G Latin Capital Letter G with breve
-//U+011F g Latin Small Letter G with breve
--1 * 0 12 03 00 02 1E 01 01 02 1E 01 02 02 1E 01
--1 sprites/png/gui/font_addl.png 140 130 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 160 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 140 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 160 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 140 160 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 160 160 01 21 10 0 -2
-
-//U+0130 I Latin Capital Letter I with dot above
-//U+0131 i Latin Small Letter dotless I
--1 * 0 12 03 00 02 30 01 01 02 30 01 02 02 30 01
--1 sprites/png/gui/font_addl.png 180 130 01 13 3 0 -2
--1 sprites/png/gui/font_addl.png 190 130 01 13 3 0 -2
--1 sprites/png/gui/font_addl.png 180 150 01 6 1 0 0
--1 sprites/png/gui/font_addl.png 190 150 01 5 1 0 1
--1 sprites/png/gui/font_addl.png 180 160 01 21 7 0 -2
--1 sprites/png/gui/font_addl.png 190 160 01 21 4 0 -2
-
-//U+0122 G Latin Capital Letter G with cedilla
-//U+0123 g Latin Small Letter G with cedilla
--1 * 0 12 03 00 02 22 01 01 02 22 01 02 02 22 01
--1 sprites/png/gui/font_addl.png 200 130 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 220 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 200 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 220 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 200 160 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 220 160 01 21 10 0 -2
-
-//U+0136 K Latin Capital Letter K with cedilla
-//U+0137 k Latin Small Letter K with cedilla
--1 * 0 12 03 00 02 36 01 01 02 36 01 02 02 36 01
--1 sprites/png/gui/font_addl.png 240 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 260 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 240 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 260 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 240 160 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 260 160 01 21 10 0 -2
-
-//U+013B L Latin Capital Letter L with cedilla
-//U+013C l Latin Small Letter L with cedilla
--1 * 0 12 03 00 02 3B 01 01 02 3B 01 02 02 3B 01
--1 sprites/png/gui/font_addl.png 280 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 300 130 01 13 4 0 -2
--1 sprites/png/gui/font_addl.png 280 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 300 150 01 6 2 0 1
--1 sprites/png/gui/font_addl.png 280 160 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 300 160 01 21 5 0 -2
-
-//U+0145 N Latin Capital Letter N with cedilla
-//U+0146 n Latin Small Letter N with cedilla
--1 * 0 12 03 00 02 45 01 01 02 45 01 02 02 45 01
--1 sprites/png/gui/font_addl.png 310 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 330 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 310 150 01 6 4 0 1
--1 sprites/png/gui/font_addl.png 330 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 310 160 01 21 16 0 -2
--1 sprites/png/gui/font_addl.png 330 160 01 21 10 0 -2
-
-//U+0100 A Latin Capital Letter A with macron
-//U+0101 a Latin Small Letter A with macron
--1 * 0 12 03 00 02 00 01 01 02 00 01 02 02 00 01
--1 sprites/png/gui/font_addl.png 350 130 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 370 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 350 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 370 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 350 160 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 370 160 01 21 8 0 -2
-
-//U+0112 E Latin Capital Letter E with macron
-//U+0113 e Latin Small Letter E with macron
--1 * 0 12 03 00 02 12 01 01 02 12 01 02 02 12 01
--1 sprites/png/gui/font_addl.png 380 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 400 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 380 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 400 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 380 160 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 400 160 01 21 8 0 -2
-
-//U+012A I Latin Capital Letter I with macron
-//U+012B i Latin Small Letter I with macron
--1 * 0 12 03 00 02 2A 01 01 02 2A 01 02 02 2A 01
--1 sprites/png/gui/font_addl.png 410 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 420 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 410 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 420 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 410 160 01 21 7 0 -2
--1 sprites/png/gui/font_addl.png 420 160 01 21 4 0 -2
-
-//U+016A U Latin Capital Letter U with macron
-//U+016B u Latin Small Letter U with macron
--1 * 0 12 03 00 02 6A 01 01 02 6A 01 02 02 6A 01
--1 sprites/png/gui/font_addl.png 430 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 450 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 430 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 450 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 430 160 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 450 160 01 21 9 0 -2
-
-//U+0143 N Latin Capital Letter N with acute
-//U+0144 n Latin Small Letter N with acute
--1 * 0 12 03 00 02 43 01 01 02 43 01 02 02 43 01
--1 sprites/png/gui/font_addl.png 470 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 490 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 470 150 01 6 4 0 0
--1 sprites/png/gui/font_addl.png 490 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 470 160 01 21 16 0 -2
--1 sprites/png/gui/font_addl.png 490 160 01 21 10 0 -2
-
-//U+015A S Latin Capital Letter S with acute
-//U+015B s Latin Small Letter S with acute
--1 * 0 12 03 00 02 5A 01 01 02 5A 01 02 02 5A 01
--1 sprites/png/gui/font_addl.png 510 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 520 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 510 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 520 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 510 160 01 21 9 0 -2
--1 sprites/png/gui/font_addl.png 520 160 01 21 6 0 -2
-
-//U+017B Z Latin Capital Letter Z with dot above
-//U+017C z Latin Small Letter Z with dot above
--1 * 0 12 03 00 02 7B 01 01 02 7B 01 02 02 7B 01
--1 sprites/png/gui/font_addl.png 530 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 550 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 530 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 550 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 530 160 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 550 160 01 21 7 0 -2
-
-//U+0179 Z Latin Capital Letter Z with acute
-//U+017A z Latin Small Letter Z with acute
--1 * 0 12 03 00 02 79 01 01 02 79 01 02 02 79 01
--1 sprites/png/gui/font_addl.png 770 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 790 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 770 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 790 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 770 160 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 790 160 01 21 7 0 -2
-
-//U+0139 L Latin Capital Letter L with acute
-//U+013A l Latin Small Letter L with acute
--1 * 0 12 03 00 02 39 01 01 02 39 01 02 02 39 01
--1 sprites/png/gui/font_addl.png 30 190 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 50 190 01 13 4 0 -2
--1 sprites/png/gui/font_addl.png 30 210 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 50 210 01 6 2 0 0
--1 sprites/png/gui/font_addl.png 30 220 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 50 220 01 21 5 0 -2
-
-//U+0141 L Latin Capital Letter L with stroke
-//U+0142 l Latin Small Letter L with stroke
--1 * 0 12 03 00 02 41 01 01 02 41 01 02 02 41 01
--1 sprites/png/gui/font_addl.png 560 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 580 130 01 13 5 0 -2
--1 sprites/png/gui/font_addl.png 560 150 01 5 4 0 1
--1 sprites/png/gui/font_addl.png 580 150 01 5 3 0 1
--1 sprites/png/gui/font_addl.png 560 160 01 21 12 0 -2
--1 sprites/png/gui/font_addl.png 580 160 01 21 6 0 -2
-
-//U+0104 A Latin Capital Letter A with ogonek
-//U+0105 a Latin Small Letter A with ogonek
--1 * 0 12 03 00 02 04 01 01 02 04 01 02 02 04 01
--1 sprites/png/gui/font_addl.png 590 130 01 13 9 0 -2
--1 sprites/png/gui/font_addl.png 610 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 590 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 610 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 590 160 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 610 160 01 21 8 0 -2
-
-//U+0118 E Latin Capital Letter E with ogonek
-//U+0119 e Latin Small Letter E with ogonek
--1 * 0 12 03 00 02 18 01 01 02 18 01 02 02 18 01
--1 sprites/png/gui/font_addl.png 620 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 640 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 620 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 640 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 620 160 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 640 160 01 21 8 0 -2
-
-//U+012E I Latin Capital Letter I with ogonek
-//U+012F i Latin Small Letter I with ogonek
--1 * 0 12 03 00 02 2E 01 01 02 2E 01 02 02 2E 01
--1 sprites/png/gui/font_addl.png 650 130 01 13 4 0 -2
--1 sprites/png/gui/font_addl.png 660 130 01 13 4 0 -2
--1 sprites/png/gui/font_addl.png 650 150 01 6 2 0 1
--1 sprites/png/gui/font_addl.png 660 150 01 6 2 0 1
--1 sprites/png/gui/font_addl.png 650 160 01 21 7 0 -2
--1 sprites/png/gui/font_addl.png 660 160 01 21 4 0 -2
-
-//U+0172 U Latin Capital Letter U with ogonek
-//U+0173 u Latin Small Letter U with ogonek
--1 * 0 12 03 00 02 72 01 01 02 72 01 02 02 72 01
--1 sprites/png/gui/font_addl.png 670 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 690 130 01 13 7 0 -2
--1 sprites/png/gui/font_addl.png 670 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 690 150 01 6 3 0 1
--1 sprites/png/gui/font_addl.png 670 160 01 21 14 0 -2
--1 sprites/png/gui/font_addl.png 690 160 01 21 9 0 -2
-
-//U+0116 E Latin Capital Letter E with dot above
-//U+0117 e Latin Small Letter E with dot above
--1 * 0 12 03 00 02 16 01 01 02 16 01 02 02 16 01
--1 sprites/png/gui/font_addl.png 710 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 730 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 710 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 730 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 710 160 01 21 13 0 -2
--1 sprites/png/gui/font_addl.png 730 160 01 21 8 0 -2
-
-//U+015C S Latin Capital Letter S with circumflex
-//U+015D s Latin Small Letter S with circumflex
--1 * 0 12 03 00 02 5C 01 01 02 5C 01 02 02 5C 01
--1 sprites/png/gui/font_addl.png 740 130 01 13 8 0 -2
--1 sprites/png/gui/font_addl.png 750 130 01 13 6 0 -2
--1 sprites/png/gui/font_addl.png 740 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 750 150 01 6 3 0 0
--1 sprites/png/gui/font_addl.png 740 160 01 21 9 0 -2
--1 sprites/png/gui/font_addl.png 750 160 01 21 6 0 -2
-
-
-// Large font only
-// Latin Capital letter AE (Æ U+00C6)
--1 * 0 12 01 02 01 C6 00
--1 sprites/png/gui/font_addl.png 300 40 01 21 19 0 -2
-
-// Latin Small Letter AE (æ U+00E6)
--1 * 0 12 01 02 01 E6 00
--1 sprites/png/gui/font_addl.png 280 40 01 21 13 0 -2
-
-// Latin Capital letter O with stroke (Ø U+00D8)
--1 * 0 12 01 02 01 D8 00
--1 sprites/png/gui/font_addl.png 330 40 01 21 13 0 -2
-
-// Latin Small Letter O with stroke (ø U+00F8)
--1 * 0 12 01 02 01 F8 00
--1 sprites/png/gui/font_addl.png 320 40 01 21 9 0 -2
-
-// Latin Capital letter Eth (Ð U+00D0)
--1 * 0 12 01 02 01 D0 00
--1 sprites/png/gui/font_addl.png 350 40 01 21 14 0 -2
-
-// Latin Small Letter Eth (ð U+00F0)
--1 * 0 12 01 02 01 F0 00
--1 sprites/png/gui/font_addl.png 370 40 01 21 9 0 -2
-
-// Latin Capital Letter Thorn (Þ U+00DE)
--1 * 0 12 01 02 01 DE 00
--1 sprites/png/gui/font_addl.png 380 40 01 21 14 0 -2
-
-// Latin Small Letter Thorn (þ U+00FE)
--1 * 0 12 01 02 01 FE 00
--1 sprites/png/gui/font_addl.png 400 40 01 21 14 0 -2
-
-// Section sign (§ U+00A7)
--1 * 0 12 01 02 01 A7 00
--1 sprites/png/gui/font_addl.png 420 40 01 21 9 0 -2
-
-// Copyright sign (© U+00A9)
--1 * 0 12 01 02 01 A9 00
--1 sprites/png/gui/font_addl.png 430 40 01 21 16 0 -2
-
-// Registered sign (® U+00AE)
--1 * 0 12 01 02 01 AE 00
--1 sprites/png/gui/font_addl.png 150 40 01 21 7 0 -2
-
-// Plus-minus sign; Superscript two; Superscript three (± U+00B1; ² U+00B2; ³ U+00B3)
--1 * 0 12 01 02 03 B1 00
--1 sprites/png/gui/font_addl.png 480 40 01 21 9 0 -2
--1 sprites/png/gui/font_addl.png 490 40 01 21 6 0 -2
--1 sprites/png/gui/font_addl.png 500 40 01 21 5 0 -2
-
-// Multiplication sign (× U+00D7)
--1 * 0 12 01 02 01 D7 00
--1 sprites/png/gui/font_addl.png 510 40 01 21 8 0 -2
-
-// Division sign (÷ U+00F7)
--1 * 0 12 01 02 01 F7 00
--1 sprites/png/gui/font_addl.png 520 40 01 21 9 0 -2
+// Automatically generated by GRFCODEC. Do not modify!
+// (Info version 7)
+// Escapes: 2+ 2- 2< 2> 2u< 2u> 2/ 2% 2u/ 2u% 2* 2& 2| 2^ 2sto = 2s 2rst = 2r 2psto 2ror = 2rot 2cmp 2ucmp 2<< 2u>> 2>>
+// Escapes: 71 70 7= 7! 7< 7> 7G 7g 7gG 7GG 7gg 7c 7C
+// Escapes: D= = DR D+ = DF D- = DC Du* = DM D* = DnF Du<< = DnC D<< = DO D& D| Du/ D/ Du% D%
+// Format: spritenum pcxfile xpos ypos compression ysize xsize xrel yrel
+
+0 * 6 12 \b1 
+00 \b1 \w8364 
+
+1 sprites/png/gui/font_addl.png 30 10 01 13 8 0 -2 
+
+2 * 6 12 \b1 
+01 \b1 \w8364 
+
+3 sprites/png/gui/font_addl.png 30 30 01 6 5 0 0 
+
+4 * 6 12 \b1 
+02 \b1 \w8364 
+
+5 sprites/png/gui/font_addl.png 30 40 01 21 15 0 -2 
+
+6 * 6 12 \b1 
+00 \b2 \w338 
+
+7 sprites/png/gui/font_addl.png 50 10 01 13 12 0 -2 
+8 sprites/png/gui/font_addl.png 300 10 01 13 9 0 -2 
+
+9 * 6 12 \b1 
+01 \b2 \w338 
+
+10 sprites/png/gui/font_addl.png 50 30 01 5 5 0 1 
+11 sprites/png/gui/font_addl.png 70 30 01 5 5 0 1 
+
+12 * 6 12 \b1 
+02 \b2 \w338 
+
+13 sprites/png/gui/font_addl.png 50 40 01 21 19 0 -2 
+14 sprites/png/gui/font_addl.png 70 40 01 21 13 0 -2 
+
+15 * 6 12 \b1 
+00 \b2 \w352 
+
+16 sprites/png/gui/font_addl.png 90 10 01 13 8 0 -2 
+17 sprites/png/gui/font_addl.png 110 10 01 13 6 0 -2 
+
+18 * 6 12 \b1 
+01 \b2 \w352 
+
+19 sprites/png/gui/font_addl.png 90 30 01 6 3 0 0 
+20 sprites/png/gui/font_addl.png 110 30 01 6 3 0 0 
+
+21 * 6 12 \b1 
+02 \b2 \w352 
+
+22 sprites/png/gui/font_addl.png 90 40 01 21 9 0 -2 
+23 sprites/png/gui/font_addl.png 110 40 01 21 6 0 -2 
+
+24 * 6 12 \b1 
+00 \b2 \w381 
+
+25 sprites/png/gui/font_addl.png 120 10 01 13 8 0 -2 
+26 sprites/png/gui/font_addl.png 140 10 01 13 7 0 -2 
+
+27 * 6 12 \b1 
+01 \b2 \w381 
+
+28 sprites/png/gui/font_addl.png 120 30 01 6 3 0 0 
+29 sprites/png/gui/font_addl.png 140 30 01 6 3 0 0 
+
+30 * 6 12 \b1 
+02 \b2 \w381 
+
+31 sprites/png/gui/font_addl.png 120 40 01 21 12 0 -2 
+32 sprites/png/gui/font_addl.png 140 40 01 21 7 0 -2 
+
+33 * 6 12 \b1 
+00 \b1 \w176 
+
+34 sprites/png/gui/font_addl.png 150 10 01 13 6 0 -2 
+
+35 * 6 12 \b1 
+01 \b1 \w176 
+
+36 sprites/png/gui/font_addl.png 150 30 01 6 3 0 0 
+
+37 * 6 12 \b1 
+02 \b1 \w176 
+
+38 sprites/png/gui/font_addl.png 150 40 01 21 7 0 -2 
+
+39 * 6 12 \b1 
+00 \b4 \w123 
+
+40 sprites/png/gui/font_addl.png 160 10 01 13 5 0 -2 
+41 sprites/png/gui/font_addl.png 170 10 01 13 3 0 -2 
+42 sprites/png/gui/font_addl.png 180 10 01 13 5 0 -2 
+43 sprites/png/gui/font_addl.png 190 10 01 13 7 0 -2 
+
+44 * 6 12 \b1 
+01 \b4 \w123 
+
+45 sprites/png/gui/font_addl.png 160 30 01 5 3 0 1 
+46 sprites/png/gui/font_addl.png 170 30 01 5 1 0 1 
+47 sprites/png/gui/font_addl.png 180 30 01 5 3 0 1 
+48 sprites/png/gui/font_addl.png 190 30 01 5 4 0 1 
+
+49 * 6 12 \b1 
+02 \b4 \w123 
+
+50 sprites/png/gui/font_addl.png 160 40 01 21 6 0 -2 
+51 sprites/png/gui/font_addl.png 170 40 01 21 3 0 -2 
+52 sprites/png/gui/font_addl.png 180 40 01 21 6 0 -2 
+53 sprites/png/gui/font_addl.png 190 40 01 21 12 0 -2 
+
+54 * 6 12 \b1 
+00 \b1 \w183 
+
+55 sprites/png/gui/font_addl.png 210 10 01 13 3 0 -2 
+
+56 * 6 12 \b1 
+01 \b1 \w183 
+
+57 sprites/png/gui/font_addl.png 210 30 01 5 1 0 1 
+
+58 * 6 12 \b1 
+02 \b1 \w183 
+
+59 sprites/png/gui/font_addl.png 210 40 01 21 2 0 -2 
+
+60 * 6 12 \b1 
+00 \b2 \w336 
+
+61 sprites/png/gui/font_addl.png 230 10 01 13 9 0 -2 
+62 sprites/png/gui/font_addl.png 320 10 01 13 6 0 -2 
+
+63 * 6 12 \b1 
+01 \b2 \w336 
+
+64 sprites/png/gui/font_addl.png 230 30 01 6 4 0 0 
+65 sprites/png/gui/font_addl.png 220 30 01 6 4 0 0 
+
+66 * 6 12 \b1 
+02 \b2 \w336 
+
+67 sprites/png/gui/font_addl.png 230 40 01 21 13 0 -2 
+68 sprites/png/gui/font_addl.png 220 40 01 21 9 0 -2 
+
+69 * 6 12 \b1 
+00 \b2 \w368 
+
+70 sprites/png/gui/font_addl.png 260 10 01 13 8 0 -2 
+71 sprites/png/gui/font_addl.png 250 10 01 13 7 0 -2 
+
+72 * 6 12 \b1 
+01 \b2 \w368 
+
+73 sprites/png/gui/font_addl.png 260 30 01 6 4 0 0 
+74 sprites/png/gui/font_addl.png 250 30 01 6 4 0 0 
+
+75 * 6 12 \b1 
+02 \b2 \w368 
+
+76 sprites/png/gui/font_addl.png 260 40 01 21 14 0 -2 
+77 sprites/png/gui/font_addl.png 250 40 01 21 9 0 -2 
+
+78 * 6 12 \b1 
+00 \b2 \w268 
+
+79 sprites/png/gui/font_addl.png 30 70 01 13 9 0 -2 
+80 sprites/png/gui/font_addl.png 50 70 01 13 6 0 -2 
+
+81 * 6 12 \b1 
+01 \b2 \w268 
+
+82 sprites/png/gui/font_addl.png 30 90 01 6 3 0 0 
+83 sprites/png/gui/font_addl.png 50 90 01 6 3 0 0 
+
+84 * 6 12 \b1 
+02 \b2 \w268 
+
+85 sprites/png/gui/font_addl.png 30 100 01 21 12 0 -2 
+86 sprites/png/gui/font_addl.png 50 100 01 21 8 0 -2 
+
+87 * 6 12 \b1 
+00 \b2 \w270 
+
+88 sprites/png/gui/font_addl.png 70 70 01 13 8 0 -2 
+89 sprites/png/gui/font_addl.png 90 70 01 13 9 0 -2 
+
+90 * 6 12 \b1 
+01 \b2 \w270 
+
+91 sprites/png/gui/font_addl.png 70 90 01 6 3 0 0 
+92 sprites/png/gui/font_addl.png 90 90 01 5 5 0 1 
+
+93 * 6 12 \b1 
+02 \b2 \w270 
+
+94 sprites/png/gui/font_addl.png 70 100 01 21 14 0 -2 
+95 sprites/png/gui/font_addl.png 90 100 01 21 12 0 -2 
+
+96 * 6 12 \b1 
+00 \b2 \w282 
+
+97 sprites/png/gui/font_addl.png 110 70 01 13 8 0 -2 
+98 sprites/png/gui/font_addl.png 130 70 01 13 6 0 -2 
+
+99 * 6 12 \b1 
+01 \b2 \w282 
+
+100 sprites/png/gui/font_addl.png 110 90 01 6 3 0 0 
+101 sprites/png/gui/font_addl.png 130 90 01 6 3 0 0 
+
+102 * 6 12 \b1 
+02 \b2 \w282 
+
+103 sprites/png/gui/font_addl.png 110 100 01 21 13 0 -2 
+104 sprites/png/gui/font_addl.png 130 100 01 21 8 0 -2 
+
+105 * 6 12 \b1 
+00 \b2 \w327 
+
+106 sprites/png/gui/font_addl.png 150 70 01 13 8 0 -2 
+107 sprites/png/gui/font_addl.png 170 70 01 13 6 0 -2 
+
+108 * 6 12 \b1 
+01 \b2 \w327 
+
+109 sprites/png/gui/font_addl.png 150 90 01 6 4 0 0 
+110 sprites/png/gui/font_addl.png 170 90 01 6 3 0 0 
+
+111 * 6 12 \b1 
+02 \b2 \w327 
+
+112 sprites/png/gui/font_addl.png 150 100 01 21 16 0 -2 
+113 sprites/png/gui/font_addl.png 170 100 01 21 10 0 -2 
+
+114 * 6 12 \b1 
+00 \b2 \w344 
+
+115 sprites/png/gui/font_addl.png 190 70 01 13 8 0 -2 
+116 sprites/png/gui/font_addl.png 210 70 01 13 5 0 -2 
+
+117 * 6 12 \b1 
+01 \b2 \w344 
+
+118 sprites/png/gui/font_addl.png 190 90 01 6 3 0 0 
+119 sprites/png/gui/font_addl.png 210 90 01 6 3 0 0 
+
+120 * 6 12 \b1 
+02 \b2 \w344 
+
+121 sprites/png/gui/font_addl.png 190 100 01 21 12 0 -2 
+122 sprites/png/gui/font_addl.png 210 100 01 21 6 0 -2 
+
+123 * 6 12 \b1 
+00 \b2 \w356 
+
+124 sprites/png/gui/font_addl.png 230 70 01 13 9 0 -2 
+125 sprites/png/gui/font_addl.png 250 70 01 13 8 0 -2 
+
+126 * 6 12 \b1 
+01 \b2 \w356 
+
+127 sprites/png/gui/font_addl.png 230 90 01 6 3 0 0 
+128 sprites/png/gui/font_addl.png 250 90 01 5 4 0 1 
+
+129 * 6 12 \b1 
+02 \b2 \w356 
+
+130 sprites/png/gui/font_addl.png 230 100 01 21 13 0 -2 
+131 sprites/png/gui/font_addl.png 250 100 01 21 7 0 -2 
+
+132 * 6 12 \b1 
+00 \b2 \w366 
+
+133 sprites/png/gui/font_addl.png 270 70 01 13 8 0 -2 
+134 sprites/png/gui/font_addl.png 290 70 01 13 6 0 -2 
+
+135 * 6 12 \b1 
+01 \b2 \w366 
+
+136 sprites/png/gui/font_addl.png 270 90 01 6 3 0 0 
+137 sprites/png/gui/font_addl.png 290 90 01 6 3 0 0 
+
+138 * 6 12 \b1 
+02 \b2 \w366 
+
+139 sprites/png/gui/font_addl.png 270 100 01 21 14 0 -2 
+140 sprites/png/gui/font_addl.png 290 100 01 21 8 0 -2 
+
+141 * 6 12 \b1 
+00 \b2 \w262 
+
+142 sprites/png/gui/font_addl.png 310 70 01 13 9 0 -2 
+143 sprites/png/gui/font_addl.png 330 70 01 13 6 0 -2 
+
+144 * 6 12 \b1 
+01 \b2 \w262 
+
+145 sprites/png/gui/font_addl.png 310 90 01 6 3 0 0 
+146 sprites/png/gui/font_addl.png 330 90 01 6 3 0 0 
+
+147 * 6 12 \b1 
+02 \b2 \w262 
+
+148 sprites/png/gui/font_addl.png 310 100 01 21 12 0 -2 
+149 sprites/png/gui/font_addl.png 330 100 01 21 8 0 -2 
+
+150 * 6 12 \b1 
+00 \b2 \w272 
+
+151 sprites/png/gui/font_addl.png 350 70 01 13 9 0 -2 
+152 sprites/png/gui/font_addl.png 370 70 01 13 7 0 -2 
+
+153 * 6 12 \b1 
+01 \b2 \w272 
+
+154 sprites/png/gui/font_addl.png 350 90 01 5 4 0 1 
+155 sprites/png/gui/font_addl.png 370 90 01 6 4 0 0 
+
+156 * 6 12 \b1 
+02 \b2 \w272 
+
+157 sprites/png/gui/font_addl.png 350 100 01 21 14 0 -2 
+158 sprites/png/gui/font_addl.png 370 100 01 21 9 0 -2 
+
+159 * 6 12 \b1 
+00 \b2 \w317 
+
+160 sprites/png/gui/font_addl.png 390 70 01 13 7 0 -2 
+161 sprites/png/gui/font_addl.png 410 70 01 13 6 0 -2 
+
+162 * 6 12 \b1 
+01 \b2 \w317 
+
+163 sprites/png/gui/font_addl.png 390 90 01 5 5 0 1 
+164 sprites/png/gui/font_addl.png 410 90 01 5 3 0 1 
+
+165 * 6 12 \b1 
+02 \b2 \w317 
+
+166 sprites/png/gui/font_addl.png 390 100 01 21 12 0 -2 
+167 sprites/png/gui/font_addl.png 410 100 01 21 7 0 -2 
+
+168 * 6 12 \b1 
+00 \b1 \w180 
+
+169 sprites/png/gui/font_addl.png 30 130 01 13 4 0 -2 
+
+170 * 6 12 \b1 
+01 \b1 \w180 
+
+171 sprites/png/gui/font_addl.png 30 150 01 5 1 0 1 
+
+172 * 6 12 \b1 
+02 \b1 \w180 
+
+173 sprites/png/gui/font_addl.png 30 160 01 21 3 0 -2 
+
+174 * 6 12 \b1 
+00 \b1 \w189 
+
+175 sprites/png/gui/font_addl.png 40 130 01 13 11 0 -2 
+
+176 * 6 12 \b1 
+01 \b1 \w189 
+
+177 sprites/png/gui/font_addl.png 40 150 01 5 9 0 1 
+
+178 * 6 12 \b1 
+02 \b1 \w189 
+
+179 sprites/png/gui/font_addl.png 40 160 01 21 11 0 -2 
+
+180 * 6 12 \b1 
+00 \b1 \w181 
+
+181 sprites/png/gui/font_addl.png 60 130 01 13 6 0 -2 
+
+182 * 6 12 \b1 
+01 \b1 \w181 
+
+183 sprites/png/gui/font_addl.png 60 150 01 5 3 0 1 
+
+184 * 6 12 \b1 
+02 \b1 \w181 
+
+185 sprites/png/gui/font_addl.png 60 160 01 21 10 0 -2 
+
+186 * 6 12 \b1 
+00 \b1 \w170 
+
+187 sprites/png/gui/font_addl.png 80 130 01 13 5 0 -2 
+
+188 * 6 12 \b1 
+01 \b1 \w170 
+
+189 sprites/png/gui/font_addl.png 80 150 01 5 1 0 1 
+
+190 * 6 12 \b1 
+02 \b1 \w170 
+
+191 sprites/png/gui/font_addl.png 80 160 01 21 6 0 -2 
+
+192 * 6 12 \b1 
+00 \b1 \w8217 
+
+193 sprites/png/gui/font_addl.png 90 130 01 13 3 0 -2 
+
+194 * 6 12 \b1 
+01 \b1 \w8217 
+
+195 sprites/png/gui/font_addl.png 90 150 01 5 1 0 1 
+
+196 * 6 12 \b1 
+02 \b1 \w8217 
+
+197 sprites/png/gui/font_addl.png 90 160 01 21 4 0 -2 
+
+198 * 6 12 \b1 
+00 \b1 \w8222 
+
+199 sprites/png/gui/font_addl.png 100 130 01 13 5 0 -2 
+
+200 * 6 12 \b1 
+01 \b1 \w8222 
+
+201 sprites/png/gui/font_addl.png 100 150 01 5 3 0 1 
+
+202 * 6 12 \b1 
+02 \b1 \w8222 
+
+203 sprites/png/gui/font_addl.png 100 160 01 21 8 0 -2 
+
+204 * 6 12 \b1 
+00 \b1 \w8220 
+
+205 sprites/png/gui/font_addl.png 110 130 01 13 5 0 -2 
+
+206 * 6 12 \b1 
+01 \b1 \w8220 
+
+207 sprites/png/gui/font_addl.png 110 150 01 5 3 0 1 
+
+208 * 6 12 \b1 
+02 \b1 \w8220 
+
+209 sprites/png/gui/font_addl.png 110 160 01 21 8 0 -2 
+
+210 * 6 12 \b1 
+00 \b1 \w8250 
+
+211 sprites/png/gui/font_addl.png 760 130 01 13 5 0 -2 
+
+212 * 6 12 \b1 
+01 \b1 \w8250 
+
+213 sprites/png/gui/font_addl.png 760 150 01 5 2 0 1 
+
+214 * 6 12 \b1 
+02 \b1 \w8250 
+
+215 sprites/png/gui/font_addl.png 760 160 01 21 4 0 -2 
+
+216 * 6 12 \b1 
+00 \b1 \w8211 
+
+217 sprites/png/gui/font_addl.png 120 130 01 13 7 0 -2 
+
+218 * 6 12 \b1 
+01 \b1 \w8211 
+
+219 sprites/png/gui/font_addl.png 120 150 01 5 4 0 1 
+
+220 * 6 12 \b1 
+02 \b1 \w8211 
+
+221 sprites/png/gui/font_addl.png 120 160 01 21 9 0 -2 
+
+222 * 6 12 \b1 
+00 \b2 \w372 
+
+223 sprites/png/gui/font_addl.png 420 70 01 13 12 0 -2 
+224 sprites/png/gui/font_addl.png 440 70 01 13 10 0 -2 
+
+225 * 6 12 \b1 
+01 \b2 \w372 
+
+226 sprites/png/gui/font_addl.png 420 90 01 6 5 0 0 
+227 sprites/png/gui/font_addl.png 440 90 01 6 5 0 0 
+
+228 * 6 12 \b1 
+02 \b2 \w372 
+
+229 sprites/png/gui/font_addl.png 420 100 01 21 18 0 -2 
+230 sprites/png/gui/font_addl.png 440 100 01 21 13 0 -2 
+
+231 * 6 12 \b1 
+00 \b2 \w374 
+
+232 sprites/png/gui/font_addl.png 460 70 01 13 9 0 -2 
+233 sprites/png/gui/font_addl.png 480 70 01 13 7 0 -2 
+
+234 * 6 12 \b1 
+01 \b2 \w374 
+
+235 sprites/png/gui/font_addl.png 460 90 01 6 3 0 0 
+236 sprites/png/gui/font_addl.png 480 90 01 6 3 0 0 
+
+237 * 6 12 \b1 
+02 \b2 \w374 
+
+238 sprites/png/gui/font_addl.png 460 100 01 21 13 0 -2 
+239 sprites/png/gui/font_addl.png 480 100 01 21 9 0 -2 
+
+240 * 6 12 \b1 
+00 \b2 \w264 
+
+241 sprites/png/gui/font_addl.png 500 70 01 13 9 0 -2 
+242 sprites/png/gui/font_addl.png 520 70 01 13 6 0 -2 
+
+243 * 6 12 \b1 
+01 \b2 \w264 
+
+244 sprites/png/gui/font_addl.png 500 90 01 6 3 0 0 
+245 sprites/png/gui/font_addl.png 520 90 01 6 3 0 0 
+
+246 * 6 12 \b1 
+02 \b2 \w264 
+
+247 sprites/png/gui/font_addl.png 500 100 01 21 12 0 -2 
+248 sprites/png/gui/font_addl.png 520 100 01 21 8 0 -2 
+
+249 * 6 12 \b1 
+00 \b2 \w284 
+
+250 sprites/png/gui/font_addl.png 540 70 01 13 9 0 -2 
+251 sprites/png/gui/font_addl.png 560 70 01 13 6 0 -2 
+
+252 * 6 12 \b1 
+01 \b2 \w284 
+
+253 sprites/png/gui/font_addl.png 540 90 01 6 3 0 0 
+254 sprites/png/gui/font_addl.png 560 90 01 6 3 0 0 
+
+255 * 6 12 \b1 
+02 \b2 \w284 
+
+256 sprites/png/gui/font_addl.png 540 100 01 21 13 0 -2 
+257 sprites/png/gui/font_addl.png 560 100 01 21 10 0 -2 
+
+258 * 6 12 \b1 
+00 \b2 \w292 
+
+259 sprites/png/gui/font_addl.png 580 70 01 13 8 0 -2 
+260 sprites/png/gui/font_addl.png 600 70 01 13 8 0 -2 
+
+261 * 6 12 \b1 
+01 \b2 \w292 
+
+262 sprites/png/gui/font_addl.png 580 90 01 6 3 0 0 
+263 sprites/png/gui/font_addl.png 600 90 01 6 3 0 0 
+
+264 * 6 12 \b1 
+02 \b2 \w292 
+
+265 sprites/png/gui/font_addl.png 580 100 01 21 15 0 -2 
+266 sprites/png/gui/font_addl.png 600 100 01 21 10 0 -2 
+
+267 * 6 12 \b1 
+00 \b2 \w308 
+
+268 sprites/png/gui/font_addl.png 620 70 01 13 7 0 -2 
+269 sprites/png/gui/font_addl.png 640 70 01 13 6 0 -2 
+
+270 * 6 12 \b1 
+01 \b2 \w308 
+
+271 sprites/png/gui/font_addl.png 620 90 01 6 3 0 0 
+272 sprites/png/gui/font_addl.png 640 90 01 6 3 0 0 
+
+273 * 6 12 \b1 
+02 \b2 \w308 
+
+274 sprites/png/gui/font_addl.png 620 100 01 21 8 0 -2 
+275 sprites/png/gui/font_addl.png 640 100 01 21 5 0 -2 
+
+276 * 6 12 \b1 
+00 \b2 \w364 
+
+277 sprites/png/gui/font_addl.png 650 70 01 13 8 0 -2 
+278 sprites/png/gui/font_addl.png 670 70 01 13 6 0 -2 
+
+279 * 6 12 \b1 
+01 \b2 \w364 
+
+280 sprites/png/gui/font_addl.png 650 90 01 6 3 0 0 
+281 sprites/png/gui/font_addl.png 670 90 01 6 3 0 0 
+
+282 * 6 12 \b1 
+02 \b2 \w364 
+
+283 sprites/png/gui/font_addl.png 650 100 01 21 14 0 -2 
+284 sprites/png/gui/font_addl.png 670 100 01 21 9 0 -2 
+
+285 * 6 12 \b1 
+00 \b2 \w258 
+
+286 sprites/png/gui/font_addl.png 690 70 01 13 9 0 -2 
+287 sprites/png/gui/font_addl.png 710 70 01 13 7 0 -2 
+
+288 * 6 12 \b1 
+01 \b2 \w258 
+
+289 sprites/png/gui/font_addl.png 690 90 01 6 3 0 0 
+290 sprites/png/gui/font_addl.png 710 90 01 6 3 0 0 
+
+291 * 6 12 \b1 
+02 \b2 \w258 
+
+292 sprites/png/gui/font_addl.png 690 100 01 21 14 0 -2 
+293 sprites/png/gui/font_addl.png 710 100 01 21 8 0 -2 
+
+294 * 6 12 \b1 
+00 \b2 \w350 
+
+295 sprites/png/gui/font_addl.png 730 70 01 13 8 0 -2 
+296 sprites/png/gui/font_addl.png 740 70 01 13 6 0 -2 
+
+297 * 6 12 \b1 
+01 \b2 \w350 
+
+298 sprites/png/gui/font_addl.png 730 90 01 6 3 0 1 
+299 sprites/png/gui/font_addl.png 740 90 01 6 3 0 1 
+
+300 * 6 12 \b1 
+02 \b2 \w350 
+
+301 sprites/png/gui/font_addl.png 730 100 01 21 9 0 -2 
+302 sprites/png/gui/font_addl.png 740 100 01 21 6 0 -2 
+
+303 * 6 12 \b1 
+00 \b2 \w354 
+
+304 sprites/png/gui/font_addl.png 750 70 01 13 9 0 -2 
+305 sprites/png/gui/font_addl.png 770 70 01 13 6 0 -2 
+
+306 * 6 12 \b1 
+01 \b2 \w354 
+
+307 sprites/png/gui/font_addl.png 750 90 01 6 3 0 1 
+308 sprites/png/gui/font_addl.png 770 90 01 6 2 0 1 
+
+309 * 6 12 \b1 
+02 \b2 \w354 
+
+310 sprites/png/gui/font_addl.png 750 100 01 21 13 0 -2 
+311 sprites/png/gui/font_addl.png 770 100 01 21 5 0 -2 
+
+312 * 6 12 \b1 
+00 \b2 \w286 
+
+313 sprites/png/gui/font_addl.png 140 130 01 13 9 0 -2 
+314 sprites/png/gui/font_addl.png 160 130 01 13 6 0 -2 
+
+315 * 6 12 \b1 
+01 \b2 \w286 
+
+316 sprites/png/gui/font_addl.png 140 150 01 6 3 0 0 
+317 sprites/png/gui/font_addl.png 160 150 01 6 3 0 0 
+
+318 * 6 12 \b1 
+02 \b2 \w286 
+
+319 sprites/png/gui/font_addl.png 140 160 01 21 13 0 -2 
+320 sprites/png/gui/font_addl.png 160 160 01 21 10 0 -2 
+
+321 * 6 12 \b1 
+00 \b2 \w304 
+
+322 sprites/png/gui/font_addl.png 180 130 01 13 3 0 -2 
+323 sprites/png/gui/font_addl.png 190 130 01 13 3 0 -2 
+
+324 * 6 12 \b1 
+01 \b2 \w304 
+
+325 sprites/png/gui/font_addl.png 180 150 01 6 1 0 0 
+326 sprites/png/gui/font_addl.png 190 150 01 5 1 0 1 
+
+327 * 6 12 \b1 
+02 \b2 \w304 
+
+328 sprites/png/gui/font_addl.png 180 160 01 21 7 0 -2 
+329 sprites/png/gui/font_addl.png 190 160 01 21 4 0 -2 
+
+330 * 6 12 \b1 
+00 \b2 \w290 
+
+331 sprites/png/gui/font_addl.png 200 130 01 13 9 0 -2 
+332 sprites/png/gui/font_addl.png 220 130 01 13 6 0 -2 
+
+333 * 6 12 \b1 
+01 \b2 \w290 
+
+334 sprites/png/gui/font_addl.png 200 150 01 6 3 0 0 
+335 sprites/png/gui/font_addl.png 220 150 01 6 3 0 1 
+
+336 * 6 12 \b1 
+02 \b2 \w290 
+
+337 sprites/png/gui/font_addl.png 200 160 01 21 13 0 -2 
+338 sprites/png/gui/font_addl.png 220 160 01 21 10 0 -2 
+
+339 * 6 12 \b1 
+00 \b2 \w310 
+
+340 sprites/png/gui/font_addl.png 240 130 01 13 8 0 -2 
+341 sprites/png/gui/font_addl.png 260 130 01 13 7 0 -2 
+
+342 * 6 12 \b1 
+01 \b2 \w310 
+
+343 sprites/png/gui/font_addl.png 240 150 01 6 3 0 1 
+344 sprites/png/gui/font_addl.png 260 150 01 6 3 0 1 
+
+345 * 6 12 \b1 
+02 \b2 \w310 
+
+346 sprites/png/gui/font_addl.png 240 160 01 21 14 0 -2 
+347 sprites/png/gui/font_addl.png 260 160 01 21 10 0 -2 
+
+348 * 6 12 \b1 
+00 \b2 \w315 
+
+349 sprites/png/gui/font_addl.png 280 130 01 13 7 0 -2 
+350 sprites/png/gui/font_addl.png 300 130 01 13 4 0 -2 
+
+351 * 6 12 \b1 
+01 \b2 \w315 
+
+352 sprites/png/gui/font_addl.png 280 150 01 6 3 0 1 
+353 sprites/png/gui/font_addl.png 300 150 01 6 2 0 1 
+
+354 * 6 12 \b1 
+02 \b2 \w315 
+
+355 sprites/png/gui/font_addl.png 280 160 01 21 12 0 -2 
+356 sprites/png/gui/font_addl.png 300 160 01 21 5 0 -2 
+
+357 * 6 12 \b1 
+00 \b2 \w325 
+
+358 sprites/png/gui/font_addl.png 310 130 01 13 8 0 -2 
+359 sprites/png/gui/font_addl.png 330 130 01 13 6 0 -2 
+
+360 * 6 12 \b1 
+01 \b2 \w325 
+
+361 sprites/png/gui/font_addl.png 310 150 01 6 4 0 1 
+362 sprites/png/gui/font_addl.png 330 150 01 6 3 0 1 
+
+363 * 6 12 \b1 
+02 \b2 \w325 
+
+364 sprites/png/gui/font_addl.png 310 160 01 21 16 0 -2 
+365 sprites/png/gui/font_addl.png 330 160 01 21 10 0 -2 
+
+366 * 6 12 \b1 
+00 \b2 \w256 
+
+367 sprites/png/gui/font_addl.png 350 130 01 13 9 0 -2 
+368 sprites/png/gui/font_addl.png 370 130 01 13 7 0 -2 
+
+369 * 6 12 \b1 
+01 \b2 \w256 
+
+370 sprites/png/gui/font_addl.png 350 150 01 6 3 0 0 
+371 sprites/png/gui/font_addl.png 370 150 01 6 3 0 0 
+
+372 * 6 12 \b1 
+02 \b2 \w256 
+
+373 sprites/png/gui/font_addl.png 350 160 01 21 14 0 -2 
+374 sprites/png/gui/font_addl.png 370 160 01 21 8 0 -2 
+
+375 * 6 12 \b1 
+00 \b2 \w274 
+
+376 sprites/png/gui/font_addl.png 380 130 01 13 8 0 -2 
+377 sprites/png/gui/font_addl.png 400 130 01 13 6 0 -2 
+
+378 * 6 12 \b1 
+01 \b2 \w274 
+
+379 sprites/png/gui/font_addl.png 380 150 01 6 3 0 0 
+380 sprites/png/gui/font_addl.png 400 150 01 6 3 0 0 
+
+381 * 6 12 \b1 
+02 \b2 \w274 
+
+382 sprites/png/gui/font_addl.png 380 160 01 21 13 0 -2 
+383 sprites/png/gui/font_addl.png 400 160 01 21 8 0 -2 
+
+384 * 6 12 \b1 
+00 \b2 \w298 
+
+385 sprites/png/gui/font_addl.png 410 130 01 13 5 0 -2 
+386 sprites/png/gui/font_addl.png 420 130 01 13 5 0 -2 
+
+387 * 6 12 \b1 
+01 \b2 \w298 
+
+388 sprites/png/gui/font_addl.png 410 150 01 6 3 0 0 
+389 sprites/png/gui/font_addl.png 420 150 01 6 3 0 0 
+
+390 * 6 12 \b1 
+02 \b2 \w298 
+
+391 sprites/png/gui/font_addl.png 410 160 01 21 7 0 -2 
+392 sprites/png/gui/font_addl.png 420 160 01 21 4 0 -2 
+
+393 * 6 12 \b1 
+00 \b2 \w362 
+
+394 sprites/png/gui/font_addl.png 430 130 01 13 8 0 -2 
+395 sprites/png/gui/font_addl.png 450 130 01 13 6 0 -2 
+
+396 * 6 12 \b1 
+01 \b2 \w362 
+
+397 sprites/png/gui/font_addl.png 430 150 01 6 3 0 0 
+398 sprites/png/gui/font_addl.png 450 150 01 6 3 0 0 
+
+399 * 6 12 \b1 
+02 \b2 \w362 
+
+400 sprites/png/gui/font_addl.png 430 160 01 21 14 0 -2 
+401 sprites/png/gui/font_addl.png 450 160 01 21 9 0 -2 
+
+402 * 6 12 \b1 
+00 \b2 \w323 
+
+403 sprites/png/gui/font_addl.png 470 130 01 13 8 0 -2 
+404 sprites/png/gui/font_addl.png 490 130 01 13 6 0 -2 
+
+405 * 6 12 \b1 
+01 \b2 \w323 
+
+406 sprites/png/gui/font_addl.png 470 150 01 6 4 0 0 
+407 sprites/png/gui/font_addl.png 490 150 01 6 3 0 0 
+
+408 * 6 12 \b1 
+02 \b2 \w323 
+
+409 sprites/png/gui/font_addl.png 470 160 01 21 16 0 -2 
+410 sprites/png/gui/font_addl.png 490 160 01 21 10 0 -2 
+
+411 * 6 12 \b1 
+00 \b2 \w346 
+
+412 sprites/png/gui/font_addl.png 510 130 01 13 8 0 -2 
+413 sprites/png/gui/font_addl.png 520 130 01 13 6 0 -2 
+
+414 * 6 12 \b1 
+01 \b2 \w346 
+
+415 sprites/png/gui/font_addl.png 510 150 01 6 3 0 0 
+416 sprites/png/gui/font_addl.png 520 150 01 6 3 0 0 
+
+417 * 6 12 \b1 
+02 \b2 \w346 
+
+418 sprites/png/gui/font_addl.png 510 160 01 21 9 0 -2 
+419 sprites/png/gui/font_addl.png 520 160 01 21 6 0 -2 
+
+420 * 6 12 \b1 
+00 \b2 \w379 
+
+421 sprites/png/gui/font_addl.png 530 130 01 13 8 0 -2 
+422 sprites/png/gui/font_addl.png 550 130 01 13 7 0 -2 
+
+423 * 6 12 \b1 
+01 \b2 \w379 
+
+424 sprites/png/gui/font_addl.png 530 150 01 6 3 0 0 
+425 sprites/png/gui/font_addl.png 550 150 01 6 3 0 0 
+
+426 * 6 12 \b1 
+02 \b2 \w379 
+
+427 sprites/png/gui/font_addl.png 530 160 01 21 12 0 -2 
+428 sprites/png/gui/font_addl.png 550 160 01 21 7 0 -2 
+
+429 * 6 12 \b1 
+00 \b2 \w377 
+
+430 sprites/png/gui/font_addl.png 770 130 01 13 8 0 -2 
+431 sprites/png/gui/font_addl.png 790 130 01 13 7 0 -2 
+
+432 * 6 12 \b1 
+01 \b2 \w377 
+
+433 sprites/png/gui/font_addl.png 770 150 01 6 3 0 0 
+434 sprites/png/gui/font_addl.png 790 150 01 6 3 0 0 
+
+435 * 6 12 \b1 
+02 \b2 \w377 
+
+436 sprites/png/gui/font_addl.png 770 160 01 21 12 0 -2 
+437 sprites/png/gui/font_addl.png 790 160 01 21 7 0 -2 
+
+438 * 6 12 \b1 
+00 \b2 \w313 
+
+439 sprites/png/gui/font_addl.png 30 190 01 13 7 0 -2 
+440 sprites/png/gui/font_addl.png 50 190 01 13 4 0 -2 
+
+441 * 6 12 \b1 
+01 \b2 \w313 
+
+442 sprites/png/gui/font_addl.png 30 210 01 6 3 0 0 
+443 sprites/png/gui/font_addl.png 50 210 01 6 2 0 0 
+
+444 * 6 12 \b1 
+02 \b2 \w313 
+
+445 sprites/png/gui/font_addl.png 30 220 01 21 12 0 -2 
+446 sprites/png/gui/font_addl.png 50 220 01 21 5 0 -2 
+
+447 * 6 12 \b1 
+00 \b2 \w321 
+
+448 sprites/png/gui/font_addl.png 560 130 01 13 8 0 -2 
+449 sprites/png/gui/font_addl.png 580 130 01 13 5 0 -2 
+
+450 * 6 12 \b1 
+01 \b2 \w321 
+
+451 sprites/png/gui/font_addl.png 560 150 01 5 4 0 1 
+452 sprites/png/gui/font_addl.png 580 150 01 5 3 0 1 
+
+453 * 6 12 \b1 
+02 \b2 \w321 
+
+454 sprites/png/gui/font_addl.png 560 160 01 21 12 0 -2 
+455 sprites/png/gui/font_addl.png 580 160 01 21 6 0 -2 
+
+456 * 6 12 \b1 
+00 \b2 \w260 
+
+457 sprites/png/gui/font_addl.png 590 130 01 13 9 0 -2 
+458 sprites/png/gui/font_addl.png 610 130 01 13 7 0 -2 
+
+459 * 6 12 \b1 
+01 \b2 \w260 
+
+460 sprites/png/gui/font_addl.png 590 150 01 6 3 0 1 
+461 sprites/png/gui/font_addl.png 610 150 01 6 3 0 1 
+
+462 * 6 12 \b1 
+02 \b2 \w260 
+
+463 sprites/png/gui/font_addl.png 590 160 01 21 14 0 -2 
+464 sprites/png/gui/font_addl.png 610 160 01 21 8 0 -2 
+
+465 * 6 12 \b1 
+00 \b2 \w280 
+
+466 sprites/png/gui/font_addl.png 620 130 01 13 8 0 -2 
+467 sprites/png/gui/font_addl.png 640 130 01 13 6 0 -2 
+
+468 * 6 12 \b1 
+01 \b2 \w280 
+
+469 sprites/png/gui/font_addl.png 620 150 01 6 3 0 1 
+470 sprites/png/gui/font_addl.png 640 150 01 6 3 0 1 
+
+471 * 6 12 \b1 
+02 \b2 \w280 
+
+472 sprites/png/gui/font_addl.png 620 160 01 21 13 0 -2 
+473 sprites/png/gui/font_addl.png 640 160 01 21 8 0 -2 
+
+474 * 6 12 \b1 
+00 \b2 \w302 
+
+475 sprites/png/gui/font_addl.png 650 130 01 13 4 0 -2 
+476 sprites/png/gui/font_addl.png 660 130 01 13 4 0 -2 
+
+477 * 6 12 \b1 
+01 \b2 \w302 
+
+478 sprites/png/gui/font_addl.png 650 150 01 6 2 0 1 
+479 sprites/png/gui/font_addl.png 660 150 01 6 2 0 1 
+
+480 * 6 12 \b1 
+02 \b2 \w302 
+
+481 sprites/png/gui/font_addl.png 650 160 01 21 7 0 -2 
+482 sprites/png/gui/font_addl.png 660 160 01 21 4 0 -2 
+
+483 * 6 12 \b1 
+00 \b2 \w370 
+
+484 sprites/png/gui/font_addl.png 670 130 01 13 8 0 -2 
+485 sprites/png/gui/font_addl.png 690 130 01 13 7 0 -2 
+
+486 * 6 12 \b1 
+01 \b2 \w370 
+
+487 sprites/png/gui/font_addl.png 670 150 01 6 3 0 1 
+488 sprites/png/gui/font_addl.png 690 150 01 6 3 0 1 
+
+489 * 6 12 \b1 
+02 \b2 \w370 
+
+490 sprites/png/gui/font_addl.png 670 160 01 21 14 0 -2 
+491 sprites/png/gui/font_addl.png 690 160 01 21 9 0 -2 
+
+492 * 6 12 \b1 
+00 \b2 \w278 
+
+493 sprites/png/gui/font_addl.png 710 130 01 13 8 0 -2 
+494 sprites/png/gui/font_addl.png 730 130 01 13 6 0 -2 
+
+495 * 6 12 \b1 
+01 \b2 \w278 
+
+496 sprites/png/gui/font_addl.png 710 150 01 6 3 0 0 
+497 sprites/png/gui/font_addl.png 730 150 01 6 3 0 0 
+
+498 * 6 12 \b1 
+02 \b2 \w278 
+
+499 sprites/png/gui/font_addl.png 710 160 01 21 13 0 -2 
+500 sprites/png/gui/font_addl.png 730 160 01 21 8 0 -2 
+
+501 * 6 12 \b1 
+00 \b2 \w348 
+
+502 sprites/png/gui/font_addl.png 740 130 01 13 8 0 -2 
+503 sprites/png/gui/font_addl.png 750 130 01 13 6 0 -2 
+
+504 * 6 12 \b1 
+01 \b2 \w348 
+
+505 sprites/png/gui/font_addl.png 740 150 01 6 3 0 0 
+506 sprites/png/gui/font_addl.png 750 150 01 6 3 0 0 
+
+507 * 6 12 \b1 
+02 \b2 \w348 
+
+508 sprites/png/gui/font_addl.png 740 160 01 21 9 0 -2 
+509 sprites/png/gui/font_addl.png 750 160 01 21 6 0 -2 
+
+510 * 6 12 \b1 
+02 \b1 \w198 
+
+511 sprites/png/gui/font_addl.png 300 40 01 21 19 0 -2 
+
+512 * 6 12 \b1 
+02 \b1 \w230 
+
+513 sprites/png/gui/font_addl.png 280 40 01 21 13 0 -2 
+
+514 * 6 12 \b1 
+02 \b1 \w216 
+
+515 sprites/png/gui/font_addl.png 330 40 01 21 13 0 -2 
+
+516 * 6 12 \b1 
+02 \b1 \w248 
+
+517 sprites/png/gui/font_addl.png 320 40 01 21 9 0 -2 
+
+518 * 6 12 \b1 
+02 \b1 \w208 
+
+519 sprites/png/gui/font_addl.png 350 40 01 21 14 0 -2 
+
+520 * 6 12 \b1 
+02 \b1 \w240 
+
+521 sprites/png/gui/font_addl.png 370 40 01 21 9 0 -2 
+
+522 * 6 12 \b1 
+02 \b1 \w222 
+
+523 sprites/png/gui/font_addl.png 380 40 01 21 14 0 -2 
+
+524 * 6 12 \b1 
+02 \b1 \w254 
+
+525 sprites/png/gui/font_addl.png 400 40 01 21 14 0 -2 
+
+526 * 6 12 \b1 
+02 \b1 \w167 
+
+527 sprites/png/gui/font_addl.png 420 40 01 21 9 0 -2 
+
+528 * 6 12 \b1 
+02 \b1 \w169 
+
+529 sprites/png/gui/font_addl.png 430 40 01 21 16 0 -2 
+
+530 * 6 12 \b1 
+02 \b1 \w174 
+
+531 sprites/png/gui/font_addl.png 150 40 01 21 7 0 -2 
+
+532 * 6 12 \b1 
+02 \b3 \w177 
+
+533 sprites/png/gui/font_addl.png 480 40 01 21 9 0 -2 
+534 sprites/png/gui/font_addl.png 490 40 01 21 6 0 -2 
+535 sprites/png/gui/font_addl.png 500 40 01 21 5 0 -2 
+
+536 * 6 12 \b1 
+02 \b1 \w215 
+
+537 sprites/png/gui/font_addl.png 510 40 01 21 8 0 -2 
+
+538 * 6 12 \b1 
+02 \b1 \w247 
+
+539 sprites/png/gui/font_addl.png 520 40 01 21 9 0 -2 
+
