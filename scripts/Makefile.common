@@ -29,10 +29,6 @@ clean::
 	$(_V)-rm -rf $(patsubst %.grf,%.src.dep,$(GRF_FILES))
 	$(_V)-rm -rf $(patsubst %.grf,%.gfx.dep,$(GRF_FILES))
 	$(_V)-rm -rf $(patsubst %.grf,%.md5,$(GRF_FILES))
-ifdef NEED_GIMP
-	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/")
-	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
-endif # NEED_GIMP
 	$(_V)-rm -rf $(DIR_NAME)
 	$(_V)-rm -rf $(DIR_BASE)*-source
 	$(_V)-rm -rf $(DIR_BASE)*-source.tar*
@@ -52,6 +48,10 @@ distclean:: clean
 # but not in the repository.
 maintainer-clean mrproper:: distclean
 	$(_E) "[MAINTAINER-CLEAN]"
+ifdef NEED_GIMP
+	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/")
+	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
+endif # NEED_GIMP
 	$(_V)-rm -rf $(MD5_SRC_FILENAME)
 	$(_V)-rm -rf Makefile.dist
 
