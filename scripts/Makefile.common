@@ -116,7 +116,7 @@ ifdef NEED_GIMP
 	$(_V) echo "" > $@
 	$(_V) for j in $(GRAPHICS_SOURCE_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/"`; do echo "$$i: $$j" >> $@; done; done
 	$(_V) cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | sed "s/[ ] */ /g" | cut -d\  -f1-2 | sed "s/ /: /g" >> $@
-	$(_V) for i in `cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1`; do echo "gfx: $$i" >> $@; donett
+	$(_V) for i in `cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1`; do echo "gfx: $$i" >> $@; done
 else # NEED_GIMP
 	$(_V) touch $@
 endif # NEED_GIMP
