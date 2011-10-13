@@ -12,20 +12,20 @@ sprites/png/trees/temperate/tree_wide_17_leaf.gimp.png          sprites/source/l
 sprites/png/trees/temperate/tree_wide_18_leaf.gimp.png          sprites/source/landscape/trees_wide.xcf     Background Tree18_leaf
 sprites/png/trees/temperate/tree_wide_19_leaf.gimp.png          sprites/source/landscape/trees_wide.xcf     Background Tree19_leaf
 
-sprites/png/trees/arctic/trees_01_conifer.gimp.png              sprites/source/landscape/trees.xcf          Background Tree01_conifer
-sprites/png/trees/arctic/trees_08_conifer.gimp.png              sprites/source/landscape/trees.xcf          Background Tree08_pine
-sprites/png/trees/arctic/trees_06_leaf.gimp.png                 sprites/source/landscape/trees.xcf          Background Tree06_leaf
-sprites/png/trees/arctic/trees_07_leaf.gimp.png                 sprites/source/landscape/trees.xcf          Background Tree07_leaf
-sprites/png/trees/arctic/trees_10_leaf.gimp.png                 sprites/source/landscape/trees.xcf          Background Tree10_beach
-sprites/png/trees/arctic/trees_09_conifer.gimp.png              sprites/source/landscape/trees.xcf          Background Tree09_fir
-sprites/png/trees/arctic/trees_04_conifer.gimp.png              sprites/source/landscape/trees.xcf          Background Tree04_conifer
-sprites/png/trees/arctic/trees_05_conifer.gimp.png              sprites/source/landscape/trees.xcf          Background Tree05_conifer
+sprites/png/trees/arctic/tree_01_conifer.gimp.png               sprites/source/landscape/trees.xcf          Background Tree01_conifer
+sprites/png/trees/arctic/tree_08_conifer.gimp.png               sprites/source/landscape/trees.xcf          Background Tree08_pine
+sprites/png/trees/arctic/tree_06_leaf.gimp.png                  sprites/source/landscape/trees.xcf          Background Tree06_leaf
+sprites/png/trees/arctic/tree_07_leaf.gimp.png                  sprites/source/landscape/trees.xcf          Background Tree07_leaf
+sprites/png/trees/arctic/tree_10_leaf.gimp.png                  sprites/source/landscape/trees.xcf          Background Tree10_beach
+sprites/png/trees/arctic/tree_09_conifer.gimp.png               sprites/source/landscape/trees.xcf          Background Tree09_fir
+sprites/png/trees/arctic/tree_04_conifer.gimp.png               sprites/source/landscape/trees.xcf          Background Tree04_conifer
+sprites/png/trees/arctic/tree_05_conifer.gimp.png               sprites/source/landscape/trees.xcf          Background Tree05_conifer
 
-sprites/png/trees/arctic/trees_01_snow_conifer.gimp.png         sprites/source/landscape/trees.xcf          Background Tree01_conifer Snow01
-sprites/png/trees/arctic/trees_08_snow_conifer.gimp.png         sprites/source/landscape/trees.xcf          Background Tree08_pine    Snow08
-sprites/png/trees/arctic/trees_06_snow_leaf.gimp.png            sprites/source/landscape/trees.xcf          Background Tree06_leaf    Snow06
-sprites/png/trees/arctic/trees_07_snow_leaf.gimp.png            sprites/source/landscape/trees.xcf          Background Tree07_leaf    Snow07
-sprites/png/trees/arctic/trees_10_snow_leaf.gimp.png            sprites/source/landscape/trees.xcf          Background Tree10_beach   Snow10
-sprites/png/trees/arctic/trees_09_snow_conifer.gimp.png         sprites/source/landscape/trees.xcf          Background Tree09_fir     Snow09
-sprites/png/trees/arctic/trees_04_snow_conifer.gimp.png         sprites/source/landscape/trees.xcf          Background Tree04_conifer Snow04
-sprites/png/trees/arctic/trees_05_snow_conifer.gimp.png         sprites/source/landscape/trees.xcf          Background Tree05_conifer Snow05
+sprites/png/trees/arctic/tree_01_snow_conifer.gimp.png          sprites/source/landscape/trees.xcf          Background Tree01_conifer Snow01
+sprites/png/trees/arctic/tree_08_snow_conifer.gimp.png          sprites/source/landscape/trees.xcf          Background Tree08_pine    Snow08
+sprites/png/trees/arctic/tree_06_snow_leaf.gimp.png             sprites/source/landscape/trees.xcf          Background Tree06_leaf    Snow06
+sprites/png/trees/arctic/tree_07_snow_leaf.gimp.png             sprites/source/landscape/trees.xcf          Background Tree07_leaf    Snow07
+sprites/png/trees/arctic/tree_10_snow_leaf.gimp.png             sprites/source/landscape/trees.xcf          Background Tree10_beach   Snow10
+sprites/png/trees/arctic/tree_09_snow_conifer.gimp.png          sprites/source/landscape/trees.xcf          Background Tree09_fir     Snow09
+sprites/png/trees/arctic/tree_04_snow_conifer.gimp.png          sprites/source/landscape/trees.xcf          Background Tree04_conifer Snow04
+sprites/png/trees/arctic/tree_05_snow_conifer.gimp.png          sprites/source/landscape/trees.xcf          Background Tree05_conifer Snow05
