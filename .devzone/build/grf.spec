@@ -60,7 +60,7 @@ grf2html -o grf2html *.grf 1>%{name}-%{version}-grf2html.log 2>&1
 
 # cleanup error log
 mv %{name}-%{version}-build.err.log error.log
-cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v "^$" >%{name}-%{version}-build.err.log
+cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v "^$" >%{name}-%{version}-build.err.log || :
 
 %install
 make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
