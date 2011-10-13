@@ -14,21 +14,31 @@ $(DIR_NAME): $(MAKEFILE_DEP) $(BUNDLE_FILES)
 	$(_E) "[TAR] $@"
 	$(_V) $(TAR) $(TAR_FLAGS) $@ $(basename $@)
 
-bundle_tar: $(TAR_FILENAME)
-bundle_zip: $(ZIP_FILENAME)
+bundle_tar:
+	$(MAKE) $(MAKE_FLAGS) build-gfx
+	$(MAKE) $(MAKE_FLAGS) $(TAR_FILENAME)
+bundle_zip:
+	$(MAKE) $(MAKE_FLAGS) build-gfx
+	$(MAKE) $(MAKE_FLAGS) $(ZIP_FILENAME)
 %.zip: $(DIR_NAME)
 	$(_E) "[ZIP] $@"
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
-bundle_bzip: $(BZIP_FILENAME)
+bundle_bzip:
+	$(MAKE) $(MAKE_FLAGS) build-gfx
+	$(MAKE) $(MAKE_FLAGS) $(BZIP_FILENAME)
 %.tar.bz2: %.tar
 	$(_E) "[BZIP] $@"
 	$(_V) $(BZIP) $(BZIP_FLAGS) $^
-bundle_gzip: $(GZIP_FILENAME)
+bundle_gzip:
+	$(MAKE) $(MAKE_FLAGS) build-gfx
+	$(MAKE) $(MAKE_FLAGS) $(GZIP_FILENAME)
 # gzip has no option -k, so we cat the tar to keep it
 %.tar.gz: %.tar
 	$(_E) "[GZIP] $@"
 	$(_V) cat $^ | $(GZIP) $(GZIP_FLAGS) > $@
-bundle_xz: $(XZ_FILENAME)
+bundle_xz:
+	$(MAKE) $(MAKE_FLAGS) build-gfx
+	$(MAKE) $(MAKE_FLAGS) $(XZ_FILENAME)
 %.tar.xz: %.tar
 	$(_E) "[XZ] $@"
 	$(_V) $(XZ) $(XZ_FLAGS) $^
@@ -81,10 +91,18 @@ check: $(MD5_FILENAME)
 
 bundle_src: bundle_gsrc
 	$(_E) "Target '$@' is depreciated, it depends on '$<', other types are: 'bundle_bsrc' (tar.bz2), 'bundle_gsrc' (tar.gz), 'bundle_xsrc' (tar.xz), 'bundle_zsrc' (zip)"
-bundle_bsrc: $(DIR_NAME_SRC).tar.bz2
-bundle_gsrc: $(DIR_NAME_SRC).tar.gz
-bundle_xsrc: $(DIR_NAME_SRC).tar.xz
-bundle_zsrc: $(DIR_NAME_SRC).zip
+bundle_bsrc:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).tar.bz2
+bundle_gsrc:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).tar.gz
+bundle_xsrc:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).tar.xz
+bundle_zsrc:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).zip
 
 # Addition to config for tar releases
 Makefile.dist: $(REV_FILENAME) $(SCRIPT_DIR)/Makefile.bundles
@@ -114,7 +132,9 @@ $(DIR_NAME_SRC):
 	$(_V) false
 endif
 
-bundle_tarsrc: $(DIR_NAME_SRC).tar
+bundle_tarsrc:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).tar
 
 $(INSTALL_DIR):
 	$(_E) "[WRITING]"

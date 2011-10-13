@@ -18,9 +18,15 @@ docs: $(DOC_FILES)
 gfx:
 	$(_E) "[GFX]"
 
+build-gfx:
+	$(_V) $(MAKE) $(MAKE_FLAGS) depend
+	$(_V) $(MAKE) $(MAKE_FLAGS) gfx
+
 grf: $(GRF_FILES)
 
-bundle: $(DIR_NAME)
+bundle:
+	$(_V) $(MAKE) $(MAKE_FLAGS) build-gfx
+	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME)
 
 clean::
 	$(_E) "[CLEAN]"
