@@ -1,8 +1,8 @@
 
 Name:           %{dz_repo}
-Version:        %{dz_version} 
-Release:        %{_vendor}%{?suse_version} 
-Summary:        DevZone Projects Compiler 
+Version:        %{dz_version}
+Release:        %{_vendor}%{?suse_version}
+Summary:        DevZone Projects Compiler
 
 Group:          Amusements/Games
 License:        GPLv2
@@ -31,7 +31,11 @@ cd %{name}.hg
 
 make maintainer-clean
 
-make %{?_smp_mflags} bundle_xsrc bundle_gsrc bundle_zip bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} 1>../%{name}/%{name}-%{version}-build.log 2>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_xsrc 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_gsrc 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_zip ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
+make %{?_smp_mflags} bundle_ttdp ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>>../%{name}/%{name}-%{version}-build.log 2>>../%{name}/%{name}-%{version}-build.err.log
 
 hg st 1>> ../%{name}/%{name}-%{version}-build.err.log 2>>../%{name}/%{name}-%{version}-build.err.log
 [[ $(hg st -m) ]] && exit
@@ -61,7 +65,7 @@ make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
 make check
 
 %clean
-#rm -rf %{buildroot} 
+#rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
