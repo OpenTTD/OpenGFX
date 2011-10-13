@@ -10,9 +10,13 @@ include scripts/Makefile.def
 # most important build targets for users
 all:
 	$(_V) $(MAKE) $(MAKE_FLAGS) depend
+	$(_V) $(MAKE) $(MAKE_FLAGS) gfx
 	$(_V) $(MAKE) $(MAKE_FLAGS) $(TARGET_FILES) $(DOC_FILES)
 
 docs: $(DOC_FILES)
+
+gfx:
+	$(_E) "[GFX]"
 
 grf: $(GRF_FILES)
 

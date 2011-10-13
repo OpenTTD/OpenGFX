@@ -42,3 +42,7 @@ maintainer-clean::
 
 test::
 	$(_E) "Graphics source list:         $(GRAPHICS_SOURCE_LIST_FILES)"
+
+
+ogfxe_extra.grf: $(TAG_FILENAME)
+ogfxe_extra.nml: $(REV_FILENAME) $(TAG_FILENAME)

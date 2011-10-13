@@ -24,7 +24,7 @@ LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
 	$(_E) "[DEP] $@"
 	$(_V) $(NML) -M --MF $@ $<
 
-%.grf: %.nml %.gfx.dep $(TAG_FILENAME) $(LANG_FILES) $(MAKEFILE_DEP)
+%.grf: %.nml %.gfx.dep $(LANG_FILES) $(MAKEFILE_DEP)
 	$(_E) "[NML] $@"
 	$(_V) $(NML) $(NML_FLAGS) --grf $@ $<
 
