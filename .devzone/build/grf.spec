@@ -58,6 +58,10 @@ cp ../%{name}.hg/docs/ttdpatch.txt ttdpatch/ 1>>%{name}-%{version}-build.log 2>>
 make %{?_smp_mflags} docs UNIX2DOS= 1>>%{name}-%{version}-build.log 2>>%{name}-%{version}-build.err.log
 grf2html -o grf2html *.grf 1>%{name}-%{version}-grf2html.log 2>&1
 
+# cleanup error log
+mv %{name}-%{version}-build.err.log error.log
+cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v "^$" >%{name}-%{version}-build.err.log
+
 %install
 make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
 
