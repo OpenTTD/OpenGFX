@@ -1,2 +1,6 @@
 sprites/png/terrain/grass-temperate.gimp.png     sprites/source/terrain/terrain.xcf      White BlueForShore GroundTemperate GridTemperate
 sprites/png/terrain/grass-arctic.gimp.png        sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic
+sprites/png/terrain/grass-arctic-snow14.gimp.png    sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic SnowLv1
+sprites/png/terrain/grass-arctic-snow24.gimp.png    sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic SnowLv1 SnowLv2
+sprites/png/terrain/grass-arctic-snow34.gimp.png    sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic SnowLv1 SnowLv2 SnowLv3
+sprites/png/terrain/grass-snow.gimp.png             sprites/source/terrain/terrain.xcf      White BlueForShore GroundSnow      GridSnow
