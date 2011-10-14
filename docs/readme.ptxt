@@ -12,8 +12,7 @@ Contents
 4 Reporting bugs and Contributing
 5 Building of OpenGFX
     5.1 Notes for package maintainers
-    5.2 Note on the NML files
-    5.3 Note on the xcf and psd files
+    5.2 Note on the xcf and psd files
 6 License
     6.1 Obtaining the source
 7 Credits
@@ -153,27 +152,26 @@ http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0
 =========================================
 
 The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball.
-You can do an anonymous checkout from http://mz.openttdcoop.org/hg/opengfx ,
+You can do an anonymous checkout from http://hg.openttdcoop.org/opengfx ,
 e.g. using
-    hg clone http://mz.openttdcoop.org/hg/opengfx
+    hg clone http://hg.openttdcoop.org/opengfx
 or obtain the tarball from
     http://bundles.openttdcoop.org/opengfx/releases.
 
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
-- grfcodec and nforenum, version 5.1.2
-  (available from http://www.openttd.org/download-grfcodec)
+- nml r1697 or 0.2.0
+  (available from http://bundles.openttdcoop.org/nml/ )
 - some gnu utils: make, cat, sed, awk
   and you might additionally want a text editor of your choice and a graphics
   programme suitable to handle palettes.
 - mercurial (only when not building from a tarball, available from
   http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages)
 
-Optionally, required to re-generated all repository files after executing
-'maintainer-clean':
-- gimp 2.4 or later (only when building png files from their layered source files)
-- nml 0.2 or later (only when building pnfo files from the corresponding pnml file)
+Optionally, required to re-generated all graphics files from their layered source
+  files after executing 'maintainer-clean':
+- gimp 2.4 or later
 
 On Windows: we advise to get a mingw development environment, download grfcodec,
 nforenum and mercurial from the sources mentioned above)
@@ -205,6 +203,7 @@ OpenGFX using make. The following targets are available:
   Makefile.local to specify a different path.
 - clean: cleans all generated files
 - mrproper: also cleans generated directories
+- maintainer-clean: clean also the graphics files can be re-generated via gimp
 - bundle_src: create a source tarball
 - bundle_zip: create a zip archive of OpenGFX
 - bundle_bz2: create a bzip2 archive of OpenGFX
@@ -232,18 +231,8 @@ Mind to re-start OpenTTD as it needs to re-read the grf files.
   consistency and better readability to INSTALL_DIR. The old INSTALLDIR still
   works but is deprecated.
 
-5.2 Note on the NML files
--------------------------
-The repository contains a few NML files in sprites/nml/*/*.pnml which act as
-possible source for the corresponding pnfo files in sprites/nfo/*/*.pnfo files.
-NML is no requirement to build OpenGFX as the NFO files are part of the
-repository, but some repetitive alignment tasks are made a bit easier by using
-NML. The pnfo files can only be generated from the pnml files when nml is found in
-the path.
-Calling 'maintainer-clean' will delete the pnfo files which can be re-generated
-by means of nml.
 
-5.3 Note on the xcf and psd files
+5.2 Note on the xcf and psd files
 ---------------------------------
 The repository contains a few xcf2png files which indicate which png files can
 be generated from the source xcf or psd files. This will only be used, if gimp
@@ -257,7 +246,7 @@ from a xcf or psd file.
 =========
 
 OpenGFX Graphics Base Set for OpenTTD
-Copyright (C) 2007-2011 by the OpenGFX team (see below)
+Copyright (C) 2007-2011 by the OpenGFX team (see credits section below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
@@ -270,8 +259,9 @@ for more details.
 
 You should have received a copy of the GNU General Public License along with
 this program; if not, write to the
-Free Software Foundation, Inc., 1 Franklin Street, Fifth Floor, Boston, MA 02110-1301
-USA.
+
+Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
 
@@ -326,7 +316,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 * Ammler (Marcel Gmür)
 * 2006TTD (Anthony Lam)
 
-Contact: ottd @ planetmaker.de or on irc.oftc.net/#openttd
+Contact: planetmaker @ openttd.org or on irc.oftc.net/#openttd
 
 A detailed list of who worked on what is available in the file
 docs/authoroverview.csv in the source repository.
