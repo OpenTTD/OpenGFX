@@ -1,3 +1,14 @@
+OpenGFX r829
+------------
+- Change [Makefile]: Update to makefile framework r364
+- Change: Convert project to NML source
+- Add: Introduce a graphics source list and allow to generate png files from the xcf if gimp is present
+- Fix: Wrong palette for piggybank and toyland bubble tree.
+- Fix: Naming of bundles for TTDPatch usage was broken
+- Cleanup: Don't define the same sprite in two places differently
+
+
+
 OpenGFX 0.3.7 (07 Oct 2011)
 ---------------------------
 - Feature: GUI sprites for autoreplace status for vehicle groups
