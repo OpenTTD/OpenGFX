@@ -13,7 +13,7 @@ NML_FLAGS      ?= -c -p WIN
 CC             ?= gcc
 CC_FLAGS       ?= -C -E - <
 
-GIMP           ?= $(shell [ `which gimp` ] && echo "gimp" || echo "")
+GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
 GIMP_FLAGS     ?= -i -b - <
 
 # Macs have a different md5 command than linux or mingw envirnoment:
