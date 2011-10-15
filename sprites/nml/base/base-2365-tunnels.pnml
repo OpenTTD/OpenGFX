@@ -70,10 +70,10 @@ base_graphics(2427, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  249, 
 base_graphics(2428, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  249,  64,  39, -31, -38] }
 
 //2429-2436 tunnel gui
-base_graphics(2429, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] }
-base_graphics(2430, "sprites/png/gui/gui04.png") { [ 722,  232,  20,  20,   0,   0] }
-base_graphics(2431, "sprites/png/gui/gui04.png") { [ 754,  232,  20,  20,   0,   0] }
-base_graphics(2432, "sprites/png/gui/gui04.png") { [   2,  280,  20,  20,   0,   0] }
+base_graphics(2429, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] } // road tunnel
+base_graphics(2430, "sprites/png/gui/gui04.png") { [ 722,  232,  20,  20,   0,   0] } // rail tunnel
+base_graphics(2431, "sprites/png/gui/gui04.png") { [ 754,  232,  20,  20,   0,   0] } // monorail tunnel
+base_graphics(2432, "sprites/png/gui/gui04.png") { [   2,  280,  20,  20,   0,   0] } // maglev tunnel
 base_graphics(2433, "sprites/png/gui/gui04.png") { [  34,  280,  32,  32,   0,   0] }
 base_graphics(2434, "sprites/png/gui/gui04.png") { [  82,  280,  32,  32,   0,   0] }
 base_graphics(2435, "sprites/png/gui/gui04.png") { [ 130,  280,  32,  32,   0,   0] }

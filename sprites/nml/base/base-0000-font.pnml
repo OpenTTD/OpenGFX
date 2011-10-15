@@ -131,7 +131,7 @@ base_graphics( 126, "sprites/png/gui/medfontcond.png") { [ 450,   72,   1,   1, 
 base_graphics( 127, "sprites/png/gui/medfontcond.png") { [ 466,   72,   1,   1,   0,  -1] }
 base_graphics( 128, "sprites/png/gui/medfontcond.png") { [ 482,   72,   1,   1,   0,  -1] }
 base_graphics( 129, "sprites/png/gui/medfontcond.png") { [ 498,   72,   9,  13,   0,  -2] }
-base_graphics( 130, "sprites/png/gui/medfontcond.png") { [ 514,   72,   9,  13,   0,  -1] }
+base_graphics( 130, "sprites/png/gui/medfontcond.png") { [ 514,   72,   9,  13,   0,  -1] } // up arrow
 base_graphics( 131, "sprites/png/gui/medfontcond.png") { [ 530,   72,   3,  13,   0,  -2] }
 base_graphics( 132, "sprites/png/gui/medfontcond.png") { [ 546,   72,   6,  13,   0,  -2] }
 base_graphics( 133, "sprites/png/gui/medfontcond.png") { [ 562,   72,   8,  13,   0,  -2] }
@@ -141,12 +141,12 @@ base_graphics( 136, "sprites/png/gui/medfontcond.png") { [ 610,   72,   3,  13, 
 base_graphics( 137, "sprites/png/gui/medfontcond.png") { [ 626,   72,   7,  13,   0,  -2] }
 base_graphics( 138, "sprites/png/gui/medfontcond.png") { [ 642,   72,   5,  13,   0,  -2] }
 base_graphics( 139, "sprites/png/gui/medfontcond.png") { [ 658,   72,  10,  13,   0,  -2] }
-base_graphics( 140, "sprites/png/gui/medfontcond.png") { [ 674,   72,   9,  13,   0,  -1] }
+base_graphics( 140, "sprites/png/gui/medfontcond.png") { [ 674,   72,   9,  13,   0,  -1] } // down arrow
 base_graphics( 141, "sprites/png/gui/medfontcond.png") { [ 690,   72,   8,  13,   0,  -2] }
-base_graphics( 142, "sprites/png/gui/medfontcond.png") { [ 706,   72,  12,  10,   0,  -2] }
-base_graphics( 143, "sprites/png/gui/medfontcond.png") { [ 722,   72,   8,  12,   0,  -1] }
+base_graphics( 142, "sprites/png/gui/medfontcond.png") { [ 706,   72,  12,  10,   0,  -2] } // check mark
+base_graphics( 143, "sprites/png/gui/medfontcond.png") { [ 722,   72,   8,  12,   0,  -1] } // cross for window caption
 base_graphics( 144, "sprites/png/gui/medfontcond.png") { [ 738,   72,  10,  13,   0,  -2] }
-base_graphics( 145, "sprites/png/gui/medfontcond.png") { [ 754,   72,   5,  13,   0,  -2] }
+base_graphics( 145, "sprites/png/gui/medfontcond.png") { [ 754,   72,   5,  13,   0,  -2] } // right arrow
 base_graphics( 146, "sprites/png/gui/medfontcond.png") { [ 770,   72,   5,  13,   0,  -2] }
 base_graphics( 147, "sprites/png/gui/medfontcond.png") { [ 786,   72,   7,  13,   0,  -2] }
 base_graphics( 148, "sprites/png/gui/medfontcond.png") { [   2,  104,   6,  13,   0,  -2] }
