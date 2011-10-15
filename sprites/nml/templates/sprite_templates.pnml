@@ -118,6 +118,10 @@ template tmpl_10shore_tiles(x, y) {
 	[ 398+x,   y, 64, 31, -31,  0 ] // not yet used
 	[ 798+x,   y, 64, 31, -31,  0 ] // not yet used
 }
+template tmpl_slope_to_se(file) { [ 479, 1, 64, 23, -31,  0, file] }
+template tmpl_slope_to_sw(file) { [ 241, 1, 64, 23, -31,  0, file] }
+template tmpl_slope_to_ne(file) { [ 959, 1, 64, 39, -31, -8, file] }
+template tmpl_slope_to_nw(file) { [ 719, 1, 64, 39, -31, -8, file] }
 
 /* used currently for monorail and maglev tracks */
 template tmpl_rail_tracks() {
