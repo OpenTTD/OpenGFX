@@ -31,7 +31,7 @@ base_graphics( 698, "") { [ 163,    9,  32,  32,   0,   0, "sprites/png/gui/terr
 base_graphics( 699, "") { [ 211,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics( 700, "") { [ 259,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics( 701, "") { [ 307,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
-base_graphics( 702, "") { [ 355,   10,  32,  32,   0,   0, "sprites/png/miscellaneous/random.png"] }
+base_graphics( 702, "") { [ 355,   10,  32,  32,   0,   0, "sprites/png/miscellaneous/random.png"] }        // place buoy cursor
 base_graphics( 703, "") { [ 434,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // construction toolbars: dynamite
 base_graphics( 704, "") { [ 466,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 1
 base_graphics( 705, "") { [ 514,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 2
