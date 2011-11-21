@@ -8,7 +8,7 @@ L;%{BUILD}/*.nml
 L;%{BUILD}/custom_tags.txt
 %{BUILD}/grf2html
 %{BUILD}/*grf2html.log
-T;/usr/src/packages/RPMS/noarch/*.noarch.rpm
+T;%{RPMBUILDDIR}/RPMS/noarch/nml-*.noarch.rpm
 %{BUILD}/ttdpatch
 %{BUILD}/docs/readme.txt
 %{BUILD}/docs/changelog.txt
