@@ -1,6 +1,9 @@
 // "Characters"
 // Additional Characters (all font sizes)
 // Euro-sign (€ U+20AC)
+
+template tmpl_mono(x, y) { [x, y, 7, 13, 0, 0, NOCROP] }
+
 font_glyph(NORMAL, 0x20AC, "") {
 	[  30,   10,   8,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
@@ -10,6 +13,7 @@ font_glyph(SMALL, 0x20AC, "") {
 font_glyph(LARGE, 0x20AC, "") {
 	[  30,   40,  15,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x20AC, "sprites/png/gui/mono.png") { tmpl_mono(10, 170) }
 
 
 // Latin Ligature OE (Œ U+0152; œ U+0153)
@@ -24,6 +28,10 @@ font_glyph(SMALL, 0x0152, "") {
 font_glyph(LARGE, 0x0152, "") {
 	[  50,   40,  19,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[  70,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0152, "sprites/png/gui/mono.png") {
+	tmpl_mono(25, 170)
+	tmpl_mono(40, 170)
 }
 
 
@@ -40,6 +48,10 @@ font_glyph(LARGE, 0x0160, "") {
 	[  90,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 110,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0160, "sprites/png/gui/mono.png") {
+	tmpl_mono(55, 170)
+	tmpl_mono(70, 170)
+}
 
 
 // Latin Letter Z with caron (Ž U+017D; ž U+017E)
@@ -55,6 +67,10 @@ font_glyph(LARGE, 0x017D, "") {
 	[ 120,   40,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 140,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x017D, "sprites/png/gui/mono.png") {
+	tmpl_mono(85, 170)
+	tmpl_mono(100, 170)
+}
 
 
 // Degree symbol (° U+00B0)
@@ -66,6 +82,9 @@ font_glyph(SMALL, 0x00B0, "") {
 }
 font_glyph(LARGE, 0x00B0, "") {
 	[ 150,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x00B0, "sprites/png/gui/mono.png") {
+	tmpl_mono(115, 170)
 }
 
 
@@ -88,6 +107,12 @@ font_glyph(LARGE, 0x007B, "") {
 	[ 180,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 190,   40,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x007B, "sprites/png/gui/mono.png") {
+	tmpl_mono(130, 170)
+	tmpl_mono(145, 170)
+	tmpl_mono(160, 170)
+	tmpl_mono(175, 170)
+}
 
 
 // Middle dot (· U+00B7)
@@ -99,6 +124,9 @@ font_glyph(SMALL, 0x00B7, "") {
 }
 font_glyph(LARGE, 0x00B7, "") {
 	[ 210,   40,   2,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x00B7, "sprites/png/gui/mono.png") {
+	tmpl_mono(190, 170)
 }
 
 
@@ -115,6 +143,10 @@ font_glyph(LARGE, 0x0150, "") {
 	[ 230,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 220,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0150, "sprites/png/gui/mono.png") {
+	tmpl_mono(205, 170)
+	tmpl_mono(220, 170)
+}
 
 
 // Latin Letter U with double acute (U U+0170; u U+0171)
@@ -129,6 +161,10 @@ font_glyph(SMALL, 0x0170, "") {
 font_glyph(LARGE, 0x0170, "") {
 	[ 260,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 250,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0170, "sprites/png/gui/mono.png") {
+	tmpl_mono(235, 170)
+	tmpl_mono(250, 170)
 }
 
 
@@ -146,6 +182,10 @@ font_glyph(LARGE, 0x010C, "") {
 	[  30,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[  50,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x010C, "sprites/png/gui/mono.png") {
+	tmpl_mono(265, 170)
+	tmpl_mono(280, 170)
+}
 
 
 // U+010E   D   Latin Capital Letter D with caron
@@ -161,6 +201,10 @@ font_glyph(SMALL, 0x010E, "") {
 font_glyph(LARGE, 0x010E, "") {
 	[  70,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[  90,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x010E, "sprites/png/gui/mono.png") {
+	tmpl_mono(295, 170)
+	tmpl_mono(310, 170)
 }
 
 
@@ -178,6 +222,10 @@ font_glyph(LARGE, 0x011A, "") {
 	[ 110,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 130,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x011A, "sprites/png/gui/mono.png") {
+	tmpl_mono(325, 170)
+	tmpl_mono(340, 170)
+}
 
 
 // U+0147   N   Latin Capital Letter N with caron
@@ -193,6 +241,10 @@ font_glyph(SMALL, 0x0147, "") {
 font_glyph(LARGE, 0x0147, "") {
 	[ 150,  100,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 170,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0147, "sprites/png/gui/mono.png") {
+	tmpl_mono(355, 170)
+	tmpl_mono(370, 170)
 }
 
 
@@ -210,6 +262,10 @@ font_glyph(LARGE, 0x0158, "") {
 	[ 190,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 210,  100,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0158, "sprites/png/gui/mono.png") {
+	tmpl_mono(385, 170)
+	tmpl_mono(400, 170)
+}
 
 
 // U+0164   T   Latin Capital Letter T with caron
@@ -225,6 +281,10 @@ font_glyph(SMALL, 0x0164, "") {
 font_glyph(LARGE, 0x0164, "") {
 	[ 230,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 250,  100,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0164, "sprites/png/gui/mono.png") {
+	tmpl_mono(415, 170)
+	tmpl_mono(430, 170)
 }
 
 
@@ -242,6 +302,10 @@ font_glyph(LARGE, 0x016E, "") {
 	[ 270,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 290,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x016E, "sprites/png/gui/mono.png") {
+	tmpl_mono(445, 170)
+	tmpl_mono(460, 170)
+}
 
 
 // U+0106 C Latin Capital Letter C with acute
@@ -257,6 +321,10 @@ font_glyph(SMALL, 0x0106, "") {
 font_glyph(LARGE, 0x0106, "") {
 	[ 310,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 330,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0106, "sprites/png/gui/mono.png") {
+	tmpl_mono(475, 170)
+	tmpl_mono(10, 190)
 }
 
 
@@ -274,6 +342,10 @@ font_glyph(LARGE, 0x0110, "") {
 	[ 350,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 370,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0110, "sprites/png/gui/mono.png") {
+	tmpl_mono(25, 190)
+	tmpl_mono(40, 190)
+}
 
 
 // U+013D L Latin Capital Letter L with caron
@@ -290,6 +362,10 @@ font_glyph(LARGE, 0x013D, "") {
 	[ 390,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 410,  100,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x013D, "sprites/png/gui/mono.png") {
+	tmpl_mono(55, 190)
+	tmpl_mono(70, 190)
+}
 
 
 // U+00B4 ´ Acute accent
@@ -301,6 +377,9 @@ font_glyph(SMALL, 0x00B4, "") {
 }
 font_glyph(LARGE, 0x00B4, "") {
 	[  30,  160,   3,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x00B4, "sprites/png/gui/mono.png") {
+	tmpl_mono(85, 190)
 }
 
 
@@ -314,6 +393,9 @@ font_glyph(SMALL, 0x00BD, "") {
 font_glyph(LARGE, 0x00BD, "") {
 	[  40,  160,  11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x00BD, "sprites/png/gui/mono.png") {
+	tmpl_mono(100, 190)
+}
 
 
 // U+00B5 µ Micro sign
@@ -325,6 +407,9 @@ font_glyph(SMALL, 0x00B5, "") {
 }
 font_glyph(LARGE, 0x00B5, "") {
 	[  60,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x00B5, "sprites/png/gui/mono.png") {
+	tmpl_mono(115, 190)
 }
 
 
@@ -338,6 +423,9 @@ font_glyph(SMALL, 0x00AA, "") {
 font_glyph(LARGE, 0x00AA, "") {
 	[  80,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x00AA, "sprites/png/gui/mono.png") {
+	tmpl_mono(130, 190)
+}
 
 
 // U+2019 ’ RIGHT SINGLE QUOTATION MARK
@@ -349,6 +437,9 @@ font_glyph(SMALL, 0x2019, "") {
 }
 font_glyph(LARGE, 0x2019, "") {
 	[  90,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x2019, "sprites/png/gui/mono.png") {
+	tmpl_mono(145, 190)
 }
 
 
@@ -362,6 +453,9 @@ font_glyph(SMALL, 0x201E, "") {
 font_glyph(LARGE, 0x201E, "") {
 	[ 100,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x201E, "sprites/png/gui/mono.png") {
+	tmpl_mono(160, 190)
+}
 
 
 // U+201C “ LEFT DOUBLE QUOTATION MARK
@@ -373,6 +467,9 @@ font_glyph(SMALL, 0x201C, "") {
 }
 font_glyph(LARGE, 0x201C, "") {
 	[ 110,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x201C, "sprites/png/gui/mono.png") {
+	tmpl_mono(175, 190)
 }
 
 
@@ -386,6 +483,9 @@ font_glyph(SMALL, 0x203A, "") {
 font_glyph(LARGE, 0x203A, "") {
 	[ 760,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x203A, "sprites/png/gui/mono.png") {
+	tmpl_mono(190, 190)
+}
 
 
 // U+2013 – EN DASH
@@ -397,6 +497,9 @@ font_glyph(SMALL, 0x2013, "") {
 }
 font_glyph(LARGE, 0x2013, "") {
 	[ 120,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x2013, "sprites/png/gui/mono.png") {
+	tmpl_mono(205, 190)
 }
 
 
@@ -414,6 +517,10 @@ font_glyph(LARGE, 0x0174, "") {
 	[ 420,  100,  18,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 440,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0174, "sprites/png/gui/mono.png") {
+	tmpl_mono(220, 190)
+	tmpl_mono(235, 190)
+}
 
 
 // U+0176 Y Latin Capital Letter Y with circumflex
@@ -429,6 +536,10 @@ font_glyph(SMALL, 0x0176, "") {
 font_glyph(LARGE, 0x0176, "") {
 	[ 460,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 480,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0176, "sprites/png/gui/mono.png") {
+	tmpl_mono(250, 190)
+	tmpl_mono(265, 190)
 }
 
 
@@ -446,6 +557,10 @@ font_glyph(LARGE, 0x0108, "") {
 	[ 500,  100,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 520,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0108, "sprites/png/gui/mono.png") {
+	tmpl_mono(280, 190)
+	tmpl_mono(295, 190)
+}
 
 
 // U+011C G Latin Capital Letter G with circumflex
@@ -461,6 +576,10 @@ font_glyph(SMALL, 0x011C, "") {
 font_glyph(LARGE, 0x011C, "") {
 	[ 540,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 560,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x011C, "sprites/png/gui/mono.png") {
+	tmpl_mono(310, 190)
+	tmpl_mono(325, 190)
 }
 
 
@@ -478,6 +597,10 @@ font_glyph(LARGE, 0x0124, "") {
 	[ 580,  100,  15,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 600,  100,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0124, "sprites/png/gui/mono.png") {
+	tmpl_mono(340, 190)
+	tmpl_mono(355, 190)
+}
 
 
 // U+0134 J Latin Capital Letter J with circumflex
@@ -493,6 +616,10 @@ font_glyph(SMALL, 0x0134, "") {
 font_glyph(LARGE, 0x0134, "") {
 	[ 620,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 640,  100,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0134, "sprites/png/gui/mono.png") {
+	tmpl_mono(370, 190)
+	tmpl_mono(385, 190)
 }
 
 
@@ -510,6 +637,10 @@ font_glyph(LARGE, 0x016C, "") {
 	[ 650,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 670,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x016C, "sprites/png/gui/mono.png") {
+	tmpl_mono(400, 190)
+	tmpl_mono(415, 190)
+}
 
 
 // U+0102 A Latin Capital Letter A with breve
@@ -525,6 +656,10 @@ font_glyph(SMALL, 0x0102, "") {
 font_glyph(LARGE, 0x0102, "") {
 	[ 690,  100,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 710,  100,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0102, "sprites/png/gui/mono.png") {
+	tmpl_mono(430, 190)
+	tmpl_mono(445, 190)
 }
 
 
@@ -542,6 +677,10 @@ font_glyph(LARGE, 0x015E, "") {
 	[ 730,  100,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 740,  100,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x015E, "sprites/png/gui/mono.png") {
+	tmpl_mono(460, 190)
+	tmpl_mono(475, 190)
+}
 
 
 // U+0162 T Latin Capital Letter T with cedilla
@@ -557,6 +696,10 @@ font_glyph(SMALL, 0x0162, "") {
 font_glyph(LARGE, 0x0162, "") {
 	[ 750,  100,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 770,  100,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0162, "sprites/png/gui/mono.png") {
+	tmpl_mono(10, 210)
+	tmpl_mono(25, 210)
 }
 
 
@@ -574,6 +717,10 @@ font_glyph(LARGE, 0x011E, "") {
 	[ 140,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 160,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x011E, "sprites/png/gui/mono.png") {
+	tmpl_mono(40, 210)
+	tmpl_mono(55, 210)
+}
 
 
 // U+0130 I Latin Capital Letter I with dot above
@@ -589,6 +736,10 @@ font_glyph(SMALL, 0x0130, "") {
 font_glyph(LARGE, 0x0130, "") {
 	[ 180,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 190,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0132, "sprites/png/gui/mono.png") {
+	tmpl_mono(70, 210)
+	tmpl_mono(85, 210)
 }
 
 
@@ -606,6 +757,10 @@ font_glyph(LARGE, 0x0122, "") {
 	[ 200,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 220,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0122, "sprites/png/gui/mono.png") {
+	tmpl_mono(100, 210)
+	tmpl_mono(115, 210)
+}
 
 
 // U+0136 K Latin Capital Letter K with cedilla
@@ -621,6 +776,10 @@ font_glyph(SMALL, 0x0136, "") {
 font_glyph(LARGE, 0x0136, "") {
 	[ 240,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 260,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0136, "sprites/png/gui/mono.png") {
+	tmpl_mono(130, 210)
+	tmpl_mono(145, 210)
 }
 
 
@@ -638,6 +797,10 @@ font_glyph(LARGE, 0x013B, "") {
 	[ 280,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 300,  160,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x013B, "sprites/png/gui/mono.png") {
+	tmpl_mono(160, 210)
+	tmpl_mono(175, 210)
+}
 
 
 // U+0145 N Latin Capital Letter N with cedilla
@@ -654,7 +817,10 @@ font_glyph(LARGE, 0x0145, "") {
 	[ 310,  160,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 330,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x013B, "sprites/png/gui/mono.png") {
+	tmpl_mono(220, 210)
+	tmpl_mono(235, 210)
+}
 
 // U+0100 A Latin Capital Letter A with macron
 // U+0101 a Latin Small Letter A with macron
@@ -670,7 +836,10 @@ font_glyph(LARGE, 0x0100, "") {
 	[ 350,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 370,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x012A, "sprites/png/gui/mono.png") {
+	tmpl_mono(280, 210)
+	tmpl_mono(295, 210)
+}
 
 // U+0112 E Latin Capital Letter E with macron
 // U+0113 e Latin Small Letter E with macron
@@ -686,7 +855,10 @@ font_glyph(LARGE, 0x0112, "") {
 	[ 380,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 400,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x0112, "sprites/png/gui/mono.png") {
+	tmpl_mono(250, 210)
+	tmpl_mono(265, 210)
+}
 
 // U+012A I Latin Capital Letter I with macron
 // U+012B i Latin Small Letter I with macron
@@ -702,7 +874,10 @@ font_glyph(LARGE, 0x012A, "") {
 	[ 410,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 420,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x012A, "sprites/png/gui/mono.png") {
+	tmpl_mono(280, 210)
+	tmpl_mono(295, 210)
+}
 
 // U+016A U Latin Capital Letter U with macron
 // U+016B u Latin Small Letter U with macron
@@ -718,7 +893,10 @@ font_glyph(LARGE, 0x016A, "") {
 	[ 430,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 450,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x016A, "sprites/png/gui/mono.png") {
+	tmpl_mono(310, 210)
+	tmpl_mono(325, 210)
+}
 
 // U+0143 N Latin Capital Letter N with acute
 // U+0144 n Latin Small Letter N with acute
@@ -734,7 +912,10 @@ font_glyph(LARGE, 0x0143, "") {
 	[ 470,  160,  16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 490,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x0143, "sprites/png/gui/mono.png") {
+	tmpl_mono(340, 210)
+	tmpl_mono(355, 210)
+}
 
 // U+015A S Latin Capital Letter S with acute
 // U+015B s Latin Small Letter S with acute
@@ -750,7 +931,10 @@ font_glyph(LARGE, 0x015A, "") {
 	[ 510,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 520,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x015A, "sprites/png/gui/mono.png") {
+	tmpl_mono(370, 210)
+	tmpl_mono(385, 210)
+}
 
 // U+017B Z Latin Capital Letter Z with dot above
 // U+017C z Latin Small Letter Z with dot above
@@ -766,7 +950,10 @@ font_glyph(LARGE, 0x017B, "") {
 	[ 530,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 550,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x017B, "sprites/png/gui/mono.png") {
+	tmpl_mono(400, 210)
+	tmpl_mono(415, 210)
+}
 
 // U+0179 Z Latin Capital Letter Z with acute
 // U+017A z Latin Small Letter Z with acute
@@ -782,7 +969,10 @@ font_glyph(LARGE, 0x0179, "") {
 	[ 770,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 790,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x0179, "sprites/png/gui/mono.png") {
+	tmpl_mono(430, 210)
+	tmpl_mono(445, 210)
+}
 
 // U+0139 L Latin Capital Letter L with acute
 // U+013A l Latin Small Letter L with acute
@@ -798,7 +988,10 @@ font_glyph(LARGE, 0x0139, "") {
 	[  30,  220,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[  50,  220,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
-
+font_glyph(MONO, 0x0139, "sprites/png/gui/mono.png") {
+	tmpl_mono(460, 210)
+	tmpl_mono(475, 210)
+}
 
 // U+0141 L Latin Capital Letter L with stroke
 // U+0142 l Latin Small Letter L with stroke
@@ -813,6 +1006,10 @@ font_glyph(SMALL, 0x0141, "") {
 font_glyph(LARGE, 0x0141, "") {
 	[ 560,  160,  12,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 580,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0141, "sprites/png/gui/mono.png") {
+	tmpl_mono(10, 230)
+	tmpl_mono(25, 230)
 }
 
 
@@ -830,6 +1027,10 @@ font_glyph(LARGE, 0x0104, "") {
 	[ 590,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 610,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0104, "sprites/png/gui/mono.png") {
+	tmpl_mono(40, 230)
+	tmpl_mono(55, 230)
+}
 
 
 // U+0118 E Latin Capital Letter E with ogonek
@@ -845,6 +1046,10 @@ font_glyph(SMALL, 0x0118, "") {
 font_glyph(LARGE, 0x0118, "") {
 	[ 620,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 640,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0118, "sprites/png/gui/mono.png") {
+	tmpl_mono(70, 230)
+	tmpl_mono(85, 230)
 }
 
 
@@ -862,6 +1067,10 @@ font_glyph(LARGE, 0x012E, "") {
 	[ 650,  160,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 660,  160,   4,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x012E, "sprites/png/gui/mono.png") {
+	tmpl_mono(100, 230)
+	tmpl_mono(115, 230)
+}
 
 
 // U+0172 U Latin Capital Letter U with ogonek
@@ -877,6 +1086,10 @@ font_glyph(SMALL, 0x0172, "") {
 font_glyph(LARGE, 0x0172, "") {
 	[ 670,  160,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 690,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x0172, "sprites/png/gui/mono.png") {
+	tmpl_mono(130, 230)
+	tmpl_mono(145, 230)
 }
 
 
@@ -894,6 +1107,10 @@ font_glyph(LARGE, 0x0116, "") {
 	[ 710,  160,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 730,  160,   8,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
+font_glyph(MONO, 0x0116, "sprites/png/gui/mono.png") {
+	tmpl_mono(160, 230)
+	tmpl_mono(175, 230)
+}
 
 
 // U+015C S Latin Capital Letter S with circumflex
@@ -909,6 +1126,10 @@ font_glyph(SMALL, 0x015C, "") {
 font_glyph(LARGE, 0x015C, "") {
 	[ 740,  160,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 750,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+font_glyph(MONO, 0x015C, "sprites/png/gui/mono.png") {
+	tmpl_mono(190, 230)
+	tmpl_mono(205, 230)
 }
 
 
@@ -998,4 +1219,239 @@ font_glyph(LARGE, 0x00D7, "") {
 // Division sign (÷ U+00F7)
 font_glyph(LARGE, 0x00F7, "") {
 	[ 520,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+}
+
+
+/* ======================================= */
+/* Monospaced characters (Liberation Mono) */
+/* ======================================= */
+
+font_glyph(MONO, 0x0020, "sprites/png/gui/mono.png") {
+	tmpl_mono(10, 30)
+	tmpl_mono(25, 30)
+	tmpl_mono(40, 30)
+	tmpl_mono(55, 30)
+	tmpl_mono(70, 30)
+	tmpl_mono(85, 30)
+	tmpl_mono(100, 30)
+	tmpl_mono(115, 30)
+	tmpl_mono(130, 30)
+	tmpl_mono(145, 30)
+	tmpl_mono(160, 30)
+	tmpl_mono(175, 30)
+	tmpl_mono(190, 30)
+	tmpl_mono(205, 30)
+	tmpl_mono(220, 30)
+	tmpl_mono(235, 30)
+	tmpl_mono(250, 30)
+	tmpl_mono(265, 30)
+	tmpl_mono(280, 30)
+	tmpl_mono(295, 30)
+	tmpl_mono(310, 30)
+	tmpl_mono(325, 30)
+	tmpl_mono(340, 30)
+	tmpl_mono(355, 30)
+	tmpl_mono(370, 30)
+	tmpl_mono(385, 30)
+	tmpl_mono(400, 30)
+	tmpl_mono(415, 30)
+	tmpl_mono(430, 30)
+	tmpl_mono(445, 30)
+	tmpl_mono(460, 30)
+	tmpl_mono(475, 30)
+	tmpl_mono(10, 50)
+	tmpl_mono(25, 50)
+	tmpl_mono(40, 50)
+	tmpl_mono(55, 50)
+	tmpl_mono(70, 50)
+	tmpl_mono(85, 50)
+	tmpl_mono(100, 50)
+	tmpl_mono(115, 50)
+	tmpl_mono(130, 50)
+	tmpl_mono(145, 50)
+	tmpl_mono(160, 50)
+	tmpl_mono(175, 50)
+	tmpl_mono(190, 50)
+	tmpl_mono(205, 50)
+	tmpl_mono(220, 50)
+	tmpl_mono(235, 50)
+	tmpl_mono(250, 50)
+	tmpl_mono(265, 50)
+	tmpl_mono(280, 50)
+	tmpl_mono(295, 50)
+	tmpl_mono(310, 50)
+	tmpl_mono(325, 50)
+	tmpl_mono(340, 50)
+	tmpl_mono(355, 50)
+	tmpl_mono(370, 50)
+	tmpl_mono(385, 50)
+	tmpl_mono(400, 50)
+	tmpl_mono(415, 50)
+	tmpl_mono(430, 50)
+	tmpl_mono(445, 50)
+	tmpl_mono(460, 50)
+	tmpl_mono(475, 50)
+	tmpl_mono(10, 70)
+	tmpl_mono(25, 70)
+	tmpl_mono(40, 70)
+	tmpl_mono(55, 70)
+	tmpl_mono(70, 70)
+	tmpl_mono(85, 70)
+	tmpl_mono(100, 70)
+	tmpl_mono(115, 70)
+	tmpl_mono(130, 70)
+	tmpl_mono(145, 70)
+	tmpl_mono(160, 70)
+	tmpl_mono(175, 70)
+	tmpl_mono(190, 70)
+	tmpl_mono(205, 70)
+	tmpl_mono(220, 70)
+	tmpl_mono(235, 70)
+	tmpl_mono(250, 70)
+	tmpl_mono(265, 70)
+	tmpl_mono(280, 70)
+	tmpl_mono(295, 70)
+	tmpl_mono(310, 70)
+	tmpl_mono(325, 70)
+	tmpl_mono(340, 70)
+	tmpl_mono(355, 70)
+	tmpl_mono(370, 70)
+	tmpl_mono(385, 70)
+	tmpl_mono(400, 70)
+	tmpl_mono(415, 70)
+	tmpl_mono(430, 70)
+	tmpl_mono(445, 70)
+	tmpl_mono(460, 70)
+	tmpl_mono(475, 70)
+}
+
+font_glyph(MONO, 0x0080, "sprites/png/gui/mono.png") {
+	tmpl_mono(10, 90)
+	tmpl_mono(25, 90)
+	tmpl_mono(40, 90)
+	tmpl_mono(55, 90)
+	tmpl_mono(70, 90)
+	tmpl_mono(85, 90)
+	tmpl_mono(100, 90)
+	tmpl_mono(115, 90)
+	tmpl_mono(130, 90)
+	tmpl_mono(145, 90)
+	tmpl_mono(160, 90)
+	tmpl_mono(175, 90)
+	tmpl_mono(190, 90)
+	tmpl_mono(205, 90)
+	tmpl_mono(220, 90)
+	tmpl_mono(235, 90)
+	tmpl_mono(250, 90)
+	tmpl_mono(265, 90)
+	tmpl_mono(280, 90)
+	tmpl_mono(295, 90)
+	tmpl_mono(310, 90)
+	tmpl_mono(325, 90)
+	tmpl_mono(340, 90)
+	tmpl_mono(355, 90)
+	tmpl_mono(370, 90)
+	tmpl_mono(385, 90)
+	tmpl_mono(400, 90)
+	tmpl_mono(415, 90)
+	tmpl_mono(430, 90)
+	tmpl_mono(445, 90)
+	tmpl_mono(460, 90)
+	tmpl_mono(475, 90)
+	tmpl_mono(10, 110)
+	tmpl_mono(25, 110)
+	tmpl_mono(40, 110)
+	tmpl_mono(55, 110)
+	tmpl_mono(70, 110)
+	tmpl_mono(85, 110)
+	tmpl_mono(100, 110)
+	tmpl_mono(115, 110)
+	tmpl_mono(130, 110)
+	tmpl_mono(145, 110)
+	tmpl_mono(160, 110)
+	tmpl_mono(175, 110)
+	tmpl_mono(190, 110)
+	tmpl_mono(205, 110)
+	tmpl_mono(220, 110)
+	tmpl_mono(235, 110)
+	tmpl_mono(250, 110)
+	tmpl_mono(265, 110)
+	tmpl_mono(280, 110)
+	tmpl_mono(295, 110)
+	tmpl_mono(310, 110)
+	tmpl_mono(325, 110)
+	tmpl_mono(340, 110)
+	tmpl_mono(355, 110)
+	tmpl_mono(370, 110)
+	tmpl_mono(385, 110)
+	tmpl_mono(400, 110)
+	tmpl_mono(415, 110)
+	tmpl_mono(430, 110)
+	tmpl_mono(445, 110)
+	tmpl_mono(460, 110)
+	tmpl_mono(475, 110)
+	tmpl_mono(10, 130)
+	tmpl_mono(25, 130)
+	tmpl_mono(40, 130)
+	tmpl_mono(55, 130)
+	tmpl_mono(70, 130)
+	tmpl_mono(85, 130)
+	tmpl_mono(100, 130)
+	tmpl_mono(115, 130)
+	tmpl_mono(130, 130)
+	tmpl_mono(145, 130)
+	tmpl_mono(160, 130)
+	tmpl_mono(175, 130)
+	tmpl_mono(190, 130)
+	tmpl_mono(205, 130)
+	tmpl_mono(220, 130)
+	tmpl_mono(235, 130)
+	tmpl_mono(250, 130)
+	tmpl_mono(265, 130)
+	tmpl_mono(280, 130)
+	tmpl_mono(295, 130)
+	tmpl_mono(310, 130)
+	tmpl_mono(325, 130)
+	tmpl_mono(340, 130)
+	tmpl_mono(355, 130)
+	tmpl_mono(370, 130)
+	tmpl_mono(385, 130)
+	tmpl_mono(400, 130)
+	tmpl_mono(415, 130)
+	tmpl_mono(430, 130)
+	tmpl_mono(445, 130)
+	tmpl_mono(460, 130)
+	tmpl_mono(475, 130)
+	tmpl_mono(10, 150)
+	tmpl_mono(25, 150)
+	tmpl_mono(40, 150)
+	tmpl_mono(55, 150)
+	tmpl_mono(70, 150)
+	tmpl_mono(85, 150)
+	tmpl_mono(100, 150)
+	tmpl_mono(115, 150)
+	tmpl_mono(130, 150)
+	tmpl_mono(145, 150)
+	tmpl_mono(160, 150)
+	tmpl_mono(175, 150)
+	tmpl_mono(190, 150)
+	tmpl_mono(205, 150)
+	tmpl_mono(220, 150)
+	tmpl_mono(235, 150)
+	tmpl_mono(250, 150)
+	tmpl_mono(265, 150)
+	tmpl_mono(280, 150)
+	tmpl_mono(295, 150)
+	tmpl_mono(310, 150)
+	tmpl_mono(325, 150)
+	tmpl_mono(340, 150)
+	tmpl_mono(355, 150)
+	tmpl_mono(370, 150)
+	tmpl_mono(385, 150)
+	tmpl_mono(400, 150)
+	tmpl_mono(415, 150)
+	tmpl_mono(430, 150)
+	tmpl_mono(445, 150)
+	tmpl_mono(460, 150)
+	tmpl_mono(475, 150)
 }

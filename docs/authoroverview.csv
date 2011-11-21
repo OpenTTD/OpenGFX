@@ -432,7 +432,8 @@ ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and ri
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1
 ogfxe_extra;0;843;844;River shores;planetmaker (flat, rivermouths), Leppka (normal sloped);planetmaker;;1
 ogfxe_extra;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
-ogfxe_extra;0;345;346;Additional Font Characters;Bilbo, FooBar;FooBar;;1
+ogfxe_extra;0;345;346;Additional proportional Font Characters;Bilbo, FooBar;FooBar;;1
+ogfxe_extra;0;-;-;Font 'liberation mono'; Pravin Satpute, Caius Chance (font); Rubidium, planetmaker;;1
 ogfxe_extra;0;75;76;Temperate snow tiles;Zephyris;Zephyris;;1
 ogfxe_extra;0;0;0;Arctic rail wagon overrides;DanMacK;planetmaker;2053;1
 ogfxe_extra;0;0;0;Tropic rail wagon overrides;DanMacK;planetmaker;1960;1
