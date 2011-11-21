@@ -5,10 +5,11 @@ Current Version: {{REPO_TITLE}}
 ==============================
 
 Contents
-0 About OpenGFX
-1 Downloading OpenGFX
-2 Installing OpenGFX Manually
-3 Installing or Updating OpenGFX using the Online Content service
+1 About OpenGFX
+2 Downloading OpenGFX
+3 Installing OpenGFX
+3.1 Installation or update via Online Content service
+3.2 Manual installation
 4 Reporting bugs and Contributing
 5 Building of OpenGFX
     5.1 Notes for package maintainers
@@ -19,7 +20,7 @@ Contents
 
 
 
-0 About OpenGFX
+1 About OpenGFX
 ===============
 
 OpenGFX is an open source graphics base set designed to be used by OpenTTD.
@@ -29,9 +30,16 @@ ensure the best possible out-of-the-box experience with OpenTTD.
 
 The project's home is http://dev.openttdcoop.org/projects/opengfx
 
+OpenGFX provides you with...
+* all graphics you need to enjoy OpenTTD
+* uniquely drawn rail vehicles for every climate
+* completely snow-aware rivers
+* different river and sea water
+* snow-aware buoys
 
 
-1 Downloading OpenGFX
+
+2 Downloading OpenGFX
 =====================
 
 OpenGFX is available from a few locations. This readme will only cover the
@@ -55,8 +63,35 @@ self-compiled grf is the the same as it should, have a look at {{FILENAME}}
 
 
 
-2 Installing OpenGFX manually
+3 Installing OpenGFX
 =============================
+
+3.1 Installation or update via Online Content service
+-----------------------------------------------------
+
+This method uses the Online content service (BaNaNaS) to download OpenGFX. In
+order to use this, you need a working OpenTTD and again at least OpenTTD version
+0.7.0 or a recent nightly.
+
+1. Start OpenTTD and on the main menu click the Check online content button. A
+   new window will pop up. If OpenTTD doesn't start, follow the manual installation
+   procedure.
+2. Find the OpenGFX entry from the list at the left. You can use the search box
+   in the upper right corner of the window.
+3. Click the little square in front of the OpenGFX entry in order to mark it for
+   download.
+4. Click the Download  button in the bottom right corner. After download, close
+   the open windows.
+5. In the main menu of the game, click the Game Options  button. The Game
+   Options  dialog will appear.
+6. Select OpenGFX  from the drop-down list below Base graphics set  if that's
+   not selected already (bottom left of window). Close the window using the × in
+   the upper left corner.
+
+
+
+3.2 Manual installation
+-----------------------
 
 1. First, make sure that you downloaded and installed at least OpenTTD version
 0.7.0 or later.
@@ -67,16 +102,19 @@ self-compiled grf is the the same as it should, have a look at {{FILENAME}}
 - Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the
 "bananas" section: http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz
 
-3. Unpack the zip file into the OpenTTD's data directory (see section 4.2 of the
+3. Unpack the zip file into the OpenTTD's baseset directory (see section 4.2 of the
 OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 - An OpenTTD folder in your user account's home directory:
-    Windows: C:\My Documents\data (95, 98, ME)
+    Windows: C:\My Documents\baseset (95, 98, ME)
              C:\Documents and Settings\<username>\My Documents\OpenTTD\data (2000, XP)
-             C:\Users\<username>\Documents\OpenTTD\data (Vista, 7)
-    Mac OSX: ~/Documents/OpenTTD/data
-    Linux:   ~/.openttd/data
-- The data dir in OpenTTD installation directory.
+             C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7)
+    Mac OSX: ~/Documents/OpenTTD/baseset
+    Linux:   ~/.openttd/baseset
+- The baseset dir in OpenTTD installation directory.
+
+In OpenTTD versions older than OpenTTD 1.2.0 (r23225) you need to replace 'baseset'
+in the quoted paths by 'data'.
 
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend
 our sister project OpenSFX) and install it into the same directory as OpenGFX.
@@ -97,35 +135,6 @@ OpenGFX to work, please file a detailed report on what you did, what error
 messages you got and where you got stuck in the OpenGFX release topic
 at TT-forums: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or
 (preferrably) at our bug tracker at http://dev.openttdcoop.org/projects/opengfx
-
-
-
-3 Installing or Updating OpenGFX using the Online Content service
-=================================================================
-
-This method uses the Online content service (BaNaNaS) to download OpenGFX. In
-order to use this, you need a working OpenTTD and again at least OpenTTD version
-0.7.0 or a recent nightly.
-
-1. Start OpenTTD and on the main menu click the Check online content button. A
-new window will pop up. If OpenTTD doesn't start, follow the manual installation
-procedure.
-
-2. Find the OpenGFX entry from the list at the left. You can use the search box
-in the upper right corner of the window.
-
-3. Click the little square in front of the OpenGFX entry in order to mark it for
-download.
-
-4. Click the Download  button in the bottom right corner. After download, close
-the open windows.
-
-5. In the main menu of the game, click the Game Options  button. The Game
-Options  dialog will appear.
-
-6. Select OpenGFX  from the drop-down list below Base graphics set  if that's
-not selected already (bottom left of window). Close the window using the × in
-the upper left corner.
 
 
 
@@ -161,7 +170,7 @@ or obtain the tarball from
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
-- nml r1697 or 0.2.0
+- nml 0.2.x (not the development branch)
   (available from http://bundles.openttdcoop.org/nml/ )
 - some gnu utils: make, cat, sed, awk
   and you might additionally want a text editor of your choice and a graphics
@@ -173,25 +182,24 @@ Optionally, required to re-generated all graphics files from their layered sourc
   files after executing 'maintainer-clean':
 - gimp 2.4 or later
 
-On Windows: we advise to get a mingw development environment, download grfcodec,
-nforenum and mercurial from the sources mentioned above)
-For more detailed instructions see our guide at
-http://dev.openttdcoop.org/projects/home/wiki and the very extensive and
-detailed installation instructions on the mingw wiki at
-http://www.mingw.org/wiki/Getting_Started
+On Windows: we advise to get a mingw development environment, nml and mercurial
+from the sources mentioned above). For more detailed instructions see our guide at
+    http://dev.openttdcoop.org/projects/home/wiki
+and the very extensive and detailed installation instructions on the mingw wiki at
+    http://www.mingw.org/wiki/Getting_Started
 
 On Linux: your system should already have most tools, you'll probably only need
-nforenum, grfcodec and mercurial available from the source mentioned above. For
-installation instructions concerning mercurial refer to the manual of your
-distribution.
+nml and mercurial available from the source mentioned above. For installation
+instructions concerning mercurial refer to the manual of your distribution.
 
-On Mac: Install the developers tools and get grfcodec (and thus also nforenum)
-from the source mentioned above. Mercurial is easiest installed via macports:
-sudo port install mercurial
+On Mac: Install the developers tools and get nml from the source mentioned above.
+Mercurial is easiest installed via macports:
+    sudo port install mercurial
 On OSX gimp is not found in the path, if you installed the App package as supplied
 from the gimp's project page. You can add that to your search path if you link
 the binary:
-sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp
+    sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp
+It requires the X-enironment to be running.
 
 The use of mercurial is strongly encouraged as only that allows to keep track of
 changes.
@@ -236,9 +244,8 @@ Mind to re-start OpenTTD as it needs to re-read the grf files.
 ---------------------------------
 The repository contains a few xcf2png files which indicate which png files can
 be generated from the source xcf or psd files. This will only be used, if gimp
-is found.
-Calling 'maintainer-clean' will delete the png files which can be re-generated
-from a xcf or psd file.
+is found. Calling 'maintainer-clean' will delete the png files which can be
+re-generated from a xcf or psd file.
 
 
 

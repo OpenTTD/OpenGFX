@@ -1,11 +1,19 @@
-OpenGFX r829
+OpenGFX r845
 ------------
-- Change [Makefile]: Update to makefile framework r364
+- Feature: Respect snow density for river tiles (issue #3011)
+- Feature: Monospaced font 'liberation mono'
+- Change: Generate the rivermouth sprites from source file
+- Change: Engine overrides are not needed anymore since r23232
 - Change: Convert project to NML source
 - Add: Introduce a graphics source list and allow to generate png files from the xcf if gimp is present
+- Fix [Makefile]: be quiet about search path when gimp can not be found
+- Fix: Arctic riverbanks had erronous green
+- Fix: Double includes are evil (issue #3157)
+- Fix: Define canals in one block for the sake of backward compatibility
+- Fix: Hardcoded path in build rules could cause problems with new CF
 - Fix: Wrong palette for piggybank and toyland bubble tree.
 - Fix: Naming of bundles for TTDPatch usage was broken
-- Cleanup: Don't define the same sprite in two places differently
+- Doc: Meaning of some sprites
 
 
 
