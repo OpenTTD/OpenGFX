@@ -5,6 +5,9 @@
  * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
  */
 
+template tmpl_level_ground_file(x, y, file) {
+    [ x, y, 64, 31, -31,  0, file ]
+}
 template tmpl_level_ground(x, y) {
     [ x, y, 64, 31, -31,  0 ]
 }

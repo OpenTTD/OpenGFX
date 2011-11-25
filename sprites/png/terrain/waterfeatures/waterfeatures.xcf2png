@@ -98,3 +98,102 @@ sprites/png/terrain/waterfeatures/riverbank_snow_sw.gimp.png    sprites/source/t
 # sprites/png/terrain/rivercorner_FullSnow_w.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersW SnowLv1 RiverCornersBlueW
 # sprites/png/terrain/rivercorners_FullSnow.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverCornersSmall RiverCornersBlue
 
+# Canal dikes temperate grass
+sprites/png/terrain/waterfeatures/canaldike_temperate_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_temperate_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_temperate_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_temperate_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_temperate_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_temperate_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_temperate_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_temperate_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTemperate GridTemperate CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_temperate_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundTemperate GridTemperate CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes arctic grass
+sprites/png/terrain/waterfeatures/canaldike_arctic_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_arctic_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_arctic_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_arctic_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_arctic_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_arctic_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_arctic_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_arctic_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_arctic_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundArctic GridArctic CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes snow 1/4
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv1 CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow14_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundArctic GridArctic SnowLv1 CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes snow 2/4
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv2 CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow24_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundArctic GridArctic SnowLv2 CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes snow 3/4
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundArctic GridArctic SnowLv3 CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_arctic_snow34_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundArctic GridArctic SnowLv3 CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes snow
+sprites/png/terrain/waterfeatures/canaldike_snow_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_snow_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_snow_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_snow_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_snow_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_snow_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_snow_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_snow_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundSnow GridSnow CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_snow_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundSnow GridSnow CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes tropical grass
+sprites/png/terrain/waterfeatures/canaldike_tropical_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_tropical_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_tropical_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_tropical_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_tropical_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_tropical_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_tropical_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_tropical_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundTropical GridTropical CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_tropical_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundTropical GridTropical CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes desert
+sprites/png/terrain/waterfeatures/canaldike_desert_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_desert_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_desert_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_desert_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_desert_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_desert_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_desert_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_desert_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundDesert GridDesert CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_desert_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundDesert GridDesert CanalCornerSmall CanalCornerBlueSmall
+
+# Canal dikes toyland terrain
+sprites/png/terrain/waterfeatures/canaldike_toyland_ne.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalDikeNE CanalDikeBlueNE
+sprites/png/terrain/waterfeatures/canaldike_toyland_nw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalDikeNW CanalDikeBlueNW
+sprites/png/terrain/waterfeatures/canaldike_toyland_se.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalDikeSE CanalDikeBlueSE
+sprites/png/terrain/waterfeatures/canaldike_toyland_sw.gimp.png       sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalDikeSW CanalDikeBlueSW
+sprites/png/terrain/waterfeatures/canaldike_toyland_cornerE.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalCornerE CanalCornerBlueE
+sprites/png/terrain/waterfeatures/canaldike_toyland_cornerS.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalCornerS CanalCornerBlueS
+sprites/png/terrain/waterfeatures/canaldike_toyland_cornerW.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalCornerW CanalCornerBlueW
+sprites/png/terrain/waterfeatures/canaldike_toyland_cornerN.gimp.png  sprites/source/terrain/terrain.xcf        White BlueForShore GroundToyland GridToyland CanalCornerN CanalCornerBlueN
+sprites/png/terrain/waterfeatures/canaldike_toyland_smallcorners.gimp.png  sprites/source/terrain/terrain.xcf   White BlueForShore GroundToyland GridToyland CanalCornerSmall CanalCornerBlueSmall
+

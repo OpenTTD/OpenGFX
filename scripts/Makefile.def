@@ -14,7 +14,7 @@ CC             ?= gcc
 CC_FLAGS       ?= -C -E - <
 
 GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
-GIMP_FLAGS     ?= -i -b - <
+GIMP_FLAGS     ?= -n -i -b - <
 
 # Macs have a different md5 command than linux or mingw envirnoment:
 MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")

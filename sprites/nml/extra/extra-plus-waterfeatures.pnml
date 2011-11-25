@@ -2,89 +2,99 @@
 
 // Canal sides
 
-spriteset( set_canal_sides_temperate, "") {
-	[  18,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[  66,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 114,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 162,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 210,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 242,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 274,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 306,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 338,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 354,  360,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 386,  360,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 402,  360,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s, corner_w, corner_n, smallcorners) {
+	tmpl_level_ground_file(1, 1, dike_ne)
+	tmpl_level_ground_file(1, 1, dike_nw)
+	tmpl_level_ground_file(1, 1, dike_se)
+	tmpl_level_ground_file(1, 1, dike_sw)
+	tmpl_level_ground_file(1, 1, corner_e)
+	tmpl_level_ground_file(1, 1, corner_s)
+	tmpl_level_ground_file(1, 1, corner_w)
+	tmpl_level_ground_file(1, 1, corner_n)
+	[57, 14,  8, 6,  25, 13, smallcorners]
+	[29, 28,  8, 4,  -3, 27, smallcorners]
+	[ 1, 14,  8, 6, -31, 13, smallcorners]
+	[27,  1, 12, 5,  -5,  0, smallcorners]
 }
+
+spriteset( set_canal_sides_temperate, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_smallcorners.gimp.png"
+	)
+}
+
 spriteset( set_canal_sides_snow, "") {
-	[  18,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[  66,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 114,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 162,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 210,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 242,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 274,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 306,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 338,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 354,  360,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 386,  360,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 402,  360,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_snow_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_smallcorners.gimp.png"
+	)
 }
 spriteset( set_canal_sides_arctic, "") {
-	[ 466,  360,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 514,  360,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 562,  360,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 610,  360,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 658,  360,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 690,  360,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 722,  360,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 754,  360,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 786,  360,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[   2,  392,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[  34,  392,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[  50,  392,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_smallcorners.gimp.png"
+	)
 }
 spriteset( set_canal_sides_desert, "") {
-	[ 162,  392,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 210,  392,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 258,  392,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 306,  392,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 354,  392,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 386,  392,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 418,  392,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 450,  392,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 482,  392,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 498,  392,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 530,  392,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 546,  392,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_desert_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_smallcorners.gimp.png"
+	)
 }
 spriteset( set_canal_sides_tropical, "") {
-	[ 610,  392,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 658,  392,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 706,  392,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 754,  392,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[   2,  424,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[  34,  424,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[  66,  424,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[  98,  424,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 130,  424,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 146,  424,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 178,  424,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 194,  424,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_smallcorners.gimp.png"
+	)
 }
 spriteset( set_canal_sides_toyland, "") {
-	[ 306,  424,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 354,  424,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 402,  424,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 450,  424,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 498,  424,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 530,  424,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 562,  424,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 594,  424,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 626,  424,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 642,  424,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 674,  424,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 690,  424,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_smallcorners.gimp.png"
+	)
 }
 
 switch(FEAT_CANALS, SELF, canal_sides_arctic_terrain_switch, terrain_type ) {
