@@ -1,5 +1,5 @@
 /*
- * This file is part of OpenGFX.
+ * This file is part of OpenGFX base graphics for OpenTTD.
  * OpenGFX is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
  * OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
@@ -269,4 +269,19 @@ template tmpl_locks(file) {
 	[ 642,  168,  68,  62, -63, -44, file]
 	[ 722,  168,  64,  60, -62, -44, file]
 	[   2,  248,  64,  62,  -1, -45, file]
+}
+
+template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s, corner_w, corner_n, smallcorners) {
+	tmpl_level_ground_file(1, 1, dike_ne)
+	tmpl_level_ground_file(1, 1, dike_nw)
+	tmpl_level_ground_file(1, 1, dike_se)
+	tmpl_level_ground_file(1, 1, dike_sw)
+	tmpl_level_ground_file(1, 1, corner_e)
+	tmpl_level_ground_file(1, 1, corner_s)
+	tmpl_level_ground_file(1, 1, corner_w)
+	tmpl_level_ground_file(1, 1, corner_n)
+	[57, 14,  8, 6,  25, 13, smallcorners]
+	[29, 28,  8, 4,  -3, 27, smallcorners]
+	[ 1, 14,  8, 6, -31, 13, smallcorners]
+	[27,  1, 12, 5,  -5,  0, smallcorners]
 }

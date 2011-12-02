@@ -1,25 +1,37 @@
-//sloped water
+/*
+ * This file is part of OpenGFX base graphics for OpenTTD.
+ * OpenGFX is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+ * OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* ******************************
+ * Basic canal sprites
+ * *****************************/
+
 replacenew(CANALS, "") {
+	//sloped water for locks
 	[ 658,    8,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
 	[   2,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
 	[  82,   72,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
 	[ 162,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
 
+	// Locks
 	tmpl_locks("sprites/png/infrastructure/locks_normal.gimp.png")
 	tmpl_locks("sprites/png/infrastructure/locks_snow44.gimp.png")
 
-	[ 338,  312,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 386,  312,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 434,  312,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 482,  312,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 530,  312,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 562,  312,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
-	[ 594,  312,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
-	[ 626,  312,  16,   9,  -7,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 658,  312,   8,   6,  25,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 674,  312,  12,   4,  -5,  27, "sprites/png/terrain/waterfeatures.png"]
-	[ 706,  312,   8,   6, -31,  13, "sprites/png/terrain/waterfeatures.png"]
-	[ 722,  312,  12,   5,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	// Canal dikes (temperate climate)
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_smallcorners.gimp.png"
+	)
 
 	[ 594,  952,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]
 }
