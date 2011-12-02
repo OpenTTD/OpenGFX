@@ -1,0 +1,30 @@
+spriteset (set_locks_normal) { tmpl_locks("sprites/png/infrastructure/locks_normal.gimp.png") }
+spriteset (set_locks_snow14) { tmpl_locks("sprites/png/infrastructure/locks_snow14.gimp.png") }
+spriteset (set_locks_snow24) { tmpl_locks("sprites/png/infrastructure/locks_snow24.gimp.png") }
+spriteset (set_locks_snow34) { tmpl_locks("sprites/png/infrastructure/locks_snow34.gimp.png") }
+spriteset (set_locks_snow44) { tmpl_locks("sprites/png/infrastructure/locks_snow44.gimp.png") }
+
+switch( FEAT_CANALS, SELF, switch_locks_arctic,
+		[
+			STORE_TEMP(                (tile_height > (snowline_height - 16)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height -  8)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height     )), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height +  8)), 0),
+			LOAD_TEMP(0)
+		] ) {
+	0: set_locks_normal;
+	1: set_locks_snow14;
+	2: set_locks_snow24;
+	3: set_locks_snow34;
+	set_locks_snow44;
+}
+switch( FEAT_CANALS, SELF, switch_locks_climate, climate) {
+	CLIMATE_ARCTIC:   switch_locks_arctic;
+	set_locks_normal;
+}
+
+item( FEAT_CANALS, locks, WF_LOCKS) {
+	graphics {
+		default: switch_locks_climate;
+	}
+}

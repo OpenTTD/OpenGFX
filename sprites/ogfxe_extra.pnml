@@ -18,6 +18,7 @@
 #include "sprites/nml/extra/extra-tram-tracks.pnml"
 
 #include "sprites/nml/extra/extra-plus-waterfeatures.pnml"
+#include "sprites/nml/extra/extra-plus-locks.pnml"
 
 if (climate == CLIMATE_ARCTIC) {
 #include "sprites/nml/extra/extra-plus-arctic-rail-vehicles.pnml"
