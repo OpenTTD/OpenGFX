@@ -1,0 +1,126 @@
+/*
+ * This file is part of OpenGFX base graphics for OpenTTD
+ * OpenGFX is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+ * OpenGFX is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX+ Landscape. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* ******************************
+ * Canal dikes
+ * *****************************/
+
+template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s, corner_w, corner_n, smallcorners) {
+	tmpl_level_ground_file(1, 1, dike_ne)
+	tmpl_level_ground_file(1, 1, dike_nw)
+	tmpl_level_ground_file(1, 1, dike_se)
+	tmpl_level_ground_file(1, 1, dike_sw)
+	tmpl_level_ground_file(1, 1, corner_e)
+	tmpl_level_ground_file(1, 1, corner_s)
+	tmpl_level_ground_file(1, 1, corner_w)
+	tmpl_level_ground_file(1, 1, corner_n)
+	[57, 14,  8, 6,  25, 13, smallcorners]
+	[29, 28,  8, 4,  -3, 27, smallcorners]
+	[ 1, 14,  8, 6, -31, 13, smallcorners]
+	[27,  1, 12, 5,  -5,  0, smallcorners]
+}
+
+spriteset( set_canal_sides_temperate, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_temperate_smallcorners.gimp.png"
+	)
+}
+
+spriteset( set_canal_sides_snow, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_snow_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_snow_smallcorners.gimp.png"
+	)
+}
+spriteset( set_canal_sides_arctic, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_arctic_smallcorners.gimp.png"
+	)
+}
+spriteset( set_canal_sides_desert, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_desert_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_desert_smallcorners.gimp.png"
+	)
+}
+spriteset( set_canal_sides_tropical, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_tropical_smallcorners.gimp.png"
+	)
+}
+spriteset( set_canal_sides_toyland, "") {
+	tmpl_canalsides(
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_ne.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_se.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_sw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_nw.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerE.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerS.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerW.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_cornerN.gimp.png",
+		"sprites/png/terrain/waterfeatures/canaldike_toyland_smallcorners.gimp.png"
+	)
+}
+
+switch(FEAT_CANALS, SELF, canal_sides_arctic_terrain_switch, terrain_type ) {
+	TILETYPE_SNOW: set_canal_sides_snow;
+	set_canal_sides_arctic;
+}
+switch(FEAT_CANALS, SELF, canal_sides_tropical_terrain_switch, terrain_type ) {
+	TILETYPE_DESERT: set_canal_sides_desert;
+	set_canal_sides_tropical;
+}
+switch(FEAT_CANALS, SELF, canal_sides_climate_switch, climate) {
+	CLIMATE_ARCTIC:   canal_sides_arctic_terrain_switch;
+	CLIMATE_TROPICAL: canal_sides_tropical_terrain_switch;
+	CLIMATE_TOYLAND:  set_canal_sides_toyland;
+	set_canal_sides_temperate;
+}
+
+item(FEAT_CANALS, dikes, WF_DIKES) {
+	graphics {
+		default: canal_sides_climate_switch;
+	}
+}
