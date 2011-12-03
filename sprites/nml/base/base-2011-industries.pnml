@@ -3,22 +3,22 @@
 //2011-2364 industries
 
 //2011-2025 coal mine
-base_graphics(2011, "sprites/png/industries/industries_misc.png") { [  66,    8,  37,  26, -17,  -8] }
-base_graphics(2012, "sprites/png/industries/industries_misc.png") { [ 114,    8,  36,  50, -16, -33] }
-base_graphics(2013, "sprites/png/industries/industries_misc.png") { [ 162,    8,  58,  50, -16, -33] }
-base_graphics(2014, "sprites/png/industries/industries_misc.png") { [ 226,    8,  58,  50, -16, -33] }
-base_graphics(2015, "sprites/png/industries/industries_misc.png") { [ 290,    8,  58,  50, -16, -33] }
-base_graphics(2016, "sprites/png/industries/industries_misc.png") { [ 354,    8,  49,  32, -30,  -9] }
-base_graphics(2017, "sprites/png/industries/industries_misc.png") { [ 418,    8,  48,  41, -29, -18] }
-base_graphics(2018, "sprites/png/industries/industries_misc.png") { [ 482,    8,  48,  41, -29, -18] }
-base_graphics(2019, "sprites/png/industries/industries_misc.png") { [ 546,    8,  36,  30, -16, -12] }
-base_graphics(2020, "sprites/png/industries/industries_misc.png") { [ 594,    8,  36,  43, -16, -25] }
-base_graphics(2021, "sprites/png/industries/industries_misc.png") { [ 642,    8,  36,  43, -16, -25] }
+base_graphics(2011, "sprites/png/industries/coalmine_base.gimp.png") { [  66,    8,  37,  26, -17,  -8] }
+base_graphics(2012, "sprites/png/industries/coalmine_base.gimp.png") { [ 114,    8,  36,  50, -16, -33] }
+base_graphics(2013, "sprites/png/industries/coalmine_anim1.gimp.png") { [ 162,    8,  58,  50, -16, -33] }
+base_graphics(2014, "sprites/png/industries/coalmine_anim2.gimp.png") { [ 162,    8,  58,  50, -16, -33] }
+base_graphics(2015, "sprites/png/industries/coalmine_anim3.gimp.png") { [ 162,    8,  58,  50, -16, -33] }
+base_graphics(2016, "sprites/png/industries/coalmine_base.gimp.png") { [ 354,    8,  49,  32, -30,  -9] }
+base_graphics(2017, "sprites/png/industries/coalmine_base.gimp.png") { [ 418,    8,  48,  41, -29, -18] }
+base_graphics(2018, "sprites/png/industries/coalmine_base.gimp.png") { [ 482,    8,  48,  41, -29, -18] }
+base_graphics(2019, "sprites/png/industries/coalmine_base.gimp.png") { [ 546,    8,  36,  30, -16, -12] }
+base_graphics(2020, "sprites/png/industries/coalmine_base.gimp.png") { [ 594,    8,  36,  43, -16, -25] }
+base_graphics(2021, "sprites/png/industries/coalmine_base.gimp.png") { [ 642,    8,  36,  43, -16, -25] }
 	// ground sprite # 2022: used elsewhere, e.g. in gold mine, factory 2nd const. stage:
-base_graphics(2022, "sprites/png/industries/industries_misc.png") { [ 690,    8,  64,  31, -31,   0] }
-base_graphics(2023, "sprites/png/industries/industries_misc.png") { [   2,   72,  64,  31, -31,   0] }
-base_graphics(2024, "sprites/png/industries/industries_misc.png") { [  82,   72,  64,  31, -31,   0] }
-base_graphics(2025, "sprites/png/industries/industries_misc.png") { [ 162,   72,  64,  31, -31,   0] }
+base_graphics(2022, "sprites/png/industries/coalmine_base.gimp.png") { [ 690,    8,  64,  31, -31,   0] }
+base_graphics(2023, "sprites/png/industries/coalmine_base.gimp.png") { [   2,   72,  64,  31, -31,   0] }
+base_graphics(2024, "sprites/png/industries/coalmine_base.gimp.png") { [  82,   72,  64,  31, -31,   0] }
+base_graphics(2025, "sprites/png/industries/coalmine_base.gimp.png") { [ 162,   72,  64,  31, -31,   0] }
 
 //2026-2039 copper ore mine
 base_graphics(2026, "sprites/png/industries/industries_misc.png") { [ 258,   72,  32,  30, -14, -15] }

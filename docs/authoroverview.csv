@@ -57,7 +57,7 @@ ogfx1_base;1421;1437;17;Town buildings;Zephyris;buttercup;;1
 ogfx1_base;1438;1439;2;Recolour sprites;n/a;n/a;;1
 ogfx1_base;1440;1453;14;Town buildings;Zephyris;buttercup;;1
 ogfx1_base;1454;1454;1;Statue;FooBar, Zephyris;FooBar;;1
-ogfx1_base;1455;1455;1;Fountain;FooBar;FooBar;;1
+ogfx1_base;1455;1455;1;Fountain;FooBar, planetmaker;FooBar;;1
 ogfx1_base;1456;1457;2;Parks;Zephyris;buttercup;;1
 ogfx1_base;1458;1529;72;Town buildings;Zephyris;buttercup, Ammler;;1
 ogfx1_base;1530;1535;6;Office block;Zephyris;buttercup;;1
@@ -84,7 +84,7 @@ ogfx1_base;1989;1995;7;Toyland: Tree: cone;Zephyris;FooBar;;1
 ogfx1_base;1996;2002;7;Toyland: Tree: sphere;Zephyris;FooBar;;1
 ogfx1_base;2003;2009;7;Toyland: Tree: discs;Soeb;FooBar;;1
 ogfx1_base;2010;2010;1;GUI tree cursor;bubersson, LordAzamath, Zephyris;Zephyris;;1
-ogfx1_base;2011;2025;15;Industries coal mine;Zephyris;;;1
+ogfx1_base;2011;2025;15;Industries coal mine;Zephyris, planetmaker;planetmaker;;1
 ogfx1_base;2026;2039;14;Industries copper ore mine;Zephyris;;;1
 ogfx1_base;2040;2044;5;Industries smoke;Zephyris;;;1
 ogfx1_base;2045;2054;10;Industries power plan;Zephyris;;;1
