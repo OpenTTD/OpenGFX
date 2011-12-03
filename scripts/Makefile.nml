@@ -14,7 +14,7 @@ LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
 
 %.src.dep: %.pnml
 	$(_E) "[DEP] $@"
-	$(_V) $(CC) -C -M -MF $@ -E -MT $@ - < $<
+	$(_V) $(CC) -C -M -MF $@ -E -MT $(patsubst %.pnml,%.nml,$<) - < $<
 
 %.nml: %.pnml %.src.dep $(REV_FILENAME) $(TAG_FILENAME)
 	$(_E) "[CPP] $@"
