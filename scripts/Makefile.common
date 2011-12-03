@@ -148,11 +148,10 @@ ifdef NEED_GIMP
 	$(_E) "[GIMP] $@"
 ifdef USE_GIMP
 	$(_V) $(GIMP) $(GIMP_FLAGS) $< >/dev/null
-	$(_V) touch $@
 else # USE_GIMP
 	$(_E) "... Gimp not found. Graphis cannot be created. Terminating."
-	$(_V) false
 endif # USE_GIMP
+	$(_V) touch $@
 endif # NEED_GIMP
 
 ################################################################
