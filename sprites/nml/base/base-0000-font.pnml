@@ -139,7 +139,7 @@ base_graphics( 134, "sprites/png/gui/medfontcond.png") { [ 578,   72,   7,  13, 
 base_graphics( 135, "sprites/png/gui/medfontcond.png") { [ 594,   72,   9,  13,   0,  -2] }
 base_graphics( 136, "sprites/png/gui/medfontcond.png") { [ 610,   72,   3,  13,   0,  -2] }
 base_graphics( 137, "sprites/png/gui/medfontcond.png") { [ 626,   72,   7,  13,   0,  -2] }
-base_graphics( 138, "sprites/png/gui/medfontcond.png") { [ 642,   72,   5,  13,   0,  -2] }
+base_graphics( 138, "sprites/png/gui/medfontcond.png") { [ 642,   72,   6,  13,   0,  -2] }
 base_graphics( 139, "sprites/png/gui/medfontcond.png") { [ 658,   72,  10,  13,   0,  -2] }
 base_graphics( 140, "sprites/png/gui/medfontcond.png") { [ 674,   72,   9,  13,   0,  -1] } // down arrow
 base_graphics( 141, "sprites/png/gui/medfontcond.png") { [ 690,   72,   8,  13,   0,  -2] }
@@ -386,11 +386,11 @@ base_graphics( 377, "sprites/png/gui/gui04.png") { [ 242, 3528,   1,   1,   0,  
 base_graphics( 378, "sprites/png/gui/gui04.png") { [ 258, 3528,   1,   1,   0,   0] }
 base_graphics( 379, "sprites/png/gui/gui04.png") { [ 274, 3528,   4,   3,   0,   1] }
 base_graphics( 380, "sprites/png/gui/gui04.png") { [ 290, 3528,   3,   3,   0,   1] }
-base_graphics( 381, "sprites/png/gui/gui04.png") { [ 306, 3528,   4,   3,   0,   3] }
+base_graphics( 381, "sprites/png/gui/fonts.png") { [ 306,  528,   4,   3,   0,   2] }
 base_graphics( 382, "sprites/png/gui/gui04.png") { [ 322, 3528,   1,   1,   0,   0] }
 base_graphics( 383, "sprites/png/gui/gui04.png") { [ 338, 3528,   1,   1,   0,   0] }
 base_graphics( 384, "sprites/png/gui/gui04.png") { [ 354, 3528,   1,   1,   0,   0] }
-base_graphics( 385, "sprites/png/gui/gui04.png") { [ 370, 3528,   2,   4,   0,   2] }
+base_graphics( 385, "sprites/png/gui/fonts.png") { [ 370,  528,   3,   5,   0,   1] }
 base_graphics( 386, "sprites/png/gui/gui04.png") { [ 386, 3528,   3,   6,   0,   0] }
 base_graphics( 387, "sprites/png/gui/gui04.png") { [ 402, 3528,   3,   6,   0,   0] }
 base_graphics( 388, "sprites/png/gui/gui04.png") { [ 418, 3528,   3,   6,   0,   0] }
@@ -422,7 +422,7 @@ base_graphics( 413, "sprites/png/gui/gui04.png") { [  18, 3544,   3,   6,   0,  
 base_graphics( 414, "sprites/png/gui/gui04.png") { [  34, 3544,   3,   6,   0,   0] }
 base_graphics( 415, "sprites/png/gui/gui04.png") { [  50, 3544,   3,   6,   0,   0] }
 base_graphics( 416, "sprites/png/gui/gui04.png") { [  66, 3544,   3,   5,   0,   1] }
-base_graphics( 417, "sprites/png/gui/gui04.png") { [  82, 3544,   7,   5,   0,   1] }
+base_graphics( 417, "sprites/png/gui/fonts.png") { [  82,  544,   4,   5,   0,   1] }
 base_graphics( 418, "sprites/png/gui/gui04.png") { [  98, 3544,   3,   6,   0,   0] }
 base_graphics( 419, "sprites/png/gui/gui04.png") { [ 114, 3544,   3,   6,   0,   0] }
 base_graphics( 420, "sprites/png/gui/gui04.png") { [ 130, 3544,   3,   6,   0,   0] }
@@ -439,7 +439,7 @@ base_graphics( 430, "sprites/png/gui/gui04.png") { [ 290, 3544,   2,   6,   0,  
 base_graphics( 431, "sprites/png/gui/gui04.png") { [ 306, 3544,   2,   6,   0,   0] }
 base_graphics( 432, "sprites/png/gui/gui04.png") { [ 322, 3544,   3,   6,   0,   0] }
 base_graphics( 433, "sprites/png/gui/gui04.png") { [ 338, 3544,   3,   6,   0,   0] }
-base_graphics( 434, "sprites/png/gui/gui04.png") { [ 354, 3544,   4,   5,   0,   1] }
+base_graphics( 434, "sprites/png/gui/fonts.png") { [ 354,  544,   3,   5,   0,   1] }
 base_graphics( 435, "sprites/png/gui/gui04.png") { [ 370, 3544,   4,   6,   0,   0] }
 base_graphics( 436, "sprites/png/gui/gui04.png") { [ 386, 3544,   3,   6,   0,   0] }
 base_graphics( 437, "sprites/png/gui/gui04.png") { [ 402, 3544,   3,   6,   0,   0] }
@@ -447,13 +447,13 @@ base_graphics( 438, "sprites/png/gui/gui04.png") { [ 418, 3544,   3,   6,   0,  
 base_graphics( 439, "sprites/png/gui/gui04.png") { [ 434, 3544,   3,   6,   0,   0] }
 base_graphics( 440, "sprites/png/gui/gui04.png") { [ 450, 3544,   3,   6,   0,   0] }
 base_graphics( 441, "sprites/png/gui/gui04.png") { [ 466, 3544,   3,   5,   0,   1] }
-base_graphics( 442, "sprites/png/gui/gui04.png") { [ 482, 3544,   5,   5,   0,   1] }
+base_graphics( 442, "sprites/png/gui/fonts.png") { [ 482,  544,   4,   4,   0,   2] }
 base_graphics( 443, "sprites/png/gui/gui04.png") { [ 498, 3544,   3,   6,   0,   0] }
 base_graphics( 444, "sprites/png/gui/gui04.png") { [ 514, 3544,   3,   6,   0,   0] }
 base_graphics( 445, "sprites/png/gui/gui04.png") { [ 530, 3544,   3,   6,   0,   0] }
 base_graphics( 446, "sprites/png/gui/gui04.png") { [ 546, 3544,   3,   6,   0,   0] }
 base_graphics( 447, "sprites/png/gui/gui04.png") { [ 562, 3544,   3,   7,   0,   1] }
-base_graphics( 448, "sprites/png/gui/gui04.png") { [ 578, 3544,   3,   4,   0,   1] }
+base_graphics( 448, "sprites/png/gui/fonts.png") { [ 578,  544,   3,   7,   0,   1] }
 base_graphics( 449, "sprites/png/gui/gui04.png") { [ 594, 3544,   3,   7,   0,   1] }
 
 //450-673 newspaper font including random thingies Darn random thingies!!
@@ -655,7 +655,7 @@ base_graphics( 644, "sprites/png/gui/gui04.png") { [ 498, 3432,   8,  21,   0,  
 base_graphics( 645, "sprites/png/gui/gui04.png") { [ 514, 3432,   8,  21,   0,  -2] }
 base_graphics( 646, "sprites/png/gui/gui04.png") { [ 530, 3432,   8,  21,   0,  -2] }
 base_graphics( 647, "sprites/png/gui/gui04.png") { [ 546, 3432,   8,  21,   0,  -2] }
-base_graphics( 648, "sprites/png/gui/gui04.png") { [ 562, 3432,  12,  21,   0,  -2] }
+base_graphics( 648, "sprites/png/gui/fonts.png") { [ 562,  432,  13,  21,   0,  -2] }
 base_graphics( 649, "sprites/png/gui/gui04.png") { [ 594, 3432,   8,  21,   0,  -2] }
 base_graphics( 650, "sprites/png/gui/gui04.png") { [ 610, 3432,   8,  21,   0,  -2] }
 base_graphics( 651, "sprites/png/gui/gui04.png") { [ 626, 3432,   8,  21,   0,  -2] }

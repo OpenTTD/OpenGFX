@@ -1,4 +1,4 @@
-// "Characters"
+﻿// "Characters"
 // Additional Characters (all font sizes)
 // Euro-sign (€ U+20AC)
 
@@ -388,7 +388,7 @@ font_glyph(NORMAL, 0x00BD, "") {
 	[  40,  130,  11,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(SMALL, 0x00BD, "") {
-	[  40,  150,   9,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[  40,  150,   8,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(LARGE, 0x00BD, "") {
 	[  40,  160,  11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
@@ -403,7 +403,7 @@ font_glyph(NORMAL, 0x00B5, "") {
 	[  60,  130,   6,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(SMALL, 0x00B5, "") {
-	[  60,  150,   3,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[  60,  150,   3,   6,   0,   1,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(LARGE, 0x00B5, "") {
 	[  60,  160,  10,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
@@ -418,7 +418,7 @@ font_glyph(NORMAL, 0x00AA, "") {
 	[  80,  130,   5,  13,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(SMALL, 0x00AA, "") {
-	[  80,  150,   1,   5,   0,   1,               "sprites/png/gui/font_addl.png"]
+	[  80,  150,   3,   3,   0,   1,               "sprites/png/gui/font_addl.png"]
 }
 font_glyph(LARGE, 0x00AA, "") {
 	[  80,  160,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
@@ -1136,18 +1136,6 @@ font_glyph(MONO, 0x015C, "sprites/png/gui/mono.png") {
 
 
 // Large font only
-// Latin Capital letter AE (Æ U+00C6)
-font_glyph(LARGE, 0x00C6, "") {
-	[ 300,   40,  19,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
-}
-
-
-// Latin Small Letter AE (æ U+00E6)
-font_glyph(LARGE, 0x00E6, "") {
-	[ 280,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
-}
-
-
 // Latin Capital letter O with stroke (Ø U+00D8)
 font_glyph(LARGE, 0x00D8, "") {
 	[ 330,   40,  13,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
@@ -1174,13 +1162,13 @@ font_glyph(LARGE, 0x00F0, "") {
 
 // Latin Capital Letter Thorn (Þ U+00DE)
 font_glyph(LARGE, 0x00DE, "") {
-	[ 380,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 380,   40,  11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 
 
 // Latin Small Letter Thorn (þ U+00FE)
 font_glyph(LARGE, 0x00FE, "") {
-	[ 400,   40,  14,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 400,   40,  9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 
 
@@ -1198,13 +1186,13 @@ font_glyph(LARGE, 0x00A9, "") {
 
 // Registered sign (® U+00AE)
 font_glyph(LARGE, 0x00AE, "") {
-	[ 150,   40,   7,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 450,   40,   16,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 
 
 // Plus-minus sign; Superscript two; Superscript three (± U+00B1; ² U+00B2; ³ U+00B3)
 font_glyph(LARGE, 0x00B1, "") {
-	[ 480,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 478,   40,   11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 490,   40,   6,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 	[ 500,   40,   5,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
@@ -1218,7 +1206,7 @@ font_glyph(LARGE, 0x00D7, "") {
 
 // Division sign (÷ U+00F7)
 font_glyph(LARGE, 0x00F7, "") {
-	[ 520,   40,   9,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
+	[ 520,   40,   11,  21,   0,  -2,               "sprites/png/gui/font_addl.png"]
 }
 
 

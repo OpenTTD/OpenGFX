@@ -3,15 +3,15 @@ ogfx1_base;0;1;2;Cursor and sleepy cursor;bubersson, LordAzamath, Zephyris;Zephy
 ogfx1_base;2;2;1;Space of normal font;n/a;n/a;;1
 ogfx1_base;3;92;90;Normal font;Bilbo, FooBar;buttercup, FooBar;;1
 ogfx1_base;93;128;36;Undefined;n/a;n/a;;1
-ogfx1_base;129;225;97;Normal font special chars;Bilbo, FooBar;buttercup, FooBar;;1
+ogfx1_base;129;225;97;Normal font special chars;Bilbo, FooBar, PaulC;buttercup, FooBar;;1
 ogfx1_base;226;226;1;Space of small font;n/a;n/a;;1
 ogfx1_base;227;316;90;Small font;Zephyris;;;1
 ogfx1_base;317;352;36;Undefined;n/a;n/a;;1
-ogfx1_base;353;449;97;Small font special chars;Zephyris;;;1
+ogfx1_base;353;449;97;Small font special chars;Zephyris, PaulC;;;1
 ogfx1_base;450;450;1;Space of large font;n/a;n/a;;1
 ogfx1_base;451;540;90;Large font;Zephyris;;;1
 ogfx1_base;541;576;36;Undefined;n/a;n/a;;1
-ogfx1_base;577;673;97;Large font special chars;Zephyris;;;1
+ogfx1_base;577;673;97;Large font special chars;Zephyris, PaulC;;;1
 ogfx1_base;674;678;5;Company colour thingies;Zephyris;;;1
 ogfx1_base;679;751;73;GUI buttons and cursors;bubersson, LordAzamath, Zephyris, 2006TTD;Zephyris, Ammler;;1
 ogfx1_base;752;770;19;GUI selectors;LordAzamath, soeb;Zephyris;;1
@@ -432,7 +432,7 @@ ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and ri
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1
 ogfxe_extra;0;843;844;River shores;planetmaker (flat, rivermouths), Leppka (normal sloped);planetmaker;;1
 ogfxe_extra;0;127;128;Climate specific trains and -carriages;buttercup, DanMacK, Uzurpator, Zephyris;buttercup;;1
-ogfxe_extra;0;345;346;Additional proportional Font Characters;Bilbo, FooBar;FooBar;;1
+ogfxe_extra;0;345;346;Additional proportional Font Characters;Bilbo, FooBar, PaulC;FooBar;;1
 ogfxe_extra;0;-;-;Font 'liberation mono'; Pravin Satpute, Caius Chance (font); Rubidium, planetmaker;;1
 ogfxe_extra;0;75;76;Temperate snow tiles;Zephyris;Zephyris;;1
 ogfxe_extra;0;0;0;Arctic rail wagon overrides;DanMacK;planetmaker;2053;1
