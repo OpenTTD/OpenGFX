@@ -1443,3 +1443,8 @@ font_glyph(MONO, 0x0080, "sprites/png/gui/mono.png") {
 	tmpl_mono(460, 150)
 	tmpl_mono(475, 150)
 }
+
+font_glyph(MONO, 0x0178, "sprites/png/gui/mono.png") {
+	tmpl_mono(475, 230)
+}
+
