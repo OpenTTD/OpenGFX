@@ -1,12 +1,14 @@
 # Sea shores
-# Temperate sea shore
 sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png       sprites/source/terrain/terrain.xcf      White BlueForShore GroundTemperate GridTemperate SeaWater Coast
 sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png          sprites/source/terrain/terrain.xcf      White BlueForShore GroundArctic    GridArctic    SeaWater Coast
 sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png        sprites/source/terrain/terrain.xcf      White BlueForShore GroundTropical  GridTropical  SeaWater Coast
 
-# Riverbanks
+# Rivers
 
-# river banks temperate grass
+# River and canal water
+sprites/png/terrain/waterfeatures/river_water.gimp.png              sprites/source/terrain/terrain.xcf      White BlueForShore RiverWater RiverbankMask
+
+# River banks temperate grass
 sprites/png/terrain/waterfeatures/riverbank_temperate_ne.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankNE
 sprites/png/terrain/waterfeatures/riverbank_temperate_nw.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankNW
 sprites/png/terrain/waterfeatures/riverbank_temperate_se.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundTemperate GridTemperate RiverbankMask RiverbankSE

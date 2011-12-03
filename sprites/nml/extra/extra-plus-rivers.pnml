@@ -10,112 +10,112 @@
  * *****************************/
 
 spriteset(set_riverwater_new_1, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[   2,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  82,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 162,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 242,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_2, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 354,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 434,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 514,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 594,   22,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_3, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 706,   22,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[   2,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  82,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 162,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_4, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 274,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 354,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 434,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 514,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_5, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 626,   86,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 706,   86,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[   2,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  82,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_6, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 194,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 274,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 354,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 434,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_7, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 546,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 626,  150,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 706,  150,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[   2,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_8, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 114,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 194,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 274,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 354,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_9, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 466,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 546,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 626,  214,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 706,  214,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_10, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[  18,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  98,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 178,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 258,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_11, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 370,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 450,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 530,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 610,  278,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_12, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 722,  278,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[   2,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  82,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 162,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_13, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 274,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 354,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 434,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 514,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_14, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 626,  342,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 706,  342,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[   2,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[  82,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_15, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 194,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 274,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 354,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 434,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 }
 spriteset(set_riverwater_new_16, "") {
-	[   0,    0,  64,  31, -31,   0, "sprites/png/terrain/river_water.png"]
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
 	[ 546,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 626,  406,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures/riverrapids.png"]
 	[ 706,  406,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures/riverrapids.png"]
