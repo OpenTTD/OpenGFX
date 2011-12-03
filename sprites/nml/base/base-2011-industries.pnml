@@ -190,13 +190,15 @@ base_graphics(2171, "sprites/png/industries/industries_misc.png") { [ 722, 1816,
 base_graphics(2172, "sprites/png/industries/industries_misc.png") { [   2, 1912,  64,  31, -31,   0] }
 
 //2173-2179 oil derrick
-base_graphics(2173, "sprites/png/industries/industries_misc.png") { [ 706, 2104,  64,  31, -31,   0] }
-base_graphics(2174, "sprites/png/industries/industries_misc.png") { [   2, 2232,  31,  44, -11, -29] }
-base_graphics(2175, "sprites/png/industries/industries_misc.png") { [  50, 2232,  31,  44, -11, -29] }
-base_graphics(2176, "sprites/png/industries/industries_misc.png") { [  98, 2232,  31,  44, -11, -29] }
-base_graphics(2177, "sprites/png/industries/industries_misc.png") { [ 146, 2232,  31,  44, -11, -29] }
-base_graphics(2178, "sprites/png/industries/industries_misc.png") { [ 194, 2232,  31,  44, -11, -29] }
-base_graphics(2179, "sprites/png/industries/industries_misc.png") { [ 242, 2232,  31,  44, -11, -29] }
+// base plate
+base_graphics(2173, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { tmpl_level_ground(142, 10) }
+// six animation stages
+base_graphics(2174, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics(2175, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics(2176, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics(2177, "sprites/png/industries/oilwell/oilwell_anim4.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics(2178, "sprites/png/industries/oilwell/oilwell_anim5.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics(2179, "sprites/png/industries/oilwell/oilwell_anim6.gimp.png") { [  14, 10,  31,  44, -11, -29] }
 
 //2180-2183 temperate bank
 base_graphics(2180, "sprites/png/industries/industries_misc.png") { [ 402,  792,  58,  44, -31, -16] }
