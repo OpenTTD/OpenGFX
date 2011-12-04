@@ -220,15 +220,15 @@ base_graphics(2190, "sprites/png/industries/food_factory/foodfactory_stage2.png"
 	// building with chimney
 base_graphics(2191, "sprites/png/industries/food_factory/foodfactory_stage1.png") { [ 192,   48,  64,  80, -31, -49] }
 base_graphics(2192, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 224,   32,  64,  80, -31, -49] }
-base_graphics(2193, "sprites/png/industries/industries_misc.png") { [ 498, 894,  64,  54, -31, -23] }
+base_graphics(2193, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 498,  894,  64,  54, -31, -23] }
 	// storage tank
-base_graphics(2194, "sprites/png/industries/industries_misc.png") { [ 578, 1912,  23,  12, -11,   9] }
-base_graphics(2195, "sprites/png/industries/industries_misc.png") { [ 610, 1912,  23,  41, -11, -20] }
-base_graphics(2196, "sprites/png/industries/industries_misc.png") { [ 642, 1912,  23,  41, -11, -20] }
+base_graphics(2194, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 578,  894,  23,  12, -11,   9] }
+base_graphics(2195, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 610,  894,  23,  41, -11, -20] }
+base_graphics(2196, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 642,  894,  23,  41, -11, -20] }
   	// courtyard
-base_graphics(2197, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
-base_graphics(2198, "sprites/png/industries/industries_misc.png") { [   2, 1976,  64,  31, -31,   0] }
-base_graphics(2199, "sprites/png/industries/industries_misc.png") { [  82, 1976,  64,  31, -31,   0] }
+base_graphics(2197, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 674,  894,  64,  31, -31,   0] }
+base_graphics(2198, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [   2,  958,  64,  31, -31,   0] }
+base_graphics(2199, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [  82,  958,  64,  31, -31,   0] }
 
 //2200-2214 paper mill
 base_graphics(2200, "sprites/png/industries/industries_misc.png") { [  98,  696,  62,  37, -30,  -4] }
