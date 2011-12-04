@@ -100,7 +100,7 @@ ogfx1_base;2153;2172;20;Industries printworks;Zephyris;buttercup;;1
 ogfx1_base;2173;2179;7;Industries oil wells;Zephyris;buttercup;;1
 ogfx1_base;2180;2183;4;Industries bank 1;Zephyris;buttercup;;1
 ogfx1_base;2184;2187;4;Industries bank 2;Zephyris;buttercup;;1
-ogfx1_base;2188;2199;12;Industries food processing plant;Zephyris,andythenorth,planetmaker (constr. stages);buttercup, planetmaker;;1
+ogfx1_base;2188;2199;12;Industries food processing plant;Zephyris,andythenorth, oberhuemer, planetmaker (constr. stages);buttercup, planetmaker;;1
 ogfx1_base;2200;2213;14;Industries paper mill;Zephyris;;;1
 ogfx1_base;2214;2265;52;Industries diamond mine;Zephyris;Zephyris;;1
 ogfx1_base;2266;2292;27;Industries gold mine;Zephyris;Zephyris;;1

@@ -216,11 +216,11 @@ base_graphics(2187, "sprites/png/industries/industries_misc.png") { [ 610, 2104,
 	// factory hall
 base_graphics(2188, "sprites/png/industries/food_factory/foodfactory_stage1.png") { [  64,   48,  64,  80, -31, -49] }
 base_graphics(2189, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [  96,   32,  64,  80, -31, -49] }
-base_graphics(2190, "sprites/png/industries/industries_misc.png") { [ 258, 1912,  64,  49, -31, -18] }
+base_graphics(2190, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 258,  894,  64,  49, -31, -18] }
 	// building with chimney
 base_graphics(2191, "sprites/png/industries/food_factory/foodfactory_stage1.png") { [ 192,   48,  64,  80, -31, -49] }
 base_graphics(2192, "sprites/png/industries/food_factory/foodfactory_stage2.png") { [ 224,   32,  64,  80, -31, -49] }
-base_graphics(2193, "sprites/png/industries/industries_misc.png") { [ 498, 1912,  64,  54, -31, -23] }
+base_graphics(2193, "sprites/png/industries/industries_misc.png") { [ 498, 894,  64,  54, -31, -23] }
 	// storage tank
 base_graphics(2194, "sprites/png/industries/industries_misc.png") { [ 578, 1912,  23,  12, -11,   9] }
 base_graphics(2195, "sprites/png/industries/industries_misc.png") { [ 610, 1912,  23,  41, -11, -20] }

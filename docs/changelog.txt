@@ -1,16 +1,16 @@
-OpenGFX r845
+OpenGFX r864
 ------------
-- Feature: Respect snow density for river tiles (issue #3011)
 - Feature: Monospaced font 'liberation mono'
-- Change: Generate the rivermouth sprites from source file
-- Change: Engine overrides are not needed anymore since r23232
+- Feature: Snow transition aware locks (issue #3302)
+- Feature: Respect snow density for river tiles (issue #3011)
+- Change: Engine overrides are not needed anymore since OpenTTD r23232
 - Change: Convert project to NML source
-- Add: Introduce a graphics source list and allow to generate png files from the xcf if gimp is present
-- Fix [Makefile]: be quiet about search path when gimp can not be found
+- Add: [Makefile] Allow to generate png files directly from the xcf if gimp is present
+- Fix: No regular waves on fountain water (issue #3281)
+- Fix: Animation of coal mine, gold mine and oil wells did change too many pixels (issues #3280, #3279, #3278)
+- Fix: Runway lights were not flashing in proper order (issue #3221)
+- Fix: Various font glyphs corrected or improved
 - Fix: Arctic riverbanks had erronous green
-- Fix: Double includes are evil (issue #3157)
-- Fix: Define canals in one block for the sake of backward compatibility
-- Fix: Hardcoded path in build rules could cause problems with new CF
 - Fix: Wrong palette for piggybank and toyland bubble tree.
 - Fix: Naming of bundles for TTDPatch usage was broken
 - Doc: Meaning of some sprites
