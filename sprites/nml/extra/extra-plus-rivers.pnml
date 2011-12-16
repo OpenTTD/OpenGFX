@@ -1155,12 +1155,18 @@ item( FEAT_CANALS, riverbanks, WF_RIVERBANKS) {
 
 spriteset(buoy_normal, "sprites/png/infrastructure/buoy_map.png") {	[   0,    0,  20,  20,   0,   0] }
 spriteset(buoy_snow, "sprites/png/infrastructure/buoy_map.png")   { [   0,   32,  24,  22,   0,   0] }
+spriteset(buoy_toyland, "sprites/png/infrastructure/toyland_buoys_2006TTD.png") { [ 184, 14, 20, 20, 1, 1] } // Menu sprite
 switch( FEAT_CANALS, SELF, buoy_terrain_switch, terrain_type) {
 	TILETYPE_SNOW: buoy_snow;
 	buoy_normal;
 }
+switch(FEAT_CANALS, SELF, buoy_climate_switch, climate) {
+	CLIMATE_ARCTIC: buoy_terrain_switch;
+	CLIMATE_TOYLAND: buoy_toyland;
+	buoy_normal;
+}
 if ((ttd_platform == PLATFORM_OPENTTD) && (openttd_version > version_openttd(1, 2, 0, 22973))) {
 	item( FEAT_CANALS, buoy, WF_BUOY) {
-		graphics { default: buoy_terrain_switch; }
+		graphics { default: buoy_climate_switch; }
 	}
 }
