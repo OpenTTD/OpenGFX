@@ -109,3 +109,19 @@ item(FEAT_CANALS, dikes, WF_DIKES) {
 		default: canal_sides_climate_switch;
 	}
 }
+
+spriteset(set_canal_water, "") {
+	tmpl_level_ground_file(1, 1, "sprites/png/terrain/waterfeatures/river_water.gimp.png")
+	//sloped water for locks
+	[ 658,    8,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[   2,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[  82,   72,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 162,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+}
+
+if (openttd_version > version_openttd(1, 1, 4, 22918)) {
+	item(FEAT_CANALS, canalwater, WF_WATERCLIFFS) {
+		property { graphic_flags: 1; }
+		graphics { default: set_canal_water; }
+	}
+}
