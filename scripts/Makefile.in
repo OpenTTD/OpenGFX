@@ -44,5 +44,14 @@ test::
 	$(_E) "Graphics source list:         $(GRAPHICS_SOURCE_LIST_FILES)"
 
 
-ogfxe_extra.grf: $(TAG_FILENAME)
-ogfxe_extra.nml: $(REV_FILENAME) $(TAG_FILENAME)
+
+%.tags.txt:
+	$(_E) "[LANG] $@"
+	$(_V) echo "TITLE    :OpenGFX" > $@
+
+ogfxe_extra.tags.txt: $(REV_FILENAME)
+	$(_E) "[LANG] $@"
+	$(_V) echo "VERSION  :$(REPO_VERSION_STRING)" > $@
+	$(_V) echo "TITLE    :$(REPO_TITLE)" >> $@
+	$(_V) echo "FILENAME :$(TARGET_FILES)" >> $@
+

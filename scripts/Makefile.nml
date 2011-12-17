@@ -16,7 +16,7 @@ LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
 	$(_E) "[DEP] $@"
 	$(_V) $(CC) -C -M -MF $@ -E -MT $(patsubst %.src.dep,%.nml,$@) - < $<
 
-%.nml: $(SRC_DIR)/%.pnml %.src.dep
+%.nml: $(SRC_DIR)/%.pnml %.src.dep $(TAG_FILENAME)
 	$(_E) "[CPP] $@"
 	$(_V) $(CC) -D REPO_REVISION=$(REPO_REVISION) $(CC_FLAGS) $< > $@
 
@@ -24,9 +24,9 @@ LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
 	$(_E) "[DEP] $@"
 	$(_V) $(NML) -M --MF $@ $<
 
-%.grf: %.nml %.gfx.dep $(LANG_FILES) $(MAKEFILE_DEP)
+%.grf: %.nml %.gfx.dep $(LANG_FILES) $(MAKEFILE_DEP) %.tags.txt
 	$(_E) "[NML] $@"
-	$(_V) $(NML) $(NML_FLAGS) --grf $@ $<
+	$(_V) $(NML) $(NML_FLAGS) --grf $@ --custom-tags $(patsubst %.grf,%.tags.txt,$@) $<
 
 $(TAG_FILENAME): $(REV_FILENAME)
 	$(_E) "[LANG] $@"
