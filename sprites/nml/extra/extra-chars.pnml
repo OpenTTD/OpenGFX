@@ -76,7 +76,7 @@ font_glyph(NORMAL, 0x00AF, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(170, 10, 8)
 }
 font_glyph(SMALL, 0x00AF, "sprites/png/gui/font_addl.png") {
-	tmpl_small(170, 30, 3)
+	tmpl_small(170, 30, 4)
 }
 font_glyph(LARGE, 0x00AF, "sprites/png/gui/font_addl.png") {
 	tmpl_large(170, 40, 10)
@@ -216,7 +216,7 @@ font_glyph(NORMAL, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(350, 130, 9)
 	tmpl_normal(370, 130, 6)
 	tmpl_normal(390, 130, 9)
-	tmpl_normal(410, 130, 6)
+	tmpl_normal(410, 130, 7)
 	tmpl_normal(430, 130, 12)
 	tmpl_normal(450, 130, 9)
 	tmpl_normal(470, 130, 8)
@@ -326,7 +326,7 @@ font_glyph(SMALL, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_small(710, 90, 3)
 	tmpl_small(730, 90, 2)
 	tmpl_small(750, 90, 3)
-	tmpl_small(770, 90, 1)
+	tmpl_small(770, 90, 2)
 	tmpl_small(10, 150, 4)
 	tmpl_small(30, 150, 3)
 	tmpl_small(50, 150, 4)
@@ -378,8 +378,8 @@ font_glyph(SMALL, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_small(190, 210, 3)
 	tmpl_small(210, 210, 3)
 	tmpl_small(230, 210, 3)
-	tmpl_small(250, 210, 3)
-	tmpl_small(270, 210, 3)
+	tmpl_small(250, 210, 4)
+	tmpl_small(270, 210, 4)
 	tmpl_small(290, 210, 3)
 	tmpl_small(310, 210, 3)
 	tmpl_small(330, 210, 5)
@@ -470,7 +470,7 @@ font_glyph(LARGE, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_large(190, 160, 10)
 	tmpl_large(210, 160, 16)
 	tmpl_large(230, 160, 10)
-	tmpl_large(250, 160, 14)
+	tmpl_large(250, 160, 13)
 	tmpl_large(270, 160, 15)
 	tmpl_large(290, 160, 9)
 	tmpl_large(310, 160, 13)

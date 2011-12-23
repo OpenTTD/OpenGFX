@@ -5,7 +5,6 @@ OpenGFX 0.4.0 (24 Dec 2011)
 - Feature: Snow transition aware locks (issue #3302)
 - Feature: Respect snow density for river tiles (issue #3011)
 - Change: Improve look of food processing plant (oberhuemer) (issue #2987)
-- Change: use nml releases instead nightlies for building
 - Change: Use the same water sprite for level canal tiles as for rivers (issue #3088)
 - Change: Engine overrides are not needed anymore since OpenTTD r23232
 - Change: Convert project to NML source
@@ -16,7 +15,6 @@ OpenGFX 0.4.0 (24 Dec 2011)
 - Fix: No regular waves on fountain water (issue #3281)
 - Fix: Animation of coal mine, gold mine and oil wells did change too many pixels (issues #3280, #3279, #3278)
 - Fix: Runway lights were not flashing in proper order (issue #3221)
-- Fix: Various font glyphs corrected or improved
 - Fix: Arctic riverbanks had erronous green
 - Fix: Wrong palette for piggybank and toyland bubble tree.
 - Fix: Naming of bundles for TTDPatch usage was broken

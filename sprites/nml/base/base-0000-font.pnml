@@ -168,7 +168,7 @@ base_graphics( 163, "sprites/png/gui/fonts.png") { [ 190,  190,   9,  13,   0,  
 base_graphics( 164, "sprites/png/gui/fonts.png") { [ 210,  190,   9,  13,   0,  -2] }
 base_graphics( 165, "sprites/png/gui/fonts.png") { [ 230,  190,   9,  13,   0,  -2] }
 base_graphics( 166, "sprites/png/gui/fonts.png") { [ 250,  190,   9,  13,   0,  -2] }
-base_graphics( 167, "sprites/png/gui/fonts.png") { [ 270,  190,   9,   1,   0,  -2] }
+base_graphics( 167, "sprites/png/gui/fonts.png") { [ 270,  190,   9,  13,   0,  -2] }
 base_graphics( 168, "sprites/png/gui/fonts.png") { [ 290,  190,  12,  13,   0,  -2] }
 base_graphics( 169, "sprites/png/gui/fonts.png") { [ 310,  190,   9,  13,   0,  -2] }
 base_graphics( 170, "sprites/png/gui/fonts.png") { [ 330,  190,   8,  13,   0,  -2] }
@@ -207,7 +207,7 @@ base_graphics( 202, "sprites/png/gui/fonts.png") { [ 190,  250,   6,  13,   0,  
 base_graphics( 203, "sprites/png/gui/fonts.png") { [ 210,  250,   6,  13,   0,  -2] }
 base_graphics( 204, "sprites/png/gui/fonts.png") { [ 230,  250,   6,  13,   0,  -2] }
 base_graphics( 205, "sprites/png/gui/fonts.png") { [ 250,  250,   6,  13,   0,  -2] }
-base_graphics( 206, "sprites/png/gui/fonts.png") { [ 270,  250,   4,   1,   0,  -2] }
+base_graphics( 206, "sprites/png/gui/fonts.png") { [ 270,  250,   4,  13,   0,  -2] }
 base_graphics( 207, "sprites/png/gui/fonts.png") { [ 290,  250,   4,  13,   0,  -2] }
 base_graphics( 208, "sprites/png/gui/fonts.png") { [ 310,  250,   6,  13,   0,  -2] }
 base_graphics( 209, "sprites/png/gui/fonts.png") { [ 330,  250,   6,  13,   0,  -2] }
@@ -246,7 +246,7 @@ base_graphics( 239, "sprites/png/gui/fonts.png") { [ 270,   30,   3,   8,   0,  
 base_graphics( 240, "sprites/png/gui/fonts.png") { [ 290,   30,   1,   8,   0,   0] }
 base_graphics( 241, "sprites/png/gui/fonts.png") { [ 310,   30,   3,   8,   0,   0] }
 base_graphics( 242, "sprites/png/gui/fonts.png") { [ 330,   30,   3,   8,   0,   0] }
-base_graphics( 243, "sprites/png/gui/fonts.png") { [ 350,   30,   1,   8,   0,   0] }
+base_graphics( 243, "sprites/png/gui/fonts.png") { [ 350,   30,   2,   8,   0,   0] }
 base_graphics( 244, "sprites/png/gui/fonts.png") { [ 370,   30,   3,   8,   0,   0] }
 base_graphics( 245, "sprites/png/gui/fonts.png") { [ 390,   30,   3,   8,   0,   0] }
 base_graphics( 246, "sprites/png/gui/fonts.png") { [ 410,   30,   4,   8,   0,   0] }
@@ -292,7 +292,7 @@ base_graphics( 285, "sprites/png/gui/fonts.png") { [ 410,   90,   2,   8,   0,  
 base_graphics( 286, "sprites/png/gui/fonts.png") { [ 430,   90,   3,   8,   0,   0] }
 base_graphics( 287, "sprites/png/gui/fonts.png") { [ 450,   90,   2,   8,   0,   0] }
 base_graphics( 288, "sprites/png/gui/fonts.png") { [ 470,   90,   3,   8,   0,   0] }
-base_graphics( 289, "sprites/png/gui/fonts.png") { [ 490,   90,   3,   8,   0,   0] }
+base_graphics( 289, "sprites/png/gui/fonts.png") { [ 490,   90,   4,   8,   0,   0] }
 base_graphics( 290, "sprites/png/gui/fonts.png") { [ 510,   90,   2,   8,   0,   0] }
 base_graphics( 291, "sprites/png/gui/fonts.png") { [ 530,   90,   3,   8,   0,   0] }
 base_graphics( 292, "sprites/png/gui/fonts.png") { [ 550,   90,   3,   8,   0,   0] }
@@ -394,7 +394,7 @@ base_graphics( 387, "sprites/png/gui/fonts.png") { [ 190,  210,   3,   8,   0,  
 base_graphics( 388, "sprites/png/gui/fonts.png") { [ 210,  210,   3,   8,   0,   0] }
 base_graphics( 389, "sprites/png/gui/fonts.png") { [ 230,  210,   3,   8,   0,   0] }
 base_graphics( 390, "sprites/png/gui/fonts.png") { [ 250,  210,   3,   8,   0,   0] }
-base_graphics( 391, "sprites/png/gui/fonts.png") { [ 270,  210,   3,   1,   0,   0] }
+base_graphics( 391, "sprites/png/gui/fonts.png") { [ 270,  210,   3,   8,   0,   0] }
 base_graphics( 392, "sprites/png/gui/fonts.png") { [ 290,  210,   5,   8,   0,   0] }
 base_graphics( 393, "sprites/png/gui/fonts.png") { [ 310,  210,   3,   8,   0,   0] }
 base_graphics( 394, "sprites/png/gui/fonts.png") { [ 330,  210,   3,   8,   0,   0] }
@@ -433,7 +433,7 @@ base_graphics( 426, "sprites/png/gui/fonts.png") { [ 190,  270,   3,   8,   0,  
 base_graphics( 427, "sprites/png/gui/fonts.png") { [ 210,  270,   3,   8,   0,   0] }
 base_graphics( 428, "sprites/png/gui/fonts.png") { [ 230,  270,   3,   8,   0,   0] }
 base_graphics( 429, "sprites/png/gui/fonts.png") { [ 250,  270,   3,   8,   0,   0] }
-base_graphics( 430, "sprites/png/gui/fonts.png") { [ 270,  270,   2,   1,   0,   0] }
+base_graphics( 430, "sprites/png/gui/fonts.png") { [ 270,  270,   2,   8,   0,   0] }
 base_graphics( 431, "sprites/png/gui/fonts.png") { [ 290,  270,   2,   8,   0,   0] }
 base_graphics( 432, "sprites/png/gui/fonts.png") { [ 310,  270,   3,   8,   0,   0] }
 base_graphics( 433, "sprites/png/gui/fonts.png") { [ 330,  270,   3,   8,   0,   0] }
@@ -460,7 +460,7 @@ base_graphics( 451, "sprites/png/gui/fonts.png") { [  30,   40,   3,  21,   0,  
 base_graphics( 452, "sprites/png/gui/fonts.png") { [  50,   40,   7,  21,   0,  -2] }
 base_graphics( 453, "sprites/png/gui/fonts.png") { [  70,   40,  11,  21,   0,  -2] }
 base_graphics( 454, "sprites/png/gui/fonts.png") { [  90,   40,   8,  21,   0,  -2] }
-base_graphics( 455, "sprites/png/gui/fonts.png") { [ 110,   40,  13,  21,   0,  -2] }
+base_graphics( 455, "sprites/png/gui/fonts.png") { [ 110,   40,  11,  21,   0,  -2] }
 base_graphics( 456, "sprites/png/gui/fonts.png") { [ 130,   40,  14,  21,   0,  -2] }
 base_graphics( 457, "sprites/png/gui/fonts.png") { [ 150,   40,   3,  21,   0,  -2] }
 base_graphics( 458, "sprites/png/gui/fonts.png") { [ 170,   40,   5,  21,   0,  -2] }
@@ -540,8 +540,8 @@ base_graphics( 531, "sprites/png/gui/fonts.png") { [  70,  160,  10,  21,   0,  
 base_graphics( 532, "sprites/png/gui/fonts.png") { [  90,  160,   6,  21,   0,  -2] }
 base_graphics( 533, "sprites/png/gui/fonts.png") { [ 110,  160,   6,  21,   0,  -2] }
 base_graphics( 534, "sprites/png/gui/fonts.png") { [ 130,  160,   5,  21,   0,  -2] }
-base_graphics( 535, "sprites/png/gui/fonts.png") { [ 150,  160,   6,  21,   0,  -2] }
-base_graphics( 536, "sprites/png/gui/fonts.png") { [ 170,  160,   6,  21,   0,  -2] }
+base_graphics( 535, "sprites/png/gui/fonts.png") { [ 150,  160,   9,  21,   0,  -2] }
+base_graphics( 536, "sprites/png/gui/fonts.png") { [ 170,  160,   9,  21,   0,  -2] }
 base_graphics( 537, "sprites/png/gui/fonts.png") { [ 190,  160,  13,  21,   0,  -2] }
 base_graphics( 538, "sprites/png/gui/fonts.png") { [ 210,  160,  10,  21,   0,  -2] }
 base_graphics( 539, "sprites/png/gui/fonts.png") { [ 230,  160,   9,  21,   0,  -2] }
@@ -620,7 +620,7 @@ base_graphics( 611, "sprites/png/gui/fonts.png") { [ 190,  220,  14,  21,   0,  
 base_graphics( 612, "sprites/png/gui/fonts.png") { [ 210,  220,  14,  21,   0,  -2] }
 base_graphics( 613, "sprites/png/gui/fonts.png") { [ 230,  220,  14,  21,   0,  -2] }
 base_graphics( 614, "sprites/png/gui/fonts.png") { [ 250,  220,  14,  21,   0,  -2] }
-base_graphics( 615, "sprites/png/gui/fonts.png") { [ 270,  220,  14,   1,   0,  -2] }
+base_graphics( 615, "sprites/png/gui/fonts.png") { [ 270,  220,  14,  21,   0,  -2] }
 base_graphics( 616, "sprites/png/gui/fonts.png") { [ 290,  220,  18,  21,   0,  -2] }
 base_graphics( 617, "sprites/png/gui/fonts.png") { [ 310,  220,  12,  21,   0,  -2] }
 base_graphics( 618, "sprites/png/gui/fonts.png") { [ 330,  220,  13,  21,   0,  -2] }
@@ -659,7 +659,7 @@ base_graphics( 650, "sprites/png/gui/fonts.png") { [ 190,  280,   8,  21,   0,  
 base_graphics( 651, "sprites/png/gui/fonts.png") { [ 210,  280,   8,  21,   0,  -2] }
 base_graphics( 652, "sprites/png/gui/fonts.png") { [ 230,  280,   8,  21,   0,  -2] }
 base_graphics( 653, "sprites/png/gui/fonts.png") { [ 250,  280,   8,  21,   0,  -2] }
-base_graphics( 654, "sprites/png/gui/fonts.png") { [ 270,  280,   4,   1,   0,  -2] }
+base_graphics( 654, "sprites/png/gui/fonts.png") { [ 270,  280,   4,  21,   0,  -2] }
 base_graphics( 655, "sprites/png/gui/fonts.png") { [ 290,  280,   4,  21,   0,  -2] }
 base_graphics( 656, "sprites/png/gui/fonts.png") { [ 310,  280,   5,  21,   0,  -2] }
 base_graphics( 657, "sprites/png/gui/fonts.png") { [ 330,  280,   5,  21,   0,  -2] }
