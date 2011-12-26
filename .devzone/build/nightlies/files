@@ -8,6 +8,5 @@ L;%{BUILD}/custom_tags.txt
 %{BUILD}/grf2html
 %{BUILD}/*grf2html.log
 T;%{RPMBUILDDIR}/RPMS/noarch/*.noarch.rpm
-%{BUILD}/ttdpatch
 %{BUILD}/docs/readme.txt
 %{BUILD}/docs/changelog.txt
