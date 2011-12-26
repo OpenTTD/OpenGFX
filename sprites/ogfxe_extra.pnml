@@ -17,6 +17,12 @@
 #include "sprites/nml/extra/extra-snow-temperate.pnml"
 #include "sprites/nml/extra/extra-tram-tracks.pnml"
 
+#include "sprites/nml/extra/extra-openttd-airport.pnml"
+#include "sprites/nml/extra/extra-openttd-autorail.pnml"
+#include "sprites/nml/extra/extra-openttd-flags.pnml"
+#include "sprites/nml/extra/extra-openttd-gui.pnml"
+#include "sprites/nml/extra/extra-openttd-airport-preview.pnml"
+
 #include "sprites/nml/extra/extra-plus-canals.pnml"
 #include "sprites/nml/extra/extra-plus-locks.pnml"
 #include "sprites/nml/extra/extra-plus-rivers.pnml"
@@ -34,13 +40,3 @@ if (climate == CLIMATE_TOYLAND) {
 #include "sprites/nml/extra/extra-plus-toyland-infrastructure-signals.pnml"
 }
 
-
-// OpenTTD only features:
-// (skip to end for TTDPatch)
-if (ttd_platform != PLATFORM_TTDPATCH) {
-#include "sprites/nml/extra/extra-openttd-airport.pnml"
-#include "sprites/nml/extra/extra-openttd-autorail.pnml"
-#include "sprites/nml/extra/extra-openttd-flags.pnml"
-#include "sprites/nml/extra/extra-openttd-gui.pnml"
-#include "sprites/nml/extra/extra-openttd-airport-preview.pnml"
-}
