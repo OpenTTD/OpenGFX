@@ -36,6 +36,5 @@ if (climate == CLIMATE_TROPICAL) {
 
 if (climate == CLIMATE_TOYLAND) {
 #include "sprites/nml/extra/extra-plus-toyland-infrastructure.pnml"
-#include "sprites/nml/extra/extra-plus-toyland-infrastructure-signals.pnml"
 }
 
