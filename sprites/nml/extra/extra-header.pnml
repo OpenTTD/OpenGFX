@@ -3,12 +3,16 @@ grf {
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
 	version: REPO_REVISION;
-	min_compatible_version: 0;
+	min_compatible_version: 878;
 }
-	
-	
+
+
 if (ttd_platform == PLATFORM_OPENTTD) {
-	if (openttd_version < version_openttd(0, 7, 0)) {
+	if (openttd_version < version_openttd(1, 2, 0, 23667)) {
 		error(FATAL, REQUIRES_OPENTTD, string(STR_OPENTTD_VERSION));
 	}
+}
+
+if (ttd_platform != PLATFORM_OPENTTD) {
+	error(FATAL, REQUIRES_OPENTTD, string(STR_OPENTTD_VERSION));
 }

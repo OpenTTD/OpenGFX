@@ -2,4 +2,4 @@
 STR_GRF_NAME                                                    :{TITLE}
 STR_GRF_DESCRIPTION                                             :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Brought to you by the OpenGFX team{}See readme for a list of contributors{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
-STR_OPENTTD_VERSION                                             :0.7.0
+STR_OPENTTD_VERSION                                             :1.2.0
