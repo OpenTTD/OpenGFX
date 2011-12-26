@@ -7,7 +7,7 @@ MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
 NML            ?= nmlc
-NML_FLAGS      ?= -c -p WIN
+NML_FLAGS      ?= -c -p DOS
 # NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -d\  -f1 | sed "s@r\([0-9]*\)[M]*@\1@g")
 
 CC             ?= gcc
