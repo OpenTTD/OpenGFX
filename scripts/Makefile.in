@@ -21,22 +21,6 @@
 	@echo "[origin]" >> $@
 	@echo "$(REPO_ORIGIN)" >> $@
 
-# TTDPatch bundle:
-$(TTDP_BUNDLE): $(GRF_FILES) $(DOC_FILES) $(TTDP_DOC)
-	$(_E) "[BUNDLE] for TTDPatch"
-	$(_V) -rm -rf $@
-	$(_V) mkdir $@
-	$(_V) for i in $(GRF_FILES); do cp $$i $@/`echo $$i | sed -e 's/ogfx\([1|c|h|i|t]\)_[a-z]*/trg\1r/'` ; done
-	$(_V) cp $(DOC_FILES) $@/
-	$(_V) cp $(TTDP_DOC) $@/
-
-$(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip: $(TTDP_BUNDLE)
-	$(_E) "[ZIP] $<"
-	$(_V) pushd $< && $(ZIP) $(ZIP_FLAGS) ../$@ * >/dev/null && popd
-
-bundle_ttdp: $(TTDP_BUNDLE)-$(REPO_VERSION_STRING).zip
-
-
 maintainer-clean::
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
 

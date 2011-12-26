@@ -71,7 +71,7 @@ self-compiled grf is the the same as it should, have a look at {{FILENAME}}
 
 This method uses the Online content service (BaNaNaS) to download OpenGFX. In
 order to use this, you need a working OpenTTD and again at least OpenTTD version
-0.7.0 or a recent nightly.
+1.2.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check online content button. A
    new window will pop up. If OpenTTD doesn't start, follow the manual installation
