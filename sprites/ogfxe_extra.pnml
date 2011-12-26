@@ -43,5 +43,4 @@ if (ttd_platform != PLATFORM_TTDPATCH) {
 #include "sprites/nml/extra/extra-openttd-flags.pnml"
 #include "sprites/nml/extra/extra-openttd-gui.pnml"
 #include "sprites/nml/extra/extra-openttd-airport-preview.pnml"
-#include "sprites/nml/extra/extra-openttd-overrides.pnml"
 }
