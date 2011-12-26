@@ -119,9 +119,7 @@ spriteset(set_canal_water, "") {
 	[ 162,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
 }
 
-if (openttd_version > version_openttd(1, 1, 4, 22918)) {
-	item(FEAT_CANALS, canalwater, WF_WATERCLIFFS) {
-		property { graphic_flags: 1; }
-		graphics { default: set_canal_water; }
-	}
+item(FEAT_CANALS, canalwater, WF_WATERCLIFFS) {
+	property { graphic_flags: 1; }
+	graphics { default: set_canal_water; }
 }
