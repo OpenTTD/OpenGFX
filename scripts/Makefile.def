@@ -69,10 +69,10 @@ PROJECT_NAME := $(basename $(firstword $(TARGET_FILES)))
 # Determine the OS we run on and set the default install path accordingly
 OSTYPE:=$(shell uname -s)
 ifeq ($(OSTYPE),Linux)
-INSTALL_DIR?=$(HOME)/.openttd/data/$(PROJECT_NAME)
+INSTALL_DIR?=$(HOME)/.openttd/baseset/$(PROJECT_NAME)
 else
 ifeq ($(OSTYPE),Darwin)
-INSTALL_DIR?=$(HOME)/Documents/OpenTTD/data/$(PROJECT_NAME)
+INSTALL_DIR?=$(HOME)/Documents/OpenTTD/baseset/$(PROJECT_NAME)
 else
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
 # If CC has been set to the default implicit value (cc), check if it can be used. Otherwise use a saner default.
@@ -81,9 +81,9 @@ ifeq "$(origin CC)" "default"
 endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
-	INSTALL_DIR?=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\data\$(PROJECT_NAME)
+	INSTALL_DIR?=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\baseset\$(PROJECT_NAME)
 else
-	INSTALL_DIR?=C:\Users\Public\Documents\OpenTTD\data\$(PROJECT_NAME)
+	INSTALL_DIR?=C:\Users\Public\Documents\OpenTTD\baseset\$(PROJECT_NAME)
 endif
 else
 INSTALL_DIR?=
