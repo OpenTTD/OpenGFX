@@ -11,6 +11,7 @@ Makefile.dep
 .version
 parsetab.py
 custom_tags.txt
+*.tags.txt
 
 # And the description file and the grs which are generated automatically
 opengfx.obg
