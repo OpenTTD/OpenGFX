@@ -1,3 +1,10 @@
+OpenGFX 0.4.1 (30 Dec 2011)
+---------------------------
+- Fix: Monospace fonts must not be available for OpenTTD prior to 1.2.0
+- Fix: Correct a number of spelling and grammar errors in the readme
+
+
+
 OpenGFX 0.4.0 (24 Dec 2011)
 ---------------------------
 - Feature: More and improved characters for all fonts (issue #3314)
