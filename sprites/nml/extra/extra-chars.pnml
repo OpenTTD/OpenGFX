@@ -527,6 +527,345 @@ font_glyph(LARGE, 0x0179, "sprites/png/gui/font_addl.png") {
 	tmpl_large(510, 220, 7)
 	tmpl_large(530, 220, 8)
 }
+
+
+// U+018F: Latin Capital Letter Schwa
+font_glyph(NORMAL, 0x018F, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(550, 190, 9)
+}
+font_glyph(SMALL, 0x018F, "sprites/png/gui/font_addl.png") {
+	tmpl_small(550, 210, 4)
+}
+font_glyph(LARGE, 0x018F, "sprites/png/gui/font_addl.png") {
+	tmpl_large(550, 220, 13)
+}
+
+
+// U+0192: Latin Small Letter F With Hook
+font_glyph(NORMAL, 0x0192, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(570, 190, 9)
+}
+font_glyph(SMALL, 0x0192, "sprites/png/gui/font_addl.png") {
+	tmpl_small(570, 210, 6)
+}
+font_glyph(LARGE, 0x0192, "sprites/png/gui/font_addl.png") {
+	tmpl_large(570, 220, 14)
+}
+
+
+// U+01B5: Latin Capital Letter Z With Stroke
+// U+01B6: Latin Small Letter Z With Stroke
+font_glyph(NORMAL, 0x01B5, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(590, 190, 8)
+	tmpl_normal(610, 190, 7)
+}
+font_glyph(SMALL, 0x01B5, "sprites/png/gui/font_addl.png") {
+	tmpl_small(590, 210, 4)
+	tmpl_small(610, 210, 4)
+}
+font_glyph(LARGE, 0x01B5, "sprites/png/gui/font_addl.png") {
+	tmpl_large(590, 220, 12)
+	tmpl_large(610, 220, 7)
+}
+
+
+// U+0218: Latin Capital Letter S With Comma Below
+// U+0219: Latin Small Letter S With Comma Below
+// U+021A: Latin Capital Letter T With Comma Below
+// U+021B: Latin Small Letter T With Comma Below
+font_glyph(NORMAL, 0x0218, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(630, 190, 8)
+	tmpl_normal(650, 190, 6)
+	tmpl_normal(670, 190, 9)
+	tmpl_normal(690, 190, 5)
+}
+font_glyph(SMALL, 0x0218, "sprites/png/gui/font_addl.png") {
+	tmpl_small(630, 210, 3)
+	tmpl_small(650, 210, 3)
+	tmpl_small(670, 210, 3)
+	tmpl_small(690, 210, 2)
+}
+font_glyph(LARGE, 0x0218, "sprites/png/gui/font_addl.png") {
+	tmpl_large(630, 220, 9)
+	tmpl_large(650, 220, 6)
+	tmpl_large(670, 220, 13)
+	tmpl_large(690, 220, 5)
+}
+
+
+// U+0259: Latin Small Letter Schwa
+font_glyph(NORMAL, 0x0259, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(710, 190, 6)
+}
+font_glyph(SMALL, 0x0259, "sprites/png/gui/font_addl.png") {
+	tmpl_small(710, 210, 3)
+}
+font_glyph(LARGE, 0x0259, "sprites/png/gui/font_addl.png") {
+	tmpl_large(710, 220, 8)
+}
+
+
+// U+02BB: Modifier Letter Turned Comma
+font_glyph(NORMAL, 0x02BB, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(730, 190, 3)
+}
+font_glyph(SMALL, 0x02BB, "sprites/png/gui/font_addl.png") {
+	tmpl_small(730, 210, 1)
+}
+font_glyph(LARGE, 0x02BB, "sprites/png/gui/font_addl.png") {
+	tmpl_large(730, 220, 4)
+}
+
+
+// U+02C7: Caron
+font_glyph(NORMAL, 0x02C7, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(590, 250, 6)
+}
+font_glyph(SMALL, 0x02C7, "sprites/png/gui/font_addl.png") {
+	tmpl_small(590, 270, 3)
+}
+font_glyph(LARGE, 0x02C7, "sprites/png/gui/font_addl.png") {
+	tmpl_large(590, 280, 5)
+}
+
+
+// U+058F: Armenian Dram Sign
+font_glyph(NORMAL, 0x058F, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(750, 190, 9)
+}
+font_glyph(SMALL, 0x058F, "sprites/png/gui/font_addl.png") {
+	tmpl_small(750, 210, 4)
+}
+font_glyph(LARGE, 0x058F, "sprites/png/gui/font_addl.png") {
+	tmpl_large(750, 220, 15)
+}
+
+
+// U+0E3F: Thai Currency Symbol Baht
+font_glyph(NORMAL, 0x0E3F, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(770, 190, 8)
+}
+font_glyph(SMALL, 0x0E3F, "sprites/png/gui/font_addl.png") {
+	tmpl_small(770, 210, 5)
+}
+font_glyph(LARGE, 0x0E3F, "sprites/png/gui/font_addl.png") {
+	tmpl_large(770, 220, 11)
+}
+
+
+// U+2013: En Dash
+font_glyph(NORMAL, 0x2013, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(10, 250, 7)
+}
+font_glyph(SMALL, 0x2013, "sprites/png/gui/font_addl.png") {
+	tmpl_small(10, 270, 4)
+}
+font_glyph(LARGE, 0x2013, "sprites/png/gui/font_addl.png") {
+	tmpl_large(10, 280, 9)
+}
+
+
+// U+2019: Right Single Quotation Mark
+font_glyph(NORMAL, 0x2019, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(30, 250, 3)
+}
+font_glyph(SMALL, 0x2019, "sprites/png/gui/font_addl.png") {
+	tmpl_small(30, 270, 1)
+}
+font_glyph(LARGE, 0x2019, "sprites/png/gui/font_addl.png") {
+	tmpl_large(30, 280, 4)
+}
+
+
+// U+201C: Left Double Quotation Mark
+font_glyph(NORMAL, 0x201C, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(50, 250, 5)
+}
+font_glyph(SMALL, 0x201C, "sprites/png/gui/font_addl.png") {
+	tmpl_small(50, 270, 3)
+}
+font_glyph(LARGE, 0x201C, "sprites/png/gui/font_addl.png") {
+	tmpl_large(50, 280, 8)
+}
+
+
+// U+201E: Double Low-9 Quotation Mark
+font_glyph(NORMAL, 0x201E, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(70, 250, 5)
+}
+font_glyph(SMALL, 0x201E, "sprites/png/gui/font_addl.png") {
+	tmpl_small(70, 270, 3)
+}
+font_glyph(LARGE, 0x201E, "sprites/png/gui/font_addl.png") {
+	tmpl_large(70, 280, 8)
+}
+
+
+// U+203A: Single Right-Pointing Angle Quotation Mark
+font_glyph(NORMAL, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(90, 250, 4)
+}
+font_glyph(SMALL, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_small(90, 270, 2)
+}
+font_glyph(LARGE, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_large(90, 280, 5)
+}
+
+
+// U+20A1: Colon Sign
+// U+20A2: Cruzeiro Sign
+// U+20A3: French Franc Sign
+// U+20A4: Lira Sign
+font_glyph(NORMAL, 0x20A1, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(110, 250, 9)
+	tmpl_normal(130, 250, 9)
+	tmpl_normal(150, 250, 9)
+	tmpl_normal(170, 250, 8)
+}
+font_glyph(SMALL, 0x20A1, "sprites/png/gui/font_addl.png") {
+	tmpl_small(110, 270, 4)
+	tmpl_small(130, 270, 4)
+	tmpl_small(150, 270, 4)
+	tmpl_small(170, 270, 4)
+}
+font_glyph(LARGE, 0x20A1, "sprites/png/gui/font_addl.png") {
+	tmpl_large(110, 280, 12)
+	tmpl_large(130, 280, 12)
+	tmpl_large(150, 280, 11)
+	tmpl_large(170, 280, 11)
+}
+
+
+// U+20A6: Naira Sign
+font_glyph(NORMAL, 0x20A6, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(190, 250, 10)
+}
+font_glyph(SMALL, 0x20A6, "sprites/png/gui/font_addl.png") {
+	tmpl_small(190, 270, 6)
+}
+font_glyph(LARGE, 0x20A6, "sprites/png/gui/font_addl.png") {
+	tmpl_large(190, 280, 16)
+}
+
+
+// U+20A8: Rupee Sign
+// U+20A9: Won Sign
+// U+20AA: New Shequel Sign
+// U+20AB: Dong Sign
+// U+20AC: Euro Sign
+// U+20AD: Kip Sign
+// U+20AE: Tugrik Sign
+// U+20AF: Drachma Sign
+font_glyph(NORMAL, 0x20A8, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(210, 250, 13)
+	tmpl_normal(230, 250, 14)
+	tmpl_normal(250, 250, 12)
+	tmpl_normal(270, 250, 7)
+	tmpl_normal(290, 250, 8)
+	tmpl_normal(310, 250, 9)
+	tmpl_normal(330, 250, 8)
+	tmpl_normal(350, 250, 14)
+}
+font_glyph(SMALL, 0x20A8, "sprites/png/gui/font_addl.png") {
+	tmpl_small(210, 270, 7)
+	tmpl_small(230, 270, 7)
+	tmpl_small(250, 270, 7)
+	tmpl_small(270, 270, 4)
+	tmpl_small(290, 270, 5)
+	tmpl_small(310, 270, 4)
+	tmpl_small(330, 270, 3)
+	tmpl_small(350, 270, 7)
+}
+font_glyph(LARGE, 0x20A8, "sprites/png/gui/font_addl.png") {
+	tmpl_large(210, 280, 16)
+	tmpl_large(230, 280, 18)
+	tmpl_large(250, 280, 13)
+	tmpl_large(270, 280, 8)
+	tmpl_large(290, 280, 14)
+	tmpl_large(310, 280, 14)
+	tmpl_large(330, 280, 13)
+	tmpl_large(350, 280, 19)
+}
+
+
+// U+20B1: Peso Sign
+// U+20B2: Guarani Sign
+// U+20B3: Austral Sign
+// U+20B4: Hryvnia Sign
+// U+20B5: Cedi Sign
+font_glyph(NORMAL, 0x20B1, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(370, 250, 10)
+	tmpl_normal(390, 250, 9)
+	tmpl_normal(410, 250, 11)
+	tmpl_normal(430, 250, 9)
+	tmpl_normal(450, 250, 9)
+}
+font_glyph(SMALL, 0x20B1, "sprites/png/gui/font_addl.png") {
+	tmpl_small(370, 270, 5)
+	tmpl_small(390, 270, 5)
+	tmpl_small(410, 270, 5)
+	tmpl_small(430, 270, 5)
+	tmpl_small(450, 270, 4)
+}
+font_glyph(LARGE, 0x20B1, "sprites/png/gui/font_addl.png") {
+	tmpl_large(370, 280, 13)
+	tmpl_large(390, 280, 13)
+	tmpl_large(410, 280, 14)
+	tmpl_large(430, 280, 11)
+	tmpl_large(450, 280, 12)
+}
+
+
+// U+20B7: Spesmilo Sign
+// U+20B8: Tenge Sign
+// U+20B9: Indian Rupee Sign
+font_glyph(NORMAL, 0x20B7, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(470, 250, 12)
+	tmpl_normal(490, 250, 9)
+	tmpl_normal(510, 250, 8)
+}
+font_glyph(SMALL, 0x20B7, "sprites/png/gui/font_addl.png") {
+	tmpl_small(470, 270, 6)
+	tmpl_small(490, 270, 3)
+	tmpl_small(510, 270, 4)
+}
+font_glyph(LARGE, 0x20B7, "sprites/png/gui/font_addl.png") {
+	tmpl_large(470, 280, 12)
+	tmpl_large(490, 280, 13)
+	tmpl_large(510, 280, 11)
+}
+
+
+// U+2116: Numero Sign
+font_glyph(NORMAL, 0x2116, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(530, 250, 14)
+}
+font_glyph(SMALL, 0x2116, "sprites/png/gui/font_addl.png") {
+	tmpl_small(530, 270, 8)
+}
+font_glyph(LARGE, 0x2116, "sprites/png/gui/font_addl.png") {
+	tmpl_large(530, 280, 21)
+}
+
+
+// U+2122: Trade Mark Sign
+font_glyph(NORMAL, 0x2122, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(570, 250, 13)
+}
+font_glyph(SMALL, 0x2122, "sprites/png/gui/font_addl.png") {
+	tmpl_small(570, 270, 9)
+}
+font_glyph(LARGE, 0x2122, "sprites/png/gui/font_addl.png") {
+	tmpl_large(570, 280, 19)
+}
+
+/* ======================================= */
+/* Monospaced characters (Liberation Mono) */
+/* ======================================= */
+
+if (openttd_version > version_openttd(1,2,0,23472)) {
+
 font_glyph(MONO, 0x0100, "sprites/png/gui/mono.png") {
 	tmpl_mono(10, 170)
 	tmpl_mono(25, 170)
@@ -657,79 +996,15 @@ font_glyph(MONO, 0x0100, "sprites/png/gui/mono.png") {
 	tmpl_mono(460, 230)
 	tmpl_mono(475, 230)
 }
-
-
-// U+018F: Latin Capital Letter Schwa
-font_glyph(NORMAL, 0x018F, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(550, 190, 9)
-}
-font_glyph(SMALL, 0x018F, "sprites/png/gui/font_addl.png") {
-	tmpl_small(550, 210, 4)
-}
-font_glyph(LARGE, 0x018F, "sprites/png/gui/font_addl.png") {
-	tmpl_large(550, 220, 13)
-}
 font_glyph(MONO, 0x018F, "sprites/png/gui/mono.png") {
 	tmpl_mono(10, 250)
-}
-
-
-// U+0192: Latin Small Letter F With Hook
-font_glyph(NORMAL, 0x0192, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(570, 190, 9)
-}
-font_glyph(SMALL, 0x0192, "sprites/png/gui/font_addl.png") {
-	tmpl_small(570, 210, 6)
-}
-font_glyph(LARGE, 0x0192, "sprites/png/gui/font_addl.png") {
-	tmpl_large(570, 220, 14)
 }
 font_glyph(MONO, 0x0192, "sprites/png/gui/mono.png") {
 	tmpl_mono(25, 250)
 }
-
-
-// U+01B5: Latin Capital Letter Z With Stroke
-// U+01B6: Latin Small Letter Z With Stroke
-font_glyph(NORMAL, 0x01B5, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(590, 190, 8)
-	tmpl_normal(610, 190, 7)
-}
-font_glyph(SMALL, 0x01B5, "sprites/png/gui/font_addl.png") {
-	tmpl_small(590, 210, 4)
-	tmpl_small(610, 210, 4)
-}
-font_glyph(LARGE, 0x01B5, "sprites/png/gui/font_addl.png") {
-	tmpl_large(590, 220, 12)
-	tmpl_large(610, 220, 7)
-}
 font_glyph(MONO, 0x01B5, "sprites/png/gui/mono.png") {
 	tmpl_mono(40, 250)
 	tmpl_mono(55, 250)
-}
-
-
-// U+0218: Latin Capital Letter S With Comma Below
-// U+0219: Latin Small Letter S With Comma Below
-// U+021A: Latin Capital Letter T With Comma Below
-// U+021B: Latin Small Letter T With Comma Below
-font_glyph(NORMAL, 0x0218, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(630, 190, 8)
-	tmpl_normal(650, 190, 6)
-	tmpl_normal(670, 190, 9)
-	tmpl_normal(690, 190, 5)
-}
-font_glyph(SMALL, 0x0218, "sprites/png/gui/font_addl.png") {
-	tmpl_small(630, 210, 3)
-	tmpl_small(650, 210, 3)
-	tmpl_small(670, 210, 3)
-	tmpl_small(690, 210, 2)
-}
-font_glyph(LARGE, 0x0218, "sprites/png/gui/font_addl.png") {
-	tmpl_large(630, 220, 9)
-	tmpl_large(650, 220, 6)
-	tmpl_large(670, 220, 13)
-	tmpl_large(690, 220, 5)
 }
 font_glyph(MONO, 0x0218, "sprites/png/gui/mono.png") {
 	tmpl_mono(70, 250)
@@ -737,179 +1012,35 @@ font_glyph(MONO, 0x0218, "sprites/png/gui/mono.png") {
 	tmpl_mono(100, 250)
 	tmpl_mono(115, 250)
 }
-
-
-// U+0259: Latin Small Letter Schwa
-font_glyph(NORMAL, 0x0259, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(710, 190, 6)
-}
-font_glyph(SMALL, 0x0259, "sprites/png/gui/font_addl.png") {
-	tmpl_small(710, 210, 3)
-}
-font_glyph(LARGE, 0x0259, "sprites/png/gui/font_addl.png") {
-	tmpl_large(710, 220, 8)
-}
 font_glyph(MONO, 0x0259, "sprites/png/gui/mono.png") {
 	tmpl_mono(130, 250)
-}
-
-
-// U+02BB: Modifier Letter Turned Comma
-font_glyph(NORMAL, 0x02BB, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(730, 190, 3)
-}
-font_glyph(SMALL, 0x02BB, "sprites/png/gui/font_addl.png") {
-	tmpl_small(730, 210, 1)
-}
-font_glyph(LARGE, 0x02BB, "sprites/png/gui/font_addl.png") {
-	tmpl_large(730, 220, 4)
 }
 font_glyph(MONO, 0x02BB, "sprites/png/gui/mono.png") {
 	tmpl_mono(145, 250)
 }
-
-
-// U+02C7: Caron
-font_glyph(NORMAL, 0x02C7, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(590, 250, 6)
-}
-font_glyph(SMALL, 0x02C7, "sprites/png/gui/font_addl.png") {
-	tmpl_small(590, 270, 3)
-}
-font_glyph(LARGE, 0x02C7, "sprites/png/gui/font_addl.png") {
-	tmpl_large(590, 280, 5)
-}
 font_glyph(MONO, 0x02C7, "sprites/png/gui/mono.png") {
 	tmpl_mono(130, 270)
-}
-
-
-// U+058F: Armenian Dram Sign
-font_glyph(NORMAL, 0x058F, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(750, 190, 9)
-}
-font_glyph(SMALL, 0x058F, "sprites/png/gui/font_addl.png") {
-	tmpl_small(750, 210, 4)
-}
-font_glyph(LARGE, 0x058F, "sprites/png/gui/font_addl.png") {
-	tmpl_large(750, 220, 15)
 }
 font_glyph(MONO, 0x058F, "sprites/png/gui/mono.png") {
 	tmpl_mono(160, 250)
 }
-
-
-// U+0E3F: Thai Currency Symbol Baht
-font_glyph(NORMAL, 0x0E3F, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(770, 190, 8)
-}
-font_glyph(SMALL, 0x0E3F, "sprites/png/gui/font_addl.png") {
-	tmpl_small(770, 210, 5)
-}
-font_glyph(LARGE, 0x0E3F, "sprites/png/gui/font_addl.png") {
-	tmpl_large(770, 220, 11)
-}
 font_glyph(MONO, 0x0E3F, "sprites/png/gui/mono.png") {
 	tmpl_mono(175, 250)
-}
-
-
-// U+2013: En Dash
-font_glyph(NORMAL, 0x2013, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(10, 250, 7)
-}
-font_glyph(SMALL, 0x2013, "sprites/png/gui/font_addl.png") {
-	tmpl_small(10, 270, 4)
-}
-font_glyph(LARGE, 0x2013, "sprites/png/gui/font_addl.png") {
-	tmpl_large(10, 280, 9)
 }
 font_glyph(MONO, 0x2013, "sprites/png/gui/mono.png") {
 	tmpl_mono(190, 250)
 }
-
-
-// U+2019: Right Single Quotation Mark
-font_glyph(NORMAL, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(30, 250, 3)
-}
-font_glyph(SMALL, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_small(30, 270, 1)
-}
-font_glyph(LARGE, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_large(30, 280, 4)
-}
 font_glyph(MONO, 0x2019, "sprites/png/gui/mono.png") {
 	tmpl_mono(205, 250)
-}
-
-
-// U+201C: Left Double Quotation Mark
-font_glyph(NORMAL, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(50, 250, 5)
-}
-font_glyph(SMALL, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_small(50, 270, 3)
-}
-font_glyph(LARGE, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_large(50, 280, 8)
 }
 font_glyph(MONO, 0x201C, "sprites/png/gui/mono.png") {
 	tmpl_mono(220, 250)
 }
-
-
-// U+201E: Double Low-9 Quotation Mark
-font_glyph(NORMAL, 0x201E, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(70, 250, 5)
-}
-font_glyph(SMALL, 0x201E, "sprites/png/gui/font_addl.png") {
-	tmpl_small(70, 270, 3)
-}
-font_glyph(LARGE, 0x201E, "sprites/png/gui/font_addl.png") {
-	tmpl_large(70, 280, 8)
-}
-font_glyph(MONO, 0x201E, "sprites/png/gui/mono.png") {
-	tmpl_mono(235, 250)
-}
-
-
-// U+203A: Single Right-Pointing Angle Quotation Mark
-font_glyph(NORMAL, 0x203A, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(90, 250, 4)
-}
-font_glyph(SMALL, 0x203A, "sprites/png/gui/font_addl.png") {
-	tmpl_small(90, 270, 2)
-}
-font_glyph(LARGE, 0x203A, "sprites/png/gui/font_addl.png") {
-	tmpl_large(90, 280, 5)
-}
 font_glyph(MONO, 0x203A, "sprites/png/gui/mono.png") {
 	tmpl_mono(250, 250)
 }
-
-
-// U+20A1: Colon Sign
-// U+20A2: Cruzeiro Sign
-// U+20A3: French Franc Sign
-// U+20A4: Lira Sign
-font_glyph(NORMAL, 0x20A1, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(110, 250, 9)
-	tmpl_normal(130, 250, 9)
-	tmpl_normal(150, 250, 9)
-	tmpl_normal(170, 250, 8)
-}
-font_glyph(SMALL, 0x20A1, "sprites/png/gui/font_addl.png") {
-	tmpl_small(110, 270, 4)
-	tmpl_small(130, 270, 4)
-	tmpl_small(150, 270, 4)
-	tmpl_small(170, 270, 4)
-}
-font_glyph(LARGE, 0x20A1, "sprites/png/gui/font_addl.png") {
-	tmpl_large(110, 280, 12)
-	tmpl_large(130, 280, 12)
-	tmpl_large(150, 280, 11)
-	tmpl_large(170, 280, 11)
+font_glyph(MONO, 0x201E, "sprites/png/gui/mono.png") {
+	tmpl_mono(235, 250)
 }
 font_glyph(MONO, 0x20A1, "sprites/png/gui/mono.png") {
 	tmpl_mono(265, 250)
@@ -917,60 +1048,8 @@ font_glyph(MONO, 0x20A1, "sprites/png/gui/mono.png") {
 	tmpl_mono(295, 250)
 	tmpl_mono(310, 250)
 }
-
-
-// U+20A6: Naira Sign
-font_glyph(NORMAL, 0x20A6, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(190, 250, 10)
-}
-font_glyph(SMALL, 0x20A6, "sprites/png/gui/font_addl.png") {
-	tmpl_small(190, 270, 6)
-}
-font_glyph(LARGE, 0x20A6, "sprites/png/gui/font_addl.png") {
-	tmpl_large(190, 280, 16)
-}
 font_glyph(MONO, 0x20A6, "sprites/png/gui/mono.png") {
 	tmpl_mono(325, 250)
-}
-
-
-// U+20A8: Rupee Sign
-// U+20A9: Won Sign
-// U+20AA: New Shequel Sign
-// U+20AB: Dong Sign
-// U+20AC: Euro Sign
-// U+20AD: Kip Sign
-// U+20AE: Tugrik Sign
-// U+20AF: Drachma Sign
-font_glyph(NORMAL, 0x20A8, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(210, 250, 13)
-	tmpl_normal(230, 250, 14)
-	tmpl_normal(250, 250, 12)
-	tmpl_normal(270, 250, 7)
-	tmpl_normal(290, 250, 8)
-	tmpl_normal(310, 250, 9)
-	tmpl_normal(330, 250, 8)
-	tmpl_normal(350, 250, 14)
-}
-font_glyph(SMALL, 0x20A8, "sprites/png/gui/font_addl.png") {
-	tmpl_small(210, 270, 7)
-	tmpl_small(230, 270, 7)
-	tmpl_small(250, 270, 7)
-	tmpl_small(270, 270, 4)
-	tmpl_small(290, 270, 5)
-	tmpl_small(310, 270, 4)
-	tmpl_small(330, 270, 3)
-	tmpl_small(350, 270, 7)
-}
-font_glyph(LARGE, 0x20A8, "sprites/png/gui/font_addl.png") {
-	tmpl_large(210, 280, 16)
-	tmpl_large(230, 280, 18)
-	tmpl_large(250, 280, 13)
-	tmpl_large(270, 280, 8)
-	tmpl_large(290, 280, 14)
-	tmpl_large(310, 280, 14)
-	tmpl_large(330, 280, 13)
-	tmpl_large(350, 280, 19)
 }
 font_glyph(MONO, 0x20A8, "sprites/png/gui/mono.png") {
 	tmpl_mono(340, 250)
@@ -982,34 +1061,6 @@ font_glyph(MONO, 0x20A8, "sprites/png/gui/mono.png") {
 	tmpl_mono(430, 250)
 	tmpl_mono(445, 250)
 }
-
-
-// U+20B1: Peso Sign
-// U+20B2: Guarani Sign
-// U+20B3: Austral Sign
-// U+20B4: Hryvnia Sign
-// U+20B5: Cedi Sign
-font_glyph(NORMAL, 0x20B1, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(370, 250, 10)
-	tmpl_normal(390, 250, 9)
-	tmpl_normal(410, 250, 11)
-	tmpl_normal(430, 250, 9)
-	tmpl_normal(450, 250, 9)
-}
-font_glyph(SMALL, 0x20B1, "sprites/png/gui/font_addl.png") {
-	tmpl_small(370, 270, 5)
-	tmpl_small(390, 270, 5)
-	tmpl_small(410, 270, 5)
-	tmpl_small(430, 270, 5)
-	tmpl_small(450, 270, 4)
-}
-font_glyph(LARGE, 0x20B1, "sprites/png/gui/font_addl.png") {
-	tmpl_large(370, 280, 13)
-	tmpl_large(390, 280, 13)
-	tmpl_large(410, 280, 14)
-	tmpl_large(430, 280, 11)
-	tmpl_large(450, 280, 12)
-}
 font_glyph(MONO, 0x20B1, "sprites/png/gui/mono.png") {
 	tmpl_mono(460, 250)
 	tmpl_mono(475, 250)
@@ -1017,66 +1068,17 @@ font_glyph(MONO, 0x20B1, "sprites/png/gui/mono.png") {
 	tmpl_mono(25, 270)
 	tmpl_mono(40, 270)
 }
-
-
-// U+20B7: Spesmilo Sign
-// U+20B8: Tenge Sign
-// U+20B9: Indian Rupee Sign
-font_glyph(NORMAL, 0x20B7, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(470, 250, 12)
-	tmpl_normal(490, 250, 9)
-	tmpl_normal(510, 250, 8)
-}
-font_glyph(SMALL, 0x20B7, "sprites/png/gui/font_addl.png") {
-	tmpl_small(470, 270, 6)
-	tmpl_small(490, 270, 3)
-	tmpl_small(510, 270, 4)
-}
-font_glyph(LARGE, 0x20B7, "sprites/png/gui/font_addl.png") {
-	tmpl_large(470, 280, 12)
-	tmpl_large(490, 280, 13)
-	tmpl_large(510, 280, 11)
-}
 font_glyph(MONO, 0x20B7, "sprites/png/gui/mono.png") {
 	tmpl_mono(55, 270)
 	tmpl_mono(70, 270)
 	tmpl_mono(85, 270)
 }
-
-
-// U+2116: Numero Sign
-font_glyph(NORMAL, 0x2116, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(530, 250, 14)
-}
-font_glyph(SMALL, 0x2116, "sprites/png/gui/font_addl.png") {
-	tmpl_small(530, 270, 8)
-}
-font_glyph(LARGE, 0x2116, "sprites/png/gui/font_addl.png") {
-	tmpl_large(530, 280, 21)
-}
 font_glyph(MONO, 0x2116, "sprites/png/gui/mono.png") {
 	tmpl_mono(100, 270)
-}
-
-
-// U+2122: Trade Mark Sign
-font_glyph(NORMAL, 0x2122, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(570, 250, 13)
-}
-font_glyph(SMALL, 0x2122, "sprites/png/gui/font_addl.png") {
-	tmpl_small(570, 270, 9)
-}
-font_glyph(LARGE, 0x2122, "sprites/png/gui/font_addl.png") {
-	tmpl_large(570, 280, 19)
 }
 font_glyph(MONO, 0x2122, "sprites/png/gui/mono.png") {
 	tmpl_mono(115, 270)
 }
-
-
-/* ======================================= */
-/* Monospaced characters (Liberation Mono) */
-/* ======================================= */
 
 font_glyph(MONO, 0x0020, "sprites/png/gui/mono.png") {
 	tmpl_mono(10, 30)
@@ -1307,3 +1309,5 @@ font_glyph(MONO, 0x0080, "sprites/png/gui/mono.png") {
 	tmpl_mono(460, 150)
 	tmpl_mono(475, 150)
 }
+
+} // of monospace font
