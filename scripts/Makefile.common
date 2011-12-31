@@ -57,8 +57,6 @@ ifdef NEED_GIMP
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/")
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
 endif # NEED_GIMP
-	$(_V)-rm -rf $(MD5_SRC_FILENAME)
-	$(_V)-rm -rf Makefile.dist
 
 ################################################################
 # Testing configuration
