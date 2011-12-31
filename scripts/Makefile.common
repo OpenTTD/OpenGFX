@@ -17,6 +17,11 @@ endif
 .PRECIOUS: %.nml %.scm %.gimp.png
 .SECONDARY: %.nml %.scm %.gimp.png
 
+# gimp can't process multiple threads
+# TODO: add guard, so you can overrule this, maybe also skip it, when gimp isn't installed
+# this does force --jobs=1
+.NOTPARALLEL:
+
 ################################################################
 # Cleaning targets
 ################################################################
