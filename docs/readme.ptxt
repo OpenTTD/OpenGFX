@@ -37,6 +37,9 @@ OpenGFX provides you with...
 * different river and sea water
 * snow-aware buoys
 
+This version of OpenGFX requires OpenTTD 1.2.0 or newer. For older versions
+of OpenTTD or TTDPatch please use OpenGFX 0.4.1
+
 
 
 2 Downloading OpenGFX
@@ -69,9 +72,9 @@ self-compiled grf is the same as it should be, have a look at {{FILENAME}}
 3.1 Installation or update via Online Content service
 -----------------------------------------------------
 
-This method uses the online content service (BaNaNaS) to download OpenGFX. In
-order to use this, you need a working OpenTTD and again at least OpenTTD version
-1.2.0 or a recent nightly.
+This method uses the Online content service (BaNaNaS) to download OpenGFX. In
+order to use this OpenGFX version, you need a working OpenTTD and again at least
+OpenTTD version 1.2.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check Online Content button. A
    new window will pop up. If OpenTTD doesn't start, follow the manual installation
@@ -94,7 +97,7 @@ order to use this, you need a working OpenTTD and again at least OpenTTD version
 -----------------------
 
 1. First, make sure that you downloaded and installed at least OpenTTD version
-0.7.0 or later.
+1.2.0 or later. 
 
 2. Next, download the latest OpenGFX package. There are a few sources:
 - the development homepage http://bundles.openttdcoop.org/opengfx
@@ -106,15 +109,12 @@ order to use this, you need a working OpenTTD and again at least OpenTTD version
 OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 - An OpenTTD folder in your user account's home directory:
-    Windows: C:\My Documents\baseset (95, 98, ME)
+    Windows: C:\My Documents\OpenTTD\baseset (95, 98, ME)
              C:\Documents and Settings\<username>\My Documents\OpenTTD\baseset (2000, XP)
              C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7)
     Mac OSX: ~/Documents/OpenTTD/baseset
     Linux:   ~/.openttd/baseset
 - The baseset dir in OpenTTD installation directory.
-
-In OpenTTD versions older than OpenTTD 1.2.0 (r23225) you need to replace 'baseset'
-in the quoted paths by 'data'.
 
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend
 our sister project OpenSFX) and install it into the same directory as OpenGFX.
