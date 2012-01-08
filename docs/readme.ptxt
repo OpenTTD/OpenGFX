@@ -106,7 +106,7 @@ order to use this, you need a working OpenTTD and again at least OpenTTD version
 OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 - An OpenTTD folder in your user account's home directory:
-    Windows: C:\My Documents\baseset (95, 98, ME)
+    Windows: C:\My Documents\OpenTTD\baseset (95, 98, ME)
              C:\Documents and Settings\<username>\My Documents\OpenTTD\baseset (2000, XP)
              C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7)
     Mac OSX: ~/Documents/OpenTTD/baseset
