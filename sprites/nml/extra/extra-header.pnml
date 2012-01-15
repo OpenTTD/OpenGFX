@@ -1,5 +1,5 @@
 grf {
-	grfid: "\FFOG\01";
+	grfid: "\FFOT\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
 	version: REPO_REVISION;
