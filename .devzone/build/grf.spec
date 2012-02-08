@@ -16,6 +16,9 @@ BuildArch:      noarch
 
 BuildRequires:  mercurial p7zip xz grfcodec unix2dos grf2html gimp %{dz_requires}
 
+# we test with openttd:
+BuildRequires:  openttd-gui
+
 %description
 Build script for #openttdcoop DevZone projects
 
@@ -56,10 +59,14 @@ mv %{name}-%{version}-build.err.log error.log
 cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v "GLib-WARNING" | grep -v "^$" >%{name}-%{version}-build.err.log || :
 
 %install
-make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
+make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/opengfx-%{version}
 
 %check
 make check
+
+mkdir -p $HOME/.openttd/data
+ln -s %{buildroot}%{_datadir}/openttd/data/opengfx-%{version} $HOME/.openttd/data/opengfx
+openttd -vnull:ticks=1 -d9 1>%{name}-%{version}-openttd.log 2>&1
 
 %clean
 #rm -rf %{buildroot}
