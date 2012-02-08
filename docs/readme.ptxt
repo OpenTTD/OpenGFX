@@ -103,7 +103,7 @@ order to use this, you need a working OpenTTD and again at least OpenTTD version
 "bananas" section: http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz
 
 3. Unpack the zip file into the OpenTTD's baseset directory (see section 4.2 of the
-OpenTTD readme for a detailed treatise on all data dirs OpenTTD recognizes).
+OpenTTD readme for a detailed treatise on all baseset dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 - An OpenTTD folder in your user account's home directory:
     Windows: C:\My Documents\OpenTTD\baseset (95, 98, ME)
@@ -207,7 +207,7 @@ changes.
 Once all tools are installed, get a checkout of the repository and you can build
 OpenGFX using make. The following targets are available:
 - all: builds all grfs and the obg file
-- install: build and then copy OpenGFX in your OpenTTD data directory. Use
+- install: build and then copy OpenGFX in your OpenTTD baseset directory. Use
   Makefile.local to specify a different path.
 - clean: cleans all generated files
 - mrproper: also cleans generated directories
