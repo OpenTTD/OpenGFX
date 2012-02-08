@@ -1,3 +1,12 @@
+OpenGFX 0.4.2 (08 Feb 2012)
+---------------------------
+- Fix: [Makefile] Force makefile to build with one thread only as gimp might barf on running in parallel (issue #3439)
+- Fix: [Makefile] Don't remove the reference md5 file when using maintainer-clean (issue #3440)
+- Fix: The grfID of the extra grf was wrong... and would be found as NewGRF
+- Fix: sprite are out-of-bound, sadly nmlc doesn't warn/error about (issue #3667)
+
+
+
 OpenGFX 0.4.1 (30 Dec 2011)
 ---------------------------
 - Fix: Monospace fonts must not be available for OpenTTD prior to 1.2.0
