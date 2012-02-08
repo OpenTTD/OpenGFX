@@ -2,6 +2,7 @@ R;%{BUILD}/*.zip
 5;%{BUILD}/*.tar.xz
 %{BUILD}/*.md5
 %{BUILD}/*build.log
+%{BUILD}/*openttd.log
 E;%{BUILD}/*build.err.log
 L;%{BUILD}/*.nml
 L;%{BUILD}/custom_tags.txt

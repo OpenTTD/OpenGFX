@@ -75,15 +75,16 @@ openttd -vnull:ticks=1 -d9 1>%{name}-%{version}-openttd.log 2>&1
 %defattr(-,root,root,-)
 %dir %{_datadir}/openttd
 %dir %{_datadir}/openttd/data
-%doc %{_datadir}/openttd/data/changelog.txt
-%doc %{_datadir}/openttd/data/license.txt
-%{_datadir}/openttd/data/ogfx1_base.grf
-%{_datadir}/openttd/data/ogfxc_arctic.grf
-%{_datadir}/openttd/data/ogfxe_extra.grf
-%{_datadir}/openttd/data/ogfxh_tropical.grf
-%{_datadir}/openttd/data/ogfxi_logos.grf
-%{_datadir}/openttd/data/ogfxt_toyland.grf
-%{_datadir}/openttd/data/opengfx.obg
-%doc %{_datadir}/openttd/data/readme.txt
+%dir %{_datadir}/openttd/data/opengfx-%{version}
+%doc %{_datadir}/openttd/data/opengfx-%{version}/changelog.txt
+%doc %{_datadir}/openttd/data/opengfx-%{version}/license.txt
+%{_datadir}/openttd/data/opengfx-%{version}/ogfx1_base.grf
+%{_datadir}/openttd/data/opengfx-%{version}/ogfxc_arctic.grf
+%{_datadir}/openttd/data/opengfx-%{version}/ogfxe_extra.grf
+%{_datadir}/openttd/data/opengfx-%{version}/ogfxh_tropical.grf
+%{_datadir}/openttd/data/opengfx-%{version}/ogfxi_logos.grf
+%{_datadir}/openttd/data/opengfx-%{version}/ogfxt_toyland.grf
+%{_datadir}/openttd/data/opengfx-%{version}/opengfx.obg
+%doc %{_datadir}/openttd/data/opengfx-%{version}/readme.txt
 
 %changelog
