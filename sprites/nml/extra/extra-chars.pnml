@@ -209,7 +209,7 @@ font_glyph(NORMAL, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(210, 130, 8)
 	tmpl_normal(230, 130, 6)
 	tmpl_normal(250, 130, 8)
-	tmpl_normal(270, 130, 9)
+	tmpl_normal(270, 130, 8)
 	tmpl_normal(290, 130, 6)
 	tmpl_normal(310, 130, 9)
 	tmpl_normal(330, 130, 6)
@@ -471,7 +471,7 @@ font_glyph(LARGE, 0x0100, "sprites/png/gui/font_addl.png") {
 	tmpl_large(210, 160, 16)
 	tmpl_large(230, 160, 10)
 	tmpl_large(250, 160, 13)
-	tmpl_large(270, 160, 15)
+	tmpl_large(270, 160, 16)
 	tmpl_large(290, 160, 9)
 	tmpl_large(310, 160, 13)
 	tmpl_large(330, 160, 9)
@@ -815,17 +815,24 @@ font_glyph(MONO, 0x0E3F, "sprites/png/gui/mono.png") {
 
 
 // U+2013: En Dash
+
+
+// U+2014: Em Dash
 font_glyph(NORMAL, 0x2013, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(10, 250, 7)
+	tmpl_normal(610, 250, 10)
 }
 font_glyph(SMALL, 0x2013, "sprites/png/gui/font_addl.png") {
 	tmpl_small(10, 270, 4)
+	tmpl_small(610, 270, 6)
 }
 font_glyph(LARGE, 0x2013, "sprites/png/gui/font_addl.png") {
 	tmpl_large(10, 280, 9)
+	tmpl_large(610, 280, 15)
 }
 font_glyph(MONO, 0x2013, "sprites/png/gui/mono.png") {
 	tmpl_mono(190, 250)
+	tmpl_mono(145, 270)
 }
 
 
