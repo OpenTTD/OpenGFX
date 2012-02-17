@@ -11,20 +11,20 @@ template tmpl_railtype_tunnel(y) {
 
 if (climate == CLIMATE_TROPICAL) {
 	replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") {
-		tmpl_railtype_tunnel(88)
-		tmpl_railtype_tunnel(170)
+		tmpl_railtype_tunnel(335)
+		tmpl_railtype_tunnel(417)
 	}
 } else {
 	replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") {
-		tmpl_railtype_tunnel(6)
-		tmpl_railtype_tunnel(129)
+		tmpl_railtype_tunnel(253)
+		tmpl_railtype_tunnel(376)
 	}
 
 	if (climate == CLIMATE_ARCTIC) {
-		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(47) }
+		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(294) }
 	}
 
 	if (climate == CLIMATE_TOYLAND) {
-		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(211) }
+		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(458) }
 	}
 }
