@@ -8,6 +8,7 @@
 #include "sprites/nml/extra/extra-canals.pnml"
 #include "sprites/nml/extra/extra-chars.pnml"
 #include "sprites/nml/extra/extra-erails.pnml"
+#include "sprites/nml/extra/extra-rail-tunnels.pnml"
 #include "sprites/nml/extra/extra-foundations.pnml"
 #include "sprites/nml/extra/extra-oneway.pnml"
 #include "sprites/nml/extra/extra-road-stops.pnml"
