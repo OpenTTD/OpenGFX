@@ -1,0 +1,30 @@
+template tmpl_railtype_tunnel(y) {
+	[  5, y,  35, 33,  -31,  -2]
+	[ 43, y,  40, 37,   -7, -38]
+	[ 86, y,  35, 21,  -31,   0]
+	[124, y,  40, 22,  -7,  -29]
+	[168, y,  35, 21,   -2,   0]
+	[206, y,  40, 22,  -31, -29]
+	[249, y,  35, 33,   -2,  -2]
+	[287, y,  40, 37,  -31, -38]
+}
+
+if (climate == CLIMATE_TROPICAL) {
+	replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") {
+		tmpl_railtype_tunnel(88)
+		tmpl_railtype_tunnel(170)
+	}
+} else {
+	replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") {
+		tmpl_railtype_tunnel(6)
+		tmpl_railtype_tunnel(129)
+	}
+
+	if (climate == CLIMATE_ARCTIC) {
+		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(47) }
+	}
+
+	if (climate == CLIMATE_TOYLAND) {
+		replacenew(RAILTYPE_TUNNELS, "sprites/png/infrastructure/rail/tunnel-overlay-sprites.png") { tmpl_railtype_tunnel(211) }
+	}
+}

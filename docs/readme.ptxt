@@ -97,7 +97,7 @@ OpenTTD version 1.2.0 or a recent nightly.
 -----------------------
 
 1. First, make sure that you downloaded and installed at least OpenTTD version
-1.2.0 or later. 
+1.2.0 or later.
 
 2. Next, download the latest OpenGFX package. There are a few sources:
 - the development homepage http://bundles.openttdcoop.org/opengfx
@@ -283,6 +283,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 * uzurpator
 * Spaz O Mataz
 * Soeb (Stanislaw Gackowski)
+* Snail
 * skidd13 (Benedikt Brüggemeier)
 * Rubidium (Remko Bijker)
 * Roujin (Manuel Wolf)
@@ -298,6 +299,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 * Mr. X
 * mph (Matthew Haines)
 * molace (Zoltán Molnár)
+* michi_cc (Michael Lutz)
 * mb (Michael Blunck)
 * mart3p
 * Lawton27 (Jack Lawton)
