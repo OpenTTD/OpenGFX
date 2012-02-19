@@ -1,3 +1,10 @@
+OpenGFX 0.4.3 (19 Feb 2012)
+---------------------------
+- Change: Update for a number of font glyphs (issue #3578)
+- Fix / Revert: OpenTTD 1.1.5 and earlier requires some characters to be defined via glyphs as the actionA is not sufficient for those versions (issue #3960)
+
+
+
 OpenGFX 0.4.2 (08 Feb 2012)
 ---------------------------
 - Fix: [Makefile] Force makefile to build with one thread only as gimp might barf on running in parallel (issue #3439)
