@@ -1,5 +1,6 @@
 OpenGFX 0.4.3 (19 Feb 2012)
 ---------------------------
+- Feature: Support for the baseset part of railtype-specific tunnel sprites
 - Change: Update for a number of font glyphs (issue #3578)
 - Fix / Revert: OpenTTD 1.1.5 and earlier requires some characters to be defined via glyphs as the actionA is not sufficient for those versions (issue #3960)
 
