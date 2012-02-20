@@ -38,8 +38,6 @@ BuildRequires:  gimp
 Requires:       openttd-data >= 1.2
 Provides:       opengfx = %{version}
 
-%define ogfxdir %{_datadir}/openttd/baseset/opengfx-%{version}
-
 %description
 OpenGFX is an open source graphics base set designed to be used by OpenTTD.
 
@@ -58,6 +56,7 @@ make %{?_smp_mflags} _V=
 %install
 # we need to define version on the install target, else it could conflict with
 # possible same named opengfx in $HOME
+%define ogfxdir %{_datadir}/openttd/baseset/opengfx-%{version}
 make install INSTALL_DIR=%{buildroot}%{ogfxdir} _V=
 
 %check
