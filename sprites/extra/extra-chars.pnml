@@ -33,13 +33,13 @@ font_glyph(LARGE, 0x007B, "sprites/png/gui/font_addl.png") {
 
 // U+007F: No-Break Space
 font_glyph(NORMAL, 0x007F, "sprites/png/gui/font_addl.png") {
-	[  90,   10,   2,   1,   0,  -2, NOCROP]
+	tmpl_normal(90, 10, 2)
 }
 font_glyph(SMALL, 0x007F, "sprites/png/gui/font_addl.png") {
-	[  90,   30,   1,   1,   0,   0, NOCROP]
+	tmpl_small(90, 30, 1)
 }
 font_glyph(LARGE, 0x007F, "sprites/png/gui/font_addl.png") {
-	[  90,   40,   5,   1,   0,  -2, NOCROP]
+	tmpl_large(90, 40, 5)
 }
 
 
@@ -63,7 +63,7 @@ font_glyph(NORMAL, 0x00AC, "sprites/png/gui/font_addl.png") {
 }
 font_glyph(SMALL, 0x00AC, "sprites/png/gui/font_addl.png") {
 	tmpl_small(130, 30, 3)
-	tmpl_small(150, 30, 3)
+	tmpl_small(150, 30, 2)
 }
 font_glyph(LARGE, 0x00AC, "sprites/png/gui/font_addl.png") {
 	tmpl_large(130, 40, 11)
@@ -814,85 +814,127 @@ font_glyph(MONO, 0x0E3F, "sprites/png/gui/mono.png") {
 }
 
 
+// U+2010: Hyphen
+font_glyph(NORMAL, 0x2010, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(630, 250, 5)
+}
+font_glyph(SMALL, 0x2010, "sprites/png/gui/font_addl.png") {
+	tmpl_small(630, 270, 2)
+}
+font_glyph(LARGE, 0x2010, "sprites/png/gui/font_addl.png") {
+	tmpl_large(630, 280, 6)
+}
+font_glyph(MONO, 0x2010, "sprites/png/gui/mono.png") {
+	tmpl_mono(160, 270)
+}
+
 // U+2013: En Dash
-
-
 // U+2014: Em Dash
+// U+2015: Horizontal Bar
 font_glyph(NORMAL, 0x2013, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(10, 250, 7)
-	tmpl_normal(610, 250, 10)
+	tmpl_normal(610, 250, 11)
+	tmpl_normal(650, 250, 9)
 }
 font_glyph(SMALL, 0x2013, "sprites/png/gui/font_addl.png") {
 	tmpl_small(10, 270, 4)
 	tmpl_small(610, 270, 6)
+	tmpl_small(650, 270, 5)
 }
 font_glyph(LARGE, 0x2013, "sprites/png/gui/font_addl.png") {
-	tmpl_large(10, 280, 9)
+	tmpl_large(10, 280, 11)
 	tmpl_large(610, 280, 15)
+	tmpl_large(650, 280, 13)
 }
 font_glyph(MONO, 0x2013, "sprites/png/gui/mono.png") {
 	tmpl_mono(190, 250)
 	tmpl_mono(145, 270)
+	tmpl_mono(175, 270)
 }
 
 
+// U+2018: Left Single Quotation Mark
 // U+2019: Right Single Quotation Mark
-font_glyph(NORMAL, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(30, 250, 3)
-}
-font_glyph(SMALL, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_small(30, 270, 1)
-}
-font_glyph(LARGE, 0x2019, "sprites/png/gui/font_addl.png") {
-	tmpl_large(30, 280, 4)
-}
-font_glyph(MONO, 0x2019, "sprites/png/gui/mono.png") {
-	tmpl_mono(205, 250)
-}
-
-
+// U+201A: Single Low-9 Quotation Mark
+// U+201B: Single High-Reversed-9 Quotation Mark
 // U+201C: Left Double Quotation Mark
-font_glyph(NORMAL, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_normal(50, 250, 5)
-}
-font_glyph(SMALL, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_small(50, 270, 3)
-}
-font_glyph(LARGE, 0x201C, "sprites/png/gui/font_addl.png") {
-	tmpl_large(50, 280, 8)
-}
-font_glyph(MONO, 0x201C, "sprites/png/gui/mono.png") {
-	tmpl_mono(220, 250)
-}
-
-
+// U+201D: Right Double Quotation Mark
 // U+201E: Double Low-9 Quotation Mark
-font_glyph(NORMAL, 0x201E, "sprites/png/gui/font_addl.png") {
+// U+201F: Double High-Reversed-9 Quotation Mark
+font_glyph(NORMAL, 0x2018, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(670, 250, 3)
+	tmpl_normal(30, 250, 3)
+	tmpl_normal(690, 250, 3)
+	tmpl_normal(710, 250, 3)
+	tmpl_normal(50, 250, 5)
+	tmpl_normal(730, 250, 5)
 	tmpl_normal(70, 250, 5)
+	tmpl_normal(750, 250, 5)
 }
-font_glyph(SMALL, 0x201E, "sprites/png/gui/font_addl.png") {
+font_glyph(SMALL, 0x2018, "sprites/png/gui/font_addl.png") {
+	tmpl_small(670, 270, 1)
+	tmpl_small(30, 270, 1)
+	tmpl_small(690, 270, 1)
+	tmpl_small(710, 270, 1)
+	tmpl_small(50, 270, 3)
+	tmpl_small(730, 270, 3)
 	tmpl_small(70, 270, 3)
+	tmpl_small(750, 270, 3)
 }
-font_glyph(LARGE, 0x201E, "sprites/png/gui/font_addl.png") {
+font_glyph(LARGE, 0x2018, "sprites/png/gui/font_addl.png") {
+	tmpl_large(670, 280, 4)
+	tmpl_large(30, 280, 4)
+	tmpl_large(690, 280, 4)
+	tmpl_large(710, 280, 4)
+	tmpl_large(50, 280, 8)
+	tmpl_large(730, 280, 8)
 	tmpl_large(70, 280, 8)
+	tmpl_large(750, 280, 8)
 }
-font_glyph(MONO, 0x201E, "sprites/png/gui/mono.png") {
+font_glyph(MONO, 0x2018, "sprites/png/gui/mono.png") {
+	tmpl_mono(190, 270)
+	tmpl_mono(205, 250)
+	tmpl_mono(205, 270)
+	tmpl_mono(220, 270)
+	tmpl_mono(220, 250)
+	tmpl_mono(235, 270)
 	tmpl_mono(235, 250)
+	tmpl_mono(250, 270)
 }
 
 
+// U+2026: Horizontal Ellipsis
+font_glyph(NORMAL, 0x2026, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(770, 250, 11)
+}
+font_glyph(SMALL, 0x2026, "sprites/png/gui/font_addl.png") {
+	tmpl_small(770, 270, 5)
+}
+font_glyph(LARGE, 0x2026, "sprites/png/gui/font_addl.png") {
+	tmpl_large(770, 280, 15)
+}
+font_glyph(MONO, 0x2026, "sprites/png/gui/mono.png") {
+	tmpl_mono(265, 270)
+}
+
+
+// U+2039: Single Left-Pointing Angle Quotation Mark
 // U+203A: Single Right-Pointing Angle Quotation Mark
 font_glyph(NORMAL, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(10, 310, 4)
 	tmpl_normal(90, 250, 4)
 }
 font_glyph(SMALL, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_small(10, 330, 2)
 	tmpl_small(90, 270, 2)
 }
 font_glyph(LARGE, 0x203A, "sprites/png/gui/font_addl.png") {
+	tmpl_large(10, 340, 5)
 	tmpl_large(90, 280, 5)
 }
 font_glyph(MONO, 0x203A, "sprites/png/gui/mono.png") {
 	tmpl_mono(250, 250)
+	tmpl_mono(280, 270)
 }
 
 
@@ -1052,17 +1094,22 @@ font_glyph(MONO, 0x20B7, "sprites/png/gui/mono.png") {
 
 
 // U+2116: Numero Sign
+// U+2117: Sound Recording Copyright
 font_glyph(NORMAL, 0x2116, "sprites/png/gui/font_addl.png") {
 	tmpl_normal(530, 250, 14)
+	tmpl_normal(30, 310, 10)
 }
 font_glyph(SMALL, 0x2116, "sprites/png/gui/font_addl.png") {
 	tmpl_small(530, 270, 8)
+	tmpl_small(30, 330, 6)
 }
 font_glyph(LARGE, 0x2116, "sprites/png/gui/font_addl.png") {
 	tmpl_large(530, 280, 21)
+	tmpl_large(30, 340, 16)
 }
 font_glyph(MONO, 0x2116, "sprites/png/gui/mono.png") {
 	tmpl_mono(100, 270)
+	tmpl_mono(295, 270)
 }
 
 
@@ -1078,6 +1125,41 @@ font_glyph(LARGE, 0x2122, "sprites/png/gui/font_addl.png") {
 }
 font_glyph(MONO, 0x2122, "sprites/png/gui/mono.png") {
 	tmpl_mono(115, 270)
+}
+
+
+// U+2212: Minus Sign
+font_glyph(NORMAL, 0x2212, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(50, 310, 7)
+}
+font_glyph(SMALL, 0x2212, "sprites/png/gui/font_addl.png") {
+	tmpl_small(50, 330, 3)
+}
+font_glyph(LARGE, 0x2212, "sprites/png/gui/font_addl.png") {
+	tmpl_large(50, 340, 11)
+}
+font_glyph(MONO, 0x2212, "sprites/png/gui/mono.png") {
+	tmpl_mono(310, 270)
+}
+
+
+// U+27E8: Mathematical Left Angle Bracket
+// U+27E9: Mathematical Right Angle Bracket
+font_glyph(NORMAL, 0x27E8, "sprites/png/gui/font_addl.png") {
+	tmpl_normal(70, 310, 5)
+	tmpl_normal(90, 310, 5)
+}
+font_glyph(SMALL, 0x27E8, "sprites/png/gui/font_addl.png") {
+	tmpl_small(70, 330, 3)
+	tmpl_small(90, 330, 3)
+}
+font_glyph(LARGE, 0x27E8, "sprites/png/gui/font_addl.png") {
+	tmpl_large(70, 340, 6)
+	tmpl_large(90, 340, 6)
+}
+font_glyph(MONO, 0x27E8, "sprites/png/gui/mono.png") {
+	tmpl_mono(325, 270)
+	tmpl_mono(340, 270)
 }
 
 
