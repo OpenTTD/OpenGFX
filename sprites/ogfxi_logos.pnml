@@ -1,5 +1,5 @@
-#include "sprites/nml/templates/sprite_templates.pnml"
-#include "sprites/nml/templates/tmpl_trains.nml"
+#include "sprites/templates/sprite_templates.pnml"
+#include "sprites/templates/tmpl_trains.nml"
 
 // 0-10 EMPTY
 base_graphics(  0, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
@@ -14,17 +14,17 @@ base_graphics(  8, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
 base_graphics(  9, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
 base_graphics( 10, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
 
-#include "sprites/nml/logos/logos-0011-highscore.pnml"
-#include "sprites/nml/logos/logos-0021-newspaper-2051.pnml"
-#include "sprites/nml/logos/logos-0031-tycoon-of-century.pnml"
+#include "sprites/logos/logos-0011-highscore.pnml"
+#include "sprites/logos/logos-0021-newspaper-2051.pnml"
+#include "sprites/logos/logos-0031-tycoon-of-century.pnml"
 
 // 41-42 EMPTY
 base_graphics( 41, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
 base_graphics( 42, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
 
-#include "sprites/nml/logos/logos-0043-intro-letters.pnml"
-#include "sprites/nml/logos/logos-0052-original-map-generator.pnml"
-#include "sprites/nml/logos/logos-0089-gui-clima.pnml"
+#include "sprites/logos/logos-0043-intro-letters.pnml"
+#include "sprites/logos/logos-0052-original-map-generator.pnml"
+#include "sprites/logos/logos-0089-gui-clima.pnml"
 
 // 97-102 EMPTY
 base_graphics( 97, "sprites/png/miscellaneous/empty.png") { [0, 0, 1, 1, 0, 0] }
