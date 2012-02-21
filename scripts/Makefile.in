@@ -15,7 +15,7 @@
 
 	@echo "" >> $@
 	@echo "[md5s]" >> $@
-	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(MD5SUM) $$i | cut -f1 -d\  ` >> $@; done
+	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(GRFID) $(GRFID_FLAGS) $$i` >> $@; done
 
 	@echo "" >> $@
 	@echo "[origin]" >> $@

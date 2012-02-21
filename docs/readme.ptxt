@@ -169,9 +169,10 @@ or obtain the tarball from
 
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
-- md5sum (linux, mingw) or md5 (mac)
-- NML 0.2.x (not the development branch)
+- NML 0.3 (default / development branch)
   (available from http://bundles.openttdcoop.org/nml/ )
+- grfid from the grfcodec package
+  (available from http://www.openttd.org/download-grfcodec )
 - some gnu utils: make, cat, sed, awk
   and you might additionally want a text editor of your choice and a graphics
   programme suitable to handle palettes.
@@ -253,7 +254,7 @@ re-generated from a xcf or psd file.
 =========
 
 OpenGFX Graphics Base Set for OpenTTD
-Copyright (C) 2007-2011 by the OpenGFX team (see credits section below)
+Copyright (C) 2007-2012 by the OpenGFX team (see credits section below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
@@ -335,7 +336,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 
 
 
-Contact: planetmaker @ openttd.org or on irc.oftc.net/#openttd
+Contact: planetmaker@openttd.org or on irc.oftc.net/#openttd
 
 A detailed list of who worked on what is available in the file
 docs/authoroverview.csv in the source repository.

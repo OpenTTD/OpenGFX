@@ -11,7 +11,7 @@
 # Programme definitions / search paths
 ################################################################
 # Build parameters and programmes
-# TAR_FLAGS      = -cf 
+# TAR_FLAGS      = -cf
 # ZIP_FLAGS      = -r
 # SRCZIP_FLAGS   =
 # BZIP_FLAGS     = -k9f
@@ -19,6 +19,7 @@
 # MAKE_FLAGS     =
 # UNIX2DOS_FLAGS = -q
 # NML_FLAGS      =
+# GRFID_FLAGS    = -m
 
 # TAR            = tar
 # ZIP            = zip
@@ -31,6 +32,7 @@
 # UNIX2DOS       = $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # MD5SUM         = $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
 # NML            = nmlc
+# GRFID          = grfid
 
 # There are two different ways to do the dep check:
 # "normal": the usual bash tools being used
