@@ -150,10 +150,11 @@ item(FEAT_CANALS, riverwater, WF_RIVER_SLOPE) {
 }
 
 spriteset(set_rivermouth_temperate, "") {
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_temperate_ne.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_temperate_se.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_temperate_sw.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_temperate_nw.gimp.png"]
+	/* The first 12 flat sprites need to be taken from the riverbanks as the ground is not exported there */
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_temperate_nw.gimp.png"]
 	[ 338,  904,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
 	[ 370,  904,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
 	[ 402,  904,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
@@ -275,6 +276,7 @@ spriteset(set_riverbank_temperate, "") {
 	[ 322, 1160,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
 }
 spriteset(set_rivermouth_snow, "") {
+	/* The first 12 flat sprites need to be taken from the riverbanks as the ground is not exported there */
 	[ 434, 1160,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
 	[ 482, 1160,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
 	[ 530, 1160,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
@@ -337,10 +339,11 @@ spriteset(set_rivermouth_snow, "") {
 	[  50, 1304,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
 }
 spriteset(set_rivermouth_arctic, "") {
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_arctic_ne.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_arctic_se.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_arctic_sw.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_arctic_nw.gimp.png"]
+	/* The first 12 flat sprites need to be taken from the riverbanks as the ground is not exported there */
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_arctic_nw.gimp.png"]
 	[ 306, 1304,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
 	[ 338, 1304,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
 	[ 370, 1304,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
@@ -731,10 +734,11 @@ spriteset(set_riverbank_snow34, "") {
 
 
 spriteset(set_rivermouth_tropical, "") {
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_tropical_ne.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_tropical_se.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_tropical_sw.gimp.png"]
-	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_tropical_nw.gimp.png"]
+	/* The first 12 flat sprites need to be taken from the riverbanks as the ground is not exported there */
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_ne.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_se.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_sw.gimp.png"]
+	[   1,    1,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/riverbank_tropical_nw.gimp.png"]
 	[  50, 1800,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
 	[  82, 1800,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
 	[ 114, 1800,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
@@ -855,10 +859,11 @@ spriteset(set_riverbank_tropical, "") {
 	[ 530, 2120,  12,   6,  -5,  -8, "sprites/png/terrain/waterfeatures.png"]
 }
 spriteset(set_rivermouth_toyland, "") {
-	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_ne.gimp.png"]
-	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_se.gimp.png"]
-	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_sw.gimp.png"]
-	[   1,  145,  64,  31, -31,   0, "sprites/png/terrain/waterfeatures/rivermouth_nw.gimp.png"]
+	/* The first 12 flat sprites need to be taken from the riverbanks as the ground is not exported there */
+	[ 434, 2248,  38,  19,  -5,   0, "sprites/png/terrain/waterfeatures.png"]
+	[ 482, 2248,  38,  18,  -5,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 530, 2248,  38,  18, -31,  13, "sprites/png/terrain/waterfeatures.png"]
+	[ 578, 2248,  38,  19, -31,   0, "sprites/png/terrain/waterfeatures.png"]
 	[  98, 2168,  19,   9,  14,  11, "sprites/png/terrain/waterfeatures.png"]
 	[ 130, 2168,  16,   9,  -7,  22, "sprites/png/terrain/waterfeatures.png"]
 	[ 162, 2168,  19,   9, -31,  11, "sprites/png/terrain/waterfeatures.png"]
