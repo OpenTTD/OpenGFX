@@ -242,7 +242,7 @@ base_graphics( 235, "sprites/png/gui/fonts.png") { [ 190,   30,   2,   8,   0,  
 base_graphics( 236, "sprites/png/gui/fonts.png") { [ 210,   30,   3,   8,   0,   0] }
 base_graphics( 237, "sprites/png/gui/fonts.png") { [ 230,   30,   3,   8,   0,   0] }
 base_graphics( 238, "sprites/png/gui/fonts.png") { [ 250,   30,   1,   8,   0,   0] }
-base_graphics( 239, "sprites/png/gui/fonts.png") { [ 270,   30,   3,   8,   0,   0] }
+base_graphics( 239, "sprites/png/gui/fonts.png") { [ 270,   30,   2,   8,   0,   0] }
 base_graphics( 240, "sprites/png/gui/fonts.png") { [ 290,   30,   1,   8,   0,   0] }
 base_graphics( 241, "sprites/png/gui/fonts.png") { [ 310,   30,   3,   8,   0,   0] }
 base_graphics( 242, "sprites/png/gui/fonts.png") { [ 330,   30,   3,   8,   0,   0] }
