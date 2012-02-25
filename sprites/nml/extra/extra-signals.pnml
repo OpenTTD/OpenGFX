@@ -1,6 +1,6 @@
+/* Signals used for both traffic sides */
 
-
-// British style
+// British style. Replace later by German style, if necessary
 replacenew(PRE_SIGNAL_SEMAPHORE_PBS, "") {
 	tmpl_signals_file( 10,  50, "sprites/png/infrastructure/signals/light-entry.png")
 	tmpl_signals_file( 10,  50, "sprites/png/infrastructure/signals/light-exit.png")
@@ -117,11 +117,13 @@ replacenew(PRE_SIGNAL_SEMAPHORE_PBS, "") {
 	[ 498,  296,   9,  21,   0, -19, "sprites/png/infrastructure/semaphores.png"]
 }
 
-// only use if driving on the right side.
-// Toyland signals With German semaphore style
-if ((traffic_side == TRAFFIC_SIDE_RIGHT) && signals_on_traffic_side) {
-	//light presignals
-	replacenew(NEW_SIGNALS, "") {
+/* German signals */
+if ((traffic_side == TRAFFIC_SIDE_RIGHT)) {
+	replacenew(PRE_SIGNAL_SEMAPHORE_PBS, "") {
+		tmpl_signals_file( 10,  50, "sprites/png/infrastructure/signals/light-entry.png")
+		tmpl_signals_file( 10,  50, "sprites/png/infrastructure/signals/light-exit.png")
+		tmpl_signals_file( 10,  50, "sprites/png/infrastructure/signals/light-combo.png")
+
 		[ 530,  344,  10,  21,  -7, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 546,  344,  10,  23,  -8, -21, "sprites/png/infrastructure/semaphores.png"]
 		[ 562,  344,  10,  23,  -7, -21, "sprites/png/infrastructure/semaphores.png"]
@@ -155,6 +157,7 @@ if ((traffic_side == TRAFFIC_SIDE_RIGHT) && signals_on_traffic_side) {
 		[ 274,  392,  10,  24,  -1, -22, "sprites/png/infrastructure/semaphores.png"]
 		[ 290,  392,  13,  21,  -9, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 322,  392,  10,  24,  -6, -22, "sprites/png/infrastructure/semaphores.png"]
+
 		[ 338,  392,  11,  21,  -8, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 354,  392,  10,  23,  -8, -21, "sprites/png/infrastructure/semaphores.png"]
 		[ 370,  392,  10,  23,  -7, -21, "sprites/png/infrastructure/semaphores.png"]
@@ -171,6 +174,7 @@ if ((traffic_side == TRAFFIC_SIDE_RIGHT) && signals_on_traffic_side) {
 		[ 562,  392,   9,  24,   0, -22, "sprites/png/infrastructure/semaphores.png"]
 		[ 578,  392,  12,  21,  -9, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 610,  392,   9,  24,  -6, -22, "sprites/png/infrastructure/semaphores.png"]
+
 		[ 626,  392,  11,  21,  -8, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 642,  392,  10,  23,  -8, -21, "sprites/png/infrastructure/semaphores.png"]
 		[ 658,  392,  10,  23,  -7, -21, "sprites/png/infrastructure/semaphores.png"]
@@ -306,6 +310,7 @@ if ((traffic_side == TRAFFIC_SIDE_RIGHT) && signals_on_traffic_side) {
 		[ 370,  536,   9,  24,   0, -22, "sprites/png/infrastructure/semaphores.png"]
 		[ 386,  536,  12,  21,  -9, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 418,  536,   9,  24,  -6, -22, "sprites/png/infrastructure/semaphores.png"]
+
 		[ 434,  536,  11,  21,  -8, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 450,  536,  10,  23,  -8, -21, "sprites/png/infrastructure/semaphores.png"]
 		[ 466,  536,  10,  23,  -7, -21, "sprites/png/infrastructure/semaphores.png"]
@@ -323,4 +328,4 @@ if ((traffic_side == TRAFFIC_SIDE_RIGHT) && signals_on_traffic_side) {
 		[ 674,  536,  12,  21,  -9, -19, "sprites/png/infrastructure/semaphores.png"]
 		[ 706,  536,   9,  24,  -6, -22, "sprites/png/infrastructure/semaphores.png"]
 	}
-}
+} // German signals
