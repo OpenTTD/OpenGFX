@@ -1,3 +1,13 @@
+OpenGFX r946
+---------------------------
+- Change: Don't let the road works flash that much (issue #3395)
+- Add: More font sprites (issue #3578)
+- Fix: Landing lights were inoperational for helipad and some broken at the heliport (issue #3709)
+- Fix: German semaphore signals were not available anymore (issue #3429)
+- Fix: Broken river borders at sea level (issue #3562)
+
+
+
 OpenGFX 0.4.3 (19 Feb 2012)
 ---------------------------
 - Feature: Support for the baseset part of railtype-specific tunnel sprites
