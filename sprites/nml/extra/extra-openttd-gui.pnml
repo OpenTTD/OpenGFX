@@ -93,7 +93,7 @@ replacenew(OTTD_GUI, "") {
 	[   2,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad
 	[  50,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: autoroad tram
 	[  82,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad tram
-	[ 130,  808,  39,  18,  -9,  -9, "sprites/png/gui/gui04.png"]                   // helipad
+	[ 174,  472,  39,  18,  -9,  -9, "sprites/png/infrastructure/airports.png"]     // helipad
 	[ 178,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place ship lift
 	[ 226,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build canal
 	[ 258,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place canal
