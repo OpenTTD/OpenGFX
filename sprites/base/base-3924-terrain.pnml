@@ -1,135 +1,27 @@
 
 
-// bare land 3924 - 3942
-base_graphics(3924, "sprites/png/terrain/terrain04.png") { [  82,    8,  64,  31, -31,   0] }
-base_graphics(3925, "sprites/png/terrain/terrain04.png") { [ 162,    8,  64,  31, -31,   0] }
-base_graphics(3926, "sprites/png/terrain/terrain04.png") { [ 242,    8,  64,  23, -31,   0] }
-base_graphics(3927, "sprites/png/terrain/terrain04.png") { [ 322,    8,  64,  23, -31,   0] }
-base_graphics(3928, "sprites/png/terrain/terrain04.png") { [ 402,    8,  64,  31, -31,   0] }
-base_graphics(3929, "sprites/png/terrain/terrain04.png") { [ 482,    8,  64,  31, -31,   0] }
-base_graphics(3930, "sprites/png/terrain/terrain04.png") { [ 562,    8,  64,  23, -31,   0] }
-base_graphics(3931, "sprites/png/terrain/terrain04.png") { [ 642,    8,  64,  23, -31,   0] }
-base_graphics(3932, "sprites/png/terrain/terrain04.png") { [ 722,    8,  64,  39, -31,  -8] }
-base_graphics(3933, "sprites/png/terrain/terrain04.png") { [   2,   72,  64,  39, -31,  -8] }
-base_graphics(3934, "sprites/png/terrain/terrain04.png") { [  82,   72,  64,  31, -31,  -8] }
-base_graphics(3935, "sprites/png/terrain/terrain04.png") { [ 162,   72,  64,  31, -31,  -8] }
-base_graphics(3936, "sprites/png/terrain/terrain04.png") { [ 242,   72,  64,  39, -31,  -8] }
-base_graphics(3937, "sprites/png/terrain/terrain04.png") { [ 322,   72,  64,  39, -31,  -8] }
-base_graphics(3938, "sprites/png/terrain/terrain04.png") { [ 402,   72,  64,  31, -31,  -8] }
-base_graphics(3939, "sprites/png/terrain/terrain04.png") { [ 482,   72,  64,  47, -31, -16] }
-base_graphics(3940, "sprites/png/terrain/terrain04.png") { [ 562,   72,  64,  15, -31,   0] }
-base_graphics(3941, "sprites/png/terrain/terrain04.png") { [ 642,   72,  64,  31, -31,  -8] }
-base_graphics(3942, "sprites/png/terrain/terrain04.png") { [ 722,   72,  64,  31, -31,  -8] }
+// bare land (0% grassy) 3924 - 3942
+base_graphics(3924, "sprites/png/terrain/bare-03-temperate.png") { tmpl_groundtiles(1, 1) }
 
-// bare land stage2 3943 - 3961
-base_graphics(3943, "sprites/png/terrain/terrain04.png") { [  34,  136,  64,  31, -31,   0] }
-base_graphics(3944, "sprites/png/terrain/terrain04.png") { [ 114,  136,  64,  31, -31,   0] }
-base_graphics(3945, "sprites/png/terrain/terrain04.png") { [ 194,  136,  64,  23, -31,   0] }
-base_graphics(3946, "sprites/png/terrain/terrain04.png") { [ 274,  136,  64,  23, -31,   0] }
-base_graphics(3947, "sprites/png/terrain/terrain04.png") { [ 354,  136,  64,  31, -31,   0] }
-base_graphics(3948, "sprites/png/terrain/terrain04.png") { [ 434,  136,  64,  31, -31,   0] }
-base_graphics(3949, "sprites/png/terrain/terrain04.png") { [ 514,  136,  64,  23, -31,   0] }
-base_graphics(3950, "sprites/png/terrain/terrain04.png") { [ 594,  136,  64,  23, -31,   0] }
-base_graphics(3951, "sprites/png/terrain/terrain04.png") { [ 674,  136,  64,  39, -31,  -8] }
-base_graphics(3952, "sprites/png/terrain/terrain04.png") { [   2,  200,  64,  39, -31,  -8] }
-base_graphics(3953, "sprites/png/terrain/terrain04.png") { [  82,  200,  64,  31, -31,  -8] }
-base_graphics(3954, "sprites/png/terrain/terrain04.png") { [ 162,  200,  64,  31, -31,  -8] }
-base_graphics(3955, "sprites/png/terrain/terrain04.png") { [ 242,  200,  64,  39, -31,  -8] }
-base_graphics(3956, "sprites/png/terrain/terrain04.png") { [ 322,  200,  64,  39, -31,  -8] }
-base_graphics(3957, "sprites/png/terrain/terrain04.png") { [ 402,  200,  64,  31, -31,  -8] }
-base_graphics(3958, "sprites/png/terrain/terrain04.png") { [ 482,  200,  64,  47, -31, -16] }
-base_graphics(3959, "sprites/png/terrain/terrain04.png") { [ 562,  200,  64,  15, -31,   0] }
-base_graphics(3960, "sprites/png/terrain/terrain04.png") { [ 642,  200,  64,  31, -31,  -8] }
-base_graphics(3961, "sprites/png/terrain/terrain04.png") { [ 722,  200,  64,  31, -31,  -8] }
+// bare land (33% grassy) 3943 - 3961
+base_graphics(3943, "sprites/png/terrain/bare-13-temperate.png") { tmpl_groundtiles(1, 1) }
 
-// bare land stage3 3962 - 3980
-base_graphics(3962, "sprites/png/terrain/terrain04.png") { [   2,  264,  64,  31, -31,   0] }
-base_graphics(3963, "sprites/png/terrain/terrain04.png") { [  82,  264,  64,  31, -31,   0] }
-base_graphics(3964, "sprites/png/terrain/terrain04.png") { [ 162,  264,  64,  23, -31,   0] }
-base_graphics(3965, "sprites/png/terrain/terrain04.png") { [ 242,  264,  64,  23, -31,   0] }
-base_graphics(3966, "sprites/png/terrain/terrain04.png") { [ 322,  264,  64,  31, -31,   0] }
-base_graphics(3967, "sprites/png/terrain/terrain04.png") { [ 402,  264,  64,  31, -31,   0] }
-base_graphics(3968, "sprites/png/terrain/terrain04.png") { [ 482,  264,  64,  23, -31,   0] }
-base_graphics(3969, "sprites/png/terrain/terrain04.png") { [ 562,  264,  64,  23, -31,   0] }
-base_graphics(3970, "sprites/png/terrain/terrain04.png") { [ 642,  264,  64,  39, -31,  -8] }
-base_graphics(3971, "sprites/png/terrain/terrain04.png") { [ 722,  264,  64,  39, -31,  -8] }
-base_graphics(3972, "sprites/png/terrain/terrain04.png") { [   2,  328,  64,  31, -31,  -8] }
-base_graphics(3973, "sprites/png/terrain/terrain04.png") { [  82,  328,  64,  31, -31,  -8] }
-base_graphics(3974, "sprites/png/terrain/terrain04.png") { [ 162,  328,  64,  39, -31,  -8] }
-base_graphics(3975, "sprites/png/terrain/terrain04.png") { [ 242,  328,  64,  39, -31,  -8] }
-base_graphics(3976, "sprites/png/terrain/terrain04.png") { [ 322,  328,  64,  31, -31,  -8] }
-base_graphics(3977, "sprites/png/terrain/terrain04.png") { [ 402,  328,  64,  47, -31, -16] }
-base_graphics(3978, "sprites/png/terrain/terrain04.png") { [ 482,  328,  64,  15, -31,   0] }
-base_graphics(3979, "sprites/png/terrain/terrain04.png") { [ 562,  328,  64,  31, -31,  -8] }
-base_graphics(3980, "sprites/png/terrain/terrain04.png") { [ 642,  328,  64,  31, -31,  -8] }
+// bare land (66% grassy) 3962 - 3980
+base_graphics(3962, "sprites/png/terrain/bare-23-temperate.png") { tmpl_groundtiles(1, 1) }
 
-// temperate grass 3981 - 3999
+// temperate grass (100% grassy) 3981 - 3999
 base_graphics(3981, "sprites/png/terrain/grass-temperate.gimp.png") { tmpl_groundtiles(1, 1) }
 
 // temperate rough terrain 4000 - 4022
-base_graphics(4000, "sprites/png/terrain/terrain04.png") { [ 642,  456,  64,  31, -31,   0] }
-base_graphics(4001, "sprites/png/terrain/terrain04.png") { [ 722,  456,  64,  31, -31,   0] }
-base_graphics(4002, "sprites/png/terrain/terrain04.png") { [   2,  520,  64,  23, -31,   0] }
-base_graphics(4003, "sprites/png/terrain/terrain04.png") { [  82,  520,  64,  23, -31,   0] }
-base_graphics(4004, "sprites/png/terrain/terrain04.png") { [ 162,  520,  64,  31, -31,   0] }
-base_graphics(4005, "sprites/png/terrain/terrain04.png") { [ 242,  520,  64,  31, -31,   0] }
-base_graphics(4006, "sprites/png/terrain/terrain04.png") { [ 322,  520,  64,  23, -31,   0] }
-base_graphics(4007, "sprites/png/terrain/terrain04.png") { [ 402,  520,  64,  23, -31,   0] }
-base_graphics(4008, "sprites/png/terrain/terrain04.png") { [ 482,  520,  64,  39, -31,  -8] }
-base_graphics(4009, "sprites/png/terrain/terrain04.png") { [ 562,  520,  64,  39, -31,  -8] }
-base_graphics(4010, "sprites/png/terrain/terrain04.png") { [ 642,  520,  64,  31, -31,  -8] }
-base_graphics(4011, "sprites/png/terrain/terrain04.png") { [ 722,  520,  64,  31, -31,  -8] }
-base_graphics(4012, "sprites/png/terrain/terrain04.png") { [   2,  584,  64,  39, -31,  -8] }
-base_graphics(4013, "sprites/png/terrain/terrain04.png") { [  82,  584,  64,  39, -31,  -8] }
-base_graphics(4014, "sprites/png/terrain/terrain04.png") { [ 162,  584,  64,  31, -31,  -8] }
-base_graphics(4015, "sprites/png/terrain/terrain04.png") { [ 242,  584,  64,  47, -31, -16] }
-base_graphics(4016, "sprites/png/terrain/terrain04.png") { [ 322,  584,  64,  15, -31,   0] }
-base_graphics(4017, "sprites/png/terrain/terrain04.png") { [ 402,  584,  64,  31, -31,  -8] }
-base_graphics(4018, "sprites/png/terrain/terrain04.png") { [ 482,  584,  64,  31, -31,  -8] }
+base_graphics(4000, "sprites/png/terrain/rough-temperate.png") { tmpl_groundtiles(1, 1) }
 // temperate rough terrain, alternative flat tiles
-base_graphics(4019, "sprites/png/terrain/terrain04.png") { [ 562,  584,  64,  31, -31,   0] }
-base_graphics(4020, "sprites/png/terrain/terrain04.png") { [ 642,  584,  64,  31, -31,   0] }
-base_graphics(4021, "sprites/png/terrain/terrain04.png") { [ 722,  584,  64,  31, -31,   0] }
-base_graphics(4022, "sprites/png/terrain/terrain04.png") { [   2,  648,  64,  31, -31,   0] }
+base_graphics(4019, "sprites/png/terrain/rough-temperate.png") { [ 1511,  1,  64,  31, -31,   0] }
+base_graphics(4020, "sprites/png/terrain/rough-temperate.png") { [ 1591,  1,  64,  31, -31,   0] }
+base_graphics(4021, "sprites/png/terrain/rough-temperate.png") { [ 1671,  1,  64,  31, -31,   0] }
+base_graphics(4022, "sprites/png/terrain/rough-temperate.png") { [ 1751,  1,  64,  31, -31,   0] }
 
 // temperate rocky terrain 4023 - 4041
-base_graphics(4023, "sprites/png/terrain/terrain04.png") { [  82,  648,  64,  31, -31,   0] }
-base_graphics(4024, "sprites/png/terrain/terrain04.png") { [ 162,  648,  64,  31, -31,   0] }
-base_graphics(4025, "sprites/png/terrain/terrain04.png") { [ 242,  648,  64,  23, -31,   0] }
-base_graphics(4026, "sprites/png/terrain/terrain04.png") { [ 322,  648,  64,  23, -31,   0] }
-base_graphics(4027, "sprites/png/terrain/terrain04.png") { [ 402,  648,  64,  31, -31,   0] }
-base_graphics(4028, "sprites/png/terrain/terrain04.png") { [ 482,  648,  64,  31, -31,   0] }
-base_graphics(4029, "sprites/png/terrain/terrain04.png") { [ 562,  648,  64,  23, -31,   0] }
-base_graphics(4030, "sprites/png/terrain/terrain04.png") { [ 642,  648,  64,  23, -31,   0] }
-base_graphics(4031, "sprites/png/terrain/terrain04.png") { [ 722,  648,  64,  39, -31,  -8] }
-base_graphics(4032, "sprites/png/terrain/terrain04.png") { [   2,  712,  64,  39, -31,  -8] }
-base_graphics(4033, "sprites/png/terrain/terrain04.png") { [  82,  712,  64,  31, -31,  -8] }
-base_graphics(4034, "sprites/png/terrain/terrain04.png") { [ 162,  712,  64,  31, -31,  -8] }
-base_graphics(4035, "sprites/png/terrain/terrain04.png") { [ 242,  712,  64,  39, -31,  -8] }
-base_graphics(4036, "sprites/png/terrain/terrain04.png") { [ 322,  712,  64,  39, -31,  -8] }
-base_graphics(4037, "sprites/png/terrain/terrain04.png") { [ 402,  712,  64,  31, -31,  -8] }
-base_graphics(4038, "sprites/png/terrain/terrain04.png") { [ 482,  712,  64,  47, -31, -16] }
-base_graphics(4039, "sprites/png/terrain/terrain04.png") { [ 562,  712,  64,  15, -31,   0] }
-base_graphics(4040, "sprites/png/terrain/terrain04.png") { [ 642,  712,  64,  31, -31,  -8] }
-base_graphics(4041, "sprites/png/terrain/terrain04.png") { [ 722,  712,  64,  31, -31,  -8] }
+base_graphics(4023, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
 
 // adjacent rocks (not used in OpenTTD or even TTD) 4042 - 4060
-base_graphics(4042, "sprites/png/terrain/terrain04.png") { [  82,  648,  64,  31, -31,   0] }
-base_graphics(4043, "sprites/png/terrain/terrain04.png") { [ 162,  648,  64,  31, -31,   0] }
-base_graphics(4044, "sprites/png/terrain/terrain04.png") { [ 242,  648,  64,  23, -31,   0] }
-base_graphics(4045, "sprites/png/terrain/terrain04.png") { [ 322,  648,  64,  23, -31,   0] }
-base_graphics(4046, "sprites/png/terrain/terrain04.png") { [ 402,  648,  64,  31, -31,   0] }
-base_graphics(4047, "sprites/png/terrain/terrain04.png") { [ 482,  648,  64,  31, -31,   0] }
-base_graphics(4048, "sprites/png/terrain/terrain04.png") { [ 562,  648,  64,  23, -31,   0] }
-base_graphics(4049, "sprites/png/terrain/terrain04.png") { [ 642,  648,  64,  23, -31,   0] }
-base_graphics(4050, "sprites/png/terrain/terrain04.png") { [ 722,  648,  64,  39, -31,  -8] }
-base_graphics(4051, "sprites/png/terrain/terrain04.png") { [   2,  712,  64,  39, -31,  -8] }
-base_graphics(4052, "sprites/png/terrain/terrain04.png") { [  82,  712,  64,  31, -31,  -8] }
-base_graphics(4053, "sprites/png/terrain/terrain04.png") { [ 162,  712,  64,  31, -31,  -8] }
-base_graphics(4054, "sprites/png/terrain/terrain04.png") { [ 242,  712,  64,  39, -31,  -8] }
-base_graphics(4055, "sprites/png/terrain/terrain04.png") { [ 322,  712,  64,  39, -31,  -8] }
-base_graphics(4056, "sprites/png/terrain/terrain04.png") { [ 402,  712,  64,  31, -31,  -8] }
-base_graphics(4057, "sprites/png/terrain/terrain04.png") { [ 482,  712,  64,  47, -31, -16] }
-base_graphics(4058, "sprites/png/terrain/terrain04.png") { [ 562,  712,  64,  15, -31,   0] }
-base_graphics(4059, "sprites/png/terrain/terrain04.png") { [ 642,  712,  64,  31, -31,  -8] }
-base_graphics(4060, "sprites/png/terrain/terrain04.png") { [ 722,  712,  64,  31, -31,  -8] }
+base_graphics(4042, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
