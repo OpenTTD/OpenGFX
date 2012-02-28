@@ -1009,10 +1009,10 @@ switch( FEAT_CANALS, SELF, switch_riverbank_height_toyland, tile_height) {
 
 switch( FEAT_CANALS, SELF, switch_riverbank_terrain_arctic,
 		[
-			STORE_TEMP(                (tile_height > (snowline_height - 16)), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height -  8)), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height     )), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height +  8)), 0),
+			STORE_TEMP(                (tile_height > (snowline_height - 2)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height - 1)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height    )), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height + 1)), 0),
 			LOAD_TEMP(0)
 		] ) {
 	0: switch_riverbank_height_arctic;

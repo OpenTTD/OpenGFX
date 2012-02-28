@@ -19,10 +19,10 @@ spriteset (set_locks_snow44) { tmpl_locks("sprites/png/infrastructure/locks_snow
 
 switch( FEAT_CANALS, SELF, switch_locks_arctic,
 		[
-			STORE_TEMP(                (tile_height > (snowline_height - 16)), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height -  8)), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height     )), 0),
-			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height +  8)), 0),
+			STORE_TEMP(                (tile_height > (snowline_height - 2)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height - 1)), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height    )), 0),
+			STORE_TEMP( LOAD_TEMP(0) + (tile_height > (snowline_height + 1)), 0),
 			LOAD_TEMP(0)
 		] ) {
 	0: set_locks_normal;
