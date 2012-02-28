@@ -15,4 +15,4 @@ base_graphics(1002, "sprites/png/landscape/landscape031.png") { [ 402, 1240,  64
 base_graphics(1003, "sprites/png/landscape/landscape031.png") { [ 482, 1240,  64,  32, -31,  -9, NOCROP] }
 
 // map edge 1004
-base_graphics(1004, "sprites/png/terrain/terrain04.png") { [ 498, 5208,  64,  31, -31,   0] }
+base_graphics(1004, "sprites/png/terrain/black_tile.png") { [ 1, 1,  64,  31, -31,   0] }
