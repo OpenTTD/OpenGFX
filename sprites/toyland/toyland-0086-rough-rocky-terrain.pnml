@@ -1,13 +1,6 @@
 
+// toyland rough terrain 86-108
+base_graphics(86, "sprites/png/terrain/rough-toyland.png") { tmpl_groundtiles(1, 1)  tmpl_additional_rough(1, 1) }
 
-//86-108 Rough terrain
-base_graphics(  86, "sprites/png/terrain/toyland_ground_lightgreen.png") { tmpl_otherground() }
-// There are four alternate plain, level ground rough ground tiles in (Open)TTD
-// which are changed every 16 tiles
-base_graphics( 105, "sprites/png/terrain/toyland_ground_roughvariation.png") { [  68,   35,  64,  31, -31,   0] }
-base_graphics( 106, "sprites/png/terrain/toyland_ground_roughvariation.png") { [  68,   68,  64,  31, -31,   0] }
-base_graphics( 107, "sprites/png/terrain/toyland_ground_roughvariation.png") { [  68,  101,  64,  31, -31,   0] }
-base_graphics( 108, "sprites/png/terrain/toyland_ground_roughvariation.png") { [  68,  134,  64,  31, -31,   0] }
-
-//109-127 Rocks
-base_graphics( 109, "sprites/png/terrain/toyland_ground_red.png") { tmpl_otherground() }
+// toyland rocky terrain 109-127
+base_graphics( 109, "sprites/png/terrain/rocks-toyland.png") { tmpl_groundtiles(1, 1) }
