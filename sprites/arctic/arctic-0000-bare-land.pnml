@@ -1,46 +1,10 @@
 
 
-//0-18 arctic bare land stage 2
-base_graphics(   0, "sprites/png/terrain/terrain04.png") { [  34,  776,  64,  31, -31,   0] }
-base_graphics(   1, "sprites/png/terrain/terrain04.png") { [ 114,  776,  64,  31, -31,   0] }
-base_graphics(   2, "sprites/png/terrain/terrain04.png") { [ 194,  776,  64,  23, -31,   0] }
-base_graphics(   3, "sprites/png/terrain/terrain04.png") { [ 274,  776,  64,  23, -31,   0] }
-base_graphics(   4, "sprites/png/terrain/terrain04.png") { [ 354,  776,  64,  31, -31,   0] }
-base_graphics(   5, "sprites/png/terrain/terrain04.png") { [ 434,  776,  64,  31, -31,   0] }
-base_graphics(   6, "sprites/png/terrain/terrain04.png") { [ 514,  776,  64,  23, -31,   0] }
-base_graphics(   7, "sprites/png/terrain/terrain04.png") { [ 594,  776,  64,  23, -31,   0] }
-base_graphics(   8, "sprites/png/terrain/terrain04.png") { [ 674,  776,  64,  39, -31,  -8] }
-base_graphics(   9, "sprites/png/terrain/terrain04.png") { [   2,  840,  64,  39, -31,  -8] }
-base_graphics(  10, "sprites/png/terrain/terrain04.png") { [  82,  840,  64,  31, -31,  -8] }
-base_graphics(  11, "sprites/png/terrain/terrain04.png") { [ 162,  840,  64,  31, -31,  -8] }
-base_graphics(  12, "sprites/png/terrain/terrain04.png") { [ 242,  840,  64,  39, -31,  -8] }
-base_graphics(  13, "sprites/png/terrain/terrain04.png") { [ 322,  840,  64,  39, -31,  -8] }
-base_graphics(  14, "sprites/png/terrain/terrain04.png") { [ 402,  840,  64,  31, -31,  -8] }
-base_graphics(  15, "sprites/png/terrain/terrain04.png") { [ 482,  840,  64,  47, -31, -16] }
-base_graphics(  16, "sprites/png/terrain/terrain04.png") { [ 562,  840,  64,  15, -31,   0] }
-base_graphics(  17, "sprites/png/terrain/terrain04.png") { [ 642,  840,  64,  31, -31,  -8] }
-base_graphics(  18, "sprites/png/terrain/terrain04.png") { [ 722,  840,  64,  31, -31,  -8] }
+// bare arctic land (33% grassy) 0 - 18
+base_graphics(   0, "sprites/png/terrain/bare-13-arctic.png") { tmpl_groundtiles(1, 1) }
 
-//19-37 arctic bare land stage 3
-base_graphics(  19, "sprites/png/terrain/terrain04.png") { [   2,  904,  64,  31, -31,   0] }
-base_graphics(  20, "sprites/png/terrain/terrain04.png") { [  82,  904,  64,  31, -31,   0] }
-base_graphics(  21, "sprites/png/terrain/terrain04.png") { [ 162,  904,  64,  23, -31,   0] }
-base_graphics(  22, "sprites/png/terrain/terrain04.png") { [ 242,  904,  64,  23, -31,   0] }
-base_graphics(  23, "sprites/png/terrain/terrain04.png") { [ 322,  904,  64,  31, -31,   0] }
-base_graphics(  24, "sprites/png/terrain/terrain04.png") { [ 402,  904,  64,  31, -31,   0] }
-base_graphics(  25, "sprites/png/terrain/terrain04.png") { [ 482,  904,  64,  23, -31,   0] }
-base_graphics(  26, "sprites/png/terrain/terrain04.png") { [ 562,  904,  64,  23, -31,   0] }
-base_graphics(  27, "sprites/png/terrain/terrain04.png") { [ 642,  904,  64,  39, -31,  -8] }
-base_graphics(  28, "sprites/png/terrain/terrain04.png") { [ 722,  904,  64,  39, -31,  -8] }
-base_graphics(  29, "sprites/png/terrain/terrain04.png") { [   2,  968,  64,  31, -31,  -8] }
-base_graphics(  30, "sprites/png/terrain/terrain04.png") { [  82,  968,  64,  31, -31,  -8] }
-base_graphics(  31, "sprites/png/terrain/terrain04.png") { [ 162,  968,  64,  39, -31,  -8] }
-base_graphics(  32, "sprites/png/terrain/terrain04.png") { [ 242,  968,  64,  39, -31,  -8] }
-base_graphics(  33, "sprites/png/terrain/terrain04.png") { [ 322,  968,  64,  31, -31,  -8] }
-base_graphics(  34, "sprites/png/terrain/terrain04.png") { [ 402,  968,  64,  47, -31, -16] }
-base_graphics(  35, "sprites/png/terrain/terrain04.png") { [ 482,  968,  64,  15, -31,   0] }
-base_graphics(  36, "sprites/png/terrain/terrain04.png") { [ 562,  968,  64,  31, -31,  -8] }
-base_graphics(  37, "sprites/png/terrain/terrain04.png") { [ 642,  968,  64,  31, -31,  -8] }
+// bare arctic land (66% grassy) 19 - 37
+base_graphics(  19, "sprites/png/terrain/bare-23-arctic.png") { tmpl_groundtiles(1, 1) }
 
-//38-56 arctic grass
+// arctic grass (100% grassy) 38 - 56
 base_graphics(  38, "sprites/png/terrain/grass-arctic.gimp.png") { tmpl_groundtiles(1, 1) }
