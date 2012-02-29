@@ -9,35 +9,60 @@ base_graphics(3706, "sprites/png/miscellaneous/random.png") { [ 310,  383,  50, 
 base_graphics(3707, "sprites/png/miscellaneous/random.png") { [ 370,  383,  50,  60,  -1, -59] }
 base_graphics(3708, "sprites/png/miscellaneous/random.png") { [ 430,  383,  50,  60,  -1, -59] }
 //large explosion
-base_graphics(3709, "sprites/png/miscellaneous/random.png") { [  10,  267,  47,  47, -23, -23] }
-base_graphics(3710, "sprites/png/miscellaneous/random.png") { [  60,  267,  47,  47, -23, -23] }
-base_graphics(3711, "sprites/png/miscellaneous/random.png") { [ 110,  267,  47,  47, -23, -23] }
-base_graphics(3712, "sprites/png/miscellaneous/random.png") { [ 160,  267,  47,  47, -23, -23] }
-base_graphics(3713, "sprites/png/miscellaneous/random.png") { [ 210,  267,  47,  47, -23, -23] }
-base_graphics(3714, "sprites/png/miscellaneous/random.png") { [ 260,  267,  47,  47, -23, -23] }
-base_graphics(3715, "sprites/png/miscellaneous/random.png") { [ 310,  267,  47,  47, -23, -23] }
-base_graphics(3716, "sprites/png/miscellaneous/random.png") { [ 360,  267,  47,  47, -23, -23] }
-base_graphics(3717, "sprites/png/miscellaneous/random.png") { [ 410,  267,  47,  47, -23, -23] }
-base_graphics(3718, "sprites/png/miscellaneous/random.png") { [ 460,  267,  47,  47, -23, -23] }
-base_graphics(3719, "sprites/png/miscellaneous/random.png") { [ 510,  267,  47,  47, -23, -23] }
-base_graphics(3720, "sprites/png/miscellaneous/random.png") { [ 560,  267,  47,  47, -23, -23] }
-base_graphics(3721, "sprites/png/miscellaneous/random.png") { [ 610,  267,  47,  47, -23, -23] }
-base_graphics(3722, "sprites/png/miscellaneous/random.png") { [ 660,  267,  47,  47, -23, -23] }
-base_graphics(3723, "sprites/png/miscellaneous/random.png") { [ 710,  267,  47,  47, -23, -23] }
-base_graphics(3724, "sprites/png/miscellaneous/random.png") { [ 710,  267,  47,  47, -23, -23] }
+base_graphics large_explosion(3709, "sprites/png/miscellaneous/random.png") {
+	[  10,  267,  47,  47, -23, -23]
+	[  60,  267,  47,  47, -23, -23]
+	[ 110,  267,  47,  47, -23, -23]
+	[ 160,  267,  47,  47, -23, -23]
+	[ 210,  267,  47,  47, -23, -23]
+	[ 260,  267,  47,  47, -23, -23]
+	[ 310,  267,  47,  47, -23, -23]
+	[ 360,  267,  47,  47, -23, -23]
+	[ 410,  267,  47,  47, -23, -23]
+	[ 460,  267,  47,  47, -23, -23]
+	[ 510,  267,  47,  47, -23, -23]
+	[ 560,  267,  47,  47, -23, -23]
+	[ 610,  267,  47,  47, -23, -23]
+	[ 660,  267,  47,  47, -23, -23]
+	[ 710,  267,  47,  47, -23, -23]
+	[ 710,  267,  47,  47, -23, -23]
+}
+alternative_sprites (large_explosion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+	"sprites/png/miscellaneous/large_explosion_32bpp.png") {
+	[   2,    5,  60,  60, -30, -30]
+	[  66,    5,  60,  60, -30, -30]
+	[ 130,    5,  60,  60, -30, -30]
+	[ 193,    5,  60,  60, -30, -30]
+	[   2,   69,  60,  60, -30, -30]
+	[  66,   69,  60,  60, -30, -30]
+	[ 130,   69,  60,  60, -30, -30]
+	[ 194,   69,  60,  60, -30, -30]
+	[   2,  132,  60,  60, -30, -30]
+	[  66,  132,  60,  60, -30, -30]
+	[ 130,  132,  60,  60, -30, -30]
+	[ 194,  132,  60,  60, -30, -30]
+	[   2,  195,  60,  60, -30, -30]
+	[  66,  195,  60,  60, -30, -30]
+	[ 130,  195,  60,  60, -30, -30]
+	[ 194,  195,  60,  60, -30, -30]
+}
+
 //small explosion
-base_graphics(3725, "sprites/png/miscellaneous/random.png") { [  10,  233,  28,  28, -14, -14] }
-base_graphics(3726, "sprites/png/miscellaneous/random.png") { [  42,  233,  28,  28, -14, -14] }
-base_graphics(3727, "sprites/png/miscellaneous/random.png") { [  74,  233,  28,  28, -14, -14] }
-base_graphics(3728, "sprites/png/miscellaneous/random.png") { [ 106,  233,  28,  28, -14, -14] }
-base_graphics(3729, "sprites/png/miscellaneous/random.png") { [ 140,  233,  28,  28, -14, -14] }
-base_graphics(3730, "sprites/png/miscellaneous/random.png") { [ 172,  233,  28,  28, -14, -14] }
-base_graphics(3731, "sprites/png/miscellaneous/random.png") { [ 204,  233,  28,  28, -14, -14] }
-base_graphics(3732, "sprites/png/miscellaneous/random.png") { [ 236,  233,  28,  28, -14, -14] }
-base_graphics(3733, "sprites/png/miscellaneous/random.png") { [ 270,  233,  28,  28, -14, -14] }
-base_graphics(3734, "sprites/png/miscellaneous/random.png") { [ 302,  233,  28,  28, -14, -14] }
-base_graphics(3735, "sprites/png/miscellaneous/random.png") { [ 334,  233,  28,  28, -14, -14] }
-base_graphics(3736, "sprites/png/miscellaneous/random.png") { [ 366,  233,  28,  28, -14, -14] }
+base_graphics small_explosion(3725, "sprites/png/miscellaneous/random.png") {
+	[  10,  233,  28,  28, -14, -14]
+	[  42,  233,  28,  28, -14, -14]
+	[  74,  233,  28,  28, -14, -14]
+	[ 106,  233,  28,  28, -14, -14]
+	[ 140,  233,  28,  28, -14, -14]
+	[ 172,  233,  28,  28, -14, -14]
+	[ 204,  233,  28,  28, -14, -14]
+	[ 236,  233,  28,  28, -14, -14]
+	[ 270,  233,  28,  28, -14, -14]
+	[ 302,  233,  28,  28, -14, -14]
+	[ 334,  233,  28,  28, -14, -14]
+	[ 366,  233,  28,  28, -14, -14]
+}
+
 //breakdown smoke
 base_graphics(3737, "sprites/png/miscellaneous/random.png") { [ 208,  333,  32,  32,   0, -31] }
 base_graphics(3738, "sprites/png/miscellaneous/random.png") { [ 245,  333,  32,  32,   0, -31] }
