@@ -43,35 +43,13 @@ template tmpl_groundtiles(x, y) {
 
 template tmpl_rough(x, y) {
     tmpl_level_ground(    x, y)
-    tmpl_level_ground( 65+x, y)
-    tmpl_level_ground(130+x, y)
-    tmpl_level_ground(195+x, y)
-}
-
-template tmpl_otherground() {
-    [   0+2,  14,      64, 31, -31,  0 ]
-    [  80+2,  14,      64, 31, -31,  0 ]
-    [ 160+2,  14,      64, 23, -31,  0 ]
-    [ 240+2,  14,      64, 23, -31,  0 ]
-    [ 320+2,  14,      64, 31, -31,  0 ]
-    [ 400+2,  14,      64, 31, -31,  0 ]
-    [ 480+2,  14,      64, 23, -31,  0 ]
-    [ 560+2,  14,      64, 23, -31,  0 ]
-    [ 640+2,  14,      64, 39, -31, -8 ]
-    [ 720+2,  14,      64, 39, -31, -8 ]
-    [   0+2,  14 + 64, 64, 31, -31, -8 ]
-    [  80+2,  14 + 64, 64, 31, -31, -8 ]
-    [ 160+2,  14 + 64, 64, 39, -31, -8 ]
-    [ 240+2,  14 + 64, 64, 39, -31, -8 ]
-    [ 320+2,  14 + 64, 64, 31, -31, -8 ]
-    [ 400+2,  14 + 64, 64, 47, -31,-16 ]
-    [ 480+2,  14 + 64, 64, 15, -31,  0 ]
-    [ 560+2,  14 + 64, 64, 31, -31, -8 ]
-    [ 640+2,  14 + 64, 64, 31, -31, -8 ]
+    tmpl_level_ground( 80+x, y)
+    tmpl_level_ground(160+x, y)
+    tmpl_level_ground(240+x, y)
 }
 
 template tmpl_additional_rough(x, y) {
-	tmpl_rough(1501+x, y)
+    tmpl_rough(1510+x, y)
 }
 
 template tmpl_16shore_tiles(x, y) {

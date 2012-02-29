@@ -13,12 +13,7 @@ base_graphics(3962, "sprites/png/terrain/bare-23-temperate.png") { tmpl_groundti
 base_graphics(3981, "sprites/png/terrain/grass-temperate.gimp.png") { tmpl_groundtiles(1, 1) }
 
 // temperate rough terrain 4000 - 4022
-base_graphics(4000, "sprites/png/terrain/rough-temperate.png") { tmpl_groundtiles(1, 1) }
-// temperate rough terrain, alternative flat tiles
-base_graphics(4019, "sprites/png/terrain/rough-temperate.png") { [ 1511,  1,  64,  31, -31,   0] }
-base_graphics(4020, "sprites/png/terrain/rough-temperate.png") { [ 1591,  1,  64,  31, -31,   0] }
-base_graphics(4021, "sprites/png/terrain/rough-temperate.png") { [ 1671,  1,  64,  31, -31,   0] }
-base_graphics(4022, "sprites/png/terrain/rough-temperate.png") { [ 1751,  1,  64,  31, -31,   0] }
+base_graphics(4000, "sprites/png/terrain/rough-temperate.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
 
 // temperate rocky terrain 4023 - 4041
 base_graphics(4023, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
