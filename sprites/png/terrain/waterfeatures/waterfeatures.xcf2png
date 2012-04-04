@@ -89,7 +89,7 @@ sprites/png/terrain/waterfeatures/riverbank_arctic_snow34_sw.gimp.png   sprites/
 # sprites/png/terrain/rivercorner_Snow3_w.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersW SnowLv3 RiverCornersBlueW
 # sprites/png/terrain/rivercorners_Snow3.gimp.png        sprites/source/terrain/terrain.xcf    White BlueForShore GroundArctic GridArctic RiverbankMask RiverCornersSmall SnowLv3 RiverCornersBlue
 
-# river bankds fully snowed
+# river banks fully snowed
 sprites/png/terrain/waterfeatures/riverbank_snow_ne.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankNESnow
 sprites/png/terrain/waterfeatures/riverbank_snow_nw.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankNWSnow
 sprites/png/terrain/waterfeatures/riverbank_snow_se.gimp.png    sprites/source/terrain/terrain.xcf    White BlueForShore GroundSnow GridSnow RiverbankMask RiverbankSESnow
