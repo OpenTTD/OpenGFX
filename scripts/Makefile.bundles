@@ -105,7 +105,7 @@ bundle_zsrc:
 	$(_V) $(MAKE) $(MAKE_FLAGS) $(DIR_NAME_SRC).zip
 
 # Addition to config for tar releases
-Makefile.dist: $(REV_FILENAME) $(SCRIPT_DIR)/Makefile.bundles
+Makefile.distonly: $(REV_FILENAME) $(SCRIPT_DIR)/Makefile.bundles
 	$(_V) echo '################################################################' > $@
 	$(_V) echo '# Definitions needed for tar releases' >> $@
 	$(_V) echo '# This part is automatically generated' >> $@
@@ -120,12 +120,12 @@ Makefile.dist: $(REV_FILENAME) $(SCRIPT_DIR)/Makefile.bundles
 	$(_V) echo 'FROM_TAR := 1' >> $@
 
 ifneq ("$(strip $(HG))",":")
-$(DIR_NAME_SRC): $(shell $(HG) status -m -a -d -c -n) $(REV_FILENAME) $(MD5_SRC_FILENAME) Makefile.dist
+$(DIR_NAME_SRC): $(shell $(HG) status -m -a -d -c -n) $(REV_FILENAME) $(MD5_SRC_FILENAME) Makefile.distonly
 	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
 	$(_V)-rm -rf $@
 	$(_V) for i in $(shell $(HG) status -m -a -d -c -n | grep -v -E '$(RE_FILES_NO_SRC_BUNDLE)'); do mkdir -p $@/`dirname $$i`; cp $(CP_FLAGS) $$i $@/$$i; done
 	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
-	$(_V) cat Makefile.dist >> $(DIR_NAME_SRC)/Makefile.local
+	$(_V) cat Makefile.distonly >> $(DIR_NAME_SRC)/Makefile.dist
 else
 $(DIR_NAME_SRC):
 	$(_E) "Source releases can only be made from a hg checkout."
@@ -139,3 +139,6 @@ bundle_tarsrc:
 $(INSTALL_DIR):
 	$(_E) "[WRITING]"
 	$(_V) mkdir -p $(INSTALL_DIR)
+
+clean::
+	$(_V) rm -rf Makefile.distonly

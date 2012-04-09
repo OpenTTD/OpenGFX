@@ -1,6 +1,7 @@
 # Generic NewGRF Makefile
 
 # Necessary defines unique to this NewGRF
+-include Makefile.dist
 -include Makefile.local
 include Makefile.config
 
