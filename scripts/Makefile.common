@@ -149,9 +149,9 @@ ifdef NEED_GIMP
 ifdef USE_GIMP
 	$(_V) $(GIMP) $(GIMP_FLAGS) $< >/dev/null
 else # USE_GIMP
-	$(_E) "... Gimp not found. Graphis cannot be created. Terminating."
+	$(_V) touch -c $@
+	$(_E) "... Gimp not found. Graphics will not be re-created from source."
 endif # USE_GIMP
-	$(_V) touch $@
 endif # NEED_GIMP
 
 ################################################################
