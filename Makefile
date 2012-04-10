@@ -53,6 +53,9 @@ endif
 ifeq "$(MAKECMDGOALS)" "distclean"
 NODEP = 1
 endif
+ifeq "$(MAKECMDGOALS)" "clean-gfx"
+NODEP = 1
+endif
 ifeq "$(MAKECMDGOALS)" "remake"
 NODEP = 1
 endif

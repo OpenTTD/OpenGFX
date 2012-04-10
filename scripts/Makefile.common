@@ -48,15 +48,19 @@ distclean:: clean
 	$(_V)-rm -rf $(DIR_BASE)*nightly*.zip
 	$(_V)-rm -rf $(MD5_FILENAME)
 
-# Even more thoroughly clean the tree. Intended to be used on a
-# repository checkout. Also cleans files that are in a source tarball,
-# but not in the repository.
-maintainer-clean mrproper:: distclean
-	$(_E) "[MAINTAINER-CLEAN]"
+clean-gfx::
 ifdef NEED_GIMP
+	$(_E) "[CLEAN-GFX]"
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)/.scm/")
 	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep -v "^#" | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
 endif # NEED_GIMP
+
+# Even more thoroughly clean the tree. Intended to be used on a
+# repository checkout. Also cleans files that are in a source tarball,
+# but not in the repository.
+maintainer-clean mrproper:: distclean clean-gfx
+	$(_E) "[MAINTAINER-CLEAN]"
+	$(_V) rm -rf $(MD5_SRC_FILENAME)
 
 ################################################################
 # Testing configuration
