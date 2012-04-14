@@ -1,10 +1,16 @@
-OpenGFX r946
+OpenGFX 0.4.4 (14 Apr 2012)
 ---------------------------
 - Change: Don't let the road works flash that much (issue #3395)
+- Add: [Makefile] Introduce target 'clean-gfx' which deletes png files which can be re-built from source and allow 'maintainer-clean' to delete the opengfx.check.md5
 - Add: More font sprites (issue #3578)
 - Fix: Landing lights were inoperational for helipad and some broken at the heliport (issue #3709)
 - Fix: German semaphore signals were not available anymore (issue #3429)
 - Fix: Broken river borders at sea level (issue #3562)
+- Fix: Add GridDesert to terrain.xcf and fix spelling of GridTropical (issue #3769)
+- Fix: Wrong wanter pixels on some river and coast tiles (issue #3714)
+- Fix / Revert: [Makefile] Use Makefile.dist for tar source bundles again
+- Fix: [Makefile] Don't create an empty graphics file, if it is missing and can't be created from any source
+- Fix: [Makefile] Avoid infinite build loops by not requiring the %.src.dep files twice
 
 
 
