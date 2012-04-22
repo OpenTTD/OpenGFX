@@ -428,6 +428,7 @@ ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zeph
 ogfxe_extra;0;155;159;[Type 16] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
 ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
 ogfxe_extra;0;161;162;[Type 16] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
+ogfxe_extra;0;163;166;[Type 16] OpenTTD GUI sprites: town rating indicators;2006TTD;planetmaker;;1
 ogfxe_extra;0;15;16;[Type 17] Groundset part for tunnel overlay sprites;Snail;michi_cc;;1
 ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1

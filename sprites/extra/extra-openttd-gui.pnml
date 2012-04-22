@@ -169,4 +169,8 @@ replacenew(OTTD_GUI, "") {
 	[   6,    7,  13,  10,   0,   0, "sprites/png/extra/extra-gui-exclusive.png"]   // Exclusive transport rights
 	[   2,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace protection
 	[  20,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace defined
+	[   0,    0,   1,   1,   0,   0, "sprites/png/miscellaneous/empty.png"]         // no town rating. Empty sprite on purpose
+	[   0,   22,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // appalling town rating, sad, red smily
+	[   0,   33,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // mediocre town rating, yellow smily
+	[   0,   44,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // very good town rating, happy, green smily
 }
