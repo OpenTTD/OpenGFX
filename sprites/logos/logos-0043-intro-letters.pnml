@@ -1,11 +1,11 @@
 // equiv. sprite 4836 wrt to sprite base (if one wants to use actionA on these)
 // letters E and D are part of the OpenTTD GUI sprites and defined there
-base_graphics(  43, "sprites/png/gui/introletters125.png") { [   0,    0,  31,  36,   0,   0] } // Bigger
-base_graphics(  44, "sprites/png/gui/introletters.png") {    [  26,    0,  23,  29,   0,   0] }
-base_graphics(  45, "sprites/png/gui/introletters.png") {    [  50,    0,  27,  29,   0,   0] }
-base_graphics(  46, "sprites/png/gui/introletters.png") {    [  78,    0,  21,  29,   0,   7] } // with offset
-base_graphics(  47, "sprites/png/gui/introletters.png") {    [ 100,    0,  24,  29,   0,   7] } // with offset
-base_graphics(  48, "sprites/png/gui/introletters.png") {    [ 125,    0,  22,  29,   0,   7] } // with offset
-base_graphics(  49, "sprites/png/gui/introletters125.png") { [ 186,    0,  29,  36,   0,   0] } // Bigger
-base_graphics(  50, "sprites/png/gui/introletters.png") {    [ 172,    0,  27,  29,   0,   0] }
-base_graphics(  51, "sprites/png/gui/introletters.png") {    [ 200,    0,  23,  29,   0,   0] }
+base_graphics spr43(  43, "sprites/png/gui/introletters125.png") { [   0,    0,  31,  36,   0,   0] } // Bigger
+base_graphics spr44(  44, "sprites/png/gui/introletters.png") {    [  26,    0,  23,  29,   0,   0] }
+base_graphics spr45(  45, "sprites/png/gui/introletters.png") {    [  50,    0,  27,  29,   0,   0] }
+base_graphics spr46(  46, "sprites/png/gui/introletters.png") {    [  78,    0,  21,  29,   0,   7] } // with offset
+base_graphics spr47(  47, "sprites/png/gui/introletters.png") {    [ 100,    0,  24,  29,   0,   7] } // with offset
+base_graphics spr48(  48, "sprites/png/gui/introletters.png") {    [ 125,    0,  22,  29,   0,   7] } // with offset
+base_graphics spr49(  49, "sprites/png/gui/introletters125.png") { [ 186,    0,  29,  36,   0,   0] } // Bigger
+base_graphics spr50(  50, "sprites/png/gui/introletters.png") {    [ 172,    0,  27,  29,   0,   0] }
+base_graphics spr51(  51, "sprites/png/gui/introletters.png") {    [ 200,    0,  23,  29,   0,   0] }

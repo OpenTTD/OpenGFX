@@ -1,10 +1,10 @@
 // oil wells on tropical grass
 // base plate
-base_graphics( 250, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { tmpl_level_ground(142, 10) }
+base_graphics spr250( 250, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { tmpl_level_ground(142, 10) }
 // six animation stages
-base_graphics( 251, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 252, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 253, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 254, "sprites/png/industries/oilwell/oilwell_anim4.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 255, "sprites/png/industries/oilwell/oilwell_anim5.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 256, "sprites/png/industries/oilwell/oilwell_anim6.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr251( 251, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr252( 252, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr253( 253, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr254( 254, "sprites/png/industries/oilwell/oilwell_anim4.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr255( 255, "sprites/png/industries/oilwell/oilwell_anim5.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr256( 256, "sprites/png/industries/oilwell/oilwell_anim6.gimp.png") { [  14, 10,  31,  44, -11, -29] }

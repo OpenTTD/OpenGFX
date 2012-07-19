@@ -1,45 +1,45 @@
 //557   568     12      Rail stations
-base_graphics( 557, "sprites/png/miscellaneous/random.png") { [ 460,  640,  42,  26,  -9,  -6] }
-base_graphics( 558, "sprites/png/miscellaneous/random.png") { [ 310,  640,  42,  26, -31,  -6] }
-base_graphics( 559, "sprites/png/miscellaneous/random.png") { [ 410,  640,  42,  26,  -9,  -6] }
-base_graphics( 560, "sprites/png/miscellaneous/random.png") { [ 360,  640,  42,  26, -31,  -6] }
-base_graphics( 561, "sprites/png/miscellaneous/random.png") { [  10,  640,  42,  35, -31, -15] }
-base_graphics( 562, "sprites/png/miscellaneous/random.png") { [  60,  640,  42,  35,  -9, -15] }
-base_graphics( 563, "sprites/png/miscellaneous/random.png") { [ 210,  640,  42,  31,  -9, -11] }
-base_graphics( 564, "sprites/png/miscellaneous/random.png") { [ 110,  640,  42,  36, -31, -16] }
-base_graphics( 565, "sprites/png/miscellaneous/random.png") { [ 260,  640,  42,  36,  -9, -16] }
-base_graphics( 566, "sprites/png/miscellaneous/random.png") { [ 160,  640,  42,  31, -31, -11] }
+base_graphics spr557( 557, "sprites/png/miscellaneous/random.png") { [ 460,  640,  42,  26,  -9,  -6] }
+base_graphics spr558( 558, "sprites/png/miscellaneous/random.png") { [ 310,  640,  42,  26, -31,  -6] }
+base_graphics spr559( 559, "sprites/png/miscellaneous/random.png") { [ 410,  640,  42,  26,  -9,  -6] }
+base_graphics spr560( 560, "sprites/png/miscellaneous/random.png") { [ 360,  640,  42,  26, -31,  -6] }
+base_graphics spr561( 561, "sprites/png/miscellaneous/random.png") { [  10,  640,  42,  35, -31, -15] }
+base_graphics spr562( 562, "sprites/png/miscellaneous/random.png") { [  60,  640,  42,  35,  -9, -15] }
+base_graphics spr563( 563, "sprites/png/miscellaneous/random.png") { [ 210,  640,  42,  31,  -9, -11] }
+base_graphics spr564( 564, "sprites/png/miscellaneous/random.png") { [ 110,  640,  42,  36, -31, -16] }
+base_graphics spr565( 565, "sprites/png/miscellaneous/random.png") { [ 260,  640,  42,  36,  -9, -16] }
+base_graphics spr566( 566, "sprites/png/miscellaneous/random.png") { [ 160,  640,  42,  31, -31, -11] }
 
 
-base_graphics( 567, "sprites/png/miscellaneous/random.png") { [ 460,  640,  42,  26,  -9,  -6] }
-base_graphics( 568, "sprites/png/miscellaneous/random.png") { [ 310,  640,  42,  26, -31,  -6] }
-base_graphics( 569, "sprites/png/miscellaneous/random.png") { [ 410,  640,  42,  26,  -9,  -6] }
-base_graphics( 570, "sprites/png/miscellaneous/random.png") { [ 360,  640,  42,  26, -31,  -6] }
-base_graphics( 571, "sprites/png/miscellaneous/random.png") { [  10,  680,  42,  37, -31, -17] }
-base_graphics( 572, "sprites/png/miscellaneous/random.png") { [  60,  680,  42,  37,  -9, -17] }
-base_graphics( 573, "sprites/png/miscellaneous/random.png") { [ 260,  680,  43,  31, -10, -11] }
-base_graphics( 574, "sprites/png/miscellaneous/random.png") { [ 110,  680,  44,  36, -33, -16] }
-base_graphics( 575, "sprites/png/miscellaneous/random.png") { [ 210,  680,  44,  36,  -9, -16] }
-base_graphics( 576, "sprites/png/miscellaneous/random.png") { [ 160,  680,  43,  31, -31, -11] }
+base_graphics spr567( 567, "sprites/png/miscellaneous/random.png") { [ 460,  640,  42,  26,  -9,  -6] }
+base_graphics spr568( 568, "sprites/png/miscellaneous/random.png") { [ 310,  640,  42,  26, -31,  -6] }
+base_graphics spr569( 569, "sprites/png/miscellaneous/random.png") { [ 410,  640,  42,  26,  -9,  -6] }
+base_graphics spr570( 570, "sprites/png/miscellaneous/random.png") { [ 360,  640,  42,  26, -31,  -6] }
+base_graphics spr571( 571, "sprites/png/miscellaneous/random.png") { [  10,  680,  42,  37, -31, -17] }
+base_graphics spr572( 572, "sprites/png/miscellaneous/random.png") { [  60,  680,  42,  37,  -9, -17] }
+base_graphics spr573( 573, "sprites/png/miscellaneous/random.png") { [ 260,  680,  43,  31, -10, -11] }
+base_graphics spr574( 574, "sprites/png/miscellaneous/random.png") { [ 110,  680,  44,  36, -33, -16] }
+base_graphics spr575( 575, "sprites/png/miscellaneous/random.png") { [ 210,  680,  44,  36,  -9, -16] }
+base_graphics spr576( 576, "sprites/png/miscellaneous/random.png") { [ 160,  680,  43,  31, -31, -11] }
 
 
-base_graphics( 577, "sprites/png/miscellaneous/random.png") { [ 460,  600,  42,  26,  -9,  -6] }
-base_graphics( 578, "sprites/png/miscellaneous/random.png") { [ 310,  600,  42,  26, -31,  -6] }
-base_graphics( 579, "sprites/png/miscellaneous/random.png") { [ 410,  600,  42,  26,  -9,  -6] }
-base_graphics( 580, "sprites/png/miscellaneous/random.png") { [ 360,  600,  42,  26, -31,  -6] }
-base_graphics( 581, "sprites/png/miscellaneous/random.png") { [  10,  600,  42,  32, -31, -12] }
-base_graphics( 582, "sprites/png/miscellaneous/random.png") { [  60,  600,  42,  32,  -9, -12] }
-base_graphics( 583, "sprites/png/miscellaneous/random.png") { [ 210,  600,  42,  31,  -9, -11] }
-base_graphics( 584, "sprites/png/miscellaneous/random.png") { [ 160,  600,  42,  36, -31, -16] }
-base_graphics( 585, "sprites/png/miscellaneous/random.png") { [ 260,  600,  42,  36,  -9, -16] }
-base_graphics( 586, "sprites/png/miscellaneous/random.png") { [ 110,  600,  42,  31, -31, -11] }
+base_graphics spr577( 577, "sprites/png/miscellaneous/random.png") { [ 460,  600,  42,  26,  -9,  -6] }
+base_graphics spr578( 578, "sprites/png/miscellaneous/random.png") { [ 310,  600,  42,  26, -31,  -6] }
+base_graphics spr579( 579, "sprites/png/miscellaneous/random.png") { [ 410,  600,  42,  26,  -9,  -6] }
+base_graphics spr580( 580, "sprites/png/miscellaneous/random.png") { [ 360,  600,  42,  26, -31,  -6] }
+base_graphics spr581( 581, "sprites/png/miscellaneous/random.png") { [  10,  600,  42,  32, -31, -12] }
+base_graphics spr582( 582, "sprites/png/miscellaneous/random.png") { [  60,  600,  42,  32,  -9, -12] }
+base_graphics spr583( 583, "sprites/png/miscellaneous/random.png") { [ 210,  600,  42,  31,  -9, -11] }
+base_graphics spr584( 584, "sprites/png/miscellaneous/random.png") { [ 160,  600,  42,  36, -31, -16] }
+base_graphics spr585( 585, "sprites/png/miscellaneous/random.png") { [ 260,  600,  42,  36,  -9, -16] }
+base_graphics spr586( 586, "sprites/png/miscellaneous/random.png") { [ 110,  600,  42,  31, -31, -11] }
 
 //587   594     8       Rail fences
-base_graphics( 587, "sprites/png/infrastructure/infra08.png") { [ 610, 5416,  33,  22, -31,  -6] }
-base_graphics( 588, "sprites/png/infrastructure/infra08.png") { [ 658, 5416,  33,  22,   0,  -6] }
-base_graphics( 589, "sprites/png/infrastructure/infra08.png") { [ 706, 5416,   2,  38,   0, -22] }
-base_graphics( 590, "sprites/png/infrastructure/infra08.png") { [ 722, 5416,  65,   6, -31,  -6] }
-base_graphics( 591, "sprites/png/infrastructure/infra08.png") { [   2, 5480,  33,  14, -31,  -6] }
-base_graphics( 592, "sprites/png/infrastructure/infra08.png") { [  50, 5480,  33,  14,   0,  -6] }
-base_graphics( 593, "sprites/png/infrastructure/infra08.png") { [  98, 5480,  33,  30, -31, -14] }
-base_graphics( 594, "sprites/png/infrastructure/infra08.png") { [ 146, 5480,  33,  30,   0, -14] }
+base_graphics spr587( 587, "sprites/png/infrastructure/infra08.png") { [ 610, 5416,  33,  22, -31,  -6] }
+base_graphics spr588( 588, "sprites/png/infrastructure/infra08.png") { [ 658, 5416,  33,  22,   0,  -6] }
+base_graphics spr589( 589, "sprites/png/infrastructure/infra08.png") { [ 706, 5416,   2,  38,   0, -22] }
+base_graphics spr590( 590, "sprites/png/infrastructure/infra08.png") { [ 722, 5416,  65,   6, -31,  -6] }
+base_graphics spr591( 591, "sprites/png/infrastructure/infra08.png") { [   2, 5480,  33,  14, -31,  -6] }
+base_graphics spr592( 592, "sprites/png/infrastructure/infra08.png") { [  50, 5480,  33,  14,   0,  -6] }
+base_graphics spr593( 593, "sprites/png/infrastructure/infra08.png") { [  98, 5480,  33,  30, -31, -14] }
+base_graphics spr594( 594, "sprites/png/infrastructure/infra08.png") { [ 146, 5480,  33,  30,   0, -14] }

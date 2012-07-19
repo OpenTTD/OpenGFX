@@ -1,37 +1,37 @@
-base_graphics(  52, "sprites/png/miscellaneous/mapgen.png") { [  34,    8,  11,   8,   0,   0] }
-base_graphics(  53, "sprites/png/miscellaneous/mapgen.png") { [  50,    8,  19,   6,   0,   0] }
-base_graphics(  54, "sprites/png/miscellaneous/mapgen.png") { [  82,    8,   2,  12,   0,   0] }
-base_graphics(  55, "sprites/png/miscellaneous/mapgen.png") { [  98,    8,  28,  25,   0,   0] }
-base_graphics(  56, "sprites/png/miscellaneous/mapgen.png") { [ 146,    8,  13,  12,   0,   0] }
-base_graphics(  57, "sprites/png/miscellaneous/mapgen.png") { [ 178,    8,   9,  28,   0,   0] }
-base_graphics(  58, "sprites/png/miscellaneous/mapgen.png") { [ 194,    8,  13,  15,   0,   0] }
-base_graphics(  59, "sprites/png/miscellaneous/mapgen.png") { [ 226,    8,  16,   9,   0,   0] }
-base_graphics(  60, "sprites/png/miscellaneous/mapgen.png") { [ 258,    8,  16,   9,   0,   0] }
-base_graphics(  61, "sprites/png/miscellaneous/mapgen.png") { [ 290,    8,  18,   6,   0,   0] }
-base_graphics(  62, "sprites/png/miscellaneous/mapgen.png") { [ 322,    8,  13,   7,   0,   0] }
-base_graphics(  63, "sprites/png/miscellaneous/mapgen.png") { [ 354,    8,   6,  43,   0,   0] }
-base_graphics(  64, "sprites/png/miscellaneous/mapgen.png") { [ 370,    8,  13,  13,   0,   0] }
-base_graphics(  65, "sprites/png/miscellaneous/mapgen.png") { [ 402,    8,  34,   4,   0,   0] }
-base_graphics(  66, "sprites/png/miscellaneous/mapgen.png") { [ 450,    8,   8,   6,   0,   0] }
-base_graphics(  67, "sprites/png/miscellaneous/mapgen.png") { [ 466,    8,  27,  27,   0,   0] }
-base_graphics(  68, "sprites/png/miscellaneous/mapgen.png") { [ 498,    8,  19,  29,   0,   0] }
-base_graphics(  69, "sprites/png/miscellaneous/mapgen.png") { [ 530,    8,  13,  16,   0,   0] }
-base_graphics(  70, "sprites/png/miscellaneous/mapgen.png") { [ 562,    8,  34,  25,   0,   0] }
-base_graphics(  71, "sprites/png/miscellaneous/mapgen.png") { [ 610,    8,  11,   8,   0,   0] }
-base_graphics(  72, "sprites/png/miscellaneous/mapgen.png") { [ 626,    8,  18,   8,   0,   0] }
-base_graphics(  73, "sprites/png/miscellaneous/mapgen.png") { [ 658,    8,  26,  23,   0,   0] }
-base_graphics(  74, "sprites/png/miscellaneous/mapgen.png") { [ 690,    8,  14,  14,   0,   0] }
-base_graphics(  75, "sprites/png/miscellaneous/mapgen.png") { [ 722,    8,  21,  17,   0,   0] }
-base_graphics(  76, "sprites/png/miscellaneous/mapgen.png") { [   2,   72,  48,  16,   0,   0] }
-base_graphics(  77, "sprites/png/miscellaneous/mapgen.png") { [  66,   72,  28,  28,   0,   0] }
-base_graphics(  78, "sprites/png/miscellaneous/mapgen.png") { [ 114,   72,  29,   8,   0,   0] }
-base_graphics(  79, "sprites/png/miscellaneous/mapgen.png") { [ 162,   72,  29,  16,   0,   0] }
-base_graphics(  80, "sprites/png/miscellaneous/mapgen.png") { [ 210,   72,  30,  25,   0,   0] }
-base_graphics(  81, "sprites/png/miscellaneous/mapgen.png") { [ 258,   72,  19,  23,   0,   0] }
-base_graphics(  82, "sprites/png/miscellaneous/mapgen.png") { [ 290,   72,  28,  28,   0,   0] }
-base_graphics(  83, "sprites/png/miscellaneous/mapgen.png") { [ 338,   72,  24,  18,   0,   0] }
-base_graphics(  84, "sprites/png/miscellaneous/mapgen.png") { [ 370,   72,  32,  23,   0,   0] }
-base_graphics(  85, "sprites/png/miscellaneous/mapgen.png") { [ 418,   72,  45,  37,   0,   0] }
-base_graphics(  86, "sprites/png/miscellaneous/mapgen.png") { [ 482,   72,  27,  40,   0,   0] }
-base_graphics(  87, "sprites/png/miscellaneous/mapgen.png") { [ 514,   72,  46,  30,   0,   0] }
-base_graphics(  88, "sprites/png/miscellaneous/mapgen.png") { [ 578,   72,  52,  49,   0,   0] }
+base_graphics spr52(  52, "sprites/png/miscellaneous/mapgen.png") { [  34,    8,  11,   8,   0,   0] }
+base_graphics spr53(  53, "sprites/png/miscellaneous/mapgen.png") { [  50,    8,  19,   6,   0,   0] }
+base_graphics spr54(  54, "sprites/png/miscellaneous/mapgen.png") { [  82,    8,   2,  12,   0,   0] }
+base_graphics spr55(  55, "sprites/png/miscellaneous/mapgen.png") { [  98,    8,  28,  25,   0,   0] }
+base_graphics spr56(  56, "sprites/png/miscellaneous/mapgen.png") { [ 146,    8,  13,  12,   0,   0] }
+base_graphics spr57(  57, "sprites/png/miscellaneous/mapgen.png") { [ 178,    8,   9,  28,   0,   0] }
+base_graphics spr58(  58, "sprites/png/miscellaneous/mapgen.png") { [ 194,    8,  13,  15,   0,   0] }
+base_graphics spr59(  59, "sprites/png/miscellaneous/mapgen.png") { [ 226,    8,  16,   9,   0,   0] }
+base_graphics spr60(  60, "sprites/png/miscellaneous/mapgen.png") { [ 258,    8,  16,   9,   0,   0] }
+base_graphics spr61(  61, "sprites/png/miscellaneous/mapgen.png") { [ 290,    8,  18,   6,   0,   0] }
+base_graphics spr62(  62, "sprites/png/miscellaneous/mapgen.png") { [ 322,    8,  13,   7,   0,   0] }
+base_graphics spr63(  63, "sprites/png/miscellaneous/mapgen.png") { [ 354,    8,   6,  43,   0,   0] }
+base_graphics spr64(  64, "sprites/png/miscellaneous/mapgen.png") { [ 370,    8,  13,  13,   0,   0] }
+base_graphics spr65(  65, "sprites/png/miscellaneous/mapgen.png") { [ 402,    8,  34,   4,   0,   0] }
+base_graphics spr66(  66, "sprites/png/miscellaneous/mapgen.png") { [ 450,    8,   8,   6,   0,   0] }
+base_graphics spr67(  67, "sprites/png/miscellaneous/mapgen.png") { [ 466,    8,  27,  27,   0,   0] }
+base_graphics spr68(  68, "sprites/png/miscellaneous/mapgen.png") { [ 498,    8,  19,  29,   0,   0] }
+base_graphics spr69(  69, "sprites/png/miscellaneous/mapgen.png") { [ 530,    8,  13,  16,   0,   0] }
+base_graphics spr70(  70, "sprites/png/miscellaneous/mapgen.png") { [ 562,    8,  34,  25,   0,   0] }
+base_graphics spr71(  71, "sprites/png/miscellaneous/mapgen.png") { [ 610,    8,  11,   8,   0,   0] }
+base_graphics spr72(  72, "sprites/png/miscellaneous/mapgen.png") { [ 626,    8,  18,   8,   0,   0] }
+base_graphics spr73(  73, "sprites/png/miscellaneous/mapgen.png") { [ 658,    8,  26,  23,   0,   0] }
+base_graphics spr74(  74, "sprites/png/miscellaneous/mapgen.png") { [ 690,    8,  14,  14,   0,   0] }
+base_graphics spr75(  75, "sprites/png/miscellaneous/mapgen.png") { [ 722,    8,  21,  17,   0,   0] }
+base_graphics spr76(  76, "sprites/png/miscellaneous/mapgen.png") { [   2,   72,  48,  16,   0,   0] }
+base_graphics spr77(  77, "sprites/png/miscellaneous/mapgen.png") { [  66,   72,  28,  28,   0,   0] }
+base_graphics spr78(  78, "sprites/png/miscellaneous/mapgen.png") { [ 114,   72,  29,   8,   0,   0] }
+base_graphics spr79(  79, "sprites/png/miscellaneous/mapgen.png") { [ 162,   72,  29,  16,   0,   0] }
+base_graphics spr80(  80, "sprites/png/miscellaneous/mapgen.png") { [ 210,   72,  30,  25,   0,   0] }
+base_graphics spr81(  81, "sprites/png/miscellaneous/mapgen.png") { [ 258,   72,  19,  23,   0,   0] }
+base_graphics spr82(  82, "sprites/png/miscellaneous/mapgen.png") { [ 290,   72,  28,  28,   0,   0] }
+base_graphics spr83(  83, "sprites/png/miscellaneous/mapgen.png") { [ 338,   72,  24,  18,   0,   0] }
+base_graphics spr84(  84, "sprites/png/miscellaneous/mapgen.png") { [ 370,   72,  32,  23,   0,   0] }
+base_graphics spr85(  85, "sprites/png/miscellaneous/mapgen.png") { [ 418,   72,  45,  37,   0,   0] }
+base_graphics spr86(  86, "sprites/png/miscellaneous/mapgen.png") { [ 482,   72,  27,  40,   0,   0] }
+base_graphics spr87(  87, "sprites/png/miscellaneous/mapgen.png") { [ 514,   72,  46,  30,   0,   0] }
+base_graphics spr88(  88, "sprites/png/miscellaneous/mapgen.png") { [ 578,   72,  52,  49,   0,   0] }

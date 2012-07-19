@@ -7,37 +7,37 @@
  */
 
 // Chaney Jubilee + SH 8P (Steam)
-base_graphics(2905, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 35) }
+base_graphics spr2905(2905, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 35) }
 
 // Ginzu A4 (Steam)
-base_graphics(2913, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 64) }
+base_graphics spr2913(2913, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 64) }
 
 // Kirby Paul (Steam)
-base_graphics(2921, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 6) }
+base_graphics spr2921(2921, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 6) }
 
 // SH/Hendry 25 + Floss 47 (Diesel)
-base_graphics(2929, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 93) }
+base_graphics spr2929(2929, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 93) }
 
 // UU/37 (Diesel)
-base_graphics(2933, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 122) }
+base_graphics spr2933(2933, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 122) }
 
 // SH/30 + SH/40 (Diesel)
-base_graphics(2937, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 180) }
+base_graphics spr2937(2937, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_4view_88length_29px_plus6height(111, 180) }
 
 // SH 125 (Diesel)
-base_graphics(2941, "sprites/png/trains/temperate_sh125_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+base_graphics spr2941(2941, "sprites/png/trains/temperate_sh125_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
 
 // Manley-Morel VT (Diesel)
-base_graphics(2949, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 151) }
+base_graphics spr2949(2949, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 151) }
 
 // Dash (Diesel)
-base_graphics(2957, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 209) }
+base_graphics spr2957(2957, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 209) }
 
 // Asia Star (Electric)
-base_graphics(2965, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 296) }
+base_graphics spr2965(2965, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 296) }
 
 // T.I.M. (Electric)
-base_graphics(2973, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 267) }
+base_graphics spr2973(2973, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikka_8view_88length_29px_plus6height(111, 267) }
 
 /* 
  * **********************
@@ -46,10 +46,10 @@ base_graphics(2973, "sprites/png/trains/temperate_engines_28px.png") { tmpl_pikk
  */
 
 // X2001
-base_graphics(2981, "sprites/png/trains/monorail_x2001_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
+base_graphics spr2981(2981, "sprites/png/trains/monorail_x2001_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
 
 // Millenium
-base_graphics(2985, "sprites/png/trains/monorail_millenium_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+base_graphics spr2985(2985, "sprites/png/trains/monorail_millenium_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
 
 /* 
  * **********************
@@ -58,13 +58,13 @@ base_graphics(2985, "sprites/png/trains/monorail_millenium_88.png") { tmpl_pikka
  */
 
 // Lev3 Pegasus
-base_graphics(2993, "sprites/png/trains/maglev_lev3_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+base_graphics spr2993(2993, "sprites/png/trains/maglev_lev3_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
 
 // Lev4 Chimaera
-base_graphics(3001, "sprites/png/trains/maglev_lev4_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
+base_graphics spr3001(3001, "sprites/png/trains/maglev_lev4_88.png") { tmpl_pikka_8view_88length_32px_compact(  0,   0) }
 
 // Lev1 Leviathan
-base_graphics(3009, "sprites/png/trains/maglev_lev1_88.png") { tmpl_pikka_4view_88length_32px_high_compact(  0,   0,  1) }
+base_graphics spr3009(3009, "sprites/png/trains/maglev_lev1_88.png") { tmpl_pikka_4view_88length_32px_high_compact(  0,   0,  1) }
 
 // Lev2 Cyclops
-base_graphics(3013, "sprites/png/trains/maglev_lev2_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }
+base_graphics spr3013(3013, "sprites/png/trains/maglev_lev2_88.png") { tmpl_pikka_4view_88length_32px_compact(  0,   0) }

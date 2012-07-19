@@ -1,43 +1,43 @@
 
 
-base_graphics(761, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,   0) } // pax		(empty + full)
-base_graphics(765, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  40) } // mail		(empty + full)
-base_graphics(769, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 100) } // sugar		(empty)
-base_graphics(773, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 120) } // sugar		(full)
-base_graphics(777, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 140) } // cotton candy	(empty)
-base_graphics(781, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 160) } // cotton candy	(full)
-base_graphics(785, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 180) } // toffee		(empty)
-base_graphics(789, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 200) } // toffee		(full)
-base_graphics(793, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  60) } // bubbles		(empty)
-base_graphics(797, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  80) } // bubbles		(full)
-base_graphics(801, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 220) } // cola			(empty)
-base_graphics(805, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 240) } // cola			(full)
-base_graphics(809, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 280) } // sweets		(empty + full)
-base_graphics(813, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 320) } // toys			(empty + full)
-base_graphics(817, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 380) } // batteries		(empty)
-base_graphics(821, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 400) } // batteries		(full)
-base_graphics(825, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 340) } // fizzy drinks	(empty)
-base_graphics(829, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 360) } // fizzy drinks	(full)
-base_graphics(833, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 420) } // plastics		(empty)
-base_graphics(837, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 440) } // plastics		(full)
+base_graphics spr761(761, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,   0) } // pax		(empty + full)
+base_graphics spr765(765, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  40) } // mail		(empty + full)
+base_graphics spr769(769, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 100) } // sugar		(empty)
+base_graphics spr773(773, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 120) } // sugar		(full)
+base_graphics spr777(777, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 140) } // cotton candy	(empty)
+base_graphics spr781(781, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 160) } // cotton candy	(full)
+base_graphics spr785(785, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 180) } // toffee		(empty)
+base_graphics spr789(789, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 200) } // toffee		(full)
+base_graphics spr793(793, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  60) } // bubbles		(empty)
+base_graphics spr797(797, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0,  80) } // bubbles		(full)
+base_graphics spr801(801, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 220) } // cola			(empty)
+base_graphics spr805(805, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 240) } // cola			(full)
+base_graphics spr809(809, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 280) } // sweets		(empty + full)
+base_graphics spr813(813, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 320) } // toys			(empty + full)
+base_graphics spr817(817, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 380) } // batteries		(empty)
+base_graphics spr821(821, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 400) } // batteries		(full)
+base_graphics spr825(825, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 340) } // fizzy drinks	(empty)
+base_graphics spr829(829, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 360) } // fizzy drinks	(full)
+base_graphics spr833(833, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 420) } // plastics		(empty)
+base_graphics spr837(837, "sprites/png/trains/toyland_railwagons.png") { tmpl_train_4view_88length_28px(0, 440) } // plastics		(full)
 
 // Ploddyphut Cho cho
-base_graphics(841, "sprites/png/trains/toyland_ploddyphut.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
+base_graphics spr841(841, "sprites/png/trains/toyland_ploddyphut.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Powernaut Choo Choo is defined separately and earlier in the main toyland file
 // via toyland-0393-powernaut-steam.pnfo
 
 // Mightymover Cho Cho
-base_graphics(849, "sprites/png/trains/toyland_mightymover.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
+base_graphics spr849(849, "sprites/png/trains/toyland_mightymover.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Ploddyphut Diesel
-base_graphics(857, "sprites/png/trains/toyland_ploddyphut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
+base_graphics spr857(857, "sprites/png/trains/toyland_ploddyphut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Powernaut Diesel
-base_graphics(865, "sprites/png/trains/toyland_powernaut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
+base_graphics spr865(865, "sprites/png/trains/toyland_powernaut_diesel.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Monorail Wizzowow Z99
-base_graphics(873, "sprites/png/trains/toyland_monorail_WizzowowZ99_88.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
+base_graphics spr873(873, "sprites/png/trains/toyland_monorail_WizzowowZ99_88.png") { tmpl_pikka_8view_88length_32px_compact(0,   0) }
 
 // Maglev Wizzowow Rocketeer
-base_graphics(881, "sprites/png/trains/toyland_maglev_WizzowowRocketeer_88.png") { tmpl_pikka_4view_88length_32px_high_compact(0,   0, 1) }
+base_graphics spr881(881, "sprites/png/trains/toyland_maglev_WizzowowRocketeer_88.png") { tmpl_pikka_4view_88length_32px_high_compact(0,   0, 1) }

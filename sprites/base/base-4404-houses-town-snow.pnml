@@ -2,138 +2,138 @@
 
 //4404-4492 more town buildings
 //cinema
-base_graphics(4404, "sprites/png/houses/morebuildings.png") { [   2,  136,  64,  31, -31,   0] }
-base_graphics(4405, "sprites/png/houses/morebuildings.png") { [  82,  136,  64,  49, -31, -18] }
+base_graphics spr4404(4404, "sprites/png/houses/morebuildings.png") { [   2,  136,  64,  31, -31,   0] }
+base_graphics spr4405(4405, "sprites/png/houses/morebuildings.png") { [  82,  136,  64,  49, -31, -18] }
 //mall
-base_graphics(4406, "sprites/png/houses/morebuildings.png") { [ 178,  136,  64,  33, -31,  -2] }
-base_graphics(4407, "sprites/png/houses/morebuildings.png") { [ 258,  136,   1,   1,   0,   0] }
-base_graphics(4408, "sprites/png/houses/morebuildings.png") { [ 274,  136,  64,  31, -31,   0] }
-base_graphics(4409, "sprites/png/houses/morebuildings.png") { [ 354,  136,  64,  31, -31,   0] }
-base_graphics(4410, "sprites/png/houses/morebuildings.png") { [ 434,  136,  64,  31, -31,   0] }
-base_graphics(4411, "sprites/png/houses/morebuildings.png") { [ 514,  136,  64,  31, -31,   0] }
-base_graphics(4412, "sprites/png/houses/morebuildings.png") { [ 594,  136,  64,  21, -31,  -6] }
-base_graphics(4413, "sprites/png/houses/morebuildings.png") { [ 674,  136,  64,  31, -31,   0] }
-base_graphics(4414, "sprites/png/houses/morebuildings.png") { [ 754,  136,  32,  28,   1, -15] }
-base_graphics(4415, "sprites/png/houses/morebuildings.png") { [   2,  200,  64,  31, -31,   0] }
-base_graphics(4416, "sprites/png/houses/morebuildings.png") { [  82,  200,  32,  19, -31,  -6] }
-base_graphics(4417, "sprites/png/houses/morebuildings.png") { [ 130,  200,  64,  31, -31,   0] }
+base_graphics spr4406(4406, "sprites/png/houses/morebuildings.png") { [ 178,  136,  64,  33, -31,  -2] }
+base_graphics spr4407(4407, "sprites/png/houses/morebuildings.png") { [ 258,  136,   1,   1,   0,   0] }
+base_graphics spr4408(4408, "sprites/png/houses/morebuildings.png") { [ 274,  136,  64,  31, -31,   0] }
+base_graphics spr4409(4409, "sprites/png/houses/morebuildings.png") { [ 354,  136,  64,  31, -31,   0] }
+base_graphics spr4410(4410, "sprites/png/houses/morebuildings.png") { [ 434,  136,  64,  31, -31,   0] }
+base_graphics spr4411(4411, "sprites/png/houses/morebuildings.png") { [ 514,  136,  64,  31, -31,   0] }
+base_graphics spr4412(4412, "sprites/png/houses/morebuildings.png") { [ 594,  136,  64,  21, -31,  -6] }
+base_graphics spr4413(4413, "sprites/png/houses/morebuildings.png") { [ 674,  136,  64,  31, -31,   0] }
+base_graphics spr4414(4414, "sprites/png/houses/morebuildings.png") { [ 754,  136,  32,  28,   1, -15] }
+base_graphics spr4415(4415, "sprites/png/houses/morebuildings.png") { [   2,  200,  64,  31, -31,   0] }
+base_graphics spr4416(4416, "sprites/png/houses/morebuildings.png") { [  82,  200,  32,  19, -31,  -6] }
+base_graphics spr4417(4417, "sprites/png/houses/morebuildings.png") { [ 130,  200,  64,  31, -31,   0] }
 //double house
-base_graphics(4418, "sprites/png/houses/buildings.png") { [ 610, 3384,  64,  35, -31,  -4] }
-base_graphics(4419, "sprites/png/houses/buildings.png") { [ 354, 3432,  64,  35, -31,  -4] }
-base_graphics(4420, "sprites/png/houses/buildings.png") { [ 690, 3384,  38,  24, -18,  -3] }
-base_graphics(4421, "sprites/png/houses/buildings.png") { [ 738, 3384,  38,  24, -18,  -3] }
-base_graphics(4422, "sprites/png/houses/buildings.png") { [   2, 3432,  38,  24, -18,  -3] }
-base_graphics(4423, "sprites/png/houses/buildings.png") { [ 530, 3432,  38,  24, -18,  -3] }
-base_graphics(4424, "sprites/png/houses/buildings.png") { [  50, 3432,  38,  24, -18,  -3] }
-base_graphics(4425, "sprites/png/houses/buildings.png") { [  98, 3432,  38,  24, -18,  -3] }
-base_graphics(4426, "sprites/png/houses/buildings.png") { [ 146, 3432,  38,  24, -18,  -3] }
-base_graphics(4427, "sprites/png/houses/buildings.png") { [ 674, 3432,  38,  24, -18,  -3] }
+base_graphics spr4418(4418, "sprites/png/houses/buildings.png") { [ 610, 3384,  64,  35, -31,  -4] }
+base_graphics spr4419(4419, "sprites/png/houses/buildings.png") { [ 354, 3432,  64,  35, -31,  -4] }
+base_graphics spr4420(4420, "sprites/png/houses/buildings.png") { [ 690, 3384,  38,  24, -18,  -3] }
+base_graphics spr4421(4421, "sprites/png/houses/buildings.png") { [ 738, 3384,  38,  24, -18,  -3] }
+base_graphics spr4422(4422, "sprites/png/houses/buildings.png") { [   2, 3432,  38,  24, -18,  -3] }
+base_graphics spr4423(4423, "sprites/png/houses/buildings.png") { [ 530, 3432,  38,  24, -18,  -3] }
+base_graphics spr4424(4424, "sprites/png/houses/buildings.png") { [  50, 3432,  38,  24, -18,  -3] }
+base_graphics spr4425(4425, "sprites/png/houses/buildings.png") { [  98, 3432,  38,  24, -18,  -3] }
+base_graphics spr4426(4426, "sprites/png/houses/buildings.png") { [ 146, 3432,  38,  24, -18,  -3] }
+base_graphics spr4427(4427, "sprites/png/houses/buildings.png") { [ 674, 3432,  38,  24, -18,  -3] }
 //house
-base_graphics(4428, "sprites/png/houses/buildings.png") { [ 322, 3048,  64,  35, -31,  -4] }
-base_graphics(4429, "sprites/png/houses/buildings.png") { [  82, 3096,  64,  35, -31,  -4] }
-base_graphics(4430, "sprites/png/houses/buildings.png") { [ 402, 3048,  36,  25, -17,  -4] }
-base_graphics(4431, "sprites/png/houses/buildings.png") { [ 450, 3048,  36,  25, -17,  -4] }
-base_graphics(4432, "sprites/png/houses/buildings.png") { [ 498, 3048,  36,  25, -17,  -4] }
-base_graphics(4433, "sprites/png/houses/buildings.png") { [ 258, 3096,  36,  25, -17,  -4] }
+base_graphics spr4428(4428, "sprites/png/houses/buildings.png") { [ 322, 3048,  64,  35, -31,  -4] }
+base_graphics spr4429(4429, "sprites/png/houses/buildings.png") { [  82, 3096,  64,  35, -31,  -4] }
+base_graphics spr4430(4430, "sprites/png/houses/buildings.png") { [ 402, 3048,  36,  25, -17,  -4] }
+base_graphics spr4431(4431, "sprites/png/houses/buildings.png") { [ 450, 3048,  36,  25, -17,  -4] }
+base_graphics spr4432(4432, "sprites/png/houses/buildings.png") { [ 498, 3048,  36,  25, -17,  -4] }
+base_graphics spr4433(4433, "sprites/png/houses/buildings.png") { [ 258, 3096,  36,  25, -17,  -4] }
 //office block
-base_graphics(4434, "sprites/png/houses/morebuildings.png") { [ 226,  200,  64,  31, -31,   0] }
-base_graphics(4435, "sprites/png/houses/morebuildings.png") { [ 306,  200,  64,  54, -31, -23] }
-base_graphics(4436, "sprites/png/houses/morebuildings.png") { [ 386,  200,  64,  95, -31, -64] }
-base_graphics(4437, "sprites/png/houses/morebuildings.png") { [ 466,  200,  64,  95, -31, -64] }
+base_graphics spr4434(4434, "sprites/png/houses/morebuildings.png") { [ 226,  200,  64,  31, -31,   0] }
+base_graphics spr4435(4435, "sprites/png/houses/morebuildings.png") { [ 306,  200,  64,  54, -31, -23] }
+base_graphics spr4436(4436, "sprites/png/houses/morebuildings.png") { [ 386,  200,  64,  95, -31, -64] }
+base_graphics spr4437(4437, "sprites/png/houses/morebuildings.png") { [ 466,  200,  64,  95, -31, -64] }
 //office block
-base_graphics(4438, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
-base_graphics(4439, "sprites/png/houses/morebuildings.png") { [ 311,  308,  54,  60, -25, -31] }
-base_graphics(4440, "sprites/png/houses/morebuildings.png") { [ 375,  308,  53,  92, -25, -64] }
-base_graphics(4441, "sprites/png/houses/morebuildings.png") { [ 439,  308,  53,  92, -25, -64] }
+base_graphics spr4438(4438, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
+base_graphics spr4439(4439, "sprites/png/houses/morebuildings.png") { [ 311,  308,  54,  60, -25, -31] }
+base_graphics spr4440(4440, "sprites/png/houses/morebuildings.png") { [ 375,  308,  53,  92, -25, -64] }
+base_graphics spr4441(4441, "sprites/png/houses/morebuildings.png") { [ 439,  308,  53,  92, -25, -64] }
 // 4442-4445 office block
-base_graphics(4442, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
-base_graphics(4443, "sprites/png/houses/morebuildings.png") { [   2,  308,  64,  43, -31, -12] }
-base_graphics(4444, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,    0,  64, 149, -31, -119] }
-base_graphics(4445, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,  150,  64, 149, -31, -119] }
+base_graphics spr4442(4442, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
+base_graphics spr4443(4443, "sprites/png/houses/morebuildings.png") { [   2,  308,  64,  43, -31, -12] }
+base_graphics spr4444(4444, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,    0,  64, 149, -31, -119] }
+base_graphics spr4445(4445, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,  150,  64, 149, -31, -119] }
 //house
-base_graphics(4446, "sprites/png/houses/buildings.png") { [ 690, 3672,  64,  35, -31,  -4] }
-base_graphics(4447, "sprites/png/houses/buildings.png") { [ 450, 3720,  64,  35, -31,  -4] }
-base_graphics(4448, "sprites/png/houses/buildings.png") { [   2, 3720,  30,  29,  -8,  -4] }
-base_graphics(4449, "sprites/png/houses/buildings.png") { [  50, 3720,  30,  29,  -8,  -4] }
-base_graphics(4450, "sprites/png/houses/buildings.png") { [  98, 3720,  30,  29,  -8,  -4] }
-base_graphics(4451, "sprites/png/houses/buildings.png") { [ 626, 3720,  30,  29,  -8,  -4] }
+base_graphics spr4446(4446, "sprites/png/houses/buildings.png") { [ 690, 3672,  64,  35, -31,  -4] }
+base_graphics spr4447(4447, "sprites/png/houses/buildings.png") { [ 450, 3720,  64,  35, -31,  -4] }
+base_graphics spr4448(4448, "sprites/png/houses/buildings.png") { [   2, 3720,  30,  29,  -8,  -4] }
+base_graphics spr4449(4449, "sprites/png/houses/buildings.png") { [  50, 3720,  30,  29,  -8,  -4] }
+base_graphics spr4450(4450, "sprites/png/houses/buildings.png") { [  98, 3720,  30,  29,  -8,  -4] }
+base_graphics spr4451(4451, "sprites/png/houses/buildings.png") { [ 626, 3720,  30,  29,  -8,  -4] }
 //house
-base_graphics(4452, "sprites/png/houses/buildings.png") { [   2, 3144,  64,  35, -31,  -4] }
-base_graphics(4453, "sprites/png/houses/buildings.png") { [ 530, 3144,  64,  35, -31,  -4] }
-base_graphics(4454, "sprites/png/houses/buildings.png") { [ 226, 3144,  28,  27,  -8,  -9] }
-base_graphics(4455, "sprites/png/houses/buildings.png") { [ 274, 3144,  28,  27,  -8,  -9] }
-base_graphics(4456, "sprites/png/houses/buildings.png") { [ 322, 3144,  28,  27,  -8,  -9] }
-base_graphics(4457, "sprites/png/houses/buildings.png") { [  50, 3192,  28,  27,  -8,  -9] }
+base_graphics spr4452(4452, "sprites/png/houses/buildings.png") { [   2, 3144,  64,  35, -31,  -4] }
+base_graphics spr4453(4453, "sprites/png/houses/buildings.png") { [ 530, 3144,  64,  35, -31,  -4] }
+base_graphics spr4454(4454, "sprites/png/houses/buildings.png") { [ 226, 3144,  28,  27,  -8,  -9] }
+base_graphics spr4455(4455, "sprites/png/houses/buildings.png") { [ 274, 3144,  28,  27,  -8,  -9] }
+base_graphics spr4456(4456, "sprites/png/houses/buildings.png") { [ 322, 3144,  28,  27,  -8,  -9] }
+base_graphics spr4457(4457, "sprites/png/houses/buildings.png") { [  50, 3192,  28,  27,  -8,  -9] }
 //
-base_graphics(4458, "sprites/png/houses/buildings.png") { [  66,  792,  66,  87, -31, -56] }
-base_graphics(4459, "sprites/png/houses/buildings.png") { [  66,  792,  66,  87, -31, -56] }
-base_graphics(4460, "sprites/png/houses/buildings.png") { [ 146,  792,  66,  87, -31, -56] }
-base_graphics(4461, "sprites/png/houses/buildings.png") { [ 226,  792,  66,  87, -31, -56] }
+base_graphics spr4458(4458, "sprites/png/houses/buildings.png") { [  66,  792,  66,  87, -31, -56] }
+base_graphics spr4459(4459, "sprites/png/houses/buildings.png") { [  66,  792,  66,  87, -31, -56] }
+base_graphics spr4460(4460, "sprites/png/houses/buildings.png") { [ 146,  792,  66,  87, -31, -56] }
+base_graphics spr4461(4461, "sprites/png/houses/buildings.png") { [ 226,  792,  66,  87, -31, -56] }
 //arctic church
-base_graphics(4462, "sprites/png/houses/base-4462-arctic-church-groundtile.png") { [   0,    0,  64,  31, -31,   0] }
-base_graphics(4463, "sprites/png/houses/arcticchurch.png") { [  80,   10,  64,  31, -31,   0] }
-base_graphics(4464, "sprites/png/houses/arcticchurch.png") { [ 150,   10,  64,  44, -31, -13] }
-base_graphics(4465, "sprites/png/houses/base-4465-arctic-church.png") { tmpl_house_height87(0) }
+base_graphics spr4462(4462, "sprites/png/houses/base-4462-arctic-church-groundtile.png") { [   0,    0,  64,  31, -31,   0] }
+base_graphics spr4463(4463, "sprites/png/houses/arcticchurch.png") { [  80,   10,  64,  31, -31,   0] }
+base_graphics spr4464(4464, "sprites/png/houses/arcticchurch.png") { [ 150,   10,  64,  44, -31, -13] }
+base_graphics spr4465(4465, "sprites/png/houses/base-4465-arctic-church.png") { tmpl_house_height87(0) }
 //houses
-base_graphics(4466, "sprites/png/houses/buildings.png") { [ 706, 3528,  64,  35, -31,  -4] }
-base_graphics(4467, "sprites/png/houses/buildings.png") { [ 146, 3576,  36,  25, -16,  -2] }
-base_graphics(4468, "sprites/png/houses/buildings.png") { [ 194, 3576,  36,  25, -16,  -2] }
-base_graphics(4469, "sprites/png/houses/buildings.png") { [ 242, 3576,  36,  25, -16,  -2] }
+base_graphics spr4466(4466, "sprites/png/houses/buildings.png") { [ 706, 3528,  64,  35, -31,  -4] }
+base_graphics spr4467(4467, "sprites/png/houses/buildings.png") { [ 146, 3576,  36,  25, -16,  -2] }
+base_graphics spr4468(4468, "sprites/png/houses/buildings.png") { [ 194, 3576,  36,  25, -16,  -2] }
+base_graphics spr4469(4469, "sprites/png/houses/buildings.png") { [ 242, 3576,  36,  25, -16,  -2] }
 //building
-base_graphics(4470, "sprites/png/houses/buildings.png") { [ 674,  904,  66,  87, -31, -56] }
+base_graphics spr4470(4470, "sprites/png/houses/buildings.png") { [ 674,  904,  66,  87, -31, -56] }
 
 //hotel
-base_graphics(4471, "sprites/png/houses/arctichotel.png") { [   2,    9,  64,  33, -31,  -1] }
-base_graphics(4472, "sprites/png/houses/arctichotel.png") { [  82,    9,  64,  33, -31,  -1] }
-base_graphics(4473, "sprites/png/houses/arctichotel.png") { [ 162,    9,  32,  46, -31, -15] }
-base_graphics(4474, "sprites/png/houses/arctichotel.png") { [ 206,    9,  64,  63, -31, -32] }
-base_graphics(4475, "sprites/png/houses/arctichotel.png") { [   3,   80,  32,  46, -31, -15] }
-base_graphics(4476, "sprites/png/houses/arctichotel.png") { [  51,   80,  64,  63, -31, -32] }
+base_graphics spr4471(4471, "sprites/png/houses/arctichotel.png") { [   2,    9,  64,  33, -31,  -1] }
+base_graphics spr4472(4472, "sprites/png/houses/arctichotel.png") { [  82,    9,  64,  33, -31,  -1] }
+base_graphics spr4473(4473, "sprites/png/houses/arctichotel.png") { [ 162,    9,  32,  46, -31, -15] }
+base_graphics spr4474(4474, "sprites/png/houses/arctichotel.png") { [ 206,    9,  64,  63, -31, -32] }
+base_graphics spr4475(4475, "sprites/png/houses/arctichotel.png") { [   3,   80,  32,  46, -31, -15] }
+base_graphics spr4476(4476, "sprites/png/houses/arctichotel.png") { [  51,   80,  64,  63, -31, -32] }
 
 // 4477-4479 shops and offices
-base_graphics(4477, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(0) }
-base_graphics(4478, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(1) }
-base_graphics(4479, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(2) }
+base_graphics spr4477(4477, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(0) }
+base_graphics spr4478(4478, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(1) }
+base_graphics spr4479(4479, "sprites/png/houses/base-4477-4479.4577-office.png") { tmpl_houses_too_wide(2) }
 
-base_graphics(4480, "sprites/png/houses/morebuilding2.png") { [ 571,    2,  64,  31, -31,   0] }
-base_graphics(4481, "sprites/png/houses/morebuilding2.png") { [ 571,    2,   1,   1,   0,   0] }
-base_graphics(4482, "sprites/png/houses/morebuilding2.png") { [ 646,    2,  64,  87, -31, -56] }
-base_graphics(4483, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
-base_graphics(4484, "sprites/png/houses/morebuilding2.png") { [ 714,    2,  64,  87, -31, -56] }
-base_graphics(4485, "sprites/png/houses/morebuilding2.png") { [   2,    2,  64,  31, -31,   0] }
-base_graphics(4486, "sprites/png/houses/morebuilding2.png") { [  68,    2,  64,  31, -31,   0] }
-base_graphics(4487, "sprites/png/houses/morebuilding2.png") { [   2,   68,  64,  31, -31,   0] }
-base_graphics(4488, "sprites/png/houses/morebuilding2.png") { [  68,   68,  64,  31, -31,   0] }
-base_graphics(4489, "sprites/png/houses/morebuilding2.png") { [ 358,    2,  64, 114, -31, -83] }
-base_graphics(4490, "sprites/png/houses/morebuilding2.png") { [ 284,    2,  64, 114, -31, -84] }
-base_graphics(4491, "sprites/png/houses/morebuilding2.png") { [ 212,    2,  64, 114, -31, -83] }
-base_graphics(4492, "sprites/png/houses/morebuilding2.png") { [ 138,    2,  64, 114, -31, -83] }
+base_graphics spr4480(4480, "sprites/png/houses/morebuilding2.png") { [ 571,    2,  64,  31, -31,   0] }
+base_graphics spr4481(4481, "sprites/png/houses/morebuilding2.png") { [ 571,    2,   1,   1,   0,   0] }
+base_graphics spr4482(4482, "sprites/png/houses/morebuilding2.png") { [ 646,    2,  64,  87, -31, -56] }
+base_graphics spr4483(4483, "sprites/png/industries/industries_misc.png") { [ 674, 1912,  64,  31, -31,   0] }
+base_graphics spr4484(4484, "sprites/png/houses/morebuilding2.png") { [ 714,    2,  64,  87, -31, -56] }
+base_graphics spr4485(4485, "sprites/png/houses/morebuilding2.png") { [   2,    2,  64,  31, -31,   0] }
+base_graphics spr4486(4486, "sprites/png/houses/morebuilding2.png") { [  68,    2,  64,  31, -31,   0] }
+base_graphics spr4487(4487, "sprites/png/houses/morebuilding2.png") { [   2,   68,  64,  31, -31,   0] }
+base_graphics spr4488(4488, "sprites/png/houses/morebuilding2.png") { [  68,   68,  64,  31, -31,   0] }
+base_graphics spr4489(4489, "sprites/png/houses/morebuilding2.png") { [ 358,    2,  64, 114, -31, -83] }
+base_graphics spr4490(4490, "sprites/png/houses/morebuilding2.png") { [ 284,    2,  64, 114, -31, -84] }
+base_graphics spr4491(4491, "sprites/png/houses/morebuilding2.png") { [ 212,    2,  64, 114, -31, -83] }
+base_graphics spr4492(4492, "sprites/png/houses/morebuilding2.png") { [ 138,    2,  64, 114, -31, -83] }
 
 
 // Arctic terrain with snow densities 1/4 ... 4/4
-base_graphics(4493, "sprites/png/terrain/grass-arctic-snow14.gimp.png") { tmpl_groundtiles(1, 1) }
-base_graphics(4512, "sprites/png/terrain/grass-arctic-snow24.gimp.png") { tmpl_groundtiles(1, 1) }
-base_graphics(4531, "sprites/png/terrain/grass-arctic-snow34.gimp.png") { tmpl_groundtiles(1, 1) }
-base_graphics(4550, "sprites/png/terrain/grass-snow.gimp.png")          { tmpl_groundtiles(1, 1) }
+base_graphics spr4493(4493, "sprites/png/terrain/grass-arctic-snow14.gimp.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr4512(4512, "sprites/png/terrain/grass-arctic-snow24.gimp.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr4531(4531, "sprites/png/terrain/grass-arctic-snow34.gimp.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr4550(4550, "sprites/png/terrain/grass-snow.gimp.png")          { tmpl_groundtiles(1, 1) }
 
 
 
-base_graphics(4569, "sprites/png/houses/temprtbuilds.png") { [ 578,  568,  60,  77, -30, -48] }
-base_graphics(4570, "sprites/png/houses/buildings.png") { [ 530, 2856,  64,  35, -31,  -4] }
-base_graphics(4571, "sprites/png/houses/buildings.png") { [ 706, 2856,  36,  28, -12,  -9] }
-base_graphics(4572, "sprites/png/houses/buildings.png") { [  82, 3672,  64,  35, -31,  -4] }
-base_graphics(4573, "sprites/png/houses/buildings.png") { [ 226, 3672,  26,  29, -14, -10] }
-base_graphics(4574, "sprites/png/houses/morebuildings.png") { [ 546,  200,  64,  95, -31, -64] }
-base_graphics(4575, "sprites/png/houses/morebuildings.png") { [ 499,  308,  53,  92, -25, -64] }
-base_graphics(4576, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,  300,  64, 149, -31, -119] }
-base_graphics(4577, "sprites/png/houses/base-4477-4479.4577-office.png") { [   0,  264,  66,  87, -32, -56] }
-base_graphics(4578, "sprites/png/houses/buildings.png") { [ 466,  792,  66,  87, -31, -56] }
-base_graphics(4579, "sprites/png/houses/arcticchurch.png") { [ 290,   10,  64,  49, -31, -18] }
-base_graphics(4580, "sprites/png/houses/buildings.png") { [ 450, 3576,  64,  35, -31,  -4] }
-base_graphics(4581, "sprites/png/houses/buildings.png") { [   2, 3624,  36,  25, -16,  -2] }
-base_graphics(4582, "sprites/png/houses/buildings.png") { [ 162, 1016,  66,  87, -31, -56] }
-base_graphics(4583, "sprites/png/houses/arctichotel.png") { [ 128,   80,  32,  46, -31, -15] }
-base_graphics(4584, "sprites/png/houses/arctichotel.png") { [ 176,   80,  64,  64, -31, -33] }
-base_graphics(4585, "sprites/png/houses/morebuilding2.png") { [ 784,    2,  64,  87, -31, -56] }
-base_graphics(4586, "sprites/png/houses/morebuilding2.png") { [ 504,    2,  64, 114, -31, -83] }
-base_graphics(4587, "sprites/png/houses/morebuilding2.png") { [ 430,    2,  64, 114, -31, -83] }
+base_graphics spr4569(4569, "sprites/png/houses/temprtbuilds.png") { [ 578,  568,  60,  77, -30, -48] }
+base_graphics spr4570(4570, "sprites/png/houses/buildings.png") { [ 530, 2856,  64,  35, -31,  -4] }
+base_graphics spr4571(4571, "sprites/png/houses/buildings.png") { [ 706, 2856,  36,  28, -12,  -9] }
+base_graphics spr4572(4572, "sprites/png/houses/buildings.png") { [  82, 3672,  64,  35, -31,  -4] }
+base_graphics spr4573(4573, "sprites/png/houses/buildings.png") { [ 226, 3672,  26,  29, -14, -10] }
+base_graphics spr4574(4574, "sprites/png/houses/morebuildings.png") { [ 546,  200,  64,  95, -31, -64] }
+base_graphics spr4575(4575, "sprites/png/houses/morebuildings.png") { [ 499,  308,  53,  92, -25, -64] }
+base_graphics spr4576(4576, "sprites/png/houses/base-4444.4445.4576-offices.png") { [   0,  300,  64, 149, -31, -119] }
+base_graphics spr4577(4577, "sprites/png/houses/base-4477-4479.4577-office.png") { [   0,  264,  66,  87, -32, -56] }
+base_graphics spr4578(4578, "sprites/png/houses/buildings.png") { [ 466,  792,  66,  87, -31, -56] }
+base_graphics spr4579(4579, "sprites/png/houses/arcticchurch.png") { [ 290,   10,  64,  49, -31, -18] }
+base_graphics spr4580(4580, "sprites/png/houses/buildings.png") { [ 450, 3576,  64,  35, -31,  -4] }
+base_graphics spr4581(4581, "sprites/png/houses/buildings.png") { [   2, 3624,  36,  25, -16,  -2] }
+base_graphics spr4582(4582, "sprites/png/houses/buildings.png") { [ 162, 1016,  66,  87, -31, -56] }
+base_graphics spr4583(4583, "sprites/png/houses/arctichotel.png") { [ 128,   80,  32,  46, -31, -15] }
+base_graphics spr4584(4584, "sprites/png/houses/arctichotel.png") { [ 176,   80,  64,  64, -31, -33] }
+base_graphics spr4585(4585, "sprites/png/houses/morebuilding2.png") { [ 784,    2,  64,  87, -31, -56] }
+base_graphics spr4586(4586, "sprites/png/houses/morebuilding2.png") { [ 504,    2,  64, 114, -31, -83] }
+base_graphics spr4587(4587, "sprites/png/houses/morebuilding2.png") { [ 430,    2,  64, 114, -31, -83] }

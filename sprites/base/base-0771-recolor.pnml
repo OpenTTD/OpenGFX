@@ -1,4 +1,4 @@
-base_graphics(771, "") {
+base_graphics spr771(771, "") {
 	// PALETTE_TILE_RED_PULSATING (red tile border pulsating)
 	recolour_sprite {
 		0x00..0xD6: 0x00;
@@ -54,7 +54,7 @@ base_graphics(771, "") {
 }
 
 //774 some weird white ball (drag for terraform?)
-base_graphics(774, "sprites/png/gui/gui04.png") {
+base_graphics spr774(774, "sprites/png/gui/gui04.png") {
 	[658, 504, 7, 7, -3, -4]
 }
 
@@ -62,7 +62,7 @@ base_graphics(774, "sprites/png/gui/gui04.png") {
 #define CC1_RANGE(start) 0xC6..0xCD: start..start+7;
 
 //775-790 company colour recolour sprites
-base_graphics(775, "") {
+base_graphics spr775(775, "") {
 	// PALETTE_TO_DARK_BLUE
 	recolour_sprite {
 		CC1_RANGE(0xC6)
@@ -128,7 +128,7 @@ base_graphics(775, "") {
 		CC1_RANGE(0x08)
 	}
 }
-base_graphics(791, "") {
+base_graphics spr791(791, "") {
 	// PALETTE_TO_BARE_LAND
 	recolour_sprite {
 		0x1C: 0x7C;
@@ -146,7 +146,7 @@ base_graphics(791, "") {
 		0x5E: 0x7F;
 	}
 }
-base_graphics(792, "") {
+base_graphics spr792(792, "") {
 	//3 unused recolour sprites. 
 	//remap all colours to the bright yellow from the yellow flash cycle.
 	recolour_sprite {
@@ -162,7 +162,7 @@ base_graphics(792, "") {
 		0xE3..0xFF: 0xF4;
 	}
 }
-base_graphics(795, "") {
+base_graphics spr795(795, "") {
 	// PALETTE_TO_STRUCT_BLUE
 	recolour_sprite {
 		0x46: 0x90;

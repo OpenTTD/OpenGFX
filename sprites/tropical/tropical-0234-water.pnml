@@ -1,16 +1,16 @@
 
 
 // Water and shore tiles (8-tile version)
-base_graphics( 234, "sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png") { tmpl_level_ground(1, 1) }
-base_graphics( 235, "sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png") { tmpl_8shore_tiles(1, 1) }
+base_graphics spr234( 234, "sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png") { tmpl_level_ground(1, 1) }
+base_graphics spr235( 235, "sprites/png/terrain/waterfeatures/seashore_tropical.gimp.png") { tmpl_8shore_tiles(1, 1) }
 
 // ship depot 243 - 248
-base_graphics( 243, "sprites/png/infrastructure/infra06.png") { [ 386, 5080,  64,  64, -61, -48] }
-base_graphics( 244, "sprites/png/infrastructure/infra06.png") { [ 466, 5080,  64,  64,  -1, -47] }
-base_graphics( 245, "sprites/png/infrastructure/infra06.png") { [ 546, 5080,  32,  53, -29, -37] }
-base_graphics( 246, "sprites/png/infrastructure/infra06.png") { [ 594, 5080,  32,  53,  -1, -36] }
-base_graphics( 247, "sprites/png/infrastructure/infra06.png") { [ 642, 5080,  14,  13, -31,   2] }
-base_graphics( 248, "sprites/png/infrastructure/infra06.png") { [ 674, 5080,  14,  13,  19,   3] }
+base_graphics spr243( 243, "sprites/png/infrastructure/infra06.png") { [ 386, 5080,  64,  64, -61, -48] }
+base_graphics spr244( 244, "sprites/png/infrastructure/infra06.png") { [ 466, 5080,  64,  64,  -1, -47] }
+base_graphics spr245( 245, "sprites/png/infrastructure/infra06.png") { [ 546, 5080,  32,  53, -29, -37] }
+base_graphics spr246( 246, "sprites/png/infrastructure/infra06.png") { [ 594, 5080,  32,  53,  -1, -36] }
+base_graphics spr247( 247, "sprites/png/infrastructure/infra06.png") { [ 642, 5080,  14,  13, -31,   2] }
+base_graphics spr248( 248, "sprites/png/infrastructure/infra06.png") { [ 674, 5080,  14,  13,  19,   3] }
 
 // unused bouy 249
-base_graphics( 249, "sprites/png/miscellaneous/empty.png") { [   0,    0,   1,   1,   0,   0] }
+base_graphics spr249( 249, "sprites/png/miscellaneous/empty.png") { [   0,    0,   1,   1,   0,   0] }

@@ -1,11 +1,11 @@
 // bare desert stage 1/4 (or 1/2) 312 - 330
-base_graphics( 312, "sprites/png/terrain/desert-12.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr312( 312, "sprites/png/terrain/desert-12.png") { tmpl_groundtiles(1, 1) }
 
 // bare desert stage 2/4 (or 1/2) 331 - 349
-base_graphics( 331, "sprites/png/terrain/desert-12.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr331( 331, "sprites/png/terrain/desert-12.png") { tmpl_groundtiles(1, 1) }
 
 // bare desert stage 3/4 (or 2/2) 350 - 368
-base_graphics( 350, "sprites/png/terrain/desert-22.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr350( 350, "sprites/png/terrain/desert-22.png") { tmpl_groundtiles(1, 1) }
 
 // bare desert stage 3/4 (or 2/2) 369 - 387
-base_graphics( 369, "sprites/png/terrain/desert-22.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr369( 369, "sprites/png/terrain/desert-22.png") { tmpl_groundtiles(1, 1) }

@@ -1,10 +1,10 @@
 // arctic oil wells
 // base plate
-base_graphics( 262, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { tmpl_level_ground(142, 10) }
+base_graphics spr262( 262, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { tmpl_level_ground(142, 10) }
 // six animation stages
-base_graphics( 263, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 264, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 265, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 266, "sprites/png/industries/oilwell/oilwell_anim4.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 267, "sprites/png/industries/oilwell/oilwell_anim5.gimp.png") { [  14, 10,  31,  44, -11, -29] }
-base_graphics( 268, "sprites/png/industries/oilwell/oilwell_anim6.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr263( 263, "sprites/png/industries/oilwell/oilwell_anim1.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr264( 264, "sprites/png/industries/oilwell/oilwell_anim2.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr265( 265, "sprites/png/industries/oilwell/oilwell_anim3.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr266( 266, "sprites/png/industries/oilwell/oilwell_anim4.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr267( 267, "sprites/png/industries/oilwell/oilwell_anim5.gimp.png") { [  14, 10,  31,  44, -11, -29] }
+base_graphics spr268( 268, "sprites/png/industries/oilwell/oilwell_anim6.gimp.png") { [  14, 10,  31,  44, -11, -29] }

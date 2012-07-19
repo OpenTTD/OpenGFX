@@ -1,5 +1,5 @@
 // tropical rough terrain 61 - 83
-base_graphics(  61, "sprites/png/terrain/rough-tropical.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
+base_graphics spr61(  61, "sprites/png/terrain/rough-tropical.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
 
 // tropical rocky terrain 84 - 102
-base_graphics(  84, "sprites/png/terrain/rocks-tropical.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr84(  84, "sprites/png/terrain/rocks-tropical.png") { tmpl_groundtiles(1, 1) }

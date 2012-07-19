@@ -1,11 +1,11 @@
 // Highscore display 2051
-base_graphics(  31, "sprites/png/gui/highscore.png") { [   2, 1264, 640,  50,   0,   0] }
-base_graphics(  32, "sprites/png/gui/highscore.png") { [   2, 1328, 640,  50,   0,   0] }
-base_graphics(  33, "sprites/png/gui/highscore.png") { [   2, 1392, 640,  50,   0,   0] }
-base_graphics(  34, "sprites/png/gui/highscore.png") { [   2, 1456, 640,  50,   0,   0] }
-base_graphics(  35, "sprites/png/gui/highscore.png") { [   2, 1520, 640,  50,   0,   0] }
-base_graphics(  36, "sprites/png/gui/highscore.png") { [   2, 1584, 640,  50,   0,   0] }
-base_graphics(  37, "sprites/png/gui/highscore.png") { [   2, 1648, 640,  50,   0,   0] }
-base_graphics(  38, "sprites/png/gui/highscore.png") { [   2, 1712, 640,  50,   0,   0] }
-base_graphics(  39, "sprites/png/gui/highscore.png") { [   2, 1776, 640,  50,   0,   0] }
-base_graphics(  40, "sprites/png/gui/highscore.png") { [   2, 1840, 640,  30,   0,   0] }
+base_graphics spr31(  31, "sprites/png/gui/highscore.png") { [   2, 1264, 640,  50,   0,   0] }
+base_graphics spr32(  32, "sprites/png/gui/highscore.png") { [   2, 1328, 640,  50,   0,   0] }
+base_graphics spr33(  33, "sprites/png/gui/highscore.png") { [   2, 1392, 640,  50,   0,   0] }
+base_graphics spr34(  34, "sprites/png/gui/highscore.png") { [   2, 1456, 640,  50,   0,   0] }
+base_graphics spr35(  35, "sprites/png/gui/highscore.png") { [   2, 1520, 640,  50,   0,   0] }
+base_graphics spr36(  36, "sprites/png/gui/highscore.png") { [   2, 1584, 640,  50,   0,   0] }
+base_graphics spr37(  37, "sprites/png/gui/highscore.png") { [   2, 1648, 640,  50,   0,   0] }
+base_graphics spr38(  38, "sprites/png/gui/highscore.png") { [   2, 1712, 640,  50,   0,   0] }
+base_graphics spr39(  39, "sprites/png/gui/highscore.png") { [   2, 1776, 640,  50,   0,   0] }
+base_graphics spr40(  40, "sprites/png/gui/highscore.png") { [   2, 1840, 640,  30,   0,   0] }

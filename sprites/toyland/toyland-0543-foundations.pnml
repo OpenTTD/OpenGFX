@@ -1,15 +1,15 @@
 // 543-556 Foundations
-base_graphics( 543, "sprites/png/landscape/landscape031.png") { [ 594, 1432,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 544, "sprites/png/landscape/landscape031.png") { [ 674, 1432,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 545, "sprites/png/landscape/landscape031.png") { [   2, 1496,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 546, "sprites/png/landscape/landscape031.png") { [  82, 1496,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 547, "sprites/png/landscape/landscape031.png") { [ 162, 1496,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 548, "sprites/png/landscape/landscape031.png") { [ 242, 1496,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 549, "sprites/png/landscape/landscape031.png") { [ 322, 1496,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 550, "sprites/png/landscape/landscape031.png") { [ 402, 1496,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 551, "sprites/png/landscape/landscape031.png") { [ 482, 1496,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 552, "sprites/png/landscape/landscape031.png") { [ 562, 1496,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 553, "sprites/png/landscape/landscape031.png") { [ 642, 1496,  64,  32, -31,  -9, NOCROP] }
-base_graphics( 554, "sprites/png/landscape/landscape031.png") { [ 722, 1496,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 555, "sprites/png/landscape/landscape031.png") { [   2, 1560,  64,  40, -31,  -9, NOCROP] }
-base_graphics( 556, "sprites/png/landscape/landscape031.png") { [  82, 1560,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr543( 543, "sprites/png/landscape/landscape031.png") { [ 594, 1432,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr544( 544, "sprites/png/landscape/landscape031.png") { [ 674, 1432,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr545( 545, "sprites/png/landscape/landscape031.png") { [   2, 1496,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr546( 546, "sprites/png/landscape/landscape031.png") { [  82, 1496,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr547( 547, "sprites/png/landscape/landscape031.png") { [ 162, 1496,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr548( 548, "sprites/png/landscape/landscape031.png") { [ 242, 1496,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr549( 549, "sprites/png/landscape/landscape031.png") { [ 322, 1496,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr550( 550, "sprites/png/landscape/landscape031.png") { [ 402, 1496,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr551( 551, "sprites/png/landscape/landscape031.png") { [ 482, 1496,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr552( 552, "sprites/png/landscape/landscape031.png") { [ 562, 1496,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr553( 553, "sprites/png/landscape/landscape031.png") { [ 642, 1496,  64,  32, -31,  -9, NOCROP] }
+base_graphics spr554( 554, "sprites/png/landscape/landscape031.png") { [ 722, 1496,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr555( 555, "sprites/png/landscape/landscape031.png") { [   2, 1560,  64,  40, -31,  -9, NOCROP] }
+base_graphics spr556( 556, "sprites/png/landscape/landscape031.png") { [  82, 1560,  64,  32, -31,  -9, NOCROP] }

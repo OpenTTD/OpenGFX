@@ -1,5 +1,5 @@
 //2601 transmitter
-base_graphics(2601, "sprites/png/infrastructure/airports.png") { [  98,  472,  63,  90, -30, -78] }
+base_graphics spr2601(2601, "sprites/png/infrastructure/airports.png") { [  98,  472,  63,  90, -30, -78] }
 
 //2602 lighthouse
-base_graphics(2602, "sprites/png/landscape/landscape031.png") { [ 706, 3976,  41,  61, -22, -48] }
+base_graphics spr2602(2602, "sprites/png/landscape/landscape031.png") { [ 706, 3976,  41,  61, -22, -48] }

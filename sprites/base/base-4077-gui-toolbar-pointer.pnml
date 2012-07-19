@@ -1,14 +1,14 @@
 //4077-4089 more gui stuff
-base_graphics(4077, "sprites/png/gui/gui04.png") { [ 450,  280,  20,  20,   0,   0] }
-base_graphics(4078, "sprites/png/gui/gui04.png") { [ 482,  280,   8,   8,  -3,  -4] }
-base_graphics(4079, "sprites/png/gui/gui04.png") { [ 498,  280,   3,   3,  -1,  -1] }
-base_graphics(4080, "sprites/png/gui/gui04.png") { [ 514,  280,  32,  32,   0,   0] }
-base_graphics(4081, "sprites/png/gui/gui04.png") { [ 562,  280,  32,  32,   0,   0] }
-base_graphics(4082, "sprites/png/gui/gui04.png") { [ 610,  280,  20,  20,   0,   0] }
-base_graphics(4083, "sprites/png/gui/gui04.png") { [ 642,  280,  20,  20,   0,   0] }
-base_graphics(4084, "sprites/png/gui/gui04.png") { [ 674,  280,  20,  20,   0,   0] }
-base_graphics(4085, "sprites/png/gui/gui04.png") { [ 706,  280,  20,  20,   0,   0] }
-base_graphics(4086, "sprites/png/gui/gui04.png") { [ 738,  280,  20,  20,   0,   0] }
-base_graphics(4087, "sprites/png/gui/gui04.png") { [   2,  328,  32,  32,   0,   0] }
-base_graphics(4088, "sprites/png/gui/gui04.png") { [  50,  328,  32,  32,   0,   0] }
-base_graphics(4089, "sprites/png/gui/gui04.png") { [  98,  328,  32,  32,   0,   0] }
+base_graphics spr4077(4077, "sprites/png/gui/gui04.png") { [ 450,  280,  20,  20,   0,   0] }
+base_graphics spr4078(4078, "sprites/png/gui/gui04.png") { [ 482,  280,   8,   8,  -3,  -4] }
+base_graphics spr4079(4079, "sprites/png/gui/gui04.png") { [ 498,  280,   3,   3,  -1,  -1] }
+base_graphics spr4080(4080, "sprites/png/gui/gui04.png") { [ 514,  280,  32,  32,   0,   0] }
+base_graphics spr4081(4081, "sprites/png/gui/gui04.png") { [ 562,  280,  32,  32,   0,   0] }
+base_graphics spr4082(4082, "sprites/png/gui/gui04.png") { [ 610,  280,  20,  20,   0,   0] }
+base_graphics spr4083(4083, "sprites/png/gui/gui04.png") { [ 642,  280,  20,  20,   0,   0] }
+base_graphics spr4084(4084, "sprites/png/gui/gui04.png") { [ 674,  280,  20,  20,   0,   0] }
+base_graphics spr4085(4085, "sprites/png/gui/gui04.png") { [ 706,  280,  20,  20,   0,   0] }
+base_graphics spr4086(4086, "sprites/png/gui/gui04.png") { [ 738,  280,  20,  20,   0,   0] }
+base_graphics spr4087(4087, "sprites/png/gui/gui04.png") { [   2,  328,  32,  32,   0,   0] }
+base_graphics spr4088(4088, "sprites/png/gui/gui04.png") { [  50,  328,  32,  32,   0,   0] }
+base_graphics spr4089(4089, "sprites/png/gui/gui04.png") { [  98,  328,  32,  32,   0,   0] }

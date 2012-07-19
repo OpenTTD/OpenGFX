@@ -1,18 +1,18 @@
 //885   901     17      GUI buttons and cursors
-base_graphics( 885, "sprites/png/gui/gui04.png") { [ 322,  104,  32,  32,   0,   0] }
-base_graphics( 886, "sprites/png/gui/gui04.png") { [ 290,  280,  32,  32,   0,   0] }
-base_graphics( 887, "sprites/png/gui/gui04.png") { [ 338,  280,  32,  32,   0,   0] }
-base_graphics( 888, "sprites/png/gui/gui04.png") { [ 178,  232,  20,  20,   0,   0] }
-base_graphics( 889, "sprites/png/gui/gui04.png") { [ 434,  152,  20,  20,   0,   0] }
-base_graphics( 890, "sprites/png/gui/gui04.png") { [ 530,  152,  20,  20,   0,   0] }
-base_graphics( 891, "sprites/png/gui/gui04.png") { [ 562,  152,  20,  20,   0,   0] }
-base_graphics( 892, "sprites/png/gui/gui04.png") { [ 306,  232,  40,  20,   0,   0] }
-base_graphics( 893, "sprites/png/gui/gui04.png") { [ 354,  232,  20,  20,   0,   0] }
-base_graphics( 894, "sprites/png/gui/gui04.png") { [  98,  184,  20,  20,   0,   0] }
-base_graphics( 895, "sprites/png/gui/gui04.png") { [ 130,  184,  20,  20,   0,   0] }
-base_graphics( 896, "sprites/png/gui/gui04.png") { [ 194,  184,  20,  20,   0,   0] }
-base_graphics( 897, "sprites/png/gui/gui04.png") { [ 162,  184,  20,  20,   0,   0] }
-base_graphics( 898, "sprites/png/gui/gui04.png") { [ 770,  152,  20,  20,   0,   0] }
-base_graphics( 899, "sprites/png/gui/gui04.png") { [   2,  184,  20,  20,   0,   0] }
-base_graphics( 900, "sprites/png/gui/gui04.png") { [  34,  184,  20,  20,   0,   0] }
-base_graphics( 901, "sprites/png/gui/gui04.png") { [  66,  184,  20,  20,   0,   0] }
+base_graphics spr885( 885, "sprites/png/gui/gui04.png") { [ 322,  104,  32,  32,   0,   0] }
+base_graphics spr886( 886, "sprites/png/gui/gui04.png") { [ 290,  280,  32,  32,   0,   0] }
+base_graphics spr887( 887, "sprites/png/gui/gui04.png") { [ 338,  280,  32,  32,   0,   0] }
+base_graphics spr888( 888, "sprites/png/gui/gui04.png") { [ 178,  232,  20,  20,   0,   0] }
+base_graphics spr889( 889, "sprites/png/gui/gui04.png") { [ 434,  152,  20,  20,   0,   0] }
+base_graphics spr890( 890, "sprites/png/gui/gui04.png") { [ 530,  152,  20,  20,   0,   0] }
+base_graphics spr891( 891, "sprites/png/gui/gui04.png") { [ 562,  152,  20,  20,   0,   0] }
+base_graphics spr892( 892, "sprites/png/gui/gui04.png") { [ 306,  232,  40,  20,   0,   0] }
+base_graphics spr893( 893, "sprites/png/gui/gui04.png") { [ 354,  232,  20,  20,   0,   0] }
+base_graphics spr894( 894, "sprites/png/gui/gui04.png") { [  98,  184,  20,  20,   0,   0] }
+base_graphics spr895( 895, "sprites/png/gui/gui04.png") { [ 130,  184,  20,  20,   0,   0] }
+base_graphics spr896( 896, "sprites/png/gui/gui04.png") { [ 194,  184,  20,  20,   0,   0] }
+base_graphics spr897( 897, "sprites/png/gui/gui04.png") { [ 162,  184,  20,  20,   0,   0] }
+base_graphics spr898( 898, "sprites/png/gui/gui04.png") { [ 770,  152,  20,  20,   0,   0] }
+base_graphics spr899( 899, "sprites/png/gui/gui04.png") { [   2,  184,  20,  20,   0,   0] }
+base_graphics spr900( 900, "sprites/png/gui/gui04.png") { [  34,  184,  20,  20,   0,   0] }
+base_graphics spr901( 901, "sprites/png/gui/gui04.png") { [  66,  184,  20,  20,   0,   0] }

@@ -1,30 +1,30 @@
 //514   542     29      Company Headcastle
-base_graphics( 514, "sprites/png/miscellaneous/toyland_hq.png") { [   0,    0,  64,  31, -31,   0] }
-base_graphics( 515, "sprites/png/miscellaneous/toyland_hq.png") { [  65,    0,  64,  31, -31,   0] }
-base_graphics( 516, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,    0,  64,  31, -31,   0] }
-base_graphics( 517, "sprites/png/miscellaneous/toyland_hq.png") { [ 195,    0,  64,  31, -31,   0] }
-base_graphics( 518, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   32,  64,  31, -31,   0] }
-base_graphics( 519, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   32,  64,  31, -31,   0] }
-base_graphics( 520, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   32,  64,  31, -31,   0] }
-base_graphics( 521, "sprites/png/miscellaneous/toyland_hq.png") { [ 195,   32,  64,  31, -31,   0] }
-base_graphics( 522, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   64,  64,  31, -31,   0] }
-base_graphics( 523, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   64,  64,  29, -31, -14] }
-base_graphics( 524, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   64,  64,  31, -31,   0] }
-base_graphics( 525, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
-base_graphics( 526, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,   64,  64,  31, -31,   0] }
-base_graphics( 527, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,   64,  17,  14, -16,  -7] }
-base_graphics( 528, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,   64,  64,  31, -31,   0] }
-base_graphics( 529, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   96,  64,  31, -31,   0] }
-base_graphics( 530, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   96,  64,  31, -31, -16] }
-base_graphics( 531, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   96,  64,  31, -31,   0] }
-base_graphics( 532, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
-base_graphics( 533, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,   96,  64,  31, -31,   0] }
-base_graphics( 534, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,   96,  17,  14, -16,  -7] }
-base_graphics( 535, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,   96,  64,  31, -31,   0] }
-base_graphics( 536, "sprites/png/miscellaneous/toyland_hq.png") { [   0,  128,  64,  31, -31,   0] }
-base_graphics( 537, "sprites/png/miscellaneous/toyland_hq.png") { [  65,  128,  64,  45, -31, -30] }
-base_graphics( 538, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,  128,  64,  31, -31,   0] }
-base_graphics( 539, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
-base_graphics( 540, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,  128,  64,  31, -31,   0] }
-base_graphics( 541, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,  128,  17,  14, -16,  -7] }
-base_graphics( 542, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,  128,  64,  31, -31,   0] }
+base_graphics spr514( 514, "sprites/png/miscellaneous/toyland_hq.png") { [   0,    0,  64,  31, -31,   0] }
+base_graphics spr515( 515, "sprites/png/miscellaneous/toyland_hq.png") { [  65,    0,  64,  31, -31,   0] }
+base_graphics spr516( 516, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,    0,  64,  31, -31,   0] }
+base_graphics spr517( 517, "sprites/png/miscellaneous/toyland_hq.png") { [ 195,    0,  64,  31, -31,   0] }
+base_graphics spr518( 518, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   32,  64,  31, -31,   0] }
+base_graphics spr519( 519, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   32,  64,  31, -31,   0] }
+base_graphics spr520( 520, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   32,  64,  31, -31,   0] }
+base_graphics spr521( 521, "sprites/png/miscellaneous/toyland_hq.png") { [ 195,   32,  64,  31, -31,   0] }
+base_graphics spr522( 522, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   64,  64,  31, -31,   0] }
+base_graphics spr523( 523, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   64,  64,  29, -31, -14] }
+base_graphics spr524( 524, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   64,  64,  31, -31,   0] }
+base_graphics spr525( 525, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
+base_graphics spr526( 526, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,   64,  64,  31, -31,   0] }
+base_graphics spr527( 527, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,   64,  17,  14, -16,  -7] }
+base_graphics spr528( 528, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,   64,  64,  31, -31,   0] }
+base_graphics spr529( 529, "sprites/png/miscellaneous/toyland_hq.png") { [   0,   96,  64,  31, -31,   0] }
+base_graphics spr530( 530, "sprites/png/miscellaneous/toyland_hq.png") { [  65,   96,  64,  31, -31, -16] }
+base_graphics spr531( 531, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,   96,  64,  31, -31,   0] }
+base_graphics spr532( 532, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
+base_graphics spr533( 533, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,   96,  64,  31, -31,   0] }
+base_graphics spr534( 534, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,   96,  17,  14, -16,  -7] }
+base_graphics spr535( 535, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,   96,  64,  31, -31,   0] }
+base_graphics spr536( 536, "sprites/png/miscellaneous/toyland_hq.png") { [   0,  128,  64,  31, -31,   0] }
+base_graphics spr537( 537, "sprites/png/miscellaneous/toyland_hq.png") { [  65,  128,  64,  45, -31, -30] }
+base_graphics spr538( 538, "sprites/png/miscellaneous/toyland_hq.png") { [ 130,  128,  64,  31, -31,   0] }
+base_graphics spr539( 539, "sprites/png/miscellaneous/toyland_hq.png") { [ 260,    0,  17,  14,  -1,  -7] }
+base_graphics spr540( 540, "sprites/png/miscellaneous/toyland_hq.png") { [ 210,  128,  64,  31, -31,   0] }
+base_graphics spr541( 541, "sprites/png/miscellaneous/toyland_hq.png") { [ 275,  128,  17,  14, -16,  -7] }
+base_graphics spr542( 542, "sprites/png/miscellaneous/toyland_hq.png") { [ 293,  128,  64,  31, -31,   0] }

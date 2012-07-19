@@ -1,28 +1,28 @@
 //4297-4323 cargo icons
-base_graphics(4297, "sprites/png/gui/gui04.png") { [ 258,  328,   9,  10,   0,   0] }
-base_graphics(4298, "sprites/png/gui/gui04.png") { [ 274,  328,  12,   6,   0,   3] }
-base_graphics(4299, "sprites/png/gui/gui04.png") { [ 306,  328,  10,   9,   0,   1] }
-base_graphics(4300, "sprites/png/gui/gui04.png") { [ 322,  328,   9,  10,   0,   0] }
-base_graphics(4301, "sprites/png/gui/gui04.png") { [ 338,  328,   9,   7,   0,   2] }
-base_graphics(4302, "sprites/png/gui/gui04.png") { [ 354,  328,  10,  10,   0,   0] }
-base_graphics(4303, "sprites/png/gui/gui04.png") { [ 370,  328,  12,   6,   0,   3] }
-base_graphics(4304, "sprites/png/gui/gui04.png") { [ 402,  328,  11,   9,   0,   1] }
-base_graphics(4305, "sprites/png/gui/gui04.png") { [ 418,  328,  12,   6,   0,   3] }
-base_graphics(4306, "sprites/png/gui/gui04.png") { [ 450,  328,   9,   7,   0,   2] }
-base_graphics(4307, "sprites/png/gui/gui04.png") { [ 466,  328,  14,   9,   0,   1] }
-base_graphics(4308, "sprites/png/gui/gui04.png") { [ 498,  328,   9,  11,   0,   0] }
-base_graphics(4309, "sprites/png/gui/gui04.png") { [ 514,  328,  12,   6,   0,   3] }
-base_graphics(4310, "sprites/png/gui/gui04.png") { [ 546,  328,   7,  10,   0,   0] }
-base_graphics(4311, "sprites/png/gui/gui04.png") { [ 562,  328,   7,   8,   0,   2] }
-base_graphics(4312, "sprites/png/gui/gui04.png") { [ 578,  328,  10,   9,   0,   1] }
-base_graphics(4313, "sprites/png/gui/gui04.png") { [ 594,  328,   8,   7,   0,   2] }
-base_graphics(4314, "sprites/png/gui/gui04.png") { [ 610,  328,  10,  10,   0,   0] }
-base_graphics(4315, "sprites/png/gui/gui04.png") { [ 626,  328,  13,   9,   0,   1] }
-base_graphics(4316, "sprites/png/gui/gui04.png") { [ 658,  328,  12,   7,   0,   0] }
-base_graphics(4317, "sprites/png/gui/gui04.png") { [ 690,  328,  10,  10,   0,   0] }
-base_graphics(4318, "sprites/png/gui/gui04.png") { [ 706,  328,  10,   6,   0,   3] }
-base_graphics(4319, "sprites/png/gui/gui04.png") { [ 722,  328,   6,  10,   0,   0] }
-base_graphics(4320, "sprites/png/gui/gui04.png") { [ 738,  328,  10,   7,   0,   2] }
-base_graphics(4321, "sprites/png/gui/gui04.png") { [ 754,  328,  10,   9,   0,   1] }
-base_graphics(4322, "sprites/png/gui/gui04.png") { [ 770,  328,  10,   7,   0,   2] }
-base_graphics(4323, "sprites/png/gui/gui04.png") { [ 786,  328,   6,  10,   0,   0] }
+base_graphics spr4297(4297, "sprites/png/gui/gui04.png") { [ 258,  328,   9,  10,   0,   0] }
+base_graphics spr4298(4298, "sprites/png/gui/gui04.png") { [ 274,  328,  12,   6,   0,   3] }
+base_graphics spr4299(4299, "sprites/png/gui/gui04.png") { [ 306,  328,  10,   9,   0,   1] }
+base_graphics spr4300(4300, "sprites/png/gui/gui04.png") { [ 322,  328,   9,  10,   0,   0] }
+base_graphics spr4301(4301, "sprites/png/gui/gui04.png") { [ 338,  328,   9,   7,   0,   2] }
+base_graphics spr4302(4302, "sprites/png/gui/gui04.png") { [ 354,  328,  10,  10,   0,   0] }
+base_graphics spr4303(4303, "sprites/png/gui/gui04.png") { [ 370,  328,  12,   6,   0,   3] }
+base_graphics spr4304(4304, "sprites/png/gui/gui04.png") { [ 402,  328,  11,   9,   0,   1] }
+base_graphics spr4305(4305, "sprites/png/gui/gui04.png") { [ 418,  328,  12,   6,   0,   3] }
+base_graphics spr4306(4306, "sprites/png/gui/gui04.png") { [ 450,  328,   9,   7,   0,   2] }
+base_graphics spr4307(4307, "sprites/png/gui/gui04.png") { [ 466,  328,  14,   9,   0,   1] }
+base_graphics spr4308(4308, "sprites/png/gui/gui04.png") { [ 498,  328,   9,  11,   0,   0] }
+base_graphics spr4309(4309, "sprites/png/gui/gui04.png") { [ 514,  328,  12,   6,   0,   3] }
+base_graphics spr4310(4310, "sprites/png/gui/gui04.png") { [ 546,  328,   7,  10,   0,   0] }
+base_graphics spr4311(4311, "sprites/png/gui/gui04.png") { [ 562,  328,   7,   8,   0,   2] }
+base_graphics spr4312(4312, "sprites/png/gui/gui04.png") { [ 578,  328,  10,   9,   0,   1] }
+base_graphics spr4313(4313, "sprites/png/gui/gui04.png") { [ 594,  328,   8,   7,   0,   2] }
+base_graphics spr4314(4314, "sprites/png/gui/gui04.png") { [ 610,  328,  10,  10,   0,   0] }
+base_graphics spr4315(4315, "sprites/png/gui/gui04.png") { [ 626,  328,  13,   9,   0,   1] }
+base_graphics spr4316(4316, "sprites/png/gui/gui04.png") { [ 658,  328,  12,   7,   0,   0] }
+base_graphics spr4317(4317, "sprites/png/gui/gui04.png") { [ 690,  328,  10,  10,   0,   0] }
+base_graphics spr4318(4318, "sprites/png/gui/gui04.png") { [ 706,  328,  10,   6,   0,   3] }
+base_graphics spr4319(4319, "sprites/png/gui/gui04.png") { [ 722,  328,   6,  10,   0,   0] }
+base_graphics spr4320(4320, "sprites/png/gui/gui04.png") { [ 738,  328,  10,   7,   0,   2] }
+base_graphics spr4321(4321, "sprites/png/gui/gui04.png") { [ 754,  328,  10,   9,   0,   1] }
+base_graphics spr4322(4322, "sprites/png/gui/gui04.png") { [ 770,  328,  10,   7,   0,   2] }
+base_graphics spr4323(4323, "sprites/png/gui/gui04.png") { [ 786,  328,   6,  10,   0,   0] }

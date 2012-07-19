@@ -1,81 +1,81 @@
 //4324-4403 more bridges
-base_graphics(4324, "sprites/png/infrastructure/infra08.png") { [ 658, 8696,  64,  51, -31, -23] }
-base_graphics(4325, "sprites/png/infrastructure/infra08.png") { [   2, 8760,  64,  51, -31, -23] }
-base_graphics(4326, "sprites/png/infrastructure/infra08.png") { [  82, 8760,  64,  31, -31,  -8] }
-base_graphics(4327, "sprites/png/infrastructure/infra08.png") { [ 162, 8760,  64,  31, -31,  -8] }
-base_graphics(4328, "sprites/png/infrastructure/infra08.png") { [ 242, 8760,  64,  31, -31,  -8] }
-base_graphics(4329, "sprites/png/infrastructure/infra08.png") { [ 322, 8760,  64,  31, -31,  -8] }
-base_graphics(4330, "sprites/png/infrastructure/infra08.png") { [ 402, 8760,  64,  39, -31,  -8] }
-base_graphics(4331, "sprites/png/infrastructure/infra08.png") { [ 482, 8760,  64,  23, -31,   0] }
-base_graphics(4332, "sprites/png/infrastructure/infra08.png") { [ 562, 8760,  64,  39, -31,  -8] }
-base_graphics(4333, "sprites/png/infrastructure/infra08.png") { [ 642, 8760,  64,  23, -31,   0] }
-base_graphics(4334, "sprites/png/infrastructure/infra08.png") { [ 722, 8760,  52,  46, -24, -21] }
-base_graphics(4335, "sprites/png/infrastructure/infra08.png") { [   2, 8824,  51,  62, -24, -37] }
-base_graphics(4336, "sprites/png/infrastructure/infra08.png") { [  66, 8824,  52,  46, -24, -21] }
-base_graphics(4337, "sprites/png/infrastructure/infra08.png") { [ 130, 8824,  51,  62, -24, -37] }
-base_graphics(4338, "sprites/png/infrastructure/infra08.png") { [ 194, 8824,  52,  46, -26, -21] }
-base_graphics(4339, "sprites/png/infrastructure/infra08.png") { [ 258, 8824,  51,  62, -25, -37] }
-base_graphics(4340, "sprites/png/infrastructure/infra08.png") { [ 322, 8824,  52,  46, -26, -21] }
-base_graphics(4341, "sprites/png/infrastructure/infra08.png") { [ 386, 8824,  51,  62, -25, -37] }
-base_graphics(4342, "sprites/png/infrastructure/infra08.png") { [ 450, 8824,  52,  62, -24, -37] }
-base_graphics(4343, "sprites/png/infrastructure/infra08.png") { [ 514, 8824,  52,  62, -26, -37] }
-base_graphics(4344, "sprites/png/infrastructure/infra08.png") { [ 578, 8824,  51,  27, -25,  -2] }
-base_graphics(4345, "sprites/png/infrastructure/infra08.png") { [ 642, 8824,  51,  27, -24,  -2] }
-base_graphics(4346, "sprites/png/infrastructure/infra08.png") { [ 706, 8824,  50,  47, -23, -24] }
-base_graphics(4347, "sprites/png/infrastructure/infra08.png") { [   2, 8904,  50,  47, -23, -24] }
-base_graphics(4348, "sprites/png/infrastructure/infra08.png") { [  66, 8904,  50,  41, -23, -18] }
-base_graphics(4349, "sprites/png/infrastructure/infra08.png") { [ 130, 8904,  50,  41, -23, -17] }
-base_graphics(4350, "sprites/png/infrastructure/infra08.png") { [ 194, 8904,  50,  47, -23, -23] }
-base_graphics(4351, "sprites/png/infrastructure/infra08.png") { [ 258, 8904,  50,  47, -23, -23] }
-base_graphics(4352, "sprites/png/infrastructure/infra08.png") { [ 322, 8904,  49,  21, -24,   2] }
-base_graphics(4353, "sprites/png/infrastructure/infra08.png") { [ 386, 8904,  49,  21, -23,   2] }
-base_graphics(4354, "sprites/png/infrastructure/infra08.png") { [ 450, 8904,  50,  35, -23,  -8] }
-base_graphics(4355, "sprites/png/infrastructure/infra08.png") { [ 514, 8904,  50,  35, -25,  -8] }
-base_graphics(4356, "sprites/png/infrastructure/infra08.png") { [ 578, 8904,  51,  32, -24,  -6] }
-base_graphics(4357, "sprites/png/infrastructure/infra08.png") { [ 642, 8904,  51,  32, -24,  -6] }
-base_graphics(4358, "sprites/png/infrastructure/infra08.png") { [ 706, 8904,  53,  28, -28,  -7] }
-base_graphics(4359, "sprites/png/infrastructure/infra08.png") { [   2, 8968,  53,  28, -23,  -7] }
-base_graphics(4360, "sprites/png/infrastructure/infra08.png") { [  66, 8968,  47,  36, -20, -11] }
-base_graphics(4361, "sprites/png/infrastructure/infra08.png") { [ 130, 8968,  47,  36, -24, -11] }
-base_graphics(4362, "sprites/png/infrastructure/infra08.png") { [ 194, 8968,  64,  51, -31, -23] }
-base_graphics(4363, "sprites/png/infrastructure/infra08.png") { [ 274, 8968,  64,  51, -31, -23] }
-base_graphics(4364, "sprites/png/infrastructure/infra08.png") { [ 354, 8968,  64,  51, -31, -23] }
-base_graphics(4365, "sprites/png/infrastructure/infra08.png") { [ 434, 8968,  64,  51, -31, -23] }
-base_graphics(4366, "sprites/png/infrastructure/infra08.png") { [ 514, 8968,  64,  31, -31,  -8] }
-base_graphics(4367, "sprites/png/infrastructure/infra08.png") { [ 594, 8968,  64,  31, -31,  -8] }
-base_graphics(4368, "sprites/png/infrastructure/infra08.png") { [ 674, 8968,  64,  31, -31,  -8] }
-base_graphics(4369, "sprites/png/infrastructure/infra08.png") { [   2, 9032,  64,  31, -31,  -8] }
-base_graphics(4370, "sprites/png/infrastructure/infra08.png") { [  82, 9032,  64,  39, -31,  -8] }
-base_graphics(4371, "sprites/png/infrastructure/infra08.png") { [ 162, 9032,  64,  23, -31,   0] }
-base_graphics(4372, "sprites/png/infrastructure/infra08.png") { [ 242, 9032,  64,  39, -31,  -8] }
-base_graphics(4373, "sprites/png/infrastructure/infra08.png") { [ 322, 9032,  64,  23, -31,   0] }
-base_graphics(4374, "sprites/png/infrastructure/infra08.png") { [ 402, 9032,  52,  46, -24, -21] }
-base_graphics(4375, "sprites/png/infrastructure/infra08.png") { [ 466, 9032,  51,  62, -24, -37] }
-base_graphics(4376, "sprites/png/infrastructure/infra08.png") { [ 530, 9032,  52,  46, -24, -21] }
-base_graphics(4377, "sprites/png/infrastructure/infra08.png") { [ 594, 9032,  51,  62, -24, -37] }
-base_graphics(4378, "sprites/png/infrastructure/infra08.png") { [ 658, 9032,  52,  46, -26, -21] }
-base_graphics(4379, "sprites/png/infrastructure/infra08.png") { [ 722, 9032,  51,  62, -25, -37] }
-base_graphics(4380, "sprites/png/infrastructure/infra08.png") { [   2, 9112,  52,  46, -26, -21] }
-base_graphics(4381, "sprites/png/infrastructure/infra08.png") { [  66, 9112,  51,  62, -25, -37] }
-base_graphics(4382, "sprites/png/infrastructure/infra08.png") { [ 130, 9112,  52,  62, -24, -37] }
-base_graphics(4383, "sprites/png/infrastructure/infra08.png") { [ 194, 9112,  52,  62, -26, -37] }
-base_graphics(4384, "sprites/png/infrastructure/infra08.png") { [ 258, 9112,  51,  27, -25,  -2] }
-base_graphics(4385, "sprites/png/infrastructure/infra08.png") { [ 322, 9112,  51,  27, -24,  -2] }
-base_graphics(4386, "sprites/png/infrastructure/infra08.png") { [ 386, 9112,  50,  47, -23, -24] }
-base_graphics(4387, "sprites/png/infrastructure/infra08.png") { [ 450, 9112,  50,  47, -23, -24] }
-base_graphics(4388, "sprites/png/infrastructure/infra08.png") { [ 514, 9112,  50,  41, -23, -18] }
-base_graphics(4389, "sprites/png/infrastructure/infra08.png") { [ 578, 9112,  50,  41, -23, -17] }
-base_graphics(4390, "sprites/png/infrastructure/infra08.png") { [ 642, 9112,  50,  47, -23, -23] }
-base_graphics(4391, "sprites/png/infrastructure/infra08.png") { [ 706, 9112,  50,  47, -23, -23] }
-base_graphics(4392, "sprites/png/infrastructure/infra08.png") { [   2, 9192,  49,  21, -24,   2] }
-base_graphics(4393, "sprites/png/infrastructure/infra08.png") { [  66, 9192,  49,  21, -23,   2] }
-base_graphics(4394, "sprites/png/infrastructure/infra08.png") { [ 130, 9192,  50,  35, -23,  -8] }
-base_graphics(4395, "sprites/png/infrastructure/infra08.png") { [ 194, 9192,  50,  35, -25,  -8] }
-base_graphics(4396, "sprites/png/infrastructure/infra08.png") { [ 258, 9192,  51,  32, -25,  -6] }
-base_graphics(4397, "sprites/png/infrastructure/infra08.png") { [ 322, 9192,  51,  32, -24,  -6] }
-base_graphics(4398, "sprites/png/infrastructure/infra08.png") { [ 386, 9192,  53,  28, -28,  -7] }
-base_graphics(4399, "sprites/png/infrastructure/infra08.png") { [ 450, 9192,  53,  28, -23,  -7] }
-base_graphics(4400, "sprites/png/infrastructure/infra08.png") { [ 514, 9192,  47,  36, -21, -11] }
-base_graphics(4401, "sprites/png/infrastructure/infra08.png") { [ 578, 9192,  47,  36, -24, -11] }
-base_graphics(4402, "sprites/png/infrastructure/infra08.png") { [ 642, 9192,  64,  51, -31, -23] }
-base_graphics(4403, "sprites/png/infrastructure/infra08.png") { [ 722, 9192,  64,  51, -31, -23] }
+base_graphics spr4324(4324, "sprites/png/infrastructure/infra08.png") { [ 658, 8696,  64,  51, -31, -23] }
+base_graphics spr4325(4325, "sprites/png/infrastructure/infra08.png") { [   2, 8760,  64,  51, -31, -23] }
+base_graphics spr4326(4326, "sprites/png/infrastructure/infra08.png") { [  82, 8760,  64,  31, -31,  -8] }
+base_graphics spr4327(4327, "sprites/png/infrastructure/infra08.png") { [ 162, 8760,  64,  31, -31,  -8] }
+base_graphics spr4328(4328, "sprites/png/infrastructure/infra08.png") { [ 242, 8760,  64,  31, -31,  -8] }
+base_graphics spr4329(4329, "sprites/png/infrastructure/infra08.png") { [ 322, 8760,  64,  31, -31,  -8] }
+base_graphics spr4330(4330, "sprites/png/infrastructure/infra08.png") { [ 402, 8760,  64,  39, -31,  -8] }
+base_graphics spr4331(4331, "sprites/png/infrastructure/infra08.png") { [ 482, 8760,  64,  23, -31,   0] }
+base_graphics spr4332(4332, "sprites/png/infrastructure/infra08.png") { [ 562, 8760,  64,  39, -31,  -8] }
+base_graphics spr4333(4333, "sprites/png/infrastructure/infra08.png") { [ 642, 8760,  64,  23, -31,   0] }
+base_graphics spr4334(4334, "sprites/png/infrastructure/infra08.png") { [ 722, 8760,  52,  46, -24, -21] }
+base_graphics spr4335(4335, "sprites/png/infrastructure/infra08.png") { [   2, 8824,  51,  62, -24, -37] }
+base_graphics spr4336(4336, "sprites/png/infrastructure/infra08.png") { [  66, 8824,  52,  46, -24, -21] }
+base_graphics spr4337(4337, "sprites/png/infrastructure/infra08.png") { [ 130, 8824,  51,  62, -24, -37] }
+base_graphics spr4338(4338, "sprites/png/infrastructure/infra08.png") { [ 194, 8824,  52,  46, -26, -21] }
+base_graphics spr4339(4339, "sprites/png/infrastructure/infra08.png") { [ 258, 8824,  51,  62, -25, -37] }
+base_graphics spr4340(4340, "sprites/png/infrastructure/infra08.png") { [ 322, 8824,  52,  46, -26, -21] }
+base_graphics spr4341(4341, "sprites/png/infrastructure/infra08.png") { [ 386, 8824,  51,  62, -25, -37] }
+base_graphics spr4342(4342, "sprites/png/infrastructure/infra08.png") { [ 450, 8824,  52,  62, -24, -37] }
+base_graphics spr4343(4343, "sprites/png/infrastructure/infra08.png") { [ 514, 8824,  52,  62, -26, -37] }
+base_graphics spr4344(4344, "sprites/png/infrastructure/infra08.png") { [ 578, 8824,  51,  27, -25,  -2] }
+base_graphics spr4345(4345, "sprites/png/infrastructure/infra08.png") { [ 642, 8824,  51,  27, -24,  -2] }
+base_graphics spr4346(4346, "sprites/png/infrastructure/infra08.png") { [ 706, 8824,  50,  47, -23, -24] }
+base_graphics spr4347(4347, "sprites/png/infrastructure/infra08.png") { [   2, 8904,  50,  47, -23, -24] }
+base_graphics spr4348(4348, "sprites/png/infrastructure/infra08.png") { [  66, 8904,  50,  41, -23, -18] }
+base_graphics spr4349(4349, "sprites/png/infrastructure/infra08.png") { [ 130, 8904,  50,  41, -23, -17] }
+base_graphics spr4350(4350, "sprites/png/infrastructure/infra08.png") { [ 194, 8904,  50,  47, -23, -23] }
+base_graphics spr4351(4351, "sprites/png/infrastructure/infra08.png") { [ 258, 8904,  50,  47, -23, -23] }
+base_graphics spr4352(4352, "sprites/png/infrastructure/infra08.png") { [ 322, 8904,  49,  21, -24,   2] }
+base_graphics spr4353(4353, "sprites/png/infrastructure/infra08.png") { [ 386, 8904,  49,  21, -23,   2] }
+base_graphics spr4354(4354, "sprites/png/infrastructure/infra08.png") { [ 450, 8904,  50,  35, -23,  -8] }
+base_graphics spr4355(4355, "sprites/png/infrastructure/infra08.png") { [ 514, 8904,  50,  35, -25,  -8] }
+base_graphics spr4356(4356, "sprites/png/infrastructure/infra08.png") { [ 578, 8904,  51,  32, -24,  -6] }
+base_graphics spr4357(4357, "sprites/png/infrastructure/infra08.png") { [ 642, 8904,  51,  32, -24,  -6] }
+base_graphics spr4358(4358, "sprites/png/infrastructure/infra08.png") { [ 706, 8904,  53,  28, -28,  -7] }
+base_graphics spr4359(4359, "sprites/png/infrastructure/infra08.png") { [   2, 8968,  53,  28, -23,  -7] }
+base_graphics spr4360(4360, "sprites/png/infrastructure/infra08.png") { [  66, 8968,  47,  36, -20, -11] }
+base_graphics spr4361(4361, "sprites/png/infrastructure/infra08.png") { [ 130, 8968,  47,  36, -24, -11] }
+base_graphics spr4362(4362, "sprites/png/infrastructure/infra08.png") { [ 194, 8968,  64,  51, -31, -23] }
+base_graphics spr4363(4363, "sprites/png/infrastructure/infra08.png") { [ 274, 8968,  64,  51, -31, -23] }
+base_graphics spr4364(4364, "sprites/png/infrastructure/infra08.png") { [ 354, 8968,  64,  51, -31, -23] }
+base_graphics spr4365(4365, "sprites/png/infrastructure/infra08.png") { [ 434, 8968,  64,  51, -31, -23] }
+base_graphics spr4366(4366, "sprites/png/infrastructure/infra08.png") { [ 514, 8968,  64,  31, -31,  -8] }
+base_graphics spr4367(4367, "sprites/png/infrastructure/infra08.png") { [ 594, 8968,  64,  31, -31,  -8] }
+base_graphics spr4368(4368, "sprites/png/infrastructure/infra08.png") { [ 674, 8968,  64,  31, -31,  -8] }
+base_graphics spr4369(4369, "sprites/png/infrastructure/infra08.png") { [   2, 9032,  64,  31, -31,  -8] }
+base_graphics spr4370(4370, "sprites/png/infrastructure/infra08.png") { [  82, 9032,  64,  39, -31,  -8] }
+base_graphics spr4371(4371, "sprites/png/infrastructure/infra08.png") { [ 162, 9032,  64,  23, -31,   0] }
+base_graphics spr4372(4372, "sprites/png/infrastructure/infra08.png") { [ 242, 9032,  64,  39, -31,  -8] }
+base_graphics spr4373(4373, "sprites/png/infrastructure/infra08.png") { [ 322, 9032,  64,  23, -31,   0] }
+base_graphics spr4374(4374, "sprites/png/infrastructure/infra08.png") { [ 402, 9032,  52,  46, -24, -21] }
+base_graphics spr4375(4375, "sprites/png/infrastructure/infra08.png") { [ 466, 9032,  51,  62, -24, -37] }
+base_graphics spr4376(4376, "sprites/png/infrastructure/infra08.png") { [ 530, 9032,  52,  46, -24, -21] }
+base_graphics spr4377(4377, "sprites/png/infrastructure/infra08.png") { [ 594, 9032,  51,  62, -24, -37] }
+base_graphics spr4378(4378, "sprites/png/infrastructure/infra08.png") { [ 658, 9032,  52,  46, -26, -21] }
+base_graphics spr4379(4379, "sprites/png/infrastructure/infra08.png") { [ 722, 9032,  51,  62, -25, -37] }
+base_graphics spr4380(4380, "sprites/png/infrastructure/infra08.png") { [   2, 9112,  52,  46, -26, -21] }
+base_graphics spr4381(4381, "sprites/png/infrastructure/infra08.png") { [  66, 9112,  51,  62, -25, -37] }
+base_graphics spr4382(4382, "sprites/png/infrastructure/infra08.png") { [ 130, 9112,  52,  62, -24, -37] }
+base_graphics spr4383(4383, "sprites/png/infrastructure/infra08.png") { [ 194, 9112,  52,  62, -26, -37] }
+base_graphics spr4384(4384, "sprites/png/infrastructure/infra08.png") { [ 258, 9112,  51,  27, -25,  -2] }
+base_graphics spr4385(4385, "sprites/png/infrastructure/infra08.png") { [ 322, 9112,  51,  27, -24,  -2] }
+base_graphics spr4386(4386, "sprites/png/infrastructure/infra08.png") { [ 386, 9112,  50,  47, -23, -24] }
+base_graphics spr4387(4387, "sprites/png/infrastructure/infra08.png") { [ 450, 9112,  50,  47, -23, -24] }
+base_graphics spr4388(4388, "sprites/png/infrastructure/infra08.png") { [ 514, 9112,  50,  41, -23, -18] }
+base_graphics spr4389(4389, "sprites/png/infrastructure/infra08.png") { [ 578, 9112,  50,  41, -23, -17] }
+base_graphics spr4390(4390, "sprites/png/infrastructure/infra08.png") { [ 642, 9112,  50,  47, -23, -23] }
+base_graphics spr4391(4391, "sprites/png/infrastructure/infra08.png") { [ 706, 9112,  50,  47, -23, -23] }
+base_graphics spr4392(4392, "sprites/png/infrastructure/infra08.png") { [   2, 9192,  49,  21, -24,   2] }
+base_graphics spr4393(4393, "sprites/png/infrastructure/infra08.png") { [  66, 9192,  49,  21, -23,   2] }
+base_graphics spr4394(4394, "sprites/png/infrastructure/infra08.png") { [ 130, 9192,  50,  35, -23,  -8] }
+base_graphics spr4395(4395, "sprites/png/infrastructure/infra08.png") { [ 194, 9192,  50,  35, -25,  -8] }
+base_graphics spr4396(4396, "sprites/png/infrastructure/infra08.png") { [ 258, 9192,  51,  32, -25,  -6] }
+base_graphics spr4397(4397, "sprites/png/infrastructure/infra08.png") { [ 322, 9192,  51,  32, -24,  -6] }
+base_graphics spr4398(4398, "sprites/png/infrastructure/infra08.png") { [ 386, 9192,  53,  28, -28,  -7] }
+base_graphics spr4399(4399, "sprites/png/infrastructure/infra08.png") { [ 450, 9192,  53,  28, -23,  -7] }
+base_graphics spr4400(4400, "sprites/png/infrastructure/infra08.png") { [ 514, 9192,  47,  36, -21, -11] }
+base_graphics spr4401(4401, "sprites/png/infrastructure/infra08.png") { [ 578, 9192,  47,  36, -24, -11] }
+base_graphics spr4402(4402, "sprites/png/infrastructure/infra08.png") { [ 642, 9192,  64,  51, -31, -23] }
+base_graphics spr4403(4403, "sprites/png/infrastructure/infra08.png") { [ 722, 9192,  64,  51, -31, -23] }

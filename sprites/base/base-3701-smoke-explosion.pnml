@@ -1,13 +1,13 @@
 //3701-3740 smoke/explosion effects
 //powerplant smoke
-base_graphics(3701, "sprites/png/miscellaneous/random.png") { [  10,  383,  50,  60,  -1, -59] }
-base_graphics(3702, "sprites/png/miscellaneous/random.png") { [  70,  383,  50,  60,  -1, -59] }
-base_graphics(3703, "sprites/png/miscellaneous/random.png") { [ 130,  383,  50,  60,  -1, -59] }
-base_graphics(3704, "sprites/png/miscellaneous/random.png") { [ 190,  383,  50,  60,  -1, -59] }
-base_graphics(3705, "sprites/png/miscellaneous/random.png") { [ 250,  383,  50,  60,  -1, -59] }
-base_graphics(3706, "sprites/png/miscellaneous/random.png") { [ 310,  383,  50,  60,  -1, -59] }
-base_graphics(3707, "sprites/png/miscellaneous/random.png") { [ 370,  383,  50,  60,  -1, -59] }
-base_graphics(3708, "sprites/png/miscellaneous/random.png") { [ 430,  383,  50,  60,  -1, -59] }
+base_graphics spr3701(3701, "sprites/png/miscellaneous/random.png") { [  10,  383,  50,  60,  -1, -59] }
+base_graphics spr3702(3702, "sprites/png/miscellaneous/random.png") { [  70,  383,  50,  60,  -1, -59] }
+base_graphics spr3703(3703, "sprites/png/miscellaneous/random.png") { [ 130,  383,  50,  60,  -1, -59] }
+base_graphics spr3704(3704, "sprites/png/miscellaneous/random.png") { [ 190,  383,  50,  60,  -1, -59] }
+base_graphics spr3705(3705, "sprites/png/miscellaneous/random.png") { [ 250,  383,  50,  60,  -1, -59] }
+base_graphics spr3706(3706, "sprites/png/miscellaneous/random.png") { [ 310,  383,  50,  60,  -1, -59] }
+base_graphics spr3707(3707, "sprites/png/miscellaneous/random.png") { [ 370,  383,  50,  60,  -1, -59] }
+base_graphics spr3708(3708, "sprites/png/miscellaneous/random.png") { [ 430,  383,  50,  60,  -1, -59] }
 //large explosion
 base_graphics large_explosion(3709, "sprites/png/miscellaneous/random.png") {
 	[  10,  267,  47,  47, -23, -23]
@@ -64,7 +64,7 @@ base_graphics small_explosion(3725, "sprites/png/miscellaneous/random.png") {
 }
 
 //breakdown smoke
-base_graphics(3737, "sprites/png/miscellaneous/random.png") { [ 208,  333,  32,  32,   0, -31] }
-base_graphics(3738, "sprites/png/miscellaneous/random.png") { [ 245,  333,  32,  32,   0, -31] }
-base_graphics(3739, "sprites/png/miscellaneous/random.png") { [ 282,  333,  32,  32,   0, -31] }
-base_graphics(3740, "sprites/png/miscellaneous/random.png") { [ 320,  333,  32,  32,   0, -31] }
+base_graphics spr3737(3737, "sprites/png/miscellaneous/random.png") { [ 208,  333,  32,  32,   0, -31] }
+base_graphics spr3738(3738, "sprites/png/miscellaneous/random.png") { [ 245,  333,  32,  32,   0, -31] }
+base_graphics spr3739(3739, "sprites/png/miscellaneous/random.png") { [ 282,  333,  32,  32,   0, -31] }
+base_graphics spr3740(3740, "sprites/png/miscellaneous/random.png") { [ 320,  333,  32,  32,   0, -31] }

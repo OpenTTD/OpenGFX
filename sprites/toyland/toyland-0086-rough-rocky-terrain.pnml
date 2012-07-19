@@ -1,6 +1,6 @@
 
 // toyland rough terrain 86-108
-base_graphics(86, "sprites/png/terrain/rough-toyland.png") { tmpl_groundtiles(1, 1)  tmpl_additional_rough(1, 1) }
+base_graphics spr86(86, "sprites/png/terrain/rough-toyland.png") { tmpl_groundtiles(1, 1)  tmpl_additional_rough(1, 1) }
 
 // toyland rocky terrain 109-127
-base_graphics( 109, "sprites/png/terrain/rocks-toyland.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr109( 109, "sprites/png/terrain/rocks-toyland.png") { tmpl_groundtiles(1, 1) }

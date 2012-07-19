@@ -23,7 +23,7 @@ template tmpl_roadvehicles(x,y) {
 ************************* */
 
 //2nd passenger
-base_graphics(3092, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3092(3092, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82,   8,  8, 18,  -3, -10]
     [ 98,   8, 20, 16, -14,  -7]
     [130,   8, 28, 12, -14,  -6]
@@ -34,7 +34,7 @@ base_graphics(3092, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306,   8, 20, 16,  -6,  -7]
 }
 //2nd coal unloaded
-base_graphics(3100, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3100(3100, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338,   8,  8, 18,  -3, -10]
     [354,   8, 20, 16, -14,  -7]
     [386,   8, 28, 12, -14,  -6]
@@ -45,7 +45,7 @@ base_graphics(3100, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562,   8, 20, 16,  -6,  -7]
 }
 //2nd mail
-base_graphics(3108, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3108(3108, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594,   8,  8, 18,  -3, -10]
     [610,   8, 20, 16, -14,  -7]
     [642,   8, 28, 12, -14,  -6]
@@ -56,7 +56,7 @@ base_graphics(3108, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50,  40, 20, 16,  -6,  -7]
 }
 //2nd oil
-base_graphics(3116, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3116(3116, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82,  40,  8, 18,  -3, -10]
     [ 98,  40, 20, 16, -14,  -7]
     [130,  40, 28, 12, -14,  -6]
@@ -67,7 +67,7 @@ base_graphics(3116, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306,  40, 20, 16,  -6,  -7]
 }
 //2nd livestock
-base_graphics(3124, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3124(3124, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338,  40,  8, 18,  -3, -10]
     [354,  40, 20, 16, -14,  -7]
     [386,  40, 28, 12, -14,  -6]
@@ -78,7 +78,7 @@ base_graphics(3124, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562,  40, 20, 16,  -6,  -7]
 }
 //2nd goods
-base_graphics(3132, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3132(3132, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594,  40,  8, 18,  -3, -10]
     [610,  40, 20, 16, -14,  -7]
     [642,  40, 28, 12, -14,  -6]
@@ -89,7 +89,7 @@ base_graphics(3132, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50,  72, 20, 16,  -6,  -7]
 }
 //2nd food
-base_graphics(3140, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3140(3140, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82,  72,  8, 18,  -3, -10]
     [ 98,  72, 20, 16, -14,  -7]
     [130,  72, 28, 12, -14,  -6]
@@ -100,7 +100,7 @@ base_graphics(3140, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306,  72, 20, 16,  -6,  -7]
 }
 //2nd grain unloaded
-base_graphics(3148, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3148(3148, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338,  72,  8, 18,  -3, -10]
     [354,  72, 20, 16, -14,  -7]
     [386,  72, 28, 12, -14,  -6]
@@ -111,15 +111,15 @@ base_graphics(3148, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562,  72, 20, 16,  -6,  -7]
 }
 //2nd wood unloaded
-base_graphics(3156, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3156(3156, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,190)
 }
 //2nd steel/paper unloaded
-base_graphics(3164, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3164(3164, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,222)
 }
 //2nd ore unloaded
-base_graphics(3172, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3172(3172, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 104,  8, 18,  -3, -10]
     [354, 104, 20, 16, -14,  -7]
     [386, 104, 28, 12, -14,  -6]
@@ -130,7 +130,7 @@ base_graphics(3172, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 104, 20, 16,  -6,  -7]
 }
 //2nd armoured
-base_graphics(3180, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3180(3180, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 104,  8, 18,  -3, -10]
     [610, 104, 20, 16, -14,  -7]
     [642, 104, 28, 12, -14,  -6]
@@ -141,7 +141,7 @@ base_graphics(3180, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 136, 20, 16,  -6,  -7]
 }
 //2nd coal loaded
-base_graphics(3188, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3188(3188, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 136,  8, 18,  -3, -10]
     [ 98, 136, 20, 16, -14,  -7]
     [130, 136, 28, 12, -14,  -6]
@@ -152,7 +152,7 @@ base_graphics(3188, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 136, 20, 16,  -6,  -7]
 }
 //2nd grain loaded
-base_graphics(3196, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3196(3196, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 136,  8, 18,  -3, -10]
     [354, 136, 20, 16, -14,  -7]
     [386, 136, 28, 12, -14,  -6]
@@ -163,15 +163,15 @@ base_graphics(3196, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 136, 20, 16,  -6,  -7]
 }
 //2nd wood loaded
-base_graphics(3204, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3204(3204, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,254)
 }
 //2nd steel loaded
-base_graphics(3212, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3212(3212, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,286)
 }
 //2nd iron ore loaded
-base_graphics(3220, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3220(3220, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 168,  8, 18,  -3, -10]
     [354, 168, 20, 16, -14,  -7]
     [386, 168, 28, 12, -14,  -6]
@@ -182,11 +182,11 @@ base_graphics(3220, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 168, 20, 16,  -6,  -7]
 }
 //2nd paper loaded
-base_graphics(3228, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3228(3228, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,318)
 }
 //2nd copper ore loaded
-base_graphics(3236, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3236(3236, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 200,  8, 18,  -3, -10]
     [ 98, 200, 20, 16, -14,  -7]
     [130, 200, 28, 12, -14,  -6]
@@ -197,7 +197,7 @@ base_graphics(3236, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 200, 20, 16,  -6,  -7]
 }
 //2nd water
-base_graphics(3244, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3244(3244, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 200,  8, 18,  -3, -10]
     [354, 200, 20, 16, -14,  -7]
     [386, 200, 28, 12, -14,  -6]
@@ -208,7 +208,7 @@ base_graphics(3244, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 200, 20, 16,  -6,  -7]
 }
 //2nd fruit unloaded
-base_graphics(3252, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3252(3252, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 200,  8, 18,  -3, -10]
     [610, 200, 20, 16, -14,  -7]
     [642, 200, 28, 12, -14,  -6]
@@ -219,7 +219,7 @@ base_graphics(3252, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 232, 20, 16,  -6,  -7]
 }
 //2nd rubber unloaded
-base_graphics(3260, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3260(3260, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 232,  8, 18,  -3, -10]
     [ 98, 232, 20, 16, -14,  -7]
     [130, 232, 28, 12, -14,  -6]
@@ -230,7 +230,7 @@ base_graphics(3260, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 232, 20, 16,  -6,  -7]
 }
 //2nd fruit loaded
-base_graphics(3268, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3268(3268, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 232,  8, 18,  -3, -10]
     [354, 232, 20, 16, -14,  -7]
     [386, 232, 28, 12, -14,  -6]
@@ -241,7 +241,7 @@ base_graphics(3268, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 232, 20, 16,  -6,  -7]
 }
 //2nd rubber loaded
-base_graphics(3276, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3276(3276, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 232,  8, 18,  -3, -10]
     [610, 232, 20, 16, -14,  -7]
     [642, 232, 28, 12, -14,  -6]
@@ -257,7 +257,7 @@ base_graphics(3276, "sprites/png/roadvehicles/vehiclesroad01.png") {
 ************************* */
 
 // 1st passengers
-base_graphics(3284, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3284(3284, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [114, 264,  8, 18,  -3, -10]
     [130, 264, 20, 16, -14,  -7]
     [162, 264, 28, 12, -14,  -6]
@@ -268,7 +268,7 @@ base_graphics(3284, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 264, 20, 16,  -6,  -7]
 }
 //1st coal unloaded
-base_graphics(3292, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3292(3292, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [370, 264,  8, 18,  -3, -10]
     [386, 264, 20, 16, -14,  -7]
     [418, 264, 28, 12, -14,  -6]
@@ -279,7 +279,7 @@ base_graphics(3292, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 264, 20, 16,  -6,  -7]
 }
 //1st mail
-base_graphics(3300, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3300(3300, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [626, 264,  8, 18,  -3, -10]
     [642, 264, 20, 16, -14,  -7]
     [674, 264, 28, 12, -14,  -6]
@@ -290,7 +290,7 @@ base_graphics(3300, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 296, 20, 16,  -6,  -7]
 }
 //1st oil
-base_graphics(3308, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3308(3308, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 296,  8, 18,  -3, -10]
     [ 98, 296, 20, 16, -14,  -7]
     [130, 296, 28, 12, -14,  -6]
@@ -301,7 +301,7 @@ base_graphics(3308, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 296, 20, 16,  -6,  -7]
 }
 //1st livestock
-base_graphics(3316, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3316(3316, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 296,  8, 18,  -3, -10]
     [354, 296, 20, 16, -14,  -7]
     [386, 296, 28, 12, -14,  -6]
@@ -312,7 +312,7 @@ base_graphics(3316, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 296, 20, 16,  -6,  -7]
 }
 //1st goods
-base_graphics(3324, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3324(3324, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 296,  8, 18,  -3, -10]
     [610, 296, 20, 16, -14,  -7]
     [642, 296, 28, 12, -14,  -6]
@@ -323,7 +323,7 @@ base_graphics(3324, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 328, 20, 16,  -6,  -7]
 }
 //1st food
-base_graphics(3332, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3332(3332, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 328,  8, 18,  -3, -10]
     [ 98, 328, 20, 16, -14,  -7]
     [130, 328, 28, 12, -14,  -6]
@@ -334,7 +334,7 @@ base_graphics(3332, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 328, 20, 16,  -6,  -7]
 }
 //1st grain unloaded
-base_graphics(3340, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3340(3340, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 328,  8, 18,  -3, -10]
     [354, 328, 20, 16, -14,  -7]
     [386, 328, 28, 12, -14,  -6]
@@ -345,15 +345,15 @@ base_graphics(3340, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 328, 20, 16,  -6,  -7]
 }
 //1st wood unloaded
-base_graphics(3348, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3348(3348, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,20)
 }
 //1st steel/paper unloaded
-base_graphics(3356, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3356(3356, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,52)
 }
 //1st ore unloaded
-base_graphics(3364, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3364(3364, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 360,  8, 18,  -3, -10]
     [354, 360, 20, 16, -14,  -7]
     [386, 360, 28, 12, -14,  -6]
@@ -364,7 +364,7 @@ base_graphics(3364, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 360, 20, 16,  -6,  -7]
 }
 //1st armoured
-base_graphics(3372, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3372(3372, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 360,  8, 18,  -3, -10]
     [610, 360, 20, 16, -14,  -7]
     [642, 360, 28, 12, -14,  -6]
@@ -375,7 +375,7 @@ base_graphics(3372, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 392, 20, 16,  -6,  -7]
 }
 //1st coal loaded
-base_graphics(3380, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3380(3380, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 392,  8, 18,  -3, -10]
     [ 98, 392, 20, 16, -14,  -7]
     [130, 392, 28, 12, -14,  -6]
@@ -386,7 +386,7 @@ base_graphics(3380, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 392, 20, 16,  -6,  -7]
 }
 //1st grain loaded
-base_graphics(3388, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3388(3388, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 392,  8, 18,  -3, -10]
     [354, 392, 20, 16, -14,  -7]
     [386, 392, 28, 12, -14,  -6]
@@ -397,15 +397,15 @@ base_graphics(3388, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 392, 20, 16,  -6,  -7]
 }
 //1st wood loaded
-base_graphics(3396, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3396(3396, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,84)
 }
 //1st steel loaded
-base_graphics(3404, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3404(3404, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,116)
 }
 //1st iron ore loaded
-base_graphics(3412, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3412(3412, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 424,  8, 18,  -3, -10]
     [354, 424, 20, 16, -14,  -7]
     [386, 424, 28, 12, -14,  -6]
@@ -416,11 +416,11 @@ base_graphics(3412, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 424, 20, 16,  -6,  -7]
 }
 //1st paper loaded
-base_graphics(3420, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3420(3420, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,148)
 }
 //1st copper ore loaded
-base_graphics(3428, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3428(3428, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 456,  8, 18,  -3, -10]
     [ 98, 456, 20, 16, -14,  -7]
     [130, 456, 28, 12, -14,  -6]
@@ -431,7 +431,7 @@ base_graphics(3428, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 456, 20, 16,  -6,  -7]
 }
 //1st water
-base_graphics(3436, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3436(3436, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 456,  8, 18,  -3, -10]
     [354, 456, 20, 16, -14,  -7]
     [386, 456, 28, 12, -14,  -6]
@@ -442,7 +442,7 @@ base_graphics(3436, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 456, 20, 16,  -6,  -7]
 }
 //1st fruit unloaded
-base_graphics(3444, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3444(3444, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 456,  8, 18,  -3, -10]
     [610, 456, 20, 16, -14,  -7]
     [642, 456, 28, 12, -14,  -6]
@@ -453,7 +453,7 @@ base_graphics(3444, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 488, 20, 16,  -6,  -7]
 }
 //1st rubber unloaded
-base_graphics(3452, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3452(3452, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 488,  8, 18,  -3, -10]
     [ 98, 488, 20, 16, -14,  -7]
     [130, 488, 28, 12, -14,  -6]
@@ -464,7 +464,7 @@ base_graphics(3452, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 488, 20, 16,  -6,  -7]
 }
 //1st fruit loaded
-base_graphics(3460, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3460(3460, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 488,  8, 18,  -3, -10]
     [354, 488, 20, 16, -14,  -7]
     [386, 488, 28, 12, -14,  -6]
@@ -475,7 +475,7 @@ base_graphics(3460, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 488, 20, 16,  -6,  -7]
 }
 //1st rubber loaded
-base_graphics(3468, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3468(3468, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 488,  8, 18,  -3, -10]
     [610, 488, 20, 16, -14,  -7]
     [642, 488, 28, 12, -14,  -6]
@@ -491,7 +491,7 @@ base_graphics(3468, "sprites/png/roadvehicles/vehiclesroad01.png") {
 ************************* */
 
 //3rd passengers
-base_graphics(3476, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3476(3476, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [114, 520,  8, 18,  -3, -10]
     [130, 520, 20, 16, -14,  -7]
     [162, 520, 28, 12, -14,  -6]
@@ -502,7 +502,7 @@ base_graphics(3476, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 520, 20, 16,  -6,  -7]
 }
 //3rd coal unloaded
-base_graphics(3484, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3484(3484, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [370, 520,  8, 18,  -3, -10]
     [386, 520, 20, 16, -14,  -7]
     [418, 520, 28, 12, -14,  -6]
@@ -513,7 +513,7 @@ base_graphics(3484, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 520, 20, 16,  -6,  -7]
 }
 //3rd mail
-base_graphics(3492, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3492(3492, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [626, 520,  8, 18,  -3, -10]
     [642, 520, 20, 16, -14,  -7]
     [674, 520, 28, 12, -14,  -6]
@@ -524,7 +524,7 @@ base_graphics(3492, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 552, 20, 16,  -6,  -7]
 }
 //3rd oil
-base_graphics(3500, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3500(3500, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 552,  8, 18,  -3, -10]
     [ 98, 552, 20, 16, -14,  -7]
     [130, 552, 28, 12, -14,  -6]
@@ -535,7 +535,7 @@ base_graphics(3500, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 552, 20, 16,  -6,  -7]
 }
 //3rd livestock
-base_graphics(3508, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3508(3508, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 552,  8, 18,  -3, -10]
     [354, 552, 20, 16, -14,  -7]
     [386, 552, 28, 12, -14,  -6]
@@ -546,7 +546,7 @@ base_graphics(3508, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 552, 20, 16,  -6,  -7]
 }
 //3rd goods
-base_graphics(3516, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3516(3516, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 552,  8, 18,  -3, -10]
     [610, 552, 20, 16, -14,  -7]
     [642, 552, 28, 12, -14,  -6]
@@ -557,7 +557,7 @@ base_graphics(3516, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 584, 20, 16,  -6,  -7]
 }
 //3rd food
-base_graphics(3524, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3524(3524, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 584,  8, 18,  -3, -10]
     [ 98, 584, 20, 16, -14,  -7]
     [130, 584, 28, 12, -14,  -6]
@@ -568,7 +568,7 @@ base_graphics(3524, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 584, 20, 16,  -6,  -7]
 }
 //3rd grain unloaded
-base_graphics(3532, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3532(3532, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 584,  8, 18,  -3, -10]
     [354, 584, 20, 16, -14,  -7]
     [386, 584, 28, 12, -14,  -6]
@@ -579,15 +579,15 @@ base_graphics(3532, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 584, 20, 16,  -6,  -7]
 }
 //3rd wood unloaded
-base_graphics(3540, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3540(3540, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,360)
 }
 //3rd steel/paper unloaded
-base_graphics(3548, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3548(3548, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,392)
 }
 //3rd ore unloaded
-base_graphics(3556, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3556(3556, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 616,  8, 18,  -3, -10]
     [354, 616, 20, 16, -14,  -7]
     [386, 616, 28, 12, -14,  -6]
@@ -598,7 +598,7 @@ base_graphics(3556, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 616, 20, 16,  -6,  -7]
 }
 //3rd armoured
-base_graphics(3564, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3564(3564, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 616,  8, 18,  -3, -10]
     [610, 616, 20, 16, -14,  -7]
     [642, 616, 28, 12, -14,  -6]
@@ -609,7 +609,7 @@ base_graphics(3564, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 648, 20, 16,  -6,  -7]
 }
 //3rd coal loaded
-base_graphics(3572, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3572(3572, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 648,  8, 18,  -3, -10]
     [ 98, 648, 20, 16, -14,  -7]
     [130, 648, 28, 12, -14,  -6]
@@ -620,7 +620,7 @@ base_graphics(3572, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 648, 20, 16,  -6,  -7]
 }
 //3rd grain loaded
-base_graphics(3580, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3580(3580, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 648,  8, 18,  -3, -10]
     [354, 648, 20, 16, -14,  -7]
     [386, 648, 28, 12, -14,  -6]
@@ -631,15 +631,15 @@ base_graphics(3580, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 648, 20, 16,  -6,  -7]
 }
 //3rd wood loaded
-base_graphics(3588, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3588(3588, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,424)
 }
 //3rd steel loaded
-base_graphics(3596, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3596(3596, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,456)
 }
 //3rd iron ore loaded
-base_graphics(3604, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3604(3604, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 680,  8, 18,  -3, -10]
     [354, 680, 20, 16, -14,  -7]
     [386, 680, 28, 12, -14,  -6]
@@ -650,11 +650,11 @@ base_graphics(3604, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 680, 20, 16,  -6,  -7]
 }
 //3rd paper loaded
-base_graphics(3612, "sprites/png/roadvehicles/flatbeds.png") {
+base_graphics spr3612(3612, "sprites/png/roadvehicles/flatbeds.png") {
     tmpl_roadvehicles(0,488)
 }
 //3rd copper ore loaded
-base_graphics(3620, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3620(3620, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 712,  8, 18,  -3, -10]
     [ 98, 712, 20, 16, -14,  -7]
     [130, 712, 28, 12, -14,  -6]
@@ -665,7 +665,7 @@ base_graphics(3620, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 712, 20, 16,  -6,  -7]
 }
 //3rd water
-base_graphics(3628, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3628(3628, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 712,  8, 18,  -3, -10]
     [354, 712, 20, 16, -14,  -7]
     [386, 712, 28, 12, -14,  -6]
@@ -676,7 +676,7 @@ base_graphics(3628, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 712, 20, 16,  -6,  -7]
 }
 //3rd fruit unloaded
-base_graphics(3636, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3636(3636, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 712,  8, 18,  -3, -10]
     [610, 712, 20, 16, -14,  -7]
     [642, 712, 28, 12, -14,  -6]
@@ -687,7 +687,7 @@ base_graphics(3636, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 50, 744, 20, 16,  -6,  -7]
 }
 //3rd rubber unloaded
-base_graphics(3644, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3644(3644, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [ 82, 744,  8, 18,  -3, -10]
     [ 98, 744, 20, 16, -14,  -7]
     [130, 744, 28, 12, -14,  -6]
@@ -698,7 +698,7 @@ base_graphics(3644, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [306, 744, 20, 16,  -6,  -7]
 }
 //3rd fruit loaded
-base_graphics(3652, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3652(3652, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [338, 744,  8, 18,  -3, -10]
     [354, 744, 20, 16, -14,  -7]
     [386, 744, 28, 12, -14,  -6]
@@ -709,7 +709,7 @@ base_graphics(3652, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [562, 744, 20, 16,  -6,  -7]
 }
 //3rd rubber loaded
-base_graphics(3660, "sprites/png/roadvehicles/vehiclesroad01.png") {
+base_graphics spr3660(3660, "sprites/png/roadvehicles/vehiclesroad01.png") {
     [594, 744,  8, 18,  -3, -10]
     [610, 744, 20, 16, -14,  -7]
     [642, 744, 28, 12, -14,  -6]

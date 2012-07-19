@@ -1,34 +1,34 @@
 //2603-2631 headquarters
-base_graphics(2603, "sprites/png/miscellaneous/hq.png") { [  82,    8,  64,  31, -31,   0] }
-base_graphics(2604, "sprites/png/miscellaneous/hq.png") { [ 162,    8,  64,  31, -31,   0] }
-base_graphics(2605, "sprites/png/miscellaneous/hq.png") { [ 242,    8,  64,  31, -31,   0] }
-base_graphics(2606, "sprites/png/miscellaneous/hq.png") { [ 322,    8,  64,  31, -31,   0] }
-base_graphics(2607, "sprites/png/miscellaneous/hq.png") { [ 402,    8,  64,  31, -31,   0] }
-base_graphics(2608, "sprites/png/miscellaneous/hq.png") { [ 482,    8,  64,  31, -31,   0] }
-base_graphics(2609, "sprites/png/miscellaneous/hq.png") { [ 562,    8,  64,  31, -31,   0] }
-base_graphics(2610, "sprites/png/miscellaneous/hq.png") { [ 642,    8,  64,  31, -31,   0] }
-base_graphics(2611, "sprites/png/miscellaneous/hq.png") { [ 722,    8,  64,  31, -31,   0] }
-base_graphics(2612, "sprites/png/miscellaneous/hq.png") { [   2,   56,  59,  15, -26,   0] }
-base_graphics(2613, "sprites/png/miscellaneous/hq.png") { [  66,   56,  64,  31, -31,   0] }
-base_graphics(2614, "sprites/png/miscellaneous/hq.png") { [ 146,   56,  32,  18,   1,  -3] }
-base_graphics(2615, "sprites/png/miscellaneous/hq.png") { [ 194,   56,  64,  31, -31,   0] }
-base_graphics(2616, "sprites/png/miscellaneous/hq.png") { [ 274,   56,   4,   5, -31,  12] }
-base_graphics(2617, "sprites/png/miscellaneous/hq.png") { [ 290,   56,  64,  31, -31,   0] }
+base_graphics spr2603(2603, "sprites/png/miscellaneous/hq.png") { [  82,    8,  64,  31, -31,   0] }
+base_graphics spr2604(2604, "sprites/png/miscellaneous/hq.png") { [ 162,    8,  64,  31, -31,   0] }
+base_graphics spr2605(2605, "sprites/png/miscellaneous/hq.png") { [ 242,    8,  64,  31, -31,   0] }
+base_graphics spr2606(2606, "sprites/png/miscellaneous/hq.png") { [ 322,    8,  64,  31, -31,   0] }
+base_graphics spr2607(2607, "sprites/png/miscellaneous/hq.png") { [ 402,    8,  64,  31, -31,   0] }
+base_graphics spr2608(2608, "sprites/png/miscellaneous/hq.png") { [ 482,    8,  64,  31, -31,   0] }
+base_graphics spr2609(2609, "sprites/png/miscellaneous/hq.png") { [ 562,    8,  64,  31, -31,   0] }
+base_graphics spr2610(2610, "sprites/png/miscellaneous/hq.png") { [ 642,    8,  64,  31, -31,   0] }
+base_graphics spr2611(2611, "sprites/png/miscellaneous/hq.png") { [ 722,    8,  64,  31, -31,   0] }
+base_graphics spr2612(2612, "sprites/png/miscellaneous/hq.png") { [   2,   56,  59,  15, -26,   0] }
+base_graphics spr2613(2613, "sprites/png/miscellaneous/hq.png") { [  66,   56,  64,  31, -31,   0] }
+base_graphics spr2614(2614, "sprites/png/miscellaneous/hq.png") { [ 146,   56,  32,  18,   1,  -3] }
+base_graphics spr2615(2615, "sprites/png/miscellaneous/hq.png") { [ 194,   56,  64,  31, -31,   0] }
+base_graphics spr2616(2616, "sprites/png/miscellaneous/hq.png") { [ 274,   56,   4,   5, -31,  12] }
+base_graphics spr2617(2617, "sprites/png/miscellaneous/hq.png") { [ 290,   56,  64,  31, -31,   0] }
 //continues...
-base_graphics(2618, "sprites/png/miscellaneous/hq.png") { [ 242,  200,  64,  31, -31,   0] }
-base_graphics(2619, "sprites/png/miscellaneous/hq.png") { [ 322,  200,  64,  51, -31, -20] }
-base_graphics(2620, "sprites/png/miscellaneous/hq.png") { [ 402,  200,  64,  31, -31,   0] }
-base_graphics(2621, "sprites/png/miscellaneous/hq.png") { [ 482,  200,  64,  54, -31, -23] }
-base_graphics(2622, "sprites/png/miscellaneous/hq.png") { [ 562,  200,  64,  31, -31,   0] }
-base_graphics(2623, "sprites/png/miscellaneous/hq.png") { [ 642,  200,  64,  40, -31,  -9] }
-base_graphics(2624, "sprites/png/miscellaneous/hq.png") { [ 722,  200,  64,  31, -31,   0] }
-base_graphics(2625, "sprites/png/miscellaneous/hq.png") { [   2,  264,  64,  31, -31,   0] }
-base_graphics(2626, "sprites/png/miscellaneous/hq.png") { [  82,  264,  64,  73, -31, -42] }
-base_graphics(2627, "sprites/png/miscellaneous/hq.png") { [ 162,  264,  64,  31, -31,   0] }
-base_graphics(2628, "sprites/png/miscellaneous/hq.png") { [ 242,  264,  64,  37, -31,  -6] }
-base_graphics(2629, "sprites/png/miscellaneous/hq.png") { [ 322,  264,  64,  31, -31,   0] }
-base_graphics(2630, "sprites/png/miscellaneous/hq.png") { [ 402,  264,  64,  77, -31, -46] }
-base_graphics(2631, "sprites/png/miscellaneous/hq.png") { [ 482,  264,  64,  31, -31,   0] }
+base_graphics spr2618(2618, "sprites/png/miscellaneous/hq.png") { [ 242,  200,  64,  31, -31,   0] }
+base_graphics spr2619(2619, "sprites/png/miscellaneous/hq.png") { [ 322,  200,  64,  51, -31, -20] }
+base_graphics spr2620(2620, "sprites/png/miscellaneous/hq.png") { [ 402,  200,  64,  31, -31,   0] }
+base_graphics spr2621(2621, "sprites/png/miscellaneous/hq.png") { [ 482,  200,  64,  54, -31, -23] }
+base_graphics spr2622(2622, "sprites/png/miscellaneous/hq.png") { [ 562,  200,  64,  31, -31,   0] }
+base_graphics spr2623(2623, "sprites/png/miscellaneous/hq.png") { [ 642,  200,  64,  40, -31,  -9] }
+base_graphics spr2624(2624, "sprites/png/miscellaneous/hq.png") { [ 722,  200,  64,  31, -31,   0] }
+base_graphics spr2625(2625, "sprites/png/miscellaneous/hq.png") { [   2,  264,  64,  31, -31,   0] }
+base_graphics spr2626(2626, "sprites/png/miscellaneous/hq.png") { [  82,  264,  64,  73, -31, -42] }
+base_graphics spr2627(2627, "sprites/png/miscellaneous/hq.png") { [ 162,  264,  64,  31, -31,   0] }
+base_graphics spr2628(2628, "sprites/png/miscellaneous/hq.png") { [ 242,  264,  64,  37, -31,  -6] }
+base_graphics spr2629(2629, "sprites/png/miscellaneous/hq.png") { [ 322,  264,  64,  31, -31,   0] }
+base_graphics spr2630(2630, "sprites/png/miscellaneous/hq.png") { [ 402,  264,  64,  77, -31, -46] }
+base_graphics spr2631(2631, "sprites/png/miscellaneous/hq.png") { [ 482,  264,  64,  31, -31,   0] }
 
 //2632 company statue
-base_graphics(2632, "sprites/png/houses/temprtbuilds.png") { [ 530,  568,  18,  35,  -8, -16] }
+base_graphics spr2632(2632, "sprites/png/houses/temprtbuilds.png") { [ 530,  568,  18,  35,  -8, -16] }

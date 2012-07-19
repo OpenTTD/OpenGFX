@@ -1,36 +1,36 @@
 //3668 dock gui cursor
-base_graphics(3668, "sprites/png/gui/gui04.png") { [ 642,  952,  32,  32,   0,   0] }
+base_graphics spr3668(3668, "sprites/png/gui/gui04.png") { [ 642,  952,  32,  32,   0,   0] }
 
 //3669-3700 ships
-base_graphics(3669, "sprites/png/ships/ships01.png") { [  66,    8,  19,  39,  -8, -15] }
-base_graphics(3670, "sprites/png/ships/ships01.png") { [  98,    8,  56,  32, -44,  -1] }
-base_graphics(3671, "sprites/png/ships/ships01.png") { [ 162,    8,  73,  18, -35,  -6] }
-base_graphics(3672, "sprites/png/ships/ships01.png") { [ 242,    8,  56,  33,  -5,  -2] }
-base_graphics(3673, "sprites/png/ships/ships01.png") { [ 306,    8,  19,  42,  -8, -18] }
-base_graphics(3674, "sprites/png/ships/ships01.png") { [ 338,    8,  56,  33, -44,  -4] }
-base_graphics(3675, "sprites/png/ships/ships01.png") { [ 402,    8,  73,  18, -37,  -7] }
-base_graphics(3676, "sprites/png/ships/ships01.png") { [ 482,    8,  56,  31,  -8,   0] }
-base_graphics(3677, "sprites/png/ships/ships01.png") { [ 546,    8,  19,  51,  -8, -19] }
-base_graphics(3678, "sprites/png/ships/ships01.png") { [ 578,    8,  67,  41, -62,  -3] }
-base_graphics(3679, "sprites/png/ships/ships01.png") { [ 658,    8,  86,  22, -42,  -9] }
-base_graphics(3680, "sprites/png/ships/ships01.png") { [   2,   72,  67,  42,  -5,  -4] }
-base_graphics(3681, "sprites/png/ships/ships01.png") { [  82,   72,  19,  53,  -8, -25] }
-base_graphics(3682, "sprites/png/ships/ships01.png") { [ 114,   72,  66,  42, -60,  -4] }
-base_graphics(3683, "sprites/png/ships/ships01.png") { [ 194,   72,  86,  22, -44, -10] }
-base_graphics(3684, "sprites/png/ships/ships01.png") { [ 290,   72,  66,  42,  -3,  -3] }
-base_graphics(3685, "sprites/png/ships/ships01.png") { [ 370,   72,  16,  32,  -7, -15] }
-base_graphics(3686, "sprites/png/ships/ships01.png") { [ 402,   72,  42,  28, -44,   2] }
-base_graphics(3687, "sprites/png/ships/ships01.png") { [ 450,   72,  52,  19, -24,  -6] }
-base_graphics(3688, "sprites/png/ships/ships01.png") { [ 514,   72,  42,  25,   2,   3] }
-base_graphics(3689, "sprites/png/ships/ships01.png") { [ 562,   72,  16,  26,  -7, -12] }
-base_graphics(3690, "sprites/png/ships/ships01.png") { [ 594,   72,  42,  25, -45,   4] }
-base_graphics(3691, "sprites/png/ships/ships01.png") { [ 642,   72,  52,  19, -26,  -8] }
-base_graphics(3692, "sprites/png/ships/ships01.png") { [ 706,   72,  42,  28,   2,   1] }
-base_graphics(3693, "sprites/png/ships/ships01.png") { [ 754,   72,  24,  36, -11, -12] }
-base_graphics(3694, "sprites/png/ships/ships01.png") { [   2,  136,  50,  34, -54,   1] }
-base_graphics(3695, "sprites/png/ships/ships01.png") { [  66,  136,  56,  24, -27, -11] }
-base_graphics(3696, "sprites/png/ships/ships01.png") { [ 130,  136,  50,  37,   2,  -5] }
-base_graphics(3697, "sprites/png/ships/ships01.png") { [ 194,  136,  24,  37, -11, -17] }
-base_graphics(3698, "sprites/png/ships/ships01.png") { [ 226,  136,  50,  37, -49,  -5] }
-base_graphics(3699, "sprites/png/ships/ships01.png") { [ 290,  136,  56,  25, -28, -12] }
-base_graphics(3700, "sprites/png/ships/ships01.png") { [ 354,  136,  50,  34,   8,   1] }
+base_graphics spr3669(3669, "sprites/png/ships/ships01.png") { [  66,    8,  19,  39,  -8, -15] }
+base_graphics spr3670(3670, "sprites/png/ships/ships01.png") { [  98,    8,  56,  32, -44,  -1] }
+base_graphics spr3671(3671, "sprites/png/ships/ships01.png") { [ 162,    8,  73,  18, -35,  -6] }
+base_graphics spr3672(3672, "sprites/png/ships/ships01.png") { [ 242,    8,  56,  33,  -5,  -2] }
+base_graphics spr3673(3673, "sprites/png/ships/ships01.png") { [ 306,    8,  19,  42,  -8, -18] }
+base_graphics spr3674(3674, "sprites/png/ships/ships01.png") { [ 338,    8,  56,  33, -44,  -4] }
+base_graphics spr3675(3675, "sprites/png/ships/ships01.png") { [ 402,    8,  73,  18, -37,  -7] }
+base_graphics spr3676(3676, "sprites/png/ships/ships01.png") { [ 482,    8,  56,  31,  -8,   0] }
+base_graphics spr3677(3677, "sprites/png/ships/ships01.png") { [ 546,    8,  19,  51,  -8, -19] }
+base_graphics spr3678(3678, "sprites/png/ships/ships01.png") { [ 578,    8,  67,  41, -62,  -3] }
+base_graphics spr3679(3679, "sprites/png/ships/ships01.png") { [ 658,    8,  86,  22, -42,  -9] }
+base_graphics spr3680(3680, "sprites/png/ships/ships01.png") { [   2,   72,  67,  42,  -5,  -4] }
+base_graphics spr3681(3681, "sprites/png/ships/ships01.png") { [  82,   72,  19,  53,  -8, -25] }
+base_graphics spr3682(3682, "sprites/png/ships/ships01.png") { [ 114,   72,  66,  42, -60,  -4] }
+base_graphics spr3683(3683, "sprites/png/ships/ships01.png") { [ 194,   72,  86,  22, -44, -10] }
+base_graphics spr3684(3684, "sprites/png/ships/ships01.png") { [ 290,   72,  66,  42,  -3,  -3] }
+base_graphics spr3685(3685, "sprites/png/ships/ships01.png") { [ 370,   72,  16,  32,  -7, -15] }
+base_graphics spr3686(3686, "sprites/png/ships/ships01.png") { [ 402,   72,  42,  28, -44,   2] }
+base_graphics spr3687(3687, "sprites/png/ships/ships01.png") { [ 450,   72,  52,  19, -24,  -6] }
+base_graphics spr3688(3688, "sprites/png/ships/ships01.png") { [ 514,   72,  42,  25,   2,   3] }
+base_graphics spr3689(3689, "sprites/png/ships/ships01.png") { [ 562,   72,  16,  26,  -7, -12] }
+base_graphics spr3690(3690, "sprites/png/ships/ships01.png") { [ 594,   72,  42,  25, -45,   4] }
+base_graphics spr3691(3691, "sprites/png/ships/ships01.png") { [ 642,   72,  52,  19, -26,  -8] }
+base_graphics spr3692(3692, "sprites/png/ships/ships01.png") { [ 706,   72,  42,  28,   2,   1] }
+base_graphics spr3693(3693, "sprites/png/ships/ships01.png") { [ 754,   72,  24,  36, -11, -12] }
+base_graphics spr3694(3694, "sprites/png/ships/ships01.png") { [   2,  136,  50,  34, -54,   1] }
+base_graphics spr3695(3695, "sprites/png/ships/ships01.png") { [  66,  136,  56,  24, -27, -11] }
+base_graphics spr3696(3696, "sprites/png/ships/ships01.png") { [ 130,  136,  50,  37,   2,  -5] }
+base_graphics spr3697(3697, "sprites/png/ships/ships01.png") { [ 194,  136,  24,  37, -11, -17] }
+base_graphics spr3698(3698, "sprites/png/ships/ships01.png") { [ 226,  136,  50,  37, -49,  -5] }
+base_graphics spr3699(3699, "sprites/png/ships/ships01.png") { [ 290,  136,  56,  25, -28, -12] }
+base_graphics spr3700(3700, "sprites/png/ships/ships01.png") { [ 354,  136,  50,  34,   8,   1] }

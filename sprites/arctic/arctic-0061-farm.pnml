@@ -1,4 +1,4 @@
 
 
 // arctic farm
-base_graphics(  61, "sprites/png/industries/farm_arctic.png") { tmpl_farm() }
+base_graphics spr61(  61, "sprites/png/industries/farm_arctic.png") { tmpl_farm() }

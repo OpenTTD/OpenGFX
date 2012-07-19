@@ -1,5 +1,5 @@
 // arctic rough terrain 73 - 95
-base_graphics(  73, "sprites/png/terrain/rough-arctic.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
+base_graphics spr73(  73, "sprites/png/terrain/rough-arctic.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
 
 // arctic rocky terrain 96 - 114
-base_graphics(  96, "sprites/png/terrain/rocks-arctic.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr96(  96, "sprites/png/terrain/rocks-arctic.png") { tmpl_groundtiles(1, 1) }

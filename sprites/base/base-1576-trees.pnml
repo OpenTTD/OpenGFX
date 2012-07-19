@@ -1,264 +1,264 @@
 
 
 //1576-1764 temperate trees
-base_graphics(1576, "sprites/png/trees/temperate/tree_wide_01_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1583, "sprites/png/trees/temperate/tree_wide_02_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1590, "sprites/png/trees/temperate/tree_wide_03_conifer.gimp.png") { tmpl_tree_wide() }
-base_graphics(1597, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1604, "sprites/png/trees/temperate/tree_wide_05_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1611, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1618, "sprites/png/trees/temperate/tree_wide_07_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1625, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1632, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1639, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1646, "sprites/png/trees/temperate/tree_wide_11_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1653, "sprites/png/trees/temperate/tree_wide_12_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1660, "sprites/png/trees/temperate/tree_wide_13_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1667, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }
-base_graphics(1674, "sprites/png/trees/temperate/tree_wide_15_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1681, "sprites/png/trees/temperate/tree_wide_16_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1688, "sprites/png/trees/temperate/tree_wide_17_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1695, "sprites/png/trees/temperate/tree_wide_18_leaf.gimp.png") { tmpl_tree_wide() }
-base_graphics(1702, "sprites/png/trees/temperate/tree_wide_19_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1576(1576, "sprites/png/trees/temperate/tree_wide_01_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1583(1583, "sprites/png/trees/temperate/tree_wide_02_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1590(1590, "sprites/png/trees/temperate/tree_wide_03_conifer.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1597(1597, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1604(1604, "sprites/png/trees/temperate/tree_wide_05_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1611(1611, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1618(1618, "sprites/png/trees/temperate/tree_wide_07_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1625(1625, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1632(1632, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1639(1639, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1646(1646, "sprites/png/trees/temperate/tree_wide_11_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1653(1653, "sprites/png/trees/temperate/tree_wide_12_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1660(1660, "sprites/png/trees/temperate/tree_wide_13_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1667(1667, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }
+base_graphics spr1674(1674, "sprites/png/trees/temperate/tree_wide_15_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1681(1681, "sprites/png/trees/temperate/tree_wide_16_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1688(1688, "sprites/png/trees/temperate/tree_wide_17_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1695(1695, "sprites/png/trees/temperate/tree_wide_18_leaf.gimp.png") { tmpl_tree_wide() }
+base_graphics spr1702(1702, "sprites/png/trees/temperate/tree_wide_19_leaf.gimp.png") { tmpl_tree_wide() }
 
 //Arctic trees: the following trees have snowy equivalents:
-base_graphics(1709, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }      // 1709 conifer (snowy: 1765)
-base_graphics(1716, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }         // 1716 leaf tree (snowy: 1772)
-base_graphics(1723, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }         // 1723 leaf tree (snowy: 1779)
-base_graphics(1730, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }      // 1730 conifer (snowy: 1786)
-base_graphics(1737, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }      // 1737 conifer (snowy: 1793)
-base_graphics(1744, "sprites/png/trees/arctic/tree_04_conifer.gimp.png") { tmpl_tree_narrow() }      // 1744 conifer (snowy: 1800)
-base_graphics(1751, "sprites/png/trees/arctic/tree_05_conifer.gimp.png") { tmpl_tree_narrow() }      // 1751 conifer (snowy: 1807)
-base_graphics(1758, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }         // 1758 leaf tree (snowy: 1814)
+base_graphics spr1709(1709, "sprites/png/trees/arctic/tree_01_conifer.gimp.png") { tmpl_tree_narrow() }      // 1709 conifer (snowy: 1765)
+base_graphics spr1716(1716, "sprites/png/trees/arctic/tree_06_leaf.gimp.png") { tmpl_tree_narrow() }         // 1716 leaf tree (snowy: 1772)
+base_graphics spr1723(1723, "sprites/png/trees/arctic/tree_07_leaf.gimp.png") { tmpl_tree_narrow() }         // 1723 leaf tree (snowy: 1779)
+base_graphics spr1730(1730, "sprites/png/trees/arctic/tree_08_conifer.gimp.png") { tmpl_tree_narrow() }      // 1730 conifer (snowy: 1786)
+base_graphics spr1737(1737, "sprites/png/trees/arctic/tree_09_conifer.gimp.png") { tmpl_tree_narrow() }      // 1737 conifer (snowy: 1793)
+base_graphics spr1744(1744, "sprites/png/trees/arctic/tree_04_conifer.gimp.png") { tmpl_tree_narrow() }      // 1744 conifer (snowy: 1800)
+base_graphics spr1751(1751, "sprites/png/trees/arctic/tree_05_conifer.gimp.png") { tmpl_tree_narrow() }      // 1751 conifer (snowy: 1807)
+base_graphics spr1758(1758, "sprites/png/trees/arctic/tree_10_leaf.gimp.png") { tmpl_tree_narrow() }         // 1758 leaf tree (snowy: 1814)
 // snowy trees
-base_graphics(1765, "sprites/png/trees/arctic/tree_01_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1765 snowy conifer (equiv of 1709)
-base_graphics(1772, "sprites/png/trees/arctic/tree_06_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1772 snowy leaf tree (equiv. of 1716)
-base_graphics(1779, "sprites/png/trees/arctic/tree_07_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1779 snowy leaf tree (equiv. of 1723)
-base_graphics(1786, "sprites/png/trees/arctic/tree_08_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1786 snowy conifer (equiv. of 1730)
-base_graphics(1793, "sprites/png/trees/arctic/tree_09_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1793 snowy conifer (equiv. of 1737)
-base_graphics(1800, "sprites/png/trees/arctic/tree_04_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1800 snowy conifer (equiv. of 1744)
-base_graphics(1807, "sprites/png/trees/arctic/tree_05_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1807 snowy conifer (equiv. of 1751)
-base_graphics(1814, "sprites/png/trees/arctic/tree_10_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1814 snowy leaf tree (equiv. of 1758)
+base_graphics spr1765(1765, "sprites/png/trees/arctic/tree_01_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1765 snowy conifer (equiv of 1709)
+base_graphics spr1772(1772, "sprites/png/trees/arctic/tree_06_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1772 snowy leaf tree (equiv. of 1716)
+base_graphics spr1779(1779, "sprites/png/trees/arctic/tree_07_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1779 snowy leaf tree (equiv. of 1723)
+base_graphics spr1786(1786, "sprites/png/trees/arctic/tree_08_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1786 snowy conifer (equiv. of 1730)
+base_graphics spr1793(1793, "sprites/png/trees/arctic/tree_09_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1793 snowy conifer (equiv. of 1737)
+base_graphics spr1800(1800, "sprites/png/trees/arctic/tree_04_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1800 snowy conifer (equiv. of 1744)
+base_graphics spr1807(1807, "sprites/png/trees/arctic/tree_05_snow_conifer.gimp.png") { tmpl_tree_narrow() } // 1807 snowy conifer (equiv. of 1751)
+base_graphics spr1814(1814, "sprites/png/trees/arctic/tree_10_snow_leaf.gimp.png") { tmpl_tree_narrow() }    // 1814 snowy leaf tree (equiv. of 1758)
 
 //1821-1946 tropical trees
 // 1821 banana tree												#1
-base_graphics(1821, "sprites/png/landscape/landscape031.png") { [ 210,  584,  10,  18,  -5, -12] }
-base_graphics(1822, "sprites/png/landscape/landscape031.png") { [ 226,  584,  16,  29,  -8, -23] }
-base_graphics(1823, "sprites/png/landscape/landscape031.png") { [ 258,  584,  21,  36, -10, -30] }
-base_graphics(1824, "sprites/png/landscape/landscape031.png") { [ 290,  584,  25,  42, -12, -36] }
-base_graphics(1825, "sprites/png/landscape/landscape031.png") { [ 322,  584,  25,  42, -12, -36] }
-base_graphics(1826, "sprites/png/landscape/landscape031.png") { [ 354,  584,  19,  40,  -9, -34] }
-base_graphics(1827, "sprites/png/landscape/landscape031.png") { [ 386,  584,  17,  34,  -8, -28] }
+base_graphics spr1821(1821, "sprites/png/landscape/landscape031.png") { [ 210,  584,  10,  18,  -5, -12] }
+base_graphics spr1822(1822, "sprites/png/landscape/landscape031.png") { [ 226,  584,  16,  29,  -8, -23] }
+base_graphics spr1823(1823, "sprites/png/landscape/landscape031.png") { [ 258,  584,  21,  36, -10, -30] }
+base_graphics spr1824(1824, "sprites/png/landscape/landscape031.png") { [ 290,  584,  25,  42, -12, -36] }
+base_graphics spr1825(1825, "sprites/png/landscape/landscape031.png") { [ 322,  584,  25,  42, -12, -36] }
+base_graphics spr1826(1826, "sprites/png/landscape/landscape031.png") { [ 354,  584,  19,  40,  -9, -34] }
+base_graphics spr1827(1827, "sprites/png/landscape/landscape031.png") { [ 386,  584,  17,  34,  -8, -28] }
 // 1828 banana tree 2											#2
-base_graphics(1828, "sprites/png/landscape/landscape031.png") { [ 418,  584,  10,  18,  -5, -12] }
-base_graphics(1829, "sprites/png/landscape/landscape031.png") { [ 434,  584,  16,  29,  -8, -23] }
-base_graphics(1830, "sprites/png/landscape/landscape031.png") { [ 466,  584,  21,  36, -10, -30] }
-base_graphics(1831, "sprites/png/landscape/landscape031.png") { [ 498,  584,  25,  42, -12, -36] }
-base_graphics(1832, "sprites/png/landscape/landscape031.png") { [ 530,  584,  25,  42, -12, -36] }
-base_graphics(1833, "sprites/png/landscape/landscape031.png") { [ 562,  584,  19,  40,  -9, -34] }
-base_graphics(1834, "sprites/png/landscape/landscape031.png") { [ 594,  584,  17,  34,  -8, -28] }
+base_graphics spr1828(1828, "sprites/png/landscape/landscape031.png") { [ 418,  584,  10,  18,  -5, -12] }
+base_graphics spr1829(1829, "sprites/png/landscape/landscape031.png") { [ 434,  584,  16,  29,  -8, -23] }
+base_graphics spr1830(1830, "sprites/png/landscape/landscape031.png") { [ 466,  584,  21,  36, -10, -30] }
+base_graphics spr1831(1831, "sprites/png/landscape/landscape031.png") { [ 498,  584,  25,  42, -12, -36] }
+base_graphics spr1832(1832, "sprites/png/landscape/landscape031.png") { [ 530,  584,  25,  42, -12, -36] }
+base_graphics spr1833(1833, "sprites/png/landscape/landscape031.png") { [ 562,  584,  19,  40,  -9, -34] }
+base_graphics spr1834(1834, "sprites/png/landscape/landscape031.png") { [ 594,  584,  17,  34,  -8, -28] }
 // 1835 leaf tree												#3
-base_graphics(1835, "sprites/png/landscape/landscape031.png") { [ 626,  584,  11,  16,  -5, -10] }
-base_graphics(1836, "sprites/png/landscape/landscape031.png") { [ 642,  584,  18,  26,  -9, -20] }
-base_graphics(1837, "sprites/png/landscape/landscape031.png") { [ 674,  584,  25,  36, -12, -30] }
-base_graphics(1838, "sprites/png/landscape/landscape031.png") { [ 706,  584,  29,  41, -14, -35] }
-base_graphics(1839, "sprites/png/landscape/landscape031.png") { [ 754,  584,  29,  41, -14, -35] }
-base_graphics(1840, "sprites/png/landscape/landscape031.png") { [   2,  648,  29,  41, -14, -35] }
-base_graphics(1841, "sprites/png/landscape/landscape031.png") { [  50,  648,  26,  39, -13, -33] }
+base_graphics spr1835(1835, "sprites/png/landscape/landscape031.png") { [ 626,  584,  11,  16,  -5, -10] }
+base_graphics spr1836(1836, "sprites/png/landscape/landscape031.png") { [ 642,  584,  18,  26,  -9, -20] }
+base_graphics spr1837(1837, "sprites/png/landscape/landscape031.png") { [ 674,  584,  25,  36, -12, -30] }
+base_graphics spr1838(1838, "sprites/png/landscape/landscape031.png") { [ 706,  584,  29,  41, -14, -35] }
+base_graphics spr1839(1839, "sprites/png/landscape/landscape031.png") { [ 754,  584,  29,  41, -14, -35] }
+base_graphics spr1840(1840, "sprites/png/landscape/landscape031.png") { [   2,  648,  29,  41, -14, -35] }
+base_graphics spr1841(1841, "sprites/png/landscape/landscape031.png") { [  50,  648,  26,  39, -13, -33] }
 // 1842 leaf tree												#4
-base_graphics(1842, "sprites/png/landscape/landscape031.png") { [  82,  648,  16,  22,  -8, -16] }
-base_graphics(1843, "sprites/png/landscape/landscape031.png") { [ 114,  648,  23,  28, -11, -22] }
-base_graphics(1844, "sprites/png/landscape/landscape031.png") { [ 146,  648,  23,  42, -11, -36] }
-base_graphics(1845, "sprites/png/landscape/landscape031.png") { [ 178,  648,  28,  53, -14, -47] }
-base_graphics(1846, "sprites/png/landscape/landscape031.png") { [ 226,  648,  29,  53, -14, -47] }
-base_graphics(1847, "sprites/png/landscape/landscape031.png") { [ 274,  648,  29,  53, -14, -47] }
-base_graphics(1848, "sprites/png/landscape/landscape031.png") { [ 322,  648,  26,  51, -13, -45] }
+base_graphics spr1842(1842, "sprites/png/landscape/landscape031.png") { [  82,  648,  16,  22,  -8, -16] }
+base_graphics spr1843(1843, "sprites/png/landscape/landscape031.png") { [ 114,  648,  23,  28, -11, -22] }
+base_graphics spr1844(1844, "sprites/png/landscape/landscape031.png") { [ 146,  648,  23,  42, -11, -36] }
+base_graphics spr1845(1845, "sprites/png/landscape/landscape031.png") { [ 178,  648,  28,  53, -14, -47] }
+base_graphics spr1846(1846, "sprites/png/landscape/landscape031.png") { [ 226,  648,  29,  53, -14, -47] }
+base_graphics spr1847(1847, "sprites/png/landscape/landscape031.png") { [ 274,  648,  29,  53, -14, -47] }
+base_graphics spr1848(1848, "sprites/png/landscape/landscape031.png") { [ 322,  648,  26,  51, -13, -45] }
 // 1849 large scrub												#5
-base_graphics(1849, "sprites/png/landscape/landscape031.png") { [ 354,  648,   9,  10,  -4,  -4] }
-base_graphics(1850, "sprites/png/landscape/landscape031.png") { [ 370,  648,  12,  13,  -6,  -7] }
-base_graphics(1851, "sprites/png/landscape/landscape031.png") { [ 402,  648,  19,  18,  -9, -12] }
-base_graphics(1852, "sprites/png/landscape/landscape031.png") { [ 434,  648,  24,  24, -12, -18] }
-base_graphics(1853, "sprites/png/landscape/landscape031.png") { [ 466,  648,  23,  24, -11, -18] }
-base_graphics(1854, "sprites/png/landscape/landscape031.png") { [ 498,  648,  22,  24, -11, -18] }
-base_graphics(1855, "sprites/png/landscape/landscape031.png") { [ 530,  648,  18,  22,  -9, -16] }
+base_graphics spr1849(1849, "sprites/png/landscape/landscape031.png") { [ 354,  648,   9,  10,  -4,  -4] }
+base_graphics spr1850(1850, "sprites/png/landscape/landscape031.png") { [ 370,  648,  12,  13,  -6,  -7] }
+base_graphics spr1851(1851, "sprites/png/landscape/landscape031.png") { [ 402,  648,  19,  18,  -9, -12] }
+base_graphics spr1852(1852, "sprites/png/landscape/landscape031.png") { [ 434,  648,  24,  24, -12, -18] }
+base_graphics spr1853(1853, "sprites/png/landscape/landscape031.png") { [ 466,  648,  23,  24, -11, -18] }
+base_graphics spr1854(1854, "sprites/png/landscape/landscape031.png") { [ 498,  648,  22,  24, -11, -18] }
+base_graphics spr1855(1855, "sprites/png/landscape/landscape031.png") { [ 530,  648,  18,  22,  -9, -16] }
 // 1856 large scrub 2											#6
-base_graphics(1856, "sprites/png/landscape/landscape031.png") { [ 562,  648,  11,   7,  -5,  -1] }
-base_graphics(1857, "sprites/png/landscape/landscape031.png") { [ 578,  648,  12,   9,  -6,  -3] }
-base_graphics(1858, "sprites/png/landscape/landscape031.png") { [ 610,  648,  20,  14, -10,  -8] }
-base_graphics(1859, "sprites/png/landscape/landscape031.png") { [ 642,  648,  23,  17, -11, -11] }
-base_graphics(1860, "sprites/png/landscape/landscape031.png") { [ 674,  648,  23,  17, -11, -11] }
-base_graphics(1861, "sprites/png/landscape/landscape031.png") { [ 706,  648,  23,  15, -11,  -9] }
-base_graphics(1862, "sprites/png/landscape/landscape031.png") { [ 738,  648,  18,  14,  -9,  -8] }
+base_graphics spr1856(1856, "sprites/png/landscape/landscape031.png") { [ 562,  648,  11,   7,  -5,  -1] }
+base_graphics spr1857(1857, "sprites/png/landscape/landscape031.png") { [ 578,  648,  12,   9,  -6,  -3] }
+base_graphics spr1858(1858, "sprites/png/landscape/landscape031.png") { [ 610,  648,  20,  14, -10,  -8] }
+base_graphics spr1859(1859, "sprites/png/landscape/landscape031.png") { [ 642,  648,  23,  17, -11, -11] }
+base_graphics spr1860(1860, "sprites/png/landscape/landscape031.png") { [ 674,  648,  23,  17, -11, -11] }
+base_graphics spr1861(1861, "sprites/png/landscape/landscape031.png") { [ 706,  648,  23,  15, -11,  -9] }
+base_graphics spr1862(1862, "sprites/png/landscape/landscape031.png") { [ 738,  648,  18,  14,  -9,  -8] }
 // 1863 leaf tree												#7
-base_graphics(1863, "sprites/png/landscape/landscape031.png") { [ 770,  648,  11,  16,  -5, -10] }
-base_graphics(1864, "sprites/png/landscape/landscape031.png") { [   2,  712,  18,  26,  -9, -20] }
-base_graphics(1865, "sprites/png/landscape/landscape031.png") { [  34,  712,  25,  36, -12, -30] }
-base_graphics(1866, "sprites/png/landscape/landscape031.png") { [  66,  712,  29,  41, -14, -35] }
-base_graphics(1867, "sprites/png/landscape/landscape031.png") { [ 114,  712,  29,  41, -14, -35] }
-base_graphics(1868, "sprites/png/landscape/landscape031.png") { [ 162,  712,  29,  41, -14, -35] }
-base_graphics(1869, "sprites/png/landscape/landscape031.png") { [ 210,  712,  26,  39, -13, -33] }
+base_graphics spr1863(1863, "sprites/png/landscape/landscape031.png") { [ 770,  648,  11,  16,  -5, -10] }
+base_graphics spr1864(1864, "sprites/png/landscape/landscape031.png") { [   2,  712,  18,  26,  -9, -20] }
+base_graphics spr1865(1865, "sprites/png/landscape/landscape031.png") { [  34,  712,  25,  36, -12, -30] }
+base_graphics spr1866(1866, "sprites/png/landscape/landscape031.png") { [  66,  712,  29,  41, -14, -35] }
+base_graphics spr1867(1867, "sprites/png/landscape/landscape031.png") { [ 114,  712,  29,  41, -14, -35] }
+base_graphics spr1868(1868, "sprites/png/landscape/landscape031.png") { [ 162,  712,  29,  41, -14, -35] }
+base_graphics spr1869(1869, "sprites/png/landscape/landscape031.png") { [ 210,  712,  26,  39, -13, -33] }
 // 1870 eucalyptus tree											#8
-base_graphics(1870, "sprites/png/landscape/landscape031.png") { [ 242,  712,  16,  32,  -8, -26] }
-base_graphics(1871, "sprites/png/landscape/landscape031.png") { [ 274,  712,  21,  45, -10, -39] }
-base_graphics(1872, "sprites/png/landscape/landscape031.png") { [ 306,  712,  26,  62, -13, -56] }
-base_graphics(1873, "sprites/png/landscape/landscape031.png") { [ 338,  712,  29,  76, -14, -70] }
-base_graphics(1874, "sprites/png/landscape/landscape031.png") { [ 386,  712,  29,  76, -14, -70] }
-base_graphics(1875, "sprites/png/landscape/landscape031.png") { [ 434,  712,  29,  75, -14, -69] }
-base_graphics(1876, "sprites/png/landscape/landscape031.png") { [ 482,  712,  26,  74, -13, -68] }
+base_graphics spr1870(1870, "sprites/png/landscape/landscape031.png") { [ 242,  712,  16,  32,  -8, -26] }
+base_graphics spr1871(1871, "sprites/png/landscape/landscape031.png") { [ 274,  712,  21,  45, -10, -39] }
+base_graphics spr1872(1872, "sprites/png/landscape/landscape031.png") { [ 306,  712,  26,  62, -13, -56] }
+base_graphics spr1873(1873, "sprites/png/landscape/landscape031.png") { [ 338,  712,  29,  76, -14, -70] }
+base_graphics spr1874(1874, "sprites/png/landscape/landscape031.png") { [ 386,  712,  29,  76, -14, -70] }
+base_graphics spr1875(1875, "sprites/png/landscape/landscape031.png") { [ 434,  712,  29,  75, -14, -69] }
+base_graphics spr1876(1876, "sprites/png/landscape/landscape031.png") { [ 482,  712,  26,  74, -13, -68] }
 // 1877 leaf tree												#9
-base_graphics(1877, "sprites/png/landscape/landscape031.png") { [ 514,  712,  11,  16,  -5, -10] }
-base_graphics(1878, "sprites/png/landscape/landscape031.png") { [ 530,  712,  18,  26,  -9, -20] }
-base_graphics(1879, "sprites/png/landscape/landscape031.png") { [ 562,  712,  25,  36, -12, -30] }
-base_graphics(1880, "sprites/png/landscape/landscape031.png") { [ 594,  712,  29,  41, -14, -35] }
-base_graphics(1881, "sprites/png/landscape/landscape031.png") { [ 642,  712,  29,  41, -14, -35] }
-base_graphics(1882, "sprites/png/landscape/landscape031.png") { [ 690,  712,  29,  41, -14, -35] }
-base_graphics(1883, "sprites/png/landscape/landscape031.png") { [ 738,  712,  26,  39, -13, -33] }
+base_graphics spr1877(1877, "sprites/png/landscape/landscape031.png") { [ 514,  712,  11,  16,  -5, -10] }
+base_graphics spr1878(1878, "sprites/png/landscape/landscape031.png") { [ 530,  712,  18,  26,  -9, -20] }
+base_graphics spr1879(1879, "sprites/png/landscape/landscape031.png") { [ 562,  712,  25,  36, -12, -30] }
+base_graphics spr1880(1880, "sprites/png/landscape/landscape031.png") { [ 594,  712,  29,  41, -14, -35] }
+base_graphics spr1881(1881, "sprites/png/landscape/landscape031.png") { [ 642,  712,  29,  41, -14, -35] }
+base_graphics spr1882(1882, "sprites/png/landscape/landscape031.png") { [ 690,  712,  29,  41, -14, -35] }
+base_graphics spr1883(1883, "sprites/png/landscape/landscape031.png") { [ 738,  712,  26,  39, -13, -33] }
 // 1884 palm tree												#10
-base_graphics(1884, "sprites/png/landscape/landscape031.png") { [ 770,  712,  15,  24,  -7, -18] }
-base_graphics(1885, "sprites/png/landscape/landscape031.png") { [   2,  808,  16,  30,  -8, -24] }
-base_graphics(1886, "sprites/png/landscape/landscape031.png") { [  34,  808,  19,  34,  -9, -28] }
-base_graphics(1887, "sprites/png/landscape/landscape031.png") { [  66,  808,  25,  43, -12, -37] }
-base_graphics(1888, "sprites/png/landscape/landscape031.png") { [  98,  808,  22,  43, -11, -37] }
-base_graphics(1889, "sprites/png/landscape/landscape031.png") { [ 130,  808,  22,  38, -11, -32] }
-base_graphics(1890, "sprites/png/landscape/landscape031.png") { [ 162,  808,  19,  34,  -9, -28] }
+base_graphics spr1884(1884, "sprites/png/landscape/landscape031.png") { [ 770,  712,  15,  24,  -7, -18] }
+base_graphics spr1885(1885, "sprites/png/landscape/landscape031.png") { [   2,  808,  16,  30,  -8, -24] }
+base_graphics spr1886(1886, "sprites/png/landscape/landscape031.png") { [  34,  808,  19,  34,  -9, -28] }
+base_graphics spr1887(1887, "sprites/png/landscape/landscape031.png") { [  66,  808,  25,  43, -12, -37] }
+base_graphics spr1888(1888, "sprites/png/landscape/landscape031.png") { [  98,  808,  22,  43, -11, -37] }
+base_graphics spr1889(1889, "sprites/png/landscape/landscape031.png") { [ 130,  808,  22,  38, -11, -32] }
+base_graphics spr1890(1890, "sprites/png/landscape/landscape031.png") { [ 162,  808,  19,  34,  -9, -28] }
 // 1891 coconut tree											#11
-base_graphics(1891, "sprites/png/landscape/landscape031.png") { [ 194,  808,  11,  17,  -5, -11] }
-base_graphics(1892, "sprites/png/landscape/landscape031.png") { [ 210,  808,  15,  24,  -7, -18] }
-base_graphics(1893, "sprites/png/landscape/landscape031.png") { [ 242,  808,  20,  28, -10, -22] }
-base_graphics(1894, "sprites/png/landscape/landscape031.png") { [ 274,  808,  25,  35, -12, -29] }
-base_graphics(1895, "sprites/png/landscape/landscape031.png") { [ 306,  808,  21,  35, -10, -29] }
-base_graphics(1896, "sprites/png/landscape/landscape031.png") { [ 338,  808,  16,  32,  -8, -26] }
-base_graphics(1897, "sprites/png/landscape/landscape031.png") { [ 370,  808,  16,  31,  -8, -25] }
+base_graphics spr1891(1891, "sprites/png/landscape/landscape031.png") { [ 194,  808,  11,  17,  -5, -11] }
+base_graphics spr1892(1892, "sprites/png/landscape/landscape031.png") { [ 210,  808,  15,  24,  -7, -18] }
+base_graphics spr1893(1893, "sprites/png/landscape/landscape031.png") { [ 242,  808,  20,  28, -10, -22] }
+base_graphics spr1894(1894, "sprites/png/landscape/landscape031.png") { [ 274,  808,  25,  35, -12, -29] }
+base_graphics spr1895(1895, "sprites/png/landscape/landscape031.png") { [ 306,  808,  21,  35, -10, -29] }
+base_graphics spr1896(1896, "sprites/png/landscape/landscape031.png") { [ 338,  808,  16,  32,  -8, -26] }
+base_graphics spr1897(1897, "sprites/png/landscape/landscape031.png") { [ 370,  808,  16,  31,  -8, -25] }
 // 1898 large palm tree											#12
-base_graphics(1898, "sprites/png/landscape/landscape031.png") { [ 402,  808,  15,  21,  -7, -15] }
-base_graphics(1899, "sprites/png/landscape/landscape031.png") { [ 434,  808,  19,  30,  -9, -24] }
-base_graphics(1900, "sprites/png/landscape/landscape031.png") { [ 466,  808,  25,  50, -12, -44] }
-base_graphics(1901, "sprites/png/landscape/landscape031.png") { [ 498,  808,  25,  75, -12, -69] }
-base_graphics(1902, "sprites/png/landscape/landscape031.png") { [ 530,  808,  22,  72, -11, -66] }
-base_graphics(1903, "sprites/png/landscape/landscape031.png") { [ 562,  808,  19,  64, -10, -58] }
-base_graphics(1904, "sprites/png/landscape/landscape031.png") { [ 594,  808,  17,  50,  -8, -44] }
+base_graphics spr1898(1898, "sprites/png/landscape/landscape031.png") { [ 402,  808,  15,  21,  -7, -15] }
+base_graphics spr1899(1899, "sprites/png/landscape/landscape031.png") { [ 434,  808,  19,  30,  -9, -24] }
+base_graphics spr1900(1900, "sprites/png/landscape/landscape031.png") { [ 466,  808,  25,  50, -12, -44] }
+base_graphics spr1901(1901, "sprites/png/landscape/landscape031.png") { [ 498,  808,  25,  75, -12, -69] }
+base_graphics spr1902(1902, "sprites/png/landscape/landscape031.png") { [ 530,  808,  22,  72, -11, -66] }
+base_graphics spr1903(1903, "sprites/png/landscape/landscape031.png") { [ 562,  808,  19,  64, -10, -58] }
+base_graphics spr1904(1904, "sprites/png/landscape/landscape031.png") { [ 594,  808,  17,  50,  -8, -44] }
 // 1905 palm tree 2												#13
-base_graphics(1905, "sprites/png/landscape/landscape031.png") { [ 626,  808,  11,  23,  -5, -17] }
-base_graphics(1906, "sprites/png/landscape/landscape031.png") { [ 642,  808,  15,  30,  -7, -24] }
-base_graphics(1907, "sprites/png/landscape/landscape031.png") { [ 674,  808,  20,  34, -10, -28] }
-base_graphics(1908, "sprites/png/landscape/landscape031.png") { [ 706,  808,  25,  41, -12, -35] }
-base_graphics(1909, "sprites/png/landscape/landscape031.png") { [ 738,  808,  21,  41, -10, -35] }
-base_graphics(1910, "sprites/png/landscape/landscape031.png") { [ 770,  808,  16,  38,  -8, -32] }
-base_graphics(1911, "sprites/png/landscape/landscape031.png") { [   2,  904,  16,  37,  -8, -31] }
+base_graphics spr1905(1905, "sprites/png/landscape/landscape031.png") { [ 626,  808,  11,  23,  -5, -17] }
+base_graphics spr1906(1906, "sprites/png/landscape/landscape031.png") { [ 642,  808,  15,  30,  -7, -24] }
+base_graphics spr1907(1907, "sprites/png/landscape/landscape031.png") { [ 674,  808,  20,  34, -10, -28] }
+base_graphics spr1908(1908, "sprites/png/landscape/landscape031.png") { [ 706,  808,  25,  41, -12, -35] }
+base_graphics spr1909(1909, "sprites/png/landscape/landscape031.png") { [ 738,  808,  21,  41, -10, -35] }
+base_graphics spr1910(1910, "sprites/png/landscape/landscape031.png") { [ 770,  808,  16,  38,  -8, -32] }
+base_graphics spr1911(1911, "sprites/png/landscape/landscape031.png") { [   2,  904,  16,  37,  -8, -31] }
 // 1912 cactus													#14
-base_graphics(1912, "sprites/png/landscape/landscape031.png") { [  34,  904,   4,  12,  -2,  -6] }
-base_graphics(1913, "sprites/png/landscape/landscape031.png") { [  50,  904,   7,  28,  -3, -22] }
-base_graphics(1914, "sprites/png/landscape/landscape031.png") { [  66,  904,  13,  28,  -6, -22] }
-base_graphics(1915, "sprites/png/landscape/landscape031.png") { [  98,  904,  14,  28,  -7, -22] }
-base_graphics(1916, "sprites/png/landscape/landscape031.png") { [ 130,  904,  14,  28,  -7, -22] }
-base_graphics(1917, "sprites/png/landscape/landscape031.png") { [ 162,  904,  14,  28,  -7, -22] }
-base_graphics(1918, "sprites/png/landscape/landscape031.png") { [ 194,  904,  14,  28,  -7, -22] }
+base_graphics spr1912(1912, "sprites/png/landscape/landscape031.png") { [  34,  904,   4,  12,  -2,  -6] }
+base_graphics spr1913(1913, "sprites/png/landscape/landscape031.png") { [  50,  904,   7,  28,  -3, -22] }
+base_graphics spr1914(1914, "sprites/png/landscape/landscape031.png") { [  66,  904,  13,  28,  -6, -22] }
+base_graphics spr1915(1915, "sprites/png/landscape/landscape031.png") { [  98,  904,  14,  28,  -7, -22] }
+base_graphics spr1916(1916, "sprites/png/landscape/landscape031.png") { [ 130,  904,  14,  28,  -7, -22] }
+base_graphics spr1917(1917, "sprites/png/landscape/landscape031.png") { [ 162,  904,  14,  28,  -7, -22] }
+base_graphics spr1918(1918, "sprites/png/landscape/landscape031.png") { [ 194,  904,  14,  28,  -7, -22] }
 // 1919 small cacuts											#15
-base_graphics(1919, "sprites/png/landscape/landscape031.png") { [ 226,  904,   3,   6,  -1,   0] }
-base_graphics(1920, "sprites/png/landscape/landscape031.png") { [ 242,  904,   5,  10,  -2,  -4] }
-base_graphics(1921, "sprites/png/landscape/landscape031.png") { [ 258,  904,   6,  12,  -3,  -6] }
-base_graphics(1922, "sprites/png/landscape/landscape031.png") { [ 274,  904,   6,  12,  -3,  -6] }
-base_graphics(1923, "sprites/png/landscape/landscape031.png") { [ 290,  904,   6,  12,  -3,  -6] }
-base_graphics(1924, "sprites/png/landscape/landscape031.png") { [ 306,  904,   6,  12,  -3,  -6] }
-base_graphics(1925, "sprites/png/landscape/landscape031.png") { [ 322,  904,   6,  12,  -3,  -6] }
+base_graphics spr1919(1919, "sprites/png/landscape/landscape031.png") { [ 226,  904,   3,   6,  -1,   0] }
+base_graphics spr1920(1920, "sprites/png/landscape/landscape031.png") { [ 242,  904,   5,  10,  -2,  -4] }
+base_graphics spr1921(1921, "sprites/png/landscape/landscape031.png") { [ 258,  904,   6,  12,  -3,  -6] }
+base_graphics spr1922(1922, "sprites/png/landscape/landscape031.png") { [ 274,  904,   6,  12,  -3,  -6] }
+base_graphics spr1923(1923, "sprites/png/landscape/landscape031.png") { [ 290,  904,   6,  12,  -3,  -6] }
+base_graphics spr1924(1924, "sprites/png/landscape/landscape031.png") { [ 306,  904,   6,  12,  -3,  -6] }
+base_graphics spr1925(1925, "sprites/png/landscape/landscape031.png") { [ 322,  904,   6,  12,  -3,  -6] }
 // 1926 palm tree 3												#16
-base_graphics(1926, "sprites/png/landscape/landscape031.png") { [ 338,  904,  15,  21,  -7, -15] }
-base_graphics(1927, "sprites/png/landscape/landscape031.png") { [ 370,  904,  19,  30,  -9, -24] }
-base_graphics(1928, "sprites/png/landscape/landscape031.png") { [ 402,  904,  25,  42, -12, -36] }
-base_graphics(1929, "sprites/png/landscape/landscape031.png") { [ 434,  904,  25,  64, -12, -56] }
-base_graphics(1930, "sprites/png/landscape/landscape031.png") { [ 466,  904,  22,  59, -11, -53] }
-base_graphics(1931, "sprites/png/landscape/landscape031.png") { [ 498,  904,  19,  52,  -9, -46] }
-base_graphics(1932, "sprites/png/landscape/landscape031.png") { [ 530,  904,  17,  43,  -8, -37] }
+base_graphics spr1926(1926, "sprites/png/landscape/landscape031.png") { [ 338,  904,  15,  21,  -7, -15] }
+base_graphics spr1927(1927, "sprites/png/landscape/landscape031.png") { [ 370,  904,  19,  30,  -9, -24] }
+base_graphics spr1928(1928, "sprites/png/landscape/landscape031.png") { [ 402,  904,  25,  42, -12, -36] }
+base_graphics spr1929(1929, "sprites/png/landscape/landscape031.png") { [ 434,  904,  25,  64, -12, -56] }
+base_graphics spr1930(1930, "sprites/png/landscape/landscape031.png") { [ 466,  904,  22,  59, -11, -53] }
+base_graphics spr1931(1931, "sprites/png/landscape/landscape031.png") { [ 498,  904,  19,  52,  -9, -46] }
+base_graphics spr1932(1932, "sprites/png/landscape/landscape031.png") { [ 530,  904,  17,  43,  -8, -37] }
 // 1933 leaf tree												#17
-base_graphics(1933, "sprites/png/landscape/landscape031.png") { [ 562,  904,  16,  17,  -8, -11] }
-base_graphics(1934, "sprites/png/landscape/landscape031.png") { [ 594,  904,  23,  23, -11, -17] }
-base_graphics(1935, "sprites/png/landscape/landscape031.png") { [ 626,  904,  27,  33, -13, -27] }
-base_graphics(1936, "sprites/png/landscape/landscape031.png") { [ 658,  904,  33,  44, -16, -38] }
-base_graphics(1937, "sprites/png/landscape/landscape031.png") { [ 706,  904,  34,  44, -17, -38] }
-base_graphics(1938, "sprites/png/landscape/landscape031.png") { [ 754,  904,  34,  44, -17, -38] }
-base_graphics(1939, "sprites/png/landscape/landscape031.png") { [   2,  984,  30,  42, -15, -36] }
+base_graphics spr1933(1933, "sprites/png/landscape/landscape031.png") { [ 562,  904,  16,  17,  -8, -11] }
+base_graphics spr1934(1934, "sprites/png/landscape/landscape031.png") { [ 594,  904,  23,  23, -11, -17] }
+base_graphics spr1935(1935, "sprites/png/landscape/landscape031.png") { [ 626,  904,  27,  33, -13, -27] }
+base_graphics spr1936(1936, "sprites/png/landscape/landscape031.png") { [ 658,  904,  33,  44, -16, -38] }
+base_graphics spr1937(1937, "sprites/png/landscape/landscape031.png") { [ 706,  904,  34,  44, -17, -38] }
+base_graphics spr1938(1938, "sprites/png/landscape/landscape031.png") { [ 754,  904,  34,  44, -17, -38] }
+base_graphics spr1939(1939, "sprites/png/landscape/landscape031.png") { [   2,  984,  30,  42, -15, -36] }
 // 1940 leaf tree												#18
-base_graphics(1940, "sprites/png/landscape/landscape031.png") { [  50,  984,  10,  16,  -5, -10] }
-base_graphics(1941, "sprites/png/landscape/landscape031.png") { [  66,  984,  18,  26,  -9, -20] }
-base_graphics(1942, "sprites/png/landscape/landscape031.png") { [  98,  984,  25,  36, -12, -30] }
-base_graphics(1943, "sprites/png/landscape/landscape031.png") { [ 130,  984,  29,  41, -14, -35] }
-base_graphics(1944, "sprites/png/landscape/landscape031.png") { [ 178,  984,  29,  41, -14, -35] }
-base_graphics(1945, "sprites/png/landscape/landscape031.png") { [ 226,  984,  29,  41, -14, -35] }
-base_graphics(1946, "sprites/png/landscape/landscape031.png") { [ 274,  984,  26,  39, -13, -33] }
+base_graphics spr1940(1940, "sprites/png/landscape/landscape031.png") { [  50,  984,  10,  16,  -5, -10] }
+base_graphics spr1941(1941, "sprites/png/landscape/landscape031.png") { [  66,  984,  18,  26,  -9, -20] }
+base_graphics spr1942(1942, "sprites/png/landscape/landscape031.png") { [  98,  984,  25,  36, -12, -30] }
+base_graphics spr1943(1943, "sprites/png/landscape/landscape031.png") { [ 130,  984,  29,  41, -14, -35] }
+base_graphics spr1944(1944, "sprites/png/landscape/landscape031.png") { [ 178,  984,  29,  41, -14, -35] }
+base_graphics spr1945(1945, "sprites/png/landscape/landscape031.png") { [ 226,  984,  29,  41, -14, -35] }
+base_graphics spr1946(1946, "sprites/png/landscape/landscape031.png") { [ 274,  984,  26,  39, -13, -33] }
 
 //1947-2009 toyland trees; (see src/table/tree_land.h for recolour info)
 //1947 - 1953 reverse cone tree (recolour cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1947, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [   4,   12,  15,  20,  -7, -14] }
-base_graphics(1948, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [  36,   12,  20,  26, -10, -19] }
-base_graphics(1949, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [  68,   12,  26,  32, -13, -25] }
-base_graphics(1950, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 104,   12,  31,  39, -15, -32] }
-base_graphics(1951, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 144,   12,  31,  39, -15, -32] }
-base_graphics(1952, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 188,   12,  30,  39, -15, -32] }
-base_graphics(1953, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 232,   12,  18,  39,  -9, -32] }
+base_graphics spr1947(1947, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [   4,   12,  15,  20,  -7, -14] }
+base_graphics spr1948(1948, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [  36,   12,  20,  26, -10, -19] }
+base_graphics spr1949(1949, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [  68,   12,  26,  32, -13, -25] }
+base_graphics spr1950(1950, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 104,   12,  31,  39, -15, -32] }
+base_graphics spr1951(1951, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 144,   12,  31,  39, -15, -32] }
+base_graphics spr1952(1952, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 188,   12,  30,  39, -15, -32] }
+base_graphics spr1953(1953, "sprites/png/trees/toyland/toyland_tree_reversecone.png") { [ 232,   12,  18,  39,  -9, -32] }
 //1954 - 1960 sugar bubble tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1954, "sprites/png/landscape/landscape031.png") { [ 258, 1048,   3,  12,  -1,  -6] }
-base_graphics(1955, "sprites/png/landscape/landscape031.png") { [ 274, 1048,   3,  17,  -1, -11] }
-base_graphics(1956, "sprites/png/landscape/landscape031.png") { [ 290, 1048,  13,  30,  -6, -24] }
-base_graphics(1957, "sprites/png/landscape/landscape031.png") { [ 322, 1048,  23,  37, -11, -31] }
-base_graphics(1958, "sprites/png/landscape/landscape031.png") { [ 354, 1048,  24,  43, -12, -37] }
-base_graphics(1959, "sprites/png/landscape/landscape031.png") { [ 386, 1048,  29,  47, -14, -41] }
-base_graphics(1960, "sprites/png/landscape/landscape031.png") { [ 434, 1048,  29,  39, -14, -33] }
+base_graphics spr1954(1954, "sprites/png/landscape/landscape031.png") { [ 258, 1048,   3,  12,  -1,  -6] }
+base_graphics spr1955(1955, "sprites/png/landscape/landscape031.png") { [ 274, 1048,   3,  17,  -1, -11] }
+base_graphics spr1956(1956, "sprites/png/landscape/landscape031.png") { [ 290, 1048,  13,  30,  -6, -24] }
+base_graphics spr1957(1957, "sprites/png/landscape/landscape031.png") { [ 322, 1048,  23,  37, -11, -31] }
+base_graphics spr1958(1958, "sprites/png/landscape/landscape031.png") { [ 354, 1048,  24,  43, -12, -37] }
+base_graphics spr1959(1959, "sprites/png/landscape/landscape031.png") { [ 386, 1048,  29,  47, -14, -41] }
+base_graphics spr1960(1960, "sprites/png/landscape/landscape031.png") { [ 434, 1048,  29,  39, -14, -33] }
 //1961 - 1967 baloon tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1961, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [   6,   16,  10,   8,  -5, -31] }
-base_graphics(1962, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  24,   16,  16,  16,  -8, -31] }
-base_graphics(1963, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  48,   16,  24,  24, -12, -31] }
-base_graphics(1964, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  82,   16,  30,  32, -14, -31] }
-base_graphics(1965, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 120,   16,  30,  32, -14, -31] }
-base_graphics(1966, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 160,   16,  30,  32, -14, -31] }
-base_graphics(1967, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 198,   16,  30,  32, -14, -31] }
+base_graphics spr1961(1961, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [   6,   16,  10,   8,  -5, -31] }
+base_graphics spr1962(1962, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  24,   16,  16,  16,  -8, -31] }
+base_graphics spr1963(1963, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  48,   16,  24,  24, -12, -31] }
+base_graphics spr1964(1964, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [  82,   16,  30,  32, -14, -31] }
+base_graphics spr1965(1965, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 120,   16,  30,  32, -14, -31] }
+base_graphics spr1966(1966, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 160,   16,  30,  32, -14, -31] }
+base_graphics spr1967(1967, "sprites/png/trees/toyland/toyland_tree_balloon.png") { [ 198,   16,  30,  32, -14, -31] }
 //1968 - 1974 moving cylinder (no recolour)
-base_graphics(1968, "sprites/png/miscellaneous/random.png") { [ 190,  453,  22,  36, -11, -30] }
-base_graphics(1969, "sprites/png/miscellaneous/random.png") { [ 213,  453,  22,  36, -11, -30] }
-base_graphics(1970, "sprites/png/miscellaneous/random.png") { [ 236,  453,  22,  36, -11, -30] }
-base_graphics(1971, "sprites/png/miscellaneous/random.png") { [ 259,  453,  22,  36, -11, -30] }
-base_graphics(1972, "sprites/png/miscellaneous/random.png") { [ 282,  453,  22,  36, -11, -30] }
-base_graphics(1973, "sprites/png/miscellaneous/random.png") { [ 305,  453,  22,  36, -11, -30] }
-base_graphics(1974, "sprites/png/miscellaneous/random.png") { [ 328,  453,  22,  36, -11, -30] }
+base_graphics spr1968(1968, "sprites/png/miscellaneous/random.png") { [ 190,  453,  22,  36, -11, -30] }
+base_graphics spr1969(1969, "sprites/png/miscellaneous/random.png") { [ 213,  453,  22,  36, -11, -30] }
+base_graphics spr1970(1970, "sprites/png/miscellaneous/random.png") { [ 236,  453,  22,  36, -11, -30] }
+base_graphics spr1971(1971, "sprites/png/miscellaneous/random.png") { [ 259,  453,  22,  36, -11, -30] }
+base_graphics spr1972(1972, "sprites/png/miscellaneous/random.png") { [ 282,  453,  22,  36, -11, -30] }
+base_graphics spr1973(1973, "sprites/png/miscellaneous/random.png") { [ 305,  453,  22,  36, -11, -30] }
+base_graphics spr1974(1974, "sprites/png/miscellaneous/random.png") { [ 328,  453,  22,  36, -11, -30] }
 //1975 - 1981 paper streamer tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1975, "sprites/png/landscape/landscape031.png") { [ 578,  984,   9,  18,  -4, -12] }
-base_graphics(1976, "sprites/png/landscape/landscape031.png") { [ 594,  984,  13,  26,  -6, -20] }
-base_graphics(1977, "sprites/png/landscape/landscape031.png") { [ 626,  984,  17,  31,  -8, -25] }
-base_graphics(1978, "sprites/png/landscape/landscape031.png") { [ 658,  984,  21,  39, -10, -33] }
-base_graphics(1979, "sprites/png/landscape/landscape031.png") { [ 690,  984,  21,  39, -10, -33] }
-base_graphics(1980, "sprites/png/landscape/landscape031.png") { [ 722,  984,  20,  39, -10, -33] }
-base_graphics(1981, "sprites/png/landscape/landscape031.png") { [ 754,  984,   5,  31,  -2, -25] }
+base_graphics spr1975(1975, "sprites/png/landscape/landscape031.png") { [ 578,  984,   9,  18,  -4, -12] }
+base_graphics spr1976(1976, "sprites/png/landscape/landscape031.png") { [ 594,  984,  13,  26,  -6, -20] }
+base_graphics spr1977(1977, "sprites/png/landscape/landscape031.png") { [ 626,  984,  17,  31,  -8, -25] }
+base_graphics spr1978(1978, "sprites/png/landscape/landscape031.png") { [ 658,  984,  21,  39, -10, -33] }
+base_graphics spr1979(1979, "sprites/png/landscape/landscape031.png") { [ 690,  984,  21,  39, -10, -33] }
+base_graphics spr1980(1980, "sprites/png/landscape/landscape031.png") { [ 722,  984,  20,  39, -10, -33] }
+base_graphics spr1981(1981, "sprites/png/landscape/landscape031.png") { [ 754,  984,   5,  31,  -2, -25] }
 //1982 - 1988 fly agaric tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1982, "sprites/png/landscape/landscape031.png") { [ 738, 1048,  18,  37,  -9, -31] }
-base_graphics(1983, "sprites/png/landscape/landscape031.png") { [ 770, 1048,  18,  37,  -9, -31] }
-base_graphics(1984, "sprites/png/landscape/landscape031.png") { [   2, 1112,  26,  37, -12, -31] }
-base_graphics(1985, "sprites/png/landscape/landscape031.png") { [  34, 1112,  31,  37, -15, -31] }
-base_graphics(1986, "sprites/png/landscape/landscape031.png") { [  82, 1112,  31,  37, -15, -31] }
-base_graphics(1987, "sprites/png/landscape/landscape031.png") { [ 130, 1112,  31,  37, -14, -31] }
-base_graphics(1988, "sprites/png/landscape/landscape031.png") { [ 178, 1112,  24,  37, -10, -31] }
+base_graphics spr1982(1982, "sprites/png/landscape/landscape031.png") { [ 738, 1048,  18,  37,  -9, -31] }
+base_graphics spr1983(1983, "sprites/png/landscape/landscape031.png") { [ 770, 1048,  18,  37,  -9, -31] }
+base_graphics spr1984(1984, "sprites/png/landscape/landscape031.png") { [   2, 1112,  26,  37, -12, -31] }
+base_graphics spr1985(1985, "sprites/png/landscape/landscape031.png") { [  34, 1112,  31,  37, -15, -31] }
+base_graphics spr1986(1986, "sprites/png/landscape/landscape031.png") { [  82, 1112,  31,  37, -15, -31] }
+base_graphics spr1987(1987, "sprites/png/landscape/landscape031.png") { [ 130, 1112,  31,  37, -14, -31] }
+base_graphics spr1988(1988, "sprites/png/landscape/landscape031.png") { [ 178, 1112,  24,  37, -10, -31] }
 //1989-1995 cone tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1989, "sprites/png/miscellaneous/random.png") { [ 370,  453,  30,  37, -15, -31] }
-base_graphics(1990, "sprites/png/miscellaneous/random.png") { [ 401,  453,  30,  37, -15, -31] }
-base_graphics(1991, "sprites/png/miscellaneous/random.png") { [ 432,  453,  30,  37, -15, -31] }
-base_graphics(1992, "sprites/png/miscellaneous/random.png") { [ 463,  453,  30,  37, -15, -31] }
-base_graphics(1993, "sprites/png/miscellaneous/random.png") { [ 494,  453,  30,  37, -15, -31] }
-base_graphics(1994, "sprites/png/miscellaneous/random.png") { [ 525,  453,  30,  37, -15, -31] }
-base_graphics(1995, "sprites/png/miscellaneous/random.png") { [ 556,  453,  30,  37, -15, -31] }
+base_graphics spr1989(1989, "sprites/png/miscellaneous/random.png") { [ 370,  453,  30,  37, -15, -31] }
+base_graphics spr1990(1990, "sprites/png/miscellaneous/random.png") { [ 401,  453,  30,  37, -15, -31] }
+base_graphics spr1991(1991, "sprites/png/miscellaneous/random.png") { [ 432,  453,  30,  37, -15, -31] }
+base_graphics spr1992(1992, "sprites/png/miscellaneous/random.png") { [ 463,  453,  30,  37, -15, -31] }
+base_graphics spr1993(1993, "sprites/png/miscellaneous/random.png") { [ 494,  453,  30,  37, -15, -31] }
+base_graphics spr1994(1994, "sprites/png/miscellaneous/random.png") { [ 525,  453,  30,  37, -15, -31] }
+base_graphics spr1995(1995, "sprites/png/miscellaneous/random.png") { [ 556,  453,  30,  37, -15, -31] }
 //1996 - 2002 stylized tree (recolour brown, cream, green, grey, mauve, orange, pale green, pink, purple, red, white, yellow)
-base_graphics(1996, "sprites/png/miscellaneous/random.png") { [  10,  453,  24,  37, -12, -31] }
-base_graphics(1997, "sprites/png/miscellaneous/random.png") { [  35,  453,  24,  37, -12, -31] }
-base_graphics(1998, "sprites/png/miscellaneous/random.png") { [  60,  453,  24,  37, -12, -31] }
-base_graphics(1999, "sprites/png/miscellaneous/random.png") { [  85,  453,  24,  37, -12, -31] }
-base_graphics(2000, "sprites/png/miscellaneous/random.png") { [ 110,  453,  24,  37, -12, -31] }
-base_graphics(2001, "sprites/png/miscellaneous/random.png") { [ 135,  453,  24,  37, -12, -31] }
-base_graphics(2002, "sprites/png/miscellaneous/random.png") { [ 160,  453,  24,  37, -12, -31] }
+base_graphics spr1996(1996, "sprites/png/miscellaneous/random.png") { [  10,  453,  24,  37, -12, -31] }
+base_graphics spr1997(1997, "sprites/png/miscellaneous/random.png") { [  35,  453,  24,  37, -12, -31] }
+base_graphics spr1998(1998, "sprites/png/miscellaneous/random.png") { [  60,  453,  24,  37, -12, -31] }
+base_graphics spr1999(1999, "sprites/png/miscellaneous/random.png") { [  85,  453,  24,  37, -12, -31] }
+base_graphics spr2000(2000, "sprites/png/miscellaneous/random.png") { [ 110,  453,  24,  37, -12, -31] }
+base_graphics spr2001(2001, "sprites/png/miscellaneous/random.png") { [ 135,  453,  24,  37, -12, -31] }
+base_graphics spr2002(2002, "sprites/png/miscellaneous/random.png") { [ 160,  453,  24,  37, -12, -31] }
 //2003 - 2009 conifer tree
-base_graphics(2003, "sprites/png/miscellaneous/random.png") { [  11,  493,   5,  38,  -3, -32] }
-base_graphics(2004, "sprites/png/miscellaneous/random.png") { [  27,  493,  32,  38, -16, -32] }
-base_graphics(2005, "sprites/png/miscellaneous/random.png") { [  75,  493,  32,  38, -16, -32] }
-base_graphics(2006, "sprites/png/miscellaneous/random.png") { [ 123,  493,  32,  38, -16, -32] }
-base_graphics(2007, "sprites/png/miscellaneous/random.png") { [ 171,  493,  32,  38, -16, -32] }
-base_graphics(2008, "sprites/png/miscellaneous/random.png") { [ 212,  493,  32,  38, -16, -32] }
-base_graphics(2009, "sprites/png/miscellaneous/random.png") { [ 251,  493,  32,  38, -16, -32] }
+base_graphics spr2003(2003, "sprites/png/miscellaneous/random.png") { [  11,  493,   5,  38,  -3, -32] }
+base_graphics spr2004(2004, "sprites/png/miscellaneous/random.png") { [  27,  493,  32,  38, -16, -32] }
+base_graphics spr2005(2005, "sprites/png/miscellaneous/random.png") { [  75,  493,  32,  38, -16, -32] }
+base_graphics spr2006(2006, "sprites/png/miscellaneous/random.png") { [ 123,  493,  32,  38, -16, -32] }
+base_graphics spr2007(2007, "sprites/png/miscellaneous/random.png") { [ 171,  493,  32,  38, -16, -32] }
+base_graphics spr2008(2008, "sprites/png/miscellaneous/random.png") { [ 212,  493,  32,  38, -16, -32] }
+base_graphics spr2009(2009, "sprites/png/miscellaneous/random.png") { [ 251,  493,  32,  38, -16, -32] }
 
 // Cursor
-base_graphics(2010, "sprites/png/gui/gui04.png") { [ 626,  232,  32,  32,   0,   0] }
+base_graphics spr2010(2010, "sprites/png/gui/gui04.png") { [ 626,  232,  32,  32,   0,   0] }

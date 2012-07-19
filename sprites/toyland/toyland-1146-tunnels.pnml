@@ -1,33 +1,33 @@
 //1146  1177    32      Tunnels
-base_graphics(1146, "sprites/png/infrastructure/infra08.png") { [ 722, 6120,  64,  39, -31,  -8] }
-base_graphics(1147, "sprites/png/infrastructure/infra08.png") { [   2, 6184,  64,  39, -31, -38] }
-base_graphics(1148, "sprites/png/infrastructure/infra08.png") { [  82, 6184,  64,  23, -31,   0] }
-base_graphics(1149, "sprites/png/infrastructure/infra08.png") { [ 162, 6184,  64,  23, -31, -30] }
-base_graphics(1150, "sprites/png/infrastructure/infra08.png") { [ 242, 6184,  64,  23, -31,   0] }
-base_graphics(1151, "sprites/png/infrastructure/infra08.png") { [ 322, 6184,  64,  23, -31, -30] }
-base_graphics(1152, "sprites/png/infrastructure/infra08.png") { [ 402, 6184,  64,  39, -31,  -8] }
-base_graphics(1153, "sprites/png/infrastructure/infra08.png") { [ 482, 6184,  64,  39, -31, -38] }
-base_graphics(1154, "sprites/png/infrastructure/infra08.png") { [ 562, 6184,  64,  39, -31,  -8] }
-base_graphics(1155, "sprites/png/infrastructure/infra08.png") { [ 642, 6184,  64,  39, -31, -38] }
-base_graphics(1156, "sprites/png/infrastructure/infra08.png") { [ 722, 6184,  64,  23, -31,   0] }
-base_graphics(1157, "sprites/png/infrastructure/infra08.png") { [   2, 6248,  64,  23, -31, -30] }
-base_graphics(1158, "sprites/png/infrastructure/infra08.png") { [  82, 6248,  64,  23, -31,   0] }
-base_graphics(1159, "sprites/png/infrastructure/infra08.png") { [ 162, 6248,  64,  23, -31, -30] }
-base_graphics(1160, "sprites/png/infrastructure/infra08.png") { [ 242, 6248,  64,  39, -31,  -8] }
-base_graphics(1161, "sprites/png/infrastructure/infra08.png") { [ 322, 6248,  64,  39, -31, -38] }
-base_graphics(1162, "sprites/png/infrastructure/infra08.png") { [ 402, 6248,  64,  39, -31,  -8] }
-base_graphics(1163, "sprites/png/infrastructure/infra08.png") { [ 482, 6248,  64,  39, -31, -38] }
-base_graphics(1164, "sprites/png/infrastructure/infra08.png") { [ 562, 6248,  64,  23, -31,   0] }
-base_graphics(1165, "sprites/png/infrastructure/infra08.png") { [ 642, 6248,  64,  23, -31, -30] }
-base_graphics(1166, "sprites/png/infrastructure/infra08.png") { [ 722, 6248,  64,  23, -31,   0] }
-base_graphics(1167, "sprites/png/infrastructure/infra08.png") { [   2, 6312,  64,  23, -31, -30] }
-base_graphics(1168, "sprites/png/infrastructure/infra08.png") { [  82, 6312,  64,  39, -31,  -8] }
-base_graphics(1169, "sprites/png/infrastructure/infra08.png") { [ 162, 6312,  64,  39, -31, -38] }
-base_graphics(1170, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  396,  64,  39, -31,  -8] }
-base_graphics(1171, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  396,  64,  39, -31, -38] }
-base_graphics(1172, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  396,  64,  23, -31,   0] }
-base_graphics(1173, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  396,  64,  23, -31, -30] }
-base_graphics(1174, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  396,  64,  23, -31,   0] }
-base_graphics(1175, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  396,  64,  23, -31, -30] }
-base_graphics(1176, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  396,  64,  39, -31,  -8] }
-base_graphics(1177, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  396,  64,  39, -31, -38] }
+base_graphics spr1146(1146, "sprites/png/infrastructure/infra08.png") { [ 722, 6120,  64,  39, -31,  -8] }
+base_graphics spr1147(1147, "sprites/png/infrastructure/infra08.png") { [   2, 6184,  64,  39, -31, -38] }
+base_graphics spr1148(1148, "sprites/png/infrastructure/infra08.png") { [  82, 6184,  64,  23, -31,   0] }
+base_graphics spr1149(1149, "sprites/png/infrastructure/infra08.png") { [ 162, 6184,  64,  23, -31, -30] }
+base_graphics spr1150(1150, "sprites/png/infrastructure/infra08.png") { [ 242, 6184,  64,  23, -31,   0] }
+base_graphics spr1151(1151, "sprites/png/infrastructure/infra08.png") { [ 322, 6184,  64,  23, -31, -30] }
+base_graphics spr1152(1152, "sprites/png/infrastructure/infra08.png") { [ 402, 6184,  64,  39, -31,  -8] }
+base_graphics spr1153(1153, "sprites/png/infrastructure/infra08.png") { [ 482, 6184,  64,  39, -31, -38] }
+base_graphics spr1154(1154, "sprites/png/infrastructure/infra08.png") { [ 562, 6184,  64,  39, -31,  -8] }
+base_graphics spr1155(1155, "sprites/png/infrastructure/infra08.png") { [ 642, 6184,  64,  39, -31, -38] }
+base_graphics spr1156(1156, "sprites/png/infrastructure/infra08.png") { [ 722, 6184,  64,  23, -31,   0] }
+base_graphics spr1157(1157, "sprites/png/infrastructure/infra08.png") { [   2, 6248,  64,  23, -31, -30] }
+base_graphics spr1158(1158, "sprites/png/infrastructure/infra08.png") { [  82, 6248,  64,  23, -31,   0] }
+base_graphics spr1159(1159, "sprites/png/infrastructure/infra08.png") { [ 162, 6248,  64,  23, -31, -30] }
+base_graphics spr1160(1160, "sprites/png/infrastructure/infra08.png") { [ 242, 6248,  64,  39, -31,  -8] }
+base_graphics spr1161(1161, "sprites/png/infrastructure/infra08.png") { [ 322, 6248,  64,  39, -31, -38] }
+base_graphics spr1162(1162, "sprites/png/infrastructure/infra08.png") { [ 402, 6248,  64,  39, -31,  -8] }
+base_graphics spr1163(1163, "sprites/png/infrastructure/infra08.png") { [ 482, 6248,  64,  39, -31, -38] }
+base_graphics spr1164(1164, "sprites/png/infrastructure/infra08.png") { [ 562, 6248,  64,  23, -31,   0] }
+base_graphics spr1165(1165, "sprites/png/infrastructure/infra08.png") { [ 642, 6248,  64,  23, -31, -30] }
+base_graphics spr1166(1166, "sprites/png/infrastructure/infra08.png") { [ 722, 6248,  64,  23, -31,   0] }
+base_graphics spr1167(1167, "sprites/png/infrastructure/infra08.png") { [   2, 6312,  64,  23, -31, -30] }
+base_graphics spr1168(1168, "sprites/png/infrastructure/infra08.png") { [  82, 6312,  64,  39, -31,  -8] }
+base_graphics spr1169(1169, "sprites/png/infrastructure/infra08.png") { [ 162, 6312,  64,  39, -31, -38] }
+base_graphics spr1170(1170, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  396,  64,  39, -31,  -8] }
+base_graphics spr1171(1171, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  396,  64,  39, -31, -38] }
+base_graphics spr1172(1172, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  396,  64,  23, -31,   0] }
+base_graphics spr1173(1173, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  396,  64,  23, -31, -30] }
+base_graphics spr1174(1174, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  396,  64,  23, -31,   0] }
+base_graphics spr1175(1175, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  396,  64,  23, -31, -30] }
+base_graphics spr1176(1176, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  396,  64,  39, -31,  -8] }
+base_graphics spr1177(1177, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  396,  64,  39, -31, -38] }

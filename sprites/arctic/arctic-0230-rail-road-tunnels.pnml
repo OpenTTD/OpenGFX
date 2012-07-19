@@ -1,19 +1,19 @@
 //230-237 arctic rail tunnel
-base_graphics( 230, "sprites/png/infrastructure/infra06.png") { [ 674, 3800,  64,  39, -31,  -8] }
-base_graphics( 231, "sprites/png/infrastructure/infra06.png") { [   2, 3864,  64,  39, -31, -38] }
-base_graphics( 232, "sprites/png/infrastructure/infra06.png") { [  82, 3864,  64,  23, -31,   0] }
-base_graphics( 233, "sprites/png/infrastructure/infra06.png") { [ 162, 3864,  64,  23, -31, -30] }
-base_graphics( 234, "sprites/png/infrastructure/infra06.png") { [ 242, 3864,  64,  23, -31,   0] }
-base_graphics( 235, "sprites/png/infrastructure/infra06.png") { [ 322, 3864,  64,  23, -31, -30] }
-base_graphics( 236, "sprites/png/infrastructure/infra06.png") { [ 402, 3864,  64,  39, -31,  -8] }
-base_graphics( 237, "sprites/png/infrastructure/infra06.png") { [ 482, 3864,  64,  39, -31, -38] }
+base_graphics spr230( 230, "sprites/png/infrastructure/infra06.png") { [ 674, 3800,  64,  39, -31,  -8] }
+base_graphics spr231( 231, "sprites/png/infrastructure/infra06.png") { [   2, 3864,  64,  39, -31, -38] }
+base_graphics spr232( 232, "sprites/png/infrastructure/infra06.png") { [  82, 3864,  64,  23, -31,   0] }
+base_graphics spr233( 233, "sprites/png/infrastructure/infra06.png") { [ 162, 3864,  64,  23, -31, -30] }
+base_graphics spr234( 234, "sprites/png/infrastructure/infra06.png") { [ 242, 3864,  64,  23, -31,   0] }
+base_graphics spr235( 235, "sprites/png/infrastructure/infra06.png") { [ 322, 3864,  64,  23, -31, -30] }
+base_graphics spr236( 236, "sprites/png/infrastructure/infra06.png") { [ 402, 3864,  64,  39, -31,  -8] }
+base_graphics spr237( 237, "sprites/png/infrastructure/infra06.png") { [ 482, 3864,  64,  39, -31, -38] }
 
 // arctic road tunnel
-base_graphics( 238, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  101,  64,  39, -31,  -8] }
-base_graphics( 239, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  101,  64,  39, -31, -38] }
-base_graphics( 240, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  101,  64,  23, -31,   0] }
-base_graphics( 241, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  101,  64,  23, -31, -30] }
-base_graphics( 242, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  101,  64,  23, -31,   0] }
-base_graphics( 243, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  101,  64,  23, -31, -30] }
-base_graphics( 244, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  101,  64,  39, -31,  -8] }
-base_graphics( 245, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  101,  64,  39, -31, -38] }
+base_graphics spr238( 238, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  101,  64,  39, -31,  -8] }
+base_graphics spr239( 239, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  101,  64,  39, -31, -38] }
+base_graphics spr240( 240, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  101,  64,  23, -31,   0] }
+base_graphics spr241( 241, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  101,  64,  23, -31, -30] }
+base_graphics spr242( 242, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  101,  64,  23, -31,   0] }
+base_graphics spr243( 243, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  101,  64,  23, -31, -30] }
+base_graphics spr244( 244, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  101,  64,  39, -31,  -8] }
+base_graphics spr245( 245, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  101,  64,  39, -31, -38] }

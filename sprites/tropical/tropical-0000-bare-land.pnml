@@ -1,8 +1,8 @@
 // tropical bare land (33% grassy) 0 - 18
-base_graphics(   0, "sprites/png/terrain/bare-13-tropical.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr0(   0, "sprites/png/terrain/bare-13-tropical.png") { tmpl_groundtiles(1, 1) }
 
 // tropical bare land (66% grassy) 19 - 37
-base_graphics(  19, "sprites/png/terrain/bare-23-tropical.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr19(  19, "sprites/png/terrain/bare-23-tropical.png") { tmpl_groundtiles(1, 1) }
 
 // tropical grass (100% grassy) 38 - 56
-base_graphics(  38, "sprites/png/terrain/grass-tropical.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr38(  38, "sprites/png/terrain/grass-tropical.png") { tmpl_groundtiles(1, 1) }

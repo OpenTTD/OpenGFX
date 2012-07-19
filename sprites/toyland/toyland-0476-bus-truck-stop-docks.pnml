@@ -1,43 +1,43 @@
 //476   491     16      Bus stop
-base_graphics( 476, "sprites/png/miscellaneous/random.png") { [  10,  540,  64,  31, -31,   0] }
-base_graphics( 477, "sprites/png/miscellaneous/random.png") { [  78,  540,  64,  37, -31,  -6] }
-base_graphics( 478, "sprites/png/miscellaneous/random.png") { [ 146,  540,  64,  35, -31,  -4] }
-base_graphics( 479, "sprites/png/miscellaneous/random.png") { [ 214,  540,  64,  40, -31,  -9] }
-base_graphics( 480, "sprites/png/infrastructure/infra08.png") { [ 322, 5160,  64,  31, -27,  -2] }
-base_graphics( 481, "sprites/png/infrastructure/infra08.png") { [ 402, 5160,  64,  37, -37,  -9] }
-base_graphics( 482, "sprites/png/infrastructure/infra08.png") { [ 482, 5160,  64,  35, -55, -22] }
-base_graphics( 483, "sprites/png/infrastructure/infra08.png") { [ 562, 5160,  64,  40,  -5, -26] }
-base_graphics( 484, "sprites/png/infrastructure/infra08.png") { [ 642, 5160,  64,  31,  -5, -13] }
-base_graphics( 485, "sprites/png/infrastructure/infra08.png") { [ 722, 5160,  64,  37, -31,  -6] }
-base_graphics( 486, "sprites/png/infrastructure/infra08.png") { [   2, 5224,  64,  35, -31,  -4] }
-base_graphics( 487, "sprites/png/infrastructure/infra08.png") { [  82, 5224,  64,  40, -57, -22] }
-base_graphics( 488, "sprites/png/infrastructure/infra08.png") { [ 162, 5224,  64,  31, -57, -13] }
-base_graphics( 489, "sprites/png/infrastructure/infra08.png") { [ 242, 5224,  64,  37, -11, -22] }
-base_graphics( 490, "sprites/png/infrastructure/infra08.png") { [ 322, 5224,  64,  35, -25,  -7] }
-base_graphics( 491, "sprites/png/infrastructure/infra08.png") { [ 402, 5224,  64,  40, -31,  -9] }
+base_graphics spr476( 476, "sprites/png/miscellaneous/random.png") { [  10,  540,  64,  31, -31,   0] }
+base_graphics spr477( 477, "sprites/png/miscellaneous/random.png") { [  78,  540,  64,  37, -31,  -6] }
+base_graphics spr478( 478, "sprites/png/miscellaneous/random.png") { [ 146,  540,  64,  35, -31,  -4] }
+base_graphics spr479( 479, "sprites/png/miscellaneous/random.png") { [ 214,  540,  64,  40, -31,  -9] }
+base_graphics spr480( 480, "sprites/png/infrastructure/infra08.png") { [ 322, 5160,  64,  31, -27,  -2] }
+base_graphics spr481( 481, "sprites/png/infrastructure/infra08.png") { [ 402, 5160,  64,  37, -37,  -9] }
+base_graphics spr482( 482, "sprites/png/infrastructure/infra08.png") { [ 482, 5160,  64,  35, -55, -22] }
+base_graphics spr483( 483, "sprites/png/infrastructure/infra08.png") { [ 562, 5160,  64,  40,  -5, -26] }
+base_graphics spr484( 484, "sprites/png/infrastructure/infra08.png") { [ 642, 5160,  64,  31,  -5, -13] }
+base_graphics spr485( 485, "sprites/png/infrastructure/infra08.png") { [ 722, 5160,  64,  37, -31,  -6] }
+base_graphics spr486( 486, "sprites/png/infrastructure/infra08.png") { [   2, 5224,  64,  35, -31,  -4] }
+base_graphics spr487( 487, "sprites/png/infrastructure/infra08.png") { [  82, 5224,  64,  40, -57, -22] }
+base_graphics spr488( 488, "sprites/png/infrastructure/infra08.png") { [ 162, 5224,  64,  31, -57, -13] }
+base_graphics spr489( 489, "sprites/png/infrastructure/infra08.png") { [ 242, 5224,  64,  37, -11, -22] }
+base_graphics spr490( 490, "sprites/png/infrastructure/infra08.png") { [ 322, 5224,  64,  35, -25,  -7] }
+base_graphics spr491( 491, "sprites/png/infrastructure/infra08.png") { [ 402, 5224,  64,  40, -31,  -9] }
 
 //492   507     16      Truck stop
-base_graphics( 492, "sprites/png/miscellaneous/random.png") { [ 446,  540,  64,  36, -31,  -5] }
-base_graphics( 493, "sprites/png/miscellaneous/random.png") { [ 514,  540,  64,  42, -31, -11] }
-base_graphics( 494, "sprites/png/miscellaneous/random.png") { [ 310,  540,  64,  40, -31,  -9] }
-base_graphics( 495, "sprites/png/miscellaneous/random.png") { [ 378,  540,  64,  41, -31, -10] }
-base_graphics( 496, "sprites/png/infrastructure/infra08.png") { [   2, 5352,  64,  36, -61, -20] }
-base_graphics( 497, "sprites/png/infrastructure/infra08.png") { [  82, 5352,  64,  42,  -7, -29] }
-base_graphics( 498, "sprites/png/infrastructure/infra08.png") { [ 162, 5352,  64,  40, -25, -12] }
-base_graphics( 499, "sprites/png/infrastructure/infra08.png") { [ 242, 5352,  64,  41, -31, -10] }
-base_graphics( 500, "sprites/png/infrastructure/infra08.png") { [ 322, 5352,  64,  36,  -5, -18] }
-base_graphics( 501, "sprites/png/infrastructure/infra08.png") { [ 402, 5352,  64,  42, -31, -11] }
-base_graphics( 502, "sprites/png/infrastructure/infra08.png") { [ 482, 5352,  64,  40, -31,  -9] }
-base_graphics( 503, "sprites/png/infrastructure/infra08.png") { [ 562, 5352,  64,  41, -57, -23] }
-base_graphics( 504, "sprites/png/infrastructure/infra08.png") { [ 642, 5352,  64,  36, -27,  -7] }
-base_graphics( 505, "sprites/png/infrastructure/infra08.png") { [ 722, 5352,  64,  42, -37, -14] }
-base_graphics( 506, "sprites/png/infrastructure/infra08.png") { [   2, 5416,  64,  40, -55, -27] }
-base_graphics( 507, "sprites/png/infrastructure/infra08.png") { [  82, 5416,  64,  41,  -5, -27] }
+base_graphics spr492( 492, "sprites/png/miscellaneous/random.png") { [ 446,  540,  64,  36, -31,  -5] }
+base_graphics spr493( 493, "sprites/png/miscellaneous/random.png") { [ 514,  540,  64,  42, -31, -11] }
+base_graphics spr494( 494, "sprites/png/miscellaneous/random.png") { [ 310,  540,  64,  40, -31,  -9] }
+base_graphics spr495( 495, "sprites/png/miscellaneous/random.png") { [ 378,  540,  64,  41, -31, -10] }
+base_graphics spr496( 496, "sprites/png/infrastructure/infra08.png") { [   2, 5352,  64,  36, -61, -20] }
+base_graphics spr497( 497, "sprites/png/infrastructure/infra08.png") { [  82, 5352,  64,  42,  -7, -29] }
+base_graphics spr498( 498, "sprites/png/infrastructure/infra08.png") { [ 162, 5352,  64,  40, -25, -12] }
+base_graphics spr499( 499, "sprites/png/infrastructure/infra08.png") { [ 242, 5352,  64,  41, -31, -10] }
+base_graphics spr500( 500, "sprites/png/infrastructure/infra08.png") { [ 322, 5352,  64,  36,  -5, -18] }
+base_graphics spr501( 501, "sprites/png/infrastructure/infra08.png") { [ 402, 5352,  64,  42, -31, -11] }
+base_graphics spr502( 502, "sprites/png/infrastructure/infra08.png") { [ 482, 5352,  64,  40, -31,  -9] }
+base_graphics spr503( 503, "sprites/png/infrastructure/infra08.png") { [ 562, 5352,  64,  41, -57, -23] }
+base_graphics spr504( 504, "sprites/png/infrastructure/infra08.png") { [ 642, 5352,  64,  36, -27,  -7] }
+base_graphics spr505( 505, "sprites/png/infrastructure/infra08.png") { [ 722, 5352,  64,  42, -37, -14] }
+base_graphics spr506( 506, "sprites/png/infrastructure/infra08.png") { [   2, 5416,  64,  40, -55, -27] }
+base_graphics spr507( 507, "sprites/png/infrastructure/infra08.png") { [  82, 5416,  64,  41,  -5, -27] }
 
 //508   513     6       Docks
-base_graphics( 508, "sprites/png/infrastructure/redstardocks.png") { [  66,  248,  64,  32, -39, -13] }
-base_graphics( 509, "sprites/png/infrastructure/redstardocks.png") { [ 146,  248,  64,  40, -23, -13] }
-base_graphics( 510, "sprites/png/infrastructure/redstardocks.png") { [ 226,  248,  64,  40, -39, -13] }
-base_graphics( 511, "sprites/png/infrastructure/redstardocks.png") { [ 306,  248,  64,  34, -23, -15] }
-base_graphics( 512, "sprites/png/infrastructure/redstardocks.png") { [ 386,  248,  64,  55, -39, -28] }
-base_graphics( 513, "sprites/png/infrastructure/redstardocks.png") { [ 466,  248,  64,  58, -23, -31] }
+base_graphics spr508( 508, "sprites/png/infrastructure/redstardocks.png") { [  66,  248,  64,  32, -39, -13] }
+base_graphics spr509( 509, "sprites/png/infrastructure/redstardocks.png") { [ 146,  248,  64,  40, -23, -13] }
+base_graphics spr510( 510, "sprites/png/infrastructure/redstardocks.png") { [ 226,  248,  64,  40, -39, -13] }
+base_graphics spr511( 511, "sprites/png/infrastructure/redstardocks.png") { [ 306,  248,  64,  34, -23, -15] }
+base_graphics spr512( 512, "sprites/png/infrastructure/redstardocks.png") { [ 386,  248,  64,  55, -39, -28] }
+base_graphics spr513( 513, "sprites/png/infrastructure/redstardocks.png") { [ 466,  248,  64,  58, -23, -31] }

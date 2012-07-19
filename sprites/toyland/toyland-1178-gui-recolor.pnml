@@ -1,23 +1,23 @@
 //1178  1193    16      GUI buttons and cursors
-base_graphics(1178, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] }
-base_graphics(1179, "sprites/png/gui/gui04.png") { [ 722,  232,  20,  20,   0,   0] }
-base_graphics(1180, "sprites/png/gui/gui04.png") { [ 754,  232,  20,  20,   0,   0] }
-base_graphics(1181, "sprites/png/gui/gui04.png") { [   2,  280,  20,  20,   0,   0] }
-base_graphics(1182, "sprites/png/gui/gui04.png") { [  34,  280,  32,  32,   0,   0] }
-base_graphics(1183, "sprites/png/gui/gui04.png") { [  82,  280,  32,  32,   0,   0] }
-base_graphics(1184, "sprites/png/gui/gui04.png") { [ 130,  280,  32,  32,   0,   0] }
-base_graphics(1185, "sprites/png/gui/gui04.png") { [ 178,  280,  32,  32,   0,   0] }
-base_graphics(1186, "sprites/png/gui/gui04.png") { [ 626,  232,  32,  32,   0,   0] }
-base_graphics(1187, "sprites/png/gui/gui04.png") { [ 290,  152,  20,  20,   0,   0] }
-base_graphics(1188, "sprites/png/gui/gui04.png") { [  98,    8,  31,  24, -15, -12] }
-base_graphics(1189, "sprites/png/gui/gui04.png") { [ 642,  952,  32,  32,   0,   0] }
-base_graphics(1190, "sprites/png/gui/gui04.png") { [ 514,  232,  32,  32,   0,   0] }
-base_graphics(1191, "sprites/png/gui/gui04.png") { [ 562,  232,  32,  32,   0,   0] }
-base_graphics(1192, "sprites/png/gui/gui04.png") { [ 386,  232,  32,  32,   0,   0] }
-base_graphics(1193, "sprites/png/gui/gui04.png") { [ 258,  232,  32,  32,   0,   0] }
+base_graphics spr1178(1178, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] }
+base_graphics spr1179(1179, "sprites/png/gui/gui04.png") { [ 722,  232,  20,  20,   0,   0] }
+base_graphics spr1180(1180, "sprites/png/gui/gui04.png") { [ 754,  232,  20,  20,   0,   0] }
+base_graphics spr1181(1181, "sprites/png/gui/gui04.png") { [   2,  280,  20,  20,   0,   0] }
+base_graphics spr1182(1182, "sprites/png/gui/gui04.png") { [  34,  280,  32,  32,   0,   0] }
+base_graphics spr1183(1183, "sprites/png/gui/gui04.png") { [  82,  280,  32,  32,   0,   0] }
+base_graphics spr1184(1184, "sprites/png/gui/gui04.png") { [ 130,  280,  32,  32,   0,   0] }
+base_graphics spr1185(1185, "sprites/png/gui/gui04.png") { [ 178,  280,  32,  32,   0,   0] }
+base_graphics spr1186(1186, "sprites/png/gui/gui04.png") { [ 626,  232,  32,  32,   0,   0] }
+base_graphics spr1187(1187, "sprites/png/gui/gui04.png") { [ 290,  152,  20,  20,   0,   0] }
+base_graphics spr1188(1188, "sprites/png/gui/gui04.png") { [  98,    8,  31,  24, -15, -12] }
+base_graphics spr1189(1189, "sprites/png/gui/gui04.png") { [ 642,  952,  32,  32,   0,   0] }
+base_graphics spr1190(1190, "sprites/png/gui/gui04.png") { [ 514,  232,  32,  32,   0,   0] }
+base_graphics spr1191(1191, "sprites/png/gui/gui04.png") { [ 562,  232,  32,  32,   0,   0] }
+base_graphics spr1192(1192, "sprites/png/gui/gui04.png") { [ 386,  232,  32,  32,   0,   0] }
+base_graphics spr1193(1193, "sprites/png/gui/gui04.png") { [ 258,  232,  32,  32,   0,   0] }
 
 //1194  1194    1       Recolour sprite
-base_graphics(1194, "") {
+base_graphics spr1194(1194, "") {
 	recolour_sprite {
 		0x00: 0x00;
 		0x01: 0x01;

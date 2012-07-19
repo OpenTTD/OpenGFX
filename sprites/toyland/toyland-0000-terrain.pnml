@@ -1,13 +1,13 @@
 // 0-75 Terrain
 
 // bare toyland land (0% grassy) 0-18
-base_graphics(   0, "sprites/png/terrain/bare-03-toyland.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr0(   0, "sprites/png/terrain/bare-03-toyland.png") { tmpl_groundtiles(1, 1) }
 
 // bare toyland land (33% grassy) 19-37
-base_graphics(  19, "sprites/png/terrain/bare-13-toyland.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr19(  19, "sprites/png/terrain/bare-13-toyland.png") { tmpl_groundtiles(1, 1) }
 
 // bare toyland land (66% grassy) 38-56
-base_graphics(  38, "sprites/png/terrain/bare-23-toyland.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr38(  38, "sprites/png/terrain/bare-23-toyland.png") { tmpl_groundtiles(1, 1) }
 
 // toyland grass (100% grassy) 57-75
-base_graphics(  57, "sprites/png/terrain/grass-toyland.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr57(  57, "sprites/png/terrain/grass-toyland.png") { tmpl_groundtiles(1, 1) }

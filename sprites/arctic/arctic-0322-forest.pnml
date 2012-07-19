@@ -1,7 +1,7 @@
 // arctic (snowy) forest
-base_graphics( 322, "sprites/png/miscellaneous/random.png") { [ 430,  132,  64,  72, -31, -44] }
-base_graphics( 323, "sprites/png/miscellaneous/random.png") { [ 500,  132,  64,  72, -31, -44] }
-base_graphics( 324, "sprites/png/miscellaneous/random.png") { [ 570,  132,  64,  72, -31, -44] }
-base_graphics( 325, "sprites/png/miscellaneous/random.png") { [ 640,  132,  64,  72, -31, -44] }
-base_graphics( 326, "sprites/png/miscellaneous/random.png") { [ 710,  132,  64,  72, -31, -44] }
-base_graphics( 327, "sprites/png/industries/forest_groundtiles.png") { [ 132,    0,  64,  31, -31,   0] }
+base_graphics spr322( 322, "sprites/png/miscellaneous/random.png") { [ 430,  132,  64,  72, -31, -44] }
+base_graphics spr323( 323, "sprites/png/miscellaneous/random.png") { [ 500,  132,  64,  72, -31, -44] }
+base_graphics spr324( 324, "sprites/png/miscellaneous/random.png") { [ 570,  132,  64,  72, -31, -44] }
+base_graphics spr325( 325, "sprites/png/miscellaneous/random.png") { [ 640,  132,  64,  72, -31, -44] }
+base_graphics spr326( 326, "sprites/png/miscellaneous/random.png") { [ 710,  132,  64,  72, -31, -44] }
+base_graphics spr327( 327, "sprites/png/industries/forest_groundtiles.png") { [ 132,    0,  64,  31, -31,   0] }

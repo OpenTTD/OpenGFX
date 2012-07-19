@@ -1,4 +1,4 @@
 
 
 // maglev on desert ground
-base_graphics( 459, "sprites/png/infrastructure/rail/maglev_tracks_desert.png") { tmpl_rail_tracks() }
+base_graphics spr459( 459, "sprites/png/infrastructure/rail/maglev_tracks_desert.png") { tmpl_rail_tracks() }

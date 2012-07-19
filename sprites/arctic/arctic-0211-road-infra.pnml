@@ -1,20 +1,20 @@
 //211-229 arctic road
-base_graphics( 211, "sprites/png/infrastructure/infra06.png") { [ 434, 2696,  64,  31, -31,   0] }
-base_graphics( 212, "sprites/png/infrastructure/infra06.png") { [ 514, 2696,  64,  31, -31,   0] }
-base_graphics( 213, "sprites/png/infrastructure/infra06.png") { [ 594, 2696,  64,  31, -31,   0] }
-base_graphics( 214, "sprites/png/infrastructure/infra06.png") { [ 674, 2696,  64,  31, -31,   0] }
-base_graphics( 215, "sprites/png/infrastructure/infra06.png") { [   2, 2760,  64,  31, -31,   0] }
-base_graphics( 216, "sprites/png/infrastructure/infra06.png") { [  82, 2760,  64,  31, -31,   0] }
-base_graphics( 217, "sprites/png/infrastructure/infra06.png") { [ 162, 2760,  64,  31, -31,   0] }
-base_graphics( 218, "sprites/png/infrastructure/infra06.png") { [ 242, 2760,  64,  31, -31,   0] }
-base_graphics( 219, "sprites/png/infrastructure/infra06.png") { [ 322, 2760,  64,  31, -31,   0] }
-base_graphics( 220, "sprites/png/infrastructure/infra06.png") { [ 402, 2760,  64,  31, -31,   0] }
-base_graphics( 221, "sprites/png/infrastructure/infra06.png") { [ 482, 2760,  64,  31, -31,   0] }
-base_graphics( 222, "sprites/png/infrastructure/infra06.png") { [ 562, 2760,  64,  39, -31,  -8] }
-base_graphics( 223, "sprites/png/infrastructure/infra06.png") { [ 642, 2760,  64,  23, -31,   0] }
-base_graphics( 224, "sprites/png/infrastructure/infra06.png") { [ 722, 2760,  64,  23, -31,   0] }
-base_graphics( 225, "sprites/png/infrastructure/infra06.png") { [   2, 2824,  64,  39, -31,  -8] }
-base_graphics( 226, "sprites/png/infrastructure/infra06.png") { [  82, 2824,  64,  31, -31,   0] }
-base_graphics( 227, "sprites/png/infrastructure/infra06.png") { [ 162, 2824,  64,  31, -31,   0] }
-base_graphics( 228, "sprites/png/infrastructure/infra06.png") { [ 242, 2824,  64,  31, -31,   0] }
-base_graphics( 229, "sprites/png/infrastructure/infra06.png") { [ 322, 2824,  64,  31, -31,   0] }
+base_graphics spr211( 211, "sprites/png/infrastructure/infra06.png") { [ 434, 2696,  64,  31, -31,   0] }
+base_graphics spr212( 212, "sprites/png/infrastructure/infra06.png") { [ 514, 2696,  64,  31, -31,   0] }
+base_graphics spr213( 213, "sprites/png/infrastructure/infra06.png") { [ 594, 2696,  64,  31, -31,   0] }
+base_graphics spr214( 214, "sprites/png/infrastructure/infra06.png") { [ 674, 2696,  64,  31, -31,   0] }
+base_graphics spr215( 215, "sprites/png/infrastructure/infra06.png") { [   2, 2760,  64,  31, -31,   0] }
+base_graphics spr216( 216, "sprites/png/infrastructure/infra06.png") { [  82, 2760,  64,  31, -31,   0] }
+base_graphics spr217( 217, "sprites/png/infrastructure/infra06.png") { [ 162, 2760,  64,  31, -31,   0] }
+base_graphics spr218( 218, "sprites/png/infrastructure/infra06.png") { [ 242, 2760,  64,  31, -31,   0] }
+base_graphics spr219( 219, "sprites/png/infrastructure/infra06.png") { [ 322, 2760,  64,  31, -31,   0] }
+base_graphics spr220( 220, "sprites/png/infrastructure/infra06.png") { [ 402, 2760,  64,  31, -31,   0] }
+base_graphics spr221( 221, "sprites/png/infrastructure/infra06.png") { [ 482, 2760,  64,  31, -31,   0] }
+base_graphics spr222( 222, "sprites/png/infrastructure/infra06.png") { [ 562, 2760,  64,  39, -31,  -8] }
+base_graphics spr223( 223, "sprites/png/infrastructure/infra06.png") { [ 642, 2760,  64,  23, -31,   0] }
+base_graphics spr224( 224, "sprites/png/infrastructure/infra06.png") { [ 722, 2760,  64,  23, -31,   0] }
+base_graphics spr225( 225, "sprites/png/infrastructure/infra06.png") { [   2, 2824,  64,  39, -31,  -8] }
+base_graphics spr226( 226, "sprites/png/infrastructure/infra06.png") { [  82, 2824,  64,  31, -31,   0] }
+base_graphics spr227( 227, "sprites/png/infrastructure/infra06.png") { [ 162, 2824,  64,  31, -31,   0] }
+base_graphics spr228( 228, "sprites/png/infrastructure/infra06.png") { [ 242, 2824,  64,  31, -31,   0] }
+base_graphics spr229( 229, "sprites/png/infrastructure/infra06.png") { [ 322, 2824,  64,  31, -31,   0] }

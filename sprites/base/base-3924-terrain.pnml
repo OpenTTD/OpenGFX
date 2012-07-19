@@ -1,22 +1,22 @@
 
 
 // bare land (0% grassy) 3924 - 3942
-base_graphics(3924, "sprites/png/terrain/bare-03-temperate.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr3924(3924, "sprites/png/terrain/bare-03-temperate.png") { tmpl_groundtiles(1, 1) }
 
 // bare land (33% grassy) 3943 - 3961
-base_graphics(3943, "sprites/png/terrain/bare-13-temperate.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr3943(3943, "sprites/png/terrain/bare-13-temperate.png") { tmpl_groundtiles(1, 1) }
 
 // bare land (66% grassy) 3962 - 3980
-base_graphics(3962, "sprites/png/terrain/bare-23-temperate.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr3962(3962, "sprites/png/terrain/bare-23-temperate.png") { tmpl_groundtiles(1, 1) }
 
 // temperate grass (100% grassy) 3981 - 3999
-base_graphics(3981, "sprites/png/terrain/grass-temperate.gimp.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr3981(3981, "sprites/png/terrain/grass-temperate.gimp.png") { tmpl_groundtiles(1, 1) }
 
 // temperate rough terrain 4000 - 4022
-base_graphics(4000, "sprites/png/terrain/rough-temperate.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
+base_graphics spr4000(4000, "sprites/png/terrain/rough-temperate.png") { tmpl_groundtiles(1, 1) tmpl_additional_rough(1, 1) }
 
 // temperate rocky terrain 4023 - 4041
-base_graphics(4023, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr4023(4023, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
 
 // adjacent rocks (not used in OpenTTD or even TTD) 4042 - 4060
-base_graphics(4042, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }
+base_graphics spr4042(4042, "sprites/png/terrain/rocks-temperate.png") { tmpl_groundtiles(1, 1) }

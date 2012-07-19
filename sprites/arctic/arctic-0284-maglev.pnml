@@ -1,20 +1,20 @@
 
 
 // maglev tracks
-base_graphics( 284, "sprites/png/infrastructure/rail/maglev_tracks_arctic.png") { tmpl_rail_tracks() }
+base_graphics spr284( 284, "sprites/png/infrastructure/rail/maglev_tracks_arctic.png") { tmpl_rail_tracks() }
 
 // arctic maglev level crossings
-base_graphics( 310, "sprites/png/infrastructure/infra06.png") { [ 274, 3512,  64,  31, -31,   0] }
-base_graphics( 311, "sprites/png/infrastructure/infra06.png") { [ 354, 3512,  64,  31, -31,   0] }
-base_graphics( 312, "sprites/png/infrastructure/infra06.png") { [ 434, 3512,  64,  31, -31,   0] }
-base_graphics( 313, "sprites/png/infrastructure/infra06.png") { [ 514, 3512,  64,  31, -31,   0] }
+base_graphics spr310( 310, "sprites/png/infrastructure/infra06.png") { [ 274, 3512,  64,  31, -31,   0] }
+base_graphics spr311( 311, "sprites/png/infrastructure/infra06.png") { [ 354, 3512,  64,  31, -31,   0] }
+base_graphics spr312( 312, "sprites/png/infrastructure/infra06.png") { [ 434, 3512,  64,  31, -31,   0] }
+base_graphics spr313( 313, "sprites/png/infrastructure/infra06.png") { [ 514, 3512,  64,  31, -31,   0] }
 
 //314-321 arctic maglev tunnel
-base_graphics( 314, "sprites/png/infrastructure/infra06.png") { [ 402, 3928,  64,  39, -31,  -8] }
-base_graphics( 315, "sprites/png/infrastructure/infra06.png") { [ 482, 3928,  64,  39, -31, -38] }
-base_graphics( 316, "sprites/png/infrastructure/infra06.png") { [ 562, 3928,  64,  23, -31,   0] }
-base_graphics( 317, "sprites/png/infrastructure/infra06.png") { [ 642, 3928,  64,  23, -31, -30] }
-base_graphics( 318, "sprites/png/infrastructure/infra06.png") { [ 722, 3928,  64,  23, -31,   0] }
-base_graphics( 319, "sprites/png/infrastructure/infra06.png") { [   2, 3992,  64,  23, -31, -30] }
-base_graphics( 320, "sprites/png/infrastructure/infra06.png") { [  82, 3992,  64,  39, -31,  -8] }
-base_graphics( 321, "sprites/png/infrastructure/infra06.png") { [ 162, 3992,  64,  39, -31, -38] }
+base_graphics spr314( 314, "sprites/png/infrastructure/infra06.png") { [ 402, 3928,  64,  39, -31,  -8] }
+base_graphics spr315( 315, "sprites/png/infrastructure/infra06.png") { [ 482, 3928,  64,  39, -31, -38] }
+base_graphics spr316( 316, "sprites/png/infrastructure/infra06.png") { [ 562, 3928,  64,  23, -31,   0] }
+base_graphics spr317( 317, "sprites/png/infrastructure/infra06.png") { [ 642, 3928,  64,  23, -31, -30] }
+base_graphics spr318( 318, "sprites/png/infrastructure/infra06.png") { [ 722, 3928,  64,  23, -31,   0] }
+base_graphics spr319( 319, "sprites/png/infrastructure/infra06.png") { [   2, 3992,  64,  23, -31, -30] }
+base_graphics spr320( 320, "sprites/png/infrastructure/infra06.png") { [  82, 3992,  64,  39, -31,  -8] }
+base_graphics spr321( 321, "sprites/png/infrastructure/infra06.png") { [ 162, 3992,  64,  39, -31, -38] }

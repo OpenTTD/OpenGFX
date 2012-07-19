@@ -1,20 +1,20 @@
 // roads on tropical grass
-base_graphics( 199, "sprites/png/infrastructure/infra06.png") { [ 434, 3080,  64,  31, -31,   0] }
-base_graphics( 200, "sprites/png/infrastructure/infra06.png") { [ 514, 3080,  64,  31, -31,   0] }
-base_graphics( 201, "sprites/png/infrastructure/infra06.png") { [ 594, 3080,  64,  31, -31,   0] }
-base_graphics( 202, "sprites/png/infrastructure/infra06.png") { [ 674, 3080,  64,  31, -31,   0] }
-base_graphics( 203, "sprites/png/infrastructure/infra06.png") { [   2, 3144,  64,  31, -31,   0] }
-base_graphics( 204, "sprites/png/infrastructure/infra06.png") { [  82, 3144,  64,  31, -31,   0] }
-base_graphics( 205, "sprites/png/infrastructure/infra06.png") { [ 162, 3144,  64,  31, -31,   0] }
-base_graphics( 206, "sprites/png/infrastructure/infra06.png") { [ 242, 3144,  64,  31, -31,   0] }
-base_graphics( 207, "sprites/png/infrastructure/infra06.png") { [ 322, 3144,  64,  31, -31,   0] }
-base_graphics( 208, "sprites/png/infrastructure/infra06.png") { [ 402, 3144,  64,  31, -31,   0] }
-base_graphics( 209, "sprites/png/infrastructure/infra06.png") { [ 482, 3144,  64,  31, -31,   0] }
-base_graphics( 210, "sprites/png/infrastructure/infra06.png") { [ 562, 3144,  64,  39, -31,  -8] }
-base_graphics( 211, "sprites/png/infrastructure/infra06.png") { [ 642, 3144,  64,  23, -31,   0] }
-base_graphics( 212, "sprites/png/infrastructure/infra06.png") { [ 722, 3144,  64,  23, -31,   0] }
-base_graphics( 213, "sprites/png/infrastructure/infra06.png") { [   2, 3208,  64,  39, -31,  -8] }
-base_graphics( 214, "sprites/png/infrastructure/infra06.png") { [  82, 3208,  64,  31, -31,   0] }
-base_graphics( 215, "sprites/png/infrastructure/infra06.png") { [ 162, 3208,  64,  31, -31,   0] }
-base_graphics( 216, "sprites/png/infrastructure/infra06.png") { [ 242, 3208,  64,  31, -31,   0] }
-base_graphics( 217, "sprites/png/infrastructure/infra06.png") { [ 322, 3208,  64,  31, -31,   0] }
+base_graphics spr199( 199, "sprites/png/infrastructure/infra06.png") { [ 434, 3080,  64,  31, -31,   0] }
+base_graphics spr200( 200, "sprites/png/infrastructure/infra06.png") { [ 514, 3080,  64,  31, -31,   0] }
+base_graphics spr201( 201, "sprites/png/infrastructure/infra06.png") { [ 594, 3080,  64,  31, -31,   0] }
+base_graphics spr202( 202, "sprites/png/infrastructure/infra06.png") { [ 674, 3080,  64,  31, -31,   0] }
+base_graphics spr203( 203, "sprites/png/infrastructure/infra06.png") { [   2, 3144,  64,  31, -31,   0] }
+base_graphics spr204( 204, "sprites/png/infrastructure/infra06.png") { [  82, 3144,  64,  31, -31,   0] }
+base_graphics spr205( 205, "sprites/png/infrastructure/infra06.png") { [ 162, 3144,  64,  31, -31,   0] }
+base_graphics spr206( 206, "sprites/png/infrastructure/infra06.png") { [ 242, 3144,  64,  31, -31,   0] }
+base_graphics spr207( 207, "sprites/png/infrastructure/infra06.png") { [ 322, 3144,  64,  31, -31,   0] }
+base_graphics spr208( 208, "sprites/png/infrastructure/infra06.png") { [ 402, 3144,  64,  31, -31,   0] }
+base_graphics spr209( 209, "sprites/png/infrastructure/infra06.png") { [ 482, 3144,  64,  31, -31,   0] }
+base_graphics spr210( 210, "sprites/png/infrastructure/infra06.png") { [ 562, 3144,  64,  39, -31,  -8] }
+base_graphics spr211( 211, "sprites/png/infrastructure/infra06.png") { [ 642, 3144,  64,  23, -31,   0] }
+base_graphics spr212( 212, "sprites/png/infrastructure/infra06.png") { [ 722, 3144,  64,  23, -31,   0] }
+base_graphics spr213( 213, "sprites/png/infrastructure/infra06.png") { [   2, 3208,  64,  39, -31,  -8] }
+base_graphics spr214( 214, "sprites/png/infrastructure/infra06.png") { [  82, 3208,  64,  31, -31,   0] }
+base_graphics spr215( 215, "sprites/png/infrastructure/infra06.png") { [ 162, 3208,  64,  31, -31,   0] }
+base_graphics spr216( 216, "sprites/png/infrastructure/infra06.png") { [ 242, 3208,  64,  31, -31,   0] }
+base_graphics spr217( 217, "sprites/png/infrastructure/infra06.png") { [ 322, 3208,  64,  31, -31,   0] }
