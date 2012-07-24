@@ -1,4 +1,4 @@
-// roads on tropical grass
+// roads on desert 
 base_graphics spr199( 199, "sprites/png/infrastructure/infra06.png") { [ 434, 3080,  64,  31, -31,   0] }
 base_graphics spr200( 200, "sprites/png/infrastructure/infra06.png") { [ 514, 3080,  64,  31, -31,   0] }
 base_graphics spr201( 201, "sprites/png/infrastructure/infra06.png") { [ 594, 3080,  64,  31, -31,   0] }
