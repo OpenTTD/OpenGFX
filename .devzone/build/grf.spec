@@ -66,7 +66,7 @@ make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/opengfx-%{version}
 make check
 
 mkdir -p $HOME/.openttd/data
-ln -sT %{buildroot}%{_datadir}/openttd/data/opengfx-%{version} $HOME/.openttd/data/opengfx
+ln -sfT %{buildroot}%{_datadir}/openttd/data/opengfx-%{version} $HOME/.openttd/data/opengfx
 openttd -vnull:ticks=1 -d9 1>%{name}-%{version}-openttd.log 2>&1
 
 %clean
