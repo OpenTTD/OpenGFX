@@ -1,7 +1,6 @@
 OpenGFX 0.4.5 (25 Sep 2012)
 ---------------------------
 - Feature: Happyness indicators in town list (issue #3928)
-- Fix: [rpm] Do not make recursive symlinks
 
 
 
