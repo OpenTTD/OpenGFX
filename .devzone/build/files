@@ -12,3 +12,4 @@ T;%{RPMBUILDDIR}/RPMS/noarch/*.noarch.rpm
 %{BUILD}/ttdpatch
 %{BUILD}/docs/readme.txt
 %{BUILD}/docs/changelog.txt
+L;%{BUILD}/rpmlist

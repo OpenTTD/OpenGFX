@@ -63,7 +63,8 @@ mv %{name}-%{version}-build.err.log error.log
 cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v "GLib-WARNING" | grep -v "^$" >%{name}-%{version}-build.err.log || :
 
 %install
-make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data
+rpm -qa | sort > rpmlist
+make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/opengfx-%{version}
 
 %check
 make check
