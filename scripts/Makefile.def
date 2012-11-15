@@ -8,7 +8,9 @@ MAKE_FLAGS     ?= -r
 
 NML            ?= nmlc
 NML_FLAGS      ?= -c -p DOS
-# NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -d\  -f1 | sed "s@r\([0-9]*\)[M]*@\1@g")
+# Version detection since NML r2040:
+NML_VERSION    := $(shell $(NML) --version | head -n1 | cut -b1,3,5)
+NML_REVISION   := $(shell $(NML) --version | head -n1 | cut -dr -f2 | cut -d: -f1 | cut -dM -f1)
 
 GRFID          ?= grfid
 GRFID_FLAGS    ?= -m

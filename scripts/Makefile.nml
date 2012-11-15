@@ -26,7 +26,7 @@ LANG_FILES := $(shell ls $(LANG_DIR)/*.$(LANG_EXTENSION))
 
 %.grf: %.nml %.gfx.dep $(LANG_FILES) $(MAKEFILE_DEP) %.tags.txt
 	$(_E) "[NML] $@"
-	$(_V) $(NML) $(NML_FLAGS) --grf $@ --custom-tags $(patsubst %.grf,%.tags.txt,$@) $<
+	$(_V)  [ $(NML_VERSION) -ge $(NML_MIN_VERSION) ] && [ $(NML_REVISION) -ge $(NML_MIN_REVISION) ] && $(NML) $(NML_FLAGS) --grf $@ --custom-tags $(patsubst %.grf,%.tags.txt,$@) $< || echo "NML is too old. Minimum of NML r$(NML_MIN_VERSION) is required."
 
 $(TAG_FILENAME): $(REV_FILENAME)
 	$(_E) "[LANG] $@"
