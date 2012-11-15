@@ -173,4 +173,6 @@ replacenew(OTTD_GUI, "") {
 	[   0,   22,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // appalling town rating, sad, red smily
 	[   0,   33,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // mediocre town rating, yellow smily
 	[   0,   44,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // very good town rating, happy, green smily
+	[   3,   10,  14,  10,   0,   0, "sprites/png/extra/extra-gui-delete.png"]      // delete to left
+	[  19,   10,  14,  10,   0,   0, "sprites/png/extra/extra-gui-delete.png"]      // delete to right
 }
