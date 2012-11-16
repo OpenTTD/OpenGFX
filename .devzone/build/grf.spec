@@ -64,13 +64,14 @@ cat error.log |  grep -v "LibGimpBase-WARNING" | grep -v "Gtk-WARNING" | grep -v
 
 %install
 rpm -qa | sort > rpmlist
-make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/opengfx-%{version}
+%define ogfxdir %{_datadir}/openttd/baseset/opengfx-%{version}
+make install INSTALL_DIR=%{buildroot}%{ogfxdir}
 
 %check
 make check
 
 mkdir -p $HOME/.openttd/data
-ln -sfT %{buildroot}%{_datadir}/openttd/data/opengfx-%{version} $HOME/.openttd/data/opengfx
+ln -sfT %{buildroot}%{ogfxdir} $HOME/.openttd/data/opengfx
 openttd -vnull:ticks=1 -d9 1>%{name}-%{version}-openttd.log 2>&1
 
 %clean
@@ -79,16 +80,18 @@ openttd -vnull:ticks=1 -d9 1>%{name}-%{version}-openttd.log 2>&1
 %files
 %defattr(-,root,root,-)
 %dir %{_datadir}/openttd
-%dir %{_datadir}/openttd/data
-%doc %{_datadir}/openttd/data/changelog.txt
-%doc %{_datadir}/openttd/data/license.txt
-%{_datadir}/openttd/data/ogfx1_base.grf
-%{_datadir}/openttd/data/ogfxc_arctic.grf
-%{_datadir}/openttd/data/ogfxe_extra.grf
-%{_datadir}/openttd/data/ogfxh_tropical.grf
-%{_datadir}/openttd/data/ogfxi_logos.grf
-%{_datadir}/openttd/data/ogfxt_toyland.grf
-%{_datadir}/openttd/data/opengfx.obg
-%doc %{_datadir}/openttd/data/readme.txt
+%dir %{_datadir}/openttd/baseset
+%dir %{ogfxdir}
+%doc %{ogfxdir}/changelog.txt
+%doc %{ogfxdir}/license.txt
+%doc %{ogfxdir}/readme.txt
+%{ogfxdir}/ogfx1_base.grf
+%{ogfxdir}/ogfxc_arctic.grf
+%{ogfxdir}/ogfxe_extra.grf
+%{ogfxdir}/ogfxh_tropical.grf
+%{ogfxdir}/ogfxi_logos.grf
+%{ogfxdir}/ogfxt_toyland.grf
+%{ogfxdir}/opengfx.obg 
 
 %changelog
+
