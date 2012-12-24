@@ -1,3 +1,9 @@
+OpenGFX 0.4.6 (24 Dec 2012)
+- Feature: GUI sprites for delete buttons introduced in OpenTTD r24749
+- Change: [Makefile] NML version check
+
+
+
 OpenGFX 0.4.5 (25 Sep 2012)
 ---------------------------
 - Feature: Happyness indicators in town list (issue #3928)
