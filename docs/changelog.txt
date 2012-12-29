@@ -1,4 +1,11 @@
+OpenGFX 0.4.6.1 (27 Dec 2012)
+-----------------------------
+- Change: [Makefile] Allow to build OpenGFX also with NML 0.2.4 (and ignore gui sprite warning)
+
+
+
 OpenGFX 0.4.6 (24 Dec 2012)
+---------------------------
 - Feature: GUI sprites for delete buttons introduced in OpenTTD r24749
 - Change: [Makefile] NML version check
 
