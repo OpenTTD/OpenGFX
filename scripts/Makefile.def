@@ -14,7 +14,7 @@ NML_REVISION   := $(shell $(NML) --version | head -n1 | cut -dr -f2 | cut -d: -f
 
 
 CC             ?= gcc
-CC_FLAGS       ?= -C -E - <
+CC_FLAGS       ?= -nostdinc -C -E - <
 
 GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
 GIMP_FLAGS     ?= -n -i -b - <
