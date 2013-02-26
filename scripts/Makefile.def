@@ -16,7 +16,7 @@ GRFID          ?= grfid
 GRFID_FLAGS    ?= -m
 
 CC             ?= gcc
-CC_FLAGS       ?= -C -E - <
+CC_FLAGS       ?= -nostdinc -C -E - <
 
 GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
 GIMP_FLAGS     ?= -n -i -b - <
