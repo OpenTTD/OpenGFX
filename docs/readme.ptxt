@@ -11,11 +11,12 @@ Contents
 3.1 Installation or update via Online Content service
 3.2 Manual installation
 4 Reporting bugs and Contributing
-5 Building of OpenGFX
-    5.1 Notes for package maintainers
-    5.2 Note on the xcf and psd files
+    4.1 Reporting bugs
+    4.2 Obtaining the source
+    4.3 Building OpenGFX
+    4.4 Notes for package maintainers
+    4.5 Note on the xcf and psd files
 6 License
-    6.1 Obtaining the source
 7 Credits
 
 
@@ -141,6 +142,9 @@ at TT-Forums: http://www.tt-forums.net/viewtopic.php?f=36&t=40162 or
 4 Reporting bugs and contributing
 =================================
 
+
+4.1 Reporting bugs
+------------------
 If you spot any graphical bugs or glitches in the available graphics, please let
 us know preferrably via our bug tracker
     http://dev.openttdcoop.org/projects/opengfx/issues
@@ -156,10 +160,8 @@ development discussion thread
 http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0
 
 
-
-5 Building OpenGFX
-=========================================
-
+4.2 Obtaining the source
+------------------------
 The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball.
 You can do an anonymous checkout from http://hg.openttdcoop.org/opengfx ,
 e.g. using
@@ -167,6 +169,9 @@ e.g. using
 or obtain the tarball from
     http://bundles.openttdcoop.org/opengfx/releases.
 
+
+4.3 Building OpenGFX
+--------------------
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
 - md5sum (linux, mingw) or md5 (mac)
@@ -225,7 +230,8 @@ changes ingame, if you selected the nightly version of OpenGFX. Given default
 paths, a 'make install' will overwrite a previous nightly version of OpenGFX.
 Mind to re-start OpenTTD as it needs to re-read the grf files.
 
-5.1 Notes for package maintainers:
+
+4.4 Notes for package maintainers:
 ---------------------------------
 - Checking for build success: The source releases contain an additional file
   opengfx-<version>.md5 which indicates the md5 sums of the generated files as
@@ -240,7 +246,7 @@ Mind to re-start OpenTTD as it needs to re-read the grf files.
   works but is deprecated.
 
 
-5.2 Note on the xcf and psd files
+4.5 Note on the xcf and psd files
 ---------------------------------
 The repository contains a few xcf2png files which indicate which png files can
 be generated from the source xcf or psd files. This will only be used, if GIMP
@@ -249,7 +255,7 @@ re-generated from a xcf or psd file.
 
 
 
-6 License
+5 License
 =========
 
 OpenGFX Graphics Base Set for OpenTTD
@@ -272,7 +278,7 @@ Free Software Foundation, Inc.
 
 
 
-7 Credits
+6 Credits
 =========
 
 OpenGFX is created by the following people (in reverse alphabetical order):
