@@ -23,11 +23,5 @@ base_graphics spr1166(1166, "sprites/png/infrastructure/infra08.png") { [ 722, 6
 base_graphics spr1167(1167, "sprites/png/infrastructure/infra08.png") { [   2, 6312,  64,  23, -31, -30] }
 base_graphics spr1168(1168, "sprites/png/infrastructure/infra08.png") { [  82, 6312,  64,  39, -31,  -8] }
 base_graphics spr1169(1169, "sprites/png/infrastructure/infra08.png") { [ 162, 6312,  64,  39, -31, -38] }
-base_graphics spr1170(1170, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  396,  64,  39, -31,  -8] }
-base_graphics spr1171(1171, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  396,  64,  39, -31, -38] }
-base_graphics spr1172(1172, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  396,  64,  23, -31,   0] }
-base_graphics spr1173(1173, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  396,  64,  23, -31, -30] }
-base_graphics spr1174(1174, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  396,  64,  23, -31,   0] }
-base_graphics spr1175(1175, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  396,  64,  23, -31, -30] }
-base_graphics spr1176(1176, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  396,  64,  39, -31,  -8] }
-base_graphics spr1177(1177, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  396,  64,  39, -31, -38] }
+// Road tunnel sprites 1170 - 1177
+base_graphics spr1170(1170, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(396) }

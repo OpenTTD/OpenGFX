@@ -28,12 +28,5 @@ base_graphics spr506( 506, "sprites/png/infrastructure/infra06.png") { [ 722, 45
 base_graphics spr507( 507, "sprites/png/infrastructure/infra06.png") { [   2, 4632,  64,  39, -31,  -8] }
 base_graphics spr508( 508, "sprites/png/infrastructure/infra06.png") { [  82, 4632,  64,  39, -31, -38] }
 
-// road tunnel on desert ground
-base_graphics spr509( 509, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  322,  64,  39, -31,  -8] }
-base_graphics spr510( 510, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  322,  64,  39, -31, -38] }
-base_graphics spr511( 511, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  322,  64,  23, -31,   0] }
-base_graphics spr512( 512, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  322,  64,  23, -31, -30] }
-base_graphics spr513( 513, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  322,  64,  23, -31,   0] }
-base_graphics spr514( 514, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  322,  64,  23, -31, -30] }
-base_graphics spr515( 515, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  322,  64,  39, -31,  -8] }
-base_graphics spr516( 516, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  322,  64,  39, -31, -38] }
+// road tunnel on desert ground 509 - 516
+base_graphics spr509( 509, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(322) }

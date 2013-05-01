@@ -8,12 +8,5 @@ base_graphics spr235( 235, "sprites/png/infrastructure/infra06.png") { [ 322, 38
 base_graphics spr236( 236, "sprites/png/infrastructure/infra06.png") { [ 402, 3864,  64,  39, -31,  -8] }
 base_graphics spr237( 237, "sprites/png/infrastructure/infra06.png") { [ 482, 3864,  64,  39, -31, -38] }
 
-// arctic road tunnel
-base_graphics spr238( 238, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  101,  64,  39, -31,  -8] }
-base_graphics spr239( 239, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  101,  64,  39, -31, -38] }
-base_graphics spr240( 240, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  101,  64,  23, -31,   0] }
-base_graphics spr241( 241, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  101,  64,  23, -31, -30] }
-base_graphics spr242( 242, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  101,  64,  23, -31,   0] }
-base_graphics spr243( 243, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  101,  64,  23, -31, -30] }
-base_graphics spr244( 244, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  101,  64,  39, -31,  -8] }
-base_graphics spr245( 245, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  101,  64,  39, -31, -38] }
+// arctic road tunnel 238 - 245
+base_graphics spr238( 238, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(101) }

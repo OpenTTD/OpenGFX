@@ -24,15 +24,8 @@ base_graphics spr2385(2385, "sprites/png/infrastructure/infra06.png") { [ 482, 3
 base_graphics spr2386(2386, "sprites/png/infrastructure/infra06.png") { [ 562, 3736,  64,  23, -31, -30] }
 base_graphics spr2387(2387, "sprites/png/infrastructure/infra06.png") { [ 642, 3736,  64,  39, -31,  -8] }
 base_graphics spr2388(2388, "sprites/png/infrastructure/infra06.png") { [ 722, 3736,  64,  39, -31, -38] }
-// temperate road tunnels
-base_graphics spr2389(2389, "sprites/png/infrastructure/roadtunnel.png") { [ 113,   27,  64,  39, -31,  -8] }
-base_graphics spr2390(2390, "sprites/png/infrastructure/roadtunnel.png") { [ 193,   27,  64,  39, -31, -38] }
-base_graphics spr2391(2391, "sprites/png/infrastructure/roadtunnel.png") { [ 653,   27,  64,  23, -31,   0] }
-base_graphics spr2392(2392, "sprites/png/infrastructure/roadtunnel.png") { [ 733,   27,  64,  23, -31, -30] }
-base_graphics spr2393(2393, "sprites/png/infrastructure/roadtunnel.png") { [ 337,   27,  64,  23, -31,   0] }
-base_graphics spr2394(2394, "sprites/png/infrastructure/roadtunnel.png") { [ 417,   27,  64,  23, -31, -30] }
-base_graphics spr2395(2395, "sprites/png/infrastructure/roadtunnel.png") { [ 877,   27,  64,  39, -31,  -8] }
-base_graphics spr2396(2396, "sprites/png/infrastructure/roadtunnel.png") { [ 957,   27,  64,  39, -31, -38] }
+// temperate road tunnels 2389 - 2396
+base_graphics spr2389(2389, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(27) }
 
 //tunnels snowy terrain
 base_graphics spr2397(2397, "sprites/png/infrastructure/infra06.png") { [ 354, 4248,  64,  39, -31,  -8] }
@@ -59,15 +52,8 @@ base_graphics spr2417(2417, "sprites/png/infrastructure/infra06.png") { [ 402, 4
 base_graphics spr2418(2418, "sprites/png/infrastructure/infra06.png") { [ 482, 4376,  64,  23, -31, -30] }
 base_graphics spr2419(2419, "sprites/png/infrastructure/infra06.png") { [ 562, 4376,  64,  39, -31,  -8] }
 base_graphics spr2420(2420, "sprites/png/infrastructure/infra06.png") { [ 642, 4376,  64,  39, -31, -38] }
-// snowy road tunnels
-base_graphics spr2421(2421, "sprites/png/infrastructure/roadtunnel.png") { [ 113,  249,  64,  39, -31,  -8] }
-base_graphics spr2422(2422, "sprites/png/infrastructure/roadtunnel.png") { [ 193,  249,  64,  39, -31, -38] }
-base_graphics spr2423(2423, "sprites/png/infrastructure/roadtunnel.png") { [ 653,  249,  64,  23, -31,   0] }
-base_graphics spr2424(2424, "sprites/png/infrastructure/roadtunnel.png") { [ 733,  249,  64,  23, -31, -30] }
-base_graphics spr2425(2425, "sprites/png/infrastructure/roadtunnel.png") { [ 337,  249,  64,  23, -31,   0] }
-base_graphics spr2426(2426, "sprites/png/infrastructure/roadtunnel.png") { [ 417,  249,  64,  23, -31, -30] }
-base_graphics spr2427(2427, "sprites/png/infrastructure/roadtunnel.png") { [ 877,  249,  64,  39, -31,  -8] }
-base_graphics spr2428(2428, "sprites/png/infrastructure/roadtunnel.png") { [ 957,  249,  64,  39, -31, -38] }
+// snowy road tunnels 2421 - 2428
+base_graphics spr2421(2421, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(249) }
 
 //2429-2436 tunnel gui
 base_graphics spr2429(2429, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] } // road tunnel
