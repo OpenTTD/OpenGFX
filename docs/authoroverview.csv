@@ -429,14 +429,15 @@ ogfxe_extra;0;7;8;[Type 11] Road stop graphics;FooBar;FooBar;;1
 ogfxe_extra;0;7;8;[Type 12] Aqueduct graphics;Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;54;55;[Type 13] Autorail sprites;FooBar;n/a;;1
 ogfxe_extra;0;35;36;[Type 14] Flag sprites;OpenTTD Developers;OpenTTD Developers;;1
-ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp, andythenorth;Zephyris, planetmaker, Ammler;;1
-ogfxe_extra;0;155;159;[Type 16] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
-ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
-ogfxe_extra;0;161;162;[Type 16] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
-ogfxe_extra;0;163;166;[Type 16] OpenTTD GUI sprites: town rating indicators;2006TTD;planetmaker;;1
-ogfxe_extra;0;167;168;[Type 16] OpenTTD GUI sprites: delete buttons for text fields;frosch;planetmaker;;1
-ogfxe_extra;0;169;169;[Type 16] OpenTTD GUI sprites: window default size button;frosch;frosch;;1
-ogfxe_extra;0;170;174;[Type 16] OpenTTD GUI sprites: story book buttons + icons;2006TTD,frosch,Ben_Robbins_, Zephyris;frosch;;1
+ogfxe_extra;0;144;145;[Type 15] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp, andythenorth;Zephyris, planetmaker, Ammler;;1
+ogfxe_extra;0;155;159;[Type 15] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
+ogfxe_extra;0;160;160;[Type 15] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
+ogfxe_extra;0;161;162;[Type 15] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
+ogfxe_extra;0;163;166;[Type 15] OpenTTD GUI sprites: town rating indicators;2006TTD;planetmaker;;1
+ogfxe_extra;0;167;168;[Type 15] OpenTTD GUI sprites: delete buttons for text fields;frosch;planetmaker;;1
+ogfxe_extra;0;169;169;[Type 15] OpenTTD GUI sprites: window default size button;frosch;frosch;;1
+ogfxe_extra;0;170;174;[Type 15] OpenTTD GUI sprites: story book buttons + icons;2006TTD,frosch,Ben_Robbins_, Zephyris;frosch;;1
+ogfxe_extra;0;8;9;[Type 16] Airport preview sprites;Rubidium;Rubidium;;1
 ogfxe_extra;0;15;16;[Type 17] Groundset part for tunnel overlay sprites;Snail;michi_cc;;1
 ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1
