@@ -1,3 +1,11 @@
+OpenGFX 0.4.7 (10 Jun 2013)
+---------------------------
+- Feature: GUI sprites for window default size and story book
+- Add: Scottish Gaelic description
+- Fix: [Makefile] Disallow automatic inclusion of default c headers by gcc 4.8
+
+
+
 OpenGFX 0.4.6.1 (27 Dec 2012)
 -----------------------------
 - Change: [Makefile] Allow to build OpenGFX also with NML 0.2.4 (and ignore gui sprite warning)
