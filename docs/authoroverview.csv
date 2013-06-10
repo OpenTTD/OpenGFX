@@ -109,8 +109,10 @@ ogfx1_base;2341;2343;3;Industries tropical plantations;planetmaker, Froix;planet
 ogfx1_base;2344;2346;3;Industries water tower;Zephyris;buttercup;;1
 ogfx1_base;2347;2352;6;Industries pumping station;Zephyris;buttercup;;1
 ogfx1_base;2353;2364;12;Industries lumber mill;Zephyris;buttercup;;1
-ogfx1_base;2365;2396;32;Tunnels temperate;Zephyris;Zephyris;;1
-ogfx1_base;2397;2428;32;Tunnels snow;Zephyris;Zephyris;;1
+ogfx1_base;2365;2388;24;Rail Tunnels temperate;Zephyris;Zephyris;;1
+ogfx1_base;2389;2396;8;Road Tunnels temperate;V453000;Zephyris;;1
+ogfx1_base;2397;2420;24;Rail Tunnels snow;Zephyris;Zephyris;;1
+ogfx1_base;2421;2428;8;Road tunnesl snow;V453000;Zephyris;;1
 ogfx1_base;2429;2436;8;GUI tunnel buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfx1_base;2437;2592;156;Bridges;Purno, Thgergo, Zephyris, Zimmlock;buttercup, Zephyris;;1
 ogfx1_base;2593;2600;8;GUI bridges;bubersson, LordAzamath, Zephyris;Zephyris;;1
@@ -293,9 +295,10 @@ ogfxc_arctic;195;202;8;Fences;Soeb;FooBar, Soeb;;1
 ogfxc_arctic;203;210;8;Rail level crossings;Zephyris;Zephyris;;1
 ogfxc_arctic;211;229;19;Road tiles;Zephyris;Zephyris;;1
 ogfxc_arctic;230;237;8;Rail tunnels;Zephyris;Zephyris;;1
-ogfxc_arctic;238;245;8;Sea Water;Leppka;Zephyris;;1
-ogfxc_arctic;246;246;1;Coastline;planetmaker, Leppka, Zephyris;Zephyris;;1
-ogfxc_arctic;247;260;14;Ship depot;Red*Star;;;1
+ogfxc_arctic;238;245;8;Road tunnels;V453000;Zephyris;;1
+ogfxc_arctic;246;1;Sea Water;Leppka;Zephyris;;1
+ogfxc_arctic;247;254;8;Coastline;planetmaker, Leppka, Zephyris;Zephyris;;1
+ogfxc_arctic;255;260;6;Ship depot;Red*Star;;;1
 ogfxc_arctic;261;261;1;Buoy;FooBar, Leppka;FooBar;;1 (unused)
 ogfxc_arctic;262;268;7;Oil well;Zephyris;buttercup;;1
 ogfxc_arctic;269;283;15;Headquarters;Zephyris;;;1
@@ -320,7 +323,7 @@ ogfxh_tropical;157;182;26;Rail tracks;Zephyris;Zephyris;;1
 ogfxh_tropical;183;190;8;Fences;Soeb;FooBar, Soeb;;1
 ogfxh_tropical;191;198;8;Rail level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;199;217;19;Road desert tiles;Zephyris;Zephyris;;1
-ogfxh_tropical;218;233;16;Tunnels;Zephyris;Zephyris;;1
+ogfxh_tropical;218;233;16;Rail Tunnels;Zephyris;Zephyris;;1
 ogfxh_tropical;234;234;1;Sea Water;Leppka;Zephyris;;1
 ogfxh_tropical;235;242;8;Coastline;planetmaker, Leppka, Zephyris;Zephyris;;1
 ogfxh_tropical;243;248;6;Ship depot;Red*Star;;;1
@@ -340,7 +343,8 @@ ogfxh_tropical;388;406;19;Road rainforest tiles;Zephyris;Zephyris;;1
 ogfxh_tropical;407;432;26;Rail desert tracks;Zephyris;Zephyris;;1
 ogfxh_tropical;433;458;26;Monorail desert tracks;Zephyris;Zephyris;;1
 ogfxh_tropical;459;484;26;Maglev desert tracks;Zephyris, 2006TTD;Zephyris, planetmaker;;1
-ogfxh_tropical;485;516;32;Desert tunnels;Zephyris;Zephyris;;1
+ogfxh_tropical;485;508;24;Desert rail tunnels;Zephyris;Zephyris;;1
+ogfxh_tropical;509;516;8;Desert road tunnels;V453000;Zephyris;;1
 ogfxh_tropical;517;530;14;Foundations;Zephyris;Zephyris;;1
 ogfxh_tropical;531;542;12;Desert level crossings;Zephyris;Zephyris;;1
 ogfxh_tropical;543;554;12;Farm;Zephyris;buttercup;;1
@@ -397,7 +401,8 @@ ogfxt_toyland;885;901;17;GUI buttons and cursors;bubersson, LordAzamath, Zephyri
 ogfxt_toyland;902;1057;156;Bridges;Zephyris, molace;Zephyris, planetmaker;;1
 ogfxt_toyland;1058;1065;8;Brige GUI;bubersson, LordAzamath, Zephyris, molace;Zephyris, planetmaker;;1
 ogfxt_toyland;1066;1145;80;Bridges;Zephyris;Zephyris;;1
-ogfxt_toyland;1146;1177;32;Tunnels;Zephyris;Zephyris;;1
+ogfxt_toyland;1146;1169;24;Rail Tunnels;Zephyris;Zephyris;;1
+ogfxt_toyland;1170;1177;8;Road Tunnels;V453000;Zephyris;;1
 ogfxt_toyland;1178;1193;16;GUI buttons and cursors;bubersson, LordAzamath, Zephyris;Zephyris;;1
 ogfxt_toyland;1194;1194;1;Recolour sprite;n/a;n/a;;1
 ogfxe_extra;0;47;48;[Type 04] Pre-signal graphics;2006TTD;Ammler;;1
@@ -424,12 +429,15 @@ ogfxe_extra;0;7;8;[Type 11] Road stop graphics;FooBar;FooBar;;1
 ogfxe_extra;0;7;8;[Type 12] Aqueduct graphics;Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;54;55;[Type 13] Autorail sprites;FooBar;n/a;;1
 ogfxe_extra;0;35;36;[Type 14] Flag sprites;OpenTTD Developers;OpenTTD Developers;;1
-ogfxe_extra;0;144;145;[Type 16] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp, andythenorth;Zephyris, planetmaker, Ammler;;1
-ogfxe_extra;0;155;159;[Type 16] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
-ogfxe_extra;0;160;160;[Type 16] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
-ogfxe_extra;0;161;162;[Type 16] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
-ogfxe_extra;0;163;166;[Type 16] OpenTTD GUI sprites: town rating indicators;2006TTD;planetmaker;;1
-ogfxe_extra;0;167;168;[Type 16] OpenTTD GUI sprites: delete buttons for text fields;frosch;planetmaker;;1
+ogfxe_extra;0;144;145;[Type 15] OpenTTD GUI sprites;bubersson, LordAzamath, Zephyris, erikjanp, andythenorth;Zephyris, planetmaker, Ammler;;1
+ogfxe_extra;0;155;159;[Type 15] OpenTTD GUI sprites: profits;2006TTD, planetmaker; planetmaker;;1
+ogfxe_extra;0;160;160;[Type 15] OpenTTD GUI sprites: exclusive transport rights;frosch; planetmaker;;1
+ogfxe_extra;0;161;162;[Type 15] OpenTTD GUI sprites: autoreplace list icons;frosch;frosch;;1
+ogfxe_extra;0;163;166;[Type 15] OpenTTD GUI sprites: town rating indicators;2006TTD;planetmaker;;1
+ogfxe_extra;0;167;168;[Type 15] OpenTTD GUI sprites: delete buttons for text fields;frosch;planetmaker;;1
+ogfxe_extra;0;169;169;[Type 15] OpenTTD GUI sprites: window default size button;frosch;frosch;;1
+ogfxe_extra;0;170;174;[Type 15] OpenTTD GUI sprites: story book buttons + icons;2006TTD,frosch,Ben_Robbins_, Zephyris;frosch;;1
+ogfxe_extra;0;8;9;[Type 16] Airport preview sprites;Rubidium;Rubidium;;1
 ogfxe_extra;0;15;16;[Type 17] Groundset part for tunnel overlay sprites;Snail;michi_cc;;1
 ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
 ogfxe_extra;0;843;844;River water;Leppka, Zephyris;planetmaker;;1
