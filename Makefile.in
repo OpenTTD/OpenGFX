@@ -1,10 +1,10 @@
 
-%.obg: $(GRF_FILES) $(DESC_FILENAME) $(REV_FILENAME)
+%.obg: $(GRF_FILES) $(DESC_FILENAME_SRC)
 	$(_E) "[ASSEMBLING] $@"
 	@echo "[metadata]" > $@
 	@echo "name        = $(REPO_NAME)" >> $@
 	@echo "shortname   = $(REPO_SHORTNAME)" >> $@
-	@echo "version     = $(REPO_REVISION)" >> $@
+	@echo "version     = $(NEWGRF_VERSION)" >> $@
 	@echo "palette     = $(REPO_PALETTE)" >> $@
 	@echo "blitter     = $(REPO_BLITTER)" >> $@
 	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(REPO_TITLE)]/' >> $@
@@ -21,12 +21,8 @@
 	@echo "[origin]" >> $@
 	@echo "$(REPO_ORIGIN)" >> $@
 
-maintainer-clean::
-	$(_V)-rm -rf $(shell cat $(GRAPHICS_SOURCE_LIST_FILES) | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1)
-
 test::
 	$(_E) "Graphics source list:         $(GRAPHICS_SOURCE_LIST_FILES)"
-
 
 
 %.tags.txt:
@@ -38,4 +34,9 @@ ogfxe_extra.tags.txt: $(REV_FILENAME)
 	$(_V) echo "VERSION  :$(REPO_VERSION_STRING)" > $@
 	$(_V) echo "TITLE    :$(REPO_TITLE)" >> $@
 	$(_V) echo "FILENAME :$(TARGET_FILES)" >> $@
+
+clean::
+	$(_E) "[CLEAN] obg"
+	$(_V) -rm opengfx.obg
+	$(_V) -rm *.tags.txt
 
