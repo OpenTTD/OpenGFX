@@ -7,7 +7,7 @@
 	@echo "version     = $(NEWGRF_VERSION)" >> $@
 	@echo "palette     = $(REPO_PALETTE)" >> $@
 	@echo "blitter     = $(REPO_BLITTER)" >> $@
-	$(_V) cat $(DESC_FILENAME_SRC) | sed 's/$$/ [$(REPO_TITLE)]/' >> $@
+	$(_V) $(SCRIPT_DIR)/translations.sh | sed 's/{TITLE}/$(REPO_TITLE)/' >> $@
 
 	@echo "" >> $@
 	@echo "[files]" >> $@
