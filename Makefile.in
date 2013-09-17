@@ -11,7 +11,7 @@
 
 	@echo "" >> $@
 	@echo "[files]" >> $@
-	$(_V) $(_V)for i in $(subst =, ,$(join $(foreach var,$(MAIN_FILENAME_TYPE),"$(var)=" ), $(foreach var,$(GRF_FILES),"$(var)"))); do printf "%-8s = %s\n" $$i | grep 'grf' >> $@; done
+	$(_V) $(_V)for i in $(BASE_FILENAME); do echo "`echo $$i | cut -d_ -f2` = $$i.grf" >> $@; done
 
 	@echo "" >> $@
 	@echo "[md5s]" >> $@
