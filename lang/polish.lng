@@ -1,4 +1,7 @@
 ##grflangid 0x30
 STR_GENERAL_DESC        :OpenGFX to podstawowy zestaw grafik dla OpenTTD. Dostępny na warunkach licencji GNU General Public License versja 2. Więcej informacji znajduje się w pliku readme pod adresem http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Stworzony przez zespół OpenGFX{}Pełna lista autorów znajduje się w pliku "readme.txt"{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}WWW: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
