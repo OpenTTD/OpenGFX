@@ -1,4 +1,7 @@
 ##grflangid 0x24
 STR_GENERAL_DESC        :OpenGFX grafikus alapcsomag az OpenTTD-hez. Ingyenesen hozzáférhető a GNU General Public License 2-es verziójának feltételeivel. Több információ a http://wiki.openttd.org/OpenGFX_Readme oldalon található. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Az OpenGFX csapat jóvoltából.}Nézt meg a readme-t a teljes stáblistához.{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Honlap: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
