@@ -1,0 +1,9 @@
+##grflangid 0x3a
+##plural 11
+##gender m f
+STR_GENERAL_DESC        :OpenTTD용 OpenGFX 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2의 약관에 의거하여 자유롭게 사용하실 수 있습니다. 더 자세한 정보는 http://wiki.openttd.org/OpenGFX_Readme 의 읽어보기를 참고하세요. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX 기본 그래픽 세트{BLACK}{}OpenGFX 팀 제공{}참가자 목록을 보려면 읽어보기 파일을 참고하세요.{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+
+STR_OPENTTD_VERSION     :1.2.0
