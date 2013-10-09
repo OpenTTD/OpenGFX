@@ -1,4 +1,7 @@
 ##grflangid 0x5a
 STR_GENERAL_DESC        :Setelan dasar grafik OpenGFX untuk OpenTTD. Tersedia secara bebas dibawah lisensi GNU General Public License versi 2. Informasi selengkapnya bisa di baca di http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Setelan Dasar Grafik OpenGFX{BLACK}{}Dingajukan kepada anda oleh tim OpenGFX{}Lihat readme untuk daftar penyumbang{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
