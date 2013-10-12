@@ -1,4 +1,7 @@
 ##grflangid 0x35
 STR_GENERAL_DESC        :OpenGFX perusgrafiikat OpenTTD:lle. Vapaasti saatavilla lisenssillä GNU General Public License version 2. Lisätietoja osoitteessa http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX perusgrafiikkasetti{BLACK}{}Tekijät: OpenGFX-tiimi{}Tarkempi lista tekijöistä ja avustajista readme-tiedostossa.{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Kotisivu: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
