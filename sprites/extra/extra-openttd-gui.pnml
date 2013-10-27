@@ -181,4 +181,5 @@ replacenew(OTTD_GUI, "") {
 	[  52,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-storybook.png"]   // story book: incomplete goal
 	[  78,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-storybook.png"]   // story book: completed goal
 	[ 104,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-storybook.png"]   // story book: un-accessible goal
+	[   0,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-cargoflow.png"]   // minimap: cargoflow icon
 }
