@@ -437,6 +437,7 @@ ogfxe_extra;0;163;166;[Type 15] OpenTTD GUI sprites: town rating indicators;2006
 ogfxe_extra;0;167;168;[Type 15] OpenTTD GUI sprites: delete buttons for text fields;frosch;planetmaker;;1
 ogfxe_extra;0;169;169;[Type 15] OpenTTD GUI sprites: window default size button;frosch;frosch;;1
 ogfxe_extra;0;170;174;[Type 15] OpenTTD GUI sprites: story book buttons + icons;2006TTD,frosch,Ben_Robbins_, Zephyris;frosch;;1
+ogfxe_extra;0;175;175;[Type 15] OpenTTD GUI sprites: minimap cargoflow;frosch,V453000,planetmaker;planetmaker;;1
 ogfxe_extra;0;8;9;[Type 16] Airport preview sprites;Rubidium;Rubidium;;1
 ogfxe_extra;0;15;16;[Type 17] Groundset part for tunnel overlay sprites;Snail;michi_cc;;1
 ogfxe_extra;0;843;844;Docks (climate specific and random tiles for canals and rivers);Leppka, Zephyris;buttercup;;1
