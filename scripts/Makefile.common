@@ -47,6 +47,7 @@ distclean:: clean
 	$(_V)-rm -rf $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC) $(DIR_NAME)
 	$(_V)-rm -rf $(DIR_BASE)*nightly*.zip
 	$(_V)-rm -rf $(MD5_FILENAME)
+	$(_V)-rm -rf *.cache *.cacheindex *.tags.txt
 
 clean-gfx::
 ifdef NEED_GIMP
