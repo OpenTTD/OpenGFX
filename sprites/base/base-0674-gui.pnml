@@ -102,3 +102,8 @@ base_graphics spr767( 767, "") { [ 322,  504,  64,  47, -31,  -9, "sprites/png/g
 base_graphics spr768( 768, "") { [ 402,  504,  64,  15, -31,   7, "sprites/png/gui/gui04.png"] }
 base_graphics spr769( 769, "") { [ 482,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
 base_graphics spr770( 770, "") { [ 562,  504,  64,  31, -31,  -1, "sprites/png/gui/gui04.png"] }
+
+//774 some weird white ball (drag for terraform?)
+base_graphics spr774(774, "sprites/png/gui/gui04.png") {
+	[658, 504, 7, 7, -3, -4]
+}

@@ -27,11 +27,6 @@ base_graphics spr771(771, "") {
 	}
 }
 
-//774 some weird white ball (drag for terraform?)
-base_graphics spr774(774, "sprites/png/gui/gui04.png") {
-	[658, 504, 7, 7, -3, -4]
-}
-
 #define CC1(a,b,c,d,e,f,g,h) 0xC6: a; 0xC7: b; 0xC8: c; 0xC9: d; 0xCA: e; 0xCB: f; 0xCC: g; 0xCD: h;
 #define CC1_RANGE(start) 0xC6..0xCD: start..start+7;
 
