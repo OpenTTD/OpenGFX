@@ -1,0 +1,25 @@
+//1420 plain paved tile
+base_graphics spr1420(1420, "sprites/png/industries/industries_misc.png")      { [ 674, 1912,  64,  31, -31,   0] }
+
+//1421-1437 bunch'o'buildings
+//offices
+base_graphics spr1421(1421, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,    0,  66,  87, -32, -56] }      // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+base_graphics spr1422(1422, "sprites/png/houses/buildings.png")                { [  82,  456,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+base_graphics spr1423(1423, "sprites/png/houses/buildings.png")                { [ 162,  456,  66,  87, -32, -56] }         // (Ground tile)
+base_graphics spr1424(1424, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,  176,  66,  87, -32, -56] }      // (Ground tile)
+base_graphics spr1425(1425, "sprites/png/houses/base-1421.1425.1424-offices.png") { [   0,   88,  66,  87, -32, -56] }      // Recolour: STRUCT_CONCRETE, STRUCT_WHITE
+// 1426-1429 flats
+base_graphics spr1426(1426, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,    0,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics spr1427(1427, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,   88,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics spr1428(1428, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,  176,  66,  87, -32, -56] }         // Recolour: STRUCT_CONCRETE, STRUCT_BROWN
+base_graphics spr1429(1429, "sprites/png/houses/base-1426-1429-flats.png")     { [   0,  264,  66,  87, -32, -56] }         // (Ground tile)
+// 1430-1433 house
+base_graphics spr1430(1430, "sprites/png/houses/base-1430-1433-house.png")     { [   0,  176,  66,  87, -32, -56] }
+base_graphics spr1431(1431, "sprites/png/houses/base-1430-1433-house.png")     { [   0,   88,  66,  87, -32, -56] }
+base_graphics spr1432(1432, "sprites/png/houses/base-1430-1433-house.png")     { [   0,    0,  66,  87, -32, -56] }
+base_graphics spr1433(1433, "sprites/png/houses/base-1430-1433-house.png")     { [   0,  264,  66,  87, -32, -56] }
+//church
+base_graphics spr1434(1434, "sprites/png/houses/temprtbuilds.png")             { [  66,    8,  38,  21, -19,   3] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics spr1435(1435, "sprites/png/houses/temprtbuilds.png")             { [ 114,    8,  38,  28, -19,  -4] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics spr1436(1436, "sprites/png/houses/temprtbuilds.png")             { [ 162,    8,  38,  38, -19, -14] }         // Recolour: CHURCH_RED, CHURCH_CREAM
+base_graphics spr1437(1437, "sprites/png/houses/temprtbuilds.png")             { [ 210,    8,  64,  34, -31,  -3] }
