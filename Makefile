@@ -65,7 +65,7 @@ BUNDLE_FILES           ?= $(GRF_FILES) $(DOC_FILES)
 # Replacement strings in the source and in the documentation
 # You may only change the values, not add new definitions
 # (unless you know where to add them in other places, too)
-REPLACE_TITLE       := {{GRF_TITLE}}
+REPLACE_TITLE       := {{REPO_TITLE}}
 REPLACE_GRFID       := {{GRF_ID}}
 REPLACE_REVISION    := {{REPO_REVISION}}
 REPLACE_FILENAME    := {{FILENAME}}
