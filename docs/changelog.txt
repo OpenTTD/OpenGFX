@@ -1,3 +1,8 @@
+OpenGFX 0.5.0 (31 Mar 2014)
+- Change: Default palette to default (DOS)
+
+
+
 OpenGFX 0.4.7 (10 Jun 2013)
 ---------------------------
 - Feature: GUI sprites for window default size and story book
