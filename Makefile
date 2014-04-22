@@ -227,10 +227,14 @@ Makefile_gfx.dep: $(GFX_SCRIPT_LIST_FILES) Makefile
 
 gfx: Makefile_gfx.dep
 
-maintainer-clean::
-	$(_E) "[MAINTAINER CLEAN GFX]"
+clean::
+	$(_E) "[CLEAN GFX]"
+	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; done; done
 	$(_V) rm -rf Makefile_gfx.dep
-	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; rm -rf $$i.png; done; done
+
+clean-gfx::
+	$(_E) "[CLEAN-GFX]"
+	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.png; done; done
 else
 gfx:
 endif
