@@ -501,7 +501,7 @@ OSTYPE:=$(shell uname -s)
 
 # Check for OSX
 ifeq ($(OSTYPE),Darwin)
-INSTALL_DIR :=$(HOME)/Documents/OpenTTD/newgrf/$(BASE_FILENAME)
+INSTALL_DIR :=$(HOME)/Documents/OpenTTD/baseset/$(BASE_FILENAME)
 endif
 
 # Check for Windows / MinGW32
@@ -512,20 +512,20 @@ ifeq "$(origin CC)" "default"
 endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
-	INSTALL_DIR :=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\baseset\$(BASE_FILENAME)
 else
-	INSTALL_DIR :=C:\Users\Public\Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:\Users\Public\Documents\OpenTTD\baseset\$(BASE_FILENAME)
 endif
 endif
 
 # Check for Windows / Cygwin
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),CYGWIN)
-INSTALL_DIR :=$(shell cygpath -A -O)/OpenTTD/newgrf/$(BASE_FILENAME)
+INSTALL_DIR :=$(shell cygpath -A -O)/OpenTTD/baseset/$(BASE_FILENAME)
 endif
 
 # If non of the above matched, we'll assume we're on a unix-like system
 ifeq ($(OSTYPE),Linux)
-INSTALL_DIR := $(HOME)/.openttd/newgrf/$(BASE_FILENAME)
+INSTALL_DIR := $(HOME)/.openttd/baseset/$(BASE_FILENAME)
 endif
 
 endif
@@ -559,7 +559,7 @@ endif
 	$(_E) "clean:       Clean all built files"
 	$(_E) "distclean:   Clean really everything"
 	$(_E) "maintainer-clean:"
-	$(_E) "             Reset the repository to prestine state"
+	$(_E) "             Reset the repository to prestine state and delete files which can be generated"
 	$(_E)
 	$(_E) "Bundles for distribution:"
 	$(_E) "bundle:      Build the distribution bundle in $(DIR_NAME)"
@@ -599,5 +599,5 @@ endif
 	$(_E) "XZ XZ_FLAGS             defaults: $(XZ) $(XZ_FLAGS)"
 	$(_E)
 	$(_E) "INSTALL_DIR             defaults: $(INSTALL_DIR)"
-	$(_E) "    Sets the default installation directory for NewGRFs"
+	$(_E) "    Sets the default installation directory for Basesets"
 
