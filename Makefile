@@ -372,14 +372,14 @@ MD5_FILENAME       := $(DIR_NAME).md5
 MD5_SRC_FILENAME   := $(DIR_NAME).check.md5
 
 # Creating file with checksum
-%.grf.md5: %.grf
+$(MD5_SRC_FILENAME) $(MD5_FILENAME): $(GRF_FILES)
 	$(_E) "[GRFID] $@"
-	$(_V) $(GRFID) $(GRFID_FLAGS) $< > $@
-
-$(MD5_SRC_FILENAME): $(GRF_FILES)
-	$(_E) "[GRFID] $@"
-	$(_V) -rm $@
+	$(_V) -rm -f $@
 	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(GRFID) $(GRFID_FLAGS) $$i` >> $@; done
+
+clean::
+	$(_E) "[CLEAN GRFID]"
+	$(_V) -rm -f $(MD5_FILENAME)
 
 # Bundle directory
 $(DIR_NAME): $(BUNDLE_FILES)
