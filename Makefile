@@ -529,8 +529,9 @@ INSTALL_DIR := $(HOME)/.openttd/baseset/$(BASE_FILENAME)
 endif
 
 endif
+DOCDIR ?= $(INSTALL_DIR)
 
-install: $(DIR_NAME).tar
+install: $(DIR_NAME)
 ifeq ($(INSTALL_DIR),"")
 	$(_E) "No install dir defined! Aborting."
 	$(_E) "Try calling 'make install -D INSTALL_DIR=path/to/install_dir'"
@@ -538,7 +539,20 @@ ifeq ($(INSTALL_DIR),"")
 endif
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
 	$(_V) install -d $(INSTALL_DIR)
-	$(_V) install -m644 $< $(INSTALL_DIR)
+	$(_V) install -m644 $(TARGET_FILES) opengfx.obg $(INSTALL_DIR)
+ifndef DO_NOT_INSTALL_LICENSE
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -m644 $(LICENSE_FILE) $(DOCDIR)
+endif
+ifndef DO_NOT_INSTALL_CHANGELOG
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -m644 $(CHANGELOG_FILE) $(DOCDIR)
+endif
+ifndef DO_NOT_INSTALL_README
+	$(_V) install -d $(DOCDIR)
+	$(_V) install -m644 $(README_FILE) $(DOCDIR)
+endif
+
 
 # misc. convenience targets like 'langcheck'
 -include $(SCRIPT_DIR)/Makefile_misc
