@@ -433,7 +433,7 @@ check: $(MD5_FILENAME)
 
 $(DIR_NAME_SRC).tar: $(DIR_NAME_SRC)
 	$(_E) "[BUNDLE SRC]"
-	$(_V) $(HG) archive -t tar $<.tar
+	$(_V) $(HG) archive -X .hgtags -X .hgignore -X .devzone -X scripts/make_changelog.sh -t tar $<.tar
 	$(_V) $(TAR) -uf $@ $^
 
 bundle_src: $(DIR_NAME_SRC).tar
