@@ -255,7 +255,7 @@ custom_tags.txt: FORCE
 	$(_V) echo "REPO_BRANCH    :$(REPO_BRANCH)" >> $@.tmp
 	$(_V) echo "NEWGRF_VERSION :$(NEWGRF_VERSION)" >> $@.tmp
 	$(_V) echo "DAYS_SINCE_2K  :$(REPO_DAYS_SINCE_2000)" >> $@.tmp
-	$(_V) $(SHELL [ -z "diff $@ $@.tmp" ] || cp $@.tmp $@)
+	$(_V) $(SHELL [ -w $@ ] && [ -z "diff $@ $@.tmp" ] || cp $@.tmp $@)
 	$(_V) -rm -rf $@.tmp
 
 clean::
