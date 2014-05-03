@@ -246,15 +246,17 @@ lng: custom_tags.txt
 
 custom_tags.txt: FORCE
 	$(_E) "[LNG] $@"
-	$(_V) echo "VERSION        :$(REPO_VERSION_STRING)" > $@
-	$(_V) echo "VERSION_STRING :$(REPO_VERSION_STRING)" >> $@
-	$(_V) echo "TITLE          :$(REPO_TITLE)" >> $@
-	$(_V) echo "FILENAME       :$(GRF_FILES)" >> $@
-	$(_V) echo "REPO_DATE      :$(REPO_DATE)" >> $@
-	$(_V) echo "REPO_HASH      :$(REPO_HASH)" >> $@
-	$(_V) echo "REPO_BRANCH    :$(REPO_BRANCH)" >> $@
-	$(_V) echo "NEWGRF_VERSION :$(NEWGRF_VERSION)" >> $@
-	$(_V) echo "DAYS_SINCE_2K  :$(REPO_DAYS_SINCE_2000)" >> $@
+	$(_V) echo "VERSION        :$(REPO_VERSION_STRING)" > $@.tmp
+	$(_V) echo "VERSION_STRING :$(REPO_VERSION_STRING)" >> $@.tmp
+	$(_V) echo "TITLE          :$(REPO_TITLE)" >> $@.tmp
+	$(_V) echo "FILENAME       :$(GRF_FILES)" >> $@.tmp
+	$(_V) echo "REPO_DATE      :$(REPO_DATE)" >> $@.tmp
+	$(_V) echo "REPO_HASH      :$(REPO_HASH)" >> $@.tmp
+	$(_V) echo "REPO_BRANCH    :$(REPO_BRANCH)" >> $@.tmp
+	$(_V) echo "NEWGRF_VERSION :$(NEWGRF_VERSION)" >> $@.tmp
+	$(_V) echo "DAYS_SINCE_2K  :$(REPO_DAYS_SINCE_2000)" >> $@.tmp
+	$(_V) $(SHELL [ -z "diff $@ $@.tmp" ] || cp $@.tmp $@)
+	$(_V) -rm -rf $@.tmp
 
 clean::
 	$(_E) "[CLEAN LNG]"
