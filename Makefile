@@ -272,7 +272,7 @@ custom_tags.txt:
 
 clean::
 	$(_E) "[CLEAN LNG]"
-	$(_V)-rm -rf custom_tags.txt
+	$(_V)-rm -rf custom_tags.txt custom_tags.txt.cache
 
 ################################################################
 # grf - specific rules
@@ -553,7 +553,7 @@ ifeq ($(INSTALL_DIR),"")
 endif
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
 	$(_V) install -d $(INSTALL_DIR)
-	$(_V) install -m644 $(TARGET_FILES) opengfx.obg $(INSTALL_DIR)
+	$(_V) install -m644 $(GRF_FILES) opengfx.obg $(INSTALL_DIR)
 ifndef DO_NOT_INSTALL_LICENSE
 	$(_V) install -d $(DOCDIR)
 	$(_V) install -m644 $(LICENSE_FILE) $(DOCDIR)
