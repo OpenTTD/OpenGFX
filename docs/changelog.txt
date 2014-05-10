@@ -1,3 +1,22 @@
+OpenGFX 0.5.1 (10 May 2014)
+---------------------------
+- Change/Fix (425e3a719210): [Makefile] Re-introduce target 'clean-gfx' and have 'clean' remove the gimp script files (blathijs)
+- Change: [Makefile] No point to bundle .hgtags .hgignore and .devzone files with source bundles
+- Change: [Makefile] Use a temporary filename for custom_tags.txt and only update it, if the results would differ from the existing one
+- Change: [Makefile] Cache custom_tags.txt and don't always re-build it
+- Add: [Makefile] musa.ini for upload to bananas
+- Fix (425e3a719210): [Makefile] Install into the baseset dir, not the NewGRF dir
+- Fix (425e3a719210): create md5sum file for distribution and local check with the same rule (blathijs)
+- Fix (425e3a719210): Reinstate the possibility to (not) install documentation and to choose a separate install dir for them
+- Fix: [Makefile] Use the same variable name for changelog, readme and license files (blathijs)
+- Fix 510292759967: [Makefile] Don't fail to build from fresh clones
+- Fix afdd36f69c4c: [Makefile] Don't remove used scripts
+- Fix: [Makefile] More woes with custom_tags.txt and installation (blathijs)
+- Cleanup: Remove unused files from script dir
+- Cleanup: Remove more unused files
+
+
+
 OpenGFX 0.5.0 (31 Mar 2014)
 ---------------------------
 - Change: Default palette to default (DOS)
