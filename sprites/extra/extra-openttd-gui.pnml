@@ -1,5 +1,5 @@
 
-replacenew(OTTD_GUI, "") {
+replacenew ottd_gui1(OTTD_GUI, "") {
                                                                                    // tile border hightlights
 	[ 690,  504,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
 	[   2,  568,  64,  31, -31,   7, "sprites/png/gui/gui04.png"]
@@ -44,7 +44,9 @@ replacenew(OTTD_GUI, "") {
 	[ 706,  632,   4,   8, -31,  15, "sprites/png/gui/gui04.png"]
 	[ 722,  632,   4,   9,  -3,   0, "sprites/png/gui/gui04.png"]
 	[ 738,  632,  32,  23, -31,   0, "sprites/png/gui/gui04.png"]
+}
 
+replacenew ottd_gui2(OTTD_GUI, "", 38) {
 	[ 786,  632,  10,  10,   0,   0, "sprites/png/gui/gui04.png"]                   // newgrf settings: square status icon
 	[   2,  696,   8,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // server join menu: circular status icon
 	[  18,  696,   7,   9,   0,   0, "sprites/png/gui/gui04.png"]                   // server join menu: password protected
@@ -61,45 +63,82 @@ replacenew(OTTD_GUI, "") {
 	[ 194,  696,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // window decoration: sticky window
 	[ 210,  696,   8,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // window decoration: make window sticky
 	[ 226,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail normal rail
-	[ 258,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail normal rail
-	[ 306,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to normal rail
-	[ 338,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to normal rail
-	[ 386,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail e-rail
-	[ 418,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail e-rail
-	[ 466,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to e-rail
-	[ 498,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to e-rail
-	[ 546,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot
-	[ 578,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place depot
-	[ 626,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail monorail
-	[ 658,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail monorail
-	[ 706,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to monorail
-	[ 738,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to monorail
-	[   2,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot monorail
-	[  34,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place monorail depot
-	[  82,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: autorail maglev
-	[ 114,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: autorail maglev
-	[ 162,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: convert to maglev
-	[ 194,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: convert to maglev
-	[ 242,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: depot maglev
-	[ 274,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place maglev depot
-	[ 322,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // (?)
-	[ 354,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // rail toolbar: waypoint
-	[ 386,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor rail: place waypoint
-	[ 434,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"]                   // default waypoint building part 1 SW-NE view
-	[ 514,  744,  62,  40, -52, -20, "sprites/png/gui/gui04.png"]                   // default waypoint building part 2 SW-NE view
-	[ 594,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"]                   // default waypoint building part 1 NW-SE view
-	[ 674,  744,  62,  40, -10, -20, "sprites/png/gui/gui04.png"]                   // default waypoint building part 2 NW-SE view
-	[ 754,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: autoroad
-	[   2,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad
-	[  50,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: autoroad tram
-	[  82,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor road: autoroad tram
-	[ 174,  472,  39,  18,  -9,  -9, "sprites/png/infrastructure/airports.png"]     // helipad
-	[ 178,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place ship lift
-	[ 226,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build canal
-	[ 258,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: place canal
-	[ 306,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // main toolbar: fast forward
-	[ 338,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // landscaping toolbar: level land
-	[ 370,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor landscaping: level land
+}
+alternative_sprites (ottd_gui2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_caption(498, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(530, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(562, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(594, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(626, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(658, 392, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(690, 392, "sprites/png/gui/gui2x.png")
+	[ 754,  392,  20,  10,   0,   0, NOCROP,  "sprites/png/gui/gui2x.png"]
+	[ 722,  392,  20,  10,   0,   0, NOCROP,  "sprites/png/gui/gui2x.png"]
+	[ 786,  392,  10,  20,   0,   0, NOCROP, "sprites/png/gui/gui2x.png"]
+	[   2,  456,  10,  20,   0,   0, NOCROP, "sprites/png/gui/gui2x.png"]
+	tmpl_gui2x_file_caption( 18, 456, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption( 50, 456, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption( 82, 456, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(114, 456, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_toolbar(194, 456, "sprites/png/gui/gui2x.png")
+}
+
+replacenew ottd_gui54(OTTD_GUI, "", 54) { [ 258,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: autorail normal rail
+replacenew ottd_gui55(OTTD_GUI, "", 55) { [ 306,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: convert to normal rail
+alternative_sprites (ottd_gui55, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(242, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui56(OTTD_GUI, "", 56) { [ 338,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: convert to normal rail
+replacenew ottd_gui57(OTTD_GUI, "", 57) { [ 386,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: autorail e-rail
+alternative_sprites (ottd_gui57, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui58(OTTD_GUI, "", 58) { [ 418,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: autorail e-rail
+replacenew ottd_gui59(OTTD_GUI, "", 59) { [ 466,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: convert to e-rail
+alternative_sprites (ottd_gui59, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(338, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui60(OTTD_GUI, "", 60) { [ 498,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: convert to e-rail
+replacenew ottd_gui61(OTTD_GUI, "", 61) { [ 546,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: depot
+alternative_sprites (ottd_gui61, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(386, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui62(OTTD_GUI, "", 62) { [ 578,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: place depot
+replacenew ottd_gui63(OTTD_GUI, "", 63) { [ 626,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: autorail monorail
+alternative_sprites (ottd_gui63, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(482, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui64(OTTD_GUI, "", 64) { [ 658,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: autorail monorail
+replacenew ottd_gui65(OTTD_GUI, "", 65) { [ 706,  696,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: convert to monorail
+alternative_sprites (ottd_gui65, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(530, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui66(OTTD_GUI, "", 66) { [ 738,  696,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: convert to monorail
+replacenew ottd_gui67(OTTD_GUI, "", 67) { [   2,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: depot monorail
+alternative_sprites (ottd_gui67, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(578, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui68(OTTD_GUI, "", 68) { [  34,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: place monorail depot
+replacenew ottd_gui69(OTTD_GUI, "", 69) { [  82,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: autorail maglev
+alternative_sprites (ottd_gui69, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(626, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui70(OTTD_GUI, "", 70) { [ 114,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: autorail maglev
+replacenew ottd_gui71(OTTD_GUI, "", 71) { [ 162,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: convert to maglev
+alternative_sprites (ottd_gui71, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(674, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui72(OTTD_GUI, "", 72) { [ 194,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: convert to maglev
+replacenew ottd_gui73(OTTD_GUI, "", 73) { [ 242,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: depot maglev
+alternative_sprites (ottd_gui73, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722, 456, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui74(OTTD_GUI, "", 74) { [ 274,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: place maglev depot
+replacenew ottd_gui75(OTTD_GUI, "", 75) { [ 322,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // (?)
+replacenew ottd_gui76(OTTD_GUI, "", 76) { [ 354,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // rail toolbar: waypoint
+alternative_sprites (ottd_gui76, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 99, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui77(OTTD_GUI, "", 77) { [ 386,  744,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor rail: place waypoint
+replacenew ottd_gui78(OTTD_GUI, "", 78) { [ 434,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"] }                 // default waypoint building part 1 SW-NE view
+replacenew ottd_gui79(OTTD_GUI, "", 79) { [ 514,  744,  62,  40, -52, -20, "sprites/png/gui/gui04.png"] }                 // default waypoint building part 2 SW-NE view
+replacenew ottd_gui80(OTTD_GUI, "", 80) { [ 594,  744,  62,  40, -31,  -9, "sprites/png/gui/gui04.png"] }                 // default waypoint building part 1 NW-SE view
+replacenew ottd_gui81(OTTD_GUI, "", 81) { [ 674,  744,  62,  40, -10, -20, "sprites/png/gui/gui04.png"] }                 // default waypoint building part 2 NW-SE view
+replacenew ottd_gui82(OTTD_GUI, "", 82) { [ 754,  744,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // road toolbar: autoroad
+alternative_sprites (ottd_gui82, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(194, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui83(OTTD_GUI, "", 83) { [   2,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor road: autoroad
+replacenew ottd_gui84(OTTD_GUI, "", 84) { [  50,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // road toolbar: autoroad tram
+alternative_sprites (ottd_gui84, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(242, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui85(OTTD_GUI, "", 85) { [  82,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor road: autoroad tram
+replacenew ottd_gui86(OTTD_GUI, "", 86) { [ 174,  472,  39,  18,  -9,  -9, "sprites/png/infrastructure/airports.png"] }   // helipad
+replacenew ottd_gui87(OTTD_GUI, "", 87) { [ 178,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor waterways: place ship lift
+replacenew ottd_gui88(OTTD_GUI, "", 88) { [ 226,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // waterways toolbar: build canal
+alternative_sprites (ottd_gui88, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui89(OTTD_GUI, "", 89) { [ 258,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor waterways: place canal
+replacenew ottd_gui90(OTTD_GUI, "", 90) { [ 306,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // main toolbar: fast forward
+alternative_sprites (ottd_gui90, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(338, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui91(OTTD_GUI, "", 91) { [ 338,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                 // landscaping toolbar: level land
+alternative_sprites (ottd_gui91, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(386, 520, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui92(OTTD_GUI, "", 92) { [ 370,  808,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                 // cursor landscaping: level land
+replacenew ottd_gui93(OTTD_GUI, "", 93) {
 	[ 418,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single train
 	[ 450,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single road vehicle
 	[ 482,  808,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // depot view: sell single ship
