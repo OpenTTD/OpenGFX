@@ -165,3 +165,11 @@ base_graphics spr2597(2597, "sprites/png/gui/gui04.png") { [ 146, 1001,  43,  20
 base_graphics spr2598(2598, "sprites/png/gui/gui04.png") { [ 194, 1001,  43,  20,   0,   0] }
 base_graphics spr2599(2599, "sprites/png/gui/gui04.png") { [ 242, 1001,  43,  20,   0,   0] }
 base_graphics spr2600(2600, "sprites/png/gui/gui04.png") { [ 290, 1001,  43,  20,   0,   0] }
+//TODO: sprite 2593
+alternative_sprites (spr2594, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(162, 328) }
+alternative_sprites (spr2595, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(258, 328) }
+alternative_sprites (spr2596, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(354, 328) }
+alternative_sprites (spr2597, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(446, 328) }
+alternative_sprites (spr2598, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(538, 328) }
+alternative_sprites (spr2599, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(630, 328) }
+alternative_sprites (spr2600, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(  2, 392) }

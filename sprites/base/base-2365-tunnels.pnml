@@ -64,3 +64,8 @@ base_graphics spr2433(2433, "sprites/png/gui/gui04.png") { [  34,  280,  32,  32
 base_graphics spr2434(2434, "sprites/png/gui/gui04.png") { [  82,  280,  32,  32,   0,   0] }
 base_graphics spr2435(2435, "sprites/png/gui/gui04.png") { [ 130,  280,  32,  32,   0,   0] }
 base_graphics spr2436(2436, "sprites/png/gui/gui04.png") { [ 178,  280,  32,  32,   0,   0] }
+alternative_sprites (spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(722, 264) }
+alternative_sprites (spr2430, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(  2, 328) }
+alternative_sprites (spr2431, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 50, 328) }
+alternative_sprites (spr2432, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 98, 328) }
+

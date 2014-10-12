@@ -3,6 +3,9 @@ base_graphics spr1309(1309, "sprites/png/gui/gui04.png") { [ 450,  232,  20,  20
 base_graphics spr1310(1310, "sprites/png/gui/gui04.png") { [ 482,  232,  20,  20,   0,   0] }
 base_graphics spr1311(1311, "sprites/png/gui/gui04.png") { [ 514,  232,  32,  32,   0,   0] }
 base_graphics spr1312(1312, "sprites/png/gui/gui04.png") { [ 562,  232,  32,  32,   0,   0] }
+alternative_sprites (spr1309, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(626, 264) }
+alternative_sprites (spr1310, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(674, 264) }
+//TODO sprite 1311
 
 //1313-1331 road city
 base_graphics spr1313(1313, "sprites/png/infrastructure/infra06.png") { [ 434, 2440,  64,  31, -31,   0] }

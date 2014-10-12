@@ -214,6 +214,18 @@ base_graphics spr1259(1259, "sprites/png/gui/gui04.png") { [  98,  184,  20,  20
 base_graphics spr1260(1260, "sprites/png/gui/gui04.png") { [ 130,  184,  20,  20,   0,   0] }
 base_graphics spr1261(1261, "sprites/png/gui/gui04.png") { [ 194,  184,  20,  20,   0,   0] }
 base_graphics spr1262(1262, "sprites/png/gui/gui04.png") { [ 162,  184,  20,  20,   0,   0] }
+alternative_sprites (spr1251, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(482, 200) }
+alternative_sprites (spr1252, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(530, 200) }
+alternative_sprites (spr1253, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(578, 200) }
+alternative_sprites (spr1254, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(626, 200) }
+alternative_sprites (spr1255, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(674, 200) }
+alternative_sprites (spr1256, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(722, 200) }
+alternative_sprites (spr1257, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(  2, 264) }
+alternative_sprites (spr1258, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 50, 264) }
+alternative_sprites (spr1259, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 98, 264) }
+alternative_sprites (spr1260, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(146, 264) }
+alternative_sprites (spr1261, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(194, 264) }
+alternative_sprites (spr1262, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(242, 264) }
 
 //1263-1274 rail gui cursors
 base_graphics spr1263(1263, "sprites/png/gui/gui04.png") { [ 226,  184,  32,  32,   0,   0] }
@@ -243,6 +255,13 @@ base_graphics spr1297(1297, "sprites/png/gui/gui04.png") { [ 258,  232,  32,  32
 base_graphics spr1298(1298, "sprites/png/gui/gui04.png") { [ 306,  232,  40,  20,   0,   0] }
 base_graphics spr1299(1299, "sprites/png/gui/gui04.png") { [ 354,  232,  20,  20,   0,   0] }
 base_graphics spr1300(1300, "sprites/png/gui/gui04.png") { [ 386,  232,  32,  32,   0,   0] }
+alternative_sprites (spr1291, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(290, 264) }
+
+alternative_sprites (spr1294, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(338, 264) }
+alternative_sprites (spr1295, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(386, 264) }
+
+alternative_sprites (spr1298, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(482, 264) }
+alternative_sprites (spr1299, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(578, 264) }
 
 //1301-1308 rail fences
 base_graphics spr1301(1301, "sprites/png/infrastructure/infra06.png") { [ 194, 5416,  33,  22, -31,  -7] }

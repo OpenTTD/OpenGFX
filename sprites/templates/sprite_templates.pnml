@@ -274,3 +274,14 @@ template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s,
 	[ 1, 14,  8, 6, -31, 13, smallcorners]
 	[27,  1, 12, 5,  -5,  0, smallcorners]
 }
+
+/* Templates for 2x zoom */
+template tmpl_gui2x_file_toolbar(x, y, file) { [x, y, 40, 40, 0, 0, NOCROP, file] }
+template tmpl_gui2x_file_toolbar_wide(x, y, file) { [x, y, 80, 40, 0, 0, NOCROP, file] }
+template tmpl_gui2x_file_medium (x, y, file) { [x, y, 32, 32, 0, 0, NOCROP, file] }
+template tmpl_gui2x_file_caption(x, y, file) { [x, y, 20, 20, 0, 0, NOCROP, file] }
+
+template tmpl_gui2x_toolbar(x, y) { [x, y, 40, 40, 0, 0, NOCROP] }
+template tmpl_gui2x_toolbar_wide(x, y) { [x, y, 80, 40, 0, 0, NOCROP] }
+template tmpl_gui2x_medium (x, y) { [x, y, 32, 32, 0, 0, NOCROP] }
+template tmpl_gui2x_caption(x, y) { [x, y, 20, 20, 0, 0, NOCROP] }

@@ -1,5 +1,6 @@
 //4790 buy land sign
 base_graphics spr4790(4790, "sprites/png/miscellaneous/random.png") { [ 193,   10,   7,  13,  -3, -12] }
+alternative_sprites (spr4790, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(386, 392) }
 
 //4791-4792 buy land button and cursor
 base_graphics spr4791(4791, "sprites/png/gui/gui04.png") { [ 162,  328,  20,  20,   0,   0] }

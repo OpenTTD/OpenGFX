@@ -21,9 +21,28 @@ base_graphics spr690( 690, "") { [ 690,    8,  16,  16,   0,   0, "sprites/png/g
 base_graphics spr691( 691, "") { [ 722,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: show details
 base_graphics spr692( 692, "") { [ 754,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: refit
 base_graphics spr693( 693, "") { [ 394,   10,  20,  20,   0,   0, "sprites/png/miscellaneous/random.png"] }        // buoy for GUI
+alternative_sprites (spr679, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(  2,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr680, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 50,   8, "sprites/png/gui/gui2x.png") }
+
+alternative_sprites (spr682, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_caption(210,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr683, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(242,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr684, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr685, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(338,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr686, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(386,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr687, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(434,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr688, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(482,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr689, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(530,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr690, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(578,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr691, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(626,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr692, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_medium(674,   8, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr693, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722,   8, "sprites/png/gui/gui2x.png") }
+
 // Terraform icons up/down
 base_graphics spr694( 694, "") { [   3,    9,  20,  20,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics spr695( 695, "") { [  35,    9,  20,  20,   0,   0, "sprites/png/gui/terraform_gui.png"] }
+alternative_sprites (spr694, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(  2,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr695, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 50,  72, "sprites/png/gui/gui2x.png") }
+
 // Terraform cursors up/down
 base_graphics spr696( 696, "") { [  67,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics spr697( 697, "") { [ 115,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
@@ -81,6 +100,45 @@ base_graphics spr748( 748, "") { [ 498,  152,  20,  20,   0,   0, "sprites/png/g
 base_graphics spr749( 749, "") { [ 530,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // road toolbar: build bus stop
 base_graphics spr750( 750, "") { [ 562,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // road tooblar: build truck stop
 base_graphics spr751( 751, "") { [ 594,  152,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // main toolbar: options dialogue
+alternative_sprites (spr703, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 98,  72, "sprites/png/gui/gui2x.png") }
+
+alternative_sprites (spr708, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(146,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr709, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(194,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr710, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(242,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr711, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr712, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(338,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr713, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(386,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr714, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(434,  72, "sprites/png/gui/gui2x.png") }
+
+alternative_sprites (spr723, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(578,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr724, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(626,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr725, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(674,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr726, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722,  72, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr727, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(  2, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr728, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 50, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr729, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 98, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr730, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(146, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr731, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(194, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr732, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(242, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr733, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr734, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(338, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr735, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(386, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr736, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(434, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr737, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(482, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr738, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(530, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr739, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(578, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr740, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(626, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr741, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(674, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr742, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722, 136, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr743, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(  2, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr744, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar_wide( 50, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr745, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(146, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr746, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(194, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr747, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { [242, 200, 28, 16, 0, 0, "sprites/png/gui/gui2x.png"] }
+alternative_sprites (spr748, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(290, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr749, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(338, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr750, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(386, 200, "sprites/png/gui/gui2x.png") }
+alternative_sprites (spr751, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(434, 200, "sprites/png/gui/gui2x.png") }
 
 //752-770 tile selectors / highlights
 base_graphics spr752( 752, "") { [ 674,  376,  64,  31, -31,   7, "sprites/png/gui/gui04.png"] }

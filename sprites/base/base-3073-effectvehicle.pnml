@@ -23,3 +23,5 @@ base_graphics spr3089(3089, "sprites/png/miscellaneous/eyecandy.png") { [ 194,  
 //3090-3091 stop/go depot flags
 base_graphics spr3090(3090, "sprites/png/gui/gui04.png") { [ 402,  280,   7,   7,   0,   1] }
 base_graphics spr3091(3091, "sprites/png/gui/gui04.png") { [ 418,  280,   7,   7,   0,   1] }
+alternative_sprites (spr3090, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { [ 514,  776,  14,  14,   0,   0] }
+alternative_sprites (spr3091, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { [ 546,  776,  14,  14,   0,   0] }

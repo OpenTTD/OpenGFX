@@ -132,6 +132,7 @@ base_graphics spr127( 127, "sprites/png/gui/fonts.png") { [ 270,  130,   1,   1,
 base_graphics spr128( 128, "sprites/png/gui/fonts.png") { [ 270,  130,   1,   1,   0,  -2] }
 base_graphics spr129( 129, "sprites/png/gui/fonts.png") { [ 290,  130,   9,  13,   0,  -2] }
 base_graphics spr130( 130, "sprites/png/gui/fonts.png") { [ 310,  130,   9,  13,   0,  -2] }
+alternative_sprites (spr130, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { [306, 776, 20, 20, 0, -2, NOCROP] }
 base_graphics spr131( 131, "sprites/png/gui/fonts.png") { [ 330,  130,   3,  13,   0,  -2] }
 base_graphics spr132( 132, "sprites/png/gui/fonts.png") { [ 350,  130,   6,  13,   0,  -2] }
 base_graphics spr133( 133, "sprites/png/gui/fonts.png") { [ 370,  130,   8,  13,   0,  -2] }
@@ -142,11 +143,15 @@ base_graphics spr137( 137, "sprites/png/gui/fonts.png") { [ 450,  130,   7,  13,
 base_graphics spr138( 138, "sprites/png/gui/fonts.png") { [ 470,  130,   6,  13,   0,  -2] }
 base_graphics spr139( 139, "sprites/png/gui/fonts.png") { [ 490,  130,  10,  13,   0,  -2] }
 base_graphics spr140( 140, "sprites/png/gui/fonts.png") { [ 510,  130,   9,  13,   0,  -2] }
+alternative_sprites (spr140, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { [354, 776, 20, 20, 0, -2, NOCROP] }
 base_graphics spr141( 141, "sprites/png/gui/fonts.png") { [ 530,  130,   8,  13,   0,  -2] }
 base_graphics spr142( 142, "sprites/png/gui/fonts.png") { [ 550,  130,  12,  13,   0,  -2] }
+alternative_sprites (spr142, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_caption(402,776) }
 base_graphics spr143( 143, "sprites/png/gui/fonts.png") { [ 570,  130,   8,  13,   0,  -2] }
+alternative_sprites (spr143, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_caption(434,776) }
 base_graphics spr144( 144, "sprites/png/gui/fonts.png") { [ 590,  130,  10,  13,   0,  -2] }
 base_graphics spr145( 145, "sprites/png/gui/fonts.png") { [ 610,  130,   5,  13,   0,  -2] }
+alternative_sprites (spr145, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { [482, 776, 10, 20, 0, 0, NOCROP] }
 base_graphics spr146( 146, "sprites/png/gui/fonts.png") { [ 630,  130,   6,  13,   0,  -2] }
 base_graphics spr147( 147, "sprites/png/gui/fonts.png") { [ 650,  130,   7,  13,   0,  -2] }
 base_graphics spr148( 148, "sprites/png/gui/fonts.png") { [ 670,  130,   5,  13,   0,  -2] }
