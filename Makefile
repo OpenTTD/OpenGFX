@@ -101,7 +101,7 @@ FORCE:
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= $(shell which nmlc 2>/dev/null)
+NML            ?= nmlc
 NML_FLAGS      ?= -c
 ifdef REQUIRED_NML_BRANCH
 	NML_BRANCH = $(shell nmlc --version | head -n1 | cut -d. -f1-2)
@@ -119,11 +119,11 @@ AWK            ?= awk
 
 GREP           ?= grep
 
-HG             ?= $(shell hg st >/dev/null 2>/dev/null && which hg 2>/dev/null)
+HG             ?= hg
 
 PYTHON         ?= python
 
-UNIX2DOS       ?= $(shell which unix2dos 2>/dev/null)
+UNIX2DOS       ?= unix2dos
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
 
 ################################################################
@@ -360,7 +360,7 @@ XZ_FLAGS       ?= -efk
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 # Use the grfID programme to find the checksum which OpenTTD checks
-GRFID          ?= $(shell which grfid 2>/dev/null)
+GRFID          ?= grfid
 GRFID_FLAGS    ?= -m
 
 # Rules on how to generate filenames. Usually no need to change
