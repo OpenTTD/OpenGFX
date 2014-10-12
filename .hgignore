@@ -41,3 +41,6 @@ opengfx-*.tar
 # Files created by Mac image preview and file browser:
 .DS_Store
 Thumbs.db
+
+archive/**
+gimp-data/**
