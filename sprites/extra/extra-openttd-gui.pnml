@@ -156,10 +156,34 @@ replacenew ottd_gui93(OTTD_GUI, "", 93) {
 	[  66,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone road vehicle
 	[  98,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone ship
 	[ 130,  856,  16,  16,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle view: clone aircraft
+}
+alternative_sprites (ottd_gui93, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_toolbar(482, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell single train
+	tmpl_gui2x_file_toolbar(530, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell single road vehicle
+	tmpl_gui2x_file_toolbar(578, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell single ship
+	tmpl_gui2x_file_toolbar(626, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell single plane
+	tmpl_gui2x_file_toolbar(674, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell all trains
+	tmpl_gui2x_file_toolbar(722, 520, "sprites/png/gui/gui2x.png")                             // depot view: sell all road vehicles
+	tmpl_gui2x_file_toolbar(  2, 584, "sprites/png/gui/gui2x.png")                             // depot view: sell all ships
+	tmpl_gui2x_file_toolbar( 50, 584, "sprites/png/gui/gui2x.png")                             // depot view: sell all aircrafts
+	tmpl_gui2x_file_toolbar( 98, 584, "sprites/png/gui/gui2x.png")                             // depot view: autoreplace all trains in depot
+	tmpl_gui2x_file_toolbar(146, 584, "sprites/png/gui/gui2x.png")                             // depot view: autoreplace all road vehicles in depot
+	tmpl_gui2x_file_toolbar(194, 584, "sprites/png/gui/gui2x.png")                             // depot view: autoreplace all ships in depot
+	tmpl_gui2x_file_toolbar(242, 584, "sprites/png/gui/gui2x.png")                             // depot view: autoreplace all aircrafts in hangar
+	tmpl_gui2x_file_toolbar(290, 584, "sprites/png/gui/gui2x.png")                             // depot view: sell whole train
+	tmpl_gui2x_file_medium (338, 584, "sprites/png/gui/gui2x.png")                             // vehicle view: clone train
+	tmpl_gui2x_file_medium (386, 584, "sprites/png/gui/gui2x.png")                             // vehicle view: clone road vehicle
+	tmpl_gui2x_file_medium (434, 584, "sprites/png/gui/gui2x.png")                             // vehicle view: clone ship
+	tmpl_gui2x_file_medium (482, 584, "sprites/png/gui/gui2x.png")                             // vehicle view: clone aircraft
+}
+
+replacenew ottd_gui110(OTTD_GUI, "", 110) {
 	[ 162,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select train to clone
 	[ 210,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select road vehicle to clone
 	[ 258,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select ship to clone
 	[ 306,  856,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor clone vehicle: select aircraft to clone
+}
+replacenew ottd_gui114(OTTD_GUI, "", 114) {
 	[ 354,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new train group
 	[ 386,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new road vehicles group
 	[ 418,  856,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // vehicle groups: create new ships group
@@ -183,7 +207,37 @@ replacenew ottd_gui93(OTTD_GUI, "", 93) {
 	[ 194,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // road toolbar: build one-way roads
 	[ 226,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // signal toolbar: convert signals
 	[ 258,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build rivers
+}
+alternative_sprites (ottd_gui114, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_toolbar(530, 584, "sprites/png/gui/gui2x.png")                             // vehicle groups: create new train group
+	tmpl_gui2x_file_toolbar(578, 584, "sprites/png/gui/gui2x.png")                             // vehicle groups: create new road vehicles group
+	tmpl_gui2x_file_toolbar(626, 584, "sprites/png/gui/gui2x.png")                             // vehicle groups: create new ships group
+	tmpl_gui2x_file_toolbar(674, 584, "sprites/png/gui/gui2x.png")                             // vehicle groups: create new aircrafts group
+	tmpl_gui2x_file_toolbar(722, 584, "sprites/png/gui/gui2x.png")                             // vehicle groups: delete train group
+	tmpl_gui2x_file_toolbar(  2, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: delete road vehicles group
+	tmpl_gui2x_file_toolbar( 50, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: delete ships group
+	tmpl_gui2x_file_toolbar( 98, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: delete aircrafts group
+	tmpl_gui2x_file_toolbar(146, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: rename train group
+	tmpl_gui2x_file_toolbar(194, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: rename road vehicles group
+	tmpl_gui2x_file_toolbar(242, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: rename ship group
+	tmpl_gui2x_file_toolbar(290, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: rename aircrafts group
+	tmpl_gui2x_file_toolbar(338, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: don't autoreplace this group of trains
+	tmpl_gui2x_file_toolbar(386, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: don't autoreplace this group of road vehicles
+	tmpl_gui2x_file_toolbar(434, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: don't autoreplace this group of ships
+	tmpl_gui2x_file_toolbar(482, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: don't autoreplace this group of aircrafts
+	tmpl_gui2x_file_toolbar(530, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: select no autoreplace for this group of trains
+	tmpl_gui2x_file_toolbar(578, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: select no autoreplace for this group of road vehicles
+	tmpl_gui2x_file_toolbar(626, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: select no autoreplace for this group of ships
+	tmpl_gui2x_file_toolbar(674, 648, "sprites/png/gui/gui2x.png")                             // vehicle groups: select no autoreplace for this group of aircrafts
+	tmpl_gui2x_file_toolbar(722, 648, "sprites/png/gui/gui2x.png")                             // road toolbar: build one-way roads
+	tmpl_gui2x_file_toolbar(  2, 712, "sprites/png/gui/gui2x.png")                             // signal toolbar: convert signals
+	tmpl_gui2x_file_toolbar( 50, 712, "sprites/png/gui/gui2x.png")                             // waterways toolbar: build rivers
+}
+
+replacenew ottd_gui137(OTTD_GUI, "", 137) {
 	[ 290,  904,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: build rivers
+}
+replacenew ottd_gui138(OTTD_GUI, "", 138) {
 	[ 338,  904,   7,   7,   3,   4, "sprites/png/gui/gui04.png"]                   // (?) arrow left
 	[ 354,  904,   7,   7,   3,   4, "sprites/png/gui/gui04.png"]                   // (?) arrow right
 	[ 370,  904,  10,   9,   2,   3, "sprites/png/gui/gui04.png"]                   // (?) arrow down
@@ -192,22 +246,59 @@ replacenew ottd_gui93(OTTD_GUI, "", 93) {
 	[ 418,  904,   9,   9,   3,   3, "sprites/png/gui/gui04.png"]                   // (?) command symbol
 	[ 434,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // main toolbar: switch toolbars
 	[ 466,  904,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // waterways toolbar: build aquaduct
+}
+alternative_sprites (ottd_gui138, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_caption(114, 712, "sprites/png/gui/gui2x.png")                             // (?) arrow left
+	tmpl_gui2x_file_caption(146, 712, "sprites/png/gui/gui2x.png")                             // (?) arrow right
+	tmpl_gui2x_file_caption(178, 712, "sprites/png/gui/gui2x.png")                             // (?) arrow down
+	tmpl_gui2x_file_caption(210, 712, "sprites/png/gui/gui2x.png")                             // (?) arrow up
+	tmpl_gui2x_file_caption(242, 712, "sprites/png/gui/gui2x.png")                             // (?) arrow left
+	tmpl_gui2x_file_caption(274, 712, "sprites/png/gui/gui2x.png")                             // (?) command symbol
+	tmpl_gui2x_file_toolbar(306, 712, "sprites/png/gui/gui2x.png")                             // main toolbar: switch toolbars
+	tmpl_gui2x_file_toolbar(354, 712, "sprites/png/gui/gui2x.png")                             // waterways toolbar: build aquaduct
+}
+replacenew ottd_gui146(OTTD_GUI, "", 146) {
 	[ 498,  904,  32,  32,   0,   0, "sprites/png/gui/gui04.png"]                   // cursor waterways: build aquaduct
+}
+replacenew ottd_gui147(OTTD_GUI, "", 147) {
 	[   0,    0,  10,  10,   0,   0, "sprites/png/extra/extra-gui-plus-minus.png"]  // (?)
 	[  16,    0,  10,  10,   0,   0, "sprites/png/extra/extra-gui-plus-minus.png"]  // (?)
 	[  82,  705,   7,   7,   0,   0, "sprites/png/gui/gui04.png"]                   // window decorations: resize window (rtl languages)
 	[   2,  125,  20,  20,   0,   0, "sprites/png/gui/gui04.png"]                   // juke box: play (rtl languages)
 	[ 242,  352,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // (?) to bottom
 	[ 256,  352,   7,   8,   0,   0, "sprites/png/gui/gui04.png"]                   // (?) to top
+}
+alternative_sprites (ottd_gui147, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_caption(418, 712, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(450, 712, "sprites/png/gui/gui2x.png")
+	tmpl_gui2x_file_caption(482, 712, "sprites/png/gui/gui2x.png")                             // window decorations: resize window (rtl languages)
+	tmpl_gui2x_file_toolbar(514, 712, "sprites/png/gui/gui2x.png")                             // juke box: play (rtl languages)
+	tmpl_gui2x_file_caption(571, 776, "sprites/png/gui/gui2x.png")                             // (?) to bottom
+	tmpl_gui2x_file_caption(571, 800, "sprites/png/gui/gui2x.png")                             // (?) to top
+}
+replacenew ottd_gui153(OTTD_GUI, "", 153) {
 	[   0,    0,   7,   8,   0,   0, "sprites/png/extra/extra-gui-bug.png"]         // window decorations: debugging icon
 	[ 401,  201,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit not applicable
-	[ 401,  167,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit negative
-	[ 401,  154,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit some
-	[ 401,  128,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit lots
+	[ 420,  201,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit negative
+	[ 439,  201,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit some
+	[ 458,  201,   9,   9,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Profit lots
 	[ 401,   99,   8,  10,   0,   0, "sprites/png/extra/extra-gui-profit.png"]      // Unread news
 	[   6,    7,  13,  10,   0,   0, "sprites/png/extra/extra-gui-exclusive.png"]   // Exclusive transport rights
-	[   2,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace protection
-	[  20,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace defined
+	[  22,   23,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace protection
+	[  22,    2,  12,  10,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"] // vehicle groups: Autoreplace defined
+}
+alternative_sprites (ottd_gui153, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+	tmpl_gui2x_file_caption( 27, 0, "sprites/png/extra/extra-gui-bug.png")                              // window decorations: NewGRF debugging icon
+	[ 401,  225,  18,  18,   0,   0, "sprites/png/extra/extra-gui-profit.png"]                    // Profit not applicable
+	[ 420,  225,  18,  18,   0,   0, "sprites/png/extra/extra-gui-profit.png"]                    // Profit negative
+	[ 439,  225,  18,  18,   0,   0, "sprites/png/extra/extra-gui-profit.png"]                    // Profit some
+	[ 458,  225,  18,  18,   0,   0, "sprites/png/extra/extra-gui-profit.png"]                    // Profit lots
+	tmpl_gui2x_file_caption( 50, 456, "sprites/png/gui/gui2x.png")                                   // Unread news
+	[  40,    7,  26,  20,   0,   0, "sprites/png/extra/extra-gui-exclusive.png"]                 // Exclusive transport rights
+	[  52,   23,  24,  20,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"]               // vehicle groups: Autoreplace protection
+	[  52,    2,  24,  20,   0,   0, "sprites/png/extra/extra-gui-autoreplace.png"]               // vehicle groups: Autoreplace defined
+}
+replacenew ottd_gui162(OTTD_GUI, "", 162) {
 	[   0,    0,   1,   1,   0,   0, "sprites/png/miscellaneous/empty.png"]         // no town rating. Empty sprite on purpose
 	[   0,   22,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // appalling town rating, sad, red smily
 	[   0,   33,  10,  10,   0,   0, "sprites/png/gui/town_indicators.png"]         // mediocre town rating, yellow smily
