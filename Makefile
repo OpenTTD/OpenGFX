@@ -111,7 +111,7 @@ ifdef MIN_NML_REVISION
 endif
 
 ifdef MAIN_SRC_FILES
-	CC             ?= $(shell which gcc 2>/dev/null)
+	CC             ?= gcc
 	CC_FLAGS       ?= -C -E -nostdinc -x c-header
 endif
 
@@ -205,7 +205,7 @@ ifdef GFX_SCRIPT_LIST_FILES
 # include dependency file, if we generate graphics
 -include Makefile_gfx.dep
 
-GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
+GIMP           ?= gimp
 GIMP_FLAGS     ?= -n -i -b - <
 
 %.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed
@@ -341,19 +341,19 @@ clean::
 # and the distribution bundles like bundle_tar, bundle_zip, ...
 
 # Programme definitions
-TAR            ?= $(shell which tar 2>/dev/null)
+TAR            ?= tar
 TAR_FLAGS      ?= -cf
 
-ZIP            ?= $(shell which zip 2>/dev/null)
+ZIP            ?= zip
 ZIP_FLAGS      ?= -9rq
 
-GZIP           ?= $(shell which gzip 2>/dev/null)
+GZIP           ?= gzip
 GZIP_FLAGS     ?= -9f
 
-BZIP           ?= $(shell which bzip2 2>/dev/null)
+BZIP           ?= bzip2
 BZIP_FLAGS     ?= -9fk
 
-XZ             ?= $(shell which xz 2>/dev/null)
+XZ             ?= xz
 XZ_FLAGS       ?= -efk
 
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
