@@ -137,23 +137,23 @@ UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/
 DEFAULT_BRANCH_NAME ?=
 
 # HG revision
-REPO_REVISION  ?= $(shell $(HG) id -n | cut -d+ -f1)
+REPO_REVISION  ?= $(shell HGPLAIN= $(HG) id -n | cut -d+ -f1)
 
 # HG Hash
-REPO_HASH            ?= $(shell $(HG) id -i | cut -d+ -f1)
+REPO_HASH            ?= $(shell HGPLAIN= $(HG) id -i | cut -d+ -f1)
 
 # Days of commit since 2000-1-1 00-00
-REPO_DATE            ?= $(shell $(HG) log -r$(REPO_HASH) --template='{time|shortdate}')
+REPO_DATE            ?= $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{time|shortdate}')
 REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print (date(`echo "$(REPO_DATE)" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days")
 
 # Whether there are local changes
-REPO_MODIFIED  ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+REPO_MODIFIED  ?= $(shell [ "`HGPLAIN= $(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
 
 # Branch name
-REPO_BRANCH    ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
+REPO_BRANCH    ?= $(shell HGPLAIN= $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
 
 # Any tag which is not 'tip'
-REPO_TAGS      ?= $(shell $(HG) id -t | grep -v "tip")
+REPO_TAGS      ?= $(shell HGPLAIN= $(HG) id -t | grep -v "tip")
 
 # Filename addition, if we're not building the default branch
 REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "-$(REPO_BRANCH)"; fi)
@@ -447,7 +447,7 @@ check: $(MD5_FILENAME)
 
 $(DIR_NAME_SRC).tar: $(DIR_NAME_SRC)
 	$(_E) "[BUNDLE SRC]"
-	$(_V) $(HG) archive -X .hgtags -X .hgignore -X .devzone -X scripts/make_changelog.sh -t tar $<.tar
+	$(_V) HGPLAIN= $(HG) archive -X .hgtags -X .hgignore -X .devzone -X scripts/make_changelog.sh -t tar $<.tar
 	$(_V) $(TAR) -uf $@ $^
 
 bundle_src: $(DIR_NAME_SRC).tar
@@ -475,7 +475,7 @@ Makefile.fordist: FORCE
 	$(_V) echo 'HG := :' >> $@
 	$(_V) echo 'PYTHON := :' >> $@
 
-ifneq ("$(strip $(HG))",":")
+ifneq ("$(strip HGPLAIN= $(HG))",":")
 $(DIR_NAME_SRC): $(MD5_SRC_FILENAME) Makefile.fordist
 	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
 	$(_V)-rm -rf $@
