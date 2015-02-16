@@ -1,3 +1,15 @@
+OpenGFX 8a61b300bcb6
+--------------------
+- Add: 2x GUI zoom sprites
+- Add: the all black ground sprites introduced in OpenTTD r26869
+- Add: Translations for Africans, Italian, Latin and Lithuanian
+- Update: Translation for English (US)
+- Change:     [Makefile] Make sure that mercurial output is not changed by user presets
+- Codechange: [Makefile] Simplify a few pointless programme definitions
+- Fix:        [Makefile] No need to query the whereabouts of required programmes when we make no use of that anyway (issue #5759)
+
+
+
 OpenGFX 0.5.1 (10 May 2014)
 ---------------------------
 - Change/Fix (425e3a719210): [Makefile] Re-introduce target 'clean-gfx' and have 'clean' remove the gimp script files (blathijs)
