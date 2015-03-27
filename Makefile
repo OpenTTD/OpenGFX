@@ -179,12 +179,14 @@ maintainer-clean:: distclean
 # Pre-processing and generation of $(NML_FILES)
 ################################################################
 
+-include *.dep
+
 # ifdef $(MAIN_SRC_FILE)
 pnml:
 
 %.nml: %.pnml
 	$(_E) "[CPP] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(NEWGRF_VERSION) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -o $@ $<
+	$(_V) $(CC) -D REPO_REVISION=$(NEWGRF_VERSION) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -MMD -MF $@.dep -MT $@ -o $@ $<
 
 clean::
 	$(_E) "[CLEAN NML]"
@@ -203,7 +205,6 @@ nml: $(NML_FILES)
 # Dependency on source list file via dep check
 ifdef GFX_SCRIPT_LIST_FILES
 # include dependency file, if we generate graphics
--include Makefile_gfx.dep
 
 GIMP           ?= gimp
 GIMP_FLAGS     ?= -n -i -b - <
