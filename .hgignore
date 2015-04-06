@@ -31,7 +31,8 @@ opengfx-*
 
 # Ignore frequent development left-overs like
 # editor backups, patches, rejects etc. pp
-opengfx-*.tar
+opengfx*.tar
+opengfx*.bananas.ini
 *.orig
 *.bak
 *.log

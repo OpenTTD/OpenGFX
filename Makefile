@@ -61,6 +61,7 @@ MAIN_SRC_FILES       ?= $(addsuffix .pnml,$(BASE_FILENAME))
 # Add any additional, not usual files here, too, including
 # their relative path to the root of the repository
 BUNDLE_FILES           ?= $(GRF_FILES) $(DOC_FILES)
+BANANAS_INI            ?= bananas.ini
 
 # Replacement strings in the source and in the documentation
 # You may only change the values, not add new definitions
@@ -84,7 +85,7 @@ all: $(GRF_FILES) $(GENERATE_DOC) bundle_tar
 
 # general definitions (no rules!)
 -include Makefile.dist
-.PHONY: all clean distclean doc bundle bundle_bsrc bundle_bzip bundle_gsrc bundle_src bundle_tar bundle_xsrc bundle_xz bundle_zip bundle_zsrc check
+.PHONY: all clean distclean doc bananas bundle bundle_bsrc bundle_bzip bundle_gsrc bundle_src bundle_tar bundle_xsrc bundle_xz bundle_zip bundle_zsrc check
 
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
@@ -122,6 +123,8 @@ GREP           ?= grep
 HG             ?= hg
 
 PYTHON         ?= python
+
+MUSA           ?= musa.py
 
 UNIX2DOS       ?= unix2dos
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
@@ -426,6 +429,11 @@ bundle_xz: $(DIR_NAME).tar.xz
 	$(_E) "[BUNDLE XZ] $@"
 	$(_V) $(XZ) $(XZ_FLAGS) $^
 
+bananas: $(DIR_NAME)
+	$(_E) "[BaNaNaS]"
+	$(_V) sed 's/^version *=.*/version = $(FILE_VERSION_STRING)/' $(BANANAS_INI) > $(DIR_NAME).bananas.ini
+	$(_V) $(MUSA) -r -x license.txt -c $(DIR_NAME).bananas.ini $(DIR_NAME)
+
 clean::
 	$(_E) "[CLEAN BUNDLE]"
 	$(_V) -rm -rf $(DIR_NAME)
@@ -591,7 +599,6 @@ endif
 	$(_E) "             Reset the repository to prestine state and delete files which can be generated"
 	$(_E)
 	$(_E) "Bundles for distribution:"
-	$(_E) "bundle:      Build the distribution bundle in $(DIR_NAME)"
 	$(_E) "bundle_tar:  Build the distritubion bundle as tar archive ($(DIR_NAME).tar)"
 	$(_E) "bundle_zip:  Build the distritubion bundle and compress with zip ($(DIR_NAME).tar.zip)"
 	$(_E) "bundle_xz:   Build the distritubion bundle and compress with xz ($(DIR_NAME).tar.xz)"
@@ -602,6 +609,9 @@ endif
 	$(_E) "bundle_gsrc: Build the source bundle as tar archive compressed with gzip"
 	$(_E) "bundle_xsrc: Build the source bundle as tar archive compressed with xz"
 	$(_E) "bundle_zsrc: Build the source bundle as tar archive compressed with zip"
+	$(_E)
+	$(_E) "Release:"
+	$(_E) "bananas:     Upload bundle to BaNaNaS
 	$(_E)
 	$(_E) "Valid command line variables are:"
 	$(_E) "Helper programmes:"
