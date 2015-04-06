@@ -260,7 +260,7 @@ alternative_sprites (spr1291, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui
 alternative_sprites (spr1294, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(338, 264) }
 alternative_sprites (spr1295, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(386, 264) }
 
-alternative_sprites (spr1298, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(482, 264) }
+alternative_sprites (spr1298, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar_wide(482, 264, 0) }
 alternative_sprites (spr1299, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(578, 264) }
 
 //1301-1308 rail fences

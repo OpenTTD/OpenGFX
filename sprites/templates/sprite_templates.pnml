@@ -282,6 +282,6 @@ template tmpl_gui2x_file_medium (x, y, file) { [x, y, 32, 32, 0, 0, NOCROP, file
 template tmpl_gui2x_file_caption(x, y, file) { [x, y, 20, 20, 0, 0, NOCROP, file] }
 
 template tmpl_gui2x_toolbar(x, y) { [x, y, 40, 40, 0, 0, NOCROP] }
-template tmpl_gui2x_toolbar_wide(x, y) { [x, y, 80, 40, 0, 0, NOCROP] }
+template tmpl_gui2x_toolbar_wide(x, y, xoffs) { [x, y, 80, 40, xoffs, 0, NOCROP] }
 template tmpl_gui2x_medium (x, y) { [x, y, 32, 32, 0, 0, NOCROP] }
 template tmpl_gui2x_caption(x, y) { [x, y, 20, 20, 0, 0, NOCROP] }

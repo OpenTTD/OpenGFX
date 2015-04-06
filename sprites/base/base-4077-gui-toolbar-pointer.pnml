@@ -1,17 +1,17 @@
 //4077-4089 more gui stuff
-base_graphics spr4077(4077, "sprites/png/gui/gui04.png") { [ 450,  280,  20,  20,   0,   0] }
-base_graphics spr4078(4078, "sprites/png/gui/gui04.png") { [ 482,  280,   8,   8,  -3,  -4] }
-base_graphics spr4079(4079, "sprites/png/gui/gui04.png") { [ 498,  280,   3,   3,  -1,  -1] }
-base_graphics spr4080(4080, "sprites/png/gui/gui04.png") { [ 514,  280,  32,  32,   0,   0] }
-base_graphics spr4081(4081, "sprites/png/gui/gui04.png") { [ 562,  280,  32,  32,   0,   0] }
-base_graphics spr4082(4082, "sprites/png/gui/gui04.png") { [ 610,  280,  20,  20,   0,   0] }
-base_graphics spr4083(4083, "sprites/png/gui/gui04.png") { [ 642,  280,  20,  20,   0,   0] }
-base_graphics spr4084(4084, "sprites/png/gui/gui04.png") { [ 674,  280,  20,  20,   0,   0] }
-base_graphics spr4085(4085, "sprites/png/gui/gui04.png") { [ 706,  280,  20,  20,   0,   0] }
-base_graphics spr4086(4086, "sprites/png/gui/gui04.png") { [ 738,  280,  20,  20,   0,   0] }
-base_graphics spr4087(4087, "sprites/png/gui/gui04.png") { [   2,  328,  32,  32,   0,   0] }
-base_graphics spr4088(4088, "sprites/png/gui/gui04.png") { [  50,  328,  32,  32,   0,   0] }
-base_graphics spr4089(4089, "sprites/png/gui/gui04.png") { [  98,  328,  32,  32,   0,   0] }
+base_graphics spr4077(4077, "sprites/png/gui/gui04.png") { [ 450,  280,  20,  20,   0,   0] } // towns
+base_graphics spr4078(4078, "sprites/png/gui/gui04.png") { [ 482,  280,   8,   8,  -3,  -4] } // terraform dot
+base_graphics spr4079(4079, "sprites/png/gui/gui04.png") { [ 498,  280,   3,   3,  -1,  -1] } // scenario editor toolsize dot
+base_graphics spr4080(4080, "sprites/png/gui/gui04.png") { [ 514,  280,  32,  32,   0,   0] } // build town cursor
+base_graphics spr4081(4081, "sprites/png/gui/gui04.png") { [ 562,  280,  32,  32,   0,   0] } // build industry cursor
+base_graphics spr4082(4082, "sprites/png/gui/gui04.png") { [ 610,  280,  20,  20,   0,   0] } // build sign
+base_graphics spr4083(4083, "sprites/png/gui/gui04.png") { [ 642,  280,  20,  20,   0,   0] } // smallmap
+base_graphics spr4084(4084, "sprites/png/gui/gui04.png") { [ 674,  280,  20,  20,   0,   0] } // rocky land
+base_graphics spr4085(4085, "sprites/png/gui/gui04.png") { [ 706,  280,  20,  20,   0,   0] } // lighthouse
+base_graphics spr4086(4086, "sprites/png/gui/gui04.png") { [ 738,  280,  20,  20,   0,   0] } // transmitter
+base_graphics spr4087(4087, "sprites/png/gui/gui04.png") { [   2,  328,  32,  32,   0,   0] } // rocky land cursor
+base_graphics spr4088(4088, "sprites/png/gui/gui04.png") { [  50,  328,  32,  32,   0,   0] } // lighthouse cursor
+base_graphics spr4089(4089, "sprites/png/gui/gui04.png") { [  98,  328,  32,  32,   0,   0] } // transmitter cursor
 alternative_sprites (spr4077, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 98, 392) }
 //TODO sprite 4078-4081
 alternative_sprites (spr4082, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(146, 392) }
@@ -19,5 +19,4 @@ alternative_sprites (spr4083, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui
 alternative_sprites (spr4084, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(242, 392) }
 alternative_sprites (spr4085, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(290, 392) }
 alternative_sprites (spr4086, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(338, 392) }
-alternative_sprites (spr4087, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(386, 392) }
-//TODO sprite 4088-4089
+//TODO sprite 4087-4089

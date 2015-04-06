@@ -147,7 +147,7 @@ alternative_sprites (spr140, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/
 base_graphics spr141( 141, "sprites/png/gui/fonts.png") { [ 530,  130,   8,  13,   0,  -2] }
 base_graphics spr142( 142, "sprites/png/gui/fonts.png") { [ 550,  130,  12,  13,   0,  -2] }
 alternative_sprites (spr142, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_caption(402,776) }
-base_graphics spr143( 143, "sprites/png/gui/fonts.png") { [ 570,  130,   8,  13,   0,  -2] }
+base_graphics spr143( 143, "sprites/png/gui/fonts.png") { [ 570,  130,   8,  13,   1,  -2] }
 alternative_sprites (spr143, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_caption(434,776) }
 base_graphics spr144( 144, "sprites/png/gui/fonts.png") { [ 590,  130,  10,  13,   0,  -2] }
 base_graphics spr145( 145, "sprites/png/gui/fonts.png") { [ 610,  130,   5,  13,   0,  -2] }
