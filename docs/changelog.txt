@@ -1,5 +1,16 @@
-OpenGFX 8a61b300bcb6
---------------------
+OpenGFX 0.5.2 (12 Apr 2015)
+---------------------------
+- Add: [Makefile] target 'bananas' (closes #6877, #6848)
+- Fix: [Makefile] Add dependency generation for pnml->nml
+- Fix: [Makefile] dependencies, esp. wrt. HG revision numbers getting compiled into files
+- Fix: Alignment of GUI icons that have different sizes in 1x and 2x zoom
+- Fix: 2x GUI sprite for purchase land was attached to the viewport sprite instead of to the GUI sprite (commit:ba02a90fab52) (issue FS#6267)
+- Fix: Do not crop the default-window-size icon (issue FS#6258)
+
+
+
+OpenGFX 0.5.2-RC1 (16 Feb 2015)
+-------------------------------
 - Add: 2x GUI zoom sprites
 - Add: the all black ground sprites introduced in OpenTTD r26869
 - Add: Translations for Africans, Italian, Latin and Lithuanian
