@@ -3,8 +3,8 @@ syntax: glob
 
 # The local makefile should be ignored:
 Makefile.local
-Makefile.fordist
-Makefile.dep
+Makefile.vcs
+Makefile.gfx
 *.scm
 *.dep
 *.nml
