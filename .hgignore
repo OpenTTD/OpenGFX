@@ -3,36 +3,30 @@ syntax: glob
 
 # The local makefile should be ignored:
 Makefile.local
+
+# Generated files
 Makefile.vcs
 Makefile.gfx
-*.scm
-*.dep
-*.nml
 .version
 parsetab.py
 custom_tags.txt
-*.tags.txt
+docs/readme.txt
+.nmlcache
+
+*.scm
+*.dep
+*.nml
+*.grf
+*.obg
+*.md5
 *.cache
 *.cacheindex
-
-# And the description file and the grs which are generated automatically
-opengfx.obg
-opengfx/*
-ogfx?_*.grf
-opengfx*md5
-
-# Ignore intermediate files created by the Makefile:
-ogfx?_*.cnfo
-ogfx?_*.nfo
-docs/readme.txt
 
 # Ignore directories from bundle creation / install:
 opengfx-*
 
 # Ignore frequent development left-overs like
 # editor backups, patches, rejects etc. pp
-opengfx*.tar
-opengfx*.bananas.ini
 *.orig
 *.bak
 *.log
