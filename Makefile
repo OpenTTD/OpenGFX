@@ -396,7 +396,7 @@ ifdef OBG_FILENAME
 
 obg: $(OBG_FILENAME)
 
-%.obg: $(GFX_FILES) $(GRF_FILES) $(DESC_FILENAME_SRC) Makefile.vcs
+%.obg: $(GFX_FILES) $(GRF_FILES) $(LNG_FILES) Makefile.vcs
 	$(_E) "[ASSEMBLING] $@"
 	@echo "[metadata]" > $@
 	@echo "name        = $(REPO_NAME)" >> $@
