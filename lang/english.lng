@@ -1,5 +1,5 @@
 ##grflangid 0x01
-STR_GENERAL_DESC        :OpenGFX base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. More information available in the readme at http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Brought to you by the OpenGFX team{}See readme for a list of contributors{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
