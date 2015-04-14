@@ -2,7 +2,7 @@
 ##plural 0
 ##gender m f n mp fp np
 ##case abl acc dat gen
-STR_GENERAL_DESC        :OpenTTD fundamentum graphicum OpenGFX. Gratis parabile est sub licentiam GPL v2. Plura indicia parabilia sunt in "readme.txt" apud http://wiki.openttd.org/OpenGFX_Readme [{TITLE}]
+STR_GENERAL_DESC        :OpenTTD fundamentum graphicum OpenGFX. Gratis parabile est sub licentiam GNU GPL v2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenTTD fundamentum graphicum OpenGFX.{BLACK}{}Manus OpenGFX paraverunt.{}Vide LegeMe in quo est index auctorum.{}{BLACK}Licentia: {SILVER}GPL v2+{}{BLACK}Situs: {SILVER}http://dev.openttdcoop.org/projects/opengfx

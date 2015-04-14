@@ -1,6 +1,6 @@
 ##grflangid 0x23
 ##plural 0
-STR_GENERAL_DESC        :OpenGFX Basisgrafikset fir OpenTTD. Gratis ënnert der GNU General Public License Versioun 2. Méi Informatiounen an der Readme op http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX Basisgrafikset fir OpenTTD. Gratis ënnert der GNU General Public License Versioun 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Basisgrafikset{BLACK}{}Offréiert vum OpenGFX Team{}Lies d'Readme fir eng Lëscht vun den Leit déi matgeschafft hunn{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}http://dev.openttdcoop.org/projects/opengfx
