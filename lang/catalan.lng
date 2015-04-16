@@ -1,5 +1,5 @@
 ##grflangid 0x22
-STR_GENERAL_DESC        :Joc de gràfics base OpenGFX per a OpenTTD. Disponibles lliurement sota els termes de la GNU General Public License versió 2. Hi ha més informació disponible a l'arxiu "readme.txt" en http://wiki.openttd.org/OpenGFX_Readme.txt. [{TITLE}]
+STR_GENERAL_DESC        :Joc de gràfics base OpenGFX per a OpenTTD. Disponibles lliurement sota els termes de la GNU General Public License versió 2. [{TITLE}]
 
 STR_GRF_NAME            : {TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Joc de gràfics base OpenGFX{BLACK}{}Disponible gràcies a l'equip de l'OpenGFX{}Veure el llegeix-me per a la llista de col·laboradors{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
