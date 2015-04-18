@@ -578,6 +578,7 @@ bundle_bsrc: $(TAR_FILENAME_SRC).bz2
 bundle_gsrc: $(TAR_FILENAME_SRC).gz
 bundle_xsrc: $(TAR_FILENAME_SRC).xz
 
+bundle_zsrc: $(ZIP_FILENAME_SRC)
 $(ZIP_FILENAME_SRC): $(DIR_NAME_SRC)
 	$(_E) "[BUNDLE SRC ZIP] $@"
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
