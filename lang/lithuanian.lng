@@ -2,7 +2,7 @@
 ##plural 5
 ##gender vyr mot
 ##case ka kam kas ko kreip kuo kur
-STR_GENERAL_DESC        :OpenGFX yra bazinis grafikos failų rinkinys, skirtas OpenTTD. Laisvai prieinamas pagal GNU GPL v2 liceciją. Daugiau informacijos rasite adresu http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX yra bazinis grafikos failų rinkinys, skirtas OpenTTD. Laisvai prieinamas pagal GNU GPL v2 liceciją. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Grafikos rinkinys OpenGFX{BLACK}{}Sukurtas jums OpenGFX komandos{}Talkininkų sąrašą rasite faile „readme“{}{BLACK}Licencija: {SILVER}GPL v2+{}{BLACK}Interneto svetainė: {SILVER}http://dev.openttdcoop.org/projects/opengfx
