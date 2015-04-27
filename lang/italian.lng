@@ -1,5 +1,5 @@
 ##grflangid 0x27
-STR_GENERAL_DESC        :Pacchetto grafico di base OpenGFX per OpenTTD. Liberamente disponibile secondo i termini della Licenza Pubblica Generica (GPL) GNU versione 2. Ulteriori informazioni sono disponibili a http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :Pacchetto grafico di base OpenGFX per OpenTTD. Liberamente disponibile secondo i termini della Licenza Pubblica Generica versione 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX pacchetto grafico di base{BLACK}{}Portato a voi dal team OpenGFX{}Vedere readme per la lista di collaboratori{}{BLACK}Licenza: {SILVER}GPL v2+{}{BLACK}Sito web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
