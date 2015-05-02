@@ -166,7 +166,7 @@ REPO_REVISION  = $(shell HGPLAIN= $(HG) id -n | cut -d+ -f1)
 REPO_HASH      = $(shell HGPLAIN= $(HG) id -i | cut -d+ -f1)
 
 # HG Date
-REPO_DATE      = $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{time|shortdate}')
+REPO_DATE      = $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{date|shortdate}')
 
 # Whether there are local changes
 REPO_MODIFIED  = $(shell [ "`HGPLAIN= $(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
