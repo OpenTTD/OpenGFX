@@ -99,7 +99,7 @@ HG_ARCHIVE_FLAGS    ?= -X .hgtags -X .hgignore -X .devzone -X scripts/make_chang
 AWK            ?= awk
 GREP           ?= grep
 PYTHON         ?= python
-UNIX2DOS       ?= unix2dos
+UNIX2DOS       ?= $(shell which unix2dos)
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
 
 # Graphics processing
@@ -377,7 +377,11 @@ doc: $(DOC_FILES)
 		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
 		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
 		> $@
-	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
+ifeq ($(UNIX2DOS),)
+	$(_E) Warning: unix2dos not available. $@ keeps current eol style.
+else
+	$(_V) $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
+endif
 
 clean::
 	$(_E) "[CLEAN DOC]"
