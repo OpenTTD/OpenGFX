@@ -1,3 +1,18 @@
+OpenGFX 0.5.3 (13 Sep 2015)
+---------------------------
+-Fix: [Makefile] Missing Makefile target bundle_zsrc
+-Fix: REPO_DATE was set to current date instead of commit date.
+-Fix #7669: Make unix2dos an optional build requirement.
+-Cleanup: Merge musa.ini into bananas.ini
+-Cleanup: Remove pointless link from GRF description. OpenTTD can display readmes directly meanwhile.
+-Cleanup: [Makefile] BUNDLE_FILES is set by the regular Makefile just fine already.
+-Cleanup: [Makefile] OBG descriptions are generated from lang files meanwhile.
+-Cleanup: Make use of sprites/graphics_source_lists (again?)
+-Cleanup: hgignore
+-Update translations: Africans, Catalan, Dutch, Italian, Korean, Kroatian, Latin, Lithuanian, Luxembourgish, Spanish
+
+
+
 OpenGFX 0.5.2 (12 Apr 2015)
 ---------------------------
 - Add: [Makefile] target 'bananas' (closes #6877, #6848)

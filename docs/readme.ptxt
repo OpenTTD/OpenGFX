@@ -174,7 +174,7 @@ or obtain the tarball from
 --------------------
 Prerequisites to building OpenGFX:
 - gcc (the pre-processor is needed)
-- NML 0.3 (default / development branch)
+- NML 0.4.2 (default / development branch)
   (available from http://bundles.openttdcoop.org/nml/ )
 - grfid from the grfcodec package
   (available from http://www.openttd.org/download-grfcodec )
@@ -260,7 +260,7 @@ re-generated from a xcf or psd file.
 =========
 
 OpenGFX Graphics Base Set for OpenTTD
-Copyright (C) 2007-2012 by the OpenGFX team (see credits section below)
+Copyright (C) 2007-2015 by the OpenGFX team (see credits section below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
