@@ -1,3 +1,8 @@
+OpenGFX 0.5.4 (07 Jan 2016)
+---------------------------
+- Update translations: Chinese (traditional and simplified), Finnish, French
+
+
 OpenGFX 0.5.3 (13 Sep 2015)
 ---------------------------
 -Fix: [Makefile] Missing Makefile target bundle_zsrc

@@ -260,7 +260,7 @@ re-generated from a xcf or psd file.
 =========
 
 OpenGFX Graphics Base Set for OpenTTD
-Copyright (C) 2007-2015 by the OpenGFX team (see credits section below)
+Copyright (C) 2007-2016 by the OpenGFX team (see credits section below)
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
@@ -339,12 +339,12 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 Translations:
 * Afrikaans:                  telanus
 * Catalan:                    juanjo
-* Chinese (simplified):       siu238X
-* Chinese (traditional):      siu238X
+* Chinese (simplified):       siu238X, xiangyigao
+* Chinese (traditional):      siu238X, xiangyigao
 * Croatian:                   Voyager1
 * Dutch:                      Alberth
 * English (US):               Supercheese
-* Finnish:                    juzza1
+* Finnish:                    juzza1, alluke
 * French:                     arikover
 * German:                     planetmaker
 * Hungarian:                  zaza
