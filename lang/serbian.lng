@@ -1,4 +1,7 @@
 ##grflangid 0x0d
-STR_GENERAL_DESC        :OpenGFX skup osnovnih grafika za OpenTTD. Slobodno dostupan pod uslovima 2. verzije GNU-ove opšte javne licence. Više informacija se nalazi na http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX skup osnovnih grafika za OpenTTD. Slobodno dostupan pod uslovima 2. verzije GNU-ove opšte javne licence. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX set osnovnih grafika za OpenTTD{BLACK}{}Predstavljen od OpenGFX tima{}Za listu saradnika pogledati readme{}{BLACK}Dozvola: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
