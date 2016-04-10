@@ -1,4 +1,6 @@
 ##grflangid 0x24
+##plural 2
+##case t ba
 STR_GENERAL_DESC        :OpenGFX grafikus alapcsomag az OpenTTD-hez. Ingyenesen hozzáférhető a GNU General Public License 2-es verziójának feltételeivel. Több információ a http://wiki.openttd.org/OpenGFX_Readme oldalon található. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

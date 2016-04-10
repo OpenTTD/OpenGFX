@@ -1,4 +1,7 @@
 ##grflangid 0x13
+##plural 13
+##gender m f
+##case dat nom gen voc
 STR_GENERAL_DESC        :Seata grafaigeachd OpenGFX bunasach airson OpenTTD. Tha seo ri fhaighinn saor ’s an asgaidh fo theirmichean GNU General Public License tionndadh 2. Gheibh thu barrachd fiosrachaidh san “Leugh mi” air http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

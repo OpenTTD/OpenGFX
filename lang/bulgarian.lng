@@ -1,4 +1,7 @@
 ##grflangid 0x18
+##plural 0
+##gender p n m f
+##case p n m f
 STR_GENERAL_DESC        :OpenGFX графичен пакет за OpenTTD. Свободен за разпространение по условията на GNU General Public License версия 2. Повече информация на http://wiki.openttd.org/OpenGFX_Readme (англ). [{TITLE}]
 
 

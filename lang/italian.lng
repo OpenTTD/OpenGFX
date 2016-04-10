@@ -1,4 +1,7 @@
 ##grflangid 0x27
+##plural 0
+##gender ma m f
+##case fp fs mp ms
 STR_GENERAL_DESC        :Pacchetto grafico di base OpenGFX per OpenTTD. Liberamente disponibile secondo i termini della Licenza Pubblica Generica versione 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

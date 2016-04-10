@@ -1,4 +1,6 @@
 ##grflangid 0x22
+##plural 0
+##gender Masculin Femenin
 STR_GENERAL_DESC        :Joc de gràfics base OpenGFX per a OpenTTD. Disponibles lliurement sota els termes de la GNU General Public License versió 2. [{TITLE}]
 
 STR_GRF_NAME            : {TITLE}

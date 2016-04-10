@@ -1,4 +1,7 @@
 ##grflangid 0x0d
+##plural 6
+##gender ženski srednji muški
+##case nom big aku vok dat lok ins gen
 STR_GENERAL_DESC        :OpenGFX skup osnovnih grafika za OpenTTD. Slobodno dostupan pod uslovima 2. verzije GNU-ove opšte javne licence. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

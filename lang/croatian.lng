@@ -1,4 +1,7 @@
 ##grflangid 0x38
+##plural 6
+##gender middle male female
+##case nom lok aku vok dat ins gen
 STR_GENERAL_DESC        :OpenGFX osnovni grafički paket za OpenTTD. Dostupan besplatno pod uvjetima GNU General Public License verzija 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

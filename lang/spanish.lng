@@ -1,4 +1,6 @@
 ##grflangid 0x04
+##plural 0
+##gender m f
 STR_GENERAL_DESC        :OpenGFX es un conjunto de gráficos base para OpenTTD. Está disponible de forma libre bajo los términos de la Licencia Pública General GNU version 2.[{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

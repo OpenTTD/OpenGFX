@@ -1,4 +1,6 @@
 ##grflangid 0x03
+##plural 2
+##gender f m m2
 STR_GENERAL_DESC        :Graphismes de Base OpenGFX pour OpenTTD. Disponibles librement selon les termes de la Licence Publique Générale GNU version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

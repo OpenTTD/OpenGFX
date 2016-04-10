@@ -1,4 +1,7 @@
 ##grflangid 0x07
+##plural 6
+##gender p n m f
+##case acc nom pre f abl m n dat p gen
 STR_GENERAL_DESC        :OpenGFX представляет собой базовый набор графики для OpenTTD. Свободно распространяется в соответствии с лицензией GNU General Public License version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

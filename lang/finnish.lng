@@ -1,4 +1,5 @@
 ##grflangid 0x35
+##plural 0
 STR_GENERAL_DESC        :OpenGFX perusgrafiikat OpenTTD:lle. Vapaasti saatavilla lisenssillä GNU General Public License version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

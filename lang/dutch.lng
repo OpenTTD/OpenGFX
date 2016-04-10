@@ -1,4 +1,5 @@
 ##grflangid 0x1f
+##plural 0
 STR_GENERAL_DESC        :OpenGFX basisgraphicsset voor OpenTTD. Vrij verkrijgbaar onder de voorwaarden van de GNU General Public License versie 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}

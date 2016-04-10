@@ -1,4 +1,6 @@
 ##grflangid 0x2c
+##plural 8
+##case r d t
 STR_GENERAL_DESC        :Temeljni OpenGFX grafični paket za OpenTTD. Na voljo zastonj pod licenco GNU General Public License verzija 2. Več informacij na voljo na http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
 
