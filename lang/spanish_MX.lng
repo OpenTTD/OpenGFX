@@ -1,0 +1,9 @@
+##grflangid 0x55
+##plural 0
+##gender m f
+STR_GENERAL_DESC        :Paquete de gráficos base OpenGFX para OpenTTD, disponible de forma libre bajo los términos de la licencia pública general de la GNU, versión 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Creado por el equipo de OpenGFX{}Consulta el archivo Léeme para una lista completa de miembros{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Sitio web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+
+STR_OPENTTD_VERSION     :1.2.0
