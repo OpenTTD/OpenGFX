@@ -1,7 +1,7 @@
 ##grflangid 0x02
 ##plural 0
 ##gender p m w n
-STR_GENERAL_DESC        :OpenGFX Basisgrafiken für OpenTTD. Frei verfügbar unter der GNU General Public License in der Version 2. Weitere Informationen sind in der Datei readme.txt oder unter http://wiki.openttd.org/OpenGFX_Readme. verfügbar. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX Basisgrafiken für OpenTTD. Frei verfügbar unter der GNU General Public License in der Version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Basisgrafiken{BLACK}{}Vom OpenGFX-Team{}Die Liste der Autoren findet sich in der readme{}{BLACK}Licenz: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
