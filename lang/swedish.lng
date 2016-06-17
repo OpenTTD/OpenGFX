@@ -1,6 +1,6 @@
 ##grflangid 0x2e
 ##plural 0
-STR_GENERAL_DESC        :OpenGFX basgrafikpaket för OpenTTD. Fritt tillgängligt enligt villkoren för GNU General Public License version 2 licensen. Mer information är tillgänglig i readme-dokumentet på http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX basgrafikpaket för OpenTTD. Fritt tillgängligt enligt villkoren för GNU General Public License version 2 licensen.[{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Tillhandahållet för dig av OpenGFX-teamet{}Se readme-filen för en lista över alla som bidragit till projektet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hemsida: {SILVER}http://dev.openttdcoop.org/projects/opengfx
