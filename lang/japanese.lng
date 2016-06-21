@@ -1,0 +1,8 @@
+##grflangid 0x39
+##plural 1
+STR_GENERAL_DESC        :OpenGFX は OpenTTD のためのグラフィック置き換えセットです。GNU General Public License version 2の規約の下で自由に利用できます。[{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX 基本グラフィックセット{BLACK}{}OpenGFX チームの提供でお送りします{}貢献者リストのために readme を見てください{}{BLACK}ライセンス: {SILVER}GPL v2+{}{BLACK}ウェブサイト: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+
+STR_OPENTTD_VERSION     :1.2.0
