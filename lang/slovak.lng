@@ -4,4 +4,7 @@
 ##case g
 STR_GENERAL_DESC        :OpenGFX, základná sada grafiky pre OpenTTD. Voľne dostupné pod licenciou GNU General Public License version 2. Viac informácií nájdete na http://wiki.openttd.org/OpenGFX_Readme (v jazyku angličtina). [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Základny Grafický Set{BLACK}{}Prináša vám tím OpenGFX{}Pozri readme pre zoznam prispievateľov{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Webstránka: {SILVER}http://dev.openttdcoop.org/projects/opengfx (v jazyku angličtina).
 
+STR_OPENTTD_VERSION     :1.2.0
