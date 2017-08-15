@@ -2,6 +2,9 @@
 ##plural 10
 ##gender fp map f mnp m n np
 ##case acc nom loc big voc ins dat small gen
-STR_GENERAL_DESC        :Základní sada grafik pro OpenTTD. Volně dostupné pod licencí GNU General Public License verze 2. Více informací naleznete na http://wiki.openttd.org/OpenGFX_Readme (anglicky). [{TITLE}]
+STR_GENERAL_DESC        :Základní sada grafik pro OpenTTD. Volně dostupné pod licencí GNU General Public License verze 2. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Základní sada grafik OpenGFX{BLACK}{}Vytvořeno týmem OpenGFX{}Seznam všech přispěvatelů je dostupný v readme{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
+STR_OPENTTD_VERSION     :1.2.0
