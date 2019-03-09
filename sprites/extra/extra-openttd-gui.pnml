@@ -313,3 +313,9 @@ replacenew ottd_gui162(OTTD_GUI, "", 162) {
 	[ 104,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-storybook.png"]   // story book: un-accessible goal
 	[   0,    0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-cargoflow.png"]   // minimap: cargoflow icon
 }
+replacenew ottd_gui176(OTTD_GUI, "", 176) {
+	[   0,  0,  20,  20,   0,   0, "sprites/png/gui/group_liveries.png"]         // train group livery icon
+	[   22,  0,  20,  20,   0,   0, "sprites/png/gui/group_liveries.png"]         // road vehicle group livery icon
+	[   44,   0,  10,  10,   0,   0, "sprites/png/gui/group_liveries.png"]         // boat group livery icon
+	[   66,   0,  10,  10,   0,   0, "sprites/png/gui/group_liveries.png"]         // aircraft group livery icon
+}
