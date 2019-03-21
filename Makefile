@@ -196,7 +196,7 @@ Makefile.vcs: FORCE
 endif
 
 # Days of commit since 2000-1-1 00-00
-REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print (date(`echo "$(REPO_DATE)" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days")
+REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print( (date(`echo "${REPO_DATE}" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days)")
 
 # Filename addition, if we're not building the default branch
 REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "-$(REPO_BRANCH)"; fi)
