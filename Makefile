@@ -719,7 +719,7 @@ ifneq ($(HG),)
 	$(_E)
 endif
 	$(_E) "Release:"
-	$(_E) "bananas:     Upload bundle to BaNaNaS
+	$(_E) "bananas:     Upload bundle to BaNaNaS"
 	$(_E)
 	$(_E) "Valid command line variables are:"
 	$(_E) "Helper programmes:"
