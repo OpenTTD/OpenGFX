@@ -15,6 +15,7 @@
 - 5.0 [License](#50-license)
 - 6.0 [Credits](#60-credits)
 
+
 ## 1.0 About
 
 OpenGFX is an open source graphics base set designed to be used by [OpenTTD](https://www.openttd.org).
@@ -32,6 +33,7 @@ OpenGFX provides you with...
 
 This version of OpenGFX requires OpenTTD 1.2.0 or newer. For older versions of OpenTTD or TTDPatch please use OpenGFX 0.4.1.
 
+
 ## 2.0 Downloading
 
 OpenGFX is available from a few locations. This readme will only cover the official download locations.
@@ -41,6 +43,7 @@ We cannot support third party download locations and we cannot refund your money
 - If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD, OpenGFX and OpenSFX.
 - If you're new to OpenTTD, cannot use an installer and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not as difficult as it may sound, so don't worry too much about it.
 - If you already have OpenTTD up and running using the original TTD base graphics, installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
+
 
 ## 3.0 Installing
 
@@ -74,20 +77,21 @@ The baseset directories are:
 The `/baseset/` directory inside of the OpenTTD installation can also be used.
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend our sister project OpenSFX) and install it into the same directory as OpenGFX.
 5. In the main menu of the game, click the Game Options button. The Game Options dialog will appear.
-6. Select OpenGFX from the drop-down list below Base graphics set if that's not selected already (bottom left of window).  Close the window using the × in the upper left corner.
+6. Select OpenGFX from the drop-down list below Base graphics set if that's not selected already (bottom left of window). Close the window using the × in the upper left corner.
 - If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
 - If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
 
 Now that wasn't so hard, was it?
 
-Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues).
+Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) on the http://dev.openttdcoop.org website.
+
 
 ## 4.0 Reporting bugs and contributing
 
 ### 4.1 Reporting bugs
 
-If you spot any graphical bugs or glitches in the available graphics, please let us know preferrably via our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) or via the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162).
-Please make sure that you're using the latest available version before reporting a bug. You can check the [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) to see if the bug you've found is already reported (or fixed!).
+If you spot any graphical bugs or glitches in the available graphics, please let us know preferrably via our [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) or via the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162).
+Please make sure that you're using the latest available version before reporting a bug. You can check the [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) to see if the bug you've found is already reported (or fixed!).
 
 If you have made yourself improvements to either graphics or the source code itself, please also share that with us either via the [pull request page](https://github.com/OpenTTD/OpenGFX/pulls) or the [development discussion thread](http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0).
 
@@ -104,11 +108,12 @@ Prerequisites to building OpenGFX:
 - some gnu utils: `make`, `cat`, `sed`, `awk` and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes.
 - [Mercurial](http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages) (only when not building from a tarball)
 
-Optionally, required to re-generated all graphics files from their layered source files after executing 'maintainer-clean':
+Optionally, required to re-generated all graphics files from their layered source files after executing `maintainer-clean`:
 - [GIMP 2.4](https://www.gimp.org/downloads/) or later
 
+
 ##### Windows
-We advise you get a MinGW development environment, NML and Mercurial from the sources mentioned above). For more detailed instructions see our guide at the [wiki](http://dev.openttdcoop.org/projects/home/wiki) and the very extensive and detailed installation instructions on the [MinGW wiki](http://www.mingw.org/wiki/Getting_Started).
+We advise you get a MinGW development environment, NML and Mercurial from the sources mentioned above. For more detailed instructions see our guide on the [wiki](http://dev.openttdcoop.org/projects/home/wiki) and the very extensive and detailed installation instructions on the [MinGW wiki](http://www.mingw.org/wiki/Getting_Started).
 
 ##### Linux
 Your system should already have most tools, you'll probably only need NML and Mercurial available from the source mentioned above. For installation instructions concerning Mercurial refer to the manual of your distribution.
@@ -123,8 +128,8 @@ On OSX GIMP is not found in the path, if you installed the app package as suppli
 The use of Mercurial is strongly encouraged as only that allows to keep track of
 changes.
 
-Once all tools are installed, get a checkout of the repository and you can build
-OpenGFX using make. The following targets are available:
+
+Once all tools are installed, get a checkout of the repository and you can build OpenGFX using make. The following targets are available:
 - `all`: builds all grfs and the obg file
 - `install`: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path.
 - `clean`: cleans all generated files
@@ -136,7 +141,7 @@ OpenGFX using make. The following targets are available:
 - `bundle_tar`: create a tar archive of OpenGFX
 - `check`: checks the md5 sums of the built grf and obg files against those of the official release versions
 
-Given the usual case that you modify something within OpenGFX and want to test that, a simple 'make install' should suffice and you can immediately test the changes ingame, if you selected the nightly version of OpenGFX. Given default paths, a 'make install' will overwrite a previous nightly version of OpenGFX. Mind to re-start OpenTTD as it needs to re-read the grf files.
+Given the usual case that you modify something within OpenGFX and want to test that, a simple `make install` should suffice and you can immediately test the changes ingame, if you selected the nightly version of OpenGFX. Given default paths, a `make install` will overwrite a previous nightly version of OpenGFX. Mind to re-start OpenTTD as it needs to re-read the grf files.
 
 ### 4.4 Notes for package maintainers
 
@@ -147,6 +152,7 @@ Given the usual case that you modify something within OpenGFX and want to test t
 ### 4.5 Note on the .xcf and .psd files
 
 The repository contains a few `.xcf2png` files which indicate which png files can be generated from the source `.xcf` or `.psd` files. This will only be used, if GIMP is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a `.xcf` or `.psd` file.
+
 
 ## 5.0 License
 
@@ -168,95 +174,95 @@ this program; if not, write to the
 Free Software Foundation, Inc.
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
+
 ## 6.0 Credits
 
 OpenGFX is created by the following people (in reverse alphabetical order):
 
-* Zuu (Leif Linse)
-* Zephyris (Richard Wheeler)
-* Varivar
-* V453000 (Vaclav Benc)
-* uzurpator
-* Spaz O Mataz
-* Soeb (Stanislaw Gackowski)
-* Snail (Jacopo Coletto)
-* skidd13 (Benedikt Brüggemeier)
-* Rubidium (Remko Bijker)
-* Roujin (Manuel Wolf)
-* Red*Star (David Krebs)
-* Raumkraut (Mel Collins)
-* Purno (Mark Leppen)
-* planetmaker (Ingo von Borstel)
-* PikkaBird (David Dallaston)
-* PaulC (Paul Charlesworth)
-* orudge (Owen Rudge)
-* oberhuemer
-* northstar2
-* Mr. X
-* mph (Matthew Haines)
-* molace (Zoltán Molnár)
-* michi_cc (Michael Lutz)
-* mb (Michael Blunck)
-* mart3p
-* Lawton27 (Jack Lawton)
-* LordAzamath (Johannes Madis Aasmäe)
-* lead@inbox (Serge Saphronov)
-* Jonha
-* Irwe (Alexander Irwe)
-* Gwyd
-* Gen.Sniper
-* frosch (Christoph Elsenhans)
-* Froix
-* FooBar (Jasper Vries)
-* erikjanp
-* EdorFaus (Frode Austvik)
-* drginaldee
-* DJ Nekkid (Thomas Mjelva)
-* DanMacK (Dan MacKellar)
-* buttercup
-* bubersson (Petr Mikota)
-* Born Acorn (Chris Jones)
-* Brumi
-* Bilbo
-* BenK
-* Ben_Robbins_ (Ben Robbins)
-* athanasios (Athanasios Arthur Palaiologos)
-* andythenorth (Andrew Parkhouse)
-* AndersI (Anders Isaksson)
-* Ammler (Marcel Gmür)
-* 2006TTD (Anthony Lam)
-
-Translations:
-* Afrikaans:                  telanus
-* Catalan:                    juanjo
-* Chinese (simplified):       siu238X, xiangyigao
-* Chinese (traditional):      siu238X, xiangyigao
-* Croatian:                   Voyager1
-* Czech                       alfergen
-* Dutch:                      Alberth
-* English (US):               Supercheese
-* Finnish:                    juzza1, alluke
-* French:                     arikover
-* German:                     planetmaker, Czeczki
-* Hungarian:                  zaza, Czeczki
-* Indonesian:                 UseYourIllusion
-* Italian:                    Voyager1
-* Japanese:                   HawkEye1015
-* Korean:                     Telk
-* Latin:                      Supercheese
-* Lithuanian:                 Stabilitronas
-* Luxemburgean:               Phreeze
-* Norwegian (bokmal):         Trond, Leifbk
-* Polish:                     TadeuszD
-* Portuguese:                 vesgo
-* Russian:                    George
-* Scotish Gaelic:             GunChleoc
-* Serbian:                    stravagante
-* Slovak:                     Tenebrae
-* Spanish:                    SilverSurveferZzZ
-* Swedish:                    Zuu, Pekkape01
-* Tamil:                      Aswn
-
+| Name              | Realname              | Translations                                  |
+| ----------------- | --------------------- | --------------------------------------------- |
+| Zuu               | Leif Linse            | Swedish                                       |
+| Zephyris          | Richard Wheeler       | N/A                                           |
+| zaza              | N/A                   | Hungarian                                     |
+| xiangyigao        | N/A                   | Chinese (simplified), Chinese (traditional)   |
+| Voyager1          | N/A                   | Croatian, Italian                             |
+| vesgo             | N/A                   | Portugese                                     |
+| Varviar           | N/A                   | N/A                                           |
+| V543000           | Vaclav Benc           | N/A                                           |
+| uzurpator         | N/A                   | N/A                                           |
+| UseYourIllusion   | N/A                   | Indonesian                                    |
+| Trond             | N/A                   | Norwegian (bokmal)                            |
+| Tenebrae          | N/A                   | Slovak                                        |
+| Telk              | N/A                   | Korean                                        |
+| telanus           | N/A                   | Afrikaans                                     |
+| TadeuszD          | N/A                   | Polish                                        |
+| Supercheese       | N/A                   | English (US) & Latin                          |
+| stravagante       | N/A                   | Serbian                                       |
+| Stabilitronas     | N/A                   | Lithuanian                                    |
+| Spaz O Mataz      | N/A                   | N/A                                           |
+| Soeb              | Stanislaw Gackowski   | N/A                                           |
+| Snail             | Jacopo Coletto        | N/A                                           |
+| skidd13           | Benedikt Brüggemeier  | N/A                                           |
+| siu238X           | N/A                   | Chinese (simplified), Chinese (traditional)   |
+| SilverSurveferZzZ | N/A                   | Spanish                                       |
+| Rubidium          | Remko Bijker          | N/A                                           |
+| Roujin            | Manuel Wolf           | N/A                                           |
+| Red*Star          | David Krebs           | N/A                                           |
+| Raumkraut         | Mel Collins           | N/A                                           |
+| Purno             | Mark Leppen           | N/A                                           |
+| planetmaker       | Ingo van Borstel      | German                                        |
+| PikkaBird         | David Dallaston       | N/A                                           |
+| Phreeze           | N/A                   | Luxemburgean                                  |
+| Pekkape01         | N/A                   | Swedish                                       |
+| PaulC             | Paul Charlesworth     | N/A                                           |
+| orduge            | Owen Ridge            | N/A                                           |
+| oberheumer        | N/A                   | N/A                                           |
+| northstar2        | N/A                   | N/A                                           |
+| Mr. X             | N/A                   | N/A                                           |
+| mph               | Matthew Haines        | N/A                                           |
+| molace            | Zoltán Molnár         | N/A                                           |
+| michi_cc          | Michael Lutz          | N/A                                           |
+| mb                | Michael Blunck        | N/A                                           |
+| mart3p            | N/A                   | N/A                                           |
+| LorzAzamath       | Johannes Maids Aasmäe | N/A                                           |
+| Leifbk            | N/A                   | Norwegian (bokmal)                            |
+| lead@inbox        | Serge Saphronov       | N/A                                           |
+| Lawton27          | Jack Lawton           | N/A                                           |
+| juzza1            | N/A                   | Finnish                                       |
+| juanjo            | N/A                   | Catalan                                       |
+| Jonha             | N/A                   | N/A                                           |
+| Irwe              | Alexander Irwe        | N/A                                           |
+| HawkEye1015       | N/A                   | Japanese                                      |
+| Gwyd              | N/A                   | N/A                                           |
+| GunChleoc         | N/A                   | Scotish Gaelic                                |
+| George            | N/A                   | Russian                                       |
+| Gen.Sniper        | N/A                   | N/A                                           |
+| frosch            | Christoph Elsenhans   | N/A                                           |
+| Froix             | N/A                   | N/A                                           |
+| Foobar            | Jasper Vries          | N/A                                           |
+| erikjanp          | N/A                   | N/A                                           |
+| EdorFaus          | Frode Austvik         | N/A                                           |
+| drginaldee        | N/A                   | N/A                                           |
+| DJ Nekkid         | Thomas Mjelva         | N/A                                           |
+| DanMacK           | Dan MacKellar         | N/A                                           |
+| Czeczki           | N/A                   | German                                        |
+| buttercup         | N/A                   | N/A                                           |
+| bubersson         | Petr Mikota           | N/A                                           |
+| Born Acorn        | Chris Jones           | N/A                                           |
+| Brumi             | N/A                   | N/A                                           |
+| Bilbo             | N/A                   | N/A                                           |
+| BenK              | N/A                   | N/A                                           |
+| Ben_Robbins_      | Ben Robbins           | N/A                                           |
+| athanasios        | Athanasios Palaiologos| N/A                                           |
+| Aswn              | N/A                   | Tamil                                         |
+| arikover          | N/A                   | French                                        |
+| andythenorth      | Andrew Parkhouse      | N/A                                           |
+| AndersI           | Anders Isaksson       | N/A                                           |
+| Ammler            | Marcel Gmür           | N/A                                           |
+| alluke            | N/A                   | Finnish                                       |
+| alfergen          | N/A                   | Czech                                         |
+| Alberth           | N/A                   | Dutch                                         |
+| 2006TTD           | Anthony Lam           | N/A                                           |
 
 * The monospaced characters are generated from the font Liberation Mono:
     https://www.redhat.com/promo/fonts/ created by Pravin Satpute and Caius Chance, released under GPL v2.
