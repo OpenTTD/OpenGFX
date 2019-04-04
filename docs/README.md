@@ -21,7 +21,7 @@ OpenGFX is an open source graphics base set designed to be used by [OpenTTD](htt
 
 OpenGFX provides a set of free and open source base graphics, and aims to ensure the best possible out-of-the-box experience with OpenTTD.
 
-The project's home is http://dev.openttdcoop.org/projects/opengfx
+The project's home is http://dev.openttdcoop.org/projects/opengfx.
 
 OpenGFX provides you with...
 * all graphics you need to enjoy OpenTTD
@@ -30,7 +30,7 @@ OpenGFX provides you with...
 * different river and sea water
 * snow-aware buoys
 
-This version of OpenGFX requires OpenTTD 1.2.0 or newer. For older versions of OpenTTD or TTDPatch please use OpenGFX 0.4.1
+This version of OpenGFX requires OpenTTD 1.2.0 or newer. For older versions of OpenTTD or TTDPatch please use OpenGFX 0.4.1.
 
 ## 2.0 Downloading
 
@@ -38,9 +38,9 @@ OpenGFX is available from a few locations. This readme will only cover the offic
 
 We cannot support third party download locations and we cannot refund your money if you have paid money for OpenGFX.
 
-- If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD and OpenGFX and also OpenSFX.
+- If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD, OpenGFX and OpenSFX.
 - If you're new to OpenTTD, cannot use an installer and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not as difficult as it may sound, so don't worry too much about it.
-- If you already have OpenTTD up and running using the original TTD base graphics, installing OpenGFX using the Online  Content Service is the easy way to obtain OpenGFX.
+- If you already have OpenTTD up and running using the original TTD base graphics, installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
 
 ## 3.0 Installing
 
@@ -58,12 +58,10 @@ This method uses the [Online content service (BaNaNaS)](http://bananas.openttd.o
 ### 3.2 Manual Installation
 
 1. First, make sure that you downloaded and installed at least OpenTTD version 1.2.0 or later.
-
 2. Next, download the latest OpenGFX package. There are a few sources:
 - [the development homepage](http://bundles.openttdcoop.org/opengfx)
 - [official mirror](http://www.openttd.org/download-opengfx)
 - Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the "bananas" section: http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz
-
 3. Unpack the zip file into the OpenTTD's baseset directory (see [section 4.2 of the OpenTTD readme](https://github.com/OpenTTD/OpenTTD#42-openttd-directories) for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 The baseset directories are:
@@ -74,16 +72,15 @@ The baseset directories are:
 - Mac OSX: ~/Documents/OpenTTD/baseset
 - Linux:   ~/.openttd/baseset
 The `/baseset/` directory inside of the OpenTTD installation can also be used.
-
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend our sister project OpenSFX) and install it into the same directory as OpenGFX.
-
 5. In the main menu of the game, click the Game Options button. The Game Options dialog will appear.
-
 6. Select OpenGFX from the drop-down list below Base graphics set if that's not selected already (bottom left of window).  Close the window using the × in the upper left corner.
 - If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
 - If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
 
-Now that wasn't so hard, was it? Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report  on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues)
+Now that wasn't so hard, was it?
+
+Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues).
 
 ## 4.0 Reporting bugs and contributing
 
@@ -92,7 +89,7 @@ Now that wasn't so hard, was it? Anyway, if you're having trouble getting OpenGF
 If you spot any graphical bugs or glitches in the available graphics, please let us know preferrably via our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) or via the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162).
 Please make sure that you're using the latest available version before reporting a bug. You can check the [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) to see if the bug you've found is already reported (or fixed!).
 
-If you have made yourself improvements to either graphics or the source code itself, please also share that with us either via the [pull request page](https://github.com/OpenTTD/OpenGFX/pulls) or the [development discussion thread](http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0)
+If you have made yourself improvements to either graphics or the source code itself, please also share that with us either via the [pull request page](https://github.com/OpenTTD/OpenGFX/pulls) or the [development discussion thread](http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0).
 
 ### 4.2 Obtaining the source
 
