@@ -215,7 +215,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Phreeze           | N/A                   | Luxemburgean                                  |
 | Pekkape01         | N/A                   | Swedish                                       |
 | PaulC             | Paul Charlesworth     | N/A                                           |
-| orduge            | Owen Ridge            | N/A                                           |
+| orudge            | Owen Rudge            | N/A                                           |
 | oberheumer        | N/A                   | N/A                                           |
 | northstar2        | N/A                   | N/A                                           |
 | Mr. X             | N/A                   | N/A                                           |
