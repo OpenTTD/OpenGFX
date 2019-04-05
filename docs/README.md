@@ -83,15 +83,15 @@ The `/baseset/` directory inside of the OpenTTD installation can also be used.
 
 Now that wasn't so hard, was it?
 
-Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) on the http://dev.openttdcoop.org website.
+Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) on the http://dev.openttdcoop.org website.
 
 
 ## 4.0 Reporting bugs and contributing
 
 ### 4.1 Reporting bugs
 
-If you spot any graphical bugs or glitches in the available graphics, please let us know preferrably via our [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) or via the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162).
-Please make sure that you're using the latest available version before reporting a bug. You can check the [issue tracker](https://dev.openttdcoop.org/projects/opengfx/issues) to see if the bug you've found is already reported (or fixed!).
+If you spot any graphical bugs or glitches in the available graphics, please let us know preferrably via our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) or via the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162).
+Please make sure that you're using the latest available version before reporting a bug. You can check the [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) to see if the bug you've found is already reported (or fixed!).
 
 If you have made yourself improvements to either graphics or the source code itself, please also share that with us either via the [pull request page](https://github.com/OpenTTD/OpenGFX/pulls) or the [development discussion thread](http://www.tt-forums.net/viewtopic.php?f=26&t=38122&start=0).
 
@@ -179,90 +179,94 @@ Free Software Foundation, Inc.
 
 OpenGFX is created by the following people (in reverse alphabetical order):
 
-| Name              | Realname              | Translations                                  |
-| ----------------- | --------------------- | --------------------------------------------- |
-| Zuu               | Leif Linse            | Swedish                                       |
-| Zephyris          | Richard Wheeler       | N/A                                           |
-| zaza              | N/A                   | Hungarian                                     |
-| xiangyigao        | N/A                   | Chinese (simplified), Chinese (traditional)   |
-| Voyager1          | N/A                   | Croatian, Italian                             |
-| vesgo             | N/A                   | Portugese                                     |
-| Varviar           | N/A                   | N/A                                           |
-| V543000           | Vaclav Benc           | N/A                                           |
-| uzurpator         | N/A                   | N/A                                           |
-| UseYourIllusion   | N/A                   | Indonesian                                    |
-| Trond             | N/A                   | Norwegian (bokmal)                            |
-| Tenebrae          | N/A                   | Slovak                                        |
-| Telk              | N/A                   | Korean                                        |
-| telanus           | N/A                   | Afrikaans                                     |
-| TadeuszD          | N/A                   | Polish                                        |
-| Supercheese       | N/A                   | English (US) & Latin                          |
-| stravagante       | N/A                   | Serbian                                       |
-| Stabilitronas     | N/A                   | Lithuanian                                    |
-| Spaz O Mataz      | N/A                   | N/A                                           |
-| Soeb              | Stanislaw Gackowski   | N/A                                           |
-| Snail             | Jacopo Coletto        | N/A                                           |
-| skidd13           | Benedikt Brüggemeier  | N/A                                           |
-| siu238X           | N/A                   | Chinese (simplified), Chinese (traditional)   |
-| SilverSurveferZzZ | N/A                   | Spanish                                       |
-| Rubidium          | Remko Bijker          | N/A                                           |
-| Roujin            | Manuel Wolf           | N/A                                           |
-| Red*Star          | David Krebs           | N/A                                           |
-| Raumkraut         | Mel Collins           | N/A                                           |
-| Purno             | Mark Leppen           | N/A                                           |
-| planetmaker       | Ingo van Borstel      | German                                        |
-| PikkaBird         | David Dallaston       | N/A                                           |
-| Phreeze           | N/A                   | Luxemburgean                                  |
-| Pekkape01         | N/A                   | Swedish                                       |
-| PaulC             | Paul Charlesworth     | N/A                                           |
-| orudge            | Owen Rudge            | N/A                                           |
-| oberheumer        | N/A                   | N/A                                           |
-| northstar2        | N/A                   | N/A                                           |
-| Mr. X             | N/A                   | N/A                                           |
-| mph               | Matthew Haines        | N/A                                           |
-| molace            | Zoltán Molnár         | N/A                                           |
-| michi_cc          | Michael Lutz          | N/A                                           |
-| mb                | Michael Blunck        | N/A                                           |
-| mart3p            | N/A                   | N/A                                           |
-| LorzAzamath       | Johannes Maids Aasmäe | N/A                                           |
-| Leifbk            | N/A                   | Norwegian (bokmal)                            |
-| lead@inbox        | Serge Saphronov       | N/A                                           |
-| Lawton27          | Jack Lawton           | N/A                                           |
-| juzza1            | N/A                   | Finnish                                       |
-| juanjo            | N/A                   | Catalan                                       |
-| Jonha             | N/A                   | N/A                                           |
-| Irwe              | Alexander Irwe        | N/A                                           |
-| HawkEye1015       | N/A                   | Japanese                                      |
-| Gwyd              | N/A                   | N/A                                           |
-| GunChleoc         | N/A                   | Scotish Gaelic                                |
-| George            | N/A                   | Russian                                       |
-| Gen.Sniper        | N/A                   | N/A                                           |
-| frosch            | Christoph Elsenhans   | N/A                                           |
-| Froix             | N/A                   | N/A                                           |
-| Foobar            | Jasper Vries          | N/A                                           |
-| erikjanp          | N/A                   | N/A                                           |
-| EdorFaus          | Frode Austvik         | N/A                                           |
-| drginaldee        | N/A                   | N/A                                           |
-| DJ Nekkid         | Thomas Mjelva         | N/A                                           |
-| DanMacK           | Dan MacKellar         | N/A                                           |
-| Czeczki           | N/A                   | German                                        |
-| buttercup         | N/A                   | N/A                                           |
-| bubersson         | Petr Mikota           | N/A                                           |
-| Born Acorn        | Chris Jones           | N/A                                           |
-| Brumi             | N/A                   | N/A                                           |
-| Bilbo             | N/A                   | N/A                                           |
-| BenK              | N/A                   | N/A                                           |
-| Ben_Robbins_      | Ben Robbins           | N/A                                           |
-| athanasios        | Athanasios Palaiologos| N/A                                           |
-| Aswn              | N/A                   | Tamil                                         |
-| arikover          | N/A                   | French                                        |
-| andythenorth      | Andrew Parkhouse      | N/A                                           |
-| AndersI           | Anders Isaksson       | N/A                                           |
-| Ammler            | Marcel Gmür           | N/A                                           |
-| alluke            | N/A                   | Finnish                                       |
-| alfergen          | N/A                   | Czech                                         |
-| Alberth           | N/A                   | Dutch                                         |
-| 2006TTD           | Anthony Lam           | N/A                                           |
+| Name              | Realname              |
+| ----------------- | --------------------- |
+| Zuu               | Leif Linse            |
+| Zephyris          | Richard Wheeler       |
+| Varviar           | N/A                   |
+| V543000           | Vaclav Benc           |
+| uzurpator         | N/A                   |
+| Spaz O Mataz      | N/A                   |
+| Soeb              | Stanislaw Gackowski   |
+| Snail             | Jacopo Coletto        |
+| skidd13           | Benedikt Brüggemeier  |
+| Rubidium          | Remko Bijker          |
+| Roujin            | Manuel Wolf           |
+| Red*Star          | David Krebs           |
+| Raumkraut         | Mel Collins           |
+| Purno             | Mark Leppen           |
+| planetmaker       | Ingo van Borstel      |
+| PikkaBird         | David Dallaston       |
+| PaulC             | Paul Charlesworth     |
+| orduge            | Owen Ridge            |
+| oberheumer        | N/A                   |
+| northstar2        | N/A                   |
+| Mr. X             | N/A                   |
+| mph               | Matthew Haines        |
+| molace            | Zoltán Molnár         |
+| michi_cc          | Michael Lutz          |
+| mb                | Michael Blunck        |
+| mart3p            | N/A                   |
+| LordAzamath       | Johannes Maids Aasmäe |
+| lead@inbox        | Serge Saphronov       |
+| Lawton27          | Jack Lawton           |
+| Jonha             | N/A                   |
+| Irwe              | Alexander Irwe        |
+| Gwyd              | N/A                   |
+| George            | N/A                   |
+| Gen.Sniper        | N/A                   |
+| frosch            | Christoph Elsenhans   |
+| Froix             | N/A                   |
+| Foobar            | Jasper Vries          |
+| erikjanp          | N/A                   |
+| EdorFaus          | Frode Austvik         |
+| drginaldee        | N/A                   |
+| DJ Nekkid         | Thomas Mjelva         |
+| DanMacK           | Dan MacKellar         |
+| buttercup         | N/A                   |
+| bubersson         | Petr Mikota           |
+| Born Acorn        | Chris Jones           |
+| Brumi             | N/A                   |
+| Bilbo             | N/A                   |
+| BenK              | N/A                   |
+| Ben_Robbins_      | Ben Robbins           |
+| athanasios        | Athanasios Palaiologos|
+| andythenorth      | Andrew Parkhouse      |
+| AndersI           | Anders Isaksson       |
+| Ammler            | Marcel Gmür           |
+| 2006TTD           | Anthony Lam           |
+
+| Language              | Name                  |
+| --------------------- | --------------------- |
+| Afrikaans             | telanus               |
+| Catalan               | juanjo                |
+| Chinese (simpliefied) | sui238X, xiangyigao   |
+| Chinese (traditional) | sui238X, xiangyigao   |
+| Croatian              | Voyager1              |
+| Czech                 | alfergen              |
+| Dutch                 | Alberth               |
+| English (US)          | Supercheese           |
+| Finnish               | juzza1, alluke        |
+| French                | arikover              |
+| German                | planetmaker, Czeczki  |
+| Hungarian             | zaza, Czeczki         |
+| Indonesian            | UseYourIllusion       |
+| Italian               | Voyager1              |
+| Japanese              | HawkEye1015           |
+| Korean                | Telk                  |
+| Latin                 | Supercheese           |
+| Lithuanian            | Stabilitronas         |
+| Luxemburgean          | Phreeze               |
+| Norwegian (bokmal)    | Trond, Leifbk         |
+| Polish                | TadeuszD              |
+| Portuguese            | vesgo                 |
+| Russian               | George                |
+| Scotish Gaelic        | GunChleoc             |
+| Serbian               | stravagante           |
+| Slovak                | Tenebrae              |
+| Spanish               | SilverSurveferZzZ     |
+| Swedish               | Zuu, Pekkape01        |
+| Tamil                 | Aswn                  |
 
 * The monospaced characters are generated from the font Liberation Mono:
     https://www.redhat.com/promo/fonts/ created by Pravin Satpute and Caius Chance, released under GPL v2.
