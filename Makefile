@@ -160,22 +160,22 @@ include Makefile.vcs
 ifneq ($(HG),)
 
 # HG revision
-REPO_REVISION  = $(shell HGPLAIN= $(HG) id -n | cut -d+ -f1)
+REPO_REVISION  := $(shell HGPLAIN= $(HG) id -n | cut -d+ -f1)
 
 # HG Hash
-REPO_HASH      = $(shell HGPLAIN= $(HG) id -i | cut -d+ -f1)
+REPO_HASH      := $(shell HGPLAIN= $(HG) id -i | cut -d+ -f1)
 
 # HG Date
-REPO_DATE      = $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{date|shortdate}')
+REPO_DATE      := $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{date|shortdate}')
 
 # Whether there are local changes
-REPO_MODIFIED  = $(shell [ "`HGPLAIN= $(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+REPO_MODIFIED  := $(shell [ "`HGPLAIN= $(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
 
 # Branch name
-REPO_BRANCH    = $(shell HGPLAIN= $(HG) id -b)
+REPO_BRANCH    := $(shell HGPLAIN= $(HG) id -b)
 
 # Any tag which is not 'tip'
-REPO_TAGS      = $(shell HGPLAIN= $(HG) id -t | grep -v "tip")
+REPO_TAGS      := $(shell HGPLAIN= $(HG) id -t | grep -v "tip")
 
 # Makefile.vcs contains all the data depending on the version reported by HG.
 # It is renewed *before* processing any real targets, *only* if the version of the working copy changes.
