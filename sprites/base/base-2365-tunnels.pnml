@@ -56,15 +56,15 @@ base_graphics spr2420(2420, "sprites/png/infrastructure/infra06.png") { [ 642, 4
 base_graphics spr2421(2421, "sprites/png/infrastructure/roadtunnel.png") { tmpl_road_tunnels(249) }
 
 //2429-2436 tunnel gui
-base_graphics spr2429(2429, "sprites/png/gui/gui04.png") { [ 690,  232,  20,  20,   0,   0] } // road tunnel
+base_graphics spr2429(2429, "sprites/png/gui/road_tunnels_gui.png") { [ 0,  0,  20,  20,   0,   0] } // road tunnel
 base_graphics spr2430(2430, "sprites/png/gui/gui04.png") { [ 722,  232,  20,  20,   0,   0] } // rail tunnel
 base_graphics spr2431(2431, "sprites/png/gui/gui04.png") { [ 754,  232,  20,  20,   0,   0] } // monorail tunnel
 base_graphics spr2432(2432, "sprites/png/gui/gui04.png") { [   2,  280,  20,  20,   0,   0] } // maglev tunnel
-base_graphics spr2433(2433, "sprites/png/gui/gui04.png") { [  34,  280,  32,  32,   0,   0] }
+base_graphics spr2433(2433, "sprites/png/gui/road_tunnels_gui.png") { [  30,  0,  32,  32,   0,   0] }
 base_graphics spr2434(2434, "sprites/png/gui/gui04.png") { [  82,  280,  32,  32,   0,   0] }
 base_graphics spr2435(2435, "sprites/png/gui/gui04.png") { [ 130,  280,  32,  32,   0,   0] }
 base_graphics spr2436(2436, "sprites/png/gui/gui04.png") { [ 178,  280,  32,  32,   0,   0] }
-alternative_sprites (spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(722, 264) }
+alternative_sprites (spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/road_tunnels_gui.png") { tmpl_gui2x_toolbar(72, 0) }
 alternative_sprites (spr2430, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar(  2, 328) }
 alternative_sprites (spr2431, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 50, 328) }
 alternative_sprites (spr2432, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "sprites/png/gui/gui2x.png") { tmpl_gui2x_toolbar( 98, 328) }
