@@ -14,7 +14,7 @@
 	- 4.2 [Obtaining the source](#42-obtaining-the-source)
 	- 4.3 [Building OpenGFX](#43-building-opengfx)
 	- 4.4 [Notes for package maintainers](#44-notes-for-package-maintainers)
-	- 4.5 [Note on the xcf and psd files](#45-note-on-the-xfc-and-psd-files)
+	- 4.5 [Note on the xcf and psd files](#45-note-on-the-xcf-and-psd-files)
 - 5 [License](#5-license)
 - 6 [Credits](#6-credits)
 
@@ -45,7 +45,7 @@ OpenGFX is available from a few locations. This readme will only cover the offic
 
 We cannot support third party download locations and we cannot refund your money if you have paid money for OpenGFX.
 
-- If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD and OpenGFX and also OpenSFX.
+- If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD and OpenGFX. Optionally, also install OpenSFX and OpenMSX for sound effects and music, repectively.
 - If you're new to OpenTTD, cannot use an installer and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not as difficult as it may sound, so don't worry too much about it.
 - If you already have OpenTTD up and running using the original TTD base graphics, installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
 
@@ -66,12 +66,10 @@ This method uses the [Online content service (BaNaNaS)](https://bananas.openttd.
 
 ### 3.2 Manual installation
 1. First, make sure that you downloaded and installed at least OpenTTD version 1.2.0 or later.
-
 2. Next, download the latest OpenGFX package. There are a few sources:
    - [the development homepage](http://bundles.openttdcoop.org/opengfx)
    - [official mirror](http://www.openttd.org/download-opengfx)
    - Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the "bananas" section: `http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz`
-
 3. Unpack the zip file into the OpenTTD's baseset directory ([section 4.2 of the OpenTTD readme](https://github.com/OpenTTD/OpenTTD#42-openttd-directories) for a detailed treatise on all data dirs OpenTTD recognizes). There's no need to unpack the tar, so just leave it as it is.
    The baseset directories are:
    - Windows:
@@ -80,12 +78,9 @@ This method uses the [Online content service (BaNaNaS)](https://bananas.openttd.
      - C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7)
    - Mac OSX: ~/Documents/OpenTTD/baseset
    - Linux:   ~/.openttd/baseset
-   The `/baseset/` directory inside of the OpenTTD installation can also be used.
-
+   The `baseset` directory inside of the OpenTTD installation can also be used.
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend our sister project OpenSFX) and install it into the same directory as OpenGFX.
-
 5. In the main menu of the game, click the Game Options button. The Game Options dialog will appear.
-
 6. Select OpenGFX from the drop-down list below Base graphics set if that's not selected already (bottom left of window). Close the window using the × in the upper left corner.
    - If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
    - If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
@@ -111,9 +106,9 @@ Prerequisites to building OpenGFX:
 - [NML 0.4.2](http://bundles.openttdcoop.org/nml/) (default / development branch)
 - grfid from the [grfcodec package](http://www.openttd.org/download-grfcodec)
 - some gnu utils: `make`, `cat`, `sed`, `awk`, and you might additionally want a text editor of your choice and a graphics program suitable to handle palettes.
-- [git](https://git-scm.com) (only when not building from a tarball)
-Optionally, required to re-generated all graphics files from their layered source files after executing 'maintainer-clean':
-- [GIMP](https://www.gimp.org/downloads/) 2.4 or later
+Optional:
+- [git](https://git-scm.com) (required when not building from a tarball)
+- [GIMP](https://www.gimp.org/downloads/) 2.4 or later (required to re-generated all graphics files)
 
 On Windows: we advise you get a MinGW development environment, NML and git from the sources mentioned above). For more detailed instructions see our guide on the [wiki](http://dev.openttdcoop.org/projects/home/wiki) and the very extensive and detailed installation instructions on the [MinGW wiki](http://www.mingw.org/wiki/Getting_Started)
 
@@ -122,7 +117,7 @@ On Linux: your system should already have most tools, you'll probably only need 
 On Mac: Install the developers tools and get NML from the source mentioned above.
 On OSX GIMP is not found in the path, if you installed the app package as supplied from the GIMP's project page. You can add that to your search path if you link the binary:
 `sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp`
-It requires the X-enironment to be running.
+It requires the X-environment to be running.
 
 Once all tools are installed, get a checkout of the repository and you can build OpenGFX using make. The following targets are available:
 - `all`: builds all grfs and the obg file
@@ -145,7 +140,7 @@ Given the usual case that you modify something within OpenGFX and want to test t
 
 
 ### 4.5 Note on the xcf and psd files
-The repository contains a few xcf2png files which indicate which png files can be generated from the source xcf or psd files. This will only be used, if GIMP is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a xcf or psd file.
+The repository contains a few xcf2png files which indicate which png files can be generated from the source xcf or psd files. This will only be used, if GIMP is found. Calling `make maintainer-clean` will delete the png files which can be re-generated from a xcf or psd file.
 
 
 
@@ -242,15 +237,15 @@ Translations:
 * Korean:                     Telk
 * Latin:                      Supercheese
 * Lithuanian:                 Stabilitronas
-* Luxemburgean:               Phreeze
+* Luxembourgish:              Phreeze
 * Norwegian (bokmal):         Trond, Leifbk
 * Polish:                     TadeuszD
 * Portuguese:                 vesgo
 * Russian:                    George
-* Scotish Gaelic:             GunChleoc
+* Scottish Gaelic:            GunChleoc
 * Serbian:                    stravagante
 * Slovak:                     Tenebrae
-* Spanish:                    SilverSurveferZzZ
+* Spanish:                    SilverSurferZzZ
 * Swedish:                    Zuu, Pekkape01
 * Tamil:                      Aswn
 
