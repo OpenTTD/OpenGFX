@@ -99,7 +99,7 @@ AWK            ?= awk
 GREP           ?= grep
 PYTHON         ?= python
 UNIX2DOS       ?= $(shell which unix2dos)
-UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
+UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version >/dev/null && echo "-q" || echo "")
 
 # Graphics processing
 GIMP           ?= gimp
@@ -357,13 +357,9 @@ maintainer-clean::
 
 doc: $(DOC_FILES)
 
-%.txt: %.ptxt Makefile.vcs
+docs/readme.txt: docs/README.md scripts/readme.sed Makefile.vcs
 	$(_E) "[DOC] $@"
-	$(_V) cat $< \
-		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
-		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
-		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
-		> $@
+	$(_V) sed -E -f scripts/readme.sed < $< > $@
 ifeq ($(UNIX2DOS),)
 	$(_E) Warning: unix2dos not available. $@ keeps current eol style.
 else
