@@ -159,16 +159,16 @@ include Makefile.vcs
 ifneq ($(GIT),)
 
 # Hash
-REPO_HASH      ?= $(shell $(GIT) rev-parse HEAD)
+REPO_HASH      := $(shell $(GIT) rev-parse HEAD)
 
 # Date
-REPO_DATE      ?= $(shell $(GIT) show -s --format="%ci" | cut -f1 -d" ")
+REPO_DATE      := $(shell $(GIT) show -s --format="%ci" | cut -f1 -d" ")
 
 # Version = Most recent tag, optionally followed by the number of commits since, current commit and dirty or broken indicators.
-REPO_VERSION   ?= $(shell $(GIT) describe --tags --dirty --broken)
+REPO_VERSION   := $(shell $(GIT) describe --tags --dirty --broken)
 
 # Branch name
-REPO_BRANCH    ?= $(shell $(GIT) rev-parse --abbrev-ref HEAD)
+REPO_BRANCH    := $(shell $(GIT) rev-parse --abbrev-ref HEAD)
 
 # Makefile.vcs contains all the data depending on the version reported by GIT.
 # It is renewed *before* processing any real targets, *only* if the version of the working copy changes.
@@ -177,26 +177,26 @@ REPO_BRANCH    ?= $(shell $(GIT) rev-parse --abbrev-ref HEAD)
 #
 Makefile.vcs: FORCE
 	$(_E) "[VCS] $@"
-	$(_V) echo "REPO_HASH      ?= $(REPO_HASH)" >> $@.new
-	$(_V) echo "REPO_DATE      ?= $(REPO_DATE)" >> $@.new
-	$(_V) echo "REPO_VERSION   ?= $(REPO_VERSION)" >> $@.new
-	$(_V) echo "REPO_BRANCH    ?= $(REPO_BRANCH)" >> $@.new
+	$(_V) echo "REPO_HASH      = $(REPO_HASH)" >> $@.new
+	$(_V) echo "REPO_DATE      = $(REPO_DATE)" >> $@.new
+	$(_V) echo "REPO_VERSION   = $(REPO_VERSION)" >> $@.new
+	$(_V) echo "REPO_BRANCH    = $(REPO_BRANCH)" >> $@.new
 	$(_V) cmp -s $@.new $@ || cp $@.new $@
 	$(_V) -rm -f $@.new
 
 endif
 
 # Days of commit since 2000-1-1 00-00
-REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print( (date(`echo "${REPO_DATE}" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days)")
+REPO_DAYS_SINCE_2000 := $(shell $(PYTHON) -c "from datetime import date; print( (date(`echo "${REPO_DATE}" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days)")
 
 # Filename addition, if we're not building the default branch
-REPO_BRANCH_STRING ?= $(filter-out $(DEFAULT_BRANCH_NAME)-, $(REPO_BRANCH)-)
+REPO_BRANCH_STRING := $(filter-out $(DEFAULT_BRANCH_NAME)-, $(REPO_BRANCH)-)
 
 # The version reported to OpenTTD. Usually days since 2000 + branch offset
-NEWGRF_VERSION ?= $(shell let x="$(REPO_DAYS_SINCE_2000) + 65536 * $(REPO_BRANCH_VERSION)"; echo "$$x")
+NEWGRF_VERSION := $(shell let x="$(REPO_DAYS_SINCE_2000) + 65536 * $(REPO_BRANCH_VERSION)"; echo "$$x")
 
 # The title consists of name and version
-REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION)
+REPO_TITLE     := $(REPO_NAME) $(REPO_VERSION)
 
 distclean:: clean
 maintainer-clean:: distclean
