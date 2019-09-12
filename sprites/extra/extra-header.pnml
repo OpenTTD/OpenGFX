@@ -2,7 +2,7 @@ grf {
 	grfid: "\FFOT\01";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: REPO_REVISION;
+	version: NEWGRF_VERSION;
 	min_compatible_version: 878;
 }
 

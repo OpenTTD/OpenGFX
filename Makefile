@@ -50,7 +50,6 @@ BANANAS_INI            ?= bananas.ini
 # (unless you know where to add them in other places, too)
 REPLACE_TITLE       := {{REPO_TITLE}}
 REPLACE_GRFID       := {{GRF_ID}}
-REPLACE_REVISION    := {{REPO_REVISION}}
 REPLACE_FILENAME    := {{FILENAME}}
 
 # target 'all' must be first target
@@ -91,8 +90,8 @@ MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
 # Version control system
-HG                  ?= hg
-DEFAULT_BRANCH_NAME ?= default
+GIT                 ?= git
+DEFAULT_BRANCH_NAME ?= master
 HG_ARCHIVE_FLAGS    ?= -X .hgtags -X .hgignore -X .devzone -X scripts/make_changelog.sh
 
 # Text processing and scripting
@@ -157,39 +156,31 @@ _E ?= @echo
 
 include Makefile.vcs
 
-ifneq ($(HG),)
+ifneq ($(GIT),)
 
-# HG revision
-REPO_REVISION  = $(shell HGPLAIN= $(HG) id -n | cut -d+ -f1)
+# Hash
+REPO_HASH      ?= $(shell $(GIT) rev-parse HEAD)
 
-# HG Hash
-REPO_HASH      = $(shell HGPLAIN= $(HG) id -i | cut -d+ -f1)
+# Date
+REPO_DATE      ?= $(shell $(GIT) show -s --format="%ci" | cut -f1 -d" ")
 
-# HG Date
-REPO_DATE      = $(shell HGPLAIN= $(HG) log -r$(REPO_HASH) --template='{date|shortdate}')
-
-# Whether there are local changes
-REPO_MODIFIED  = $(shell [ "`HGPLAIN= $(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
+# Version = Most recent tag, optionally followed by the number of commits since, current commit and dirty or broken indicators.
+REPO_VERSION   ?= $(shell $(GIT) describe --tags --dirty --broken)
 
 # Branch name
-REPO_BRANCH    = $(shell HGPLAIN= $(HG) id -b)
+REPO_BRANCH    ?= $(shell $(GIT) rev-parse --abbrev-ref HEAD)
 
-# Any tag which is not 'tip'
-REPO_TAGS      = $(shell HGPLAIN= $(HG) id -t | grep -v "tip")
-
-# Makefile.vcs contains all the data depending on the version reported by HG.
+# Makefile.vcs contains all the data depending on the version reported by GIT.
 # It is renewed *before* processing any real targets, *only* if the version of the working copy changes.
 #
 # Everything that uses the version strings (to compile them into some file), should have Makefile.vcs as prerequisite.
 #
 Makefile.vcs: FORCE
 	$(_E) "[VCS] $@"
-	$(_V) echo "REPO_REVISION  ?= $(REPO_REVISION)" > $@.new
 	$(_V) echo "REPO_HASH      ?= $(REPO_HASH)" >> $@.new
 	$(_V) echo "REPO_DATE      ?= $(REPO_DATE)" >> $@.new
-	$(_V) echo "REPO_MODIFIED  ?= $(REPO_MODIFIED)" >> $@.new
+	$(_V) echo "REPO_VERSION   ?= $(REPO_VERSION)" >> $@.new
 	$(_V) echo "REPO_BRANCH    ?= $(REPO_BRANCH)" >> $@.new
-	$(_V) echo "REPO_TAGS      ?= $(REPO_TAGS)" >> $@.new
 	$(_V) cmp -s $@.new $@ || cp $@.new $@
 	$(_V) -rm -f $@.new
 
@@ -199,16 +190,13 @@ endif
 REPO_DAYS_SINCE_2000 ?= $(shell $(PYTHON) -c "from datetime import date; print( (date(`echo "${REPO_DATE}" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days)")
 
 # Filename addition, if we're not building the default branch
-REPO_BRANCH_STRING ?= $(shell if [ "$(REPO_BRANCH)" = "$(DEFAULT_BRANCH_NAME)" ]; then echo ""; else echo "-$(REPO_BRANCH)"; fi)
+REPO_BRANCH_STRING ?= $(filter-out $(DEFAULT_BRANCH_NAME)-, $(REPO_BRANCH)-)
 
 # The version reported to OpenTTD. Usually days since 2000 + branch offset
 NEWGRF_VERSION ?= $(shell let x="$(REPO_DAYS_SINCE_2000) + 65536 * $(REPO_BRANCH_VERSION)"; echo "$$x")
 
-# The shown version is either a tag, or in the absence of a tag the revision.
-REPO_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_DATE)$(REPO_BRANCH_STRING) \($(NEWGRF_VERSION):$(REPO_HASH)$(REPO_MODIFIED)\))
-
 # The title consists of name and version
-REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION_STRING)
+REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION)
 
 distclean:: clean
 maintainer-clean:: distclean
@@ -226,7 +214,7 @@ nml: $(NML_FILES)
 
 %.nml: %.pnml Makefile.vcs
 	$(_E) "[CPP] $@"
-	$(_V) $(CC) -D REPO_REVISION=$(NEWGRF_VERSION) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -MMD -MF $@.dep -MT $@ -o $@ $<
+	$(_V) $(CC) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -MMD -MF $@.dep -MT $@ -o $@ $<
 
 clean::
 	$(_E) "[CLEAN NML]"
@@ -316,8 +304,8 @@ grf: $(GFX_FILES) $(GRF_FILES)
 
 custom_tags.txt: Makefile.vcs
 	$(_E) "[LNG] $@"
-	$(_V) echo "VERSION        :$(REPO_VERSION_STRING)" > $@
-	$(_V) echo "VERSION_STRING :$(REPO_VERSION_STRING)" >> $@
+	$(_V) echo "VERSION        :$(REPO_VERSION)" > $@
+	$(_V) echo "VERSION_STRING :$(REPO_VERSION)" >> $@
 	$(_V) echo "TITLE          :$(REPO_TITLE)" >> $@
 	$(_V) echo "FILENAME       :$(GRF_FILES)" >> $@
 	$(_V) echo "REPO_DATE      :$(REPO_DATE)" >> $@
@@ -374,7 +362,6 @@ doc: $(DOC_FILES)
 	$(_V) cat $< \
 		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
 		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
-		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
 		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
 		> $@
 ifeq ($(UNIX2DOS),)
@@ -436,7 +423,7 @@ endif
 #
 ################################################################
 
-FILE_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo "$(REPO_TAGS)$(REPO_MODIFIED)" || echo "$(REPO_BRANCH_STRING)v$(NEWGRF_VERSION)$(REPO_MODIFIED)")
+FILE_VERSION_STRING := $(REPO_BRANCH_STRING)$(REPO_VERSION)
 DIR_NAME           := $(PROJECT_FILENAME)-$(FILE_VERSION_STRING)
 TAR_FILENAME       := $(DIR_NAME).tar
 
