@@ -100,7 +100,7 @@ AWK            ?= awk
 GREP           ?= grep
 PYTHON         ?= python
 UNIX2DOS       ?= $(shell which unix2dos)
-UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
+UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version >/dev/null 2>&1 && echo "-q" || echo "")
 
 # Graphics processing
 GIMP           ?= gimp
