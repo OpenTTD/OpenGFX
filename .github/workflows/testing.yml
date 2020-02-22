@@ -35,4 +35,4 @@ jobs:
         # This generates warnings. To work around that, generate these files
         # first for now.
         make Makefile.vcs Makefile.gfx
-        make
+        make bundle_tar bundle_src

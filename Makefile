@@ -92,7 +92,6 @@ MAKE_FLAGS     ?= -r
 # Version control system
 GIT                 ?= git
 DEFAULT_BRANCH_NAME ?= master
-HG_ARCHIVE_FLAGS    ?= -X .hgtags -X .hgignore -X .devzone -X scripts/make_changelog.sh
 
 # Text processing and scripting
 AWK            ?= awk
@@ -539,7 +538,7 @@ check: $(MD5_FILENAME)
 #
 ################################################################
 
-ifneq ($(HG),)
+ifneq ($(GIT),)
 
 DIR_NAME_SRC       := $(DIR_NAME)-source
 TAR_FILENAME_SRC   := $(DIR_NAME_SRC).tar
@@ -555,10 +554,11 @@ ifneq ($(REPO_MODIFIED),)
 else
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
-	$(_V) HGPLAIN= $(HG) archive $(HG_ARCHIVE_FLAGS) $@
+	$(_V) $(GIT) archive --format=tar HEAD | tar xf - -C $@/
+	$(_V) rm -rf $@/.git $@/.gitignore $@/.devzone $@/.github $@/scripts/make_changelog.sh
 	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) Makefile.vcs $@
 	$(_V) echo "# Disable VCS version detection" > $@/Makefile.dist
-	$(_V) echo "HG =" >> $@/Makefile.dist
+	$(_V) echo "GIT =" >> $@/Makefile.dist
 endif
 
 $(TAR_FILENAME_SRC): $(DIR_NAME_SRC)
@@ -697,7 +697,7 @@ endif
 	$(_E) "bundle_gzip: Build the distritubion bundle and compress with gzip ($(DIR_NAME).tar.gz)"
 	$(_E) "bundle_bzip: Build the distribution bundle and compress with bzip2 ($(DIR_NAME).tar.bz2)"
 	$(_E)
-ifneq ($(HG),)
+ifneq ($(GIT),)
 	$(_E) "bundle_src:  Build the source bundle as tar archive for distribution"
 	$(_E) "bundle_bsrc: Build the source bundle as tar archive compressed with bzip2"
 	$(_E) "bundle_gsrc: Build the source bundle as tar archive compressed with gzip"
