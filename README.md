@@ -1,20 +1,20 @@
 # OpenGFX - 8bpp Graphics Base Set for [OpenTTD](https://www.openttd.org)
 
 ## Table of contents
+
 - 1.0 [About](#10-about)
 - 2.0 [Downloading](#20-downloading)
 - 3.0 [Installing](#30-installing)
-    - 3.1 [Installation or update via Online Content service](#31-installation-or-update-via-online-content-service)
-    - 3.2 [Manual Installation](#32-manual-installation)
+  - 3.1 [Installation or update via Online Content service](#31-installation-or-update-via-online-content-service)
+  - 3.2 [Manual Installation](#32-manual-installation)
 - 4.0 [Reporting bugs and Contributing](#40-reporting-bugs-and-contributing)
-    - 4.1 [Reporting bugs](#41-reporting-bugs)
-    - 4.2 [Obtaining the source](#42-obtaining-the-source)
-    - 4.3 [Building OpenGFX](#43-building-opengfx)
-    - 4.4 [Notes for package maintainers](#44-notes-for-package-maintainers)
-    - 4.5 [Note on the xcf and psd files](#45-note-on-the-xcf-and-psd-files)
+  - 4.1 [Reporting bugs](#41-reporting-bugs)
+  - 4.2 [Obtaining the source](#42-obtaining-the-source)
+  - 4.3 [Building OpenGFX](#43-building-opengfx)
+  - 4.4 [Notes for package maintainers](#44-notes-for-package-maintainers)
+  - 4.5 [Note on the xcf and psd files](#45-note-on-the-xcf-and-psd-files)
 - 5.0 [License](#50-license)
 - 6.0 [Credits](#60-credits)
-
 
 ## 1.0 About
 
@@ -22,17 +22,17 @@ OpenGFX is an open source graphics base set designed to be used by [OpenTTD](htt
 
 OpenGFX provides a set of free and open source base graphics, and aims to ensure the best possible out-of-the-box experience with OpenTTD.
 
-The project's home is http://dev.openttdcoop.org/projects/opengfx.
+The project's home is https://github.com/OpenTTD/OpenGFX.
 
 OpenGFX provides you with...
-* all graphics you need to enjoy OpenTTD
-* uniquely drawn rail vehicles for every climate
-* completely snow-aware rivers
-* different river and sea water
-* snow-aware buoys
+
+- all graphics you need to enjoy OpenTTD
+- uniquely drawn rail vehicles for every climate
+- completely snow-aware rivers
+- different river and sea water
+- snow-aware buoys
 
 This version of OpenGFX requires OpenTTD 1.2.0 or newer. For older versions of OpenTTD or TTDPatch please use OpenGFX 0.4.1.
-
 
 ## 2.0 Downloading
 
@@ -43,7 +43,6 @@ We cannot support third party download locations and we cannot refund your money
 - If you're new to OpenTTD, the easiest way is to use the installer (Windows) or your package manager (Linux) and install OpenTTD, OpenGFX and OpenSFX.
 - If you're new to OpenTTD, cannot use an installer and don't have access to the original TTD files, you'll have to follow the manual installation procedure. This is really not as difficult as it may sound, so don't worry too much about it.
 - If you already have OpenTTD up and running using the original TTD base graphics, installing OpenGFX using the Online Content Service is the easy way to obtain OpenGFX.
-
 
 ## 3.0 Installing
 
@@ -62,29 +61,27 @@ This method uses the [Online content service (BaNaNaS)](http://bananas.openttd.o
 
 1. First, make sure that you downloaded and installed at least OpenTTD version 1.2.0 or later.
 2. Next, download the latest OpenGFX package. There are a few sources:
-- [the development homepage](http://bundles.openttdcoop.org/opengfx)
-- [official mirror](http://www.openttd.org/download-opengfx)
-- Look for "OpenGFX" on one of the OpenTTD binaries servers, it is found in the "bananas" section: http://binaries.openttd.org/bananas/OpenGFX-<version>.tar.gz
+   - [official](https://www.openttd.org/downloads/opengfx-releases/latest.html)
+   - [archive](https://cdn.openttd.org/opengfx-releases/)
 3. Unpack the zip file into the OpenTTD's baseset directory (see [section 4.2 of the OpenTTD readme](https://github.com/OpenTTD/OpenTTD#42-openttd-directories) for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 The baseset directories are:
-- Windows:
-    - C:\My Documents\OpenTTD\baseset (95, 98, ME)
-    - C:\Documents and Settings\<username>\My Documents\OpenTTD\baseset (2000, XP)
-    - C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7, 8, 10)
-- Mac OSX: ~/Documents/OpenTTD/baseset
-- Linux:   ~/.openttd/baseset
+   - Windows:
+     - C:\My Documents\OpenTTD\baseset (95, 98, ME)
+     - C:\Documents and Settings\<username>\My Documents\OpenTTD\baseset (2000, XP)
+     - C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7, 8, 10)
+   - Mac OSX: ~/Documents/OpenTTD/baseset
+   - Linux: ~/.openttd/baseset
 The `/baseset/` directory inside of the OpenTTD installation can also be used.
 4. Run OpenTTD. Chances are that you'll miss a sound set. Get one (we recommend our sister project OpenSFX) and install it into the same directory as OpenGFX.
 5. In the main menu of the game, click the Game Options button. The Game Options dialog will appear.
 6. Select OpenGFX from the drop-down list below Base graphics set if that's not selected already (bottom left of window). Close the window using the × in the upper left corner.
-- If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
-- If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
+   - If you did not install the original TTD base graphics during the installation of OpenTTD, you can skip this step.
+   - If you installed the original TTD base graphics as well, this is where you can switch base graphic sets.
 
 Now that wasn't so hard, was it?
 
-Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues) on the http://dev.openttdcoop.org website.
-
+Anyway, if you're having trouble getting OpenGFX to work, please file a detailed report on what you did, what error messages you got and where you got stuck in the OpenGFX release topic on the [TT-Forums](http://www.tt-forums.net/viewtopic.php?f=36&t=40162) or (preferably) at our [issue tracker](https://github.com/OpenTTD/OpenGFX/issues).
 
 ## 4.0 Reporting bugs and contributing
 
@@ -97,39 +94,42 @@ If you have made yourself improvements to either graphics or the source code its
 
 ### 4.2 Obtaining the source
 
-The OpenGFX source is available in a Mercurial repository or as gzip'ed tarball. You can do an anonymous checkout from http://hg.openttdcoop.org/opengfx, e.g. using `hg clone http://hg.openttdcoop.org/opengfx` or obtain the tarball from the [release page](https://github.com/OpenTTD/OpenGFX/releases).
+The OpenGFX source is available in a git repository or as gzip'ed tarball. You can do an anonymous checkout from https://github.com/OpenTTD/OpenGFX, e.g. using `git clone https://github.com/OpenTTD/OpenGFX` or obtain the tarball from the [release page](https://github.com/OpenTTD/OpenGFX/releases).
 
 ### 4.3 Building OpenGFX
 
 Prerequisites to building OpenGFX:
+
 - gcc (the pre-processor is needed)
-- [NML 0.4.2](http://bundles.openttdcoop.org/nml/) (default / development branch)
+- [NML 0.5+](https://github.com/OpenTTD/nml)
 - grfid from the [grfcodec package](http://www.openttd.org/download-grfcodec)
 - some gnu utils: `make`, `cat`, `sed`, `awk` and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes.
-- [Mercurial](http://mercurial.selenic.com/wiki/Download?action=show&redirect=BinaryPackages) (only when not building from a tarball)
 
 Optionally, required to re-generated all graphics files from their layered source files after executing `maintainer-clean`:
+
 - [GIMP 2.4](https://www.gimp.org/downloads/) or later
 
+#### Windows
 
-##### Windows
-We advise you get a MinGW development environment, NML and Mercurial from the sources mentioned above. For more detailed instructions see our guide on the [wiki](http://dev.openttdcoop.org/projects/home/wiki) and the very extensive and detailed installation instructions on the [MinGW wiki](http://www.mingw.org/wiki/Getting_Started).
+We advise you get a MinGW development environment, NML and git from the sources mentioned above. For more detailed instructions see our guide on the [wiki](http://dev.openttdcoop.org/projects/home/wiki) and the very extensive and detailed installation instructions on the [MinGW wiki](http://www.mingw.org/wiki/Getting_Started).
 
-##### Linux
-Your system should already have most tools, you'll probably only need NML and Mercurial available from the source mentioned above. For installation instructions concerning Mercurial refer to the manual of your distribution.
+#### Linux
 
-##### Mac
-Install the developers tools and get NML from the source mentioned above. Mercurial is easiest installed via MacPorts:
-> sudo port install mercurial
+Your system should already have most tools, you'll probably only need NML and git available from the source mentioned above. For installation instructions concerning git refer to the manual of your distribution.
+
+#### Mac
+
+Install the developers tools and get NML from the source mentioned above. git is easiest installed via MacPorts:
+`sudo port install git`
 
 On OSX GIMP is not found in the path, if you installed the app package as supplied from the GIMP's project page. You can add that to your search path if you link the binary which requires the X-environment to be running:
-> sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp
+`sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp`
 
-The use of Mercurial is strongly encouraged as only that allows to keep track of
+The use of git is strongly encouraged as only that allows to keep track of
 changes.
 
-
 Once all tools are installed, get a checkout of the repository and you can build OpenGFX using make. The following targets are available:
+
 - `all`: builds all grfs and the obg file
 - `install`: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path.
 - `clean`: cleans all generated files
@@ -153,7 +153,6 @@ Given the usual case that you modify something within OpenGFX and want to test t
 
 The repository contains a few `.xcf2png` files which indicate which png files can be generated from the source `.xcf` or `.psd` files. This will only be used, if GIMP is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a `.xcf` or `.psd` file.
 
-
 ## 5.0 License
 
 OpenGFX Graphics Base Set for OpenTTD
@@ -173,7 +172,6 @@ this program; if not, write to the
 
 Free Software Foundation, Inc.
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
 
 ## 6.0 Credits
 
@@ -268,12 +266,8 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Swedish               | Zuu, Pekkape01        |
 | Tamil                 | Aswn                  |
 
-* The monospaced characters are generated from the font Liberation Mono:
-    https://www.redhat.com/promo/fonts/ created by Pravin Satpute and Caius Chance, released under GPL v2.
-
+- The monospaced characters are generated from the font Liberation Mono: https://www.redhat.com/promo/fonts/ created by Pravin Satpute and Caius Chance, released under GPL v2.
 
 Contact: `planetmaker@openttd.org` or on `irc.oftc.net/#openttd`
 
 A detailed list of who worked on what is available in the file [docs/authoroverview.csv](https://github.com/OpenTTD/OpenGFX/blob/master/docs/authoroverview.csv) in the source repository.
-
-Thanks go out to the guys at #openttdcoop for providing the source repository and bug tracking services.
