@@ -5,7 +5,6 @@ Makefile.local
 Makefile.vcs
 Makefile.gfx
 .version
-parsetab.py
 custom_tags.txt
 docs/readme.txt
 .nmlcache
