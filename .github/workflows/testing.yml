@@ -1,0 +1,38 @@
+name: Testing
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+
+jobs:
+  build:
+    name: Build OpenGFX
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Checkout tags
+      uses: openttd/actions/checkout@v1
+      with:
+        with-tags: true
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        sudo apt install -y gimp grfcodec --no-install-recommends
+        python -m pip install --upgrade pip
+        # TODO -- If nml has a new release (higher than 0.4.5), this can just be 'pip install nml'
+        python -m pip install https://github.com/OpenTTD/nml/archive/master.zip
+    - name: Build
+      run: |
+        # Current Makefile first includes these files before generating them.
+        # This generates warnings. To work around that, generate these files
+        # first for now.
+        make Makefile.vcs Makefile.gfx
+        make
