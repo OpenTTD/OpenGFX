@@ -68,7 +68,7 @@ This method uses the [Online content service (BaNaNaS)](http://bananas.openttd.o
 3. Unpack the zip file into the OpenTTD's baseset directory (see [section 4.2 of the OpenTTD readme](https://github.com/OpenTTD/OpenTTD#42-openttd-directories) for a detailed treatise on all data dirs OpenTTD recognizes).
 There's no need to unpack the tar, so just leave it as it is.
 The baseset directories are:
-- Windows:  
+- Windows:
     - C:\My Documents\OpenTTD\baseset (95, 98, ME)
     - C:\Documents and Settings\<username>\My Documents\OpenTTD\baseset (2000, XP)
     - C:\Users\<username>\Documents\OpenTTD\baseset (Vista, 7, 8, 10)
