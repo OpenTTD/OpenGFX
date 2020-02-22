@@ -301,8 +301,9 @@ endif
 
 grf: $(GFX_FILES) $(GRF_FILES)
 
+# custom_tags.txt is used by NML to replace variables in LNG_FILES
 custom_tags.txt: Makefile.vcs
-	$(_E) "[LNG] $@"
+	$(_E) "[NML-LNG] $@"
 	$(_V) echo "VERSION        :$(REPO_VERSION)" > $@
 	$(_V) echo "VERSION_STRING :$(REPO_VERSION)" >> $@
 	$(_V) echo "TITLE          :$(REPO_TITLE)" >> $@
@@ -338,7 +339,6 @@ clean::
 	$(_V)-rm -rf $(GRF_FILES)
 	$(_V)-rm -rf $(GRF_FILES).cache
 	$(_V)-rm -rf $(GRF_FILES).cacheindex
-	$(_V)-rm -rf parsetab.py
 	$(_V)-rm -rf .nmlcache
 
 maintainer-clean::
