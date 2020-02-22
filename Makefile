@@ -65,7 +65,7 @@ all: bundle_tar
 .PHONY: all clean distclean
 .PHONY: bananas doc gfx grf lng nml obg
 .PHONY: bundle     bundle_tar bundle_bzip bundle_gzip bundle_xz   bundle_zip
-.PHONY: bundle_src check      bundle_bsrc bundle_gsrc bundle_xsrc bundle_zsrc 
+.PHONY: bundle_src check      bundle_bsrc bundle_gsrc bundle_xsrc bundle_zsrc
 
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
@@ -125,7 +125,7 @@ GRFID          ?= grfid
 GRFID_FLAGS    ?= -m
 MUSA           ?= musa.py
 # The license is set via bananas.ini, do not supply a "custom" license.
-MUSA_FLAGS     ?= -x license.txt
+MUSA_FLAGS     ?= -x LICENSE
 
 # Bundle
 TAR            ?= tar
