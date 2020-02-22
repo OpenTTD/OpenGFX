@@ -181,8 +181,8 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | ----------------- | --------------------- |
 | Zuu               | Leif Linse            |
 | Zephyris          | Richard Wheeler       |
-| Varviar           | N/A                   |
-| V543000           | Vaclav Benc           |
+| Varivar           | N/A                   |
+| V453000           | Vaclav Benc           |
 | uzurpator         | N/A                   |
 | Spaz O Mataz      | N/A                   |
 | Soeb              | Stanislaw Gackowski   |
@@ -193,10 +193,10 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Red*Star          | David Krebs           |
 | Raumkraut         | Mel Collins           |
 | Purno             | Mark Leppen           |
-| planetmaker       | Ingo van Borstel      |
+| planetmaker       | Ingo von Borstel      |
 | PikkaBird         | David Dallaston       |
 | PaulC             | Paul Charlesworth     |
-| orduge            | Owen Ridge            |
+| orudge            | Owen Rudge            |
 | oberheumer        | N/A                   |
 | northstar2        | N/A                   |
 | Mr. X             | N/A                   |
@@ -238,7 +238,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | --------------------- | --------------------- |
 | Afrikaans             | telanus               |
 | Catalan               | juanjo                |
-| Chinese (simpliefied) | sui238X, xiangyigao   |
+| Chinese (simplified)  | sui238X, xiangyigao   |
 | Chinese (traditional) | sui238X, xiangyigao   |
 | Croatian              | Voyager1              |
 | Czech                 | alfergen              |
@@ -254,15 +254,15 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Korean                | Telk                  |
 | Latin                 | Supercheese           |
 | Lithuanian            | Stabilitronas         |
-| Luxemburgean          | Phreeze               |
+| Luxembourgish         | Phreeze               |
 | Norwegian (bokmal)    | Trond, Leifbk         |
 | Polish                | TadeuszD              |
 | Portuguese            | vesgo                 |
 | Russian               | George                |
-| Scotish Gaelic        | GunChleoc             |
+| Scottish Gaelic       | GunChleoc             |
 | Serbian               | stravagante           |
 | Slovak                | Tenebrae              |
-| Spanish               | SilverSurveferZzZ     |
+| Spanish               | SilverSurferZzZ       |
 | Swedish               | Zuu, Pekkape01        |
 | Tamil                 | Aswn                  |
 
