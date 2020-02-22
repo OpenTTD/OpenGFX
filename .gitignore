@@ -20,18 +20,3 @@ docs/readme.txt
 
 # Ignore directories from bundle creation / install:
 opengfx-*
-
-# Ignore frequent development left-overs like
-# editor backups, patches, rejects etc. pp
-*.orig
-*.bak
-*.log
-*.rej
-*.diff
-
-# Files created by Mac image preview and file browser:
-.DS_Store
-Thumbs.db
-
-archive/**
-gimp-data/**
