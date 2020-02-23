@@ -25,14 +25,15 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
+        set -e
+
         sudo apt install -y gimp grfcodec --no-install-recommends
         python -m pip install --upgrade pip
         # TODO -- If nml has a new release (higher than 0.4.5), this can just be 'pip install nml'
         python -m pip install https://github.com/OpenTTD/nml/archive/master.zip
     - name: Build
       run: |
-        # Current Makefile first includes these files before generating them.
-        # This generates warnings. To work around that, generate these files
-        # first for now.
-        make Makefile.vcs Makefile.gfx
+        set -e
+
+        make maintainer-clean
         make bundle_tar bundle_src
