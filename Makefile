@@ -60,7 +60,7 @@ all: bundle_tar
 # general definitions (no rules!)
 -include Makefile.dist
 .PHONY: all clean distclean
-.PHONY: bananas doc gfx grf lng nml obg
+.PHONY: bananas gfx grf lng nml obg
 .PHONY: bundle     bundle_tar bundle_bzip bundle_gzip bundle_xz   bundle_zip
 .PHONY: bundle_src check      bundle_bsrc bundle_gsrc bundle_xsrc bundle_zsrc
 
@@ -330,34 +330,6 @@ clean::
 maintainer-clean::
 	$(_E) "[MAINTAINER-CLEAN GRF]"
 	$(_V) -rm -rf $(MD5_SRC_FILENAME)
-
-
-################################################################
-#
-# Target doc
-#
-# Generate documentation files.
-#
-################################################################
-
-doc: $(DOC_FILES)
-
-%.txt: %.ptxt Makefile.vcs
-	$(_E) "[DOC] $@"
-	$(_V) cat $< \
-		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
-		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
-		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
-		> $@
-ifeq ($(UNIX2DOS),)
-	$(_E) Warning: unix2dos not available. $@ keeps current eol style.
-else
-	$(_V) $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
-endif
-
-clean::
-	$(_E) "[CLEAN DOC]"
-	$(_V) -for i in $(patsubst %.txt,%,$(DOC_FILES)); do [ -f $$i.ptxt ] && [ -f $$i.txt ] && rm -rf $$i.txt || true; done
 
 
 ################################################################
@@ -663,9 +635,6 @@ endif
 help:
 	$(_E) "all:         Build the entire NewGRF and its documentation"
 	$(_E) "install:     Install into the default NewGRF directory ($(INSTALL_DIR))"
-ifdef DOC_FILES
-	$(_E) "doc:         Build the documentation ($(DOC_FILES))"
-endif
 ifdef GFX_SCRIPT_LIST_FILES
 	$(_E) "gfx:         Build the graphics dependencies"
 endif
