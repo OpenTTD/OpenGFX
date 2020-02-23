@@ -1,0 +1,156 @@
+name: Publish binaries
+
+on:
+  push:
+    tags:
+    - '*'
+  schedule:
+  - cron: '0 21 * * *'
+
+jobs:
+  publish_binaries:
+    name: Publish binaries
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Checkout tags
+      uses: openttd/actions/checkout@v1
+      with:
+        with-tags: true
+
+    - name: Set variables
+      id: vars
+      run: |
+        set -e
+
+        FULL_VERSION=$(./findversion.sh)
+        RELEASE_DATE=$(TZ='UTC' date +"%Y-%m-%d %H:%M UTC")
+        VERSION=$(echo "${FULL_VERSION}" | cut -f 1 -d$'\t')
+
+        # If this secret is not set, we are doing a dryrun. This means that
+        # people who fork this repository will not try to publish this to AWS
+        # (as that will most likely fail anyway).
+        if [ -z "${{ secrets.CDN_S3_BUCKET }}" ]; then
+          DRY_RUN="true"
+        else
+          DRY_RUN="false"
+        fi
+
+        REPO_NAME=$(echo ${{ github.repository }} | cut -d/ -f2 | tr [A-Z] [a-z])
+        # If we run on "schedule", we are producting a nightly. Otherwise it
+        # is a tag, so a release.
+        if [ "${{ github.event_name }}" = "schedule" ]; then
+          FOLDER="${REPO_NAME}-nightlies"
+
+          # Download the latest version we published; if we are different, it
+          # is safe to assume we are newer.
+          LATEST_VERSION=$(curl --fail -s https://cdn.openttd.org/${FOLDER}/latest.yaml | grep version | cut -d: -f2 | cut -b 2-)
+
+          if [ "${LATEST_VERSION}" = "${VERSION}" ]; then
+            echo "Run on schedule; going to skip this run, as we already build this version"
+            SKIP="true"
+          elif [ "${DRY_RUN}" = "true" ]; then
+            # Also skip everything if we are triggered frm the schedule and we
+            # are a fork. That would waste a lot of CPU cycles for no good reason.
+            echo "Run on schedule; going to skip this run, as this is a fork"
+            SKIP="true"
+          else
+            SKIP="false"
+          fi
+        else
+          FOLDER="${REPO_NAME}-releases"
+          SKIP="false"
+        fi
+
+        echo "::set-output name=release-date::${RELEASE_DATE}"
+        echo "::set-output name=version::${VERSION}"
+        echo "::set-output name=folder::${FOLDER}"
+        echo "::set-output name=dry-run::${DRY_RUN}"
+        echo "::set-output name=skip::${SKIP}"
+
+        echo "Release-date: ${RELEASE_DATE}"
+        echo "Version: ${VERSION}"
+        echo "Folder: ${FOLDER}"
+        echo "Dry-run: ${DRY_RUN}"
+        echo "Skip: ${SKIP}"
+
+    - if: steps.vars.outputs.skip == 'false'
+      name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - if: steps.vars.outputs.skip == 'false'
+      name: Install dependencies
+      run: |
+        set -e
+
+        sudo apt install -y gimp grfcodec --no-install-recommends
+        python -m pip install --upgrade pip
+        # TODO -- If nml has a new release (higher than 0.4.5), this can just be 'pip install nml'
+        python -m pip install https://github.com/OpenTTD/nml/archive/master.zip
+
+    - if: steps.vars.outputs.skip == 'false'
+      name: Build
+      run: |
+        set -e
+
+        make maintainer-clean
+        make bundle_zip bundle_xsrc
+
+        # Move bundles in their own folder
+        mkdir bundles
+        mv opengfx-${{ steps.vars.outputs.version }}-source.tar.xz bundles/
+        mv opengfx-${{ steps.vars.outputs.version }}.zip bundles/
+
+    - if: steps.vars.outputs.skip == 'false'
+      name: Create checksums
+      run: |
+        set -e
+
+        cd bundles
+        for i in $(ls); do
+          openssl dgst -r -md5 -hex $i > $i.md5sum
+          openssl dgst -r -sha1 -hex $i > $i.sha1sum
+          openssl dgst -r -sha256 -hex $i > $i.sha256sum
+        done
+
+        # Show the content of the bundles folder, to make problems debugging easier
+        ls -l
+
+    - if: steps.vars.outputs.skip == 'false'
+      name: Prepare bundles folder
+      run: |
+        set -e
+
+        echo "${{ steps.vars.outputs.release-date }}" > bundles/released.txt
+        cp README.md bundles/
+        cp changelog.txt bundles/
+
+        # Show the content of the bundles folder, to make problems debugging easier
+        ls -l bundles/
+
+    - if: steps.vars.outputs.dry-run == 'false' && steps.vars.outputs.skip == 'false'
+      name: Publish
+      id: publish
+      run: |
+        set -e
+
+        aws s3 cp --recursive --only-show-errors bundles/ s3://${{ secrets.CDN_S3_BUCKET }}/${{ steps.vars.outputs.folder }}/${{ steps.vars.outputs.version }}/
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - if: steps.vars.outputs.dry-run == 'false' && steps.vars.outputs.skip == 'false'
+      name: Trigger 'update CDN'
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.DEPLOYMENT_TOKEN }}
+        repository: OpenTTD/workflows
+        event-type: update_cdn
+        client-payload: '{"version": "${{ steps.vars.outputs.version }}", "folder": "${{ steps.vars.outputs.folder }}"}'
