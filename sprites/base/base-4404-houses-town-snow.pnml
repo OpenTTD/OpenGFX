@@ -3,7 +3,7 @@
 //4404-4492 more town buildings
 //cinema
 base_graphics spr4404(4404, "sprites/png/houses/morebuildings.png") { [   2,  136,  64,  31, -31,   0] }
-base_graphics spr4405(4405, "sprites/png/houses/morebuildings.png") { [  82,  136,  64,  49, -31, -18] }
+base_graphics spr4405(4405, "sprites/png/houses/morebuildings.png") { [  82,  136,  64,  49, -31, -18, ANIM] }
 //mall
 base_graphics spr4406(4406, "sprites/png/houses/morebuildings.png") { [ 178,  136,  64,  33, -31,  -2] }
 base_graphics spr4407(4407, "sprites/png/houses/morebuildings.png") { [ 258,  136,   1,   1,   0,   0] }

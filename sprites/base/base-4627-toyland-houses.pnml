@@ -64,11 +64,11 @@ base_graphics spr4665(4665, "sprites/png/houses/tipi.png") { [   0,    0,  64,  
 
 base_graphics spr4666(4666, "sprites/png/houses/toyland_wrappedhouses.png") { [ 690,  152,  64, 106, -31, -75] }
 base_graphics spr4667(4667, "sprites/png/houses/toyland_wrappedhouses.png") { [   2,  296,  64,  90, -31, -59] }
-base_graphics spr4668(4668, "sprites/png/houses/toylandblds.png") { [ 562,    8,  48,  73, -23, -49] }
+base_graphics spr4668(4668, "sprites/png/houses/toylandblds.png") { [ 562,    8,  48,  73, -23, -49, ANIM] }
 
 base_graphics spr4669(4669, "sprites/png/houses/toyland_wrappedhouses.png") { [  82,  296,  64, 106, -31, -75] }
 base_graphics spr4670(4670, "sprites/png/houses/toyland_wrappedhouses.png") { [ 162,  296,  64,  96, -31, -65] }
-base_graphics spr4671(4671, "sprites/png/houses/toylandblds.png") { [ 714,   56,  55,  81, -25, -54] }
+base_graphics spr4671(4671, "sprites/png/houses/toylandblds.png") { [ 714,   56,  55,  81, -25, -54, ANIM] }
 
 base_graphics spr4672(4672, "sprites/png/houses/toyland_wrappedhouses.png") { [ 242,  296,  64, 120, -31, -89] }
 base_graphics spr4673(4673, "sprites/png/houses/toyland_wrappedhouses.png") { [ 322,  296,  64,  96, -31, -65] }
