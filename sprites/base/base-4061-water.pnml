@@ -1,7 +1,7 @@
 
 
 // Water and shore tiles (8-tile version)
-base_graphics spr4061(4061, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") { tmpl_level_ground(1, 1) }
+base_graphics spr4061(4061, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") { tmpl_level_ground_anim(1, 1) }
 base_graphics spr4062(4062, "sprites/png/terrain/waterfeatures/seashore_temperate.gimp.png") { tmpl_8shore_tiles(1, 1) }
 
 // ship depot

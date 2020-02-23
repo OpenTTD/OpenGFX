@@ -5,8 +5,11 @@
  * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenGFX. If not, see <http://www.gnu.org/licenses/>.
  */
 
-template tmpl_level_ground_file(x, y, file) {
-    [ x, y, 64, 31, -31,  0, file ]
+template tmpl_level_ground_file(x, y, ANIM_FLAG, file) {
+    [ x, y, 64, 31, -31,  0, ANIM_FLAG, file ]
+}
+template tmpl_level_ground_anim(x, y) {
+    [ x, y, 64, 31, -31,  0, ANIM ]
 }
 template tmpl_level_ground(x, y) {
     [ x, y, 64, 31, -31,  0 ]
@@ -75,29 +78,29 @@ template tmpl_16shore_tiles(x, y) {
 }
 
 template tmpl_8shore_tiles(x, y) {
-    [ 320+x,   y, 64, 31, -31,  0 ]
-    [  80+x,   y, 64, 31, -31,  0 ]
-    [ 160+x,   y, 64, 23, -31,  0 ]
-    [ 638+x,   y, 64, 39, -31, -8 ]
+    [ 320+x,   y, 64, 31, -31,  0, ANIM]
+    [  80+x,   y, 64, 31, -31,  0, ANIM]
+    [ 160+x,   y, 64, 23, -31,  0, ANIM]
+    [ 638+x,   y, 64, 39, -31, -8, ANIM]
 
-    [ 478+x,   y, 64, 23, -31,  0 ]
-    [ 958+x,   y, 64, 39, -31, -8 ]
-    [ 240+x,   y, 64, 23, -31,  0 ]
-    [ 718+x,   y, 64, 39, -31, -8 ]
+    [ 478+x,   y, 64, 23, -31,  0, ANIM]
+    [ 958+x,   y, 64, 39, -31, -8, ANIM]
+    [ 240+x,   y, 64, 23, -31,  0, ANIM]
+    [ 718+x,   y, 64, 39, -31, -8, ANIM]
 }
 
 template tmpl_10shore_tiles(x, y) {
-	[1276+x,   y, 64, 15, -31,  0 ]
-    [1356+x,   y, 64, 31, -31, -8 ]
-    [ 558+x,   y, 64, 23, -31,  0 ]
-    [1196+x,   y, 64, 47, -31,-16 ]
-    [ 878+x,   y, 64, 31, -31, -8 ]
+	[1276+x,   y, 64, 15, -31,  0, ANIM]
+    [1356+x,   y, 64, 31, -31, -8, ANIM]
+    [ 558+x,   y, 64, 23, -31,  0, ANIM]
+    [1196+x,   y, 64, 47, -31,-16, ANIM]
+    [ 878+x,   y, 64, 31, -31, -8, ANIM]
 
-    [1038+x,   y, 64, 39, -31, -8 ]
-    [1118+x,   y, 64, 31, -31, -8 ]
-    [1436+x,   y, 64, 31, -31, -8 ]
-	[ 398+x,   y, 64, 31, -31,  0 ] // not yet used
-	[ 798+x,   y, 64, 31, -31,  0 ] // not yet used
+    [1038+x,   y, 64, 39, -31, -8, ANIM]
+    [1118+x,   y, 64, 31, -31, -8, ANIM]
+    [1436+x,   y, 64, 31, -31, -8, ANIM]
+	[ 398+x,   y, 64, 31, -31,  0, ANIM] // not yet used
+	[ 798+x,   y, 64, 31, -31,  0, ANIM] // not yet used
 }
 template tmpl_slope_to_se(file) { [ 479, 1, 64, 23, -31,  0, file] }
 template tmpl_slope_to_sw(file) { [ 241, 1, 64, 23, -31,  0, file] }
@@ -261,14 +264,14 @@ template tmpl_locks(file) {
 }
 
 template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s, corner_w, corner_n, smallcorners) {
-	tmpl_level_ground_file(1, 1, dike_ne)
-	tmpl_level_ground_file(1, 1, dike_nw)
-	tmpl_level_ground_file(1, 1, dike_se)
-	tmpl_level_ground_file(1, 1, dike_sw)
-	tmpl_level_ground_file(1, 1, corner_e)
-	tmpl_level_ground_file(1, 1, corner_s)
-	tmpl_level_ground_file(1, 1, corner_w)
-	tmpl_level_ground_file(1, 1, corner_n)
+	tmpl_level_ground_file(1, 1, ANIM, dike_ne)
+	tmpl_level_ground_file(1, 1, ANIM, dike_nw)
+	tmpl_level_ground_file(1, 1, ANIM, dike_se)
+	tmpl_level_ground_file(1, 1, ANIM, dike_sw)
+	tmpl_level_ground_file(1, 1, ANIM, corner_e)
+	tmpl_level_ground_file(1, 1, ANIM, corner_s)
+	tmpl_level_ground_file(1, 1, ANIM, corner_w)
+	tmpl_level_ground_file(1, 1, ANIM, corner_n)
 	[57, 14,  8, 6,  25, 13, smallcorners]
 	[29, 28,  8, 4,  -3, 27, smallcorners]
 	[ 1, 14,  8, 6, -31, 13, smallcorners]

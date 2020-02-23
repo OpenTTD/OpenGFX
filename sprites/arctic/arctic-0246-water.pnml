@@ -1,7 +1,7 @@
 
 
 // Water and shore tiles (8-tile version)
-base_graphics spr246( 246, "sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png") { tmpl_level_ground(1, 1) }
+base_graphics spr246( 246, "sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png") { tmpl_level_ground_anim(1, 1) }
 base_graphics spr247( 247, "sprites/png/terrain/waterfeatures/seashore_arctic.gimp.png") { tmpl_8shore_tiles(1, 1) }
 
 // ship depots 255 - 260

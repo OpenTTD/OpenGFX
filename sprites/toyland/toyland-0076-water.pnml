@@ -1,7 +1,7 @@
 
 
 // plain water and seashore tiles
-base_graphics spr76(  76, "sprites/png/terrain/shoretiles.png") { [   1,  145,  64,  31, -31,   0] }
+base_graphics spr76(  76, "sprites/png/terrain/shoretiles.png") { [   1,  145,  64,  31, -31,   0, ANIM] }
 base_graphics spr77(  77, "sprites/png/terrain/shoretiles.png") { tmpl_8shore_tiles(1, 145) }
 
 // unused buoy
