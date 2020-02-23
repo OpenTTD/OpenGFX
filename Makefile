@@ -116,7 +116,7 @@ ifdef PNML_FILES
 endif
 
 # GRF tools
-GRFID          ?= grfid
+GRFID          ?= $(shell which grfid)
 GRFID_FLAGS    ?= -m
 MUSA           ?= musa.py
 # The license is set via bananas.ini, do not supply a "custom" license.
@@ -352,6 +352,11 @@ ifdef OBG_FILENAME
 obg: $(OBG_FILENAME)
 
 %.obg: $(GFX_FILES) $(GRF_FILES) $(LNG_FILES) Makefile.vcs
+ifeq ($(GRFID),)
+	$(_E) "Cannot create obg files without grfid. Please install grfcodec, and try again. Aborting."
+	$(_V) false
+endif
+
 	$(_E) "[ASSEMBLING] $@"
 	@echo "[metadata]" > $@
 	@echo "name        = $(REPO_NAME)" >> $@
@@ -486,6 +491,11 @@ MD5_FILENAME       := $(DIR_NAME).md5
 MD5_SRC_FILENAME   := $(DIR_NAME).check.md5
 
 $(MD5_SRC_FILENAME) $(MD5_FILENAME): $(GFX_FILES) $(GRF_FILES)
+ifeq ($(GRFID),)
+	$(_E) "Cannot create md5 checks without grfid. Please install grfcodec, and try again. Aborting."
+	$(_V) false
+endif
+
 	$(_E) "[GRFID] $@"
 	$(_V) -rm -f $@
 	$(_V)for i in $(GRF_FILES); do printf "%-18s = %s\n" $$i `$(GRFID) $(GRFID_FLAGS) $$i` >> $@; done
