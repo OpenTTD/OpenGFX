@@ -428,29 +428,29 @@ clean::
 #
 ################################################################
 
-ZIP_FILENAME       := $(DIR_NAME).zip
-BZIP_FILENAME      := $(TAR_FILENAME).bz2
-GZIP_FILENAME      := $(TAR_FILENAME).gz
-XZ_FILENAME        := $(TAR_FILENAME).xz
+ZIP_FILENAME       := $(DIR_NAME)-all.zip
+BZIP_FILENAME      := $(DIR_NAME)-all.tar.bz2
+GZIP_FILENAME      := $(DIR_NAME)-all.tar.gz
+XZ_FILENAME        := $(DIR_NAME)-all.tar.xz
 
 bundle_zip: $(ZIP_FILENAME)
-%.zip: %.tar
+%-all.zip: %.tar
 	$(_E) "[BUNDLE ZIP] $@"
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
 
 bundle_bzip: $(BZIP_FILENAME)
-%.tar.bz2: %.tar
+%-all.tar.bz2: %.tar
 	$(_E) "[BUNDLE BZIP] $@"
 	$(_V) $(BZIP) $(BZIP_FLAGS) $^
 
 bundle_gzip: $(GZIP_FILENAME)
 # gzip has no option -k, so we cat the tar to keep it
-%.tar.gz: %.tar
+%-all.tar.gz: %.tar
 	$(_E) "[BUNDLE GZIP] $@"
 	$(_V) cat $^ | $(GZIP) $(GZIP_FLAGS) > $@
 
 bundle_xz: $(XZ_FILENAME)
-%.tar.xz: %.tar
+%-all.tar.xz: %.tar
 	$(_E) "[BUNDLE XZ] $@"
 	$(_V) $(XZ) $(XZ_FLAGS) $^
 
