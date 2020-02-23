@@ -37,12 +37,9 @@ DOC_FILES            ?= $(LICENSE_FILE) $(CHANGELOG_FILE) $(README_FILE)
 LNG_FILES            ?= lang/*.lng
 GFX_FILES            ?=
 
-# List of all files which will get shipped
-# documentation files: readme, changelog and license, usually $(DOC_FILES)
-# grf file: the above defined grf file, usualls $(GRF_FILES)
-# Add any additional, not usual files here, too, including
-# their relative path to the root of the repository
-BUNDLE_FILES           ?= $(GRF_FILES) $(DOC_FILES) $(OBG_FILENAME)
+# List of all files which will get shipped, minus documentation files.
+# Documentation files often are generated from other files.
+BUNDLE_FILES           ?= $(GRF_FILES) $(OBG_FILENAME)
 BANANAS_INI            ?= bananas.ini
 
 # Replacement strings in the source and in the documentation
@@ -429,11 +426,16 @@ TAR_FILENAME       := $(DIR_NAME).tar
 bundle: $(DIR_NAME)
 bundle_tar: $(TAR_FILENAME)
 
-$(DIR_NAME): $(GFX_FILES) $(BUNDLE_FILES)
+$(DIR_NAME): $(GFX_FILES) $(BUNDLE_FILES) $(DOC_FILES)
 	$(_E) "[BUNDLE] $@"
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
 	$(_V) mkdir $@
 	$(_V) cp $(CP_FLAGS) $(BUNDLE_FILES) $@
+# OpenTTD is very picky about how these next few files are are named, so make
+# sure they have the correct name inside the tarball.
+	$(_V) cp $(CP_FLAGS) $(LICENSE_FILE) $@/license.txt
+	$(_V) cp $(CP_FLAGS) $(CHANGELOG_FILE) $@/changelog.txt
+	$(_V) cp $(CP_FLAGS) $(README_FILE) $@/readme.txt
 
 $(TAR_FILENAME): $(DIR_NAME)
 	$(_E) "[BUNDLE TAR] $@"
