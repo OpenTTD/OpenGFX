@@ -150,49 +150,39 @@ _E ?= @echo
 #
 ################################################################
 
-include Makefile.vcs
+# Always run version detection, so we always have an accurate modified
+# flag
+REPO_VERSIONS := $(shell AWK="$(AWK)" "./findversion.sh")
+REPO_MODIFIED := $(shell echo "$(REPO_VERSIONS)" | cut -f 3 -d'	')
 
-ifneq ($(GIT),)
+# Use autodetected revisions
+REPO_VERSION := $(shell echo "$(REPO_VERSIONS)" | cut -f 1 -d'	')
+REPO_DATE := $(shell echo "$(REPO_VERSIONS)" | cut -f 2 -d'	')
+REPO_HASH := $(shell echo "$(REPO_VERSIONS)" | cut -f 4 -d'	')
 
-# Hash
-REPO_HASH      := $(shell $(GIT) rev-parse HEAD)
-
-# Date
-REPO_DATE      := $(shell $(GIT) show -s --format="%ci" | cut -f1 -d" ")
-
-# Version = Most recent tag, optionally followed by the number of commits since, current commit and dirty or broken indicators.
-REPO_VERSION   := $(shell $(GIT) describe --tags --dirty --broken)
-
-# Branch name
-REPO_BRANCH    := $(shell $(GIT) rev-parse --abbrev-ref HEAD)
-
-# Makefile.vcs contains all the data depending on the version reported by GIT.
-# It is renewed *before* processing any real targets, *only* if the version of the working copy changes.
-#
-# Everything that uses the version strings (to compile them into some file), should have Makefile.vcs as prerequisite.
-#
-Makefile.vcs: FORCE
-	$(_E) "[VCS] $@"
-	$(_V) echo "REPO_HASH      = $(REPO_HASH)" >> $@.new
-	$(_V) echo "REPO_DATE      = $(REPO_DATE)" >> $@.new
-	$(_V) echo "REPO_VERSION   = $(REPO_VERSION)" >> $@.new
-	$(_V) echo "REPO_BRANCH    = $(REPO_BRANCH)" >> $@.new
-	$(_V) cmp -s $@.new $@ || cp $@.new $@
-	$(_V) -rm -f $@.new
-
-endif
-
-# Days of commit since 2000-1-1 00-00
-REPO_DAYS_SINCE_2000 := $(shell $(PYTHON) -c "from datetime import date; print( (date(`echo "${REPO_DATE}" | sed s/-/,/g | sed s/,0/,/g`)-date(2000,1,1)).days)")
-
-# Filename addition, if we're not building the default branch
-REPO_BRANCH_STRING := $(filter-out $(DEFAULT_BRANCH_NAME)-, $(REPO_BRANCH)-)
+# Days of commit since 2000-01-01. REPO_DATE is in format YYYYMMDD.
+REPO_DATE_YEAR := $(shell echo "${REPO_DATE}" | cut -b1-4)
+REPO_DATE_MONTH := $(shell echo "${REPO_DATE}" | cut -b5-6 | sed s/^0//)
+REPO_DATE_DAY := $(shell echo "${REPO_DATE}" | cut -b7-8 | sed s/^0//)
+REPO_DAYS_SINCE_2000 := $(shell $(PYTHON) -c "from datetime import date; print( (date($(REPO_DATE_YEAR),$(REPO_DATE_MONTH),$(REPO_DATE_DAY))-date(2000,1,1)).days)")
 
 # The version reported to OpenTTD. Usually days since 2000 + branch offset
 NEWGRF_VERSION := $(shell let x="$(REPO_DAYS_SINCE_2000) + 65536 * $(REPO_BRANCH_VERSION)"; echo "$$x")
 
 # The title consists of name and version
 REPO_TITLE     := $(REPO_NAME) $(REPO_VERSION)
+
+# Have a file which, if modified, triggers recompiling targets that use these
+# variables.
+Makefile.vcs: FORCE
+	$(_E) "[VCS] $@"
+	$(_V) echo "REPO_HASH            = $(REPO_HASH)" >> $@.new
+	$(_V) echo "REPO_DATE            = $(REPO_DATE)" >> $@.new
+	$(_V) echo "REPO_VERSION         = $(REPO_VERSION)" >> $@.new
+	$(_V) echo "NEWGRF_VERSION       = $(NEWGRF_VERSION)" >> $@.new
+	$(_V) echo "REPO_DAYS_SINCE_2000 = $(REPO_DAYS_SINCE_2000)" >> $@.new
+	$(_V) cmp -s $@.new $@ || cp $@.new $@
+	$(_V) -rm -f $@.new
 
 distclean:: clean
 maintainer-clean:: distclean
@@ -307,7 +297,6 @@ custom_tags.txt: Makefile.vcs
 	$(_V) echo "FILENAME       :$(GRF_FILES)" >> $@
 	$(_V) echo "REPO_DATE      :$(REPO_DATE)" >> $@
 	$(_V) echo "REPO_HASH      :$(REPO_HASH)" >> $@
-	$(_V) echo "REPO_BRANCH    :$(REPO_BRANCH)" >> $@
 	$(_V) echo "NEWGRF_VERSION :$(NEWGRF_VERSION)" >> $@
 	$(_V) echo "DAYS_SINCE_2K  :$(REPO_DAYS_SINCE_2000)" >> $@
 
@@ -419,7 +408,7 @@ endif
 #
 ################################################################
 
-FILE_VERSION_STRING := $(REPO_BRANCH_STRING)$(REPO_VERSION)
+FILE_VERSION_STRING := $(REPO_VERSION)
 DIR_NAME           := $(PROJECT_FILENAME)-$(FILE_VERSION_STRING)
 TAR_FILENAME       := $(DIR_NAME).tar
 
@@ -550,7 +539,7 @@ bundle_src: $(TAR_FILENAME_SRC)
 
 $(DIR_NAME_SRC): $(MD5_SRC_FILENAME)
 	$(_E) "[BUNDLE SRC] $@"
-ifneq ($(REPO_MODIFIED),)
+ifneq ($(REPO_MODIFIED),0)
 	$(_E) "Cannot create source bundle with uncommitted changes! Aborting."
 	$(_V) false
 else
@@ -558,7 +547,8 @@ else
 	$(_V) mkdir $@
 	$(_V) $(GIT) archive --format=tar HEAD | tar xf - -C $@/
 	$(_V) rm -rf $@/.git $@/.gitignore $@/.devzone $@/.github $@/scripts/make_changelog.sh
-	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) Makefile.vcs $@
+	$(_V) ./findversion.sh > $@/.ottdrev
+	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $@
 	$(_V) echo "# Disable VCS version detection" > $@/Makefile.dist
 	$(_V) echo "GIT =" >> $@/Makefile.dist
 endif
