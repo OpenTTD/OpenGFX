@@ -94,8 +94,6 @@ DEFAULT_BRANCH_NAME ?= master
 AWK            ?= awk
 GREP           ?= grep
 PYTHON         ?= python
-UNIX2DOS       ?= $(shell which unix2dos)
-UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version >/dev/null 2>&1 && echo "-q" || echo "")
 
 # Graphics processing
 GIMP           ?= $(shell which gimp)
@@ -678,7 +676,6 @@ endif
 	$(_E) "AWK                     defaults: $(AWK)"
 	$(_E) "GREP                    defaults: $(GREP)"
 	$(_E) "GRFID GRFID_FLAGS.      defaults: $(GRFID) $(GRFID_FLAGS)"
-	$(_E) "UNIX2DOS UNIX2DOS_FLAGS defaults: $(UNIX2DOS) $(UNIX2DOS_FLAGS)"
 ifdef GFX_SCRIPT_LIST_FILES
 	$(_E) "GIMP GIMP_FLAGS         defaults: $(GIMP) $(GIMP_FLAGS)"
 endif
