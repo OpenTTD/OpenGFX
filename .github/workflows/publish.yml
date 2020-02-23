@@ -106,7 +106,7 @@ jobs:
         # Move bundles in their own folder
         mkdir bundles
         mv opengfx-${{ steps.vars.outputs.version }}-source.tar.xz bundles/
-        mv opengfx-${{ steps.vars.outputs.version }}.zip bundles/
+        mv opengfx-${{ steps.vars.outputs.version }}-all.zip bundles/
 
     - if: steps.vars.outputs.skip == 'false'
       name: Create checksums
