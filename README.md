@@ -107,7 +107,7 @@ Prerequisites to building OpenGFX:
 
 Optionally, required to re-generated all graphics files from their layered source files after executing `maintainer-clean`:
 
-- [GIMP 2.4](https://www.gimp.org/downloads/) or later
+- [Xcftools](http://henning.makholm.net/software)
 
 #### Windows
 
@@ -122,9 +122,6 @@ Your system should already have most tools, you'll probably only need NML and gi
 Install the developers tools and get NML from the source mentioned above. git is easiest installed via MacPorts:
 `sudo port install git`
 
-On OSX GIMP is not found in the path, if you installed the app package as supplied from the GIMP's project page. You can add that to your search path if you link the binary which requires the X-environment to be running:
-`sudo ln /Applications/Gimp.app/Contents/Resources/bin/gimp /usr/local/bin/gimp`
-
 The use of git is strongly encouraged as only that allows to keep track of
 changes.
 
@@ -134,7 +131,7 @@ Once all tools are installed, get a checkout of the repository and you can build
 - `install`: build and then copy OpenGFX in your OpenTTD data directory. Use Makefile.local to specify a different path.
 - `clean`: cleans all generated files
 - `mrproper`: also cleans generated directories
-- `maintainer-clean`: clean also the graphics files can be re-generated via GIMP
+- `maintainer-clean`: clean also the graphics files can be re-generated via xcf2png
 - `bundle_src`: create a source tarball
 - `bundle_zip`: create a zip archive of OpenGFX
 - `bundle_bz2`: create a bzip2 archive of OpenGFX
@@ -151,7 +148,7 @@ Given the usual case that you modify something within OpenGFX and want to test t
 
 ### 4.5 Note on the .xcf and .psd files
 
-The repository contains a few `.xcf2png` files which indicate which png files can be generated from the source `.xcf` or `.psd` files. This will only be used, if GIMP is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a `.xcf` or `.psd` file.
+The repository contains a few `.xcf2png` files which indicate which png files can be generated from the source `.xcf` files. This will only be used, if xcf2png is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a `.xcf` file.
 
 ## 5.0 License
 

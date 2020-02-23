@@ -98,8 +98,7 @@ UNIX2DOS       ?= $(shell which unix2dos)
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version >/dev/null 2>&1 && echo "-q" || echo "")
 
 # Graphics processing
-GIMP           ?= $(shell which gimp)
-GIMP_FLAGS     ?= -n -i
+XCF2PNG        ?= $(shell which xcf2png)
 
 # NML
 NML            ?= nmlc
@@ -224,7 +223,7 @@ clean::
 
 ifdef GFX_SCRIPT_LIST_FILES
 
-ifneq ($(GIMP),)
+ifneq ($(XCF2PNG),)
 
 # Always include to force creation, if not existing
 include Makefile.gfx
@@ -244,9 +243,7 @@ Makefile.gfx: $(GFX_SCRIPT_LIST_FILES) Makefile Makefile.config
 			for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do\
 				echo "$$i.scm: $$j" >> $@;\
 				echo "GFX_FILES += $$i.png" >> $@;\
-				cat $(SCRIPT_DIR)/gimpscript > $$i.scm.new;\
-				grep $$i.png $$j | sed -f $(SCRIPT_DIR)/gimp.sed >> $$i.scm.new;\
-				echo "(gimp-quit 0)" >> $$i.scm.new;\
+				grep $$i.png $$j | tr -s " " | cut -d " " -f 2- > $$i.scm.new;\
 				cmp -s $$i.scm.new $$i.scm || cp $$i.scm.new $$i.scm;\
 				rm -f $$i.scm.new;\
 			done;\
@@ -255,8 +252,8 @@ Makefile.gfx: $(GFX_SCRIPT_LIST_FILES) Makefile Makefile.config
 
 # create the png file. And make sure it's re-created even when present in the repo
 %.png: %.scm
-	$(_E) "[GIMP] $@"
-	$(_V) $(GIMP) $(GIMP_FLAGS) -b - <$< >/dev/null
+	$(_E) "[XCF2PNG] $@"
+	$(_V) $(XCF2PNG) $(shell cat $<) > $@
 
 clean::
 	$(_E) "[CLEAN GFX]"
@@ -272,7 +269,7 @@ else
 gfx: Makefile.gfx
 
 Makefile.gfx: FORCE
-	$(_E) "[GIMP disabled]"
+	$(_E) "[XCF2PNG disabled]"
 
 endif
 endif
@@ -711,7 +708,7 @@ endif
 	$(_E) "GRFID GRFID_FLAGS.      defaults: $(GRFID) $(GRFID_FLAGS)"
 	$(_E) "UNIX2DOS UNIX2DOS_FLAGS defaults: $(UNIX2DOS) $(UNIX2DOS_FLAGS)"
 ifdef GFX_SCRIPT_LIST_FILES
-	$(_E) "GIMP GIMP_FLAGS         defaults: $(GIMP) $(GIMP_FLAGS)"
+	$(_E) "XCF2PNG                 defaults: $(XCF2PNG)"
 endif
 	$(_E) "CP_FLAGS (for cp command):        $(CP_FLAGS)"
 	$(_E)

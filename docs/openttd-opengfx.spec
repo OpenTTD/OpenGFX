@@ -31,8 +31,8 @@ BuildArch:      noarch
 
 BuildRequires:  nml >= 0.2.3
 
-%if !0%{?without_gimp}
-BuildRequires:  gimp
+%if !0%{?without_xcftools}
+BuildRequires:  xcftools
 %endif
 
 Requires:       openttd-data >= 1.2
@@ -46,7 +46,7 @@ ensure the best possible out-of-the-box experience with OpenTTD.
 
 %prep
 %setup -qn opengfx-%{srcver}-source
-%if !0%{?without_gimp}
+%if !0%{?without_xcftools}
 make maintainer-clean
 %endif
 
