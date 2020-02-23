@@ -18,9 +18,9 @@ base_graphics spr1452(1452, "sprites/png/houses/temprtbuilds.png")             {
 base_graphics spr1453(1453, "sprites/png/houses/temprtbuilds.png")             { [ 162,  104,  64,  71, -31, -43] }
 //statue+fountain
 base_graphics spr1454(1454, "sprites/png/houses/statuefountain.png")           { [  18,   21,  22,  26,  -7, -16] }
-base_graphics spr1455(1455, "sprites/png/houses/statuefountain.png")           { [  41,   21,  34,  42, -17, -22] }
+base_graphics spr1455(1455, "sprites/png/houses/statuefountain.png")           { [  41,   21,  34,  42, -17, -22, ANIM] }
 //parks
-base_graphics spr1456(1456, "sprites/png/houses/1456_1457_parks.png")          { [  11,    0,  64,  80, -31, -49] }
+base_graphics spr1456(1456, "sprites/png/houses/1456_1457_parks.png")          { [  11,    0,  64,  80, -31, -49, ANIM] }
 base_graphics spr1457(1457, "sprites/png/houses/1456_1457_parks.png")          { [  91,   10,  64,  70, -31, -39] }
 //small offices
 base_graphics spr1458(1458, "sprites/png/houses/temprtbuilds.png")             { [ 434,  104,  52,  31, -25,  -3] }         // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
