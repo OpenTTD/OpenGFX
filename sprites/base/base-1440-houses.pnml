@@ -12,15 +12,15 @@ base_graphics spr1447(1447, "sprites/png/houses/buildings.png")                {
 //hotel
 base_graphics spr1448(1448, "sprites/png/houses/temprtbuilds.png")             { [ 562,    8,  64,  31, -31,  -3] }
 base_graphics spr1449(1449, "sprites/png/houses/temprtbuilds.png")             { [ 642,    8,  64,  67, -31, -39] }
-base_graphics spr1450(1450, "sprites/png/houses/temprtbuilds.png")             { [ 722,    8,  64,  74, -31, -43] }
+base_graphics spr1450(1450, "sprites/png/houses/temprtbuilds.png")             { [ 722,    8,  64,  74, -31, -43, ANIM] }
 base_graphics spr1451(1451, "sprites/png/houses/temprtbuilds.png")             { [   2,  104,  64,  32, -31,  -4] }
 base_graphics spr1452(1452, "sprites/png/houses/temprtbuilds.png")             { [  82,  104,  64,  67, -31, -39] }
-base_graphics spr1453(1453, "sprites/png/houses/temprtbuilds.png")             { [ 162,  104,  64,  71, -31, -43] }
+base_graphics spr1453(1453, "sprites/png/houses/temprtbuilds.png")             { [ 162,  104,  64,  71, -31, -43, ANIM] }
 //statue+fountain
 base_graphics spr1454(1454, "sprites/png/houses/statuefountain.png")           { [  18,   21,  22,  26,  -7, -16] }
-base_graphics spr1455(1455, "sprites/png/houses/statuefountain.png")           { [  41,   21,  34,  42, -17, -22] }
+base_graphics spr1455(1455, "sprites/png/houses/statuefountain.png")           { [  41,   21,  34,  42, -17, -22, ANIM] }
 //parks
-base_graphics spr1456(1456, "sprites/png/houses/1456_1457_parks.png")          { [  11,    0,  64,  80, -31, -49] }
+base_graphics spr1456(1456, "sprites/png/houses/1456_1457_parks.png")          { [  11,    0,  64,  80, -31, -49, ANIM] }
 base_graphics spr1457(1457, "sprites/png/houses/1456_1457_parks.png")          { [  91,   10,  64,  70, -31, -39] }
 //small offices
 base_graphics spr1458(1458, "sprites/png/houses/temprtbuilds.png")             { [ 434,  104,  52,  31, -25,  -3] }         // Recolour: STRUCT_RED, STRUCT_WHITE, STRUCT_BROWN
@@ -144,7 +144,7 @@ base_graphics spr1550(1550, "sprites/png/houses/temprtbuilds.png")             {
 base_graphics spr1551(1551, "sprites/png/houses/temprtbuilds.png")             { [ 290,  456,  56,  98, -25, -69] }
 //1552-1553 theatre
 base_graphics spr1552(1552, "sprites/png/houses/morebuildings.png")            { [ 562,    8,  64,  31, -31,   0] }
-base_graphics spr1553(1553, "sprites/png/houses/morebuildings.png")            { [ 642,    8,  64,  55, -31, -24] }
+base_graphics spr1553(1553, "sprites/png/houses/morebuildings.png")            { [ 642,    8,  64,  55, -31, -24, ANIM] }
 // 1554-1561 football stadium
 base_graphics spr1554(1554, "sprites/png/houses/base-1554-football.png")       {
 	tmpl_house_too_wide(176)

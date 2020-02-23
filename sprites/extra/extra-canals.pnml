@@ -11,10 +11,10 @@
 
 replacenew(CANALS, "") {
 	//sloped water for locks
-	[ 658,    8,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[   2,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
-	[  82,   72,  64,  23, -31,   0, "sprites/png/terrain/waterfeatures.png"]
-	[ 162,   72,  64,  39, -31,  -8, "sprites/png/terrain/waterfeatures.png"]
+	[ 658,    8,  64,  23, -31,   0, ANIM, "sprites/png/terrain/waterfeatures.png"]
+	[   2,   72,  64,  39, -31,  -8, ANIM, "sprites/png/terrain/waterfeatures.png"]
+	[  82,   72,  64,  23, -31,   0, ANIM, "sprites/png/terrain/waterfeatures.png"]
+	[ 162,   72,  64,  39, -31,  -8, ANIM, "sprites/png/terrain/waterfeatures.png"]
 
 	// Locks
 	tmpl_locks("sprites/png/infrastructure/locks_normal.gimp.png")

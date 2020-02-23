@@ -1,5 +1,5 @@
 //2633-2691 airports
-base_graphics spr2633(2633, "sprites/png/infrastructure/airports.png") { [  66,    8,  64,  87, -31, -56] }
+base_graphics spr2633(2633, "sprites/png/infrastructure/airports.png") { [  66,    8,  64,  87, -31, -56, ANIM] }
 base_graphics spr2634(2634, "sprites/png/infrastructure/airports.png") { [ 146,    8,  64,  31, -31,   0] }
 base_graphics spr2635(2635, "sprites/png/infrastructure/airports.png") { [ 226,    8,  64,  31, -31,   0] }
 base_graphics spr2636(2636, "sprites/png/infrastructure/airports.png") { [ 306,    8,  64,  31, -31,   0] }
@@ -11,14 +11,14 @@ base_graphics spr2641(2641, "sprites/png/infrastructure/airports.png") { [ 706, 
 base_graphics spr2642(2642, "sprites/png/infrastructure/airports.png") { [   2,  120,  64,  31, -31,   0] }
 base_graphics spr2643(2643, "sprites/png/infrastructure/airports.png") { [  82,  120,  64,  31, -31,   0] }
 base_graphics spr2644(2644, "sprites/png/infrastructure/airports.png") { [ 162,  120,  64,  31, -31,   0] }
-base_graphics spr2645(2645, "sprites/png/infrastructure/airports.png") { [ 242,  120,  64,  31, -31,   0] }
-base_graphics spr2646(2646, "sprites/png/infrastructure/airports.png") { [ 322,  120,  64,  31, -31,   0] }
-base_graphics spr2647(2647, "sprites/png/infrastructure/airports.png") { [ 402,  120,  64,  31, -31,   0] }
-base_graphics spr2648(2648, "sprites/png/infrastructure/airports.png") { [ 482,  120,  64,  31, -31,   0] }
-base_graphics spr2649(2649, "sprites/png/infrastructure/airports.png") { [ 562,  120,  64,  31, -31,   0] }
-base_graphics spr2650(2650, "sprites/png/infrastructure/airports.png") { [ 642,  120,  66,  67, -28, -38] }
-base_graphics spr2651(2651, "sprites/png/infrastructure/airports.png") { [ 722,  120,  50,  79, -24, -60] }
-base_graphics spr2652(2652, "sprites/png/infrastructure/airports.png") { [   2,  216,  41,  62, -20, -40] }
+base_graphics spr2645(2645, "sprites/png/infrastructure/airports.png") { [ 242,  120,  64,  31, -31,   0, ANIM] }
+base_graphics spr2646(2646, "sprites/png/infrastructure/airports.png") { [ 322,  120,  64,  31, -31,   0, ANIM] }
+base_graphics spr2647(2647, "sprites/png/infrastructure/airports.png") { [ 402,  120,  64,  31, -31,   0, ANIM] }
+base_graphics spr2648(2648, "sprites/png/infrastructure/airports.png") { [ 482,  120,  64,  31, -31,   0, ANIM] }
+base_graphics spr2649(2649, "sprites/png/infrastructure/airports.png") { [ 562,  120,  64,  31, -31,   0, ANIM] }
+base_graphics spr2650(2650, "sprites/png/infrastructure/airports.png") { [ 642,  120,  66,  67, -28, -38, ANIM] }
+base_graphics spr2651(2651, "sprites/png/infrastructure/airports.png") { [ 722,  120,  50,  79, -24, -60, ANIM] }
+base_graphics spr2652(2652, "sprites/png/infrastructure/airports.png") { [   2,  216,  41,  62, -20, -40, ANIM] }
 base_graphics spr2653(2653, "sprites/png/infrastructure/airports.png") { [  50,  216,  42,  51, -19, -33] }
 base_graphics spr2654(2654, "sprites/png/infrastructure/airports.png") { [  98,  216,  64,  66, -36, -39] }
 base_graphics spr2655(2655, "sprites/png/infrastructure/airport-hangar.png") { [ 393,   14,  64,  55,  -4, -38] }

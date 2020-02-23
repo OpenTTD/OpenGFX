@@ -5,8 +5,8 @@ base_graphics spr272( 272, "sprites/png/infrastructure/rail/maglev_tracks_tropic
 //298-301 maglev level crossing tropical grass
 base_graphics spr298( 298, "sprites/png/infrastructure/infra06.png") { [ 626, 3512,  64,  31, -31,   0] }
 base_graphics spr299( 299, "sprites/png/infrastructure/infra06.png") { [ 706, 3512,  64,  31, -31,   0] }
-base_graphics spr300( 300, "sprites/png/infrastructure/infra06.png") { [   2, 3560,  64,  31, -31,   0] }
-base_graphics spr301( 301, "sprites/png/infrastructure/infra06.png") { [  82, 3560,  64,  31, -31,   0] }
+base_graphics spr300( 300, "sprites/png/infrastructure/infra06.png") { [   2, 3560,  64,  31, -31,   0, ANIM] }
+base_graphics spr301( 301, "sprites/png/infrastructure/infra06.png") { [  82, 3560,  64,  31, -31,   0, ANIM] }
 
 // maglev tunnels tropical grass
 base_graphics spr302( 302, "sprites/png/infrastructure/infra06.png") { [ 642, 4120,  64,  39, -31,  -8] }

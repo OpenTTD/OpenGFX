@@ -1,55 +1,55 @@
-template tmpl_rv_toyland (x, y) {
-    [    x, y,  8, 18,  -3, -10 ]
-    [ 16+x, y, 20, 16, -14,  -7 ]
-    [ 48+x, y, 28, 12, -14,  -6 ]
-    [ 96+x, y, 20, 16,  -6,  -7 ]
-    [128+x, y,  8, 18,  -3, -10 ]
-    [144+x, y, 20, 16, -14,  -7 ]
-    [176+x, y, 28, 12, -14,  -6 ]
-    [224+x, y, 20, 16,  -6,  -7 ]
+template tmpl_rv_toyland (x, y, ANIM_FLAG) {
+    [    x, y,  8, 18,  -3, -10, ANIM_FLAG]
+    [ 16+x, y, 20, 16, -14,  -7, ANIM_FLAG]
+    [ 48+x, y, 28, 12, -14,  -6, ANIM_FLAG]
+    [ 96+x, y, 20, 16,  -6,  -7, ANIM_FLAG]
+    [128+x, y,  8, 18,  -3, -10, ANIM_FLAG]
+    [144+x, y, 20, 16, -14,  -7, ANIM_FLAG]
+    [176+x, y, 28, 12, -14,  -6, ANIM_FLAG]
+    [224+x, y, 20, 16,  -6,  -7, ANIM_FLAG]
 }
 
 // Ploddyphut bus
-base_graphics spr601(601, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  22) }
+base_graphics spr601(601, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  22, NOANIM) }
 
 // Sugar truck
-base_graphics spr609(609, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  21) }
-base_graphics spr617(617, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  44) }
+base_graphics spr609(609, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  21, NOANIM) }
+base_graphics spr617(617, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  44, NOANIM) }
 
 // cola truck
-base_graphics spr625(625, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  58) }
-base_graphics spr633(633, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  83) }
+base_graphics spr625(625, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  58, ANIM) }
+base_graphics spr633(633, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122,  83, ANIM) }
 
 // cotton candy truck
-base_graphics spr641(641, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  72) }
-base_graphics spr649(649, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  94) }
+base_graphics spr641(641, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  72, NOANIM) }
+base_graphics spr649(649, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462,  94, NOANIM) }
 
 // toffee truck
-base_graphics spr657(657, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 126) }
-base_graphics spr665(665, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 147) }
+base_graphics spr657(657, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 126, NOANIM) }
+base_graphics spr665(665, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 147, NOANIM) }
 
 // toy truck
-base_graphics spr673(673, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 230) }
+base_graphics spr673(673, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 230, NOANIM) }
 
 // Mail truck
-base_graphics spr681(681, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 202) }
+base_graphics spr681(681, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 202, NOANIM) }
 
 // sweets (=candy) truck
-base_graphics spr689(689, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 258) }
+base_graphics spr689(689, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(462, 258, NOANIM) }
 
 // battery truck
-base_graphics spr697(697, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 113) }
-base_graphics spr705(705, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 135) }
+base_graphics spr697(697, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 113, NOANIM) }
+base_graphics spr705(705, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 135, NOANIM) }
 
 // fizzy drinks truck
-base_graphics spr713(713, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 164) }
-base_graphics spr721(721, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 188) }
+base_graphics spr713(713, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 164, NOANIM) }
+base_graphics spr721(721, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 188, NOANIM) }
 
 // plastics truck
-base_graphics spr729(729, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 215) }
-base_graphics spr737(737, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 238) }
+base_graphics spr729(729, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 215, NOANIM) }
+base_graphics spr737(737, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 238, NOANIM) }
 
 // bubble truck
-base_graphics spr745(745, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 270) }
-base_graphics spr753(753, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 295) }
+base_graphics spr745(745, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 270, NOANIM) }
+base_graphics spr753(753, "sprites/png/roadvehicles/toyland_rv.png") { tmpl_rv_toyland(122, 295, NOANIM) }
 

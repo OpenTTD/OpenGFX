@@ -33,7 +33,7 @@ template tmpl_aircraft_66x32(x, y) {
 base_graphics spr3749(3749, "sprites/png/aircraft/Darwin300.png") { tmpl_aircraft_66x32(2, 4) }
 
 //3757 Yate Haugan
-base_graphics spr3757(3757, "sprites/png/aircraft/YateHaugan.png") { 
+base_graphics spr3757(3757, "sprites/png/aircraft/YateHaugan.png") {
     //xoff = round.down(-xsize/2); yoff = round.down(-ysize/2)+1
 	[  3, 20, 36, 34, -18, -16]
 	[ 51, 20, 52, 29, -26, -13]
@@ -261,8 +261,8 @@ base_graphics spr3905(3905, "sprites/png/aircraft/vehiclesair021.png") {
 }
 //3908-3909 small ufo
 base_graphics spr3908(3908, "sprites/png/miscellaneous/eyecandy.png") {
-	[642, 8, 19, 13, -8, -7]
-	[674, 8, 19, 13, -8, -7]
+	[642, 8, 19, 13, -8, -7, ANIM]
+	[674, 8, 19, 13, -8, -7, ANIM]
 }
 base_graphics spr3910(3910, "sprites/png/miscellaneous/random.png") {
 //3910-3917 submarines
@@ -282,7 +282,7 @@ base_graphics spr3918(3918, "sprites/png/miscellaneous/random.png") {
 }
 base_graphics spr3920(3920, "sprites/png/miscellaneous/random.png") {
 //3920 large ufo
-	[602, 10, 35, 21, -15, -10]
+	[602, 10, 35, 21, -15, -10, ANIM]
 }
 base_graphics spr3921(3921, "sprites/png/miscellaneous/random.png") {
 //3921 large fighter
