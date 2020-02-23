@@ -20,7 +20,7 @@ base_graphics spr689( 689, "") { [ 658,    8,  16,  16,   0,   0, "sprites/png/g
 base_graphics spr690( 690, "") { [ 690,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: set orders
 base_graphics spr691( 691, "") { [ 722,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: show details
 base_graphics spr692( 692, "") { [ 754,    8,  16,  16,   0,   0, "sprites/png/gui/gui04.png"] }                   // vehicle view: refit
-base_graphics spr693( 693, "") { [ 394,   10,  20,  20,   0,   0, "sprites/png/miscellaneous/random.png"] }        // buoy for GUI
+base_graphics spr693( 693, "") { [ 394,   10,  20,  20,   0,   0, ANIM, "sprites/png/miscellaneous/random.png"] }        // buoy for GUI
 alternative_sprites (spr679, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(  2,   8, "sprites/png/gui/gui2x.png") }
 alternative_sprites (spr680, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar( 50,   8, "sprites/png/gui/gui2x.png") }
 
@@ -50,7 +50,7 @@ base_graphics spr698( 698, "") { [ 163,    9,  32,  32,   0,   0, "sprites/png/g
 base_graphics spr699( 699, "") { [ 211,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics spr700( 700, "") { [ 259,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
 base_graphics spr701( 701, "") { [ 307,    9,  32,  32,   0,   0, "sprites/png/gui/terraform_gui.png"] }
-base_graphics spr702( 702, "") { [ 355,   10,  32,  32,   0,   0, "sprites/png/miscellaneous/random.png"] }        // place buoy cursor
+base_graphics spr702( 702, "") { [ 355,   10,  32,  32,   0,   0, ANIM, "sprites/png/miscellaneous/random.png"] }        // place buoy cursor
 base_graphics spr703( 703, "") { [ 434,   56,  20,  20,   0,   0, "sprites/png/gui/gui04.png"] }                   // construction toolbars: dynamite
 base_graphics spr704( 704, "") { [ 466,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 1
 base_graphics spr705( 705, "") { [ 514,   56,  32,  32,   0,   0, "sprites/png/gui/gui04.png"] }                   // dynamite animated cursor 2

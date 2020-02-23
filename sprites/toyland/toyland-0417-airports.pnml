@@ -1,5 +1,5 @@
 //417   417     1       Heliplatform
-base_graphics spr417( 417, "sprites/png/infrastructure/infra08.png") { [ 338, 7416,  64,  87, -31, -56] }
+base_graphics spr417( 417, "sprites/png/infrastructure/infra08.png") { [ 338, 7416,  64,  87, -31, -56, ANIM] }
 
 //418   475     58      Airports
 base_graphics spr418( 418, "sprites/png/infrastructure/infra08.png") { [ 418, 7416,  64,  31, -31,   0] }
@@ -12,12 +12,12 @@ base_graphics spr424( 424, "sprites/png/infrastructure/infra08.png") { [ 162, 75
 base_graphics spr425( 425, "sprites/png/infrastructure/infra08.png") { [ 242, 7528,  64,  31, -31,   0] }
 base_graphics spr426( 426, "sprites/png/infrastructure/infra08.png") { [ 322, 7528,  64,  31, -31,   0] }
 base_graphics spr427( 427, "sprites/png/infrastructure/infra08.png") { [ 402, 7528,  64,  31, -31,   0] }
-base_graphics spr428( 428, "sprites/png/infrastructure/infra08.png") { [ 482, 7528,  64,  31, -31,   0] }
-base_graphics spr429( 429, "sprites/png/infrastructure/infra08.png") { [ 562, 7528,  64,  31, -31,   0] }
-base_graphics spr430( 430, "sprites/png/infrastructure/infra08.png") { [ 642, 7528,  64,  31, -31,   0] }
-base_graphics spr431( 431, "sprites/png/infrastructure/infra08.png") { [ 722, 7528,  64,  31, -31,   0] }
-base_graphics spr432( 432, "sprites/png/infrastructure/infra08.png") { [   2, 7576,  64,  31, -31,   0] }
-base_graphics spr433( 433, "sprites/png/infrastructure/infra08.png") { [  82, 7576,  64,  31, -31,   0] }
+base_graphics spr428( 428, "sprites/png/infrastructure/infra08.png") { [ 482, 7528,  64,  31, -31,   0, ANIM] }
+base_graphics spr429( 429, "sprites/png/infrastructure/infra08.png") { [ 562, 7528,  64,  31, -31,   0, ANIM] }
+base_graphics spr430( 430, "sprites/png/infrastructure/infra08.png") { [ 642, 7528,  64,  31, -31,   0, ANIM] }
+base_graphics spr431( 431, "sprites/png/infrastructure/infra08.png") { [ 722, 7528,  64,  31, -31,   0, ANIM] }
+base_graphics spr432( 432, "sprites/png/infrastructure/infra08.png") { [   2, 7576,  64,  31, -31,   0, ANIM] }
+base_graphics spr433( 433, "sprites/png/infrastructure/infra08.png") { [  82, 7576,  64,  31, -31,   0, ANIM] }
 
 
 base_graphics spr434( 434, "sprites/png/infrastructure/infra08.png") { [ 706, 7576,  17,  17,  -8,  -9] }
@@ -28,9 +28,9 @@ base_graphics spr438( 438, "sprites/png/infrastructure/infra08.png") { [  98, 76
 base_graphics spr439( 439, "sprites/png/infrastructure/infra08.png") { [ 146, 7672,  31,  19, -30,  -2] }
 
 
-base_graphics spr440( 440, "sprites/png/infrastructure/infra08.png") { [ 162, 7576,  66,  67, -28, -38] }
-base_graphics spr441( 441, "sprites/png/infrastructure/infra08.png") { [ 242, 7576,  50,  79, -24, -60] }
-base_graphics spr442( 442, "sprites/png/infrastructure/infra08.png") { [ 306, 7576,  41,  62, -20, -40] }
+base_graphics spr440( 440, "sprites/png/infrastructure/infra08.png") { [ 162, 7576,  66,  67, -28, -38, ANIM] }
+base_graphics spr441( 441, "sprites/png/infrastructure/infra08.png") { [ 242, 7576,  50,  79, -24, -60, ANIM] }
+base_graphics spr442( 442, "sprites/png/infrastructure/infra08.png") { [ 306, 7576,  41,  62, -20, -40, ANIM] }
 base_graphics spr443( 443, "sprites/png/infrastructure/infra08.png") { [ 354, 7576,  42,  51, -19, -33] }
 base_graphics spr444( 444, "sprites/png/infrastructure/infra08.png") { [ 402, 7576,  64,  66, -36, -39] }
 base_graphics spr445( 445, "sprites/png/infrastructure/infra08.png") { [ 482, 7576,  64,  55,  -2, -38] }
