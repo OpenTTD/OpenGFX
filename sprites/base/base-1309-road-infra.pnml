@@ -74,48 +74,48 @@ base_graphics spr1369(1369, "sprites/png/infrastructure/infra06.png") { [ 322, 3
 //level crossing rail temperate grass
 base_graphics spr1370(1370, "sprites/png/infrastructure/infra06.png") { [ 434, 3208,  64,  31, -31,   0] }
 base_graphics spr1371(1371, "sprites/png/infrastructure/infra06.png") { [ 514, 3208,  64,  31, -31,   0] }
-base_graphics spr1372(1372, "sprites/png/infrastructure/infra06.png") { [ 594, 3208,  64,  31, -31,   0] }
-base_graphics spr1373(1373, "sprites/png/infrastructure/infra06.png") { [ 674, 3208,  64,  31, -31,   0] }
+base_graphics spr1372(1372, "sprites/png/infrastructure/infra06.png") { [ 594, 3208,  64,  31, -31,   0, ANIM] }
+base_graphics spr1373(1373, "sprites/png/infrastructure/infra06.png") { [ 674, 3208,  64,  31, -31,   0, ANIM] }
 //level crossing rail city
 base_graphics spr1374(1374, "sprites/png/infrastructure/infra06.png") { [ 706, 3272,  64,  31, -31,   0] }
 base_graphics spr1375(1375, "sprites/png/infrastructure/infra06.png") { [   2, 3320,  64,  31, -31,   0] }
-base_graphics spr1376(1376, "sprites/png/infrastructure/infra06.png") { [  82, 3320,  64,  31, -31,   0] }
-base_graphics spr1377(1377, "sprites/png/infrastructure/infra06.png") { [ 162, 3320,  64,  31, -31,   0] }
+base_graphics spr1376(1376, "sprites/png/infrastructure/infra06.png") { [  82, 3320,  64,  31, -31,   0, ANIM] }
+base_graphics spr1377(1377, "sprites/png/infrastructure/infra06.png") { [ 162, 3320,  64,  31, -31,   0, ANIM] }
 //level crossing rail snowy terrain
 base_graphics spr1378(1378, "sprites/png/infrastructure/infra06.png") { [ 274, 3320,  64,  31, -31,   0] }
 base_graphics spr1379(1379, "sprites/png/infrastructure/infra06.png") { [ 354, 3320,  64,  31, -31,   0] }
-base_graphics spr1380(1380, "sprites/png/infrastructure/infra06.png") { [ 434, 3320,  64,  31, -31,   0] }
-base_graphics spr1381(1381, "sprites/png/infrastructure/infra06.png") { [ 514, 3320,  64,  31, -31,   0] }
+base_graphics spr1380(1380, "sprites/png/infrastructure/infra06.png") { [ 434, 3320,  64,  31, -31,   0, ANIM] }
+base_graphics spr1381(1381, "sprites/png/infrastructure/infra06.png") { [ 514, 3320,  64,  31, -31,   0, ANIM] }
 //level crossing monorail temperate grass
 base_graphics spr1382(1382, "sprites/png/infrastructure/infra06.png") { [ 194, 3368,  64,  31, -31,   0] }
 base_graphics spr1383(1383, "sprites/png/infrastructure/infra06.png") { [ 274, 3368,  64,  31, -31,   0] }
-base_graphics spr1384(1384, "sprites/png/infrastructure/infra06.png") { [ 354, 3368,  64,  31, -31,   0] }
-base_graphics spr1385(1385, "sprites/png/infrastructure/infra06.png") { [ 434, 3368,  64,  31, -31,   0] }
+base_graphics spr1384(1384, "sprites/png/infrastructure/infra06.png") { [ 354, 3368,  64,  31, -31,   0, ANIM] }
+base_graphics spr1385(1385, "sprites/png/infrastructure/infra06.png") { [ 434, 3368,  64,  31, -31,   0, ANIM] }
 //level crossing monorail city
 base_graphics spr1386(1386, "sprites/png/infrastructure/infra06.png") { [ 466, 3416,  64,  31, -31,   0] }
 base_graphics spr1387(1387, "sprites/png/infrastructure/infra06.png") { [ 546, 3416,  64,  31, -31,   0] }
-base_graphics spr1388(1388, "sprites/png/infrastructure/infra06.png") { [ 626, 3416,  64,  31, -31,   0] }
-base_graphics spr1389(1389, "sprites/png/infrastructure/infra06.png") { [ 706, 3416,  64,  31, -31,   0] }
+base_graphics spr1388(1388, "sprites/png/infrastructure/infra06.png") { [ 626, 3416,  64,  31, -31,   0, ANIM] }
+base_graphics spr1389(1389, "sprites/png/infrastructure/infra06.png") { [ 706, 3416,  64,  31, -31,   0, ANIM] }
 //level crossing monorail snowy terrain
 base_graphics spr1390(1390, "sprites/png/infrastructure/infra06.png") { [  18, 3464,  64,  31, -31,   0] }
 base_graphics spr1391(1391, "sprites/png/infrastructure/infra06.png") { [  98, 3464,  64,  31, -31,   0] }
-base_graphics spr1392(1392, "sprites/png/infrastructure/infra06.png") { [ 178, 3464,  64,  31, -31,   0] }
-base_graphics spr1393(1393, "sprites/png/infrastructure/infra06.png") { [ 258, 3464,  64,  31, -31,   0] }
+base_graphics spr1392(1392, "sprites/png/infrastructure/infra06.png") { [ 178, 3464,  64,  31, -31,   0, ANIM] }
+base_graphics spr1393(1393, "sprites/png/infrastructure/infra06.png") { [ 258, 3464,  64,  31, -31,   0, ANIM] }
 //level crossing maglev temperate grass
 base_graphics spr1394(1394, "sprites/png/infrastructure/infra06.png") { [ 722, 3464,  64,  31, -31,   0] }
 base_graphics spr1395(1395, "sprites/png/infrastructure/infra06.png") { [   2, 3512,  64,  31, -31,   0] }
-base_graphics spr1396(1396, "sprites/png/infrastructure/infra06.png") { [  82, 3512,  64,  31, -31,   0] }
-base_graphics spr1397(1397, "sprites/png/infrastructure/infra06.png") { [ 162, 3512,  64,  31, -31,   0] }
+base_graphics spr1396(1396, "sprites/png/infrastructure/infra06.png") { [  82, 3512,  64,  31, -31,   0, ANIM] }
+base_graphics spr1397(1397, "sprites/png/infrastructure/infra06.png") { [ 162, 3512,  64,  31, -31,   0, ANIM] }
 //level crossing maglev city
 base_graphics spr1398(1398, "sprites/png/infrastructure/infra06.png") { [ 194, 3560,  64,  31, -31,   0] }
 base_graphics spr1399(1399, "sprites/png/infrastructure/infra06.png") { [ 274, 3560,  64,  31, -31,   0] }
-base_graphics spr1400(1400, "sprites/png/infrastructure/infra06.png") { [ 354, 3560,  64,  31, -31,   0] }
-base_graphics spr1401(1401, "sprites/png/infrastructure/infra06.png") { [ 434, 3560,  64,  31, -31,   0] }
+base_graphics spr1400(1400, "sprites/png/infrastructure/infra06.png") { [ 354, 3560,  64,  31, -31,   0, ANIM] }
+base_graphics spr1401(1401, "sprites/png/infrastructure/infra06.png") { [ 434, 3560,  64,  31, -31,   0, ANIM] }
 //level crossing maglev snowy terrain
 base_graphics spr1402(1402, "sprites/png/infrastructure/infra06.png") { [ 546, 3560,  64,  31, -31,   0] }
 base_graphics spr1403(1403, "sprites/png/infrastructure/infra06.png") { [ 626, 3560,  64,  31, -31,   0] }
-base_graphics spr1404(1404, "sprites/png/infrastructure/infra06.png") { [ 706, 3560,  64,  31, -31,   0] }
-base_graphics spr1405(1405, "sprites/png/infrastructure/infra06.png") { [   2, 3608,  64,  31, -31,   0] }
+base_graphics spr1404(1404, "sprites/png/infrastructure/infra06.png") { [ 706, 3560,  64,  31, -31,   0, ANIM] }
+base_graphics spr1405(1405, "sprites/png/infrastructure/infra06.png") { [   2, 3608,  64,  31, -31,   0, ANIM] }
 
 //1406-1407 street lights
 base_graphics spr1406(1406, "sprites/png/miscellaneous/random.png") { [ 244,   10,   4,  14,   0, -13] }

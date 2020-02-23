@@ -37,12 +37,12 @@ base_graphics spr146( 146, "sprites/png/infrastructure/infra06.png") { [ 642, 11
 //147-154 arctic monorail level crossing
 base_graphics spr147( 147, "sprites/png/infrastructure/infra06.png") { [ 546, 3368,  64,  31, -31,   0] }
 base_graphics spr148( 148, "sprites/png/infrastructure/infra06.png") { [ 626, 3368,  64,  31, -31,   0] }
-base_graphics spr149( 149, "sprites/png/infrastructure/infra06.png") { [ 706, 3368,  64,  31, -31,   0] }
-base_graphics spr150( 150, "sprites/png/infrastructure/infra06.png") { [   2, 3416,  64,  31, -31,   0] }
+base_graphics spr149( 149, "sprites/png/infrastructure/infra06.png") { [ 706, 3368,  64,  31, -31,   0, ANIM] }
+base_graphics spr150( 150, "sprites/png/infrastructure/infra06.png") { [   2, 3416,  64,  31, -31,   0, ANIM] }
 base_graphics spr151( 151, "sprites/png/infrastructure/infra06.png") { [ 466, 3416,  64,  31, -31,   0] }
 base_graphics spr152( 152, "sprites/png/infrastructure/infra06.png") { [ 546, 3416,  64,  31, -31,   0] }
-base_graphics spr153( 153, "sprites/png/infrastructure/infra06.png") { [ 626, 3416,  64,  31, -31,   0] }
-base_graphics spr154( 154, "sprites/png/infrastructure/infra06.png") { [ 706, 3416,  64,  31, -31,   0] }
+base_graphics spr153( 153, "sprites/png/infrastructure/infra06.png") { [ 626, 3416,  64,  31, -31,   0, ANIM] }
+base_graphics spr154( 154, "sprites/png/infrastructure/infra06.png") { [ 706, 3416,  64,  31, -31,   0, ANIM] }
 
 //155-162 arctic monorail tunnel
 base_graphics spr155( 155, "sprites/png/infrastructure/infra06.png") { [ 562, 3864,  64,  39, -31,  -8] }
@@ -103,9 +103,9 @@ base_graphics spr202( 202, "sprites/png/infrastructure/infra06.png") { [ 530, 54
 //203-210 rail level crossing
 base_graphics spr203( 203, "sprites/png/infrastructure/infra06.png") { [   2, 3272,  64,  31, -31,   0] }
 base_graphics spr204( 204, "sprites/png/infrastructure/infra06.png") { [  82, 3272,  64,  31, -31,   0] }
-base_graphics spr205( 205, "sprites/png/infrastructure/infra06.png") { [ 162, 3272,  64,  31, -31,   0] }
-base_graphics spr206( 206, "sprites/png/infrastructure/infra06.png") { [ 242, 3272,  64,  31, -31,   0] }
+base_graphics spr205( 205, "sprites/png/infrastructure/infra06.png") { [ 162, 3272,  64,  31, -31,   0, ANIM] }
+base_graphics spr206( 206, "sprites/png/infrastructure/infra06.png") { [ 242, 3272,  64,  31, -31,   0, ANIM] }
 base_graphics spr207( 207, "sprites/png/infrastructure/infra06.png") { [ 706, 3272,  64,  31, -31,   0] }
 base_graphics spr208( 208, "sprites/png/infrastructure/infra06.png") { [   2, 3320,  64,  31, -31,   0] }
-base_graphics spr209( 209, "sprites/png/infrastructure/infra06.png") { [  82, 3320,  64,  31, -31,   0] }
-base_graphics spr210( 210, "sprites/png/infrastructure/infra06.png") { [ 162, 3320,  64,  31, -31,   0] }
+base_graphics spr209( 209, "sprites/png/infrastructure/infra06.png") { [  82, 3320,  64,  31, -31,   0, ANIM] }
+base_graphics spr210( 210, "sprites/png/infrastructure/infra06.png") { [ 162, 3320,  64,  31, -31,   0, ANIM] }

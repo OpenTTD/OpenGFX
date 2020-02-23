@@ -104,28 +104,28 @@ base_graphics spr286( 286, "sprites/png/infrastructure/infra08.png") { [  82, 65
 //287   310     24      Level crossings
 base_graphics spr287( 287, "sprites/png/infrastructure/infra08.png") { [  82, 6376,  64,  31, -31,   0] }
 base_graphics spr288( 288, "sprites/png/infrastructure/infra08.png") { [ 162, 6376,  64,  31, -31,   0] }
-base_graphics spr289( 289, "sprites/png/infrastructure/infra08.png") { [ 242, 6376,  64,  31, -31,   0] }
-base_graphics spr290( 290, "sprites/png/infrastructure/infra08.png") { [ 322, 6376,  64,  31, -31,   0] }
+base_graphics spr289( 289, "sprites/png/infrastructure/infra08.png") { [ 242, 6376,  64,  31, -31,   0, ANIM] }
+base_graphics spr290( 290, "sprites/png/infrastructure/infra08.png") { [ 322, 6376,  64,  31, -31,   0, ANIM] }
 base_graphics spr291( 291, "sprites/png/infrastructure/infra08.png") { [ 402, 6376,  64,  31, -31,   0] }
 base_graphics spr292( 292, "sprites/png/infrastructure/infra08.png") { [ 482, 6376,  64,  31, -31,   0] }
-base_graphics spr293( 293, "sprites/png/infrastructure/infra08.png") { [ 562, 6376,  64,  31, -31,   0] }
-base_graphics spr294( 294, "sprites/png/infrastructure/infra08.png") { [ 642, 6376,  64,  31, -31,   0] }
+base_graphics spr293( 293, "sprites/png/infrastructure/infra08.png") { [ 562, 6376,  64,  31, -31,   0, ANIM] }
+base_graphics spr294( 294, "sprites/png/infrastructure/infra08.png") { [ 642, 6376,  64,  31, -31,   0, ANIM] }
 base_graphics spr295( 295, "sprites/png/infrastructure/infra08.png") { [ 722, 6376,  64,  31, -31,   0] }
 base_graphics spr296( 296, "sprites/png/infrastructure/infra08.png") { [   2, 6440,  64,  31, -31,   0] }
-base_graphics spr297( 297, "sprites/png/infrastructure/infra08.png") { [  82, 6440,  64,  31, -31,   0] }
-base_graphics spr298( 298, "sprites/png/infrastructure/infra08.png") { [ 162, 6440,  64,  31, -31,   0] }
+base_graphics spr297( 297, "sprites/png/infrastructure/infra08.png") { [  82, 6440,  64,  31, -31,   0, ANIM] }
+base_graphics spr298( 298, "sprites/png/infrastructure/infra08.png") { [ 162, 6440,  64,  31, -31,   0, ANIM] }
 base_graphics spr299( 299, "sprites/png/infrastructure/infra08.png") { [ 242, 6440,  64,  31, -31,   0] }
 base_graphics spr300( 300, "sprites/png/infrastructure/infra08.png") { [ 322, 6440,  64,  31, -31,   0] }
-base_graphics spr301( 301, "sprites/png/infrastructure/infra08.png") { [ 402, 6440,  64,  31, -31,   0] }
-base_graphics spr302( 302, "sprites/png/infrastructure/infra08.png") { [ 482, 6440,  64,  31, -31,   0] }
+base_graphics spr301( 301, "sprites/png/infrastructure/infra08.png") { [ 402, 6440,  64,  31, -31,   0, ANIM] }
+base_graphics spr302( 302, "sprites/png/infrastructure/infra08.png") { [ 482, 6440,  64,  31, -31,   0, ANIM] }
 base_graphics spr303( 303, "sprites/png/infrastructure/infra08.png") { [ 562, 6440,  64,  31, -31,   0] }
 base_graphics spr304( 304, "sprites/png/infrastructure/infra08.png") { [ 642, 6440,  64,  31, -31,   0] }
-base_graphics spr305( 305, "sprites/png/infrastructure/infra08.png") { [ 722, 6440,  64,  31, -31,   0] }
-base_graphics spr306( 306, "sprites/png/infrastructure/infra08.png") { [   2, 6488,  64,  31, -31,   0] }
+base_graphics spr305( 305, "sprites/png/infrastructure/infra08.png") { [ 722, 6440,  64,  31, -31,   0, ANIM] }
+base_graphics spr306( 306, "sprites/png/infrastructure/infra08.png") { [   2, 6488,  64,  31, -31,   0, ANIM] }
 base_graphics spr307( 307, "sprites/png/infrastructure/infra08.png") { [  82, 6488,  64,  31, -31,   0] }
 base_graphics spr308( 308, "sprites/png/infrastructure/infra08.png") { [ 162, 6488,  64,  31, -31,   0] }
-base_graphics spr309( 309, "sprites/png/infrastructure/infra08.png") { [ 242, 6488,  64,  31, -31,   0] }
-base_graphics spr310( 310, "sprites/png/infrastructure/infra08.png") { [ 322, 6488,  64,  31, -31,   0] }
+base_graphics spr309( 309, "sprites/png/infrastructure/infra08.png") { [ 242, 6488,  64,  31, -31,   0, ANIM] }
+base_graphics spr310( 310, "sprites/png/infrastructure/infra08.png") { [ 322, 6488,  64,  31, -31,   0, ANIM] }
 
 //311   316     6       Rail depot
 base_graphics spr311( 311, "sprites/png/infrastructure/infra08.png") { [ 434, 4952,  12,   8,  15,   6] }
