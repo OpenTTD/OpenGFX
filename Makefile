@@ -101,7 +101,7 @@ UNIX2DOS       ?= $(shell which unix2dos)
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version >/dev/null 2>&1 && echo "-q" || echo "")
 
 # Graphics processing
-GIMP           ?= gimp
+GIMP           ?= $(shell which gimp)
 GIMP_FLAGS     ?= -n -i
 
 # NML
