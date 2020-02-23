@@ -6,7 +6,6 @@ Makefile.vcs
 Makefile.gfx
 .version
 custom_tags.txt
-docs/readme.txt
 .nmlcache
 
 *.scm
