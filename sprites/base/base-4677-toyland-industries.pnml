@@ -26,7 +26,7 @@ base_graphics spr4692(4692, "sprites/png/industries/colawells.png") { [ 146,    
 base_graphics spr4693(4693, "sprites/png/industries/colawells.png") { [ 226,    8,  64,  38, -31,  -7] }
 
 //4694  4694    1       Toyland: Statue; Recolour: CREAM, PALE_GREEN, RED
-base_graphics spr4694(4694, "sprites/png/houses/toyland_statue_sprite270.png") { [   0,    0,  36,  80, -18, -55] }
+base_graphics spr4694(4694, "sprites/png/houses/toyland_statue_sprite270.png") { [   0,    0,  36,  80, -18, -55, ANIM] }
 
 //4695  4698    4       Toyland: Tea pot and piggy bank
 base_graphics spr4695(4695, "sprites/png/houses/toyland_wrappedhouses.png") { [ 402,  296,  64,  89, -31, -58] }
@@ -90,7 +90,7 @@ base_graphics spr4737(4737, "sprites/png/industries/fizzy-drink-4737-4742.png") 
 	[ 133,   10,  23,  68, -12,  -43]  // 2nd constr. stage: glass
 	[ 165,   49,  23,  29,   1,   -4]  // Sign
 	[ 197,   10,  64, 151, -21, -128]  // can with part of tap
-	[ 277,   10,  26,  78, -12,  -53]  // glass and tap
+	[ 277,   10,  26,  78, -12,  -53, ANIM]  // glass and tap
 }
 
 //4743  4762    20      Toyland: industries/Bubble generator
@@ -126,10 +126,10 @@ base_graphics spr4766(4766, "sprites/png/industries/toffee_quary.png") { [ 160, 
 base_graphics spr4767(4767, "sprites/png/industries/toffee_quary.png") { [   0,    0,  24,  25,  -8,  -8] }
 
 //4768  4789    22      Toyland: Sugar mine
-base_graphics spr4768(4768, "sprites/png/industries/sugarmine/bgstockpile.png") { [  32,    1,  64,  32, -32,   0] }
-base_graphics spr4769(4769, "sprites/png/industries/sugarmine/bgstockpile.png") { [  96,   16,  32,  32,   0,  -1] }
-base_graphics spr4770(4770, "sprites/png/industries/sugarmine/bgstockpile.png") { [   1,   16,  32,  32, -32,  -1] }
-base_graphics spr4771(4771, "sprites/png/industries/sugarmine/bgstockpile.png") { [  32,   32,  64,  32, -32,  -1] }
+base_graphics spr4768(4768, "sprites/png/industries/sugarmine/bgstockpile.png") { [  32,    1,  64,  32, -32,   0, ANIM] }
+base_graphics spr4769(4769, "sprites/png/industries/sugarmine/bgstockpile.png") { [  96,   16,  32,  32,   0,  -1, ANIM] }
+base_graphics spr4770(4770, "sprites/png/industries/sugarmine/bgstockpile.png") { [   1,   16,  32,  32, -32,  -1, ANIM] }
+base_graphics spr4771(4771, "sprites/png/industries/sugarmine/bgstockpile.png") { [  32,   32,  64,  32, -32,  -1, ANIM] }
 base_graphics spr4772(4772, "sprites/png/industries/sugarmine/Support.png") { [  78,    0,  13,  95,   0, -78] }
 base_graphics spr4773(4773, "sprites/png/industries/sugarmine/Support.png") { [  14,    0,  64, 106, -32, -94, NOCROP] }  // Don't crop this sprite!
 base_graphics spr4774(4774, "sprites/png/industries/sugarmine/Support.png") { [   0,    0,  14,  95, -13, -78] }
