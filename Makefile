@@ -32,6 +32,7 @@ SCRIPT_DIR          ?= scripts
 # Define the filenames of the grf and nml file. They must be in the main directoy
 GRF_FILES            ?= $(addsuffix .grf,$(BASE_FILENAME))
 NML_FILES            ?= $(addsuffix .nml,$(BASE_FILENAME))
+DEP_FILES            ?= $(addsuffix .grf.dep,$(BASE_FILENAME)) $(addsuffix .nml.dep,$(BASE_FILENAME))
 PNML_FILES           ?= $(addsuffix .pnml,$(BASE_FILENAME))
 DOC_FILES            ?= $(LICENSE_FILE) $(CHANGELOG_FILE) $(README_FILE)
 LNG_FILES            ?= lang/*.lng
@@ -73,7 +74,7 @@ all: bundle_tar
 
 FORCE:
 
--include *.dep
+-include $(DEP_FILES)
 
 
 ################################################################
@@ -185,6 +186,13 @@ Makefile.vcs: FORCE
 distclean:: clean
 maintainer-clean:: distclean
 
+clean::
+	$(_E) "[CLEAN DEP]"
+	$(_V)-rm -rf $(DEP_FILES)
+
+clean::
+	$(_E) "[CLEAN VCS]"
+	$(_V)-rm -f Makefile.vcs
 
 ################################################################
 #
@@ -324,6 +332,7 @@ clean::
 	$(_V)-rm -rf $(GRF_FILES).cache
 	$(_V)-rm -rf $(GRF_FILES).cacheindex
 	$(_V)-rm -rf .nmlcache
+	$(_V)-rm -rf custom_tags.txt
 
 maintainer-clean::
 	$(_E) "[MAINTAINER-CLEAN GRF]"
