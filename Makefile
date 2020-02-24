@@ -547,8 +547,20 @@ $(TAR_FILENAME_SRC): $(DIR_NAME_SRC)
 	$(_V) $(TAR) $(TAR_FLAGS) $@ $(DIR_NAME_SRC)
 
 bundle_bsrc: $(TAR_FILENAME_SRC).bz2
+%-source.tar.bz2: %-source.tar
+	$(_E) "[BUNDLE BZIP] $@"
+	$(_V) $(BZIP) $(BZIP_FLAGS) $^
+
 bundle_gsrc: $(TAR_FILENAME_SRC).gz
+# gzip has no option -k, so we cat the tar to keep it
+%-source.tar.gz: %-source.tar
+	$(_E) "[BUNDLE GZIP] $@"
+	$(_V) cat $^ | $(GZIP) $(GZIP_FLAGS) > $@
+
 bundle_xsrc: $(TAR_FILENAME_SRC).xz
+%-source.tar.xz: %-source.tar
+	$(_E) "[BUNDLE XZ] $@"
+	$(_V) $(XZ) $(XZ_FLAGS) $^
 
 bundle_zsrc: $(ZIP_FILENAME_SRC)
 $(ZIP_FILENAME_SRC): $(DIR_NAME_SRC)
