@@ -319,3 +319,11 @@ replacenew ottd_gui175(OTTD_GUI, "", 175) {
 	[   44,   0,  20,  20,   0,   0, "sprites/png/gui/group_liveries.png"]         // boat group livery icon
 	[   66,   0,  20,  20,   0,   0, "sprites/png/gui/group_liveries.png"]         // aircraft group livery icon
 }
+replacenew ottd_gui179(OTTD_GUI, "", 179) { [   0,  0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-build-tram.png"] } // global toolbar build tram
+alternative_sprites (ottd_gui179, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(626, 776, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui180(OTTD_GUI, "", 180) { [   0,  0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // road toolbar: convert road icon
+alternative_sprites (ottd_gui180, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(674, 776, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui181(OTTD_GUI, "", 181) { [  32,  0,  32,  32,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // cursor convert road
+replacenew ottd_gui182(OTTD_GUI, "", 182) { [  80,  0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // road toolbar: convert tram icon
+alternative_sprites (ottd_gui182, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722, 776, "sprites/png/gui/gui2x.png") }
+replacenew ottd_gui183(OTTD_GUI, "", 183) { [ 112,  0,  32,  32,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // cursor convert tram

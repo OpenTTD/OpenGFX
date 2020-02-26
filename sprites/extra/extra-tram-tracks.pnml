@@ -1,7 +1,13 @@
 // Tram tracks
-replacenew(TRAMWAY, "sprites/png/infrastructure/infra08.png") {
+replacenew ottd_tramway1(TRAMWAY, "sprites/png/infrastructure/infra08.png") {
 	[ 162, 6648,  20,  13,   0,   4]
 	[ 194, 6648,  20,  13,   0,   4]
+}
+alternative_sprites (ottd_tramway1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+    tmpl_gui2x_file_toolbar(194, 776, "sprites/png/gui/gui2x.png")
+    tmpl_gui2x_file_toolbar(242, 776, "sprites/png/gui/gui2x.png")
+}
+replacenew ottd_tramway2(TRAMWAY, "sprites/png/infrastructure/infra08.png", 2) {
 	[ 226, 6648,  64,  36, -18,  -8]
 	[ 306, 6648,  62,  36, -16,  -8]
 	[ 386, 6648,  64,  31, -31,   0]
@@ -113,4 +119,12 @@ replacenew(TRAMWAY, "sprites/png/infrastructure/infra08.png") {
 	[  82, 7416,  64,  23, -31,   0]
 	[ 162, 7416,  64,  23, -31,   0]
 	[ 242, 7416,  64,  39, -31,  -8]
+}
+replacenew ottd_tramway3(TRAMWAY, "sprites/png/infrastructure/tramtracks_bare_depot.png", 113) {
+    [   0,   0,  64,  31, -31,   0]
+    [  80,   0,  60,  64,   1, -49]
+    [ 158,   0,  64,  31, -31,   0]
+    [ 238,   0,  60,  64, -59, -49]
+    [ 318,   0,  60,  64, -59, -49]
+    [ 398,   0,  60,  64,   1, -49]
 }
