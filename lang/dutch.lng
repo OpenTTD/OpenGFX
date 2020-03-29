@@ -1,8 +1,8 @@
 ##grflangid 0x1f
 ##plural 0
-STR_GENERAL_DESC        :OpenGFX basisgraphicsset voor OpenTTD. Vrij verkrijgbaar onder de voorwaarden van de GNU General Public License versie 2. [{TITLE}]
+STR_GENERAL_DESC        :Basisset grafische elementen OpenGFX voor OpenTTD. Vrij beschikbaar onder de voorwaarden van de GNU General Public License versie 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX basisgraphicsset{}{BLACK}Gemaakt door het OpenGFX team{}Zie in de 'readme' voor een lijst mensen die meegewerkt heeft{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}Basisset grafische elementen OpenGFX{}{BLACK}Gemaakt door het OpenGFX-team{}Zie de 'readme' voor een lijst mensen die meegewerkt hebben{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
 
 STR_OPENTTD_VERSION     :1.2.0
