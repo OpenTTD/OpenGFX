@@ -13,6 +13,7 @@
   - 4.3 [Building OpenGFX](#43-building-opengfx)
   - 4.4 [Notes for package maintainers](#44-notes-for-package-maintainers)
   - 4.5 [Note on the xcf and psd files](#45-note-on-the-xcf-and-psd-files)
+  - 4.6 [Making an OpenGFX release](#46-making-an-opengfx-release)
 - 5.0 [License](#50-license)
 - 6.0 [Credits](#60-credits)
 
@@ -152,6 +153,19 @@ Given the usual case that you modify something within OpenGFX and want to test t
 ### 4.5 Note on the .xcf and .psd files
 
 The repository contains a few `.xcf2png` files which indicate which png files can be generated from the source `.xcf` or `.psd` files. This will only be used, if GIMP is found. Calling `maintainer-clean` will delete the png files which can be re-generated from a `.xcf` or `.psd` file.
+
+### 4.6 Making an OpenGFX release
+
+1. Check that all relevant PRs are approved and merged.
+2. Update the changelog.
+This is done manually, and commits are grouped by type.
+Example: https://github.com/OpenTTD/OpenGFX/blob/master/changelog.txt
+3. Decide what the version number will be.
+4. Publish a new release using the release tool in the Github project: https://github.com/OpenTTD/OpenGFX/releases/new
+5. GitHub Actions will build the release and publish to OpenTTD CDN.
+6. Ask TrueBrain to update the OpenGFX for NSIS Windows installer.
+7. Upload the release manually to BaNaNaS.
+The openttdcoop BaNaNaS account is usually used for this.
 
 ## 5.0 License
 
