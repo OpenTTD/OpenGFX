@@ -1,3 +1,41 @@
+OpenGFX 0.6.0 (29 Mar 2020)
+---------------------------
+- Change: add missing nrt gui sprites (#34)
+- Change: Improved road tunnel construction gui icons
+- Change: Mercurial to Git based versioning
+- Change: [Makefile] replace custom git-detection with 'findversion.sh' (#25)
+- Change: rename .hgignore to .gitignore (#12)
+- Change: also allow creating a source-tar via git (instead of Mercurial) (#20)
+- Change: Port readme.ptxt to README.md (#2)
+- Add: [Actions] publish on new tag (release) and every night (nightly) (#30)
+- Add: [Actions] test if the repository builds successful (#16)
+- Add: [Actions] validate commit messages comply with the OpenTTD standard (#15)
+- Add: [DorpsGek] announce issues, pull-requests, and tags to IRC (#10)
+- Fix: realsprites animated flag for various features, suppressing spurious warnings (#31)
+- Fix (h6f74041189f2): Sprite sizes and offset were partially wrong (Brumi)
+- Fix: readme.txt renamed to README.md (#2)
+- Fix: move files to locations other people expect them
+- Fix: convert README.md from \r\n to \n line-ending
+- Fix: minor markdown issues, mercurial -> git, and out-of-date URLs
+- Fix: location of LICENSE is now just that, and no longer license.txt (#18)
+- Fix: some misspelling in the credits section (#19)
+- Fix: Version generation was broken
+- Fix: postfix binary bundles with "-all", as they work on all systems (#32)
+- Fix: [Makefile] make more clear what custom_tags.txt is, also parsetab.py is no longer left behind by NML
+- Fix: [Makefile] autodetect if GIMP is installed (#23)
+- Fix: [Makefile] quoting broken in help target
+- Fix: [Makefile] when testing '-q' for unix2dos, ignore the stdout and stderr (#11)
+- Fix: [Makefile] overwrite the info from Makefile.vcs with latest if possible
+- Fix: [Makefile] make sure that filenames in the tarball are as OpenTTD expects (#24)
+- Fix: [Makefile] make sure 'make clean' cleans all generated files (#27)
+- Fix: [Makefile] tell the user he needs to install grfcodec if grfid is not found (#29)
+- Fix: [Makefile] make sure source bundles can be packed again (#35)
+- Remove: by switching to GitHub, the '.devzone' code is now obsolete (#33)
+- Remove: [Makefile] unix2dos is no longer used
+- Remove: [.gitignore] don't ignore things locally that should be ignored globally
+- Doc: add release instructions to readme
+
+
 OpenGFX 0.5.5 (21 Mar 2019)
 ---------------------------
 - Add: Sprites for group liveries
