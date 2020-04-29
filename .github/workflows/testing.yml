@@ -27,6 +27,7 @@ jobs:
       run: |
         set -e
 
+        sudo apt update
         sudo apt install -y gimp grfcodec --no-install-recommends
         python -m pip install --upgrade pip
         # TODO -- If nml has a new release (higher than 0.4.5), this can just be 'pip install nml'
