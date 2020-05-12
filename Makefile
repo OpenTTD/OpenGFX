@@ -639,17 +639,19 @@ endif
 	$(_E) "[INSTALL] to $(INSTALL_DIR)"
 	$(_V) install -d $(INSTALL_DIR)
 	$(_V) install -m644 $(GRF_FILES) $(OBG_FILENAME) $(INSTALL_DIR)
+# OpenTTD is very picky about how these next few files are are named, so make
+# sure they have the correct name after installation
 ifndef DO_NOT_INSTALL_LICENSE
 	$(_V) install -d $(DOCDIR)
-	$(_V) install -m644 $(LICENSE_FILE) $(DOCDIR)
+	$(_V) install -m644 $(LICENSE_FILE) $(DOCDIR)/license.txt
 endif
 ifndef DO_NOT_INSTALL_CHANGELOG
 	$(_V) install -d $(DOCDIR)
-	$(_V) install -m644 $(CHANGELOG_FILE) $(DOCDIR)
+	$(_V) install -m644 $(CHANGELOG_FILE) $(DOCDIR)/changelog.txt
 endif
 ifndef DO_NOT_INSTALL_README
 	$(_V) install -d $(DOCDIR)
-	$(_V) install -m644 $(README_FILE) $(DOCDIR)
+	$(_V) install -m644 $(README_FILE) $(DOCDIR)/readme.txt
 endif
 
 
