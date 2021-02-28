@@ -327,3 +327,11 @@ replacenew ottd_gui181(OTTD_GUI, "", 181) { [  32,  0,  32,  32,   0,   0, "spri
 replacenew ottd_gui182(OTTD_GUI, "", 182) { [  80,  0,  20,  20,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // road toolbar: convert tram icon
 alternative_sprites (ottd_gui182, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) { tmpl_gui2x_file_toolbar(722, 776, "sprites/png/gui/gui2x.png") }
 replacenew ottd_gui183(OTTD_GUI, "", 183) { [ 112,  0,  32,  32,   0,   0, "sprites/png/extra/extra-gui-convert-road-tram.png"] } // cursor convert tram
+replacenew ottd_gui184(OTTD_GUI, "", 184) {
+    [  4,  4,  10,  10,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // rename entity
+    [ 42,  4,  11,  10,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // go to location
+}
+alternative_sprites(ottd_gui184, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
+    [ 18,  4,  20,  20,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // rename entity
+    [ 58,  4,  22,  20,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // go to location
+}
