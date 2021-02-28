@@ -152,5 +152,5 @@ jobs:
       with:
         token: ${{ secrets.DEPLOYMENT_TOKEN }}
         repository: OpenTTD/workflows
-        event-type: update_cdn
+        event-type: update-cdn
         client-payload: '{"version": "${{ steps.vars.outputs.version }}", "folder": "${{ steps.vars.outputs.folder }}"}'
