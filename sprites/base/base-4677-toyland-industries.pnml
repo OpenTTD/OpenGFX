@@ -47,16 +47,16 @@ base_graphics spr4707(4707, "sprites/png/industries/ToyShop3.png") { [  33,    1
 
 //4708  4720    13      Toyland: Toy factory
 // construction stage:
-base_graphics spr4708(4708, "sprites/png/industries/toyfactory/ToyFactory2.png") { [ 158,    1,  27, 138, -14, -70] }
-base_graphics spr4709(4709, "sprites/png/industries/toyfactory/ToyFactory2.png") { [  94,    1,  64, 138, -46, -86] }
-base_graphics spr4710(4710, "sprites/png/industries/toyfactory/ToyFactory2.png") { [   2,    1,   2,   2,  52,  50] }
-base_graphics spr4711(4711, "sprites/png/industries/toyfactory/ToyFactory2.png") { [  38,    1,  60, 138, -38, -118] }
+base_graphics spr4708(4708, "sprites/png/industries/toyfactory/ToyFactory2.png") { [ 158,    1,  27, 138,  -4, -74] }
+base_graphics spr4709(4709, "sprites/png/industries/toyfactory/ToyFactory2.png") { [  94,    1,  64, 138, -36, -90] }
+base_graphics spr4710(4710, "sprites/png/industries/toyfactory/ToyFactory2.png") { [   2,    1,   2,   2,  62,  46] }
+base_graphics spr4711(4711, "sprites/png/industries/toyfactory/ToyFactory2.png") { [  38,    1,  60, 138, -28, -122] }
 // built-up version
-base_graphics spr4712(4712, "sprites/png/industries/toyfactory/ToyFactory1.png") { [ 158,   31,  27, 138, -14, -70] }
-base_graphics spr4713(4713, "sprites/png/industries/toyfactory/ToyFactory1.png") { [  94,    1,  64, 168, -46, -116, NOCROP] }
-base_graphics spr4714(4714, "sprites/png/industries/toyfactory/ToyFactory1.png") { [   2,   31,   2,   2,  52,  50] }
-base_graphics spr4715(4715, "sprites/png/industries/toyfactory/ToyFactory1.png") { [  38,   31,  60, 138, -38, -118] }
-base_graphics spr4716(4716, "sprites/png/industries/toyfactory/ToyFactory1.png") { [   2,   31,  37, 138, -43, -102] } // wheel
+base_graphics spr4712(4712, "sprites/png/industries/toyfactory/ToyFactory1.png") { [ 158,   31,  27, 138,  -4, -74] }
+base_graphics spr4713(4713, "sprites/png/industries/toyfactory/ToyFactory1.png") { [  94,    1,  64, 168, -36, -120, NOCROP] }
+base_graphics spr4714(4714, "sprites/png/industries/toyfactory/ToyFactory1.png") { [   2,   31,   2,   2,  62,  46] }
+base_graphics spr4715(4715, "sprites/png/industries/toyfactory/ToyFactory1.png") { [  38,   31,  60, 138, -28, -122] }
+base_graphics spr4716(4716, "sprites/png/industries/toyfactory/ToyFactory1.png") { [   2,   31,  37, 138, -33, -106] } // wheel
 // Animation sprites. All sprites are drawn as childsprites of 4713 with the specified offsets.
 // Requirements: 0 <= offset[4717..4720] + rel[4717..4720] and offset[4717..4720] + rel[4717..4720] + size[4717..4720] <= size[4713]
 base_graphics spr4717(4717, "sprites/png/industries/toyfactory/ToyFactoryOverlay.png") { [  98,    1,  60, 138,   4, -12] }
