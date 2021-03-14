@@ -31,6 +31,7 @@ jobs:
         FULL_VERSION=$(./findversion.sh)
         RELEASE_DATE=$(TZ='UTC' date +"%Y-%m-%d %H:%M UTC")
         VERSION=$(echo "${FULL_VERSION}" | cut -f 1 -d$'\t')
+        IS_TAG=$(echo "${FULL_VERSION}" | cut -f 5 -d$'\t')
 
         # If this secret is not set, we are doing a dryrun. This means that
         # people who fork this repository will not try to publish this to AWS
@@ -51,7 +52,10 @@ jobs:
           # is safe to assume we are newer.
           LATEST_VERSION=$(curl --fail -s https://cdn.openttd.org/${FOLDER}/latest.yaml | grep version | cut -d: -f2 | cut -b 2-)
 
-          if [ "${LATEST_VERSION}" = "${VERSION}" ]; then
+          if [ "${IS_TAG}" = "1" ]; then
+            echo "Run on schedule; going to skip this run, last change was released"
+            SKIP="true"
+          elif [ "${LATEST_VERSION}" = "${VERSION}" ]; then
             echo "Run on schedule; going to skip this run, as we already build this version"
             SKIP="true"
           elif [ "${DRY_RUN}" = "true" ]; then
