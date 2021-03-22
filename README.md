@@ -248,38 +248,6 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Ammler            | Marcel Gmür           |
 | 2006TTD           | Anthony Lam           |
 
-| Language              | Name                  |
-| --------------------- | --------------------- |
-| Afrikaans             | telanus               |
-| Catalan               | juanjo                |
-| Chinese (simplified)  | sui238X, xiangyigao   |
-| Chinese (traditional) | sui238X, xiangyigao   |
-| Croatian              | Voyager1              |
-| Czech                 | alfergen              |
-| Dutch                 | Alberth               |
-| English (US)          | Supercheese           |
-| Finnish               | juzza1, alluke        |
-| French                | arikover              |
-| German                | planetmaker, Czeczki  |
-| Hungarian             | zaza, Czeczki         |
-| Indonesian            | UseYourIllusion       |
-| Italian               | Voyager1              |
-| Japanese              | HawkEye1015           |
-| Korean                | Telk                  |
-| Latin                 | Supercheese           |
-| Lithuanian            | Stabilitronas         |
-| Luxembourgish         | Phreeze               |
-| Norwegian (bokmal)    | Trond, Leifbk         |
-| Polish                | TadeuszD              |
-| Portuguese            | vesgo                 |
-| Russian               | George                |
-| Scottish Gaelic       | GunChleoc             |
-| Serbian               | stravagante           |
-| Slovak                | Tenebrae              |
-| Spanish               | SilverSurferZzZ       |
-| Swedish               | Zuu, Pekkape01        |
-| Tamil                 | Aswn                  |
-
 - The monospaced characters are generated from the font Liberation Mono: https://www.redhat.com/promo/fonts/ created by Pravin Satpute and Caius Chance, released under GPL v2.
 
 Contact: `planetmaker@openttd.org` or on `irc.oftc.net/#openttd`
