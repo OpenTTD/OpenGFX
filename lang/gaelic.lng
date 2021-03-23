@@ -6,5 +6,3 @@ STR_GENERAL_DESC        :Seata grafaigeachd OpenGFX bunasach airson OpenTTD. Tha
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Seata grafaigeachd bunasach OpenGFX{BLACK}{}'Ga thoirt leat leis an sgioba OpenGFX{}Thoir sùil air an fhaidhle leughmi airson liosta dhe na daoine a chuir ris{}{BLACK}Ceadachas: {SILVER}GPL v2+{}{BLACK}Làrach-lìn: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

@@ -4,5 +4,3 @@ STR_GENERAL_DESC        :Basisset grafische elementen OpenGFX voor OpenTTD. Vrij
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Basisset grafische elementen OpenGFX{}{BLACK}Gemaakt door het OpenGFX-team{}Zie de 'readme' voor een lijst mensen die meegewerkt hebben{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

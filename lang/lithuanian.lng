@@ -6,5 +6,3 @@ STR_GENERAL_DESC        :OpenGFX yra bazinis grafikos failų rinkinys, skirtas O
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Grafikos rinkinys OpenGFX{BLACK}{}Sukurtas jums OpenGFX komandos{}Talkininkų sąrašą rasite faile „readme“{}{BLACK}Licencija: {SILVER}GPL v2+{}{BLACK}Interneto svetainė: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

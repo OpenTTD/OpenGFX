@@ -4,5 +4,3 @@ STR_GENERAL_DESC        :OpenGFX Basisgrafikset fir OpenTTD. Gratis ënnert der 
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Basisgrafikset{BLACK}{}Offréiert vum OpenGFX Team{}Lies d'Readme fir eng Lëscht vun den Leit déi matgeschafft hunn{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

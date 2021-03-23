@@ -5,5 +5,3 @@ STR_GENERAL_DESC        :OpenGFX grafikus alapcsomag az OpenTTD-hez. Ingyenesen 
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Az OpenGFX csapat jóvoltából.}Nézt meg a readme-t a teljes stáblistához.{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Honlap: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

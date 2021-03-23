@@ -6,5 +6,3 @@ STR_GENERAL_DESC        :OpenGFX представляет собой базов�
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{} разработан OpenGFX team{}Состав учасников группы указан в readme{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Адрес: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

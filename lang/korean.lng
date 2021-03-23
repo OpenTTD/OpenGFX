@@ -5,5 +5,3 @@ STR_GENERAL_DESC        :OpenTTD용 OpenGFX 기본 그래픽 세트입니다. GN
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX 기본 그래픽 세트{BLACK}{}OpenGFX 팀 제공{}참가자 목록을 보려면 읽어보기 파일을 참고하세요.{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

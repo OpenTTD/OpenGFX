@@ -6,5 +6,3 @@ STR_GENERAL_DESC        :OpenGFX, základná sada grafiky pre OpenTTD. Voľne do
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Základny Grafický Set{BLACK}{}Prináša vám tím OpenGFX{}Pozri readme pre zoznam prispievateľov{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Webstránka: {SILVER}http://dev.openttdcoop.org/projects/opengfx (v jazyku angličtina).
-
-STR_OPENTTD_VERSION     :1.2.0

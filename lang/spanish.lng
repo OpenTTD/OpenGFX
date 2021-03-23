@@ -5,5 +5,3 @@ STR_GENERAL_DESC        :OpenGFX es un conjunto de gráficos base para OpenTTD. 
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Creado para tí, de la mano del equipo de OpenGFX{}Consulta el léeme para ver la lista completa de contribuidores al proyecto{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0

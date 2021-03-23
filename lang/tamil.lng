@@ -4,5 +4,3 @@ STR_GENERAL_DESC        :OpenGFX OpenTTD இற்கு அடிப்பட�
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX அசைவூட்டத் தொகுப்பு{BLACK}{}OpenGFX குழுவினரால் உருவாக்கப்பட்டது{}பங்களிப்பளர்கள் பற்றி அறிய readme இனை பார்க்கவும்{}{BLACK}அனுமதி: {SILVER}GPL v2+{}{BLACK}இணையதளம்: {SILVER}http://dev.openttdcoop.org/projects/opengfx
-
-STR_OPENTTD_VERSION     :1.2.0
