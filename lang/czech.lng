@@ -5,4 +5,4 @@
 STR_GENERAL_DESC        :Základní sada grafik pro OpenTTD. Volně dostupné pod licencí GNU General Public License verze 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}Základní sada grafik OpenGFX{BLACK}{}Vytvořeno týmem OpenGFX{}Seznam všech přispěvatelů je dostupný v readme{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}Základní sada grafik OpenGFX{BLACK}{}Vytvořeno týmem OpenGFX{}Seznam všech přispěvatelů je dostupný v readme{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX

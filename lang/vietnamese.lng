@@ -3,4 +3,4 @@
 STR_GENERAL_DESC        :Gói đồ họa nền tảng OpenGFX dùng cho OpenTTD. Được phát hành miễn phí dưới giấy phép GNU General Public License phiên bản 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}Gói đồ họa nền tảng OpenGFX{BLACK}{}Xây dựng bởi nhóm OpenGFX{}Xem readme để biết các cá nhân đóng góp cho dự án{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}Gói đồ họa nền tảng OpenGFX{BLACK}{}Xây dựng bởi nhóm OpenGFX{}Xem readme để biết các cá nhân đóng góp cho dự án{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX
