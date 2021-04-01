@@ -1,4 +1,13 @@
+OpenGFX 0.6.1 (01 Apr 2021)
+---------------------------
+- Add: GUI sprites for OpenTTD 1.11
+- Change: New Arctic hotel design (supermop)
+- Fix: Correct offsets for toy factory
+
+
+
 OpenGFX 0.6.0 (29 Mar 2020)
+---------------------------
 - Add: NRT GUI sprites (#34)
 - Change: Improved road tunnel construction GUI icons
 - Change: hg -> git conversion
@@ -6,15 +15,19 @@ OpenGFX 0.6.0 (29 Mar 2020)
 - Fix: Sprite sizes and offsets were partially wrong (Brumi)
 - Update translations: Dutch
 
+
+
 OpenGFX 0.5.5 (21 Mar 2019)
 ---------------------------
 - Add: Sprites for group liveries
 - Update translations: Czech, German, Hungarian, Japanese, Norwegian (bokmal), Russian, Serbian, Slovak, Swedish, Tamil
 
 
+
 OpenGFX 0.5.4 (07 Jan 2016)
 ---------------------------
 - Update translations: Chinese (traditional and simplified), Finnish, French
+
 
 
 OpenGFX 0.5.3 (13 Sep 2015)
