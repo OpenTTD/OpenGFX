@@ -198,6 +198,7 @@ OpenGFX is created by the following people (in reverse alphabetical order):
 | Varivar           | N/A                   |
 | V453000           | Vaclav Benc           |
 | uzurpator         | N/A                   |
+| supermop          | N/A                   |
 | Spaz O Mataz      | N/A                   |
 | Soeb              | Stanislaw Gackowski   |
 | Snail             | Jacopo Coletto        |
