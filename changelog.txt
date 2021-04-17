@@ -592,7 +592,7 @@ OpenGFX 0.1.0-alpha4.1 (08 Jan. 2009)
 
 
 
-OpenGFX 0.1.0-alpha4 (03 Jan. 200)
+OpenGFX 0.1.0-alpha4 (03 Jan. 2009)
 -------------------------------------------
 - Feature: Bold typeface/missing characters
 - Feature: Lots of toyland graphics
