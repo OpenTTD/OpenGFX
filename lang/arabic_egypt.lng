@@ -2,3 +2,5 @@
 ##plural 1
 STR_GENERAL_DESC        :OpenGFX مجموعة الرسوميات الاساسية لـOpenTTD. متاحة مجانا تحت نظام النسخة الثانية من الرخص الشعبية العامة GNU . للاطلاع اكثر http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE} OpenGFX مجموعة الرسوميات الاساسية {BLACK}{} مقدّمة لكم من طرف فريق OpenGFX{} لرؤية قائمة المساهمين تفد ملف readme المرفق{}{BLACK} الرخصة :{SILVER}+GPL v2، و{}{BLACK} الموقع الرسمي : {SILVER}https://github.com/OpenTTD/OpenGFX
