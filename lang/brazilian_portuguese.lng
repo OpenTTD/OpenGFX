@@ -1,0 +1,7 @@
+##grflangid 0x37
+##plural 2
+##gender m f
+STR_GENERAL_DESC        :Conjunto de gráficos base OpenGFX para OpenTTD. Disponível gratuitamente dentro dos termos da GNU General Public License versão 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Conjunto de gráficos base OpenGFX{BLACK}{}Trazido a você pela equipe OpenGFX{}Ver arquivo readme para uma lista dos contribuidores{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX
