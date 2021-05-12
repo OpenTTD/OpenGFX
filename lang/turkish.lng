@@ -3,3 +3,5 @@
 ##case tamlanan
 STR_GENERAL_DESC        :OpenTTD için OpenGFX temel grafik seti. GNU Genel Kamu Lisansı sürüm 2 maddeleri kapsamında serbestçe edinilebilir. Daha fazla bilgi için http://wiki.openttd.org/OpenGFX_Readme adresindeki benioku dosyasına bakınız. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Temel Grafik Seti{BLACK}{}Size OpenGFX takımı tarafından getirildi{}Katkıda bulunanların tam listesi için readme'ye bakınız{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}İnternet Sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX
