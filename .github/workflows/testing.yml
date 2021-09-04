@@ -31,6 +31,11 @@ jobs:
         sudo apt install -y gimp grfcodec --no-install-recommends
         python -m pip install --upgrade pip
         python -m pip install nml
+    - name: Install NML problem matcher
+      run: |
+        set -e
+
+        echo "::add-matcher::.github/workflows/nml-problem-matcher.json"
     - name: Build
       run: |
         set -e
