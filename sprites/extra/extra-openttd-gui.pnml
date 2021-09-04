@@ -335,3 +335,10 @@ alternative_sprites(ottd_gui184, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {
     [ 18,  4,  20,  20,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // rename entity
     [ 58,  4,  22,  20,   0,   0, NOCROP, "sprites/png/extra/extra-gui-window-icons.png"] // go to location
 }
+replacenew ottd_gui186(OTTD_GUI, "", 186) {
+	[    0,  0,  12,  10,   0,   0, "sprites/png/gui/network.png"]         // network chat icon
+	[   22,  0,  12,  10,   0,   0, "sprites/png/gui/network.png"]         // network settings icon
+	[   44,  0,  12,  10,   0,   0, "sprites/png/gui/network.png"]         // network join icon
+	[   66,  0,  10,  10,   0,   0, "sprites/png/gui/network.png"]         // network player icon
+	[   86,  0,  10,  10,   0,   0, "sprites/png/gui/network.png"]         // network crown icon
+}
