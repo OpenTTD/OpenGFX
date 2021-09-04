@@ -42,3 +42,16 @@ jobs:
 
         make maintainer-clean
         make bundle_tar bundle_src
+
+  check_annotations:
+    name: Check Annotations
+    needs:
+    - build
+
+    if: always() && github.event_name == 'pull_request'
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check annotations
+      uses: OpenTTD/actions/annotation-check@v2
