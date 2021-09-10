@@ -2,9 +2,9 @@
 ##plural 3
 ##gender m f
 ##case kas
-STR_GENERAL_DESC.kas    :OpenGFX bāzes grafikas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar GNU vispārējās publiskās licences 2. versijas noteikumiem. [{TITLE}]
 STR_GENERAL_DESC        :OpenGFX bāzes grafikas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar GNU vispārējās publiskās licences 2. versijas noteikumiem. [{TITLE}]
+STR_GENERAL_DESC.kas    :OpenGFX bāzes grafikas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar GNU vispārējās publiskās licences 2. versijas noteikumiem. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION.kas :Satus: Izlaists
 STR_GRF_DESCRIPTION     :{ORANGE} OpenGFX bāzes grafikas komplekts {BLACK}{} OpenGFX izlaida{} Skatiet līdzautoru sarakstu Readme failā{} {BLACK} Licence: {SILVER} GPL v2+{} {BLACK} Vietne: {SILVER} https://github.com/OpenTTD/OpenGFX
+STR_GRF_DESCRIPTION.kas :Satus: Izlaists
