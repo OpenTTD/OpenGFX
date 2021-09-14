@@ -28,7 +28,7 @@ function get_langline() {
 		"0x14" ) langcode="ar_EG";;
 		"0x15" ) langcode="cs_CZ";;
 		"0x16" ) langcode="sk_SK";;
-		#0x17
+		"0x17" ) langcode="hi_IN";;
 		"0x18" ) langcode="bg_BG";;
 		#0x19
 		#0x1a
@@ -76,7 +76,7 @@ function get_langline() {
 		# |
 		#0x53
 		"0x54" ) langcode="vi_VN";;
-		#0x55
+		"0x55" ) langcode="es_MX";;
 		"0x56" ) langcode="zh_CN";;
 		#0x57
 		#0x58
@@ -89,6 +89,10 @@ function get_langline() {
 		#0x60
 		"0x61" ) langcode="he_IL";;
 		"0x62" ) langcode="fa_IR";;
+		#0x63
+		#0x64
+		#0x65
+		"0x66" ) langcode="la_VA";;
 	esac
 
 	# special treatment for the default language, en_GB
