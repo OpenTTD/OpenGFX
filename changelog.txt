@@ -1,3 +1,10 @@
+OpenGFX 7.1 (25 Sep 2021)
+-------------------------
+- Fix: [Makefile] Don't generate broken OBG
+- Fix: Remove animated pixels from snowy arctic NE riverbanks
+
+
+
 OpenGFX 7.0 (12 Sep 2021)
 -------------------------
 - Add: GUI sprites for OpenTTD 12.0
