@@ -1,0 +1,8 @@
+##grflangid 0x33
+##plural 6
+##gender s mn f m
+##case r d z
+STR_GENERAL_DESC        :OpenGFX -- базова графіка для OpenTTD. Вільно доступна за умовами GNU General Public License version 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Базова графіка OpenGFX{BLACK}{}Створена командою OpenGFX{}Список учасників у файлі readme{}{BLACK}Ліцензія: {SILVER}GPL v2+{}{BLACK}Вебсайт: {SILVER}https://github.com/OpenTTD/OpenGFX

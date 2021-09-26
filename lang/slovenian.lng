@@ -3,3 +3,5 @@
 ##case r d t
 STR_GENERAL_DESC        :Temeljni OpenGFX grafični paket za OpenTTD. Na voljo zastonj pod licenco GNU General Public License verzija 2. Več informacij na voljo na http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Temeljni OpenGFX grafični paket{BLACK}{}Prinesla vam ga je skupina OpenGFX{}Seznam sodelujočih si oglejte v readme{}{BLACK}Licenca: {SILVER}GPL v2+{}{BLACK}Spletna stran: {SILVER}https://github.com/OpenTTD/OpenGFX
