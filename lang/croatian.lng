@@ -5,4 +5,4 @@
 STR_GENERAL_DESC        :OpenGFX osnovni grafički paket za OpenTTD. Dostupan besplatno pod uvjetima GNU General Public License verzija 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Osnovni grafički set{BLACK}{}Predstavljen vam od OpenGFX tima{}Pogledajte readme za listu for a list suradnika{}{BLACK}Licenca: {SILVER}GPL v2+{}{BLACK}Web stranica: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Osnovni grafički set{BLACK}{}Predstavljen vam od OpenGFX tima{}Pogledajte readme za popis suradnika{}{BLACK}Licenca: {SILVER}GPL v2+{}{BLACK}Web stranica: {SILVER}https://github.com/OpenTTD/OpenGFX
