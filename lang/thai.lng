@@ -1,6 +1,6 @@
 ##grflangid 0x42
 ##plural 1
-STR_GENERAL_DESC        :OpenTTD ใช้กราฟฟิกส์ OpenGFX. ที่ฟรี และอยู่ภายไต้ลิขสิทธิ์ GNU General Public License เวอร์ชั่น2. [{TITLE}]
+STR_GENERAL_DESC        :OpenGFX เป็นระบบกราฟิกที่สร้างขึ้นมาสำหรับ OpenTTD ที่สามารถใช้ได้ฟรี อยู่ภายใต้ลิขสิทธิ์ GNU General Public License เวอร์ชั่น 2 [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}ชุดกราฟิกส์ OpenGFX{BLACK}{}สร้างขึ้นโดยทีม OpenGFX{}คุณสามารถอ่าน README เพื่อดูรายชื่อนักพัฒนาได้.{}{BLACK}ลิขสิทธิ์: {SILVER}GPL v2+{}{BLACK}เว็บไซต์: {SILVER}https://github.com/OpenTTD/OpenGFX
+STR_GRF_DESCRIPTION     :{ORANGE}ชุดกราฟิก OpenGFX{BLACK}{} สร้างขึ้นโดยทีม OpenGFX{}คุณสามารถอ่าน readme เพื่อดูรายชื่อนักพัฒนาได้.{}{BLACK}ลิขสิทธิ์: {SILVER}GPL v2+{}{BLACK}เว็บไซต์: {SILVER}https://github.com/OpenTTD/OpenGFX
