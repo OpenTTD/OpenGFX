@@ -2,4 +2,7 @@
 ##plural 6
 ##gender p n m f
 ##case acc nom pre f abl m n dat p gen
+STR_GENERAL_DESC        :OpenGFX уяўляе сабою базавы набор графікі для OpenTTD. Вольна распаўсюджваецца ў адпаведнасці з ліцэнзіяй GNU General Public License version 2. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{} распрацаваны OpenGFX team{}Склад удзельнікаў групы паказаны ў readme{}{BLACK}Ліцэнзія: {SILVER}GPL v2+{}{BLACK}Адрас: {SILVER}https://github.com/OpenTTD/OpenGFX
