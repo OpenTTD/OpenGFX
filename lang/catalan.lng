@@ -4,4 +4,4 @@
 STR_GENERAL_DESC        :Joc de gràfics base OpenGFX per a l'OpenTTD. Disponible lliurement sota els termes de la GNU General Public License versió 2. [{TITLE}]
 
 STR_GRF_NAME            : {TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}Joc de gràfics base OpenGFX{BLACK}{}Disponible gràcies a l'equip de l'OpenGFX{}Per veure la llista de col·laboradors, vegeu el fitxer "readme.txt".{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}Joc de gràfics base OpenGFX{BLACK}{}Disponible gràcies a l'equip de l'OpenGFX{}Veure "readme" per veure la llista sencera de col·laboradors{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}http://dev.openttdcoop.org/projects/opengfx

@@ -4,4 +4,4 @@
 STR_GENERAL_DESC        :OpenGFX-Basisgrafikset für OpenTTD. Frei verfügbar unter der GNU General Public License in der Version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX-Basisgrafikset{BLACK}{}Vom OpenGFX-Team{}Die Liste der Autoren befindet sich in der Readme-Datei{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Webseite: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX-Basisgrafikset{BLACK}{}Vom OpenGFX-Team{}Die Liste der Autoren befindet sich in der Readme-Datei{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Webseite: {SILVER}https://github.com/OpenTTD/OpenGFX

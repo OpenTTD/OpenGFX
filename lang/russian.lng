@@ -5,4 +5,4 @@
 STR_GENERAL_DESC        :OpenGFX представляет собой базовый набор графики для OpenTTD. Свободно распространяется в соответствии с лицензией GNU General Public License version 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{} разработан OpenGFX team{}Состав учасников группы указан в readme{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Адрес: {SILVER}https://github.com/OpenTTD/OpenGFX
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{} разработан OpenGFX team{}Состав участников группы указан в readme{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Адрес: {SILVER}https://github.com/OpenTTD/OpenGFX

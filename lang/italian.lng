@@ -2,7 +2,7 @@
 ##plural 0
 ##gender ma m f
 ##case fp fs mp ms
-STR_GENERAL_DESC        :Pacchetto grafico di base OpenGFX per OpenTTD. Liberamente disponibile secondo i termini della GNU General Public License version 2. [{TITLE}]
+STR_GENERAL_DESC        :Pacchetto grafico di base OpenGFX per OpenTTD. Liberamente disponibile secondo i termini della GNU General Public License versione 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
 STR_GRF_DESCRIPTION     :{ORANGE}Pacchetto grafico di base OpenGFX{BLACK}{}Sviluppato dal team OpenGFX{}Per l'elenco completo dei riconoscimenti, vedasi "readme.txt"{}{BLACK}Licenza: {SILVER}GPLv2 (o successive){}{BLACK}Sito web: {SILVER}https://dev.openttdcoop.org/projects/opengfx
