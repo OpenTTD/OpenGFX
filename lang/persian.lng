@@ -1,0 +1,6 @@
+##grflangid 0x62
+##plural 0
+STR_GENERAL_DESC        :ست گرافیکی OpenGFX برای OpenTTD. قابل استفاده به صورت رایگان تحت ضوابط GNU GPL2.  [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}ست گرافیکی OpenGFX{BLACK}{}تهیه شده توسط تیم OpenGFX{}برای مشاهده لیست مشارکت کنندگان به فایل readme مراجعه کنید{}{BLACK}کپی رایت: {SILVER}GPL v2+{}{BLACK}وبسایت: {SILVER}https://github.com/OpenTTD/OpenGFX
