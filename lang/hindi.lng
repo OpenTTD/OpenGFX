@@ -1,0 +1,6 @@
+##grflangid 0x17
+##plural 0
+STR_GENERAL_DESC        :ओपनटीडी के लिए ओपनजीएफएक्स बेस ग्राफिक्स सेट । जीएनयू जनरल पब्लिक लाइसेंस संस्करण 2 की शर्तों के तहत स्वतंत्र रूप से उपलब्ध है । [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}ओपनजीएफएक्स बेस ग्राफिक्स सेट {BLACK}{} ओपनजीएफएक्स टीम द्वारा आपके लिए लाया गया{} योगदानकर्ताओं की सूची के लिए रीडमी देखें{} {BLACK}लाइसेंस: {SILVER}जीपीएल वी 2 +{} {BLACK}वेबसाइट: {SILVER}https://github.com/OpenTTD/OpenGFX
