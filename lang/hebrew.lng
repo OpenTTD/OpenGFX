@@ -1,0 +1,8 @@
+##grflangid 0x61
+##plural 0
+##gender m f
+##case gen plural singular
+STR_GENERAL_DESC        :OpenGFX ערכת גרפיקה בסיסית לOpenTTD.בחינם תחת רשיון GPL2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :ערכה גרפיקה בסיסית {ORANGE}OpenGFX, הובאה לכם על ידי צוות  OpenGFX team{}תסתכלו בreadme לרשימת תורמיםרשיון: {SILVER}GPL V2+{}אתר: {SILVER}https://github.com/OpenTTD/OpenGFX
