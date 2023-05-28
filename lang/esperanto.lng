@@ -1,0 +1,7 @@
+##grflangid 0x05
+##plural 0
+##case n
+STR_GENERAL_DESC        :OpenGFX baza grafikaro por OpenTTD. Libere uzebla laŭ la kondiĉoj de la Ĝenerala Publika Permesilo de GNU (GPL) versio 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Baza Grafikaro{BLACK}{}Preparita de la OpenGFX-teamo{}Vidu "readme" por listo de kontribuintoj{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX
