@@ -5,41 +5,46 @@ on:
     branches:
     - master
   pull_request:
+    branches:
+    - master
+
+concurrency:
+  group: testing-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
 
 jobs:
   build:
     name: Build OpenGFX
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Checkout tags
-      uses: openttd/actions/checkout@v1
-      with:
-        with-tags: true
+
     - name: Set up Python 3.8
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.8
-    - name: Install dependencies
-      run: |
-        set -e
 
+    - name: Install dependencies
+      shell: bash
+      run: |
         sudo apt update
         sudo apt install -y gimp grfcodec --no-install-recommends
+
         python -m pip install --upgrade pip
         python -m pip install nml
+
     - name: Install NML problem matcher
+      shell: bash
       run: |
-        set -e
-
         echo "::add-matcher::.github/workflows/nml-problem-matcher.json"
-    - name: Build
-      run: |
-        set -e
 
+    - name: Build
+      shell: bash
+      run: |
         make maintainer-clean
         make bundle_tar bundle_src
 
@@ -54,4 +59,4 @@ jobs:
 
     steps:
     - name: Check annotations
-      uses: OpenTTD/actions/annotation-check@v2
+      uses: OpenTTD/actions/annotation-check@v4

@@ -2,6 +2,8 @@ name: Commit checker
 
 on:
   pull_request:
+    branches:
+    - master
 
 jobs:
   commit-checker:
@@ -10,12 +12,12 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         fetch-depth: 4
 
     - name: Get pull-request commits
-      uses: OpenTTD/actions/checkout-pull-request@v2
+      uses: OpenTTD/actions/checkout-pull-request@v4
 
     - name: Check commits
       uses: OpenTTD/OpenTTD-git-hooks@main
