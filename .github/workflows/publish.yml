@@ -1,11 +1,16 @@
 name: Publish binaries
 
 on:
-  push:
-    tags:
-    - '*'
+  release:
+    types:
+    - published
   schedule:
   - cron: '0 21 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
   publish_binaries:
@@ -14,20 +19,14 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         fetch-depth: 0
 
-    - name: Checkout tags
-      uses: openttd/actions/checkout@v1
-      with:
-        with-tags: true
-
     - name: Set variables
+      shell: bash
       id: vars
       run: |
-        set -e
-
         FULL_VERSION=$(./findversion.sh)
         RELEASE_DATE=$(TZ='UTC' date +"%Y-%m-%d %H:%M UTC")
         VERSION=$(echo "${FULL_VERSION}" | cut -f 1 -d$'\t')
@@ -71,11 +70,11 @@ jobs:
           SKIP="false"
         fi
 
-        echo "::set-output name=release-date::${RELEASE_DATE}"
-        echo "::set-output name=version::${VERSION}"
-        echo "::set-output name=folder::${FOLDER}"
-        echo "::set-output name=dry-run::${DRY_RUN}"
-        echo "::set-output name=skip::${SKIP}"
+        echo "release-date=${RELEASE_DATE}" >> $GITHUB_OUTPUT
+        echo "version=${VERSION}" >> $GITHUB_OUTPUT
+        echo "folder=${FOLDER}" >> $GITHUB_OUTPUT
+        echo "dry-run=${DRY_RUN}" >> $GITHUB_OUTPUT
+        echo "skip=${SKIP}" >> $GITHUB_OUTPUT
 
         echo "Release-date: ${RELEASE_DATE}"
         echo "Version: ${VERSION}"
@@ -85,25 +84,24 @@ jobs:
 
     - if: steps.vars.outputs.skip == 'false'
       name: Set up Python 3.8
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.8
 
     - if: steps.vars.outputs.skip == 'false'
       name: Install dependencies
+      shell: bash
       run: |
-        set -e
-
         sudo apt update
         sudo apt install -y gimp grfcodec --no-install-recommends
+
         python -m pip install --upgrade pip
         python -m pip install nml
 
     - if: steps.vars.outputs.skip == 'false'
       name: Build
+      shell: bash
       run: |
-        set -e
-
         make maintainer-clean
         make bundle_zip bundle_xsrc
 
@@ -114,9 +112,8 @@ jobs:
 
     - if: steps.vars.outputs.skip == 'false'
       name: Create checksums
+      shell: bash
       run: |
-        set -e
-
         cd bundles
         for i in $(ls); do
           openssl dgst -r -md5 -hex $i > $i.md5sum
@@ -129,9 +126,8 @@ jobs:
 
     - if: steps.vars.outputs.skip == 'false'
       name: Prepare bundles folder
+      shell: bash
       run: |
-        set -e
-
         echo "${{ steps.vars.outputs.release-date }}" > bundles/released.txt
         cp README.md bundles/
         cp changelog.txt bundles/
@@ -142,9 +138,8 @@ jobs:
     - if: steps.vars.outputs.dry-run == 'false' && steps.vars.outputs.skip == 'false'
       name: Publish
       id: publish
+      shell: bash
       run: |
-        set -e
-
         aws s3 cp --recursive --only-show-errors bundles/ s3://${{ secrets.CDN_S3_BUCKET }}/${{ steps.vars.outputs.folder }}/${{ steps.vars.outputs.version }}/
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
