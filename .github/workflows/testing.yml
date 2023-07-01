@@ -8,55 +8,12 @@ on:
     branches:
     - master
 
-concurrency:
-  group: testing-${{ github.ref }}
-  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
-
 jobs:
-  build:
-    name: Build OpenGFX
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.8
-
-    - name: Install dependencies
-      shell: bash
-      run: |
-        sudo apt update
-        sudo apt install -y gimp grfcodec --no-install-recommends
-
-        python -m pip install --upgrade pip
-        python -m pip install nml
-
-    - name: Install NML problem matcher
-      shell: bash
-      run: |
-        echo "::add-matcher::.github/workflows/nml-problem-matcher.json"
-
-    - name: Build
-      shell: bash
-      run: |
-        make maintainer-clean
-        make bundle_tar bundle_src
-
-  check_annotations:
-    name: Check Annotations
-    needs:
-    - build
-
-    if: always() && github.event_name == 'pull_request'
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Check annotations
-      uses: OpenTTD/actions/annotation-check@v4
+  testing:
+    name: Testing
+    uses: OpenTTD/actions/.github/workflows/rw-entry-testing-baseset.yml@v4
+    with:
+      apt-packages: gimp grfcodec
+      name: opengfx
+      pip-packages: nml
+      problem-matcher: .github/workflows/nml-problem-matcher.json
