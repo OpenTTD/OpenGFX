@@ -3,3 +3,5 @@
 ##case sü g in
 STR_GENERAL_DESC        :OpenGFX alusgraafika OpenTTD tarvis. Vabalt saadaval GNU Üldise Avaliku Litsentsi versioon 2 alusel. Lisainfo leiad aadressilt http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
 
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX alusgraafika{BLACK}{}Toodud teile OpenGFX meeskonna poolt{}Vaata panustajaid "loe mind" failist{}{BLACK}Litsents: {SILVER}GPL v2+{}{BLACK}Veebileht: {SILVER}https://github.com/OpenTTD/OpenGFX
