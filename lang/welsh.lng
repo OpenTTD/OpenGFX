@@ -1,0 +1,6 @@
+##grflangid 0x0f
+##plural 0
+STR_GENERAL_DESC        :Set graffeg sylfaen OpenGFX ar gyfer OpenTTD. Ar gael yn rhydd o dan termau'r Trwydded Gyhoeddus Gyffredinol GNU fersiwn 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}Set Graffeg Sylfaen OpenGFX{BLACK}{}Darperir gan y tîm OpenGFX{}Gweler y readme ar gyfer rhestr llawn o gyfranogwyr{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX
