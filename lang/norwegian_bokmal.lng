@@ -5,4 +5,4 @@
 STR_GENERAL_DESC        :OpenGFX grafikksett for OpenTTD. Fritt tilgjengelig under betingelsene i GNU General Public License versjon 2.[{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX grafikksett{BLACK}{}Brakt til deg av OpenGFX teamet{}Se readme for en liste over samarbeidspartnere{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Webside: {SILVER}http://dev.openttdcoop.org/projects/opengfx
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX grafikksett{BLACK}{}Brakt til deg av OpenGFX teamet{}Se readme for en liste over samarbeidspartnere{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Webside: {SILVER}https://github.com/OpenTTD/OpenGFX
