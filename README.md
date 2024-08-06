@@ -103,7 +103,7 @@ Prerequisites to building OpenGFX:
 
 - gcc (the pre-processor is needed)
 - [NML 0.5+](https://github.com/OpenTTD/nml)
-- grfid from the [grfcodec package](http://www.openttd.org/download-grfcodec)
+- grfid from the [grfcodec package](https://www.openttd.org/downloads/grfcodec-releases/latest)
 - some gnu utils: `make`, `cat`, `sed`, `awk` and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes.
 
 Optionally, required to re-generated all graphics files from their layered source files after executing `maintainer-clean`:
