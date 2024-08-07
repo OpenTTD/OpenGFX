@@ -11,7 +11,7 @@ on:
 jobs:
   testing:
     name: Testing
-    uses: OpenTTD/actions/.github/workflows/rw-entry-testing-baseset.yml@v4
+    uses: OpenTTD/actions/.github/workflows/rw-entry-testing-baseset.yml@v5
     with:
       apt-packages: gimp grfcodec
       name: opengfx
