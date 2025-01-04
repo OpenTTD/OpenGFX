@@ -102,7 +102,7 @@ The OpenGFX source is available in a git repository or as gzip'ed tarball. You c
 Prerequisites to building OpenGFX:
 
 - gcc (the pre-processor is needed)
-- [NML 0.5+](https://github.com/OpenTTD/nml)
+- [NML 0.7.6+](https://github.com/OpenTTD/nml)
 - grfid from the [grfcodec package](https://www.openttd.org/downloads/grfcodec-releases/latest)
 - some gnu utils: `make`, `cat`, `sed`, `awk` and you might additionally want a text editor of your choice and a graphics programme suitable to handle palettes.
 
