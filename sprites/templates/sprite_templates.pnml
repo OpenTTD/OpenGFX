@@ -278,6 +278,13 @@ template tmpl_canalsides(dike_ne, dike_nw, dike_se, dike_sw, corner_e, corner_s,
 	[27,  1, 12, 5,  -5,  0, smallcorners]
 }
 
+template tmpl_road_waypoints(x, y) {
+	[	 66, 66, 64, 64,  -5, -46]
+	[	  1, 66, 64, 64, -31, -33]
+	[	  1,  1, 64, 64, -31, -33]
+	[	 66,  1, 64, 64, -57, -46]
+}
+
 /* Templates for 2x zoom */
 template tmpl_gui2x_file_toolbar(x, y, file) { [x, y, 40, 40, 0, 0, NOCROP, file] }
 template tmpl_gui2x_file_toolbar_wide(x, y, file) { [x, y, 80, 40, 0, 0, NOCROP, file] }
