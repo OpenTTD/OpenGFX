@@ -1,0 +1,4 @@
+//Road waypoints
+replacenew(ROAD_WAYPOINTS, "sprites/png/infrastructure/roadwaypoints.png", 0) {
+    tmpl_road_waypoints(0, 0)
+}
