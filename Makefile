@@ -97,8 +97,8 @@ GREP           ?= grep
 PYTHON         ?= python
 
 # Graphics processing
-GIMP           ?= $(shell command -v gimp)
-GIMP_FLAGS     ?= -n -i
+GIMP           ?= $(shell command -v gimp-console)
+GIMP_FLAGS     ?= -n -i --batch-interpreter=plug-in-script-fu-eval
 
 # NML
 NML            ?= nmlc
