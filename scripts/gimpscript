@@ -5,8 +5,8 @@
 (define (script-fu-set-all-layers-invisible inImage inDrawable)
         (let*  (
                 (layers (gimp-image-get-layers inImage))
-                (num-layers (car layers))
-                (layer-array (cadr layers))
+                (layer-array (car layers))
+                (num-layers (vector-length layer-array))
                 (theLayer)
                )
 
@@ -14,9 +14,9 @@
 
         (while (> num-layers 0)
                 (set! num-layers (- num-layers 1))
-                (set! theLayer (aref layer-array num-layers))
-                (if (= (car (gimp-drawable-get-visible theLayer) ) TRUE)
-					(gimp-drawable-set-visible theLayer FALSE)
+                (set! theLayer (vector-ref layer-array num-layers))
+                (if (= (car (gimp-item-get-visible theLayer) ) TRUE)
+					(gimp-item-set-visible theLayer FALSE)
                 )
         )
 
@@ -46,10 +46,10 @@
 	(let*
 		(
 			(image (car (gimp-file-load RUN-NONINTERACTIVE inImageName inImageName)))
-			(visibleStuff (car (gimp-image-get-active-layer image)))
+			(visibleStuff (vector-ref (car (gimp-image-get-selected-layers image)) 0))
         	(layers (gimp-image-get-layers image))
-        	(num-layers (car layers))
-        	(layer-array (cadr layers))
+		(layer-array (car layers))
+		(num-layers (vector-length layer-array))
         	(thisLayer -1)
 			(thisNumLayers 0)
 			(theseLayers layers)
@@ -66,8 +66,8 @@
 		; iterate through all layers of the image
 		(while (> num-layers 0)
 			(set! num-layers (- num-layers 1))
-            (set! thisLayer (aref layer-array num-layers))
-			(set! thisLayerName (car (gimp-drawable-get-name thisLayer)))
+            (set! thisLayer (vector-ref layer-array num-layers))
+			(set! thisLayerName (car (gimp-item-get-name thisLayer)))
 			; (gimp-message (string-append "Image Layer-Name: " thisLayerName))
 
 			; iterate through all layer Names we shall use
@@ -75,7 +75,7 @@
 			(while (not (null? layerNames))
 				; if layerName matches this user supplied layername: make it visible
 				(if (string=? (car layerNames) thisLayerName)
-					(gimp-drawable-set-visible thisLayer TRUE)
+					(gimp-item-set-visible thisLayer TRUE)
 				)
 				(set! layerNames (cdr layerNames))
 			)
@@ -83,7 +83,7 @@
 
 		; Merge all visible layers into one layer which we then save to the given filename
 		(set! visibleStuff (car (gimp-image-merge-visible-layers image CLIP-TO-IMAGE)))
-		(file-png-save RUN-NONINTERACTIVE image visibleStuff outImageName outImageName 0 9 0 0 0 0 0)
+		(file-png-export #:run-mode RUN-NONINTERACTIVE #:image image #:file outImageName #:interlaced FALSE #:compression 9 #:bkgd FALSE #:offs FALSE #:phys FALSE #:time FALSE #:save-transparent FALSE)
 		(gimp-image-delete image)
 	)
 )
