@@ -94,7 +94,7 @@ DEFAULT_BRANCH_NAME ?= master
 # Text processing and scripting
 AWK            ?= awk
 GREP           ?= grep
-PYTHON         ?= python
+PYTHON         ?= python3
 
 # Graphics processing
 GIMP           ?= $(shell command -v gimp)
