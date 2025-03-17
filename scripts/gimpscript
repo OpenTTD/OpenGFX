@@ -46,7 +46,6 @@
 	(let*
 		(
 			(image (car (gimp-file-load RUN-NONINTERACTIVE inImageName inImageName)))
-			(visibleStuff (vector-ref (car (gimp-image-get-selected-layers image)) 0))
         	(layers (gimp-image-get-layers image))
 		(layer-array (car layers))
 		(num-layers (vector-length layer-array))
@@ -82,7 +81,6 @@
 		)
 
 		; Merge all visible layers into one layer which we then save to the given filename
-		(set! visibleStuff (car (gimp-image-merge-visible-layers image CLIP-TO-IMAGE)))
 		(file-png-export #:run-mode RUN-NONINTERACTIVE #:image image #:file outImageName #:interlaced FALSE #:compression 9 #:bkgd FALSE #:offs FALSE #:phys FALSE #:time FALSE #:save-transparent FALSE)
 		(gimp-image-delete image)
 	)
