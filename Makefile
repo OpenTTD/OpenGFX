@@ -100,6 +100,12 @@ PYTHON         ?= python3
 GIMP           ?= $(shell command -v gimp-console)
 GIMP_FLAGS     ?= -n -i --batch-interpreter=plug-in-script-fu-eval
 
+ifneq ($(findstring GNU Image Manipulation Program version 2., $(shell $(GIMP) --version)),)
+GIMP_SCRIPT     ?= $(SCRIPT_DIR)/gimpscript-v2
+else
+GIMP_SCRIPT     ?= $(SCRIPT_DIR)/gimpscript
+endif
+
 # NML
 NML            ?= nmlc
 NML_FLAGS      ?= -c
@@ -250,7 +256,7 @@ Makefile.gfx: $(GFX_SCRIPT_LIST_FILES) Makefile Makefile.config
 			for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | grep -v "^#" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do\
 				echo "$$i.scm: $$j" >> $@;\
 				echo "GFX_FILES += $$i.png" >> $@;\
-				cat $(SCRIPT_DIR)/gimpscript > $$i.scm.new;\
+				cat $(GIMP_SCRIPT) > $$i.scm.new;\
 				grep $$i.png $$j | sed -f $(SCRIPT_DIR)/gimp.sed >> $$i.scm.new;\
 				echo "(gimp-quit 0)" >> $$i.scm.new;\
 				cmp -s $$i.scm.new $$i.scm || cp $$i.scm.new $$i.scm;\
