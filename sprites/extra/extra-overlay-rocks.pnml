@@ -1,0 +1,7 @@
+replacenew (OVERLAY_ROCKS, "sprites/png/terrain/rocks-overlay.png") {
+	tmpl_groundtiles(1,   1)
+	tmpl_groundtiles(1,  97)
+	tmpl_groundtiles(1, 145)
+	tmpl_groundtiles(1, 193)
+	tmpl_groundtiles(1,  49)
+}
