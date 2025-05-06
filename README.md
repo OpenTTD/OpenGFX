@@ -49,7 +49,7 @@ We cannot support third party download locations and we cannot refund your money
 
 ### 3.1 Installation or update via Online Content service
 
-This method uses the [Online content service (BaNaNaS)](http://bananas.openttd.org/en/) to download OpenGFX. In order to use this OpenGFX version, you need a working OpenTTD and again at least OpenTTD version 1.2.0 or a recent nightly.
+This method uses the [Online content service (BaNaNaS)](http://bananas.openttd.org/) to download OpenGFX. In order to use this OpenGFX version, you need a working OpenTTD and again at least OpenTTD version 1.2.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check Online Content button. A new window will pop up. If OpenTTD doesn't start, follow the manual installation procedure.
 2. Find the OpenGFX entry from the list at the left. You can use the search box in the upper right corner of the window.
