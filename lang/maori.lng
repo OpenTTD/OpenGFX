@@ -1,0 +1,6 @@
+##grflangid 0x40
+##plural 0
+STR_GENERAL_DESC        :Ko OpenGFX he kohinga whakairoiro mātāmua mō OpenTTD. Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2. [{TITLE}]
+
+STR_GRF_NAME            :{TITLE}
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX Base Graphics Set{BLACK}{}Mauria mai nā te kapa o OpenGFX{}Tirohia te kōnae pānuimai mō tētahi rārangi o ngā kaiāwhina{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX
