@@ -342,3 +342,6 @@ replacenew ottd_gui186(OTTD_GUI, "", 186) {
 	[   66,  0,  10,  10,   0,   0, "sprites/png/gui/network.png"]         // network player icon
 	[   86,  0,  10,  10,   0,   0, "sprites/png/gui/network.png"]         // network crown icon
 }
+replacenew ottd_gui191(OTTD_GUI, "", 191) {
+	[   0,  0,   8,  10,   0,   0, "sprites/png/gui/badger_menu_icon.png"] // badge menu vertical ellipsis
+}
