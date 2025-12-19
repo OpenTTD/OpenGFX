@@ -1,0 +1,30 @@
+// Bridge deck overlays
+template tmpl_bridgedeckoverlay_general(x, y) {
+	[   1+x, 1+y, 64, 47-1, -31, -16 ]
+	[ 131+x, 1+y, 64, 47-1, -31, -16 ]
+
+	[ 261+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 456+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 326+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 391+x, 1+y, 64, 55-1, -31, -24 ]
+}
+
+template tmpl_bridgedeckoverlay_road(x, y) {
+	[ 131+x, 1+y, 64, 47-1, -31, -16 ]
+	[   1+x, 1+y, 64, 47-1, -31, -16 ]
+
+	[ 261+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 456+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 326+x, 1+y, 64, 55-1, -31, -24 ]
+	[ 391+x, 1+y, 64, 55-1, -31, -24 ]
+}
+
+replacenew bridge_decks_spr6(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_monorail_8bpp.png", 6) { tmpl_bridgedeckoverlay_general(0, 0) }
+replacenew bridge_decks_spr12(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_maglev_8bpp.png", 12) { tmpl_bridgedeckoverlay_general(0, 0) }
+if (climate != CLIMATE_TOYLAND) {
+	replacenew bridge_decks_spr0(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_rail_8bpp.png", 0) { tmpl_bridgedeckoverlay_general(0, 0) }
+	replacenew bridge_decks_spr18(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_road_8bpp.png", 18) { tmpl_bridgedeckoverlay_road(0, 0) }
+} else if (climate == CLIMATE_TOYLAND) {
+	replacenew bridge_decks_toyland_spr0(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_toyland_rail_8bpp.png", 0) { tmpl_bridgedeckoverlay_general(0, 0) }
+	replacenew bridge_decks_toyland_spr18(BRIDGE_DECKS, "sprites/png/infrastructure/ramps_deckonly_toyland_road_8bpp.png", 18) { tmpl_bridgedeckoverlay_road(0, 0) }
+}
