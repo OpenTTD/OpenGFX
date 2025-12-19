@@ -25,6 +25,7 @@
 #include "sprites/extra/extra-openttd-recolour.pnml"
 #include "sprites/extra/extra-road-waypoints.pnml"
 #include "sprites/extra/extra-overlay-rocks.pnml"
+#include "sprites/extra/extra-bridge-decks.pnml"
 
 #include "sprites/extra/extra-plus-canals.pnml"
 #include "sprites/extra/extra-plus-locks.pnml"
@@ -41,4 +42,3 @@ if (climate == CLIMATE_TROPICAL) {
 if (climate == CLIMATE_TOYLAND) {
 #include "sprites/extra/extra-plus-toyland-infrastructure.pnml"
 }
-
