@@ -2,7 +2,7 @@
 ##plural 2
 ##gender n m f
 ##case date geniki subs
-STR_GENERAL_DESC        :Βασικό σετ γραφικών OpenGFX για το OpenTTD. Ελεύθερα διαθέσιμο κάτω από τους όρους χρήσης του GNU General Public έκδοση 2. Περισσότερες πληροφορίες είναι διαθέσιμες μέσα στο readme στο http://wiki.openttd.org/OpenGFX_Readme. [{TITLE}]
+STR_GENERAL_DESC        :Βασικό σετ γραφικών OpenGFX για το OpenTTD. Ελεύθερα διαθέσιμο σύμφωνα με τους όρους της GNU General Public License έκδοση 2. [{TITLE}]
 
 STR_GRF_NAME            :{TITLE}
-STR_GRF_DESCRIPTION     :{ORANGE}Βασικό πακέτο γραφικών OpenGFX{BLACK}{}Διαθέσιμο σε εσάς από την ομάδα του OpenGFX{}Δείτε το αρχείο readme για την λίστα των συντελεστών{}{BLACK}Άδεια: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX
+STR_GRF_DESCRIPTION     :{ORANGE}Βασικό πακέτο γραφικών OpenGFX{BLACK}{}Προσφορά της ομάδας OpenGFX{}Δείτε το αρχείο readme για την λίστα των συντελεστών{}{BLACK}Άδεια: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX
