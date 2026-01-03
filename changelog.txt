@@ -1,3 +1,14 @@
+OpenGFX 8.0 (03 Jan 2026)
+-------------------------
+- Feature: Bridge deck overlays for vanilla infrastructure types (#105)
+- Feature: Rock and snowy rock overlays (#99)
+- Feature: Badge menu vertical ellipsis icon (#101)
+- Feature: Road waypoints (#90)
+- Fix: [Makefile] Python2 is long dead (#97)
+- Fix: [Makefile] GIMP3-compatible command-line (#95)
+- Fix: Dead link in readme (#88)
+
+
 OpenGFX 7.1 (25 Sep 2021)
 -------------------------
 - Fix: [Makefile] Don't generate broken OBG
