@@ -5,4 +5,18 @@ replacenew(ONE_WAY_ROAD, "") {
 	[ 114,    8,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
 	[ 146,    8,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
 	[ 178,    8,  28,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+
+	[  18,   28,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  50,   28,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  82,   28,  28,  16, -14,  -8, "sprites/png/extra/oneway.png"]
+	[ 114,   28,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 146,   28,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 178,   28,  28,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+
+	[  18,   48,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  50,   48,  24,  16, -12,  -8, "sprites/png/extra/oneway.png"]
+	[  82,   48,  28,  16, -14,  -8, "sprites/png/extra/oneway.png"]
+	[ 114,   48,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 146,   48,  24,  16, -10,  -8, "sprites/png/extra/oneway.png"]
+	[ 178,   48,  28,  16, -12,  -8, "sprites/png/extra/oneway.png"]
 }
